@@ -1,0 +1,20 @@
+{
+  "name": "borough-drive",
+  "version": "0.4.0",
+  "private": true,
+  "type": "module",
+  "description": "A photo-guided reconstruction of ten connected East Village blocks",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rayidali/borough-drive.git"
+  },
+  "bugs": { "url": "https://github.com/rayidali/borough-drive/issues" },
+  "homepage": "https://github.com/rayidali/borough-drive#readme",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "dev": "node scripts/serve.mjs",
+    "start": "node scripts/serve.mjs",
+    "verify": "node scripts/verify-intersection.mjs && node scripts/verify-neighborhood.mjs"
+  }
+}

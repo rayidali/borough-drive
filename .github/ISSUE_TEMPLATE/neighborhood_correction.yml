@@ -1,0 +1,30 @@
+name: Neighborhood correction
+description: Suggest a building, storefront, or street correction with sources.
+title: "[Neighborhood] "
+body:
+  - type: input
+    id: location
+    attributes:
+      label: Address or intersection
+      description: Include an OSM building ID if available.
+    validations:
+      required: true
+  - type: textarea
+    id: correction
+    attributes:
+      label: What should change?
+      description: Describe the visible mismatch and the proposed correction.
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: Sources and dates
+      description: Link the reference material. Include photograph dates where known and keep business checks separate from facade observations.
+    validations:
+      required: true
+  - type: textarea
+    id: uncertainty
+    attributes:
+      label: Uncertainty and image reuse
+      description: Note unknown dimensions, dates, or occupancy. If proposing a distributed image, include its author and reuse license.

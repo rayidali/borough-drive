@@ -1,0 +1,765 @@
+{
+  "research_date": "2026-09-06",
+  "scope": "Avenue A frontage from E7 to E12 plus Tompkins Square Park boundary. Research observations, not asset redistribution.",
+  "method": "Public dated photograph sources, actual visual inspection using image files or returned web images. Unknown values remain null. Store names are as observed at specified dates; later replacements noted where corroborated.",
+  "important_corrections": [
+    "Park occupies east side A only E7\u2013E10. North of E10 is built frontage.",
+    "117 and 119 Avenue A are different former Odessa spaces. Current observed names St Dymphna\u2019s and Superiority Burger respectively.",
+    "170 now Rabbit Books and Bar; opened August 15 2026.",
+    "147 has Baba Doner sign by Jan 2026, not Korean Street Foods/Burger Guy.",
+    "149 Blank Street closure reported Apr 2026.",
+    "181 Barnes & Noble planned November 2026, not currently open.",
+    "Niagara at112 is southeast of E7/A, Miss Lily109 southwest; both boundary context south of expansion."
+  ],
+  "buildings": [
+    {
+      "id": "a109",
+      "address": "109 Avenue A, New York, NY 10009",
+      "position": "west side, southwest corner E7; boundary context south of expansion",
+      "last_photo_observed_name_or_sign": "Miss Lily\u2019s 7A Cafe",
+      "floors": null,
+      "floors_status": "not established; do not invent",
+      "bays": "Three narrow window bays on short Avenue A face; longer E7 return",
+      "masonry_and_palette": "Cream/gray piers; red/orange ground storefront",
+      "observed_features": "Tall narrow corner facade with dark inset vertical windows; long return on E7; squared shallow parapet projections; salmon awnings and Miss Lily\u2019s fascia; sidewalk tables.",
+      "photos": [
+        {
+          "source_url": "https://forgotten-ny.com/2025/01/grade-of-a/",
+          "photo_url": "https://forgotten-ny.com/wp-content/uploads/2025/01/P1250233-507x380.jpg",
+          "capture_date": "2024-12 (month stated in article; exact day not stated)",
+          "publication_date": "2025-01-05",
+          "photographer": "Kevin Walsh",
+          "license": "unknown; observation only; do not redistribute photo",
+          "visually_inspected": true
+        }
+      ],
+      "confidence": "high",
+      "limitations": "Boundary landmark; do not put north of E7. Floors not safely counted in this oblique photograph."
+    },
+    {
+      "id": "a112",
+      "address": "112 Avenue A, New York, NY 10009",
+      "position": "east side, southeast corner E7; boundary context",
+      "last_photo_observed_name_or_sign": "Niagara",
+      "floors": null,
+      "floors_status": "not established; do not invent",
+      "bays": "Corner door plus separate Avenue A glass storefront openings",
+      "masonry_and_palette": "Red brick upper facade; near-black ground storefront",
+      "observed_features": "Corner entrance up shallow stone step; black wood/glass bays; black fire escape; boxy projecting white NIAGARA sign with black lettering. Joe Strummer mural is on E7 return, vivid blue portrait on orange/yellow/red background.",
+      "photos": [
+        {
+          "source_url": "https://forgotten-ny.com/2025/01/grade-of-a/",
+          "photo_url": "https://forgotten-ny.com/wp-content/uploads/2025/01/P1250234-507x380.jpg",
+          "capture_date": "2024-12 (month stated in article; exact day not stated)",
+          "publication_date": "2025-01-05",
+          "photographer": "Kevin Walsh",
+          "license": "unknown; observation only; do not redistribute photo",
+          "visually_inspected": true
+        }
+      ],
+      "confidence": "high",
+      "limitations": "Niagara uses even-number address and is south/east of park corner. Do not confuse with odd-number west-side row.",
+      "additional_photos": [
+        {
+          "source_url": "https://forgotten-ny.com/2025/01/grade-of-a/",
+          "photo_url": "https://forgotten-ny.com/wp-content/uploads/2025/01/P1250230-507x380.jpg",
+          "capture_date": "2024-12 (month stated in article; exact day not stated)",
+          "publication_date": "2025-01-05",
+          "photographer": "Kevin Walsh",
+          "license": "unknown; observation only; do not redistribute photo",
+          "visually_inspected": true
+        }
+      ],
+      "address_source": "https://www.niagaranyc.com/"
+    },
+    {
+      "id": "a113",
+      "address": "113 Avenue A, New York, NY 10009",
+      "position": "west side, E7\u2013St Marks",
+      "last_photo_observed_name_or_sign": "Ray\u2019s Candy Store",
+      "floors": 5,
+      "floors_status": "photo-counted or sourced as noted",
+      "bays": "One narrow shop frontage with service glazing and door",
+      "masonry_and_palette": "Weathered teal/turquoise store base; brick above",
+      "observed_features": "Narrow, densely stickered serving frontage. Broad illustrated mint-green sign with red/yellow Ray\u2019s Candy Store lettering; illustrated ice-cream cones below glazing; projecting white side sign for Belgian fries; black fire escape overhead. Residential entrance left of store.",
+      "photos": [
+        {
+          "source_url": "https://forgotten-ny.com/2025/01/grade-of-a/",
+          "photo_url": "https://forgotten-ny.com/wp-content/uploads/2025/01/P1250235-507x380.jpg",
+          "capture_date": "2024-12 (month stated in article; exact day not stated)",
+          "publication_date": "2025-01-05",
+          "photographer": "Kevin Walsh",
+          "license": "unknown; observation only; do not redistribute photo",
+          "visually_inspected": true
+        }
+      ],
+      "confidence": "high",
+      "limitations": "Five stories comes from property source, not this cropped photo. Latest adjacent-store photograph Aug 2025 retains Ray\u2019s frontage.",
+      "floor_source": "https://streeteasy.com/building/113-avenue-a-new_york",
+      "additional_photos": [
+        {
+          "source_url": "https://evgrieve.com/2025/08/openings-bay-area-inspired-taqueria.html",
+          "photo_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiS7UZPWRvt_jo5r7bDkKKk6LnFHux9uaWegpe6-pwq8_rMIe7Is6TRd9puZYMgAv3nOQy3jXO97hSbjixZ3mLz7v-8t2hfyl_9qyAeyiBVPM-H_xEm70fwgtJ7mMLjxjAUfmTnIZnfkjc35X9aTWKs3zwKOunGXrQS1YcoAfU6kfKwxrRlJcsAq4JrGhE/s710/viruswalk_8-17-25_r_w-089.jpg",
+          "capture_date": "2025-08-17 (filename)",
+          "publication_date": "2025-08",
+          "photographer": "Stacie Joy / EV Grieve",
+          "license": "unknown; observation only; do not redistribute photo",
+          "visually_inspected": true
+        }
+      ]
+    },
+    {
+      "id": "a115",
+      "address": "115 Avenue A, New York, NY 10009",
+      "position": "west side, E7\u2013St Marks; directly north of Ray\u2019s",
+      "last_photo_observed_name_or_sign": "Maya Taqueria",
+      "floors": null,
+      "floors_status": "not established; do not invent",
+      "bays": "1 large display window + 1 entry door",
+      "masonry_and_palette": "Red-brick above; dark charcoal surround and forest-green fascia",
+      "observed_features": "Silver aluminum-framed tall display window left and glass door right; one shallow black/yellow-edged entry step; black bench. Forest-green rectangle with large white outlined MAYA; small yellow California-Style Taqueria lettering and yellow corner motifs; three black gooseneck lights.",
+      "photos": [
+        {
+          "source_url": "https://evgrieve.com/2025/08/openings-bay-area-inspired-taqueria.html",
+          "photo_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiS7UZPWRvt_jo5r7bDkKKk6LnFHux9uaWegpe6-pwq8_rMIe7Is6TRd9puZYMgAv3nOQy3jXO97hSbjixZ3mLz7v-8t2hfyl_9qyAeyiBVPM-H_xEm70fwgtJ7mMLjxjAUfmTnIZnfkjc35X9aTWKs3zwKOunGXrQS1YcoAfU6kfKwxrRlJcsAq4JrGhE/s710/viruswalk_8-17-25_r_w-089.jpg",
+          "capture_date": "2025-08-17 (photo filename)",
+          "publication_date": "2025-08",
+          "photographer": "Stacie Joy / EV Grieve",
+          "license": "unknown; observation only; do not redistribute photo",
+          "visually_inspected": true
+        }
+      ],
+      "confidence": "high",
+      "limitations": "Shop debuted Aug 16 2025. Cornice/floor count outside frame."
+    },
+    {
+      "id": "a117",
+      "address": "117 Avenue A, New York, NY 10009",
+      "position": "west side, E7\u2013St Marks",
+      "last_photo_observed_name_or_sign": "St. Dymphna\u2019s",
+      "floors": null,
+      "floors_status": "not established; do not invent",
+      "bays": "Central door with two flanking tall windows",
+      "masonry_and_palette": "Mustard-yellow painted ground floor; green door; red brick above",
+      "observed_features": "Centered green multi-pane double doors and transom; one tall framed window each side; narrow dark rectangular sign with thin gold serif ST DYMPHNAS; black fire-escape platform spans above.",
+      "photos": [
+        {
+          "source_url": "https://forgotten-ny.com/2025/01/grade-of-a/",
+          "photo_url": "https://forgotten-ny.com/wp-content/uploads/2025/01/P1250238-507x380.jpg",
+          "capture_date": "2024-12 (month stated in article; exact day not stated)",
+          "publication_date": "2025-01-05",
+          "photographer": "Kevin Walsh",
+          "license": "unknown; observation only; do not redistribute photo",
+          "visually_inspected": true
+        }
+      ],
+      "confidence": "high",
+      "limitations": "December photo includes holiday garlands; seasonal detail should not be permanent. Address corroborated by May 2025 event PDF.",
+      "status_source": "https://thenyhc.org/wp-content/uploads/2025/05/St-Dymphnas-Happy-Hour-2025.pdf"
+    },
+    {
+      "id": "a119",
+      "address": "119 Avenue A, New York, NY 10009",
+      "position": "west side, E7\u2013St Marks",
+      "last_photo_observed_name_or_sign": "Superiority Burger",
+      "floors": 4,
+      "floors_status": "photo-counted or sourced as noted",
+      "bays": "Multiple narrow dark door/glazing bays under one broad sign",
+      "masonry_and_palette": "Red brick above; dark mottled green/gray tiled or stone-like storefront piers",
+      "observed_features": "Broad white lightbox with large red RESTAURANT; small black SUPERIORITY BURGER below. Perpendicular rectangular white message-board sign with black changeable letters. Dark doors/glazing separated by chunky piers. Black exterior escape balcony directly above signage.",
+      "photos": [
+        {
+          "source_url": "https://forgotten-ny.com/2025/01/grade-of-a/",
+          "photo_url": "https://forgotten-ny.com/wp-content/uploads/2025/01/P1250237-507x380.jpg",
+          "capture_date": "2024-12 (month stated in article; exact day not stated)",
+          "publication_date": "2025-01-05",
+          "photographer": "Kevin Walsh",
+          "license": "unknown; observation only; do not redistribute photo",
+          "visually_inspected": true
+        }
+      ],
+      "confidence": "high",
+      "limitations": "Four stories from property listings. Odessa identity is historical; do not use Odessa as current tenant. Changeable upper sign message is date-specific.",
+      "floor_source": "https://streeteasy.com/building/119-avenue-a-new_york",
+      "historical_caution": "117 old Odessa Cafe/Bar and 119 former Odessa diner are separate addresses."
+    },
+    {
+      "id": "a121",
+      "address": "121 Avenue A, New York, NY 10009",
+      "position": "west side, E7\u2013St Marks",
+      "last_photo_observed_name_or_sign": "Luster Photo & Digital Lab",
+      "floors": null,
+      "floors_status": "not established; do not invent",
+      "bays": "Broad display left, recessed/central-right entry, narrow display right",
+      "masonry_and_palette": "Red brick; pale stone window lintels; blue sign",
+      "observed_features": "Long vivid-blue fascia with large white LUSTER over PHOTO & DIGITAL LAB; silver aluminum shop frame, low opaque panels, tall display windows and entry slightly right of center. Black fire escape crosses upper windows.",
+      "photos": [
+        {
+          "source_url": "https://evgrieve.com/2020/05/photo-op-luster-has-reopened-on-avenue-a.html",
+          "photo_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh-rxMnfI9SbE2rgm2tVDLeuyj56MUlO1pjeS6dyPZkzX_1Ev3uhAdYlVD_kCwXBePSc_MTEpFdo0Lcohxmsm-bIs639CjLRT6sCtfYD0pdzhTG78cHLS4CjHy6YJoFwHJDtQttcfd7t5A/s530/IMG_4771+%25281%2529.JPG",
+          "capture_date": "2020-05 (article published May 28; exact capture day unstated)",
+          "publication_date": "2020-05",
+          "photographer": "EV Grieve contributor (see source page)",
+          "license": "unknown; observation only; do not redistribute photo",
+          "visually_inspected": true
+        }
+      ],
+      "confidence": "high",
+      "limitations": "Exterior last photo 2020, also visible adjacent Superiority December 2024. Sign confirmed in latter photo; business address remains corroborated by recent listings.",
+      "additional_photos": [
+        {
+          "source_url": "https://forgotten-ny.com/2025/01/grade-of-a/",
+          "photo_url": "https://forgotten-ny.com/wp-content/uploads/2025/01/P1250237-507x380.jpg",
+          "capture_date": "2024-12 (month stated in article; exact day not stated)",
+          "publication_date": "2025-01-05",
+          "photographer": "Kevin Walsh",
+          "license": "unknown; observation only; do not redistribute photo",
+          "visually_inspected": true
+        }
+      ]
+    },
+    {
+      "id": "smp132",
+      "address": "132 St. Marks Place, New York, NY 10009",
+      "position": "west side Avenue A, southwest corner St Marks Place",
+      "last_photo_observed_name_or_sign": "Empell\u00f3n Al Pastor frontage",
+      "floors": 6,
+      "floors_status": "photo-counted or sourced as noted",
+      "bays": "4 upper window columns on broad photographed elevation; verify precise frontage orientation from parcel",
+      "masonry_and_palette": "Warm red brick; pale ornamental lintels; near-black cornice; heavily tagged street level",
+      "observed_features": "Six-story narrow corner tenement. Four upper window columns; lower-row central narrow window; alternating elaborate pale pediment/lintel designs. Deep projecting bracketed dark cornice. Ground corner has full-height pale wood/glass openings, graffiti-covered transom band and piers.",
+      "photos": [
+        {
+          "source_url": "https://forgotten-ny.com/2025/01/grade-of-a/",
+          "photo_url": "https://forgotten-ny.com/wp-content/uploads/2025/01/P1250236-285x380.jpg",
+          "capture_date": "2024-12 (month stated in article; exact day not stated)",
+          "publication_date": "2025-01-05",
+          "photographer": "Kevin Walsh",
+          "license": "unknown; observation only; do not redistribute photo",
+          "visually_inspected": true
+        }
+      ],
+      "confidence": "high",
+      "limitations": "Six stories visually counted. Graffiti highly date-specific. Venue address is St Marks Place rather than guessed Avenue A lot.",
+      "address_source": "https://www.opentable.com/r/empellon-al-pastor-new-york"
+    },
+    {
+      "id": "a135",
+      "address": "135 Avenue A, New York, NY 10009",
+      "position": "west side, St Marks\u2013E9",
+      "last_photo_observed_name_or_sign": "Lucy\u2019s",
+      "floors": null,
+      "floors_status": "not established; do not invent",
+      "bays": "Central narrow entry + 2 large windows",
+      "masonry_and_palette": "Black painted timber storefront; vivid red entry reveal",
+      "observed_features": "Narrow central open doorway with red-painted jambs. Large glazed windows either side behind folding diamond-pattern security grilles. Plain glossy black fascia with peach/pink cursive Lucy\u2019s script centered high.",
+      "photos": [
+        {
+          "source_url": "https://evgrieve.com/2025/03/the-new-old-lucys-reopens-tomorrow.html",
+          "photo_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhGpYX2Tt_qjkbU4I5KW-8Tmi5t7so1IW6szfyn-Zsfo9S89DK-szMHaykErtKpUQAzx9lF-pP560bB7tsx9ex77XSt4qBDkHFtAsH-swcJUNjp-4imYfypNfTDpjdLRvS5_N2ymJh-5-G1X0LE7c88ZIRUtC5d0W_S0OblGxr2MXpoDoYL1Yx6piacTqw/s480/viruswalk2_2-27-25_r_w_018.jpg",
+          "capture_date": "2025-03 publication-proximate; exact capture date not established",
+          "publication_date": "2025-03",
+          "photographer": "Stacie Joy / EV Grieve",
+          "license": "unknown; observation only; do not redistribute photo",
+          "visually_inspected": true
+        }
+      ],
+      "confidence": "high",
+      "limitations": "Reopened Mar 4 2025. Date is publication-proximate, not an asserted camera timestamp. Floors and cornice outside frame."
+    },
+    {
+      "id": "a141",
+      "address": "141 Avenue A, New York, NY 10009",
+      "position": "west side, southwest corner E9",
+      "last_photo_observed_name_or_sign": "Doc Holliday\u2019s Bar",
+      "floors": 5,
+      "floors_status": "photo-counted or sourced as noted",
+      "bays": "Corner bar windows and entrance; full upper bay count not established",
+      "masonry_and_palette": "Weathered off-white upper masonry; dark wood/glass street frontage; burgundy awning",
+      "observed_features": "Wraparound burgundy rounded awning with spaced white DOC HOLLIDAY\u2019S BAR lettering and 141 address. Stickered entry, dark corner windows, black iron fire escape directly above. E9 return has orange-red mural of four Old West figures and big blue Doc Holliday\u2019s text.",
+      "photos": [
+        {
+          "source_url": "https://forgotten-ny.com/2025/01/grade-of-a/",
+          "photo_url": "https://forgotten-ny.com/wp-content/gallery/hollidays/P1250241.JPG?t=1736115800",
+          "capture_date": "2024-12 (month stated by photographer)",
+          "publication_date": "2025-01-05",
+          "photographer": "Kevin Walsh",
+          "license": "unknown; observation only; do not redistribute photo",
+          "visually_inspected": true
+        }
+      ],
+      "confidence": "high",
+      "limitations": "Five stories from property source. Distinctive painted return should be represented as a landmark but do not redistribute the artwork photograph.",
+      "additional_photos": [
+        {
+          "source_url": "https://forgotten-ny.com/2025/01/grade-of-a/",
+          "photo_url": "https://forgotten-ny.com/wp-content/gallery/hollidays/P1250242.JPG?t=1736115800",
+          "capture_date": "2024-12",
+          "publication_date": "2025-01-05",
+          "photographer": "Kevin Walsh",
+          "license": "unknown; observation only; do not redistribute photo",
+          "visually_inspected": true
+        }
+      ],
+      "floor_source": "https://www.realtor.com/realestateandhomes-detail/141-Avenue-A_New-York_NY_10009_M97207-89185"
+    },
+    {
+      "id": "a145",
+      "address": "145 Avenue A, New York, NY 10009",
+      "position": "west side, northwest corner E9",
+      "last_photo_observed_name_or_sign": "Ralph\u2019s Famous Italian Ices & Ice Cream",
+      "floors": null,
+      "floors_status": "not established; do not invent",
+      "bays": "3 broad ground segments: menu/display, serving opening, menu/display",
+      "masonry_and_palette": "Weathered white-painted brick at ground/second floor; blue and white store sign",
+      "observed_features": "Long cobalt-blue fascia, white central panel with red/yellow cursive Ralph\u2019s. White ITALIAN ICES and ICE CREAM side lettering; central serving opening with large menu panels at each side; black/dark windows above, some air conditioners. Hydrant and yellow/blue vending box at left.",
+      "photos": [
+        {
+          "source_url": "https://evgrieve.com/2020/09/ralphs-famous-italian-ices-on-today-on.html",
+          "photo_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhBJaeSHrSRDmlAZG61HUNGBzZZuyughtKZz4q7fdyzkF6PeBliEnS9E5RQsCKQLw5iiu6PCl-w0OydROCCXZS7sgi8QfGHbJ5kb7FZgwsXCayEj6Cc_wEZhAgbmQ3NxG02v3d4fJ99TrU/s400/IMG_9372.JPG",
+          "capture_date": "2020-09 (published Sept 11)",
+          "publication_date": "2020-09",
+          "photographer": "EV Grieve contributor (see source page)",
+          "license": "unknown; observation only; do not redistribute photo",
+          "visually_inspected": true
+        }
+      ],
+      "confidence": "high",
+      "limitations": "Storefront photograph is dated 2020. Do not assert present-day operating status from this photo alone."
+    },
+    {
+      "id": "a147",
+      "address": "147 Avenue A, New York, NY 10009",
+      "position": "west side, E9\u2013E10",
+      "last_photo_observed_name_or_sign": "Baba Doner",
+      "floors": null,
+      "floors_status": "not established; do not invent",
+      "bays": "Large glazed display with recessed door at right",
+      "masonry_and_palette": "Charcoal/dark shop surround; pale gray fluted surviving cast-iron pier to right",
+      "observed_features": "Circular cobalt-blue projecting disk sign with white BABA DONER and Traditional Kebab around kebab icon. Dark glazing, right-side recessed glass door, simple dark wood bench; sidewalk shed obscures upper facade.",
+      "photos": [
+        {
+          "source_url": "https://evgrieve.com/2026/01/signage-alert-baba-doner-on-avenue-a.html",
+          "photo_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgR1aKNha8xiPzP5nRDYDVKPyOopkPs1VhhrKeJoOERjiifxKe_bnstWXHzrnWbicKTmadqoNlufs-5h3iRYFTmsbgp9acnIzR-weBzIlY1TWcdLg-FT99Uvt1z-x7aGNUdiCvswV2Hh7M7KpRdT4LYbQHQy_5v1Y9sYBKWeeM_eAaXRe7ApPlGKC5SJfs/s620/IMG_8889.HEIC",
+          "capture_date": "2026-01 (published Jan 21)",
+          "publication_date": "2026-01",
+          "photographer": "EV Grieve contributor (see source page)",
+          "license": "unknown; observation only; do not redistribute photo",
+          "visually_inspected": true
+        }
+      ],
+      "confidence": "high",
+      "limitations": "Baba Doner sign observed Jan 2026; Korean Street Foods and proposed Burger Guy are obsolete identities. Building upper floors obscured."
+    },
+    {
+      "id": "a149",
+      "address": "149 Avenue A, New York, NY 10009",
+      "position": "west side, E9\u2013E10",
+      "last_photo_observed_name_or_sign": "Blank Street sign retained in April 2026; retail for lease",
+      "floors": null,
+      "floors_status": "not established; do not invent",
+      "bays": "1 left door + 1 projecting display bay",
+      "masonry_and_palette": "Pale mint/sage painted shop front",
+      "observed_features": "Narrow glass door to left up concrete step; outward projecting display window to right, three planes and deep sill; simple wood bench; Retail For Lease notice in large window. Small white BLANK STREET text on door.",
+      "photos": [
+        {
+          "source_url": "https://evgrieve.com/2026/04/blank-street-is-leaving-149-avenue-a.html",
+          "photo_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhNrnmKaUqLccCUCxw3NGMYQl8aa85k-yK4b_RCuz68ytjSgmJkK4jlKz6Xzq52dRwUtFj6927hSqKjKewH3cA-UtodNM0_IlvGjJm1PqfQjEuUaoW56yefjdBHjeDhx83HC67iNI4ojwL8WPlPj-c2KqXSBmz2Pw4pOIVBJOlFBKwS4hyphenhyphen4w8dzrNH29ts/s620/IMG_8048.jpeg",
+          "capture_date": "2026-04 (published Apr 27)",
+          "publication_date": "2026-04",
+          "photographer": "EV Grieve contributor (see source page)",
+          "license": "unknown; observation only; do not redistribute photo",
+          "visually_inspected": true
+        }
+      ],
+      "confidence": "high",
+      "limitations": "Article announces closure April 2026. Model as last-observed vacant/for-lease frontage; do not represent Blank Street as operating."
+    },
+    {
+      "id": "a151",
+      "address": "151 Avenue A, New York, NY 10009",
+      "position": "west side, E9\u2013E10",
+      "last_photo_observed_name_or_sign": "Danny & Coop\u2019s Cheesesteaks",
+      "floors": null,
+      "floors_status": "not established; do not invent",
+      "bays": "South storefront of No. 151; do not apply to full building without confirming other storefront",
+      "masonry_and_palette": "Near-black shop surround; red lettering on dark/gold oval blade sign",
+      "observed_features": "Horizontal oval projecting illuminated sign with red DANNY & COOP\u2019S and CHEESESTEAKS. Silver perforated/slotted roller shutter. Traditional gold-toned entry lantern; black fire escape overhead.",
+      "photos": [
+        {
+          "source_url": "https://evgrieve.com/2025/07/beer-wine-in-works-for-danny-coops.html",
+          "photo_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEje4kNWPgeKmwHo59e0GaKuB3PjC0f3t7TdJCmLflAsvF-uHgEyK6ujg1zbfLXDb2mjesr-0S20KTvdUMkPxNy4S5Bc9Hmeqt7ItdtX0YNQokTlDLn6lgtigBBL9ZFS3kdHL7Yx2_4ea9kApyG9R6tnrmpzQhHepMnG2q-EIMswFTcEHBXvTVcmQl8VVKk/s610/IMG_0725.HEIC",
+          "capture_date": "2025-07 publication; photo appears to be colder-season file shot (exact capture unknown)",
+          "publication_date": "2025-07",
+          "photographer": "EV Grieve contributor (see source page)",
+          "license": "unknown; observation only; do not redistribute photo",
+          "visually_inspected": true
+        }
+      ],
+      "confidence": "high",
+      "limitations": "Exact photo capture date unknown; article July 24 2025 confirms operating restaurant. Photo-only geometry limited to sign/gate."
+    },
+    {
+      "id": "a155",
+      "address": "288 East 10th Street / 155\u2013157 Avenue A, New York, NY 10009",
+      "position": "west side Avenue A, southwest corner E10",
+      "last_photo_observed_name_or_sign": "St. Nicholas of Myra Orthodox Church",
+      "floors": 3,
+      "floors_status": "Main E10 block has three principal occupied window tiers plus roof dormers; tower is separate, not 10 floors",
+      "bays": "E10 facade assembled from differently sized Gothic blocks; groups of 2\u20133 lancet windows rather than regular equal bays",
+      "masonry_and_palette": "Warm red brick/terracotta; dark slate roofs; oxidized green finials/crosses",
+      "observed_features": "Wide E10 Gothic frontage with tall pointed-arch windows in three main tiers. Left portion has two roof dormers with steep triangular gables. Taller center/right block has a prominent gabled dormer with paired open arches and a pierced/circular upper detail. At Avenue A corner, a narrow square bell tower rises above all other masses: paired open lancet belfry openings and very steep four-sided slate spire/pyramidal roof topped by cross/finial. Avenue A return contains a lower steep-gabled church-hall/nave face with very tall central lancet grouping. Facade lower level sits behind black iron railing. Decorative terracotta frieze/lion panel on E10 wall.",
+      "photos": [
+        {
+          "source_url": "https://forgotten-ny.com/2025/01/grade-of-a/",
+          "photo_url": "https://forgotten-ny.com/wp-content/gallery/nicholas2/P1250245.JPG?t=1736116615",
+          "capture_date": "2024-12",
+          "publication_date": "2025-01-05",
+          "photographer": "Kevin Walsh",
+          "license": "unknown; observation only; do not redistribute photo",
+          "visually_inspected": true
+        },
+        {
+          "source_url": "https://forgotten-ny.com/2025/01/grade-of-a/",
+          "photo_url": "https://forgotten-ny.com/wp-content/gallery/nicholas2/P1250246.JPG?t=1736116615",
+          "capture_date": "2024-12 (photographer states month)",
+          "publication_date": "2025-01-05",
+          "photographer": "Kevin Walsh",
+          "license": "unknown; observation only; no redistribution",
+          "visually_inspected": true
+        }
+      ],
+      "confidence": "high",
+      "limitations": "31.4m source height belongs to tallest tower/spire. Do not extrude entire footprint to 31.4m or draw ten regular floors. Heights of main eaves/gables below are visual proportion estimates, not surveys.",
+      "address_source": "https://stnicholaschurchnyc.org/ourparish",
+      "landmark_source": "https://legistar.council.nyc.gov/LegislationDetail.aspx?GUID=5C9414CA-B371-4D1D-AF9B-D162FFD3EE76&ID=449276",
+      "osm_id": 248142953,
+      "bin": "1005912",
+      "modeling": {
+        "osm_total_height_m": 31.4,
+        "main_eaves_estimate_m": [
+          18,
+          21
+        ],
+        "main_gables_estimate_m": [
+          23,
+          25
+        ],
+        "tower_top_m": 31.4,
+        "mass_type": "composite Gothic church with corner tower and multiple rooflines",
+        "fire_escapes": "Do not add apartment fire escapes to church main facades."
+      }
+    },
+    {
+      "id": "e10_287",
+      "address": "287 East 10th Street, New York, NY 10009",
+      "position": "west side Avenue A, northwest corner E10",
+      "last_photo_observed_name_or_sign": "New York Center for Creativity & Dance / former Boys\u2019 Club",
+      "floors": 7,
+      "floors_status": "photo-counted or sourced as noted",
+      "bays": "Irregular institutional grid rather than tenement bays",
+      "masonry_and_palette": "Large off-white painted block",
+      "observed_features": "Seven-story slab-like corner building, flat roof with tall wire ball-court fence. Small dark rectangular paired/grouped windows in repeated grids; larger vertically stretched multipane windows at high gym floor toward one end. Broad plain corner piers, no residential-style fire escape.",
+      "photos": [
+        {
+          "source_url": "https://forgotten-ny.com/2025/01/grade-of-a/",
+          "photo_url": "https://forgotten-ny.com/wp-content/uploads/2025/01/P1250247-507x380.jpg",
+          "capture_date": "2024-12 (month stated in article; exact day not stated)",
+          "publication_date": "2025-01-05",
+          "photographer": "Kevin Walsh",
+          "license": "unknown; observation only; do not redistribute photo",
+          "visually_inspected": true
+        }
+      ],
+      "confidence": "high",
+      "limitations": "Dec 2024 photograph had tagged ground floor; current Joyce identity confirmed by official source. Do not reproduce December vacancy appearance as definitive 2026.",
+      "current_use_source": "https://www.joyce.org/new-york-center-for-creativity-and-dance-n25f",
+      "osm_id": 248142975,
+      "bin": "1005949",
+      "modeling": {
+        "osm_total_height_m": 27.1,
+        "official_stories": 7,
+        "reject_inferred_stories": 8,
+        "mass_type": "broad civic block with no residential fire escapes; high gym windows span taller floor",
+        "roof": "Flat parapet, tall open mesh sports enclosure above",
+        "window_pattern": "South E10 face irregular institutional window groups; east A face has long upper vertical gym windows and smaller lower paired openings."
+      },
+      "official_height_note": "Official Joyce page says seven-story 58,000 sq ft building; 27.1m can represent overall bulk but regular 8-floor grid is unsupported."
+    },
+    {
+      "id": "a165",
+      "address": "165 Avenue A, New York, NY 10009",
+      "position": "west side, E10\u2013E11",
+      "last_photo_observed_name_or_sign": "Tompkins Square Bagels",
+      "floors": null,
+      "floors_status": "not established; do not invent",
+      "bays": "5 upper windows visible across photographed width; building split must be checked",
+      "masonry_and_palette": "Red brick; rust-brown decorative lintels; green shop piers",
+      "observed_features": "Repeated thin ornamental lintels and small diamond masonry details between floors; black zigzag fire escape spans two central windows. Cream rectangular sign with dark burgundy stacked name and round bagel logos. Burgundy retractable awning and circular projecting logo. Residential door numbered 165 at left; broad shop opening right.",
+      "photos": [
+        {
+          "source_url": "https://evgrieve.com/2020/11/tompkins-square-bagels-on-avenue.html",
+          "photo_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjYbeKp8Q14LRThCnzijrTKk7eAuearpv-ccWBLqWAeY-KI-zecELjretUdsht3Fy66E430T-QYvxdrSB1jlC86Ht-Z288nraBp-TexEsFXfZNAX0pHQHVnpLRyHMH5MNDb0YrMl0g7xZ0/s2048/IMG_1553.jpg",
+          "capture_date": "2020-11-12 (article says yesterday)",
+          "publication_date": "2020-11-13",
+          "photographer": "EV Grieve",
+          "license": "unknown; observation only; do not redistribute photo",
+          "visually_inspected": true
+        }
+      ],
+      "confidence": "high",
+      "limitations": "Photo captures lower three levels and part of another; floor total not established. Sign is old but address/business corroborated in 2026.",
+      "current_use_source": "https://www.tompkinssquarebagels.com/event/tompkins-square-bagels-arrives-in-midtown-inside-our-new-shaver-hall-location/"
+    },
+    {
+      "id": "a169",
+      "address": "169 Avenue A, New York, NY 10009",
+      "position": "west side, E10\u2013E11",
+      "last_photo_observed_name_or_sign": "Lucinda\u2019s Honky Tonk + Juke Joint",
+      "floors": null,
+      "floors_status": "not established; do not invent",
+      "bays": "6 tall folding door/window panels + separate residential entry",
+      "masonry_and_palette": "Pale painted upper ground facade; honey-brown folding wood frontage",
+      "observed_features": "Wide six-panel folding wood/glass doors with high transom lights and inset plywood-like lower panels. Broad pale oval sign with pink/yellow cursive illuminated Lucinda\u2019s, small HONKY TONK/JUKE JOINT/COCKTAILS/MUSIC. Pale yellow fire-escape platform above; separate narrow black building entry at left numbered 169.",
+      "photos": [
+        {
+          "source_url": "https://evgrieve.com/2025/07/on-avenue-heaven-can-wait-morphs-into.html",
+          "photo_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgmaDZIok-jTPz8ZT0-7obMaRP1n_uwnrDrhoDpU35mMaJjoDNABs4oRBFS_-_SiQR5ez_bQUgGtB19zUh1HZD9Xyc9_VcyUpqvniBw4uE3YIv8zjnBEc5uQxDHb1gWAZST02hOW84uPtwUgFUJiRGxuQIJiIWpGQlT_9BnMrY9FJpL-O2BEZ0oUZMu-XA/s480/viruswalk2_7-28-25_r_w-060.jpg",
+          "capture_date": "2025-07-28 (article says signage arrived yesterday)",
+          "publication_date": "2025-07",
+          "photographer": "Stacie Joy / EV Grieve",
+          "license": "unknown; observation only; do not redistribute photo",
+          "visually_inspected": true
+        }
+      ],
+      "confidence": "high",
+      "limitations": "Lucinda\u2019s replaced Heaven Can Wait; HiFi and Brownies historical names. Floor total/cornice outside frame.",
+      "current_use_source": "https://www.lucindasnyc.com/calendar/"
+    },
+    {
+      "id": "a181",
+      "address": "181 Avenue A / 438 East 12th Street, New York, NY 10009",
+      "position": "west side, E11\u2013E12; Steiner East Village",
+      "last_photo_observed_name_or_sign": "Vacant Steiner ground-floor retail / Barnes & Noble buildout announced",
+      "floors": null,
+      "floors_status": "not established; do not invent",
+      "bays": "Many broad modern grid-window bays; exact counts obscured by trees",
+      "masonry_and_palette": "Orange-red modern brick sections; charcoal/gray metal-clad sections; black street base",
+      "observed_features": "Broad modern six-ish-floor block with large industrial-style dark metal grid windows, brick piers and dark setbacks. Alternate tall gray facade section has long vertical bay frames. Continuous high dark retail openings at sidewalk; spring 2026 windows/posters being cleared. Trees mask lower facade.",
+      "photos": [
+        {
+          "source_url": "https://evgrieve.com/2026/05/a-barnes-noble-is-opening-in-east.html",
+          "photo_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEio6Ir3mKhfPmP9g_9wZnrxSNAbXqJklkjiyYwvNWyWscKHSqglf1fResACTbKHA9AVogp3DQPla70B9CswY9OKTrAy2mNiApN5AlxZ2GqdtIbJIyEVcrRqxWNf3NwYk7Dd2CHPYk3BeZem7J96nKTtR1HCcPTA99M1OqcnG0IbrA7BglAaNUCTL4HgVT4/s480/viruswalk_5-23-26_r_w_004.jpg",
+          "capture_date": "2026-05-23 (article May 25 says Saturday)",
+          "publication_date": "2026-05",
+          "photographer": "Stacie Joy / EV Grieve",
+          "license": "unknown; observation only; do not redistribute photo",
+          "visually_inspected": true
+        }
+      ],
+      "confidence": "high",
+      "limitations": "Use actual midrise setback silhouette. Barnes & Noble announced November 2026 opening; not operating as of photo and research cutoff. Exact height/floor count should come from parcel/architect data."
+    },
+    {
+      "id": "e10_293",
+      "address": "293 East 10th Street, New York, NY 10009",
+      "position": "east side Avenue A, northeast corner E10",
+      "last_photo_observed_name_or_sign": "Horus Cafe",
+      "floors": 5,
+      "floors_status": "photo-counted or sourced as noted",
+      "bays": "3 columns per short visible facade",
+      "masonry_and_palette": "Salmon/peach brick; pale rectangular lintels; ornate dark green-gray cornice",
+      "observed_features": "Five-story corner building with 3 window columns on each of the two main visible faces. Dark bracketed cornice with CHAS. J. SMITH lettering; star-shaped metal wall anchors. Continuous low dark restaurant enclosure at ground; Horus eye artwork and vertical CAFE lettering at corner.",
+      "photos": [
+        {
+          "source_url": "https://forgotten-ny.com/2025/01/grade-of-a/",
+          "photo_url": "https://forgotten-ny.com/wp-content/gallery/nicholas/P1250243.JPG?t=1736116322",
+          "capture_date": "2024-12",
+          "publication_date": "2025-01-05",
+          "photographer": "Kevin Walsh",
+          "license": "unknown; observation only; do not redistribute photo",
+          "visually_inspected": true
+        }
+      ],
+      "confidence": "high",
+      "limitations": "Floor and bay count visually observed. Not a park frontage north of E10; park ends south of this building.",
+      "additional_photos": [
+        {
+          "source_url": "https://forgotten-ny.com/2025/01/grade-of-a/",
+          "photo_url": "https://forgotten-ny.com/wp-content/gallery/nicholas/P1250244.JPG?t=1736116322",
+          "capture_date": "2024-12",
+          "publication_date": "2025-01-05",
+          "photographer": "Kevin Walsh",
+          "license": "unknown; observation only; do not redistribute photo",
+          "visually_inspected": true
+        }
+      ],
+      "address_source": "https://www.horuscafeona.com/"
+    },
+    {
+      "id": "a166",
+      "address": "166 Avenue A, New York, NY 10009",
+      "position": "east side Avenue A, E10\u2013E11",
+      "last_photo_observed_name_or_sign": "PEACE house frontage",
+      "floors": null,
+      "floors_status": "not established; do not invent",
+      "bays": "Low broad barred opening; upper facade cropped",
+      "masonry_and_palette": "Red brick above; white fascia; pale bars/gate at ground",
+      "observed_features": "Bold black negative-space PEACE letterforms in long white fascia. Ground-floor frontage protected by thin white vertical bars; plants and old metal containers stand in front; narrow glazed/door openings behind. Upper windows have pale rectangular frames.",
+      "photos": [
+        {
+          "source_url": "https://forgotten-ny.com/2025/01/grade-of-a/",
+          "photo_url": "https://forgotten-ny.com/wp-content/uploads/2025/01/P1250248-507x380.jpg",
+          "capture_date": "2024-12 (month stated in article; exact day not stated)",
+          "publication_date": "2025-01-05",
+          "photographer": "Kevin Walsh",
+          "license": "unknown; observation only; do not redistribute photo",
+          "visually_inspected": true
+        }
+      ],
+      "confidence": "high",
+      "limitations": "Stable artist-house feature observed Dec 2024, no operating retail tenant inferred."
+    },
+    {
+      "id": "a170",
+      "address": "170 Avenue A, New York, NY 10009",
+      "position": "east side Avenue A, southeast corner E11",
+      "last_photo_observed_name_or_sign": "The Rabbit Books and Bar",
+      "floors": null,
+      "floors_status": "not established; do not invent",
+      "bays": "Corner/wraparound windows plus recessed broad doorway",
+      "masonry_and_palette": "Dark charcoal ground framing beneath red-brick tenement; maroon awning",
+      "observed_features": "Observed August entry: recessed double glass doors, dark charcoal boxed reveals, tall clear transom; maroon scalloped awning with white rabbit-on-books icon, white The Rabbit and large Books and Bar lettering. Earlier 2025 full corner photo establishes long wraparound display glazing and red brick upper floors with ornate pale lintels/fire escapes.",
+      "photos": [
+        {
+          "source_url": "https://evgrieve.com/2026/08/rabbit-books-and-bar-ready-for-its.html",
+          "photo_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEigZlRJOroFCjw4mCXGRxwqHiggkqIqVpRWC305Tqu5-3Fbkdz8utrdhqa_NWJzfimhu9kNfs19lkJUJhyphenhyphenfyxd7qWpSSWgLlfJwWUxNxyhfD0Z4U7hm17PYrdgoNqO5uJj9i2OLcfH8407EL82pVyeqcbtA-GdgIFUkDAkKidBdGYVLPvYtzmU1L4EhjtU/s710/viruswalk_8-11-26_r_w_211.jpg",
+          "capture_date": "2026-08-11 (photo filename)",
+          "publication_date": "2026-08",
+          "photographer": "Stacie Joy / EV Grieve",
+          "license": "unknown; observation only; do not redistribute photo",
+          "visually_inspected": true
+        }
+      ],
+      "confidence": "high",
+      "limitations": "Opened Aug 15 2026, corroborated by independent Aug 19 source. Do not use old 7-Eleven signage or vacancy treatment.",
+      "additional_photos": [
+        {
+          "source_url": "https://evgrieve.com/2025/12/a-new-chapter-on-avenue-cafe-bookstore.html",
+          "photo_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhT-uAW79hdKzvP97UrBV3dNJfHJDKkGZWNHFmAQmzfcH82lNKqdWs_fnopF50Egxay91AYFTcBKA023t_cL1HQr4sgES0P64dGMNRLZkmWlVPzGwQ6sFJR1EwcEASPPTcm7n-ekKd_1zNCGIre5iwjgwvuDFPjmAp9MmHx0u9STUcuQb4-Xdbk4lVvVwg/s480/IMG_0658.jpg",
+          "capture_date": "2025-12 publication; exact capture unknown",
+          "publication_date": "2025-12",
+          "photographer": "EV Grieve contributor (see source page)",
+          "license": "unknown; observation only; do not redistribute photo",
+          "visually_inspected": true
+        }
+      ],
+      "current_use_source": "https://www.albertine.com/discover-the-french-corner-at-the-rabbit-books-and-bar/"
+    },
+    {
+      "id": "e10_331",
+      "address": "331 East 10th Street, New York, NY 10009",
+      "position": "north edge Tompkins Square Park, east of Avenue A; contextual boundary landmark outside westward expansion",
+      "last_photo_observed_name_or_sign": "The New York Public Library \u2014 Tompkins Square branch",
+      "floors": 3,
+      "bays": "3 major vertical window/door bays",
+      "masonry_and_palette": "Pale limestone facade over granite base",
+      "observed_features": "Symmetric monumental three-bay stone facade; tall round-arched windows, rectangular upper openings, heavy projecting classical cornice and central raised library-name parapet. Offset entrance at street level. Thin iron fence at base; red-brick tenements immediately adjacent.",
+      "photos": [
+        {
+          "source_url": "https://hdc.org/hdc-across-nyc/manhattan/carnegie-libraries/tompkins-square-branch/",
+          "photo_url": "https://hdc.org/wp-content/uploads/2013/07/facade-crop.jpg",
+          "capture_date": null,
+          "publication_date": "2013-07 image-path only; capture date not provided",
+          "photographer": "not established",
+          "license": "unknown; observation only",
+          "visually_inspected": "web image result"
+        }
+      ],
+      "confidence": "high on identification; medium on date",
+      "limitations": "Photo capture date unknown; official NYPL page confirms address/current branch use. Use for architecture, not current banners/temporary signage.",
+      "current_use_source": "https://www.nypl.org/locations/tompkins-square"
+    }
+  ],
+  "park": {
+    "name": "Tompkins Square Park",
+    "boundary": "East side of Avenue A from E7 through E10; Avenue B east edge; no drivable continuation of St Marks/E8 or E9 across park",
+    "official_source": "https://www.nycgovparks.org/parks/tompkins-square-park",
+    "observed_features": [
+      {
+        "location": "Southwest entrance at E7/A",
+        "details": "Paved entrance opens to mature deciduous tree canopy and paths; black iron picket railings on low curb/base separate planted beds. S. S. Cox statue on tall stone pedestal just inside. Do not extend park north of E10.",
+        "sources": [
+          "https://www.nycgovparks.org/parks/tompkins-square-park/monuments/341",
+          "https://forgotten-ny.com/2025/01/grade-of-a/"
+        ],
+        "observation_status": "Location/context corroborated in source article; specific monument image was not visually inspected."
+      },
+      {
+        "location": "Temperance Fountain, inside western part of park",
+        "details": "Gray stone four-column canopy with shallow pyramidal roof and central drinking basin/pedestal; separate short stone bollards at corners; broad paved surrounding path, benches and trees.",
+        "photos": [
+          {
+            "source_url": "https://forgotten-ny.com/2025/01/grade-of-a/",
+            "photo_url": "https://forgotten-ny.com/wp-content/uploads/2025/01/P1250239-507x380.jpg",
+            "capture_date": "2024-12 (month stated in article; exact day not stated)",
+            "publication_date": "2025-01-05",
+            "photographer": "Kevin Walsh",
+            "license": "unknown; observation only; do not redistribute photo",
+            "visually_inspected": true
+          }
+        ]
+      },
+      {
+        "location": "Avenue A gates at St Marks and E9",
+        "details": "Pedestrian access points in continuous park edge; black iron fencing, paved paths. E9 axis leads toward park field house and separates recreation strip to north. Exact fence section spacing must be measured from an orthographic/cadastral source.",
+        "sources": [
+          "https://evgrieve.com/2025/08/small-blaze-quickly-doused-on-avenue.html",
+          "https://evgrieve.com/2025/10/about-cardboard-graveyard-outside.html"
+        ]
+      },
+      {
+        "location": "Field house, park interior near E9 axis",
+        "details": "Low single-story red-brick building with pale flat roof coping, stepped roof heights, dark vertical window/door openings, paved apron; reopened spring 2025 after renovation.",
+        "photos": [
+          {
+            "source_url": "https://evgrieve.com/2025/04/a-ribbon-cutting-ceremony-to-officially.html",
+            "photo_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgD6QI2xTXlxphlHsre9il558murx9qUrbyWnLD_8UR-Vj6-GLCCoiGaswgp0BTW1lNl42vGxddoFK9e9PqEvj-fRMxNNxRBed5UqLVhwquF0LQfm-fKYeLxOEeFBM-kzxUvyfLa8Twfaa7OtbE_RcTOGAog5TAVpz4YCt04JwEkJ_5QJPfMpeKcUPGdFs/s480/IMG_0304.heic",
+            "capture_date": "2025-04-12 (article says Saturday)",
+            "publication_date": "2025-04",
+            "photographer": "EV Grieve contributor (see source page)",
+            "license": "unknown; observation only; do not redistribute photo",
+            "visually_inspected": true
+          }
+        ]
+      },
+      {
+        "location": "Northwest recreation area, Avenue A/E10",
+        "details": "Large paved multipurpose/skate area, not grass lawn throughout. Keep mature tree edge, tall sports fencing as separate geometry from low ornamental perimeter railing.",
+        "source": "https://www.jenkemmag.com/home/2024/05/13/an-oral-history-of-tompkins-square-park/"
+      },
+      {
+        "location": "Main lawn, park interior",
+        "details": "Broad flat lawn with mature widely spaced deciduous trees. Small patches of leaf litter and long tree shadows in December; surrounding black iron planted-bed/park fencing and tall buildings visible between trunks. Do not fill entire park with uniform dense trees.",
+        "photos": [
+          {
+            "source_url": "https://forgotten-ny.com/2025/01/grade-of-a/",
+            "photo_url": "https://forgotten-ny.com/wp-content/uploads/2025/01/P1250240-507x380.jpg",
+            "capture_date": "2024-12 (month stated in article; exact day not stated)",
+            "publication_date": "2025-01-05",
+            "photographer": "Kevin Walsh",
+            "license": "unknown; observation only; do not redistribute photo",
+            "visually_inspected": true
+          }
+        ]
+      }
+    ]
+  },
+  "coverage_gaps": [
+    "Exact upper-floor counts for cropped storefront photos require parcel/footprint source. No fabricated heights supplied.",
+    "Full current facade coverage 125\u2013133 and 167/171/189 Avenue A incomplete; do not infer tenants from historical lists.",
+    "Most photos 2024\u20132026, but Luster/Ralph/Bagels older photographs retained with explicit dates.",
+    "Library photo capture date unknown; use only stable architecture."
+  ],
+  "raw_photo_storage": "Temporary files under /tmp/nyc-expansion-research/avenue-a-photos are research-only. Do not publish/reuse photographs in game."
+}

@@ -1,0 +1,1047 @@
+{
+  "schema_version": 1,
+  "researched_at": "2026-09-06",
+  "purpose": "Per-address geometry reference for East 7th\u2013East 12th, Second Avenue\u2013Avenue A NYC game expansion. Reference observations only; no source images licensed for game redistribution.",
+  "scope_notes": [
+    "293\u2013345 East 10th Street including 299 and 331 NYPL are east of Avenue A, outside this rectangle. Do not position the Tompkins Square Library within the requested 10 blocks.",
+    "Street numbering is not consistent across the neighborhood: East 10th uses the 200s between Second Avenue and Avenue A; East 9th/11th/12th use the 300s and 400s. St Marks uses its own numbers. Use address geocoding/parcel coordinates, not number-based interpolation.",
+    "The source dates below describe observed/reference conditions, not a guarantee of 2026 storefronts.",
+    "This is a reference sample with specific facades/storefronts across all six cross streets, not an exhaustive photographic survey of every parcel.",
+    "Downloaded reference photos and PDF pages in this scratch folder are for private observation only. Do not ship them as textures."
+  ],
+  "sources": {
+    "lpc2012": {
+      "url": "https://media.villagepreservation.org/wp-content/uploads/2020/03/15123112/East-Village-LES-Historic-District-NYC-LPC-Designation-Report.pdf",
+      "date": "2012-10-09",
+      "kind": "NYC LPC East Village/Lower East Side Historic District designation report",
+      "photo_credit": "Christopher D. Brazee, photographs 2010 and 2012",
+      "license": "Not verified; observe only"
+    },
+    "mckinley": {
+      "url": "https://villagepreservation.org/2020/01/29/east-village-building-named-for-president-felled-by-anarchist-also-home-to-hope-and-art-by-koons/",
+      "date": "2020-01-29",
+      "kind": "Village Preservation field/history article",
+      "photo_url": "https://media.villagepreservation.org/wp-content/uploads/2020/05/15044559/McKinley-E-7th-St-e1567781335783.jpg"
+    },
+    "theatre": {
+      "url": "https://media.villagepreservation.org/wp-content/uploads/2023/04/25162634/78-80-St.-Marks-Place-RFE-4.25.23.pdf",
+      "date": "2023-04-25",
+      "kind": "Village Preservation landmark evaluation request",
+      "photo_date": "circa 2017",
+      "photo_url": "https://media.villagepreservation.org/wp-content/uploads/2023/06/27120807/theatre-80-st-marks-Screen-Shot-adjusted-resized-1400x861.jpg"
+    },
+    "marks57": {
+      "url": "https://urbanarchive.org/o/villagepreservation/post/87d466ee-912d-4a2f-8228-b530a38108b9",
+      "date": null,
+      "kind": "Village Preservation building profile mirrored by Urban Archive",
+      "photo_note": "Accessible image inspected is a historical Club 57 business card, not facade; do not treat this as visual facade verification."
+    },
+    "marks93": {
+      "url": "https://urbanarchive.org/o/villagepreservation/post/56388799-ccb1-415b-a436-e73d037df1c5",
+      "date": null,
+      "kind": "Village Preservation building profile and historical entry photo",
+      "photo_url": "https://cdn-admin.urbanarchive.org/assets/2e882ad3-5e19-47ef-ad2f-42032bcf4aa4?fit=inside&height=1000&width=1000",
+      "photo_date": "undated historical"
+    },
+    "marks9698": {
+      "url": "https://villagepreservation.org/2026/04/21/waiting-on-a-friend-on-st-marks-place/",
+      "date": "2026-04-21",
+      "kind": "Village Preservation photo/history article",
+      "photo_date": "1981-07-02",
+      "photo_note": "Photo source located; full present-day facade not visually inspected. Album cover explicitly removes a story and must not be used as measured elevation."
+    },
+    "marks9698other": {
+      "url": "https://villagepreservation.org/2011/03/21/it-happened-here-album-covers/",
+      "date": "2011-03-21",
+      "kind": "Village Preservation building-history article",
+      "photo_note": "Article identifies paired 1890 tenements; modern facade photo located but not downloaded/inspected."
+    },
+    "irving": {
+      "url": "https://villagepreservation.org/2025/11/06/welcome-to-the-neighborhood-the-irving-green-321-east-9th-street/",
+      "date": "2025-11-06",
+      "kind": "Village Preservation photographed business visit",
+      "photo_url": "https://media.villagepreservation.org/wp-content/uploads/2025/11/06131711/Irving-Green-Storefront-2-1050x1400.jpg"
+    },
+    "sustainable": {
+      "url": "https://villagepreservation.org/2022/06/09/welcome-to-the-neighborhood-sustainable-village-318-east-9th-street/",
+      "date": "2022-06-09",
+      "kind": "Village Preservation photographed business visit",
+      "photo_url": "https://media.villagepreservation.org/wp-content/uploads/2022/06/09110859/Sustainable-Village-storefront-1050x1400.jpg"
+    },
+    "sustainableclosed": {
+      "url": "https://villagepreservation.org/2024/04/11/business-of-the-month-a-sustainable-village-318-east-9th-street-and-50-university-place/",
+      "date": "2024-04-11; closure annotation date not given",
+      "kind": "Village Preservation updated business article",
+      "note": "Title now explicitly marks 318 East 9th Street CLOSED."
+    },
+    "baths": {
+      "url": "https://villagepreservation.org/2018/02/13/business-of-the-month-russian-turkish-baths-268-east-10th-street/",
+      "date": "2018-02-13",
+      "kind": "Village Preservation photographed business visit",
+      "photo_url": "https://media.villagepreservation.org/wp-content/uploads/2020/05/15055602/front.jpg"
+    },
+    "bathsofficial": {
+      "url": "https://www.russianandturkishbaths.com/",
+      "date": "accessed 2026-09-06",
+      "kind": "Official bathhouse page",
+      "note": "Lists 268 East 10th Street location."
+    },
+    "casey": {
+      "url": "https://villagepreservation.org/2024/09/05/business-of-the-month-casey-rubber-stamp-322-east-11th-street/",
+      "date": "2024-09-05",
+      "kind": "Village Preservation photographed business visit",
+      "photo_url": "https://media.villagepreservation.org/wp-content/uploads/2024/09/05130049/casey-storefront-1050x1400.jpg"
+    },
+    "garage": {
+      "url": "https://villagepreservation.org/2012/02/03/ghost-sign-310-312-east-11th-street/",
+      "date": "2012-02-03",
+      "kind": "Village Preservation ghost-sign article",
+      "note": "Search-index text available; full page/image retrieval failed."
+    },
+    "elizabeth": {
+      "url": "https://villagepreservation.org/2018/12/20/calvert-vaux-and-the-village/",
+      "date": "2018-12-20",
+      "kind": "Village Preservation history article with NYC LPC image",
+      "photo_url": "https://media.villagepreservation.org/wp-content/uploads/2020/05/15061122/cv-st-eliz-225x300.png",
+      "photo_credit": "NYC LPC",
+      "photo_date": "not stated"
+    },
+    "stcyril_society": {
+      "url": "https://sloveniansny.com/",
+      "date": "accessed 2026-09-06",
+      "kind": "Slovenian Society New York official website; current address and linked street facade image",
+      "photo_url": "https://img1.wsimg.com/isteam/ip/cc9abdcc-a022-439d-abb8-639de9233b12/Screenshot%202024-05-05%20at%204.50.54%E2%80%AFPM.png",
+      "photo_date": "Filename indicates screenshot 2024-05-05; underlying Google Street View capture date unknown",
+      "license": "Google Street View screenshot; observe only; do not redistribute"
+    },
+    "stmary_cb3_2025": {
+      "url": "https://www.nyc.gov/assets/manhattancb3/downloads/landmarks/2025/04/Questionnaire/121-East-7th-Street-CB-3-Presentation-Final.pdf",
+      "date": "2025-04-16",
+      "kind": "Primary architect presentation to Manhattan Community Board 3; George Architect PLLC / Garbo & Company",
+      "photo_pages_pdf": [
+        3,
+        4,
+        5
+      ],
+      "photo_dates": "p3 labels 1940,1980,2013; p4-5 Existing Conditions supplied for 2025 application, precise capture date unstated",
+      "warning": "PDF pages8\u201310 are proposed facade renderings; DO NOT mistake them for existing conditions.",
+      "license": "Not verified; observe only"
+    },
+    "stmary_listing_2026": {
+      "url": "https://www.compass.com/homedetails/121-E-7th-St-Manhattan-NY-10009/21JRZ4_pid/",
+      "date": "updated 2026-08-17; accessed2026-09-06",
+      "kind": "Current listing; existing church sold with approved conversion plans",
+      "license": "Text status reference only"
+    },
+    "elizabeth_lpc2008": {
+      "url": "https://s-media.nyc.gov/agencies/lpc/lp/2274.pdf",
+      "date": "2008-03-18",
+      "kind": "Primary NYC LPC LP-2274 designation report; full architectural description pp9\u201311, photos pp15\u201316, designation map p17",
+      "photo_credit": "Caroline Pasion; publication2008, exact capture date unstated",
+      "license": "Not verified; observe only"
+    }
+  },
+  "buildings": [
+    {
+      "address": "95 East 7th Street",
+      "street": "E7",
+      "between": "First Avenue\u2013Avenue A",
+      "side": "north",
+      "floors": {
+        "above_grade": 5,
+        "basement": true
+      },
+      "bays": 4,
+      "material": "red painted brick with pale gray painted stone accents in 2010/2012 photo",
+      "cornice": "Deep stepped iron cornice, brackets and central decorative panel",
+      "fire_escape": "Central black zigzag stairs with broad platforms",
+      "entrance": "Raised stoop; off-center round arched entry surround",
+      "distinctive_details": [
+        "Paired design with the adjacent 95/97",
+        "Semi-round ornamental caps over second- and top-story windows; flat caps on intervening rows"
+      ],
+      "sources": [
+        "lpc2012"
+      ],
+      "verification": "Full facade photo inspected",
+      "current_tenant_status": {
+        "status": "not checked"
+      },
+      "uncertainty": [
+        "Reference condition may differ from 2026."
+      ],
+      "reference_pages": {
+        "photo_pdf_page": 311,
+        "printed_photo_page": 307,
+        "profile_printed_page": 182
+      },
+      "architect": "Kurtzer & Rohl",
+      "construction": "1891 / circa 1891"
+    },
+    {
+      "address": "97 East 7th Street",
+      "street": "E7",
+      "between": "First Avenue\u2013Avenue A",
+      "side": "north",
+      "floors": {
+        "above_grade": 5,
+        "basement": true
+      },
+      "bays": 4,
+      "material": "warm red painted masonry with near-black cornice in 2010/2012 photo",
+      "cornice": "Deep stepped iron cornice, brackets and central decorative panel",
+      "fire_escape": "Central black zigzag stairs with broad platforms",
+      "entrance": "Raised stoop; off-center round arched entry surround",
+      "distinctive_details": [
+        "Paired design with the adjacent 95/97",
+        "Semi-round ornamental caps over second- and top-story windows; flat caps on intervening rows"
+      ],
+      "sources": [
+        "lpc2012"
+      ],
+      "verification": "Full facade photo inspected",
+      "current_tenant_status": {
+        "status": "not checked"
+      },
+      "uncertainty": [
+        "Reference condition may differ from 2026."
+      ],
+      "reference_pages": {
+        "photo_pdf_page": 311,
+        "printed_photo_page": 307,
+        "profile_printed_page": 182
+      },
+      "architect": "Kurtzer & Rohl",
+      "construction": "1891 / circa 1891"
+    },
+    {
+      "address": "97\u00bd East 7th Street",
+      "street": "E7",
+      "between": "First Avenue\u2013Avenue A",
+      "side": "north",
+      "floors": {
+        "above_grade": 5,
+        "basement": true
+      },
+      "bays": null,
+      "material": "Red brick and sandstone",
+      "cornice": "Bracketed iron cornice",
+      "fire_escape": "Central zigzag escape; nonhistoric per report",
+      "entrance": "Side-positioned arched porch and raised stoop; separate basement shop access",
+      "distinctive_details": [
+        "Companion to 99, narrower than 99",
+        "Round/flat window arch alternation; figural keystones and inter-window pilasters"
+      ],
+      "sources": [
+        "lpc2012"
+      ],
+      "verification": "Full facade photo inspected",
+      "current_tenant_status": {
+        "status": "not checked"
+      },
+      "uncertainty": [
+        "Exact bay count not confidently read from group photograph.",
+        "2010/2012 reference color."
+      ],
+      "reference_pages": {
+        "photo_pdf_page": 311,
+        "profile_printed_page": 183
+      },
+      "architect": "Schneider & Herter",
+      "construction": "circa 1891"
+    },
+    {
+      "address": "99 East 7th Street",
+      "street": "E7",
+      "between": "First Avenue\u2013Avenue A",
+      "side": "north",
+      "floors": {
+        "above_grade": 5,
+        "basement": true
+      },
+      "bays": null,
+      "material": "Red-painted brick and sandstone",
+      "cornice": "Ornate bracketed galvanized iron",
+      "fire_escape": "Central metal escape",
+      "entrance": "Centered arched columned entry porch; raised stoop",
+      "distinctive_details": [
+        "Wider companion of 97\u00bd with centered entrance",
+        "Decorative pilasters, relief panels and arched window crowns",
+        "First-floor stained glass transoms documented"
+      ],
+      "sources": [
+        "lpc2012"
+      ],
+      "verification": "Full facade photo inspected",
+      "current_tenant_status": {
+        "status": "not checked"
+      },
+      "uncertainty": [
+        "Right edge partially screened by tree in group photograph; bay count omitted."
+      ],
+      "reference_pages": {
+        "photo_pdf_page": 311,
+        "profile_printed_page": 184
+      },
+      "architect": "Schneider & Herter",
+      "construction": "circa 1891"
+    },
+    {
+      "address": "100 East 7th Street",
+      "street": "E7",
+      "between": "First Avenue\u2013Avenue A",
+      "side": "south",
+      "floors": {
+        "above_grade": 5,
+        "basement": true
+      },
+      "bays": 4,
+      "material": "Warm buff/orange brick; gray painted stone base; terra cotta",
+      "cornice": "Dark projecting cornice with dense brackets",
+      "fire_escape": "Black central zigzag with paired-window platforms",
+      "entrance": "Central red door and transom, shallow raised stoop, stone frame",
+      "distinctive_details": [
+        "Four top-floor windows have large semicircular terra-cotta caps",
+        "Lower window lintels shaved/plain versus ornate top",
+        "One window each side of entry at street level"
+      ],
+      "sources": [
+        "lpc2012"
+      ],
+      "verification": "Full facade photo inspected",
+      "current_tenant_status": {
+        "status": "not checked"
+      },
+      "uncertainty": [
+        "Reference condition may differ from 2026."
+      ],
+      "reference_pages": {
+        "photo_pdf_page": 312,
+        "profile_printed_pages": [
+          211,
+          212
+        ]
+      },
+      "architect": "Jobst Hoffmann",
+      "construction": "circa 1893"
+    },
+    {
+      "address": "63 East 7th Street",
+      "street": "E7",
+      "between": "Second Avenue\u2013First Avenue",
+      "side": "north",
+      "floors": {
+        "above_grade": 6,
+        "basement": true
+      },
+      "bays": 4,
+      "material": "Buff brick with warm reddish stone base and pale terra cotta",
+      "cornice": "Deep dark cornice with garland frieze",
+      "fire_escape": "Central black zigzag",
+      "entrance": "Raised central arched entrance; separate lower shops in sunken areaways",
+      "distinctive_details": [
+        "Fifth floor arches; uppermost windows rectangular",
+        "Corbelled small balconies and cherub/foliate panels",
+        "Round arch at each first-floor outer opening"
+      ],
+      "sources": [
+        "lpc2012"
+      ],
+      "verification": "Full facade photo inspected",
+      "current_tenant_status": {
+        "status": "not checked"
+      },
+      "uncertainty": [
+        "Reference condition may differ from 2026."
+      ],
+      "reference_pages": {
+        "photo_pdf_page": 313,
+        "profile_printed_pages": [
+          170,
+          171
+        ]
+      },
+      "architect": "George F. Pelham",
+      "construction": "1898"
+    },
+    {
+      "address": "110 East 7th Street",
+      "street": "E7",
+      "between": "First Avenue\u2013Avenue A",
+      "side": "south",
+      "floors": {
+        "above_grade": 6,
+        "basement": false
+      },
+      "bays": 4,
+      "material": "Warm tan/orange brick with pale stone lintels and courses",
+      "cornice": "Large dark bracketed cornice and ornamental frieze",
+      "fire_escape": "Centered dark zigzag",
+      "entrance": "Street-level storefront with shallow horizontal cornice and separate entry",
+      "distinctive_details": [
+        "Fifth-floor arches; top floor rectangular",
+        "Upper inter-window piers on sculpted heads",
+        "Plain west side exposed above short neighbor"
+      ],
+      "sources": [
+        "lpc2012"
+      ],
+      "verification": "Full facade photo inspected",
+      "current_tenant_status": {
+        "status": "not checked"
+      },
+      "uncertainty": [
+        "Reference condition may differ from 2026."
+      ],
+      "reference_pages": {
+        "photo_pdf_page": 313,
+        "profile_printed_page": 214
+      },
+      "architect": "Kurtzer & Rohl",
+      "construction": "circa 1898"
+    },
+    {
+      "address": "112 East 7th Street",
+      "street": "E7",
+      "between": "First Avenue\u2013Avenue A",
+      "side": "south",
+      "floors": {
+        "above_grade": 5,
+        "basement": true
+      },
+      "bays": null,
+      "material": "Brick, stone, terra cotta",
+      "cornice": "Removed: top rebuilt as plain brick",
+      "fire_escape": "Historic metal escape documented",
+      "entrance": "Ornate entry frame; low stoop sidewalls",
+      "distinctive_details": [
+        "Projecting first-story bay windows",
+        "Upper window trim removed; ornamental banding lower down"
+      ],
+      "sources": [
+        "lpc2012"
+      ],
+      "verification": "LPC written profile read; only neighboring edge visible in inspected photo",
+      "current_tenant_status": {
+        "status": "not checked"
+      },
+      "uncertainty": [
+        "Full facade photo still needed."
+      ],
+      "reference_pages": {
+        "profile_printed_page": 215
+      },
+      "architect": "Jobst Hoffmann",
+      "construction": "circa 1889"
+    },
+    {
+      "address": "107 East 7th Street (103\u2013107)",
+      "street": "E7",
+      "between": "First Avenue\u2013Avenue A",
+      "side": "north",
+      "floors": {
+        "above_grade": 2,
+        "tower": true
+      },
+      "bays": 3,
+      "material": "Pale/light brick with limestone",
+      "cornice": "Church gable, arcade and tall central spire; smaller pinnacles",
+      "fire_escape": "None visible on primary church facade",
+      "entrance": "Three pointed arched paired timber doors behind shallow fenced forecourt",
+      "distinctive_details": [
+        "Gothic center tower and very tall spire interrupt tenement roofline",
+        "Large central lancet window with paired lancets each side",
+        "Central portal has projecting small gable",
+        "Central square bell stage has tall pointed louver openings, blind arcade beneath, slender spire above and corner pinnacles.",
+        "Tripartite facade separated by engaged vertical pilasters."
+      ],
+      "sources": [
+        "lpc2012"
+      ],
+      "verification": "Full facade photo inspected",
+      "current_tenant_status": {
+        "status": "not checked"
+      },
+      "uncertainty": [
+        "Reference condition may differ from 2026."
+      ],
+      "reference_pages": {
+        "photo_pdf_page": 314,
+        "profile_printed_page": [
+          185,
+          186
+        ]
+      },
+      "name": "Saint Stanislaus Bishop and Martyr Roman Catholic Church",
+      "architect": "Arthur Arctander",
+      "construction": "circa 1899\u20131901",
+      "osm_ids": [
+        248142618
+      ],
+      "mapping_note": "Manifest address101 is parish office address; actual large church facade is103\u2013107 East7th, LPCBlock435Lot49. Use church recipe on248142618 only. Adjacent248142621 at101 is separate rowhouse/rectory."
+    },
+    {
+      "address": "111\u2013115 East 7th Street",
+      "street": "E7",
+      "between": "First Avenue\u2013Avenue A",
+      "side": "north",
+      "floors": {
+        "above_grade": 7,
+        "basement": null
+      },
+      "bays": 9,
+      "material": "Red brick, pale stone and terra-cotta trim; pale rusticated first story",
+      "cornice": "Broad dark bracketed cornice with ornate frieze",
+      "fire_escape": "Two separate symmetrical zigzag escape stacks",
+      "entrance": "Centered tall arched passage with McKINLEY above; other arched ground openings",
+      "distinctive_details": [
+        "Central open voids reveal linked building/courtyard configuration",
+        "Light corner quoins; rich second/third-floor surrounds; sixth-floor balcony",
+        "Substantially wider and taller than adjoining five-story houses"
+      ],
+      "sources": [
+        "mckinley",
+        "lpc2012"
+      ],
+      "verification": "Full facade photo inspected",
+      "current_tenant_status": {
+        "status": "historical",
+        "name": "Ladybird",
+        "as_of": "2020 article only; current not checked"
+      },
+      "uncertainty": [
+        "Reference condition may differ from 2026."
+      ],
+      "name": "The McKinley",
+      "construction": "1901"
+    },
+    {
+      "address": "57 St. Marks Place",
+      "street": "St Marks / E8",
+      "between": "Second Avenue\u2013First Avenue",
+      "side": "north",
+      "floors": {
+        "above_grade": 4,
+        "basement": true
+      },
+      "bays": null,
+      "material": "Not visually verified",
+      "cornice": "Central triangular pediment documented",
+      "fire_escape": "Not verified",
+      "entrance": "Pointed arch openings on lower two stories documented",
+      "distinctive_details": [
+        "Altered 1849\u201350 row house; mid-20th-century church facade; former Club 57"
+      ],
+      "sources": [
+        "marks57"
+      ],
+      "verification": "Written building profile only; inspected archive asset was a business card, not facade",
+      "current_tenant_status": {
+        "status": "not checked"
+      },
+      "uncertainty": [
+        "Full facade reference needed before geometry refinement.",
+        "Do not use 1970 archive date as present appearance."
+      ]
+    },
+    {
+      "address": "78 St. Marks Place",
+      "street": "St Marks / E8",
+      "between": "First Avenue\u2013Avenue A",
+      "side": "south",
+      "floors": {
+        "above_grade": 3,
+        "attic_half_story": true
+      },
+      "bays": 3,
+      "material": "Gray painted brick facade in reference",
+      "cornice": "Dentiled cornice under shallow pitched roof",
+      "fire_escape": "Light painted landing/cage and diagonal connecting escape visible",
+      "entrance": "Original raised stoop to paneled door with large amber transom",
+      "distinctive_details": [
+        "Small attic windows rather than full top story",
+        "Window sills/lintels retained",
+        "Historic sidewalk handprint/footprint walk of fame spans theater frontage"
+      ],
+      "sources": [
+        "theatre"
+      ],
+      "verification": "Full facade photo inspected",
+      "current_tenant_status": {
+        "status": "not checked"
+      },
+      "uncertainty": [
+        "Distinguish No.78 (east/right when facing south) from No.80 (west/left).",
+        "Current signage and occupancy not checked."
+      ],
+      "construction": "circa 1845"
+    },
+    {
+      "address": "80 St. Marks Place",
+      "street": "St Marks / E8",
+      "between": "First Avenue\u2013Avenue A",
+      "side": "south",
+      "floors": {
+        "above_grade": 4,
+        "basement": null
+      },
+      "bays": 3,
+      "material": "Gray painted brick upper facade; red brick one-story forward addition with glass blocks",
+      "cornice": "Bracketed cornice with central shield",
+      "fire_escape": "Light painted escape components across upper facade",
+      "entrance": "Forward low commercial extension; black doors and glass-block sidelights",
+      "distinctive_details": [
+        "Full raised fourth story contrasts with 78 attic",
+        "Low extension has balcony rail above",
+        "Historical William Barnacle Tavern sign on extension"
+      ],
+      "sources": [
+        "theatre"
+      ],
+      "verification": "Full facade photo inspected",
+      "current_tenant_status": {
+        "status": "historical; present operation not verified",
+        "name": "Theatre 80 / William Barnacle Tavern",
+        "as_of": "reference photo circa 2017; theater closure/auction reported 2023"
+      },
+      "uncertainty": [
+        "Do not present Theatre 80 as confirmed operating in 2026."
+      ],
+      "construction": "circa 1845, later upper-story alteration"
+    },
+    {
+      "address": "93 St. Marks Place",
+      "street": "St Marks / E8",
+      "between": "First Avenue\u2013Avenue A",
+      "side": "north",
+      "floors": {
+        "above_grade": 4,
+        "basement": true
+      },
+      "bays": null,
+      "material": "Historical entry photo shows purple/red painted masonry and cream entry surround",
+      "cornice": "Bracketed iron cornice described; roof not in inspected photo",
+      "fire_escape": "Not shown in inspected entry crop",
+      "entrance": "Raised stair to yellow double doors, heavy cream entablature, side pilasters; chain-link gate in historical photo",
+      "distinctive_details": [
+        "Distinct nursery entry in converted 1848 Greek Revival rowhouse",
+        "Tall neighboring sash and basement window establish stoop scale"
+      ],
+      "sources": [
+        "marks93"
+      ],
+      "verification": "Historical entry photograph inspected; full facade supplied by written profile",
+      "current_tenant_status": {
+        "status": "historical photo caption",
+        "name": "Little Missionary\u2019s Day Nursery",
+        "as_of": "undated; present condition not checked"
+      },
+      "uncertainty": [
+        "Historical paint/fence/door color must not be assumed current.",
+        "Upper floors not visually verified."
+      ]
+    },
+    {
+      "address": "96 St. Marks Place",
+      "street": "St Marks / E8",
+      "between": "First Avenue\u2013Avenue A",
+      "side": "south",
+      "floors": {
+        "above_grade": 5,
+        "basement": true
+      },
+      "bays": null,
+      "material": "Masonry tenement; exact current paint not verified",
+      "cornice": "Not verified in inspected source",
+      "fire_escape": "Metal escape visible in available photo references; full layout not inspected",
+      "entrance": "Round-arched portico, raised stoop",
+      "distinctive_details": [
+        "Paired 1890 tenements; decorative segmental-arched window surrounds",
+        "Famous album image deletes a story and is not a faithful elevation"
+      ],
+      "sources": [
+        "marks9698",
+        "marks9698other"
+      ],
+      "verification": "Photo references located and written architectural description read; present full facade not inspected",
+      "current_tenant_status": {
+        "status": "not checked"
+      },
+      "uncertainty": [
+        "Requires direct full-photo inspection before exact bay, escape and color modeling.",
+        "Five stories from published full-building references; do not derive from album cover."
+      ]
+    },
+    {
+      "address": "98 St. Marks Place",
+      "street": "St Marks / E8",
+      "between": "First Avenue\u2013Avenue A",
+      "side": "south",
+      "floors": {
+        "above_grade": 5,
+        "basement": true
+      },
+      "bays": null,
+      "material": "Masonry tenement; exact current paint not verified",
+      "cornice": "Not verified in inspected source",
+      "fire_escape": "Metal escape visible in available photo references; full layout not inspected",
+      "entrance": "Round-arched portico, raised stoop",
+      "distinctive_details": [
+        "Paired 1890 tenements; decorative segmental-arched window surrounds",
+        "Famous album image deletes a story and is not a faithful elevation"
+      ],
+      "sources": [
+        "marks9698",
+        "marks9698other"
+      ],
+      "verification": "Photo references located and written architectural description read; present full facade not inspected",
+      "current_tenant_status": {
+        "status": "not checked"
+      },
+      "uncertainty": [
+        "Requires direct full-photo inspection before exact bay, escape and color modeling.",
+        "Five stories from published full-building references; do not derive from album cover."
+      ]
+    },
+    {
+      "address": "321 East 9th Street",
+      "street": "E9",
+      "between": "Second Avenue\u2013First Avenue",
+      "side": "north",
+      "floors": null,
+      "bays": null,
+      "material": "Mint-green painted shop wood/metal surround; dark masonry above and red brick at top of crop",
+      "cornice": "Roof not in photo",
+      "fire_escape": "Not in crop",
+      "entrance": "Two shallow steps to recessed doorway on right; transom vent/air conditioner above",
+      "distinctive_details": [
+        "Large left display window with gold-leaf lettering",
+        "Angular mint-green awning/sign housing",
+        "Small green sidewalk bench"
+      ],
+      "sources": [
+        "irving"
+      ],
+      "verification": "Storefront photograph inspected; upper facade not shown",
+      "current_tenant_status": {
+        "status": "last positively documented",
+        "name": "Irving Green",
+        "as_of": "2025-11-06"
+      },
+      "uncertainty": [
+        "Upper floors, bays and roof cannot be derived from this storefront-only view."
+      ]
+    },
+    {
+      "address": "318 East 9th Street",
+      "street": "E9",
+      "between": "Second Avenue\u2013First Avenue",
+      "side": "south",
+      "floors": null,
+      "bays": null,
+      "material": "Dark brown storefront with carved/twisted vertical trim; dark gray upper shop fascia",
+      "cornice": "Bracketed shop-level fascia visible; roof not in crop",
+      "fire_escape": "Black metal escape deck at top of crop",
+      "entrance": "Inset entrance left of large shop window; retractable security shutter and side-hinged grille",
+      "distinctive_details": [
+        "Deep narrow shop window transom",
+        "White hanging blade sign on long pale arm",
+        "A-frame board, cellar hatch and green bench in 2022 reference"
+      ],
+      "sources": [
+        "sustainable",
+        "sustainableclosed"
+      ],
+      "verification": "Storefront photograph inspected; upper facade not shown",
+      "current_tenant_status": {
+        "status": "CLOSED per updated title; successor not checked",
+        "name": "A Sustainable Village",
+        "as_of": "closure date not supplied"
+      },
+      "uncertainty": [
+        "Do not use old tenant sign as current.",
+        "Floors and roofline not verified."
+      ]
+    },
+    {
+      "address": "268 East 10th Street",
+      "street": "E10",
+      "between": "First Avenue\u2013Avenue A",
+      "side": "south",
+      "floors": null,
+      "bays": null,
+      "material": "Pale green/cream rusticated ground-level masonry; buff brick beside entry",
+      "cornice": "Heavy projecting entry entablature; roof not shown",
+      "fire_escape": "Not in crop",
+      "entrance": "Wide stone steps with black iron rails; recessed timber/glass door; large gold 268 in transom",
+      "distinctive_details": [
+        "Entry flanked by two corbel-like carved brackets",
+        "Freestanding vertical white signboard on right of stoop"
+      ],
+      "sources": [
+        "baths",
+        "bathsofficial"
+      ],
+      "verification": "Entry photograph inspected; full upper facade not shown",
+      "current_tenant_status": {
+        "status": "official location listed",
+        "name": "Russian & Turkish Baths",
+        "as_of": "accessed 2026-09-06"
+      },
+      "uncertainty": [
+        "Full facade, exact floor count and escape placement not verified in this photo."
+      ],
+      "name": "Russian & Turkish Baths"
+    },
+    {
+      "address": "322 East 11th Street",
+      "street": "E11",
+      "between": "Second Avenue\u2013First Avenue",
+      "side": "south",
+      "floors": null,
+      "bays": null,
+      "material": "Dark blue/black painted brick and slim dark storefront frame",
+      "cornice": "Low flat shop fascia; roof not shown",
+      "fire_escape": "Not in crop",
+      "entrance": "Left inset narrow door, lowered threshold; large single display window on right",
+      "distinctive_details": [
+        "Vivid yellow RUBBER STAMPS banner with colorful illustrations",
+        "Narrow glazed transom; ornamental dark relief strip at right edge",
+        "Dense small stamp display visible through window"
+      ],
+      "sources": [
+        "casey"
+      ],
+      "verification": "Storefront photograph inspected; upper facade not shown",
+      "current_tenant_status": {
+        "status": "last positively documented",
+        "name": "Casey Rubber Stamp",
+        "as_of": "2024-09-05"
+      },
+      "uncertainty": [
+        "Upper floors and roofline not verified."
+      ]
+    },
+    {
+      "address": "310\u2013312 East 11th Street",
+      "street": "E11",
+      "between": "Second Avenue\u2013First Avenue",
+      "side": "south",
+      "floors": null,
+      "bays": null,
+      "material": "Not visually verified",
+      "cornice": "Not verified",
+      "fire_escape": "Not verified",
+      "entrance": "Garage use documented in 2012; opening not visually verified",
+      "distinctive_details": [
+        "Faint Knickerbocker Boarding ghost sign between second and third stories"
+      ],
+      "sources": [
+        "garage"
+      ],
+      "verification": "Research lead only: photo not inspected; page retrieval failed",
+      "current_tenant_status": {
+        "status": "historical use only",
+        "name": "Parking garage",
+        "as_of": "2012-02-03"
+      },
+      "uncertainty": [
+        "Do not extrapolate facade or floors from ghost-sign text.",
+        "Needs a verified complete photo."
+      ]
+    },
+    {
+      "address": "307 East 12th Street",
+      "street": "E12",
+      "between": "Second Avenue\u2013First Avenue",
+      "side": "north",
+      "floors": {
+        "above_grade": 4,
+        "basement": true,
+        "note": "Fourth level occupies western mansard and eastern gable; not an additional fifth attic."
+      },
+      "bays": {
+        "west_section": 2,
+        "east_section": "grouped windows:5 at first story,2 pairs at second,4 at third,3 arches at fourth"
+      },
+      "material": "Red/orange brick with stone trim",
+      "cornice": "West half corbelled brick cornice and mansard with two bell-roof dormers; east half stepped gable outlined in sandstone; tall chimney between halves.",
+      "fire_escape": "None visible on primary facade",
+      "entrance": "Raised stoop to entrance in eastern bay of western half; paneled door and large semicircular multi-pane transom under projecting bracketed balcony. Small separate basement entry in eastern half.",
+      "distinctive_details": [
+        "One stepped gable at east/right; two bell-roof dormers west/left.",
+        "Tall brick chimney marks split between halves.",
+        "Eastern first floor has five tall windows and transoms; thirdfloorfour rectangular windows;fourthfloor3roundheadedwindows.",
+        "West entrance balcony has stone balusters and heavy brackets;no front fireescape visible."
+      ],
+      "sources": [
+        "elizabeth",
+        "elizabeth_lpc2008"
+      ],
+      "verification": "Full facade photo inspected",
+      "current_tenant_status": {
+        "status": "residential conversion documented",
+        "name": "Apartments",
+        "as_of": "2018 article"
+      },
+      "uncertainty": [
+        "Historical LPCphotos2008 do not confirm untouched2026 condition.",
+        "Combined OSM identification inferred by40ft frontage+parcel position; 307/309 metadata individually misleading."
+      ],
+      "name": "Former Elizabeth Home for Girls",
+      "architect": "Vaux & Radford",
+      "construction": "1891\u20131892",
+      "osm_ids": [
+        247852515,
+        247852516
+      ],
+      "frontage_width_m": 12.192,
+      "mapping_note": "LPC explicitly40-foot-wide facade. Combine manifest307+309 footprints (247852515+247852516; combinedfrontage11.916m), one asymmetric facade. Do not duplicate gable or extend distinctive design to311. LPCmap p17 Block454Lot66 and facade width substantiate mapping; exact footprint union inferred from manifest."
+    },
+    {
+      "address": "62 St. Marks Place",
+      "street": "St Marks / E8",
+      "between": "Second Avenue\u2013First Avenue",
+      "side": "south",
+      "name": "Church of St. Cyril",
+      "osm_ids": [
+        241822303
+      ],
+      "floors": {
+        "above_grade": 4,
+        "note": "Visual count: two domestic upper rows above a church opening spanning the lower two levels; OSM fivefloor estimate does not describe facade."
+      },
+      "bays": 3,
+      "material": "Unpainted warm red brick; restrained dark brown window sills/lintels; white arched entry trim",
+      "cornice": "Plain brick parapet with shallow central triangular gable; no tower or steeple",
+      "fire_escape": "No front escape on church itself; adjacent building escape intrudes at photo right edge",
+      "entrance": "Two flanking round-headed recessed entry arches and short iron-railed stoops. Right entrance has dark paired glazed doors with gold crosses and arched CHURCH OF ST CYRIL 62 lettering.",
+      "distinctive_details": [
+        "Tall central round-headed stained-glass panel spans lower two levels; blue-green glazing divided into rectangular grid.",
+        "A narrow rectangular domestic window sits over each side entry; two rows of three rectangular sash windows above.",
+        "Facade is a narrow rowhouse scale with shallow center gable and no bell tower."
+      ],
+      "sources": [
+        "stcyril_society"
+      ],
+      "verification": "Entire primary facade inspected in official society linked Google Street View screenshot, perspective looking steeply upward",
+      "current_tenant_status": {
+        "status": "active church and society address shown on official site",
+        "name": "Church of St Cyril / Slovenian Society New York",
+        "as_of": "2026-09-06"
+      },
+      "uncertainty": [
+        "Underlying Street View capture date unknown; screenshot filename2024-05-05.",
+        "Exact story count visual, not measured survey; floor heights atypical through large central window."
+      ]
+    },
+    {
+      "address": "101 East 7th Street",
+      "street": "E7",
+      "between": "First Avenue\u2013Avenue A",
+      "side": "north",
+      "name": "St. Stanislaus rectory and office",
+      "osm_ids": [
+        248142621
+      ],
+      "floors": {
+        "above_grade": 3,
+        "basement": true
+      },
+      "bays": null,
+      "material": "Brick and stone; facade paint color not verified",
+      "cornice": "Historic iron cornice",
+      "fire_escape": "Not verified",
+      "entrance": "Original stoop removed in1930; reconfigured lower entrance and areaway; nonhistoric entrance surround",
+      "distinctive_details": [
+        "Narrow rowhouse companion to large church, not another church tower.",
+        "Footed window sills and stone/metal lintels.",
+        "2012 report records roof cross and areaway statue,plaque,flagpole."
+      ],
+      "sources": [
+        "lpc2012"
+      ],
+      "reference_pages": {
+        "profile_printed_page": [
+          184,
+          185
+        ]
+      },
+      "verification": "Primary LPC building profile read; no complete independent facade photo inspected",
+      "current_tenant_status": {
+        "status": "rectory use documented2012; current parish use not independently checked"
+      },
+      "uncertainty": [
+        "Colors and bay count unverified."
+      ],
+      "mapping_note": "Keep separate from main church248142618; this6.4m-wide footprint is rowhouse/rectory."
+    },
+    {
+      "address": "121 East 7th Street",
+      "street": "E7",
+      "between": "First Avenue\u2013Avenue A",
+      "side": "north",
+      "name": "Former St. Mary's American Orthodox Greek Catholic Church",
+      "osm_ids": [
+        248142640
+      ],
+      "floors": {
+        "above_grade": 3,
+        "basement": true,
+        "tower": true
+      },
+      "bays": 3,
+      "material": "Gray-beige/yellow artificial coursed-stone veneer (Naturestone); dark charcoal window arches and tower roof",
+      "cornice": "Sloping low gable shoulders meet central square bell tower; steep small pyramidal roof and Orthodox cross. Existing roofline lacks the old stepped pinnacles.",
+      "fire_escape": "None on street front; rear fire escape appears in2025 condition photo",
+      "entrance": "Wide raised dark iron stoop with railings to wooden doors in left and middle round/pointed-top openings; right bay tall arched window and narrow areaway",
+      "distinctive_details": [
+        "Very narrow22ft facade with three arched openings at each of three levels.",
+        "Central square tower rises about one window level above shoulders; single rectangular dark tower opening under small curved decorative hood.",
+        "Short pyramidal tower roof ends in multi-bar Orthodox cross; not a tall needle spire.",
+        "Existing gray layered stone veneer wraps facade and tower."
+      ],
+      "sources": [
+        "lpc2012",
+        "stmary_cb3_2025",
+        "stmary_listing_2026"
+      ],
+      "reference_pages": {
+        "lpc2012_profile_printed_pages": [
+          188,
+          189
+        ],
+        "cb3_existing_photos_pdf": [
+          3,
+          4,
+          5
+        ]
+      },
+      "verification": "2025 architect Existing Conditions photos directly inspected; primary2012profile corroborates3stories+basement+tower",
+      "current_tenant_status": {
+        "status": "Listed for sale as existing church with approved eight-unit conversion plans; active religious use not verified",
+        "as_of": "listingupdated2026-08-17"
+      },
+      "uncertainty": [
+        "2025document renderingspp8\u201310 show proposed new stepped pinnacles,modifieddoors,androoftopaddition;exclude from existing facade recipe.",
+        "Approved conversion completion not verified asof2026-09-06.",
+        "Physical tower height not measured; manifest12.3m likelybodyheight and should not flatten silhouette."
+      ]
+    }
+  ],
+  "coverage_summary": {
+    "records": 25,
+    "full_or_partial_photo_inspected": 20,
+    "streets": [
+      "E7",
+      "St Marks / E8",
+      "E9",
+      "E10",
+      "E11",
+      "E12"
+    ],
+    "strongest_full_facade_cluster": "East 7th Street; 9 detailed primary-source building profiles and photo row",
+    "remaining_gap": "Most E9/E11 references inspect storefronts only; whole-building variation there remains incompletely verified.",
+    "churches": "107E7,121E7,and62StMarks visually inspected;101E7 separately documented rectory."
+  }
+}

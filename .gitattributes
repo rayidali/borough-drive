@@ -1,0 +1,19 @@
+* text=auto eol=lf
+
+*.glb binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.webp binary
+*.hdr binary
+*.wasm binary
+
+# Preserve bundled vendor files and photographic bytes exactly as supplied.
+dist/vendor/** -text linguist-vendored
+dist/reconstruction/references/** -text
+
+# Keep generated map data out of the language summary; recipes remain visible.
+dist/data/*.json linguist-generated
+dist/reconstruction/neighborhood.json linguist-generated
+dist/reconstruction/intersection-base.json linguist-generated
+source-data/*.json linguist-generated

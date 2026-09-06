@@ -1,0 +1,1123 @@
+{
+  "schema_version": 1,
+  "prepared": "2026-09-06",
+  "purpose": "Observation metadata for original geometry reconstruction of Second Avenue E7\u2013E12; no photograph assets licensed for distribution",
+  "coverage": {
+    "building_records": 27,
+    "primary_area": "East side of Second Avenue between East 7th and East 12th Streets",
+    "boundary_context": "Selected west-side landmarks across avenue",
+    "not_complete_parcel_census": true
+  },
+  "important_modeling_notes": [
+    "Photographs are individually observed, not generic facade recipes.",
+    "Historic survey signs are separated from tenant checks. A 2026 setting needs additional current frontage photos for unverified storefronts.",
+    "Swiss Institute has closed at 130 Second Avenue/38 St Marks; do not label it currently open.",
+    "STOMP sign is historic. Retain the distinctive Orpheum architecture independently of production branding.",
+    "West-side landmarks fall beyond the stated ten-block footprint but face its western boundary.",
+    "Window counts refer to architectural opening groups; paired panes are described separately. Null means insufficient photographic confidence, not zero.",
+    "No downloaded observation image should be committed to Site assets or redistributed."
+  ],
+  "buildings": [
+    {
+      "id": "second-ave-122",
+      "address": "122 Second Avenue, Manhattan, New York, NY",
+      "side_of_second_avenue": "east",
+      "street_span": "E7\u2013St Marks",
+      "role": "in-area frontage",
+      "reference_photo": {
+        "url": "https://buildingblocks.villagepreservation.org/wp-content/uploads/2012/07/primary.jpg",
+        "source_page": "https://buildingblocks.villagepreservation.org/building/122-2nd-avenue/",
+        "publisher": "Village Preservation / East Village Building Blocks",
+        "capture_date": null,
+        "capture_date_status": "not supplied by source",
+        "publication_or_upload_date": "2012-07",
+        "upload_is_not_capture_date": true,
+        "accessed": "2026-09-06",
+        "redistribute": false,
+        "rights": "Observation only; no reuse license established. Do not ship this photograph or derived image textures."
+      },
+      "observed": {
+        "floors_including_shop_level": 5,
+        "window_bays_primary": 3,
+        "materials_and_colors": "Red brick; darker rusticated lower two stories, white horizontal accents",
+        "cornice_and_roof": "Flat stepped parapet; former cornice missing",
+        "fire_escape_layout": "No external fire escape visible on avenue face",
+        "window_composition_and_mass": "Three broad grouped window openings in upper stories; wide gridded glazing below; substantial two-story base piers",
+        "storefront_physical_sign": "UKRAINIAN SPORT CLUB in white letters over dark lower facade; green entrance awning"
+      },
+      "current_tenant": {
+        "name": null,
+        "status": "not verified; old photograph does not establish current occupancy",
+        "checked": "2026-09-06"
+      },
+      "inference_and_limits": [
+        "Counts describe visible street elevation, not interior floors, legal unit counts, dimensions, or surveyed measurements.",
+        "Material names are visual observations unless supported by linked architectural record."
+      ]
+    },
+    {
+      "id": "second-ave-124",
+      "address": "124 Second Avenue, Manhattan, New York, NY",
+      "side_of_second_avenue": "east",
+      "street_span": "E7\u2013St Marks",
+      "role": "in-area frontage",
+      "reference_photo": {
+        "url": "https://buildingblocks.villagepreservation.org/wp-content/uploads/2012/07/449_4_PRIMARYPHOTO.jpg",
+        "source_page": "https://buildingblocks.villagepreservation.org/building/124-2nd-avenue/",
+        "publisher": "Village Preservation / East Village Building Blocks",
+        "capture_date": null,
+        "capture_date_status": "not supplied by source",
+        "publication_or_upload_date": "2012-07",
+        "upload_is_not_capture_date": true,
+        "accessed": "2026-09-06",
+        "redistribute": false,
+        "rights": "Observation only; no reuse license established. Do not ship this photograph or derived image textures."
+      },
+      "observed": {
+        "floors_including_shop_level": 6,
+        "window_bays_primary": 4,
+        "materials_and_colors": "Muted gray-green brick with pale pink/cream sculpted trim",
+        "cornice_and_roof": "Tall pale parapet with central raised pediment/eagle motif",
+        "fire_escape_layout": "Pale metal central escape serves middle window pair, zigzag flights",
+        "window_composition_and_mass": "Four openings across: two close center windows, separated outer bays; fifth-story arches; alternating ornate panels/pilasters",
+        "storefront_physical_sign": "East Village Convenience: red fascia, cream/yellow lettering, densely posted windows"
+      },
+      "current_tenant": {
+        "name": null,
+        "status": "not verified; old photograph does not establish current occupancy",
+        "checked": "2026-09-06"
+      },
+      "inference_and_limits": [
+        "Counts describe visible street elevation, not interior floors, legal unit counts, dimensions, or surveyed measurements.",
+        "Material names are visual observations unless supported by linked architectural record."
+      ],
+      "documented": {
+        "construction_year": "1892",
+        "architect": "Kurtzer & Rohl",
+        "source": "https://buildingblocks.villagepreservation.org/building/124-2nd-avenue/"
+      }
+    },
+    {
+      "id": "second-ave-126",
+      "address": "126 Second Avenue, Manhattan, New York, NY",
+      "side_of_second_avenue": "east",
+      "street_span": "E7\u2013St Marks",
+      "role": "in-area frontage",
+      "reference_photo": {
+        "url": "https://media.villagepreservation.org/wp-content/uploads/2020/05/15060556/126-2nd-ave.png",
+        "source_page": "https://buildingblocks.villagepreservation.org/building/126-2nd-avenue/",
+        "publisher": "Village Preservation / East Village Building Blocks",
+        "capture_date": null,
+        "capture_date_status": "not supplied by source",
+        "publication_or_upload_date": "2020-05",
+        "upload_is_not_capture_date": true,
+        "accessed": "2026-09-06",
+        "redistribute": false,
+        "rights": "Observation only; no reuse license established. Do not ship this photograph or derived image textures."
+      },
+      "observed": {
+        "floors_including_shop_level": 2,
+        "window_bays_primary": 3,
+        "materials_and_colors": "Deep red brick piers and spandrels; cream sculpted stone/terra-cotta framing",
+        "cornice_and_roof": "Dentils under brick parapet and curved central pediment",
+        "fire_escape_layout": "No front escape visible",
+        "window_composition_and_mass": "Exactly three round-arched upper windows separated by columns; flanking narrow decorative recesses; sculpted corner heads",
+        "storefront_physical_sign": "STOMP: huge italic white letters on black marquee; glass theatre doors below"
+      },
+      "current_tenant": {
+        "name": "Orpheum Theatre",
+        "status": "venue confirmed by owner; production/marquee not verified",
+        "checked": "2026-09-06",
+        "source": "https://www.libertytheatresusa.com/aboutorpheum/",
+        "source_type": "official owner website",
+        "detail": "STOMP lettering in photo is historical; STOMP run ended in 2023, not a current marquee."
+      },
+      "inference_and_limits": [
+        "Counts describe visible street elevation, not interior floors, legal unit counts, dimensions, or surveyed measurements.",
+        "Material names are visual observations unless supported by linked architectural record.",
+        "Historical STOMP status source: https://villagepreservation.org/2023/12/30/stomps-long-run-at-the-orpheum-theatre-2/"
+      ]
+    },
+    {
+      "id": "second-ave-128",
+      "address": "128 Second Avenue, Manhattan, New York, NY",
+      "side_of_second_avenue": "east",
+      "street_span": "E7\u2013St Marks",
+      "role": "in-area frontage",
+      "reference_photo": {
+        "url": "https://buildingblocks.villagepreservation.org/wp-content/uploads/2012/07/449_6_PRIMARYPHOTO.jpg",
+        "source_page": "https://buildingblocks.villagepreservation.org/building/128-2nd-avenue/",
+        "publisher": "Village Preservation / East Village Building Blocks",
+        "capture_date": null,
+        "capture_date_status": "EXIF DateTime exists, but no DateTimeOriginal. Possible capture/edit time; not asserted as capture date.",
+        "publication_or_upload_date": "2012-07",
+        "upload_is_not_capture_date": true,
+        "accessed": "2026-09-06",
+        "redistribute": false,
+        "rights": "Observation only; no reuse license established. Do not ship this photograph or derived image textures.",
+        "exif_datetime": "2012-06-01T12:31:13"
+      },
+      "observed": {
+        "floors_including_shop_level": 6,
+        "window_bays_primary": 4,
+        "materials_and_colors": "Aged pale buff/gray masonry with extensive terra-cotta ornament",
+        "cornice_and_roof": "Dark projecting bracketed cornice and distinctive broken pediment",
+        "fire_escape_layout": "Dark full-width-ish balconies across center pair; diagonal alternating stairs",
+        "window_composition_and_mass": "Four bays, close center pair; rounded fourth-story openings; outer pediments below; ornamental stringcourses",
+        "storefront_physical_sign": "Village 2 Smoke Shop on left: red awning and blue/red text; Stage Restaurant on right: cream/yellow/red sign"
+      },
+      "current_tenant": {
+        "name": null,
+        "status": "not verified; old photograph does not establish current occupancy",
+        "checked": "2026-09-06"
+      },
+      "inference_and_limits": [
+        "Counts describe visible street elevation, not interior floors, legal unit counts, dimensions, or surveyed measurements.",
+        "Material names are visual observations unless supported by linked architectural record."
+      ],
+      "documented": {
+        "construction_year": "1899",
+        "architect": "George Frederick Pelham",
+        "source": "https://buildingblocks.villagepreservation.org/building/128-2nd-avenue/"
+      }
+    },
+    {
+      "id": "second-ave-130",
+      "address": "130 Second Avenue / 38 St Marks Place, Manhattan, New York, NY",
+      "side_of_second_avenue": "east",
+      "street_span": "SE corner St Marks",
+      "role": "in-area frontage",
+      "reference_photo": {
+        "url": "https://buildingblocks.villagepreservation.org/wp-content/uploads/2012/07/449_7_PRIMARYPHOTO-639x424.jpg",
+        "source_page": "https://buildingblocks.villagepreservation.org/building/130-2nd-avenue/",
+        "publisher": "Village Preservation / East Village Building Blocks",
+        "capture_date": null,
+        "capture_date_status": "not supplied by source",
+        "publication_or_upload_date": "2012-07",
+        "upload_is_not_capture_date": true,
+        "accessed": "2026-09-06",
+        "redistribute": false,
+        "rights": "Observation only; no reuse license established. Do not ship this photograph or derived image textures."
+      },
+      "observed": {
+        "floors_including_shop_level": 2,
+        "window_bays_primary": null,
+        "materials_and_colors": "Light cream/tan small brick; gray metal infill beneath large glazing",
+        "cornice_and_roof": "Plain low parapet with roof terrace added later",
+        "fire_escape_layout": "No front escape",
+        "window_composition_and_mass": "Former bank: large recessed double-height central glazed composition, narrow outer windows; corner return has smaller rectangular openings",
+        "storefront_physical_sign": "CHASE white letters plus blue octagon on two faces in old survey photo"
+      },
+      "current_tenant": {
+        "name": null,
+        "status": "Swiss Institute at 38 St Marks Place is closed; successor occupant not verified",
+        "checked": "2026-09-06",
+        "source": "https://swissinstitute.net/visit/location",
+        "source_type": "official current location page",
+        "detail": "Official site announces move to 250 Bowery, reopening spring 2027."
+      },
+      "inference_and_limits": [
+        "Counts describe visible street elevation, not interior floors, legal unit counts, dimensions, or surveyed measurements.",
+        "Material names are visual observations unless supported by linked architectural record.",
+        "Survey image is pre-Swiss-Institute Chase bank appearance; use bank signage only for an explicitly historical scene. Gallery conversion altered storefront details in 2018."
+      ],
+      "documented": {
+        "construction_year": "1952",
+        "architect": "Lester S. LaPierre",
+        "source": "https://buildingblocks.villagepreservation.org/building/130-2nd-avenue/"
+      }
+    },
+    {
+      "id": "second-ave-131",
+      "address": "131 Second Avenue / 36 St Marks Place, Manhattan, New York, NY",
+      "side_of_second_avenue": "west",
+      "street_span": "SW corner St Marks",
+      "role": "western boundary context visible across Second Avenue",
+      "reference_photo": {
+        "url": "https://media.villagepreservation.org/wp-content/uploads/2020/05/15060601/131-2nd-ave.png",
+        "source_page": "https://villagepreservation.org/2018/08/02/many-layers-of-history-at-st-marks-and-2nd-avenue/",
+        "publisher": "Village Preservation / East Village Building Blocks",
+        "capture_date": null,
+        "capture_date_status": "not supplied by source",
+        "publication_or_upload_date": "2020-05",
+        "upload_is_not_capture_date": true,
+        "accessed": "2026-09-06",
+        "redistribute": false,
+        "rights": "Observation only; no reuse license established. Do not ship this photograph or derived image textures."
+      },
+      "observed": {
+        "floors_including_shop_level": 6,
+        "window_bays_primary": null,
+        "materials_and_colors": "Warm orange brick, pale simple lintels and sills",
+        "cornice_and_roof": "Continuous deep dark bracketed cornice wrapping corner",
+        "fire_escape_layout": "Several dark balcony/stair stacks across avenue elevation",
+        "window_composition_and_mass": "Five upper window rows visibly above shop level; long two-street facades with irregularly grouped rectangular openings",
+        "storefront_physical_sign": "GEM SPA yellow on black at corner; cream projecting awning; adjacent red Paul\u2019s and orange Little Tokyo shop signs"
+      },
+      "current_tenant": {
+        "name": null,
+        "status": "Unverified. GEM SPA is a historic physical sign, not asserted to be operating in 2026.",
+        "checked": "2026-09-06"
+      },
+      "inference_and_limits": [
+        "Counts describe visible street elevation, not interior floors, legal unit counts, dimensions, or surveyed measurements.",
+        "Material names are visual observations unless supported by linked architectural record.",
+        "Photo visibly has five upper window rows above shop level (six levels). The 2018 article calls this a five-story tenement; floor-count conflict remains explicit."
+      ]
+    },
+    {
+      "id": "second-ave-132-134",
+      "address": "132\u2013134 Second Avenue / 37\u00bd St Marks Place, Manhattan, New York, NY",
+      "side_of_second_avenue": "east",
+      "street_span": "NE corner St Marks",
+      "role": "in-area frontage",
+      "reference_photo": {
+        "url": "https://media.villagepreservation.org/wp-content/uploads/2020/05/15060559/132-134-2nd-ave.png",
+        "source_page": "https://villagepreservation.org/2018/08/02/many-layers-of-history-at-st-marks-and-2nd-avenue/",
+        "publisher": "Village Preservation / East Village Building Blocks",
+        "capture_date": null,
+        "capture_date_status": "not supplied by source",
+        "publication_or_upload_date": "2020-05",
+        "upload_is_not_capture_date": true,
+        "accessed": "2026-09-06",
+        "redistribute": false,
+        "rights": "Observation only; no reuse license established. Do not ship this photograph or derived image textures."
+      },
+      "observed": {
+        "floors_including_shop_level": 6,
+        "window_bays_primary": 4,
+        "materials_and_colors": "Gray/buff brick with extensive pale stone/terra-cotta surrounds",
+        "cornice_and_roof": "Dark projecting cornice with brackets and garland frieze, wraps corner",
+        "fire_escape_layout": "Black escape on avenue face and separate dark escape on St Marks face",
+        "window_composition_and_mass": "Four avenue bays; side facade includes central oval openings and varied pediments; corner/outer bays project slightly",
+        "storefront_physical_sign": "Black fascia and red awnings; full sign words not reliably legible"
+      },
+      "current_tenant": {
+        "name": null,
+        "status": "not verified; old photograph does not establish current occupancy",
+        "checked": "2026-09-06"
+      },
+      "inference_and_limits": [
+        "Counts describe visible street elevation, not interior floors, legal unit counts, dimensions, or surveyed measurements.",
+        "Material names are visual observations unless supported by linked architectural record."
+      ],
+      "documented": {
+        "construction_year": "1904",
+        "architect": "George Frederick Pelham",
+        "source": "https://villagepreservation.org/2018/08/02/many-layers-of-history-at-st-marks-and-2nd-avenue/"
+      }
+    },
+    {
+      "id": "second-ave-133",
+      "address": "133 Second Avenue, Manhattan, New York, NY",
+      "side_of_second_avenue": "west",
+      "street_span": "NW corner St Marks",
+      "role": "western boundary context visible across Second Avenue",
+      "reference_photo": {
+        "url": "https://media.villagepreservation.org/wp-content/uploads/2020/05/15060602/133-2nd-ave.png",
+        "source_page": "https://villagepreservation.org/2018/08/02/many-layers-of-history-at-st-marks-and-2nd-avenue/",
+        "publisher": "Village Preservation / East Village Building Blocks",
+        "capture_date": null,
+        "capture_date_status": "not supplied by source",
+        "publication_or_upload_date": "2020-05",
+        "upload_is_not_capture_date": true,
+        "accessed": "2026-09-06",
+        "redistribute": false,
+        "rights": "Observation only; no reuse license established. Do not ship this photograph or derived image textures."
+      },
+      "observed": {
+        "floors_including_shop_level": 5,
+        "window_bays_primary": null,
+        "materials_and_colors": "Ochre/yellow painted masonry grid; dark multi-pane industrial glazing",
+        "cornice_and_roof": "Flat parapet; no projecting ornamental cornice",
+        "fire_escape_layout": "Black steel escapes on both street faces",
+        "window_composition_and_mass": "Large multi-pane loft windows between strong vertical piers; corner windows wrap; second floor commercial glazing",
+        "storefront_physical_sign": "White coffee-shop lettering ending COFFEE on dark fascia; VIDEO GAMES red letters in second-floor windows. Exact coffee brand unverified."
+      },
+      "current_tenant": {
+        "name": null,
+        "status": "not verified; old photograph does not establish current occupancy",
+        "checked": "2026-09-06"
+      },
+      "inference_and_limits": [
+        "Counts describe visible street elevation, not interior floors, legal unit counts, dimensions, or surveyed measurements.",
+        "Material names are visual observations unless supported by linked architectural record.",
+        "Coffee brand transcription is uncertain at source resolution; treat physical color/layout as observed, exact brand as unverified."
+      ]
+    },
+    {
+      "id": "second-ave-135",
+      "address": "135 Second Avenue \u2014 Ottendorfer Library, Manhattan, New York, NY",
+      "side_of_second_avenue": "west",
+      "street_span": "St Marks\u2013E9",
+      "role": "western boundary context visible across Second Avenue",
+      "reference_photo": {
+        "url": "https://media.villagepreservation.org/wp-content/uploads/2020/05/15050645/IMG_6120-1024x683.jpg",
+        "source_page": "https://buildingblocks.villagepreservation.org/building/135-137-second-avenue/",
+        "publisher": "Village Preservation / East Village Building Blocks",
+        "capture_date": "2015-07-16T16:36:05",
+        "capture_date_status": "EXIF DateTimeOriginal; timezone unspecified",
+        "publication_or_upload_date": "2020-05",
+        "upload_is_not_capture_date": true,
+        "accessed": "2026-09-06",
+        "redistribute": false,
+        "rights": "Observation only; no reuse license established. Do not ship this photograph or derived image textures."
+      },
+      "observed": {
+        "floors_including_shop_level": 3,
+        "window_bays_primary": 3,
+        "materials_and_colors": "Red brick and matching red terra-cotta; gray base",
+        "cornice_and_roof": "Dark thin projecting cornice over ornate red frieze",
+        "fire_escape_layout": "No front fire escape",
+        "window_composition_and_mass": "Three round-arched windows per upper floor; huge arched ground opening; narrower and lower than adjoining dispensary",
+        "storefront_physical_sign": "Carved FREIE BIBLIOTHEK LESEHALLE panel; red NYPL flag"
+      },
+      "current_tenant": {
+        "name": "NYPL Ottendorfer Library",
+        "status": "library function documented; official location fetch blocked, so no live opening-status claim",
+        "checked": "2026-09-06",
+        "source": "https://www.nypl.org/locations/ottendorfer",
+        "physical_current_sign_verified": false
+      },
+      "inference_and_limits": [
+        "Counts describe visible street elevation, not interior floors, legal unit counts, dimensions, or surveyed measurements.",
+        "Material names are visual observations unless supported by linked architectural record."
+      ],
+      "documented": {
+        "construction_year": "1883\u20131884",
+        "architect": "William Schickel",
+        "source": "https://buildingblocks.villagepreservation.org/building/135-137-second-avenue/"
+      }
+    },
+    {
+      "id": "second-ave-137",
+      "address": "137 Second Avenue \u2014 German Dispensary / Stuyvesant Polyclinic, Manhattan, New York, NY",
+      "side_of_second_avenue": "west",
+      "street_span": "St Marks\u2013E9",
+      "role": "western boundary context visible across Second Avenue",
+      "reference_photo": {
+        "url": "https://media.villagepreservation.org/wp-content/uploads/2020/05/15050645/IMG_6120-1024x683.jpg",
+        "source_page": "https://buildingblocks.villagepreservation.org/building/135-137-second-avenue/",
+        "publisher": "Village Preservation / East Village Building Blocks",
+        "capture_date": "2015-07-16T16:36:05",
+        "capture_date_status": "EXIF DateTimeOriginal; timezone unspecified",
+        "publication_or_upload_date": "2020-05",
+        "upload_is_not_capture_date": true,
+        "accessed": "2026-09-06",
+        "redistribute": false,
+        "rights": "Observation only; no reuse license established. Do not ship this photograph or derived image textures."
+      },
+      "observed": {
+        "floors_including_shop_level": 3,
+        "window_bays_primary": 7,
+        "materials_and_colors": "Red brick and dense matching red terra-cotta, gray stone base",
+        "cornice_and_roof": "Dark cornice above frieze containing portrait medallions",
+        "fire_escape_layout": "No front fire escape",
+        "window_composition_and_mass": "Upper rhythm is paired side windows + three central arches + paired side windows; projecting central decorated bay and ornate entrance",
+        "storefront_physical_sign": "GERMAN DISPENSARY lettering integrated with central architecture; lower area partly hidden by tree"
+      },
+      "current_tenant": {
+        "name": null,
+        "status": "not verified; old photograph does not establish current occupancy",
+        "checked": "2026-09-06"
+      },
+      "inference_and_limits": [
+        "Counts describe visible street elevation, not interior floors, legal unit counts, dimensions, or surveyed measurements.",
+        "Material names are visual observations unless supported by linked architectural record."
+      ],
+      "documented": {
+        "construction_year": "1883\u20131884",
+        "architect": "William Schickel",
+        "source": "https://buildingblocks.villagepreservation.org/building/135-137-second-avenue/"
+      }
+    },
+    {
+      "id": "second-ave-138",
+      "address": "138 Second Avenue, Manhattan, New York, NY",
+      "side_of_second_avenue": "east",
+      "street_span": "St Marks\u2013E9",
+      "role": "in-area frontage",
+      "reference_photo": {
+        "url": "https://buildingblocks.villagepreservation.org/wp-content/uploads/2012/07/IMG_3080-e1543421112721-639x1184.jpg",
+        "source_page": "https://buildingblocks.villagepreservation.org/building/138-2nd-avenue/",
+        "publisher": "Village Preservation / East Village Building Blocks",
+        "capture_date": null,
+        "capture_date_status": "not supplied by source",
+        "publication_or_upload_date": "2012-07 path reused; filename edit timestamp suggests 2018 replacement",
+        "upload_is_not_capture_date": true,
+        "accessed": "2026-09-06",
+        "redistribute": false,
+        "rights": "Observation only; no reuse license established. Do not ship this photograph or derived image textures."
+      },
+      "observed": {
+        "floors_including_shop_level": 4,
+        "window_bays_primary": 3,
+        "materials_and_colors": "Red Flemish-bond brick; brownstone door surround; deep red/burgundy cornice",
+        "cornice_and_roof": "Heavy bracketed paneled cornice",
+        "fire_escape_layout": "No front escape visible",
+        "window_composition_and_mass": "Federal rowhouse; tall left stoop and arched Gibbs-surround door; projecting glazed shop bay to its right; tree conceals much of middle elevation",
+        "storefront_physical_sign": "fresco in white lower-case letters on gray/brown projecting storefront fascia"
+      },
+      "current_tenant": {
+        "name": null,
+        "status": "not verified; old photograph does not establish current occupancy",
+        "checked": "2026-09-06"
+      },
+      "inference_and_limits": [
+        "Counts describe visible street elevation, not interior floors, legal unit counts, dimensions, or surveyed measurements.",
+        "Material names are visual observations unless supported by linked architectural record.",
+        "Three-bay count partly inferred: tree conceals much of middle facade. Four stories plus basement is documented by Building Blocks."
+      ]
+    },
+    {
+      "id": "second-ave-140-142",
+      "address": "140\u2013142 Second Avenue \u2014 Ukrainian National Home, Manhattan, New York, NY",
+      "side_of_second_avenue": "east",
+      "street_span": "St Marks\u2013E9",
+      "role": "in-area frontage",
+      "reference_photo": {
+        "url": "https://buildingblocks.villagepreservation.org/wp-content/uploads/2012/07/450_6_PRIMARYPHOTO.jpg",
+        "source_page": "https://buildingblocks.villagepreservation.org/building/140-142-2nd-avenue/",
+        "publisher": "Village Preservation / East Village Building Blocks",
+        "capture_date": null,
+        "capture_date_status": "not supplied by source",
+        "publication_or_upload_date": "2012-07",
+        "upload_is_not_capture_date": true,
+        "accessed": "2026-09-06",
+        "redistribute": false,
+        "rights": "Observation only; no reuse license established. Do not ship this photograph or derived image textures."
+      },
+      "observed": {
+        "floors_including_shop_level": 5,
+        "window_bays_primary": 3,
+        "materials_and_colors": "White/silver metal-clad structural-looking grid over dark recessed wall areas",
+        "cornice_and_roof": "Flat top beam; no traditional cornice",
+        "fire_escape_layout": "No front escape visible",
+        "window_composition_and_mass": "Three large framed groups across each of top three stories; broad second-floor horizontal window band; ground central entrance",
+        "storefront_physical_sign": "UKRAINIAN NATIONAL HOME plus larger Ukrainian lettering across pale band; dark red entrance canopy"
+      },
+      "current_tenant": {
+        "name": null,
+        "status": "not verified; old photograph does not establish current occupancy",
+        "checked": "2026-09-06"
+      },
+      "inference_and_limits": [
+        "Counts describe visible street elevation, not interior floors, legal unit counts, dimensions, or surveyed measurements.",
+        "Material names are visual observations unless supported by linked architectural record."
+      ]
+    },
+    {
+      "id": "second-ave-144",
+      "address": "144 Second Avenue \u2014 Veselka, Manhattan, New York, NY",
+      "side_of_second_avenue": "east",
+      "street_span": "SE corner E9",
+      "role": "in-area frontage",
+      "reference_photo": {
+        "url": "https://buildingblocks.villagepreservation.org/wp-content/uploads/2012/07/450_8_PRIMARYPHOTO.jpg",
+        "source_page": "https://buildingblocks.villagepreservation.org/building/144-2nd-avenue/",
+        "publisher": "Village Preservation / East Village Building Blocks",
+        "capture_date": null,
+        "capture_date_status": "not supplied by source",
+        "publication_or_upload_date": "2012-07",
+        "upload_is_not_capture_date": true,
+        "accessed": "2026-09-06",
+        "redistribute": false,
+        "rights": "Observation only; no reuse license established. Do not ship this photograph or derived image textures."
+      },
+      "observed": {
+        "floors_including_shop_level": 3,
+        "window_bays_primary": 1,
+        "materials_and_colors": "Pale olive/gray rusticated stone front; brick side",
+        "cornice_and_roof": "Narrow bracketed storefront cornice; plain upper parapet",
+        "fire_escape_layout": "No front escape",
+        "window_composition_and_mass": "One giant decorated upper composition with a segmental arch over top-floor multi-pane window bank; two rows of broad grouped glazing; red/green garland border",
+        "storefront_physical_sign": "Dark green awning: VESELKA / \u0412\u0415\u0421\u0415\u041b\u041a\u0410 / 144 in white"
+      },
+      "current_tenant": {
+        "name": "Veselka",
+        "status": "confirmed at 144 Second Avenue",
+        "checked": "2026-09-06",
+        "source": "https://veselka.com/",
+        "source_type": "official restaurant website",
+        "physical_current_sign_verified": false
+      },
+      "inference_and_limits": [
+        "Counts describe visible street elevation, not interior floors, legal unit counts, dimensions, or surveyed measurements.",
+        "Material names are visual observations unless supported by linked architectural record."
+      ],
+      "documented": {
+        "construction_year": "1914\u20131915",
+        "architect": "Louis A. Sheinart",
+        "source": "https://buildingblocks.villagepreservation.org/building/144-2nd-avenue/"
+      }
+    },
+    {
+      "id": "second-ave-156",
+      "address": "156\u2013158 Second Avenue, Manhattan, New York, NY",
+      "side_of_second_avenue": "east",
+      "street_span": "SE corner E10",
+      "role": "in-area frontage",
+      "reference_photo": {
+        "url": "https://media.villagepreservation.org/wp-content/uploads/2024/10/08134506/451_6_PRIMARYPHOTO.jpg",
+        "source_page": "https://buildingblocks.villagepreservation.org/building/156-158-second-avenue/",
+        "publisher": "Village Preservation / East Village Building Blocks",
+        "capture_date": null,
+        "capture_date_status": "EXIF DateTime exists, but no DateTimeOriginal. Possible capture/edit time; not asserted as capture date.",
+        "publication_or_upload_date": "2024-10",
+        "upload_is_not_capture_date": true,
+        "accessed": "2026-09-06",
+        "redistribute": false,
+        "rights": "Observation only; no reuse license established. Do not ship this photograph or derived image textures.",
+        "exif_datetime": "2012-06-04T10:55:40"
+      },
+      "observed": {
+        "floors_including_shop_level": 6,
+        "window_bays_primary": 8,
+        "materials_and_colors": "Brown/red-brown brick; restrained light stone bands and gray shop base",
+        "cornice_and_roof": "Bracketed dark roof cornice; several raised parapet panels",
+        "fire_escape_layout": "Black diagonal fire escape on avenue facade; another visible on E10 elevation",
+        "window_composition_and_mass": "Eight avenue window openings across typical row, including tight outer pairs; deep central light court on E10 side gives H-shaped plan",
+        "storefront_physical_sign": "CHASE blue-and-white fascia wraps corner in survey photo"
+      },
+      "current_tenant": {
+        "name": null,
+        "status": "not verified; old photograph does not establish current occupancy",
+        "checked": "2026-09-06"
+      },
+      "inference_and_limits": [
+        "Counts describe visible street elevation, not interior floors, legal unit counts, dimensions, or surveyed measurements.",
+        "Material names are visual observations unless supported by linked architectural record.",
+        "Eight avenue openings is visual count; outer openings are closely paired. E10 H-plan light court must be separate from flat facade."
+      ],
+      "documented": {
+        "construction_year": "1915",
+        "architect": "Neville & Bagge",
+        "source": "https://buildingblocks.villagepreservation.org/building/156-158-second-avenue/"
+      }
+    },
+    {
+      "id": "second-ave-160",
+      "address": "160 Second Avenue, Manhattan, New York, NY",
+      "side_of_second_avenue": "east",
+      "street_span": "NE corner E10",
+      "role": "in-area frontage",
+      "reference_photo": {
+        "url": "https://buildingblocks.villagepreservation.org/wp-content/uploads/2012/07/452_1_PRIMARYPHOTO.jpg",
+        "source_page": "https://buildingblocks.villagepreservation.org/building/160-second-avenue/",
+        "publisher": "Village Preservation / East Village Building Blocks",
+        "capture_date": null,
+        "capture_date_status": "EXIF DateTime exists, but no DateTimeOriginal. Possible capture/edit time; not asserted as capture date.",
+        "publication_or_upload_date": "2012-07",
+        "upload_is_not_capture_date": true,
+        "accessed": "2026-09-06",
+        "redistribute": false,
+        "rights": "Observation only; no reuse license established. Do not ship this photograph or derived image textures.",
+        "exif_datetime": "2012-06-04T12:02:08"
+      },
+      "observed": {
+        "floors_including_shop_level": 5,
+        "window_bays_primary": 3,
+        "materials_and_colors": "Orange/red brick with pale trim and carved panels; dark green storefront base",
+        "cornice_and_roof": "Deep dark bracketed cornice with paneled frieze",
+        "fire_escape_layout": "Black escape on three-bay avenue frontage",
+        "window_composition_and_mass": "Three narrow avenue windows; much longer E10 side with vertical pilasters; arched top-story windows; round-arched side entrance",
+        "storefront_physical_sign": "Green storefront trim; tenant letters obscured/too small to transcribe reliably"
+      },
+      "current_tenant": {
+        "name": null,
+        "status": "not verified; old photograph does not establish current occupancy",
+        "checked": "2026-09-06"
+      },
+      "inference_and_limits": [
+        "Counts describe visible street elevation, not interior floors, legal unit counts, dimensions, or surveyed measurements.",
+        "Material names are visual observations unless supported by linked architectural record."
+      ]
+    },
+    {
+      "id": "second-ave-166",
+      "address": "166 Second Avenue \u2014 Warren Hall, Manhattan, New York, NY",
+      "side_of_second_avenue": "east",
+      "street_span": "E10\u2013E11",
+      "role": "in-area frontage",
+      "reference_photo": {
+        "url": "https://buildingblocks.villagepreservation.org/wp-content/uploads/2012/07/452-2-PRIMARYPHOTO.jpg",
+        "source_page": "https://buildingblocks.villagepreservation.org/building/166-second-avenue/",
+        "publisher": "Village Preservation / East Village Building Blocks",
+        "capture_date": null,
+        "capture_date_status": "EXIF DateTime exists, but no DateTimeOriginal. Possible capture/edit time; not asserted as capture date.",
+        "publication_or_upload_date": "2012-07",
+        "upload_is_not_capture_date": true,
+        "accessed": "2026-09-06",
+        "redistribute": false,
+        "rights": "Observation only; no reuse license established. Do not ship this photograph or derived image textures.",
+        "exif_datetime": "2012-06-04T12:05:21"
+      },
+      "observed": {
+        "floors_including_shop_level": 15,
+        "window_bays_primary": null,
+        "materials_and_colors": "Buff/tan brick, pale incised stone entrance detailing",
+        "cornice_and_roof": "Stepped tower with three round-arched openings; no tenement cornice",
+        "fire_escape_layout": "No external avenue escape visible",
+        "window_composition_and_mass": "Tall narrow apartment slab with repeated rectangular windows between continuous piers; central tower rises above main roof; pointed entrance openings",
+        "storefront_physical_sign": "Survey ground signs mostly blocked by trees/vehicles; Baptist Tabernacle is documented architectural inscription"
+      },
+      "current_tenant": {
+        "name": null,
+        "status": "not verified; old photograph does not establish current occupancy",
+        "checked": "2026-09-06"
+      },
+      "inference_and_limits": [
+        "Counts describe visible street elevation, not interior floors, legal unit counts, dimensions, or surveyed measurements.",
+        "Material names are visual observations unless supported by linked architectural record.",
+        "Architectural record says 15 stories with tower; modern listing reports 16. Model main slab plus tower explicitly rather than 16 identical full floors."
+      ],
+      "documented": {
+        "construction_year": "1929",
+        "architect": "Emery Roth",
+        "source": "https://buildingblocks.villagepreservation.org/building/166-second-avenue/"
+      }
+    },
+    {
+      "id": "second-ave-170",
+      "address": "170 Second Avenue \u2014 Peter Stuyvesant Apartments, Manhattan, New York, NY",
+      "side_of_second_avenue": "east",
+      "street_span": "SE corner E11",
+      "role": "in-area frontage",
+      "reference_photo": {
+        "url": "https://buildingblocks.villagepreservation.org/wp-content/uploads/2012/07/452_6_PRIMARYPHOTO.jpg",
+        "source_page": "https://buildingblocks.villagepreservation.org/building/170-second-avenue/",
+        "publisher": "Village Preservation / East Village Building Blocks",
+        "capture_date": null,
+        "capture_date_status": "EXIF DateTime exists, but no DateTimeOriginal. Possible capture/edit time; not asserted as capture date.",
+        "publication_or_upload_date": "2012-07",
+        "upload_is_not_capture_date": true,
+        "accessed": "2026-09-06",
+        "redistribute": false,
+        "rights": "Observation only; no reuse license established. Do not ship this photograph or derived image textures.",
+        "exif_datetime": "2012-06-04T12:06:24"
+      },
+      "observed": {
+        "floors_including_shop_level": 15,
+        "window_bays_primary": null,
+        "materials_and_colors": "Buff brick with pale bands and relief panels; light stone lower levels",
+        "cornice_and_roof": "Stepped flat roof/parapets with vertical decorative crown details",
+        "fire_escape_layout": "No external escape on photographed street elevations",
+        "window_composition_and_mass": "Broad slab: dense regular rectangular window matrix; vertical piers; selected floors have framed windows; north return has pointed-arched former doorway",
+        "storefront_physical_sign": "Dark and light ground-floor storefront panels; exact tenant words not legible"
+      },
+      "current_tenant": {
+        "name": null,
+        "status": "not verified; old photograph does not establish current occupancy",
+        "checked": "2026-09-06"
+      },
+      "inference_and_limits": [
+        "Counts describe visible street elevation, not interior floors, legal unit counts, dimensions, or surveyed measurements.",
+        "Material names are visual observations unless supported by linked architectural record."
+      ],
+      "documented": {
+        "construction_year": "1927",
+        "architect": "Segal & Sohn",
+        "source": "https://buildingblocks.villagepreservation.org/building/170-second-avenue/"
+      }
+    },
+    {
+      "id": "second-ave-174",
+      "address": "174 Second Avenue / 293\u2013299 East 11th Street, Manhattan, New York, NY",
+      "side_of_second_avenue": "east",
+      "street_span": "NE corner E11",
+      "role": "in-area frontage",
+      "reference_photo": {
+        "url": "https://buildingblocks.villagepreservation.org/wp-content/uploads/2012/07/453_1_PRIMARYPHOTO_10.7.14-639x777.jpg",
+        "source_page": "https://buildingblocks.villagepreservation.org/building/174-2nd-avenue/",
+        "publisher": "Village Preservation / East Village Building Blocks",
+        "capture_date": null,
+        "capture_date_status": "Filename contains 10.7.14, plausibly 2014-10-07; not an explicit caption/EXIF capture date.",
+        "publication_or_upload_date": "2012-07 path reused; filename suggests image later replaced in 2014",
+        "upload_is_not_capture_date": true,
+        "accessed": "2026-09-06",
+        "redistribute": false,
+        "rights": "Observation only; no reuse license established. Do not ship this photograph or derived image textures."
+      },
+      "observed": {
+        "floors_including_shop_level": 5,
+        "window_bays_primary": 3,
+        "materials_and_colors": "Pale beige/tan stucco-like wall surface; cream shop base",
+        "cornice_and_roof": "Plain parapet, no historic cornice",
+        "fire_escape_layout": "Dark metal zigzag fire-escape stack on avenue elevation",
+        "window_composition_and_mass": "Three-bay parcel facade at avenue; corner building has long side return; low first/second floor extension with railing and large rectangular glazing",
+        "storefront_physical_sign": "Small shop signs visible but insufficient resolution for safe transcription"
+      },
+      "current_tenant": {
+        "name": null,
+        "status": "not verified; old photograph does not establish current occupancy",
+        "checked": "2026-09-06"
+      },
+      "inference_and_limits": [
+        "Counts describe visible street elevation, not interior floors, legal unit counts, dimensions, or surveyed measurements.",
+        "Material names are visual observations unless supported by linked architectural record.",
+        "Three avenue bays inferred from rowhouse parcel boundary; wide corner photo also includes adjacent 176. Verify parcel boundary before meshing."
+      ]
+    },
+    {
+      "id": "second-ave-176",
+      "address": "176 Second Avenue, Manhattan, New York, NY",
+      "side_of_second_avenue": "east",
+      "street_span": "E11\u2013E12",
+      "role": "in-area frontage",
+      "reference_photo": {
+        "url": "https://buildingblocks.villagepreservation.org/wp-content/uploads/2012/07/453_2_PRIMARYPHOTO.jpg",
+        "source_page": "https://buildingblocks.villagepreservation.org/building/176-2nd-avenue/",
+        "publisher": "Village Preservation / East Village Building Blocks",
+        "capture_date": null,
+        "capture_date_status": "not supplied by source",
+        "publication_or_upload_date": "2012-07",
+        "upload_is_not_capture_date": true,
+        "accessed": "2026-09-06",
+        "redistribute": false,
+        "rights": "Observation only; no reuse license established. Do not ship this photograph or derived image textures."
+      },
+      "observed": {
+        "floors_including_shop_level": 5,
+        "window_bays_primary": 3,
+        "materials_and_colors": "Patchy beige stucco upper wall; muted salmon/brown lower extension",
+        "cornice_and_roof": "Plain parapet, historic cornice gone",
+        "fire_escape_layout": "Black escape offset to right of three-bay parcel, diagonal stairs and wide landing",
+        "window_composition_and_mass": "Three windows across upper parcel; second-floor forward extension has almost continuous broad dark glazing; adjacent 174 visually shares wall finish",
+        "storefront_physical_sign": "SINGAS FAMOUS PIZZA in white on green fascia; 176 at left"
+      },
+      "current_tenant": {
+        "name": null,
+        "status": "not verified; old photograph does not establish current occupancy",
+        "checked": "2026-09-06"
+      },
+      "inference_and_limits": [
+        "Counts describe visible street elevation, not interior floors, legal unit counts, dimensions, or surveyed measurements.",
+        "Material names are visual observations unless supported by linked architectural record.",
+        "Photo includes part of visually continuous neighbor 174; do not mistake all five visible upper windows for this parcel alone."
+      ]
+    },
+    {
+      "id": "second-ave-178",
+      "address": "178 Second Avenue, Manhattan, New York, NY",
+      "side_of_second_avenue": "east",
+      "street_span": "E11\u2013E12",
+      "role": "in-area frontage",
+      "reference_photo": {
+        "url": "https://buildingblocks.villagepreservation.org/wp-content/uploads/2012/07/453_3_PRIMARYPHOTO.jpg",
+        "source_page": "https://buildingblocks.villagepreservation.org/building/178-2nd-avenue/",
+        "publisher": "Village Preservation / East Village Building Blocks",
+        "capture_date": null,
+        "capture_date_status": "not supplied by source",
+        "publication_or_upload_date": "2012-07",
+        "upload_is_not_capture_date": true,
+        "accessed": "2026-09-06",
+        "redistribute": false,
+        "rights": "Observation only; no reuse license established. Do not ship this photograph or derived image textures."
+      },
+      "observed": {
+        "floors_including_shop_level": 4,
+        "window_bays_primary": 3,
+        "materials_and_colors": "Plain gray-beige rendered/painted brick facade; white lower fascia",
+        "cornice_and_roof": "Flat plain parapet with simple roof rail",
+        "fire_escape_layout": "No avenue escape visible",
+        "window_composition_and_mass": "Three narrow regular upper windows; upper wall set behind low extended storefront",
+        "storefront_physical_sign": "PANGEA white lettering on blue awning/fascia"
+      },
+      "current_tenant": {
+        "name": "Pangea",
+        "status": "official restaurant website active; contemporary 2026 article confirms 178 Second Avenue",
+        "checked": "2026-09-06",
+        "sources": [
+          "https://www.pangeanyc.com/",
+          "https://passportmagazine.com/pangea/"
+        ],
+        "physical_current_sign_verified": false
+      },
+      "inference_and_limits": [
+        "Counts describe visible street elevation, not interior floors, legal unit counts, dimensions, or surveyed measurements.",
+        "Material names are visual observations unless supported by linked architectural record."
+      ]
+    },
+    {
+      "id": "second-ave-180",
+      "address": "180 Second Avenue, Manhattan, New York, NY",
+      "side_of_second_avenue": "east",
+      "street_span": "E11\u2013E12",
+      "role": "in-area frontage",
+      "reference_photo": {
+        "url": "https://buildingblocks.villagepreservation.org/wp-content/uploads/2012/07/453_4_PRIMARYPHOTO.jpg",
+        "source_page": "https://buildingblocks.villagepreservation.org/building/180-2nd-avenue/",
+        "publisher": "Village Preservation / East Village Building Blocks",
+        "capture_date": null,
+        "capture_date_status": "not supplied by source",
+        "publication_or_upload_date": "2012-07",
+        "upload_is_not_capture_date": true,
+        "accessed": "2026-09-06",
+        "redistribute": false,
+        "rights": "Observation only; no reuse license established. Do not ship this photograph or derived image textures."
+      },
+      "observed": {
+        "floors_including_shop_level": 4,
+        "window_bays_primary": 3,
+        "materials_and_colors": "White/light gray horizontal aluminum cladding, darker joints",
+        "cornice_and_roof": "Plain flat parapet; historic cornice removed",
+        "fire_escape_layout": "No avenue escape visible",
+        "window_composition_and_mass": "Three openings per upper row; projecting lower commercial structure with large continuous curtained window strip",
+        "storefront_physical_sign": "Ground door/signage mostly shadowed and blocked; no reliable tenant transcription"
+      },
+      "current_tenant": {
+        "name": null,
+        "status": "not verified; old photograph does not establish current occupancy",
+        "checked": "2026-09-06"
+      },
+      "inference_and_limits": [
+        "Counts describe visible street elevation, not interior floors, legal unit counts, dimensions, or surveyed measurements.",
+        "Material names are visual observations unless supported by linked architectural record."
+      ]
+    },
+    {
+      "id": "second-ave-182",
+      "address": "182 Second Avenue, Manhattan, New York, NY",
+      "side_of_second_avenue": "east",
+      "street_span": "E11\u2013E12",
+      "role": "in-area frontage",
+      "reference_photo": {
+        "url": "https://buildingblocks.villagepreservation.org/wp-content/uploads/2012/07/453_5_PRIMARYPHOTO.jpg",
+        "source_page": "https://buildingblocks.villagepreservation.org/building/182-2nd-avenue/",
+        "publisher": "Village Preservation / East Village Building Blocks",
+        "capture_date": null,
+        "capture_date_status": "not supplied by source",
+        "publication_or_upload_date": "2012-07",
+        "upload_is_not_capture_date": true,
+        "accessed": "2026-09-06",
+        "redistribute": false,
+        "rights": "Observation only; no reuse license established. Do not ship this photograph or derived image textures."
+      },
+      "observed": {
+        "floors_including_shop_level": 4,
+        "window_bays_primary": 3,
+        "materials_and_colors": "Red/brown brick with pale simple sills",
+        "cornice_and_roof": "Dark bracketed cornice with decorative frieze",
+        "fire_escape_layout": "Broad rusty brown escape spans left/center bays; diagonal alternating stairs",
+        "window_composition_and_mass": "Three windows across, plus raised ground/parlor level above basement storefront; no projecting second-story glass box",
+        "storefront_physical_sign": "Basement restaurant sign too small to transcribe reliably"
+      },
+      "current_tenant": {
+        "name": null,
+        "status": "not verified; old photograph does not establish current occupancy",
+        "checked": "2026-09-06"
+      },
+      "inference_and_limits": [
+        "Counts describe visible street elevation, not interior floors, legal unit counts, dimensions, or surveyed measurements.",
+        "Material names are visual observations unless supported by linked architectural record."
+      ]
+    },
+    {
+      "id": "second-ave-184",
+      "address": "184 Second Avenue, Manhattan, New York, NY",
+      "side_of_second_avenue": "east",
+      "street_span": "E11\u2013E12",
+      "role": "in-area frontage",
+      "reference_photo": {
+        "url": "https://buildingblocks.villagepreservation.org/wp-content/uploads/2012/07/453_6_PRIMARYPHOTO.jpg",
+        "source_page": "https://buildingblocks.villagepreservation.org/building/184-2nd-avenue/",
+        "publisher": "Village Preservation / East Village Building Blocks",
+        "capture_date": null,
+        "capture_date_status": "not supplied by source",
+        "publication_or_upload_date": "2012-07",
+        "upload_is_not_capture_date": true,
+        "accessed": "2026-09-06",
+        "redistribute": false,
+        "rights": "Observation only; no reuse license established. Do not ship this photograph or derived image textures."
+      },
+      "observed": {
+        "floors_including_shop_level": 5,
+        "window_bays_primary": 3,
+        "materials_and_colors": "Smooth white/light gray upper facade; darker lower shop walls",
+        "cornice_and_roof": "Flat parapet and roof rail; cornice removed",
+        "fire_escape_layout": "No escape on central white frontage",
+        "window_composition_and_mass": "Three narrow upper bays; projecting second-story commercial box; two horizontal window sections behind dentist fascia",
+        "storefront_physical_sign": "DENTIST on blue upper sign; THE OPEN PANTRY on lower pale band; green awning"
+      },
+      "current_tenant": {
+        "name": null,
+        "status": "not verified; old photograph does not establish current occupancy",
+        "checked": "2026-09-06"
+      },
+      "inference_and_limits": [
+        "Counts describe visible street elevation, not interior floors, legal unit counts, dimensions, or surveyed measurements.",
+        "Material names are visual observations unless supported by linked architectural record."
+      ]
+    },
+    {
+      "id": "second-ave-186",
+      "address": "186 Second Avenue, Manhattan, New York, NY",
+      "side_of_second_avenue": "east",
+      "street_span": "E11\u2013E12",
+      "role": "in-area frontage",
+      "reference_photo": {
+        "url": "https://buildingblocks.villagepreservation.org/wp-content/uploads/2012/07/453_7_PRIMARYPHOTO.jpg",
+        "source_page": "https://buildingblocks.villagepreservation.org/building/186-2nd-avenue/",
+        "publisher": "Village Preservation / East Village Building Blocks",
+        "capture_date": null,
+        "capture_date_status": "not supplied by source",
+        "publication_or_upload_date": "2012-07",
+        "upload_is_not_capture_date": true,
+        "accessed": "2026-09-06",
+        "redistribute": false,
+        "rights": "Observation only; no reuse license established. Do not ship this photograph or derived image textures."
+      },
+      "observed": {
+        "floors_including_shop_level": 4,
+        "window_bays_primary": 3,
+        "materials_and_colors": "Warm red brick, cream lintels, dark green cornice",
+        "cornice_and_roof": "Wide green bracketed cornice with frieze",
+        "fire_escape_layout": "Rust-colored metal escape across center/right windows; diagonal alternating flights",
+        "window_composition_and_mass": "Three windows per upper row; high stoop at right to raised entrance; basement shop entry below",
+        "storefront_physical_sign": "East Village Thrift Shop in white script on dark awning/fascia"
+      },
+      "current_tenant": {
+        "name": null,
+        "status": "not verified; old photograph does not establish current occupancy",
+        "checked": "2026-09-06"
+      },
+      "inference_and_limits": [
+        "Counts describe visible street elevation, not interior floors, legal unit counts, dimensions, or surveyed measurements.",
+        "Material names are visual observations unless supported by linked architectural record."
+      ]
+    },
+    {
+      "id": "second-ave-190",
+      "address": "188\u2013190 Second Avenue / 300 East 12th Street, Manhattan, New York, NY",
+      "side_of_second_avenue": "east",
+      "street_span": "SE corner E12",
+      "role": "in-area frontage",
+      "reference_photo": {
+        "url": "https://buildingblocks.villagepreservation.org/wp-content/uploads/2012/07/453_8_PRIMARYPHOTO.jpg",
+        "source_page": "https://buildingblocks.villagepreservation.org/building/190-2nd-avenue/",
+        "publisher": "Village Preservation / East Village Building Blocks",
+        "capture_date": null,
+        "capture_date_status": "not supplied by source",
+        "publication_or_upload_date": "2012-07",
+        "upload_is_not_capture_date": true,
+        "accessed": "2026-09-06",
+        "redistribute": false,
+        "rights": "Observation only; no reuse license established. Do not ship this photograph or derived image textures."
+      },
+      "observed": {
+        "floors_including_shop_level": 6,
+        "window_bays_primary": 5,
+        "materials_and_colors": "Vivid red brick with cream terra-cotta/stone ornament and quoins",
+        "cornice_and_roof": "Large pale bracketed cornice with garland frieze wrapping chamfered corner",
+        "fire_escape_layout": "Rust red escape spans central avenue windows; strong diagonal flights",
+        "window_composition_and_mass": "Five flat avenue bays plus one chamfered-corner bay; long E12 elevation; linked third/fourth-floor surrounds and mixed pediments",
+        "storefront_physical_sign": "SHIMA JAPANESE CUISINE white on blue sign/awning in survey photo"
+      },
+      "current_tenant": {
+        "name": "Five Guys",
+        "status": "reported at this building by preservation organization on 2025-10-23; not independently live-verified in September 2026",
+        "as_of": "2025-10-23",
+        "checked": "2026-09-06",
+        "source": "https://villagepreservation.org/2025/10/23/intersecting-histories-the-corner-of-second-avenue-and-12th-street/",
+        "physical_current_sign_verified": false
+      },
+      "inference_and_limits": [
+        "Counts describe visible street elevation, not interior floors, legal unit counts, dimensions, or surveyed measurements.",
+        "Material names are visual observations unless supported by linked architectural record.",
+        "Bay count is five flat avenue bays plus chamfered corner; the long left elevation in photograph is East 12th Street."
+      ],
+      "documented": {
+        "construction_year": "1903",
+        "architect": "Bernstein & Bernstein",
+        "source": "https://buildingblocks.villagepreservation.org/building/190-2nd-avenue/"
+      }
+    },
+    {
+      "id": "second-ave-church",
+      "address": "131 East 10th Street \u2014 St Marks Church-in-the-Bowery, Manhattan, New York, NY",
+      "side_of_second_avenue": "west",
+      "street_span": "NW corner E10 / Stuyvesant Street",
+      "role": "western boundary context visible across Second Avenue",
+      "reference_photo": {
+        "url": "https://buildingblocks.villagepreservation.org/wp-content/uploads/2012/07/466_26_PHOTOPRIMARY.jpg",
+        "source_page": "https://buildingblocks.villagepreservation.org/building/131-east-10th-street/",
+        "publisher": "Village Preservation / East Village Building Blocks",
+        "capture_date": null,
+        "capture_date_status": "not supplied by source",
+        "publication_or_upload_date": "2012-07",
+        "upload_is_not_capture_date": true,
+        "accessed": "2026-09-06",
+        "redistribute": false,
+        "rights": "Observation only; no reuse license established. Do not ship this photograph or derived image textures."
+      },
+      "observed": {
+        "floors_including_shop_level": null,
+        "window_bays_primary": null,
+        "materials_and_colors": "Rough gray/brown fieldstone nave; pale gray cast-iron portico; pale tan steeple",
+        "cornice_and_roof": "Pitched nave roof and pediment; tall central multi-stage steeple with needle spire",
+        "fire_escape_layout": "No front escape",
+        "window_composition_and_mass": "Set back behind iron fence and trees; three front round-arched window positions; long side has two tiers of arched openings; front cast-iron arcade",
+        "storefront_physical_sign": "Institutional church signage/banners on fence; no storefront"
+      },
+      "current_tenant": {
+        "name": "St Marks Church-in-the-Bowery",
+        "status": "institutional identity documented; no live event/status check",
+        "checked": "2026-09-06",
+        "source": "https://buildingblocks.villagepreservation.org/building/131-east-10th-street/",
+        "physical_current_sign_verified": false
+      },
+      "inference_and_limits": [
+        "Counts describe visible street elevation, not interior floors, legal unit counts, dimensions, or surveyed measurements.",
+        "Material names are visual observations unless supported by linked architectural record."
+      ]
+    },
+    {
+      "id": "second-ave-181-189",
+      "address": "181\u2013189 Second Avenue \u2014 Village East by Angelika, Manhattan, New York, NY",
+      "side_of_second_avenue": "west",
+      "street_span": "SW corner E12",
+      "role": "western boundary context visible across Second Avenue",
+      "reference_photo": {
+        "url": "https://buildingblocks.villagepreservation.org/wp-content/uploads/2012/07/467_31_PRIMARYPHOTO.jpg",
+        "source_page": "https://buildingblocks.villagepreservation.org/building/183-189-second-avenue/",
+        "publisher": "Village Preservation / East Village Building Blocks",
+        "capture_date": null,
+        "capture_date_status": "not supplied by source",
+        "publication_or_upload_date": "2012-07",
+        "upload_is_not_capture_date": true,
+        "accessed": "2026-09-06",
+        "redistribute": false,
+        "rights": "Observation only; no reuse license established. Do not ship this photograph or derived image textures."
+      },
+      "observed": {
+        "floors_including_shop_level": 3,
+        "window_bays_primary": 6,
+        "materials_and_colors": "Pale cream cast stone avenue front; tall rear auditorium is brown brick",
+        "cornice_and_roof": "Flat parapets; taller central/north entrance block",
+        "fire_escape_layout": "No front tenement escape; theatre side exits/stairs belong to auditorium wing",
+        "window_composition_and_mass": "Six main avenue architectural bays with arched lower openings; upper small paired arches; monumental double-height horseshoe-like arched window near corner",
+        "storefront_physical_sign": "VILLAGE EAST vertical black marquee and white film-title board in older photo"
+      },
+      "current_tenant": {
+        "name": "Village East by Angelika",
+        "status": "confirmed in preservation report dated 2026-02-23 and official venue URL active",
+        "as_of": "2026-02-23",
+        "checked": "2026-09-06",
+        "sources": [
+          "https://villagepreservation.org/2026/02/23/oy-a-history-of-the-village-east/",
+          "https://angelikafilmcenter.com/villageeast"
+        ],
+        "physical_current_sign_verified": false
+      },
+      "inference_and_limits": [
+        "Counts describe visible street elevation, not interior floors, legal unit counts, dimensions, or surveyed measurements.",
+        "Material names are visual observations unless supported by linked architectural record."
+      ],
+      "documented": {
+        "construction_year": "1925\u20131926",
+        "architect": "Harrison Wiseman",
+        "source": "https://buildingblocks.villagepreservation.org/building/183-189-second-avenue/"
+      }
+    }
+  ]
+}

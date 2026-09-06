@@ -1,0 +1,30 @@
+name: Bug report
+description: Report a problem with loading, controls, navigation, or rendering.
+title: "[Bug] "
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What happened?
+      description: Describe the problem and what you expected to happen.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      description: Include the street or map destination, walk/drive mode, and controls used.
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Browser and device
+      description: Browser/version, operating system, and graphics hardware if known.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Screenshots, recordings, or console errors
+      description: For performance issues, include the route tested and how you measured frame rate. Remove personal information from logs.

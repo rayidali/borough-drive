@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><meta name="theme-color" content="#172b32">
+<title>Borough Drive — East Village</title><meta name="description" content="Take the slow way through New York. A playable East Village driving prototype built on real streets, building footprints and mapped places.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23172b32'/%3E%3Cpath d='M13 6v20M19 6v20' stroke='%23fbc35a' stroke-width='3'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="./style.css">
+<script type="importmap">{"imports":{"three":"./vendor/three.module.js"}}</script>
+</head>
+<body>
+<main id="game" aria-label="East Village driving game"><canvas id="world" aria-label="Three-dimensional East Village street view"></canvas>
+<div id="loading" role="status"><div class="loading-mark">b<span>d</span></div><p id="load-message">Finding our way to the East Village…</p><div class="loading-track"><i></i></div></div>
+<header class="topbar">
+<div class="brand" aria-label="Borough Drive"><span class="brand-symbol">b<span>d</span></span><div>borough<span>drive</span></div><span class="edition">NEW YORK / 01</span></div>
+<div class="top-actions"><button id="find-button" class="glass search-button" title="Find a place (M)"><span class="search-icon">⌕</span><span>Find an address or a place</span><kbd>M</kbd></button><button id="time-button" class="glass" title="Change time of day">◒ <span>Golden hour</span></button><button id="sound-button" class="glass icon-button" aria-label="Enable engine sound" title="Sound">♫<span class="sound-slash">╱</span></button></div>
+</header>
+<section id="welcome" class="welcome">
+<div class="eyebrow"><span class="tiny-line"></span> THE NEIGHBORHOOD SERIES</div>
+<h1>The East<br>Village.</h1><p class="intro">A little less hurry.<br>A little more New York.</p>
+<div class="location-line">MANHATTAN <span>40.727° N &nbsp; 73.985° W</span></div>
+<button id="start-button" class="primary">Let’s drive <span>↗</span></button>
+<div class="start-hint"><kbd>W</kbd><kbd>A</kbd><kbd>S</kbd><kbd>D</kbd> or arrow keys to drive</div>
+</section>
+<div id="street-chip" class="street-chip glass"><span class="road-symbol">Ⅱ</span><div><strong id="street-name">Avenue A</strong><span id="street-area">EAST VILLAGE, MANHATTAN</span></div><span id="heading">N</span></div>
+<div id="notice" role="status" class="notice"></div>
+<aside class="minimap-panel glass"><div class="minimap-heading"><span>EAST VILLAGE</span><button id="expand-map" aria-label="Open neighborhood map" title="Open map">⤢</button></div><canvas id="minimap" width="480" height="380" aria-label="Map showing your current location"></canvas><div class="map-caption"><span class="car-dot"></span> YOU ARE HERE <span id="map-scale">200 m</span></div></aside>
+<div class="drive-hud" id="drive-hud"><div class="speed"><span id="speed">0</span><div><strong id="gear">N</strong><span>MPH</span></div></div><div class="speed-track"><i id="speed-bar"></i></div><div class="trip"><span id="distance">0.00 mi</span><span>FREE ROAM</span></div></div>
+<div id="drive-tools" class="drive-tools"><button id="camera-button" class="glass" title="Change camera (C)">▣ <span>Chase</span><kbd>C</kbd></button><button id="reset-button" class="glass" title="Return to the road (R)">↺ <span>Reset</span></button><button id="pause-button" class="glass icon-button" title="Pause (Esc)" aria-label="Pause game">Ⅱ</button></div>
+<footer><button id="about-button">Real streets. A stylized city. <span>ⓘ</span></button><div><a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">© OpenStreetMap contributors</a><span class="footer-separator">/</span><span id="snapshot-label">MAP SNAPSHOT</span></div></footer>
+<div class="touch-controls"><div class="touch-steering"><button data-key="ArrowLeft" aria-label="Steer left">←</button><button data-key="ArrowRight" aria-label="Steer right">→</button></div><div class="touch-pedals"><button data-key="ArrowDown" aria-label="Brake and reverse">BRAKE</button><button data-key="ArrowUp" aria-label="Accelerate">GO</button></div></div>
+<dialog id="map-dialog" class="map-dialog"><div class="dialog-top"><div><div class="eyebrow">YOUR NEIGHBORHOOD</div><h2>Where to?</h2></div><button class="close-button" data-close="map-dialog" aria-label="Close map">×</button></div><div class="map-layout"><section class="map-search"><label for="place-search">Find an address, street or mapped place</label><div class="input-wrap"><span>⌕</span><input id="place-search" autocomplete="off" placeholder="Try 125 East 7th Street" type="search"></div><div id="search-results" aria-live="polite"></div><p class="map-note">Choose a result to arrive on the nearest street. Coverage is limited to this map; some addresses and businesses are missing.</p></section><div class="large-map-wrap"><canvas id="large-map" aria-label="East Village map. Click a street to move there."></canvas><span class="map-instruction">Click any street to start there</span></div></div></dialog>
+<dialog id="about-dialog" class="about-dialog"><button class="close-button" data-close="about-dialog" aria-label="Close information">×</button><div class="eyebrow">BOROUGH DRIVE / FIRST EXPLORATION</div><h2>Real geography.<br>A slower perspective.</h2><p>A playable slice of the East Village and surrounding blocks, built from real OpenStreetMap street lines, building footprints and available heights.</p><div class="facts"><div><strong id="building-count">—</strong><span>mapped buildings</span></div><div><strong id="places-count">—</strong><span>mapped places</span></div></div><p>Building façades, trees, street furniture and car styling are artistic approximations. Business names come from the map snapshot; they are not independently verified as open today. Heights are estimated where absent. This is a flat-ground prototype, without traffic, pedestrians or full-city coverage.</p><p>Search works for addresses contained in this neighborhood extract. Actual map geometry is used, but a matching street façade is not guaranteed.</p><div class="controls-list"><span><kbd>W A S D</kbd> / arrows · Drive</span><span><kbd>SPACE</kbd> Brake</span><span><kbd>C</kbd> Camera</span><span><kbd>R</kbd> Reset</span><span><kbd>M</kbd> Map</span><span><kbd>ESC</kbd> Pause</span></div><p class="source-links">Map data: <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap / ODbL</a> · <a href="./data/east-village.json" download>Download geographic data</a> · <a href="./vendor/THREE-LICENSE.txt" target="_blank">Three.js license</a></p></dialog>
+<div id="pause-overlay" class="pause-overlay" hidden><div class="eyebrow">TAKE YOUR TIME</div><h2>A moment<br>to pause.</h2><button id="resume-button" class="primary">Back to the drive <span>↗</span></button></div>
+</main><script type="module" src="./game.js"></script>
+</body></html>
