@@ -1,5 +1,40 @@
 # Borough Drive: continuation context
 
+## Current checkpoint — 2026-09-06-01
+
+Recorded **September 6, 2026, 22:52 EDT**. This section is the starting point for a new session; [SESSION-LOG.md](SESSION-LOG.md) preserves earlier checkpoints and a template for the next one. Facts here describe the recorded checkpoint, so inspect Git and the deployment again when their current state matters.
+
+| Item | Checkpoint state |
+| --- | --- |
+| Latest completed work | Neighborhood accuracy revision 04, including all fourteen rebuilt map sections, source evidence and runtime changes |
+| Gameplay/source commit | [`835ea6cb53f7b88ebc0edc9586080f9c371b9d20`](https://github.com/rayidali/borough-drive/commit/835ea6cb53f7b88ebc0edc9586080f9c371b9d20) |
+| Repository and branch | [rayidali/borough-drive](https://github.com/rayidali/borough-drive), `main`; gameplay commit pushed to `origin/main` |
+| Live game | [borough-drive.vercel.app](https://borough-drive.vercel.app), Vercel deployment of the gameplay commit confirmed successful |
+| Live content verified | Homepage and all 35 changed game files matched the published commit by SHA-256, including all fourteen neighborhood GLBs |
+| Revision markers | `detailSummary.revision` is `04`; 615 building objects, 410 photo-observed non-core buildings, 212 supported named places |
+| Validation | `npm run verify` passed locally; GitHub Actions passed on Node.js 22 and 24; changed Python recipes/scripts passed syntax checks |
+| Work in progress | No unfinished game changes or known blockers; working tree was clean before these checkpoint documentation changes |
+| Current request | Preserve session checkpoints and make later sessions resumable; these documentation changes do not alter the game |
+| Next step | Continue from revision 04 with the user's next request. No additional feature has been selected. Remaining accuracy work is described below and in the audit. |
+
+The initial public map was `e44c343`. Hosting fix `0ed0d53` only corrected the Vercel output directory and did **not** include the later neighborhood work. The complete update is `835ea6c`. The package version `0.4.0` and the page's `04` chapter label alone do not distinguish those deployments; use the commit and map manifest. Documentation-only commits may follow the gameplay commit.
+
+### Resume a session
+
+1. Read this checkpoint, the latest [session log entry](SESSION-LOG.md), [START-HERE.md](START-HERE.md), and [neighborhood notes](model-source/NEIGHBORHOOD-NOTES.md). Read the [accuracy audit](model-source/ACCURACY-PASS-04.md) before changing neighborhood models or evidence.
+2. Inspect the actual checkout without discarding changes:
+
+   ```sh
+   git status --short --branch
+   git log -5 --oneline
+   git log -1 --format="%h %cI %s" -- CODEX-HANDOFF.md SESSION-LOG.md
+   ```
+
+3. If remote state matters, fetch `origin` and compare it with the checkout before changing branches or pulling. Local `origin/main` can be stale. Record any uncommitted files or unpublished commits before continuing.
+4. Use `npm run dev` to open the game locally when needed. A previous session's server, browser, authentication, or `/tmp` files may no longer exist. All required game assets and reproducible source are in the repository; no Blender rebuild is needed to resume.
+5. Follow the user's current task and publishing scope. For an authorized game publication, include all required models, textures, manifests, runtime modules and source records. Confirm deployment success and compare live content with the intended commit before describing it as live.
+6. Update this checkpoint and add a dated log entry at the next meaningful milestone or handoff. Record partial work and failures when the task is incomplete. Do not present an old test or browser review as a new check.
+
 ## Export baseline
 
 - Exported September 6, 2026 from the latest published ten-block version, version 4.
@@ -13,11 +48,11 @@
 - Original code, documentation, and independently authored artistic contributions use MIT. Third-party and geographic data terms remain in `THIRD-PARTY-NOTICES.md` and the original asset credits.
 - The repository adds a visual README using the existing Blender renders, contributor documentation, issue/PR templates, and GitHub Actions verification on Node.js 22 and 24.
 - Personal setup instructions were replaced with public contributor instructions. Runtime code, geometry, textures, and reference photographs were preserved.
-- This publishing request covers the source repository. It does not request a hosted game deployment or a geographic expansion.
+- The initial publishing request covered the source repository. Later requests authorized the Vercel deployment and complete revision 04 publication recorded in the current checkpoint. The geographic scope remains the existing map.
 
 ## User's objective and feedback
 
-The public game is hosted at **https://borough-drive.vercel.app**, connected to this repository's `main` branch. The repository-root `vercel.json` serves `dist/` directly and skips installation and building. Hosting fix `0ed0d53` corrected the initial 404 but still served the original map. The owner subsequently requested publishing all completed neighborhood accuracy revision 04 changes to `main`; this includes the models, runtime changes, source recipes, evidence and README screenshots together.
+The public game is connected to this repository's `main` branch. The repository-root `vercel.json` serves `dist/` directly and skips installation and building. Revision 04's models, runtime changes, source recipes, evidence and README screenshots were published together in `835ea6c`.
 
 Rayid wants to build a driving game in a recognizable digital twin of New York City, eventually Manhattan and then NYC. The immediate approved scope is ten connected East Village blocks around First Avenue and East 10th Street: East 7th to East 12th, Second Avenue to Avenue A.
 

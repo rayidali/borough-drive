@@ -54,7 +54,11 @@ If an earlier deployment shows `404: NOT_FOUND`, deploy the latest commit contai
 
 ## Continue development
 
-Read [CONTRIBUTING.md](CONTRIBUTING.md), [CODEX-HANDOFF.md](CODEX-HANDOFF.md), and [model-source/NEIGHBORHOOD-NOTES.md](model-source/NEIGHBORHOOD-NOTES.md). The active entry point is `dist/index.html`; `dist/prototype.html` preserves the earlier experiment.
+For a new session, open this repository and start with the current checkpoint in [CODEX-HANDOFF.md](CODEX-HANDOFF.md) and the latest entry in [SESSION-LOG.md](SESSION-LOG.md). The log records completed work, the exact gameplay commit, publishing status, unfinished work and next steps. [AGENTS.md](AGENTS.md) instructs coding agents to read and maintain these records as they work.
+
+A useful opening message is: **"Read AGENTS.md, CODEX-HANDOFF.md and the latest SESSION-LOG.md entry, check the current Git state, and continue from the latest checkpoint."** Add the task you want to work on next.
+
+Read [CONTRIBUTING.md](CONTRIBUTING.md) and [model-source/NEIGHBORHOOD-NOTES.md](model-source/NEIGHBORHOOD-NOTES.md) before substantial changes. The active entry point is `dist/index.html`; `dist/prototype.html` preserves the earlier experiment.
 
 Keep `dist/` in Git: it contains editable source and all required runtime assets. When changing models, roads, controls, module paths, or vehicle behavior, run:
 
