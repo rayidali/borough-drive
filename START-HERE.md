@@ -26,6 +26,14 @@ python3 -m http.server 5173 --bind 127.0.0.1 --directory dist
 
 On Windows, use `py` in place of `python3` if needed.
 
+## Host on Vercel
+
+Import the GitHub repository and leave **Root Directory** at the repository root (the default). The checked-in [vercel.json](vercel.json) selects the **Other** framework preset, skips installation and building, and serves **`dist/`** as the website. The game is available at `/` on the deployed domain.
+
+Do not use `npm run dev` or `npm start` as a Vercel build command: those commands start the local development server. All production files are already included in `dist/`.
+
+If an earlier deployment shows `404: NOT_FOUND`, deploy the latest commit containing `vercel.json` and check that the project's Root Directory is still the repository root. Redeploying an older commit will retain its old configuration.
+
 ## Controls
 
 - On foot: W/A/S/D to move, drag to look, Q/E to turn.
