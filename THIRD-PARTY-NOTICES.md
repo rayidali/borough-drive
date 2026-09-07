@@ -6,6 +6,7 @@ The root [MIT License](LICENSE) covers original Borough Drive code, documentatio
 | --- | --- |
 | Original JavaScript, HTML/CSS, Python recipes, scripts, and documentation | MIT; Rayid Ali and Borough Drive contributors |
 | OpenStreetMap snapshot and derived geographic databases | © OpenStreetMap contributors; [ODbL 1.0](https://opendatacommons.org/licenses/odbl/1-0/), with [OSM attribution guidance](https://www.openstreetmap.org/copyright) |
+| NYC OTI footprints/roof heights, DCP PLUTO 26v2, DOHMH and DCWP public records | City of New York and the contributing agencies; [NYC Open Data policies and terms](https://cityofnewyork.github.io/opendatatsm/publicpolicies.html). Source-specific attribution, dates and modifications are retained; MIT does not relicense the city datasets. |
 | Photographs by Eden, Janine and Jim | [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/); exact sources and dates in [references.json](dist/reconstruction/references.json) |
 | Photograph by Kidfly182 | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/); displayed unchanged as a reference |
 | Poly Haven materials and reflection environment | [CC0](https://polyhaven.com/license); individual assets listed in [ASSET-CREDITS.md](dist/reconstruction/ASSET-CREDITS.md) |
@@ -16,15 +17,19 @@ The root [MIT License](LICENSE) covers original Borough Drive code, documentatio
 
 `source-data/osm-raw.json` and the OSM-derived portions of the map and geometry manifests preserve OpenStreetMap data and identifiers. Geographic transformations and estimated additions are documented in the source recipes and observation records. Keep the ODbL notices and attribution when redistributing this data.
 
+The dated NYC extracts in `source-data/` add 620 footprint records, 526 related PLUTO parcel records, 274 latest restaurant inspection records and five matched retail license records. They are geographic/business subsets of public datasets, not live feeds. The City's terms disclaim completeness and accuracy warranties; the application is independently authored and is not a City product. [ACCURACY-PASS-04.md](model-source/ACCURACY-PASS-04.md) documents selections, coordinate alignment, field conversions and joins. The joined geographic database retains its OSM attribution and ODbL obligations.
+
 Exported GLBs and preview renders combine authored work, OSM-derived geography, and credited surface materials. The core model also embeds licensed photographic material. Two Beron art panels and a southwest masonry patch use CC BY 2.0 photographs through UV placement and repetition; those uses retain the original photographic attribution. MIT applies only to the project's original contributions within these combined assets.
 
-The README's two preview images are the existing `intersection-render.png` and `southwest-render.png`. They show the actual authored mesh in standalone Blender renders. Their lighting differs from the browser viewer. They retain the model's geographic and asset credits.
+The README's core preview images are the existing `intersection-render.png` and `southwest-render.png`. They show the actual authored mesh in standalone Blender renders; their lighting differs from the browser viewer. Revision 04's images in `docs/images/` are captures of the actual local game. Both kinds of preview retain the model's geographic and asset credits. They are not real-world reference photographs.
 
 ## Photographic provenance
 
 The distributed reference photographs remain unchanged. [references.json](dist/reconstruction/references.json) records authors, source pages, image dates, licenses, and local filenames. Records with no local file can document research without distributing the image.
 
 JLL listing photographs and newer storefront/landmark photographs with no verified redistribution permission were used for visual observation only. Their pixels are not included as new textures or distributed reference images. Keep those distinctions and source records intact when contributing.
+
+Revision 04 adds written observations from Village Preservation's East Village Building Blocks archive, Morris Adjmi Architects' 45 East 7th project photographs, and Scoundrel's Field Guide's Blue & Gold coverage. Those research images are not distributed. The architect credits Jimi Billingsley, VUW, Field Condition and Nexus Development; Scoundrel's Field Guide is published by David Shaw. Exact source/image links and date limitations are retained in [neighborhood-facade-audit.json](model-source/neighborhood-facade-audit.json). Authored geometry and generic credited surface maps remain distinct from those photographic references.
 
 Building names, business names, and signs identify the reconstructed places. Their presence does not imply affiliation or endorsement, and MIT does not grant rights in third-party trademarks or other third-party material.
 

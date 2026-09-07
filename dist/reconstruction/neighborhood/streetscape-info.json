@@ -1,0 +1,32 @@
+{
+  "revision": "03",
+  "recipe": "model-source/build_streetscape.py",
+  "placement": "Illustrative, deterministic street dressing; no measured furniture survey.",
+  "assets": [
+    {
+      "url": "neighborhood/bicycle-detail.glb",
+      "bytes": 34812,
+      "triangles": 3056
+    },
+    {
+      "url": "neighborhood/hydrant.glb",
+      "bytes": 10140,
+      "triangles": 712
+    },
+    {
+      "url": "neighborhood/litter-bin.glb",
+      "bytes": 13772,
+      "triangles": 852
+    },
+    {
+      "url": "neighborhood/utility-cover.glb",
+      "bytes": 7320,
+      "triangles": 468
+    },
+    {
+      "url": "neighborhood/drain-grate.glb",
+      "bytes": 4404,
+      "triangles": 168
+    }
+  ]
+}

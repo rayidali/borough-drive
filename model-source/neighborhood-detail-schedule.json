@@ -1,0 +1,129 @@
+{
+  "revision": "03",
+  "recorded": "2026-09-06",
+  "basis": "Implementation of the existing dated observations in neighborhood-references; hardware, reveal depths, material tints and street dressing remain illustrative estimates.",
+  "defaults": {
+    "recessedWindows": true,
+    "entryHardware": true,
+    "storefrontTransoms": true,
+    "masonrySurfaceMaps": true,
+    "inference": "Window/door recess depths, hardware, curtains, service pipes, cornice microdetail, material weathering and interior furnishings are authored estimates, not measurements."
+  },
+  "buildings": [
+    {
+      "address": "95 East 7th Street",
+      "sourceRecord": "neighborhood-references/cross-streets.json",
+      "captureDate": "2010 or 2012",
+      "spec": {
+        "wall": "weathered red"
+      },
+      "detail": {
+        "archedWindowRows": [
+          0,
+          -1
+        ],
+        "archedEntry": true
+      }
+    },
+    {
+      "address": "97 East 7th Street",
+      "sourceRecord": "neighborhood-references/cross-streets.json",
+      "captureDate": "2010 or 2012",
+      "detail": {
+        "archedWindowRows": [
+          0,
+          -1
+        ],
+        "archedEntry": true
+      }
+    },
+    {
+      "address": "97½ East 7th Street",
+      "sourceRecord": "neighborhood-references/cross-streets.json",
+      "captureDate": "2010 or 2012",
+      "detail": {
+        "archedWindowRows": [
+          0,
+          2
+        ],
+        "archedEntry": true
+      }
+    },
+    {
+      "address": "99 East 7th Street",
+      "sourceRecord": "neighborhood-references/cross-streets.json",
+      "captureDate": "2010 or 2012",
+      "detail": {
+        "archedWindowRows": [
+          0,
+          2
+        ],
+        "archedEntry": true
+      }
+    },
+    {
+      "address": "100 East 7th Street",
+      "sourceRecord": "neighborhood-references/cross-streets.json",
+      "captureDate": "2010 or 2012",
+      "spec": {
+        "wall": "buff brick",
+        "ornament": 0
+      },
+      "detail": {
+        "archedWindowRows": [
+          -1
+        ]
+      }
+    },
+    {
+      "address": "63 East 7th Street",
+      "sourceRecord": "neighborhood-references/cross-streets.json",
+      "captureDate": "2010 or 2012",
+      "spec": {
+        "stoop": true
+      },
+      "detail": {
+        "archedWindowRows": [
+          -2
+        ],
+        "archedEntry": true
+      }
+    },
+    {
+      "address": "110 East 7th Street",
+      "sourceRecord": "neighborhood-references/cross-streets.json",
+      "captureDate": "2010 or 2012",
+      "detail": {
+        "archedWindowRows": [
+          -2
+        ]
+      }
+    },
+    {
+      "address": "111–115 East 7th Street",
+      "sourceRecord": "neighborhood-references/cross-streets.json",
+      "captureDate": "2010 or 2012",
+      "detail": {
+        "archedEntry": true,
+        "rusticatedBase": true,
+        "quoins": true
+      }
+    },
+    {
+      "address": "171 First Avenue",
+      "sourceRecord": "neighborhood-references/first-ave-photo-addendum.json",
+      "captureDate": null,
+      "detail": {
+        "roofRail": true
+      }
+    },
+    {
+      "address": "268 East 10th Street",
+      "sourceRecord": "neighborhood-references/cross-streets.json",
+      "captureDate": null,
+      "detail": {
+        "rusticatedBase": true
+      }
+    }
+  ]
+}

@@ -6,6 +6,7 @@ retain their OSM provenance. No current tenants are inferred from old OSM POIs.
 """
 import json, math, re
 from pathlib import Path
+from neighborhood_evidence import apply_geography
 
 ROOT = Path(__file__).resolve().parents[1]
 raw = json.loads((ROOT/'source-data/osm-raw.json').read_text())
@@ -80,6 +81,8 @@ for e in raw['elements']:
             if not b['address']:b['address']=address
             b.setdefault('addressAliases',[]).append(address);break
 
+geography_audit = apply_geography(buildings, point, STREETS, EXTENT)
+
 for b in buildings:
     p=b['p'];area=sum(a[0]*c[1]-c[0]*a[1] for a,c in zip(p,p[1:]+p[:1]))
     if area<0:p=list(reversed(p))
@@ -94,7 +97,9 @@ for b in buildings:
         near=sorted([(math.dist(mid,closest(mid,r['a'],r['b']))-r['halfWidth'],r) for r in roads],key=lambda q:q[0])
         dist,road=near[0];target=closest(mid,road['a'],road['b'])
         dot=nx*(target[0]-mid[0])+nz*(target[1]-mid[1])
-        if dot<=0 or dist>13 or dist<-.5:continue
+        # A street facade must face the road, not merely be close to it.
+        # The former sign-only test incorrectly dressed perpendicular alley walls.
+        if dot <= 0 or dot / (math.dist(mid,target) or 1) < .65 or dist>13 or dist<-.5:continue
         probe=[mid[0]+nx*1.5,mid[1]+nz*1.5]
         if any(o['id']!=b['id'] and o['box'][0]<=probe[0]<=o['box'][2] and o['box'][1]<=probe[1]<=o['box'][3] and inside(*probe,o['p']) for o in buildings):continue
         b['frontages'].append({'x':c[0],'z':c[1],'rx':rx,'rz':rz,'length':round(length,3),'street':road['name']})
@@ -118,6 +123,6 @@ for key in sorted(set(b['tile'] for b in buildings)):
     box=[min(b['box'][0] for b in bs),min(b['box'][1] for b in bs),max(b['box'][2] for b in bs),max(b['box'][3] for b in bs)]
     tiles.append({'id':key,'bounds':box,'buildings':len(bs),'url':'neighborhood/'+key+'.glb'})
 
-data={'origin':base['origin'],'axis':base['axis'],'extent':EXTENT,'driveBounds':DRIVE,'blockCount':10,'snapshot':raw['osm3s']['timestamp_osm_base'],'source':'OpenStreetMap contributors · ODbL 1.0','scope':'East 7th–East 12th Streets, Second Avenue–Avenue A','roads':roads,'avenues':AVENUES,'streets':STREETS,'buildings':buildings,'tiles':tiles}
+data={'origin':base['origin'],'axis':base['axis'],'extent':EXTENT,'driveBounds':DRIVE,'blockCount':10,'snapshot':raw['osm3s']['timestamp_osm_base'],'source':'OpenStreetMap contributors · ODbL 1.0; supplemental buildings: NYC OTI','scope':'East 7th–East 12th Streets, Second Avenue–Avenue A','roads':roads,'avenues':AVENUES,'streets':STREETS,'buildings':buildings,'tiles':tiles,'geographyAudit':geography_audit}
 out=ROOT/'dist/reconstruction/neighborhood.json';out.write_text(json.dumps(data,separators=(',',':')))
 print(json.dumps({'buildings':len(buildings),'corePreserved':sum(b['core'] for b in buildings),'facades':sum(len(b['frontages']) for b in buildings),'tiles':len(tiles),'unmappedAddresses':sum(not b['address'] for b in buildings)}))

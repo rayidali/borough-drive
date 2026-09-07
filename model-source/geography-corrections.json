@@ -1,0 +1,3243 @@
+{
+  "revision": "04",
+  "checked": "2026-09-06",
+  "source": "source-data/nyc-buildings-2026-09-06.geojson",
+  "alignment": {
+    "translationMetres": [
+      0.553174,
+      0.744329
+    ],
+    "basis": "Median centroid offset of 523 shared BINs with similar footprint areas; keeps the accepted OSM/core frame. No rotation or footprint scaling.",
+    "residualP95Metres": 0.161
+  },
+  "addBuildings": [
+    {
+      "doittId": 193141,
+      "bin": 1005999,
+      "id": -193141,
+      "address": "195 Avenue A",
+      "buildingType": "apartments"
+    },
+    {
+      "doittId": 577810,
+      "bin": 1005900,
+      "id": -577810,
+      "address": "256 East 10th Street",
+      "buildingType": "apartments"
+    },
+    {
+      "doittId": 207566,
+      "bin": 1006505,
+      "id": -207566,
+      "address": "323 East 12th Street",
+      "buildingType": "apartments"
+    },
+    {
+      "doittId": 449265,
+      "bin": 1005974,
+      "id": -449265,
+      "address": "418 East 12th Street",
+      "buildingType": "school"
+    },
+    {
+      "doittId": 177966,
+      "bin": 1006347,
+      "id": -177966,
+      "address": "73-75 East 7th Street",
+      "buildingType": "apartments"
+    }
+  ],
+  "municipalMatches": [
+    {
+      "doittId": 758379,
+      "buildingId": 248142893,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 603312,
+      "buildingId": 248142917,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 672607,
+      "buildingId": 248142683,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 10771,
+      "buildingId": 248142712,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 731068,
+      "buildingId": 241822290,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 436600,
+      "buildingId": 241822162,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 542218,
+      "buildingId": 247851936,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 786920,
+      "buildingId": 247851929,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 23180,
+      "buildingId": 241822189,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 392540,
+      "buildingId": 241822229,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 816665,
+      "buildingId": 248142332,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 761951,
+      "buildingId": 247851904,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 176051,
+      "buildingId": 241844958,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 2739,
+      "buildingId": 248142644,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 199845,
+      "buildingId": 247852678,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 191813,
+      "buildingId": 248142905,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 329798,
+      "buildingId": 241844921,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 235480,
+      "buildingId": 241822267,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 664659,
+      "buildingId": 247852686,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 443871,
+      "buildingId": 248142924,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 548180,
+      "buildingId": 249657787,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 711409,
+      "buildingId": 247851922,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 590081,
+      "buildingId": 241822320,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 834126,
+      "buildingId": 247852676,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 226418,
+      "buildingId": 247864263,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 615925,
+      "buildingId": 248142626,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 832669,
+      "buildingId": 248142639,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 35822,
+      "buildingId": 241845010,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 634647,
+      "buildingId": 248142710,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 637700,
+      "buildingId": 241822211,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 142400,
+      "buildingId": 241829621,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 61487,
+      "buildingId": 248142689,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 1238507,
+      "buildingId": 247851941,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 757812,
+      "buildingId": 248142664,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 830930,
+      "buildingId": 248142872,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 651834,
+      "buildingId": 247864217,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 249837,
+      "buildingId": 241822300,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 1292454,
+      "buildingId": 978475216,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 164317,
+      "buildingId": 241845013,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 1282896,
+      "buildingId": 248142311,
+      "basis": "Footprint overlap",
+      "overlapFraction": 0.9781
+    },
+    {
+      "doittId": 1286969,
+      "buildingId": 1063735559,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 1286988,
+      "buildingId": 248142948,
+      "basis": "Footprint overlap",
+      "overlapFraction": 0.9173
+    },
+    {
+      "doittId": 1286989,
+      "buildingId": 248142950,
+      "basis": "Footprint overlap",
+      "overlapFraction": 0.8998
+    },
+    {
+      "doittId": 1286990,
+      "buildingId": 248142963,
+      "basis": "Footprint overlap",
+      "overlapFraction": 0.9569
+    },
+    {
+      "doittId": 515952,
+      "buildingId": 247864220,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 65351,
+      "buildingId": 248142871,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 545861,
+      "buildingId": 247851912,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 1281274,
+      "buildingId": 248142714,
+      "basis": "Footprint overlap",
+      "overlapFraction": 0.6429
+    },
+    {
+      "doittId": 412765,
+      "buildingId": 248142648,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 147896,
+      "buildingId": 241845003,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 297901,
+      "buildingId": 248142646,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 1116991,
+      "buildingId": 247864341,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 690541,
+      "buildingId": 247864182,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 698826,
+      "buildingId": 248142690,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 203440,
+      "buildingId": 248142404,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 806203,
+      "buildingId": 248142974,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 405736,
+      "buildingId": 241822322,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 479428,
+      "buildingId": 248142967,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 544982,
+      "buildingId": 241822179,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 326934,
+      "buildingId": 248142672,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 568847,
+      "buildingId": 248142877,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 203774,
+      "buildingId": 241822164,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 286207,
+      "buildingId": 241822206,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 709579,
+      "buildingId": 247852660,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 707436,
+      "buildingId": 247852487,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 719009,
+      "buildingId": 247851918,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 146262,
+      "buildingId": 241822222,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 575598,
+      "buildingId": 248142906,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 39491,
+      "buildingId": 247864176,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 457599,
+      "buildingId": 248142692,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 264514,
+      "buildingId": 248142702,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 805680,
+      "buildingId": 248142957,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 352214,
+      "buildingId": 249657800,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 16205,
+      "buildingId": 249657785,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 763141,
+      "buildingId": 247852516,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 502574,
+      "buildingId": 248142713,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 594458,
+      "buildingId": 247852518,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 484384,
+      "buildingId": 249658009,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 727282,
+      "buildingId": 248142630,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 683685,
+      "buildingId": 248142337,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 737136,
+      "buildingId": 247852537,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 499536,
+      "buildingId": 241833285,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 655558,
+      "buildingId": 249657805,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 77388,
+      "buildingId": 249657914,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 267717,
+      "buildingId": 241829595,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 15374,
+      "buildingId": 248142634,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 594744,
+      "buildingId": 248142919,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 725227,
+      "buildingId": 247852659,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 289194,
+      "buildingId": 241822174,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 683543,
+      "buildingId": 248142858,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 1118550,
+      "buildingId": 247864178,
+      "basis": "Footprint overlap",
+      "overlapFraction": 0.9995
+    },
+    {
+      "doittId": 672404,
+      "buildingId": 241822297,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 1260393,
+      "buildingId": 951679435,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 489618,
+      "buildingId": 247852656,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 204354,
+      "buildingId": 247851932,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 245158,
+      "buildingId": 248142901,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 54531,
+      "buildingId": 247852692,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 579507,
+      "buildingId": 247852699,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 294900,
+      "buildingId": 247851900,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 15956,
+      "buildingId": 248142706,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 790764,
+      "buildingId": 241822312,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 239209,
+      "buildingId": 248142658,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 383184,
+      "buildingId": 247852664,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 19448,
+      "buildingId": 247851916,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 694468,
+      "buildingId": 248142961,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 441500,
+      "buildingId": 248142927,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 111246,
+      "buildingId": 247850798,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 248879,
+      "buildingId": 248142707,
+      "basis": "Footprint overlap",
+      "overlapFraction": 0.993
+    },
+    {
+      "doittId": 450039,
+      "buildingId": 248142914,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 500660,
+      "buildingId": 241822339,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 418917,
+      "buildingId": 241822315,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 677284,
+      "buildingId": 241822187,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 301303,
+      "buildingId": 247852527,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 587918,
+      "buildingId": 249657995,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 435379,
+      "buildingId": 248142684,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 478715,
+      "buildingId": 247852700,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 372766,
+      "buildingId": 248142616,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 453853,
+      "buildingId": 247852683,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 108823,
+      "buildingId": 247851928,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 45794,
+      "buildingId": 247852523,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 650907,
+      "buildingId": 248142892,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 286554,
+      "buildingId": 248142628,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 199378,
+      "buildingId": 248142655,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 588364,
+      "buildingId": 248142656,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 772551,
+      "buildingId": 249657825,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 461459,
+      "buildingId": 248142881,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 193141,
+      "buildingId": -193141,
+      "basis": "Missing footprint restored from NYC OTI"
+    },
+    {
+      "doittId": 1260812,
+      "buildingId": 610642019,
+      "basis": "Footprint overlap",
+      "overlapFraction": 0.9823
+    },
+    {
+      "doittId": 297443,
+      "buildingId": 241844936,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 488354,
+      "buildingId": 248142907,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 56465,
+      "buildingId": 241844937,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 698414,
+      "buildingId": 248142862,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 530614,
+      "buildingId": 241822248,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 68336,
+      "buildingId": 241822314,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 282625,
+      "buildingId": 248142868,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 147497,
+      "buildingId": 247851903,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 31951,
+      "buildingId": 241822244,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 555920,
+      "buildingId": 241844919,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 540181,
+      "buildingId": 248142913,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 141180,
+      "buildingId": 248142884,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 84471,
+      "buildingId": 248142887,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 154197,
+      "buildingId": 248142686,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 642616,
+      "buildingId": 248142716,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 65586,
+      "buildingId": 247852524,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 227715,
+      "buildingId": 248142925,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 834868,
+      "buildingId": 241822226,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 391175,
+      "buildingId": 247851898,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 678741,
+      "buildingId": 248142698,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 59239,
+      "buildingId": 247852520,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 286594,
+      "buildingId": 248142880,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 41683,
+      "buildingId": 248142930,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 313141,
+      "buildingId": 241822256,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 687796,
+      "buildingId": 248142859,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 807892,
+      "buildingId": 247852525,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 459138,
+      "buildingId": 248142675,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 191021,
+      "buildingId": 248142623,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 751126,
+      "buildingId": 248142915,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 45961,
+      "buildingId": 241822194,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 496481,
+      "buildingId": 248142619,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 383406,
+      "buildingId": 248142873,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 543509,
+      "buildingId": 241822215,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 482323,
+      "buildingId": 241822169,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 959254,
+      "buildingId": 248142968,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 660932,
+      "buildingId": 241829631,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 1156848,
+      "buildingId": 247864180,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 501439,
+      "buildingId": 248142326,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 175449,
+      "buildingId": 241822340,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 141009,
+      "buildingId": 248142908,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 473318,
+      "buildingId": 241822254,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 317629,
+      "buildingId": 241822201,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 577976,
+      "buildingId": 241822338,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 35241,
+      "buildingId": 247852667,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 261364,
+      "buildingId": 248142620,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 415653,
+      "buildingId": 248142964,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 519673,
+      "buildingId": 247852682,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 300525,
+      "buildingId": 248142652,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 158059,
+      "buildingId": 241829611,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 827766,
+      "buildingId": 248142685,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 298450,
+      "buildingId": 247852693,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 363281,
+      "buildingId": 248142715,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 758272,
+      "buildingId": 241822236,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 436053,
+      "buildingId": 247850713,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 303537,
+      "buildingId": 247852691,
+      "basis": "Footprint overlap",
+      "overlapFraction": 0.9829
+    },
+    {
+      "doittId": 525218,
+      "buildingId": 247851924,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 538570,
+      "buildingId": 248142679,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 510884,
+      "buildingId": 241829572,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 299709,
+      "buildingId": 248142867,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 604527,
+      "buildingId": 248142629,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 482779,
+      "buildingId": 247852651,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 22935,
+      "buildingId": 249657912,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 407536,
+      "buildingId": 248142888,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 647817,
+      "buildingId": 247851902,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 739851,
+      "buildingId": 249657937,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 350686,
+      "buildingId": 241822212,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 198410,
+      "buildingId": 248142618,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 216730,
+      "buildingId": 247864277,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 531415,
+      "buildingId": 248142622,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 82488,
+      "buildingId": 248142654,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 803146,
+      "buildingId": 248142898,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 1159109,
+      "buildingId": 247852544,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 275737,
+      "buildingId": 247852513,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 155733,
+      "buildingId": 241822295,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 838639,
+      "buildingId": 248142899,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 436126,
+      "buildingId": 247851908,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 460741,
+      "buildingId": 247864253,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 1281236,
+      "buildingId": 281499419,
+      "basis": "Footprint overlap",
+      "overlapFraction": 0.9193
+    },
+    {
+      "doittId": 396037,
+      "buildingId": 241822261,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 401081,
+      "buildingId": 248142895,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 390500,
+      "buildingId": 248142889,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 821512,
+      "buildingId": 248142969,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 50371,
+      "buildingId": 247864179,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 788673,
+      "buildingId": 249657826,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 282651,
+      "buildingId": 247852701,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 537240,
+      "buildingId": 248142663,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 140615,
+      "buildingId": 249657832,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 384209,
+      "buildingId": 248142632,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 395368,
+      "buildingId": 247851883,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 848121,
+      "buildingId": 249657862,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 411589,
+      "buildingId": 248142916,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 102595,
+      "buildingId": 241822282,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 570121,
+      "buildingId": 241845014,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 379755,
+      "buildingId": 241833290,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 780156,
+      "buildingId": 247864226,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 671579,
+      "buildingId": 248142669,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 706205,
+      "buildingId": 248142933,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 783397,
+      "buildingId": 247852675,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 117208,
+      "buildingId": 247864221,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 731315,
+      "buildingId": 248142876,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 444461,
+      "buildingId": 248142717,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 127228,
+      "buildingId": 247852671,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 35055,
+      "buildingId": 248142614,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 539484,
+      "buildingId": 248142708,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 200294,
+      "buildingId": 248142338,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 500846,
+      "buildingId": 248142918,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 717277,
+      "buildingId": 241822263,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 830598,
+      "buildingId": 247852697,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 677659,
+      "buildingId": 247852515,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 208468,
+      "buildingId": 248142975,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 320462,
+      "buildingId": 241822310,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 154600,
+      "buildingId": 241844934,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 451673,
+      "buildingId": 248142939,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 24989,
+      "buildingId": 248142627,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 642466,
+      "buildingId": 241822230,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 814087,
+      "buildingId": 248142687,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 330395,
+      "buildingId": 248142682,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 530438,
+      "buildingId": 241822181,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 777195,
+      "buildingId": 248142695,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 515518,
+      "buildingId": 247851933,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 733881,
+      "buildingId": 247852545,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 410419,
+      "buildingId": 241822329,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 510437,
+      "buildingId": 247852681,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 157117,
+      "buildingId": 248142660,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 551362,
+      "buildingId": 248142863,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 815705,
+      "buildingId": 247851915,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 466975,
+      "buildingId": 247852698,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 782378,
+      "buildingId": 241822326,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 721077,
+      "buildingId": 241822232,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 40255,
+      "buildingId": 241822269,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 639873,
+      "buildingId": 247851931,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 395016,
+      "buildingId": 241822178,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 194949,
+      "buildingId": 241829634,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 390170,
+      "buildingId": 248142861,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 624784,
+      "buildingId": 247852685,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 577810,
+      "buildingId": -577810,
+      "basis": "Missing footprint restored from NYC OTI"
+    },
+    {
+      "doittId": 397240,
+      "buildingId": 248142668,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 370285,
+      "buildingId": 241822171,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 604414,
+      "buildingId": 247851888,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 852422,
+      "buildingId": 247852530,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 990184,
+      "buildingId": 249657940,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 55997,
+      "buildingId": 248142903,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 116240,
+      "buildingId": 249657866,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 555077,
+      "buildingId": 248142709,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 202129,
+      "buildingId": 248142676,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 229025,
+      "buildingId": 247852702,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 4560,
+      "buildingId": 241833267,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 360959,
+      "buildingId": 247864340,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 258091,
+      "buildingId": 248142940,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 262781,
+      "buildingId": 241822239,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 49537,
+      "buildingId": 248142926,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 701579,
+      "buildingId": 247851944,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 128755,
+      "buildingId": 249657865,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 203320,
+      "buildingId": 248142923,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 357834,
+      "buildingId": 248142643,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 582660,
+      "buildingId": 247851906,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 349714,
+      "buildingId": 247850708,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 341831,
+      "buildingId": 247852687,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 848690,
+      "buildingId": 248142677,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 732327,
+      "buildingId": 248142642,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 346101,
+      "buildingId": 247851934,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 699997,
+      "buildingId": 249657792,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 68067,
+      "buildingId": 241822279,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 712480,
+      "buildingId": 248142641,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 370487,
+      "buildingId": 241833286,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 519591,
+      "buildingId": 241822286,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 51216,
+      "buildingId": 247851885,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 120588,
+      "buildingId": 241822234,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 207566,
+      "buildingId": -207566,
+      "basis": "Missing footprint restored from NYC OTI"
+    },
+    {
+      "doittId": 634533,
+      "buildingId": 248142938,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 913190,
+      "buildingId": 247852695,
+      "basis": "Footprint overlap",
+      "overlapFraction": 0.9945
+    },
+    {
+      "doittId": 507513,
+      "buildingId": 249657935,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 703744,
+      "buildingId": 248142900,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 200320,
+      "buildingId": 247864184,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 570717,
+      "buildingId": 247852665,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 86438,
+      "buildingId": 248142947,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 826317,
+      "buildingId": 247852677,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 307867,
+      "buildingId": 248142407,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 171452,
+      "buildingId": 241845001,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 482144,
+      "buildingId": 249657828,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 658668,
+      "buildingId": 248142325,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 830030,
+      "buildingId": 241822337,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 768266,
+      "buildingId": 247851920,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 359351,
+      "buildingId": 247852691,
+      "basis": "Footprint overlap",
+      "overlapFraction": 0.9775
+    },
+    {
+      "doittId": 85857,
+      "buildingId": 247864289,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 338593,
+      "buildingId": 241822173,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 158360,
+      "buildingId": 247852652,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 512643,
+      "buildingId": 241822159,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 31802,
+      "buildingId": 248142902,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 769108,
+      "buildingId": 247851930,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 362659,
+      "buildingId": 248142866,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 595525,
+      "buildingId": 241829641,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 563739,
+      "buildingId": 247852658,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 337287,
+      "buildingId": 248142934,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 320332,
+      "buildingId": 241822228,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 38188,
+      "buildingId": 241822251,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 338223,
+      "buildingId": 249657794,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 475128,
+      "buildingId": 248142651,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 393155,
+      "buildingId": 241822167,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 802482,
+      "buildingId": 247864223,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 773129,
+      "buildingId": 248142897,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 451550,
+      "buildingId": 248142324,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 349695,
+      "buildingId": 248142657,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 760972,
+      "buildingId": 241844999,
+      "basis": "Footprint overlap",
+      "overlapFraction": 0.9998
+    },
+    {
+      "doittId": 33924,
+      "buildingId": 247864232,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 418356,
+      "buildingId": 248142922,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 853517,
+      "buildingId": 247852514,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 65463,
+      "buildingId": 248142625,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 469844,
+      "buildingId": 248142910,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 153025,
+      "buildingId": 248142929,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 595322,
+      "buildingId": 247851884,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 116365,
+      "buildingId": 241822224,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 829938,
+      "buildingId": 248142869,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 75199,
+      "buildingId": 248142711,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 160779,
+      "buildingId": 248142649,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 481879,
+      "buildingId": 241829636,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 502751,
+      "buildingId": 247851923,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 187407,
+      "buildingId": 248142329,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 59621,
+      "buildingId": 248142953,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 630226,
+      "buildingId": 248142659,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 310076,
+      "buildingId": 248142912,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 759108,
+      "buildingId": 241822293,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 90465,
+      "buildingId": 241822220,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 423381,
+      "buildingId": 241822301,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 2977,
+      "buildingId": 248142681,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 961789,
+      "buildingId": 249657791,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 53159,
+      "buildingId": 248142320,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 637020,
+      "buildingId": 247851895,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 317131,
+      "buildingId": 241844913,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 621119,
+      "buildingId": 248142327,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 819041,
+      "buildingId": 247852690,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 781856,
+      "buildingId": 241822276,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 644713,
+      "buildingId": 247850803,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 363935,
+      "buildingId": 247864327,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 57305,
+      "buildingId": 241833291,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 371459,
+      "buildingId": 249657784,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 13021,
+      "buildingId": 248142956,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 111659,
+      "buildingId": 248142958,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 222675,
+      "buildingId": 241822151,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 815999,
+      "buildingId": 247864349,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 503177,
+      "buildingId": 247851892,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 801978,
+      "buildingId": 241822219,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 662412,
+      "buildingId": 241822153,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 721057,
+      "buildingId": 247852694,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 179395,
+      "buildingId": 241844940,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 438536,
+      "buildingId": 249657915,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 331492,
+      "buildingId": 248142700,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 224696,
+      "buildingId": 247851919,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 759581,
+      "buildingId": 247851938,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 645253,
+      "buildingId": 248142688,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 126923,
+      "buildingId": 248142631,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 235040,
+      "buildingId": 241822278,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 776845,
+      "buildingId": 249657829,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 515406,
+      "buildingId": 248142636,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 579433,
+      "buildingId": 247852668,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 354190,
+      "buildingId": 248142864,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 505924,
+      "buildingId": 241845005,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 57508,
+      "buildingId": 248142411,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 525442,
+      "buildingId": 247852654,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 583915,
+      "buildingId": 241829630,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 219677,
+      "buildingId": 249657939,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 414639,
+      "buildingId": 249657871,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 737524,
+      "buildingId": 248142920,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 700009,
+      "buildingId": 248142865,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 670961,
+      "buildingId": 247852653,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 801276,
+      "buildingId": 247850711,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 313962,
+      "buildingId": 247852674,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 160270,
+      "buildingId": 241844943,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 539002,
+      "buildingId": 248142714,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 51029,
+      "buildingId": 241822272,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 415650,
+      "buildingId": 247851943,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 712839,
+      "buildingId": 247851937,
+      "basis": "Footprint overlap",
+      "overlapFraction": 0.9997
+    },
+    {
+      "doittId": 728165,
+      "buildingId": 241822247,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 31900,
+      "buildingId": 241822265,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 522255,
+      "buildingId": 248142891,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 300870,
+      "buildingId": 247852517,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 90074,
+      "buildingId": 247864178,
+      "basis": "Footprint overlap",
+      "overlapFraction": 0.9998
+    },
+    {
+      "doittId": 268911,
+      "buildingId": 247851925,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 938362,
+      "buildingId": 248142951,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 648783,
+      "buildingId": 247851897,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 996159,
+      "buildingId": 248142928,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 41089,
+      "buildingId": 247851891,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 698816,
+      "buildingId": 241822299,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 214082,
+      "buildingId": 248142896,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 358009,
+      "buildingId": 247852662,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 725876,
+      "buildingId": 248142960,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 30847,
+      "buildingId": 247851889,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 780631,
+      "buildingId": 248142959,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 476391,
+      "buildingId": 248142962,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 4591,
+      "buildingId": 241822210,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 343242,
+      "buildingId": 241822208,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 127738,
+      "buildingId": 241822284,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 63844,
+      "buildingId": 248142937,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 349683,
+      "buildingId": 247851901,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 617554,
+      "buildingId": 241822217,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 507965,
+      "buildingId": 247852484,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 433463,
+      "buildingId": 248142707,
+      "basis": "Footprint overlap",
+      "overlapFraction": 0.9929
+    },
+    {
+      "doittId": 515864,
+      "buildingId": 248142694,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 627249,
+      "buildingId": 241829623,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 748162,
+      "buildingId": 248142703,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 464075,
+      "buildingId": 248142966,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 540925,
+      "buildingId": 241844929,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 718355,
+      "buildingId": 241822271,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 686533,
+      "buildingId": 241822335,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 25241,
+      "buildingId": 241822306,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 422483,
+      "buildingId": 241822325,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 131560,
+      "buildingId": 249657802,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 674108,
+      "buildingId": 248142936,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 189516,
+      "buildingId": 247864298,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 6011,
+      "buildingId": 248142617,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 422144,
+      "buildingId": 241822308,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 340925,
+      "buildingId": 241833351,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 55691,
+      "buildingId": 247852488,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 812648,
+      "buildingId": 248142856,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 757571,
+      "buildingId": 241822304,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 600579,
+      "buildingId": 247852546,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 15115,
+      "buildingId": 248142973,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 653990,
+      "buildingId": 247851937,
+      "basis": "Footprint overlap",
+      "overlapFraction": 0.9987
+    },
+    {
+      "doittId": 612600,
+      "buildingId": 249657830,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 630928,
+      "buildingId": 247852689,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 63326,
+      "buildingId": 248142336,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 546571,
+      "buildingId": 248142696,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 509917,
+      "buildingId": 248142921,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 559801,
+      "buildingId": 247852684,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 1157409,
+      "buildingId": 249657864,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 795768,
+      "buildingId": 247851896,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 789573,
+      "buildingId": 241822323,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 277791,
+      "buildingId": 247851899,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 140639,
+      "buildingId": 248142942,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 672274,
+      "buildingId": 247852672,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 116372,
+      "buildingId": 248142931,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 177389,
+      "buildingId": 248142911,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 133579,
+      "buildingId": 248142935,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 116702,
+      "buildingId": 241822214,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 769088,
+      "buildingId": 248142635,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 115336,
+      "buildingId": 241822291,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 432756,
+      "buildingId": 241822204,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 801667,
+      "buildingId": 248142638,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 491396,
+      "buildingId": 241822190,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 277885,
+      "buildingId": 248142870,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 511022,
+      "buildingId": 247851940,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 733105,
+      "buildingId": 241822303,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 339637,
+      "buildingId": 241822280,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 201761,
+      "buildingId": 247852486,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 40280,
+      "buildingId": 248142661,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 41201,
+      "buildingId": 247852485,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 136361,
+      "buildingId": 241822288,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 535875,
+      "buildingId": 241822156,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 809921,
+      "buildingId": 248142691,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 704326,
+      "buildingId": 247851886,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 549463,
+      "buildingId": 248142666,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 89399,
+      "buildingId": 247851917,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 358494,
+      "buildingId": 247864268,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 567600,
+      "buildingId": 248142909,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 694356,
+      "buildingId": 247851879,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 449083,
+      "buildingId": 248142944,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 648204,
+      "buildingId": 249657827,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 131590,
+      "buildingId": 248142965,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 272829,
+      "buildingId": 248142662,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 580549,
+      "buildingId": 247851882,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 742049,
+      "buildingId": 248142857,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 465056,
+      "buildingId": 247864338,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 106145,
+      "buildingId": 247852663,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 464032,
+      "buildingId": 247851937,
+      "basis": "Footprint overlap",
+      "overlapFraction": 0.9969
+    },
+    {
+      "doittId": 688941,
+      "buildingId": 248142949,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 356884,
+      "buildingId": 241822183,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 507884,
+      "buildingId": 248142878,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 456780,
+      "buildingId": 248142883,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 460361,
+      "buildingId": 248142894,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 136891,
+      "buildingId": 247851935,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 594918,
+      "buildingId": 241844984,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 692439,
+      "buildingId": 247852532,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 503233,
+      "buildingId": 241822332,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 90585,
+      "buildingId": 247864333,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 829284,
+      "buildingId": 241822237,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 430754,
+      "buildingId": 247851927,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 156353,
+      "buildingId": 247851893,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 195404,
+      "buildingId": 248142860,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 821265,
+      "buildingId": 247852679,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 392939,
+      "buildingId": 247852542,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 531595,
+      "buildingId": 248142976,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 746757,
+      "buildingId": 241822165,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 2847,
+      "buildingId": 248142941,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 1193510,
+      "buildingId": 249657870,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 276039,
+      "buildingId": 247851911,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 584149,
+      "buildingId": 249657913,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 599380,
+      "buildingId": 248142971,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 485483,
+      "buildingId": 247852673,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 435050,
+      "buildingId": 247851894,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 821603,
+      "buildingId": 247864214,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 361997,
+      "buildingId": 241822192,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 72372,
+      "buildingId": 247852490,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 850587,
+      "buildingId": 247851939,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 434927,
+      "buildingId": 247851890,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 93564,
+      "buildingId": 241822157,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 449265,
+      "buildingId": -449265,
+      "basis": "Missing footprint restored from NYC OTI"
+    },
+    {
+      "doittId": 239716,
+      "buildingId": 247851887,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 111797,
+      "buildingId": 248142890,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 246923,
+      "buildingId": 248142945,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 87714,
+      "buildingId": 247864246,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 467781,
+      "buildingId": 247864305,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 603585,
+      "buildingId": 247851942,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 211427,
+      "buildingId": 247852680,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 430958,
+      "buildingId": 248142885,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 788854,
+      "buildingId": 248142932,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 391629,
+      "buildingId": 249657795,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 264353,
+      "buildingId": 247852655,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 765705,
+      "buildingId": 248142882,
+      "basis": "Footprint overlap",
+      "overlapFraction": 0.9999
+    },
+    {
+      "doittId": 747567,
+      "buildingId": 241822241,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 520827,
+      "buildingId": 247851921,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 738587,
+      "buildingId": 247851926,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 25998,
+      "buildingId": 241822195,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 175181,
+      "buildingId": 241833299,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 82154,
+      "buildingId": 248142645,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 805459,
+      "buildingId": 241822317,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 77092,
+      "buildingId": 248142313,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 596129,
+      "buildingId": 241829567,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 725334,
+      "buildingId": 241833322,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 151899,
+      "buildingId": 248142653,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 366011,
+      "buildingId": 241829580,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 85087,
+      "buildingId": 241822274,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 554495,
+      "buildingId": 248142335,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 24999,
+      "buildingId": 241829573,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 785965,
+      "buildingId": 241845002,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 202917,
+      "buildingId": 241829564,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 66531,
+      "buildingId": 248142693,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 806102,
+      "buildingId": 241833259,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 587399,
+      "buildingId": 241833312,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 148239,
+      "buildingId": 248142633,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 673296,
+      "buildingId": 248142397,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 396093,
+      "buildingId": 248142624,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 447097,
+      "buildingId": 241844932,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 286966,
+      "buildingId": 248142314,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 265910,
+      "buildingId": 248142904,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 537262,
+      "buildingId": 241829665,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 192031,
+      "buildingId": 249657801,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 324983,
+      "buildingId": 248142322,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 354837,
+      "buildingId": 241822197,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 681079,
+      "buildingId": 248142412,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 701216,
+      "buildingId": 247850836,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 281198,
+      "buildingId": 248142701,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 978459,
+      "buildingId": 248142943,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 704720,
+      "buildingId": 248142874,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 225879,
+      "buildingId": 248142398,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 395937,
+      "buildingId": 248142647,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 163149,
+      "buildingId": 248142697,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 210119,
+      "buildingId": 241829629,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 360723,
+      "buildingId": 248142640,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 350347,
+      "buildingId": 249657803,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 771224,
+      "buildingId": 248142328,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 403183,
+      "buildingId": 241822176,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 531373,
+      "buildingId": 248142621,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 803876,
+      "buildingId": 248142319,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 375404,
+      "buildingId": 248142334,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 191706,
+      "buildingId": 248142333,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 56602,
+      "buildingId": 248142396,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 576113,
+      "buildingId": 241829575,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 85247,
+      "buildingId": 247852538,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 128845,
+      "buildingId": 248142330,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 461450,
+      "buildingId": 241829566,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 600354,
+      "buildingId": 248142393,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 64745,
+      "buildingId": 241829581,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 178284,
+      "buildingId": 241833274,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 248507,
+      "buildingId": 241829661,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 722200,
+      "buildingId": 241829633,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 50764,
+      "buildingId": 241829579,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 594185,
+      "buildingId": 241822319,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 825714,
+      "buildingId": 241822199,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 437913,
+      "buildingId": 241829574,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 345043,
+      "buildingId": 241829577,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 177966,
+      "buildingId": -177966,
+      "basis": "Missing footprint restored from NYC OTI"
+    },
+    {
+      "doittId": 178767,
+      "buildingId": 241822336,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 408482,
+      "buildingId": 241829582,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 27497,
+      "buildingId": 248142390,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 400591,
+      "buildingId": 241822202,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 687565,
+      "buildingId": 248142650,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 564536,
+      "buildingId": 241829565,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 712366,
+      "buildingId": 241822185,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 417655,
+      "buildingId": 248142615,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 836865,
+      "buildingId": 249657804,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 835074,
+      "buildingId": 248142955,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 452247,
+      "buildingId": 248142879,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 1010429,
+      "buildingId": 248142410,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 803436,
+      "buildingId": 248142886,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 596457,
+      "buildingId": 241822341,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 809059,
+      "buildingId": 248142331,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 1007417,
+      "buildingId": 248142705,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 809255,
+      "buildingId": 248142970,
+      "basis": "BIN"
+    },
+    {
+      "doittId": 913242,
+      "buildingId": 247852695,
+      "basis": "Footprint overlap",
+      "overlapFraction": 0.7709
+    },
+    {
+      "doittId": 913192,
+      "buildingId": 247852695,
+      "basis": "Footprint overlap",
+      "overlapFraction": 1.0
+    },
+    {
+      "doittId": 320701,
+      "buildingId": 248142707,
+      "basis": "Footprint overlap",
+      "overlapFraction": 0.9996
+    },
+    {
+      "doittId": 1302857,
+      "buildingId": 247864289,
+      "basis": "Footprint overlap",
+      "overlapFraction": 0.9994
+    }
+  ],
+  "addressCorrections": [
+    {
+      "id": 248142618,
+      "address": "107 East 7th Street",
+      "retainAlias": "101 East 7th Street",
+      "basis": "Existing LPC/photographic identity record distinguishes the church from 101, its rectory."
+    },
+    {
+      "id": 281499419,
+      "address": "181 Avenue A",
+      "retainAlias": "185 Avenue A",
+      "basis": "Existing Steiner identity record; address range 181-189 Avenue A."
+    },
+    {
+      "id": -449265,
+      "address": "420 East 12th Street",
+      "retainAlias": "418 East 12th Street",
+      "source": "https://www.schools.nyc.gov/schools/M450"
+    },
+    {
+      "id": 978475216,
+      "address": "45 East 7th Street",
+      "retainAlias": "119 2nd Avenue",
+      "source": "https://ma.com/45-east-7th.html"
+    },
+    {
+      "id": 241822341,
+      "address": "56 St. Marks Place",
+      "basis": "Exact municipal BIN and a single-building PLUTO parcel recover the previously missing primary address. Shop unit numbers may differ.",
+      "source": "source-data/nyc-pluto-2026-09-06.json"
+    },
+    {
+      "id": 241833259,
+      "address": "107 2nd Avenue",
+      "basis": "Exact municipal BIN and a single-building PLUTO parcel recover the previously missing primary address. Shop unit numbers may differ.",
+      "source": "source-data/nyc-pluto-2026-09-06.json"
+    },
+    {
+      "id": 247852697,
+      "address": "343 East 9th Street",
+      "basis": "Exact municipal BIN and a single-building PLUTO parcel recover the previously missing primary address. Shop unit numbers may differ.",
+      "source": "source-data/nyc-pluto-2026-09-06.json"
+    },
+    {
+      "id": 248142404,
+      "address": "116 1st Avenue",
+      "basis": "Exact municipal BIN and a single-building PLUTO parcel recover the previously missing primary address. Shop unit numbers may differ.",
+      "source": "source-data/nyc-pluto-2026-09-06.json"
+    },
+    {
+      "id": 248142710,
+      "address": "412 East 9th Street",
+      "basis": "Exact municipal BIN and a single-building PLUTO parcel recover the previously missing primary address. Shop unit numbers may differ.",
+      "source": "source-data/nyc-pluto-2026-09-06.json"
+    },
+    {
+      "id": 247864338,
+      "address": "403 East 12th Street",
+      "retainAlias": "403 East 12nd Street",
+      "basis": "Correct malformed ordinal in the mapped address; the restaurant and NYC records identify East 12th Street.",
+      "source": "source-data/nyc-business-records-2026-09-06.json"
+    }
+  ],
+  "limits": [
+    "NYC OTI roof heights are feet above ground; geometry aligned to the preserved game frame.",
+    "PLUTO is parcel-level: floor counts must not be copied to every annex on a multi-building parcel.",
+    "A source inventory match verifies presence/identity, not every facade detail or current tenant."
+  ]
+}

@@ -5,7 +5,7 @@ export function createNeighborhoodWorld(data){
  const cells=new Map(),size=24;
  for(const b of data.buildings){const bb=b.box;for(let x=Math.floor(bb[0]/size);x<=Math.floor(bb[2]/size);x++)for(let z=Math.floor(bb[1]/size);z<=Math.floor(bb[3]/size);z++){const key=x+','+z;if(!cells.has(key))cells.set(key,[]);cells.get(key).push(b);}}
  const bounds=data.driveBounds;
- function buildingAt(x,z){return (cells.get(Math.floor(x/size)+','+Math.floor(z/size))||[]).find(b=>x>=b.box[0]&&x<=b.box[2]&&z>=b.box[1]&&z<=b.box[3]&&inPolygon(x,z,b.p));}
+ function buildingAt(x,z){return (cells.get(Math.floor(x/size)+','+Math.floor(z/size))||[]).find(b=>x>=b.box[0]&&x<=b.box[2]&&z>=b.box[1]&&z<=b.box[3]&&inPolygon(x,z,b.p)&&!(b.holes||[]).some(h=>inPolygon(x,z,h)));}
  function roadAt(x,z,margin=0){return data.roads.find(r=>{const p=projectOnRoad(x,z,r);return Math.hypot(x-p.x,z-p.z)<=r.halfWidth-margin;});}
  function nearestRoad(x,z){let best;for(const road of data.roads){const p=projectOnRoad(x,z,road),distance=Math.hypot(x-p.x,z-p.z);if(!best||distance<best.distance)best={...p,distance,road};}return best;}
  const parked=data.parked||[];

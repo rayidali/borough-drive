@@ -11,7 +11,7 @@ Walk and drive through ten connected East Village blocks, reconstructed from map
 [![Node.js 22+](https://img.shields.io/badge/Node.js-22%2B-5b8268)](package.json)
 [![Three.js](https://img.shields.io/badge/Three.js-r180-697b86)](dist/vendor/THREE-LICENSE.txt)
 
-[Get started](#get-started) · [Explore the project](#how-it-works) · [Contribute](CONTRIBUTING.md) · [Sources & credits](dist/reconstruction/ASSET-CREDITS.md)
+[Play online](https://borough-drive.vercel.app) · [Get started](#get-started) · [Explore the project](#how-it-works) · [Contribute](CONTRIBUTING.md) · [Sources & credits](dist/reconstruction/ASSET-CREDITS.md)
 
 </div>
 
@@ -26,14 +26,20 @@ Borough Drive is a small, explorable reconstruction of Manhattan's East Village.
 The playable area runs from **East 7th to East 12th Street**, between **Second Avenue and Avenue A**. First Avenue and East 10th Street anchors the experience, with ten complete blocks and four boundary sections extending toward the edge of Tompkins Square Park.
 
 - **Walk or drive.** Explore on foot or take the wheel, with braking, reverse, steering, and building collision.
-- **Find your way.** A minimap follows your position; a travel map takes you to nearby streets.
+- **Find your way.** A minimap follows your position; search the travel map for a place or building address.
 - **Look closer.** Storefront openings, shallow shop interiors, cornices, fire escapes, signs, and sidewalk details give the core its character.
 - **Recognize local landmarks.** Distinct forms include Ottendorfer Library, Village East Cinema, the Orpheum, and neighborhood churches.
 - **Run it locally.** All runtime libraries, models, textures, and map data are included. The game needs no backend, API key, or live map service.
 
+The current [neighborhood accuracy pass](model-source/ACCURACY-PASS-04.md) audits the whole rendered area, restores five missing buildings, and brings photographic observations to 410 buildings beyond the preserved First & 10th core. All fourteen sections use recessed facades, individually scheduled architectural details and dated business records. Street dressing includes 235 additional small objects.
+
+![Browser view of First Avenue near East 9th Street, with varied brick and painted facades, curved windows, fire escapes and separate storefronts](docs/images/first-avenue-revision-04.png)
+
+*Revision 04 in the browser. Architectural observations and dated business identities inform the reconstruction; unmeasured storefront designs and other estimates remain recorded in the [accuracy audit](model-source/ACCURACY-PASS-04.md). [Image and model credits](dist/reconstruction/ASSET-CREDITS.md).*
+
 ## Get started
 
-Install **Node.js 22 or newer**, then:
+[Play Borough Drive in your browser](https://borough-drive.vercel.app), or run it locally with **Node.js 22 or newer**:
 
 ```sh
 git clone https://github.com/rayidali/borough-drive.git
@@ -78,7 +84,7 @@ The browser runs vanilla JavaScript modules and bundled **Three.js r180**. Blend
 | [`dist/reconstruction/neighborhood-render.js`](dist/reconstruction/neighborhood-render.js) | Section streaming and street props |
 | [`dist/reconstruction/neighborhood-map.js`](dist/reconstruction/neighborhood-map.js) | Minimap and travel map |
 | [`model-source/`](model-source/) | Reproducible Blender recipes, facade observations, and research |
-| [`source-data/`](source-data/) | Included OpenStreetMap snapshot |
+| [`source-data/`](source-data/) | OSM snapshot, municipal extracts and dated business evidence |
 | [`scripts/`](scripts/) | Local server, data preparation, and verification |
 | [`dist/vendor/`](dist/vendor/) | Bundled renderer and Draco decoder with license notices |
 
@@ -90,7 +96,7 @@ The browser runs vanilla JavaScript modules and bundled **Three.js r180**. Blend
 npm run verify
 ```
 
-The checks cover local module paths, interface references, GLBs, textures, 2,308 road samples, map destinations, boundary driving, braking, reverse, collision, and frame-rate independence of the vehicle simulation. GitHub Actions runs the same checks on Node.js 22 and 24.
+The checks cover local module paths, interface references, GLBs, textures, 2,308 road samples, map destinations, boundary driving, braking, reverse, collision, and frame-rate independence of the vehicle simulation. They also check municipal building joins, restored identities, courtyard openings and business partitions. GitHub Actions runs the same checks on Node.js 22 and 24.
 
 These are code and asset checks. Visual accuracy, driving feel, and browser frame rate need separate hands-on review.
 
@@ -106,15 +112,17 @@ The [neighborhood notes](model-source/NEIGHBORHOOD-NOTES.md#rebuild-order) expla
 
 ## Accuracy and sources
 
-This is a reconstruction prototype with uneven detail. The map contains **610 building objects**, including annexes and boundary context. That number does not represent independently verified facades. The expansion has **77 additional building records with photographic observations**, ranging from individual storefront details to fuller elevations.
+This is a reconstruction prototype with uneven detail. The map contains **615 building objects**, including annexes and boundary context. **410 additional building records have photographic observations**, ranging from individual storefront details to fuller elevations. This does not verify every elevation or every modeled detail.
 
-OpenStreetMap provides footprints and available heights from a **September 5, 2026** snapshot. Business checks in the research records are dated **September 6, 2026**; photograph dates vary. Unknown heights, secondary facades, road widths, trees, street furniture, and shop interiors include estimates. Some preserved signs are explicitly historical.
+OpenStreetMap's **September 5, 2026** snapshot is supplemented by NYC OTI building footprints and roof heights and DCP's **PLUTO 26v2** parcel records. All 620 municipal footprint records in the extracted area have an explicit match; five missing buildings were restored. Business checks are dated **September 6, 2026**, with 212 supported named place records. Architectural photographs include older archive views with unknown capture dates. Secondary facades, road widths, trees, street furniture, shop partitions and interiors include estimates. Some preserved signs are explicitly historical.
 
 Observations, occupancy claims, and inferred geometry are recorded separately. Unknown occupants stay unnamed, and photographic references keep their dates, authors, and reuse terms.
 
 - [Neighborhood scope, landmarks, and known gaps](model-source/NEIGHBORHOOD-NOTES.md)
+- [Accuracy audit, corrections and evidence limits](model-source/ACCURACY-PASS-04.md)
 - [Core facade observations](model-source/FACADE-NOTES.md) and [storefront references](model-source/CURRENT-STOREFRONTS.md)
 - [Editable neighborhood observation schedule](model-source/neighborhood-observations.json)
+- [Map-wide facade audit](model-source/neighborhood-facade-audit.json) and [business inventory](model-source/neighborhood-business-audit.json)
 - [Detailed architectural research](model-source/neighborhood-references/)
 - [Photographic provenance](dist/reconstruction/references.json) and [complete asset credits](dist/reconstruction/ASSET-CREDITS.md)
 - [Core detail-pass notes](docs/DETAIL-PASS-02.md)

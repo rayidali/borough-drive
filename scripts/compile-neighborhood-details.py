@@ -1,9 +1,17 @@
 """Apply dated observations, keep inferred details explicit, place street dressing."""
 import json,re,math,random
 from pathlib import Path
+from neighborhood_businesses import compile_businesses
 ROOT=Path(__file__).resolve().parents[1]
 path=ROOT/'dist/reconstruction/neighborhood.json';data=json.loads(path.read_text())
 observations=json.loads((ROOT/'model-source/neighborhood-observations.json').read_text())
+byid={b['id']:b for b in data['buildings']}
+# Address-only corrections can be compiled without resetting footprint geometry.
+for change in json.loads((ROOT/'model-source/geography-corrections.json').read_text())['addressCorrections']:
+    b=byid[change['id']];b['address']=change['address']
+    alias=change.get('retainAlias')
+    if alias and alias not in b.setdefault('addressAliases',[]):b['addressAliases'].append(alias)
+    b['addressSource']={k:v for k,v in change.items() if k not in ['id','retainAlias']}
 
 def norm(s):
     s=s.lower().replace('½','.5').replace('–','-').replace('—','-')
@@ -103,7 +111,40 @@ for b in data['buildings']:
     # One front, assembled across the two parcels established by the LPC report.
     if b['id']==247852515:b['facadeSpec']['companionId']=247852516
 
-data['referenceSummary']={'checked':'2026-09-06','newObservedBuildings':sum(b['facadeSpec'].get('observed',False) for b in data['buildings'] if not b['core']),'sourceRecords':len(observations['buildings']),'mappedBuildings':len(data['buildings']),'unmatchedReferences':miss,'scope':'Exterior photo-guided reconstruction. Many secondary facades remain estimated; storefront reference dates vary. No current photographic survey.'}
+# Revision 03: recorded architectural controls plus a map-wide detail standard.
+detail_schedule=json.loads((ROOT/'model-source/neighborhood-detail-schedule.json').read_text())
+for b in data['buildings']:
+    if not b['core']:
+        b['facadeSpec']['detail']=dict(detail_schedule['defaults'])
+        b['detailRevision']=detail_schedule['revision']
+for entry in detail_schedule['buildings']:
+    b=update(entry['address'],**entry.get('spec',{}))
+    if not b:raise ValueError('Unmatched detail schedule: '+entry['address'])
+    if b['core']:continue
+    b['facadeSpec']['detail'].update(entry['detail'])
+    b['facadeSpec']['detail']['sourceRecord']=entry['sourceRecord']
+    b['facadeSpec']['detail']['captureDate']=entry['captureDate']
+facade_audit=json.loads((ROOT/'model-source/neighborhood-facade-audit.json').read_text())
+for entry in facade_audit['buildings']:
+    b=byid[entry['id']]
+    if b['core']:continue
+    spec=dict(entry['spec']); detail=spec.pop('detail',{})
+    b['facadeSpec'].update(spec)
+    b['facadeSpec'].setdefault('detail',{}).update(detail)
+    b['architecturalReference']={k:v for k,v in entry.items() if k!='spec'}
+    b['facadeSpec']['inference']=entry['limits']
+for b in data['buildings']:
+    if not b['core']:b['detailRevision']='04'
+    b['renderHeight']=b['facadeSpec'].get('height',b['height'])
+business_audit=compile_businesses(data)
+street_facilities=json.loads((ROOT/'model-source/street-facilities.json').read_text())
+for road in data['roads']:
+    facility=next((r for r in street_facilities['streets'] if r['name']==road['name']),None)
+    if facility:road['facilities']=facility
+data['streetFacilitySummary']={'checked':street_facilities['checked'],'source':'model-source/street-facilities.json','scope':street_facilities['basis']}
+data['detailSummary']={'revision':'04','buildings':sum(not b['core'] for b in data['buildings']),'sourceSchedule':'model-source/neighborhood-facade-audit.json','scope':'Municipal footprint inventory, individually inspected facade photographs and dated business evidence. Unseen elevations and unmeasured details remain estimated.'}
+
+data['referenceSummary']={'checked':'2026-09-06','newObservedBuildings':sum(b['facadeSpec'].get('observed',False) for b in data['buildings'] if not b['core']),'sourceRecords':len(observations['buildings'])+len(facade_audit['buildings']),'auditedFacadeRecords':len(facade_audit['buildings']),'mappedBuildings':len(data['buildings']),'unmatchedReferences':miss,'scope':'Exterior photo-guided reconstruction. Observation dates vary; unseen elevations, exact dimensions and unresolved occupancy remain explicit estimates. No current photographic survey.'}
 
 # Street dressing is representative. It is deliberately separate from buildings.
 rng=random.Random(70912)
@@ -138,12 +179,36 @@ for road in data['roads']:
         t=k*16+3;x,z=a[0]+dx*t,a[1]+dz*t
         if any(other is not road and (abs(x-other['a'][0])<17 if other['axis']=='avenue' else abs(z-other['a'][1])<14) for other in data['roads']):continue
         side=1 if k%2 else -1;offset=road['halfWidth']-1.65
+        facility=road.get('facilities',{})
+        if road['axis']=='street' and facility.get('bike')=='lane':offset=3.85
+        # The accepted straightened cross street is too narrow to insert a
+        # parking buffer here while retaining a usable driving lane. Omit
+        # illustrative parked cars on the track side instead of blocking it.
+        if road['axis']=='street' and facility.get('bike')=='track' and side==facility['side']:continue
+        if road['name']=='Avenue A':offset=7.65
+        if road['name']=='Second Avenue' and side==1:continue
         if road['name']=='First Avenue' and side==1:offset=4.4
         if road['name']=='Second Avenue' and side==-1:offset=4.4
         xx=x-dz*side*offset;zz=z+dx*side*offset
         if abs(xx)<69 and abs(zz)<73:continue
         parked.append({'x':round(xx,2),'z':round(zz,2),'angle':0 if road['axis']=='avenue' else math.pi/2})
+# Small street objects fill the existing streets; coordinates remain estimates.
+detail_groups={k:[] for k in ['bicycle-detail','hydrant','litter-bin','utility-cover','drain-grate']}
+def outside_core(x,z):return not (abs(x)<72 and abs(z)<75)
+def clear_intersection(x,z,road):
+    return not any(other is not road and (abs(x-other['a'][0])<19 if other['axis']=='avenue' else abs(z-other['a'][1])<14) for other in data['roads'])
+for road in data['roads']:
+    a,c=road['a'],road['b'];L=math.dist(a,c);dx,dz=(c[0]-a[0])/L,(c[1]-a[1])/L
+    angle=math.pi/2 if road['axis']=='avenue' else 0
+    for kind,step,offset in [('bicycle-detail',69,road['halfWidth']+2.4),('litter-bin',61,road['halfWidth']+1.3),('hydrant',48,road['halfWidth']+.65),('drain-grate',35,road['halfWidth']-.40),('utility-cover',57,1.1)]:
+        for k in range(1,int(L/step)):
+            t=k*step+7;x,z=a[0]+dx*t,a[1]+dz*t
+            side=1 if k%2 else -1;xx=x-dz*side*offset;zz=z+dx*side*offset
+            if not outside_core(xx,zz) or not clear_intersection(x,z,road) or solid(xx,zz):continue
+            detail_groups[kind].append({'x':round(xx,3),'z':round(zz,3),'angle':(math.pi/2-angle if kind=='drain-grate' else angle)})
+data['detailProps']=[{'name':name.replace('-',' ').title(),'url':'neighborhood/'+name+'.glb','placements':placements} for name,placements in detail_groups.items()]
+data['detailSummary']['streetObjects']=sum(len(g['placements']) for g in data['detailProps'])
 data.update(trees=trees,benches=benches,furniture=furniture,parked=parked)
 path.write_text(json.dumps(data,separators=(',',':')))
-(ROOT/'dist/reconstruction/neighborhood-sources.json').write_text(json.dumps(observations,indent=2))
+(ROOT/'dist/reconstruction/neighborhood-sources.json').write_text(json.dumps({**observations,'facadeAudit':facade_audit,'businessAudit':business_audit,'geographyAudit':data['geographyAudit']},indent=2))
 print(json.dumps({**data['referenceSummary'],'trees':len(trees),'cars':len(parked)}))

@@ -1,0 +1,232 @@
+{
+  "revision": "04",
+  "checked": "2026-09-06",
+  "scope": "Existing fourteen sections; local source, model, browser and interaction review. No deployment.",
+  "inventory": {
+    "buildingObjects": 615,
+    "nonCorePhotoObserved": 410,
+    "restoredBuildings": 5,
+    "municipalRecords": 620,
+    "supportedNamedPlaceRecords": 212
+  },
+  "assets": {
+    "sectionBytes": 51038080,
+    "sectionMiB": 48.67,
+    "sectionTriangles": 8761042,
+    "largestMaterialBatchCount": 46
+  },
+  "checks": {
+    "npmRunVerify": "passed on Node.js 24.19.0",
+    "roadSamples": 2308,
+    "cleanPrepareCompileMatches": true,
+    "originalFootprintsPreserved": 610,
+    "coreModelAndRecipeByteIdentical": true,
+    "licensedReferenceFilesByteIdentical": 6,
+    "syntaxAndWhitespace": "passed"
+  },
+  "browser": {
+    "viewpoints": [
+      {
+        "name": "block-1-1",
+        "id": 247851938,
+        "address": "188 2nd Avenue",
+        "tile": "block-1-1",
+        "street": "Second Avenue"
+      },
+      {
+        "name": "block-1-2",
+        "id": -449265,
+        "address": "420 East 12th Street",
+        "tile": "block-1-2",
+        "street": "East 12th Street"
+      },
+      {
+        "name": "block-2-1",
+        "id": 247851903,
+        "address": "225 East 10th Street",
+        "tile": "block-2-1",
+        "street": "East 10th Street"
+      },
+      {
+        "name": "block-2-2",
+        "id": 248142899,
+        "address": "267 East 10th Street",
+        "tile": "block-2-2",
+        "street": "East 10th Street"
+      },
+      {
+        "name": "block-3-1",
+        "id": 247852668,
+        "address": "228 East 10th Street",
+        "tile": "block-3-1",
+        "street": "East 10th Street"
+      },
+      {
+        "name": "block-3-2",
+        "id": -577810,
+        "address": "256 East 10th Street",
+        "tile": "block-3-2",
+        "street": "East 10th Street"
+      },
+      {
+        "name": "block-4-1",
+        "id": 241822304,
+        "address": "141 1st Avenue",
+        "tile": "block-4-1",
+        "street": "First Avenue"
+      },
+      {
+        "name": "block-4-2",
+        "id": 248142710,
+        "address": "412 East 9th Street",
+        "tile": "block-4-2",
+        "street": "East 9th Street"
+      },
+      {
+        "name": "block-5-1",
+        "id": 241822336,
+        "address": "79 East 7th Street",
+        "tile": "block-5-1",
+        "street": "East 7th Street"
+      },
+      {
+        "name": "block-5-2",
+        "id": 248142650,
+        "address": "127 East 7th Street",
+        "tile": "block-5-2",
+        "street": "East 7th Street"
+      },
+      {
+        "name": "edge-east",
+        "id": 249657803,
+        "address": "299 East 10th Street",
+        "tile": "edge-east",
+        "street": "East 10th Street"
+      },
+      {
+        "name": "edge-north",
+        "id": -207566,
+        "address": "323 East 12th Street",
+        "tile": "edge-north",
+        "street": "East 12th Street"
+      },
+      {
+        "name": "edge-south",
+        "id": 241829631,
+        "address": "86 East 7th Street",
+        "tile": "edge-south",
+        "street": "East 7th Street"
+      },
+      {
+        "name": "edge-west",
+        "id": 978475216,
+        "address": "45 East 7th Street",
+        "tile": "edge-west",
+        "street": "East 7th Street"
+      },
+      {
+        "name": "place-177966",
+        "id": -177966,
+        "address": "73-75 East 7th Street",
+        "tile": "block-5-1",
+        "street": "East 7th Street"
+      },
+      {
+        "name": "place-193141",
+        "id": -193141,
+        "address": "195 Avenue A",
+        "tile": "edge-north",
+        "street": "East 12th Street"
+      },
+      {
+        "name": "place-241822329",
+        "id": 241822329,
+        "address": "81 East 7th Street",
+        "tile": "block-5-1",
+        "street": "East 7th Street"
+      }
+    ],
+    "failedModelTextureRequests": 0,
+    "uncaughtExceptions": 0,
+    "warnings": [
+      "Pre-existing vendored RGBELoader deprecation warnings."
+    ],
+    "interaction": {
+      "searches": [
+        {
+          "query": "Blue & Gold",
+          "open": false,
+          "street": "East 7th Street \u00b7 First Avenue",
+          "error": "",
+          "fallback": false
+        },
+        {
+          "query": "SMITHEREENS",
+          "open": false,
+          "street": "East 9th Street \u00b7 First Avenue",
+          "error": "",
+          "fallback": false
+        },
+        {
+          "query": "420 East 12th Street",
+          "open": false,
+          "street": "East 12th Street \u00b7 Avenue A",
+          "error": "",
+          "fallback": false
+        },
+        {
+          "query": "Boris and Horton",
+          "open": false,
+          "street": "Avenue A \u00b7 East 12th Street",
+          "error": "",
+          "fallback": false
+        },
+        {
+          "query": "PASTASOLE",
+          "open": false,
+          "street": "First Avenue \u00b7 East 12th Street",
+          "error": "",
+          "fallback": false
+        }
+      ],
+      "invalid": {
+        "open": true,
+        "message": "Choose a listed place or street address."
+      },
+      "frameSamples": {
+        "blueGold": {
+          "frames": 180,
+          "meanMs": 32.41,
+          "medianMs": 33.3,
+          "p95Ms": 50.1,
+          "meanFps": 30.9
+        },
+        "school": {
+          "frames": 180,
+          "meanMs": 16.67,
+          "medianMs": 16.7,
+          "p95Ms": 16.7,
+          "meanFps": 60
+        }
+      },
+      "environment": {
+        "viewport": [
+          1440,
+          1000
+        ],
+        "dpr": 1,
+        "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M1, Unspecified Version)",
+        "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/152.0.0.0 Safari/537.36"
+      },
+      "errors": [
+        "RGBELoader has been deprecated. Please use HDRLoader instead.",
+        "RGBELoader has been deprecated. Please use HDRLoader instead."
+      ]
+    }
+  },
+  "screenshots": [
+    "docs/images/first-avenue-revision-04.png",
+    "docs/images/blue-gold-revision-04.png"
+  ],
+  "limits": "Photographs include old archive views and unknown capture dates. 142 non-core objects with mapped street frontages lack individual photographic observations. Shop partitions, most sign artwork, unseen geometry and street dressing remain estimates. Frame samples are short stationary observations at two sequential travel positions with default adaptive quality enabled, not fixed-quality or sustained driving benchmarks."
+}

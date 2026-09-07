@@ -1,0 +1,14 @@
+{
+  "revision": "04",
+  "checked": "2026-09-06",
+  "basis": "Facility type and direction from included OpenStreetMap snapshot. Road centerlines are straightened in the accepted map frame; lane widths, markings and parking positions are geometric estimates, not surveyed dimensions.",
+  "streets": [
+    {"name":"East 9th Street","bike":"lane","side":1,"width":1.55,"offset":2.0,"osmWays":[5671659,479642037]},
+    {"name":"East 10th Street","bike":"lane","side":-1,"width":1.55,"offset":2.0,"osmWays":[1021949720,479642036],"eastLimit":214},
+    {"name":"St. Marks Place","bike":"lane","side":-1,"width":1.55,"offset":2.0,"osmWays":[847950378,479642038]},
+    {"name":"East 12th Street","bike":"track","side":-1,"width":1.7,"offset":3.95,"osmWays":[1029629816,479642033],"eastLimit":214},
+    {"name":"Avenue A","bike":"lane","sides":[-1,1],"width":1.65,"offset":5.4,"osmWays":[584971530,584971531,584971532]},
+    {"name":"First Avenue","bike":"track","sides":[-1],"width":2.45,"offset":9.3,"basis":"Existing mapped protected lane, retained in accepted map frame."},
+    {"name":"Second Avenue","bike":"track","sides":[1],"width":3.0,"offset":9.05,"busSide":-1,"busWidth":3.0,"source":"https://www.nyc.gov/html/dot/html/pr2025/safer-across-manhattan-aves.shtml","sourceDate":"2025-03-05","basis":"DOT reports completed widened protected bicycle lane from 14th to Houston and upgraded avenue bus lane. Modeled width is an estimate."}
+  ]
+}

@@ -25,6 +25,7 @@ Business sources and status are recorded in businesses.json (checked September 6
 Poly Haven, CC0: https://polyhaven.com/license
 - red_brick_03: https://polyhaven.com/a/red_brick_03
 - brown_brick_02: https://polyhaven.com/a/brown_brick_02
+- white_bricks, Rob Tuytel: https://polyhaven.com/a/white_bricks (included surface maps used by neighborhood detail revision 03)
 - concrete_wall_006: https://polyhaven.com/a/concrete_wall_006
 - asphalt_02: https://polyhaven.com/a/asphalt_02
 - urban_alley_01: https://polyhaven.com/a/urban_alley_01 (reflection lighting only; not a geographic background)
@@ -55,3 +56,29 @@ Building footprints, mapped addresses and supplied heights: © OpenStreetMap con
 Additional architectural photographs were inspected for proportions and details only; their pixels are not redistributed or copied into textures. Full records and URLs are in `neighborhood-sources.json` and the source project's `model-source/neighborhood-references/`. Sources include Village Preservation's East Village Building Blocks archive, NYC Landmarks Preservation Commission reports and existing-condition submissions, Kevin Walsh's December 2024 Avenue A walk published by Forgotten New York, official business sites and dated local reporting such as EV Grieve. Upload/publication dates are not automatically image-capture dates.
 
 The independent Blender recipes create the new meshes, tree leaves, benches, lamps and cars. Generic Poly Haven CC0 surface images are shared across section files through content-addressed URLs in `neighborhood/textures/`. They represent masonry and pavement; they are not scans of these NYC buildings. Unknown facade layouts, interiors, street furniture positions and other inferred details are disclosed in the model data and viewer.
+
+## Neighborhood detail revision 03 — September 6, 2026
+
+`model-source/neighborhood_detail_kit.py` builds recessed windows and entrances, sashes, curtains, sill drip edges, door hardware, shutter housings, service pipes and cornice microdetail. Their exact dimensions and placement are authored estimates. The specific arched crowns, entrances, quoins and roof railing in `model-source/neighborhood-detail-schedule.json` translate the existing dated architectural research into geometry. They do not assert new photograph dates or current occupants.
+
+`model-source/build_streetscape.py` creates original bicycle, hydrant, bin, utility-cover and drain-grate meshes. Their deterministic placements are illustrative street dressing. The accepted core model and all source photographic bytes remain unchanged. Bare masonry uses the credited color/roughness/normal maps; painted masonry retains its recorded paint color over surface roughness and normal maps. No reference photographs were generated, recolored, or redistributed by this pass.
+
+## Neighborhood accuracy revision 04 — September 6, 2026
+
+Municipal data supplements the same existing map extent:
+
+- **NYC Office of Technology and Innovation:** 620 building footprint records, BIN/DOITT identifiers, roof heights and edit dates. [Dataset](https://data.cityofnewyork.us/Housing-Development/Building-Footprints/5zhs-2jue); [field metadata](https://github.com/CityOfNewYork/nyc-geo-metadata/blob/main/Metadata/Metadata_BuildingFootprints.md). Five missing footprints are added with a documented translation into the accepted coordinate frame; 570 direct matches supply roof heights. The city data is not asserted to be a current field survey.
+- **NYC Department of City Planning:** PLUTO 26v2, 526 related parcel records, retrieved September 6, 2026. [Public data](https://data.cityofnewyork.us/resource/64uk-42ks.json). Only geographic, building and address attributes are retained.
+- **NYC Department of Health and Mental Hygiene:** 274 latest establishment inspection records in the modeled extent. [Public data](https://data.cityofnewyork.us/resource/43nn-pn8j.json). Inspection dates are retained and do not guarantee continued occupancy.
+- **NYC Department of Consumer and Worker Protection:** five matched retail premises from [Legally Operating Businesses](https://data.cityofnewyork.us/Business/Legally-Operating-Businesses/w7w3-xahh). License status is supporting dated evidence, not an opening guarantee.
+- **NYC Department of Transportation:** [March 5, 2025 completion report](https://www.nyc.gov/html/dot/html/pr2025/safer-across-manhattan-aves.shtml), supporting the widened Second Avenue bicycle lane and upgraded bus lane. Other facility types and directions use the included OSM snapshot. Road and lane dimensions remain estimates.
+
+City data retains its source-specific terms and [NYC Open Data policies](https://cityofnewyork.github.io/opendatatsm/publicpolicies.html). The project documents its extracts, joins, coordinate alignment and height conversions in `model-source/ACCURACY-PASS-04.md` and `geography-corrections.json`. MIT covers the project's original contributions and does not relicense the city datasets or remove ODbL obligations from the OSM-derived geography.
+
+**Architectural photographs used for observation only:**
+
+- Village Preservation, [East Village Building Blocks](https://buildingblocks.villagepreservation.org/). Individual building/profile URLs and image URLs appear in `neighborhood-sources.json` under `facadeAudit`. Most newly inspected archive photographs have 2012 upload paths; capture dates are generally unknown. The archive's old tenants are not automatically treated as current businesses.
+- Morris Adjmi Architects, [45 East 7th](https://ma.com/45-east-7th.html), completed 2021. The publisher credits Jimi Billingsley, VUW, Field Condition and Nexus Development. Inspection informs brick pattern, proportions, window arrangement, cornice and setback; it does not supply image textures or establish measured dimensions.
+- Scoundrel's Field Guide / David Shaw, [Blue & Gold Tavern](https://scoundrelsfieldguide.com/new-york/new-york-city/blue-gold-tavern/). The inspected close facade photograph has a May 2022 upload path and no confirmed capture date. It informs the small sign, low brick frontage, green awning and metalwork.
+
+The 376 new written facade observations are included; those research photographs are not redistributed. Existing licensed photographic files and the core model are unchanged. New facade forms are independently modeled geometry over the previously credited generic material maps. Exact shop units, most sign lettering, service details, interiors and street dressing remain authored estimates. Business evidence and contrary/closure evidence retain their separate dates in the downloadable source inventory.

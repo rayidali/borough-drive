@@ -1,0 +1,143 @@
+{
+  "checked": "2026-09-06",
+  "excluded": [
+    {
+      "osmId": 12327528096,
+      "reason": "Blank Street at 149 Avenue A is closed; retained dated closure research in neighborhood-references."
+    },
+    {
+      "osmId": 9581876700,
+      "reason": "Beron Beron is historical in the preserved core, not a newly confirmed current tenant."
+    },
+    {
+      "osmId": 4146358991,
+      "reason": "Ferns is a former occupant in the broker listing; its older website is not sufficient current evidence.",
+      "source": "https://www.meridiancapital.com/wp-content/uploads/2025/06/166-First-Avenue-Meridian-Setup.pdf",
+      "sourceDate": "2025-06"
+    }
+  ],
+  "places": [
+    {
+      "osmId": 12542984188,
+      "name": "BLUE & GOLD",
+      "buildingId": 241822336,
+      "street": "East 7th Street",
+      "profile": "blue_gold",
+      "fascia": "nishaan blue",
+      "letters": "yellow paint",
+      "source": "https://www.nyc.gov/assets/manhattancb3/downloads/sla/2025/12/questionnaires/13-97-2nd-Avenue-Questionnaire.pdf",
+      "sourceDate": "2025-12",
+      "basis": "CB3 licensed-premises list; independently matches May 2026 DOHMH record."
+    },
+    {
+      "osmId": 12542984190,
+      "name": "BIG BAR",
+      "buildingId": -177966,
+      "street": "East 7th Street",
+      "fascia": "theater red",
+      "letters": "sign white",
+      "source": "https://sideways.nyc/discover/3C5Ct4NnaDR3J5gkpY9E78/big-bar",
+      "sourceDate": null,
+      "basis": "Owner interview and street address; dated DOHMH record at the same BIN."
+    },
+    {
+      "osmId": 4551161735,
+      "name": "ABRA\u00c7O",
+      "buildingId": 241822329,
+      "street": "East 7th Street",
+      "source": "https://data.cityofnewyork.us/resource/43nn-pn8j.json?camis=50056074",
+      "sourceDate": "2026-01-07",
+      "basis": "Mapped identity and January 2026 DOHMH record at 81 East 7th; exact BIN 1084502."
+    },
+    {
+      "osmId": 2494127918,
+      "name": "E Smoke & Convenience",
+      "buildingId": 241829631,
+      "street": "First Avenue",
+      "source": "https://data.cityofnewyork.us/resource/w7w3-xahh.json?license_nbr=2087614-2-DCA",
+      "sourceDate": null,
+      "basis": "Current premises license and exact mapped address; expiry 2026-12-31"
+    },
+    {
+      "osmId": 5919252677,
+      "name": "Tokio 7",
+      "buildingId": 241822317,
+      "street": "East 7th Street",
+      "source": "https://data.cityofnewyork.us/resource/w7w3-xahh.json?license_nbr=0951311-DCA",
+      "sourceDate": null,
+      "basis": "Current premises license and exact mapped address; expiry 2027-07-31"
+    },
+    {
+      "osmId": 7078649957,
+      "name": "Fabulous Fanny's",
+      "buildingId": 247852685,
+      "street": "East 9th Street",
+      "source": "https://data.cityofnewyork.us/resource/w7w3-xahh.json?license_nbr=2101440-DCA",
+      "sourceDate": null,
+      "basis": "Current premises license and exact mapped address; expiry 2027-07-31"
+    },
+    {
+      "osmId": 9322331908,
+      "name": "Evflorist Corp",
+      "buildingId": 248142883,
+      "street": "East 10th Street",
+      "source": "https://data.cityofnewyork.us/resource/w7w3-xahh.json?license_nbr=2036568-DCA",
+      "sourceDate": null,
+      "basis": "Current premises license and exact mapped address; expiry 2028-03-31"
+    },
+    {
+      "osmId": 10270502711,
+      "name": "Village Craft Beer & Smoke",
+      "buildingId": 248142711,
+      "street": "First Avenue",
+      "source": "https://data.cityofnewyork.us/resource/w7w3-xahh.json?license_nbr=2065982-1-DCA",
+      "sourceDate": null,
+      "basis": "Current premises license and exact mapped address; expiry 2027-12-31"
+    },
+    {
+      "osmId": 6206439272,
+      "name": "PILLOW-CAT BOOKS",
+      "buildingId": 241822179,
+      "street": "East 9th Street",
+      "fascia": "shop sage",
+      "letters": "sign white",
+      "source": "https://www.pillowcatbooks.com/pages/about-pillow-cat-books",
+      "sourceDate": null,
+      "basis": "Business website lists 328 East 9th Street and describes a green bookshop."
+    },
+    {
+      "osmId": 2494064597,
+      "name": "PORTO RICO IMPORTING CO.",
+      "buildingId": 241822310,
+      "street": "St. Marks Place",
+      "source": "https://www.portorico.com/store/",
+      "sourceDate": null,
+      "basis": "Current business website lists 40 1/2 St. Marks Place."
+    }
+  ],
+  "cityPlaces": [
+    {
+      "camis": "50160744",
+      "name": "SMITHEREENS",
+      "source": "https://www.smithereensnyc.com/"
+    },
+    {
+      "camis": "50160092",
+      "name": "PASTASOLE",
+      "source": "https://maps.apple.com/place?place-id=IAAC7C377B1496836",
+      "supersedes": [
+        12368274270
+      ]
+    },
+    {
+      "camis": "50172970",
+      "name": "SPIRALS",
+      "category": "bakery",
+      "profile": "bakery",
+      "source": "https://www.grubhub.com/restaurant/spirals-137-1st-ave-new-york/12728200",
+      "supersedes": [
+        10270502712
+      ]
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "checked": "2026-09-06",
+  "publisher": "NYC DCWP",
+  "source": "https://data.cityofnewyork.us/Business/Legally-Operating-Businesses/w7w3-xahh",
+  "scope": "Only matched premises used as supporting address/name evidence. A license is not a real-time opening guarantee.",
+  "records": [
+    {
+      "license_nbr": "2087614-2-DCA",
+      "business_name": "PRAMUKH 113, INC.",
+      "dba_trade_name": "E SMOKE & CONVENIENCE",
+      "business_category": "Tobacco Retail Dealer",
+      "license_status": "Active",
+      "lic_expir_dd": "2026-12-31T00:00:00.000",
+      "address_building": "113",
+      "address_street_name": "1ST AVE",
+      "bin": "1006283",
+      "bbl": "1004480027",
+      "latitude": "40.726892",
+      "longitude": "-73.98581"
+    },
+    {
+      "license_nbr": "0951311-DCA",
+      "business_name": "TRUTH, INC.",
+      "dba_trade_name": "TOKIO 7",
+      "business_category": "Secondhand Dealer - General",
+      "license_status": "Active",
+      "lic_expir_dd": "2027-07-31T00:00:00.000",
+      "address_building": "83",
+      "address_street_name": "EAST    7 STREET",
+      "bin": "1006343",
+      "bbl": "1004490040",
+      "latitude": "40.727231780149154",
+      "longitude": "-73.98632956929056"
+    },
+    {
+      "license_nbr": "2101440-DCA",
+      "business_name": "FABULOUS FANNY'S INC.",
+      "business_category": "Secondhand Dealer - General",
+      "license_status": "Active",
+      "lic_expir_dd": "2027-07-31T00:00:00.000",
+      "address_building": "335",
+      "address_street_name": "EAST    9 STREET",
+      "bin": "1006421",
+      "bbl": "1004510044",
+      "latitude": "40.728796288125714",
+      "longitude": "-73.98630399226987"
+    },
+    {
+      "license_nbr": "2036568-DCA",
+      "business_name": "EVFLORIST CORP",
+      "business_category": "Stoop Line Stand",
+      "license_status": "Active",
+      "lic_expir_dd": "2028-03-31T00:00:00.000",
+      "address_building": "247",
+      "address_street_name": "EAST   10 STREET",
+      "bin": "1077662",
+      "bbl": "1004380001",
+      "latitude": "40.72860935143011",
+      "longitude": "-73.98402738244903"
+    },
+    {
+      "license_nbr": "2065982-1-DCA",
+      "business_name": "VILLAGE CRAFT BEER & SMOKE INC",
+      "business_category": "Tobacco Retail Dealer",
+      "license_status": "Active",
+      "lic_expir_dd": "2027-12-31T00:00:00.000",
+      "address_building": "136",
+      "address_street_name": "1 AVENUE",
+      "bin": "1005893",
+      "bbl": "1004360060",
+      "latitude": "40.727736672448145",
+      "longitude": "-73.98517492071582"
+    }
+  ]
+}

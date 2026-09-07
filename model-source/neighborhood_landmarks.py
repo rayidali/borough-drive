@@ -55,8 +55,52 @@ def main_front(b,street=None):
 
 def build_landmark(b,spec):
     kind=spec.get('landmark');wall=spec.get('wall','warm brick');bb=b['box'];x0,z0,x1,z1=bb
-    special=['st_nicholas','st_stanislaus','st_cyril','st_mary','st_marks_church','joyce','school','ps122','orpheum','ottendorfer','dispensary','village_east','elizabeth','elizabeth_east','ruin','modern_bank','cast_iron']
+    special=['st_nicholas','st_stanislaus','st_cyril','st_mary','st_marks_church','joyce','school','east_side_school','ps122','orpheum','ottendorfer','dispensary','village_east','elizabeth','elizabeth_east','ruin','modern_bank','cast_iron']
     if kind not in special:return False
+    if kind=='east_side_school':
+        # NYC's actual H-shaped outline supplies both recessed courtyards. The
+        # archive photograph shows grouped classroom glazing with stone frames.
+        wall_mass(b,wall,False);h=b['renderHeight'];step=(h-.65)/5
+        for v in b['frontages']:
+            f=Facade(v['x'],v['z'],v['rx'],v['rz'],v['length']);f.wall=wall
+            f.window_dressing=False;f.window_frame='white frame'
+            groups=max(1,round(f.L/6.0));pitch=f.L/groups
+            entrance=f.L-3.8 if f.L>25 and v['street']=='East 12th Street' else None
+            for row in range(5):
+                y=.85+row*step
+                for k in range(groups):
+                    ss=(k+.5)*pitch;ww=min(4.1,pitch*.72);hh=step*.67
+                    if row==0 and entrance is not None and abs(ss-entrance)<ww/2+1.5:continue
+                    street_window(f,ss,y,ww,hh,'cream stone',0)
+                    for j in range(1,4):f.b(ss-ww/2+j*ww/4,y+hh/2,.04,.055,hh,.10,'white frame')
+                    for yy in [y+hh*.33,y+hh*.67]:f.b(ss,yy,.06,ww,.035,.05,'white frame')
+                    if row>0:
+                        for dx in [-ww/2-.16,ww/2+.16]:
+                            for q in range(5):f.b(ss+dx,y+.25+q*hh/5,.03,.24 if q%2 else .34,.32,.19,'cream stone')
+                if row in [0,3]:f.strip(y+step-.30,.12,.18,'cream stone')
+            f.strip(h,.20,.30,'cream stone')
+            if f.L<12:
+                f.b(f.L/2,h+.35,.02,f.L-.45,.70,.20,wall)
+                f.b(f.L/2,h+.76,.03,2.6,.60,.24,wall)
+                f.strip(h+.73,.13,.26,'cream stone')
+            elif entrance is not None:
+                # The reference places the red entrance beside the western
+                # projecting wing, not in the middle of a classroom window.
+                arch(f,entrance,.19,2.2,3.8,'cream stone',False,'dark glass')
+                for dx in [-.53,.53]:
+                    f.b(entrance+dx,1.30,.23,1.02,2.22,.10,'theater red')
+                    f.b(entrance+dx,2.18,.30,.76,.29,.035,'dark glass')
+                    f.line((entrance+dx*.28,1.05,.31),(entrance+dx*.28,1.52,.31),.018,'metal')
+                for dx in [-1.35,1.35]:
+                    f.b(entrance+dx,1.8,.17,.37,3.25,.36,'cream stone')
+                    f.b(entrance+dx,3.36,.23,.59,.20,.47,'cream stone')
+                f.b(entrance,3.95,.17,3.15,.19,.38,'cream stone')
+                label(f,entrance,3.15,1.8,'420','sign white',.20,.23)
+                # A small identification plaque is an estimated modern sign.
+                f.b(entrance-2.0,1.80,.17,.70,.62,.06,'cream stone')
+                label(f,entrance-2.0,1.82,.62,'EAST SIDE','black iron',.095,.22)
+                label(f,entrance-2.0,1.63,.62,'SCHOOL','black iron',.095,.22)
+        return True
     if kind=='cast_iron':
         wall_mass(b,'cast iron facade');f=main_front(b,'First Avenue');h=b['renderHeight'];step=(h-3.85)/4
         for row in range(4):
