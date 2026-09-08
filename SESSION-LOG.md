@@ -10,6 +10,45 @@ git log --oneline -- CODEX-HANDOFF.md SESSION-LOG.md
 
 Checkpoint notes describe observed state, not a live monitor. Recheck local files, remote branches and deployment status when resuming. Keep necessary artifacts in the repository and record reproducible commands; temporary directories and old tool/process IDs are not durable checkpoints. Store no tokens, passwords or authentication cookies here.
 
+## 2026-09-08-03 — First & 7th and storefront pass 05 verified; saved locally
+
+**Recorded:** 2026-09-08T17:26:41-04:00 (America/New_York).
+**User objective and decisions:** Start at First Avenue/East 7th and make the existing map faithful down to signs/neon, boards, furniture, paint, proportions and architectural elements. Preserve First & 10th. Keep Blender asset authoring plus the existing Three.js browser runtime; Unreal is a possible future desktop evaluation, not an implemented migration. No new publication requested.
+**Completed work:** Start/reset in both modes and a map shortcut; 22 explicit shop designs, 26 separate elevation controls and 29 source records across nine rebuilt sections. Corrected Ralph's/Danny & Coop's duplicate identities and the latter's building join. Added ten sidewalk object colliders, licensed script lettering, source signatures, coverage/reproduction/browser-review scripts, credits and three unedited game captures. Visual refinements include Tile Bar stripes, door/base/furniture and side bay spacing, sign readability and projecting signs. Details and limits: `model-source/STOREFRONT-PASS-05.md`; durable test/asset records: `model-source/storefront-review-2026-09-08.json`.
+**Gameplay/source baseline:** Current local `63757cbbb13749584e761e4bf7a8e655f90b1bd4` on `main`. Session began clean at documentation `5753989`, following gameplay `835ea6cb53f7b88ebc0edc9586080f9c371b9d20`.
+**Local changes:** Gameplay/source/models/reviews committed in `63757cb`. Checkpoint documents saved separately; identify their own commit with Git history. No pending export or known failing check. All necessary source and reviewed game captures are in the repository; ignored `renders/` and temporary browser processes are optional conveniences.
+**Remote state:** New work not pushed. Remote not fetched; cached `origin/main` remains `5753989`.
+**Deployment state:** No deployment or new live verification. Historical production verification of `835ea6c` on September 6 remains separate from this local pass.
+**Validation:** Final `npm run verify` passed on Node.js 24.15.0: 2,308 road samples, source/model signatures, module/asset references, spawns/vehicle invariants and walking object collision. Nine final Blender exports succeeded; fourteen neighborhood GLBs total 49.14 MiB, 8,906,922 actual GLB triangles, maximum 50 material batches. Chrome on Apple M1 reviewed 56 viewpoints (start, 22 shops, seven projecting-sign angles, 26 elevations), with zero uncaught exceptions/failed HTTP responses. Start `(0,228)` northbound, driving and both reset modes passed. Disposable clean prepare/compile matched all source fields for 615 buildings and three generated audits, excluding Blender-written render heights and tile export metadata. Eight implementation Python files parsed, reproduction verifier executed, staged whitespace checks passed. Core GLB/recipe/vehicle module and six photographs are byte-identical to revision 04; all mapped footprints/heights, roads and bounds preserved. Font-license whitespace normalized while retaining the complete text; source/runtime notices match.
+**Unresolved issues:** The user's full 1:1 objective remains open. Of 200 supported non-core names, 178 still have estimated designs; all 641 non-core street frontages are listed in `digital-twin-coverage.json`. Current photo coverage, exact dimensions/material samples/artwork, secondary elevations and small details remain incomplete. Some review views are partly occluded. The browser disabled ambient occlusion through its existing quality adjustment; no frame-rate benchmark was performed. Older image dates do not establish current occupancy or outdoor configurations.
+**Next action:** Continue First Avenue/East 7th toward St Marks using the coverage inventory and dated head-on/oblique photographs. Record measurements and exact sign/material artwork where available, expand the explicit schedules, rebuild affected sections and compare equivalent real/game views. Read the current publishing request before any push/deployment.
+
+## 2026-09-08-02 — Observed storefronts and nine sections exported; validation in progress
+
+**Recorded:** 2026-09-08T17:02:43-04:00 (America/New_York).
+**User objective and decisions:** Full neighborhood fidelity down to outdoor furniture, neon/signs, boards, materials and building details; start at First & 7th. Keep the core. No publishing or migration request.
+**Completed work:** 22 individually authored storefront designs, 26 elevation schedules, 29 source records, nine rebuilt GLBs. Corrected duplicate Ralph’s and misplaced/duplicate Danny & Coop’s identities (210 named places). Added portable OFL script font, credits, source signatures and walking collision for ten photographed furniture/board objects. Details/limits in `model-source/STOREFRONT-PASS-05.md`.
+**Gameplay/source baseline:** `835ea6cb53f7b88ebc0edc9586080f9c371b9d20` on `main`; initial documentation HEAD `5753989`.
+**Local changes:** All new work remains uncommitted; affected paths include runtime modules, model/source manifests, scripts, fonts/notices, nine neighborhood GLBs and documentation. Actual review tool is checked into `scripts/review-storefronts.mjs`; screenshots in ignored `renders/` are not the only resume record.
+**Remote state:** Not pushed; remote not fetched.
+**Deployment state:** Not deployed; current live state not checked. September 6 verification of `835ea6c` remains historical.
+**Validation:** Python files parse; initial actual-browser start, northbound driving and resets passed with zero uncaught errors/failed responses. Nine Blender exports succeeded. Blender initially crashed before script execution in sandbox graphics-device initialization; escalation succeeded. Final `npm run verify` and actual-browser review pending.
+**Unresolved issues:** Visually inspect final exports and correct any clipping/placement issues. Reproduction and preservation checks pending. Full 1:1 remains unestablished: 22 detailed shops do not cover the map; exact measurements, many current photos/artwork and secondary elevations remain missing.
+**Next action:** Read final validation output, inspect browser captures, fix failures, then update the checkpoint with actual results and publishing state.
+
+## 2026-09-08-01 — First & 7th start; storefront fidelity work begun
+
+**Recorded:** 2026-09-08T16:40:55-04:00 (America/New_York).
+**User objective and decisions:** Start at First Avenue/East 7th. Improve businesses and buildings throughout the existing map toward minute real-world detail, including outdoor seating, neon, boards, paint, proportions and architecture. Explain whether Blender or an engine is appropriate. Preserve the accepted First & 10th core; no deployment or migration requested.
+**Completed work:** Inspected clean checkout and prior accuracy sources. Edited start/reset to derive the First & 7th location from the map in both modes; added map shortcut and matching control text.
+**Gameplay/source baseline:** `835ea6cb53f7b88ebc0edc9586080f9c371b9d20` on `main`; documentation HEAD `5753989`.
+**Local changes:** `viewer.js`, `neighborhood-world.js`, `neighborhood-map.js`, `dist/index.html`, `START-HERE.md` and checkpoints uncommitted; storefront research/geometry work in progress.
+**Remote state:** Not pushed; remote not fetched. Cached `origin/main` matches session-start HEAD.
+**Deployment state:** Not deployed. Previous live revision `835ea6c` was verified September 6; not rechecked today.
+**Validation:** Git/context inspection only. Local preview setup pending sandbox escalation; `npm run verify` and browser review pending.
+**Unresolved issues:** Generic shop templates omit details already recorded in photographic notes. A complete dated street-level survey and measured dimensions are not available; full 1:1 fidelity remains unverified.
+**Next action:** Complete photo inspection and implement explicit shop/frontage detail records, then rebuild affected sections and review exported game assets.
+
 ## 2026-09-06-01 — Revision 04 published; session continuity established
 
 **Recorded:** September 6, 2026, 22:52 EDT (`2026-09-06T22:52:44-04:00`). This first entry summarizes the completed work leading into the checkpoint; it does not invent boundaries for earlier sessions.

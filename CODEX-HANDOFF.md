@@ -1,23 +1,26 @@
 # Borough Drive: continuation context
 
-## Current checkpoint — 2026-09-06-01
+## Current checkpoint — 2026-09-08-03 (local pass verified and saved)
 
-Recorded **September 6, 2026, 22:52 EDT**. This section is the starting point for a new session; [SESSION-LOG.md](SESSION-LOG.md) preserves earlier checkpoints and a template for the next one. Facts here describe the recorded checkpoint, so inspect Git and the deployment again when their current state matters.
+Recorded **2026-09-08T17:26:41-04:00**. Latest task: start at First Avenue/East 7th and improve the entire existing neighborhood toward a digital twin, including observed signs/neon, boards, outdoor seating, colors, openings, proportions and architectural details. Tiny real-world details matter. Preserve First & 10th. Assess Blender versus an engine; no migration or publication requested.
 
 | Item | Checkpoint state |
 | --- | --- |
-| Latest completed work | Neighborhood accuracy revision 04, including all fourteen rebuilt map sections, source evidence and runtime changes |
-| Gameplay/source commit | [`835ea6cb53f7b88ebc0edc9586080f9c371b9d20`](https://github.com/rayidali/borough-drive/commit/835ea6cb53f7b88ebc0edc9586080f9c371b9d20) |
-| Repository and branch | [rayidali/borough-drive](https://github.com/rayidali/borough-drive), `main`; gameplay commit pushed to `origin/main` |
-| Live game | [borough-drive.vercel.app](https://borough-drive.vercel.app), Vercel deployment of the gameplay commit confirmed successful |
-| Live content verified | Homepage and all 35 changed game files matched the published commit by SHA-256, including all fourteen neighborhood GLBs |
-| Revision markers | `detailSummary.revision` is `04`; 615 building objects, 410 photo-observed non-core buildings, 212 supported named places |
-| Validation | `npm run verify` passed locally; GitHub Actions passed on Node.js 22 and 24; changed Python recipes/scripts passed syntax checks |
-| Work in progress | No unfinished game changes or known blockers; working tree was clean before these checkpoint documentation changes |
-| Current request | Preserve session checkpoints and make later sessions resumable; these documentation changes do not alter the game |
-| Next step | Continue from revision 04 with the user's next request. No additional feature has been selected. Remaining accuracy work is described below and in the audit. |
+| Current gameplay/source | `63757cbbb13749584e761e4bf7a8e655f90b1bd4` on local `main` |
+| Session baseline | Gameplay `835ea6cb53f7b88ebc0edc9586080f9c371b9d20`; documentation HEAD `5753989`; initial checkout clean |
+| Completed local pass | Start/reset at First & 7th, northbound. 22 individual shop designs, 26 elevation schedules, 29 source records, nine rebuilt GLBs, walking furniture collision, font/license, source/review scripts and durable browser captures. See [storefront pass 05](model-source/STOREFRONT-PASS-05.md). |
+| Local changes | Gameplay, models, evidence, review records and scripts committed. Checkpoint documents saved in a separate documentation commit; use Git history below to identify it. No pending model export or known failing check. |
+| Remaining fidelity | Of 200 supported non-core names, 178 still have estimated shop designs. All 641 non-core street frontages are inventoried in [digital-twin-coverage.json](model-source/digital-twin-coverage.json). Partial photo evidence does not certify a 1:1 twin. |
+| Push state | New local commits not pushed; `origin/main` was not fetched this session. Cached remote remains `5753989`. |
+| Deployment | No new deployment; prior production verification was `835ea6c` on September 6. Current live state not checked this session. |
+| Validation | Final `npm run verify` passed on Node 24.15.0. Clean prepare/compile and three generated audits matched. Actual Chrome review: 56 viewpoints, correct start/northbound driving/both resets, zero uncaught errors or failed HTTP responses. Python parsing and staged whitespace checks passed. |
+| Preservation | Core GLB/recipe, vehicle module and six licensed photographs byte-identical to `835ea6c`. All 615 footprint/height records, roads and driving bounds preserved. |
+| Engine decision | Keep Blender for authored assets and Three.js for the browser. A future dense-scan desktop application could evaluate Unreal; changing renderers cannot supply missing survey evidence. |
+| Next concrete step | Continue along First Avenue from East 7th toward St Marks, choosing outstanding frontages from the coverage inventory. Obtain dated full/oblique views, exact sign artwork and facade/opening dimensions; extend explicit shop/elevation schedules, rebuild affected sections and compare matching viewpoints. |
 
-The initial public map was `e44c343`. Hosting fix `0ed0d53` only corrected the Vercel output directory and did **not** include the later neighborhood work. The complete update is `835ea6c`. The package version `0.4.0` and the page's `04` chapter label alone do not distinguish those deployments; use the commit and map manifest. Documentation-only commits may follow the gameplay commit.
+Exact dimensions, complete contemporary photography, many sign outlines/material samples and unseen details remain unavailable. This verified local pass does not complete the user's map-wide 1:1 objective. Some review views are partly occluded by trees/parked cars. The browser's existing automatic quality adjustment disabled ambient occlusion; no frame-rate benchmark was performed. Detailed results, hashes and camera poses are in [storefront-review-2026-09-08.json](model-source/storefront-review-2026-09-08.json). Existing licenses/photos remain intact.
+
+The previously published complete revision 04 is `835ea6c`. The new local pass is `63757cb`; it is not on production. Package version `0.4.0` and the page's chapter label alone are insufficient to identify a deployment; compare its actual files/manifest with the intended gameplay commit. Documentation commits may follow that commit.
 
 ### Resume a session
 
@@ -67,10 +70,10 @@ Do not mistake a verified business name for a verified facade. Storefront availa
 - Ten complete blocks plus four boundary sections, covering three avenues and six cross streets.
 - 615 building objects including five restored municipal footprints, annexes and boundary context; this is not 615 independently verified facades.
 - 410 additional building records with photographic observations, from 459 combined source records. Coverage varies from storefront observations to fuller facades.
-- 620 municipal footprint matches, PLUTO 26v2 parcel attributes and 212 independently supported named place records, including 202 outside the core. The audit retains excluded and unresolved entries.
+- 620 municipal footprint matches, PLUTO 26v2 parcel attributes and 210 independently supported named place records, including 200 outside the core; September 8 removed two duplicate identities. The audit retains excluded and unresolved entries.
 - Blender-generated Draco GLBs with shared textures, streamed by distance.
 - A highly detailed preserved First & 10th core, map travel, walk/drive modes, collision, fixed-step vehicle simulation, street props, warm lighting, and source/accuracy information.
-- Business checks dated September 6, 2026 and OSM snapshot dated September 5, 2026. Image dates vary.
+- Business baseline checks dated September 6, 2026, two identity corrections/exterior review dated September 8, and OSM snapshot dated September 5. Image dates vary. Twenty-two shops have explicit exterior designs; remaining named shop designs are estimated.
 
 This remains a reconstruction prototype with uneven detail. There are 142 non-core objects with mapped frontages but no individual photographic observation. Secondary elevations, some road widths, furniture positions, trees, interiors and unseen geometry remain estimated. Many archive photographs have 2012 upload dates and unknown capture dates. Do not describe it as a surveyed, fully current digital twin. Browser checks from the current local work are recorded below separately from the original export validation.
 
@@ -94,6 +97,10 @@ This remains a reconstruction prototype with uneven detail. There are 142 non-co
 | `model-source/neighborhood-references/` | Detailed architectural and occupancy research records |
 | `model-source/build_intersection.py` | Blender recipe for the detailed core |
 | `model-source/build_neighborhood.py` | Blender recipe for neighborhood sections |
+| `model-source/storefront-details.json` | Explicit shop designs, per-street elevations and dated photographic provenance |
+| `model-source/storefront_detail_kit.py` | Blender components for signs, openings, awnings and observed furniture |
+| `model-source/digital-twin-coverage.json` | Map-wide inventory of remaining frontage evidence/design gaps |
+| `model-source/storefront-review-2026-09-08.json` | Local browser poses, graphics settings, asset hashes and validation |
 | `model-source/neighborhood_landmarks.py` | Landmark massing and facade forms |
 | `scripts/prepare-neighborhood.py` | Derive mapped geometry from included OSM snapshot |
 | `scripts/compile-neighborhood-details.py` | Apply observations and deterministic details |
@@ -122,7 +129,7 @@ Existing model exports are included; do not make Blender installation a prerequi
 
 ## Suggested next work
 
-Continue auditing unobserved frontages, unseen elevations and unresolved shop units against dated sources. The user's request is map-wide fidelity; Blue & Gold was an example of a systemic problem, not the sole target. Assess actual driving feel and browser frame rate on the user's device. Preserve the accepted core and keep visual inference distinct from observation. Follow the user's current publishing instructions; the geographic scope remains the existing map.
+Use the revision 05 coverage inventory to continue along First Avenue from East 7th toward St Marks, then throughout the existing map. Audit unobserved frontages, unseen elevations and unresolved shop units against dated sources. The user's request is map-wide fidelity; Blue & Gold was an example of a systemic problem, not the sole target. Assess actual driving feel and browser frame rate on the user's device. Preserve the accepted core and keep visual inference distinct from observation. Follow the user's current publishing instructions; the geographic scope remains the existing map.
 
 ## Previous local work — neighborhood detail revision 03
 
