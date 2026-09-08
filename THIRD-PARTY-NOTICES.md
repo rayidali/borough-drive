@@ -22,7 +22,7 @@ The dated NYC extracts in `source-data/` add 620 footprint records, 526 related 
 
 Exported GLBs and preview renders combine authored work, OSM-derived geography, and credited surface materials. The core model also embeds licensed photographic material. Two Beron art panels and a southwest masonry patch use CC BY 2.0 photographs through UV placement and repetition; those uses retain the original photographic attribution. MIT applies only to the project's original contributions within these combined assets.
 
-The README's core preview images are the existing `intersection-render.png` and `southwest-render.png`. They show the actual authored mesh in standalone Blender renders; their lighting differs from the browser viewer. Revision 04's images in `docs/images/` are captures of the actual local game. Both kinds of preview retain the model's geographic and asset credits. They are not real-world reference photographs.
+The README's core preview images are the existing `intersection-render.png` and `southwest-render.png`. They show the actual authored mesh in standalone Blender renders; their lighting differs from the browser viewer. Revision 04's images and revision 05's `first-and-seventh-revision-05.png`, `tile-bar-revision-05.png` and `hen-house-revision-05.png` in `docs/images/` are captures of the actual local game. The revision 05 captures are unedited. Both kinds of preview retain the model's geographic and asset credits. They are not real-world reference photographs.
 
 ## Photographic provenance
 
@@ -31,6 +31,8 @@ The distributed reference photographs remain unchanged. [references.json](dist/r
 JLL listing photographs and newer storefront/landmark photographs with no verified redistribution permission were used for visual observation only. Their pixels are not included as new textures or distributed reference images. Keep those distinctions and source records intact when contributing.
 
 Revision 04 adds written observations from Village Preservation's East Village Building Blocks archive, Morris Adjmi Architects' 45 East 7th project photographs, and Scoundrel's Field Guide's Blue & Gold coverage. Those research images are not distributed. The architect credits Jimi Billingsley, VUW, Field Condition and Nexus Development; Scoundrel's Field Guide is published by David Shaw. Exact source/image links and date limitations are retained in [neighborhood-facade-audit.json](model-source/neighborhood-facade-audit.json). Authored geometry and generic credited surface maps remain distinct from those photographic references.
+
+Published storefront pass 05 adds observation records from Tile Bar's website, EV Grieve, Kevin Walsh / Forgotten New York and Village Preservation, with two separately identified reused cross-street observations. [storefront-details.json](model-source/storefront-details.json) and the downloadable [neighborhood sources](dist/reconstruction/neighborhood-sources.json) retain exact links, dates and limitations. These photographs are not redistributed or copied into new textures. The included Damion font and its full license remain separate from business artwork. [Pass 05](model-source/STOREFRONT-PASS-05.md) documents the partial scope; [the handoff](CODEX-HANDOFF.md) records publishing and continuation status without changing these license terms.
 
 Building names, business names, and signs identify the reconstructed places. Their presence does not imply affiliation or endorsement, and MIT does not grant rights in third-party trademarks or other third-party material.
 

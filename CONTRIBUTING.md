@@ -9,7 +9,9 @@ Help make these ten East Village blocks more recognizable, comfortable to explor
 3. Open http://127.0.0.1:5173 and explore the area you want to change.
 4. Create a branch for your change and run `npm run verify` before submitting it.
 
-No dependency installation is required. Blender is optional unless you are regenerating models. Read [CODEX-HANDOFF.md](CODEX-HANDOFF.md), [START-HERE.md](START-HERE.md), and [the neighborhood notes](model-source/NEIGHBORHOOD-NOTES.md) before substantial work.
+No dependency installation is required. Blender is optional unless you are regenerating models. Read [AGENTS.md](AGENTS.md), [CODEX-HANDOFF.md](CODEX-HANDOFF.md), the latest [session log](SESSION-LOG.md), [START-HERE.md](START-HERE.md), and [the neighborhood notes](model-source/NEIGHBORHOOD-NOTES.md) before substantial work. When returning to an existing checkout, inspect its branch, recent commits and working tree before editing; preserve uncommitted work.
+
+The September 8 checkpoint is published storefront pass 05, with the start at First & 7th. The owner's modeling session is paused for review. The current handoff controls what happens next; the ideas below are not instructions to resume that paused work.
 
 ## Pick a focused change
 
@@ -21,6 +23,8 @@ For a bug report, include the street or map destination, walk/drive mode, reprod
 
 - Preserve the accepted First Avenue / East 10th Street core and improve the fidelity of the real neighborhood.
 - Record facade observations in `model-source/neighborhood-observations.json` and retain research in `model-source/neighborhood-references/`. Core observations have their own facade and storefront notes.
+- Use `model-source/storefront-details.json` for explicit shop designs and per-street elevation controls. It records panels, signs, awnings, furniture, photographic sources and unmeasured dimensions; its geometry components live in `model-source/storefront_detail_kit.py`.
+- Consult `model-source/digital-twin-coverage.json` before choosing outstanding work. A source record or supported tenant name does not certify its modeled appearance. A limited contribution must not be described as completing the map-wide 1:1 objective.
 - Include the exact building identity or address, source URL, observation, photograph date where known, and any uncertainty. A publication date is not necessarily the image capture date.
 - Keep current business checks separate from architectural evidence. Unknown tenants stay unnamed; historical signs stay marked historical.
 - Use real reference material. Generated architectural guesses cannot stand in for source photographs or measured facts.
@@ -33,11 +37,14 @@ Keep geometry and facade recipes reproducible in `model-source/`. Include affect
 Read the [rebuild order](model-source/NEIGHBORHOOD-NOTES.md#rebuild-order) before preparing data. `prepare-neighborhood.py` resets derived facade and prop fields; `compile-neighborhood-details.py` must follow it. Rebuild only affected sections where possible:
 
 ```sh
+python3 scripts/compile-neighborhood-details.py
 blender -b -t 6 --python-exit-code 1 --python model-source/build_neighborhood.py -- --tile block-3-2
 npm run verify
 ```
 
-Run the Blender commands from the repository root with Blender 4.3 or newer. Standalone review renders can go into the ignored `renders/` directory.
+Run the Blender commands from the repository root with Blender 4.3 or newer. Source signatures detect stale storefront exports; a shared recipe edit may affect every section with a storefront schedule. Regenerate the coverage inventory with `python3 scripts/audit-storefront-coverage.py` after changing compiled designs. `python3 scripts/verify-neighborhood-reproduction.py` checks a clean preparation/compilation and generated audits in a disposable copy without resetting working exports. See [pass 05](model-source/STOREFRONT-PASS-05.md) for the affected-section example and export-field exclusions.
+
+Standalone review renders can go into the ignored `renders/` directory. Keep final evidence and enough source records in tracked files to resume without temporary downloads or browser processes.
 
 ## Runtime changes and validation
 
@@ -47,8 +54,12 @@ Run `npm run verify` for changes to models, roads, controls, module paths, and v
 
 For visible or interactive changes, also open the game and test the affected view or controls. Describe what you actually checked. Screenshots should identify whether they came from the browser or a standalone Blender render.
 
+`scripts/review-storefronts.mjs` can review the current explicit storefront/elevation schedule in an isolated Chrome instance; setup is in [pass 05](model-source/STOREFRONT-PASS-05.md). The existing 56-viewpoint review is historical evidence for `63757cb`, not an automatic test result for later edits. New start/reset behavior should be checked in both walk and drive modes.
+
 ## Pull requests
 
 Explain the problem and resulting behavior, link related issues or research, and include relevant before/after images. List the checks you ran and any remaining uncertainties. Keep unrelated formatting or model regeneration out of the change.
+
+Refresh the handoff and session log after meaningful milestones. Record the exact gameplay/source commit, local changes, push state and verified live state separately. Keep earlier reports dated; documentation-only commits may follow a gameplay commit without changing its models.
 
 Discuss the work respectfully and keep feedback specific to the proposed change. Original contributions are submitted under the project's MIT license. Third-party material retains its own license and must include its source and required notices; see [THIRD-PARTY-NOTICES.md](THIRD-PARTY-NOTICES.md).

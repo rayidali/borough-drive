@@ -2,6 +2,12 @@
 
 The repository includes the active ten-block game, exported models, textures, reference data, and editable source recipes. You can play without rebuilding anything.
 
+## Resume state — September 8, 2026
+
+The [published game](https://borough-drive.vercel.app) uses gameplay/model commit `63757cbbb13749584e761e4bf7a8e655f90b1bd4`: First & 7th start/reset, 22 individual storefront designs and 26 elevation schedules. The full-map 1:1 objective is unfinished; 178 supported non-core names still have estimated shop designs. **Further modeling is paused while the user reviews the published pass and decides the next step.** Documentation updates do not resume that work.
+
+Read the current [handoff](CODEX-HANDOFF.md) and latest [session log](SESSION-LOG.md), then run `git status --short --branch` and `git log -5 --oneline`. Preserve local changes and check the recorded publishing state before pulling or pushing. Existing models are included; old servers, temporary photo folders and browser sessions are not needed to recover the project.
+
 ## Start the game
 
 Use Node.js 22 or newer. From the repository folder, run:
@@ -28,7 +34,7 @@ On Windows, use `py` in place of `python3` if needed.
 
 ## Host on Vercel
 
-Import the GitHub repository and leave **Root Directory** at the repository root (the default). The checked-in [vercel.json](vercel.json) selects the **Other** framework preset, skips installation and building, and serves **`dist/`** as the website. The game is available at `/` on the deployed domain.
+The existing project connects [rayidali/borough-drive](https://github.com/rayidali/borough-drive) to [borough-drive.vercel.app](https://borough-drive.vercel.app), deploying from `main`. Use that setup when continuing this project. For a separate fork, import its GitHub repository and leave **Root Directory** at the repository root (the default). The checked-in [vercel.json](vercel.json) selects the **Other** framework preset, skips installation and building, and serves **`dist/`** as the website. The game is available at `/` on the deployed domain.
 
 Do not use `npm run dev` or `npm start` as a Vercel build command: those commands start the local development server. All production files are already included in `dist/`.
 
@@ -56,9 +62,11 @@ If an earlier deployment shows `404: NOT_FOUND`, deploy the latest commit contai
 
 For a new session, open this repository and start with the current checkpoint in [CODEX-HANDOFF.md](CODEX-HANDOFF.md) and the latest entry in [SESSION-LOG.md](SESSION-LOG.md). The log records completed work, the exact gameplay commit, publishing status, unfinished work and next steps. [AGENTS.md](AGENTS.md) instructs coding agents to read and maintain these records as they work.
 
-A useful opening message is: **"Read AGENTS.md, CODEX-HANDOFF.md and the latest SESSION-LOG.md entry, check the current Git state, and continue from the latest checkpoint."** Add the task you want to work on next.
+A useful opening message is: **"Read AGENTS.md, CODEX-HANDOFF.md and the latest SESSION-LOG.md entry, check the current Git state, and resume from the published storefront pass 05. The full-map fidelity work is still unfinished; follow my next instruction before resuming modeling."** Add your review or next task.
 
 Read [CONTRIBUTING.md](CONTRIBUTING.md) and [model-source/NEIGHBORHOOD-NOTES.md](model-source/NEIGHBORHOOD-NOTES.md) before substantial changes. The active entry point is `dist/index.html`; `dist/prototype.html` preserves the earlier experiment.
+
+For later fidelity work, [storefront-details.json](model-source/storefront-details.json) contains the explicit shop designs and photographic sources; [digital-twin-coverage.json](model-source/digital-twin-coverage.json) lists outstanding frontages. [STOREFRONT-PASS-05.md](model-source/STOREFRONT-PASS-05.md) explains compilation, affected-section export and browser review. The [clean reproduction verifier](scripts/verify-neighborhood-reproduction.py) works in a disposable copy, so it can check source data without resetting the playable exports.
 
 Keep `dist/` in Git: it contains editable source and all required runtime assets. When changing models, roads, controls, module paths, or vehicle behavior, run:
 

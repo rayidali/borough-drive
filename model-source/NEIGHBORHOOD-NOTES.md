@@ -1,6 +1,8 @@
-# East Village neighborhood expansion — September 6, 2026
+# East Village neighborhood — continuation notes, September 8, 2026
 
-**September 8 continuation:** The game starts and resets at First Avenue/East 7th. [Storefront pass 05](STOREFRONT-PASS-05.md) connects 22 individual exterior designs and 26 elevation schedules across nine sections. Its editable source is [storefront-details.json](storefront-details.json); underlying revision 04 records remain separate. The changes are not a complete 1:1 survey. See the current handoff for export, validation and publishing status.
+**Current checkpoint:** Gameplay/model commit `63757cbbb13749584e761e4bf7a8e655f90b1bd4` is published at [borough-drive.vercel.app](https://borough-drive.vercel.app). The game starts and resets at First Avenue/East 7th. [Storefront pass 05](STOREFRONT-PASS-05.md) connects 22 individual exterior designs and 26 elevation schedules across nine sections. Its editable source is [storefront-details.json](storefront-details.json); underlying revision 04 records remain separate. **Further modeling is paused for the user's review and next decision.** Read the current [handoff](../CODEX-HANDOFF.md) and [session log](../SESSION-LOG.md) before continuing.
+
+The full-map 1:1 objective remains open. Of 200 supported non-core names, 178 still have estimated shop designs; the revised 22 also contain estimates. [digital-twin-coverage.json](digital-twin-coverage.json) lists all 641 non-core street frontages. A documented source or gap does not mean its geometry has been completed. First & 10th's individual treatment remains the reference standard for any later map-wide work.
 
 Ten complete city blocks extend from East 7th to East 12th Street, between Second Avenue and Avenue A. Four outer sections provide boundary buildings, including the western side of Second Avenue and the edge of Tompkins Square Park. The original First & 10th model is preserved as the most individually detailed area.
 
@@ -47,12 +49,16 @@ The map supports travel by place/address search or map selection, and the physic
 
 ## Rebuild order
 
+These commands are for a later authorized model change. Existing exports are included; reopening the project requires only `npm run dev`.
+
 1. `python3 scripts/prepare-neighborhood.py` creates geometry from the included OSM and municipal snapshots and checked-in matches. This resets derived facade/prop data.
-2. `python3 scripts/compile-neighborhood-details.py` applies facade observations, address/business evidence, street facilities and deterministic dressing.
+2. `python3 scripts/compile-neighborhood-details.py` applies facade observations, address/business evidence, explicit storefront/elevation designs, street facilities and deterministic dressing. Regenerate the coverage inventory with `python3 scripts/audit-storefront-coverage.py` after changing designs.
 3. `blender -b -t 6 --python-exit-code 1 --python model-source/build_neighborhood.py` exports all sections and shared textures. `-- --tile block-3-2` rebuilds one section; repeat `--tile` to select several.
 4. Rebuild reusable props only if changed: `blender -b --python model-source/build_street_props.py` and `blender -b --python model-source/build_extra_props.py`.
    Revision 03's bicycle, hydrant, bin, utility-cover and drain-grate kit uses `blender -b --python model-source/build_streetscape.py`.
 5. `node scripts/verify-intersection.mjs` and `node scripts/verify-neighborhood.mjs` validate the static project, source modules, GLB resources and meaningful road/vehicle invariants.
 6. Optional actual-mesh review: `blender -b -t 6 --python model-source/render_neighborhood.py`. Review output is separate from the site's rendering and is not an AI concept image.
 
-The entire game runs from static files without Google imagery keys or a live map service. The original ten-block export is preserved in the public `rayidali/borough-drive` repository history. Accuracy revision 04 includes the completed detail pass, source evidence and exported assets together. Vercel serves `dist/` from `main` at https://borough-drive.vercel.app.
+`python3 scripts/verify-neighborhood-reproduction.py` performs clean data preparation/compilation in a disposable copy and compares three generated audits. It excludes Blender-written `renderHeight` and tile export metadata; it does not rebuild or certify the meshes. [Pass 05](STOREFRONT-PASS-05.md) documents source signatures, its nine affected sections and `scripts/review-storefronts.mjs` for actual browser review.
+
+The entire game runs from static files without Google imagery keys or a live map service. The original export and revision 04 remain in repository history; pass 05 adds the current explicit shop designs. Vercel serves `dist/` from `main`. [Publication evidence](publication-review-2026-09-08.json) records the September 8 comparison of 17 changed live files with `63757cb`; [local review](storefront-review-2026-09-08.json) records the earlier 56 viewpoints and limitations. Documentation commits may update credits and handoff text without changing the runtime/models. These records do not certify full-map accuracy or a new performance result.

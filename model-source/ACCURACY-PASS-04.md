@@ -1,5 +1,7 @@
 # Neighborhood accuracy revision 04 — September 6, 2026
 
+**Historical revision 04 report.** This records gameplay/source commit `835ea6cb53f7b88ebc0edc9586080f9c371b9d20`. The current published gameplay/model baseline is `63757cbbb13749584e761e4bf7a8e655f90b1bd4`, described in [storefront pass 05](STOREFRONT-PASS-05.md). September 8 corrected two duplicate identities, reducing the 212-name inventory below to 210, and added 22 explicit shop designs/26 elevation schedules. The original counts and checks below remain dated history. For the current review pause and next action, read [CODEX-HANDOFF.md](../CODEX-HANDOFF.md).
+
 The previous detail pass added geometry without resolving enough of the underlying geography and storefront inventory. This pass audits the whole existing map against municipal footprints, architectural photographs and independently dated business evidence. The First Avenue/East 10th Street core and its licensed photographs remain preserved.
 
 ## Scope and coverage
@@ -71,6 +73,8 @@ The travel map can search the supported place inventory or building addresses an
 The accepted road centerlines, widths, navigation bounds and vehicle dynamics remain intact. Markings and lane offsets fit the existing straightened map and are not surveyed dimensions. Illustrative parked cars are omitted from the protected side of East 12th where the current road width cannot accommodate parking, the track and a clear driving lane together. This is a known road-width approximation. Trees and the 235 additional small street objects retain estimated placements.
 
 ## Reproduction and review
+
+These commands describe the revision 04 workflow; current scripts include revision 05 schedules. For a present-day authorized edit, follow [the current rebuild order](NEIGHBORHOOD-NOTES.md#rebuild-order). The [clean reproduction verifier](../scripts/verify-neighborhood-reproduction.py) checks current source data in a disposable copy, without replacing the working game exports. Its export-field exclusions and the current browser review are explained in [pass 05](STOREFRONT-PASS-05.md).
 
 No network access or new Python/npm packages are needed to compile the included evidence:
 

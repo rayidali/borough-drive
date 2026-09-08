@@ -1,5 +1,7 @@
 # Neighborhood detail pass 03 — September 6, 2026
 
+**Historical report, retained as history.** Counts, export sizes and performance samples below belong to this earlier pass. The current published gameplay/model baseline is `63757cbbb13749584e761e4bf7a8e655f90b1bd4`; [accuracy revision 04](ACCURACY-PASS-04.md) and [storefront pass 05](STOREFRONT-PASS-05.md) followed this work. Shared construction details did not meet the user's request for individual fidelity throughout the map. Further modeling is paused for review; read the current [handoff](../CODEX-HANDOFF.md) before resuming.
+
 This pass applies the shared street-level detail system to all fourteen existing visual sections: ten complete blocks and four boundary sections. It regenerates 587 non-core building objects, including annexes and boundary context; 547 of those have mapped street frontages. The accepted First & 10th GLB and its Blender recipe are byte-for-byte unchanged.
 
 ## Geometry and presentation
@@ -22,6 +24,8 @@ The schedule also resolves three differences between the old simplified facade s
 No new current tenant claims or photo-observed building counts are introduced. Reveal depths, hardware, curtains, hidden surfaces, interior furniture, weathering, utility fittings and street-object positions remain estimates. The six distributed source photographs are unchanged. Additional source images inspected during review are not distributed.
 
 ## Reproduce the pass
+
+The commands below record this pass's workflow. At current HEAD, those scripts apply the later schedules too; use the [current rebuild instructions](NEIGHBORHOOD-NOTES.md#rebuild-order) for a new authorized change. Historical captures under ignored `renders/` may not survive a fresh checkout; current durable captures and camera poses are linked in [pass 05](STOREFRONT-PASS-05.md).
 
 Run from the repository root with Python 3 and Blender 4.3 or newer. This pass was built with Blender 5.2.1.
 

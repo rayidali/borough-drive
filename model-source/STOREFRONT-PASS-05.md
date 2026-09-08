@@ -1,5 +1,7 @@
 # Storefront fidelity pass 05 — September 8, 2026
 
+**Published; awaiting user review.** Gameplay/model commit `63757cbbb13749584e761e4bf7a8e655f90b1bd4` is live at [borough-drive.vercel.app](https://borough-drive.vercel.app). Vercel published it through Git commit `43910e6`, followed by documentation commit `ab9b12b`; [publication-review-2026-09-08.json](publication-review-2026-09-08.json) records the initial 17-file live comparison. Further modeling is paused by the user. [CODEX-HANDOFF.md](../CODEX-HANDOFF.md) and the latest [session log](../SESSION-LOG.md) control what happens next; this report's remaining-work section is not an instruction to resume automatically.
+
 The user's target is a digital twin of the entire existing neighborhood, including outdoor seating, boards, illuminated signs, paint, size and architectural detail. The start/reset now uses First Avenue/East 7th Street, facing north. This pass replaces estimated shop templates at **22 businesses across nine sections**, with **26 separately controlled building elevations** and **29 source records**. It is incremental work; it does **not** establish 1:1 completion.
 
 ## Changes
@@ -46,8 +48,10 @@ Actual Chrome review on Apple M1 checked 56 viewpoints with zero uncaught errors
 
 ## Engine decision and remaining work
 
-Blender authors meshes; Three.js renders the browser game. Keep that combination while improving evidence and individual assets. Changing engines cannot supply missing photographs, dimensions, sign artwork or outdoor configurations.
+Blender authors meshes; Three.js renders the browser game. The assistant recommended keeping that combination while improving evidence and individual assets; the user has not selected or authorized an engine migration. Changing engines cannot supply missing photographs, dimensions, sign artwork or outdoor configurations.
 
 For a future desktop application with dense scans, Unreal is a reasonable candidate: [Nanite](https://dev.epicgames.com/documentation/en-us/unreal-engine/nanite-virtualized-geometry-in-unreal-engine) supports dense geometry, including photogrammetry. Capture, cleanup and target-device checks would still be needed. [Godot's web export](https://docs.godotengine.org/en/stable/tutorials/export/exporting_for_web.html) has its own rendering/platform limits. No migration was made or assumed authorized.
 
-Continue frontage by frontage within the existing bounds: collect dated head-on and oblique photos, separate current tenant evidence, measure facade/opening/sign/threshold dimensions, and record outdoor setups as date-specific. Resolve secondary elevations and small architectural features before marking them observed. Use licensed imagery or user-owned capture for photographic textures. Compare each export against matching real viewpoints; code checks cannot certify visual fidelity.
+If the user resumes fidelity work, continue frontage by frontage within the full requested bounds: collect dated head-on and oblique photos, separate current tenant evidence, measure facade/opening/sign/threshold dimensions, and record outdoor setups as date-specific. Resolve secondary elevations and small architectural features before marking them observed. Use licensed imagery or user-owned capture for photographic textures. Compare each export against matching real viewpoints; code checks cannot certify visual fidelity.
+
+The user explicitly challenged the limited scope of this pass: First & 10th already demonstrated the desired individual treatment, and listing gaps did not fix them. The 22-shop cutoff was an execution/scope choice, not an engine-imposed limit. Missing reference data limits claims of exactness, but available research and modeling work was not exhausted. Keep that distinction when planning and reporting later work; do not describe this pass as fulfilling the whole-map request.

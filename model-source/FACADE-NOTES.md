@@ -1,6 +1,8 @@
 # First Avenue / East 10th Street facade reference notes
 
-Checked 2026-09-05. These are visual observations from dated photos, not a claim that storefronts are unchanged in 2026. Original downloaded files have not been edited. `reference-manifest.json` contains exact source pages, original/direct download URLs, capture dates, authors, licenses, dimensions and EXIF orientation. `previews/` contains small candidate images, not recommended texture assets.
+**Core reference record, retained September 8, 2026.** These notes apply to the preserved First & 10th core in published gameplay/model commit `63757cbbb13749584e761e4bf7a8e655f90b1bd4`; they do not describe the complete neighborhood. The current start/reset is First & 7th. Read [storefront pass 05](STOREFRONT-PASS-05.md) for the wider-map work and [the current handoff](../CODEX-HANDOFF.md) for the user's review pause.
+
+Checked 2026-09-05. These are visual observations from dated photos, not a claim that storefronts are unchanged in 2026. Original downloaded files have not been edited. The tracked [photographic manifest](../dist/reconstruction/references.json) contains source pages, direct download URLs, capture dates, authors, licenses, dimensions, EXIF orientation and bundled filenames. Earlier research names such as `reference-manifest.json`, `previews/` and some image basenames below refer to the original working collection and may not exist in this checkout. Use the tracked manifest and source URLs to resume; no temporary photo folder is required.
 
 ## Correct corner addresses and orientations
 

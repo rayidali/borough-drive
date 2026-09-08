@@ -1,4 +1,8 @@
-# Storefront modeling references
+# Core storefront modeling references — September 6, 2026
+
+**Scope and continuation, September 8:** This file preserves the individual First & 10th storefront research used by the accepted core. Its filename does not mean the whole map or every current tenant is covered. The current published gameplay/model baseline is `63757cbbb13749584e761e4bf7a8e655f90b1bd4`. For the 22 additional designs, use [storefront-details.json](storefront-details.json) and [pass 05](STOREFRONT-PASS-05.md); for remaining work, use [digital-twin-coverage.json](digital-twin-coverage.json). Further modeling is paused for review, as recorded in [CODEX-HANDOFF.md](../CODEX-HANDOFF.md).
+
+Image and source-metadata basenames below describe the original research collection; not all are distributed local files. Their dated web links and the tracked [asset credits](../dist/reconstruction/ASSET-CREDITS.md) preserve the references needed to resume. Do not infer that an unavailable temporary image or metadata file has been bundled or newly inspected.
 
 Inspected on 2026-09-06. All photographs are modeling references only; redistribution licenses have not been confirmed. Publication dates are not photo capture dates. All ratios below are approximate visual proportions from the inspected photos, not surveyed dimensions or calibrated paint colors.
 

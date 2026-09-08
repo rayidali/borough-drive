@@ -23,7 +23,7 @@ Walk and drive through ten connected East Village blocks, reconstructed from map
 
 Borough Drive is a small, explorable reconstruction of Manhattan's East Village. The focus is familiar streets, recognizable architecture, warm afternoon light, and a relaxed driving feel. The long-term ambition is to explore more of New York; the current work concentrates on making these ten blocks better.
 
-The playable area runs from **East 7th to East 12th Street**, between **Second Avenue and Avenue A**. First Avenue and East 10th Street anchors the experience, with ten complete blocks and four boundary sections extending toward the edge of Tompkins Square Park.
+The playable area runs from **East 7th to East 12th Street**, between **Second Avenue and Avenue A**. You start at **First Avenue and East 7th Street, facing north**. First & 10th remains the preserved detail anchor, with ten complete blocks and four boundary sections extending toward the edge of Tompkins Square Park.
 
 - **Walk or drive.** Explore on foot or take the wheel, with braking, reverse, steering, and building collision.
 - **Find your way.** A minimap follows your position; search the travel map for a place or building address.
@@ -31,11 +31,13 @@ The playable area runs from **East 7th to East 12th Street**, between **Second A
 - **Recognize local landmarks.** Distinct forms include Ottendorfer Library, Village East Cinema, the Orpheum, and neighborhood churches.
 - **Run it locally.** All runtime libraries, models, textures, and map data are included. The game needs no backend, API key, or live map service.
 
-The current [neighborhood accuracy pass](model-source/ACCURACY-PASS-04.md) audits the whole rendered area, restores five missing buildings, and brings photographic observations to 410 buildings beyond the preserved First & 10th core. All fourteen sections use recessed facades, individually scheduled architectural details and dated business records. Street dressing includes 235 additional small objects.
+The published [storefront pass 05](model-source/STOREFRONT-PASS-05.md) adds individual exterior designs at **22 businesses** and separate controls for **26 building elevations** across nine rebuilt sections. It includes observed awnings, projecting signs, illuminated lettering, doors, boards and outdoor furniture. This is a partial improvement: **178 supported names outside the core still use estimated shop designs**, and the revised shops also contain unmeasured details.
 
-![Browser view of First Avenue near East 9th Street, with varied brick and painted facades, curved windows, fire escapes and separate storefronts](docs/images/first-avenue-revision-04.png)
+The underlying [accuracy revision 04](model-source/ACCURACY-PASS-04.md) restored five missing buildings and brought partial photographic observations to 410 buildings beyond the core. All fourteen sections retain recessed facades and dated business records; street dressing includes 235 additional small objects.
 
-*Revision 04 in the browser. Architectural observations and dated business identities inform the reconstruction; unmeasured storefront designs and other estimates remain recorded in the [accuracy audit](model-source/ACCURACY-PASS-04.md). [Image and model credits](dist/reconstruction/ASSET-CREDITS.md).*
+![Actual browser view starting at First Avenue and East 7th Street, facing north through the neighborhood](docs/images/first-and-seventh-revision-05.png)
+
+*Revision 05 in the browser. See [Tile Bar](docs/images/tile-bar-revision-05.png) and [Hen House](docs/images/hen-house-revision-05.png) for closer game views. These are unedited game captures, not reference photographs or proof of 1:1 accuracy. [Image and model credits](dist/reconstruction/ASSET-CREDITS.md).*
 
 ## Get started
 
@@ -65,7 +67,7 @@ If port 5173 is occupied, run `npm run dev -- 5174`. See [START-HERE.md](START-H
 | Steer | A / D while driving |
 | Brake | Space |
 | Open the travel map | M |
-| Return to First & 10th | R |
+| Return to First & 7th | R |
 
 ![Southwest corner model showing ornate masonry, black fire escapes, the theater frontage, and the tower behind it](dist/reconstruction/southwest-render.png)
 
@@ -96,7 +98,7 @@ The browser runs vanilla JavaScript modules and bundled **Three.js r180**. Blend
 npm run verify
 ```
 
-The checks cover local module paths, interface references, GLBs, textures, 2,308 road samples, map destinations, boundary driving, braking, reverse, collision, and frame-rate independence of the vehicle simulation. They also check municipal building joins, restored identities, courtyard openings and business partitions. GitHub Actions runs the same checks on Node.js 22 and 24.
+The checks cover local module paths, interface references, GLBs, textures, 2,308 road samples, map destinations, boundary driving, braking, reverse, collision, and frame-rate independence of the vehicle simulation. They also check municipal building joins, restored identities, courtyard openings, business partitions, the First & 7th start, storefront source/model signatures and sidewalk furniture collision. GitHub Actions runs the same checks on Node.js 22 and 24.
 
 These are code and asset checks. Visual accuracy, driving feel, and browser frame rate need separate hands-on review.
 
@@ -114,11 +116,12 @@ The [neighborhood notes](model-source/NEIGHBORHOOD-NOTES.md#rebuild-order) expla
 
 This is a reconstruction prototype with uneven detail. The map contains **615 building objects**, including annexes and boundary context. **410 additional building records have photographic observations**, ranging from individual storefront details to fuller elevations. This does not verify every elevation or every modeled detail.
 
-OpenStreetMap's **September 5, 2026** snapshot is supplemented by NYC OTI building footprints and roof heights and DCP's **PLUTO 26v2** parcel records. All 620 municipal footprint records in the extracted area have an explicit match; five missing buildings were restored. Business checks are dated **September 6, 2026**, with 212 supported named place records. Architectural photographs include older archive views with unknown capture dates. Secondary facades, road widths, trees, street furniture, shop partitions and interiors include estimates. Some preserved signs are explicitly historical.
+OpenStreetMap's **September 5, 2026** snapshot is supplemented by NYC OTI building footprints and roof heights and DCP's **PLUTO 26v2** parcel records. All 620 municipal footprint records in the extracted area have an explicit match; five missing buildings were restored. Business baseline checks are dated **September 6, 2026**; September 8 identity corrections leave **210 supported named places, including 200 outside the core**. Architectural photographs include older archive views with unknown capture dates. Secondary facades, road widths, trees, street furniture, shop partitions and interiors include estimates. Some preserved signs are explicitly historical.
 
 Observations, occupancy claims, and inferred geometry are recorded separately. Unknown occupants stay unnamed, and photographic references keep their dates, authors, and reuse terms.
 
 - [Neighborhood scope, landmarks, and known gaps](model-source/NEIGHBORHOOD-NOTES.md)
+- [Published storefront pass 05](model-source/STOREFRONT-PASS-05.md), [individual designs and photo sources](model-source/storefront-details.json), and [all 641 non-core street frontages](model-source/digital-twin-coverage.json)
 - [Accuracy audit, corrections and evidence limits](model-source/ACCURACY-PASS-04.md)
 - [Core facade observations](model-source/FACADE-NOTES.md) and [storefront references](model-source/CURRENT-STOREFRONTS.md)
 - [Editable neighborhood observation schedule](model-source/neighborhood-observations.json)
@@ -127,13 +130,19 @@ Observations, occupancy claims, and inferred geometry are recorded separately. U
 - [Photographic provenance](dist/reconstruction/references.json) and [complete asset credits](dist/reconstruction/ASSET-CREDITS.md)
 - [Core detail-pass notes](docs/DETAIL-PASS-02.md)
 
+## Resume development
+
+Read [AGENTS.md](AGENTS.md), the current [handoff](CODEX-HANDOFF.md), the latest [session log](SESSION-LOG.md), and [START-HERE.md](START-HERE.md) before continuing an existing session. The gameplay/model baseline is [`63757cb`](https://github.com/rayidali/borough-drive/commit/63757cbbb13749584e761e4bf7a8e655f90b1bd4), published September 8, 2026; documentation commits follow it. [Publication evidence](model-source/publication-review-2026-09-08.json) records the live file comparison.
+
+At this checkpoint, further modeling is paused for the user's review. The whole-map digital-twin objective remains unfinished. Recording an evidence gap or adding a business name does not resolve the corresponding visual work. Resume with the user's next instruction, preserving the First & 10th standard throughout the requested scope.
+
 ## Contributing
 
 Contributions are welcome, especially focused improvements to building fidelity, controls, accessibility, and measured browser performance. See [CONTRIBUTING.md](CONTRIBUTING.md) for setup, evidence requirements, and how to submit a change.
 
-Useful next steps:
+Possible work after the next scope decision:
 
-- Improve a small set of visible facade inaccuracies using dated architectural references.
+- Work through the frontage inventory with dated references and individually modeled details; report each contribution's actual coverage and remaining gaps.
 - Measure driving feel and browser performance on real devices.
 - Refine lighting and materials while preserving neighborhood geometry and the accepted First & 10th core.
 
