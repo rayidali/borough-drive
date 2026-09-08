@@ -57,6 +57,7 @@ def clear_meshes():
 
 # Install the higher-detail components without editing the accepted core kit.
 exec(compile((ROOT/'model-source/neighborhood_detail_kit.py').read_text(),str(ROOT/'model-source/neighborhood_detail_kit.py'),'exec'),globals())
+exec(compile((ROOT/'model-source/storefront_detail_kit.py').read_text(),str(ROOT/'model-source/storefront_detail_kit.py'),'exec'),globals())
 
 def render_building(b):
     spec=b.get('facadeSpec',{});photo=bool(spec.get('observed'))
@@ -73,13 +74,18 @@ def render_building(b):
     wall_mass(b,wall)
     fs=sorted(b['frontages'],key=lambda f:f['length'],reverse=True)
     for fi,v in enumerate(fs):
+        spec={**b.get('facadeSpec',{}),**b.get('facadeSpec',{}).get('elevations',{}).get(v['street'],{})}
+        wall=spec.get('wall','warm brick');trim=spec.get('trim','cream stone')
         f=Facade(v['x'],v['z'],v['rx'],v['rz'],v['length'])
         primary=spec.get('frontStreet',b['address'].split(' ',1)[-1])
         named_primary=(primary.lower().replace('1st','first').replace('2nd','second') in v['street'].lower())
         is_primary=fi==0 if not any(primary.lower().replace('1st','first').replace('2nd','second') in g['street'].lower() for g in fs) else named_primary
         f.detail=spec.get('detail',{}) if is_primary else {}
         f.wall=wall
-        columns=spec.get('bays') if is_primary else None
+        if 'windowFrame' in spec:f.window_frame=spec['windowFrame']
+        f.window_dressing=spec.get('windowDressing',True)
+        scheduled=v['street'] in b.get('facadeSpec',{}).get('elevations',{})
+        columns=spec.get('bays') if is_primary or scheduled else None
         if not isinstance(columns,int):columns=max(2,round(f.L/2.65))
         if spec.get('sparseSide') and not is_primary:columns=max(2,round(f.L/7.8))
         columns=max(1,min(40,columns));pitch=f.L/columns
@@ -87,7 +93,7 @@ def render_building(b):
         if spec.get('cornicePlain'):f.strip(h,.20,.20,wall)
         else:cornice(f,h,spec.get('cornice','cornice copper brown'),style>0)
         basement=bool(spec.get('basement')) and is_primary
-        ground_top=4.35 if basement else 3.62
+        ground_top=spec.get('groundTop',4.35 if basement else 3.62)
         if floors>1:
             spacing=(h-ground_top-.23)/(floors-1)
             for row in range(floors-1):
@@ -100,7 +106,7 @@ def render_building(b):
                 crowns=f.detail.get('archedWindowRows',[])
                 f.arched_crown=(row in [(r if r>=0 else floors-1+r) for r in crowns])
                 for col in range(row_columns):
-                    ss=spec['bayPositions'][col]*f.L if is_primary and len(spec.get('bayPositions',[]))==row_columns else (col+.5)*row_pitch
+                    ss=spec['bayPositions'][col]*f.L if (is_primary or scheduled) and len(spec.get('bayPositions',[]))==row_columns else (col+.5)*row_pitch
                     ratio=row_spec.get('windowRatio',spec.get('windowRatio'))
                     ww=row_pitch*ratio if ratio else min(1.18,row_pitch*.49)
                     wh=min(2.20,spacing*.69)*row_spec.get('heightRatio',1)
@@ -114,11 +120,14 @@ def render_building(b):
                         f.line((ss-1.15,y+1,1.18),(ss+1.15,y+1,1.18),.026,'metal')
                 if spec.get('bands'):f.strip(y-.30,.085,.105,trim)
             # Observed escape layouts are retained; inferred layouts stay flagged in the manifest.
-            if spec.get('escape') and (is_primary or spec.get('sideEscape')):
+            if (is_primary and spec.get('escape')) or (not is_primary and spec.get('sideEscape')):
                 levels=[ground_top-.20+row*spacing for row in range(floors-1)]
                 positions=spec.get('escapeCenters',[.50]) if is_primary else [.50]
                 for center in positions:escape(f,f.L*center,levels,min(3.05,f.L*.60),spec.get('escapeMat','black iron'))
         render_ground(b,f,v,spec,is_primary,columns,wall,trim)
+        for panel in spec.get('blindPanels',[]):
+            a,end=panel['span'];low=panel.get('bottom',3.4);top=h-panel.get('topMargin',.25)
+            f.b((a+end)*f.L/2,(low+top)/2,.03,(end-a)*f.L,top-low,.12,panel['material'])
         if f.L>4:
             f.b(f.L-.23,2.12,.13,.18,.36,.15,'black iron')
             f.b(f.L-.23,2.17,.22,.10,.15,.03,'opal lamp')
@@ -166,6 +175,8 @@ def export_tile(tile):
     share_textures(target)
     tile['bytes']=target.stat().st_size
     tile['detailRevision']='04'
+    signature=DATA.get('storefrontDetailSummary',{}).get('tileSignatures',{}).get(tile['id'])
+    if signature:tile['storefrontSignature']=signature
     tile['detailBuildings']=sum(b['tile']==tile['id'] and not b['core'] for b in DATA['buildings'])
     tile['triangles']=sum(sum(len(f)-2 for f in q['f']) for q in ns['BATCHES'].values())
     print('TILE_DONE',tile['id'],tile['bytes'],tile['triangles'],flush=True)
@@ -195,6 +206,8 @@ def share_textures(path):
         elif isinstance(obj,list):
             for item in obj:replace(item)
     replace(doc);doc['bufferViews']=new_views
+    signature=DATA.get('storefrontDetailSummary',{}).get('tileSignatures',{}).get(path.stem)
+    if signature:doc.setdefault('asset',{}).setdefault('extras',{})['storefrontSignature']=signature
     for m in doc.get('materials',[]):
         name=m.get('name');pbr=m.setdefault('pbrMetallicRoughness',{})
         if name in WALL_MATERIALS:

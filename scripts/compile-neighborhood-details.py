@@ -4,6 +4,8 @@ from pathlib import Path
 from neighborhood_businesses import compile_businesses
 ROOT=Path(__file__).resolve().parents[1]
 path=ROOT/'dist/reconstruction/neighborhood.json';data=json.loads(path.read_text())
+for building in data['buildings']:
+    if building.get('addressAliases'):building['addressAliases']=list(dict.fromkeys(building['addressAliases']))
 observations=json.loads((ROOT/'model-source/neighborhood-observations.json').read_text())
 byid={b['id']:b for b in data['buildings']}
 # Address-only corrections can be compiled without resetting footprint geometry.
@@ -137,6 +139,8 @@ for b in data['buildings']:
     if not b['core']:b['detailRevision']='04'
     b['renderHeight']=b['facadeSpec'].get('height',b['height'])
 business_audit=compile_businesses(data)
+from neighborhood_storefronts import compile_storefronts
+storefront_details=compile_storefronts(data,business_audit)
 street_facilities=json.loads((ROOT/'model-source/street-facilities.json').read_text())
 for road in data['roads']:
     facility=next((r for r in street_facilities['streets'] if r['name']==road['name']),None)
@@ -210,5 +214,5 @@ data['detailProps']=[{'name':name.replace('-',' ').title(),'url':'neighborhood/'
 data['detailSummary']['streetObjects']=sum(len(g['placements']) for g in data['detailProps'])
 data.update(trees=trees,benches=benches,furniture=furniture,parked=parked)
 path.write_text(json.dumps(data,separators=(',',':')))
-(ROOT/'dist/reconstruction/neighborhood-sources.json').write_text(json.dumps({**observations,'facadeAudit':facade_audit,'businessAudit':business_audit,'geographyAudit':data['geographyAudit']},indent=2))
+(ROOT/'dist/reconstruction/neighborhood-sources.json').write_text(json.dumps({**observations,'facadeAudit':facade_audit,'businessAudit':business_audit,'storefrontDetails':storefront_details,'geographyAudit':data['geographyAudit']},indent=2))
 print(json.dumps({**data['referenceSummary'],'trees':len(trees),'cars':len(parked)}))

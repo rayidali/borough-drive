@@ -44,7 +44,7 @@ def apply_geography(buildings, point, streets, extent):
     for change in corrections['addressCorrections']:
         b = byid[change['id']]
         b['address'] = change['address']
-        if change.get('retainAlias'):b.setdefault('addressAliases', []).append(change['retainAlias'])
+        if change.get('retainAlias') and change['retainAlias'] not in b.setdefault('addressAliases', []):b['addressAliases'].append(change['retainAlias'])
         b['addressSource']={k:v for k,v in change.items() if k not in ['id','retainAlias']}
     for match in corrections['municipalMatches']:
         b = byid[match['buildingId']]

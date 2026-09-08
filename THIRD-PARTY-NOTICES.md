@@ -12,6 +12,7 @@ The root [MIT License](LICENSE) covers original Borough Drive code, documentatio
 | Poly Haven materials and reflection environment | [CC0](https://polyhaven.com/license); individual assets listed in [ASSET-CREDITS.md](dist/reconstruction/ASSET-CREDITS.md) |
 | Three.js r180 and bundled addons | MIT; [included license](dist/vendor/THREE-LICENSE.txt) |
 | Draco decoder | Apache 2.0; [included license](dist/vendor/draco/LICENSE) |
+| Damion Regular, used for some script sign meshes | Copyright 2014 The Damion Project Authors; SIL Open Font License 1.1; [included license](model-source/fonts/OFL.txt), [source](https://github.com/google/fonts/tree/main/ofl/damion). A typeface approximation, not original business artwork. |
 
 ## Models, renders, and geographic data
 

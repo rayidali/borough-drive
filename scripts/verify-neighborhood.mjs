@@ -1,6 +1,7 @@
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import path from 'node:path';
+import crypto from 'node:crypto';
 import {createNeighborhoodWorld} from '../dist/reconstruction/neighborhood-world.js';
 import {createVehicle,stepVehicle} from '../dist/reconstruction/vehicle.js';
 const root=path.resolve(import.meta.dirname,'../dist/reconstruction');
@@ -105,4 +106,46 @@ for(const [id,name,street] of [[241822336,'BLUE & GOLD','East 7th Street'],[-177
  assert(byId.get(id).businesses.some(p=>p.renderName&&p.name===name&&p.street===street),'Seventh Street place must survive compilation: '+name);
 }
 assert.equal(byId.get(241822336).facadeSpec.groundProfile,'blue_gold');
+// The beginning and reset share a safe northbound pose at First & Seventh.
+const start=world.start();
+assert.equal(start.x,data.avenues.find(a=>a[0]==='First Avenue')[1]);
+assert.equal(start.z,data.streets.find(s=>s[0]==='East 7th Street')[1]);
+assert.equal(start.yaw,0);assert(world.walkable(start.x,start.z));
+assert(!world.carCollides(start.x,start.z,start.yaw));
+const startingCar=createVehicle(start);
+for(let i=0;i<240;i++){const result=stepVehicle(startingCar,{throttle:1},1/120,world,data.driveBounds);assert(!result.edge&&!result.collision);}
+assert(startingCar.z<start.z-.5,'The start permits driving north into the neighborhood');
+// Each individually observed storefront has a supported identity, source,
+// selected elevation and current exported mesh. Observations are not occupancy.
+const storefronts=JSON.parse(fs.readFileSync(path.resolve(root,'../../model-source/storefront-details.json')));
+assert.equal(storefronts.frontages.length,data.storefrontDetailSummary.frontages);
+assert.equal(new Set(storefronts.elevations.map(r=>r.buildingId+':'+r.street)).size,storefronts.elevations.length,'One schedule per elevation');
+for(const r of [...storefronts.frontages,...storefronts.elevations]){
+ assert(byId.has(r.buildingId)&&!byId.get(r.buildingId).core,'Storefront work preserves the core');
+ assert(r.sources.length&&r.sources.every(id=>storefronts.sources[id]),'An observed detail has a source record');
+ assert(r.limits,'Dimensions and capture-date limitations remain explicit');
+}
+for(const r of storefronts.frontages){
+ const b=byId.get(r.buildingId),p=b.businesses.find(p=>p.id===r.businessId);
+ assert(p?.renderName&&p.street===r.street&&p.design,'Design reaches its supported business on the correct street');
+ assert(Math.abs(p.design.panels.reduce((s,p)=>s+p[1],0)-1)<.00001);
+ assert.equal(p.appearance.record,r.id);
+}
+const recipeHash=crypto.createHash('sha256');for(const name of data.storefrontDetailSummary.recipeFiles)recipeHash.update(fs.readFileSync(path.resolve(root,'../..',name)));
+assert.equal(recipeHash.digest('hex'),data.storefrontDetailSummary.recipeHash,'Compile and rebuild after changing model recipes');
+for(const [tile,signature] of Object.entries(data.storefrontDetailSummary.tileSignatures)){
+ const entry=data.tiles.find(t=>t.id===tile),buf=fs.readFileSync(path.join(root,entry.url));
+ const gltf=JSON.parse(buf.subarray(20,20+buf.readUInt32LE(12)));
+ assert.equal(entry.storefrontSignature,signature,'Stale storefront manifest: '+tile);
+ assert.equal(gltf.asset.extras?.storefrontSignature,signature,'Stale storefront mesh: '+tile);
+}
+for(const p of data.storefrontObstacles){
+ assert(!world.walkable(p.x,p.z),'Walking must not pass through observed seating or boards');
+ for(const a of [-p.halfWidth,p.halfWidth])for(const b of [-p.halfDepth,p.halfDepth]){
+  const x=p.x+p.rx*a-p.rz*b,z=p.z+p.rz*a+p.rx*b;
+  assert(!world.roadAt(x,z),'Observed street object must stay on the sidewalk: '+p.record);
+  assert(!world.buildingAt(x,z),'Observed street object must stay outside building: '+p.record);
+ }
+}
+for(const name of ['RALPH\'S ITALIAN ICES','DANNY & COOP\'S'])assert.equal(data.buildings.flatMap(b=>b.businesses).filter(p=>p.renderName&&p.name===name).length,1,'One supported shop after identity correction');
 console.log(JSON.stringify({blocks:10,tiles:data.tiles.length,mappedBuildings:data.buildings.length,photoObserved:data.referenceSummary.newObservedBuildings,municipalBuildings:municipal.features.length,restoredBuildings:corrections.addBuildings.length,namedPlaces,roadSamples,detailMeshMB:+(bytes/1048576).toFixed(2),detailTriangles:triangles,detailBuildings:data.detailSummary.buildings,streetObjects,largestMaterialBatchCount,validBoundaryDriving:true,validMapSpawns:true,parkDeadEnds:true},null,2));

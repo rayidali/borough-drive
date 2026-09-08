@@ -39,7 +39,7 @@ If an earlier deployment shows `404: NOT_FOUND`, deploy the latest commit contai
 - On foot: W/A/S/D to move, drag to look, Q/E to turn.
 - Click **Drive**: W to accelerate, S to brake and then reverse, A/D to steer, Space to brake.
 - M opens the travel map.
-- R returns to First Avenue and East 10th Street.
+- Start at First Avenue and East 7th Street, facing north. R returns here in either mode.
 
 ## Troubleshooting
 

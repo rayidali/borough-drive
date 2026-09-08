@@ -134,7 +134,7 @@ def compile_businesses(data):
                 entry.update(renderName=True,status='website lists this address')
                 if not a:a=candidates[0]
         if override:
-            entry['sources'].append({'publisher':'Reviewed occupancy source','url':override['source'],'sourceDate':override.get('sourceDate'),'checked':corrections['checked'],'basis':override['basis']})
+            entry['sources'].append({'publisher':'Reviewed occupancy source','url':override['source'],'sourceDate':override.get('sourceDate'),'checked':override.get('checked',corrections['checked']),'basis':override['basis']})
             entry.update(renderName=True,status='individually reviewed occupancy')
             for key in ['profile','fascia','letters','awning']:
                 if key in override:entry[key]=override[key]

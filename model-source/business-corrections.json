@@ -42,7 +42,7 @@
     },
     {
       "osmId": 4551161735,
-      "name": "ABRA\u00c7O",
+      "name": "ABRAÇO",
       "buildingId": 241822329,
       "street": "East 7th Street",
       "source": "https://data.cityofnewyork.us/resource/43nn-pn8j.json?camis=50056074",
@@ -113,6 +113,26 @@
       "source": "https://www.portorico.com/store/",
       "sourceDate": null,
       "basis": "Current business website lists 40 1/2 St. Marks Place."
+    },
+    {
+      "osmId": 2549930015,
+      "name": "RALPH'S ITALIAN ICES",
+      "buildingId": 248142963,
+      "street": "Avenue A",
+      "source": "https://evgrieve.com/2020/09/ralphs-famous-italian-ices-on-today-on.html",
+      "sourceDate": "2020-09-11",
+      "basis": "September 8, 2026 visual review: Ralph’s Famous and the researched Ralph’s Italian Ices are the same shop at 145 Avenue A, not two units. Existing dated occupancy evidence retained.",
+      "checked": "2026-09-08"
+    },
+    {
+      "osmId": 12720671571,
+      "name": "DANNY & COOP'S",
+      "buildingId": 248142858,
+      "street": "Avenue A",
+      "source": "https://evgrieve.com/2025/07/beer-wine-in-works-for-danny-coops.html",
+      "sourceDate": "2025-07",
+      "basis": "September 8, 2026 visual/address review: mapped node has 151 Avenue A address but fell in 153 footprint. Match the existing researched 151 unit; do not duplicate the restaurant across two buildings.",
+      "checked": "2026-09-08"
     }
   ],
   "cityPlaces": [

@@ -45,6 +45,7 @@ def finish_building_detail():
             v = next((v for v in b['frontages'] if belongs(v)), None)
             if v:
                 f = Facade(v['x'],v['z'],v['rx'],v['rz'],v['length'])
+                facade_mat=b.get('facadeSpec',{}).get('elevations',{}).get(v['street'],{}).get('wall',mat)
                 key = frontage_key(f)
                 if key in emitted:continue
                 emitted.add(key)
@@ -58,7 +59,7 @@ def finish_building_detail():
                     cursor = 0
                     for left,right in spans+[(f.L,f.L)]:
                         if left>cursor:
-                            face([f.p(cursor,y0),f.p(left,y0),f.p(left,y1),f.p(cursor,y1)],mat)
+                            face([f.p(cursor,y0),f.p(left,y0),f.p(left,y1),f.p(cursor,y1)],facade_mat)
                         cursor = max(cursor,right)
             else:
                 face([(a[0],.17,a[1]),(c[0],.17,c[1]),(c[0],h,c[1]),(a[0],h,a[1])],mat)
@@ -369,9 +370,12 @@ def render_ground(b,f,v,spec,primary,columns,wall,trim):
         if not entries:
             count=max(1,round(f.L/7))
             entries=[{'name':'','unit':[j*f.L/count+.12,(j+1)*f.L/count-.12],'category':'unknown'} for j in range(count)]
-        reserve=1.55 if f.L>5 and spec.get('floors',b['floors'])>1 else 0
+        reserve=1.55 if f.L>5 and spec.get('floors',b['floors'])>1 and spec.get('residentialEntry',True) else 0
         for r in entries:
             a,end=r['unit'];name=r['name'].upper();fascia=r.get('fascia','window frame');letters=r.get('letters','sign white')
+            if r.get('design'):
+                photographed_shop(f,a,end,r)
+                continue
             # Keep a residential doorway in tenement shop fronts. The exact
             # boundaries are explicitly estimates until a storefront is observed.
             if reserve and a<entry<end:

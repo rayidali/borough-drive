@@ -18,7 +18,7 @@ export function createNeighborhoodMap({data,onTravel,getPosition}){
  document.querySelector('#map-button').onclick=open;document.querySelector('#mini-map-button').onclick=open;
  document.querySelector('#close-map').onclick=()=>dialog.close();
  large.addEventListener('click',e=>{const v=views.get(large),rect=large.getBoundingClientRect();const x=(e.clientX-rect.left)*660/rect.width,z=(e.clientY-rect.top)*590/rect.height;onTravel(ext[0]+(x-v.ox)/v.scale,ext[1]+(z-v.oz)/v.scale);dialog.close();refresh();});
- const destinations=[['First & 10th',1,0],['Second & St. Marks',-229,150.1],['Avenue A & 7th',214,228],['Avenue A & 10th',214,0],['First & 12th',0,-157.8]];
+ const destinations=[['First & 7th · Start',data.avenues.find(a=>a[0]==='First Avenue')[1],data.streets.find(s=>s[0]==='East 7th Street')[1]],['First & 10th',1,0],['Second & St. Marks',-229,150.1],['Avenue A & 7th',214,228],['Avenue A & 10th',214,0],['First & 12th',0,-157.8]];
  const list=document.querySelector('#destinations');for(const [name,x,z] of destinations){const button=document.createElement('button');button.textContent=name;button.onclick=()=>{onTravel(x,z);dialog.close();refresh();};list.append(button);}
  const search=document.querySelector('#place-search'),options=document.querySelector('#place-options'),places=new Map();
  function placePosition(b,place){

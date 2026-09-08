@@ -492,14 +492,61 @@
       "status": "website lists this address",
       "frontageIndex": 0,
       "street": "East 7th Street",
-      "along": 18.085,
+      "along": 18.404,
       "frontageDistance": 1.158,
-      "appearance": "Sign lettering, exact shop partition and interior are estimates unless an individual facade profile is supplied.",
+      "appearance": {
+        "record": "yubu",
+        "checked": "2026-09-08",
+        "sources": [
+          "yubu"
+        ],
+        "limits": "Observed feature types and colors follow the linked photographs. Shop spans, depths, paint values, furniture dimensions/positions and substitute typography are visual estimates. Unreadable menu/sticker artwork, unseen interiors and present-day furniture availability remain unverified."
+      },
       "unit": [
-        12.085,
-        19.777
+        17.111,
+        19.698
       ],
-      "unitBasis": "Point order on the selected street frontage, with a bounded envelope for long unpartitioned elevations; dividing walls and unit widths estimated. Unsupported stretches remain unnamed."
+      "unitBasis": "Photographic proportion estimate from storefront-details.json / yubu; unmeasured.",
+      "design": {
+        "panels": [
+          [
+            "door",
+            0.48
+          ],
+          [
+            "window",
+            0.52
+          ]
+        ],
+        "frame": "wood",
+        "surround": "wood",
+        "base": 0.38,
+        "head": 2.37,
+        "top": 3.16,
+        "recess": 0.12,
+        "awning": {
+          "material": "theater red",
+          "y": 3.63,
+          "drop": 0.38,
+          "depth": 0.58,
+          "text": "YUBU",
+          "textSize": 0.16
+        },
+        "tables": [
+          {
+            "at": 0.7,
+            "depth": 0.94
+          }
+        ],
+        "menus": [
+          {
+            "at": 0.78,
+            "y": 1.6,
+            "width": 0.3,
+            "height": 0.43
+          }
+        ]
+      }
     },
     {
       "id": "osm-node-2494127918",
@@ -1143,15 +1190,75 @@
       "status": "individually researched occupancy",
       "frontageIndex": 0,
       "street": "Avenue A",
-      "along": 0.1,
+      "along": 5.745,
       "frontageDistance": 0.0,
-      "appearance": "Sign lettering, exact shop partition and interior are estimates unless an individual facade profile is supplied.",
+      "appearance": {
+        "record": "niagara",
+        "checked": "2026-09-08",
+        "sources": [
+          "a112"
+        ],
+        "limits": "Observed feature types and colors follow the linked photographs. Shop spans, depths, paint values, furniture dimensions/positions and substitute typography are visual estimates. Unreadable menu/sticker artwork, unseen interiors and present-day furniture availability remain unverified."
+      },
       "fascia": "black iron",
       "unit": [
-        0.12,
-        11.369
+        0.23,
+        11.259
       ],
-      "unitBasis": "Point order on the selected street frontage, with a bounded envelope for long unpartitioned elevations; dividing walls and unit widths estimated. Unsupported stretches remain unnamed."
+      "unitBasis": "Photographic proportion estimate from storefront-details.json / niagara; unmeasured.",
+      "design": {
+        "panels": [
+          [
+            "door",
+            0.18
+          ],
+          [
+            "window",
+            0.27
+          ],
+          [
+            "window",
+            0.27
+          ],
+          [
+            "window",
+            0.28
+          ]
+        ],
+        "frame": "black iron",
+        "base": 0.76,
+        "top": 3.58,
+        "signs": [
+          {
+            "material": "black iron",
+            "lines": [
+              {
+                "text": "NIAGARA",
+                "material": "sign white"
+              }
+            ],
+            "width": 0.4,
+            "at": 0.25,
+            "y": 3.27
+          }
+        ],
+        "blades": [
+          {
+            "at": 0.08,
+            "width": 0.95,
+            "height": 0.44,
+            "y": 3.3,
+            "material": "lit sign white",
+            "lines": [
+              {
+                "text": "NIAGARA",
+                "material": "black iron",
+                "size": 0.24
+              }
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "osm-node-2549928447",
@@ -1260,16 +1367,53 @@
       "status": "individually researched occupancy",
       "frontageIndex": 1,
       "street": "Avenue A",
-      "along": 5.067,
+      "along": 4.204,
       "frontageDistance": 3.398,
-      "appearance": "Sign lettering, exact shop partition and interior are estimates unless an individual facade profile is supplied.",
+      "appearance": {
+        "record": "doc-hollidays",
+        "checked": "2026-09-08",
+        "sources": [
+          "a141"
+        ],
+        "limits": "Observed feature types and colors follow the linked photographs. Shop spans, depths, paint values, furniture dimensions/positions and substitute typography are visual estimates. Unreadable menu/sticker artwork, unseen interiors and present-day furniture availability remain unverified."
+      },
       "fascia": "shop burgundy",
       "awning": "shop burgundy",
       "unit": [
-        0.12,
-        8.287
+        0.168,
+        8.239
       ],
-      "unitBasis": "Point order on the selected street frontage, with a bounded envelope for long unpartitioned elevations; dividing walls and unit widths estimated. Unsupported stretches remain unnamed."
+      "unitBasis": "Photographic proportion estimate from storefront-details.json / doc-hollidays; unmeasured.",
+      "design": {
+        "panels": [
+          [
+            "door",
+            0.23
+          ],
+          [
+            "window",
+            0.385
+          ],
+          [
+            "window",
+            0.385
+          ]
+        ],
+        "frame": "wood",
+        "surround": "black iron",
+        "base": 0.57,
+        "head": 2.65,
+        "top": 3.32,
+        "awning": {
+          "material": "shop burgundy",
+          "shape": "round",
+          "y": 3.5,
+          "drop": 0.65,
+          "depth": 1.17,
+          "valance": 0.22,
+          "text": "DOC HOLLIDAY'S BAR"
+        }
+      }
     },
     {
       "id": "osm-node-2549928762",
@@ -1302,14 +1446,75 @@
       "status": "dated city occupancy record",
       "frontageIndex": 1,
       "street": "First Avenue",
-      "along": 10.426,
+      "along": 3.716,
       "frontageDistance": 1.721,
-      "appearance": "Sign lettering, exact shop partition and interior are estimates unless an individual facade profile is supplied.",
+      "appearance": {
+        "record": "hen-house",
+        "checked": "2026-09-08",
+        "sources": [
+          "hen"
+        ],
+        "limits": "Observed feature types and colors follow the linked photographs. Shop spans, depths, paint values, furniture dimensions/positions and substitute typography are visual estimates. Unreadable menu/sticker artwork, unseen interiors and present-day furniture availability remain unverified."
+      },
       "unit": [
-        4.426,
-        15.206
+        0.383,
+        7.05
       ],
-      "unitBasis": "Point order on the selected street frontage, with a bounded envelope for long unpartitioned elevations; dividing walls and unit widths estimated. Unsupported stretches remain unnamed."
+      "unitBasis": "Photographic proportion estimate from storefront-details.json / hen-house; unmeasured.",
+      "design": {
+        "panels": [
+          [
+            "window",
+            0.58
+          ],
+          [
+            "door",
+            0.42
+          ]
+        ],
+        "frame": "black iron",
+        "base": 0.39,
+        "head": 2.62,
+        "top": 3.6,
+        "signs": [
+          {
+            "material": "black iron",
+            "y": 3.28,
+            "height": 0.45,
+            "lines": [
+              {
+                "text": "Hen House NYC",
+                "material": "neon orange",
+                "style": "script",
+                "size": 0.61
+              }
+            ]
+          }
+        ],
+        "blades": [
+          {
+            "at": 0.91,
+            "shape": "oval",
+            "width": 0.7,
+            "height": 0.7,
+            "y": 3.27,
+            "material": "painted blue",
+            "lines": [
+              {
+                "text": "HEN HOUSE",
+                "material": "sign white",
+                "size": 0.13
+              },
+              {
+                "text": "NYC",
+                "material": "sign white",
+                "y": -0.23,
+                "size": 0.12
+              }
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "osm-node-2549928858",
@@ -1392,7 +1597,7 @@
     {
       "id": "osm-node-2549930015",
       "osmId": 2549930015,
-      "name": "Ralph's Famous",
+      "name": "RALPH'S ITALIAN ICES",
       "category": "ice_cream",
       "mappedAddress": "145 Avenue A",
       "point": [
@@ -1412,22 +1617,132 @@
           "name": "RALPH'S FAMOUS ITALIAN ICES AND ICE CREAM",
           "address": "145 AVENUE A",
           "bin": "1089857"
+        },
+        {
+          "publisher": "Reviewed occupancy source",
+          "url": "https://evgrieve.com/2020/09/ralphs-famous-italian-ices-on-today-on.html",
+          "sourceDate": "2020-09-11",
+          "checked": "2026-09-08",
+          "basis": "September 8, 2026 visual review: Ralph\u2019s Famous and the researched Ralph\u2019s Italian Ices are the same shop at 145 Avenue A, not two units. Existing dated occupancy evidence retained."
+        },
+        {
+          "publisher": "Existing dated neighborhood research",
+          "record": {
+            "address": "145 Avenue A",
+            "source": "https://evgrieve.com/2020/09/ralphs-famous-italian-ices-on-today-on.html",
+            "photo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhBJaeSHrSRDmlAZG61HUNGBzZZuyughtKZz4q7fdyzkF6PeBliEnS9E5RQsCKQLw5iiu6PCl-w0OydROCCXZS7sgi8QfGHbJ5kb7FZgwsXCayEj6Cc_wEZhAgbmQ3NxG02v3d4fJ99TrU/s400/IMG_9372.JPG",
+            "captureDate": "2020-09 (published Sept 11)",
+            "tenant": {
+              "name": "Ralph\u2019s Famous Italian Ices & Ice Cream",
+              "source": null,
+              "status": "See dated photograph; operating status is not continuously verified"
+            }
+          }
         }
       ],
       "buildingId": 248142963,
-      "buildingMatch": "address",
+      "buildingMatch": "reviewed exact building identity",
       "renderName": true,
-      "status": "dated city occupancy record",
+      "status": "individually researched occupancy",
       "frontageIndex": 1,
       "street": "Avenue A",
-      "along": 3.825,
+      "along": 4.016,
       "frontageDistance": 2.588,
-      "appearance": "Sign lettering, exact shop partition and interior are estimates unless an individual facade profile is supplied.",
+      "appearance": {
+        "record": "ralphs-ices",
+        "checked": "2026-09-08",
+        "sources": [
+          "a145"
+        ],
+        "limits": "Observed feature types and colors follow the linked photographs. Shop spans, depths, paint values, furniture dimensions/positions and substitute typography are visual estimates. Unreadable menu/sticker artwork, unseen interiors and present-day furniture availability remain unverified."
+      },
+      "fascia": "nishaan blue",
+      "profile": "gelato",
       "unit": [
-        0.12,
-        3.91
+        0.16,
+        7.871
       ],
-      "unitBasis": "Point order on the selected street frontage, with a bounded envelope for long unpartitioned elevations; dividing walls and unit widths estimated. Unsupported stretches remain unnamed."
+      "unitBasis": "Photographic proportion estimate from storefront-details.json / ralphs-ices; unmeasured.",
+      "design": {
+        "panels": [
+          [
+            "window",
+            0.27
+          ],
+          [
+            "window",
+            0.46
+          ],
+          [
+            "door",
+            0.27
+          ]
+        ],
+        "frame": "white frame",
+        "surround": "sign white",
+        "base": 0.88,
+        "head": 2.45,
+        "top": 3.6,
+        "signs": [
+          {
+            "material": "nishaan blue",
+            "y": 3.14,
+            "height": 0.77,
+            "lines": [
+              {
+                "text": "ITALIAN ICES",
+                "material": "sign white",
+                "size": 0.21,
+                "offset": -0.32,
+                "width": 0.3
+              },
+              {
+                "text": "ICE CREAM",
+                "material": "sign white",
+                "size": 0.21,
+                "offset": 0.33,
+                "width": 0.28
+              }
+            ]
+          },
+          {
+            "material": "sign white",
+            "width": 0.38,
+            "y": 3.2,
+            "height": 0.89,
+            "lines": [
+              {
+                "text": "Ralph's",
+                "material": "theater red",
+                "style": "script",
+                "size": 0.56,
+                "y": 0.18
+              },
+              {
+                "text": "ITALIAN ICES",
+                "material": "nishaan blue",
+                "size": 0.14,
+                "y": -0.24
+              }
+            ],
+            "depth": 0.35
+          }
+        ],
+        "menus": [
+          {
+            "at": 0.14,
+            "height": 1.44,
+            "width": 0.65,
+            "y": 1.65
+          },
+          {
+            "at": 0.84,
+            "height": 1.44,
+            "width": 0.65,
+            "y": 1.65
+          }
+        ]
+      }
     },
     {
       "id": "osm-node-2549930024",
@@ -1755,17 +2070,104 @@
       "status": "individually researched occupancy",
       "frontageIndex": 0,
       "street": "Avenue A",
-      "along": 5.624,
+      "along": 4.558,
       "frontageDistance": 1.329,
-      "appearance": "Sign lettering, exact shop partition and interior are estimates unless an individual facade profile is supplied.",
+      "appearance": {
+        "record": "rays-candy-store",
+        "checked": "2026-09-08",
+        "sources": [
+          "a113"
+        ],
+        "limits": "Observed feature types and colors follow the linked photographs. Shop spans, depths, paint values, furniture dimensions/positions and substitute typography are visual estimates. Unreadable menu/sticker artwork, unseen interiors and present-day furniture availability remain unverified."
+      },
       "fascia": "shop sage",
       "letters": "theater red",
       "profile": "gelato",
       "unit": [
-        0.12,
-        7.444
+        1.664,
+        7.451
       ],
-      "unitBasis": "Point order on the selected street frontage, with a bounded envelope for long unpartitioned elevations; dividing walls and unit widths estimated. Unsupported stretches remain unnamed."
+      "unitBasis": "Photographic proportion estimate from storefront-details.json / rays-candy-store; unmeasured.",
+      "design": {
+        "panels": [
+          [
+            "door",
+            0.23
+          ],
+          [
+            "window",
+            0.385
+          ],
+          [
+            "window",
+            0.385
+          ]
+        ],
+        "frame": "store teal",
+        "surround": "store teal",
+        "base": 0.77,
+        "head": 2.52,
+        "top": 3.4,
+        "signs": [
+          {
+            "material": "store teal",
+            "y": 3.06,
+            "height": 0.64,
+            "lines": [
+              {
+                "text": "RAY'S CANDY STORE",
+                "material": "theater red",
+                "size": 0.46
+              }
+            ]
+          }
+        ],
+        "blades": [
+          {
+            "at": 0.06,
+            "width": 0.75,
+            "height": 0.85,
+            "y": 3.14,
+            "material": "sign white",
+            "lines": [
+              {
+                "text": "BELGIAN",
+                "material": "theater red",
+                "y": 0.18,
+                "size": 0.17
+              },
+              {
+                "text": "FRIES",
+                "material": "theater red",
+                "y": -0.17,
+                "size": 0.2
+              }
+            ]
+          }
+        ],
+        "menus": [
+          {
+            "at": 0.3,
+            "width": 0.4,
+            "height": 0.56
+          },
+          {
+            "at": 0.77,
+            "width": 0.35,
+            "height": 0.44
+          }
+        ],
+        "windowText": [
+          {
+            "at": 0.64,
+            "y": 0.61,
+            "text": "ICE CREAM",
+            "material": "sign white",
+            "size": 0.16,
+            "width": 0.63
+          }
+        ]
+      }
     },
     {
       "id": "osm-node-3238681549",
@@ -1992,15 +2394,60 @@
       "status": "individually researched occupancy",
       "frontageIndex": 1,
       "street": "Avenue A",
-      "along": 3.876,
+      "along": 3.482,
       "frontageDistance": 1.892,
-      "appearance": "Sign lettering, exact shop partition and interior are estimates unless an individual facade profile is supplied.",
+      "appearance": {
+        "record": "miss-lilys",
+        "checked": "2026-09-08",
+        "sources": [
+          "a109"
+        ],
+        "limits": "Observed feature types and colors follow the linked photographs. Shop spans, depths, paint values, furniture dimensions/positions and substitute typography are visual estimates. Unreadable menu/sticker artwork, unseen interiors and present-day furniture availability remain unverified."
+      },
       "fascia": "theater red",
       "unit": [
-        0.12,
-        6.843
+        0.139,
+        6.824
       ],
-      "unitBasis": "Point order on the selected street frontage, with a bounded envelope for long unpartitioned elevations; dividing walls and unit widths estimated. Unsupported stretches remain unnamed."
+      "unitBasis": "Photographic proportion estimate from storefront-details.json / miss-lilys; unmeasured.",
+      "design": {
+        "panels": [
+          [
+            "window",
+            0.33
+          ],
+          [
+            "door",
+            0.34
+          ],
+          [
+            "window",
+            0.33
+          ]
+        ],
+        "frame": "theater red",
+        "surround": "theater red",
+        "base": 0.4,
+        "top": 3.6,
+        "awning": {
+          "material": "shop burgundy",
+          "y": 3.56,
+          "drop": 0.65,
+          "text": "MISS LILY'S 7A"
+        },
+        "tables": [
+          {
+            "at": 0.23,
+            "depth": 1.15,
+            "style": "wood"
+          },
+          {
+            "at": 0.75,
+            "depth": 1.15,
+            "style": "wood"
+          }
+        ]
+      }
     },
     {
       "id": "osm-node-4146358991",
@@ -2262,18 +2709,98 @@
       "status": "individually researched occupancy",
       "frontageIndex": 0,
       "street": "Avenue A",
-      "along": 3.645,
+      "along": 4.607,
       "frontageDistance": 2.359,
-      "appearance": "Sign lettering, exact shop partition and interior are estimates unless an individual facade profile is supplied.",
+      "appearance": {
+        "record": "tompkins-square-bagels",
+        "checked": "2026-09-08",
+        "sources": [
+          "a165"
+        ],
+        "limits": "Observed feature types and colors follow the linked photographs. Shop spans, depths, paint values, furniture dimensions/positions and substitute typography are visual estimates. Unreadable menu/sticker artwork, unseen interiors and present-day furniture availability remain unverified."
+      },
       "fascia": "shop cream",
       "letters": "shop burgundy",
       "awning": "shop burgundy",
       "profile": "bakery",
       "unit": [
-        0.12,
-        7.464
+        1.744,
+        7.47
       ],
-      "unitBasis": "Point order on the selected street frontage, with a bounded envelope for long unpartitioned elevations; dividing walls and unit widths estimated. Unsupported stretches remain unnamed."
+      "unitBasis": "Photographic proportion estimate from storefront-details.json / tompkins-square-bagels; unmeasured.",
+      "design": {
+        "panels": [
+          [
+            "window",
+            0.29
+          ],
+          [
+            "double-door",
+            0.4
+          ],
+          [
+            "window",
+            0.31
+          ]
+        ],
+        "frame": "store teal",
+        "surround": "store teal",
+        "base": 0.45,
+        "head": 2.57,
+        "top": 3.68,
+        "signs": [
+          {
+            "material": "shop cream",
+            "y": 3.4,
+            "height": 0.6,
+            "lines": [
+              {
+                "text": "TOMPKINS",
+                "material": "shop burgundy",
+                "size": 0.2,
+                "y": 0.28
+              },
+              {
+                "text": "SQUARE",
+                "material": "shop burgundy",
+                "size": 0.2
+              },
+              {
+                "text": "BAGELS",
+                "material": "shop burgundy",
+                "size": 0.2,
+                "y": -0.29
+              }
+            ]
+          }
+        ],
+        "awning": {
+          "material": "shop burgundy",
+          "y": 3.01,
+          "drop": 0.23,
+          "depth": 0.76,
+          "valance": 0.18,
+          "text": "TOMPKINS SQUARE BAGELS",
+          "textSize": 0.14
+        },
+        "blades": [
+          {
+            "at": 0.96,
+            "width": 0.7,
+            "height": 0.7,
+            "y": 2.86,
+            "shape": "oval",
+            "material": "shop burgundy",
+            "lines": [
+              {
+                "text": "BAGELS",
+                "material": "sign white",
+                "size": 0.15
+              }
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "osm-node-4300546789",
@@ -5088,16 +5615,80 @@
       "status": "individually researched occupancy",
       "frontageIndex": 0,
       "street": "Avenue A",
-      "along": 3.866,
+      "along": 3.756,
       "frontageDistance": 1.632,
-      "appearance": "Sign lettering, exact shop partition and interior are estimates unless an individual facade profile is supplied.",
+      "appearance": {
+        "record": "superiority-burger",
+        "checked": "2026-09-08",
+        "sources": [
+          "a119"
+        ],
+        "limits": "Observed feature types and colors follow the linked photographs. Shop spans, depths, paint values, furniture dimensions/positions and substitute typography are visual estimates. Unreadable menu/sticker artwork, unseen interiors and present-day furniture availability remain unverified."
+      },
       "fascia": "sign white",
       "letters": "theater red",
       "unit": [
-        0.12,
-        7.355
+        0.149,
+        7.363
       ],
-      "unitBasis": "Point order on the selected street frontage, with a bounded envelope for long unpartitioned elevations; dividing walls and unit widths estimated. Unsupported stretches remain unnamed."
+      "unitBasis": "Photographic proportion estimate from storefront-details.json / superiority-burger; unmeasured.",
+      "design": {
+        "panels": [
+          [
+            "window",
+            0.26
+          ],
+          [
+            "door",
+            0.27
+          ],
+          [
+            "window",
+            0.24
+          ],
+          [
+            "window",
+            0.23
+          ]
+        ],
+        "frame": "window frame",
+        "surround": "store teal",
+        "base": 0.43,
+        "head": 2.61,
+        "top": 3.51,
+        "signs": [
+          {
+            "material": "lit sign white",
+            "y": 3.17,
+            "height": 0.63,
+            "lines": [
+              {
+                "text": "RESTAURANT",
+                "material": "theater red",
+                "size": 0.55,
+                "y": 0.12
+              },
+              {
+                "text": "SUPERIORITY BURGER",
+                "material": "black iron",
+                "size": 0.14,
+                "y": -0.32
+              }
+            ]
+          }
+        ],
+        "blades": [
+          {
+            "at": 0.85,
+            "width": 1.03,
+            "height": 0.77,
+            "y": 4.24,
+            "material": "lit sign white",
+            "border": "black iron",
+            "lines": []
+          }
+        ]
+      }
     },
     {
       "id": "osm-node-6281164644",
@@ -7340,16 +7931,71 @@
       "status": "individually researched occupancy",
       "frontageIndex": 0,
       "street": "East 11th Street",
-      "along": 4.755,
+      "along": 3.678,
       "frontageDistance": 2.054,
-      "appearance": "Sign lettering, exact shop partition and interior are estimates unless an individual facade profile is supplied.",
+      "appearance": {
+        "record": "casey-rubber-stamps",
+        "checked": "2026-09-08",
+        "sources": [
+          "casey"
+        ],
+        "limits": "Observed feature types and colors follow the linked photographs. Shop spans, depths, paint values, furniture dimensions/positions and substitute typography are visual estimates. Unreadable menu/sticker artwork, unseen interiors and present-day furniture availability remain unverified."
+      },
       "fascia": "yellow paint",
       "letters": "black iron",
       "unit": [
-        0.12,
-        7.126
+        0.254,
+        7.101
       ],
-      "unitBasis": "Point order on the selected street frontage, with a bounded envelope for long unpartitioned elevations; dividing walls and unit widths estimated. Unsupported stretches remain unnamed."
+      "unitBasis": "Photographic proportion estimate from storefront-details.json / casey-rubber-stamps; unmeasured.",
+      "design": {
+        "panels": [
+          [
+            "door",
+            0.23
+          ],
+          [
+            "window",
+            0.77
+          ]
+        ],
+        "frame": "black iron",
+        "surround": "black iron",
+        "base": 0.65,
+        "head": 2.52,
+        "top": 3.28,
+        "signs": [
+          {
+            "material": "yellow paint",
+            "lines": [
+              {
+                "text": "RUBBER STAMPS",
+                "material": "black iron",
+                "size": 0.43
+              }
+            ],
+            "y": 2.96,
+            "height": 0.51
+          }
+        ],
+        "menus": [
+          {
+            "at": 0.35,
+            "width": 0.38,
+            "height": 0.45
+          },
+          {
+            "at": 0.52,
+            "width": 0.4,
+            "height": 0.5
+          },
+          {
+            "at": 0.72,
+            "width": 0.4,
+            "height": 0.5
+          }
+        ]
+      }
     },
     {
       "id": "osm-node-8439642582",
@@ -9451,14 +10097,56 @@
       "status": "website lists this address",
       "frontageIndex": 0,
       "street": "First Avenue",
-      "along": 4.612,
+      "along": 3.186,
       "frontageDistance": 2.171,
-      "appearance": "Sign lettering, exact shop partition and interior are estimates unless an individual facade profile is supplied.",
+      "appearance": {
+        "record": "nudibranch",
+        "checked": "2026-09-08",
+        "sources": [
+          "nudibranch"
+        ],
+        "limits": "Observed feature types and colors follow the linked photographs. Shop spans, depths, paint values, furniture dimensions/positions and substitute typography are visual estimates. Unreadable menu/sticker artwork, unseen interiors and present-day furniture availability remain unverified."
+      },
       "unit": [
-        0.12,
-        6.252
+        0.191,
+        6.181
       ],
-      "unitBasis": "Point order on the selected street frontage, with a bounded envelope for long unpartitioned elevations; dividing walls and unit widths estimated. Unsupported stretches remain unnamed."
+      "unitBasis": "Photographic proportion estimate from storefront-details.json / nudibranch; unmeasured.",
+      "design": {
+        "panels": [
+          [
+            "window",
+            0.64
+          ],
+          [
+            "door",
+            0.36
+          ]
+        ],
+        "frame": "window frame",
+        "surround": "window frame",
+        "top": 3.25,
+        "base": 0.23,
+        "signs": [],
+        "windowText": [
+          {
+            "at": 0.42,
+            "y": 1.93,
+            "width": 0.7,
+            "text": "nudibranch",
+            "material": "black iron",
+            "size": 0.34
+          },
+          {
+            "at": 0.42,
+            "y": 1.56,
+            "width": 0.4,
+            "text": "125 1st Ave",
+            "material": "black iron",
+            "size": 0.18
+          }
+        ]
+      }
     },
     {
       "id": "osm-node-10270502711",
@@ -10624,16 +11312,62 @@
       "status": "individually researched occupancy",
       "frontageIndex": 0,
       "street": "Avenue A",
-      "along": 7.561,
+      "along": 3.971,
       "frontageDistance": 4.569,
-      "appearance": "Sign lettering, exact shop partition and interior are estimates unless an individual facade profile is supplied.",
+      "appearance": {
+        "record": "lucys",
+        "checked": "2026-09-08",
+        "sources": [
+          "a135"
+        ],
+        "limits": "Observed feature types and colors follow the linked photographs. Shop spans, depths, paint values, furniture dimensions/positions and substitute typography are visual estimates. Unreadable menu/sticker artwork, unseen interiors and present-day furniture availability remain unverified."
+      },
       "fascia": "black iron",
       "letters": "gelato pink",
       "unit": [
-        0.12,
-        10.356
+        0.611,
+        7.332
       ],
-      "unitBasis": "Point order on the selected street frontage, with a bounded envelope for long unpartitioned elevations; dividing walls and unit widths estimated. Unsupported stretches remain unnamed."
+      "unitBasis": "Photographic proportion estimate from storefront-details.json / lucys; unmeasured.",
+      "design": {
+        "panels": [
+          [
+            "window",
+            0.37
+          ],
+          [
+            "door",
+            0.26
+          ],
+          [
+            "window",
+            0.37
+          ]
+        ],
+        "frame": "black iron",
+        "surround": "black iron",
+        "base": 0.4,
+        "head": 2.5,
+        "top": 3.35,
+        "recess": 0.32,
+        "grille": true,
+        "signs": [
+          {
+            "material": "black iron",
+            "y": 3.02,
+            "height": 0.54,
+            "lines": [
+              {
+                "text": "Lucy's",
+                "material": "gelato pink",
+                "style": "script",
+                "size": 0.72
+              }
+            ]
+          }
+        ],
+        "doorMaterial": "theater red"
+      }
     },
     {
       "id": "osm-node-11270580267",
@@ -11229,14 +11963,99 @@
       "status": "dated city occupancy record",
       "frontageIndex": 1,
       "street": "First Avenue",
-      "along": 3.06,
+      "along": 2.703,
       "frontageDistance": 1.597,
-      "appearance": "Sign lettering, exact shop partition and interior are estimates unless an individual facade profile is supplied.",
+      "appearance": {
+        "record": "tile-bar",
+        "checked": "2026-09-08",
+        "sources": [
+          "tile"
+        ],
+        "limits": "Observed feature types and colors follow the linked photographs. Shop spans, depths, paint values, furniture dimensions/positions and substitute typography are visual estimates. Unreadable menu/sticker artwork, unseen interiors and present-day furniture availability remain unverified."
+      },
       "unit": [
-        0.12,
-        5.259
+        0.134,
+        5.271
       ],
-      "unitBasis": "Point order on the selected street frontage, with a bounded envelope for long unpartitioned elevations; dividing walls and unit widths estimated. Unsupported stretches remain unnamed."
+      "unitBasis": "Photographic proportion estimate from storefront-details.json / tile-bar; unmeasured.",
+      "design": {
+        "panels": [
+          [
+            "door",
+            0.3
+          ],
+          [
+            "window",
+            0.35
+          ],
+          [
+            "window",
+            0.35
+          ]
+        ],
+        "frame": "store teal",
+        "surround": "theater red",
+        "base": 1.05,
+        "head": 2.18,
+        "top": 3.22,
+        "recess": 0.25,
+        "transom": false,
+        "tileBase": true,
+        "awning": {
+          "material": "nishaan blue",
+          "stripe": "sign white",
+          "y": 3.34,
+          "drop": 0.5,
+          "depth": 1.2,
+          "valance": 0.25,
+          "text": "TILE BAR",
+          "textSize": 0.29,
+          "stripeSpacing": 0.14,
+          "stripeWidth": 0.009,
+          "textAt": 0.77,
+          "textWidth": 0.4
+        },
+        "windowText": [
+          {
+            "at": 0.76,
+            "y": 1.94,
+            "text": "Shiner",
+            "style": "neon-script",
+            "material": "neon amber",
+            "size": 0.2,
+            "width": 0.3
+          },
+          {
+            "at": 0.17,
+            "y": 0.93,
+            "text": "115",
+            "material": "yellow paint",
+            "size": 0.17,
+            "width": 0.16,
+            "depth": -0.08
+          }
+        ],
+        "boards": [
+          {
+            "at": 0.04,
+            "depth": 1.12,
+            "text": "TILE BAR"
+          }
+        ],
+        "tables": [
+          {
+            "at": 0.52,
+            "depth": 1.14
+          },
+          {
+            "at": 0.84,
+            "depth": 1.14
+          }
+        ],
+        "doorMaterial": "store teal",
+        "doorHead": 2.7,
+        "doorGlassBottom": 0.99
+      }
     },
     {
       "id": "osm-node-12327465356",
@@ -11345,16 +12164,65 @@
       "status": "individually researched occupancy",
       "frontageIndex": 0,
       "street": "Avenue A",
-      "along": 3.466,
+      "along": 4.45,
       "frontageDistance": 1.392,
-      "appearance": "Sign lettering, exact shop partition and interior are estimates unless an individual facade profile is supplied.",
+      "appearance": {
+        "record": "st-dymphnas",
+        "checked": "2026-09-08",
+        "sources": [
+          "a117"
+        ],
+        "limits": "Observed feature types and colors follow the linked photographs. Shop spans, depths, paint values, furniture dimensions/positions and substitute typography are visual estimates. Unreadable menu/sticker artwork, unseen interiors and present-day furniture availability remain unverified."
+      },
       "fascia": "gelato yellow",
       "letters": "black iron",
       "unit": [
-        0.12,
-        7.267
+        1.625,
+        7.276
       ],
-      "unitBasis": "Point order on the selected street frontage, with a bounded envelope for long unpartitioned elevations; dividing walls and unit widths estimated. Unsupported stretches remain unnamed."
+      "unitBasis": "Photographic proportion estimate from storefront-details.json / st-dymphnas; unmeasured.",
+      "design": {
+        "panels": [
+          [
+            "window",
+            0.24
+          ],
+          [
+            "double-door",
+            0.52
+          ],
+          [
+            "window",
+            0.24
+          ]
+        ],
+        "frame": "store teal",
+        "surround": "gelato yellow",
+        "base": 0.68,
+        "head": 2.66,
+        "top": 3.61,
+        "smallPanes": true,
+        "signs": [
+          {
+            "material": "window frame",
+            "width": 0.78,
+            "y": 3.27,
+            "height": 0.34,
+            "lines": [
+              {
+                "text": "ST DYMPHNAS",
+                "material": "brass",
+                "size": 0.25
+              }
+            ]
+          }
+        ],
+        "lights": [
+          0.25,
+          0.5,
+          0.75
+        ]
+      }
     },
     {
       "id": "osm-node-12327505161",
@@ -12529,7 +13397,7 @@
     {
       "id": "osm-node-12720671571",
       "osmId": 12720671571,
-      "name": "Danny & Coop\u2019s Cheesesteaks",
+      "name": "DANNY & COOP'S",
       "category": "restaurant",
       "mappedAddress": "151 Avenue A",
       "point": [
@@ -12547,22 +13415,99 @@
           "url": "https://dannyandcoops.com/",
           "checked": "2026-09-06",
           "address": "151 Avenue A"
+        },
+        {
+          "publisher": "Reviewed occupancy source",
+          "url": "https://evgrieve.com/2025/07/beer-wine-in-works-for-danny-coops.html",
+          "sourceDate": "2025-07",
+          "checked": "2026-09-08",
+          "basis": "September 8, 2026 visual/address review: mapped node has 151 Avenue A address but fell in 153 footprint. Match the existing researched 151 unit; do not duplicate the restaurant across two buildings."
+        },
+        {
+          "publisher": "Existing dated neighborhood research",
+          "record": {
+            "address": "151 Avenue A",
+            "source": "https://evgrieve.com/2025/07/beer-wine-in-works-for-danny-coops.html",
+            "photo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEje4kNWPgeKmwHo59e0GaKuB3PjC0f3t7TdJCmLflAsvF-uHgEyK6ujg1zbfLXDb2mjesr-0S20KTvdUMkPxNy4S5Bc9Hmeqt7ItdtX0YNQokTlDLn6lgtigBBL9ZFS3kdHL7Yx2_4ea9kApyG9R6tnrmpzQhHepMnG2q-EIMswFTcEHBXvTVcmQl8VVKk/s610/IMG_0725.HEIC",
+            "captureDate": "2025-07 publication; photo appears to be colder-season file shot (exact capture unknown)",
+            "tenant": {
+              "name": "Danny & Coop\u2019s Cheesesteaks",
+              "source": null,
+              "status": "See dated photograph; operating status is not continuously verified"
+            }
+          }
         }
       ],
-      "buildingId": 248142859,
-      "buildingMatch": "address",
+      "buildingId": 248142858,
+      "buildingMatch": "reviewed exact building identity",
       "renderName": true,
-      "status": "website lists this address",
+      "status": "individually researched occupancy",
       "frontageIndex": 0,
       "street": "Avenue A",
-      "along": 1.784,
-      "frontageDistance": 3.261,
-      "appearance": "Sign lettering, exact shop partition and interior are estimates unless an individual facade profile is supplied.",
+      "along": 4.617,
+      "frontageDistance": 3.717,
+      "appearance": {
+        "record": "danny-and-coops",
+        "checked": "2026-09-08",
+        "sources": [
+          "a151"
+        ],
+        "limits": "Observed feature types and colors follow the linked photographs. Shop spans, depths, paint values, furniture dimensions/positions and substitute typography are visual estimates. Unreadable menu/sticker artwork, unseen interiors and present-day furniture availability remain unverified."
+      },
+      "fascia": "black iron",
+      "letters": "theater red",
       "unit": [
-        0.12,
-        8.262
+        1.748,
+        7.485
       ],
-      "unitBasis": "Point order on the selected street frontage, with a bounded envelope for long unpartitioned elevations; dividing walls and unit widths estimated. Unsupported stretches remain unnamed."
+      "unitBasis": "Photographic proportion estimate from storefront-details.json / danny-and-coops; unmeasured.",
+      "design": {
+        "panels": [
+          [
+            "window",
+            0.66
+          ],
+          [
+            "door",
+            0.34
+          ]
+        ],
+        "frame": "black iron",
+        "surround": "black iron",
+        "base": 0.32,
+        "head": 2.57,
+        "top": 3.44,
+        "signs": [],
+        "blades": [
+          {
+            "at": 0.65,
+            "width": 1.3,
+            "height": 0.67,
+            "y": 3.2,
+            "shape": "oval",
+            "material": "black iron",
+            "border": "brass",
+            "lines": [
+              {
+                "text": "DANNY & COOP'S",
+                "material": "neon rose",
+                "size": 0.19,
+                "y": 0.13
+              },
+              {
+                "text": "CHEESESTEAKS",
+                "material": "theater red",
+                "size": 0.14,
+                "y": -0.24
+              }
+            ]
+          }
+        ],
+        "shutter": true,
+        "lights": [
+          0.84
+        ]
+      }
     },
     {
       "id": "osm-node-12720698856",
@@ -13201,16 +14146,86 @@
       "status": "individually researched occupancy",
       "frontageIndex": 0,
       "street": "Avenue A",
-      "along": 3.223,
+      "along": 4.302,
       "frontageDistance": 5.202,
-      "appearance": "Sign lettering, exact shop partition and interior are estimates unless an individual facade profile is supplied.",
+      "appearance": {
+        "record": "lucindas",
+        "checked": "2026-09-08",
+        "sources": [
+          "a169"
+        ],
+        "limits": "Observed feature types and colors follow the linked photographs. Shop spans, depths, paint values, furniture dimensions/positions and substitute typography are visual estimates. Unreadable menu/sticker artwork, unseen interiors and present-day furniture availability remain unverified."
+      },
       "fascia": "wood",
       "letters": "gelato pink",
       "unit": [
-        0.12,
-        7.02
+        1.571,
+        7.033
       ],
-      "unitBasis": "Point order on the selected street frontage, with a bounded envelope for long unpartitioned elevations; dividing walls and unit widths estimated. Unsupported stretches remain unnamed."
+      "unitBasis": "Photographic proportion estimate from storefront-details.json / lucindas; unmeasured.",
+      "design": {
+        "panels": [
+          [
+            "window",
+            0.16666666666666666
+          ],
+          [
+            "window",
+            0.16666666666666666
+          ],
+          [
+            "door",
+            0.16666666666666666
+          ],
+          [
+            "door",
+            0.16666666666666666
+          ],
+          [
+            "window",
+            0.16666666666666666
+          ],
+          [
+            "window",
+            0.16666666666666666
+          ]
+        ],
+        "frame": "wood",
+        "surround": "wood",
+        "base": 0.82,
+        "head": 2.55,
+        "top": 3.5,
+        "signs": [
+          {
+            "material": "shop cream",
+            "shape": "oval",
+            "y": 3.2,
+            "height": 0.57,
+            "lines": [
+              {
+                "text": "Lucinda's",
+                "material": "neon amber",
+                "style": "neon-script",
+                "size": 0.64
+              },
+              {
+                "text": "HONKY TONK",
+                "material": "shop burgundy",
+                "offset": -0.35,
+                "width": 0.23,
+                "size": 0.085
+              },
+              {
+                "text": "COCKTAILS",
+                "material": "shop burgundy",
+                "offset": 0.35,
+                "width": 0.23,
+                "size": 0.085
+              }
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "osm-node-13708105001",
@@ -13249,15 +14264,75 @@
       "status": "individually researched occupancy",
       "frontageIndex": 0,
       "street": "Avenue A",
-      "along": 3.645,
+      "along": 3.754,
       "frontageDistance": 2.497,
-      "appearance": "Sign lettering, exact shop partition and interior are estimates unless an individual facade profile is supplied.",
+      "appearance": {
+        "record": "luster-photo",
+        "checked": "2026-09-08",
+        "sources": [
+          "a121"
+        ],
+        "limits": "Observed feature types and colors follow the linked photographs. Shop spans, depths, paint values, furniture dimensions/positions and substitute typography are visual estimates. Unreadable menu/sticker artwork, unseen interiors and present-day furniture availability remain unverified."
+      },
       "fascia": "nishaan blue",
       "unit": [
-        0.12,
-        7.351
+        0.149,
+        7.359
       ],
-      "unitBasis": "Point order on the selected street frontage, with a bounded envelope for long unpartitioned elevations; dividing walls and unit widths estimated. Unsupported stretches remain unnamed."
+      "unitBasis": "Photographic proportion estimate from storefront-details.json / luster-photo; unmeasured.",
+      "design": {
+        "panels": [
+          [
+            "window",
+            0.4
+          ],
+          [
+            "door",
+            0.24
+          ],
+          [
+            "window",
+            0.36
+          ]
+        ],
+        "frame": "metal",
+        "surround": "metal",
+        "base": 0.46,
+        "top": 3.53,
+        "signs": [
+          {
+            "material": "nishaan blue",
+            "y": 3.17,
+            "height": 0.69,
+            "lines": [
+              {
+                "text": "LUSTER",
+                "material": "sign white",
+                "size": 0.61,
+                "y": 0.15
+              },
+              {
+                "text": "PHOTO & DIGITAL LAB",
+                "material": "sign white",
+                "size": 0.25,
+                "y": -0.26
+              }
+            ]
+          }
+        ],
+        "menus": [
+          {
+            "at": 0.32,
+            "width": 0.48,
+            "height": 0.7
+          },
+          {
+            "at": 0.8,
+            "width": 0.48,
+            "height": 0.7
+          }
+        ]
+      }
     },
     {
       "id": "osm-node-13736507651",
@@ -13442,16 +14517,67 @@
       "status": "individually researched occupancy",
       "frontageIndex": 0,
       "street": "Avenue A",
-      "along": 5.336,
+      "along": 5.931,
       "frontageDistance": 2.356,
-      "appearance": "Sign lettering, exact shop partition and interior are estimates unless an individual facade profile is supplied.",
+      "appearance": {
+        "record": "the-rabbit",
+        "checked": "2026-09-08",
+        "sources": [
+          "a170"
+        ],
+        "limits": "Observed feature types and colors follow the linked photographs. Shop spans, depths, paint values, furniture dimensions/positions and substitute typography are visual estimates. Unreadable menu/sticker artwork, unseen interiors and present-day furniture availability remain unverified."
+      },
       "fascia": "shop burgundy",
       "awning": "shop burgundy",
       "unit": [
-        0.12,
-        11.8
+        0.358,
+        11.503
       ],
-      "unitBasis": "Point order on the selected street frontage, with a bounded envelope for long unpartitioned elevations; dividing walls and unit widths estimated. Unsupported stretches remain unnamed."
+      "unitBasis": "Photographic proportion estimate from storefront-details.json / the-rabbit; unmeasured.",
+      "design": {
+        "panels": [
+          [
+            "window",
+            0.31
+          ],
+          [
+            "double-door",
+            0.38
+          ],
+          [
+            "window",
+            0.31
+          ]
+        ],
+        "frame": "black iron",
+        "surround": "black iron",
+        "base": 0.3,
+        "head": 2.77,
+        "top": 3.75,
+        "recess": 0.33,
+        "signs": [],
+        "awning": {
+          "material": "shop burgundy",
+          "y": 3.83,
+          "drop": 0.62,
+          "depth": 1.1,
+          "scalloped": true,
+          "valance": 0.24,
+          "text": "Books and Bar",
+          "textSize": 0.26
+        },
+        "windowText": [
+          {
+            "at": 0.5,
+            "y": 3.55,
+            "depth": 0.57,
+            "text": "The Rabbit",
+            "material": "sign white",
+            "size": 0.24,
+            "width": 0.5
+          }
+        ]
+      }
     },
     {
       "id": "researched-247852679",
@@ -13459,7 +14585,7 @@
       "buildingId": 247852679,
       "street": "East 9th Street",
       "frontageIndex": 0,
-      "along": 3.788,
+      "along": 2.443,
       "renderName": true,
       "status": "individually researched occupancy",
       "sources": [
@@ -13478,14 +14604,69 @@
           }
         }
       ],
-      "appearance": "Partition dimensions and unobserved sign design remain estimated.",
+      "appearance": {
+        "record": "irving-green",
+        "checked": "2026-09-08",
+        "sources": [
+          "irving"
+        ],
+        "limits": "Observed feature types and colors follow the linked photographs. Shop spans, depths, paint values, furniture dimensions/positions and substitute typography are visual estimates. Unreadable menu/sticker artwork, unseen interiors and present-day furniture availability remain unverified."
+      },
       "fascia": "shop sage",
       "awning": null,
       "unit": [
-        0.12,
-        4.775
+        0.189,
+        4.697
       ],
-      "unitBasis": "Point order on the selected street frontage, with a bounded envelope for long unpartitioned elevations; dividing walls and unit widths estimated. Unsupported stretches remain unnamed."
+      "unitBasis": "Photographic proportion estimate from storefront-details.json / irving-green; unmeasured.",
+      "design": {
+        "panels": [
+          [
+            "window",
+            0.66
+          ],
+          [
+            "door",
+            0.34
+          ]
+        ],
+        "frame": "shop sage",
+        "surround": "shop sage",
+        "base": 0.52,
+        "top": 3.2,
+        "recess": 0.3,
+        "signs": [
+          {
+            "material": "shop sage",
+            "lines": [
+              {
+                "text": "IRVING GREEN",
+                "material": "brass"
+              }
+            ],
+            "y": 2.97,
+            "height": 0.36
+          }
+        ],
+        "windowText": [
+          {
+            "at": 0.37,
+            "y": 1.92,
+            "text": "IRVING GREEN",
+            "material": "brass",
+            "size": 0.21,
+            "width": 0.6
+          }
+        ],
+        "benches": [
+          {
+            "at": 0.38,
+            "width": 1.35,
+            "material": "shop sage",
+            "depth": 0.56
+          }
+        ]
+      }
     },
     {
       "id": "researched-248142629",
@@ -13493,7 +14674,7 @@
       "buildingId": 248142629,
       "street": "Avenue A",
       "frontageIndex": 0,
-      "along": 3.773,
+      "along": 4.546,
       "renderName": true,
       "status": "individually researched occupancy",
       "sources": [
@@ -13512,14 +14693,80 @@
           }
         }
       ],
-      "appearance": "Partition dimensions and unobserved sign design remain estimated.",
+      "appearance": {
+        "record": "maya",
+        "checked": "2026-09-08",
+        "sources": [
+          "a115"
+        ],
+        "limits": "Observed feature types and colors follow the linked photographs. Shop spans, depths, paint values, furniture dimensions/positions and substitute typography are visual estimates. Unreadable menu/sticker artwork, unseen interiors and present-day furniture availability remain unverified."
+      },
       "fascia": "awning green",
       "letters": "sign white",
       "unit": [
-        0.12,
-        7.426
+        1.66,
+        7.433
       ],
-      "unitBasis": "Point order on the selected street frontage, with a bounded envelope for long unpartitioned elevations; dividing walls and unit widths estimated. Unsupported stretches remain unnamed."
+      "unitBasis": "Photographic proportion estimate from storefront-details.json / maya; unmeasured.",
+      "design": {
+        "panels": [
+          [
+            "window",
+            0.64
+          ],
+          [
+            "door",
+            0.36
+          ]
+        ],
+        "frame": "metal",
+        "surround": "black iron",
+        "base": 0.39,
+        "top": 3.55,
+        "signs": [
+          {
+            "material": "awning green",
+            "y": 3.17,
+            "height": 0.69,
+            "lines": [
+              {
+                "text": "MAYA",
+                "material": "sign white",
+                "style": "outline",
+                "size": 0.49,
+                "y": 0.07
+              },
+              {
+                "text": "California-Style Taqueria",
+                "material": "yellow paint",
+                "size": 0.13,
+                "y": -0.32
+              }
+            ]
+          }
+        ],
+        "lights": [
+          0.15,
+          0.5,
+          0.85
+        ],
+        "boards": [
+          {
+            "at": 0.16,
+            "text": "MAYA",
+            "frame": "wood",
+            "depth": 1.05
+          }
+        ],
+        "benches": [
+          {
+            "at": 0.53,
+            "material": "black iron",
+            "depth": 0.54,
+            "width": 1.1
+          }
+        ]
+      }
     },
     {
       "id": "researched-248142856",
@@ -13527,7 +14774,7 @@
       "buildingId": 248142856,
       "street": "Avenue A",
       "frontageIndex": 0,
-      "along": 4.179,
+      "along": 2.528,
       "renderName": true,
       "status": "individually researched occupancy",
       "sources": [
@@ -13546,47 +14793,70 @@
           }
         }
       ],
-      "appearance": "Partition dimensions and unobserved sign design remain estimated.",
+      "appearance": {
+        "record": "baba-doner",
+        "checked": "2026-09-08",
+        "sources": [
+          "a147"
+        ],
+        "limits": "Observed feature types and colors follow the linked photographs. Shop spans, depths, paint values, furniture dimensions/positions and substitute typography are visual estimates. Unreadable menu/sticker artwork, unseen interiors and present-day furniture availability remain unverified."
+      },
       "fascia": "black iron",
       "unit": [
-        0.12,
-        5.137
+        0.209,
+        4.848
       ],
-      "unitBasis": "Point order on the selected street frontage, with a bounded envelope for long unpartitioned elevations; dividing walls and unit widths estimated. Unsupported stretches remain unnamed."
-    },
-    {
-      "id": "researched-248142858",
-      "name": "DANNY & COOP'S",
-      "buildingId": 248142858,
-      "street": "Avenue A",
-      "frontageIndex": 0,
-      "along": 3.8,
-      "renderName": true,
-      "status": "individually researched occupancy",
-      "sources": [
-        {
-          "publisher": "Existing dated neighborhood research",
-          "record": {
-            "address": "151 Avenue A",
-            "source": "https://evgrieve.com/2025/07/beer-wine-in-works-for-danny-coops.html",
-            "photo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEje4kNWPgeKmwHo59e0GaKuB3PjC0f3t7TdJCmLflAsvF-uHgEyK6ujg1zbfLXDb2mjesr-0S20KTvdUMkPxNy4S5Bc9Hmeqt7ItdtX0YNQokTlDLn6lgtigBBL9ZFS3kdHL7Yx2_4ea9kApyG9R6tnrmpzQhHepMnG2q-EIMswFTcEHBXvTVcmQl8VVKk/s610/IMG_0725.HEIC",
-            "captureDate": "2025-07 publication; photo appears to be colder-season file shot (exact capture unknown)",
-            "tenant": {
-              "name": "Danny & Coop\u2019s Cheesesteaks",
-              "source": null,
-              "status": "See dated photograph; operating status is not continuously verified"
-            }
+      "unitBasis": "Photographic proportion estimate from storefront-details.json / baba-doner; unmeasured.",
+      "design": {
+        "panels": [
+          [
+            "window",
+            0.64
+          ],
+          [
+            "door",
+            0.36
+          ]
+        ],
+        "frame": "window frame",
+        "surround": "black iron",
+        "base": 0.45,
+        "head": 2.6,
+        "top": 3.5,
+        "recess": 0.33,
+        "signs": [],
+        "blades": [
+          {
+            "at": 0.12,
+            "width": 0.88,
+            "height": 0.88,
+            "y": 3.18,
+            "shape": "oval",
+            "material": "nishaan blue",
+            "lines": [
+              {
+                "text": "BABA DONER",
+                "material": "sign white",
+                "y": 0.14,
+                "size": 0.2
+              },
+              {
+                "text": "Traditional Kebab",
+                "material": "sign white",
+                "y": -0.22,
+                "size": 0.105
+              }
+            ]
           }
-        }
-      ],
-      "appearance": "Partition dimensions and unobserved sign design remain estimated.",
-      "fascia": "black iron",
-      "letters": "theater red",
-      "unit": [
-        0.12,
-        7.479
-      ],
-      "unitBasis": "Point order on the selected street frontage, with a bounded envelope for long unpartitioned elevations; dividing walls and unit widths estimated. Unsupported stretches remain unnamed."
+        ],
+        "benches": [
+          {
+            "at": 0.38,
+            "depth": 0.56,
+            "width": 1.65
+          }
+        ]
+      }
     },
     {
       "id": "researched-248142900",
@@ -13625,46 +14895,12 @@
       "unitBasis": "Point order on the selected street frontage, with a bounded envelope for long unpartitioned elevations; dividing walls and unit widths estimated. Unsupported stretches remain unnamed."
     },
     {
-      "id": "researched-248142963",
-      "name": "RALPH'S ITALIAN ICES",
-      "buildingId": 248142963,
-      "street": "Avenue A",
-      "frontageIndex": 1,
-      "along": 3.995,
-      "renderName": true,
-      "status": "individually researched occupancy",
-      "sources": [
-        {
-          "publisher": "Existing dated neighborhood research",
-          "record": {
-            "address": "145 Avenue A",
-            "source": "https://evgrieve.com/2020/09/ralphs-famous-italian-ices-on-today-on.html",
-            "photo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhBJaeSHrSRDmlAZG61HUNGBzZZuyughtKZz4q7fdyzkF6PeBliEnS9E5RQsCKQLw5iiu6PCl-w0OydROCCXZS7sgi8QfGHbJ5kb7FZgwsXCayEj6Cc_wEZhAgbmQ3NxG02v3d4fJ99TrU/s400/IMG_9372.JPG",
-            "captureDate": "2020-09 (published Sept 11)",
-            "tenant": {
-              "name": "Ralph\u2019s Famous Italian Ices & Ice Cream",
-              "source": null,
-              "status": "See dated photograph; operating status is not continuously verified"
-            }
-          }
-        }
-      ],
-      "appearance": "Partition dimensions and unobserved sign design remain estimated.",
-      "fascia": "nishaan blue",
-      "profile": "gelato",
-      "unit": [
-        3.91,
-        7.871
-      ],
-      "unitBasis": "Point order on the selected street frontage, with a bounded envelope for long unpartitioned elevations; dividing walls and unit widths estimated. Unsupported stretches remain unnamed."
-    },
-    {
       "id": "researched-249657785",
       "name": "PEACE",
       "buildingId": 249657785,
       "street": "Avenue A",
       "frontageIndex": 0,
-      "along": 3.046,
+      "along": 3.062,
       "renderName": true,
       "status": "individually researched occupancy",
       "sources": [
@@ -13683,14 +14919,55 @@
           }
         }
       ],
-      "appearance": "Partition dimensions and unobserved sign design remain estimated.",
+      "appearance": {
+        "record": "peace",
+        "checked": "2026-09-08",
+        "sources": [
+          "a166"
+        ],
+        "limits": "Observed feature types and colors follow the linked photographs. Shop spans, depths, paint values, furniture dimensions/positions and substitute typography are visual estimates. Unreadable menu/sticker artwork, unseen interiors and present-day furniture availability remain unverified."
+      },
       "fascia": "sign white",
       "letters": "black iron",
       "unit": [
-        0.12,
-        5.973
+        0.122,
+        6.002
       ],
-      "unitBasis": "Point order on the selected street frontage, with a bounded envelope for long unpartitioned elevations; dividing walls and unit widths estimated. Unsupported stretches remain unnamed."
+      "unitBasis": "Photographic proportion estimate from storefront-details.json / peace; unmeasured.",
+      "design": {
+        "panels": [
+          [
+            "window",
+            0.31
+          ],
+          [
+            "door",
+            0.3
+          ],
+          [
+            "window",
+            0.39
+          ]
+        ],
+        "frame": "white frame",
+        "surround": "white frame",
+        "base": 0.5,
+        "head": 2.6,
+        "top": 3.5,
+        "signs": [
+          {
+            "material": "sign white",
+            "lines": [
+              {
+                "text": "PEACE",
+                "material": "black iron"
+              }
+            ],
+            "y": 3.16,
+            "height": 0.63
+          }
+        ]
+      }
     },
     {
       "id": "city-50160744",

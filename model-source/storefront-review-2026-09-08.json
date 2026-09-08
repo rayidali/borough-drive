@@ -1,0 +1,1333 @@
+{
+  "revision": "05",
+  "recorded": "2026-09-08T17:23:43-04:00",
+  "baseline": "835ea6cb53f7b88ebc0edc9586080f9c371b9d20",
+  "scope": "Local source, nine rebuilt sections, browser interaction and visual inspection. Not deployed. Does not certify a complete contemporary survey, measured accuracy, or frame rate.",
+  "inventory": {
+    "buildingObjects": 615,
+    "newIndividualShopDesigns": 22,
+    "separateElevationSchedules": 26,
+    "sourceRecords": 29,
+    "streetFrontages": 641,
+    "supportedNames": 200,
+    "individualDesigns": 22,
+    "namesStillUsingEstimatedDesigns": 178
+  },
+  "assets": {
+    "sectionBytes": 51529784,
+    "sectionTriangles": 8906922,
+    "largestMaterialBatchCount": 50,
+    "storefrontRecipeHash": "a9abea83dcfbd4e8e4fe3e174935cff656d4e3dbb8b4f39803575ab298f52c6a",
+    "sections": [
+      {
+        "id": "block-1-1",
+        "file": "dist/reconstruction/neighborhood/block-1-1.glb",
+        "bytes": 1956272,
+        "sha256": "7dd5899e755aca7d047667ab038fbdce604b45971539804bc05ea9f2a5dd95c1",
+        "rebuiltThisPass": false,
+        "recipeReportedTriangles": 305390,
+        "triangles": 314932,
+        "materialBatches": 38
+      },
+      {
+        "id": "block-1-2",
+        "file": "dist/reconstruction/neighborhood/block-1-2.glb",
+        "bytes": 2100756,
+        "sha256": "dc0838a10babc4a28442947bf7be50d4a11009fa6bde2f887b4854db373d0f7d",
+        "rebuiltThisPass": false,
+        "recipeReportedTriangles": 326172,
+        "triangles": 335068,
+        "materialBatches": 36
+      },
+      {
+        "id": "block-2-1",
+        "file": "dist/reconstruction/neighborhood/block-2-1.glb",
+        "bytes": 4248640,
+        "sha256": "a058b40da84724383267e0adb87892ea6722946de4af071cb4f04d76ece5333a",
+        "rebuiltThisPass": true,
+        "recipeReportedTriangles": 692748,
+        "triangles": 711988,
+        "materialBatches": 44
+      },
+      {
+        "id": "block-2-2",
+        "file": "dist/reconstruction/neighborhood/block-2-2.glb",
+        "bytes": 3378212,
+        "sha256": "4279203fd90a9e79a2caacbd68f5c021a9e1b5943e92d25c8bf6cd124e5a400f",
+        "rebuiltThisPass": true,
+        "recipeReportedTriangles": 537565,
+        "triangles": 608145,
+        "materialBatches": 43
+      },
+      {
+        "id": "block-3-1",
+        "file": "dist/reconstruction/neighborhood/block-3-1.glb",
+        "bytes": 3506428,
+        "sha256": "fc5d98c8bc5b2281f173bd7b0af43534f9b2713ed7bac42d415b3d55b7c0934f",
+        "rebuiltThisPass": true,
+        "recipeReportedTriangles": 564131,
+        "triangles": 586927,
+        "materialBatches": 41
+      },
+      {
+        "id": "block-3-2",
+        "file": "dist/reconstruction/neighborhood/block-3-2.glb",
+        "bytes": 3663644,
+        "sha256": "01c1cd7b03741404051ea52d22ef50c7d70c498dd06b71ae257fb00f155479fe",
+        "rebuiltThisPass": true,
+        "recipeReportedTriangles": 546165,
+        "triangles": 577627,
+        "materialBatches": 43
+      },
+      {
+        "id": "block-4-1",
+        "file": "dist/reconstruction/neighborhood/block-4-1.glb",
+        "bytes": 4224804,
+        "sha256": "6d89c75fa1b4d7cee6f631513936fd846c25b2b66fdb0ae6e3e2390ca5c5b792",
+        "rebuiltThisPass": false,
+        "recipeReportedTriangles": 718001,
+        "triangles": 748893,
+        "materialBatches": 43
+      },
+      {
+        "id": "block-4-2",
+        "file": "dist/reconstruction/neighborhood/block-4-2.glb",
+        "bytes": 3851024,
+        "sha256": "2802d1f9945919bbe0c895be4245df31090f6445050e0395e1477eff2699f19d",
+        "rebuiltThisPass": true,
+        "recipeReportedTriangles": 638257,
+        "triangles": 664997,
+        "materialBatches": 41
+      },
+      {
+        "id": "block-5-1",
+        "file": "dist/reconstruction/neighborhood/block-5-1.glb",
+        "bytes": 4614776,
+        "sha256": "974e2fbb5f3ba5b33bd695ae51372eb44fdb62a6520e0897b1cfcfd636c3b06d",
+        "rebuiltThisPass": true,
+        "recipeReportedTriangles": 738708,
+        "triangles": 802532,
+        "materialBatches": 48
+      },
+      {
+        "id": "block-5-2",
+        "file": "dist/reconstruction/neighborhood/block-5-2.glb",
+        "bytes": 3989120,
+        "sha256": "a482e656fe138812e1f0a97f4a450d6d0e5c0628c4c5d31f4384a0b097a5db0c",
+        "rebuiltThisPass": true,
+        "recipeReportedTriangles": 626759,
+        "triangles": 670675,
+        "materialBatches": 50
+      },
+      {
+        "id": "edge-east",
+        "file": "dist/reconstruction/neighborhood/edge-east.glb",
+        "bytes": 2912304,
+        "sha256": "5cab86df7d955184429b4b9515ec881166f51be33a07d8ace722f2e7292203ef",
+        "rebuiltThisPass": true,
+        "recipeReportedTriangles": 499004,
+        "triangles": 517298,
+        "materialBatches": 44
+      },
+      {
+        "id": "edge-north",
+        "file": "dist/reconstruction/neighborhood/edge-north.glb",
+        "bytes": 4235716,
+        "sha256": "0be1bb480e8b56333cc17eee3a46b51ef0fb4c13d6387c8f48ceca4ff27f6974",
+        "rebuiltThisPass": false,
+        "recipeReportedTriangles": 759959,
+        "triangles": 782763,
+        "materialBatches": 40
+      },
+      {
+        "id": "edge-south",
+        "file": "dist/reconstruction/neighborhood/edge-south.glb",
+        "bytes": 4095984,
+        "sha256": "dd8b4bbe9c14c982a148032bdee5aaba6643c81e5d2dbc932034911a85f00394",
+        "rebuiltThisPass": true,
+        "recipeReportedTriangles": 722821,
+        "triangles": 747059,
+        "materialBatches": 44
+      },
+      {
+        "id": "edge-west",
+        "file": "dist/reconstruction/neighborhood/edge-west.glb",
+        "bytes": 4752104,
+        "sha256": "12c16bba951cbae690ac3ae434a522e640a0016c13c780dd898345680da34319",
+        "rebuiltThisPass": false,
+        "recipeReportedTriangles": 808388,
+        "triangles": 838018,
+        "materialBatches": 42
+      }
+    ]
+  },
+  "checks": {
+    "npmRunVerify": "Passed on Node.js v24.15.0 after final exports; 2,308 road samples, model/source signatures, module/assets, drive/reset/spawns, walking object collision and vehicle invariants.",
+    "cleanReproduction": {
+      "command": "python3 scripts/verify-neighborhood-reproduction.py",
+      "passed": true,
+      "buildings": 615,
+      "sourceAuditsMatch": 3,
+      "excludedExportFields": [
+        "building.renderHeight",
+        "tile.bytes",
+        "tile.detailRevision",
+        "tile.detailBuildings",
+        "tile.triangles",
+        "tile.storefrontSignature"
+      ]
+    },
+    "preservation": {
+      "baseline": "835ea6cb53f7b88ebc0edc9586080f9c371b9d20",
+      "preservedFilesSHA256": {
+        "dist/reconstruction/first-and-10th.glb": "405e247602a2117f5f1e7b938921ec584fbd0e3ff9e9008209361f215b65f167",
+        "model-source/build_intersection.py": "ff42784487c1eb8f036d400a37674c2fef4f02307119a9963a875a81555465b0",
+        "dist/reconstruction/vehicle.js": "bcf04cfee20946fbedb8cecc8892ddd8f5399a119a973f8d91ed2c19bc16b4e6",
+        "dist/reconstruction/references/First_and_10th_(51645797940).jpg": "4ee966ea361c60a8a32c6fd4e10d9303ee82a8c9e7b4d6d5d745515ca7426760",
+        "dist/reconstruction/references/Tarallucci_in_the_Rain_(51286241651).jpg": "35cd8a6c015c012b55082df573269ec1d0b78a35e214d801ce9d2f4bf0adfe08",
+        "dist/reconstruction/references/ne-beron-beron-2025-05-16.jpg": "46f82ba6dae7f77dc394511d0129e59bb752b39809220ea70bddc2af44486563",
+        "dist/reconstruction/references/ne-e10th-side-2022-05-26-1920.jpg": "ba5da8a8348c343490ce3e1335031db86edae1c1a122aabf6bacea31c6744f72",
+        "dist/reconstruction/references/new-theatre-building-2021-06-06-1920.jpg": "3226d85c9dd6e47462123ad18cd32130ac16796b7b30f16d1dc396c5e9804ffd",
+        "dist/reconstruction/references/sw-159-first-2021-09-06.jpg": "eaf2fd99aac866d4d26c8a18fd1d53dcc038b5aca607ac5db0cf7d4b51ea9771"
+      },
+      "preservedBuildingRecords": 615,
+      "preservedFields": [
+        "p",
+        "holes",
+        "height",
+        "center",
+        "box"
+      ],
+      "roadsAndDriveBoundsUnchanged": true,
+      "pythonFilesParsed": [
+        "model-source/build_neighborhood.py",
+        "model-source/neighborhood_detail_kit.py",
+        "model-source/storefront_detail_kit.py",
+        "scripts/neighborhood_storefronts.py",
+        "scripts/compile-neighborhood-details.py",
+        "scripts/neighborhood_businesses.py",
+        "scripts/neighborhood_evidence.py",
+        "scripts/audit-storefront-coverage.py"
+      ],
+      "runtimeFontLicenseMatchesSource": true
+    },
+    "syntaxAndWhitespace": "Eight modified implementation Python files parsed; reproduction verifier executed successfully; git diff --check passed."
+  },
+  "browser": {
+    "date": "2026-09-08T21:18:51.182Z",
+    "url": "http://127.0.0.1:5173",
+    "errors": [],
+    "failedRequests": [],
+    "screenshots": [
+      {
+        "name": "first-and-seventh-start",
+        "pose": {
+          "x": 0,
+          "z": 228,
+          "yaw": 0,
+          "mode": "walk",
+          "ready": true,
+          "tiles": [
+            "block-4-1",
+            "block-4-2",
+            "block-5-1",
+            "block-5-2",
+            "edge-south"
+          ]
+        }
+      },
+      {
+        "name": "tile-bar",
+        "pose": {
+          "x": -5.640801892747861,
+          "z": 216.0556579791403,
+          "yaw": -1.5776748202812076,
+          "mode": "walk",
+          "ready": true,
+          "tiles": [
+            "block-4-1",
+            "block-4-2",
+            "block-5-1",
+            "block-5-2",
+            "edge-south"
+          ]
+        }
+      },
+      {
+        "name": "hen-house",
+        "pose": {
+          "x": 6.398371139646205,
+          "z": 207.85606770219832,
+          "yaw": 1.569621852586123,
+          "mode": "walk",
+          "ready": true,
+          "tiles": [
+            "block-4-1",
+            "block-4-2",
+            "block-5-1",
+            "block-5-2",
+            "edge-south"
+          ]
+        }
+      },
+      {
+        "name": "hen-house-blade",
+        "pose": {
+          "x": 6.405417983278788,
+          "z": 213.8560635640298,
+          "yaw": 0.9816192490385551,
+          "mode": "walk",
+          "ready": true,
+          "tiles": [
+            "block-4-1",
+            "block-4-2",
+            "block-5-1",
+            "block-5-2",
+            "edge-south"
+          ]
+        }
+      },
+      {
+        "name": "yubu",
+        "pose": {
+          "x": -34.990237771476245,
+          "z": 228.35937534085662,
+          "yaw": -3.1413413594301334,
+          "mode": "walk",
+          "ready": true,
+          "tiles": [
+            "block-4-1",
+            "block-4-2",
+            "block-5-1",
+            "block-5-2",
+            "edge-south"
+          ]
+        }
+      },
+      {
+        "name": "nudibranch",
+        "pose": {
+          "x": -5.4181769301941625,
+          "z": 185.77556671078915,
+          "yaw": -1.5770737082436892,
+          "mode": "walk",
+          "ready": true,
+          "tiles": [
+            "block-4-1",
+            "block-4-2",
+            "block-5-1",
+            "block-5-2",
+            "edge-south"
+          ]
+        }
+      },
+      {
+        "name": "miss-lilys",
+        "pose": {
+          "x": 211.53891660658505,
+          "z": 240.8627562836201,
+          "yaw": -1.575104787856422,
+          "mode": "walk",
+          "ready": true,
+          "tiles": [
+            "block-4-1",
+            "block-4-2",
+            "block-5-1",
+            "block-5-2",
+            "edge-east",
+            "edge-south"
+          ]
+        }
+      },
+      {
+        "name": "niagara",
+        "pose": {
+          "x": 217.6265751108792,
+          "z": 242.9172694505595,
+          "yaw": 1.5667054800878188,
+          "mode": "walk",
+          "ready": true,
+          "tiles": [
+            "block-4-1",
+            "block-4-2",
+            "block-5-1",
+            "block-5-2",
+            "edge-east",
+            "edge-south"
+          ]
+        }
+      },
+      {
+        "name": "niagara-blade",
+        "pose": {
+          "x": 217.6511201226613,
+          "z": 248.91721924554918,
+          "yaw": 0.9787028765402512,
+          "mode": "walk",
+          "ready": true,
+          "tiles": [
+            "block-4-1",
+            "block-4-2",
+            "block-5-1",
+            "block-5-2",
+            "edge-east",
+            "edge-south"
+          ]
+        }
+      },
+      {
+        "name": "rays-candy-store",
+        "pose": {
+          "x": 211.54928127120806,
+          "z": 207.1805910938736,
+          "yaw": -1.5742336480008372,
+          "mode": "walk",
+          "ready": true,
+          "tiles": [
+            "block-4-1",
+            "block-4-2",
+            "block-5-1",
+            "block-5-2",
+            "edge-east",
+            "edge-south"
+          ]
+        }
+      },
+      {
+        "name": "rays-candy-store-blade",
+        "pose": {
+          "x": 211.52865738458496,
+          "z": 201.1806265393699,
+          "yaw": -2.162236251548405,
+          "mode": "walk",
+          "ready": true,
+          "tiles": [
+            "block-4-2",
+            "block-5-2",
+            "edge-east",
+            "edge-south"
+          ]
+        }
+      },
+      {
+        "name": "maya",
+        "pose": {
+          "x": 211.5172076618041,
+          "z": 199.6156155716129,
+          "yaw": -1.5755670300660707,
+          "mode": "walk",
+          "ready": true,
+          "tiles": [
+            "block-4-2",
+            "block-5-2",
+            "edge-east",
+            "edge-south"
+          ]
+        }
+      },
+      {
+        "name": "st-dymphnas",
+        "pose": {
+          "x": 211.48788661215877,
+          "z": 192.17806674713296,
+          "yaw": -1.5741806376861343,
+          "mode": "walk",
+          "ready": true,
+          "tiles": [
+            "block-4-2",
+            "block-5-2",
+            "edge-east",
+            "edge-south"
+          ]
+        }
+      },
+      {
+        "name": "superiority-burger",
+        "pose": {
+          "x": 211.4653878627603,
+          "z": 185.48592084019512,
+          "yaw": -1.5741407959303702,
+          "mode": "walk",
+          "ready": true,
+          "tiles": [
+            "block-4-2",
+            "block-5-2",
+            "edge-east",
+            "edge-south"
+          ]
+        }
+      },
+      {
+        "name": "superiority-burger-blade",
+        "pose": {
+          "x": 211.44532108535694,
+          "z": 179.48595439658524,
+          "yaw": -2.162143399477937,
+          "mode": "walk",
+          "ready": true,
+          "tiles": [
+            "block-3-2",
+            "block-4-2",
+            "block-5-2",
+            "edge-east",
+            "edge-south"
+          ]
+        }
+      },
+      {
+        "name": "luster-photo",
+        "pose": {
+          "x": 211.43633064941758,
+          "z": 178.00328329428325,
+          "yaw": -1.575213377442203,
+          "mode": "walk",
+          "ready": true,
+          "tiles": [
+            "block-3-2",
+            "block-4-2",
+            "block-5-2",
+            "edge-east",
+            "edge-south"
+          ]
+        }
+      },
+      {
+        "name": "lucys",
+        "pose": {
+          "x": 211.25060603630317,
+          "z": 112.48453128700734,
+          "yaw": -1.573906100313003,
+          "mode": "walk",
+          "ready": true,
+          "tiles": [
+            "block-3-2",
+            "block-4-2",
+            "block-5-2",
+            "edge-east",
+            "edge-south"
+          ]
+        }
+      },
+      {
+        "name": "doc-hollidays",
+        "pose": {
+          "x": 211.17596922185643,
+          "z": 87.81796267126515,
+          "yaw": -1.5734131877181292,
+          "mode": "walk",
+          "ready": true,
+          "tiles": [
+            "block-2-2",
+            "block-3-2",
+            "block-4-2",
+            "block-5-2",
+            "edge-east",
+            "edge-south"
+          ]
+        }
+      },
+      {
+        "name": "ralphs-ices",
+        "pose": {
+          "x": 211.22257488494293,
+          "z": 61.60779440135859,
+          "yaw": -1.5785548996838492,
+          "mode": "walk",
+          "ready": true,
+          "tiles": [
+            "block-2-2",
+            "block-3-2",
+            "block-4-2",
+            "block-5-2",
+            "edge-east",
+            "edge-south"
+          ]
+        }
+      },
+      {
+        "name": "baba-doner",
+        "pose": {
+          "x": 211.17268817275337,
+          "z": 55.1057426564826,
+          "yaw": -1.578332970792318,
+          "mode": "walk",
+          "ready": true,
+          "tiles": [
+            "block-2-2",
+            "block-3-2",
+            "block-4-2",
+            "block-5-2",
+            "edge-east",
+            "edge-south"
+          ]
+        }
+      },
+      {
+        "name": "baba-doner-blade",
+        "pose": {
+          "x": 211.12746873685657,
+          "z": 49.105913058684244,
+          "yaw": -2.1663355743398847,
+          "mode": "walk",
+          "ready": true,
+          "tiles": [
+            "block-2-2",
+            "block-3-2",
+            "block-4-2",
+            "block-5-2",
+            "edge-east",
+            "edge-south"
+          ]
+        }
+      },
+      {
+        "name": "danny-and-coops",
+        "pose": {
+          "x": 211.0387357558683,
+          "z": 36.591302635665514,
+          "yaw": -1.5781655841031235,
+          "mode": "walk",
+          "ready": true,
+          "tiles": [
+            "block-2-2",
+            "block-3-2",
+            "block-4-2",
+            "block-5-2",
+            "edge-east",
+            "edge-south"
+          ]
+        }
+      },
+      {
+        "name": "danny-and-coops-blade",
+        "pose": {
+          "x": 210.9945206122124,
+          "z": 30.591465552788055,
+          "yaw": -2.166168187650691,
+          "mode": "walk",
+          "ready": true,
+          "tiles": [
+            "block-2-2",
+            "block-3-2",
+            "block-4-2",
+            "block-5-2",
+            "edge-east"
+          ]
+        }
+      },
+      {
+        "name": "tompkins-square-bagels",
+        "pose": {
+          "x": 210.89341702806573,
+          "z": -35.19185287922504,
+          "yaw": -1.5756749800716234,
+          "mode": "walk",
+          "ready": true,
+          "tiles": [
+            "block-1-2",
+            "block-2-2",
+            "block-3-2",
+            "block-4-2",
+            "block-5-2",
+            "edge-east"
+          ]
+        }
+      },
+      {
+        "name": "tompkins-square-bagels-blade",
+        "pose": {
+          "x": 210.86414522452333,
+          "z": -41.19178147559328,
+          "yaw": -2.1636775836191897,
+          "mode": "walk",
+          "ready": true,
+          "tiles": [
+            "block-1-2",
+            "block-2-2",
+            "block-3-2",
+            "block-4-2",
+            "block-5-2",
+            "edge-east"
+          ]
+        }
+      },
+      {
+        "name": "lucindas",
+        "pose": {
+          "x": 210.83362913363334,
+          "z": -49.8912925240173,
+          "yaw": -1.5752780895045544,
+          "mode": "walk",
+          "ready": true,
+          "tiles": [
+            "block-1-2",
+            "block-2-2",
+            "block-3-2",
+            "block-4-2",
+            "edge-east"
+          ]
+        }
+      },
+      {
+        "name": "peace",
+        "pose": {
+          "x": 217.14978317044694,
+          "z": -45.58645681321576,
+          "yaw": 1.564395626417084,
+          "mode": "walk",
+          "ready": true,
+          "tiles": [
+            "block-1-2",
+            "block-2-2",
+            "block-3-2",
+            "block-4-2",
+            "edge-east"
+          ]
+        }
+      },
+      {
+        "name": "the-rabbit",
+        "pose": {
+          "x": 217.064989577652,
+          "z": -60.80074287063436,
+          "yaw": 1.5645883528544293,
+          "mode": "walk",
+          "ready": true,
+          "tiles": [
+            "block-1-2",
+            "block-2-2",
+            "block-3-2",
+            "block-4-2",
+            "edge-east",
+            "edge-north"
+          ]
+        }
+      },
+      {
+        "name": "irving-green",
+        "pose": {
+          "x": -126.76087179954496,
+          "z": 74.56286689158233,
+          "yaw": -0.0029042822632808383,
+          "mode": "walk",
+          "ready": true,
+          "tiles": [
+            "block-1-2",
+            "block-2-1",
+            "block-2-2",
+            "block-3-1",
+            "block-3-2",
+            "block-4-1",
+            "block-4-2",
+            "block-5-1",
+            "edge-east",
+            "edge-north"
+          ]
+        }
+      },
+      {
+        "name": "casey-rubber-stamps",
+        "pose": {
+          "x": -110.8684676972598,
+          "z": -76.01496854343456,
+          "yaw": 3.1410406249403757,
+          "mode": "walk",
+          "ready": true,
+          "tiles": [
+            "block-1-1",
+            "block-1-2",
+            "block-2-1",
+            "block-2-2",
+            "block-3-1",
+            "block-3-2",
+            "block-4-1",
+            "block-4-2",
+            "block-5-1",
+            "edge-north",
+            "edge-west"
+          ]
+        }
+      },
+      {
+        "name": "elevation-241822226-first-avenue",
+        "pose": {
+          "x": 1.3591219297610024,
+          "z": 216.0205085968855,
+          "yaw": -1.577674820281207,
+          "mode": "walk",
+          "ready": true,
+          "tiles": [
+            "block-1-1",
+            "block-2-1",
+            "block-3-1",
+            "block-3-2",
+            "block-4-1",
+            "block-4-2",
+            "block-5-1",
+            "block-5-2",
+            "edge-north",
+            "edge-south",
+            "edge-west"
+          ]
+        }
+      },
+      {
+        "name": "elevation-241822226-east-7th-street",
+        "pose": {
+          "x": -22.102029990835533,
+          "z": 234.84888191959809,
+          "yaw": -0.0038453698945986,
+          "mode": "walk",
+          "ready": true,
+          "tiles": [
+            "block-1-1",
+            "block-2-1",
+            "block-3-1",
+            "block-3-2",
+            "block-4-1",
+            "block-4-2",
+            "block-5-1",
+            "block-5-2",
+            "edge-north",
+            "edge-south"
+          ]
+        }
+      },
+      {
+        "name": "elevation-248142707-first-avenue",
+        "pose": {
+          "x": -0.5969889710911858,
+          "z": 211.8107862978893,
+          "yaw": 1.5696218525861225,
+          "mode": "walk",
+          "ready": true,
+          "tiles": [
+            "block-3-1",
+            "block-3-2",
+            "block-4-1",
+            "block-4-2",
+            "block-5-1",
+            "block-5-2",
+            "edge-south"
+          ]
+        }
+      },
+      {
+        "name": "elevation-248142707-east-7th-street",
+        "pose": {
+          "x": 25.244485898566527,
+          "z": 235.4417215468846,
+          "yaw": -0.0025298934066229303,
+          "mode": "walk",
+          "ready": true,
+          "tiles": [
+            "block-3-1",
+            "block-3-2",
+            "block-4-1",
+            "block-4-2",
+            "block-5-1",
+            "block-5-2",
+            "edge-south"
+          ]
+        }
+      },
+      {
+        "name": "elevation-241829631-east-7th-street",
+        "pose": {
+          "x": -26.532478979370076,
+          "z": 221.36150050526896,
+          "yaw": -3.141341359430134,
+          "mode": "walk",
+          "ready": true,
+          "tiles": [
+            "block-3-1",
+            "block-3-2",
+            "block-4-1",
+            "block-4-2",
+            "block-5-1",
+            "block-5-2",
+            "edge-south"
+          ]
+        }
+      },
+      {
+        "name": "elevation-241822228-first-avenue",
+        "pose": {
+          "x": 1.5816851509462477,
+          "z": 185.73162532923772,
+          "yaw": -1.577073708243691,
+          "mode": "walk",
+          "ready": true,
+          "tiles": [
+            "block-3-1",
+            "block-3-2",
+            "block-4-1",
+            "block-4-2",
+            "block-5-1",
+            "block-5-2",
+            "edge-south"
+          ]
+        }
+      },
+      {
+        "name": "elevation-248142331-first-avenue",
+        "pose": {
+          "x": -0.7359928408315106,
+          "z": 245.521992236183,
+          "yaw": 1.5717195454893618,
+          "mode": "walk",
+          "ready": true,
+          "tiles": [
+            "block-3-1",
+            "block-3-2",
+            "block-4-1",
+            "block-4-2",
+            "block-5-1",
+            "block-5-2",
+            "edge-south"
+          ]
+        }
+      },
+      {
+        "name": "elevation-248142715-east-7th-street",
+        "pose": {
+          "x": 39.71918363893,
+          "z": 235.4139967591715,
+          "yaw": -0.0006365371514577503,
+          "mode": "walk",
+          "ready": true,
+          "tiles": [
+            "block-3-1",
+            "block-3-2",
+            "block-4-1",
+            "block-4-2",
+            "block-5-1",
+            "block-5-2",
+            "edge-south"
+          ]
+        }
+      },
+      {
+        "name": "elevation-248142626-avenue-a",
+        "pose": {
+          "x": 218.55190555547506,
+          "z": 207.9320253114829,
+          "yaw": -1.574233648000836,
+          "mode": "walk",
+          "ready": true,
+          "tiles": [
+            "block-3-2",
+            "block-4-1",
+            "block-4-2",
+            "block-5-1",
+            "block-5-2",
+            "edge-east",
+            "edge-south"
+          ]
+        }
+      },
+      {
+        "name": "elevation-248142629-avenue-a",
+        "pose": {
+          "x": 218.52081812830383,
+          "z": 200.3557119731281,
+          "yaw": -1.5755670300660694,
+          "mode": "walk",
+          "ready": true,
+          "tiles": [
+            "block-3-2",
+            "block-4-1",
+            "block-4-2",
+            "block-5-1",
+            "block-5-2",
+            "edge-east",
+            "edge-south"
+          ]
+        }
+      },
+      {
+        "name": "elevation-248142632-avenue-a",
+        "pose": {
+          "x": 218.49040844319046,
+          "z": 192.91137228094868,
+          "yaw": -1.5741806376861345,
+          "mode": "walk",
+          "ready": true,
+          "tiles": [
+            "block-3-2",
+            "block-4-2",
+            "block-5-2",
+            "edge-east",
+            "edge-south"
+          ]
+        }
+      },
+      {
+        "name": "elevation-248142635-avenue-a",
+        "pose": {
+          "x": 218.46541058620218,
+          "z": 185.48100949642563,
+          "yaw": -1.5741407959303695,
+          "mode": "walk",
+          "ready": true,
+          "tiles": [
+            "block-3-2",
+            "block-4-2",
+            "block-5-2",
+            "edge-east",
+            "edge-south"
+          ]
+        }
+      },
+      {
+        "name": "elevation-248142639-avenue-a",
+        "pose": {
+          "x": 218.4363440785224,
+          "z": 177.99086385982284,
+          "yaw": -1.575213377442205,
+          "mode": "walk",
+          "ready": true,
+          "tiles": [
+            "block-3-2",
+            "block-4-2",
+            "block-5-2",
+            "edge-east",
+            "edge-south"
+          ]
+        }
+      },
+      {
+        "name": "elevation-248142856-avenue-a",
+        "pose": {
+          "x": 218.1600464887405,
+          "z": 53.40203353694215,
+          "yaw": -1.5783329707923175,
+          "mode": "walk",
+          "ready": true,
+          "tiles": [
+            "block-2-2",
+            "block-3-2",
+            "block-4-2",
+            "block-5-2",
+            "edge-east",
+            "edge-south"
+          ]
+        }
+      },
+      {
+        "name": "elevation-248142858-avenue-a",
+        "pose": {
+          "x": 218.0445663146198,
+          "z": 37.35669611751878,
+          "yaw": -1.578165584103123,
+          "mode": "walk",
+          "ready": true,
+          "tiles": [
+            "block-2-2",
+            "block-3-2",
+            "block-4-2",
+            "block-5-2",
+            "edge-east",
+            "edge-south"
+          ]
+        }
+      },
+      {
+        "name": "elevation-248142863-avenue-a",
+        "pose": {
+          "x": 218.5223023725982,
+          "z": -34.41406216188683,
+          "yaw": -1.5756749800716232,
+          "mode": "walk",
+          "ready": true,
+          "tiles": [
+            "block-1-2",
+            "block-2-2",
+            "block-3-2",
+            "block-4-2",
+            "block-5-2",
+            "edge-east",
+            "edge-south"
+          ]
+        }
+      },
+      {
+        "name": "elevation-248142867-avenue-a",
+        "pose": {
+          "x": 218.43333348068418,
+          "z": -49.19334547200232,
+          "yaw": -1.5752780895045546,
+          "mode": "walk",
+          "ready": true,
+          "tiles": [
+            "block-1-2",
+            "block-2-2",
+            "block-3-2",
+            "block-4-2",
+            "block-5-2",
+            "edge-east",
+            "edge-south"
+          ]
+        }
+      },
+      {
+        "name": "elevation-248142407-avenue-a",
+        "pose": {
+          "x": 226.538777385525,
+          "z": 240.79812956764016,
+          "yaw": -1.5751047878564224,
+          "mode": "walk",
+          "ready": true,
+          "tiles": [
+            "block-1-2",
+            "block-2-2",
+            "block-3-2",
+            "block-4-2",
+            "block-5-2",
+            "edge-east",
+            "edge-south"
+          ]
+        }
+      },
+      {
+        "name": "elevation-248142412-avenue-a",
+        "pose": {
+          "x": 210.62663368339125,
+          "z": 242.9459052976386,
+          "yaw": 1.5667054800878193,
+          "mode": "walk",
+          "ready": true,
+          "tiles": [
+            "block-1-2",
+            "block-2-2",
+            "block-3-2",
+            "block-4-2",
+            "block-5-2",
+            "edge-east",
+            "edge-south"
+          ]
+        }
+      },
+      {
+        "name": "elevation-248142700-avenue-a",
+        "pose": {
+          "x": 218.3369222767164,
+          "z": 104.2144544952928,
+          "yaw": -1.5739061003130024,
+          "mode": "walk",
+          "ready": true,
+          "tiles": [
+            "block-1-2",
+            "block-2-2",
+            "block-3-2",
+            "block-4-2",
+            "block-5-2",
+            "edge-east",
+            "edge-south"
+          ]
+        }
+      },
+      {
+        "name": "elevation-248142716-avenue-a",
+        "pose": {
+          "x": 218.17594525400628,
+          "z": 87.79964466570937,
+          "yaw": -1.5734131877181294,
+          "mode": "walk",
+          "ready": true,
+          "tiles": [
+            "block-1-2",
+            "block-2-2",
+            "block-3-2",
+            "block-4-2",
+            "block-5-2",
+            "edge-east",
+            "edge-south"
+          ]
+        }
+      },
+      {
+        "name": "elevation-248142963-avenue-a",
+        "pose": {
+          "x": 218.27751771644765,
+          "z": 61.57305761682425,
+          "yaw": -1.5785548996838494,
+          "mode": "walk",
+          "ready": true,
+          "tiles": [
+            "block-1-2",
+            "block-2-2",
+            "block-3-2",
+            "block-4-2",
+            "block-5-2",
+            "edge-east",
+            "edge-south"
+          ]
+        }
+      },
+      {
+        "name": "elevation-249657785-avenue-a",
+        "pose": {
+          "x": 210.1498273511576,
+          "z": -45.55715189899714,
+          "yaw": 1.5643956264170842,
+          "mode": "walk",
+          "ready": true,
+          "tiles": [
+            "block-1-2",
+            "block-2-2",
+            "block-3-2",
+            "block-4-2",
+            "block-5-2",
+            "edge-east",
+            "edge-south"
+          ]
+        }
+      },
+      {
+        "name": "elevation-249657862-avenue-a",
+        "pose": {
+          "x": 208.25284252336792,
+          "z": -60.71653602012744,
+          "yaw": 1.564588352854429,
+          "mode": "walk",
+          "ready": true,
+          "tiles": [
+            "block-1-2",
+            "block-2-2",
+            "block-3-2",
+            "block-4-2",
+            "block-5-2",
+            "edge-east",
+            "edge-north"
+          ]
+        }
+      },
+      {
+        "name": "elevation-247852679-east-9th-street",
+        "pose": {
+          "x": -125.39604752260965,
+          "z": 81.55893256759539,
+          "yaw": -0.00290428226328074,
+          "mode": "walk",
+          "ready": true,
+          "tiles": [
+            "block-1-2",
+            "block-2-1",
+            "block-2-2",
+            "block-3-1",
+            "block-3-2",
+            "block-4-1",
+            "block-4-2",
+            "block-5-1",
+            "block-5-2",
+            "edge-east",
+            "edge-north"
+          ]
+        }
+      },
+      {
+        "name": "elevation-247851925-east-11th-street",
+        "pose": {
+          "x": -110.82086723528816,
+          "z": -88.51349672462536,
+          "yaw": 3.1410406249403766,
+          "mode": "walk",
+          "ready": true,
+          "tiles": [
+            "block-1-1",
+            "block-1-2",
+            "block-2-1",
+            "block-2-2",
+            "block-3-1",
+            "block-3-2",
+            "block-4-1",
+            "block-5-1",
+            "edge-east",
+            "edge-north"
+          ]
+        }
+      }
+    ],
+    "initial": {
+      "x": 0,
+      "z": 228,
+      "yaw": 0,
+      "mode": "walk",
+      "ready": true,
+      "tiles": [
+        "block-5-1",
+        "block-5-2",
+        "edge-south"
+      ]
+    },
+    "driven": {
+      "x": -0.29,
+      "z": 227.3701514464173,
+      "yaw": 0,
+      "mode": "drive",
+      "ready": true,
+      "tiles": [
+        "block-4-1",
+        "block-4-2",
+        "block-5-1",
+        "block-5-2",
+        "edge-south"
+      ]
+    },
+    "driveReset": {
+      "x": -0.29,
+      "z": 228,
+      "yaw": 0,
+      "mode": "drive",
+      "ready": true,
+      "tiles": [
+        "block-4-1",
+        "block-4-2",
+        "block-5-1",
+        "block-5-2",
+        "edge-south"
+      ]
+    },
+    "walkReset": {
+      "x": 0,
+      "z": 228,
+      "yaw": 0,
+      "mode": "walk",
+      "ready": true,
+      "tiles": [
+        "block-4-1",
+        "block-4-2",
+        "block-5-1",
+        "block-5-2",
+        "edge-south"
+      ]
+    },
+    "graphics": {
+      "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M1, Unspecified Version)",
+      "pixelRatio": 1,
+      "ao": false
+    }
+  },
+  "visualReview": {
+    "inspected": "All 22 storefronts, seven oblique projecting-sign views and 26 upper/secondary elevation captures plus the initial street view.",
+    "findings": [
+      "Blue-striped Tile Bar awning, door/base divisions, lettering and folding furniture are visible in the actual game.",
+      "Hen House lettering and projecting disk, seven avenue bays and the separate East 7th blind return are present.",
+      "Avenue A signs, shop openings, awning forms, grilles and furniture vary by the explicit source schedule.",
+      "Upper elevations render with the revised trim and opening schedules; trees and parked cars partly occlude some street-level review views."
+    ],
+    "limits": [
+      "Dimensions, colors and many sign outlines are approximate.",
+      "Some sign artwork, murals, stickers and menu contents remain simplified or absent.",
+      "No comparison establishes a 1:1 or fully current digital twin.",
+      "The browser reported ambient occlusion disabled by its existing automatic quality adjustment; no frame-rate benchmark was performed."
+    ],
+    "durableCaptures": {
+      "first-and-seventh-start": "docs/images/first-and-seventh-revision-05.png",
+      "tile-bar": "docs/images/tile-bar-revision-05.png",
+      "hen-house-blade": "docs/images/hen-house-revision-05.png"
+    },
+    "captureProvenance": "Unedited screenshots of the actual local browser game. Regenerate other views with scripts/review-storefronts.mjs; their names and poses are recorded above."
+  }
+}

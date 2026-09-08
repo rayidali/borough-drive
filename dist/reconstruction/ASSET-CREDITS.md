@@ -82,3 +82,9 @@ City data retains its source-specific terms and [NYC Open Data policies](https:/
 - Scoundrel's Field Guide / David Shaw, [Blue & Gold Tavern](https://scoundrelsfieldguide.com/new-york/new-york-city/blue-gold-tavern/). The inspected close facade photograph has a May 2022 upload path and no confirmed capture date. It informs the small sign, low brick frontage, green awning and metalwork.
 
 The 376 new written facade observations are included; those research photographs are not redistributed. Existing licensed photographic files and the core model are unchanged. New facade forms are independently modeled geometry over the previously credited generic material maps. Exact shop units, most sign lettering, service details, interiors and street dressing remain authored estimates. Business evidence and contrary/closure evidence retain their separate dates in the downloadable source inventory.
+
+## Storefront detail pass 05 — September 8, 2026
+
+New source photographs were inspected from Tile Bar's website, EV Grieve, Kevin Walsh / Forgotten NY, and Village Preservation. Their exact URLs, original dates, uncertainty and observation notes are in `neighborhood-sources.json` under `storefrontDetails`. These new photographs are not redistributed or copied into textures. Irving Green and Casey Rubber Stamps reuse the separately identified prior observations.
+
+Script sign meshes use **Damion Regular**, Copyright 2014 The Damion Project Authors (https://github.com/googlefonts/damionFont), SIL Open Font License 1.1. The font and complete license are preserved in the source repository's `model-source/fonts/`; a runtime copy of the notice is at [DAMION-OFL.txt](DAMION-OFL.txt). Source: https://github.com/google/fonts/tree/main/ofl/damion (retrieved September 8, 2026). Typeface substitution, object dimensions, paint values and unseen details remain estimates; business sign/logotype designs are not claimed as original project artwork.
