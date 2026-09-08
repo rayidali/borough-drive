@@ -1,0 +1,138 @@
+{
+  "recorded": "2026-09-08T17:37:54-04:00",
+  "site": "https://borough-drive.vercel.app",
+  "gameplaySourceCommit": "63757cbbb13749584e761e4bf7a8e655f90b1bd4",
+  "deployedGitCommit": "43910e6ce72b6f0a46e11e8e0109ce913a8a49e8",
+  "previousPublishedGameplay": "835ea6cb53f7b88ebc0edc9586080f9c371b9d20",
+  "vercelState": "success \u2014 Deployment has completed",
+  "vercelDeploymentURL": "https://vercel.com/rayidalis-projects/borough-drive/BgBbueBJUDVDnGMDfrt1cXcJcLM4",
+  "githubChecks": {
+    "Node.js 22": "success",
+    "Node.js 24": "success"
+  },
+  "localVerification": "npm run verify passed again before pushing, with no gameplay changes in this publication turn.",
+  "changedPublishedFiles": 17,
+  "files": [
+    {
+      "path": "dist/index.html",
+      "httpResult": "curl --fail succeeded",
+      "bytes": 9925,
+      "sha256": "f83ea4914835c458d89aee7ddce2fa789ebc3e170d33600c652902572da10031",
+      "matchesGameplayCommit": true
+    },
+    {
+      "path": "dist/reconstruction/ASSET-CREDITS.md",
+      "httpResult": "curl --fail succeeded",
+      "bytes": 11679,
+      "sha256": "4e101b8479c4d781f07c8ba070c0429cfaa6ef763f975c8f134a3012a194b2d4",
+      "matchesGameplayCommit": true
+    },
+    {
+      "path": "dist/reconstruction/DAMION-OFL.txt",
+      "httpResult": "curl --fail succeeded",
+      "bytes": 4389,
+      "sha256": "4aeb831b7b6ab653dca84308e576613059c598696aa2dc83192ab6117b24a5fa",
+      "matchesGameplayCommit": true
+    },
+    {
+      "path": "dist/reconstruction/neighborhood-map.js",
+      "httpResult": "curl --fail succeeded",
+      "bytes": 5300,
+      "sha256": "dee40b837b582860c52a3580681332b0d2914faed1ee3009431eecc240cd1698",
+      "matchesGameplayCommit": true
+    },
+    {
+      "path": "dist/reconstruction/neighborhood-sources.json",
+      "httpResult": "curl --fail succeeded",
+      "bytes": 1089667,
+      "sha256": "a07bd26cdf91ac287de57b19aad7ded7e4664a363dea83b09caeaa2827dee898",
+      "matchesGameplayCommit": true
+    },
+    {
+      "path": "dist/reconstruction/neighborhood-world.js",
+      "httpResult": "curl --fail succeeded",
+      "bytes": 3144,
+      "sha256": "5ee2ac9b843208742d070f55c5cffca59a5874162f7fe7e53dd333c021be700a",
+      "matchesGameplayCommit": true
+    },
+    {
+      "path": "dist/reconstruction/neighborhood.json",
+      "httpResult": "curl --fail succeeded",
+      "bytes": 1835480,
+      "sha256": "6233d9dcfa67e103a2b558706c405ae39a92f754baee941b092fe0deb8b4cb10",
+      "matchesGameplayCommit": true
+    },
+    {
+      "path": "dist/reconstruction/neighborhood/block-2-1.glb",
+      "httpResult": "curl --fail succeeded",
+      "bytes": 4248640,
+      "sha256": "a058b40da84724383267e0adb87892ea6722946de4af071cb4f04d76ece5333a",
+      "matchesGameplayCommit": true
+    },
+    {
+      "path": "dist/reconstruction/neighborhood/block-2-2.glb",
+      "httpResult": "curl --fail succeeded",
+      "bytes": 3378212,
+      "sha256": "4279203fd90a9e79a2caacbd68f5c021a9e1b5943e92d25c8bf6cd124e5a400f",
+      "matchesGameplayCommit": true
+    },
+    {
+      "path": "dist/reconstruction/neighborhood/block-3-1.glb",
+      "httpResult": "curl --fail succeeded",
+      "bytes": 3506428,
+      "sha256": "fc5d98c8bc5b2281f173bd7b0af43534f9b2713ed7bac42d415b3d55b7c0934f",
+      "matchesGameplayCommit": true
+    },
+    {
+      "path": "dist/reconstruction/neighborhood/block-3-2.glb",
+      "httpResult": "curl --fail succeeded",
+      "bytes": 3663644,
+      "sha256": "01c1cd7b03741404051ea52d22ef50c7d70c498dd06b71ae257fb00f155479fe",
+      "matchesGameplayCommit": true
+    },
+    {
+      "path": "dist/reconstruction/neighborhood/block-4-2.glb",
+      "httpResult": "curl --fail succeeded",
+      "bytes": 3851024,
+      "sha256": "2802d1f9945919bbe0c895be4245df31090f6445050e0395e1477eff2699f19d",
+      "matchesGameplayCommit": true
+    },
+    {
+      "path": "dist/reconstruction/neighborhood/block-5-1.glb",
+      "httpResult": "curl --fail succeeded",
+      "bytes": 4614776,
+      "sha256": "974e2fbb5f3ba5b33bd695ae51372eb44fdb62a6520e0897b1cfcfd636c3b06d",
+      "matchesGameplayCommit": true
+    },
+    {
+      "path": "dist/reconstruction/neighborhood/block-5-2.glb",
+      "httpResult": "curl --fail succeeded",
+      "bytes": 3989120,
+      "sha256": "a482e656fe138812e1f0a97f4a450d6d0e5c0628c4c5d31f4384a0b097a5db0c",
+      "matchesGameplayCommit": true
+    },
+    {
+      "path": "dist/reconstruction/neighborhood/edge-east.glb",
+      "httpResult": "curl --fail succeeded",
+      "bytes": 2912304,
+      "sha256": "5cab86df7d955184429b4b9515ec881166f51be33a07d8ace722f2e7292203ef",
+      "matchesGameplayCommit": true
+    },
+    {
+      "path": "dist/reconstruction/neighborhood/edge-south.glb",
+      "httpResult": "curl --fail succeeded",
+      "bytes": 4095984,
+      "sha256": "dd8b4bbe9c14c982a148032bdee5aaba6643c81e5d2dbc932034911a85f00394",
+      "matchesGameplayCommit": true
+    },
+    {
+      "path": "dist/reconstruction/viewer.js",
+      "httpResult": "curl --fail succeeded",
+      "bytes": 19439,
+      "sha256": "d64c7428b69e0e9bfbad991f4c6a5dab9574252ef447cecf9c9745c8e036fe4e",
+      "matchesGameplayCommit": true
+    }
+  ],
+  "scope": "Publishing the existing completed local pass, without further modeling. Byte comparisons establish that production serves the reviewed game files; no new full visual review or performance benchmark.",
+  "retrieval": "System curl with normal TLS verification. Python urllib initially could not locate its local CA issuer; no TLS verification was disabled."
+}

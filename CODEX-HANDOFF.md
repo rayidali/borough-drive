@@ -1,26 +1,26 @@
 # Borough Drive: continuation context
 
-## Current checkpoint — 2026-09-08-03 (local pass verified and saved)
+## Current checkpoint — 2026-09-08-04 (published; awaiting user review)
 
-Recorded **2026-09-08T17:26:41-04:00**. Latest task: start at First Avenue/East 7th and improve the entire existing neighborhood toward a digital twin, including observed signs/neon, boards, outdoor seating, colors, openings, proportions and architectural details. Tiny real-world details matter. Preserve First & 10th. Assess Blender versus an engine; no migration or publication requested.
+Recorded **2026-09-08T17:37:54-04:00**. Latest user instruction: explain why the individual First & 10th treatment was not applied throughout the map and identify the photographic sources; **do not continue modeling now**. User authorized pushing all completed work so they can review it before deciding what happens next. The broader digital-twin objective remains unfinished. No engine migration requested.
 
 | Item | Checkpoint state |
 | --- | --- |
-| Current gameplay/source | `63757cbbb13749584e761e4bf7a8e655f90b1bd4` on local `main` |
+| Current gameplay/source | `63757cbbb13749584e761e4bf7a8e655f90b1bd4`, pushed to `main` and verified on production |
 | Session baseline | Gameplay `835ea6cb53f7b88ebc0edc9586080f9c371b9d20`; documentation HEAD `5753989`; initial checkout clean |
 | Completed local pass | Start/reset at First & 7th, northbound. 22 individual shop designs, 26 elevation schedules, 29 source records, nine rebuilt GLBs, walking furniture collision, font/license, source/review scripts and durable browser captures. See [storefront pass 05](model-source/STOREFRONT-PASS-05.md). |
-| Local changes | Gameplay, models, evidence, review records and scripts committed. Checkpoint documents saved in a separate documentation commit; use Git history below to identify it. No pending model export or known failing check. |
+| Local changes | Gameplay/models remain unchanged from `63757cb`. Publication evidence and this checkpoint are saved in a separate documentation commit; identify it with Git history. No pending model export or known failing check. |
 | Remaining fidelity | Of 200 supported non-core names, 178 still have estimated shop designs. All 641 non-core street frontages are inventoried in [digital-twin-coverage.json](model-source/digital-twin-coverage.json). Partial photo evidence does not certify a 1:1 twin. |
-| Push state | New local commits not pushed; `origin/main` was not fetched this session. Cached remote remains `5753989`. |
-| Deployment | No new deployment; prior production verification was `835ea6c` on September 6. Current live state not checked this session. |
-| Validation | Final `npm run verify` passed on Node 24.15.0. Clean prepare/compile and three generated audits matched. Actual Chrome review: 56 viewpoints, correct start/northbound driving/both resets, zero uncaught errors or failed HTTP responses. Python parsing and staged whitespace checks passed. |
+| Push state | Fetched the existing remote and pushed `main` through `43910e6ce72b6f0a46e11e8e0109ce913a8a49e8`. Publication documentation follows in its own commit. No forced push. |
+| Deployment | [borough-drive.vercel.app](https://borough-drive.vercel.app) verified September 8. Vercel deployment for `43910e6` completed; all 17 changed published files match gameplay `63757cb` by SHA-256. Documentation-only deployments may follow without changing those game files. |
+| Validation | `npm run verify` rerun before push and passed. GitHub Actions passed on Node.js 22 and 24; all 17 changed live files matched. Earlier local validation remains in the pass report: clean reproduction, 56 Chrome viewpoints, start/driving/resets, syntax/whitespace and preservation checks. No new full browser review or frame-rate benchmark in the publication turn. |
 | Preservation | Core GLB/recipe, vehicle module and six licensed photographs byte-identical to `835ea6c`. All 615 footprint/height records, roads and driving bounds preserved. |
 | Engine decision | Keep Blender for authored assets and Three.js for the browser. A future dense-scan desktop application could evaluate Unreal; changing renderers cannot supply missing survey evidence. |
-| Next concrete step | Continue along First Avenue from East 7th toward St Marks, choosing outstanding frontages from the coverage inventory. Obtain dated full/oblique views, exact sign artwork and facade/opening dimensions; extend explicit shop/elevation schedules, rebuild affected sections and compare matching viewpoints. |
+| Next concrete step | Await the user’s review and next decision. Do not resume modeling merely because the broader fidelity objective is still open. If later authorized, apply the individual photographic modeling standard across outstanding frontages instead of treating a source record or supported name as a completed facade. |
 
 Exact dimensions, complete contemporary photography, many sign outlines/material samples and unseen details remain unavailable. This verified local pass does not complete the user's map-wide 1:1 objective. Some review views are partly occluded by trees/parked cars. The browser's existing automatic quality adjustment disabled ambient occlusion; no frame-rate benchmark was performed. Detailed results, hashes and camera poses are in [storefront-review-2026-09-08.json](model-source/storefront-review-2026-09-08.json). Existing licenses/photos remain intact.
 
-The previously published complete revision 04 is `835ea6c`. The new local pass is `63757cb`; it is not on production. Package version `0.4.0` and the page's chapter label alone are insufficient to identify a deployment; compare its actual files/manifest with the intended gameplay commit. Documentation commits may follow that commit.
+The current published gameplay pass is `63757cb`, following revision 04 at `835ea6c`. [publication-review-2026-09-08.json](model-source/publication-review-2026-09-08.json) records the deployment, CI results and live file hashes. Package version `0.4.0` and the page’s chapter label alone are insufficient to identify a deployment; compare actual files/manifest with the intended gameplay commit. Documentation commits may follow that commit.
 
 ### Resume a session
 

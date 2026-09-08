@@ -10,6 +10,19 @@ git log --oneline -- CODEX-HANDOFF.md SESSION-LOG.md
 
 Checkpoint notes describe observed state, not a live monitor. Recheck local files, remote branches and deployment status when resuming. Keep necessary artifacts in the repository and record reproducible commands; temporary directories and old tool/process IDs are not durable checkpoints. Store no tokens, passwords or authentication cookies here.
 
+## 2026-09-08-04 — Existing storefront pass pushed and verified live; modeling paused
+
+**Recorded:** 2026-09-08T17:37:54-04:00 (America/New_York).
+**User objective and decisions:** User asked why the detailed First & 10th treatment had not been applied to the whole map and what photo sources were used. They explicitly said not to continue modeling now, authorized pushing the completed work for review, and will decide the next step. The prior limited-pass scope decision did not fulfill their map-wide request.
+**Completed work:** Confirmed a clean checkout and existing repository/hosting configuration, fetched `origin`, pushed the completed local commits to `main`, checked Vercel/GitHub status, and compared every changed live game file against the gameplay commit. No models, runtime code or source observations changed in this publication turn. Photo source explanation uses the existing credits, core reference inventory and storefront schedule.
+**Gameplay/source baseline:** `63757cbbb13749584e761e4bf7a8e655f90b1bd4`. Published Git HEAD was `43910e6ce72b6f0a46e11e8e0109ce913a8a49e8`, which adds only the earlier checkpoint to that gameplay commit.
+**Local changes:** Publication evidence saved in `model-source/publication-review-2026-09-08.json`; this log and handoff refreshed. These records are committed separately; identify their commit through Git history. No unfinished export or new feature work.
+**Remote state:** Fast-forward push to existing `rayidali/borough-drive` `main` succeeded, from `5753989` through `43910e6`. Publication documentation follows in its own pushed commit; no force push or new repository.
+**Deployment state:** Vercel reported deployment completed for `43910e6`: `https://vercel.com/rayidalis-projects/borough-drive/BgBbueBJUDVDnGMDfrt1cXcJcLM4`. `https://borough-drive.vercel.app` served all 17 changed published files byte-identical to gameplay `63757cb`, including nine GLBs, the manifest, page, runtime modules, sources and notices. Documentation-only deployments can follow without changing the verified game files.
+**Validation:** `npm run verify` passed again before pushing (2,308 road samples; source/model references and signatures; vehicle/navigation/collision checks). GitHub Actions Node.js 22 and 24 both succeeded. Live SHA-256 comparisons passed for all 17 changed files. System curl used normal TLS verification; Python urllib initially lacked its local issuer certificate, so retrieval switched clients without disabling verification. No new full browser/visual/performance review; the earlier 56-viewpoint review remains separately recorded.
+**Unresolved issues:** The full digital-twin objective remains unfinished: 178 supported non-core names still use estimated shop designs; revised shops and building dimensions also contain estimates. Archived photos have varying/unknown capture dates. Source archives and business websites provide references, not an automatic complete street-level survey. These gaps were not fixed by documenting them.
+**Next action:** Await the user’s review of the published game. Do not expand modeling or migrate engines until their next instruction.
+
 ## 2026-09-08-03 — First & 7th and storefront pass 05 verified; saved locally
 
 **Recorded:** 2026-09-08T17:26:41-04:00 (America/New_York).
