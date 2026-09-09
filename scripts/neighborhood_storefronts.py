@@ -13,6 +13,7 @@ ROOT=Path(__file__).resolve().parents[1]
 def compile_storefronts(data,business_audit):
     source=ROOT/'model-source/storefront-details.json'
     schedule=json.loads(source.read_text())
+    corner=json.loads((ROOT/'model-source/first-and-seventh.json').read_text())
     byid={b['id']:b for b in data['buildings']}
     for b in data['buildings']:
         b.pop('storefrontRevision',None)
@@ -54,11 +55,18 @@ def compile_storefronts(data,business_audit):
     tile_signatures={}
     recipe_files=['model-source/build_neighborhood.py','model-source/neighborhood_detail_kit.py','model-source/storefront_detail_kit.py']
     recipe_hash=hashlib.sha256(b''.join((ROOT/p).read_bytes() for p in recipe_files)).hexdigest()
+    corner_recipe_files=['model-source/first_seventh_kit.py']
+    corner_recipe_hash=hashlib.sha256(b''.join((ROOT/p).read_bytes() for p in corner_recipe_files)).hexdigest()
     for tile in data['tiles']:
         ids={b['id'] for b in data['buildings'] if b['tile']==tile['id']}
         selected={kind:[r for r in schedule[kind] if r['buildingId'] in ids] for kind in ['frontages','elevations']}
+        corner_buildings=[r for r in corner['buildings'] if r['id'] in ids]
+        if corner_buildings:
+            selected['cornerBuildings']=corner_buildings
+            selected['cornerRecipeHash']=corner_recipe_hash
+            if any(r['profile']=='saifee-corner' for r in corner_buildings):selected['cornerStreetFurniture']=corner['streetFurniture']
         if any(selected.values()):tile_signatures[tile['id']]=hashlib.sha256((recipe_hash+json.dumps(selected,sort_keys=True)).encode()).hexdigest()
-    data['storefrontDetailSummary']={'revision':schedule['revision'],'checked':schedule['checked'],'frontages':len(schedule['frontages']),'buildings':len({r['buildingId'] for r in schedule['frontages']}),'elevations':len(schedule['elevations']),'features':counts,'recipeFiles':recipe_files,'recipeHash':recipe_hash,'tileSignatures':tile_signatures,'scope':schedule['scope']}
+    data['storefrontDetailSummary']={'revision':schedule['revision'],'checked':schedule['checked'],'frontages':len(schedule['frontages']),'buildings':len({r['buildingId'] for r in schedule['frontages']}),'elevations':len(schedule['elevations']),'features':counts,'recipeFiles':recipe_files,'recipeHash':recipe_hash,'cornerRecipeFiles':corner_recipe_files,'cornerRecipeHash':corner_recipe_hash,'tileSignatures':tile_signatures,'scope':schedule['scope']}
     data['storefrontObstacles']=obstacles
     (ROOT/'model-source/neighborhood-business-audit.json').write_text(json.dumps(business_audit,indent=2))
     return schedule

@@ -1,6 +1,6 @@
 # Neighborhood detail pass 03 — September 6, 2026
 
-**Historical report, retained as history.** Counts, export sizes and performance samples below belong to this earlier pass. The current published gameplay/model baseline is `63757cbbb13749584e761e4bf7a8e655f90b1bd4`; [accuracy revision 04](ACCURACY-PASS-04.md) and [storefront pass 05](STOREFRONT-PASS-05.md) followed this work. Shared construction details did not meet the user's request for individual fidelity throughout the map. Further modeling is paused for review; read the current [handoff](../CODEX-HANDOFF.md) before resuming.
+**Historical report, retained as history.** Counts, export sizes and performance samples below belong to this earlier pass. The current published gameplay/model baseline is `63757cbbb13749584e761e4bf7a8e655f90b1bd4`; [accuracy revision 04](ACCURACY-PASS-04.md) and [storefront pass 05](STOREFRONT-PASS-05.md) followed this work. Shared construction details did not meet the user's request for individual fidelity throughout the map. First & 7th revision 06 is the subsequent local study; read the current [handoff](../CODEX-HANDOFF.md) before resuming.
 
 This pass applies the shared street-level detail system to all fourteen existing visual sections: ten complete blocks and four boundary sections. It regenerates 587 non-core building objects, including annexes and boundary context; 547 of those have mapped street frontages. The accepted First & 10th GLB and its Blender recipe are byte-for-byte unchanged.
 

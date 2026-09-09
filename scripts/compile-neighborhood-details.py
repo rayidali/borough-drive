@@ -213,6 +213,8 @@ for road in data['roads']:
 data['detailProps']=[{'name':name.replace('-',' ').title(),'url':'neighborhood/'+name+'.glb','placements':placements} for name,placements in detail_groups.items()]
 data['detailSummary']['streetObjects']=sum(len(g['placements']) for g in data['detailProps'])
 data.update(trees=trees,benches=benches,furniture=furniture,parked=parked)
+from neighborhood_corner import compile_corner
+corner_details=compile_corner(data)
 path.write_text(json.dumps(data,separators=(',',':')))
-(ROOT/'dist/reconstruction/neighborhood-sources.json').write_text(json.dumps({**observations,'facadeAudit':facade_audit,'businessAudit':business_audit,'storefrontDetails':storefront_details,'geographyAudit':data['geographyAudit']},indent=2))
+(ROOT/'dist/reconstruction/neighborhood-sources.json').write_text(json.dumps({**observations,'facadeAudit':facade_audit,'businessAudit':business_audit,'storefrontDetails':storefront_details,'cornerDetails':corner_details,'geographyAudit':data['geographyAudit']},indent=2))
 print(json.dumps({**data['referenceSummary'],'trees':len(trees),'cars':len(parked)}))

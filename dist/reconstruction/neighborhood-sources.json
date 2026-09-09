@@ -12106,12 +12106,7 @@
             "text": "YUBU",
             "textSize": 0.16
           },
-          "tables": [
-            {
-              "at": 0.7,
-              "depth": 0.94
-            }
-          ],
+          "tables": [],
           "menus": [
             {
               "at": 0.78,
@@ -12119,7 +12114,8 @@
               "width": 0.3,
               "height": 0.43
             }
-          ]
+          ],
+          "cornerStyle": "yubu"
         }
       },
       {
@@ -12152,14 +12148,38 @@
         "status": "individually reviewed occupancy",
         "frontageIndex": 1,
         "street": "First Avenue",
-        "along": 3.303,
+        "along": 2.873,
         "frontageDistance": 2.01,
-        "appearance": "Sign lettering, exact shop partition and interior are estimates unless an individual facade profile is supplied.",
+        "appearance": {
+          "record": "e-smoke",
+          "checked": "2026-09-08",
+          "sources": [
+            "smoke-exterior"
+          ],
+          "limits": "Mapped footprints retained. Dimensions below are photographic proportion estimates in metres, not a survey. Capture dates vary. Occluded return-wall openings, exact surface wear, tiny print, artwork, movable inventory, interior depths and present-day arrangements remain uncertain."
+        },
         "unit": [
-          0.12,
-          5.585
+          0.143,
+          5.602
         ],
-        "unitBasis": "Point order on the selected street frontage, with a bounded envelope for long unpartitioned elevations; dividing walls and unit widths estimated. Unsupported stretches remain unnamed."
+        "unitBasis": "Photographic proportion estimate from storefront-details.json / e-smoke; unmeasured.",
+        "design": {
+          "cornerStyle": "smoke",
+          "panels": [
+            [
+              "window",
+              0.7
+            ],
+            [
+              "door",
+              0.3
+            ]
+          ],
+          "frame": "window frame",
+          "base": 0.29,
+          "head": 2.77,
+          "top": 3.81
+        }
       },
       {
         "id": "osm-node-2494160625",
@@ -12837,7 +12857,7 @@
       {
         "id": "osm-node-2549928447",
         "osmId": 2549928447,
-        "name": "East 7 Deli & Cafe",
+        "name": "E7 Deli & Cafe",
         "category": "convenience",
         "mappedAddress": "118 1st Avenue",
         "point": [
@@ -12849,17 +12869,53 @@
             "publisher": "OpenStreetMap contributors",
             "url": "https://www.openstreetmap.org/node/2549928447",
             "snapshot": "2026-09-05T17:07:06Z"
+          },
+          {
+            "publisher": "Reviewed occupancy source",
+            "url": "https://eastvillage.com/shopping/e7-deli-cafe/e7-deli/",
+            "sourceDate": "2024-03",
+            "checked": "2026-09-08",
+            "basis": "Public neighborhood listing and Google Maps 118 First address listing checked September 8 2026; exterior documented separately."
           }
         ],
         "buildingId": 248142707,
-        "buildingMatch": "address",
-        "renderName": false,
-        "status": "mapped identity; independent occupancy unresolved",
+        "buildingMatch": "reviewed exact building identity",
+        "renderName": true,
+        "status": "individually reviewed occupancy",
         "frontageIndex": 1,
         "street": "First Avenue",
-        "along": 13.595,
+        "along": 13.64,
         "frontageDistance": 1.722,
-        "appearance": "Sign lettering, exact shop partition and interior are estimates unless an individual facade profile is supplied."
+        "appearance": {
+          "record": "e7-deli",
+          "checked": "2026-09-08",
+          "sources": [
+            "e7-2024"
+          ],
+          "limits": "Mapped footprints retained. Dimensions below are photographic proportion estimates in metres, not a survey. Capture dates vary. Occluded return-wall openings, exact surface wear, tiny print, artwork, movable inventory, interior depths and present-day arrangements remain uncertain."
+        },
+        "unit": [
+          12.031,
+          15.249
+        ],
+        "unitBasis": "Photographic proportion estimate from storefront-details.json / e7-deli; unmeasured.",
+        "design": {
+          "cornerStyle": "deli",
+          "panels": [
+            [
+              "window",
+              0.62
+            ],
+            [
+              "door",
+              0.38
+            ]
+          ],
+          "frame": "black iron",
+          "base": 0.45,
+          "head": 2.76,
+          "top": 3.86
+        }
       },
       {
         "id": "osm-node-2549928453",
@@ -13020,7 +13076,7 @@
         "status": "dated city occupancy record",
         "frontageIndex": 1,
         "street": "First Avenue",
-        "along": 3.716,
+        "along": 9.617,
         "frontageDistance": 1.721,
         "appearance": {
           "record": "hen-house",
@@ -13031,8 +13087,8 @@
           "limits": "Observed feature types and colors follow the linked photographs. Shop spans, depths, paint values, furniture dimensions/positions and substitute typography are visual estimates. Unreadable menu/sticker artwork, unseen interiors and present-day furniture availability remain unverified."
         },
         "unit": [
-          0.383,
-          7.05
+          7.51,
+          11.724
         ],
         "unitBasis": "Photographic proportion estimate from storefront-details.json / hen-house; unmeasured.",
         "design": {
@@ -13060,7 +13116,7 @@
                   "text": "Hen House NYC",
                   "material": "neon orange",
                   "style": "script",
-                  "size": 0.61
+                  "size": 0.49
                 }
               ]
             }
@@ -13087,7 +13143,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "cornerStyle": "hen"
         }
       },
       {
@@ -16456,7 +16513,7 @@
       {
         "id": "osm-node-6109307685",
         "osmId": 6109307685,
-        "name": "Unique Omakase",
+        "name": "Monkey Sushi",
         "category": "restaurant",
         "mappedAddress": "120 1st Avenue",
         "point": [
@@ -16468,17 +16525,53 @@
             "publisher": "OpenStreetMap contributors",
             "url": "https://www.openstreetmap.org/node/6109307685",
             "snapshot": "2026-09-05T17:07:06Z"
+          },
+          {
+            "publisher": "Reviewed occupancy source",
+            "url": "https://evgrieve.com/2025/07/openings-monkey-sushi-on-1st-avenue.html",
+            "sourceDate": "2025-07-03",
+            "checked": "2026-09-08",
+            "basis": "Photo and reporting identify replacement for Unique Omakase. Google listing checked September 8 2026 calls it Monkey Sushi & Unique Sushi; old uniqueomakase.com redirects to expired-domain page."
           }
         ],
         "buildingId": 248142707,
-        "buildingMatch": "address",
-        "renderName": false,
-        "status": "mapped identity; independent occupancy unresolved",
+        "buildingMatch": "reviewed exact building identity",
+        "renderName": true,
+        "status": "individually reviewed occupancy",
         "frontageIndex": 1,
         "street": "First Avenue",
-        "along": 4.089,
+        "along": 3.027,
         "frontageDistance": 1.717,
-        "appearance": "Sign lettering, exact shop partition and interior are estimates unless an individual facade profile is supplied."
+        "appearance": {
+          "record": "monkey-sushi",
+          "checked": "2026-09-08",
+          "sources": [
+            "monkey-2025"
+          ],
+          "limits": "Mapped footprints retained. Dimensions below are photographic proportion estimates in metres, not a survey. Capture dates vary. Occluded return-wall openings, exact surface wear, tiny print, artwork, movable inventory, interior depths and present-day arrangements remain uncertain."
+        },
+        "unit": [
+          0.383,
+          5.671
+        ],
+        "unitBasis": "Photographic proportion estimate from storefront-details.json / monkey-sushi; unmeasured.",
+        "design": {
+          "cornerStyle": "monkey",
+          "panels": [
+            [
+              "door",
+              0.4
+            ],
+            [
+              "window",
+              0.6
+            ]
+          ],
+          "frame": "white frame",
+          "base": 0.42,
+          "head": 2.75,
+          "top": 3.63
+        }
       },
       {
         "id": "osm-node-6109352286",
@@ -18998,7 +19091,7 @@
       {
         "id": "osm-node-7112935819",
         "osmId": 7112935819,
-        "name": "Saifee Hardware",
+        "name": "Saifee Hardware & Garden",
         "category": "hardware",
         "mappedAddress": "",
         "point": [
@@ -19010,17 +19103,54 @@
             "publisher": "OpenStreetMap contributors",
             "url": "https://www.openstreetmap.org/node/7112935819",
             "snapshot": "2026-09-05T17:07:06Z"
+          },
+          {
+            "publisher": "Reviewed occupancy source",
+            "url": "https://evgrieve.com/2025/09/sept-5.html",
+            "sourceDate": "2025-09-05",
+            "checked": "2026-09-08",
+            "basis": "Dated on-site photo identifies shop and shared frontage at 114\u2013116 First. Official website no longer resolves; do not use it as fresh occupancy evidence."
           }
         ],
         "buildingId": 248142331,
-        "buildingMatch": "mapped point in footprint",
-        "renderName": false,
-        "status": "mapped identity; independent occupancy unresolved",
+        "buildingMatch": "reviewed exact building identity",
+        "renderName": true,
+        "status": "individually reviewed occupancy",
         "frontageIndex": 0,
         "street": "First Avenue",
-        "along": 2.252,
+        "along": 3.263,
         "frontageDistance": 2.568,
-        "appearance": "Sign lettering, exact shop partition and interior are estimates unless an individual facade profile is supplied."
+        "appearance": {
+          "record": "saifee",
+          "checked": "2026-09-08",
+          "sources": [
+            "saifee-2025",
+            "saifee-2024-plants"
+          ],
+          "limits": "Mapped footprints retained. Dimensions below are photographic proportion estimates in metres, not a survey. Capture dates vary. Occluded return-wall openings, exact surface wear, tiny print, artwork, movable inventory, interior depths and present-day arrangements remain uncertain."
+        },
+        "unit": [
+          0.097,
+          6.428
+        ],
+        "unitBasis": "Photographic proportion estimate from storefront-details.json / saifee; unmeasured.",
+        "design": {
+          "cornerStyle": "saifee",
+          "panels": [
+            [
+              "window",
+              0.76
+            ],
+            [
+              "door",
+              0.24
+            ]
+          ],
+          "frame": "white frame",
+          "base": 0.27,
+          "head": 2.91,
+          "top": 3.77
+        }
       },
       {
         "id": "osm-node-7254235917",
@@ -20495,7 +20625,7 @@
       {
         "id": "osm-node-9708208979",
         "osmId": 9708208979,
-        "name": "7th Street burger",
+        "name": "7th Street Burger",
         "category": "fast_food",
         "mappedAddress": "91 East 7th Street",
         "point": [
@@ -20515,17 +20645,57 @@
             "name": "7TH STREET BURGER",
             "address": "91 EAST    7 STREET",
             "bin": "1005814"
+          },
+          {
+            "publisher": "Reviewed occupancy source",
+            "url": "https://www.toasttab.com/local/order/7th-street-burger-91-e-7th-st",
+            "sourceDate": "2026-09-08",
+            "checked": "2026-09-08",
+            "basis": "Restaurant ordering page lists 91 East 7th Street; independently dated 2025 CB3 reference and 2021 opening/exterior retained in corner source schedule."
           }
         ],
         "buildingId": 248142707,
-        "buildingMatch": "address",
-        "renderName": false,
-        "status": "mapped identity; independent occupancy unresolved",
+        "buildingMatch": "reviewed exact building identity",
+        "renderName": true,
+        "status": "individually reviewed occupancy",
         "frontageIndex": 0,
         "street": "East 7th Street",
-        "along": 16.555,
+        "along": 16.901,
         "frontageDistance": 1.137,
-        "appearance": "Sign lettering, exact shop partition and interior are estimates unless an individual facade profile is supplied."
+        "appearance": {
+          "record": "7th-street-burger",
+          "checked": "2026-09-08",
+          "sources": [
+            "burger-2021"
+          ],
+          "limits": "Mapped footprints retained. Dimensions below are photographic proportion estimates in metres, not a survey. Capture dates vary. Occluded return-wall openings, exact surface wear, tiny print, artwork, movable inventory, interior depths and present-day arrangements remain uncertain."
+        },
+        "unit": [
+          14.394,
+          19.408
+        ],
+        "unitBasis": "Photographic proportion estimate from storefront-details.json / 7th-street-burger; unmeasured.",
+        "design": {
+          "cornerStyle": "burger",
+          "panels": [
+            [
+              "window",
+              0.39
+            ],
+            [
+              "door",
+              0.25
+            ],
+            [
+              "window",
+              0.36
+            ]
+          ],
+          "frame": "wood",
+          "base": 0.57,
+          "head": 2.73,
+          "top": 3.63
+        }
       },
       {
         "id": "osm-node-9807449446",
@@ -23628,7 +23798,8 @@
           ],
           "doorMaterial": "store teal",
           "doorHead": 2.7,
-          "doorGlassBottom": 0.99
+          "doorGlassBottom": 0.99,
+          "cornerStyle": "tile"
         }
       },
       {
@@ -27322,7 +27493,7 @@
   },
   "storefrontDetails": {
     "schemaVersion": 1,
-    "revision": "05",
+    "revision": "06",
     "checked": "2026-09-08",
     "scope": "Individually authored exterior details on selected existing frontages. Source dates vary; this is not a complete contemporary survey or a measured digital twin. No source-photo pixels redistributed.",
     "sources": {
@@ -27536,46 +27707,51 @@
         "url": "https://buildingblocks.villagepreservation.org/building/115-1st-avenue-87-east-7th-street/",
         "photo": "https://buildingblocks.villagepreservation.org/wp-content/uploads/2012/07/449_38_PRIMARYPHOTO.jpg",
         "captureDate": null,
-        "publicationDate": "2012/07",
+        "publicationDate": null,
         "checked": "2026-09-08",
         "rights": "Village Preservation archive; observation only; image not redistributed.",
-        "observations": "Two upper bays on First Avenue; longer East 7th elevation has irregularly spaced openings, much plainer lintels, a flat parapet and no front escape. Avenue-facing frame and lintels dark brown. Ground-level corner tiled paint survives in the later Tile Bar photo."
+        "observations": "Two upper bays on First Avenue; longer East 7th elevation has irregularly spaced openings, much plainer lintels, a flat parapet and no front escape. Avenue-facing frame and lintels dark brown. Ground-level corner tiled paint survives in the later Tile Bar photo.",
+        "uploadDate": "2012-07 (archive image URL; capture date unknown)"
       },
       "building-248142707": {
         "url": "https://buildingblocks.villagepreservation.org/building/118-first-avenue-91-east-7th-street/",
         "photo": "https://buildingblocks.villagepreservation.org/wp-content/uploads/2012/07/435_1_PRIMARYPHOTO.jpg",
         "captureDate": null,
-        "publicationDate": "2012/07",
+        "publicationDate": null,
         "checked": "2026-09-08",
         "rights": "Village Preservation archive; observation only; image not redistributed.",
-        "observations": "Five-story red-brick corner; seven upper window openings across First Avenue, dark brown trim and a deep black cornice. East 7th has a broad white blind panel by the corner and sparse dark-trim windows beyond. Historical FOOD MARKET signage is not current occupancy evidence."
+        "observations": "Five-story red-brick corner; seven upper window openings across First Avenue, dark brown trim and a deep black cornice. East 7th has a broad white blind panel by the corner and sparse dark-trim windows beyond. Historical FOOD MARKET signage is not current occupancy evidence.",
+        "uploadDate": "2012-07 (archive image URL; capture date unknown)"
       },
       "building-241829631": {
         "url": "https://buildingblocks.villagepreservation.org/building/113-1st-avenue/",
         "photo": "https://buildingblocks.villagepreservation.org/wp-content/uploads/2012/07/448_27_PRIMARYPHOTO.jpg",
         "captureDate": null,
-        "publicationDate": "2012/07",
+        "publicationDate": null,
         "checked": "2026-09-08",
         "rights": "Village Preservation archive; observation only; image not redistributed.",
-        "observations": "Five-story red-brick corner with long East 7th face and four avenue openings; simple flat roof edge. Dark window frames; side fire escape visible toward the western part of East 7th. Old bodega sign is not current evidence."
+        "observations": "Five-story painted-red brick corner with three First Avenue window stacks, long East 7th return, pale flat lintels, dark sashes and a stepped red-brown roof cornice. Side fire escape is visible toward the western part of East 7th. Old bodega sign is not current evidence.",
+        "uploadDate": "2012-07 (archive image URL; capture date unknown)"
       },
       "building-248142331": {
         "url": "https://buildingblocks.villagepreservation.org/building/114-first-avenue/",
         "photo": "https://buildingblocks.villagepreservation.org/wp-content/uploads/2012/07/434_8_PRIMARYPHOTO.jpg",
         "captureDate": null,
-        "publicationDate": "2012/07",
+        "publicationDate": null,
         "checked": "2026-09-08",
         "rights": "Village Preservation archive; observation only; image not redistributed.",
-        "observations": "Five-story narrow brick elevation with three windows, red fire escape centered across the openings, broad pale lintels and a plain roof edge with metal roof railing."
+        "observations": "Five-story narrow brick elevation with three windows, red fire escape centered across the openings, broad pale lintels and a plain roof edge with metal roof railing.",
+        "uploadDate": "2012-07 (archive image URL; capture date unknown)"
       },
       "building-248142715": {
         "url": "https://buildingblocks.villagepreservation.org/building/93-93-12-east-7th-street/",
         "photo": "https://buildingblocks.villagepreservation.org/wp-content/uploads/2012/07/435_57_PRIMARYPHOTO.jpg",
         "captureDate": null,
-        "publicationDate": "2012/07",
+        "publicationDate": null,
         "checked": "2026-09-08",
         "rights": "Village Preservation archive; observation only; image not redistributed.",
-        "observations": "Five-story red-brick tenement with three bay groups, russet escape, heavy dark bracketed cornice and pale window surrounds. Old shop identities are not used as current names."
+        "observations": "Five-story red-brick tenement with three bay groups, russet escape, heavy dark bracketed cornice and pale window surrounds. Old shop identities are not used as current names.",
+        "uploadDate": "2012-07 (archive image URL; capture date unknown)"
       },
       "irving": {
         "existingRecord": "model-source/neighborhood-references/cross-streets.json#irving",
@@ -27615,6 +27791,94 @@
         "captureDate": null,
         "rights": "Existing observation metadata; photograph not redistributed.",
         "review": "Existing September 6 observation reused; no new photo inspection claimed."
+      },
+      "building-248142404": {
+        "url": "https://buildingblocks.villagepreservation.org/building/116-first-avenue/",
+        "photo": "https://buildingblocks.villagepreservation.org/wp-content/uploads/2012/07/434_9_PRIMARYPHOTO.jpg",
+        "publicationDate": null,
+        "captureDate": null,
+        "checked": "2026-09-08",
+        "publisher": "Village Preservation",
+        "rights": "Observation only. Photograph not redistributed or used as a game texture.",
+        "observations": "Four stories, two avenue windows per upper floor, buff brick below exposed red-brick parapet band, black window frames and grilles. Lower than neighboring 114. Fire escape is on East 7th return, not on the avenue. Side window positions are partly occluded.",
+        "uploadDate": "2012-07 (archive image URL; capture date unknown)"
+      },
+      "saifee-2025": {
+        "url": "https://evgrieve.com/2025/09/sept-5.html",
+        "photo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh3PndybOiS9EBhCv607W4eN81MGm0MXMqD5TPHe5o_l0vOkkVtj71COIKRHD5u_Bs7S0xmE6kHlYY6Qq-8JeVC6Dl7K8sQQFS67gWhPT-gUnoIUdyu68JXDSD4QWuw8pbSRHgt2vPGTIXQ98gJ1flLqScfswSWyU-MHbrvAGJ1YpSB33rXX5J9o4KfeYU/s5363/IMG_4626.HEIC",
+        "publicationDate": "2025-09-05",
+        "captureDate": null,
+        "checked": "2026-09-08",
+        "publisher": "EV Grieve",
+        "rights": "Observation only. Photograph not redistributed or used as a game texture.",
+        "observations": "Front view confirms the two different building heights, buff brick at 116 and painted red at 114, red escape, broad tapered lintels, roof railing and plants. Continuous brown awning carries white Saifee / hardware & garden lettering; smaller Ralph Lauren Paint and California Paints marks. String lights run over both facades; metal shutters and fluorescent shop lights are visible."
+      },
+      "saifee-2024-night": {
+        "url": "https://evgrieve.com/2024/11/wednesdays-parting-shot.html",
+        "photo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgkTg7zVrcOoEkCFkNZBPwymZ19HQetk0P6rzDGeQe3_gNwk0-UBJGZ0z37v5rxlZxLS1r5zkAiiTEcpRH6vlLKfSXvnkjkD04YRjFiarUPdrTi3gotFeOJS1eB-4lNP5FFAzEazj6avDvZaLuvqhcER186xd4yLDHkuhd4UiDMur9sgLVJDKHS7OSBiSs/s3316/IMG_9186.HEIC",
+        "publicationDate": "2024-11-20",
+        "captureDate": null,
+        "checked": "2026-09-08",
+        "publisher": "EV Grieve",
+        "rights": "Observation only. Photograph not redistributed or used as a game texture.",
+        "observations": "Wide front confirms two linked shops, large silver-framed windows, left doorway at 116 and right doorway at 114, dense plants and ceramic stock, blue wheeled racks, warm strings hung across both heights."
+      },
+      "saifee-2024-plants": {
+        "url": "https://evgrieve.com/2024/10/wednesdays-parting-shot_23.html",
+        "photo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj7lr7TBsZtyFYIIUVQT-YZ-Kv4x4wRHyjmI7fnQI2kqALWnqEnS8rOjOGC7TzSxQxbXwjNvqgtWamZKP7jUCsWQIaw1cb2Q2TI6WIxP-389Vy2UuVPKMZy3suWLCNv6oTuD5fmaUf5nhsEeVA8VMyt5WBIPY4SNYMNdBwCgfgrosIPCdQ3aIYojXWTo7I/s4032/IMG_1214.JPG",
+        "publicationDate": "2024-10-23",
+        "captureDate": null,
+        "checked": "2026-09-08",
+        "publisher": "Rainer Turim / EV Grieve",
+        "rights": "Observation only. Photograph not redistributed or used as a game texture.",
+        "observations": "Daylight close view: weathered brown fabric awning, exposed support tubes and light bulbs, trailing hanging baskets, tall foliage in a terracotta square planter, six-level blue-and-galvanized wheeled plant rack, small pots and cacti, neon OPEN panel and window notices."
+      },
+      "e7-2024": {
+        "url": "https://eastvillage.com/shopping/e7-deli-cafe/e7-deli/",
+        "photo": "https://eastvillage.com/wp-content/uploads/2024/03/E7-Deli.jpg",
+        "publicationDate": "2024/03 (image upload path)",
+        "captureDate": null,
+        "checked": "2026-09-08",
+        "publisher": "EastVillage.com",
+        "rights": "Observation only. Photograph not redistributed or used as a game texture.",
+        "observations": "Black horizontal-slatted fascia wraps around corner. Raised white DELI & CAFE letters, red E and green 7 on black logo panels. Small white category labels and 118 number. Recessed avenue doorway, black-and-white geometric door reveal, aluminum threshold, food-image decals, a Plant-based menu A-board, narrow return window and adjacent blue mural."
+      },
+      "smoke-exterior": {
+        "url": "https://www.vapersmap.com/shops/e-smoke-convenience-113-1st-avenue-new-york",
+        "photo": "https://www.vapersmap.com/imgs/12/11539/e-smoke-convenience_72397_810x550.jpg",
+        "publicationDate": null,
+        "captureDate": null,
+        "checked": "2026-09-08",
+        "publisher": "E Smoke & Convenience photographs, hosted by Vapersmap",
+        "rights": "Observation only. Photograph not redistributed or used as a game texture.",
+        "observations": "Raised red letters with black returns on a pale gray fascia; a narrow red category strip below. Ribbed canopy soffit, narrow dark mullions, a large densely stocked display window to left and glass door to right. Visible horizontal shelves, packaged products, bottles, fluorescent strips and entry rail."
+      },
+      "monkey-2025": {
+        "url": "https://evgrieve.com/2025/07/openings-monkey-sushi-on-1st-avenue.html",
+        "photo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiKrZIIdZeSb0R7lmP4IaF_DkgxhAtq0VVH3c6K3lLIbDi2j2pWEyy399tOdOSiNlE25uVFT2tzlpaZDhpF-aJqT0uBap032vXBt8Hsyhzzn_Vv37NHN_1M4ZW9X2WceHAc1-90ZJvlnSqDgZwRHXhzXsp-39aF2zKzUUdio9Ehgs_8fiPoIyxvo74DYSE/s1704/viruswalk_6-20-25_r_w-025.jpg",
+        "publicationDate": "2025-07-03",
+        "captureDate": "2025-06-20 (photo filename)",
+        "checked": "2026-09-08",
+        "publisher": "Stacie Joy / EV Grieve",
+        "rights": "Observation only. Photograph not redistributed or used as a game texture.",
+        "observations": "Monkey Sushi replaced the earlier Unique Omakase identity at 120 / 120\u00bd First Avenue. See photographed exterior for the individually modeled sign, entry, fixtures and window artwork."
+      },
+      "burger-2021": {
+        "url": "https://evgrieve.com/2021/06/openings-7th-street-burger-on-7th-street.html",
+        "photo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjSQUZLP9kfEzEHla0u_F7X-LcwXgilKuNWGc5yjBNUHTBHQbB4t8Oa5L1Uv48n3nJEHhwYJmUOyuXPLK8wrcEfGg7PsZ49WruqyQGQYpbfnEs9UxfbZud3FFwNGHdpCD_dUjZwCak7ftQ/s2016/IMG_7286.jpg",
+        "publicationDate": "2021-06-07",
+        "captureDate": null,
+        "checked": "2026-09-08",
+        "publisher": "EV Grieve",
+        "rights": "Observation only. Photograph not redistributed or used as a game texture.",
+        "observations": "Small storefront at 91 East 7th Street, at east end of 118 First building. Door, glazing, over-window lettering and exterior seating observed in opening photographs. Current exact stickers and furniture layout unverified."
+      },
+      "street-view-access": {
+        "url": "https://www.google.com/maps/@40.7269445,-73.9856404,3a,75y,29.72h,90t/data=!3m5!1e1!3m3!1s3KfZRLIHzFKvx7gJYrDH-w!2e0",
+        "checked": "2026-09-08",
+        "captureDate": null,
+        "status": "Maps address/place listings accessible, but pano UI returned No Street View imagery available here; preview request returned HTTP 403. No panorama inspected; no Street View match claimed.",
+        "rights": "No Google imagery bundled."
       }
     },
     "elevations": [
@@ -27632,7 +27896,36 @@
           "trim": "brownstone",
           "windowFrame": "window frame",
           "groundTop": 3.95,
-          "sparseSide": false
+          "sparseSide": false,
+          "wall": "seventh red brick",
+          "cornerSchedule": {
+            "bays": [
+              0.27,
+              0.74
+            ],
+            "rows": [
+              [
+                4.12,
+                1.83
+              ],
+              [
+                6.95,
+                1.92
+              ],
+              [
+                9.82,
+                1.93
+              ]
+            ],
+            "width": 1.05,
+            "trim": "seventh dark stone",
+            "ac": [
+              [
+                0,
+                1
+              ]
+            ]
+          }
         },
         "limits": "Counts, proportions and visible treatments observed; dimensions and unseen elevations remain estimates."
       },
@@ -27656,7 +27949,47 @@
           "sparseSide": false,
           "trim": "brownstone",
           "cornicePlain": true,
-          "residentialEntry": false
+          "residentialEntry": false,
+          "wall": "seventh red brick",
+          "cornerSchedule": {
+            "bays": [
+              0.09,
+              0.22,
+              0.34,
+              0.46,
+              0.62,
+              0.88
+            ],
+            "rows": [
+              [
+                4.12,
+                1.83
+              ],
+              [
+                6.95,
+                1.92
+              ],
+              [
+                9.82,
+                1.93
+              ]
+            ],
+            "width": 1.03,
+            "trim": "seventh dark stone",
+            "widths": [
+              0.83,
+              0.84,
+              0.7,
+              0.99,
+              1.03,
+              1.06
+            ],
+            "escape": {
+              "center": 0.15,
+              "width": 2.35,
+              "material": "black iron"
+            }
+          }
         },
         "limits": "Counts, proportions and visible treatments observed; dimensions and unseen elevations remain estimates."
       },
@@ -27683,7 +28016,62 @@
           "trim": "brownstone",
           "cornice": "black iron",
           "sparseSide": false,
-          "groundTop": 3.84
+          "groundTop": 3.84,
+          "wall": "seventh red brick",
+          "cornerSchedule": {
+            "bays": [
+              0.075,
+              0.216,
+              0.357,
+              0.498,
+              0.639,
+              0.78,
+              0.922
+            ],
+            "rows": [
+              [
+                4.05,
+                2.02
+              ],
+              [
+                6.99,
+                2.04
+              ],
+              [
+                9.93,
+                2.03
+              ],
+              [
+                12.88,
+                2.03
+              ]
+            ],
+            "width": 1.04,
+            "trim": "seventh dark stone",
+            "ornament": "hood",
+            "ac": [
+              [
+                3,
+                0
+              ],
+              [
+                3,
+                3
+              ],
+              [
+                3,
+                4
+              ],
+              [
+                2,
+                4
+              ],
+              [
+                0,
+                6
+              ]
+            ]
+          }
         },
         "limits": "Counts, proportions and visible treatments observed; dimensions and unseen elevations remain estimates."
       },
@@ -27709,7 +28097,46 @@
               "bottom": 3.45,
               "material": "painted ivory"
             }
-          ]
+          ],
+          "wall": "seventh red brick",
+          "cornerSchedule": {
+            "bays": [
+              0.465,
+              0.744
+            ],
+            "rows": [
+              [
+                4.05,
+                2.02
+              ],
+              [
+                6.99,
+                2.04
+              ],
+              [
+                9.93,
+                2.03
+              ],
+              [
+                12.88,
+                2.03
+              ]
+            ],
+            "width": 1.0,
+            "trim": "seventh dark stone",
+            "ornament": "hood",
+            "blindPanel": [
+              0.001,
+              0.335
+            ],
+            "ac": [
+              [
+                2,
+                0
+              ]
+            ],
+            "limits": "Archive establishes blank corner panel and two exposed window stacks; exact depths and western shop/mural boundaries are unmeasured."
+          }
         },
         "limits": "Counts, proportions and visible treatments observed; dimensions and unseen elevations remain estimates."
       },
@@ -27725,7 +28152,55 @@
           "residentialEntry": false,
           "windowFrame": "window frame",
           "trim": "brownstone",
-          "groundTop": 3.62
+          "groundTop": 3.62,
+          "wall": "seventh red plaster",
+          "cornerSchedule": {
+            "bays": [
+              0.07,
+              0.26,
+              0.4,
+              0.53,
+              0.66,
+              0.79,
+              0.92
+            ],
+            "rows": [
+              [
+                4.02,
+                1.92
+              ],
+              [
+                6.98,
+                1.94
+              ],
+              [
+                9.94,
+                1.94
+              ],
+              [
+                12.92,
+                1.95
+              ]
+            ],
+            "width": 0.9,
+            "trim": "light limestone",
+            "lintel": "plain",
+            "escape": {
+              "center": 0.49,
+              "width": 2.7,
+              "material": "black iron"
+            },
+            "ac": [
+              [
+                0,
+                4
+              ],
+              [
+                2,
+                4
+              ]
+            ]
+          }
         },
         "limits": "Counts, proportions and visible treatments observed; dimensions and unseen elevations remain estimates."
       },
@@ -27754,6 +28229,41 @@
           "escapeMat": "red iron",
           "detail": {
             "roofRail": true
+          },
+          "wall": "seventh red plaster",
+          "cornerSchedule": {
+            "bays": [
+              0.18,
+              0.495,
+              0.82
+            ],
+            "rows": [
+              [
+                4.08,
+                2.13
+              ],
+              [
+                7.29,
+                2.16
+              ],
+              [
+                10.54,
+                2.13
+              ],
+              [
+                13.8,
+                2.06
+              ]
+            ],
+            "width": 1.08,
+            "trim": "light limestone",
+            "lintel": "tapered",
+            "grilles": true,
+            "escape": {
+              "center": 0.365,
+              "width": 3.0,
+              "material": "red iron"
+            }
           }
         },
         "limits": "Counts, proportions and visible treatments observed; dimensions and unseen elevations remain estimates."
@@ -28100,7 +28610,8 @@
           ],
           "doorMaterial": "store teal",
           "doorHead": 2.7,
-          "doorGlassBottom": 0.99
+          "doorGlassBottom": 0.99,
+          "cornerStyle": "tile"
         }
       },
       {
@@ -28110,8 +28621,8 @@
         "businessId": "osm-node-2549928762",
         "street": "First Avenue",
         "span": [
-          0.025,
-          0.46
+          0.49,
+          0.765
         ],
         "sources": [
           "hen"
@@ -28142,7 +28653,7 @@
                   "text": "Hen House NYC",
                   "material": "neon orange",
                   "style": "script",
-                  "size": 0.61
+                  "size": 0.49
                 }
               ]
             }
@@ -28169,7 +28680,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "cornerStyle": "hen"
         }
       },
       {
@@ -28211,12 +28723,7 @@
             "text": "YUBU",
             "textSize": 0.16
           },
-          "tables": [
-            {
-              "at": 0.7,
-              "depth": 0.94
-            }
-          ],
+          "tables": [],
           "menus": [
             {
               "at": 0.78,
@@ -28224,7 +28731,8 @@
               "width": 0.3,
               "height": 0.43
             }
-          ]
+          ],
+          "cornerStyle": "yubu"
         }
       },
       {
@@ -29484,8 +29992,795 @@
             }
           ]
         }
+      },
+      {
+        "id": "e7-deli",
+        "buildingId": 248142707,
+        "businessId": "osm-node-2549928447",
+        "street": "First Avenue",
+        "span": [
+          0.785,
+          0.995
+        ],
+        "sources": [
+          "e7-2024"
+        ],
+        "limits": "Mapped footprints retained. Dimensions below are photographic proportion estimates in metres, not a survey. Capture dates vary. Occluded return-wall openings, exact surface wear, tiny print, artwork, movable inventory, interior depths and present-day arrangements remain uncertain.",
+        "design": {
+          "cornerStyle": "deli",
+          "panels": [
+            [
+              "window",
+              0.62
+            ],
+            [
+              "door",
+              0.38
+            ]
+          ],
+          "frame": "black iron",
+          "base": 0.45,
+          "head": 2.76,
+          "top": 3.86
+        }
+      },
+      {
+        "id": "monkey-sushi",
+        "buildingId": 248142707,
+        "businessId": "osm-node-6109307685",
+        "street": "First Avenue",
+        "span": [
+          0.025,
+          0.37
+        ],
+        "sources": [
+          "monkey-2025"
+        ],
+        "limits": "Mapped footprints retained. Dimensions below are photographic proportion estimates in metres, not a survey. Capture dates vary. Occluded return-wall openings, exact surface wear, tiny print, artwork, movable inventory, interior depths and present-day arrangements remain uncertain.",
+        "design": {
+          "cornerStyle": "monkey",
+          "panels": [
+            [
+              "door",
+              0.4
+            ],
+            [
+              "window",
+              0.6
+            ]
+          ],
+          "frame": "white frame",
+          "base": 0.42,
+          "head": 2.75,
+          "top": 3.63
+        }
+      },
+      {
+        "id": "7th-street-burger",
+        "buildingId": 248142707,
+        "businessId": "osm-node-9708208979",
+        "street": "East 7th Street",
+        "span": [
+          0.735,
+          0.991
+        ],
+        "sources": [
+          "burger-2021"
+        ],
+        "limits": "Mapped footprints retained. Dimensions below are photographic proportion estimates in metres, not a survey. Capture dates vary. Occluded return-wall openings, exact surface wear, tiny print, artwork, movable inventory, interior depths and present-day arrangements remain uncertain.",
+        "design": {
+          "cornerStyle": "burger",
+          "panels": [
+            [
+              "window",
+              0.39
+            ],
+            [
+              "door",
+              0.25
+            ],
+            [
+              "window",
+              0.36
+            ]
+          ],
+          "frame": "wood",
+          "base": 0.57,
+          "head": 2.73,
+          "top": 3.63
+        }
+      },
+      {
+        "id": "e-smoke",
+        "buildingId": 241829631,
+        "businessId": "osm-node-2494127918",
+        "street": "First Avenue",
+        "span": [
+          0.025,
+          0.982
+        ],
+        "sources": [
+          "smoke-exterior"
+        ],
+        "limits": "Mapped footprints retained. Dimensions below are photographic proportion estimates in metres, not a survey. Capture dates vary. Occluded return-wall openings, exact surface wear, tiny print, artwork, movable inventory, interior depths and present-day arrangements remain uncertain.",
+        "design": {
+          "cornerStyle": "smoke",
+          "panels": [
+            [
+              "window",
+              0.7
+            ],
+            [
+              "door",
+              0.3
+            ]
+          ],
+          "frame": "window frame",
+          "base": 0.29,
+          "head": 2.77,
+          "top": 3.81
+        }
+      },
+      {
+        "id": "saifee",
+        "buildingId": 248142331,
+        "businessId": "osm-node-7112935819",
+        "street": "First Avenue",
+        "span": [
+          0.015,
+          0.989
+        ],
+        "sources": [
+          "saifee-2025",
+          "saifee-2024-plants"
+        ],
+        "limits": "Mapped footprints retained. Dimensions below are photographic proportion estimates in metres, not a survey. Capture dates vary. Occluded return-wall openings, exact surface wear, tiny print, artwork, movable inventory, interior depths and present-day arrangements remain uncertain.",
+        "design": {
+          "cornerStyle": "saifee",
+          "panels": [
+            [
+              "window",
+              0.76
+            ],
+            [
+              "door",
+              0.24
+            ]
+          ],
+          "frame": "white frame",
+          "base": 0.27,
+          "head": 2.91,
+          "top": 3.77
+        }
       }
     ]
+  },
+  "cornerDetails": {
+    "schemaVersion": 1,
+    "revision": "06",
+    "checked": "2026-09-08",
+    "scope": "First Avenue / East 7th Street four-corner benchmark, plus the adjoining 114 First portion of Saifee. User acceptance pending; do not extend automatically.",
+    "referencePolicy": "Most recent accessible reference preferred. Full Google Street View was inaccessible; named dated photographs below are the actual visual evidence. Do not describe the result as verified against a latest Google panorama.",
+    "sources": {
+      "tile": {
+        "url": "https://www.tilebarnyc.com/",
+        "photo": "https://images.squarespace-cdn.com/content/v1/62854f704b4b3d59dccd1bd0/4965884e-d44d-49fd-9586-cc755a128964/072623+-+Tile+Bar-9+%281%29.1.jpg",
+        "captureDate": "2023-07-26 (filename; capture date not independently confirmed)",
+        "publicationDate": null,
+        "checked": "2026-09-08",
+        "rights": "Observation only; image not redistributed.",
+        "observations": "Blue awning with narrow light stripes and right-aligned TILE BAR; green left recessed door numbered 115; wide low two-pane window; orange-red ground paint and patches of green/purple tile; red round bistro tables and folding chairs; freestanding chalkboard; illuminated beer lettering in window."
+      },
+      "hen": {
+        "url": "https://evgrieve.com/2023/11/signage-alert-hen-house-on-1st-avenue.html",
+        "photo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhGEoIgQ_IgD9P257uHl-jhH9UM1lrugAtthKAhEkYvf1zrsCgGYXmUi2uez9o8nzc1EjDl-cg8ZNhQWBXn8dwEBZtUuysLmqlRA1mHsNsezgt8vlNpP-yVFc-bSU94-crVk3IrZ1iHE1M8W4ZJ3cMevwx-MMczPsDhg-xdZ5-qepEn4vlSf8Lq9Xok6nc/s480/IMG_5993.JPG",
+        "captureDate": null,
+        "publicationDate": "2023-11-24",
+        "checked": "2026-09-08",
+        "rights": "Observation only; image not redistributed.",
+        "observations": "Black surround with orange illuminated cursive Hen House NYC; pale blue circular projecting sign; glazed transom over dark metal storefront. Article address is 120 First Avenue."
+      },
+      "yubu": {
+        "url": "https://evgrieve.com/2021/07/openings-yubu-on-7th-street-evil-katsu.html",
+        "photo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiFOOjUK_jRFT1mlTFqr2fgIRRcse6KSnYWfWvoAy25cpJwdvQA-om5ZB1PpX64nOJV46Yp-9yFP4TEcjEFPWF_maRZd4awL31cVErj6Ljrjw-_2KXIASQjcvOnt4HEMZO-5wBpmvTv3L4/s530/IMG_7885.jpg",
+        "captureDate": null,
+        "publicationDate": "2021-07-21",
+        "checked": "2026-09-08",
+        "rights": "Observation only; image not redistributed.",
+        "observations": "Very narrow brown timber/glass storefront; door on left and display glazing on right; wall air conditioner over left; raised red awning with white YUBU; small folding table on sidewalk."
+      },
+      "building-241822226": {
+        "url": "https://buildingblocks.villagepreservation.org/building/115-1st-avenue-87-east-7th-street/",
+        "photo": "https://buildingblocks.villagepreservation.org/wp-content/uploads/2012/07/449_38_PRIMARYPHOTO.jpg",
+        "captureDate": null,
+        "publicationDate": null,
+        "checked": "2026-09-08",
+        "rights": "Village Preservation archive; observation only; image not redistributed.",
+        "observations": "Two upper bays on First Avenue; longer East 7th elevation has irregularly spaced openings, much plainer lintels, a flat parapet and no front escape. Avenue-facing frame and lintels dark brown. Ground-level corner tiled paint survives in the later Tile Bar photo.",
+        "uploadDate": "2012-07 (archive image URL; capture date unknown)"
+      },
+      "building-248142707": {
+        "url": "https://buildingblocks.villagepreservation.org/building/118-first-avenue-91-east-7th-street/",
+        "photo": "https://buildingblocks.villagepreservation.org/wp-content/uploads/2012/07/435_1_PRIMARYPHOTO.jpg",
+        "captureDate": null,
+        "publicationDate": null,
+        "checked": "2026-09-08",
+        "rights": "Village Preservation archive; observation only; image not redistributed.",
+        "observations": "Five-story red-brick corner; seven upper window openings across First Avenue, dark brown trim and a deep black cornice. East 7th has a broad white blind panel by the corner and sparse dark-trim windows beyond. Historical FOOD MARKET signage is not current occupancy evidence.",
+        "uploadDate": "2012-07 (archive image URL; capture date unknown)"
+      },
+      "building-241829631": {
+        "url": "https://buildingblocks.villagepreservation.org/building/113-1st-avenue/",
+        "photo": "https://buildingblocks.villagepreservation.org/wp-content/uploads/2012/07/448_27_PRIMARYPHOTO.jpg",
+        "captureDate": null,
+        "publicationDate": null,
+        "checked": "2026-09-08",
+        "rights": "Village Preservation archive; observation only; image not redistributed.",
+        "observations": "Five-story painted-red brick corner with three First Avenue window stacks, long East 7th return, pale flat lintels, dark sashes and a stepped red-brown roof cornice. Side fire escape is visible toward the western part of East 7th. Old bodega sign is not current evidence.",
+        "uploadDate": "2012-07 (archive image URL; capture date unknown)"
+      },
+      "building-248142331": {
+        "url": "https://buildingblocks.villagepreservation.org/building/114-first-avenue/",
+        "photo": "https://buildingblocks.villagepreservation.org/wp-content/uploads/2012/07/434_8_PRIMARYPHOTO.jpg",
+        "captureDate": null,
+        "publicationDate": null,
+        "checked": "2026-09-08",
+        "rights": "Village Preservation archive; observation only; image not redistributed.",
+        "observations": "Five-story narrow brick elevation with three windows, red fire escape centered across the openings, broad pale lintels and a plain roof edge with metal roof railing.",
+        "uploadDate": "2012-07 (archive image URL; capture date unknown)"
+      },
+      "building-248142404": {
+        "url": "https://buildingblocks.villagepreservation.org/building/116-first-avenue/",
+        "photo": "https://buildingblocks.villagepreservation.org/wp-content/uploads/2012/07/434_9_PRIMARYPHOTO.jpg",
+        "publicationDate": null,
+        "captureDate": null,
+        "checked": "2026-09-08",
+        "publisher": "Village Preservation",
+        "rights": "Observation only. Photograph not redistributed or used as a game texture.",
+        "observations": "Four stories, two avenue windows per upper floor, buff brick below exposed red-brick parapet band, black window frames and grilles. Lower than neighboring 114. Fire escape is on East 7th return, not on the avenue. Side window positions are partly occluded.",
+        "uploadDate": "2012-07 (archive image URL; capture date unknown)"
+      },
+      "saifee-2025": {
+        "url": "https://evgrieve.com/2025/09/sept-5.html",
+        "photo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh3PndybOiS9EBhCv607W4eN81MGm0MXMqD5TPHe5o_l0vOkkVtj71COIKRHD5u_Bs7S0xmE6kHlYY6Qq-8JeVC6Dl7K8sQQFS67gWhPT-gUnoIUdyu68JXDSD4QWuw8pbSRHgt2vPGTIXQ98gJ1flLqScfswSWyU-MHbrvAGJ1YpSB33rXX5J9o4KfeYU/s5363/IMG_4626.HEIC",
+        "publicationDate": "2025-09-05",
+        "captureDate": null,
+        "checked": "2026-09-08",
+        "publisher": "EV Grieve",
+        "rights": "Observation only. Photograph not redistributed or used as a game texture.",
+        "observations": "Front view confirms the two different building heights, buff brick at 116 and painted red at 114, red escape, broad tapered lintels, roof railing and plants. Continuous brown awning carries white Saifee / hardware & garden lettering; smaller Ralph Lauren Paint and California Paints marks. String lights run over both facades; metal shutters and fluorescent shop lights are visible."
+      },
+      "saifee-2024-night": {
+        "url": "https://evgrieve.com/2024/11/wednesdays-parting-shot.html",
+        "photo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgkTg7zVrcOoEkCFkNZBPwymZ19HQetk0P6rzDGeQe3_gNwk0-UBJGZ0z37v5rxlZxLS1r5zkAiiTEcpRH6vlLKfSXvnkjkD04YRjFiarUPdrTi3gotFeOJS1eB-4lNP5FFAzEazj6avDvZaLuvqhcER186xd4yLDHkuhd4UiDMur9sgLVJDKHS7OSBiSs/s3316/IMG_9186.HEIC",
+        "publicationDate": "2024-11-20",
+        "captureDate": null,
+        "checked": "2026-09-08",
+        "publisher": "EV Grieve",
+        "rights": "Observation only. Photograph not redistributed or used as a game texture.",
+        "observations": "Wide front confirms two linked shops, large silver-framed windows, left doorway at 116 and right doorway at 114, dense plants and ceramic stock, blue wheeled racks, warm strings hung across both heights."
+      },
+      "saifee-2024-plants": {
+        "url": "https://evgrieve.com/2024/10/wednesdays-parting-shot_23.html",
+        "photo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj7lr7TBsZtyFYIIUVQT-YZ-Kv4x4wRHyjmI7fnQI2kqALWnqEnS8rOjOGC7TzSxQxbXwjNvqgtWamZKP7jUCsWQIaw1cb2Q2TI6WIxP-389Vy2UuVPKMZy3suWLCNv6oTuD5fmaUf5nhsEeVA8VMyt5WBIPY4SNYMNdBwCgfgrosIPCdQ3aIYojXWTo7I/s4032/IMG_1214.JPG",
+        "publicationDate": "2024-10-23",
+        "captureDate": null,
+        "checked": "2026-09-08",
+        "publisher": "Rainer Turim / EV Grieve",
+        "rights": "Observation only. Photograph not redistributed or used as a game texture.",
+        "observations": "Daylight close view: weathered brown fabric awning, exposed support tubes and light bulbs, trailing hanging baskets, tall foliage in a terracotta square planter, six-level blue-and-galvanized wheeled plant rack, small pots and cacti, neon OPEN panel and window notices."
+      },
+      "e7-2024": {
+        "url": "https://eastvillage.com/shopping/e7-deli-cafe/e7-deli/",
+        "photo": "https://eastvillage.com/wp-content/uploads/2024/03/E7-Deli.jpg",
+        "publicationDate": "2024/03 (image upload path)",
+        "captureDate": null,
+        "checked": "2026-09-08",
+        "publisher": "EastVillage.com",
+        "rights": "Observation only. Photograph not redistributed or used as a game texture.",
+        "observations": "Black horizontal-slatted fascia wraps around corner. Raised white DELI & CAFE letters, red E and green 7 on black logo panels. Small white category labels and 118 number. Recessed avenue doorway, black-and-white geometric door reveal, aluminum threshold, food-image decals, a Plant-based menu A-board, narrow return window and adjacent blue mural."
+      },
+      "smoke-exterior": {
+        "url": "https://www.vapersmap.com/shops/e-smoke-convenience-113-1st-avenue-new-york",
+        "photo": "https://www.vapersmap.com/imgs/12/11539/e-smoke-convenience_72397_810x550.jpg",
+        "publicationDate": null,
+        "captureDate": null,
+        "checked": "2026-09-08",
+        "publisher": "E Smoke & Convenience photographs, hosted by Vapersmap",
+        "rights": "Observation only. Photograph not redistributed or used as a game texture.",
+        "observations": "Raised red letters with black returns on a pale gray fascia; a narrow red category strip below. Ribbed canopy soffit, narrow dark mullions, a large densely stocked display window to left and glass door to right. Visible horizontal shelves, packaged products, bottles, fluorescent strips and entry rail."
+      },
+      "monkey-2025": {
+        "url": "https://evgrieve.com/2025/07/openings-monkey-sushi-on-1st-avenue.html",
+        "photo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiKrZIIdZeSb0R7lmP4IaF_DkgxhAtq0VVH3c6K3lLIbDi2j2pWEyy399tOdOSiNlE25uVFT2tzlpaZDhpF-aJqT0uBap032vXBt8Hsyhzzn_Vv37NHN_1M4ZW9X2WceHAc1-90ZJvlnSqDgZwRHXhzXsp-39aF2zKzUUdio9Ehgs_8fiPoIyxvo74DYSE/s1704/viruswalk_6-20-25_r_w-025.jpg",
+        "publicationDate": "2025-07-03",
+        "captureDate": "2025-06-20 (photo filename)",
+        "checked": "2026-09-08",
+        "publisher": "Stacie Joy / EV Grieve",
+        "rights": "Observation only. Photograph not redistributed or used as a game texture.",
+        "observations": "June 20 photo shows recessed black left glass door marked 120, silver right window framing, bamboo blind, charcoal three-part fish-pattern noren and pierced metal hanging lantern. Small Unique Omakase notice remains on the glazing; no new large Monkey fascia is visible. Business name changed per dated opening report, so do not invent a new fascia."
+      },
+      "burger-2021": {
+        "url": "https://evgrieve.com/2021/06/openings-7th-street-burger-on-7th-street.html",
+        "photo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjSQUZLP9kfEzEHla0u_F7X-LcwXgilKuNWGc5yjBNUHTBHQbB4t8Oa5L1Uv48n3nJEHhwYJmUOyuXPLK8wrcEfGg7PsZ49WruqyQGQYpbfnEs9UxfbZud3FFwNGHdpCD_dUjZwCak7ftQ/s2016/IMG_7286.jpg",
+        "publicationDate": "2021-06-07",
+        "captureDate": null,
+        "checked": "2026-09-08",
+        "publisher": "EV Grieve",
+        "rights": "Observation only. Photograph not redistributed or used as a game texture.",
+        "observations": "Worn brown timber projecting display bays flank a central recessed glazed door; black blank fascia, rolled awning mechanism and external linear lamp. Red compact 7th Street Burger window lettering; pale wood-framed letterboard in right display, external AC, door hardware, pipes and metal cellar hatch. Pendant lights and counter visible inside. Exact current decals and seating remain unverified."
+      },
+      "street-view-access": {
+        "url": "https://www.google.com/maps/@40.7269445,-73.9856404,3a,75y,29.72h,90t/data=!3m5!1e1!3m3!1s3KfZRLIHzFKvx7gJYrDH-w!2e0",
+        "checked": "2026-09-08",
+        "captureDate": null,
+        "status": "Maps address/place listings accessible, but pano UI returned No Street View imagery available here; preview request returned HTTP 403. No panorama inspected; no Street View match claimed.",
+        "rights": "No Google imagery bundled."
+      }
+    },
+    "buildings": [
+      {
+        "id": 241822226,
+        "profile": "tile",
+        "address": "115 First Avenue / 87 East 7th Street",
+        "height": 13.06,
+        "floors": 4,
+        "wall": "seventh red brick",
+        "sources": [
+          "tile",
+          "building-241822226"
+        ],
+        "elevations": {
+          "First Avenue": {
+            "bays": [
+              0.27,
+              0.74
+            ],
+            "rows": [
+              [
+                4.12,
+                1.83
+              ],
+              [
+                6.95,
+                1.92
+              ],
+              [
+                9.82,
+                1.93
+              ]
+            ],
+            "width": 1.05,
+            "trim": "seventh dark stone",
+            "ac": [
+              [
+                0,
+                1
+              ]
+            ]
+          },
+          "East 7th Street": {
+            "bays": [
+              0.09,
+              0.22,
+              0.34,
+              0.46,
+              0.62,
+              0.88
+            ],
+            "rows": [
+              [
+                4.12,
+                1.83
+              ],
+              [
+                6.95,
+                1.92
+              ],
+              [
+                9.82,
+                1.93
+              ]
+            ],
+            "width": 1.03,
+            "trim": "seventh dark stone",
+            "widths": [
+              0.83,
+              0.84,
+              0.7,
+              0.99,
+              1.03,
+              1.06
+            ],
+            "escape": {
+              "center": 0.15,
+              "width": 2.35,
+              "material": "black iron"
+            }
+          }
+        },
+        "roof": "antenna-rack",
+        "limits": "Mapped footprints retained. Dimensions below are photographic proportion estimates in metres, not a survey. Capture dates vary. Occluded return-wall openings, exact surface wear, tiny print, artwork, movable inventory, interior depths and present-day arrangements remain uncertain. Antenna configuration derives from archive; current equipment not confirmed."
+      },
+      {
+        "id": 248142707,
+        "profile": "deli",
+        "address": "118\u2013120 First Avenue / 91 East 7th Street",
+        "height": 16.6,
+        "floors": 5,
+        "wall": "seventh red brick",
+        "sources": [
+          "building-248142707",
+          "e7-2024",
+          "hen",
+          "monkey-2025",
+          "burger-2021"
+        ],
+        "elevations": {
+          "First Avenue": {
+            "bays": [
+              0.075,
+              0.216,
+              0.357,
+              0.498,
+              0.639,
+              0.78,
+              0.922
+            ],
+            "rows": [
+              [
+                4.05,
+                2.02
+              ],
+              [
+                6.99,
+                2.04
+              ],
+              [
+                9.93,
+                2.03
+              ],
+              [
+                12.88,
+                2.03
+              ]
+            ],
+            "width": 1.04,
+            "trim": "seventh dark stone",
+            "ornament": "hood",
+            "ac": [
+              [
+                3,
+                0
+              ],
+              [
+                3,
+                3
+              ],
+              [
+                3,
+                4
+              ],
+              [
+                2,
+                4
+              ],
+              [
+                0,
+                6
+              ]
+            ]
+          },
+          "East 7th Street": {
+            "bays": [
+              0.465,
+              0.744
+            ],
+            "rows": [
+              [
+                4.05,
+                2.02
+              ],
+              [
+                6.99,
+                2.04
+              ],
+              [
+                9.93,
+                2.03
+              ],
+              [
+                12.88,
+                2.03
+              ]
+            ],
+            "width": 1.0,
+            "trim": "seventh dark stone",
+            "ornament": "hood",
+            "blindPanel": [
+              0.001,
+              0.335
+            ],
+            "ac": [
+              [
+                2,
+                0
+              ]
+            ],
+            "limits": "Archive establishes blank corner panel and two exposed window stacks; exact depths and western shop/mural boundaries are unmeasured."
+          }
+        },
+        "roof": "bracketed-cornice",
+        "limits": "Mapped footprints retained. Dimensions below are photographic proportion estimates in metres, not a survey. Capture dates vary. Occluded return-wall openings, exact surface wear, tiny print, artwork, movable inventory, interior depths and present-day arrangements remain uncertain."
+      },
+      {
+        "id": 241829631,
+        "profile": "smoke",
+        "address": "113 First Avenue / 86 East 7th Street",
+        "height": 16.7,
+        "floors": 5,
+        "wall": "seventh red plaster",
+        "sources": [
+          "building-241829631",
+          "smoke-exterior",
+          "yubu"
+        ],
+        "elevations": {
+          "First Avenue": {
+            "bays": [
+              0.17,
+              0.5,
+              0.83
+            ],
+            "rows": [
+              [
+                4.02,
+                1.92
+              ],
+              [
+                6.98,
+                1.94
+              ],
+              [
+                9.94,
+                1.94
+              ],
+              [
+                12.92,
+                1.95
+              ]
+            ],
+            "width": 0.99,
+            "trim": "light limestone",
+            "lintel": "plain"
+          },
+          "East 7th Street": {
+            "bays": [
+              0.07,
+              0.26,
+              0.4,
+              0.53,
+              0.66,
+              0.79,
+              0.92
+            ],
+            "rows": [
+              [
+                4.02,
+                1.92
+              ],
+              [
+                6.98,
+                1.94
+              ],
+              [
+                9.94,
+                1.94
+              ],
+              [
+                12.92,
+                1.95
+              ]
+            ],
+            "width": 0.9,
+            "trim": "light limestone",
+            "lintel": "plain",
+            "escape": {
+              "center": 0.49,
+              "width": 2.7,
+              "material": "black iron"
+            },
+            "ac": [
+              [
+                0,
+                4
+              ],
+              [
+                2,
+                4
+              ]
+            ]
+          }
+        },
+        "roof": "stepped-red-cornice",
+        "limits": "Mapped footprints retained. Dimensions below are photographic proportion estimates in metres, not a survey. Capture dates vary. Occluded return-wall openings, exact surface wear, tiny print, artwork, movable inventory, interior depths and present-day arrangements remain uncertain. Seven return stacks are interpreted from an oblique archive image; cannot certify all corner mural/retail-return changes. Five visual stories and an estimated 16.7 m roof height follow the archive proportions; mapped 14.25 m metadata is retained separately. Color is painted brick, not a measured paint sample."
+      },
+      {
+        "id": 248142404,
+        "profile": "saifee-corner",
+        "address": "116 First Avenue / 90 East 7th Street",
+        "height": 13.15,
+        "floors": 4,
+        "wall": "seventh buff brick",
+        "sources": [
+          "building-248142404",
+          "saifee-2025",
+          "saifee-2024-night"
+        ],
+        "elevations": {
+          "First Avenue": {
+            "bays": [
+              0.28,
+              0.72
+            ],
+            "rows": [
+              [
+                3.93,
+                1.99
+              ],
+              [
+                6.95,
+                1.96
+              ],
+              [
+                9.9,
+                1.93
+              ]
+            ],
+            "width": 1.09,
+            "trim": "seventh buff brick",
+            "lintel": "brick",
+            "grilles": true,
+            "redBand": 11.99
+          },
+          "East 7th Street": {
+            "bays": [
+              0.12,
+              0.27,
+              0.42,
+              0.57,
+              0.72,
+              0.88
+            ],
+            "rows": [
+              [
+                3.93,
+                1.99
+              ],
+              [
+                6.95,
+                1.96
+              ],
+              [
+                9.9,
+                1.93
+              ]
+            ],
+            "width": 0.99,
+            "trim": "seventh buff brick",
+            "lintel": "brick",
+            "escape": {
+              "center": 0.86,
+              "width": 2.65,
+              "material": "black iron"
+            },
+            "limits": "Return positions are partly occluded in the archive; six evenly spaced openings are an explicit inference, not counted observations."
+          }
+        },
+        "roof": "plain",
+        "limits": "Mapped footprints retained. Dimensions below are photographic proportion estimates in metres, not a survey. Capture dates vary. Occluded return-wall openings, exact surface wear, tiny print, artwork, movable inventory, interior depths and present-day arrangements remain uncertain. Render height adjusted to four visible stories and relative height of adjacent 114; municipal height remains separately retained."
+      },
+      {
+        "id": 248142331,
+        "profile": "saifee-main",
+        "address": "114 First Avenue",
+        "height": 17.68,
+        "floors": 5,
+        "wall": "seventh red plaster",
+        "sources": [
+          "building-248142331",
+          "saifee-2025",
+          "saifee-2024-plants",
+          "saifee-2024-night"
+        ],
+        "elevations": {
+          "First Avenue": {
+            "bays": [
+              0.18,
+              0.495,
+              0.82
+            ],
+            "rows": [
+              [
+                4.08,
+                2.13
+              ],
+              [
+                7.29,
+                2.16
+              ],
+              [
+                10.54,
+                2.13
+              ],
+              [
+                13.8,
+                2.06
+              ]
+            ],
+            "width": 1.08,
+            "trim": "light limestone",
+            "lintel": "tapered",
+            "grilles": true,
+            "escape": {
+              "center": 0.365,
+              "width": 3.0,
+              "material": "red iron"
+            }
+          }
+        },
+        "roof": "railing-and-plants",
+        "limits": "Mapped footprints retained. Dimensions below are photographic proportion estimates in metres, not a survey. Capture dates vary. Occluded return-wall openings, exact surface wear, tiny print, artwork, movable inventory, interior depths and present-day arrangements remain uncertain."
+      }
+    ],
+    "limitations": "Mapped footprints retained. Dimensions below are photographic proportion estimates in metres, not a survey. Capture dates vary. Occluded return-wall openings, exact surface wear, tiny print, artwork, movable inventory, interior depths and present-day arrangements remain uncertain.",
+    "streetFurniture": {
+      "basis": "Objects and placement guided by corner photographs; mapped road widths and all positions remain estimates.",
+      "sources": [
+        "tile",
+        "e7-2024",
+        "saifee-2025",
+        "building-241829631"
+      ],
+      "signals": [
+        [
+          -11.8,
+          220.9
+        ],
+        [
+          12.0,
+          235.4
+        ]
+      ],
+      "mailboxes": [
+        [
+          -28.5,
+          221.1
+        ],
+        [
+          -27.5,
+          221.1
+        ]
+      ],
+      "bins": [
+        [
+          -11.85,
+          217.3
+        ],
+        [
+          12.15,
+          218.1
+        ],
+        [
+          12.05,
+          239.1
+        ],
+        [
+          -13.2,
+          238.1
+        ]
+      ]
+    }
   },
   "geographyAudit": {
     "checked": "2026-09-06",

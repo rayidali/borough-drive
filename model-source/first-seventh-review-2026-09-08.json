@@ -1,0 +1,616 @@
+{
+  "date": "2026-09-09T02:12:59.577Z",
+  "url": "http://127.0.0.1:5173",
+  "errors": [],
+  "consoleErrors": [],
+  "warnings": [
+    "RGBELoader has been deprecated. Please use HDRLoader instead."
+  ],
+  "failedRequests": [],
+  "viewport": {
+    "width": 1440,
+    "height": 1000,
+    "deviceScaleFactor": 1
+  },
+  "screenshots": [
+    {
+      "name": "first-and-seventh-start",
+      "pose": {
+        "x": 0,
+        "z": 228,
+        "yaw": 0,
+        "mode": "walk",
+        "ready": true,
+        "tiles": [
+          "block-4-1",
+          "block-4-2",
+          "block-5-1",
+          "block-5-2",
+          "edge-south"
+        ]
+      },
+      "file": "docs/images/first-seventh-review-06/first-and-seventh-start.png",
+      "sha256": "2726872f954045869167491f8aee9726fbd9cf3ddc1ae9579ccd2bf6967b925e"
+    },
+    {
+      "name": "seventh-nw",
+      "pose": {
+        "x": -3,
+        "z": 232,
+        "yaw": -0.8124186125847132,
+        "mode": "walk",
+        "ready": true,
+        "tiles": [
+          "block-4-1",
+          "block-4-2",
+          "block-5-1",
+          "block-5-2",
+          "edge-south"
+        ]
+      },
+      "file": "docs/images/first-seventh-nw-revision-06.png",
+      "sha256": "521441ac11c03e884d070300757b73f2b64b4fa939accc62b732dcdf459c1b26"
+    },
+    {
+      "name": "seventh-ne",
+      "pose": {
+        "x": 2,
+        "z": 233,
+        "yaw": 0.8353565591193911,
+        "mode": "walk",
+        "ready": true,
+        "tiles": [
+          "block-4-1",
+          "block-4-2",
+          "block-5-1",
+          "block-5-2",
+          "edge-south"
+        ]
+      },
+      "file": "docs/images/first-seventh-ne-revision-06.png",
+      "sha256": "a3d4c294b37d8dee88c3a6bbf3ceda15baed150c81ced6b44ded2d570b433812"
+    },
+    {
+      "name": "seventh-sw",
+      "pose": {
+        "x": -3,
+        "z": 222,
+        "yaw": -2.234842489621581,
+        "mode": "walk",
+        "ready": true,
+        "tiles": [
+          "block-4-1",
+          "block-4-2",
+          "block-5-1",
+          "block-5-2",
+          "edge-south"
+        ]
+      },
+      "file": "docs/images/first-seventh-sw-revision-06.png",
+      "sha256": "d25138e5a4430bdd19aa42e6ec83a15627d07d6a2a2d97918cbc34d2d8231c3d"
+    },
+    {
+      "name": "seventh-se",
+      "pose": {
+        "x": 1,
+        "z": 224,
+        "yaw": 2.3062360944704023,
+        "mode": "walk",
+        "ready": true,
+        "tiles": [
+          "block-4-1",
+          "block-4-2",
+          "block-5-1",
+          "block-5-2",
+          "edge-south"
+        ]
+      },
+      "file": "docs/images/first-seventh-se-revision-06.png",
+      "sha256": "6fadc76bd682fe751a971537b16bf798e676c05d762a206cc82a116e6d39caeb"
+    },
+    {
+      "name": "tile-bar",
+      "pose": {
+        "x": -5.640801892747861,
+        "z": 216.0556579791403,
+        "yaw": -1.5776748202812076,
+        "mode": "walk",
+        "ready": true,
+        "tiles": [
+          "block-4-1",
+          "block-4-2",
+          "block-5-1",
+          "block-5-2",
+          "edge-south"
+        ]
+      },
+      "file": "docs/images/tile-bar-revision-06.png",
+      "sha256": "3a624f4ec0b5e1f90d2d50f62bf330ea51e1e3e2ea5cf757321f4824b0b6c459"
+    },
+    {
+      "name": "hen-house",
+      "pose": {
+        "x": 6.40530112312188,
+        "z": 213.7565636326544,
+        "yaw": 1.569621852586123,
+        "mode": "walk",
+        "ready": true,
+        "tiles": [
+          "block-4-1",
+          "block-4-2",
+          "block-5-1",
+          "block-5-2",
+          "edge-south"
+        ]
+      },
+      "file": "docs/images/first-seventh-review-06/hen-house.png",
+      "sha256": "355925581ace28f5192cb1ad94aae83c7631e1c916a495546e7e7905423ff6f2"
+    },
+    {
+      "name": "yubu",
+      "pose": {
+        "x": -34.990237771476245,
+        "z": 228.35937534085662,
+        "yaw": -3.1413413594301334,
+        "mode": "walk",
+        "ready": true,
+        "tiles": [
+          "block-4-1",
+          "block-4-2",
+          "block-5-1",
+          "block-5-2",
+          "edge-south"
+        ]
+      },
+      "file": "docs/images/first-seventh-review-06/yubu.png",
+      "sha256": "f500d89b91f02b256d4182ab7e4bcfc1d65b1e7d85a4f45fe34676897ce778b2"
+    },
+    {
+      "name": "e7-deli",
+      "pose": {
+        "x": 6.410026031777528,
+        "z": 217.77956085801242,
+        "yaw": 1.569621852586123,
+        "mode": "walk",
+        "ready": true,
+        "tiles": [
+          "block-4-1",
+          "block-4-2",
+          "block-5-1",
+          "block-5-2",
+          "edge-south"
+        ]
+      },
+      "file": "docs/images/first-seventh-review-06/e7-deli.png",
+      "sha256": "2f9c44f33f48860ac49ed8bd24dd44c66743f48d19a936945e90cfc78ad98f73"
+    },
+    {
+      "name": "monkey-sushi",
+      "pose": {
+        "x": 6.397561339865426,
+        "z": 207.16656817774285,
+        "yaw": 1.569621852586123,
+        "mode": "walk",
+        "ready": true,
+        "tiles": [
+          "block-4-1",
+          "block-4-2",
+          "block-5-1",
+          "block-5-2",
+          "edge-south"
+        ]
+      },
+      "file": "docs/images/first-seventh-review-06/monkey-sushi.png",
+      "sha256": "660e3e130f2e955317021bc08a1eb06bb1aad8d81703cf56ee62cf19652ce9c0"
+    },
+    {
+      "name": "7th-street-burger",
+      "pose": {
+        "x": 32.33574413900874,
+        "z": 228.42375897982092,
+        "yaw": -0.00252989340662315,
+        "mode": "walk",
+        "ready": true,
+        "tiles": [
+          "block-4-1",
+          "block-4-2",
+          "block-5-1",
+          "block-5-2",
+          "edge-south"
+        ]
+      },
+      "file": "docs/images/first-seventh-review-06/7th-street-burger.png",
+      "sha256": "2378eb0ad626fb0d2148f98ad19ae7787d1f8ec35a97a84cb9a07be71d13e0cf"
+    },
+    {
+      "name": "e-smoke",
+      "pose": {
+        "x": -7.575673933743953,
+        "z": 240.15708887003834,
+        "yaw": -1.575178419691825,
+        "mode": "walk",
+        "ready": true,
+        "tiles": [
+          "block-4-1",
+          "block-4-2",
+          "block-5-1",
+          "block-5-2",
+          "edge-south"
+        ]
+      },
+      "file": "docs/images/first-seventh-review-06/e-smoke.png",
+      "sha256": "1d128277c89504446d8e2e753f12f4b3c47f829e5a033b82a817ee797eae3b15"
+    },
+    {
+      "name": "saifee",
+      "pose": {
+        "x": 7.059991834934314,
+        "z": 245.54218964256242,
+        "yaw": 1.5717195454893633,
+        "mode": "walk",
+        "ready": true,
+        "tiles": [
+          "block-4-1",
+          "block-4-2",
+          "block-5-1",
+          "block-5-2",
+          "edge-south"
+        ]
+      },
+      "file": "docs/images/saifee-revision-06.png",
+      "sha256": "c5a1e276e90646582b2cdbe397c6de3302f9d88d9b08282c1a5902239ae1c508"
+    },
+    {
+      "name": "elevation-tile-first",
+      "pose": {
+        "x": 1.3591219297610024,
+        "z": 216.0205085968855,
+        "yaw": -1.577674820281207,
+        "mode": "walk",
+        "ready": true,
+        "tiles": [
+          "block-4-1",
+          "block-4-2",
+          "block-5-1",
+          "block-5-2",
+          "edge-south"
+        ]
+      },
+      "file": "docs/images/first-seventh-review-06/elevation-tile-first.png",
+      "sha256": "fac99f50e153b2e0099b6369eae09fdd276586e60a715598490b9405ab1ac60f"
+    },
+    {
+      "name": "elevation-tile-seventh",
+      "pose": {
+        "x": -22.102029990835533,
+        "z": 234.84888191959809,
+        "yaw": -0.0038453698945986,
+        "mode": "walk",
+        "ready": true,
+        "tiles": [
+          "block-4-1",
+          "block-4-2",
+          "block-5-1",
+          "block-5-2",
+          "edge-south"
+        ]
+      },
+      "file": "docs/images/first-seventh-review-06/elevation-tile-seventh.png",
+      "sha256": "ffbc4d317536c44a442675f597f7a6e8d311187f3c063e9c3a4a5e68a8b43cf2"
+    },
+    {
+      "name": "elevation-deli-first",
+      "pose": {
+        "x": -1.8609880993170194,
+        "z": 211.8122708329479,
+        "yaw": 1.5696218525861236,
+        "mode": "walk",
+        "ready": true,
+        "tiles": [
+          "block-4-1",
+          "block-4-2",
+          "block-5-1",
+          "block-5-2",
+          "edge-south"
+        ]
+      },
+      "file": "docs/images/first-seventh-review-06/elevation-deli-first.png",
+      "sha256": "582f9612f3e8537fc9258368ad257d199d925a033c4cf40cf452c69b95a66dde"
+    },
+    {
+      "name": "elevation-deli-seventh",
+      "pose": {
+        "x": 25.247683680421336,
+        "z": 236.70571750185883,
+        "yaw": -0.002529893406622886,
+        "mode": "walk",
+        "ready": true,
+        "tiles": [
+          "block-4-1",
+          "block-4-2",
+          "block-5-1",
+          "block-5-2",
+          "edge-south"
+        ]
+      },
+      "file": "docs/images/first-seventh-review-06/elevation-deli-seventh.png",
+      "sha256": "01d0a881180ae0e67c3c80fef2f0fc62827434c7aeb5674c6f9aef7ac1b8da41"
+    },
+    {
+      "name": "elevation-smoke-first",
+      "pose": {
+        "x": 0.7923333637056125,
+        "z": 240.1404194420083,
+        "yaw": -1.5751784196918253,
+        "mode": "walk",
+        "ready": true,
+        "tiles": [
+          "block-4-1",
+          "block-4-2",
+          "block-5-1",
+          "block-5-2",
+          "edge-south"
+        ]
+      },
+      "file": "docs/images/first-seventh-review-06/elevation-smoke-first.png",
+      "sha256": "952126a5ac9ab1181bb3b9105b612c384973c2db3611b17e33ad907e77cf4d64"
+    },
+    {
+      "name": "elevation-smoke-seventh",
+      "pose": {
+        "x": -26.53213520896328,
+        "z": 219.99350054846272,
+        "yaw": -3.141341359430134,
+        "mode": "walk",
+        "ready": true,
+        "tiles": [
+          "block-4-1",
+          "block-4-2",
+          "block-5-1",
+          "block-5-2",
+          "edge-south"
+        ]
+      },
+      "file": "docs/images/first-seventh-review-06/elevation-smoke-seventh.png",
+      "sha256": "a4788b3de3619c04a906f6b5d3c45218d97cb0c4df2a35b24aafdb9ec8d3d42b"
+    },
+    {
+      "name": "elevation-saifee-corner-first",
+      "pose": {
+        "x": 0.06500551709847535,
+        "z": 239.8662128964226,
+        "yaw": 1.5716267189644206,
+        "mode": "walk",
+        "ready": true,
+        "tiles": [
+          "block-4-1",
+          "block-4-2",
+          "block-5-1",
+          "block-5-2",
+          "edge-south"
+        ]
+      },
+      "file": "docs/images/first-seventh-review-06/elevation-saifee-corner-first.png",
+      "sha256": "513db51f791b064e724bb0581202e67423df1d91562bbc8654ded15388b8cd6e"
+    },
+    {
+      "name": "elevation-saifee-corner-seventh",
+      "pose": {
+        "x": 26.553215159154036,
+        "z": 221.48651757527972,
+        "yaw": -3.1401111731921554,
+        "mode": "walk",
+        "ready": true,
+        "tiles": [
+          "block-4-1",
+          "block-4-2",
+          "block-5-1",
+          "block-5-2",
+          "edge-south"
+        ]
+      },
+      "file": "docs/images/first-seventh-review-06/elevation-saifee-corner-seventh.png",
+      "sha256": "7ec12b5407ed63aaac83316fecdfbe364cee2a024beb1d8ae3db6e7792778447"
+    },
+    {
+      "name": "elevation-saifee-main-first",
+      "pose": {
+        "x": -2.327192162715619,
+        "z": 245.52052321080504,
+        "yaw": 1.5717195454893622,
+        "mode": "walk",
+        "ready": true,
+        "tiles": [
+          "block-4-1",
+          "block-4-2",
+          "block-5-1",
+          "block-5-2",
+          "edge-south"
+        ]
+      },
+      "file": "docs/images/first-seventh-review-06/elevation-saifee-main-first.png",
+      "sha256": "a38195864b6e276a7606c5b68f2a097843e19d918734e177458b8dba6c23e50a"
+    }
+  ],
+  "initial": {
+    "x": 0,
+    "z": 228,
+    "yaw": 0,
+    "mode": "walk",
+    "ready": true,
+    "tiles": [
+      "block-5-1",
+      "block-5-2",
+      "edge-south"
+    ]
+  },
+  "driven": {
+    "x": -0.29,
+    "z": 227.15800883959432,
+    "yaw": 0,
+    "mode": "drive",
+    "ready": true,
+    "tiles": [
+      "block-4-1",
+      "block-4-2",
+      "block-5-1",
+      "block-5-2",
+      "edge-south"
+    ]
+  },
+  "driveReset": {
+    "x": -0.29,
+    "z": 228,
+    "yaw": 0,
+    "mode": "drive",
+    "ready": true,
+    "tiles": [
+      "block-4-1",
+      "block-4-2",
+      "block-5-1",
+      "block-5-2",
+      "edge-south"
+    ]
+  },
+  "walkReset": {
+    "x": 0,
+    "z": 228,
+    "yaw": 0,
+    "mode": "walk",
+    "ready": true,
+    "tiles": [
+      "block-4-1",
+      "block-4-2",
+      "block-5-1",
+      "block-5-2",
+      "edge-south"
+    ]
+  },
+  "assets": {
+    "block-5-1": {
+      "bytes": 4767568,
+      "sha256": "66836190ee5f4e310cc85e9d35e9cafe291b849b342403676a298507df61d4b3",
+      "signature": "e6105b7ed2815db60a606b945aaae7c4282021b7db831bf8feb42eba86b0ab4b"
+    },
+    "block-5-2": {
+      "bytes": 4305720,
+      "sha256": "caf71241479617848ad306b0cbea0777eab792c0f99e34ef77f6f27de08d0c77",
+      "signature": "749c9af6295201dc6b20460d54c5b199863926ce8225c6bf069af570f21d418b"
+    },
+    "edge-south": {
+      "bytes": 6395896,
+      "sha256": "c886b698d7f8a13b337e3107eb4332076abafd5eafe885349103597aff3a4a4d",
+      "signature": "df9c5076501f6fbae4cbd24e387a0eb5963173ede0a1f97abbef7c3121b980e1"
+    }
+  },
+  "performance": [
+    {
+      "frames": 120,
+      "seconds": 4.799699999999997,
+      "fps": 25.001562597662367,
+      "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M1, Unspecified Version)",
+      "pixelRatio": 1,
+      "ao": true,
+      "quality": "detail",
+      "samples": 4,
+      "glassTransmission": [
+        0.96
+      ]
+    },
+    {
+      "frames": 120,
+      "seconds": 2.1332999999999958,
+      "fps": 56.250878919983236,
+      "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M1, Unspecified Version)",
+      "pixelRatio": 1,
+      "ao": false,
+      "quality": "fast",
+      "samples": 2,
+      "glassTransmission": [
+        0
+      ]
+    }
+  ],
+  "graphics": {
+    "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M1, Unspecified Version)",
+    "pixelRatio": 1,
+    "ao": true,
+    "quality": "detail",
+    "samples": 4
+  },
+  "baselineGameplayCommit": "63757cbbb13749584e761e4bf7a8e655f90b1bd4",
+  "sourceCommit": "See CODEX-HANDOFF.md or git log -- model-source/first-seventh-review-2026-09-08.json; the review is included with the source commit.",
+  "scope": "Five buildings, nine exposed elevations, eight shops at First Avenue / East 7th Street. Local comparison pass; user acceptance pending.",
+  "referenceRecord": "model-source/first-and-seventh.json",
+  "streetViewVerified": false,
+  "comparisonLimits": [
+    "Latest accessible photographs differ by exterior and date; Google panorama was unavailable.",
+    "Matched optical calibration, surveyed dimensions, exact fonts/artwork/material samples and occluded details are not established.",
+    "The 22 saved screenshots are actual game captures with normal UI, some tree/car occlusions and no image retouching.",
+    "Performance samples are 120 stationary frames at the southeast corner on one device, not sustained driving benchmarks."
+  ],
+  "validation": {
+    "npmRunVerify": true,
+    "node": "v24.15.0",
+    "cleanPrepareCompile": true,
+    "generatedAuditsMatched": 3,
+    "roadSamples": 2308,
+    "mappedBuildingObjects": 615,
+    "photoObservedNonCoreBuildings": 411,
+    "namedPlaces": 214,
+    "nonCoreIndividualShops": 27,
+    "nonCoreNamesWithEstimatedDesigns": 177,
+    "neighborhoodGLBMiB": 51.78,
+    "neighborhoodTriangles": 9389484,
+    "largestMaterialBatches": 62,
+    "javascriptErrors": 0,
+    "consoleErrors": 0,
+    "failedHTTPResponses": 0
+  },
+  "preservedFiles": [
+    "dist/reconstruction/first-and-10th.glb",
+    "model-source/build_intersection.py",
+    "dist/reconstruction/vehicle.js",
+    "dist/reconstruction/references/ne-e10th-side-2022-05-26-1920.jpg",
+    "dist/reconstruction/references/ne-beron-beron-2025-05-16.jpg",
+    "dist/reconstruction/references/Tarallucci_in_the_Rain_(51286241651).jpg",
+    "dist/reconstruction/references/new-theatre-building-2021-06-06-1920.jpg",
+    "dist/reconstruction/references/sw-159-first-2021-09-06.jpg",
+    "dist/reconstruction/references/First_and_10th_(51645797940).jpg"
+  ],
+  "mappedGeometryHeightsRoadsPreserved": true,
+  "signatureOnlyReexports": [
+    "block-2-1",
+    "block-2-2",
+    "block-3-1",
+    "block-3-2",
+    "block-4-2",
+    "edge-east"
+  ],
+  "runtimeAssets": {
+    "dist/index.html": {
+      "bytes": 10806,
+      "sha256": "978a011812d6ca4cd67c59c98609ed13391418a66ea87c47a405e12a19b425ab"
+    },
+    "dist/reconstruction/viewer.js": {
+      "bytes": 21508,
+      "sha256": "5cc812b840c19f7372440e76081f768dcb0f74f7ee9a376791d25a8ede061bad"
+    },
+    "dist/reconstruction/viewer.css": {
+      "bytes": 12137,
+      "sha256": "0bb74a28c7bae8c8b24102c516a173a294b03ad4c1fe5cc25c42ef80c926d17b"
+    },
+    "dist/reconstruction/neighborhood-render.js": {
+      "bytes": 17641,
+      "sha256": "132a4b6e5b5174d459b0d45749eb9ae1aae7f64bf3f284595c62db9f34727c10"
+    },
+    "dist/reconstruction/neighborhood.json": {
+      "bytes": 1846890,
+      "sha256": "a55185241f6daa1fe726f9cc508893dc7894b35f4f9fd67a7a7764510310a0d5"
+    },
+    "dist/reconstruction/neighborhood-sources.json": {
+      "bytes": 1139440,
+      "sha256": "fe51a13ace59aaaecce614d91ae38d0ea8c6fb828ccabcf31b4a06865415d35c"
+    }
+  }
+}

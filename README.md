@@ -31,13 +31,11 @@ The playable area runs from **East 7th to East 12th Street**, between **Second A
 - **Recognize local landmarks.** Distinct forms include Ottendorfer Library, Village East Cinema, the Orpheum, and neighborhood churches.
 - **Run it locally.** All runtime libraries, models, textures, and map data are included. The game needs no backend, API key, or live map service.
 
-The published [storefront pass 05](model-source/STOREFRONT-PASS-05.md) adds individual exterior designs at **22 businesses** and separate controls for **26 building elevations** across nine rebuilt sections. It includes observed awnings, projecting signs, illuminated lettering, doors, boards and outdoor furniture. This is a partial improvement: **178 supported names outside the core still use estimated shop designs**, and the revised shops also contain unmeasured details.
+The local [First & 7th study, revision 06](model-source/FIRST-SEVENTH-PASS-06.md), concentrates on **five buildings, nine exposed elevations and eight shops across the four corners**. It adds individual window/lintel layouts, Saifee's two different building heights, Tile Bar's tiled entrance and seating, shop signs, doors, display inventory and street hardware. The rest of the map keeps its existing designs.
 
-The underlying [accuracy revision 04](model-source/ACCURACY-PASS-04.md) restored five missing buildings and brought partial photographic observations to 410 buildings beyond the core. All fourteen sections retain recessed facades and dated business records; street dressing includes 235 additional small objects.
+![Actual game view of the revised First and 7th southeast corner](docs/images/first-seventh-se-revision-06.png)
 
-![Actual browser view starting at First Avenue and East 7th Street, facing north through the neighborhood](docs/images/first-and-seventh-revision-05.png)
-
-*Revision 05 in the browser. See [Tile Bar](docs/images/tile-bar-revision-05.png) and [Hen House](docs/images/hen-house-revision-05.png) for closer game views. These are unedited game captures, not reference photographs or proof of 1:1 accuracy. [Image and model credits](dist/reconstruction/ASSET-CREDITS.md).*
+*Revision 06, captured in the actual browser game with Detailed graphics. [Northwest](docs/images/first-seventh-nw-revision-06.png), [northeast](docs/images/first-seventh-ne-revision-06.png), [southwest](docs/images/first-seventh-sw-revision-06.png), [Tile Bar](docs/images/tile-bar-revision-06.png) and [Saifee](docs/images/saifee-revision-06.png). These are game captures, not street photographs. The new pass is local; the online deployment still uses [pass 05](model-source/STOREFRONT-PASS-05.md). [Credits](dist/reconstruction/ASSET-CREDITS.md).*
 
 ## Get started
 
@@ -68,6 +66,8 @@ If port 5173 is occupied, run `npm run dev -- 5174`. See [START-HERE.md](START-H
 | Brake | Space |
 | Open the travel map | M |
 | Return to First & 7th | R |
+| Inspect its four corners | First & 7th detail-study buttons |
+| Choose rendering quality | Graphics selector; Detailed is the default |
 
 ![Southwest corner model showing ornate masonry, black fire escapes, the theater frontage, and the tower behind it](dist/reconstruction/southwest-render.png)
 
@@ -114,13 +114,14 @@ The [neighborhood notes](model-source/NEIGHBORHOOD-NOTES.md#rebuild-order) expla
 
 ## Accuracy and sources
 
-This is a reconstruction prototype with uneven detail. The map contains **615 building objects**, including annexes and boundary context. **410 additional building records have photographic observations**, ranging from individual storefront details to fuller elevations. This does not verify every elevation or every modeled detail.
+This is a reconstruction prototype with uneven detail. The map contains **615 building objects**, including annexes and boundary context. **411 additional building records have photographic observations**, ranging from individual storefront details to fuller elevations. This does not verify every elevation or every modeled detail.
 
-OpenStreetMap's **September 5, 2026** snapshot is supplemented by NYC OTI building footprints and roof heights and DCP's **PLUTO 26v2** parcel records. All 620 municipal footprint records in the extracted area have an explicit match; five missing buildings were restored. Business baseline checks are dated **September 6, 2026**; September 8 identity corrections leave **210 supported named places, including 200 outside the core**. Architectural photographs include older archive views with unknown capture dates. Secondary facades, road widths, trees, street furniture, shop partitions and interiors include estimates. Some preserved signs are explicitly historical.
+OpenStreetMap's **September 5, 2026** snapshot is supplemented by NYC OTI building footprints and roof heights and DCP's **PLUTO 26v2** parcel records. All 620 municipal footprint records in the extracted area have an explicit match; five missing buildings were restored. Business baseline checks are dated **September 6, 2026**; September 8 identity corrections leave **214 supported named places, including 204 outside the core**. Architectural photographs include older archive views with unknown capture dates. There are now 27 individual non-core shop designs; 177 supported names still use estimated designs. First & 7th uses the latest accessible photographs found per building or shop; Google Street View panoramas were unavailable. Secondary facades, road widths, trees, street furniture, shop partitions and interiors include estimates. Some preserved signs are explicitly historical.
 
 Observations, occupancy claims, and inferred geometry are recorded separately. Unknown occupants stay unnamed, and photographic references keep their dates, authors, and reuse terms.
 
 - [Neighborhood scope, landmarks, and known gaps](model-source/NEIGHBORHOOD-NOTES.md)
+- [First & 7th revision 06](model-source/FIRST-SEVENTH-PASS-06.md), [individual corner records](model-source/first-and-seventh.json)
 - [Published storefront pass 05](model-source/STOREFRONT-PASS-05.md), [individual designs and photo sources](model-source/storefront-details.json), and [all 641 non-core street frontages](model-source/digital-twin-coverage.json)
 - [Accuracy audit, corrections and evidence limits](model-source/ACCURACY-PASS-04.md)
 - [Core facade observations](model-source/FACADE-NOTES.md) and [storefront references](model-source/CURRENT-STOREFRONTS.md)
@@ -132,9 +133,9 @@ Observations, occupancy claims, and inferred geometry are recorded separately. U
 
 ## Resume development
 
-Read [AGENTS.md](AGENTS.md), the current [handoff](CODEX-HANDOFF.md), the latest [session log](SESSION-LOG.md), and [START-HERE.md](START-HERE.md) before continuing an existing session. The gameplay/model baseline is [`63757cb`](https://github.com/rayidali/borough-drive/commit/63757cbbb13749584e761e4bf7a8e655f90b1bd4), published September 8, 2026; documentation commits follow it. [Publication evidence](model-source/publication-review-2026-09-08.json) records the live file comparison.
+Read [AGENTS.md](AGENTS.md), the current [handoff](CODEX-HANDOFF.md), the latest [session log](SESSION-LOG.md), and [START-HERE.md](START-HERE.md) before continuing an existing session. The previously published gameplay/model baseline is [`63757cb`](https://github.com/rayidali/borough-drive/commit/63757cbbb13749584e761e4bf7a8e655f90b1bd4), published September 8, 2026; documentation commits follow it. [Publication evidence](model-source/publication-review-2026-09-08.json) records the live file comparison.
 
-At this checkpoint, further modeling is paused for the user's review. The whole-map digital-twin objective remains unfinished. Recording an evidence gap or adding a business name does not resolve the corresponding visual work. Resume with the user's next instruction, preserving the First & 10th standard throughout the requested scope.
+The user resumed work specifically at First & 7th. Revision 06 is the local comparison pass; review this intersection before extending block by block. The whole-map digital-twin objective remains unfinished. Recording an evidence gap or adding a business name does not resolve the corresponding visual work. Resume with the user's next instruction, preserving the First & 10th standard throughout the requested scope.
 
 ## Contributing
 

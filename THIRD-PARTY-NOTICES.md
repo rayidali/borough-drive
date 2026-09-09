@@ -37,3 +37,7 @@ Published storefront pass 05 adds observation records from Tile Bar's website, E
 Building names, business names, and signs identify the reconstructed places. Their presence does not imply affiliation or endorsement, and MIT does not grant rights in third-party trademarks or other third-party material.
 
 The detailed [asset credits](dist/reconstruction/ASSET-CREDITS.md), vendor notices, and [architectural research records](model-source/neighborhood-references/) remain part of every source distribution.
+
+## First & Seventh observation pass 06
+
+The local September 8, 2026 study adds photographic observations from Tile Bar, Village Preservation, EV Grieve (including credited Stacie Joy and Rainer Turim photographs), eastvillage.com and the E Smoke business/listing sources. [first-and-seventh.json](model-source/first-and-seventh.json) preserves exact source/image URLs, available dates, observations, access limitations and reuse status. New reference photographs are not included in game assets or repository screenshots. Modeled lettering and mural color fields are interpretations; they are not licensed reproductions of exact shop artwork. Existing photograph, font, material and geographic licenses remain in force. The new comparison screenshots are unedited captures of the running game.

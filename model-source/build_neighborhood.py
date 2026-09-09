@@ -58,6 +58,7 @@ def clear_meshes():
 # Install the higher-detail components without editing the accepted core kit.
 exec(compile((ROOT/'model-source/neighborhood_detail_kit.py').read_text(),str(ROOT/'model-source/neighborhood_detail_kit.py'),'exec'),globals())
 exec(compile((ROOT/'model-source/storefront_detail_kit.py').read_text(),str(ROOT/'model-source/storefront_detail_kit.py'),'exec'),globals())
+exec(compile((ROOT/'model-source/first_seventh_kit.py').read_text(),str(ROOT/'model-source/first_seventh_kit.py'),'exec'),globals())
 
 def render_building(b):
     spec=b.get('facadeSpec',{});photo=bool(spec.get('observed'))
@@ -66,6 +67,7 @@ def render_building(b):
     b['renderHeight']=h
     title=b['address'] or ('Building '+str(b['id']))
     owner(title+' · '+('reference observed' if photo else 'mapped shape; facade details estimated'))
+    if build_first_seventh(b):return
     if build_landmark(b,spec):
         for v in b['frontages']:
             f=Facade(v['x'],v['z'],v['rx'],v['rz'],v['length'])

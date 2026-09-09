@@ -8,7 +8,7 @@ State the requested scope, the part completed here and any remaining work. Do no
 
 For visual changes, include before/after images and identify browser screenshots or Blender renders. For neighborhood corrections, link dated sources and note any estimates.
 
-Identify the building/street and relevant storefront or elevation records. Keep photographic observation, current business evidence and measured dimensions distinct. Preserve credits and photo provenance.
+Identify the building/street and relevant storefront or elevation records. First & 7th changes should reference `model-source/first-and-seventh.json` and include the matching corner view. Keep photographic observation, current business evidence and measured dimensions distinct. Preserve credits and photo provenance.
 
 ## Validation
 

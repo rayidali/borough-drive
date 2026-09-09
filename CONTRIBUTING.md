@@ -11,7 +11,7 @@ Help make these ten East Village blocks more recognizable, comfortable to explor
 
 No dependency installation is required. Blender is optional unless you are regenerating models. Read [AGENTS.md](AGENTS.md), [CODEX-HANDOFF.md](CODEX-HANDOFF.md), the latest [session log](SESSION-LOG.md), [START-HERE.md](START-HERE.md), and [the neighborhood notes](model-source/NEIGHBORHOOD-NOTES.md) before substantial work. When returning to an existing checkout, inspect its branch, recent commits and working tree before editing; preserve uncommitted work.
 
-The September 8 checkpoint is published storefront pass 05, with the start at First & 7th. The owner's modeling session is paused for review. The current handoff controls what happens next; the ideas below are not instructions to resume that paused work.
+The September 8 local pass is First & 7th revision 06. The owner resumed this bounded intersection to establish a visual standard before extending the map. Read [the pass report](model-source/FIRST-SEVENTH-PASS-06.md) and the current handoff for review and publishing state; the online game still uses pass 05.
 
 ## Pick a focused change
 
@@ -54,7 +54,7 @@ Run `npm run verify` for changes to models, roads, controls, module paths, and v
 
 For visible or interactive changes, also open the game and test the affected view or controls. Describe what you actually checked. Screenshots should identify whether they came from the browser or a standalone Blender render.
 
-`scripts/review-storefronts.mjs` can review the current explicit storefront/elevation schedule in an isolated Chrome instance; setup is in [pass 05](model-source/STOREFRONT-PASS-05.md). The existing 56-viewpoint review is historical evidence for `63757cb`, not an automatic test result for later edits. New start/reset behavior should be checked in both walk and drive modes.
+`scripts/review-first-seventh.mjs` reviews the four corner controls, eight shops, nine elevations, driving/reset and two quality modes. `scripts/review-storefronts.mjs` can review the current explicit storefront/elevation schedule in an isolated Chrome instance; setup is in [pass 05](model-source/STOREFRONT-PASS-05.md). The existing 56-viewpoint review is historical evidence for `63757cb`, not an automatic test result for later edits. New start/reset behavior should be checked in both walk and drive modes.
 
 ## Pull requests
 

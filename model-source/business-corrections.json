@@ -42,7 +42,7 @@
     },
     {
       "osmId": 4551161735,
-      "name": "ABRAÇO",
+      "name": "ABRA\u00c7O",
       "buildingId": 241822329,
       "street": "East 7th Street",
       "source": "https://data.cityofnewyork.us/resource/43nn-pn8j.json?camis=50056074",
@@ -121,7 +121,7 @@
       "street": "Avenue A",
       "source": "https://evgrieve.com/2020/09/ralphs-famous-italian-ices-on-today-on.html",
       "sourceDate": "2020-09-11",
-      "basis": "September 8, 2026 visual review: Ralph’s Famous and the researched Ralph’s Italian Ices are the same shop at 145 Avenue A, not two units. Existing dated occupancy evidence retained.",
+      "basis": "September 8, 2026 visual review: Ralph\u2019s Famous and the researched Ralph\u2019s Italian Ices are the same shop at 145 Avenue A, not two units. Existing dated occupancy evidence retained.",
       "checked": "2026-09-08"
     },
     {
@@ -133,6 +133,46 @@
       "sourceDate": "2025-07",
       "basis": "September 8, 2026 visual/address review: mapped node has 151 Avenue A address but fell in 153 footprint. Match the existing researched 151 unit; do not duplicate the restaurant across two buildings.",
       "checked": "2026-09-08"
+    },
+    {
+      "osmId": 2549928447,
+      "name": "E7 Deli & Cafe",
+      "buildingId": 248142707,
+      "street": "First Avenue",
+      "source": "https://eastvillage.com/shopping/e7-deli-cafe/e7-deli/",
+      "sourceDate": "2024-03",
+      "checked": "2026-09-08",
+      "basis": "Public neighborhood listing and Google Maps 118 First address listing checked September 8 2026; exterior documented separately."
+    },
+    {
+      "osmId": 7112935819,
+      "name": "Saifee Hardware & Garden",
+      "buildingId": 248142331,
+      "street": "First Avenue",
+      "source": "https://evgrieve.com/2025/09/sept-5.html",
+      "sourceDate": "2025-09-05",
+      "checked": "2026-09-08",
+      "basis": "Dated on-site photo identifies shop and shared frontage at 114\u2013116 First. Official website no longer resolves; do not use it as fresh occupancy evidence."
+    },
+    {
+      "osmId": 6109307685,
+      "name": "Monkey Sushi",
+      "buildingId": 248142707,
+      "street": "First Avenue",
+      "source": "https://evgrieve.com/2025/07/openings-monkey-sushi-on-1st-avenue.html",
+      "sourceDate": "2025-07-03",
+      "checked": "2026-09-08",
+      "basis": "Photo and reporting identify replacement for Unique Omakase. Google listing checked September 8 2026 calls it Monkey Sushi & Unique Sushi; old uniqueomakase.com redirects to expired-domain page."
+    },
+    {
+      "osmId": 9708208979,
+      "name": "7th Street Burger",
+      "buildingId": 248142707,
+      "street": "East 7th Street",
+      "source": "https://www.toasttab.com/local/order/7th-street-burger-91-e-7th-st",
+      "sourceDate": "2026-09-08",
+      "checked": "2026-09-08",
+      "basis": "Restaurant ordering page lists 91 East 7th Street; independently dated 2025 CB3 reference and 2021 opening/exterior retained in corner source schedule."
     }
   ],
   "cityPlaces": [

@@ -133,6 +133,30 @@ for(const r of storefronts.frontages){
 }
 const recipeHash=crypto.createHash('sha256');for(const name of data.storefrontDetailSummary.recipeFiles)recipeHash.update(fs.readFileSync(path.resolve(root,'../..',name)));
 assert.equal(recipeHash.digest('hex'),data.storefrontDetailSummary.recipeHash,'Compile and rebuild after changing model recipes');
+const corner=JSON.parse(fs.readFileSync(path.resolve(root,'../../model-source/first-and-seventh.json')));
+const cornerHash=crypto.createHash('sha256');for(const name of data.storefrontDetailSummary.cornerRecipeFiles)cornerHash.update(fs.readFileSync(path.resolve(root,'../..',name)));
+assert.equal(cornerHash.digest('hex'),data.storefrontDetailSummary.cornerRecipeHash,'Recompile and rebuild after editing the First & 7th kit');
+assert.deepEqual(corner.buildings.map(b=>b.id).sort(),[241822226,241829631,248142331,248142404,248142707].sort(),'Bounded four-corner benchmark');
+assert.equal(data.cornerDetailSummary.elevations,9);
+assert.equal(data.cornerDetailSummary.streetViewVerified,false,'Photographic comparison must not claim inaccessible Street View verification');
+for(const profile of corner.buildings){
+ const b=byId.get(profile.id);assert(!b.core);assert.equal(b.cornerReconstruction.profile,profile.profile);
+ assert.equal(b.renderHeight,profile.height,'Export uses the individually observed corner height');
+ assert(profile.sources.length&&profile.sources.every(id=>corner.sources[id]));assert(profile.limits);
+ for(const [street,spec] of Object.entries(profile.elevations)){
+  const face=b.frontages.find(f=>f.street===street);assert(face);
+  assert.deepEqual(b.facadeSpec.elevations[street].cornerSchedule,spec);
+  assert.equal(spec.rows.length,profile.floors-1);
+  for(const [bottom,height] of spec.rows)assert(bottom>=3.5&&bottom+height<profile.height,'Residential openings remain above shop signage and below the roof');
+  for(let i=0;i<spec.bays.length;i++){
+   const center=spec.bays[i]*face.length,width=spec.widths?.[i]||spec.width;
+   assert(center-width/2>0&&center+width/2<face.length,'Individual windows fit the mapped elevation');
+  }
+ }
+}
+assert(byId.get(248142404).renderHeight<byId.get(248142331).renderHeight-3,'Saifee corner stays distinctly lower than 114 First');
+const seventhNames=corner.buildings.flatMap(p=>byId.get(p.id).businesses).filter(b=>b.renderName).map(b=>b.name);
+for(const name of ['E7 Deli & Cafe','Monkey Sushi','Saifee Hardware & Garden'])assert(seventhNames.includes(name),'Supported corner tenant: '+name);
 for(const [tile,signature] of Object.entries(data.storefrontDetailSummary.tileSignatures)){
  const entry=data.tiles.find(t=>t.id===tile),buf=fs.readFileSync(path.join(root,entry.url));
  const gltf=JSON.parse(buf.subarray(20,20+buf.readUInt32LE(12)));

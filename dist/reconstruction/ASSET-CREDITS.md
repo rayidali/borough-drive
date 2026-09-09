@@ -2,7 +2,7 @@
 
 This is a photo-guided reconstruction. It is not survey-accurate or a current-day capture. Source photographs and generated model renders are distinguished in the viewer.
 
-**Published scope, September 8, 2026:** Gameplay/model baseline `63757cbbb13749584e761e4bf7a8e655f90b1bd4` includes the preserved First & 10th core, a First & 7th start, 22 additional individual storefront designs and 26 elevation schedules. The full map remains uneven; 178 supported non-core names retain estimated designs. [Core photographic provenance](references.json), [neighborhood sources](neighborhood-sources.json), and the [source-repository handoff](https://github.com/rayidali/borough-drive/blob/main/CODEX-HANDOFF.md) distinguish references, implemented work, remaining gaps and the current review pause.
+**Local study, September 8, 2026:** First & 7th revision 06 adds five individual building profiles, nine elevations and eight shop treatments across the four corners. There are 27 individual non-core shop designs and 177 supported names with estimated designs across the map. The previously published gameplay/model baseline is `63757cbbb13749584e761e4bf7a8e655f90b1bd4`; the new local pass has not been pushed or deployed. [Neighborhood sources](neighborhood-sources.json) include `cornerDetails`, with the dated evidence and access limits. The [source-repository handoff](https://github.com/rayidali/borough-drive/blob/main/CODEX-HANDOFF.md) records checkpoint/publishing states.
 
 ## Geographic data
 
@@ -92,3 +92,14 @@ New source photographs were inspected from Tile Bar's website, EV Grieve, Kevin 
 Script sign meshes use **Damion Regular**, Copyright 2014 The Damion Project Authors (https://github.com/googlefonts/damionFont), SIL Open Font License 1.1. The font and complete license are preserved in the source repository's `model-source/fonts/`; a runtime copy of the notice is at [DAMION-OFL.txt](DAMION-OFL.txt). Source: https://github.com/google/fonts/tree/main/ofl/damion (retrieved September 8, 2026). Typeface substitution, object dimensions, paint values and unseen details remain estimates; business sign/logotype designs are not claimed as original project artwork.
 
 Revision 05's three images in the repository's `docs/images/` are unedited captures of the actual browser game, with its existing adaptive graphics settings. They carry the same model/geographic credits and are not real photographs or new photographic textures. Their review conditions and limitations are recorded in `model-source/storefront-review-2026-09-08.json`. Older reports and images retain their original dates; this documentation refresh does not assert a new street survey or change existing licenses.
+
+## First & Seventh study 06 — September 8, 2026
+
+- Tile Bar's official exterior image (July 26, 2023 filename; unconfirmed capture date): [tilebarnyc.com](https://www.tilebarnyc.com/).
+- Individual corner architecture: [Village Preservation / Building Blocks](https://buildingblocks.villagepreservation.org/). Archive upload paths are from 2012; capture dates are generally unknown.
+- Saifee exterior and lights: [EV Grieve, September 5, 2025](https://evgrieve.com/2025/09/sept-5.html); additional 2024 plant-display photographs, including Rainer Turim, are linked in the source manifest.
+- Tenant change and surviving Unique exterior: [EV Grieve / Stacie Joy, Monkey Sushi, July 3, 2025](https://evgrieve.com/2025/07/openings-monkey-sushi-on-1st-avenue.html).
+- E7 Deli: [eastvillage.com](https://eastvillage.com/shopping/e7-deli-cafe/e7-deli/), image upload March 2024; capture date unknown.
+- Hen House, Yubu and 7th Street Burger: dated EV Grieve articles listed in `cornerDetails.sources`; E Smoke: official business site and business-credited listing photos with unknown dates.
+
+These photographs were inspected for authored geometry and are not redistributed. Google Street View was unavailable during this review. Small labels, precise murals, some return elevations, material colors and all unmeasured dimensions remain interpretations; generic surface assets are not scans of these buildings. Saifee's buff running-bond mortar is authored geometry. Storefront glass reflects the reconstructed intersection. All existing licensed core photo files remain unchanged.

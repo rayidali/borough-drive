@@ -13,9 +13,9 @@
   ],
   "summary": {
     "streetFrontages": 641,
-    "supportedNames": 200,
-    "individualDesigns": 22,
-    "namesStillUsingEstimatedDesigns": 178
+    "supportedNames": 204,
+    "individualDesigns": 27,
+    "namesStillUsingEstimatedDesigns": 177
   },
   "frontages": [
     {
@@ -1806,14 +1806,14 @@
       "tile": "edge-south",
       "street": "First Avenue",
       "hasSomeBuildingPhotoEvidence": true,
-      "separateElevationSchedule": false,
+      "separateElevationSchedule": true,
       "supportedNames": [
         "E Smoke & Convenience"
       ],
-      "individualDesigns": [],
-      "namesStillUsingEstimatedDesigns": [
-        "E Smoke & Convenience"
+      "individualDesigns": [
+        "e-smoke"
       ],
+      "namesStillUsingEstimatedDesigns": [],
       "fullySurveyed": false
     },
     {
@@ -4700,8 +4700,12 @@
       "street": "First Avenue",
       "hasSomeBuildingPhotoEvidence": true,
       "separateElevationSchedule": true,
-      "supportedNames": [],
-      "individualDesigns": [],
+      "supportedNames": [
+        "Saifee Hardware & Garden"
+      ],
+      "individualDesigns": [
+        "saifee"
+      ],
       "namesStillUsingEstimatedDesigns": [],
       "fullySurveyed": false
     },
@@ -4862,8 +4866,8 @@
       "address": "116 1st Avenue",
       "tile": "edge-south",
       "street": "First Avenue",
-      "hasSomeBuildingPhotoEvidence": false,
-      "separateElevationSchedule": false,
+      "hasSomeBuildingPhotoEvidence": true,
+      "separateElevationSchedule": true,
       "supportedNames": [],
       "individualDesigns": [],
       "namesStillUsingEstimatedDesigns": [],
@@ -4874,8 +4878,8 @@
       "address": "116 1st Avenue",
       "tile": "edge-south",
       "street": "East 7th Street",
-      "hasSomeBuildingPhotoEvidence": false,
-      "separateElevationSchedule": false,
+      "hasSomeBuildingPhotoEvidence": true,
+      "separateElevationSchedule": true,
       "supportedNames": [],
       "individualDesigns": [],
       "namesStillUsingEstimatedDesigns": [],
@@ -6051,8 +6055,12 @@
       "street": "East 7th Street",
       "hasSomeBuildingPhotoEvidence": true,
       "separateElevationSchedule": true,
-      "supportedNames": [],
-      "individualDesigns": [],
+      "supportedNames": [
+        "7th Street Burger"
+      ],
+      "individualDesigns": [
+        "7th-street-burger"
+      ],
       "namesStillUsingEstimatedDesigns": [],
       "fullySurveyed": false
     },
@@ -6064,10 +6072,14 @@
       "hasSomeBuildingPhotoEvidence": true,
       "separateElevationSchedule": true,
       "supportedNames": [
-        "Hen House NYC"
+        "E7 Deli & Cafe",
+        "Hen House NYC",
+        "Monkey Sushi"
       ],
       "individualDesigns": [
-        "hen-house"
+        "e7-deli",
+        "hen-house",
+        "monkey-sushi"
       ],
       "namesStillUsingEstimatedDesigns": [],
       "fullySurveyed": false

@@ -4,7 +4,7 @@ The repository includes the active ten-block game, exported models, textures, re
 
 ## Resume state — September 8, 2026
 
-The [published game](https://borough-drive.vercel.app) uses gameplay/model commit `63757cbbb13749584e761e4bf7a8e655f90b1bd4`: First & 7th start/reset, 22 individual storefront designs and 26 elevation schedules. The full-map 1:1 objective is unfinished; 178 supported non-core names still have estimated shop designs. **Further modeling is paused while the user reviews the published pass and decides the next step.** Documentation updates do not resume that work.
+The local checkout contains [First & 7th revision 06](model-source/FIRST-SEVENTH-PASS-06.md): five individual building profiles, nine exposed elevations and eight shops across its four corners. The user asked to establish the standard here before extending block by block. This pass is available locally for comparison; it has not been pushed or deployed. The [published game](https://borough-drive.vercel.app) still uses gameplay/model commit `63757cbbb13749584e761e4bf7a8e655f90b1bd4`.
 
 Read the current [handoff](CODEX-HANDOFF.md) and latest [session log](SESSION-LOG.md), then run `git status --short --branch` and `git log -5 --oneline`. Preserve local changes and check the recorded publishing state before pulling or pushing. Existing models are included; old servers, temporary photo folders and browser sessions are not needed to recover the project.
 
@@ -45,6 +45,8 @@ If an earlier deployment shows `404: NOT_FOUND`, deploy the latest commit contai
 - On foot: W/A/S/D to move, drag to look, Q/E to turn.
 - Click **Drive**: W to accelerate, S to brake and then reverse, A/D to steer, Space to brake.
 - M opens the travel map.
+- First & 7th detail-study buttons frame each of the four corners.
+- Graphics defaults to Detailed; choose Faster for lower GPU cost. Automatic adapts after loading.
 - Start at First Avenue and East 7th Street, facing north. R returns here in either mode.
 
 ## Troubleshooting
@@ -62,11 +64,11 @@ If an earlier deployment shows `404: NOT_FOUND`, deploy the latest commit contai
 
 For a new session, open this repository and start with the current checkpoint in [CODEX-HANDOFF.md](CODEX-HANDOFF.md) and the latest entry in [SESSION-LOG.md](SESSION-LOG.md). The log records completed work, the exact gameplay commit, publishing status, unfinished work and next steps. [AGENTS.md](AGENTS.md) instructs coding agents to read and maintain these records as they work.
 
-A useful opening message is: **"Read AGENTS.md, CODEX-HANDOFF.md and the latest SESSION-LOG.md entry, check the current Git state, and resume from the published storefront pass 05. The full-map fidelity work is still unfinished; follow my next instruction before resuming modeling."** Add your review or next task.
+A useful opening message is: **"Read AGENTS.md, CODEX-HANDOFF.md and the latest SESSION-LOG.md entry, check the current Git state, and resume from the local First & 7th revision 06. Compare my feedback with the saved game views and source dates before extending beyond this intersection."** Add your review or next task.
 
 Read [CONTRIBUTING.md](CONTRIBUTING.md) and [model-source/NEIGHBORHOOD-NOTES.md](model-source/NEIGHBORHOOD-NOTES.md) before substantial changes. The active entry point is `dist/index.html`; `dist/prototype.html` preserves the earlier experiment.
 
-For later fidelity work, [storefront-details.json](model-source/storefront-details.json) contains the explicit shop designs and photographic sources; [digital-twin-coverage.json](model-source/digital-twin-coverage.json) lists outstanding frontages. [STOREFRONT-PASS-05.md](model-source/STOREFRONT-PASS-05.md) explains compilation, affected-section export and browser review. The [clean reproduction verifier](scripts/verify-neighborhood-reproduction.py) works in a disposable copy, so it can check source data without resetting the playable exports.
+The [First & 7th report](model-source/FIRST-SEVENTH-PASS-06.md) identifies the new corner recipes, reference dates, review captures and reproduction commands. For later fidelity work, [storefront-details.json](model-source/storefront-details.json) contains the explicit shop designs and photographic sources; [digital-twin-coverage.json](model-source/digital-twin-coverage.json) lists outstanding frontages. [STOREFRONT-PASS-05.md](model-source/STOREFRONT-PASS-05.md) explains compilation, affected-section export and browser review. The [clean reproduction verifier](scripts/verify-neighborhood-reproduction.py) works in a disposable copy, so it can check source data without resetting the playable exports.
 
 Keep `dist/` in Git: it contains editable source and all required runtime assets. When changing models, roads, controls, module paths, or vehicle behavior, run:
 

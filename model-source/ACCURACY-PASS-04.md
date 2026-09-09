@@ -1,6 +1,6 @@
 # Neighborhood accuracy revision 04 — September 6, 2026
 
-**Historical revision 04 report.** This records gameplay/source commit `835ea6cb53f7b88ebc0edc9586080f9c371b9d20`. The current published gameplay/model baseline is `63757cbbb13749584e761e4bf7a8e655f90b1bd4`, described in [storefront pass 05](STOREFRONT-PASS-05.md). September 8 corrected two duplicate identities, reducing the 212-name inventory below to 210, and added 22 explicit shop designs/26 elevation schedules. The original counts and checks below remain dated history. For the current review pause and next action, read [CODEX-HANDOFF.md](../CODEX-HANDOFF.md).
+**Historical revision 04 report.** This records gameplay/source commit `835ea6cb53f7b88ebc0edc9586080f9c371b9d20`. The current published gameplay/model baseline is `63757cbbb13749584e761e4bf7a8e655f90b1bd4`, described in [storefront pass 05](STOREFRONT-PASS-05.md). September 8 corrected two duplicate identities, reducing the 212-name inventory below to 210, and added 22 explicit shop designs/26 elevation schedules. The original counts and checks below remain dated history. For the local First & 7th study and next action, read [CODEX-HANDOFF.md](../CODEX-HANDOFF.md).
 
 The previous detail pass added geometry without resolving enough of the underlying geography and storefront inventory. This pass audits the whole existing map against municipal footprints, architectural photographs and independently dated business evidence. The First Avenue/East 10th Street core and its licensed photographs remain preserved.
 
