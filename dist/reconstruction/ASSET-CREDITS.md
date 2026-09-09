@@ -2,7 +2,9 @@
 
 This is a photo-guided reconstruction. It is not survey-accurate or a current-day capture. Source photographs and generated model renders are distinguished in the viewer.
 
-**Local study, September 8, 2026:** First & 7th revision 06 adds five individual building profiles, nine elevations and eight shop treatments across the four corners. There are 27 individual non-core shop designs and 177 supported names with estimated designs across the map. The previously published gameplay/model baseline is `63757cbbb13749584e761e4bf7a8e655f90b1bd4`; the new local pass has not been pushed or deployed. [Neighborhood sources](neighborhood-sources.json) include `cornerDetails`, with the dated evidence and access limits. The [source-repository handoff](https://github.com/rayidali/borough-drive/blob/main/CODEX-HANDOFF.md) records checkpoint/publishing states.
+**Accepted standard, September 9, 2026:** First & 7th revision 06 covers five individual buildings, nine elevations and eight shops. The owner accepted it as the minimum completion standard for later work. Runtime performance pass 07 preserves all those model files, architectural references and six licensed core photographs. There are 27 individual non-core shop designs and 177 supported names with estimated designs across the map. [Neighborhood sources](neighborhood-sources.json) retain dates and access limits. The [source-repository handoff](https://github.com/rayidali/borough-drive/blob/main/CODEX-HANDOFF.md) records exact source/push/deployment states.
+
+The startup `street-materials.glb` is an exact subset of seven core material definitions and four embedded Poly Haven CC0 images, reproduced by `scripts/prepare-street-materials.mjs`. It adds no new photographs. The thin-pane glass shader uses the existing modeled-corner reflection capture and environment; it is a rendering approximation, not a new photographic source.
 
 ## Geographic data
 

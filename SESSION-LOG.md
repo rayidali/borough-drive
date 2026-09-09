@@ -10,6 +10,33 @@ git log --oneline -- CODEX-HANDOFF.md SESSION-LOG.md
 
 Checkpoint notes describe observed state, not a live monitor. Recheck local files, remote branches and deployment status when resuming. Keep necessary artifacts in the repository and record reproducible commands; temporary directories and old tool/process IDs are not durable checkpoints. Store no tokens, passwords or authentication cookies here.
 
+## 2026-09-09-02 — Speed pass verified; final publication preparation
+
+**Recorded:** 2026-09-09T01:13:31-04:00 (America/New_York).
+**User objective and decisions:** Accepted First & 7th revision 06 as the minimum completion standard; optimize speed, push to main and update all Markdown. Wider economical street/block work and Manhattan/NYC remain a later planning discussion.
+**Completed work:** Deferred core loading using exact street-material subset; shared surface image download/decode; lossless spatial batching; thin-pane reflections without extra city render; idle render gating, visible-light culling and lazy fallback. Recorded acceptance in source metadata and refreshed all 18 Markdown files. Preserved all original model/photographic assets; restored three compiler-reset export-height fields.
+**Gameplay/source baseline:** `0f40856c9c576d1648ddae9c6e76bb550a98b42a`; current checkpoint HEAD `e86a480` before the new source commit.
+**Local changes:** Runtime, scripts, metadata, performance report, source hashes and 28 game captures uncommitted. Final preserved-manifest review repetition also passed. No Blender export.
+**Remote state:** Fetched origin/main remains `a44257a`; nothing pushed yet this task.
+**Deployment state:** No new live check/deployment yet; existing site still uses pass 05.
+**Validation:** npm verification passed, including new material-subset/spatial-preservation checks and 2,308 road samples. Clean prepare/compile reproduced source fields and all three audits. Browser reviews passed controls, resets, all core/corner views, quality persistence, idle wake-up, map travel and deliberate load failure retries; no unexpected errors. 211 relative Markdown links checked.
+**Performance:** Final M1 1440×1000 Detailed: Saifee 25.2→50.2 fps, core SE 17.9→28.6, driving stress 20.7→28.1. Initial reconstruction transfer 89.61→38.24 MiB; texture requests 42→9; zero idle scene redraws. Single-device local HTTP measurements, short samples and different stress-route distances; not a universal 60 fps result.
+**Unresolved issues:** Push/deployment verification pending. Dense views/driving still have performance headroom. Prior photographic uncertainties and whole-map fidelity backlog remain; no automatic batch or paid service configured.
+**Next action:** Finish review evidence, commit/push source to main, verify CI/Vercel and live hashes, then save and push the publication checkpoint.
+
+## 2026-09-09-01 — First & 7th accepted; authorized speed optimization and publication
+
+**Recorded:** 2026-09-09 (America/New_York).
+**User objective and decisions:** First & 7th revision 06 is accepted as the minimum completion standard. Optimize website speed, preserve visual quality, push to main and refresh all Markdown. Discuss economical street/block processing for the rest of East Village and later Manhattan/NYC after this task; no expansion or jobs now. User also asked how to supply Street View references and whether Firecrawl would help.
+**Completed work:** Inspected checkpoint, clean branch/history and fetched origin. Added an isolated-browser performance harness. Baseline identifies large material batches and repeated glass/AO rendering as substantial costs. Research found official Google API setup and extraction/derived-content restrictions; Firecrawl does not establish imagery access or rights.
+**Gameplay/source baseline:** `0f40856c9c576d1648ddae9c6e76bb550a98b42a`; initial checkpoint HEAD `e86a480`.
+**Local changes:** Uncommitted profiling harness and spatial batch runtime optimization; implementation and validation underway. Existing GLBs, vehicle and source recipes unchanged.
+**Remote state:** Fetched origin; main remains two local commits ahead of `a44257a`. No push yet.
+**Deployment state:** No new deployment or live verification; prior pass 05 remains production.
+**Validation:** Baseline M1 / ANGLE Metal, 1440×1000 Detailed: 25.2 fps at Saifee, 20.7 fps driving; full baseline and final comparison pending. No new npm verification claimed yet.
+**Unresolved issues:** Runtime optimization must be measured and visually reviewed before publication. Imagery dates/dimensions retain prior uncertainty despite user acceptance. Map-wide completion remains future work.
+**Next action:** Complete and test optimizations, preserve durable performance evidence, update docs, commit/push and verify the existing Vercel deployment.
+
 ## 2026-09-08-08 — First & 7th comparison pass verified and saved locally
 
 **Recorded:** 2026-09-08T22:20:14-04:00 (America/New_York).

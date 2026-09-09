@@ -1,0 +1,738 @@
+{
+  "date": "2026-09-09T05:12:11.305Z",
+  "url": "http://127.0.0.1:5173",
+  "errors": [],
+  "consoleErrors": [],
+  "warnings": [
+    "First & 10th unavailable; will retry. TypeError: Failed to fetch\n    at FileLoader.load (http://127.0.0.1:5173/vendor/three.core.js:44044:3)\n    at GLTFLoader.load (http://127.0.0.1:5173/vendor/addons/loaders/GLTFLoader.js:305:10)\n    at http://127.0.0.1:5173/vendor/three.core.js:43782:10\n    at new Promise (<anonymous>)\n    at GLTFLoader.loadAsync (http://127.0.0.1:5173/vendor/three.core.js:43780:10)\n    at loadCore (http://127.0.0.1:5173/reconstruction/neighborhood-render.js:19:22)\n    at Object.update (http://127.0.0.1:5173/reconstruction/neighborhood-render.js:145:77)\n    at frame (http://127.0.0.1:5173/reconstruction/viewer.js:95:58)"
+  ],
+  "failedRequests": [],
+  "viewport": {
+    "width": 1440,
+    "height": 1000,
+    "deviceScaleFactor": 1
+  },
+  "screenshots": [
+    {
+      "name": "first-and-seventh-start",
+      "pose": {
+        "x": 0,
+        "z": 228,
+        "yaw": 0,
+        "mode": "walk",
+        "ready": true,
+        "coreLoaded": false,
+        "corePending": false,
+        "tiles": [
+          "block-4-1",
+          "block-4-2",
+          "block-5-1",
+          "block-5-2",
+          "edge-south"
+        ]
+      },
+      "path": "docs/images/performance-07/first-and-seventh-start.png",
+      "sha256": "41a757ebcfba0e1b13af5df50c9c24dcddffbb569aef69df567b5428f7f45517"
+    },
+    {
+      "name": "seventh-nw",
+      "pose": {
+        "x": -3,
+        "z": 232,
+        "yaw": -0.8124186125847132,
+        "mode": "walk",
+        "ready": true,
+        "coreLoaded": false,
+        "corePending": false,
+        "tiles": [
+          "block-4-1",
+          "block-4-2",
+          "block-5-1",
+          "block-5-2",
+          "edge-south"
+        ]
+      },
+      "path": "docs/images/performance-07/seventh-nw.png",
+      "sha256": "be6d2bdb5131f60839898b29aad60a54fce1bf8abc34a3470877c26f1108ae8f"
+    },
+    {
+      "name": "seventh-ne",
+      "pose": {
+        "x": 2,
+        "z": 233,
+        "yaw": 0.8353565591193911,
+        "mode": "walk",
+        "ready": true,
+        "coreLoaded": false,
+        "corePending": false,
+        "tiles": [
+          "block-4-1",
+          "block-4-2",
+          "block-5-1",
+          "block-5-2",
+          "edge-south"
+        ]
+      },
+      "path": "docs/images/performance-07/seventh-ne.png",
+      "sha256": "686d31c90eded6485f24a6d4a283fa57f4e0ba764a68bbd060a725b1adfbc30c"
+    },
+    {
+      "name": "seventh-sw",
+      "pose": {
+        "x": -3,
+        "z": 222,
+        "yaw": -2.234842489621581,
+        "mode": "walk",
+        "ready": true,
+        "coreLoaded": false,
+        "corePending": false,
+        "tiles": [
+          "block-4-1",
+          "block-4-2",
+          "block-5-1",
+          "block-5-2",
+          "edge-south"
+        ]
+      },
+      "path": "docs/images/performance-07/seventh-sw.png",
+      "sha256": "5a631199ed2fbdfbbe5c7465a23014550e305552fe022b2bbf51a548d00c83d7"
+    },
+    {
+      "name": "seventh-se",
+      "pose": {
+        "x": 1,
+        "z": 224,
+        "yaw": 2.3062360944704023,
+        "mode": "walk",
+        "ready": true,
+        "coreLoaded": false,
+        "corePending": false,
+        "tiles": [
+          "block-4-1",
+          "block-4-2",
+          "block-5-1",
+          "block-5-2",
+          "edge-south"
+        ]
+      },
+      "path": "docs/images/performance-07/seventh-se.png",
+      "sha256": "2e4747e3c09745100a2ce0b18d2fb09d45872a102d512f36f22a10e6d1373748"
+    },
+    {
+      "name": "tile-bar",
+      "pose": {
+        "x": -5.640801892747861,
+        "z": 216.0556579791403,
+        "yaw": -1.5776748202812076,
+        "mode": "walk",
+        "ready": true,
+        "coreLoaded": false,
+        "corePending": false,
+        "tiles": [
+          "block-4-1",
+          "block-4-2",
+          "block-5-1",
+          "block-5-2",
+          "edge-south"
+        ]
+      },
+      "path": "docs/images/performance-07/tile-bar.png",
+      "sha256": "3966efbaa6ebc63bfc5c4e2890896d93ef87eb680352e76ebf5226fd5e7fa29f"
+    },
+    {
+      "name": "hen-house",
+      "pose": {
+        "x": 6.40530112312188,
+        "z": 213.7565636326544,
+        "yaw": 1.569621852586123,
+        "mode": "walk",
+        "ready": true,
+        "coreLoaded": false,
+        "corePending": false,
+        "tiles": [
+          "block-4-1",
+          "block-4-2",
+          "block-5-1",
+          "block-5-2",
+          "edge-south"
+        ]
+      },
+      "path": "docs/images/performance-07/hen-house.png",
+      "sha256": "ceccecacece29135602274d479991e6b5c83207132e1a3fecd35c049b137feab"
+    },
+    {
+      "name": "yubu",
+      "pose": {
+        "x": -34.990237771476245,
+        "z": 228.35937534085662,
+        "yaw": -3.1413413594301334,
+        "mode": "walk",
+        "ready": true,
+        "coreLoaded": false,
+        "corePending": false,
+        "tiles": [
+          "block-4-1",
+          "block-4-2",
+          "block-5-1",
+          "block-5-2",
+          "edge-south"
+        ]
+      },
+      "path": "docs/images/performance-07/yubu.png",
+      "sha256": "39810df2a439a44185c637aceace449c9aa4cc6a5a7a6b169299af5100599fb6"
+    },
+    {
+      "name": "e7-deli",
+      "pose": {
+        "x": 6.410026031777528,
+        "z": 217.77956085801242,
+        "yaw": 1.569621852586123,
+        "mode": "walk",
+        "ready": true,
+        "coreLoaded": false,
+        "corePending": false,
+        "tiles": [
+          "block-4-1",
+          "block-4-2",
+          "block-5-1",
+          "block-5-2",
+          "edge-south"
+        ]
+      },
+      "path": "docs/images/performance-07/e7-deli.png",
+      "sha256": "6b2f8d9e120ab03ba8983623e4afebc087ca539beb1d0022a275351e381d8d49"
+    },
+    {
+      "name": "monkey-sushi",
+      "pose": {
+        "x": 6.397561339865426,
+        "z": 207.16656817774285,
+        "yaw": 1.569621852586123,
+        "mode": "walk",
+        "ready": true,
+        "coreLoaded": false,
+        "corePending": false,
+        "tiles": [
+          "block-4-1",
+          "block-4-2",
+          "block-5-1",
+          "block-5-2",
+          "edge-south"
+        ]
+      },
+      "path": "docs/images/performance-07/monkey-sushi.png",
+      "sha256": "a2eefc4989766d4c369f9f56e8bf044b632ba001844b8ee2e4b854c0d78c4f59"
+    },
+    {
+      "name": "7th-street-burger",
+      "pose": {
+        "x": 32.33574413900874,
+        "z": 228.42375897982092,
+        "yaw": -0.00252989340662315,
+        "mode": "walk",
+        "ready": true,
+        "coreLoaded": false,
+        "corePending": false,
+        "tiles": [
+          "block-4-1",
+          "block-4-2",
+          "block-5-1",
+          "block-5-2",
+          "edge-south"
+        ]
+      },
+      "path": "docs/images/performance-07/7th-street-burger.png",
+      "sha256": "8f96e4500ab5a1901a6eb3239fe6410fdbc2a0692fa7e24d3739917dd16571d4"
+    },
+    {
+      "name": "e-smoke",
+      "pose": {
+        "x": -7.575673933743953,
+        "z": 240.15708887003834,
+        "yaw": -1.575178419691825,
+        "mode": "walk",
+        "ready": true,
+        "coreLoaded": false,
+        "corePending": false,
+        "tiles": [
+          "block-4-1",
+          "block-4-2",
+          "block-5-1",
+          "block-5-2",
+          "edge-south"
+        ]
+      },
+      "path": "docs/images/performance-07/e-smoke.png",
+      "sha256": "433af1c04ae334c463952d55ef5ce06b6e8452bbac71fa423ed03123874c4013"
+    },
+    {
+      "name": "saifee",
+      "pose": {
+        "x": 7.059991834934314,
+        "z": 245.54218964256242,
+        "yaw": 1.5717195454893633,
+        "mode": "walk",
+        "ready": true,
+        "coreLoaded": false,
+        "corePending": false,
+        "tiles": [
+          "block-4-1",
+          "block-4-2",
+          "block-5-1",
+          "block-5-2",
+          "edge-south"
+        ]
+      },
+      "path": "docs/images/performance-07/saifee.png",
+      "sha256": "62c28778a39494651b449ab87aa6129aa3bdf1abd7e4bfec27b31f38e0bc99e7"
+    },
+    {
+      "name": "elevation-tile-first",
+      "pose": {
+        "x": 1.3591219297610024,
+        "z": 216.0205085968855,
+        "yaw": -1.577674820281207,
+        "mode": "walk",
+        "ready": true,
+        "coreLoaded": false,
+        "corePending": false,
+        "tiles": [
+          "block-4-1",
+          "block-4-2",
+          "block-5-1",
+          "block-5-2",
+          "edge-south"
+        ]
+      },
+      "path": "docs/images/performance-07/elevation-tile-first.png",
+      "sha256": "3994612b7f33b1fe8e716d6649dd3707fa98fcba97e75029854ca9f9263b7d03"
+    },
+    {
+      "name": "elevation-tile-seventh",
+      "pose": {
+        "x": -22.102029990835533,
+        "z": 234.84888191959809,
+        "yaw": -0.0038453698945986,
+        "mode": "walk",
+        "ready": true,
+        "coreLoaded": false,
+        "corePending": false,
+        "tiles": [
+          "block-4-1",
+          "block-4-2",
+          "block-5-1",
+          "block-5-2",
+          "edge-south"
+        ]
+      },
+      "path": "docs/images/performance-07/elevation-tile-seventh.png",
+      "sha256": "a2822c52aaea032cf9decec629368195fb383ae32963853111d8d2bd483df87c"
+    },
+    {
+      "name": "elevation-deli-first",
+      "pose": {
+        "x": -1.8609880993170194,
+        "z": 211.8122708329479,
+        "yaw": 1.5696218525861236,
+        "mode": "walk",
+        "ready": true,
+        "coreLoaded": false,
+        "corePending": false,
+        "tiles": [
+          "block-4-1",
+          "block-4-2",
+          "block-5-1",
+          "block-5-2",
+          "edge-south"
+        ]
+      },
+      "path": "docs/images/performance-07/elevation-deli-first.png",
+      "sha256": "cb23f19d216218bd9273ef6f6831d268f1d925fca7f4bbf2096d7a5ba2232709"
+    },
+    {
+      "name": "elevation-deli-seventh",
+      "pose": {
+        "x": 25.247683680421336,
+        "z": 236.70571750185883,
+        "yaw": -0.002529893406622886,
+        "mode": "walk",
+        "ready": true,
+        "coreLoaded": false,
+        "corePending": false,
+        "tiles": [
+          "block-4-1",
+          "block-4-2",
+          "block-5-1",
+          "block-5-2",
+          "edge-south"
+        ]
+      },
+      "path": "docs/images/performance-07/elevation-deli-seventh.png",
+      "sha256": "fe1de5f20d74012da72f930f8902e52eb18a6d3c6a92e4dba04f6936764ab5de"
+    },
+    {
+      "name": "elevation-smoke-first",
+      "pose": {
+        "x": 0.7923333637056125,
+        "z": 240.1404194420083,
+        "yaw": -1.5751784196918253,
+        "mode": "walk",
+        "ready": true,
+        "coreLoaded": false,
+        "corePending": false,
+        "tiles": [
+          "block-4-1",
+          "block-4-2",
+          "block-5-1",
+          "block-5-2",
+          "edge-south"
+        ]
+      },
+      "path": "docs/images/performance-07/elevation-smoke-first.png",
+      "sha256": "4e16f0bfecb80c0594e16a514552a725b25c33ca385d1f3c90dff2f8ec45a19c"
+    },
+    {
+      "name": "elevation-smoke-seventh",
+      "pose": {
+        "x": -26.53213520896328,
+        "z": 219.99350054846272,
+        "yaw": -3.141341359430134,
+        "mode": "walk",
+        "ready": true,
+        "coreLoaded": false,
+        "corePending": false,
+        "tiles": [
+          "block-4-1",
+          "block-4-2",
+          "block-5-1",
+          "block-5-2",
+          "edge-south"
+        ]
+      },
+      "path": "docs/images/performance-07/elevation-smoke-seventh.png",
+      "sha256": "2fcad37227122ef3ffbbef8764d09c170c2d76807ec5ae549c14320704e09da7"
+    },
+    {
+      "name": "elevation-saifee-corner-first",
+      "pose": {
+        "x": 0.06500551709847535,
+        "z": 239.8662128964226,
+        "yaw": 1.5716267189644206,
+        "mode": "walk",
+        "ready": true,
+        "coreLoaded": false,
+        "corePending": false,
+        "tiles": [
+          "block-4-1",
+          "block-4-2",
+          "block-5-1",
+          "block-5-2",
+          "edge-south"
+        ]
+      },
+      "path": "docs/images/performance-07/elevation-saifee-corner-first.png",
+      "sha256": "479535a3c77424bca3d27ee776532e43ed661bcaa5308bd9156e1a0288180887"
+    },
+    {
+      "name": "elevation-saifee-corner-seventh",
+      "pose": {
+        "x": 26.553215159154036,
+        "z": 221.48651757527972,
+        "yaw": -3.1401111731921554,
+        "mode": "walk",
+        "ready": true,
+        "coreLoaded": false,
+        "corePending": false,
+        "tiles": [
+          "block-4-1",
+          "block-4-2",
+          "block-5-1",
+          "block-5-2",
+          "edge-south"
+        ]
+      },
+      "path": "docs/images/performance-07/elevation-saifee-corner-seventh.png",
+      "sha256": "1c0e4cf900b7a21dea630d309105bb40dbf5456ebd3ac2dc606f172e07d1f4f9"
+    },
+    {
+      "name": "elevation-saifee-main-first",
+      "pose": {
+        "x": -2.327192162715619,
+        "z": 245.52052321080504,
+        "yaw": 1.5717195454893622,
+        "mode": "walk",
+        "ready": true,
+        "coreLoaded": false,
+        "corePending": false,
+        "tiles": [
+          "block-4-1",
+          "block-4-2",
+          "block-5-1",
+          "block-5-2",
+          "edge-south"
+        ]
+      },
+      "path": "docs/images/performance-07/elevation-saifee-main-first.png",
+      "sha256": "307df002f77a5bf15a51e77afeb3c5738ffa1458fcd0bf18d80723f0759e9733"
+    },
+    {
+      "name": "first-tenth-nw",
+      "pose": {
+        "x": 6,
+        "z": 22,
+        "yaw": -0.625485040239229,
+        "mode": "walk",
+        "ready": true,
+        "coreLoaded": true,
+        "corePending": false,
+        "tiles": [
+          "block-1-1",
+          "block-1-2",
+          "block-2-1",
+          "block-2-2",
+          "block-3-1",
+          "block-3-2",
+          "block-4-1",
+          "block-4-2",
+          "block-5-1",
+          "block-5-2"
+        ]
+      },
+      "path": "docs/images/performance-07/first-tenth-nw.png",
+      "sha256": "765beb6721ec9615d374a355d10eaaa697ef05d09aab80349689234a262a56d3"
+    },
+    {
+      "name": "first-tenth-ne",
+      "pose": {
+        "x": -6,
+        "z": 17,
+        "yaw": 0.714090698612158,
+        "mode": "walk",
+        "ready": true,
+        "coreLoaded": true,
+        "corePending": false,
+        "tiles": [
+          "block-1-1",
+          "block-1-2",
+          "block-2-1",
+          "block-2-2",
+          "block-3-1",
+          "block-3-2",
+          "block-4-1",
+          "block-4-2",
+          "block-5-1",
+          "block-5-2"
+        ]
+      },
+      "path": "docs/images/performance-07/first-tenth-ne.png",
+      "sha256": "7e62605c9c9f99e0c83dd8bf1b386ba0412924003ef5e9afef4261cf59d7a7b1"
+    },
+    {
+      "name": "first-tenth-sw",
+      "pose": {
+        "x": 7,
+        "z": -13,
+        "yaw": -2.4069981942505665,
+        "mode": "walk",
+        "ready": true,
+        "coreLoaded": true,
+        "corePending": false,
+        "tiles": [
+          "block-1-1",
+          "block-1-2",
+          "block-2-1",
+          "block-2-2",
+          "block-3-1",
+          "block-3-2",
+          "block-4-1",
+          "block-4-2",
+          "block-5-1",
+          "block-5-2"
+        ]
+      },
+      "path": "docs/images/performance-07/first-tenth-sw.png",
+      "sha256": "4de7a9d1b6b868e5a65b097af773f840be173462de662cef648c51602d28d69f"
+    },
+    {
+      "name": "first-tenth-se",
+      "pose": {
+        "x": -7,
+        "z": -15,
+        "yaw": 2.4250509794933897,
+        "mode": "walk",
+        "ready": true,
+        "coreLoaded": true,
+        "corePending": false,
+        "tiles": [
+          "block-1-1",
+          "block-1-2",
+          "block-2-1",
+          "block-2-2",
+          "block-3-1",
+          "block-3-2",
+          "block-4-1",
+          "block-4-2",
+          "block-5-1",
+          "block-5-2"
+        ]
+      },
+      "path": "docs/images/performance-07/first-tenth-se.png",
+      "sha256": "e9ae9a8cf6f58555ee75042b3c60a3876dfe3a9eb759bfb514a9b5c8e307f308"
+    }
+  ],
+  "expectedFailures": [
+    {
+      "kind": "deferred core connection failure"
+    },
+    {
+      "kind": "bootstrap connection failure"
+    },
+    {
+      "kind": "bootstrap error",
+      "message": "TypeError: Failed to fetch\n    at FileLoader.load (http://127.0.0.1:5173/vendor/three.core.js:44044:3)\n    at GLTFLoader.load (http://127.0.0.1:5173/vendor/addons/loaders/GLTFLoader.js:305:10)\n    at http://127.0.0.1:5173/vendor/three.core.js:43782:10\n    at new Promise (<anonymous>)\n    at GLTFLoader.loadAsync (http://127.0.0.1:5173/vendor/three.core.js:43780:10)\n    at init (http://127.0.0.1:5173/reconstruction/viewer.js:76:37)\n    at http://127.0.0.1:5173/reconstruction/viewer.js:107:1"
+    }
+  ],
+  "initial": {
+    "x": 0,
+    "z": 228,
+    "yaw": 0,
+    "mode": "walk",
+    "ready": true,
+    "coreLoaded": false,
+    "corePending": false,
+    "tiles": [
+      "block-4-2",
+      "block-5-1",
+      "block-5-2",
+      "edge-south"
+    ]
+  },
+  "driven": {
+    "x": -0.29,
+    "z": 226.75823399763948,
+    "yaw": 0,
+    "mode": "drive",
+    "ready": true,
+    "coreLoaded": false,
+    "corePending": false,
+    "tiles": [
+      "block-4-1",
+      "block-4-2",
+      "block-5-1",
+      "block-5-2",
+      "edge-south"
+    ]
+  },
+  "driveReset": {
+    "x": -0.29,
+    "z": 228,
+    "yaw": 0,
+    "mode": "drive",
+    "ready": true,
+    "coreLoaded": false,
+    "corePending": false,
+    "tiles": [
+      "block-4-1",
+      "block-4-2",
+      "block-5-1",
+      "block-5-2",
+      "edge-south"
+    ]
+  },
+  "walkReset": {
+    "x": 0,
+    "z": 228,
+    "yaw": 0,
+    "mode": "walk",
+    "ready": true,
+    "coreLoaded": false,
+    "corePending": false,
+    "tiles": [
+      "block-4-1",
+      "block-4-2",
+      "block-5-1",
+      "block-5-2",
+      "edge-south"
+    ]
+  },
+  "assets": {
+    "block-5-1": {
+      "bytes": 4767568,
+      "sha256": "66836190ee5f4e310cc85e9d35e9cafe291b849b342403676a298507df61d4b3",
+      "signature": "e6105b7ed2815db60a606b945aaae7c4282021b7db831bf8feb42eba86b0ab4b"
+    },
+    "block-5-2": {
+      "bytes": 4305720,
+      "sha256": "caf71241479617848ad306b0cbea0777eab792c0f99e34ef77f6f27de08d0c77",
+      "signature": "749c9af6295201dc6b20460d54c5b199863926ce8225c6bf069af570f21d418b"
+    },
+    "edge-south": {
+      "bytes": 6395896,
+      "sha256": "c886b698d7f8a13b337e3107eb4332076abafd5eafe885349103597aff3a4a4d",
+      "signature": "df9c5076501f6fbae4cbd24e387a0eb5963173ede0a1f97abbef7c3121b980e1"
+    }
+  },
+  "rafResponsiveness": [
+    {
+      "rafFrames": 120,
+      "seconds": 2,
+      "rafFps": 60,
+      "sceneRedraws": 0,
+      "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M1, Unspecified Version)",
+      "pixelRatio": 1,
+      "ao": true,
+      "quality": "detail",
+      "samples": 4,
+      "glassModel": "thin pane",
+      "paneTransmission": [
+        0.96
+      ]
+    },
+    {
+      "rafFrames": 120,
+      "seconds": 2.0000000000000036,
+      "rafFps": 59.99999999999989,
+      "sceneRedraws": 0,
+      "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M1, Unspecified Version)",
+      "pixelRatio": 1,
+      "ao": false,
+      "quality": "fast",
+      "samples": 2,
+      "glassModel": "thin pane",
+      "paneTransmission": [
+        0.96
+      ]
+    }
+  ],
+  "graphics": {
+    "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M1, Unspecified Version)",
+    "pixelRatio": 1,
+    "ao": true,
+    "quality": "detail",
+    "samples": 4
+  },
+  "resizeResumedRendering": true,
+  "dragResumedRendering": true,
+  "coreRetryPassed": true,
+  "bootstrapFallbackPassed": true,
+  "bootstrapRetryPassed": true,
+  "additionalTravelCaptures": [
+    {
+      "path": "docs/images/performance-07/avenue-a-twelfth.png",
+      "sha256": "a27bf064d412206cc55ca1db9c8969dc104533e524451bc9e71288b1188c9ea4"
+    },
+    {
+      "path": "docs/images/performance-07/returned-seventh.png",
+      "sha256": "6c6e1748bf1ccc7bb325bae63966937412cd43497957687820e1cc2668f858e5"
+    }
+  ],
+  "sourceBaseline": "0f40856c9c576d1648ddae9c6e76bb550a98b42a",
+  "runtime": {
+    "viewer.js": "bb6bffe9bc0a809447e8136a01575588be348debcaa6fdd55cb2508d31987de8",
+    "neighborhood-render.js": "7c50dcd7f3ffe7e846556acae1db56b93ffaad12e3038d8c202bf8d6f0ba4683",
+    "shared-textures.js": "2aeffa44774410da07f60afa685ab881dcff881bfe700804e5260f7fb217e3da",
+    "spatial-batches.js": "c5db389160bedc7009478f06d35f6c4147afc1a4ed9781a5c6df4192d4cde46a",
+    "storefront-glass.js": "46d3b7dbf63416bcc3720349ca1b9f74660df33358c8042d2e4fba1dc6bc3bd3"
+  },
+  "manifestSha256": "8f6c3a85a12d69fa8e5b0827274e60c7eceb0b76e3569eef472343efc6bbd782"
+}

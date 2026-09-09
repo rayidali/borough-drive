@@ -16,8 +16,10 @@ const on=(name,fn)=>listeners.set(name,[...(listeners.get(name)||[]),fn]);
 function send(method,params={}){return new Promise((resolve,reject)=>{const n=++id;pending.set(n,{resolve,reject});ws.send(JSON.stringify({id:n,method,params}));});}
 async function evaluate(expression){const r=await send('Runtime.evaluate',{expression,returnByValue:true,awaitPromise:true});if(r.exceptionDetails)throw Error(JSON.stringify(r.exceptionDetails));return r.result?.value;}
 const report={date:new Date().toISOString(),url:'http://127.0.0.1:5173',errors:[],consoleErrors:[],warnings:[],failedRequests:[],viewport:{width:1440,height:1000,deviceScaleFactor:1},screenshots:[]};
+let bootstrapFailureExpected=false;
+report.expectedFailures=[];
 on('Runtime.exceptionThrown',e=>report.errors.push(e.exceptionDetails.text));
-on('Runtime.consoleAPICalled',e=>{if(['error','warning'].includes(e.type))report[e.type==='error'?'consoleErrors':'warnings'].push(e.args.map(a=>a.value||a.description||'').join(' '));});
+on('Runtime.consoleAPICalled',e=>{if(['error','warning'].includes(e.type)){const message=e.args.map(a=>a.value||a.description||'').join(' ');if(bootstrapFailureExpected&&e.type==='error'&&message.includes('Failed to fetch'))report.expectedFailures.push({kind:'bootstrap error',message});else report[e.type==='error'?'consoleErrors':'warnings'].push(message);}});
 on('Network.responseReceived',e=>{if(e.response.status>=400)report.failedRequests.push([e.response.status,e.response.url]);});
 await send('Page.enable');await send('Runtime.enable');await send('Network.enable');await send('Debugger.enable');
 await send('Emulation.setDeviceMetricsOverride',{width:1440,height:1000,deviceScaleFactor:1,mobile:false});
@@ -27,11 +29,12 @@ assert(lineNumber>0);
 await send('Debugger.setBreakpointByUrl',{urlRegex:'/reconstruction/viewer\\.js$',lineNumber});
 on('Debugger.paused',async e=>{
  try{await send('Debugger.evaluateOnCallFrame',{callFrameId:e.callFrames[0].callFrameId,expression:`globalThis.__boroughReview={
-  pose:()=>({x:camera.position.x,z:camera.position.z,yaw,mode,ready,tiles:[...neighborhood.states.values()].filter(s=>s.root).map(s=>s.tile.id)}),
+  pose:()=>({x:camera.position.x,z:camera.position.z,yaw,mode,ready,coreLoaded:neighborhood.coreLoaded,corePending:neighborhood.corePending,tiles:[...neighborhood.states.values()].filter(s=>s.root).map(s=>s.tile.id)}),
   look:(x,z,tx,ty,tz)=>{setMode('walk',false);travel(x,z);camera.position.set(x,1.72,z);yaw=targetYaw=Math.atan2(tx-x,-(tz-z));pitch=targetPitch=Math.atan2(ty-1.72,Math.hypot(tx-x,tz-z));},
-  glass:()=>{const seen=new Set();for(const state of neighborhood.states.values())state.root?.traverse(o=>{if(o.material?.name==='seventh glass')seen.add(o.material.transmission||0);});return [...seen];},
+  glass:()=>{const seen=new Set();for(const state of neighborhood.states.values())state.root?.traverse(o=>{if(o.material?.name==='seventh glass')seen.add(o.material.userData.paneTransmission.value);});return [...seen];},
+  renders:0,
   graphics:()=>({renderer:renderer.getContext().getParameter(renderer.getContext().getExtension('WEBGL_debug_renderer_info').UNMASKED_RENDERER_WEBGL),pixelRatio:renderer.getPixelRatio(),ao:ao.enabled,quality,samples:composer.renderTarget1.samples})
- }`});}finally{await send('Debugger.resume');}
+ };const actualRender=composer.render.bind(composer);composer.render=(...args)=>{__boroughReview.renders++;return actualRender(...args);}`});}finally{await send('Debugger.resume');}
 });
 await send('Page.navigate',{url:report.url});
 async function until(expression,timeout=120000){const start=Date.now();while(Date.now()-start<timeout){if(await evaluate(expression))return;await new Promise(r=>setTimeout(r,300));}throw Error('Browser condition timed out: '+expression);}
@@ -85,17 +88,47 @@ for(const tile of data.tiles.filter(t=>['block-5-1','block-5-2','edge-south'].in
  report.assets[tile.id]={bytes:buffer.length,sha256:createHash('sha256').update(buffer).digest('hex'),signature:tile.storefrontSignature};
 }
 await evaluate('document.querySelector("[data-seventh=se]").click()');
-report.performance=[];
+// A settled view intentionally does not redraw. RAF callbacks measure browser
+// responsiveness here; use profile-performance.mjs for active rendering FPS.
+report.rafResponsiveness=[];
 for(const quality of ['detail','fast']){
  await evaluate(`document.querySelector('#quality').value='${quality}';document.querySelector('#quality').dispatchEvent(new Event('change'))`);
  await new Promise(r=>setTimeout(r,1000));
- const sample=await evaluate(`new Promise(resolve=>{let n=0,first;function step(t){if(!n)first=t;if(++n===121)resolve({frames:120,seconds:(t-first)/1000,fps:120000/(t-first)});else requestAnimationFrame(step)}requestAnimationFrame(step)})`);
- const transmission=await evaluate('__boroughReview.glass()');assert.deepEqual(transmission,[quality==='detail'?.96:0]);
+ const sample=await evaluate(`new Promise(resolve=>{let n=0,first;const initialRenders=__boroughReview.renders;function step(t){if(!n)first=t;if(++n===121)resolve({rafFrames:120,seconds:(t-first)/1000,rafFps:120000/(t-first),sceneRedraws:__boroughReview.renders-initialRenders});else requestAnimationFrame(step)}requestAnimationFrame(step)})`);
+ const transmission=await evaluate('__boroughReview.glass()');assert.deepEqual(transmission,[.96]);
  assert.equal(await evaluate('localStorage.getItem("borough.graphics")'),quality);
- report.performance.push({...sample,...await evaluate('__boroughReview.graphics()'),glassTransmission:transmission});
+ report.rafResponsiveness.push({...sample,...await evaluate('__boroughReview.graphics()'),glassModel:'thin pane',paneTransmission:transmission});
 }
 await evaluate('document.querySelector("#quality").value="detail";document.querySelector("#quality").dispatchEvent(new Event("change"))');
 report.graphics=await evaluate('__boroughReview.graphics()');
+await new Promise(r=>setTimeout(r,1000));
+const settled=await evaluate('__boroughReview.renders');await new Promise(r=>setTimeout(r,700));
+assert.equal(await evaluate('__boroughReview.renders'),settled,'Settled scene must stop redrawing.');
+await send('Emulation.setDeviceMetricsOverride',{width:1100,height:800,deviceScaleFactor:1,mobile:false});
+await until(`__boroughReview.renders>${settled}`);report.resizeResumedRendering=true;
+await send('Emulation.setDeviceMetricsOverride',{width:1440,height:1000,deviceScaleFactor:1,mobile:false});
+const beforeLook=await evaluate('__boroughReview.renders');
+await send('Input.dispatchMouseEvent',{type:'mousePressed',x:700,y:400,button:'left',clickCount:1});
+await send('Input.dispatchMouseEvent',{type:'mouseMoved',x:750,y:390,button:'left',buttons:1});
+await send('Input.dispatchMouseEvent',{type:'mouseReleased',x:750,y:390,button:'left',clickCount:1});
+await until(`__boroughReview.renders>${beforeLook}`);report.dragResumedRendering=true;
+// Fail one deferred core request, then let the real 12-second retry complete.
+let coreFailures=0,bootstrapFailures=0;
+on('Fetch.requestPaused',async e=>{if(e.request.url.endsWith('first-and-10th.glb')&&coreFailures++===0){report.expectedFailures.push({kind:'deferred core connection failure'});await send('Fetch.failRequest',{requestId:e.requestId,errorReason:'Failed'});}else if(e.request.url.endsWith('street-materials.glb')&&bootstrapFailureExpected&&bootstrapFailures++===0){report.expectedFailures.push({kind:'bootstrap connection failure'});await send('Fetch.failRequest',{requestId:e.requestId,errorReason:'Failed'});}else await send('Fetch.continueRequest',{requestId:e.requestId});});
+await send('Fetch.enable',{patterns:[{urlPattern:'*first-and-10th.glb'},{urlPattern:'*street-materials.glb'}]});
+assert.equal(await evaluate('__boroughReview.pose().coreLoaded'),false);
+await evaluate('document.querySelector("[data-corner=se]").click()');
+await until('__boroughReview.pose().coreLoaded',45000);assert.equal(coreFailures,2,'Failed core request must retry once and load.');
+report.coreRetryPassed=true;
+for(const corner of ['nw','ne','sw','se']){await evaluate(`document.querySelector('[data-corner=${corner}]').click()`);await screenshot('first-tenth-'+corner);}
+await evaluate('document.querySelector("#reset-button").click()');
+// Startup failure retains the fallback photograph; Retry opens a working game.
+bootstrapFailureExpected=true;await send('Page.reload',{ignoreCache:true});
+await until('!document.querySelector("#fallback").hidden && document.querySelector("#fallback img").complete && document.querySelector("#fallback img").naturalWidth>0');
+assert.equal(bootstrapFailures,1);report.bootstrapFallbackPassed=true;
+bootstrapFailureExpected=false;await evaluate('document.querySelector("#retry-button").click()');
+await until('document.querySelector("#loading").hidden && document.querySelector("#fallback").hidden');report.bootstrapRetryPassed=true;
+await send('Fetch.disable');
 await fs.writeFile(path.join(out,'review.json'),JSON.stringify(report,null,2)+'\n');
 await fetch('http://127.0.0.1:9222/json/close/'+tab.id);ws.close();assert.equal(report.errors.length,0);assert.equal(report.consoleErrors.length,0);assert.equal(report.failedRequests.length,0);
 console.log('REVIEW_COMPLETE',out,report.screenshots.length);

@@ -11,7 +11,7 @@ Help make these ten East Village blocks more recognizable, comfortable to explor
 
 No dependency installation is required. Blender is optional unless you are regenerating models. Read [AGENTS.md](AGENTS.md), [CODEX-HANDOFF.md](CODEX-HANDOFF.md), the latest [session log](SESSION-LOG.md), [START-HERE.md](START-HERE.md), and [the neighborhood notes](model-source/NEIGHBORHOOD-NOTES.md) before substantial work. When returning to an existing checkout, inspect its branch, recent commits and working tree before editing; preserve uncommitted work.
 
-The September 8 local pass is First & 7th revision 06. The owner resumed this bounded intersection to establish a visual standard before extending the map. Read [the pass report](model-source/FIRST-SEVENTH-PASS-06.md) and the current handoff for review and publishing state; the online game still uses pass 05.
+The owner accepted First & 7th revision 06 as the minimum completion standard on September 9. [Performance pass 07](model-source/PERFORMANCE-PASS-07.md) preserves the models and improves runtime speed. Read [the corner report](model-source/FIRST-SEVENTH-PASS-06.md) and the handoff for source/publishing state. Planning an economical block/street process comes later; the fidelity backlog does not authorize expansion or unattended jobs.
 
 ## Pick a focused change
 
@@ -50,7 +50,7 @@ Standalone review renders can go into the ignored `renders/` directory. Keep fin
 
 The active game is `dist/index.html`. Files in `dist/` are editable source and required game assets. Keep the vanilla JavaScript module structure and bundled Three.js unless a migration has been discussed.
 
-Run `npm run verify` for changes to models, roads, controls, module paths, and vehicle behavior. The checks cover asset integrity and meaningful road and vehicle invariants. They do not establish visual accuracy or browser performance.
+Run `npm run verify` for changes to models, roads, controls, module paths, and vehicle behavior. The checks cover asset integrity, exact street-material reproduction, lossless spatial batching, and meaningful road and vehicle invariants. After changing the preserved core export, run `node scripts/prepare-street-materials.mjs` to refresh its startup subset. Use `node scripts/profile-performance.mjs` in an isolated Chrome instance for full-frame rendering and startup measurements; distinguish RAF responsiveness from actual scene redraws when idle. They do not establish visual accuracy or browser performance.
 
 For visible or interactive changes, also open the game and test the affected view or controls. Describe what you actually checked. Screenshots should identify whether they came from the browser or a standalone Blender render.
 

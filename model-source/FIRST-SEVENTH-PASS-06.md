@@ -1,6 +1,6 @@
 # First Avenue / East 7th Street — study 06
 
-Local comparison pass, September 8, 2026. The user resumed work at this intersection to establish a detailed standard before extending block by block. Use the most recent accessible view. The new work has not been pushed or deployed; [the handoff](../CODEX-HANDOFF.md) records the exact source commit and publication states. The online game remains the previously published pass 05.
+Study authored September 8, 2026 and **accepted by the user on September 9 as the minimum completion standard** for future blocks. Use the most recent accessible view and preserve or exceed this detail and presentation. [Performance pass 07](PERFORMANCE-PASS-07.md) retains these models while optimizing speed. The [handoff](../CODEX-HANDOFF.md) records exact source/push/deployment states. Wider map work awaits the later planning discussion.
 
 ## Implemented scope
 
@@ -35,13 +35,13 @@ Sixteen source/access records retain individual page and photo URLs, authors/pub
 
 Google Maps place listings were accessible, but the Street View interface returned “No Street View imagery available here”; its panorama thumbnail request returned HTTP 403. No capture date could be obtained. This pass cannot be described as a comparison with the newest Google panorama. The source record explicitly preserves that failure.
 
-The modeled openings, paint families, signs and movable objects follow these references. Exact fonts/logos, mural artwork, tiny product labels, complete room layouts, surface scans, dimensions and partly obscured return details remain incomplete or inferred. Windows and street-object positions are not surveyed. Daylight rendering combines views taken in different seasons and at different times. This pass is ready for comparison as an authored reconstruction; it is not certified 1:1, photogrammetry or an accepted final benchmark. The whole-map inventory still has 177 supported non-core names with estimated shop designs.
+The modeled openings, paint families, signs and movable objects follow these references. Exact fonts/logos, mural artwork, tiny product labels, complete room layouts, surface scans, dimensions and partly obscured return details remain incomplete or inferred. Windows and street-object positions are not surveyed. Daylight rendering combines views taken in different seasons and at different times. The user accepted this authored reconstruction as the minimum quality benchmark; acceptance does not certify surveyed 1:1 accuracy, photogrammetry or a matched Google panorama. The whole-map inventory still has 177 supported non-core names with estimated shop designs.
 
 ## Inspect the local game
 
 Run `npm run dev`, then open http://127.0.0.1:5173. The game starts at `(0, 228)`, facing north. Four **First & 7th · detail study** buttons frame NW / NE / SW / SE. Walk closer to inspect the stores. R returns to the start in either walking or driving mode.
 
-**Detailed** graphics preserve ambient occlusion and four-sample antialiasing. **Faster** uses simpler glass and two-sample edge smoothing to reduce GPU cost; **Automatic** can adjust after section loading. The choice persists locally. New storefront glass uses physical transmission and a reflection capture of the reconstructed intersection. Small interior lights illuminate the observed display zones. The accepted First & 10th model and recipe are unchanged.
+**Detailed** graphics preserve ambient occlusion and four-sample antialiasing. **Faster** uses two-sample edge smoothing and omits ambient occlusion to reduce GPU cost; **Automatic** can adjust after section loading. The choice persists locally. Revision 06 used volumetric transmission and a reflection capture of the reconstructed intersection. Pass 07 replaces the extra transmission render with thin clear panes that retain physical surface lighting and that reflection capture. Small interior lights illuminate the observed display zones. The accepted First & 10th model and recipe are unchanged.
 
 Actual game captures: [NW](../docs/images/first-seventh-nw-revision-06.png), [NE](../docs/images/first-seventh-ne-revision-06.png), [SW](../docs/images/first-seventh-sw-revision-06.png), [SE](../docs/images/first-seventh-se-revision-06.png), [Tile Bar](../docs/images/tile-bar-revision-06.png), [Saifee](../docs/images/saifee-revision-06.png). They are unedited browser screenshots, with the normal game UI and any visible occlusions. [Credits](../dist/reconstruction/ASSET-CREDITS.md).
 
@@ -61,4 +61,4 @@ Do not run the data compiler while Blender is exporting: it writes the manifest 
 
 Final checks passed on Node.js 24.15.0: 2,308 road samples; code/assets, export/source signatures, corner schedules, navigation and collision; clean prepare/compile with all three generated audits matching. All 22 saved game views completed with zero uncaught exceptions, console errors or failed HTTP responses. Existing RGBELoader deprecation warnings remain. Fourteen neighborhood sections total 51.78 MiB and 9,389,484 triangles; largest material batch count is 62.
 
-Two sequential 120-frame stationary samples at 1440 × 1000 on Apple M1 / ANGLE Metal measured **25.0 fps Detailed** and **56.3 fps Faster**. Detailed retained ambient occlusion, four-sample antialiasing and physical glass; Faster used two samples, no AO and simpler glass. These short samples do not establish sustained driving performance.
+Historical revision 06 measurements, before the speed optimization: two sequential 120-frame stationary samples at 1440 × 1000 on Apple M1 / ANGLE Metal measured **25.0 fps Detailed** and **56.3 fps Faster**. Detailed retained ambient occlusion, four-sample antialiasing and physical glass; Faster used two samples, no AO and simpler glass. These short samples do not establish sustained driving performance.

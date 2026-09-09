@@ -5,14 +5,14 @@ Read `CODEX-HANDOFF.md`, the latest entry in `SESSION-LOG.md`, `START-HERE.md`, 
 ## Session checkpoints
 
 - On resuming, inspect the current branch, recent commits, and `git status --short --branch` before editing. Compare them with the latest checkpoint and preserve any uncommitted work.
-- Honor the latest user review/pause state in the checkpoint. An unfinished fidelity backlog or an older document's suggested next work does not override an explicit pause. The latest user request resumes modeling at First Avenue / East 7th Street only, establishing a benchmark before extending block by block.
+- Honor the latest user review/pause state in the checkpoint. An unfinished fidelity backlog or an older document's suggested next work does not override an explicit pause. On September 9 the user accepted First & 7th revision 06 as the minimum completion standard and authorized speed optimization, pushing to main and documentation updates. Wider block/street processing and expansion require the later planning discussion; do not start jobs automatically.
 - After meaningful milestones, during long tasks, and before a planned handoff, refresh the current checkpoint in `CODEX-HANDOFF.md` and add a dated entry to `SESSION-LOG.md`. Keep earlier entries as history; use the log's template. Save progress during the session so an unexpected closure does not lose all context.
 - Record the user's objective and decisions, exact gameplay/source commit, local changes, push status, deployment status, checks actually performed, unresolved issues, and the next concrete step. A local commit, a push to `main`, and a verified live deployment are separate states; record unknown or pending states explicitly.
 - Use Git history to identify the checkpoint documentation's own commit. Do not repeatedly amend a checkpoint just to insert its own commit hash. Never store credentials in checkpoint files or rely on temporary files, chat history, running processes, or old tool session IDs as the only way to resume.
 
 ## Project constraints
 
-- This is an existing ten-block East Village reconstruction. Preserve the accepted First Avenue/East 10th Street core and improve the real neighborhood's fidelity and cozy presentation.
+- This is an existing ten-block East Village reconstruction. Preserve the accepted First Avenue/East 10th Street core and the First & 7th minimum standard, and improve the real neighborhood's fidelity and cozy presentation.
 - The user's quality target applies across the entire requested map: shop layouts, neon/projecting signs, boards, outdoor seating, paint, proportions and architectural details. Do not silently replace that scope with a selected-shop pass. Shared components must express observed features; a supported business name, photographic record, successful export or gap report is not proof that a facade is complete or 1:1.
 - The active game is `dist/index.html`. Files under `dist/` are editable source and required game assets; do not delete or ignore that directory as build output. `dist/prototype.html` is an older generic prototype.
 - The project uses vanilla JavaScript modules and vendored Three.js. Keep the current structure unless a requested change calls for a migration. No npm dependencies are needed to run the export.

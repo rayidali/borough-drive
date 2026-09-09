@@ -14,6 +14,8 @@ The root [MIT License](LICENSE) covers original Borough Drive code, documentatio
 | Draco decoder | Apache 2.0; [included license](dist/vendor/draco/LICENSE) |
 | Damion Regular, used for some script sign meshes | Copyright 2014 The Damion Project Authors; SIL Open Font License 1.1; [included license](model-source/fonts/OFL.txt), [source](https://github.com/google/fonts/tree/main/ofl/damion). A typeface approximation, not original business artwork. |
 
+Performance pass 07 (September 9, 2026) preserves the accepted revision 06 models and all existing photographic provenance. `dist/reconstruction/street-materials.glb` contains seven original core material definitions and four byte-identical embedded Poly Haven images, extracted by `scripts/prepare-street-materials.mjs`; it adds no new imagery or license. Performance-review PNGs are unedited game captures and retain the same model/material credits. See [the report](model-source/PERFORMANCE-PASS-07.md) and [current publication state](CODEX-HANDOFF.md).
+
 ## Models, renders, and geographic data
 
 `source-data/osm-raw.json` and the OSM-derived portions of the map and geometry manifests preserve OpenStreetMap data and identifiers. Geographic transformations and estimated additions are documented in the source recipes and observation records. Keep the ODbL notices and attribution when redistributing this data.

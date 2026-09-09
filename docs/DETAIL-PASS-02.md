@@ -1,6 +1,6 @@
 # First & 10th — detail pass 02
 
-**Historical core report.** This individual storefront treatment is preserved in published gameplay/model commit `63757cbbb13749584e761e4bf7a8e655f90b1bd4`. It remains the user's reference standard for the wider map; it does not establish that the same work has been completed elsewhere. The current start/reset is First & 7th. See [storefront pass 05](../model-source/STOREFRONT-PASS-05.md) for the later partial pass and [CODEX-HANDOFF.md](../CODEX-HANDOFF.md) for the local First & 7th study and next authorized action.
+**Historical reference/report; current state updated September 9, 2026.** The material below remains a dated record, including its original counts, source dates and checks. The owner accepted [First & 7th revision 06](../model-source/FIRST-SEVENTH-PASS-06.md) as the minimum completion standard. [Performance pass 07](../model-source/PERFORMANCE-PASS-07.md) preserves the model exports and improves runtime speed. Read [CODEX-HANDOFF.md](../CODEX-HANDOFF.md) for exact current source/push/deployment states. Wider block/street processing awaits the later plan; this historical report does not authorize new work.
 
 Preserved notes from the ten-block export's original README. These describe authored model details; source dates and uncertainty remain in the [storefront records](../model-source/CURRENT-STOREFRONTS.md), [business records](../dist/reconstruction/businesses.json), and [asset credits](../dist/reconstruction/ASSET-CREDITS.md).
 

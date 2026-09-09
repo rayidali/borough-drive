@@ -31,7 +31,7 @@ def compile_corner(data):
         'buildings':[r['id'] for r in schedule['buildings']],
         'elevations':sum(len(r['elevations']) for r in schedule['buildings']),
         'source':'model-source/first-and-seventh.json','scope':schedule['scope'],
-        'streetViewVerified':False,'acceptance':'Awaiting matched-reference visual review and user acceptance.'}
+        'streetViewVerified':False,'acceptance':schedule['acceptance']}
     def obstacle(bid,street,at,d,w,h,kind):
         f=next(f for f in byid[bid]['frontages'] if f['street']==street)
         s=at*f['length']

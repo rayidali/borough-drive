@@ -15,6 +15,6 @@
   "scripts": {
     "dev": "node scripts/serve.mjs",
     "start": "node scripts/serve.mjs",
-    "verify": "node scripts/verify-intersection.mjs && node scripts/verify-neighborhood.mjs"
+    "verify": "node scripts/verify-intersection.mjs && node scripts/verify-neighborhood.mjs && node scripts/prepare-street-materials.mjs --check && node scripts/verify-spatial-batches.mjs"
   }
 }

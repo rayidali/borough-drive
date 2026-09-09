@@ -1,21 +1,33 @@
 import * as THREE from 'three';
 import {mergeGeometries} from 'three/addons/utils/BufferGeometryUtils.js';
+import {partitionStaticMeshes} from './spatial-batches.js';
+import {createStorefrontGlass} from './storefront-glass.js';
 
 const COLORS={'seventh red brick':0x875440,'seventh buff brick':0xb4a387,'seventh red plaster':0x973b28,'painted blue':0x2b6888,'painted ochre':0xc49a34,'warm brick':0x825944,'salmon brick':0x9c7162,'buff brick':0xb1a080,'charcoal brick':0x575653,'aged brownstone':0x796050,'limestone facade':0xb6af9c,'painted ivory':0xc7c4b7,'painted grey':0x858880,'weathered red':0x7e4d3b,'red brick':0x875440,'dark red brick':0x754736,'pale render':0xb8b5a7,'cream stone':0xb6aa89,'ochre brick':0x927454,'orange stucco':0xa86243};
-export async function createNeighborhoodRenderer({scene,loader,renderer,data,core,asset,onChange,onStatus}){
+export async function createNeighborhoodRenderer({scene,loader,renderer,data,core,initialMaterials,asset,onChange,onStatus}){
  const materialCache=new Map(),textureCache=new Map(),proxyGroups=new Map(),states=new Map();
  const materialVariants=new Map();
  // Core and neighborhood recipes can use the same human-readable name with
  // different paint colors or textures. Share only equivalent materials.
  const materialKey=m=>JSON.stringify([m.name,m.color?.toArray(),m.roughness,m.metalness,m.opacity,m.side,m.emissive?.toArray(),m.emissiveIntensity,...['map','normalMap','roughnessMap','metalnessMap'].map(k=>m[k]?.name||null)]);
  const maxAniso=Math.min(8,renderer.capabilities.getMaxAnisotropy());
- core.traverse(o=>{if(!o.isMesh)return;const ms=Array.isArray(o.material)?o.material:[o.material];for(const m of ms){if(!materialCache.has(m.name))materialCache.set(m.name,m);for(const field of ['map','normalMap','roughnessMap','metalnessMap'])if(m[field]&&m[field].name)textureCache.set(field+':'+m[field].name,m[field]);}if(o.name.startsWith('Streets'))o.visible=false;});
- core.traverse(o=>{if(o.isMesh)for(const m of Array.isArray(o.material)?o.material:[o.material])materialVariants.set(materialKey(m),m);});
+ for(const m of initialMaterials){m.envMapIntensity=.75;if(m.map)m.map.anisotropy=maxAniso;if(m.normalMap)m.normalScale.set(.4,.4);materialCache.set(m.name,m);materialVariants.set(materialKey(m),m);for(const field of ['map','normalMap','roughnessMap','metalnessMap'])if(m[field]?.name)textureCache.set(field+':'+m[field].name,m[field]);}
+ let corePromise,coreLoaded=false,coreFailedAt=0;
+ async function loadCore(){
+  if(coreLoaded||corePromise)return corePromise;
+  onStatus?.('Loading First & 10th details…');
+  corePromise=loader.loadAsync(asset('first-and-10th.glb')).then(async gltf=>{
+   const root=prepare(gltf.scene,.4);root.traverse(o=>{if(o.name.startsWith('Streets'))o.visible=false;});
  // Preserve the authored core, batching its static meshes by material for driving.
- core.updateMatrixWorld(true);const coreBatches=new Map();
- core.traverse(o=>{if(!o.isMesh||!o.visible||Array.isArray(o.material))return;const g=o.geometry.clone();g.applyMatrix4(o.matrixWorld);for(const name of Object.keys(g.attributes))if(!['position','normal','uv'].includes(name))g.deleteAttribute(name);if(!g.attributes.normal)g.computeVertexNormals();if(!g.attributes.uv)g.setAttribute('uv',new THREE.BufferAttribute(new Float32Array(g.attributes.position.count*2),2));if(!g.index)g.setIndex(Array.from({length:g.attributes.position.count},(_,i)=>i));if(!coreBatches.has(o.material))coreBatches.set(o.material,[]);coreBatches.get(o.material).push(g);});
- const original=[];core.traverse(o=>{if(o.isMesh)original.push(o.geometry);});core.clear();original.forEach(g=>g.dispose());
- for(const [m,gs] of coreBatches){const mesh=new THREE.Mesh(mergeGeometries(gs,false),m);mesh.name='First and Tenth · '+m.name;mesh.castShadow=m.name!=='store glass';mesh.receiveShadow=true;core.add(mesh);gs.forEach(g=>g.dispose());}
+ root.updateMatrixWorld(true);const coreBatches=new Map();
+ root.traverse(o=>{if(!o.isMesh||!o.visible||Array.isArray(o.material))return;const g=o.geometry.clone();g.applyMatrix4(o.matrixWorld);for(const name of Object.keys(g.attributes))if(!['position','normal','uv'].includes(name))g.deleteAttribute(name);if(!g.attributes.normal)g.computeVertexNormals();if(!g.attributes.uv)g.setAttribute('uv',new THREE.BufferAttribute(new Float32Array(g.attributes.position.count*2),2));if(!g.index)g.setIndex(Array.from({length:g.attributes.position.count},(_,i)=>i));if(!coreBatches.has(o.material))coreBatches.set(o.material,[]);coreBatches.get(o.material).push(g);});
+ const original=[];root.traverse(o=>{if(o.isMesh)original.push(o.geometry);});root.clear();original.forEach(g=>g.dispose());
+ for(const [m,gs] of coreBatches){const mesh=new THREE.Mesh(mergeGeometries(gs,false),m);mesh.name='First and Tenth · '+m.name;mesh.castShadow=m.name!=='store glass';mesh.receiveShadow=true;root.add(mesh);gs.forEach(g=>g.dispose());}
+ await partitionStaticMeshes(root);
+   core.add(root);coreLoaded=true;proxyGroups.get('core').visible=false;onChange?.();
+  }).catch(error=>{coreFailedAt=performance.now();console.warn('First & 10th unavailable; will retry.',error);onStatus?.('First & 10th details will retry.');}).finally(()=>{corePromise=null;if(coreLoaded)onStatus?.('');});
+  return corePromise;
+ }
  const mat=(name,color,roughness=.85)=>{if(materialCache.has(name))return materialCache.get(name);const m=new THREE.MeshStandardMaterial({name,color,roughness});materialCache.set(name,m);return m;};
  const batches=new Map();
  function geometry(g,m){g=g.toNonIndexed();if(g.getAttribute('uv')===undefined)g.setAttribute('uv',new THREE.BufferAttribute(new Float32Array(g.getAttribute('position').count*2),2));if(!batches.has(m))batches.set(m,[]);batches.get(m).push(g);}
@@ -98,10 +110,10 @@ export async function createNeighborhoodRenderer({scene,loader,renderer,data,cor
  for(const [m,gs] of batches){const merged=mergeGeometries(gs,false);const mesh=new THREE.Mesh(merged,m);mesh.receiveShadow=true;ground.add(mesh);gs.forEach(g=>g.dispose());}batches.clear();
 
  // Lightweight silhouettes and window planes keep distant streets continuous.
- for(const tile of data.tiles){
+ for(const tile of [...data.tiles,{id:'core'}]){
   const group=new THREE.Group();group.name='Distant '+tile.id;scene.add(group);proxyGroups.set(tile.id,group);
   const shapes=new Map(),windows=[];
-  for(const b of data.buildings.filter(b=>b.tile===tile.id&&!b.core)){
+  for(const b of data.buildings.filter(b=>tile.id==='core'?b.core:b.tile===tile.id&&!b.core)){
    const spec=b.facadeSpec||{},color=COLORS[spec.wall]||COLORS['warm brick'];
    const shape=new THREE.Shape(b.p.map(p=>new THREE.Vector2(p[0],-p[1])));for(const hole of b.holes||[])shape.holes.push(new THREE.Path(hole.map(p=>new THREE.Vector2(p[0],-p[1]))));
    const g=new THREE.ExtrudeGeometry(shape,{depth:b.renderHeight||spec.height||b.height,bevelEnabled:false,steps:1});g.rotateX(-Math.PI/2);g.translate(0,.17,0);
@@ -110,26 +122,27 @@ export async function createNeighborhoodRenderer({scene,loader,renderer,data,cor
   }
   for(const [color,gs] of shapes){const g=mergeGeometries(gs,false),m=new THREE.MeshStandardMaterial({color,roughness:.95});group.add(new THREE.Mesh(g,m));gs.forEach(g=>g.dispose());}
   if(windows.length){const geo=new THREE.PlaneGeometry(1.08,1),mesh=new THREE.InstancedMesh(geo,new THREE.MeshStandardMaterial({color:0x33403e,roughness:.4,metalness:.2,side:THREE.DoubleSide}),windows.length),dummy=new THREE.Object3D();windows.forEach((w,i)=>{dummy.position.set(w.x,w.y,w.z);dummy.rotation.y=w.angle;dummy.scale.set(1,w.h,1);dummy.updateMatrix();mesh.setMatrixAt(i,dummy.matrix);});mesh.instanceMatrix.needsUpdate=true;group.add(mesh);}
-  states.set(tile.id,{tile,root:null,promise:null,lastNeeded:0,failedAt:0});
+  if(tile.id!=='core')states.set(tile.id,{tile,root:null,promise:null,lastNeeded:0,failedAt:0});
  }
- let detailedGlass=true;
- function styleGlass(m){m.transmission=detailedGlass?.96:0;m.opacity=detailedGlass?1:.18;m.transparent=!detailedGlass;m.depthWrite=detailedGlass;m.metalness=detailedGlass?0:.5;m.color.set(detailedGlass?0xffffff:0x91a6ac);m.needsUpdate=true;}
- function prepare(root){root.traverse(o=>{if(!o.isMesh)return;o.castShadow=true;o.receiveShadow=true;const materials=Array.isArray(o.material)?o.material:[o.material];o.material=materials.map(m=>{if(m.name==='seventh glass'){const source=m;m=new THREE.MeshPhysicalMaterial({name:source.name,color:0xffffff,roughness:.008,metalness:0,transmission:.96,ior:1.5,thickness:.006,envMapIntensity:.9,side:THREE.FrontSide});source.dispose();}const key=materialKey(m);if(materialVariants.has(key)){const known=materialVariants.get(key);if(m!==known)m.dispose();return known;}for(const field of ['map','normalMap','roughnessMap','metalnessMap'])if(m[field]){const t=m[field],k=field+':'+t.name;if(t.name&&textureCache.has(k)){m[field]=textureCache.get(k);t.dispose();}else if(t.name)textureCache.set(k,t);}m.envMapIntensity=.75;if(m.map)m.map.anisotropy=maxAniso;if(m.normalMap)m.normalScale.set(.35,.35);if(m.name==='seventh glass')styleGlass(m);materialVariants.set(key,m);return m;});if(!Array.isArray(o.material)||o.material.length===1)o.material=o.material[0];const ms=Array.isArray(o.material)?o.material:[o.material];if(ms.every(m=>m.name==='store glass'||m.name==='seventh glass'))o.castShadow=false;});return root;}
+ function prepare(root,normalStrength=.35){root.traverse(o=>{if(!o.isMesh)return;o.castShadow=true;o.receiveShadow=true;const materials=Array.isArray(o.material)?o.material:[o.material];o.material=materials.map(m=>{if(m.name==='seventh glass'){const source=m;m=createStorefrontGlass();source.dispose();}const key=materialKey(m);if(materialVariants.has(key)){const known=materialVariants.get(key);if(m!==known)m.dispose();return known;}for(const field of ['map','normalMap','roughnessMap','metalnessMap'])if(m[field]){const t=m[field],k=field+':'+t.name;if(t.name&&textureCache.has(k)){m[field]=textureCache.get(k);t.dispose();}else if(t.name)textureCache.set(k,t);}m.envMapIntensity=.75;if(m.map)m.map.anisotropy=maxAniso;if(m.normalMap)m.normalScale.set(normalStrength,normalStrength);materialVariants.set(key,m);return m;});if(!Array.isArray(o.material)||o.material.length===1)o.material=o.material[0];const ms=Array.isArray(o.material)?o.material:[o.material];if(ms.every(m=>m.name==='store glass'||m.name==='seventh glass'))o.castShadow=false;});return root;}
  const distance=(x,z,b)=>Math.hypot(Math.max(b[0]-x,0,x-b[2]),Math.max(b[1]-z,0,z-b[3]));
  let queue=[],active=0,alive=true,cornerEnvironment;
  function reflectCorner(){
   if(cornerEnvironment||!['block-5-1','block-5-2','edge-south'].every(id=>states.get(id)?.root))return;
   const hidden=[];scene.traverse(o=>{if(o.isMesh&&o.material?.name==='seventh glass'&&o.visible){o.visible=false;hidden.push(o);}});
+  const lights=scene.children.filter(o=>o.isPointLight).map(light=>[light,light.visible]);for(const [light] of lights)light.visible=true;
   const target=new THREE.WebGLCubeRenderTarget(256,{type:THREE.HalfFloatType}),probe=new THREE.CubeCamera(.15,190,target);probe.position.set(0,2.2,228);
-  try{probe.update(renderer,scene);const pmrem=new THREE.PMREMGenerator(renderer);cornerEnvironment=pmrem.fromCubemap(target.texture);pmrem.dispose();for(const material of materialVariants.values())if(material.name==='seventh glass'){material.envMap=cornerEnvironment.texture;material.envMapIntensity=1.25;material.needsUpdate=true;}}finally{for(const mesh of hidden)mesh.visible=true;target.dispose();}
+  try{probe.update(renderer,scene);const pmrem=new THREE.PMREMGenerator(renderer);cornerEnvironment=pmrem.fromCubemap(target.texture);pmrem.dispose();for(const material of materialVariants.values())if(material.name==='seventh glass'){material.envMap=cornerEnvironment.texture;material.envMapIntensity=1.25;material.needsUpdate=true;}}finally{for(const mesh of hidden)mesh.visible=true;for(const [light,visible] of lights)light.visible=visible;target.dispose();}
  }
- function pump(){while(alive&&active<2&&queue.length){const s=queue.shift();if(s.root||s.promise)continue;active++;onStatus?.('Loading nearby streets…');s.promise=loader.loadAsync(asset(s.tile.url)).then(g=>{s.root=prepare(g.scene);scene.add(s.root);proxyGroups.get(s.tile.id).visible=false;reflectCorner();onChange?.();}).catch(error=>{s.failedAt=performance.now();console.warn('Neighborhood section unavailable',s.tile.id,error);onStatus?.('Some street details could not load. They will retry.');}).finally(()=>{s.promise=null;active--;if(!active&&!queue.length)onStatus?.('');pump();});}}
+ function pump(){while(alive&&active<2&&queue.length){const s=queue.shift();if(s.root||s.promise)continue;active++;onStatus?.('Loading nearby streets…');s.promise=loader.loadAsync(asset(s.tile.url)).then(async g=>{const root=prepare(g.scene);await partitionStaticMeshes(root);s.root=root;scene.add(s.root);proxyGroups.get(s.tile.id).visible=false;reflectCorner();onChange?.();}).catch(error=>{s.failedAt=performance.now();console.warn('Neighborhood section unavailable',s.tile.id,error);onStatus?.('Some street details could not load. They will retry.');}).finally(()=>{s.promise=null;active--;if(!active&&!queue.length)onStatus?.('');pump();});}}
  function update(x,z,now){
   const ordered=[...states.values()].sort((a,b)=>distance(x,z,a.tile.bounds)-distance(x,z,b.tile.bounds));
   queue=[];
   for(const s of ordered){const d=distance(x,z,s.tile.bounds);if(d<116){s.lastNeeded=now;if(!s.root&&!s.promise&&(!s.failedAt||now-s.failedAt>12000))queue.push(s);}else if(s.root&&d>205&&now-s.lastNeeded>6500){scene.remove(s.root);s.root.traverse(o=>{if(o.isMesh)o.geometry.dispose();});s.root=null;proxyGroups.get(s.tile.id).visible=true;onChange?.();}}
   pump();
   const coreDistance=Math.hypot(Math.max(Math.abs(x)-65,0),Math.max(Math.abs(z)-70,0));core.visible=coreDistance<230;
+  proxyGroups.get('core').visible=!coreLoaded||!core.visible;
+  if(coreDistance<116&&!coreLoaded&&(!coreFailedAt||now-coreFailedAt>12000))loadCore();
  }
  // Reusable prop meshes are instanced, sharing geometry and materials.
  async function instanceAsset(url,placements,name){if(!placements.length)return;const gltf=await loader.loadAsync(asset(url));prepare(gltf.scene);gltf.scene.updateMatrixWorld(true);const cells=new Map();for(const p of placements){const k=Math.floor(p.x/80)+','+Math.floor(p.z/80);if(!cells.has(k))cells.set(k,[]);cells.get(k).push(p);}const root=new THREE.Group();root.name=name;const transform=new THREE.Matrix4(),dummy=new THREE.Object3D();gltf.scene.traverse(o=>{if(!o.isMesh)return;for(const group of cells.values()){const mesh=new THREE.InstancedMesh(o.geometry,o.material,group.length);group.forEach((p,i)=>{dummy.position.set(p.x,0,p.z);dummy.rotation.set(0,p.angle||0,0);dummy.scale.setScalar(p.scale||1);dummy.updateMatrix();transform.multiplyMatrices(dummy.matrix,o.matrixWorld);mesh.setMatrixAt(i,transform);});mesh.instanceMatrix.needsUpdate=true;mesh.computeBoundingSphere();mesh.castShadow=true;mesh.receiveShadow=true;root.add(mesh);}});scene.add(root);onChange?.();}
@@ -138,5 +151,5 @@ export async function createNeighborhoodRenderer({scene,loader,renderer,data,cor
  for(const [avenue,x,width] of avs)for(const [street,z] of sts){if(avenue==='First Avenue'&&['East 10th Street','East 7th Street'].includes(street))continue;for(const side of [-1,1]){const px=x+side*(width+.75),pz=z+side*6.2;signals.push({x:px,z:pz,angle:side<0?0:Math.PI});streetSign(street.replace('East ','E ').replace('Street','St'),px,pz,3.55,0);streetSign(avenue.replace('Avenue','Ave'),px,pz,3.95,Math.PI/2);}}
  const props=Promise.allSettled([...(data.detailProps||[]).map(group=>instanceAsset(group.url,group.placements,group.name)),instanceAsset('neighborhood/street-tree.glb',data.trees||[],'Street trees'),instanceAsset('neighborhood/park-bench.glb',data.benches||[],'Park benches'),instanceAsset('neighborhood/parked-car.glb',data.parked?.filter(p=>!p.core)||[],'Parked cars'),instanceAsset('neighborhood/street-furniture.glb',data.furniture||[],'Street furniture'),instanceAsset('neighborhood/traffic-signal.glb',signals,'Traffic signals')]);
  props.then(results=>{if(results.some(r=>r.status==='rejected'))onStatus?.('Some street furniture could not load.');});
- return {update,setQuality(value){detailedGlass=value!=='fast';for(const m of materialVariants.values())if(m.name==='seventh glass')styleGlass(m);},dispose(){alive=false;cornerEnvironment?.dispose();},states,props};
+ return {update,loadCore,get coreLoaded(){return coreLoaded;},get corePending(){return !!corePromise;},dispose(){alive=false;cornerEnvironment?.dispose();},states,props};
 }

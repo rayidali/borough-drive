@@ -31,11 +31,11 @@ The playable area runs from **East 7th to East 12th Street**, between **Second A
 - **Recognize local landmarks.** Distinct forms include Ottendorfer Library, Village East Cinema, the Orpheum, and neighborhood churches.
 - **Run it locally.** All runtime libraries, models, textures, and map data are included. The game needs no backend, API key, or live map service.
 
-The local [First & 7th study, revision 06](model-source/FIRST-SEVENTH-PASS-06.md), concentrates on **five buildings, nine exposed elevations and eight shops across the four corners**. It adds individual window/lintel layouts, Saifee's two different building heights, Tile Bar's tiled entrance and seating, shop signs, doors, display inventory and street hardware. The rest of the map keeps its existing designs.
+The accepted [First & 7th study, revision 06](model-source/FIRST-SEVENTH-PASS-06.md), concentrates on **five buildings, nine exposed elevations and eight shops across the four corners**. It adds individual window/lintel layouts, Saifee's two different building heights, Tile Bar's tiled entrance and seating, shop signs, doors, display inventory and street hardware. The rest of the map keeps its existing designs.
 
 ![Actual game view of the revised First and 7th southeast corner](docs/images/first-seventh-se-revision-06.png)
 
-*Revision 06, captured in the actual browser game with Detailed graphics. [Northwest](docs/images/first-seventh-nw-revision-06.png), [northeast](docs/images/first-seventh-ne-revision-06.png), [southwest](docs/images/first-seventh-sw-revision-06.png), [Tile Bar](docs/images/tile-bar-revision-06.png) and [Saifee](docs/images/saifee-revision-06.png). These are game captures, not street photographs. The new pass is local; the online deployment still uses [pass 05](model-source/STOREFRONT-PASS-05.md). [Credits](dist/reconstruction/ASSET-CREDITS.md).*
+*Revision 06, captured in the actual browser game with Detailed graphics. [Northwest](docs/images/first-seventh-nw-revision-06.png), [northeast](docs/images/first-seventh-ne-revision-06.png), [southwest](docs/images/first-seventh-sw-revision-06.png), [Tile Bar](docs/images/tile-bar-revision-06.png) and [Saifee](docs/images/saifee-revision-06.png). These are game captures, not street photographs. The owner accepted this as the minimum completion standard on September 9, 2026. [Performance pass 07](model-source/PERFORMANCE-PASS-07.md) retains these models and improves loading/rendering; the [handoff](CODEX-HANDOFF.md) records publication status. [Credits](dist/reconstruction/ASSET-CREDITS.md).*
 
 ## Get started
 
@@ -49,7 +49,7 @@ npm run dev
 
 Open **http://127.0.0.1:5173** in a browser with WebGL2 and hardware acceleration. Keep the terminal running while you play.
 
-There is no `npm install` step. Blender is only needed when regenerating models. The first model is approximately 24.4 MiB, so initial loading and decoding can take a moment.
+There is no `npm install` step. Blender is only needed when regenerating models. Startup prioritizes First & 7th. The preserved 24.4 MiB First & 10th model loads as you approach; its exact street materials are available in a smaller startup asset.
 
 If port 5173 is occupied, run `npm run dev -- 5174`. See [START-HERE.md](START-HERE.md) for the Python alternative and troubleshooting.
 
@@ -75,7 +75,7 @@ If port 5173 is occupied, run `npm run dev -- 5174`. See [START-HERE.md](START-H
 
 ## How it works
 
-The browser runs vanilla JavaScript modules and bundled **Three.js r180**. Blender recipes generate Draco-compressed GLB models. Fourteen neighborhood sections load detailed geometry as you approach, with simpler distant silhouettes and shared textures. Repeated street props use GPU instancing, and driving runs on a fixed simulation step.
+The browser runs vanilla JavaScript modules and bundled **Three.js r180**. Blender recipes generate Draco-compressed GLB models. Fourteen neighborhood sections load detailed geometry as you approach, with simpler distant silhouettes and shared textures. Repeated street props use GPU instancing, and driving runs on a fixed simulation step. Spatial batches retain all authored triangles while improving culling. Shared surface images download/decode once, thin storefront glass keeps reflections without an extra city render, and a settled view stops redrawing. Detailed remains the default, with ambient shading and four-sample edge smoothing. See [the measured performance report](model-source/PERFORMANCE-PASS-07.md).
 
 | Location | Purpose |
 | --- | --- |
@@ -98,7 +98,7 @@ The browser runs vanilla JavaScript modules and bundled **Three.js r180**. Blend
 npm run verify
 ```
 
-The checks cover local module paths, interface references, GLBs, textures, 2,308 road samples, map destinations, boundary driving, braking, reverse, collision, and frame-rate independence of the vehicle simulation. They also check municipal building joins, restored identities, courtyard openings, business partitions, the First & 7th start, storefront source/model signatures and sidewalk furniture collision. GitHub Actions runs the same checks on Node.js 22 and 24.
+The checks cover local module paths, interface references, GLBs, textures, 2,308 road samples, map destinations, boundary driving, braking, reverse, collision, and frame-rate independence of the vehicle simulation. They also check lossless spatial partitioning and exact reproduction of the street-material startup asset, municipal building joins, restored identities, courtyard openings, business partitions, the First & 7th start, storefront source/model signatures and sidewalk furniture collision. GitHub Actions runs the same checks on Node.js 22 and 24.
 
 These are code and asset checks. Visual accuracy, driving feel, and browser frame rate need separate hands-on review.
 
@@ -122,7 +122,7 @@ Observations, occupancy claims, and inferred geometry are recorded separately. U
 
 - [Neighborhood scope, landmarks, and known gaps](model-source/NEIGHBORHOOD-NOTES.md)
 - [First & 7th revision 06](model-source/FIRST-SEVENTH-PASS-06.md), [individual corner records](model-source/first-and-seventh.json)
-- [Published storefront pass 05](model-source/STOREFRONT-PASS-05.md), [individual designs and photo sources](model-source/storefront-details.json), and [all 641 non-core street frontages](model-source/digital-twin-coverage.json)
+- [Historical storefront pass 05](model-source/STOREFRONT-PASS-05.md), [individual designs and photo sources](model-source/storefront-details.json), and [all 641 non-core street frontages](model-source/digital-twin-coverage.json)
 - [Accuracy audit, corrections and evidence limits](model-source/ACCURACY-PASS-04.md)
 - [Core facade observations](model-source/FACADE-NOTES.md) and [storefront references](model-source/CURRENT-STOREFRONTS.md)
 - [Editable neighborhood observation schedule](model-source/neighborhood-observations.json)
@@ -133,7 +133,7 @@ Observations, occupancy claims, and inferred geometry are recorded separately. U
 
 ## Resume development
 
-Read [AGENTS.md](AGENTS.md), the current [handoff](CODEX-HANDOFF.md), the latest [session log](SESSION-LOG.md), and [START-HERE.md](START-HERE.md) before continuing an existing session. The previously published gameplay/model baseline is [`63757cb`](https://github.com/rayidali/borough-drive/commit/63757cbbb13749584e761e4bf7a8e655f90b1bd4), published September 8, 2026; documentation commits follow it. [Publication evidence](model-source/publication-review-2026-09-08.json) records the live file comparison.
+Read [AGENTS.md](AGENTS.md), the current [handoff](CODEX-HANDOFF.md), the latest [session log](SESSION-LOG.md), and [START-HERE.md](START-HERE.md) before continuing an existing session. First & 7th revision 06 is the accepted minimum standard; [performance pass 07](model-source/PERFORMANCE-PASS-07.md) records the current speed changes and review evidence. The handoff distinguishes local commits, pushing to main and a verified live deployment. The next discussion is an economical block/street process; wider implementation is deferred.
 
 The user resumed work specifically at First & 7th. Revision 06 is the local comparison pass; review this intersection before extending block by block. The whole-map digital-twin objective remains unfinished. Recording an evidence gap or adding a business name does not resolve the corresponding visual work. Resume with the user's next instruction, preserving the First & 10th standard throughout the requested scope.
 

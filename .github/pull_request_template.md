@@ -12,6 +12,8 @@ Identify the building/street and relevant storefront or elevation records. First
 
 ## Validation
 
+Preserve the user-accepted First & 7th revision 06 minimum standard. For speed changes, include comparable device/viewport/quality measurements, actual render counts versus idle RAF callbacks, and loading/travel checks; see `model-source/PERFORMANCE-PASS-07.md`.
+
 List the checks you actually ran, including `npm run verify` when applicable, and the browser/device used for hands-on checks. Note any remaining limitations.
 
 For ongoing project sessions, refresh `CODEX-HANDOFF.md` and `SESSION-LOG.md` with the gameplay/source commit, local changes, push/deployment state and next authorized action. Keep historical check results separate from checks performed for this change.

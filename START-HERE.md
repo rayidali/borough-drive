@@ -2,9 +2,9 @@
 
 The repository includes the active ten-block game, exported models, textures, reference data, and editable source recipes. You can play without rebuilding anything.
 
-## Resume state — September 8, 2026
+## Resume state — September 9, 2026
 
-The local checkout contains [First & 7th revision 06](model-source/FIRST-SEVENTH-PASS-06.md): five individual building profiles, nine exposed elevations and eight shops across its four corners. The user asked to establish the standard here before extending block by block. This pass is available locally for comparison; it has not been pushed or deployed. The [published game](https://borough-drive.vercel.app) still uses gameplay/model commit `63757cbbb13749584e761e4bf7a8e655f90b1bd4`.
+The owner accepted [First & 7th revision 06](model-source/FIRST-SEVENTH-PASS-06.md) as the minimum completion standard: five individual building profiles, nine exposed elevations and eight shops. [Performance pass 07](model-source/PERFORMANCE-PASS-07.md) preserves those models while improving startup, rendering and idle GPU use. Publication is authorized; the exact source, push and verified deployment states are recorded in the handoff. The next discussion is an economical block/street process for the existing East Village, then longer-term Manhattan/NYC; expansion and jobs remain deferred.
 
 Read the current [handoff](CODEX-HANDOFF.md) and latest [session log](SESSION-LOG.md), then run `git status --short --branch` and `git log -5 --oneline`. Preserve local changes and check the recorded publishing state before pulling or pushing. Existing models are included; old servers, temporary photo folders and browser sessions are not needed to recover the project.
 
@@ -55,7 +55,7 @@ If an earlier deployment shows `404: NOT_FOUND`, deploy the latest commit contai
 | --- | --- |
 | Opening `dist/index.html` directly fails | Use the local HTTP server; modules and models need HTTP loading. |
 | The 3D view cannot start | Use a browser with WebGL2 and hardware acceleration enabled. |
-| Initial loading takes a moment | The detailed core model is about 24.4 MiB and needs to be decoded. |
+| Initial loading takes a moment | Nearby section models and a 4.18 MiB street-material asset load first; First & 10th streams when approached. |
 | The address is already in use | Choose another port, such as `npm run dev -- 5174`. |
 | Edits do not appear | Refresh the browser. The server does not provide hot reload. |
 | Model or module loading fails after an edit | Run `npm run verify` and check the browser console. |
@@ -64,7 +64,7 @@ If an earlier deployment shows `404: NOT_FOUND`, deploy the latest commit contai
 
 For a new session, open this repository and start with the current checkpoint in [CODEX-HANDOFF.md](CODEX-HANDOFF.md) and the latest entry in [SESSION-LOG.md](SESSION-LOG.md). The log records completed work, the exact gameplay commit, publishing status, unfinished work and next steps. [AGENTS.md](AGENTS.md) instructs coding agents to read and maintain these records as they work.
 
-A useful opening message is: **"Read AGENTS.md, CODEX-HANDOFF.md and the latest SESSION-LOG.md entry, check the current Git state, and resume from the local First & 7th revision 06. Compare my feedback with the saved game views and source dates before extending beyond this intersection."** Add your review or next task.
+A useful opening message is: **"Read AGENTS.md, CODEX-HANDOFF.md and the latest SESSION-LOG.md entry, inspect Git and publication state, and preserve the accepted First & 7th minimum standard and measured performance improvements. Use my next instruction to plan the block-by-block process; do not start expansion automatically."** Add your review or next task.
 
 Read [CONTRIBUTING.md](CONTRIBUTING.md) and [model-source/NEIGHBORHOOD-NOTES.md](model-source/NEIGHBORHOOD-NOTES.md) before substantial changes. The active entry point is `dist/index.html`; `dist/prototype.html` preserves the earlier experiment.
 
