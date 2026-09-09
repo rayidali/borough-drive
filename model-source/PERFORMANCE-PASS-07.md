@@ -2,7 +2,7 @@
 
 The owner accepted First & 7th [revision 06](FIRST-SEVENTH-PASS-06.md) as the **minimum completion standard** and requested speed optimization, publication to `main`, and updated documentation. This pass preserves every existing model export and photographic asset. Wider East Village work, economical block/street batches, Manhattan and NYC expansion remain deferred to the next planning discussion. No service, paid imagery access or background job was configured.
 
-The exact starting gameplay/source commit is `0f40856c9c576d1648ddae9c6e76bb550a98b42a`. [CODEX-HANDOFF.md](../CODEX-HANDOFF.md) records the final source commit, push and verified live deployment separately.
+Published gameplay/source commit: `522cd1de77b72186dc98e06a3b9f6ce4db761d8b`, live at [borough-drive.vercel.app](https://borough-drive.vercel.app). [Publication evidence](publication-review-2026-09-09.json) verifies every changed served file. The exact starting gameplay/source commit was `0f40856c9c576d1648ddae9c6e76bb550a98b42a`. [CODEX-HANDOFF.md](../CODEX-HANDOFF.md) records the final source commit, push and verified live deployment separately.
 
 ## Changes
 
@@ -37,7 +37,7 @@ These are short single-device comparisons, not a universal frame-rate guarantee 
 
 [Preserved asset hashes](performance-review-2026-09-09/preserved-assets.json) confirm 50 unchanged files, including all original GLBs, surface maps, six licensed photographs, both accepted corner recipes and vehicle code. The entire compiled neighborhood manifest is unchanged except the explicit user-acceptance/scope metadata. All 615 footprints/heights, roads, boundaries, facade schedules and collisions remain intact. Three Blender-written silhouette-height fields reset by the metadata compiler were restored from the exact starting manifest before final profiling. No Blender export was performed.
 
-[The browser review](performance-review-2026-09-09/visual-and-runtime.json) records 26 views: start, four First & 7th corners, eight shops, nine elevations and four First & 10th corners. Two additional travel captures cover Avenue A / East 12th and returning to First & 7th. All 28 unedited PNGs are in [docs/images/performance-07](../docs/images/performance-07/), outside the served game directory.
+[The browser review](performance-review-2026-09-09/visual-and-runtime.json) records 26 views: start, four First & 7th corners, eight shops, nine elevations and four First & 10th corners. Two additional travel captures cover Avenue A / East 12th and returning to First & 7th. All 28 local unedited PNGs are in [docs/images/performance-07](../docs/images/performance-07/), outside the served game directory. A separate [live-site smoke check](performance-review-2026-09-09/live-smoke.json) loaded all five starting sections and rendered the [production Saifee view](../docs/images/performance-07/live-first-seventh.png) with zero errors or failed requests.
 
 Direct comparisons: [Saifee corner](../docs/images/performance-07/seventh-se.png), [Tile Bar](../docs/images/performance-07/tile-bar.png), [E7 Deli](../docs/images/performance-07/e7-deli.png), [First & 10th](../docs/images/performance-07/first-tenth-se.png). The existing [revision 06 captures](first-seventh-review-2026-09-08.json) remain the accepted visual reference.
 

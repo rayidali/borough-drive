@@ -1,0 +1,308 @@
+{
+  "recorded": "2026-09-09T01:17:08-04:00",
+  "sourceCommit": "522cd1de77b72186dc98e06a3b9f6ce4db761d8b",
+  "previousPublishedGameplay": "63757cbbb13749584e761e4bf7a8e655f90b1bd4",
+  "url": "https://borough-drive.vercel.app",
+  "changedFiles": 20,
+  "additionalPreservedAssets": 8,
+  "checks": [
+    {
+      "path": "dist/index.html",
+      "url": "https://borough-drive.vercel.app/index.html",
+      "bytes": 10821,
+      "sha256": "a55f78282e113f05a77f2e7306a07b6a97ef6d2a6a1b60c31ac2a90c60c89060",
+      "expectedSha256": "a55f78282e113f05a77f2e7306a07b6a97ef6d2a6a1b60c31ac2a90c60c89060",
+      "matches": true,
+      "changedSinceBaseline": true
+    },
+    {
+      "path": "dist/reconstruction/ASSET-CREDITS.md",
+      "url": "https://borough-drive.vercel.app/reconstruction/ASSET-CREDITS.md",
+      "bytes": 14834,
+      "sha256": "c88746f31f1adf8f2ccceb36ddba2fb0425900e08f4a91d45f951d4a04e02b4d",
+      "expectedSha256": "c88746f31f1adf8f2ccceb36ddba2fb0425900e08f4a91d45f951d4a04e02b4d",
+      "matches": true,
+      "changedSinceBaseline": true
+    },
+    {
+      "path": "dist/reconstruction/neighborhood-render.js",
+      "url": "https://borough-drive.vercel.app/reconstruction/neighborhood-render.js",
+      "bytes": 18336,
+      "sha256": "7c50dcd7f3ffe7e846556acae1db56b93ffaad12e3038d8c202bf8d6f0ba4683",
+      "expectedSha256": "7c50dcd7f3ffe7e846556acae1db56b93ffaad12e3038d8c202bf8d6f0ba4683",
+      "matches": true,
+      "changedSinceBaseline": true
+    },
+    {
+      "path": "dist/reconstruction/neighborhood-sources.json",
+      "url": "https://borough-drive.vercel.app/reconstruction/neighborhood-sources.json",
+      "bytes": 1139786,
+      "sha256": "f4672466dc3a4a413a597983ea02ae79f17cbc5fe07192a90835330c6b8299a4",
+      "expectedSha256": "f4672466dc3a4a413a597983ea02ae79f17cbc5fe07192a90835330c6b8299a4",
+      "matches": true,
+      "changedSinceBaseline": true
+    },
+    {
+      "path": "dist/reconstruction/neighborhood.json",
+      "url": "https://borough-drive.vercel.app/reconstruction/neighborhood.json",
+      "bytes": 1847117,
+      "sha256": "8f6c3a85a12d69fa8e5b0827274e60c7eceb0b76e3569eef472343efc6bbd782",
+      "expectedSha256": "8f6c3a85a12d69fa8e5b0827274e60c7eceb0b76e3569eef472343efc6bbd782",
+      "matches": true,
+      "changedSinceBaseline": true
+    },
+    {
+      "path": "dist/reconstruction/neighborhood/block-2-1.glb",
+      "url": "https://borough-drive.vercel.app/reconstruction/neighborhood/block-2-1.glb",
+      "bytes": 4248640,
+      "sha256": "ceea12d9454df9a343e7e7e285526086da302bde9a360ceea63c84a1c4e3dc5f",
+      "expectedSha256": "ceea12d9454df9a343e7e7e285526086da302bde9a360ceea63c84a1c4e3dc5f",
+      "matches": true,
+      "changedSinceBaseline": true
+    },
+    {
+      "path": "dist/reconstruction/neighborhood/block-2-2.glb",
+      "url": "https://borough-drive.vercel.app/reconstruction/neighborhood/block-2-2.glb",
+      "bytes": 3378212,
+      "sha256": "fc59d9ce4406231a530b9195979fcf974c1e7b71688762a6d27f952e3db3412d",
+      "expectedSha256": "fc59d9ce4406231a530b9195979fcf974c1e7b71688762a6d27f952e3db3412d",
+      "matches": true,
+      "changedSinceBaseline": true
+    },
+    {
+      "path": "dist/reconstruction/neighborhood/block-3-1.glb",
+      "url": "https://borough-drive.vercel.app/reconstruction/neighborhood/block-3-1.glb",
+      "bytes": 3506428,
+      "sha256": "0eb6115a128beb1ab81f6131662c54db2c37042450868aa431c17ab4d1d6d48c",
+      "expectedSha256": "0eb6115a128beb1ab81f6131662c54db2c37042450868aa431c17ab4d1d6d48c",
+      "matches": true,
+      "changedSinceBaseline": true
+    },
+    {
+      "path": "dist/reconstruction/neighborhood/block-3-2.glb",
+      "url": "https://borough-drive.vercel.app/reconstruction/neighborhood/block-3-2.glb",
+      "bytes": 3663644,
+      "sha256": "d1c8997726b76f414cbec8615c66078aaa2f4a44c8cb746d678fcc1de49ee2d5",
+      "expectedSha256": "d1c8997726b76f414cbec8615c66078aaa2f4a44c8cb746d678fcc1de49ee2d5",
+      "matches": true,
+      "changedSinceBaseline": true
+    },
+    {
+      "path": "dist/reconstruction/neighborhood/block-4-2.glb",
+      "url": "https://borough-drive.vercel.app/reconstruction/neighborhood/block-4-2.glb",
+      "bytes": 3851024,
+      "sha256": "dd28b286e7874c05b015f6c293b8f8a44c55522029abeabf9c6f1b25529a7a2d",
+      "expectedSha256": "dd28b286e7874c05b015f6c293b8f8a44c55522029abeabf9c6f1b25529a7a2d",
+      "matches": true,
+      "changedSinceBaseline": true
+    },
+    {
+      "path": "dist/reconstruction/neighborhood/block-5-1.glb",
+      "url": "https://borough-drive.vercel.app/reconstruction/neighborhood/block-5-1.glb",
+      "bytes": 4767568,
+      "sha256": "66836190ee5f4e310cc85e9d35e9cafe291b849b342403676a298507df61d4b3",
+      "expectedSha256": "66836190ee5f4e310cc85e9d35e9cafe291b849b342403676a298507df61d4b3",
+      "matches": true,
+      "changedSinceBaseline": true
+    },
+    {
+      "path": "dist/reconstruction/neighborhood/block-5-2.glb",
+      "url": "https://borough-drive.vercel.app/reconstruction/neighborhood/block-5-2.glb",
+      "bytes": 4305720,
+      "sha256": "caf71241479617848ad306b0cbea0777eab792c0f99e34ef77f6f27de08d0c77",
+      "expectedSha256": "caf71241479617848ad306b0cbea0777eab792c0f99e34ef77f6f27de08d0c77",
+      "matches": true,
+      "changedSinceBaseline": true
+    },
+    {
+      "path": "dist/reconstruction/neighborhood/edge-east.glb",
+      "url": "https://borough-drive.vercel.app/reconstruction/neighborhood/edge-east.glb",
+      "bytes": 2912304,
+      "sha256": "75be88b4f4c535ccdd23c651a2290d4bc02493107cbc8b77c8b5429fc872d90f",
+      "expectedSha256": "75be88b4f4c535ccdd23c651a2290d4bc02493107cbc8b77c8b5429fc872d90f",
+      "matches": true,
+      "changedSinceBaseline": true
+    },
+    {
+      "path": "dist/reconstruction/neighborhood/edge-south.glb",
+      "url": "https://borough-drive.vercel.app/reconstruction/neighborhood/edge-south.glb",
+      "bytes": 6395896,
+      "sha256": "c886b698d7f8a13b337e3107eb4332076abafd5eafe885349103597aff3a4a4d",
+      "expectedSha256": "c886b698d7f8a13b337e3107eb4332076abafd5eafe885349103597aff3a4a4d",
+      "matches": true,
+      "changedSinceBaseline": true
+    },
+    {
+      "path": "dist/reconstruction/shared-textures.js",
+      "url": "https://borough-drive.vercel.app/reconstruction/shared-textures.js",
+      "bytes": 1146,
+      "sha256": "2aeffa44774410da07f60afa685ab881dcff881bfe700804e5260f7fb217e3da",
+      "expectedSha256": "2aeffa44774410da07f60afa685ab881dcff881bfe700804e5260f7fb217e3da",
+      "matches": true,
+      "changedSinceBaseline": true
+    },
+    {
+      "path": "dist/reconstruction/spatial-batches.js",
+      "url": "https://borough-drive.vercel.app/reconstruction/spatial-batches.js",
+      "bytes": 2924,
+      "sha256": "c5db389160bedc7009478f06d35f6c4147afc1a4ed9781a5c6df4192d4cde46a",
+      "expectedSha256": "c5db389160bedc7009478f06d35f6c4147afc1a4ed9781a5c6df4192d4cde46a",
+      "matches": true,
+      "changedSinceBaseline": true
+    },
+    {
+      "path": "dist/reconstruction/storefront-glass.js",
+      "url": "https://borough-drive.vercel.app/reconstruction/storefront-glass.js",
+      "bytes": 1278,
+      "sha256": "46d3b7dbf63416bcc3720349ca1b9f74660df33358c8042d2e4fba1dc6bc3bd3",
+      "expectedSha256": "46d3b7dbf63416bcc3720349ca1b9f74660df33358c8042d2e4fba1dc6bc3bd3",
+      "matches": true,
+      "changedSinceBaseline": true
+    },
+    {
+      "path": "dist/reconstruction/street-materials.glb",
+      "url": "https://borough-drive.vercel.app/reconstruction/street-materials.glb",
+      "bytes": 4387584,
+      "sha256": "a88699dde9390302d85e15b54d6cf214b2bd13db0910f0a8d1eadfd8e292c412",
+      "expectedSha256": "a88699dde9390302d85e15b54d6cf214b2bd13db0910f0a8d1eadfd8e292c412",
+      "matches": true,
+      "changedSinceBaseline": true
+    },
+    {
+      "path": "dist/reconstruction/viewer.css",
+      "url": "https://borough-drive.vercel.app/reconstruction/viewer.css",
+      "bytes": 12137,
+      "sha256": "0bb74a28c7bae8c8b24102c516a173a294b03ad4c1fe5cc25c42ef80c926d17b",
+      "expectedSha256": "0bb74a28c7bae8c8b24102c516a173a294b03ad4c1fe5cc25c42ef80c926d17b",
+      "matches": true,
+      "changedSinceBaseline": true
+    },
+    {
+      "path": "dist/reconstruction/viewer.js",
+      "url": "https://borough-drive.vercel.app/reconstruction/viewer.js",
+      "bytes": 22533,
+      "sha256": "bb6bffe9bc0a809447e8136a01575588be348debcaa6fdd55cb2508d31987de8",
+      "expectedSha256": "bb6bffe9bc0a809447e8136a01575588be348debcaa6fdd55cb2508d31987de8",
+      "matches": true,
+      "changedSinceBaseline": true
+    },
+    {
+      "path": "dist/reconstruction/first-and-10th.glb",
+      "url": "https://borough-drive.vercel.app/reconstruction/first-and-10th.glb",
+      "bytes": 25579164,
+      "sha256": "405e247602a2117f5f1e7b938921ec584fbd0e3ff9e9008209361f215b65f167",
+      "expectedSha256": "405e247602a2117f5f1e7b938921ec584fbd0e3ff9e9008209361f215b65f167",
+      "matches": true,
+      "changedSinceBaseline": false
+    },
+    {
+      "path": "dist/vendor/draco/draco_decoder.wasm",
+      "url": "https://borough-drive.vercel.app/vendor/draco/draco_decoder.wasm",
+      "bytes": 192420,
+      "sha256": "a680d927bed9cb864ddbd63521868891af2bfbe755092761b4837487618df8ac",
+      "expectedSha256": "a680d927bed9cb864ddbd63521868891af2bfbe755092761b4837487618df8ac",
+      "matches": true,
+      "changedSinceBaseline": false
+    },
+    {
+      "path": "dist/reconstruction/references/First_and_10th_(51645797940).jpg",
+      "url": "https://borough-drive.vercel.app/reconstruction/references/First_and_10th_(51645797940).jpg",
+      "bytes": 2193964,
+      "sha256": "4ee966ea361c60a8a32c6fd4e10d9303ee82a8c9e7b4d6d5d745515ca7426760",
+      "expectedSha256": "4ee966ea361c60a8a32c6fd4e10d9303ee82a8c9e7b4d6d5d745515ca7426760",
+      "matches": true,
+      "changedSinceBaseline": false
+    },
+    {
+      "path": "dist/reconstruction/references/Tarallucci_in_the_Rain_(51286241651).jpg",
+      "url": "https://borough-drive.vercel.app/reconstruction/references/Tarallucci_in_the_Rain_(51286241651).jpg",
+      "bytes": 5589070,
+      "sha256": "35cd8a6c015c012b55082df573269ec1d0b78a35e214d801ce9d2f4bf0adfe08",
+      "expectedSha256": "35cd8a6c015c012b55082df573269ec1d0b78a35e214d801ce9d2f4bf0adfe08",
+      "matches": true,
+      "changedSinceBaseline": false
+    },
+    {
+      "path": "dist/reconstruction/references/ne-beron-beron-2025-05-16.jpg",
+      "url": "https://borough-drive.vercel.app/reconstruction/references/ne-beron-beron-2025-05-16.jpg",
+      "bytes": 2842767,
+      "sha256": "46f82ba6dae7f77dc394511d0129e59bb752b39809220ea70bddc2af44486563",
+      "expectedSha256": "46f82ba6dae7f77dc394511d0129e59bb752b39809220ea70bddc2af44486563",
+      "matches": true,
+      "changedSinceBaseline": false
+    },
+    {
+      "path": "dist/reconstruction/references/ne-e10th-side-2022-05-26-1920.jpg",
+      "url": "https://borough-drive.vercel.app/reconstruction/references/ne-e10th-side-2022-05-26-1920.jpg",
+      "bytes": 898469,
+      "sha256": "ba5da8a8348c343490ce3e1335031db86edae1c1a122aabf6bacea31c6744f72",
+      "expectedSha256": "ba5da8a8348c343490ce3e1335031db86edae1c1a122aabf6bacea31c6744f72",
+      "matches": true,
+      "changedSinceBaseline": false
+    },
+    {
+      "path": "dist/reconstruction/references/new-theatre-building-2021-06-06-1920.jpg",
+      "url": "https://borough-drive.vercel.app/reconstruction/references/new-theatre-building-2021-06-06-1920.jpg",
+      "bytes": 1496349,
+      "sha256": "3226d85c9dd6e47462123ad18cd32130ac16796b7b30f16d1dc396c5e9804ffd",
+      "expectedSha256": "3226d85c9dd6e47462123ad18cd32130ac16796b7b30f16d1dc396c5e9804ffd",
+      "matches": true,
+      "changedSinceBaseline": false
+    },
+    {
+      "path": "dist/reconstruction/references/sw-159-first-2021-09-06.jpg",
+      "url": "https://borough-drive.vercel.app/reconstruction/references/sw-159-first-2021-09-06.jpg",
+      "bytes": 3513283,
+      "sha256": "eaf2fd99aac866d4d26c8a18fd1d53dcc038b5aca607ac5db0cf7d4b51ea9771",
+      "expectedSha256": "eaf2fd99aac866d4d26c8a18fd1d53dcc038b5aca607ac5db0cf7d4b51ea9771",
+      "matches": true,
+      "changedSinceBaseline": false
+    }
+  ],
+  "push": {
+    "branch": "main",
+    "previousRemote": "a44257a0a45c627176ed618f179cba53e5820940",
+    "sourceCommit": "522cd1de77b72186dc98e06a3b9f6ce4db761d8b",
+    "status": "succeeded"
+  },
+  "deployment": {
+    "context": "Vercel",
+    "state": "success",
+    "description": "Deployment has completed",
+    "url": "https://vercel.com/rayidalis-projects/borough-drive/6CxayAae3s7cYSh1cHWNHUy7YA18"
+  },
+  "githubActions": {
+    "url": "https://github.com/rayidali/borough-drive/actions/runs/34314169298",
+    "state": "completed",
+    "conclusion": "success",
+    "jobs": [
+      {
+        "name": "Node.js 22",
+        "conclusion": "success"
+      },
+      {
+        "name": "Node.js 24",
+        "conclusion": "success"
+      }
+    ]
+  },
+  "liveBrowser": {
+    "url": "https://borough-drive.vercel.app",
+    "date": "2026-09-09T05:17:52.460Z",
+    "ready": true,
+    "loadedSections": [
+      "block-4-1",
+      "block-4-2",
+      "block-5-1",
+      "block-5-2",
+      "edge-south"
+    ],
+    "errors": [],
+    "failedRequests": [],
+    "evidence": "model-source/performance-review-2026-09-09/live-smoke.json",
+    "capture": {
+      "path": "docs/images/performance-07/live-first-seventh.png",
+      "sha256": "93a4a15ab689330fcc931d758197db86de782d1b2bf8cde5527e3f4ed69cc295"
+    }
+  }
+}

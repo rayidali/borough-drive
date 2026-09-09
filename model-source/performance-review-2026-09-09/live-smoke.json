@@ -1,0 +1,334 @@
+{
+  "date": "2026-09-09T05:17:52.460Z",
+  "url": "https://borough-drive.vercel.app",
+  "viewport": {
+    "width": 1440,
+    "height": 1000,
+    "deviceScaleFactor": 1
+  },
+  "cache": "disabled; local HTTP, unthrottled CPU/network",
+  "errors": [],
+  "consoleErrors": [],
+  "warnings": [],
+  "failedRequests": [],
+  "samples": [],
+  "screenshots": [
+    {
+      "name": "live-first-seventh",
+      "pose": {
+        "x": 1,
+        "z": 224,
+        "yaw": 2.3062360944704023,
+        "mode": "walk",
+        "ready": true,
+        "tiles": [
+          "block-4-1",
+          "block-4-2",
+          "block-5-1",
+          "block-5-2",
+          "edge-south"
+        ],
+        "coreLoaded": false,
+        "corePending": false,
+        "pending": 0
+      }
+    }
+  ],
+  "startup": {
+    "readyMs": 1275.7000000029802,
+    "firstFrameMs": 1283.2000000029802,
+    "overlayHiddenMs": 1994.1000000014901,
+    "pose": {
+      "x": 0,
+      "z": 228,
+      "yaw": 0,
+      "mode": "walk",
+      "ready": true,
+      "tiles": [],
+      "coreLoaded": false,
+      "corePending": false,
+      "pending": 2
+    },
+    "settledMs": 5937.70000000298,
+    "resources": [
+      {
+        "path": "/reconstruction/viewer.css",
+        "startMs": 296.20000000298023,
+        "endMs": 334.1000000014901,
+        "bytes": 4049
+      },
+      {
+        "path": "/reconstruction/viewer.js",
+        "startMs": 296.5,
+        "endMs": 348.6000000014901,
+        "bytes": 8735
+      },
+      {
+        "path": "/reconstruction/shared-textures.js",
+        "startMs": 432.1000000014901,
+        "endMs": 469,
+        "bytes": 978
+      },
+      {
+        "path": "/reconstruction/neighborhood-render.js",
+        "startMs": 432.1000000014901,
+        "endMs": 476.6000000014901,
+        "bytes": 7663
+      },
+      {
+        "path": "/reconstruction/neighborhood-world.js",
+        "startMs": 432.1000000014901,
+        "endMs": 494.5,
+        "bytes": 1746
+      },
+      {
+        "path": "/reconstruction/neighborhood-map.js",
+        "startMs": 432.1000000014901,
+        "endMs": 669.7000000029802,
+        "bytes": 2614
+      },
+      {
+        "path": "/reconstruction/vehicle.js",
+        "startMs": 432.20000000298023,
+        "endMs": 498.30000000074506,
+        "bytes": 2622
+      },
+      {
+        "path": "/reconstruction/storefront-glass.js",
+        "startMs": 477.4000000022352,
+        "endMs": 504.80000000074506,
+        "bytes": 985
+      },
+      {
+        "path": "/reconstruction/spatial-batches.js",
+        "startMs": 477.4000000022352,
+        "endMs": 514.2000000029802,
+        "bytes": 1623
+      },
+      {
+        "path": "/reconstruction/assets/urban_alley_01_1k.hdr",
+        "startMs": 897.5,
+        "endMs": 1119.7000000029802,
+        "bytes": 1549627
+      },
+      {
+        "path": "/reconstruction/neighborhood.json",
+        "startMs": 897.6000000014901,
+        "endMs": 1032.5,
+        "bytes": 230452
+      },
+      {
+        "path": "/reconstruction/businesses.json",
+        "startMs": 897.6000000014901,
+        "endMs": 1047.1000000014901,
+        "bytes": 1756
+      },
+      {
+        "path": "/reconstruction/street-materials.glb",
+        "startMs": 897.8000000007451,
+        "endMs": 1046.6000000014901,
+        "bytes": 4383739
+      },
+      {
+        "path": "/reconstruction/neighborhood/bicycle-detail.glb",
+        "startMs": 1253.1000000014901,
+        "endMs": 1376.2000000029802,
+        "bytes": 30996
+      },
+      {
+        "path": "/reconstruction/neighborhood/hydrant.glb",
+        "startMs": 1253.2000000029802,
+        "endMs": 1371.800000000745,
+        "bytes": 8005
+      },
+      {
+        "path": "/reconstruction/neighborhood/litter-bin.glb",
+        "startMs": 1253.4000000022352,
+        "endMs": 1444.1000000014901,
+        "bytes": 10789
+      },
+      {
+        "path": "/reconstruction/neighborhood/utility-cover.glb",
+        "startMs": 1253.5,
+        "endMs": 1445.800000000745,
+        "bytes": 5025
+      },
+      {
+        "path": "/reconstruction/neighborhood/drain-grate.glb",
+        "startMs": 1253.6000000014901,
+        "endMs": 1381.6000000014901,
+        "bytes": 2529
+      },
+      {
+        "path": "/reconstruction/neighborhood/street-tree.glb",
+        "startMs": 1253.7000000029802,
+        "endMs": 1471,
+        "bytes": 259545
+      },
+      {
+        "path": "/reconstruction/neighborhood/park-bench.glb",
+        "startMs": 1253.800000000745,
+        "endMs": 1450.7000000029802,
+        "bytes": 15695
+      },
+      {
+        "path": "/reconstruction/neighborhood/parked-car.glb",
+        "startMs": 1253.9000000022352,
+        "endMs": 1566.7000000029802,
+        "bytes": 19545
+      },
+      {
+        "path": "/reconstruction/neighborhood/street-furniture.glb",
+        "startMs": 1254.1000000014901,
+        "endMs": 1371.300000000745,
+        "bytes": 6338
+      },
+      {
+        "path": "/reconstruction/neighborhood/traffic-signal.glb",
+        "startMs": 1254.2000000029802,
+        "endMs": 1362.1000000014901,
+        "bytes": 6578
+      },
+      {
+        "path": "/reconstruction/neighborhood/edge-south.glb",
+        "startMs": 1278,
+        "endMs": 1565.7000000029802,
+        "bytes": 4545964
+      },
+      {
+        "path": "/reconstruction/neighborhood/block-5-1.glb",
+        "startMs": 1278.1000000014901,
+        "endMs": 1567.4000000022352,
+        "bytes": 3428246
+      },
+      {
+        "path": "/reconstruction/neighborhood/textures/4ff16bb96fc2df3ef71d.jpg",
+        "startMs": 1581.1000000014901,
+        "endMs": 2124.60000000149,
+        "bytes": 1195378
+      },
+      {
+        "path": "/reconstruction/neighborhood/textures/ee8625308ef01f5e2efa.png",
+        "startMs": 1581.1000000014901,
+        "endMs": 2242.800000000745,
+        "bytes": 609840
+      },
+      {
+        "path": "/reconstruction/neighborhood/textures/fea247dd085cd05d8deb.jpg",
+        "startMs": 1581.1000000014901,
+        "endMs": 2305.5,
+        "bytes": 769715
+      },
+      {
+        "path": "/reconstruction/neighborhood/textures/a1483d99ea1ca6e23adc.jpg",
+        "startMs": 1581.2000000029802,
+        "endMs": 2343.900000002235,
+        "bytes": 888760
+      },
+      {
+        "path": "/reconstruction/neighborhood/textures/f4dbf11efcb2a4ce0a97.png",
+        "startMs": 1581.300000000745,
+        "endMs": 2305.2000000029802,
+        "bytes": 1356255
+      },
+      {
+        "path": "/reconstruction/neighborhood/textures/e2159482d8dec6db0c61.jpg",
+        "startMs": 1581.300000000745,
+        "endMs": 2413.2000000029802,
+        "bytes": 725873
+      },
+      {
+        "path": "/reconstruction/neighborhood/textures/9bfd45e24720d851017c.jpg",
+        "startMs": 1581.7000000029802,
+        "endMs": 2404,
+        "bytes": 955730
+      },
+      {
+        "path": "/reconstruction/neighborhood/textures/9c58254c099b2d211478.jpg",
+        "startMs": 1582.1000000014901,
+        "endMs": 2131.7000000029802,
+        "bytes": 694800
+      },
+      {
+        "path": "/reconstruction/neighborhood/textures/51e187559b7d3036ec00.png",
+        "startMs": 1582.1000000014901,
+        "endMs": 2233.2000000029802,
+        "bytes": 919676
+      },
+      {
+        "path": "/reconstruction/neighborhood/block-5-2.glb",
+        "startMs": 2630.7000000029802,
+        "endMs": 2829.10000000149,
+        "bytes": 3275063
+      },
+      {
+        "path": "/reconstruction/neighborhood/block-4-2.glb",
+        "startMs": 2720.5,
+        "endMs": 2855.2000000029802,
+        "bytes": 2759205
+      },
+      {
+        "path": "/reconstruction/neighborhood/block-4-1.glb",
+        "startMs": 3226.800000000745,
+        "endMs": 3842.2000000029802,
+        "bytes": 3059680
+      }
+    ],
+    "longTasks": [
+      {
+        "start": 1121.2000000029802,
+        "duration": 160
+      },
+      {
+        "start": 1281.5,
+        "duration": 156
+      },
+      {
+        "start": 2630.7000000029802,
+        "duration": 89
+      },
+      {
+        "start": 2720.900000002235,
+        "duration": 83
+      },
+      {
+        "start": 3077.300000000745,
+        "duration": 149
+      }
+    ]
+  },
+  "graphics": {
+    "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M1, Unspecified Version)",
+    "pixelRatio": 1,
+    "ao": true,
+    "quality": "detail",
+    "samples": 4,
+    "transmissionScale": 1,
+    "memory": {
+      "geometries": 673,
+      "textures": 29
+    }
+  },
+  "pose": {
+    "x": 1,
+    "z": 224,
+    "yaw": 2.3062360944704023,
+    "mode": "walk",
+    "ready": true,
+    "tiles": [
+      "block-4-1",
+      "block-4-2",
+      "block-5-1",
+      "block-5-2",
+      "edge-south"
+    ],
+    "coreLoaded": false,
+    "corePending": false,
+    "pending": 0
+  },
+  "sourceCommit": "522cd1de77b72186dc98e06a3b9f6ce4db761d8b",
+  "capture": {
+    "path": "docs/images/performance-07/live-first-seventh.png",
+    "sha256": "93a4a15ab689330fcc931d758197db86de782d1b2bf8cde5527e3f4ed69cc295"
+  }
+}

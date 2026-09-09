@@ -10,6 +10,20 @@ git log --oneline -- CODEX-HANDOFF.md SESSION-LOG.md
 
 Checkpoint notes describe observed state, not a live monitor. Recheck local files, remote branches and deployment status when resuming. Keep necessary artifacts in the repository and record reproducible commands; temporary directories and old tool/process IDs are not durable checkpoints. Store no tokens, passwords or authentication cookies here.
 
+## 2026-09-09-03 — Accepted corner and speed pass pushed; live files verified
+
+**Recorded:** 2026-09-09T01:19:25-04:00 (America/New_York).
+**User objective and decisions:** First & 7th revision 06 is the minimum completion standard. Speed optimization, main publication and Markdown refresh authorized. Economical block/street work for East Village, then Manhattan/NYC, awaits the next planning discussion; no expansion/jobs/services now.
+**Completed work:** Published the accepted corner plus runtime speed pass. Retained all existing models/photographs/recipes and mapped geometry. Saved 28 final local captures, before/after profiling, preservation hashes, source acceptance and all 18 Markdown updates. Live browser smoke passed: the production Saifee view rendered with all five starting sections loaded and zero errors/failed requests.
+**Gameplay/source baseline:** `522cd1de77b72186dc98e06a3b9f6ce4db761d8b`. Accepted visual/model baseline `0f40856c9c576d1648ddae9c6e76bb550a98b42a`; resumed checkpoint `e86a480`.
+**Local changes:** Implementation/evidence committed in `522cd1d`; this publication checkpoint and its verification JSON follow in a separate documentation-only commit, identifiable through Git history. No unfinished source/model work.
+**Remote state:** Fetched existing main, preserved both unpublished commits and fast-forward pushed `a44257a..522cd1d`; no force push or new repository.
+**Deployment state:** Vercel success for `522cd1d`, deployment `6CxayAae3s7cYSh1cHWNHUy7YA18`. All 20 changed live game files matched the commit over HTTPS; eight additional core/photo/decoder assets matched. Evidence: `model-source/publication-review-2026-09-09.json`. Existing URL: https://borough-drive.vercel.app.
+**Validation:** npm verification passed locally; both GitHub Node.js 22/24 jobs passed in run `34314169298`. Road/model/source checks, exact street subset and lossless spatial tests passed. Clean preparation/compilation reproduced all source data and three audits. Final 26-view browser review, two travel captures, resets/graphics/idle wake-up and both deliberate load failure recoveries passed; no unexpected errors. 212 relative Markdown links checked before publication.
+**Performance:** M1 1440×1000 DPR 1, local HTTP: Detailed Saifee 25.2→50.2 fps, core SE 17.9→28.6, driving stress 20.7→28.1. Faster 56.5→60.0. Initial transfer 89.61→38.24 MiB, surface requests 42→9, zero settled scene redraws. Single-device short samples; driving route duration/distance varies with frame rate.
+**Unresolved issues:** Dense driving/retina views need further performance work for a universal 60 fps target. Prior imagery/dimension/hidden-surface uncertainty and wider fidelity backlog remain. No claim of newest Google panorama verification or citywide completion.
+**Next action:** Review speed on the user's device and discuss the block/street process using the accepted corner standard. Do not automatically start expansion or paid batch work.
+
 ## 2026-09-09-02 — Speed pass verified; final publication preparation
 
 **Recorded:** 2026-09-09T01:13:31-04:00 (America/New_York).
