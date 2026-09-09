@@ -10,6 +10,46 @@ git log --oneline -- CODEX-HANDOFF.md SESSION-LOG.md
 
 Checkpoint notes describe observed state, not a live monitor. Recheck local files, remote branches and deployment status when resuming. Keep necessary artifacts in the repository and record reproducible commands; temporary directories and old tool/process IDs are not durable checkpoints. Store no tokens, passwords or authentication cookies here.
 
+## 2026-09-08-08 — First & 7th comparison pass verified and saved locally
+
+**Recorded:** 2026-09-08T22:20:14-04:00 (America/New_York).
+**User objective and decisions:** Resume only First Avenue / East 7th Street, using the most recent accessible view, to establish a detailed benchmark before extending block by block. Google Street View comparison is the user's standard; Assassin's Creed Unity refers to desired detail. No migration or new publication instruction.
+**Completed work:** Five individual building profiles, nine elevations and eight shop treatments; revised Saifee and 113 proportions/materials, individual architectural elements, storefront openings/signs, Tile Bar tilework and joined canopy, plant racks, furniture and street hardware. E7 Deli, Saifee, Monkey Sushi and Burger identities supported by explicit sources; old Unique small exterior notice retained from the dated photo. Added four corner view buttons and graphics modes, physical glass/reflections and display lights. Saved all 22 final unedited game captures, source dates/access limitations, checks and a new pass report. Refreshed all current Markdown pointers while preserving historical entries and license terms.
+**Gameplay/source baseline:** New local source/gameplay commit `0f40856c9c576d1648ddae9c6e76bb550a98b42a`. Previous published gameplay `63757cbbb13749584e761e4bf7a8e655f90b1bd4`; initial clean documentation HEAD `a44257a0a45c627176ed618f179cba53e5820940` on `main`.
+**Local changes:** Source, exports, runtime, observations, report and captures committed. This checkpoint is a following documentation commit identified by Git history. No pending model export or known failing check. Source data and all review artifacts are tracked; temporary images/processes are unnecessary to resume.
+**Remote state:** Not pushed; remote not fetched; cached `origin/main` is `a44257a`. Local commits are separate from remote publication.
+**Deployment state:** No new deployment or live check. Existing Vercel production remains the previously published pass 05. Review revision 06 through the local server.
+**Validation:** Final `npm run verify` passed on Node.js 24.15.0, including 2,308 road samples, source/model signatures, five-profile/nine-elevation checks, safe starts, navigation and walking collision. Clean prepare/compile reproduced source fields and all three generated audits. Final 22-viewpoint browser review had zero uncaught exceptions, console errors and failed HTTP responses; start, northbound driving, both resets, corner controls and quality persistence passed. Existing RGBELoader warning remains. Fourteen GLBs total 51.78 MiB / 9,389,484 triangles, maximum 62 material batches. Core GLB/recipe/vehicle/six photos and all mapped geometry/heights/roads/bounds preserved. Six signature-only exports verified binary payload-identical to pass 05. Whitespace checks and 191 relative Markdown links passed.
+**Performance:** Two sequential 120-frame stationary samples at the southeast corner, Chrome/Apple M1/ANGLE Metal, 1440×1000, pixel ratio 1: 25.0 fps Detailed (AO, four samples, physical glass) and 56.3 fps Faster (no AO, two samples, simpler glass). Not sustained driving or multi-device performance evidence.
+**Unresolved issues:** User acceptance and exact Street View matching remain pending. Google panorama access failed; dates differ by reference. Obscured artwork, tiny labels/fonts, full interiors/return surfaces, material scans and measured dimensions are incomplete or inferred. The whole-map backlog is still 177 supported non-core names with estimated designs; source coverage is not equivalent to complete fidelity.
+**Next action:** Review the local four-corner buttons and saved images with the user. Apply their concrete discrepancies within First & 7th before expanding. Check a new publishing instruction before pushing; preserve the accepted First & 10th core.
+
+## 2026-09-08-07 — First & 7th exports reviewed; corrections in progress
+
+**Recorded:** 2026-09-08T21:50:54-04:00 (America/New_York).
+**User objective and decisions:** Most recent accessible view; four-corner First & 7th benchmark, compare with Street View before extending. No engine migration or new publication instruction.
+**Completed work:** Added five individual building profiles/nine elevations, eight shop recipes and dated sources, corrected tenant identities and proportions, exported three corner sections. Implemented review viewpoints and manual graphics quality. First real-browser review captured 22 views and found specific depth/join/lettering defects; correction source now authored.
+**Gameplay/source baseline:** `63757cbbb13749584e761e4bf7a8e655f90b1bd4`; checkout HEAD remains `a44257a0a45c627176ed618f179cba53e5820940` on `main`.
+**Local changes:** Revision 06 runtime, source JSON/Python, compiler, three GLBs and checkpoint files uncommitted. Six other previously detailed sections are being re-exported solely because the shared recipe integration changed their provenance signature. After that, recompile and rebuild the three corner sections for current corrections.
+**Remote state:** No fetch or push in this task.
+**Deployment state:** No new deployment/live check; production remains the previously published pass.
+**Validation:** Initial 22-view review, zero uncaught exceptions/HTTP failures, start and driving/reset checks passed. Preliminary 120-frame stationary M1 samples 42.1 fps Detailed / 60.0 Faster at 1440×1000. Full verifier reports expected stale six-section signatures; final export, source reproduction and final visual review pending. These performance figures predate the latest glass reflection/detail corrections.
+**Unresolved issues:** Google panorama unavailable; latest accessible exterior photographs differ in date and some dates are unknown. Estimated dimensions, obscured murals and return elevations remain explicit. Corner-room side walls were obscuring recessed doors; Tile Bar tiles were behind paint and awning letters floated; fixes require fresh exports and inspection. Do not call the benchmark 1:1 or user accepted.
+**Next action:** Complete regeneration, compile/rebuild affected three corners, inspect final running-game views, perform checks, preserve evidence/captures and refresh all current documentation before handoff.
+
+## 2026-09-08-06 — First & 7th corner benchmark resumed
+
+**Recorded:** 2026-09-08T21:00:17-04:00 (America/New_York).
+**User objective and decisions:** Explicitly resume modeling at First Avenue / East 7th Street, establish a highly detailed intersection benchmark, then extend step by step after user review. User will compare with Google Street View and confirmed the most recent accessible view. Previous pause superseded; no engine migration or geographic expansion requested.
+**Completed work:** Read resume documents and inspected clean checkout; identified all four corner footprints and current sparse/generic treatments. Started real-view acquisition and baseline rendering review.
+**Gameplay/source baseline:** `63757cbbb13749584e761e4bf7a8e655f90b1bd4`; clean documentation HEAD `a44257a0a45c627176ed618f179cba53e5820940` on `main`.
+**Local changes:** Checkpoint and active scope instructions updated. No new mesh exported yet.
+**Remote state:** No push; remote not fetched; cached `origin/main` equals HEAD.
+**Deployment state:** No new deployment or live check. Prior `a44257a` documentation deployment is separate from this work.
+**Validation:** Git inspection and prior actual-game capture inspection. New model/browser comparison and `npm run verify` pending.
+**Unresolved issues:** Need recent accessible imagery, explicit two-street corner schedules, southeast tenant/architecture correction and matched-view visual review. Exact dimensions and unseen features remain unmeasured.
+**Next action:** Complete reference acquisition, implement all four corner faces and storefront detail, export affected sections, and review the running game.
+
 ## 2026-09-08-05 — All Markdown synchronized for closing and resuming the session
 
 **Recorded:** 2026-09-08T17:51:23-04:00 (America/New_York).

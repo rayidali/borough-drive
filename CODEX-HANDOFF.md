@@ -1,29 +1,28 @@
 # Borough Drive: continuation context
 
-## Current checkpoint — 2026-09-08-05 (documentation synchronized; modeling paused)
+## Current checkpoint — 2026-09-08-08 (First & 7th comparison pass saved locally)
 
-Recorded **2026-09-08T17:51:23-04:00**. Latest request: update all project Markdown so the session can be closed and resumed without losing context. The preceding instruction remains active: **do not continue modeling now**; the user is reviewing the published version and will decide the next work. Documentation maintenance does not resume the unfinished whole-map digital-twin task.
+Recorded **2026-09-08T22:20:14-04:00**. The user resumed implementation specifically at **First Avenue / East 7th Street**, using the **most recent accessible view**, to establish a detailed standard before extending block by block. This first intersection study is implemented and reviewable locally. **User acceptance is pending; do not extend to the rest of the map automatically.** Google Street View was inaccessible, so the sources and viewer explicitly identify the alternative dated photographs and remaining uncertainty.
 
 | Item | Checkpoint state |
 | --- | --- |
-| Gameplay/model baseline | `63757cbbb13749584e761e4bf7a8e655f90b1bd4`, published on `main`; First & 7th start/reset, facing north |
-| Checkout before this documentation refresh | Clean `main`, equal to fetched `origin/main` at `ab9b12b851826bdfebfc10a9f9589c767b7f20ad` |
-| Completed implementation | 22 individual shop designs, 26 elevation schedules, 29 source records, nine rebuilt GLBs, walking furniture collision, sign font/license, source/review scripts and three durable game captures. See [pass 05](model-source/STOREFRONT-PASS-05.md). |
-| Current local changes | Markdown only: all 16 tracked project Markdown files synchronized. Runtime, models, evidence JSON, fonts and licensed photo bytes remain unchanged. This checkpoint is saved in its own documentation commit; identify that commit through Git history below. |
-| Remaining fidelity | 178 of 200 supported non-core names still use estimated shop designs. The revised shops also have estimates. [digital-twin-coverage.json](model-source/digital-twin-coverage.json) lists all 641 non-core street frontages; a recorded gap is not a fix. |
-| Push state | Gameplay, source and previous handoffs confirmed pushed through `ab9b12b` to existing `rayidali/borough-drive` `main`. This Markdown refresh follows in a separate documentation commit; compare its Git history with fetched `origin/main` when resuming. |
-| Deployment | [borough-drive.vercel.app](https://borough-drive.vercel.app): deployment of `43910e6` served all 17 then-changed game files matching `63757cb` by SHA-256. The following documentation deployment `ab9b12b` also completed. This refresh changes the served asset-credits Markdown only; it adds no game/model behavior. |
-| Implementation checks already performed | `npm run verify` passed locally on Node 24.15.0 and in GitHub Actions on Node.js 22 and 24. Clean source reproduction and three audits matched. Earlier Chrome review covered 56 viewpoints with correct start/driving/resets and no uncaught errors or failed responses. No new full visual or performance review in this documentation task. |
-| Documentation checks | Markdown path/anchor consistency, stale-current-state review and whitespace checks; exact results recorded in the newest session log. No model rebuild or new local gameplay test is needed for this Markdown-only task. |
-| Preservation | Core GLB/recipe, vehicle module and six licensed photographs match `835ea6c`; all 615 mapped footprints/heights, roads and driving bounds were preserved by the published pass. |
-| Current stack and recommendation | Blender authors assets; Three.js renders the browser game. The assistant recommended retaining that stack while improving evidence/assets. The user has not selected or authorized an engine migration. |
-| Next concrete action | Resume by inspecting the current checkout and this checkpoint, then follow the user's review/new instruction. Await that decision if none is supplied; do not automatically start the modeling backlog. |
+| Exact local gameplay/source commit | `0f40856c9c576d1648ddae9c6e76bb550a98b42a` — Model the First and Seventh four-corner detail study |
+| Checkpoint documentation | Follows the source commit separately. Identify its own commit using `git log -- CODEX-HANDOFF.md SESSION-LOG.md`; do not amend just to embed its own hash. |
+| Checkout at resume | Initially clean `main...origin/main`, HEAD `a44257a0a45c627176ed618f179cba53e5820940`. All new source, models, observations and 22 game captures saved in the local source commit. No unfinished export. |
+| Implemented scope | NW 115 First / Tile Bar; NE 118–120 First / 91 East 7th with E7 Deli, Hen House, Monkey Sushi and 7th Street Burger; SW 113 First / 86 East 7th with E Smoke and Yubu; SE 116 and adjoining 114 First / Saifee. Five profiles, nine elevations, eight shop treatments. |
+| Geometry/details | Individually scheduled bays, lintels, cornices, grilles and escapes; revised Saifee/113 proportions; Tile Bar tilework, door and joined striped canopy; shop lettering, boards, lights, entries, bay windows, stock, plant racks, table and street hardware. Dimensions and obscured details remain estimates. |
+| Presentation | Four First & 7th view buttons. Detailed / Automatic / Faster graphics, physical storefront glass and corner reflection capture, display lighting. Faster uses simpler glass. Start/reset remains `(0,228)`, northbound, both modes. |
+| Preservation | First & 10th GLB/recipe, vehicle code and six licensed photos byte-identical to published baseline. All 615 mapped footprints/heights and all roads/bounds unchanged. Render-height estimates separately set 116 First to 13.15 m and 113 First to 16.7 m. |
+| Push / deployment | **Not pushed or deployed.** Remote not fetched in this task; cached `origin/main` remains `a44257a`. Existing production https://borough-drive.vercel.app remains previously published gameplay `63757cbbb13749584e761e4bf7a8e655f90b1bd4`, through documentation `a44257a`; no new live check. |
+| Checks completed | Final `npm run verify` on Node.js 24.15.0; 2,308 road samples, source/model signatures, corner schedules, model/assets, navigation and collisions. Disposable clean prepare/compile reproduced all source fields and three generated audits. Staged whitespace checks and 191 relative Markdown links passed. |
+| Browser review | 22 final game viewpoints saved; start/northbound driving/both resets/four corner buttons/graphics persistence passed. Zero uncaught exceptions, console errors or failed HTTP responses. Existing RGBELoader deprecation warning remains. |
+| Size / performance | Fourteen neighborhood GLBs: 51.78 MiB, 9,389,484 triangles, maximum 62 material batches. Two sequential 120-frame stationary M1/ANGLE Metal samples at 1440×1000: 25.0 fps Detailed and 56.3 fps Faster. Short single-device samples, not a sustained driving benchmark. |
+| Remaining uncertainty | Exact fonts/logos, tiny labels, complete murals, unobserved room layouts and return surfaces, calibrated paint/material samples and surveyed dimensions. Latest accessible photographs vary from dated 2021–2025 business views to undated/archive architecture. No certified 1:1 / latest Google panorama match or user-approved standard. |
+| Next concrete step | Open the local game and compare all four First & 7th buttons with the user's Street View views. Address the user's specific discrepancies within this intersection before extending block by block. Read a new publishing instruction before pushing. |
 
-The user wants individual treatment throughout the map down to signs/neon, boards, outdoor seating, paint, sizes, openings and architectural elements, using First & 10th as the quality anchor. Earlier work leaned too heavily on shared templates. The 22-shop cutoff was a scope/execution choice, not an engine-imposed limit; research and modeling that could improve the wider map remained possible. Do not repeat that cutoff as though it fulfills the whole-map request.
+Start with [FIRST-SEVENTH-PASS-06.md](model-source/FIRST-SEVENTH-PASS-06.md), [source observations](model-source/first-and-seventh.json), [the full browser review](model-source/first-seventh-review-2026-09-08.json) and the tracked images in `docs/images/`. The executable recipe is `model-source/first_seventh_kit.py`; compilation is `scripts/neighborhood_corner.py` plus the storefront compiler. The broader inventory now has 411 photo-observed non-core building records, 214 supported names (204 non-core), 27 individual non-core shop designs and 177 supported non-core names with estimated designs. These coverage counts do not certify complete facades.
 
-Exact dimensions, complete contemporary photography, sign artwork/material samples and unseen details remain incomplete. They limit what can be certified as 1:1; they are not a reason to substitute an inventory for available modeling work. Some review views are partly occluded by trees/parked cars. The browser's automatic quality adjustment disabled ambient occlusion; no frame-rate benchmark was performed for pass 05. [Local review evidence](model-source/storefront-review-2026-09-08.json) and [publication evidence](model-source/publication-review-2026-09-08.json) retain the exact conditions and hashes.
-
-Package version `0.4.0`, the page's `05` label, the underlying facade revision `04`, and a documentation commit each describe different things. Use the gameplay/model commit and actual asset hashes to identify the game. Historical pass reports retain their original counts and checks; their old suggested work does not override the current pause.
+Rebuild only `block-5-1`, `block-5-2` and `edge-south` after corner-kit changes. This initial integration also regenerated six preexisting detailed sections solely for the shared-recipe signature; their binary geometry/textures and all other metadata are unchanged. Do not compile while Blender is exporting, because it writes the manifest at completion. Blender authors assets and Three.js runs the browser game; no engine migration was requested or performed.
 
 ### Photographic sources and durable records
 
@@ -38,7 +37,7 @@ Most new reference photographs were inspected to guide authored geometry; they a
 
 ### Resume a session
 
-1. Read this checkpoint, the latest [session log entry](SESSION-LOG.md), [START-HERE.md](START-HERE.md), and [neighborhood notes](model-source/NEIGHBORHOOD-NOTES.md). For a later authorized modeling task, read [pass 05](model-source/STOREFRONT-PASS-05.md), the [coverage inventory](model-source/digital-twin-coverage.json) and the historical [accuracy audit](model-source/ACCURACY-PASS-04.md).
+1. Read this checkpoint, the latest [session log entry](SESSION-LOG.md), [START-HERE.md](START-HERE.md), and [neighborhood notes](model-source/NEIGHBORHOOD-NOTES.md). For historical context, read [pass 05](model-source/STOREFRONT-PASS-05.md), the [coverage inventory](model-source/digital-twin-coverage.json) and the historical [accuracy audit](model-source/ACCURACY-PASS-04.md).
 2. Inspect the actual checkout without discarding changes:
 
    ```sh
@@ -49,10 +48,10 @@ Most new reference photographs were inspected to guide authored geometry; they a
 
 3. If remote state matters, fetch `origin` and compare it with the checkout before changing branches or pulling. Local `origin/main` can be stale. Record any uncommitted files or unpublished commits before continuing.
 4. Use `npm run dev` to open the game locally when needed. A previous session's server, browser, authentication, or `/tmp` files may no longer exist. All required game assets and reproducible source are in the repository; no Blender rebuild is needed to resume.
-5. Respect the current pause and the user's next task/publishing scope. Closing and reopening the session does not itself resume modeling. For an authorized game publication, include all required models, textures, manifests, runtime modules and source records. Confirm deployment success and compare live content with the intended commit before describing it as live.
+5. Follow the active First & 7th benchmark scope and the user's publishing instructions. Extend beyond this intersection only after review. For an authorized game publication, include all required models, textures, manifests, runtime modules and source records. Confirm deployment success and compare live content with the intended commit before describing it as live.
 6. Update this checkpoint and add a dated log entry at the next meaningful milestone or handoff. Record partial work and failures when the task is incomplete. Do not present an old test or browser review as a new check.
 
-## Export baseline
+## Historical export baseline
 
 - Exported September 6, 2026 from the latest published ten-block version, version 4.
 - Original source commit: `67c99489185417c9de9e6a7292de5329df00c82a`.
@@ -69,7 +68,7 @@ Most new reference photographs were inspected to guide authored geometry; they a
 
 ## User's objective and feedback
 
-The public game is connected to this repository's `main` branch. The repository-root `vercel.json` serves `dist/` directly and skips installation and building. Revision 04 was published in `835ea6c`; the current runtime/model pass is `63757cb`, with later documentation commits. The September 8 publication and its current pause are recorded above.
+The public game is connected to this repository's `main` branch. The repository-root `vercel.json` serves `dist/` directly and skips installation and building. Revision 04 was published in `835ea6c`; the online runtime/model pass is `63757cb`, with later documentation commits. The local First & 7th source commit and its unpushed state are recorded above.
 
 Rayid wants to build a driving game in a recognizable digital twin of New York City, eventually Manhattan and then NYC. The immediate approved scope is ten connected East Village blocks around First Avenue and East 10th Street: East 7th to East 12th, Second Avenue to Avenue A.
 
@@ -141,9 +140,9 @@ blender -b -t 6 --python model-source/render_neighborhood.py -- --output renders
 
 Existing model exports are included; do not make Blender installation a prerequisite to opening or editing the viewer. Do not regenerate every model just to inspect the project.
 
-## Possible later work — only after the user resumes modeling
+## Later map-wide work — after the First & 7th benchmark review
 
-The current next action is the user’s review/decision, not a model rebuild. If they resume the full-map task, use the revision 05 coverage inventory to work through First Avenue from East 7th toward St Marks and throughout the existing requested bounds. Audit unobserved frontages, unseen elevations and unresolved shop units against dated sources. The user's request is map-wide fidelity; Blue & Gold was an example of a systemic problem, not the sole target. Assess actual driving feel and browser frame rate on the user's device. Preserve the accepted core and keep visual inference distinct from observation. Follow the user's current publishing instructions; the geographic scope remains the existing map.
+The user has resumed work on First & 7th only. After that benchmark is accepted, use the revision 05 coverage inventory to work through First Avenue from East 7th toward St Marks and throughout the existing requested bounds. Audit unobserved frontages, unseen elevations and unresolved shop units against dated sources. The user's request is map-wide fidelity; Blue & Gold was an example of a systemic problem, not the sole target. Assess actual driving feel and browser frame rate on the user's device. Preserve the accepted core and keep visual inference distinct from observation. Follow the user's current publishing instructions; the geographic scope remains the existing map.
 
 ## Previous local work — neighborhood detail revision 03
 
