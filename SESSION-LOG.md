@@ -10,6 +10,19 @@ git log --oneline -- CODEX-HANDOFF.md SESSION-LOG.md
 
 Checkpoint notes describe observed state, not a live monitor. Recheck local files, remote branches and deployment status when resuming. Keep necessary artifacts in the repository and record reproducible commands; temporary directories and old tool/process IDs are not durable checkpoints. Store no tokens, passwords or authentication cookies here.
 
+## 2026-09-10-06 — Assessed browser versus Unreal for the final game
+
+**Recorded:** 2026-09-10T05:02:39-04:00 (America/New_York).
+**User objective and decisions:** Asked about improving sky, roads and driving to a PS5-game standard versus using Unreal later and retaining the model pipeline. No migration choice has been confirmed.
+**Completed work:** Inspected runtime and export structure; checked official Epic references. Added [ENGINE-DIRECTION.md](model-source/ENGINE-DIRECTION.md) recommending an early single-corner Unreal test, modular model export, retained browser preview and explicit hardware/delivery tradeoffs. This is advice, not an implemented visual/driving pass.
+**Gameplay/source baseline:** Unchanged local `219d4e9ccec8e019351d3a27d7dff6dcaf07237d`; session-start documentation HEAD `179c994` on clean `main`.
+**Local changes:** Assessment plus handoff/session documentation only, saved in their own local checkpoint commit. No sky, road, vehicle, model or export edits.
+**Remote state:** No fetch or push. Started two commits ahead of cached origin/main `477fcdb524407e189f67eb59771d8da84c4a16fe`; the following documentation commit is also local.
+**Deployment state:** No deployment or live check. September 9 source `522cd1d` remains the last verified public version; pass 08 remains local.
+**Validation:** Read-only source/GLB inspection and official documentation review. No new runtime tests or Unreal import/benchmark; prior pass 08 evidence remains dated history.
+**Unresolved issues:** User's engine direction and visual acceptance pending. AAA fidelity is not achieved by changing engines alone. Current merged/compressed browser exports need an import test and a separate modular export path; runtime roads, vehicle, sky and UI do not transfer automatically. M1 feature limits and potential streamed-browser GPU costs need consideration.
+**Next action:** Follow the user's engine-direction choice. Proposed Unreal test is five corner buildings, one road segment and one vehicle before scaling. No automatic migration, expansion or paid hosting.
+
 ## 2026-09-10-05 — Street View corner refinement verified and committed locally
 
 **Recorded:** 2026-09-10T04:36:37-04:00 (America/New_York).

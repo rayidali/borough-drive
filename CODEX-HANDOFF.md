@@ -1,6 +1,15 @@
 # Borough Drive: continuation context
 
-## Current checkpoint — 2026-09-10-05 (Street View refinement committed locally; visual acceptance pending)
+## Current checkpoint — 2026-09-10-06 (engine direction assessed; game unchanged)
+
+Recorded **2026-09-10T05:02:39-04:00**. The user asked whether the sky, roads and driving can reach a PS5-game standard in the browser, or whether Unreal should provide the final runtime while the current pipeline supplies models. [Engine assessment and proposed corner test](model-source/ENGINE-DIRECTION.md) recommends Blender/source recipes for authoring, Three.js for browser inspection, and an early First & 7th Unreal test before map-wide production. **This is a recommendation, not a user-approved migration decision.** No browser upgrade or Unreal implementation was made in this assessment.
+
+- Gameplay/source remains local `219d4e9ccec8e019351d3a27d7dff6dcaf07237d`. Session-start HEAD `179c994` was clean on `main`, two commits ahead of cached `origin/main`. The only new changes are the assessment and these checkpoint documents, saved in a following local documentation commit; identify it with Git history.
+- Read the pass 08 checkpoint below for completed corner work, performance, sources and remaining visual differences. User acceptance remains pending. No new fetch, push, deployment or live verification; September 9 source `522cd1d` remains the last verified publication.
+- Read-only inspection confirmed the sky/light setup, flat runtime roads, planar vehicle physics, tile-wide material merging, required Draco compression, external textures and corner vertex colors. Official Epic documentation was checked for atmosphere/Lumen, Chaos, glTF, modular-mesh limitations, macOS hardware and Pixel Streaming. Import and Unreal performance are untested. No game verification was rerun because no game, source model or export changed.
+- Proposed next action: settle the engine direction with the user. If they choose Unreal, start with a separate modular export of First & 7th and one driveable street segment; establish materials/lighting/handling and a hardware budget before expansion. If they prefer a browser upgrade, define a bounded sky/road/driving pass and retain performance checks. Do not infer migration, paid GPU hosting or citywide jobs from this recommendation.
+
+## Previous checkpoint — 2026-09-10-05 (Street View refinement committed locally; visual acceptance pending)
 
 Recorded **2026-09-10T04:36:37-04:00**. The user authorized using the working Street View API to improve all four corners of First Avenue/East 7th toward the attention to detail and visual quality of Assassin’s Creed Unity. The bounded five-building, nine-elevation, eight-shop refinement is implemented, exported, reviewed and committed locally. **This remains a stylized reconstruction with documented differences, not a perfect 1:1 or AAA-quality result.** User acceptance of pass 08 is pending; revision 06 remains the accepted minimum standard. Wider expansion and jobs remain deferred.
 
