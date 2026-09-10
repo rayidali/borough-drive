@@ -1,6 +1,6 @@
 # Browser presentation and performance — pass 09
 
-September 10, 2026. The user chose smooth browser exploration, deferred Unreal, and requested further First & 7th improvement followed by a cheaper block workflow. This pass retains all model assets from [corner pass 08](FIRST-SEVENTH-PASS-08.md). The [handoff](../CODEX-HANDOFF.md) records exact local commit and publication state. It is not a PS5-quality or universal 60 FPS claim.
+September 10, 2026. The user chose smooth browser exploration, deferred Unreal, and requested further First & 7th improvement followed by a cheaper block workflow. This pass retains all model assets from [corner pass 08](FIRST-SEVENTH-PASS-08.md). Published September 10: [live smoke evidence](browser-review-09/live-smoke.json) and the [handoff](../CODEX-HANDOFF.md) record the exact source and deployment state. It is not a PS5-quality or universal 60 FPS claim.
 
 ## Implemented changes
 

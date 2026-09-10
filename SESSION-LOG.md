@@ -10,6 +10,19 @@ git log --oneline -- CODEX-HANDOFF.md SESSION-LOG.md
 
 Checkpoint notes describe observed state, not a live monitor. Recheck local files, remote branches and deployment status when resuming. Keep necessary artifacts in the repository and record reproducible commands; temporary directories and old tool/process IDs are not durable checkpoints. Store no tokens, passwords or authentication cookies here.
 
+## 2026-09-10-09 — Saved corner/browser work pushed to main and verified live
+
+**Recorded:** 2026-09-10T15:03:43-04:00 (America/New_York).
+**User objective and decisions:** Push saved work to main. Brainstorm an unattended reference-discovery/build/review process covering every part of the existing map before Manhattan/NYC; no new implementation yet. User wants automatic image lookup rather than manually supplying every view. Browser-first direction remains.
+**Completed work:** Fetched existing origin/main, confirmed no divergence and fast-forward pushed all five saved commits. Verified Vercel, CI, live file hashes and browser startup/controls. Saved [publication evidence](model-source/publication-review-2026-09-10.json), live smoke/capture and corrected publication wording. Explained the proposed persistent block coordinator, small facade jobs, automatic viewpoint selection, reusable recipes, bounded repair, budget/resume state and explicit coverage/review. These job capabilities remain a proposal.
+**Gameplay/source baseline:** `c76dccebc143960498d21eeab8c55c2d0dbcc5ce`; published checkpoint HEAD `5905b95ff3fcd2c111011ec73097af51dd25e100`. No game, model or worker implementation edits this turn.
+**Local changes:** Publication evidence, README/start/pass publication wording and handoff/session updates follow in a separate documentation/evidence commit. No unfinished implementation or export. The following commit's SHA/push status is available in Git history; its dist tree is unchanged from verified production.
+**Remote state:** Successfully fetched and fast-forward pushed `477fcdb..5905b95` to existing `origin/main`; no force push or alternate repository. Publication checkpoint documentation is saved/pushed afterward as a separate commit.
+**Deployment state:** Vercel success for `5905b95ff3fcd2c111011ec73097af51dd25e100`, deployment `3nNFK32d2P9W4E42BnT2aR9ey43G`, https://borough-drive.vercel.app. All 18 checked live files match source: 13 changed files and 5 preserved assets. Following documentation-commit deployments are separate from this verified source deployment.
+**Validation:** GitHub run `34516930981` passed Node.js 22/24. Production browser smoke passed revision 09, Automatic default, five initial sections, mode switch/reset and zero unexpected errors/failed requests; live screenshot inspected. Initial Node HTTPS/GitHub detail timeouts resolved through curl/retry. No new local full review/performance run or imagery comparison; prior source-identical pass 09 checks remain applicable.
+**Unresolved issues:** Workflow has no autonomous acquisition/dispatcher/build-review loop or completed-work ledger; cheaper-model quality/cost unmeasured. Google viewing/manually supplied screenshots do not automatically grant the permissions needed for the proposed reconstruction workflow. Need a permitted imagery source before implementing acquisition. Exact hidden details, dense-view 60 FPS and older compiler height resets remain unresolved.
+**Next action:** Brainstorm only until instructed otherwise: settle source acquisition/rights, one-block review units, small facade pilot and persistent job/budget design. Do not start jobs, modeling expansion, engine migration or paid requests. User can inspect the published First & 7th using Graphics → Automatic.
+
 ## 2026-09-10-08 — Browser corner pass and offline block workflow committed locally
 
 **Recorded:** 2026-09-10T05:57:24-04:00 (America/New_York).

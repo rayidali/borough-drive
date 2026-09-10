@@ -33,9 +33,9 @@ The playable area runs from **East 7th to East 12th Street**, between **Second A
 
 The accepted [First & 7th study, revision 06](model-source/FIRST-SEVENTH-PASS-06.md), concentrates on **five buildings, nine exposed elevations and eight shops across the four corners**. It adds individual window/lintel layouts, Saifee's two different building heights, Tile Bar's tiled entrance and seating, shop signs, doors, display inventory and street hardware. The rest of the map keeps its existing designs.
 
-The local [Street View refinement, pass 08](model-source/FIRST-SEVENTH-PASS-08.md), updates the same corner with April 2026 references: current Monkey/Hen signs, Saifee’s side shop displays and small windows, Tile Bar’s longer canopy, revised fire escapes, wall markings and street hardware. Read the [handoff](CODEX-HANDOFF.md) for local versus published status; the live site is not automatically updated by these local changes.
+The [Street View refinement, pass 08](model-source/FIRST-SEVENTH-PASS-08.md), updates the same corner with April 2026 references: current Monkey/Hen signs, Saifee’s side shop displays and small windows, Tile Bar’s longer canopy, revised fire escapes, wall markings and street hardware. Passes 08 and 09 were published on September 10; the [handoff](CODEX-HANDOFF.md) records the verified source and deployment.
 
-The local [browser pass 09](model-source/BROWSER-PASS-09.md) adds static clouds, bounded road surface variation, smoother driving presentation and lower-cost contact shading. **Automatic** adapts pixel work during slow frames and restores a sharper stopped view; saved graphics choices remain. The project stays browser-first. A [bounded offline block workflow](model-source/BLOCK-WORKFLOW.md) prepares small tasks for cheaper AI workers; no paid batch or wider map update has run.
+The [browser pass 09](model-source/BROWSER-PASS-09.md) adds static clouds, bounded road surface variation, smoother driving presentation and lower-cost contact shading. **Automatic** adapts pixel work during slow frames and restores a sharper stopped view; saved graphics choices remain. The project stays browser-first. A [bounded offline block workflow](model-source/BLOCK-WORKFLOW.md) prepares small tasks for cheaper AI workers; no paid batch or wider map update has run.
 
 ![Actual game view of the revised First and 7th southeast corner](docs/images/first-seventh-se-revision-06.png)
 
@@ -139,7 +139,7 @@ Observations, occupancy claims, and inferred geometry are recorded separately. U
 
 Read [AGENTS.md](AGENTS.md), the current [handoff](CODEX-HANDOFF.md), the latest [session log](SESSION-LOG.md), and [START-HERE.md](START-HERE.md) before continuing an existing session. First & 7th revision 06 is the accepted minimum standard; [performance pass 07](model-source/PERFORMANCE-PASS-07.md) records the current speed changes and review evidence. The handoff distinguishes local commits, pushing to main and a verified live deployment. The next discussion is an economical block/street process; wider implementation is deferred.
 
-The user resumed work specifically at First & 7th. Revision 06 remains the accepted minimum; pass 08 is the new local comparison pass. Review this intersection before extending block by block. The whole-map digital-twin objective remains unfinished. Recording an evidence gap or adding a business name does not resolve the corresponding visual work. Resume with the user's next instruction, preserving the First & 10th standard throughout the requested scope.
+The user resumed work specifically at First & 7th. Revision 06 remains the accepted minimum; pass 08 is the published corner comparison pass, with browser presentation improved in pass 09. Review this intersection before extending block by block. The whole-map digital-twin objective remains unfinished. Recording an evidence gap or adding a business name does not resolve the corresponding visual work. Resume with the user's next instruction, preserving the First & 10th standard throughout the requested scope.
 
 ## Contributing
 
