@@ -43,3 +43,9 @@ The detailed [asset credits](dist/reconstruction/ASSET-CREDITS.md), vendor notic
 ## First & Seventh observation pass 06
 
 The local September 8, 2026 study adds photographic observations from Tile Bar, Village Preservation, EV Grieve (including credited Stacie Joy and Rainer Turim photographs), eastvillage.com and the E Smoke business/listing sources. [first-and-seventh.json](model-source/first-and-seventh.json) preserves exact source/image URLs, available dates, observations, access limitations and reuse status. New reference photographs are not included in game assets or repository screenshots. Modeled lettering and mural color fields are interpretations; they are not licensed reproductions of exact shop artwork. Existing photograph, font, material and geographic licenses remain in force. The new comparison screenshots are unedited captures of the running game.
+
+## First & Seventh visual observations — September 10, 2026
+
+Google Street View (© Google) was inspected through the Street View Static API: predominantly April 2026 imagery, with September 2024 closer west-side/Yubu views. The dated panorama IDs, source links, observations and limitations are recorded in [pass 08](model-source/FIRST-SEVENTH-PASS-08.md) and [its observation record](model-source/first-seventh-street-view-08.json). Google image pixels are not distributed, embedded or applied as game textures. Access credentials remain local. API access does not itself grant a general right to redistribute imagery or create derived datasets; see [Google’s terms](https://cloud.google.com/maps-platform/terms).
+
+The refinement’s wall markings, lettering, color values and small display items are authored approximations, not exact reproductions or scans. Existing Poly Haven surfaces and the six licensed core photographs keep their original credits and terms. New review PNGs capture the actual game, with the same underlying asset credits.

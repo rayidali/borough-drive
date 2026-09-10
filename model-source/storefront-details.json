@@ -386,6 +386,149 @@
       "captureDate": null,
       "status": "Maps address/place listings accessible, but pano UI returned No Street View imagery available here; preview request returned HTTP 403. No panorama inspected; no Street View match claimed.",
       "rights": "No Google imagery bundled."
+    },
+    "sv08-east-corner": {
+      "publisher": "Google Street View",
+      "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=3KfZRLIHzFKvx7gJYrDH-w",
+      "captureDate": "2026-04",
+      "accessed": "2026-09-10",
+      "panoramaId": "3KfZRLIHzFKvx7gJYrDH-w",
+      "location": {
+        "lat": 40.72694450178107,
+        "lon": -73.98564036780431
+      },
+      "headingsInspected": [
+        29.72,
+        119.72,
+        209.72,
+        299.72
+      ],
+      "attribution": "\u00a9 Google",
+      "reuse": "Temporary visual reference; photographs are not included in the repository or applied as textures. Typography, art, dimensions and surface values remain authored approximations."
+    },
+    "sv08-west-corner": {
+      "publisher": "Google Street View",
+      "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=FaPyW4PrfDZx0Z6Q8Q72Sw",
+      "captureDate": "2026-04",
+      "accessed": "2026-09-10",
+      "panoramaId": "FaPyW4PrfDZx0Z6Q8Q72Sw",
+      "location": {
+        "lat": 40.72703733089958,
+        "lon": -73.98585235448007
+      },
+      "headingsInspected": [
+        245,
+        335,
+        135,
+        75,
+        142,
+        340
+      ],
+      "attribution": "\u00a9 Google",
+      "reuse": "Temporary visual reference; photographs are not included in the repository or applied as textures. Typography, art, dimensions and surface values remain authored approximations."
+    },
+    "sv08-first-north": {
+      "publisher": "Google Street View",
+      "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=EKnuIbhWbU2DNWK2oGy-zg",
+      "captureDate": "2026-04",
+      "accessed": "2026-09-10",
+      "panoramaId": "EKnuIbhWbU2DNWK2oGy-zg",
+      "location": {
+        "lat": 40.72715451055284,
+        "lon": -73.98562799294037
+      },
+      "headingsInspected": [
+        112,
+        275,
+        115
+      ],
+      "attribution": "\u00a9 Google",
+      "reuse": "Temporary visual reference; photographs are not included in the repository or applied as textures. Typography, art, dimensions and surface values remain authored approximations."
+    },
+    "sv08-seventh-east": {
+      "publisher": "Google Street View",
+      "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=PLo-D1FVIdNPLQswke8FRw",
+      "captureDate": "2026-04",
+      "accessed": "2026-09-10",
+      "panoramaId": "PLo-D1FVIdNPLQswke8FRw",
+      "location": {
+        "lat": 40.72685513418318,
+        "lon": -73.98543151945032
+      },
+      "headingsInspected": [
+        350,
+        230,
+        205,
+        325
+      ],
+      "attribution": "\u00a9 Google",
+      "reuse": "Temporary visual reference; photographs are not included in the repository or applied as textures. Typography, art, dimensions and surface values remain authored approximations."
+    },
+    "sv08-seventh-middle": {
+      "publisher": "Google Street View",
+      "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=TFgmQsr2y38bYtO6gkeQww",
+      "captureDate": "2026-04",
+      "accessed": "2026-09-10",
+      "panoramaId": "TFgmQsr2y38bYtO6gkeQww",
+      "location": {
+        "lat": 40.72690002896211,
+        "lon": -73.98553796129758
+      },
+      "headingsInspected": [
+        209,
+        29
+      ],
+      "attribution": "\u00a9 Google",
+      "reuse": "Temporary visual reference; photographs are not included in the repository or applied as textures. Typography, art, dimensions and surface values remain authored approximations."
+    },
+    "sv08-west-return": {
+      "publisher": "Google Street View",
+      "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=ItX9nZtNODUaCo_CCZwimw",
+      "captureDate": "2024-09",
+      "accessed": "2026-09-10",
+      "panoramaId": "ItX9nZtNODUaCo_CCZwimw",
+      "location": {
+        "lat": 40.72711944415273,
+        "lon": -73.98604622703027
+      },
+      "headingsInspected": [
+        195,
+        50
+      ],
+      "attribution": "\u00a9 Google",
+      "reuse": "Temporary visual reference; photographs are not included in the repository or applied as textures. Typography, art, dimensions and surface values remain authored approximations."
+    },
+    "sv08-yubu": {
+      "publisher": "Google Street View",
+      "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=sV6FEVN5gyys-t_T1jhmnA",
+      "captureDate": "2024-09",
+      "accessed": "2026-09-10",
+      "panoramaId": "sV6FEVN5gyys-t_T1jhmnA",
+      "location": {
+        "lat": 40.72716420386381,
+        "lon": -73.98615491035392
+      },
+      "headingsInspected": [
+        170
+      ],
+      "attribution": "\u00a9 Google",
+      "reuse": "Temporary visual reference; photographs are not included in the repository or applied as textures. Typography, art, dimensions and surface values remain authored approximations."
+    },
+    "sv08-burger": {
+      "publisher": "Google Street View",
+      "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=wGzBFCUjzRmQplfVj96NMg",
+      "captureDate": "2026-04",
+      "accessed": "2026-09-10",
+      "panoramaId": "wGzBFCUjzRmQplfVj96NMg",
+      "location": {
+        "lat": 40.72681113530408,
+        "lon": -73.98532714002468
+      },
+      "headingsInspected": [
+        329
+      ],
+      "attribution": "\u00a9 Google",
+      "reuse": "Temporary visual reference; photographs are not included in the repository or applied as textures. Typography, art, dimensions and surface values remain authored approximations."
     }
   },
   "elevations": [
@@ -792,9 +935,10 @@
         0.98
       ],
       "sources": [
-        "tile"
+        "tile",
+        "sv08-west-corner"
       ],
-      "limits": "Observed feature types and colors follow the linked photographs. Shop spans, depths, paint values, furniture dimensions/positions and substitute typography are visual estimates. Unreadable menu/sticker artwork, unseen interiors and present-day furniture availability remain unverified.",
+      "limits": "Observed feature types and colors follow the linked photographs. Shop spans, depths, paint values, furniture dimensions/positions and substitute typography are visual estimates. Unreadable menu/sticker artwork, unseen interiors and present-day furniture availability remain unverified. Pass 08: see first-seventh-street-view-08.json for inspected imagery and remaining occlusions; no survey or exact-artwork claim.",
       "design": {
         "panels": [
           [
@@ -859,20 +1003,12 @@
             "text": "TILE BAR"
           }
         ],
-        "tables": [
-          {
-            "at": 0.52,
-            "depth": 1.14
-          },
-          {
-            "at": 0.84,
-            "depth": 1.14
-          }
-        ],
+        "tables": [],
         "doorMaterial": "store teal",
         "doorHead": 2.7,
         "doorGlassBottom": 0.99,
-        "cornerStyle": "tile"
+        "cornerStyle": "tile",
+        "referencePass": "08"
       }
     },
     {
@@ -886,9 +1022,10 @@
         0.765
       ],
       "sources": [
-        "hen"
+        "hen",
+        "sv08-first-north"
       ],
-      "limits": "Observed feature types and colors follow the linked photographs. Shop spans, depths, paint values, furniture dimensions/positions and substitute typography are visual estimates. Unreadable menu/sticker artwork, unseen interiors and present-day furniture availability remain unverified.",
+      "limits": "Observed feature types and colors follow the linked photographs. Shop spans, depths, paint values, furniture dimensions/positions and substitute typography are visual estimates. Unreadable menu/sticker artwork, unseen interiors and present-day furniture availability remain unverified. Pass 08: see first-seventh-street-view-08.json for inspected imagery and remaining occlusions; no survey or exact-artwork claim.",
       "design": {
         "panels": [
           [
@@ -906,7 +1043,7 @@
         "top": 3.6,
         "signs": [
           {
-            "material": "black iron",
+            "material": "sign white",
             "y": 3.28,
             "height": 0.45,
             "lines": [
@@ -919,30 +1056,9 @@
             ]
           }
         ],
-        "blades": [
-          {
-            "at": 0.91,
-            "shape": "oval",
-            "width": 0.7,
-            "height": 0.7,
-            "y": 3.27,
-            "material": "painted blue",
-            "lines": [
-              {
-                "text": "HEN HOUSE",
-                "material": "sign white",
-                "size": 0.13
-              },
-              {
-                "text": "NYC",
-                "material": "sign white",
-                "y": -0.23,
-                "size": 0.12
-              }
-            ]
-          }
-        ],
-        "cornerStyle": "hen"
+        "blades": [],
+        "cornerStyle": "hen",
+        "referencePass": "08"
       }
     },
     {
@@ -956,9 +1072,10 @@
         0.99
       ],
       "sources": [
-        "yubu"
+        "yubu",
+        "sv08-yubu"
       ],
-      "limits": "Observed feature types and colors follow the linked photographs. Shop spans, depths, paint values, furniture dimensions/positions and substitute typography are visual estimates. Unreadable menu/sticker artwork, unseen interiors and present-day furniture availability remain unverified.",
+      "limits": "Observed feature types and colors follow the linked photographs. Shop spans, depths, paint values, furniture dimensions/positions and substitute typography are visual estimates. Unreadable menu/sticker artwork, unseen interiors and present-day furniture availability remain unverified. Pass 08: see first-seventh-street-view-08.json for inspected imagery and remaining occlusions; no survey or exact-artwork claim.",
       "design": {
         "panels": [
           [
@@ -993,7 +1110,8 @@
             "height": 0.43
           }
         ],
-        "cornerStyle": "yubu"
+        "cornerStyle": "yubu",
+        "referencePass": "08"
       }
     },
     {
@@ -2264,9 +2382,10 @@
         0.995
       ],
       "sources": [
-        "e7-2024"
+        "e7-2024",
+        "sv08-first-north"
       ],
-      "limits": "Mapped footprints retained. Dimensions below are photographic proportion estimates in metres, not a survey. Capture dates vary. Occluded return-wall openings, exact surface wear, tiny print, artwork, movable inventory, interior depths and present-day arrangements remain uncertain.",
+      "limits": "Mapped footprints retained. Dimensions below are photographic proportion estimates in metres, not a survey. Capture dates vary. Occluded return-wall openings, exact surface wear, tiny print, artwork, movable inventory, interior depths and present-day arrangements remain uncertain. Pass 08: see first-seventh-street-view-08.json for inspected imagery and remaining occlusions; no survey or exact-artwork claim.",
       "design": {
         "cornerStyle": "deli",
         "panels": [
@@ -2282,7 +2401,8 @@
         "frame": "black iron",
         "base": 0.45,
         "head": 2.76,
-        "top": 3.86
+        "top": 3.86,
+        "referencePass": "08"
       }
     },
     {
@@ -2292,12 +2412,13 @@
       "street": "First Avenue",
       "span": [
         0.025,
-        0.37
+        0.325
       ],
       "sources": [
-        "monkey-2025"
+        "monkey-2025",
+        "sv08-first-north"
       ],
-      "limits": "Mapped footprints retained. Dimensions below are photographic proportion estimates in metres, not a survey. Capture dates vary. Occluded return-wall openings, exact surface wear, tiny print, artwork, movable inventory, interior depths and present-day arrangements remain uncertain.",
+      "limits": "Mapped footprints retained. Dimensions below are photographic proportion estimates in metres, not a survey. Capture dates vary. Occluded return-wall openings, exact surface wear, tiny print, artwork, movable inventory, interior depths and present-day arrangements remain uncertain. Pass 08: see first-seventh-street-view-08.json for inspected imagery and remaining occlusions; no survey or exact-artwork claim.",
       "design": {
         "cornerStyle": "monkey",
         "panels": [
@@ -2310,10 +2431,11 @@
             0.6
           ]
         ],
-        "frame": "white frame",
-        "base": 0.42,
-        "head": 2.75,
-        "top": 3.63
+        "frame": "black iron",
+        "base": 0.31,
+        "head": 2.8,
+        "top": 3.63,
+        "referencePass": "08"
       }
     },
     {
@@ -2326,9 +2448,10 @@
         0.991
       ],
       "sources": [
-        "burger-2021"
+        "burger-2021",
+        "sv08-burger"
       ],
-      "limits": "Mapped footprints retained. Dimensions below are photographic proportion estimates in metres, not a survey. Capture dates vary. Occluded return-wall openings, exact surface wear, tiny print, artwork, movable inventory, interior depths and present-day arrangements remain uncertain.",
+      "limits": "Mapped footprints retained. Dimensions below are photographic proportion estimates in metres, not a survey. Capture dates vary. Occluded return-wall openings, exact surface wear, tiny print, artwork, movable inventory, interior depths and present-day arrangements remain uncertain. Pass 08: see first-seventh-street-view-08.json for inspected imagery and remaining occlusions; no survey or exact-artwork claim.",
       "design": {
         "cornerStyle": "burger",
         "panels": [
@@ -2348,7 +2471,28 @@
         "frame": "wood",
         "base": 0.57,
         "head": 2.73,
-        "top": 3.63
+        "top": 3.63,
+        "referencePass": "08",
+        "blades": [
+          {
+            "at": 0.1,
+            "y": 3.56,
+            "width": 0.62,
+            "height": 0.62,
+            "material": "seventh red enamel",
+            "lines": [
+              {
+                "text": "7TH STREET",
+                "size": 0.12
+              },
+              {
+                "text": "BURGER",
+                "y": -0.22,
+                "size": 0.13
+              }
+            ]
+          }
+        ]
       }
     },
     {
@@ -2361,9 +2505,10 @@
         0.982
       ],
       "sources": [
-        "smoke-exterior"
+        "smoke-exterior",
+        "sv08-west-corner"
       ],
-      "limits": "Mapped footprints retained. Dimensions below are photographic proportion estimates in metres, not a survey. Capture dates vary. Occluded return-wall openings, exact surface wear, tiny print, artwork, movable inventory, interior depths and present-day arrangements remain uncertain.",
+      "limits": "Mapped footprints retained. Dimensions below are photographic proportion estimates in metres, not a survey. Capture dates vary. Occluded return-wall openings, exact surface wear, tiny print, artwork, movable inventory, interior depths and present-day arrangements remain uncertain. Pass 08: see first-seventh-street-view-08.json for inspected imagery and remaining occlusions; no survey or exact-artwork claim.",
       "design": {
         "cornerStyle": "smoke",
         "panels": [
@@ -2379,7 +2524,8 @@
         "frame": "window frame",
         "base": 0.29,
         "head": 2.77,
-        "top": 3.81
+        "top": 3.81,
+        "referencePass": "08"
       }
     },
     {
@@ -2393,9 +2539,10 @@
       ],
       "sources": [
         "saifee-2025",
-        "saifee-2024-plants"
+        "saifee-2024-plants",
+        "sv08-west-corner"
       ],
-      "limits": "Mapped footprints retained. Dimensions below are photographic proportion estimates in metres, not a survey. Capture dates vary. Occluded return-wall openings, exact surface wear, tiny print, artwork, movable inventory, interior depths and present-day arrangements remain uncertain.",
+      "limits": "Mapped footprints retained. Dimensions below are photographic proportion estimates in metres, not a survey. Capture dates vary. Occluded return-wall openings, exact surface wear, tiny print, artwork, movable inventory, interior depths and present-day arrangements remain uncertain. Pass 08: see first-seventh-street-view-08.json for inspected imagery and remaining occlusions; no survey or exact-artwork claim.",
       "design": {
         "cornerStyle": "saifee",
         "panels": [
@@ -2411,7 +2558,8 @@
         "frame": "white frame",
         "base": 0.27,
         "head": 2.91,
-        "top": 3.77
+        "top": 3.77,
+        "referencePass": "08"
       }
     }
   ]

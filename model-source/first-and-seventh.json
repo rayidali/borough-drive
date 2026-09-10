@@ -1,10 +1,15 @@
 {
   "schemaVersion": 1,
-  "revision": "06",
-  "checked": "2026-09-08",
-  "acceptance": {"date": "2026-09-09", "status": "user-accepted-minimum", "standardRevision": "06", "note": "Preserve or exceed this detail and presentation in later work; acceptance does not certify surveyed dimensions or a matched Google panorama."},
-  "scope": "First Avenue / East 7th Street four-corner benchmark, plus the adjoining 114 First portion of Saifee. User accepted revision 06 on September 9, 2026 as the minimum completion standard. Wider work awaits a later plan.",
-  "referencePolicy": "Most recent accessible reference preferred. Full Google Street View was inaccessible; named dated photographs below are the actual visual evidence. Do not describe the result as verified against a latest Google panorama.",
+  "revision": "08",
+  "checked": "2026-09-10",
+  "acceptance": {
+    "date": "2026-09-09",
+    "status": "user-accepted-minimum",
+    "standardRevision": "06",
+    "note": "Preserve or exceed this detail and presentation in later work; acceptance does not certify surveyed dimensions or a matched Google panorama."
+  },
+  "scope": "First Avenue / East 7th Street: refine the five-building, nine-elevation, eight-shop benchmark using the accessible April 2026 Street View panoramas; retain revision 06 as the user-accepted minimum and preserve the pass 07 runtime. No wider expansion.",
+  "referencePolicy": "Current pass uses inspected Street View Static API images, with April 2026 preferred at the intersection. September 2024 is the latest returned closer west-side view inspected; November 2017 was rejected as stale. Prior revision 06 used the alternative sources below. Camera/shape/font/material estimates are not survey measurements. Temporary API photographs are not distributed or used as textures.",
   "sources": {
     "tile": {
       "url": "https://www.tilebarnyc.com/",
@@ -160,6 +165,149 @@
       "captureDate": null,
       "status": "Maps address/place listings accessible, but pano UI returned No Street View imagery available here; preview request returned HTTP 403. No panorama inspected; no Street View match claimed.",
       "rights": "No Google imagery bundled."
+    },
+    "sv08-east-corner": {
+      "publisher": "Google Street View",
+      "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=3KfZRLIHzFKvx7gJYrDH-w",
+      "captureDate": "2026-04",
+      "accessed": "2026-09-10",
+      "panoramaId": "3KfZRLIHzFKvx7gJYrDH-w",
+      "location": {
+        "lat": 40.72694450178107,
+        "lon": -73.98564036780431
+      },
+      "headingsInspected": [
+        29.72,
+        119.72,
+        209.72,
+        299.72
+      ],
+      "attribution": "\u00a9 Google",
+      "reuse": "Temporary visual reference; photographs are not included in the repository or applied as textures. Typography, art, dimensions and surface values remain authored approximations."
+    },
+    "sv08-west-corner": {
+      "publisher": "Google Street View",
+      "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=FaPyW4PrfDZx0Z6Q8Q72Sw",
+      "captureDate": "2026-04",
+      "accessed": "2026-09-10",
+      "panoramaId": "FaPyW4PrfDZx0Z6Q8Q72Sw",
+      "location": {
+        "lat": 40.72703733089958,
+        "lon": -73.98585235448007
+      },
+      "headingsInspected": [
+        245,
+        335,
+        135,
+        75,
+        142,
+        340
+      ],
+      "attribution": "\u00a9 Google",
+      "reuse": "Temporary visual reference; photographs are not included in the repository or applied as textures. Typography, art, dimensions and surface values remain authored approximations."
+    },
+    "sv08-first-north": {
+      "publisher": "Google Street View",
+      "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=EKnuIbhWbU2DNWK2oGy-zg",
+      "captureDate": "2026-04",
+      "accessed": "2026-09-10",
+      "panoramaId": "EKnuIbhWbU2DNWK2oGy-zg",
+      "location": {
+        "lat": 40.72715451055284,
+        "lon": -73.98562799294037
+      },
+      "headingsInspected": [
+        112,
+        275,
+        115
+      ],
+      "attribution": "\u00a9 Google",
+      "reuse": "Temporary visual reference; photographs are not included in the repository or applied as textures. Typography, art, dimensions and surface values remain authored approximations."
+    },
+    "sv08-seventh-east": {
+      "publisher": "Google Street View",
+      "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=PLo-D1FVIdNPLQswke8FRw",
+      "captureDate": "2026-04",
+      "accessed": "2026-09-10",
+      "panoramaId": "PLo-D1FVIdNPLQswke8FRw",
+      "location": {
+        "lat": 40.72685513418318,
+        "lon": -73.98543151945032
+      },
+      "headingsInspected": [
+        350,
+        230,
+        205,
+        325
+      ],
+      "attribution": "\u00a9 Google",
+      "reuse": "Temporary visual reference; photographs are not included in the repository or applied as textures. Typography, art, dimensions and surface values remain authored approximations."
+    },
+    "sv08-seventh-middle": {
+      "publisher": "Google Street View",
+      "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=TFgmQsr2y38bYtO6gkeQww",
+      "captureDate": "2026-04",
+      "accessed": "2026-09-10",
+      "panoramaId": "TFgmQsr2y38bYtO6gkeQww",
+      "location": {
+        "lat": 40.72690002896211,
+        "lon": -73.98553796129758
+      },
+      "headingsInspected": [
+        209,
+        29
+      ],
+      "attribution": "\u00a9 Google",
+      "reuse": "Temporary visual reference; photographs are not included in the repository or applied as textures. Typography, art, dimensions and surface values remain authored approximations."
+    },
+    "sv08-west-return": {
+      "publisher": "Google Street View",
+      "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=ItX9nZtNODUaCo_CCZwimw",
+      "captureDate": "2024-09",
+      "accessed": "2026-09-10",
+      "panoramaId": "ItX9nZtNODUaCo_CCZwimw",
+      "location": {
+        "lat": 40.72711944415273,
+        "lon": -73.98604622703027
+      },
+      "headingsInspected": [
+        195,
+        50
+      ],
+      "attribution": "\u00a9 Google",
+      "reuse": "Temporary visual reference; photographs are not included in the repository or applied as textures. Typography, art, dimensions and surface values remain authored approximations."
+    },
+    "sv08-yubu": {
+      "publisher": "Google Street View",
+      "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=sV6FEVN5gyys-t_T1jhmnA",
+      "captureDate": "2024-09",
+      "accessed": "2026-09-10",
+      "panoramaId": "sV6FEVN5gyys-t_T1jhmnA",
+      "location": {
+        "lat": 40.72716420386381,
+        "lon": -73.98615491035392
+      },
+      "headingsInspected": [
+        170
+      ],
+      "attribution": "\u00a9 Google",
+      "reuse": "Temporary visual reference; photographs are not included in the repository or applied as textures. Typography, art, dimensions and surface values remain authored approximations."
+    },
+    "sv08-burger": {
+      "publisher": "Google Street View",
+      "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=wGzBFCUjzRmQplfVj96NMg",
+      "captureDate": "2026-04",
+      "accessed": "2026-09-10",
+      "panoramaId": "wGzBFCUjzRmQplfVj96NMg",
+      "location": {
+        "lat": 40.72681113530408,
+        "lon": -73.98532714002468
+      },
+      "headingsInspected": [
+        329
+      ],
+      "attribution": "\u00a9 Google",
+      "reuse": "Temporary visual reference; photographs are not included in the repository or applied as textures. Typography, art, dimensions and surface values remain authored approximations."
     }
   },
   "buildings": [
@@ -172,7 +320,10 @@
       "wall": "seventh red brick",
       "sources": [
         "tile",
-        "building-241822226"
+        "building-241822226",
+        "sv08-west-corner",
+        "sv08-first-north",
+        "sv08-west-return"
       ],
       "elevations": {
         "First Avenue": {
@@ -200,17 +351,21 @@
             [
               0,
               1
+            ],
+            [
+              1,
+              1
             ]
           ]
         },
         "East 7th Street": {
           "bays": [
-            0.09,
-            0.22,
-            0.34,
-            0.46,
-            0.62,
-            0.88
+            0.085,
+            0.24,
+            0.335,
+            0.43,
+            0.59,
+            0.8
           ],
           "rows": [
             [
@@ -229,22 +384,33 @@
           "width": 1.03,
           "trim": "seventh dark stone",
           "widths": [
-            0.83,
-            0.84,
-            0.7,
-            0.99,
+            0.85,
             1.03,
-            1.06
+            0.63,
+            0.94,
+            0.98,
+            1.0
           ],
           "escape": {
             "center": 0.15,
             "width": 2.35,
             "material": "black iron"
-          }
+          },
+          "ac": [
+            [
+              0,
+              4
+            ],
+            [
+              1,
+              4
+            ]
+          ]
         }
       },
       "roof": "antenna-rack",
-      "limits": "Mapped footprints retained. Dimensions below are photographic proportion estimates in metres, not a survey. Capture dates vary. Occluded return-wall openings, exact surface wear, tiny print, artwork, movable inventory, interior depths and present-day arrangements remain uncertain. Antenna configuration derives from archive; current equipment not confirmed."
+      "limits": "Mapped footprint and inherited height retained; photo proportions, depths, material values, substituted lettering and surface markings remain estimates. April 2026 records do not certify present-day operation. Occluded interiors, tiny artwork, exact measurements and hidden elevations are unresolved.",
+      "observations08": "Long blue-and-white paired-stripe canopy covers most of the East 7th return. Red-orange side wall has layered markings, a small corner window, two wheeled bins, a sidewalk cellar cover and a far residential door. Two avenue window stacks; irregular return openings. No front tables visible in these April views."
     },
     {
       "id": 248142707,
@@ -258,7 +424,11 @@
         "e7-2024",
         "hen",
         "monkey-2025",
-        "burger-2021"
+        "burger-2021",
+        "sv08-east-corner",
+        "sv08-first-north",
+        "sv08-seventh-middle",
+        "sv08-burger"
       ],
       "elevations": {
         "First Avenue": {
@@ -290,35 +460,31 @@
             ]
           ],
           "width": 1.04,
-          "trim": "seventh dark stone",
+          "trim": "seventh aged olive",
           "ornament": "hood",
           "ac": [
             [
-              3,
-              0
-            ],
-            [
-              3,
-              3
-            ],
-            [
-              3,
+              0,
               4
             ],
             [
               2,
-              4
+              3
             ],
             [
-              0,
-              6
+              3,
+              2
+            ],
+            [
+              3,
+              4
             ]
           ]
         },
         "East 7th Street": {
           "bays": [
-            0.465,
-            0.744
+            0.395,
+            0.592
           ],
           "rows": [
             [
@@ -339,7 +505,7 @@
             ]
           ],
           "width": 1.0,
-          "trim": "seventh dark stone",
+          "trim": "seventh aged olive",
           "ornament": "hood",
           "blindPanel": [
             0.001,
@@ -351,11 +517,12 @@
               0
             ]
           ],
-          "limits": "Archive establishes blank corner panel and two exposed window stacks; exact depths and western shop/mural boundaries are unmeasured."
+          "limits": "Two return stacks and broad east blank brick observed April 2026; exact widths/depths are proportional estimates."
         }
       },
       "roof": "bracketed-cornice",
-      "limits": "Mapped footprints retained. Dimensions below are photographic proportion estimates in metres, not a survey. Capture dates vary. Occluded return-wall openings, exact surface wear, tiny print, artwork, movable inventory, interior depths and present-day arrangements remain uncertain."
+      "limits": "Mapped footprint and inherited height retained; photo proportions, depths, material values, substituted lettering and surface markings remain estimates. April 2026 records do not certify present-day operation. Occluded interiors, tiny artwork, exact measurements and hidden elevations are unresolved.",
+      "observations08": "Seven avenue window stacks; two return stacks sit closer to the pale western panel, with a broad blank brick area to their east. Green-brown hooded lintels. E7 return sign occupies only the west part, red illuminated window lettering, broad blue mural field and layered pale/black/green markings. Monkey has a red MONKEY SUSHI fascia and window strip; Hen has a white script-lettered fascia. Burger red blade and red outdoor structure visible but truck and diners obscure its present glazing."
     },
     {
       "id": 241829631,
@@ -363,11 +530,14 @@
       "address": "113 First Avenue / 86 East 7th Street",
       "height": 16.7,
       "floors": 5,
-      "wall": "seventh red plaster",
+      "wall": "seventh smoke brick",
       "sources": [
         "building-241829631",
         "smoke-exterior",
-        "yubu"
+        "yubu",
+        "sv08-west-corner",
+        "sv08-west-return",
+        "sv08-yubu"
       ],
       "elevations": {
         "First Avenue": {
@@ -400,13 +570,13 @@
         },
         "East 7th Street": {
           "bays": [
-            0.07,
-            0.26,
-            0.4,
-            0.53,
+            0.06,
+            0.21,
+            0.43,
+            0.545,
             0.66,
-            0.79,
-            0.92
+            0.78,
+            0.9
           ],
           "rows": [
             [
@@ -430,8 +600,8 @@
           "trim": "light limestone",
           "lintel": "plain",
           "escape": {
-            "center": 0.49,
-            "width": 2.7,
+            "center": 0.615,
+            "width": 4.35,
             "material": "black iron"
           },
           "ac": [
@@ -447,7 +617,8 @@
         }
       },
       "roof": "stepped-red-cornice",
-      "limits": "Mapped footprints retained. Dimensions below are photographic proportion estimates in metres, not a survey. Capture dates vary. Occluded return-wall openings, exact surface wear, tiny print, artwork, movable inventory, interior depths and present-day arrangements remain uncertain. Seven return stacks are interpreted from an oblique archive image; cannot certify all corner mural/retail-return changes. Five visual stories and an estimated 16.7 m roof height follow the archive proportions; mapped 14.25 m metadata is retained separately. Color is painted brick, not a measured paint sample."
+      "limits": "Mapped footprint and inherited height retained; photo proportions, depths, material values, substituted lettering and surface markings remain estimates. April 2026 records do not certify present-day operation. Occluded interiors, tiny artwork, exact measurements and hidden elevations are unresolved. Yubu September 2024 view is substantially obscured; retained older open-door arrangement is explicitly an approximation.",
+      "observations08": "Exposed red brick rather than a flat painted coat. Three avenue window stacks; seven return stacks with narrower gaps near the escape. White sign box and raised red letters, blue round corner plaque, product-covered glazing and white category text. Long black poster/mural panels on the return. Yubu red awning and closed shutter visible in September 2024, but furniture/entry obscured by a curbside dining structure."
     },
     {
       "id": 248142404,
@@ -459,7 +630,10 @@
       "sources": [
         "building-248142404",
         "saifee-2025",
-        "saifee-2024-night"
+        "saifee-2024-night",
+        "sv08-west-corner",
+        "sv08-seventh-east",
+        "sv08-seventh-middle"
       ],
       "elevations": {
         "First Avenue": {
@@ -484,17 +658,19 @@
           "width": 1.09,
           "trim": "seventh buff brick",
           "lintel": "brick",
-          "grilles": true,
+          "grilles": false,
           "redBand": 11.99
         },
         "East 7th Street": {
           "bays": [
-            0.12,
-            0.27,
-            0.42,
-            0.57,
-            0.72,
-            0.88
+            0.07,
+            0.225,
+            0.335,
+            0.405,
+            0.525,
+            0.63,
+            0.77,
+            0.925
           ],
           "rows": [
             [
@@ -513,16 +689,60 @@
           "width": 0.99,
           "trim": "seventh buff brick",
           "lintel": "brick",
-          "escape": {
-            "center": 0.86,
-            "width": 2.65,
-            "material": "black iron"
-          },
-          "limits": "Return positions are partly occluded in the archive; six evenly spaced openings are an explicit inference, not counted observations."
+          "limits": "Large and narrow return openings and two rust-red escapes observed in April 2026. Proportions/placement are estimated; small windows are individually shortened.",
+          "widths": [
+            0.94,
+            0.98,
+            0.43,
+            1.0,
+            0.42,
+            1.0,
+            1.0,
+            0.98
+          ],
+          "escapes": [
+            {
+              "center": 0.22,
+              "width": 3.25,
+              "material": "seventh oxidized iron"
+            },
+            {
+              "center": 0.685,
+              "width": 3.2,
+              "material": "seventh oxidized iron"
+            }
+          ],
+          "windowOverrides": {
+            "0:2": {
+              "bottom": 4.76,
+              "height": 0.78
+            },
+            "0:4": {
+              "bottom": 4.76,
+              "height": 0.78
+            },
+            "1:2": {
+              "bottom": 7.78,
+              "height": 0.78
+            },
+            "1:4": {
+              "bottom": 7.78,
+              "height": 0.78
+            },
+            "2:2": {
+              "bottom": 10.73,
+              "height": 0.78
+            },
+            "2:4": {
+              "bottom": 10.73,
+              "height": 0.78
+            }
+          }
         }
       },
       "roof": "plain",
-      "limits": "Mapped footprints retained. Dimensions below are photographic proportion estimates in metres, not a survey. Capture dates vary. Occluded return-wall openings, exact surface wear, tiny print, artwork, movable inventory, interior depths and present-day arrangements remain uncertain. Render height adjusted to four visible stories and relative height of adjacent 114; municipal height remains separately retained."
+      "limits": "Mapped footprint and inherited height retained; photo proportions, depths, material values, substituted lettering and surface markings remain estimates. April 2026 records do not certify present-day operation. Occluded interiors, tiny artwork, exact measurements and hidden elevations are unresolved.",
+      "observations08": "Buff brick with dark top staining and darker sills. Two avenue window stacks. Return has both narrow service windows and full-size windows, and two red-brown fire escapes. Entire return has lime-green shop framing, open hardware shelving, pot/soil displays, distinct small canopies, cream SAIFEE HARDWARE sign, corner plants and reed blind at the east end."
     },
     {
       "id": 248142331,
@@ -530,12 +750,14 @@
       "address": "114 First Avenue",
       "height": 17.68,
       "floors": 5,
-      "wall": "seventh red plaster",
+      "wall": "seventh smoke brick",
       "sources": [
         "building-248142331",
         "saifee-2025",
         "saifee-2024-plants",
-        "saifee-2024-night"
+        "saifee-2024-night",
+        "sv08-west-corner",
+        "sv08-east-corner"
       ],
       "elevations": {
         "First Avenue": {
@@ -574,17 +796,20 @@
         }
       },
       "roof": "railing-and-plants",
-      "limits": "Mapped footprints retained. Dimensions below are photographic proportion estimates in metres, not a survey. Capture dates vary. Occluded return-wall openings, exact surface wear, tiny print, artwork, movable inventory, interior depths and present-day arrangements remain uncertain."
+      "limits": "Mapped footprint and inherited height retained; photo proportions, depths, material values, substituted lettering and surface markings remain estimates. April 2026 records do not certify present-day operation. Occluded interiors, tiny artwork, exact measurements and hidden elevations are unresolved.",
+      "observations08": "Five-story red-brick front, pale tapered lintels, red fire escape and roof railing. Joined dark brown canopy carries SAIFEE hardware & garden, paint branding and small service labels. Dense, varied plant racks and hanging foliage; white/green shop structure and notices."
     }
   ],
   "limitations": "Mapped footprints retained. Dimensions below are photographic proportion estimates in metres, not a survey. Capture dates vary. Occluded return-wall openings, exact surface wear, tiny print, artwork, movable inventory, interior depths and present-day arrangements remain uncertain.",
   "streetFurniture": {
-    "basis": "Objects and placement guided by corner photographs; mapped road widths and all positions remain estimates.",
+    "basis": "Four corner poles, traffic mast arms, street signs, curb markings and utility covers observed in April 2026. Placements fit the retained road geometry and are not surveyed.",
     "sources": [
       "tile",
       "e7-2024",
       "saifee-2025",
-      "building-241829631"
+      "building-241829631",
+      "sv08-west-corner",
+      "sv08-east-corner"
     ],
     "signals": [
       [
@@ -594,6 +819,14 @@
       [
         12.0,
         235.4
+      ],
+      [
+        -13.5,
+        235.2
+      ],
+      [
+        12.0,
+        221.0
       ]
     ],
     "mailboxes": [
@@ -624,5 +857,14 @@
         238.1
       ]
     ]
+  },
+  "streetViewReview": {
+    "accessConfirmed": true,
+    "captureDate": "2026-04",
+    "accessDate": "2026-09-10",
+    "source": "model-source/first-seventh-street-view-08.json",
+    "matchedGameReview": "model-source/first-seventh-08-matched-review.json",
+    "surveyVerified": false,
+    "comparisonStatus": "compared with known differences; user visual acceptance pending"
   }
 }

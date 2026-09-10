@@ -1,0 +1,117 @@
+{
+  "comparedTo": "477fcdb524407e189f67eb59771d8da84c4a16fe",
+  "checkedAt": "2026-09-10",
+  "preservedFiles": [
+    {
+      "path": "dist/reconstruction/first-and-10th.glb",
+      "sha256": "405e247602a2117f5f1e7b938921ec584fbd0e3ff9e9008209361f215b65f167"
+    },
+    {
+      "path": "dist/reconstruction/vehicle.js",
+      "sha256": "bcf04cfee20946fbedb8cecc8892ddd8f5399a119a973f8d91ed2c19bc16b4e6"
+    },
+    {
+      "path": "dist/reconstruction/viewer.js",
+      "sha256": "bb6bffe9bc0a809447e8136a01575588be348debcaa6fdd55cb2508d31987de8"
+    },
+    {
+      "path": "dist/reconstruction/storefront-glass.js",
+      "sha256": "46d3b7dbf63416bcc3720349ca1b9f74660df33358c8042d2e4fba1dc6bc3bd3"
+    },
+    {
+      "path": "dist/reconstruction/spatial-batches.js",
+      "sha256": "c5db389160bedc7009478f06d35f6c4147afc1a4ed9781a5c6df4192d4cde46a"
+    },
+    {
+      "path": "dist/reconstruction/shared-textures.js",
+      "sha256": "2aeffa44774410da07f60afa685ab881dcff881bfe700804e5260f7fb217e3da"
+    },
+    {
+      "path": "model-source/build_intersection.py",
+      "sha256": "ff42784487c1eb8f036d400a37674c2fef4f02307119a9963a875a81555465b0"
+    },
+    {
+      "path": "dist/reconstruction/references/ne-e10th-side-2022-05-26-1920.jpg",
+      "sha256": "ba5da8a8348c343490ce3e1335031db86edae1c1a122aabf6bacea31c6744f72"
+    },
+    {
+      "path": "dist/reconstruction/references/ne-beron-beron-2025-05-16.jpg",
+      "sha256": "46f82ba6dae7f77dc394511d0129e59bb752b39809220ea70bddc2af44486563"
+    },
+    {
+      "path": "dist/reconstruction/references/Tarallucci_in_the_Rain_(51286241651).jpg",
+      "sha256": "35cd8a6c015c012b55082df573269ec1d0b78a35e214d801ce9d2f4bf0adfe08"
+    },
+    {
+      "path": "dist/reconstruction/references/new-theatre-building-2021-06-06-1920.jpg",
+      "sha256": "3226d85c9dd6e47462123ad18cd32130ac16796b7b30f16d1dc396c5e9804ffd"
+    },
+    {
+      "path": "dist/reconstruction/references/sw-159-first-2021-09-06.jpg",
+      "sha256": "eaf2fd99aac866d4d26c8a18fd1d53dcc038b5aca607ac5db0cf7d4b51ea9771"
+    },
+    {
+      "path": "dist/reconstruction/references/First_and_10th_(51645797940).jpg",
+      "sha256": "4ee966ea361c60a8a32c6fd4e10d9303ee82a8c9e7b4d6d5d745515ca7426760"
+    },
+    {
+      "path": "dist/reconstruction/neighborhood/block-1-1.glb",
+      "sha256": "7dd5899e755aca7d047667ab038fbdce604b45971539804bc05ea9f2a5dd95c1"
+    },
+    {
+      "path": "dist/reconstruction/neighborhood/block-1-2.glb",
+      "sha256": "dc0838a10babc4a28442947bf7be50d4a11009fa6bde2f887b4854db373d0f7d"
+    },
+    {
+      "path": "dist/reconstruction/neighborhood/block-2-1.glb",
+      "sha256": "ceea12d9454df9a343e7e7e285526086da302bde9a360ceea63c84a1c4e3dc5f"
+    },
+    {
+      "path": "dist/reconstruction/neighborhood/block-2-2.glb",
+      "sha256": "fc59d9ce4406231a530b9195979fcf974c1e7b71688762a6d27f952e3db3412d"
+    },
+    {
+      "path": "dist/reconstruction/neighborhood/block-3-1.glb",
+      "sha256": "0eb6115a128beb1ab81f6131662c54db2c37042450868aa431c17ab4d1d6d48c"
+    },
+    {
+      "path": "dist/reconstruction/neighborhood/block-3-2.glb",
+      "sha256": "d1c8997726b76f414cbec8615c66078aaa2f4a44c8cb746d678fcc1de49ee2d5"
+    },
+    {
+      "path": "dist/reconstruction/neighborhood/block-4-1.glb",
+      "sha256": "6d89c75fa1b4d7cee6f631513936fd846c25b2b66fdb0ae6e3e2390ca5c5b792"
+    },
+    {
+      "path": "dist/reconstruction/neighborhood/block-4-2.glb",
+      "sha256": "dd28b286e7874c05b015f6c293b8f8a44c55522029abeabf9c6f1b25529a7a2d"
+    },
+    {
+      "path": "dist/reconstruction/neighborhood/edge-east.glb",
+      "sha256": "75be88b4f4c535ccdd23c651a2290d4bc02493107cbc8b77c8b5429fc872d90f"
+    },
+    {
+      "path": "dist/reconstruction/neighborhood/edge-north.glb",
+      "sha256": "0be1bb480e8b56333cc17eee3a46b51ef0fb4c13d6387c8f48ceca4ff27f6974"
+    },
+    {
+      "path": "dist/reconstruction/neighborhood/edge-west.glb",
+      "sha256": "12c16bba951cbae690ac3ae434a522e640a0016c13c780dd898345680da34319"
+    }
+  ],
+  "preservedMapFields": [
+    "origin",
+    "axis",
+    "extent",
+    "driveBounds",
+    "roads",
+    "avenues",
+    "streets",
+    "all 615 footprints/frontages/mapped heights/core flags/tile assignments"
+  ],
+  "affectedTileIds": [
+    "block-5-1",
+    "block-5-2",
+    "edge-south"
+  ]
+}

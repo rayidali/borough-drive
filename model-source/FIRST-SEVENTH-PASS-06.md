@@ -2,6 +2,8 @@
 
 Study authored September 8, 2026 and **accepted by the user on September 9 as the minimum completion standard** for future blocks. Use the most recent accessible view and preserve or exceed this detail and presentation. [Performance pass 07](PERFORMANCE-PASS-07.md) retains these models while optimizing speed. The [handoff](../CODEX-HANDOFF.md) records exact source/push/deployment states. Wider map work awaits the later planning discussion.
 
+The later [pass 08](FIRST-SEVENTH-PASS-08.md) uses the newly working Street View API. This report preserves what was actually observed and implemented in revision 06; its access failure is historical.
+
 ## Implemented scope
 
 Five building objects cover the four corners and Saifee's adjoining frontage. Their nine exposed elevations use individual schedules in [first-and-seventh.json](first-and-seventh.json), implemented by [first_seventh_kit.py](first_seventh_kit.py). Eight shops receive bespoke treatments; the overall non-core design inventory increases from 22 to 27 because Tile Bar, Hen House and Yubu already had designs.

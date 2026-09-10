@@ -39,6 +39,7 @@ export async function createNeighborhoodRenderer({scene,loader,renderer,data,cor
   geometry(g,m);
  }
  const asphalt=mat('asphalt',0x404441),pavement=mat('sidewalk',0x9b9a8c),curb=mat('curb granite',0xa9aaa1),seam=mat('concrete seam',0x64665f),white=mat('road paint',0xd4d0b7),green=mat('bike green',0x41694f),yellow=mat('yellow paint',0xcda651),busRed=mat('bus lane red',0x854b3d);
+ const redTactile=new THREE.MeshStandardMaterial({color:0x973c32,roughness:.92});
  const ext=data.extent,avs=data.avenues,sts=data.streets;
  box((ext[0]+ext[2])/2,-.14,(ext[1]+ext[3])/2,ext[2]-ext[0],.28,ext[3]-ext[1],asphalt);
  const xcuts=[ext[0],...avs.map(a=>a[1]),ext[2]],zcuts=[ext[1],...sts.map(s=>s[1]),ext[3]];
@@ -102,8 +103,11 @@ export async function createNeighborhoodRenderer({scene,loader,renderer,data,cor
    for(let dz=-4.1;dz<4.2;dz+=1.18)box(x+dx,.024,z+dz,2.75,.014,.53,white);
   }
   for(const sx of [-1,1])for(const sz of [-1,1]){
-   box(x+sx*(width+1.2),.18,z+sz*6.3,1.24,.035,1.2,yellow);
-   for(let k=0;k<6;k++)box(x+sx*(width+1.2),.205,z+sz*6.3+(k-2.5)*.16,1.1,.006,.03,curb);
+   const seventh=avenue==='First Avenue'&&street==='East 7th Street';
+   box(x+sx*(width+1.2),.18,z+sz*6.3,1.24,.035,1.2,seventh?redTactile:yellow);
+   if(seventh){
+    for(let a=0;a<14;a++)for(let b=0;b<13;b++)box(x+sx*(width+1.2)+(a-6.5)*.081,.202,z+sz*6.3+(b-6)*.081,.026,.012,.026,redTactile);
+   }else for(let k=0;k<6;k++)box(x+sx*(width+1.2),.205,z+sz*6.3+(k-2.5)*.16,1.1,.006,.03,curb);
   }
  }
  const ground=new THREE.Group();ground.name='Connected streets and sidewalks';scene.add(ground);

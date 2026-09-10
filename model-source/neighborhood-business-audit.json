@@ -498,9 +498,10 @@
         "record": "yubu",
         "checked": "2026-09-08",
         "sources": [
-          "yubu"
+          "yubu",
+          "sv08-yubu"
         ],
-        "limits": "Observed feature types and colors follow the linked photographs. Shop spans, depths, paint values, furniture dimensions/positions and substitute typography are visual estimates. Unreadable menu/sticker artwork, unseen interiors and present-day furniture availability remain unverified."
+        "limits": "Observed feature types and colors follow the linked photographs. Shop spans, depths, paint values, furniture dimensions/positions and substitute typography are visual estimates. Unreadable menu/sticker artwork, unseen interiors and present-day furniture availability remain unverified. Pass 08: see first-seventh-street-view-08.json for inspected imagery and remaining occlusions; no survey or exact-artwork claim."
       },
       "unit": [
         17.111,
@@ -541,7 +542,8 @@
             "height": 0.43
           }
         ],
-        "cornerStyle": "yubu"
+        "cornerStyle": "yubu",
+        "referencePass": "08"
       }
     },
     {
@@ -580,9 +582,10 @@
         "record": "e-smoke",
         "checked": "2026-09-08",
         "sources": [
-          "smoke-exterior"
+          "smoke-exterior",
+          "sv08-west-corner"
         ],
-        "limits": "Mapped footprints retained. Dimensions below are photographic proportion estimates in metres, not a survey. Capture dates vary. Occluded return-wall openings, exact surface wear, tiny print, artwork, movable inventory, interior depths and present-day arrangements remain uncertain."
+        "limits": "Mapped footprints retained. Dimensions below are photographic proportion estimates in metres, not a survey. Capture dates vary. Occluded return-wall openings, exact surface wear, tiny print, artwork, movable inventory, interior depths and present-day arrangements remain uncertain. Pass 08: see first-seventh-street-view-08.json for inspected imagery and remaining occlusions; no survey or exact-artwork claim."
       },
       "unit": [
         0.143,
@@ -604,7 +607,8 @@
         "frame": "window frame",
         "base": 0.29,
         "head": 2.77,
-        "top": 3.81
+        "top": 3.81,
+        "referencePass": "08"
       }
     },
     {
@@ -1316,9 +1320,10 @@
         "record": "e7-deli",
         "checked": "2026-09-08",
         "sources": [
-          "e7-2024"
+          "e7-2024",
+          "sv08-first-north"
         ],
-        "limits": "Mapped footprints retained. Dimensions below are photographic proportion estimates in metres, not a survey. Capture dates vary. Occluded return-wall openings, exact surface wear, tiny print, artwork, movable inventory, interior depths and present-day arrangements remain uncertain."
+        "limits": "Mapped footprints retained. Dimensions below are photographic proportion estimates in metres, not a survey. Capture dates vary. Occluded return-wall openings, exact surface wear, tiny print, artwork, movable inventory, interior depths and present-day arrangements remain uncertain. Pass 08: see first-seventh-street-view-08.json for inspected imagery and remaining occlusions; no survey or exact-artwork claim."
       },
       "unit": [
         12.031,
@@ -1340,7 +1345,8 @@
         "frame": "black iron",
         "base": 0.45,
         "head": 2.76,
-        "top": 3.86
+        "top": 3.86,
+        "referencePass": "08"
       }
     },
     {
@@ -1508,9 +1514,10 @@
         "record": "hen-house",
         "checked": "2026-09-08",
         "sources": [
-          "hen"
+          "hen",
+          "sv08-first-north"
         ],
-        "limits": "Observed feature types and colors follow the linked photographs. Shop spans, depths, paint values, furniture dimensions/positions and substitute typography are visual estimates. Unreadable menu/sticker artwork, unseen interiors and present-day furniture availability remain unverified."
+        "limits": "Observed feature types and colors follow the linked photographs. Shop spans, depths, paint values, furniture dimensions/positions and substitute typography are visual estimates. Unreadable menu/sticker artwork, unseen interiors and present-day furniture availability remain unverified. Pass 08: see first-seventh-street-view-08.json for inspected imagery and remaining occlusions; no survey or exact-artwork claim."
       },
       "unit": [
         7.51,
@@ -1534,7 +1541,7 @@
         "top": 3.6,
         "signs": [
           {
-            "material": "black iron",
+            "material": "sign white",
             "y": 3.28,
             "height": 0.45,
             "lines": [
@@ -1547,30 +1554,9 @@
             ]
           }
         ],
-        "blades": [
-          {
-            "at": 0.91,
-            "shape": "oval",
-            "width": 0.7,
-            "height": 0.7,
-            "y": 3.27,
-            "material": "painted blue",
-            "lines": [
-              {
-                "text": "HEN HOUSE",
-                "material": "sign white",
-                "size": 0.13
-              },
-              {
-                "text": "NYC",
-                "material": "sign white",
-                "y": -0.23,
-                "size": 0.12
-              }
-            ]
-          }
-        ],
-        "cornerStyle": "hen"
+        "blades": [],
+        "cornerStyle": "hen",
+        "referencePass": "08"
       }
     },
     {
@@ -4966,19 +4952,20 @@
       "status": "individually reviewed occupancy",
       "frontageIndex": 1,
       "street": "First Avenue",
-      "along": 3.027,
+      "along": 2.682,
       "frontageDistance": 1.717,
       "appearance": {
         "record": "monkey-sushi",
         "checked": "2026-09-08",
         "sources": [
-          "monkey-2025"
+          "monkey-2025",
+          "sv08-first-north"
         ],
-        "limits": "Mapped footprints retained. Dimensions below are photographic proportion estimates in metres, not a survey. Capture dates vary. Occluded return-wall openings, exact surface wear, tiny print, artwork, movable inventory, interior depths and present-day arrangements remain uncertain."
+        "limits": "Mapped footprints retained. Dimensions below are photographic proportion estimates in metres, not a survey. Capture dates vary. Occluded return-wall openings, exact surface wear, tiny print, artwork, movable inventory, interior depths and present-day arrangements remain uncertain. Pass 08: see first-seventh-street-view-08.json for inspected imagery and remaining occlusions; no survey or exact-artwork claim."
       },
       "unit": [
         0.383,
-        5.671
+        4.981
       ],
       "unitBasis": "Photographic proportion estimate from storefront-details.json / monkey-sushi; unmeasured.",
       "design": {
@@ -4993,10 +4980,11 @@
             0.6
           ]
         ],
-        "frame": "white frame",
-        "base": 0.42,
-        "head": 2.75,
-        "top": 3.63
+        "frame": "black iron",
+        "base": 0.31,
+        "head": 2.8,
+        "top": 3.63,
+        "referencePass": "08"
       }
     },
     {
@@ -7551,9 +7539,10 @@
         "checked": "2026-09-08",
         "sources": [
           "saifee-2025",
-          "saifee-2024-plants"
+          "saifee-2024-plants",
+          "sv08-west-corner"
         ],
-        "limits": "Mapped footprints retained. Dimensions below are photographic proportion estimates in metres, not a survey. Capture dates vary. Occluded return-wall openings, exact surface wear, tiny print, artwork, movable inventory, interior depths and present-day arrangements remain uncertain."
+        "limits": "Mapped footprints retained. Dimensions below are photographic proportion estimates in metres, not a survey. Capture dates vary. Occluded return-wall openings, exact surface wear, tiny print, artwork, movable inventory, interior depths and present-day arrangements remain uncertain. Pass 08: see first-seventh-street-view-08.json for inspected imagery and remaining occlusions; no survey or exact-artwork claim."
       },
       "unit": [
         0.097,
@@ -7575,7 +7564,8 @@
         "frame": "white frame",
         "base": 0.27,
         "head": 2.91,
-        "top": 3.77
+        "top": 3.77,
+        "referencePass": "08"
       }
     },
     {
@@ -9092,9 +9082,10 @@
         "record": "7th-street-burger",
         "checked": "2026-09-08",
         "sources": [
-          "burger-2021"
+          "burger-2021",
+          "sv08-burger"
         ],
-        "limits": "Mapped footprints retained. Dimensions below are photographic proportion estimates in metres, not a survey. Capture dates vary. Occluded return-wall openings, exact surface wear, tiny print, artwork, movable inventory, interior depths and present-day arrangements remain uncertain."
+        "limits": "Mapped footprints retained. Dimensions below are photographic proportion estimates in metres, not a survey. Capture dates vary. Occluded return-wall openings, exact surface wear, tiny print, artwork, movable inventory, interior depths and present-day arrangements remain uncertain. Pass 08: see first-seventh-street-view-08.json for inspected imagery and remaining occlusions; no survey or exact-artwork claim."
       },
       "unit": [
         14.394,
@@ -9120,7 +9111,28 @@
         "frame": "wood",
         "base": 0.57,
         "head": 2.73,
-        "top": 3.63
+        "top": 3.63,
+        "referencePass": "08",
+        "blades": [
+          {
+            "at": 0.1,
+            "y": 3.56,
+            "width": 0.62,
+            "height": 0.62,
+            "material": "seventh red enamel",
+            "lines": [
+              {
+                "text": "7TH STREET",
+                "size": 0.12
+              },
+              {
+                "text": "BURGER",
+                "y": -0.22,
+                "size": 0.13
+              }
+            ]
+          }
+        ]
       }
     },
     {
@@ -12139,9 +12151,10 @@
         "record": "tile-bar",
         "checked": "2026-09-08",
         "sources": [
-          "tile"
+          "tile",
+          "sv08-west-corner"
         ],
-        "limits": "Observed feature types and colors follow the linked photographs. Shop spans, depths, paint values, furniture dimensions/positions and substitute typography are visual estimates. Unreadable menu/sticker artwork, unseen interiors and present-day furniture availability remain unverified."
+        "limits": "Observed feature types and colors follow the linked photographs. Shop spans, depths, paint values, furniture dimensions/positions and substitute typography are visual estimates. Unreadable menu/sticker artwork, unseen interiors and present-day furniture availability remain unverified. Pass 08: see first-seventh-street-view-08.json for inspected imagery and remaining occlusions; no survey or exact-artwork claim."
       },
       "unit": [
         0.134,
@@ -12212,20 +12225,12 @@
             "text": "TILE BAR"
           }
         ],
-        "tables": [
-          {
-            "at": 0.52,
-            "depth": 1.14
-          },
-          {
-            "at": 0.84,
-            "depth": 1.14
-          }
-        ],
+        "tables": [],
         "doorMaterial": "store teal",
         "doorHead": 2.7,
         "doorGlassBottom": 0.99,
-        "cornerStyle": "tile"
+        "cornerStyle": "tile",
+        "referencePass": "08"
       }
     },
     {

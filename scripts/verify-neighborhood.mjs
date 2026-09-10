@@ -138,7 +138,8 @@ const cornerHash=crypto.createHash('sha256');for(const name of data.storefrontDe
 assert.equal(cornerHash.digest('hex'),data.storefrontDetailSummary.cornerRecipeHash,'Recompile and rebuild after editing the First & 7th kit');
 assert.deepEqual(corner.buildings.map(b=>b.id).sort(),[241822226,241829631,248142331,248142404,248142707].sort(),'Bounded four-corner benchmark');
 assert.equal(data.cornerDetailSummary.elevations,9);
-assert.equal(data.cornerDetailSummary.streetViewVerified,false,'Photographic comparison must not claim inaccessible Street View verification');
+assert.equal(data.cornerDetailSummary.streetViewVerified,false,'Photo observations must not be presented as certified 1:1 verification');
+assert.deepEqual(data.cornerDetailSummary.streetViewReview,corner.streetViewReview,'Export carries the current imagery review status');
 for(const profile of corner.buildings){
  const b=byId.get(profile.id);assert(!b.core);assert.equal(b.cornerReconstruction.profile,profile.profile);
  assert.equal(b.renderHeight,profile.height,'Export uses the individually observed corner height');
@@ -151,6 +152,11 @@ for(const profile of corner.buildings){
   for(let i=0;i<spec.bays.length;i++){
    const center=spec.bays[i]*face.length,width=spec.widths?.[i]||spec.width;
    assert(center-width/2>0&&center+width/2<face.length,'Individual windows fit the mapped elevation');
+  }
+  for(const [position,window] of Object.entries(spec.windowOverrides||{})){
+   const [row,col]=position.split(':').map(Number);
+   assert(row>=0&&row<spec.rows.length&&col>=0&&col<spec.bays.length,'Individual window has a valid schedule position');
+   assert(window.bottom>=3.5&&window.height>0&&window.bottom+window.height<profile.height,'Small service window remains within its elevation');
   }
  }
 }

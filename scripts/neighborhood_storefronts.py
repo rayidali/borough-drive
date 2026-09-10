@@ -55,7 +55,7 @@ def compile_storefronts(data,business_audit):
     tile_signatures={}
     recipe_files=['model-source/build_neighborhood.py','model-source/neighborhood_detail_kit.py','model-source/storefront_detail_kit.py']
     recipe_hash=hashlib.sha256(b''.join((ROOT/p).read_bytes() for p in recipe_files)).hexdigest()
-    corner_recipe_files=['model-source/first_seventh_kit.py']
+    corner_recipe_files=['model-source/first_seventh_kit.py','model-source/first_seventh_refinement.py']
     corner_recipe_hash=hashlib.sha256(b''.join((ROOT/p).read_bytes() for p in corner_recipe_files)).hexdigest()
     for tile in data['tiles']:
         ids={b['id'] for b in data['buildings'] if b['tile']==tile['id']}

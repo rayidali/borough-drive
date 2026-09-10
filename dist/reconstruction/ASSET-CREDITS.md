@@ -105,3 +105,9 @@ Revision 05's three images in the repository's `docs/images/` are unedited captu
 - Hen House, Yubu and 7th Street Burger: dated EV Grieve articles listed in `cornerDetails.sources`; E Smoke: official business site and business-credited listing photos with unknown dates.
 
 These photographs were inspected for authored geometry and are not redistributed. Google Street View was unavailable during this review. Small labels, precise murals, some return elevations, material colors and all unmeasured dimensions remain interpretations; generic surface assets are not scans of these buildings. Saifee's buff running-bond mortar is authored geometry. Storefront glass reflects the reconstructed intersection. All existing licensed core photo files remain unchanged.
+
+## First & Seventh visual observations — September 10, 2026
+
+Google Street View (© Google) was inspected through the Street View Static API: predominantly April 2026 imagery, with September 2024 closer west-side/Yubu views. The dated panorama IDs, source links, observations and limitations are recorded in [the neighborhood sources](neighborhood-sources.json). Google image pixels are not distributed, embedded or applied as game textures. Access credentials remain local. API access does not itself grant a general right to redistribute imagery or create derived datasets; see [Google’s terms](https://cloud.google.com/maps-platform/terms).
+
+The refinement’s wall markings, lettering, color values and small display items are authored approximations, not exact reproductions or scans. Existing Poly Haven surfaces and the six licensed core photographs keep their original credits and terms. New review PNGs capture the actual game, with the same underlying asset credits.

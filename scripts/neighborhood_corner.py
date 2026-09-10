@@ -31,7 +31,8 @@ def compile_corner(data):
         'buildings':[r['id'] for r in schedule['buildings']],
         'elevations':sum(len(r['elevations']) for r in schedule['buildings']),
         'source':'model-source/first-and-seventh.json','scope':schedule['scope'],
-        'streetViewVerified':False,'acceptance':schedule['acceptance']}
+        'streetViewVerified':False,'streetViewReview':schedule.get('streetViewReview'),
+        'acceptance':schedule['acceptance']}
     def obstacle(bid,street,at,d,w,h,kind):
         f=next(f for f in byid[bid]['frontages'] if f['street']==street)
         s=at*f['length']
@@ -44,6 +45,14 @@ def compile_corner(data):
     b=byid[248142707];r=next(r for r in b['businesses'] if r.get('design',{}).get('cornerStyle')=='deli')
     f=b['frontages'][r['frontageIndex']];along=(r['unit'][0]+(r['unit'][1]-r['unit'][0])*.24)/f['length']
     obstacle(b['id'],'First Avenue',along,.96,.57,.56,'menu board')
+    for at,width in [(.157,2.52),(.312,2.52)]:
+        obstacle(248142404,'East 7th Street',at,.69,width,.45,'hardware cart')
+    for at in [.59,.66]:
+        obstacle(241822226,'East 7th Street',at,.48,.60,.64,'wheeled bin')
+    burger=next(r for r in byid[248142707]['businesses'] if r.get('design',{}).get('cornerStyle')=='burger')
+    bf=next(f for f in byid[248142707]['frontages'] if f['street']=='East 7th Street')
+    lo,hi=burger['unit'][0]+.60,burger['unit'][1]-.40
+    obstacle(248142707,'East 7th Street',(lo+hi)/2/bf['length'],2.45,hi-lo+.10,1.38,'red dining enclosure')
     for kind,positions in [('signal',schedule['streetFurniture']['signals']),('mailbox',schedule['streetFurniture']['mailboxes']),('bin',schedule['streetFurniture']['bins'])]:
         for x,z in positions:data['storefrontObstacles'].append({'record':'first-seventh-streets','kind':kind,'x':x,'z':z,'rx':1,'rz':0,'halfWidth':.33 if kind=='mailbox' else .27,'halfDepth':.31 if kind=='mailbox' else .27})
     return schedule

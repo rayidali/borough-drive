@@ -781,7 +781,8 @@ def build_first_seventh(b):
         for row,(bottom,wh) in enumerate(spec['rows']):
             for col,t in enumerate(spec['bays']):
                 w=spec.get('widths',[spec['width']]*len(spec['bays']))[col]
-                cwindow(f,t*f.L,bottom,w,wh,spec,row,col)
+                individual=spec.get('windowOverrides',{}).get(f'{row}:{col}',{})
+                cwindow(f,t*f.L,individual.get('bottom',bottom),w,individual.get('height',wh),spec,row,col)
         if spec.get('blindPanel'):
             a,end=spec['blindPanel'];low=3.50
             f.b((a+end)*f.L/2,(low+h-.28)/2,.032,(end-a)*f.L,h-.28-low,.090,'painted ivory')
@@ -792,6 +793,8 @@ def build_first_seventh(b):
         cornice_corner(f,h,profile['roof'])
         if spec.get('escape'):
             e=spec['escape'];escape(f,e['center']*f.L,[r[0]-.22 for r in spec['rows']],e['width'],e['material'])
+        for e in spec.get('escapes',[]):
+            escape(f,e['center']*f.L,[r[0]-.22 for r in spec['rows']],e['width'],e['material'])
         kind=profile['profile'];street=v['street']
         if kind=='tile':
             if street=='First Avenue':tile_front(f,.10,f.L-.08)
@@ -813,3 +816,8 @@ def build_first_seventh(b):
     corner_roof(b,profile)
     if profile['profile']=='saifee-corner':corner_streets()
     return True
+
+
+# The current, bounded refinement extends this accepted recipe. Its file is
+# included in the corner-only export signatures, leaving other tiles intact.
+exec(compile((ROOT/'model-source/first_seventh_refinement.py').read_text(),str(ROOT/'model-source/first_seventh_refinement.py'),'exec'),globals())

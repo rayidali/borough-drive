@@ -1,0 +1,729 @@
+{
+  "date": "2026-09-10T08:17:46.140Z",
+  "url": "http://127.0.0.1:5173",
+  "viewport": {
+    "width": 1440,
+    "height": 1000,
+    "deviceScaleFactor": 1
+  },
+  "cache": "disabled; local HTTP, unthrottled CPU/network",
+  "errors": [],
+  "consoleErrors": [],
+  "warnings": [],
+  "failedRequests": [],
+  "samples": [
+    {
+      "name": "seventh-se-detail",
+      "seconds": 3.6832000000000007,
+      "rafFrames": 180,
+      "rafFps": 48.87054735013031,
+      "renderFrames": 180,
+      "renderFps": 48.87054735013031,
+      "frameMsP50": 16.700000000000728,
+      "frameMsP95": 33.399999999999636,
+      "meanRenderCpuMs": 5.086111111028327,
+      "meanDrawCalls": 596,
+      "meanTriangles": 3829758,
+      "pose": {
+        "x": 1,
+        "z": 224,
+        "yaw": 2.3064170944704276,
+        "mode": "walk",
+        "ready": true,
+        "tiles": [
+          "block-4-1",
+          "block-4-2",
+          "block-5-1",
+          "block-5-2",
+          "edge-south"
+        ],
+        "coreLoaded": false,
+        "corePending": false,
+        "pending": 0
+      },
+      "graphics": {
+        "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M1, Unspecified Version)",
+        "pixelRatio": 1,
+        "ao": true,
+        "quality": "detail",
+        "samples": 4,
+        "transmissionScale": 1,
+        "memory": {
+          "geometries": 793,
+          "textures": 31
+        }
+      }
+    },
+    {
+      "name": "seventh-se-idle",
+      "seconds": 2.9999000000000016,
+      "rafFrames": 180,
+      "rafFps": 60.002000066668856,
+      "renderFrames": 0,
+      "renderFps": 0,
+      "frameMsP50": 16.69999999999891,
+      "frameMsP95": 16.700000000000728,
+      "meanRenderCpuMs": 0,
+      "meanDrawCalls": 0,
+      "meanTriangles": 0,
+      "pose": {
+        "x": 1,
+        "z": 224,
+        "yaw": 2.3064170944704276,
+        "mode": "walk",
+        "ready": true,
+        "tiles": [
+          "block-4-1",
+          "block-4-2",
+          "block-5-1",
+          "block-5-2",
+          "edge-south"
+        ],
+        "coreLoaded": false,
+        "corePending": false,
+        "pending": 0
+      },
+      "graphics": {
+        "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M1, Unspecified Version)",
+        "pixelRatio": 1,
+        "ao": true,
+        "quality": "detail",
+        "samples": 4,
+        "transmissionScale": 1,
+        "memory": {
+          "geometries": 793,
+          "textures": 31
+        }
+      }
+    },
+    {
+      "name": "seventh-se-fast",
+      "seconds": 2.9999000000000016,
+      "rafFrames": 180,
+      "rafFps": 60.002000066668856,
+      "renderFrames": 180,
+      "renderFps": 60.002000066668856,
+      "frameMsP50": 16.700000000000728,
+      "frameMsP95": 16.700000000000728,
+      "meanRenderCpuMs": 2.4099999998178747,
+      "meanDrawCalls": 298,
+      "meanTriangles": 1915466,
+      "pose": {
+        "x": 1,
+        "z": 224,
+        "yaw": 2.306598094470453,
+        "mode": "walk",
+        "ready": true,
+        "tiles": [
+          "block-4-1",
+          "block-4-2",
+          "block-5-1",
+          "block-5-2",
+          "edge-south"
+        ],
+        "coreLoaded": false,
+        "corePending": false,
+        "pending": 0
+      },
+      "graphics": {
+        "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M1, Unspecified Version)",
+        "pixelRatio": 1,
+        "ao": false,
+        "quality": "fast",
+        "samples": 2,
+        "transmissionScale": 1,
+        "memory": {
+          "geometries": 793,
+          "textures": 27
+        }
+      }
+    },
+    {
+      "name": "northbound-drive-detail",
+      "seconds": 8.983,
+      "rafFrames": 240,
+      "rafFps": 26.71713236112657,
+      "renderFrames": 241,
+      "renderFps": 26.828453745964598,
+      "frameMsP50": 33.30000000000291,
+      "frameMsP95": 50.099999999998545,
+      "meanRenderCpuMs": 32.770539419346825,
+      "meanDrawCalls": 2219.0746887966807,
+      "meanTriangles": 10523645.497925311,
+      "pose": {
+        "x": -0.29,
+        "z": 150.54250393183742,
+        "yaw": 0,
+        "mode": "drive",
+        "ready": true,
+        "tiles": [
+          "block-3-1",
+          "block-3-2",
+          "block-4-1",
+          "block-4-2",
+          "block-5-1",
+          "block-5-2",
+          "edge-south"
+        ],
+        "coreLoaded": true,
+        "corePending": false,
+        "pending": 0
+      },
+      "graphics": {
+        "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M1, Unspecified Version)",
+        "pixelRatio": 1,
+        "ao": true,
+        "quality": "detail",
+        "samples": 4,
+        "transmissionScale": 1,
+        "memory": {
+          "geometries": 1019,
+          "textures": 36
+        }
+      }
+    },
+    {
+      "name": "first-tenth-se-detail",
+      "seconds": 6.483100000000006,
+      "rafFrames": 180,
+      "rafFps": 27.764495380296438,
+      "renderFrames": 180,
+      "renderFps": 27.764495380296438,
+      "frameMsP50": 33.30000000000291,
+      "frameMsP95": 50,
+      "meanRenderCpuMs": 9.980555555721123,
+      "meanDrawCalls": 1817.6833333333334,
+      "meanTriangles": 11356121.877777778,
+      "pose": {
+        "x": -7,
+        "z": -15,
+        "yaw": 2.425231979493415,
+        "mode": "walk",
+        "ready": true,
+        "tiles": [
+          "block-1-1",
+          "block-1-2",
+          "block-2-1",
+          "block-2-2",
+          "block-3-1",
+          "block-3-2",
+          "block-4-1",
+          "block-4-2",
+          "block-5-1",
+          "block-5-2"
+        ],
+        "coreLoaded": true,
+        "corePending": false,
+        "pending": 0
+      },
+      "graphics": {
+        "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M1, Unspecified Version)",
+        "pixelRatio": 1,
+        "ao": true,
+        "quality": "detail",
+        "samples": 4,
+        "transmissionScale": 1,
+        "memory": {
+          "geometries": 1081,
+          "textures": 36
+        }
+      }
+    }
+  ],
+  "screenshots": [
+    {
+      "name": "seventh-nw",
+      "pose": {
+        "x": -3,
+        "z": 232,
+        "yaw": -0.8124186125847132,
+        "mode": "walk",
+        "ready": true,
+        "tiles": [
+          "block-4-1",
+          "block-4-2",
+          "block-5-1",
+          "block-5-2",
+          "edge-south"
+        ],
+        "coreLoaded": false,
+        "corePending": false,
+        "pending": 0
+      }
+    },
+    {
+      "name": "seventh-ne",
+      "pose": {
+        "x": 2,
+        "z": 233,
+        "yaw": 0.8353565591193911,
+        "mode": "walk",
+        "ready": true,
+        "tiles": [
+          "block-4-1",
+          "block-4-2",
+          "block-5-1",
+          "block-5-2",
+          "edge-south"
+        ],
+        "coreLoaded": false,
+        "corePending": false,
+        "pending": 0
+      }
+    },
+    {
+      "name": "seventh-sw",
+      "pose": {
+        "x": -3,
+        "z": 222,
+        "yaw": -2.234842489621581,
+        "mode": "walk",
+        "ready": true,
+        "tiles": [
+          "block-4-1",
+          "block-4-2",
+          "block-5-1",
+          "block-5-2",
+          "edge-south"
+        ],
+        "coreLoaded": false,
+        "corePending": false,
+        "pending": 0
+      }
+    },
+    {
+      "name": "seventh-se",
+      "pose": {
+        "x": 1,
+        "z": 224,
+        "yaw": 2.3062360944704023,
+        "mode": "walk",
+        "ready": true,
+        "tiles": [
+          "block-4-1",
+          "block-4-2",
+          "block-5-1",
+          "block-5-2",
+          "edge-south"
+        ],
+        "coreLoaded": false,
+        "corePending": false,
+        "pending": 0
+      }
+    },
+    {
+      "name": "first-tenth-se",
+      "pose": {
+        "x": -7,
+        "z": -15,
+        "yaw": 2.4250509794933897,
+        "mode": "walk",
+        "ready": true,
+        "tiles": [
+          "block-1-1",
+          "block-1-2",
+          "block-2-1",
+          "block-2-2",
+          "block-3-1",
+          "block-3-2",
+          "block-4-1",
+          "block-4-2",
+          "block-5-1",
+          "block-5-2",
+          "edge-south"
+        ],
+        "coreLoaded": true,
+        "corePending": false,
+        "pending": 0
+      }
+    },
+    {
+      "name": "avenue-a-twelfth",
+      "pose": {
+        "x": 214,
+        "z": -145,
+        "yaw": 0,
+        "mode": "walk",
+        "ready": true,
+        "tiles": [
+          "block-1-2",
+          "block-2-2",
+          "block-3-2",
+          "edge-east",
+          "edge-north"
+        ],
+        "coreLoaded": true,
+        "corePending": false,
+        "pending": 0
+      }
+    },
+    {
+      "name": "returned-seventh",
+      "pose": {
+        "x": 0,
+        "z": 228,
+        "yaw": 0,
+        "mode": "walk",
+        "ready": true,
+        "tiles": [
+          "block-1-2",
+          "block-2-2",
+          "block-3-2",
+          "block-4-1",
+          "block-4-2",
+          "block-5-1",
+          "block-5-2",
+          "edge-east",
+          "edge-north",
+          "edge-south"
+        ],
+        "coreLoaded": true,
+        "corePending": false,
+        "pending": 0
+      }
+    }
+  ],
+  "startup": {
+    "readyMs": 495.6000000089407,
+    "firstFrameMs": 501.5,
+    "overlayHiddenMs": 1458.7999999970198,
+    "pose": {
+      "x": 0,
+      "z": 228,
+      "yaw": 0,
+      "mode": "walk",
+      "ready": true,
+      "tiles": [
+        "block-5-1"
+      ],
+      "coreLoaded": false,
+      "corePending": false,
+      "pending": 2
+    },
+    "settledMs": 4210.5,
+    "resources": [
+      {
+        "path": "/reconstruction/viewer.css",
+        "startMs": 20.299999997019768,
+        "endMs": 23.700000002980232,
+        "bytes": 12437
+      },
+      {
+        "path": "/reconstruction/viewer.js",
+        "startMs": 20.5,
+        "endMs": 23.400000005960464,
+        "bytes": 22833
+      },
+      {
+        "path": "/reconstruction/neighborhood-world.js",
+        "startMs": 38.400000005960464,
+        "endMs": 50.79999999701977,
+        "bytes": 3444
+      },
+      {
+        "path": "/reconstruction/neighborhood-render.js",
+        "startMs": 38.400000005960464,
+        "endMs": 52.29999999701977,
+        "bytes": 18962
+      },
+      {
+        "path": "/reconstruction/shared-textures.js",
+        "startMs": 38.400000005960464,
+        "endMs": 53.79999999701977,
+        "bytes": 1446
+      },
+      {
+        "path": "/reconstruction/neighborhood-map.js",
+        "startMs": 38.400000005960464,
+        "endMs": 54.70000000298023,
+        "bytes": 5600
+      },
+      {
+        "path": "/reconstruction/vehicle.js",
+        "startMs": 38.5,
+        "endMs": 54.1000000089407,
+        "bytes": 5752
+      },
+      {
+        "path": "/reconstruction/spatial-batches.js",
+        "startMs": 144.79999999701977,
+        "endMs": 152,
+        "bytes": 3224
+      },
+      {
+        "path": "/reconstruction/storefront-glass.js",
+        "startMs": 144.79999999701977,
+        "endMs": 153.6000000089407,
+        "bytes": 1578
+      },
+      {
+        "path": "/reconstruction/assets/urban_alley_01_1k.hdr",
+        "startMs": 247.29999999701977,
+        "endMs": 266.5,
+        "bytes": 1708853
+      },
+      {
+        "path": "/reconstruction/businesses.json",
+        "startMs": 247.40000000596046,
+        "endMs": 258.20000000298023,
+        "bytes": 4846
+      },
+      {
+        "path": "/reconstruction/neighborhood.json",
+        "startMs": 247.40000000596046,
+        "endMs": 264.6000000089407,
+        "bytes": 1850145
+      },
+      {
+        "path": "/reconstruction/street-materials.glb",
+        "startMs": 247.6000000089407,
+        "endMs": 330.5,
+        "bytes": 4387884
+      },
+      {
+        "path": "/reconstruction/neighborhood/bicycle-detail.glb",
+        "startMs": 467.29999999701977,
+        "endMs": 471.1000000089407,
+        "bytes": 35112
+      },
+      {
+        "path": "/reconstruction/neighborhood/hydrant.glb",
+        "startMs": 467.40000000596046,
+        "endMs": 471.1000000089407,
+        "bytes": 10440
+      },
+      {
+        "path": "/reconstruction/neighborhood/litter-bin.glb",
+        "startMs": 467.5,
+        "endMs": 477,
+        "bytes": 14072
+      },
+      {
+        "path": "/reconstruction/neighborhood/utility-cover.glb",
+        "startMs": 467.6000000089407,
+        "endMs": 477.1000000089407,
+        "bytes": 7620
+      },
+      {
+        "path": "/reconstruction/neighborhood/drain-grate.glb",
+        "startMs": 467.79999999701977,
+        "endMs": 477.20000000298023,
+        "bytes": 4704
+      },
+      {
+        "path": "/reconstruction/neighborhood/street-tree.glb",
+        "startMs": 467.79999999701977,
+        "endMs": 478.5,
+        "bytes": 271376
+      },
+      {
+        "path": "/reconstruction/neighborhood/park-bench.glb",
+        "startMs": 468,
+        "endMs": 477.6000000089407,
+        "bytes": 18296
+      },
+      {
+        "path": "/reconstruction/neighborhood/parked-car.glb",
+        "startMs": 468.1000000089407,
+        "endMs": 477.90000000596046,
+        "bytes": 27000
+      },
+      {
+        "path": "/reconstruction/neighborhood/street-furniture.glb",
+        "startMs": 468.20000000298023,
+        "endMs": 479.1000000089407,
+        "bytes": 8560
+      },
+      {
+        "path": "/reconstruction/neighborhood/traffic-signal.glb",
+        "startMs": 468.40000000596046,
+        "endMs": 479,
+        "bytes": 11820
+      },
+      {
+        "path": "/reconstruction/neighborhood/edge-south.glb",
+        "startMs": 497.70000000298023,
+        "endMs": 713.7000000029802,
+        "bytes": 6749792
+      },
+      {
+        "path": "/reconstruction/neighborhood/block-5-1.glb",
+        "startMs": 497.79999999701977,
+        "endMs": 666.7999999970198,
+        "bytes": 4856516
+      },
+      {
+        "path": "/reconstruction/neighborhood/textures/fea247dd085cd05d8deb.jpg",
+        "startMs": 676,
+        "endMs": 727.7000000029802,
+        "bytes": 769715
+      },
+      {
+        "path": "/reconstruction/neighborhood/textures/ee8625308ef01f5e2efa.png",
+        "startMs": 676.1000000089407,
+        "endMs": 726,
+        "bytes": 609840
+      },
+      {
+        "path": "/reconstruction/neighborhood/textures/4ff16bb96fc2df3ef71d.jpg",
+        "startMs": 676.1000000089407,
+        "endMs": 740.6000000089407,
+        "bytes": 1195378
+      },
+      {
+        "path": "/reconstruction/neighborhood/textures/a1483d99ea1ca6e23adc.jpg",
+        "startMs": 676.4000000059605,
+        "endMs": 732.9000000059605,
+        "bytes": 888760
+      },
+      {
+        "path": "/reconstruction/neighborhood/textures/f4dbf11efcb2a4ce0a97.png",
+        "startMs": 676.4000000059605,
+        "endMs": 759.5,
+        "bytes": 1356255
+      },
+      {
+        "path": "/reconstruction/neighborhood/textures/e2159482d8dec6db0c61.jpg",
+        "startMs": 676.4000000059605,
+        "endMs": 757.4000000059605,
+        "bytes": 725873
+      },
+      {
+        "path": "/reconstruction/neighborhood/textures/9bfd45e24720d851017c.jpg",
+        "startMs": 676.7999999970198,
+        "endMs": 733.2000000029802,
+        "bytes": 955730
+      },
+      {
+        "path": "/reconstruction/neighborhood/textures/9c58254c099b2d211478.jpg",
+        "startMs": 677,
+        "endMs": 753.2000000029802,
+        "bytes": 694800
+      },
+      {
+        "path": "/reconstruction/neighborhood/textures/51e187559b7d3036ec00.png",
+        "startMs": 677,
+        "endMs": 762.7999999970198,
+        "bytes": 919676
+      },
+      {
+        "path": "/reconstruction/neighborhood/block-5-2.glb",
+        "startMs": 1147.7000000029802,
+        "endMs": 1319,
+        "bytes": 4512716
+      },
+      {
+        "path": "/reconstruction/neighborhood/block-4-2.glb",
+        "startMs": 1504.5,
+        "endMs": 1585.2999999970198,
+        "bytes": 3851324
+      },
+      {
+        "path": "/reconstruction/neighborhood/block-4-1.glb",
+        "startMs": 1847.2999999970198,
+        "endMs": 1917.6000000089407,
+        "bytes": 4225104
+      }
+    ],
+    "longTasks": [
+      {
+        "start": 196.29999999701977,
+        "duration": 54
+      },
+      {
+        "start": 362.1000000089407,
+        "duration": 137
+      },
+      {
+        "start": 500,
+        "duration": 141
+      },
+      {
+        "start": 1029.2999999970198,
+        "duration": 62
+      },
+      {
+        "start": 1150.9000000059605,
+        "duration": 120
+      },
+      {
+        "start": 1504.7000000029802,
+        "duration": 73
+      },
+      {
+        "start": 1692,
+        "duration": 155
+      }
+    ]
+  },
+  "graphics": {
+    "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M1, Unspecified Version)",
+    "pixelRatio": 1,
+    "ao": true,
+    "quality": "detail",
+    "samples": 4,
+    "transmissionScale": 1,
+    "memory": {
+      "geometries": 684,
+      "textures": 29
+    }
+  },
+  "farTravel": {
+    "x": 214,
+    "z": -145,
+    "yaw": 0,
+    "mode": "walk",
+    "ready": true,
+    "tiles": [
+      "block-1-2",
+      "block-2-2",
+      "block-3-2",
+      "edge-east",
+      "edge-north"
+    ],
+    "coreLoaded": true,
+    "corePending": false,
+    "pending": 0
+  },
+  "returned": {
+    "x": 0,
+    "z": 228,
+    "yaw": 0,
+    "mode": "walk",
+    "ready": true,
+    "tiles": [
+      "block-1-2",
+      "block-2-2",
+      "block-3-2",
+      "block-4-1",
+      "block-4-2",
+      "block-5-1",
+      "block-5-2",
+      "edge-east",
+      "edge-north",
+      "edge-south"
+    ],
+    "coreLoaded": true,
+    "corePending": false,
+    "pending": 0
+  },
+  "runtime": {
+    "viewer.js": "bb6bffe9bc0a809447e8136a01575588be348debcaa6fdd55cb2508d31987de8",
+    "neighborhood-render.js": "8c392b43af98762aa9f10710886489a961ecf0be1fefb8a8137850a10e8fc901"
+  },
+  "modelAssets": {
+    "block-5-1": {
+      "bytes": 4856216,
+      "sha256": "894344ad23dd500d4cc770b146f5b747663d50670c76d4da9100f0b6358f1754"
+    },
+    "block-5-2": {
+      "bytes": 4512416,
+      "sha256": "2e1c5d11788017dcf5d97f1e6b841e92da09b738848760ad7cfa2d9549de8198"
+    },
+    "edge-south": {
+      "bytes": 6749492,
+      "sha256": "c7f70b8a94d7203e4b35390bc5a7de851e85acfb55b95f6f3eaa26c17312ea92"
+    }
+  },
+  "comparisonLimits": "Compare with pass 07 as short local samples, not a controlled identical timed route. GPU/driver caches and thermal state are not reset. Driving uses a fixed number of RAF frames, so distance/duration vary."
+}

@@ -1,0 +1,667 @@
+{
+  "date": "2026-09-10T08:19:41.371Z",
+  "url": "http://127.0.0.1:5173",
+  "errors": [],
+  "consoleErrors": [],
+  "warnings": [
+    "First & 10th unavailable; will retry. TypeError: Failed to fetch\n    at FileLoader.load (http://127.0.0.1:5173/vendor/three.core.js:44044:3)\n    at GLTFLoader.load (http://127.0.0.1:5173/vendor/addons/loaders/GLTFLoader.js:305:10)\n    at http://127.0.0.1:5173/vendor/three.core.js:43782:10\n    at new Promise (<anonymous>)\n    at GLTFLoader.loadAsync (http://127.0.0.1:5173/vendor/three.core.js:43780:10)\n    at loadCore (http://127.0.0.1:5173/reconstruction/neighborhood-render.js:19:22)\n    at Object.update (http://127.0.0.1:5173/reconstruction/neighborhood-render.js:149:77)\n    at frame (http://127.0.0.1:5173/reconstruction/viewer.js:95:58)"
+  ],
+  "failedRequests": [],
+  "viewport": {
+    "width": 1440,
+    "height": 1000,
+    "deviceScaleFactor": 1
+  },
+  "screenshots": [
+    {
+      "name": "first-and-seventh-start",
+      "pose": {
+        "x": 0,
+        "z": 228,
+        "yaw": 0,
+        "mode": "walk",
+        "ready": true,
+        "coreLoaded": false,
+        "corePending": false,
+        "tiles": [
+          "block-4-1",
+          "block-4-2",
+          "block-5-1",
+          "block-5-2",
+          "edge-south"
+        ]
+      }
+    },
+    {
+      "name": "seventh-nw",
+      "pose": {
+        "x": -3,
+        "z": 232,
+        "yaw": -0.8124186125847132,
+        "mode": "walk",
+        "ready": true,
+        "coreLoaded": false,
+        "corePending": false,
+        "tiles": [
+          "block-4-1",
+          "block-4-2",
+          "block-5-1",
+          "block-5-2",
+          "edge-south"
+        ]
+      }
+    },
+    {
+      "name": "seventh-ne",
+      "pose": {
+        "x": 2,
+        "z": 233,
+        "yaw": 0.8353565591193911,
+        "mode": "walk",
+        "ready": true,
+        "coreLoaded": false,
+        "corePending": false,
+        "tiles": [
+          "block-4-1",
+          "block-4-2",
+          "block-5-1",
+          "block-5-2",
+          "edge-south"
+        ]
+      }
+    },
+    {
+      "name": "seventh-sw",
+      "pose": {
+        "x": -3,
+        "z": 222,
+        "yaw": -2.234842489621581,
+        "mode": "walk",
+        "ready": true,
+        "coreLoaded": false,
+        "corePending": false,
+        "tiles": [
+          "block-4-1",
+          "block-4-2",
+          "block-5-1",
+          "block-5-2",
+          "edge-south"
+        ]
+      }
+    },
+    {
+      "name": "seventh-se",
+      "pose": {
+        "x": 1,
+        "z": 224,
+        "yaw": 2.3062360944704023,
+        "mode": "walk",
+        "ready": true,
+        "coreLoaded": false,
+        "corePending": false,
+        "tiles": [
+          "block-4-1",
+          "block-4-2",
+          "block-5-1",
+          "block-5-2",
+          "edge-south"
+        ]
+      }
+    },
+    {
+      "name": "tile-bar",
+      "pose": {
+        "x": -5.640801892747861,
+        "z": 216.0556579791403,
+        "yaw": -1.5776748202812076,
+        "mode": "walk",
+        "ready": true,
+        "coreLoaded": false,
+        "corePending": false,
+        "tiles": [
+          "block-4-1",
+          "block-4-2",
+          "block-5-1",
+          "block-5-2",
+          "edge-south"
+        ]
+      }
+    },
+    {
+      "name": "hen-house",
+      "pose": {
+        "x": 6.40530112312188,
+        "z": 213.7565636326544,
+        "yaw": 1.569621852586123,
+        "mode": "walk",
+        "ready": true,
+        "coreLoaded": false,
+        "corePending": false,
+        "tiles": [
+          "block-4-1",
+          "block-4-2",
+          "block-5-1",
+          "block-5-2",
+          "edge-south"
+        ]
+      }
+    },
+    {
+      "name": "yubu",
+      "pose": {
+        "x": -34.990237771476245,
+        "z": 228.35937534085662,
+        "yaw": -3.1413413594301334,
+        "mode": "walk",
+        "ready": true,
+        "coreLoaded": false,
+        "corePending": false,
+        "tiles": [
+          "block-4-1",
+          "block-4-2",
+          "block-5-1",
+          "block-5-2",
+          "edge-south"
+        ]
+      }
+    },
+    {
+      "name": "e7-deli",
+      "pose": {
+        "x": 6.410026031777528,
+        "z": 217.77956085801242,
+        "yaw": 1.569621852586123,
+        "mode": "walk",
+        "ready": true,
+        "coreLoaded": false,
+        "corePending": false,
+        "tiles": [
+          "block-4-1",
+          "block-4-2",
+          "block-5-1",
+          "block-5-2",
+          "edge-south"
+        ]
+      }
+    },
+    {
+      "name": "monkey-sushi",
+      "pose": {
+        "x": 6.3971561463565525,
+        "z": 206.82156841568752,
+        "yaw": 1.569621852586123,
+        "mode": "walk",
+        "ready": true,
+        "coreLoaded": false,
+        "corePending": false,
+        "tiles": [
+          "block-4-1",
+          "block-4-2",
+          "block-5-1",
+          "block-5-2",
+          "edge-south"
+        ]
+      }
+    },
+    {
+      "name": "7th-street-burger",
+      "pose": {
+        "x": 32.33574413900874,
+        "z": 228.42375897982092,
+        "yaw": -0.00252989340662315,
+        "mode": "walk",
+        "ready": true,
+        "coreLoaded": false,
+        "corePending": false,
+        "tiles": [
+          "block-4-1",
+          "block-4-2",
+          "block-5-1",
+          "block-5-2",
+          "edge-south"
+        ]
+      }
+    },
+    {
+      "name": "e-smoke",
+      "pose": {
+        "x": -7.575673933743953,
+        "z": 240.15708887003834,
+        "yaw": -1.575178419691825,
+        "mode": "walk",
+        "ready": true,
+        "coreLoaded": false,
+        "corePending": false,
+        "tiles": [
+          "block-4-1",
+          "block-4-2",
+          "block-5-1",
+          "block-5-2",
+          "edge-south"
+        ]
+      }
+    },
+    {
+      "name": "saifee",
+      "pose": {
+        "x": 7.059991834934314,
+        "z": 245.54218964256242,
+        "yaw": 1.5717195454893633,
+        "mode": "walk",
+        "ready": true,
+        "coreLoaded": false,
+        "corePending": false,
+        "tiles": [
+          "block-4-1",
+          "block-4-2",
+          "block-5-1",
+          "block-5-2",
+          "edge-south"
+        ]
+      }
+    },
+    {
+      "name": "elevation-tile-first",
+      "pose": {
+        "x": 1.3591219297610024,
+        "z": 216.0205085968855,
+        "yaw": -1.577674820281207,
+        "mode": "walk",
+        "ready": true,
+        "coreLoaded": false,
+        "corePending": false,
+        "tiles": [
+          "block-4-1",
+          "block-4-2",
+          "block-5-1",
+          "block-5-2",
+          "edge-south"
+        ]
+      }
+    },
+    {
+      "name": "elevation-tile-seventh",
+      "pose": {
+        "x": -22.102029990835533,
+        "z": 234.84888191959809,
+        "yaw": -0.0038453698945986,
+        "mode": "walk",
+        "ready": true,
+        "coreLoaded": false,
+        "corePending": false,
+        "tiles": [
+          "block-4-1",
+          "block-4-2",
+          "block-5-1",
+          "block-5-2",
+          "edge-south"
+        ]
+      }
+    },
+    {
+      "name": "elevation-deli-first",
+      "pose": {
+        "x": -1.8609880993170194,
+        "z": 211.8122708329479,
+        "yaw": 1.5696218525861236,
+        "mode": "walk",
+        "ready": true,
+        "coreLoaded": false,
+        "corePending": false,
+        "tiles": [
+          "block-4-1",
+          "block-4-2",
+          "block-5-1",
+          "block-5-2",
+          "edge-south"
+        ]
+      }
+    },
+    {
+      "name": "elevation-deli-seventh",
+      "pose": {
+        "x": 25.247683680421336,
+        "z": 236.70571750185883,
+        "yaw": -0.002529893406622886,
+        "mode": "walk",
+        "ready": true,
+        "coreLoaded": false,
+        "corePending": false,
+        "tiles": [
+          "block-4-1",
+          "block-4-2",
+          "block-5-1",
+          "block-5-2",
+          "edge-south"
+        ]
+      }
+    },
+    {
+      "name": "elevation-smoke-first",
+      "pose": {
+        "x": 0.7923333637056125,
+        "z": 240.1404194420083,
+        "yaw": -1.5751784196918253,
+        "mode": "walk",
+        "ready": true,
+        "coreLoaded": false,
+        "corePending": false,
+        "tiles": [
+          "block-4-1",
+          "block-4-2",
+          "block-5-1",
+          "block-5-2",
+          "edge-south"
+        ]
+      }
+    },
+    {
+      "name": "elevation-smoke-seventh",
+      "pose": {
+        "x": -26.53213520896328,
+        "z": 219.99350054846272,
+        "yaw": -3.141341359430134,
+        "mode": "walk",
+        "ready": true,
+        "coreLoaded": false,
+        "corePending": false,
+        "tiles": [
+          "block-4-1",
+          "block-4-2",
+          "block-5-1",
+          "block-5-2",
+          "edge-south"
+        ]
+      }
+    },
+    {
+      "name": "elevation-saifee-corner-first",
+      "pose": {
+        "x": 0.06500551709847535,
+        "z": 239.8662128964226,
+        "yaw": 1.5716267189644206,
+        "mode": "walk",
+        "ready": true,
+        "coreLoaded": false,
+        "corePending": false,
+        "tiles": [
+          "block-4-1",
+          "block-4-2",
+          "block-5-1",
+          "block-5-2",
+          "edge-south"
+        ]
+      }
+    },
+    {
+      "name": "elevation-saifee-corner-seventh",
+      "pose": {
+        "x": 26.553215159154036,
+        "z": 221.48651757527972,
+        "yaw": -3.1401111731921554,
+        "mode": "walk",
+        "ready": true,
+        "coreLoaded": false,
+        "corePending": false,
+        "tiles": [
+          "block-4-1",
+          "block-4-2",
+          "block-5-1",
+          "block-5-2",
+          "edge-south"
+        ]
+      }
+    },
+    {
+      "name": "elevation-saifee-main-first",
+      "pose": {
+        "x": -2.327192162715619,
+        "z": 245.52052321080504,
+        "yaw": 1.5717195454893622,
+        "mode": "walk",
+        "ready": true,
+        "coreLoaded": false,
+        "corePending": false,
+        "tiles": [
+          "block-4-1",
+          "block-4-2",
+          "block-5-1",
+          "block-5-2",
+          "edge-south"
+        ]
+      }
+    },
+    {
+      "name": "first-tenth-nw",
+      "pose": {
+        "x": 6,
+        "z": 22,
+        "yaw": -0.625485040239229,
+        "mode": "walk",
+        "ready": true,
+        "coreLoaded": true,
+        "corePending": false,
+        "tiles": [
+          "block-1-1",
+          "block-1-2",
+          "block-2-1",
+          "block-2-2",
+          "block-3-1",
+          "block-3-2",
+          "block-4-1",
+          "block-4-2",
+          "block-5-1",
+          "block-5-2"
+        ]
+      }
+    },
+    {
+      "name": "first-tenth-ne",
+      "pose": {
+        "x": -6,
+        "z": 17,
+        "yaw": 0.714090698612158,
+        "mode": "walk",
+        "ready": true,
+        "coreLoaded": true,
+        "corePending": false,
+        "tiles": [
+          "block-1-1",
+          "block-1-2",
+          "block-2-1",
+          "block-2-2",
+          "block-3-1",
+          "block-3-2",
+          "block-4-1",
+          "block-4-2",
+          "block-5-1",
+          "block-5-2"
+        ]
+      }
+    },
+    {
+      "name": "first-tenth-sw",
+      "pose": {
+        "x": 7,
+        "z": -13,
+        "yaw": -2.4069981942505665,
+        "mode": "walk",
+        "ready": true,
+        "coreLoaded": true,
+        "corePending": false,
+        "tiles": [
+          "block-1-1",
+          "block-1-2",
+          "block-2-1",
+          "block-2-2",
+          "block-3-1",
+          "block-3-2",
+          "block-4-1",
+          "block-4-2",
+          "block-5-1",
+          "block-5-2"
+        ]
+      }
+    },
+    {
+      "name": "first-tenth-se",
+      "pose": {
+        "x": -7,
+        "z": -15,
+        "yaw": 2.4250509794933897,
+        "mode": "walk",
+        "ready": true,
+        "coreLoaded": true,
+        "corePending": false,
+        "tiles": [
+          "block-1-1",
+          "block-1-2",
+          "block-2-1",
+          "block-2-2",
+          "block-3-1",
+          "block-3-2",
+          "block-4-1",
+          "block-4-2",
+          "block-5-1",
+          "block-5-2"
+        ]
+      }
+    }
+  ],
+  "expectedFailures": [
+    {
+      "kind": "deferred core connection failure"
+    },
+    {
+      "kind": "bootstrap connection failure"
+    },
+    {
+      "kind": "bootstrap error",
+      "message": "TypeError: Failed to fetch\n    at FileLoader.load (http://127.0.0.1:5173/vendor/three.core.js:44044:3)\n    at GLTFLoader.load (http://127.0.0.1:5173/vendor/addons/loaders/GLTFLoader.js:305:10)\n    at http://127.0.0.1:5173/vendor/three.core.js:43782:10\n    at new Promise (<anonymous>)\n    at GLTFLoader.loadAsync (http://127.0.0.1:5173/vendor/three.core.js:43780:10)\n    at init (http://127.0.0.1:5173/reconstruction/viewer.js:76:37)\n    at http://127.0.0.1:5173/reconstruction/viewer.js:107:1"
+    }
+  ],
+  "initial": {
+    "x": 0,
+    "z": 228,
+    "yaw": 0,
+    "mode": "walk",
+    "ready": true,
+    "coreLoaded": false,
+    "corePending": false,
+    "tiles": [
+      "block-5-1",
+      "block-5-2",
+      "edge-south"
+    ]
+  },
+  "driven": {
+    "x": -0.29,
+    "z": 226.75808022804154,
+    "yaw": 0,
+    "mode": "drive",
+    "ready": true,
+    "coreLoaded": false,
+    "corePending": false,
+    "tiles": [
+      "block-4-1",
+      "block-4-2",
+      "block-5-1",
+      "block-5-2",
+      "edge-south"
+    ]
+  },
+  "driveReset": {
+    "x": -0.29,
+    "z": 228,
+    "yaw": 0,
+    "mode": "drive",
+    "ready": true,
+    "coreLoaded": false,
+    "corePending": false,
+    "tiles": [
+      "block-4-1",
+      "block-4-2",
+      "block-5-1",
+      "block-5-2",
+      "edge-south"
+    ]
+  },
+  "walkReset": {
+    "x": 0,
+    "z": 228,
+    "yaw": 0,
+    "mode": "walk",
+    "ready": true,
+    "coreLoaded": false,
+    "corePending": false,
+    "tiles": [
+      "block-4-1",
+      "block-4-2",
+      "block-5-1",
+      "block-5-2",
+      "edge-south"
+    ]
+  },
+  "assets": {
+    "block-5-1": {
+      "bytes": 4856216,
+      "sha256": "894344ad23dd500d4cc770b146f5b747663d50670c76d4da9100f0b6358f1754",
+      "signature": "0b7b76ba7db96e829e70ecac69580e66e62a9f7b50371e809d388af9ce84ad3e"
+    },
+    "block-5-2": {
+      "bytes": 4512416,
+      "sha256": "2e1c5d11788017dcf5d97f1e6b841e92da09b738848760ad7cfa2d9549de8198",
+      "signature": "e62edac076ff023cdabc4ba660983dd7f7e76410a733e09c26ed9815de65092f"
+    },
+    "edge-south": {
+      "bytes": 6749492,
+      "sha256": "c7f70b8a94d7203e4b35390bc5a7de851e85acfb55b95f6f3eaa26c17312ea92",
+      "signature": "d29662352b2d2c057bd4cc5b7412e7114127af70efbedd81b5a42ace8282ff2d"
+    }
+  },
+  "rafResponsiveness": [
+    {
+      "rafFrames": 120,
+      "seconds": 2,
+      "rafFps": 60,
+      "sceneRedraws": 0,
+      "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M1, Unspecified Version)",
+      "pixelRatio": 1,
+      "ao": true,
+      "quality": "detail",
+      "samples": 4,
+      "glassModel": "thin pane",
+      "paneTransmission": [
+        0.96
+      ]
+    },
+    {
+      "rafFrames": 120,
+      "seconds": 1.9998999999999978,
+      "rafFps": 60.003000150007566,
+      "sceneRedraws": 0,
+      "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M1, Unspecified Version)",
+      "pixelRatio": 1,
+      "ao": false,
+      "quality": "fast",
+      "samples": 2,
+      "glassModel": "thin pane",
+      "paneTransmission": [
+        0.96
+      ]
+    }
+  ],
+  "graphics": {
+    "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M1, Unspecified Version)",
+    "pixelRatio": 1,
+    "ao": true,
+    "quality": "detail",
+    "samples": 4
+  },
+  "resizeResumedRendering": true,
+  "dragResumedRendering": true,
+  "coreRetryPassed": true,
+  "bootstrapFallbackPassed": true,
+  "bootstrapRetryPassed": true,
+  "captureDirectory": "docs/images/first-seventh-08"
+}

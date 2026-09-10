@@ -11,7 +11,7 @@ Help make these ten East Village blocks more recognizable, comfortable to explor
 
 No dependency installation is required. Blender is optional unless you are regenerating models. Read [AGENTS.md](AGENTS.md), [CODEX-HANDOFF.md](CODEX-HANDOFF.md), the latest [session log](SESSION-LOG.md), [START-HERE.md](START-HERE.md), and [the neighborhood notes](model-source/NEIGHBORHOOD-NOTES.md) before substantial work. When returning to an existing checkout, inspect its branch, recent commits and working tree before editing; preserve uncommitted work.
 
-The owner accepted First & 7th revision 06 as the minimum completion standard on September 9. [Performance pass 07](model-source/PERFORMANCE-PASS-07.md) preserves the models and improves runtime speed. Read [the corner report](model-source/FIRST-SEVENTH-PASS-06.md) and the handoff for source/publishing state. Planning an economical block/street process comes later; the fidelity backlog does not authorize expansion or unattended jobs.
+The owner accepted First & 7th revision 06 as the minimum completion standard on September 9. [Performance pass 07](model-source/PERFORMANCE-PASS-07.md) preserves the models and improves runtime speed. The later [pass 08](model-source/FIRST-SEVENTH-PASS-08.md) refines this corner using dated Street View observations. Read its report and the handoff for source/publishing state. Planning an economical block/street process comes later; the fidelity backlog does not authorize expansion or unattended jobs.
 
 ## Pick a focused change
 

@@ -1,0 +1,181 @@
+{
+  "revision": "08",
+  "checked": "2026-09-10",
+  "status": "implemented and locally verified; user visual acceptance pending",
+  "scope": "First Avenue / East 7th Street: refine the five-building, nine-elevation, eight-shop benchmark using the accessible April 2026 Street View panoramas; retain revision 06 as the user-accepted minimum and preserve the pass 07 runtime. No wider expansion.",
+  "sources": {
+    "sv08-east-corner": {
+      "publisher": "Google Street View",
+      "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=3KfZRLIHzFKvx7gJYrDH-w",
+      "captureDate": "2026-04",
+      "accessed": "2026-09-10",
+      "panoramaId": "3KfZRLIHzFKvx7gJYrDH-w",
+      "location": {
+        "lat": 40.72694450178107,
+        "lon": -73.98564036780431
+      },
+      "headingsInspected": [
+        29.72,
+        119.72,
+        209.72,
+        299.72
+      ],
+      "attribution": "\u00a9 Google",
+      "reuse": "Temporary visual reference; photographs are not included in the repository or applied as textures. Typography, art, dimensions and surface values remain authored approximations."
+    },
+    "sv08-west-corner": {
+      "publisher": "Google Street View",
+      "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=FaPyW4PrfDZx0Z6Q8Q72Sw",
+      "captureDate": "2026-04",
+      "accessed": "2026-09-10",
+      "panoramaId": "FaPyW4PrfDZx0Z6Q8Q72Sw",
+      "location": {
+        "lat": 40.72703733089958,
+        "lon": -73.98585235448007
+      },
+      "headingsInspected": [
+        245,
+        335,
+        135,
+        75,
+        142,
+        340
+      ],
+      "attribution": "\u00a9 Google",
+      "reuse": "Temporary visual reference; photographs are not included in the repository or applied as textures. Typography, art, dimensions and surface values remain authored approximations."
+    },
+    "sv08-first-north": {
+      "publisher": "Google Street View",
+      "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=EKnuIbhWbU2DNWK2oGy-zg",
+      "captureDate": "2026-04",
+      "accessed": "2026-09-10",
+      "panoramaId": "EKnuIbhWbU2DNWK2oGy-zg",
+      "location": {
+        "lat": 40.72715451055284,
+        "lon": -73.98562799294037
+      },
+      "headingsInspected": [
+        112,
+        275,
+        115
+      ],
+      "attribution": "\u00a9 Google",
+      "reuse": "Temporary visual reference; photographs are not included in the repository or applied as textures. Typography, art, dimensions and surface values remain authored approximations."
+    },
+    "sv08-seventh-east": {
+      "publisher": "Google Street View",
+      "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=PLo-D1FVIdNPLQswke8FRw",
+      "captureDate": "2026-04",
+      "accessed": "2026-09-10",
+      "panoramaId": "PLo-D1FVIdNPLQswke8FRw",
+      "location": {
+        "lat": 40.72685513418318,
+        "lon": -73.98543151945032
+      },
+      "headingsInspected": [
+        350,
+        230,
+        205,
+        325
+      ],
+      "attribution": "\u00a9 Google",
+      "reuse": "Temporary visual reference; photographs are not included in the repository or applied as textures. Typography, art, dimensions and surface values remain authored approximations."
+    },
+    "sv08-seventh-middle": {
+      "publisher": "Google Street View",
+      "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=TFgmQsr2y38bYtO6gkeQww",
+      "captureDate": "2026-04",
+      "accessed": "2026-09-10",
+      "panoramaId": "TFgmQsr2y38bYtO6gkeQww",
+      "location": {
+        "lat": 40.72690002896211,
+        "lon": -73.98553796129758
+      },
+      "headingsInspected": [
+        209,
+        29
+      ],
+      "attribution": "\u00a9 Google",
+      "reuse": "Temporary visual reference; photographs are not included in the repository or applied as textures. Typography, art, dimensions and surface values remain authored approximations."
+    },
+    "sv08-west-return": {
+      "publisher": "Google Street View",
+      "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=ItX9nZtNODUaCo_CCZwimw",
+      "captureDate": "2024-09",
+      "accessed": "2026-09-10",
+      "panoramaId": "ItX9nZtNODUaCo_CCZwimw",
+      "location": {
+        "lat": 40.72711944415273,
+        "lon": -73.98604622703027
+      },
+      "headingsInspected": [
+        195,
+        50
+      ],
+      "attribution": "\u00a9 Google",
+      "reuse": "Temporary visual reference; photographs are not included in the repository or applied as textures. Typography, art, dimensions and surface values remain authored approximations."
+    },
+    "sv08-yubu": {
+      "publisher": "Google Street View",
+      "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=sV6FEVN5gyys-t_T1jhmnA",
+      "captureDate": "2024-09",
+      "accessed": "2026-09-10",
+      "panoramaId": "sV6FEVN5gyys-t_T1jhmnA",
+      "location": {
+        "lat": 40.72716420386381,
+        "lon": -73.98615491035392
+      },
+      "headingsInspected": [
+        170
+      ],
+      "attribution": "\u00a9 Google",
+      "reuse": "Temporary visual reference; photographs are not included in the repository or applied as textures. Typography, art, dimensions and surface values remain authored approximations."
+    },
+    "sv08-burger": {
+      "publisher": "Google Street View",
+      "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=wGzBFCUjzRmQplfVj96NMg",
+      "captureDate": "2026-04",
+      "accessed": "2026-09-10",
+      "panoramaId": "wGzBFCUjzRmQplfVj96NMg",
+      "location": {
+        "lat": 40.72681113530408,
+        "lon": -73.98532714002468
+      },
+      "headingsInspected": [
+        329
+      ],
+      "attribution": "\u00a9 Google",
+      "reuse": "Temporary visual reference; photographs are not included in the repository or applied as textures. Typography, art, dimensions and surface values remain authored approximations."
+    }
+  },
+  "observations": {
+    "tile": "Long blue-and-white paired-stripe canopy covers most of the East 7th return. Red-orange side wall has layered markings, a small corner window, two wheeled bins, a sidewalk cellar cover and a far residential door. Two avenue window stacks; irregular return openings. No front tables visible in these April views.",
+    "deli": "Seven avenue window stacks; two return stacks sit closer to the pale western panel, with a broad blank brick area to their east. Green-brown hooded lintels. E7 return sign occupies only the west part, red illuminated window lettering, broad blue mural field and layered pale/black/green markings. Monkey has a red MONKEY SUSHI fascia and window strip; Hen has a white script-lettered fascia. Burger red blade and red outdoor structure visible but truck and diners obscure its present glazing. Red dining enclosure is modeled within the retained sidewalk width; current shop glass is partly obscured in the reference. Opaque mural geometry ends before the shop opening.",
+    "smoke": "Exposed red brick rather than a flat painted coat. Three avenue window stacks; seven return stacks with narrower gaps near the escape. White sign box and raised red letters, blue round corner plaque, product-covered glazing and white category text. Long black poster/mural panels on the return. Yubu red awning and closed shutter visible in September 2024, but furniture/entry obscured by a curbside dining structure.",
+    "saifee-corner": "Buff brick with dark top staining and darker sills. Two avenue window stacks. Return has both narrow service windows and full-size windows, and two red-brown fire escapes. Entire return has lime-green shop framing, open hardware shelving, pot/soil displays, distinct small canopies, cream SAIFEE HARDWARE sign, corner plants and reed blind at the east end.",
+    "saifee-main": "Five-story red-brick front, pale tapered lintels, red fire escape and roof railing. Joined dark brown canopy carries SAIFEE hardware & garden, paint branding and small service labels. Dense, varied plant racks and hanging foliage; white/green shop structure and notices."
+  },
+  "rejectedSource": {
+    "captureDate": "2017-11",
+    "panoramaId": "mivOAmkdEJdLA9BhQYGQ7Q",
+    "reason": "Older nearest panorama south of intersection; not used for current shop claims."
+  },
+  "limits": [
+    "API selection does not establish the newest image available everywhere.",
+    "West-return and Yubu close views are September 2024 and partly obscured.",
+    "Exact sizes, font outlines, mural artwork and hidden surfaces are not established.",
+    "No Street View photograph is copied into game textures."
+  ],
+  "comparison": {
+    "before": "model-source/first-seventh-08-before-review.json",
+    "after": "model-source/first-seventh-08-final-review.json",
+    "matched": "model-source/first-seventh-08-matched-review.json",
+    "performance": "model-source/first-seventh-08-performance.json"
+  },
+  "implementationLimits": [
+    "Painted tags, typeface outlines, murals and product labels are visibly approximate; this is not exact artwork.",
+    "The reference-position views expose remaining framing/proportion differences; GPS and an estimated camera height are not a dimensional survey.",
+    "Yubu retains the earlier open-door state because the newer September 2024 view is partly blocked.",
+    "Burger seating placement follows the retained sidewalk geometry, not measured curbside coordinates."
+  ]
+}

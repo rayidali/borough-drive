@@ -1,0 +1,214 @@
+{
+  "checkedAt": "2026-09-10T08:19:24.504Z",
+  "viewport": {
+    "width": 900,
+    "height": 900,
+    "deviceScaleFactor": 1
+  },
+  "cameraHeight": 2.5,
+  "cameraHeightBasis": "estimated Street View capture height; no survey",
+  "comparison": "Same reported panorama GPS, compass heading, pitch and horizontal field of view; independent game lighting and estimated camera height.",
+  "errors": [],
+  "failedRequests": [],
+  "views": [
+    {
+      "name": "tile-corner",
+      "source": "sv08-west-corner",
+      "imageryDate": "2026-04",
+      "heading": 335,
+      "pitch": 12,
+      "fov": 78,
+      "pose": {
+        "ready": true,
+        "x": -9.667047177813487,
+        "y": 2.5,
+        "z": 227.21909484770632,
+        "yaw": 5.339365989419711,
+        "pitch": 0.20943951023931953,
+        "fov": 78,
+        "pending": false
+      }
+    },
+    {
+      "name": "smoke-corner",
+      "source": "sv08-west-corner",
+      "imageryDate": "2026-04",
+      "heading": 245,
+      "pitch": 12,
+      "fov": 78,
+      "pose": {
+        "ready": true,
+        "x": -9.667047177813487,
+        "y": 2.5,
+        "z": 227.21909484770632,
+        "yaw": 3.7685696626248157,
+        "pitch": 0.20943951023931953,
+        "fov": 78,
+        "pending": false
+      }
+    },
+    {
+      "name": "saifee-corner",
+      "source": "sv08-west-corner",
+      "imageryDate": "2026-04",
+      "heading": 135,
+      "pitch": 14,
+      "fov": 80,
+      "pose": {
+        "ready": true,
+        "x": -9.667047177813487,
+        "y": 2.5,
+        "z": 227.21909484770632,
+        "yaw": 1.8487074854310532,
+        "pitch": 0.24434609527920614,
+        "fov": 80,
+        "pending": false
+      }
+    },
+    {
+      "name": "deli-first",
+      "source": "sv08-first-north",
+      "imageryDate": "2026-04",
+      "heading": 112,
+      "pitch": 10,
+      "fov": 88,
+      "pose": {
+        "ready": true,
+        "x": 0.5351202014400656,
+        "y": 2.5,
+        "z": 206.62051139320295,
+        "yaw": 1.4472817574723575,
+        "pitch": 0.17453292519943295,
+        "fov": 88,
+        "pending": false
+      }
+    },
+    {
+      "name": "deli-return",
+      "source": "sv08-seventh-middle",
+      "imageryDate": "2026-04",
+      "heading": 29,
+      "pitch": 20,
+      "fov": 100,
+      "pose": {
+        "ready": true,
+        "x": 20.940241739714693,
+        "y": 2.5,
+        "z": 227.68804163824103,
+        "yaw": -0.001341521682936075,
+        "pitch": 0.3490658503988659,
+        "fov": 100,
+        "pending": false
+      }
+    },
+    {
+      "name": "saifee-return",
+      "source": "sv08-seventh-middle",
+      "imageryDate": "2026-04",
+      "heading": 209,
+      "pitch": 20,
+      "fov": 100,
+      "pose": {
+        "ready": true,
+        "x": 20.940241739714693,
+        "y": 2.5,
+        "z": 227.68804163824103,
+        "yaw": 3.140251131906857,
+        "pitch": 0.3490658503988659,
+        "fov": 100,
+        "pending": false
+      }
+    },
+    {
+      "name": "saifee-shop",
+      "source": "sv08-west-corner",
+      "imageryDate": "2026-04",
+      "heading": 142,
+      "pitch": 2,
+      "fov": 48,
+      "pose": {
+        "ready": true,
+        "x": -9.667047177813487,
+        "y": 2.5,
+        "z": 227.21909484770632,
+        "yaw": 1.9708805330706562,
+        "pitch": 0.03490658503988659,
+        "fov": 48,
+        "pending": false
+      }
+    },
+    {
+      "name": "tile-return",
+      "source": "sv08-west-corner",
+      "imageryDate": "2026-04",
+      "heading": 340,
+      "pitch": 2,
+      "fov": 48,
+      "pose": {
+        "ready": true,
+        "x": -9.667047177813487,
+        "y": 2.5,
+        "z": 227.21909484770632,
+        "yaw": 5.426632452019429,
+        "pitch": 0.03490658503988659,
+        "fov": 48,
+        "pending": false
+      }
+    },
+    {
+      "name": "monkey-and-hen",
+      "source": "sv08-first-north",
+      "imageryDate": "2026-04",
+      "heading": 115,
+      "pitch": 0,
+      "fov": 58,
+      "pose": {
+        "ready": true,
+        "x": 0.5351202014400656,
+        "y": 2.5,
+        "z": 206.62051139320295,
+        "yaw": 1.4996416350321873,
+        "pitch": 0,
+        "fov": 58,
+        "pending": false
+      }
+    },
+    {
+      "name": "e7-deli",
+      "source": "sv08-east-corner",
+      "imageryDate": "2026-04",
+      "heading": 29.72,
+      "pitch": 5,
+      "fov": 90,
+      "pose": {
+        "ready": true,
+        "x": 10.984141535605417,
+        "y": 2.5,
+        "z": 227.55963462505005,
+        "yaw": 0.011224848931423077,
+        "pitch": 0.08726646259971647,
+        "fov": 90,
+        "pending": false
+      }
+    },
+    {
+      "name": "yubu-obscured-reference",
+      "source": "sv08-yubu",
+      "imageryDate": "2024-09",
+      "heading": 170,
+      "pitch": 3,
+      "fov": 80,
+      "pose": {
+        "ready": true,
+        "x": -38.83740209162765,
+        "y": 2.5,
+        "z": 227.27949035477874,
+        "yaw": 2.4595727236290688,
+        "pitch": 0.05235987755982988,
+        "fov": 80,
+        "pending": false
+      }
+    }
+  ],
+  "captureDirectory": "docs/images/first-seventh-08/matched"
+}

@@ -2,9 +2,9 @@
 
 The repository includes the active ten-block game, exported models, textures, reference data, and editable source recipes. You can play without rebuilding anything.
 
-## Resume state — September 9, 2026
+## Resume state — September 10, 2026
 
-The owner accepted [First & 7th revision 06](model-source/FIRST-SEVENTH-PASS-06.md) as the minimum completion standard: five individual building profiles, nine exposed elevations and eight shops. [Performance pass 07](model-source/PERFORMANCE-PASS-07.md) preserves those models while improving startup, rendering and idle GPU use. Publication is authorized; the exact source, push and verified deployment states are recorded in the handoff. The next discussion is an economical block/street process for the existing East Village, then longer-term Manhattan/NYC; expansion and jobs remain deferred.
+The owner accepted [First & 7th revision 06](model-source/FIRST-SEVENTH-PASS-06.md) as the minimum completion standard: five individual building profiles, nine exposed elevations and eight shops. [Performance pass 07](model-source/PERFORMANCE-PASS-07.md) preserves those models while improving startup, rendering and idle GPU use. The user subsequently authorized [pass 08](model-source/FIRST-SEVENTH-PASS-08.md), a local Street View-based refinement of this corner. The exact source, push and verified deployment states are recorded in the handoff; the earlier performance publication does not mean this refinement is deployed. The next discussion is an economical block/street process for the existing East Village, then longer-term Manhattan/NYC; expansion and jobs remain deferred.
 
 Read the current [handoff](CODEX-HANDOFF.md) and latest [session log](SESSION-LOG.md), then run `git status --short --branch` and `git log -5 --oneline`. Preserve local changes and check the recorded publishing state before pulling or pushing. Existing models are included; old servers, temporary photo folders and browser sessions are not needed to recover the project.
 
@@ -68,7 +68,7 @@ A useful opening message is: **"Read AGENTS.md, CODEX-HANDOFF.md and the latest 
 
 Read [CONTRIBUTING.md](CONTRIBUTING.md) and [model-source/NEIGHBORHOOD-NOTES.md](model-source/NEIGHBORHOOD-NOTES.md) before substantial changes. The active entry point is `dist/index.html`; `dist/prototype.html` preserves the earlier experiment.
 
-The [First & 7th report](model-source/FIRST-SEVENTH-PASS-06.md) identifies the new corner recipes, reference dates, review captures and reproduction commands. For later fidelity work, [storefront-details.json](model-source/storefront-details.json) contains the explicit shop designs and photographic sources; [digital-twin-coverage.json](model-source/digital-twin-coverage.json) lists outstanding frontages. [STOREFRONT-PASS-05.md](model-source/STOREFRONT-PASS-05.md) explains compilation, affected-section export and browser review. The [clean reproduction verifier](scripts/verify-neighborhood-reproduction.py) works in a disposable copy, so it can check source data without resetting the playable exports.
+The [current First & 7th report](model-source/FIRST-SEVENTH-PASS-08.md) identifies the corner recipes, reference dates, review captures and reproduction commands. For later fidelity work, [storefront-details.json](model-source/storefront-details.json) contains the explicit shop designs and photographic sources; [digital-twin-coverage.json](model-source/digital-twin-coverage.json) lists outstanding frontages. [STOREFRONT-PASS-05.md](model-source/STOREFRONT-PASS-05.md) explains compilation, affected-section export and browser review. The [clean reproduction verifier](scripts/verify-neighborhood-reproduction.py) works in a disposable copy, so it can check source data without resetting the playable exports.
 
 Keep `dist/` in Git: it contains editable source and all required runtime assets. When changing models, roads, controls, module paths, or vehicle behavior, run:
 
@@ -79,3 +79,7 @@ npm run verify
 These checks validate code, assets, and road/vehicle invariants. Browser frame rate, visual accuracy, and driving feel need separate hands-on review.
 
 Original code is available under [MIT](LICENSE). Preserve the [third-party notices](THIRD-PARTY-NOTICES.md), [asset credits](dist/reconstruction/ASSET-CREDITS.md), and photographic provenance with redistributed copies.
+
+## Local imagery access checks
+
+The optional research helpers read `GOOGLE_MAPS_API_KEY` from the root `.env`, which Git ignores and the local game server does not serve. Keep credentials out of chat, commits and browser code. `node scripts/check-street-view-access.mjs` checks metadata; add `--image` to retrieve at most one potentially billable preview. Inspect and delete temporary previews after use. No key or Google service is required to play. `scripts/view-first-seventh-reference.mjs` supports bounded reference angles for the authorized corner; it is not an unattended citywide batch.
