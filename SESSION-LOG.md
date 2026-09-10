@@ -10,6 +10,71 @@ git log --oneline -- CODEX-HANDOFF.md SESSION-LOG.md
 
 Checkpoint notes describe observed state, not a live monitor. Recheck local files, remote branches and deployment status when resuming. Keep necessary artifacts in the repository and record reproducible commands; temporary directories and old tool/process IDs are not durable checkpoints. Store no tokens, passwords or authentication cookies here.
 
+## 2026-09-10-05 — Street View corner refinement verified and committed locally
+
+**Recorded:** 2026-09-10T04:36:37-04:00 (America/New_York).
+**User objective and decisions:** Use the working Street View key to improve all four corners of First Avenue/East 7th toward Assassin’s Creed Unity-level detail. Keep the accepted minimum and speed improvements. No new publishing or geographic expansion instruction.
+**Completed work:** Implemented dated facade, shop and street-detail corrections; exported only three affected sections. Corrected Burger glazing and retained masonry detail with lower-cost surface bands. Saved 37 unedited game captures, 26-view browser review, 11 reference-position comparisons, source observations, preservation proof and final performance data. Current source/docs are committed; local preview opened. See [pass 08](model-source/FIRST-SEVENTH-PASS-08.md).
+**Gameplay/source baseline:** New local source `219d4e9ccec8e019351d3a27d7dff6dcaf07237d` on `main`; prior published source `522cd1de77b72186dc98e06a3b9f6ce4db761d8b`. Initial checkpoint HEAD `477fcdb524407e189f67eb59771d8da84c4a16fe`; existing uncommitted access setup and notes preserved.
+**Local changes:** Source commit contains all implementation, assets, helpers, reports and screenshots. Only `CODEX-HANDOFF.md` and `SESSION-LOG.md` remained modified before this separate checkpoint commit. No pending export, image capture or required technical check. Ignored `.env` stays local; all temporary Google reference JPEGs deleted.
+**Remote state:** No fetch or push this turn. Cached origin/main remains `477fcdb524407e189f67eb59771d8da84c4a16fe`; source and following checkpoint commit are unpublished.
+**Deployment state:** No new deployment/live recheck. September 9 verified production source `522cd1d` remains historical. Local preview is http://127.0.0.1:5173; reopen with `npm run dev`.
+**Validation:** Final `npm run verify` passed after metadata refresh (26 modules, 2,308 road samples, collision/navigation/source checks, 63 maximum batches); clean reproduction matched 615 buildings and three audits. Twenty-four protected files and three final asset hashes verified. Browser controls/loading/error-recovery checks passed; only the deliberately injected failure warning appeared. Final corrected Burger and Saifee mortar views inspected. M1 local samples: 48.9 FPS Detailed Saifee, 60.0 Faster, 26.8 driving, 27.8 core SE; 38.86 MiB initial transfer, zero idle redraws. All 251 relative links in 19 Markdown files resolved before final checkpoint edits; diff whitespace clean. Private credential scan: zero leaks across 302 eligible repository files, `.env` ignored and mode 0600.
+**Unresolved issues:** Visual acceptance of 08 pending. The result remains stylized, below a perfect 1:1 or AAA-production claim. Artwork, lettering, dimensions, occluded shop details and interiors still contain approximations. Source-position comparisons reveal proportion/framing differences. Compiler still resets three unrelated exported render heights; the report records preservation steps.
+**Next action:** Review local chapter 08 with the user, compare dated angles and address their specific remaining corner feedback. Keep the existing accepted 06 baseline until they accept the refinement; do not start expansion or publish solely because this checkpoint exists.
+
+## 2026-09-10-04 — Corner export and speed verified; final capture in progress
+
+**Recorded:** 2026-09-10T04:21:22-04:00 (America/New_York).
+**User objective and decisions:** Same authorized four-corner refinement; preserve the speed improvements. No wider map expansion or new deployment requested.
+**Completed work:** Corrected the paint layer covering Burger’s glazing; added red dining structure and tactile paving. Shared matte vertex colors fixed the 64-batch limit. Replaced raised mortar boxes with surface bands to recover performance, preserving running bond and window exclusions. Final three GLBs exported. Current docs and photographic credits refreshed.
+**Gameplay/source baseline:** `522cd1de77b72186dc98e06a3b9f6ce4db761d8b`; main HEAD remains `477fcdb524407e189f67eb59771d8da84c4a16fe`.
+**Local changes:** Implementation, assets, observations, reports and docs remain uncommitted. No key or Google photograph enters Git or game assets.
+**Remote state:** No commit, fetch or push in this refinement turn.
+**Deployment state:** No deployment or live recheck; September 9 evidence remains historical.
+**Validation:** Final npm verification passed: 26 modules, 2,308 road samples, collision/source/export checks, 63 maximum batches; 9,435,099 actual neighborhood triangles. Core/runtime/eleven other GLBs and all mapped footprints/roads preserved. Earlier clean reproduction matched three audits. Final M1 profile measured 48.9 FPS Detailed Saifee, 60.0 Faster, 26.8 driving, 27.8 core SE; 38.86 MiB initial transfer and zero idle redraws. See `first-seventh-08-performance.json` for conditions and limitations.
+**Unresolved issues:** Final capture/inspection and source-status refresh pending. AAA quality, exact artwork, dimension matching and occluded current details are not established; report 08 lists those limits.
+**Next action:** Finish and inspect final browser/reference-position captures, save durable evidence, run final source checks after status changes, checkpoint local commits and open the local review version.
+
+## 2026-09-10-03 — Street View corner refinement authored; export/review underway
+
+**Recorded:** 2026-09-10T03:52:43-04:00 (America/New_York).
+**User objective and decisions:** Use the saved Street View key to improve First Avenue/East 7th across all four corners, aiming for Assassin’s Creed Unity-level detail. Keep the accepted standard and speed gains; no new expansion.
+**Completed work:** Inspected April 2026 intersection views and closer September 2024 west/Yubu views; rejected a November 2017 selection. Recorded eight panorama sources and uncertainty. Authored current shop signs, side storefronts, facade/window corrections, canopy changes, open steel escapes, paint approximations and street hardware in the reproducible corner recipe. Baseline browser review completed 26 views without errors.
+**Gameplay/source baseline:** `522cd1de77b72186dc98e06a3b9f6ce4db761d8b`; main HEAD `477fcdb524407e189f67eb59771d8da84c4a16fe`.
+**Local changes:** Corner recipes/schedules, compiler/signature integration, manifest/audits, access helpers, verification and checkpoint files uncommitted. Export of three affected sections underway. The ignored local key remains private; temporary reference images are excluded from the game and repository.
+**Remote state:** No commit, fetch or push this turn.
+**Deployment state:** Not deployed or rechecked; September 9 remains the latest published verification.
+**Validation:** Python syntax and compiler succeeded. Only three corner tile signatures changed. Three unrelated exported heights were restored after compilation. Baseline browser checks passed. Final exports, model verification, matched-view review, reproduction and performance checks are pending.
+**Unresolved issues:** Geometry has not yet been visually reviewed. Some art, lettering, dimensions, interiors and occluded Yubu/Burger details remain estimates. AAA quality and 1:1 perfection are not established by source access or compilation.
+**Next action:** Finish Blender export; run verification, inspect the actual game and correct defects. Preserve the core/runtime, finalize evidence/docs and open the local result for review.
+
+## 2026-09-10-02 — Google Street View API and actual image access confirmed
+
+**Recorded:** 2026-09-10T03:24:49-04:00 (successful API response; America/New_York).
+**User objective and decisions:** The user saved the local API key and asked whether Street View access works. Scope remains a bounded access test.
+**Completed work:** Google's metadata returned `OK` for First & 7th, panorama `3KfZRLIHzFKvx7gJYrDH-w`, imagery date `2026-04`. A single 640×640 image request returned HTTP 200 and 95,415 bytes. The JPEG was opened and visually inspected: E7 Deli's corner, upper facade and street details are visible. Attribution: © Google. The temporary preview is removed after inspection; no Google imagery enters game assets or Git.
+**Gameplay/source baseline:** `522cd1de77b72186dc98e06a3b9f6ce4db761d8b`; main HEAD remains documentation `477fcdb524407e189f67eb59771d8da84c4a16fe`.
+**Local changes:** Access checker and two checkpoint documents uncommitted; populated `.env` remains ignored and owner-only. Key values and authenticated URLs are never recorded. No game/model changes.
+**Remote state:** Not fetched or pushed this turn; cached origin/main matches HEAD.
+**Deployment state:** No new deployment or live check. September 9 publication remains the latest verified state.
+**Validation:** Node syntax, empty-key behavior, ignore rule and file permissions checked. One metadata and one image request succeeded; actual visual inspection confirms image access. Game verification was not needed for this local utility.
+**Unresolved issues:** This proves access to one April 2026 panorama, not newest-imagery availability everywhere, a full-corner comparison or completed model corrections. Earlier modeling used the recorded alternative sources. Broader imagery use and batch processing need the later workflow discussion.
+**Next action:** Report successful access. Follow the user's next modeling/planning instruction; use the bounded checker for future connectivity checks and keep the credential local.
+
+## 2026-09-10-01 — Street View credential file opened; access test awaits saved key
+
+**Recorded:** 2026-09-10T03:23:53-04:00 (America/New_York).
+**User objective and decisions:** Prepare and open a local file with the Google API key name filled in; the user will paste its value. Test actual Street View access afterward. No modeling or new publication requested.
+**Completed work:** Created the ignored, owner-only root `.env`, preserving existing values, and opened it in TextEdit. Added `scripts/check-street-view-access.mjs`: metadata-only by default, with `--image` retrieving at most one image for First & 7th into a temporary owner-only directory. Requests go directly to Google's official API; keys and request URLs are not logged.
+**Gameplay/source baseline:** `522cd1de77b72186dc98e06a3b9f6ce4db761d8b`; branch `main`, documentation HEAD `477fcdb524407e189f67eb59771d8da84c4a16fe`. Resumed clean.
+**Local changes:** Checker, handoff and this log uncommitted. Ignored `.env` is local only; its value was still empty at the checkpoint. No game/model changes.
+**Remote state:** Not fetched or pushed this turn; cached origin/main matches HEAD.
+**Deployment state:** Not deployed or rechecked. September 9 source publication and live verification remain the latest evidence.
+**Validation:** Node syntax check passed; the empty-key path sent no network request. Git ignores `.env`. Google's official metadata/image request documentation was consulted. No game verification run for this local access utility.
+**Unresolved issues:** Key entry and API access are pending. No Google Street View imagery has been accessed or used to modify the game.
+**Next action:** Once the key is saved, run `node scripts/check-street-view-access.mjs --image`; inspect a successful preview and delete it afterward. Report the actual image date or Google's denial reason without exposing credentials, and update this checkpoint.
+
 ## 2026-09-09-03 — Accepted corner and speed pass pushed; live files verified
 
 **Recorded:** 2026-09-09T01:19:25-04:00 (America/New_York).
