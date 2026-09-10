@@ -10,6 +10,33 @@ git log --oneline -- CODEX-HANDOFF.md SESSION-LOG.md
 
 Checkpoint notes describe observed state, not a live monitor. Recheck local files, remote branches and deployment status when resuming. Keep necessary artifacts in the repository and record reproducible commands; temporary directories and old tool/process IDs are not durable checkpoints. Store no tokens, passwords or authentication cookies here.
 
+## 2026-09-10-08 — Browser corner pass and offline block workflow committed locally
+
+**Recorded:** 2026-09-10T05:57:24-04:00 (America/New_York).
+**User objective and decisions:** Browser-first smoothness inspired by slowroads.io; defer Unreal, improve First & 7th and prepare economical block work using cheaper AI. Current corner quality is the working benchmark; no wider modeling or paid execution now.
+**Completed work:** [Browser pass 09](model-source/BROWSER-PASS-09.md): depth-reused contact shading, adaptive Automatic default, authored clouds/corner road variation and interpolated driving presentation. [Offline workflow](model-source/BLOCK-WORKFLOW.md): 1,348 ownership items, three-facade pilot plan, compact source packets, permission registry and proposal validation. Updated current Markdown/credits, saved before/after profiles, preservation proof, 26-view review and 11 unedited game captures. Opened local preview and confirmed HTTP 200/revision 09.
+**Gameplay/source baseline:** New local `main` source `c76dccebc143960498d21eeab8c55c2d0dbcc5ce`; prior model/source `219d4e9ccec8e019351d3a27d7dff6dcaf07237d`. All 72 checked models/images/JSON manifests and preserved physics/collision/spatial/glass/texture modules remain byte-identical. No Blender/source compilation or new imagery request this turn.
+**Local changes:** All implementation, offline workflow, current reports and evidence committed. Only `CODEX-HANDOFF.md` and `SESSION-LOG.md` were modified before this separate checkpoint commit, identifiable through Git history. Ignored `.env` stays local/mode 0600. No required runtime check or model export pending.
+**Remote state:** No fetch or push. Cached origin/main remains `477fcdb524407e189f67eb59771d8da84c4a16fe`; source commit is four ahead and this subsequent checkpoint adds one unpublished commit.
+**Deployment state:** No deployment, CI or live verification. Last verified production source `522cd1de77b72186dc98e06a3b9f6ce4db761d8b` at https://borough-drive.vercel.app is historical September 9 evidence. Passes 08/09 remain local.
+**Validation:** Final `npm run verify` passed (30 modules, 2,308 road samples, vehicle/export/material/spatial and new presentation tests); offline workflow tests and current saved-packet validation passed. Final 26-view browser review passed controls, resets, fresh Automatic/saved quality, idle wake and both forced-load recovery paths with zero unexpected errors/failed requests. Final full/shop/driving captures visually inspected for presentation regressions, not fresh photographic accuracy. Before checkpoint: whitespace clean, 308 relative Markdown links valid, 336 eligible files scanned with zero credential matches.
+**Performance:** Chrome 152/M1, 1440×1000 DPR 1, local HTTP: Detailed Saifee 48.9→52.4 FPS, submissions 3.83M→1.92M triangles / 596→301 calls; Detailed drive 27.1→32.9, core SE 29.3→33.9. Warm Automatic corner 60.0; additional warm drive 48.0 overall / 55.9 last 120 rendered frames, ratio 0.70/contact shading off; stopped quality restored and zero idle redraws. Short samples/fixed-frame routes differ; no universal 60 FPS or slowroads.io comparison claim.
+**Unresolved issues:** Dense driving remains below consistent 60 FPS. Existing architectural/artwork/dimension/occlusion uncertainty remains. New source registry has no approved images; Google standard terms restrict the proposed bulk/derived-content processing, so Google batch is disabled without suitable additional permission. GPT-5.4 Mini has not been evaluated; $0.162 is illustrative three-job Batch token arithmetic only. Zero paid jobs/model requests; no auto merge/build dispatcher or accepted-work ledger. Actual patch records and rendered quality still need coordinator review; older compiler render-height reset issue remains documented.
+**Next action:** Restart with `npm run dev`, review First & 7th in Graphics → Automatic on the user's device, register suitable dated full/oblique images, then qualify the cheaper worker on three facades and measure corrections/cost before expanding. No automatic migration, publishing, paid batch or wider modeling.
+
+## 2026-09-10-07 — Browser-first direction selected; runtime and workflow underway
+
+**Recorded:** 2026-09-10T05:22:41-04:00 (America/New_York).
+**User objective and decisions:** Defer Unreal; improve First & 7th while prioritizing smooth browser play, then prepare a repeatable block process suitable for cheaper AI workers. Current corner quality is the working map-wide reference.
+**Completed work:** Baseline profile and source inspection; initial depth-reused shading, sky/road presentation, driving interpolation and adaptive Automatic implementation. Investigated official OpenAI mini/Batch options and Google imagery restrictions.
+**Gameplay/source baseline:** `219d4e9ccec8e019351d3a27d7dff6dcaf07237d`; initial main HEAD `4682fef`, clean and three commits ahead of cached origin/main.
+**Local changes:** Runtime modules/viewer/road renderer/index and these checkpoints uncommitted. Offline workflow implementation pending. All existing GLBs/source geography/vehicle physics preserved.
+**Remote state:** No fetch or push.
+**Deployment state:** No deployment/live check; prior September 9 public verification remains historical.
+**Validation:** Baseline browser profile completed; first depth-reuse profile completed and inspected. Initial npm checks passed; final runtime/Automatic/visual checks pending. No paid AI job or new imagery request.
+**Unresolved issues:** Smooth 60 FPS across dense views is not established. Google standard terms do not authorize the proposed bulk/derived-content workflow; automation needs suitable imagery rights. Mini model quality has not been evaluated on this task.
+**Next action:** Finish the local browser pass and finite offline task workflow, test validation/recovery/budget behavior, record results and local commits, and open the preview.
+
 ## 2026-09-10-06 — Assessed browser versus Unreal for the final game
 
 **Recorded:** 2026-09-10T05:02:39-04:00 (America/New_York).
