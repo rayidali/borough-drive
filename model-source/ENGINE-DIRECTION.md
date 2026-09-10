@@ -1,5 +1,8 @@
 # Rendering and driving direction — September 10, 2026
 
+**Superseded as the active direction:** later on September 10 the user chose smooth browser-first play and deferred Unreal. Follow [browser pass 09](BROWSER-PASS-09.md) and [the bounded block workflow](BLOCK-WORKFLOW.md). The assessment below remains historical; it is not permission to migrate.
+
+
 The user asked whether the sky, roads and driving can reach a PS5-game standard in the current browser project, or whether Unreal should handle the final experience while the current pipeline supplies models. This is an assessment and recommendation, **not an accepted migration decision or an implemented graphics pass**. The playable source remains `219d4e9ccec8e019351d3a27d7dff6dcaf07237d`, locally reviewed First & 7th pass 08.
 
 ## Recommendation

@@ -1,0 +1,294 @@
+{
+  "comparedTo": "219d4e9ccec8e019351d3a27d7dff6dcaf07237d",
+  "preservedFiles": [
+    {
+      "path": "dist/reconstruction/assets/asphalt_02_diff_1k.jpg",
+      "sha256": "1aa5ce99f58a625c71d48cfc3e68b65ca85ccb00f39e045c0a928608a0ea25ed"
+    },
+    {
+      "path": "dist/reconstruction/assets/asphalt_02_nor_gl_1k.jpg",
+      "sha256": "42a1c381b53204e83a982db2864479a30bc127bbdeebb1006f8ee51bff099df3"
+    },
+    {
+      "path": "dist/reconstruction/assets/asphalt_02_rough_1k.jpg",
+      "sha256": "70ba3edc65525eb4dc366cf010ca7ae0bd34e0251ff0225c2dad627a873d0712"
+    },
+    {
+      "path": "dist/reconstruction/assets/brown_brick_02_diff_1k.jpg",
+      "sha256": "d769443de69cc16482d25a8a1777b1fa826ada8b4175c7c29d7abb08a91f8ac2"
+    },
+    {
+      "path": "dist/reconstruction/assets/brown_brick_02_nor_gl_1k.jpg",
+      "sha256": "c4ca57e17a7ebfa27b561b126a6579e90b09a852c94ffa83a0b68d4ed62b46af"
+    },
+    {
+      "path": "dist/reconstruction/assets/brown_brick_02_rough_1k.jpg",
+      "sha256": "4f76762b9ae52f3d411e9902a2064bdba3de1eaf5c852df98b930716eaa7e17c"
+    },
+    {
+      "path": "dist/reconstruction/assets/concrete_wall_006_diff_1k.jpg",
+      "sha256": "fea247dd085cd05d8deb335234c834764d622029da351f8bcc8913935316bacd"
+    },
+    {
+      "path": "dist/reconstruction/assets/concrete_wall_006_nor_gl_1k.jpg",
+      "sha256": "4ff16bb96fc2df3ef71d22007151aff1d8bf7cb10a493d3f8e973213a99dd428"
+    },
+    {
+      "path": "dist/reconstruction/assets/concrete_wall_006_rough_1k.jpg",
+      "sha256": "ceee98c940b8f1e49169af880497aa60eaae5de0ac5b3603aa753b76f687c455"
+    },
+    {
+      "path": "dist/reconstruction/assets/red_brick_03_diff_1k.jpg",
+      "sha256": "9c58254c099b2d211478f50a427fcdde622af24249ff2e94da41fb836f8c857f"
+    },
+    {
+      "path": "dist/reconstruction/assets/red_brick_03_nor_gl_1k.jpg",
+      "sha256": "9bfd45e24720d851017c1e1678b70219c72239b2ac6b25e11d57d458bdab8503"
+    },
+    {
+      "path": "dist/reconstruction/assets/red_brick_03_rough_1k.jpg",
+      "sha256": "cd865623c1422926848024e877103e9dfe857b2ca8221fce49264b74c9ff48b1"
+    },
+    {
+      "path": "dist/reconstruction/assets/urban_alley_01_1k.hdr",
+      "sha256": "61aeab087aae22c1b4da31bc04e54987659d3bb0ee684d2b09df7a0bb81db476"
+    },
+    {
+      "path": "dist/reconstruction/assets/white_bricks_diff_1k.jpg",
+      "sha256": "a1483d99ea1ca6e23adce0ba4ad1a1ba0e586e76cafd1979c826424916cb03c4"
+    },
+    {
+      "path": "dist/reconstruction/assets/white_bricks_nor_gl_1k.jpg",
+      "sha256": "e2159482d8dec6db0c617b5d8313d01ac5dca23c642354331c1c5b4664d1728e"
+    },
+    {
+      "path": "dist/reconstruction/assets/white_bricks_rough_1k.jpg",
+      "sha256": "5271fbc95799b840167ff12176466072304145e2d0c6c467c0f98b459b7f77d0"
+    },
+    {
+      "path": "dist/reconstruction/businesses.json",
+      "sha256": "ac2850274991b4fe4510f70c525be4af93c1a7f9c9e2522c0ac88ff0211f46ef"
+    },
+    {
+      "path": "dist/reconstruction/first-and-10th.glb",
+      "sha256": "405e247602a2117f5f1e7b938921ec584fbd0e3ff9e9008209361f215b65f167"
+    },
+    {
+      "path": "dist/reconstruction/intersection-base.json",
+      "sha256": "71981b7446c2a2b790441c30f73ada93e21affe8d96de6c0fba5b757ec00f414"
+    },
+    {
+      "path": "dist/reconstruction/intersection-render.png",
+      "sha256": "cc03128876e8e78a58b88d04294b3f0469a61672ceaea70c5bd900fe5e11cbde"
+    },
+    {
+      "path": "dist/reconstruction/model-info.json",
+      "sha256": "ea012614b9e98f314464603815491bbfde5ee2f8cd569c9223592b62f892b58c"
+    },
+    {
+      "path": "dist/reconstruction/neighborhood-sources.json",
+      "sha256": "7cdfe6e33c0cf76a553ce539ab0037fffdc6cdcb1ca596d05d285e274352560c"
+    },
+    {
+      "path": "dist/reconstruction/neighborhood-world.js",
+      "sha256": "5ee2ac9b843208742d070f55c5cffca59a5874162f7fe7e53dd333c021be700a"
+    },
+    {
+      "path": "dist/reconstruction/neighborhood.json",
+      "sha256": "fd61b108e80eab18d477686b677413ef565f1ab16edc26170751347e22651a5c"
+    },
+    {
+      "path": "dist/reconstruction/neighborhood/bicycle-detail.glb",
+      "sha256": "8baa5e73d9a7fed9d408d36842d041641b6fe21b449671f38bd069ca8adb27ec"
+    },
+    {
+      "path": "dist/reconstruction/neighborhood/block-1-1.glb",
+      "sha256": "7dd5899e755aca7d047667ab038fbdce604b45971539804bc05ea9f2a5dd95c1"
+    },
+    {
+      "path": "dist/reconstruction/neighborhood/block-1-2.glb",
+      "sha256": "dc0838a10babc4a28442947bf7be50d4a11009fa6bde2f887b4854db373d0f7d"
+    },
+    {
+      "path": "dist/reconstruction/neighborhood/block-2-1.glb",
+      "sha256": "ceea12d9454df9a343e7e7e285526086da302bde9a360ceea63c84a1c4e3dc5f"
+    },
+    {
+      "path": "dist/reconstruction/neighborhood/block-2-2.glb",
+      "sha256": "fc59d9ce4406231a530b9195979fcf974c1e7b71688762a6d27f952e3db3412d"
+    },
+    {
+      "path": "dist/reconstruction/neighborhood/block-3-1.glb",
+      "sha256": "0eb6115a128beb1ab81f6131662c54db2c37042450868aa431c17ab4d1d6d48c"
+    },
+    {
+      "path": "dist/reconstruction/neighborhood/block-3-2.glb",
+      "sha256": "d1c8997726b76f414cbec8615c66078aaa2f4a44c8cb746d678fcc1de49ee2d5"
+    },
+    {
+      "path": "dist/reconstruction/neighborhood/block-4-1.glb",
+      "sha256": "6d89c75fa1b4d7cee6f631513936fd846c25b2b66fdb0ae6e3e2390ca5c5b792"
+    },
+    {
+      "path": "dist/reconstruction/neighborhood/block-4-2.glb",
+      "sha256": "dd28b286e7874c05b015f6c293b8f8a44c55522029abeabf9c6f1b25529a7a2d"
+    },
+    {
+      "path": "dist/reconstruction/neighborhood/block-5-1.glb",
+      "sha256": "894344ad23dd500d4cc770b146f5b747663d50670c76d4da9100f0b6358f1754"
+    },
+    {
+      "path": "dist/reconstruction/neighborhood/block-5-2.glb",
+      "sha256": "2e1c5d11788017dcf5d97f1e6b841e92da09b738848760ad7cfa2d9549de8198"
+    },
+    {
+      "path": "dist/reconstruction/neighborhood/drain-grate.glb",
+      "sha256": "6a89d2fa429063ce7f50cf223f12f6de27f93f2f84b2f4236538707c9e297bc4"
+    },
+    {
+      "path": "dist/reconstruction/neighborhood/edge-east.glb",
+      "sha256": "75be88b4f4c535ccdd23c651a2290d4bc02493107cbc8b77c8b5429fc872d90f"
+    },
+    {
+      "path": "dist/reconstruction/neighborhood/edge-north.glb",
+      "sha256": "0be1bb480e8b56333cc17eee3a46b51ef0fb4c13d6387c8f48ceca4ff27f6974"
+    },
+    {
+      "path": "dist/reconstruction/neighborhood/edge-south.glb",
+      "sha256": "c7f70b8a94d7203e4b35390bc5a7de851e85acfb55b95f6f3eaa26c17312ea92"
+    },
+    {
+      "path": "dist/reconstruction/neighborhood/edge-west.glb",
+      "sha256": "12c16bba951cbae690ac3ae434a522e640a0016c13c780dd898345680da34319"
+    },
+    {
+      "path": "dist/reconstruction/neighborhood/hydrant.glb",
+      "sha256": "ff50ea9470e7d5c622c41c864bf9fe1b87e96cd39142b874f3fb4c8d8f16c2db"
+    },
+    {
+      "path": "dist/reconstruction/neighborhood/litter-bin.glb",
+      "sha256": "43afdf714b3e06c3a61837184bd26895c85ec285d0dceb6d2dcf6562c02051fe"
+    },
+    {
+      "path": "dist/reconstruction/neighborhood/park-bench.glb",
+      "sha256": "d051a6e411b95cbf0d062acc7772cba34bd36bf8730cde44125b8f357852d141"
+    },
+    {
+      "path": "dist/reconstruction/neighborhood/parked-car.glb",
+      "sha256": "f033f0dbd61774b4150b4899d459b3b5be82ff1de31bf7bca93ab88023aa87bb"
+    },
+    {
+      "path": "dist/reconstruction/neighborhood/street-furniture.glb",
+      "sha256": "8e23e9e6f1a231e3551e798801498e7a4f9951f7149f2165250515b75aea715a"
+    },
+    {
+      "path": "dist/reconstruction/neighborhood/street-tree.glb",
+      "sha256": "ff17c0b778cd3758db9155d42f18b2ef3eff14bfc8875cd641faa4825921ba94"
+    },
+    {
+      "path": "dist/reconstruction/neighborhood/streetscape-info.json",
+      "sha256": "dec023ba40c81c7dac2950d1e647de533995980af2ee79ab349d960449d15744"
+    },
+    {
+      "path": "dist/reconstruction/neighborhood/textures/4ff16bb96fc2df3ef71d.jpg",
+      "sha256": "4ff16bb96fc2df3ef71d22007151aff1d8bf7cb10a493d3f8e973213a99dd428"
+    },
+    {
+      "path": "dist/reconstruction/neighborhood/textures/51e187559b7d3036ec00.png",
+      "sha256": "51e187559b7d3036ec00e0a16caf6a87a127e385e1f42c8c94ff98626011cd7c"
+    },
+    {
+      "path": "dist/reconstruction/neighborhood/textures/97724ae83a21d9f467f6.png",
+      "sha256": "97724ae83a21d9f467f6d608d87e9888a451b43e8a24f896cd3a035f25b63d2d"
+    },
+    {
+      "path": "dist/reconstruction/neighborhood/textures/9bfd45e24720d851017c.jpg",
+      "sha256": "9bfd45e24720d851017c1e1678b70219c72239b2ac6b25e11d57d458bdab8503"
+    },
+    {
+      "path": "dist/reconstruction/neighborhood/textures/9c58254c099b2d211478.jpg",
+      "sha256": "9c58254c099b2d211478f50a427fcdde622af24249ff2e94da41fb836f8c857f"
+    },
+    {
+      "path": "dist/reconstruction/neighborhood/textures/a1483d99ea1ca6e23adc.jpg",
+      "sha256": "a1483d99ea1ca6e23adce0ba4ad1a1ba0e586e76cafd1979c826424916cb03c4"
+    },
+    {
+      "path": "dist/reconstruction/neighborhood/textures/e2159482d8dec6db0c61.jpg",
+      "sha256": "e2159482d8dec6db0c617b5d8313d01ac5dca23c642354331c1c5b4664d1728e"
+    },
+    {
+      "path": "dist/reconstruction/neighborhood/textures/ee8625308ef01f5e2efa.png",
+      "sha256": "ee8625308ef01f5e2efa4efc85943cc18b81d27c964ca85c031ee85b9fc5382b"
+    },
+    {
+      "path": "dist/reconstruction/neighborhood/textures/f4dbf11efcb2a4ce0a97.png",
+      "sha256": "f4dbf11efcb2a4ce0a97a2d9821a1765a64b7c087e6510bfbab5e89d102048f2"
+    },
+    {
+      "path": "dist/reconstruction/neighborhood/textures/fea247dd085cd05d8deb.jpg",
+      "sha256": "fea247dd085cd05d8deb335234c834764d622029da351f8bcc8913935316bacd"
+    },
+    {
+      "path": "dist/reconstruction/neighborhood/traffic-signal.glb",
+      "sha256": "77074d8963741f330d40bf16f6ae1a8e470cce9fb4fb115253ab2efba093cdbe"
+    },
+    {
+      "path": "dist/reconstruction/neighborhood/utility-cover.glb",
+      "sha256": "70171ecd71c5b172ea73275d25fc36f33832564e9a40549abb80b877b58a164f"
+    },
+    {
+      "path": "dist/reconstruction/references.json",
+      "sha256": "78f358e566a027cc35bdb384ceb3c097787fdca698523211413bf5dad6e53654"
+    },
+    {
+      "path": "dist/reconstruction/references/First_and_10th_(51645797940).jpg",
+      "sha256": "4ee966ea361c60a8a32c6fd4e10d9303ee82a8c9e7b4d6d5d745515ca7426760"
+    },
+    {
+      "path": "dist/reconstruction/references/Tarallucci_in_the_Rain_(51286241651).jpg",
+      "sha256": "35cd8a6c015c012b55082df573269ec1d0b78a35e214d801ce9d2f4bf0adfe08"
+    },
+    {
+      "path": "dist/reconstruction/references/ne-beron-beron-2025-05-16.jpg",
+      "sha256": "46f82ba6dae7f77dc394511d0129e59bb752b39809220ea70bddc2af44486563"
+    },
+    {
+      "path": "dist/reconstruction/references/ne-e10th-side-2022-05-26-1920.jpg",
+      "sha256": "ba5da8a8348c343490ce3e1335031db86edae1c1a122aabf6bacea31c6744f72"
+    },
+    {
+      "path": "dist/reconstruction/references/new-theatre-building-2021-06-06-1920.jpg",
+      "sha256": "3226d85c9dd6e47462123ad18cd32130ac16796b7b30f16d1dc396c5e9804ffd"
+    },
+    {
+      "path": "dist/reconstruction/references/sw-159-first-2021-09-06.jpg",
+      "sha256": "eaf2fd99aac866d4d26c8a18fd1d53dcc038b5aca607ac5db0cf7d4b51ea9771"
+    },
+    {
+      "path": "dist/reconstruction/shared-textures.js",
+      "sha256": "2aeffa44774410da07f60afa685ab881dcff881bfe700804e5260f7fb217e3da"
+    },
+    {
+      "path": "dist/reconstruction/southwest-render.png",
+      "sha256": "95d58e87ea96cd18881269f60d9016c1834d311786ca21df80285c420d34a53f"
+    },
+    {
+      "path": "dist/reconstruction/spatial-batches.js",
+      "sha256": "c5db389160bedc7009478f06d35f6c4147afc1a4ed9781a5c6df4192d4cde46a"
+    },
+    {
+      "path": "dist/reconstruction/storefront-glass.js",
+      "sha256": "46d3b7dbf63416bcc3720349ca1b9f74660df33358c8042d2e4fba1dc6bc3bd3"
+    },
+    {
+      "path": "dist/reconstruction/street-materials.glb",
+      "sha256": "a88699dde9390302d85e15b54d6cf214b2bd13db0910f0a8d1eadfd8e292c412"
+    },
+    {
+      "path": "dist/reconstruction/vehicle.js",
+      "sha256": "bcf04cfee20946fbedb8cecc8892ddd8f5399a119a973f8d91ed2c19bc16b4e6"
+    }
+  ],
+  "note": "All reconstruction models, image assets, JSON geography/source manifests, physical driving/collision and previous spatial batching are byte-identical."
+}

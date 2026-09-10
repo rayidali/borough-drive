@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "sources": [
+    {
+      "id": "replace-with-source-id",
+      "jobIds": ["facade-241822226-first-avenue"],
+      "provider": "owner-supplied",
+      "uri": "replace-with-local-file-or-licensed-url",
+      "captureDate": "YYYY-MM-DD",
+      "view": "full-facade",
+      "credit": "replace-with-photographer-and-credit",
+      "rights": {
+        "approved": false,
+        "derivativeUse": false,
+        "aiProcessing": false,
+        "basis": "replace-with-permission-or-license-record"
+      }
+    }
+  ]
+}

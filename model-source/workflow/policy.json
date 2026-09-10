@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "scope": "Existing East Village only; finish the First & Seventh pilot before wider implementation",
+  "benchmark": {
+    "visualSourceCommit": "219d4e9ccec8e019351d3a27d7dff6dcaf07237d",
+    "cornerRecord": "model-source/first-and-seventh.json",
+    "comparisonCaptures": "docs/images/first-seventh-08",
+    "acceptance": "Current corner is the user's working reference; each new result still needs visual acceptance"
+  },
+  "worker": {
+    "candidateModel": "gpt-5.4-mini-2026-03-17",
+    "qualification": "Unevaluated candidate: compare on three pilot tasks before scaling",
+    "transport": "offline packets now; optional Responses Batch API later",
+    "requestsPerJob": 3,
+    "repairAttempts": 1,
+    "inputTokenAllowancePerRequest": 18000,
+    "maxOutputTokensPerRequest": 5000,
+    "standardUsdPerMillionInput": 0.75,
+    "standardUsdPerMillionOutput": 4.5,
+    "batchMultiplier": 0.5,
+    "pricingChecked": "2026-09-10",
+    "pricingSource": "https://developers.openai.com/api/docs/models/gpt-5.4-mini",
+    "batchSource": "https://developers.openai.com/api/docs/guides/batch"
+  },
+  "limits": {
+    "maxJobsPerPlan": 3,
+    "maxModelEstimateUsdPerPlan": 2,
+    "parallelWrites": 1,
+    "automaticPaidSubmission": false,
+    "automaticAcceptance": false,
+    "automaticPublish": false
+  },
+  "requiredCategories": [
+    "massing-and-proportions",
+    "windows-doors-and-architecture",
+    "materials-paint-and-weathering",
+    "storefront-signs-and-lighting",
+    "seating-boards-fixtures-and-street-edge",
+    "roof-return-and-occluded-surfaces"
+  ],
+  "sourcePolicy": {
+    "googleBatchEnabled": false,
+    "googleRestrictionSource": "https://cloud.google.com/maps-platform/terms",
+    "rule": "A Google API key, a public URL, or a capture date does not establish automated derivative-use permission. No Google extraction/imagery batch in this version. Register owner-supplied or licensed sources with explicit reusable-image and AI-processing permission."
+  },
+  "qualityGates": [
+    "Every required category addressed; occluded features stay unresolved",
+    "Dated source identity and rights checked before image processing",
+    "Proposals validated against the frozen packet; no edits outside assigned records",
+    "Coordinator merges one block in an isolated checkout and rebuilds only changed tiles",
+    "npm run verify plus clean source reproduction",
+    "Full facade, oblique and close-up game views checked against authorized references",
+    "Frame time, initial transfer, idle redraws and affected mesh size recorded",
+    "User visual acceptance recorded separately from passing technical checks"
+  ]
+}

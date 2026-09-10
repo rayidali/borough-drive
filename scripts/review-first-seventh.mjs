@@ -7,6 +7,7 @@ import path from 'node:path';
 import {createHash} from 'node:crypto';
 import assert from 'node:assert/strict';
 const out=path.resolve(process.argv[2]||'renders/first-seventh-review');
+const freshDefault=process.argv.includes('--fresh-default');
 await fs.mkdir(out,{recursive:true});
 const tab=await (await fetch('http://127.0.0.1:9222/json/new?about:blank',{method:'PUT'})).json();
 const ws=new WebSocket(tab.webSocketDebuggerUrl),pending=new Map(),listeners=new Map();let id=0;
@@ -36,9 +37,11 @@ on('Debugger.paused',async e=>{
   graphics:()=>({renderer:renderer.getContext().getParameter(renderer.getContext().getExtension('WEBGL_debug_renderer_info').UNMASKED_RENDERER_WEBGL),pixelRatio:renderer.getPixelRatio(),ao:ao.enabled,quality,samples:composer.renderTarget1.samples})
  };const actualRender=composer.render.bind(composer);composer.render=(...args)=>{__boroughReview.renders++;return actualRender(...args);}`});}finally{await send('Debugger.resume');}
 });
+if(freshDefault)await send('Page.addScriptToEvaluateOnNewDocument',{source:"localStorage.removeItem('borough.graphics');"});
 await send('Page.navigate',{url:report.url});
 async function until(expression,timeout=120000){const start=Date.now();while(Date.now()-start<timeout){if(await evaluate(expression))return;await new Promise(r=>setTimeout(r,300));}throw Error('Browser condition timed out: '+expression);}
 await until('globalThis.__boroughReview?.pose().ready && document.querySelector("#loading").hidden');
+if(freshDefault){assert.equal(await evaluate('document.querySelector("#quality").value'),'auto');report.freshAutomaticDefaultPassed=true;}
 await send('Debugger.disable');
 await evaluate('document.querySelector("#quality").value="detail";document.querySelector("#quality").dispatchEvent(new Event("change"))');
 await until('__boroughReview.pose().tiles.includes("block-5-1") && __boroughReview.pose().tiles.includes("block-5-2") && __boroughReview.pose().tiles.includes("edge-south")');

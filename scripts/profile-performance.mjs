@@ -1,5 +1,5 @@
 // Chrome CDP benchmark. Run npm run dev and an isolated Chrome on port 9222.
-// node scripts/profile-performance.mjs [output directory] [--diagnose]
+// node scripts/profile-performance.mjs [output directory] [--diagnose] [--automatic]
 // Instrumentation is injected into this review tab only, never into the game.
 import fs from 'node:fs/promises';
 import path from 'node:path';
@@ -7,6 +7,7 @@ import assert from 'node:assert/strict';
 import {createHash} from 'node:crypto';
 const out=path.resolve(process.argv[2]||'renders/performance');
 const diagnose=process.argv.includes('--diagnose');
+const automatic=process.argv.includes('--automatic');
 await fs.mkdir(out,{recursive:true});
 const url=process.env.BOROUGH_REVIEW_URL||'http://127.0.0.1:5173';
 const tab=await(await fetch('http://127.0.0.1:9222/json/new?about:blank',{method:'PUT'})).json();
@@ -59,6 +60,7 @@ try{
   const sorted=timing.slice(1).map((t,i)=>t-timing[i]).sort((a,b)=>a-b),seconds=(timing.at(-1)-timing[0])/1000;
   const mean=key=>rendered.reduce((sum,f)=>sum+f[key],0)/Math.max(1,rendered.length);
   const result={name,seconds,rafFrames:frames,rafFps:frames/seconds,renderFrames:rendered.length,renderFps:rendered.length/seconds,frameMsP50:sorted[Math.floor(sorted.length*.5)],frameMsP95:sorted[Math.floor(sorted.length*.95)],meanRenderCpuMs:mean('cpuMs'),meanDrawCalls:mean('calls'),meanTriangles:mean('triangles'),pose:await evaluate('__perf.pose()'),graphics:await evaluate('__perf.graphics()')};
+  const tail=rendered.slice(-120);result.tailRenderFps=tail.length>1?(tail.length-1)*1000/(tail.at(-1).time-tail[0].time):null;
   report.samples.push(result);console.log(JSON.stringify(result));
  }
  for(const corner of ['nw','ne','sw','se']){await evaluate(`document.querySelector('[data-seventh=${corner}]').click()`);await pause(700);await screenshot('seventh-'+corner);if(corner==='se')await sample('seventh-se-detail');}
@@ -76,6 +78,28 @@ try{
  // Cross-map travel exercises queue reprioritization, unloading and return.
  await evaluate('__perf.travel(210,-145)');await pause(9500);await until('!__perf.pose().pending');report.farTravel=await evaluate('__perf.pose()');await screenshot('avenue-a-twelfth');
  await evaluate('document.querySelector("#reset-button").click()');await until('["block-5-1","block-5-2","edge-south"].every(id=>__perf.pose().tiles.includes(id)) && !__perf.pose().pending');await pause(1000);report.returned=await evaluate('__perf.pose()');assert(Math.abs(report.returned.z-228)<.01);await screenshot('returned-seventh');
+ if(automatic){
+  report.automaticConditions='Additional warm-cache tests after cross-map travel; not a cold-drive comparison.';
+  await evaluate('document.querySelector("#quality").value="auto";document.querySelector("#quality").dispatchEvent(new Event("change"));document.querySelector("[data-seventh=se]").click()');
+  await sample('seventh-se-auto-adapting',{frames:240});await sample('seventh-se-auto-settled-rate');
+  assert((await evaluate('__perf.graphics()')).pixelRatio>=.7);
+  await pause(2000);
+  assert.equal((await evaluate('__perf.graphics()')).pixelRatio,1,'Idle automatic inspection restores CSS-pixel resolution.');
+  assert.equal((await evaluate('__perf.graphics()')).ao,true,'Idle inspection restores ambient shading.');
+  await sample('seventh-se-auto-idle',{busy:false,frames:120});
+  assert.equal(report.samples.at(-1).renderFrames,0,'Automatic idle restoration must settle without a render loop.');
+  await screenshot('seventh-se-auto-restored');
+  await evaluate('document.querySelector("#reset-button").click();document.querySelector("#drive-button").click()');
+  await send('Input.dispatchKeyEvent',{type:'keyDown',key:'w',code:'KeyW'});await sample('northbound-drive-auto-warm',{busy:false,frames:480});await send('Input.dispatchKeyEvent',{type:'keyUp',key:'w',code:'KeyW'});
+  await screenshot('automatic-drive');
+  await evaluate('document.querySelector("#reset-button").click();document.querySelector("#walk-button").click()');
+  await pause(2000);
+  assert.equal((await evaluate('__perf.graphics()')).pixelRatio,1);assert.equal((await evaluate('__perf.graphics()')).ao,true);
+  await send('Emulation.setDeviceMetricsOverride',{width:1100,height:800,deviceScaleFactor:2,mobile:false});await pause(600);
+  assert.equal((await evaluate('__perf.graphics()')).pixelRatio,1,'Automatic does not blindly render at high device pixel ratio.');
+  await send('Emulation.setDeviceMetricsOverride',{...report.viewport,mobile:false});
+  report.automaticIdleAndResizePassed=true;
+ }
  report.runtime={};for(const filename of ['viewer.js','neighborhood-render.js']){const buffer=await fs.readFile(new URL('../dist/reconstruction/'+filename,import.meta.url));report.runtime[filename]=createHash('sha256').update(buffer).digest('hex');}
  await fs.writeFile(path.join(out,'profile.json'),JSON.stringify(report,null,2)+'\n');
  assert.equal(report.errors.length,0);assert.equal(report.consoleErrors.length,0);assert.equal(report.failedRequests.length,0);

@@ -1,0 +1,14 @@
+{
+  "mode": "offline-plan-only",
+  "group": "first-seventh-pilot",
+  "jobIds": [
+    "facade-241822226-east-7th-street",
+    "facade-241822226-first-avenue",
+    "facade-241829631-east-7th-street"
+  ],
+  "candidateModel": "gpt-5.4-mini-2026-03-17",
+  "modelEstimateUsd": 0.162,
+  "requestedBudgetUsd": 2.0,
+  "apiRequestsSent": 0,
+  "limits": "Allowance calculation, not a measured quote or billing cap. Includes three requests/job (proposal, one repair, review) and assumed image/text input tokens; excludes imagery acquisition, compute and human review. Measure real usage in the pilot before scheduling a paid batch."
+}

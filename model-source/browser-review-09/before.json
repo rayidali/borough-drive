@@ -1,0 +1,849 @@
+{
+  "date": "2026-09-10T09:12:00.446Z",
+  "url": "http://127.0.0.1:5173",
+  "viewport": {
+    "width": 1440,
+    "height": 1000,
+    "deviceScaleFactor": 1
+  },
+  "cache": "disabled; local HTTP, unthrottled CPU/network",
+  "errors": [],
+  "consoleErrors": [],
+  "warnings": [],
+  "failedRequests": [],
+  "samples": [
+    {
+      "name": "seventh-se-detail",
+      "seconds": 3.6832000000000007,
+      "rafFrames": 180,
+      "rafFps": 48.87054735013031,
+      "renderFrames": 180,
+      "renderFps": 48.87054735013031,
+      "frameMsP50": 16.69999999999891,
+      "frameMsP95": 33.399999999999636,
+      "meanRenderCpuMs": 4.987222222238779,
+      "meanDrawCalls": 596,
+      "meanTriangles": 3829758,
+      "pose": {
+        "x": 1,
+        "z": 224,
+        "yaw": 2.3064170944704276,
+        "mode": "walk",
+        "ready": true,
+        "tiles": [
+          "block-4-1",
+          "block-4-2",
+          "block-5-1",
+          "block-5-2",
+          "edge-south"
+        ],
+        "coreLoaded": false,
+        "corePending": false,
+        "pending": 0
+      },
+      "graphics": {
+        "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M1, Unspecified Version)",
+        "pixelRatio": 1,
+        "ao": true,
+        "quality": "detail",
+        "samples": 4,
+        "transmissionScale": 1,
+        "memory": {
+          "geometries": 793,
+          "textures": 31
+        }
+      }
+    },
+    {
+      "name": "diagnostic-transmission-half",
+      "seconds": 2.3999000000000015,
+      "rafFrames": 120,
+      "rafFps": 50.002083420142476,
+      "renderFrames": 120,
+      "renderFps": 50.002083420142476,
+      "frameMsP50": 16.700000000000728,
+      "frameMsP95": 33.399999999999636,
+      "meanRenderCpuMs": 4.890833332513769,
+      "meanDrawCalls": 596,
+      "meanTriangles": 3829758,
+      "pose": {
+        "x": 1,
+        "z": 224,
+        "yaw": 2.3065380944704446,
+        "mode": "walk",
+        "ready": true,
+        "tiles": [
+          "block-4-1",
+          "block-4-2",
+          "block-5-1",
+          "block-5-2",
+          "edge-south"
+        ],
+        "coreLoaded": false,
+        "corePending": false,
+        "pending": 0
+      },
+      "graphics": {
+        "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M1, Unspecified Version)",
+        "pixelRatio": 1,
+        "ao": true,
+        "quality": "detail",
+        "samples": 4,
+        "transmissionScale": 0.5,
+        "memory": {
+          "geometries": 793,
+          "textures": 31
+        }
+      }
+    },
+    {
+      "name": "diagnostic-no-ao",
+      "seconds": 1.9997999999999994,
+      "rafFrames": 120,
+      "rafFps": 60.00600060006003,
+      "renderFrames": 120,
+      "renderFps": 60.00600060006003,
+      "frameMsP50": 16.69999999999709,
+      "frameMsP95": 16.700000000000728,
+      "meanRenderCpuMs": 2.2808333322405816,
+      "meanDrawCalls": 298,
+      "meanTriangles": 1915466,
+      "pose": {
+        "x": 1,
+        "z": 224,
+        "yaw": 2.3066590944704615,
+        "mode": "walk",
+        "ready": true,
+        "tiles": [
+          "block-4-1",
+          "block-4-2",
+          "block-5-1",
+          "block-5-2",
+          "edge-south"
+        ],
+        "coreLoaded": false,
+        "corePending": false,
+        "pending": 0
+      },
+      "graphics": {
+        "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M1, Unspecified Version)",
+        "pixelRatio": 1,
+        "ao": false,
+        "quality": "detail",
+        "samples": 4,
+        "transmissionScale": 1,
+        "memory": {
+          "geometries": 793,
+          "textures": 31
+        }
+      }
+    },
+    {
+      "name": "diagnostic-no-point-lights",
+      "seconds": 2.4332000000000007,
+      "rafFrames": 120,
+      "rafFps": 49.317770836758164,
+      "renderFrames": 120,
+      "renderFps": 49.317770836758164,
+      "frameMsP50": 16.700000000000728,
+      "frameMsP95": 33.39999999999782,
+      "meanRenderCpuMs": 4.794166666517655,
+      "meanDrawCalls": 596,
+      "meanTriangles": 3829758,
+      "pose": {
+        "x": 1,
+        "z": 224,
+        "yaw": 2.3067800944704784,
+        "mode": "walk",
+        "ready": true,
+        "tiles": [
+          "block-4-1",
+          "block-4-2",
+          "block-5-1",
+          "block-5-2",
+          "edge-south"
+        ],
+        "coreLoaded": false,
+        "corePending": false,
+        "pending": 0
+      },
+      "graphics": {
+        "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M1, Unspecified Version)",
+        "pixelRatio": 1,
+        "ao": true,
+        "quality": "detail",
+        "samples": 4,
+        "transmissionScale": 1,
+        "memory": {
+          "geometries": 793,
+          "textures": 31
+        }
+      }
+    },
+    {
+      "name": "seventh-se-idle",
+      "seconds": 2.999899999999998,
+      "rafFrames": 180,
+      "rafFps": 60.00200006666893,
+      "renderFrames": 0,
+      "renderFps": 0,
+      "frameMsP50": 16.700000000000728,
+      "frameMsP95": 16.700000000000728,
+      "meanRenderCpuMs": 0,
+      "meanDrawCalls": 0,
+      "meanTriangles": 0,
+      "pose": {
+        "x": 1,
+        "z": 224,
+        "yaw": 2.3067800944704784,
+        "mode": "walk",
+        "ready": true,
+        "tiles": [
+          "block-4-1",
+          "block-4-2",
+          "block-5-1",
+          "block-5-2",
+          "edge-south"
+        ],
+        "coreLoaded": false,
+        "corePending": false,
+        "pending": 0
+      },
+      "graphics": {
+        "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M1, Unspecified Version)",
+        "pixelRatio": 1,
+        "ao": true,
+        "quality": "detail",
+        "samples": 4,
+        "transmissionScale": 1,
+        "memory": {
+          "geometries": 793,
+          "textures": 31
+        }
+      }
+    },
+    {
+      "name": "seventh-se-fast",
+      "seconds": 2.999899999999998,
+      "rafFrames": 180,
+      "rafFps": 60.00200006666893,
+      "renderFrames": 180,
+      "renderFps": 60.00200006666893,
+      "frameMsP50": 16.700000000000728,
+      "frameMsP95": 16.799999999999272,
+      "meanRenderCpuMs": 2.3727777778274484,
+      "meanDrawCalls": 298,
+      "meanTriangles": 1915466,
+      "pose": {
+        "x": 1,
+        "z": 224,
+        "yaw": 2.3069610944705037,
+        "mode": "walk",
+        "ready": true,
+        "tiles": [
+          "block-4-1",
+          "block-4-2",
+          "block-5-1",
+          "block-5-2",
+          "edge-south"
+        ],
+        "coreLoaded": false,
+        "corePending": false,
+        "pending": 0
+      },
+      "graphics": {
+        "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M1, Unspecified Version)",
+        "pixelRatio": 1,
+        "ao": false,
+        "quality": "fast",
+        "samples": 2,
+        "transmissionScale": 1,
+        "memory": {
+          "geometries": 793,
+          "textures": 27
+        }
+      }
+    },
+    {
+      "name": "northbound-drive-detail",
+      "seconds": 8.9163,
+      "rafFrames": 240,
+      "rafFps": 26.916994717539787,
+      "renderFrames": 242,
+      "renderFps": 27.14130300685262,
+      "frameMsP50": 33.30000000000291,
+      "frameMsP95": 50.099999999998545,
+      "meanRenderCpuMs": 32.24504132304064,
+      "meanDrawCalls": 2224.495867768595,
+      "meanTriangles": 10557349.194214877,
+      "pose": {
+        "x": -0.29,
+        "z": 150.98910288882846,
+        "yaw": 0,
+        "mode": "drive",
+        "ready": true,
+        "tiles": [
+          "block-3-1",
+          "block-3-2",
+          "block-4-1",
+          "block-4-2",
+          "block-5-1",
+          "block-5-2",
+          "edge-south"
+        ],
+        "coreLoaded": true,
+        "corePending": false,
+        "pending": 0
+      },
+      "graphics": {
+        "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M1, Unspecified Version)",
+        "pixelRatio": 1,
+        "ao": true,
+        "quality": "detail",
+        "samples": 4,
+        "transmissionScale": 1,
+        "memory": {
+          "geometries": 1019,
+          "textures": 36
+        }
+      }
+    },
+    {
+      "name": "first-tenth-se-detail",
+      "seconds": 6.1497999999999955,
+      "rafFrames": 180,
+      "rafFps": 29.269244528277365,
+      "renderFrames": 180,
+      "renderFps": 29.269244528277365,
+      "frameMsP50": 33.30000000000291,
+      "frameMsP95": 50,
+      "meanRenderCpuMs": 9.605000000364251,
+      "meanDrawCalls": 1818.8444444444444,
+      "meanTriangles": 11365593.066666666,
+      "pose": {
+        "x": -7,
+        "z": -15,
+        "yaw": 2.425231979493415,
+        "mode": "walk",
+        "ready": true,
+        "tiles": [
+          "block-1-1",
+          "block-1-2",
+          "block-2-1",
+          "block-2-2",
+          "block-3-1",
+          "block-3-2",
+          "block-4-1",
+          "block-4-2",
+          "block-5-1",
+          "block-5-2"
+        ],
+        "coreLoaded": true,
+        "corePending": false,
+        "pending": 0
+      },
+      "graphics": {
+        "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M1, Unspecified Version)",
+        "pixelRatio": 1,
+        "ao": true,
+        "quality": "detail",
+        "samples": 4,
+        "transmissionScale": 1,
+        "memory": {
+          "geometries": 1081,
+          "textures": 36
+        }
+      }
+    }
+  ],
+  "screenshots": [
+    {
+      "name": "seventh-nw",
+      "pose": {
+        "x": -3,
+        "z": 232,
+        "yaw": -0.8124186125847132,
+        "mode": "walk",
+        "ready": true,
+        "tiles": [
+          "block-4-1",
+          "block-4-2",
+          "block-5-1",
+          "block-5-2",
+          "edge-south"
+        ],
+        "coreLoaded": false,
+        "corePending": false,
+        "pending": 0
+      }
+    },
+    {
+      "name": "seventh-ne",
+      "pose": {
+        "x": 2,
+        "z": 233,
+        "yaw": 0.8353565591193911,
+        "mode": "walk",
+        "ready": true,
+        "tiles": [
+          "block-4-1",
+          "block-4-2",
+          "block-5-1",
+          "block-5-2",
+          "edge-south"
+        ],
+        "coreLoaded": false,
+        "corePending": false,
+        "pending": 0
+      }
+    },
+    {
+      "name": "seventh-sw",
+      "pose": {
+        "x": -3,
+        "z": 222,
+        "yaw": -2.234842489621581,
+        "mode": "walk",
+        "ready": true,
+        "tiles": [
+          "block-4-1",
+          "block-4-2",
+          "block-5-1",
+          "block-5-2",
+          "edge-south"
+        ],
+        "coreLoaded": false,
+        "corePending": false,
+        "pending": 0
+      }
+    },
+    {
+      "name": "seventh-se",
+      "pose": {
+        "x": 1,
+        "z": 224,
+        "yaw": 2.3062360944704023,
+        "mode": "walk",
+        "ready": true,
+        "tiles": [
+          "block-4-1",
+          "block-4-2",
+          "block-5-1",
+          "block-5-2",
+          "edge-south"
+        ],
+        "coreLoaded": false,
+        "corePending": false,
+        "pending": 0
+      }
+    },
+    {
+      "name": "first-tenth-se",
+      "pose": {
+        "x": -7,
+        "z": -15,
+        "yaw": 2.4250509794933897,
+        "mode": "walk",
+        "ready": true,
+        "tiles": [
+          "block-1-1",
+          "block-1-2",
+          "block-2-1",
+          "block-2-2",
+          "block-3-1",
+          "block-3-2",
+          "block-4-1",
+          "block-4-2",
+          "block-5-1",
+          "block-5-2",
+          "edge-south"
+        ],
+        "coreLoaded": true,
+        "corePending": false,
+        "pending": 0
+      }
+    },
+    {
+      "name": "avenue-a-twelfth",
+      "pose": {
+        "x": 214,
+        "z": -145,
+        "yaw": 0,
+        "mode": "walk",
+        "ready": true,
+        "tiles": [
+          "block-1-2",
+          "block-2-2",
+          "block-3-2",
+          "edge-east",
+          "edge-north"
+        ],
+        "coreLoaded": true,
+        "corePending": false,
+        "pending": 0
+      }
+    },
+    {
+      "name": "returned-seventh",
+      "pose": {
+        "x": 0,
+        "z": 228,
+        "yaw": 0,
+        "mode": "walk",
+        "ready": true,
+        "tiles": [
+          "block-1-2",
+          "block-2-2",
+          "block-3-2",
+          "block-4-1",
+          "block-4-2",
+          "block-5-1",
+          "block-5-2",
+          "edge-east",
+          "edge-north",
+          "edge-south"
+        ],
+        "coreLoaded": true,
+        "corePending": false,
+        "pending": 0
+      }
+    }
+  ],
+  "startup": {
+    "readyMs": 670.5999999940395,
+    "firstFrameMs": 681.7999999970198,
+    "overlayHiddenMs": 1580.199999988079,
+    "pose": {
+      "x": 0,
+      "z": 228,
+      "yaw": 0,
+      "mode": "walk",
+      "ready": true,
+      "tiles": [
+        "block-5-1"
+      ],
+      "coreLoaded": false,
+      "corePending": false,
+      "pending": 2
+    },
+    "settledMs": 4594.0999999940395,
+    "resources": [
+      {
+        "path": "/reconstruction/viewer.css",
+        "startMs": 41.5,
+        "endMs": 43.3999999910593,
+        "bytes": 12437
+      },
+      {
+        "path": "/reconstruction/viewer.js",
+        "startMs": 41.79999999701977,
+        "endMs": 44.19999998807907,
+        "bytes": 22833
+      },
+      {
+        "path": "/reconstruction/neighborhood-world.js",
+        "startMs": 196.09999999403954,
+        "endMs": 215.19999998807907,
+        "bytes": 3444
+      },
+      {
+        "path": "/reconstruction/neighborhood-render.js",
+        "startMs": 196.09999999403954,
+        "endMs": 216.29999999701977,
+        "bytes": 18962
+      },
+      {
+        "path": "/reconstruction/neighborhood-map.js",
+        "startMs": 196.09999999403954,
+        "endMs": 223.19999998807907,
+        "bytes": 5600
+      },
+      {
+        "path": "/reconstruction/shared-textures.js",
+        "startMs": 196.19999998807907,
+        "endMs": 222.8999999910593,
+        "bytes": 1446
+      },
+      {
+        "path": "/reconstruction/vehicle.js",
+        "startMs": 196.19999998807907,
+        "endMs": 223.79999999701977,
+        "bytes": 5752
+      },
+      {
+        "path": "/reconstruction/spatial-batches.js",
+        "startMs": 218,
+        "endMs": 228.8999999910593,
+        "bytes": 3224
+      },
+      {
+        "path": "/reconstruction/storefront-glass.js",
+        "startMs": 218,
+        "endMs": 229.19999998807907,
+        "bytes": 1578
+      },
+      {
+        "path": "/reconstruction/assets/urban_alley_01_1k.hdr",
+        "startMs": 332.69999998807907,
+        "endMs": 372.09999999403954,
+        "bytes": 1708853
+      },
+      {
+        "path": "/reconstruction/businesses.json",
+        "startMs": 332.79999999701977,
+        "endMs": 356.29999999701977,
+        "bytes": 4846
+      },
+      {
+        "path": "/reconstruction/neighborhood.json",
+        "startMs": 332.8999999910593,
+        "endMs": 374.29999999701977,
+        "bytes": 1850272
+      },
+      {
+        "path": "/reconstruction/street-materials.glb",
+        "startMs": 333.09999999403954,
+        "endMs": 454.8999999910593,
+        "bytes": 4387884
+      },
+      {
+        "path": "/reconstruction/neighborhood/bicycle-detail.glb",
+        "startMs": 612.5,
+        "endMs": 617.5999999940395,
+        "bytes": 35112
+      },
+      {
+        "path": "/reconstruction/neighborhood/hydrant.glb",
+        "startMs": 612.5999999940395,
+        "endMs": 617.3999999910593,
+        "bytes": 10440
+      },
+      {
+        "path": "/reconstruction/neighborhood/litter-bin.glb",
+        "startMs": 612.7999999970198,
+        "endMs": 617.5999999940395,
+        "bytes": 14072
+      },
+      {
+        "path": "/reconstruction/neighborhood/utility-cover.glb",
+        "startMs": 612.8999999910593,
+        "endMs": 617.6999999880791,
+        "bytes": 7620
+      },
+      {
+        "path": "/reconstruction/neighborhood/drain-grate.glb",
+        "startMs": 613,
+        "endMs": 617.7999999970198,
+        "bytes": 4704
+      },
+      {
+        "path": "/reconstruction/neighborhood/street-tree.glb",
+        "startMs": 613.0999999940395,
+        "endMs": 621.1999999880791,
+        "bytes": 271376
+      },
+      {
+        "path": "/reconstruction/neighborhood/park-bench.glb",
+        "startMs": 613.1999999880791,
+        "endMs": 619.5,
+        "bytes": 18296
+      },
+      {
+        "path": "/reconstruction/neighborhood/parked-car.glb",
+        "startMs": 613.5999999940395,
+        "endMs": 619.5999999940395,
+        "bytes": 27000
+      },
+      {
+        "path": "/reconstruction/neighborhood/street-furniture.glb",
+        "startMs": 613.7999999970198,
+        "endMs": 619.6999999880791,
+        "bytes": 8560
+      },
+      {
+        "path": "/reconstruction/neighborhood/traffic-signal.glb",
+        "startMs": 613.8999999910593,
+        "endMs": 619.8999999910593,
+        "bytes": 11820
+      },
+      {
+        "path": "/reconstruction/neighborhood/edge-south.glb",
+        "startMs": 673.5999999940395,
+        "endMs": 1006.1999999880791,
+        "bytes": 6749792
+      },
+      {
+        "path": "/reconstruction/neighborhood/block-5-1.glb",
+        "startMs": 673.6999999880791,
+        "endMs": 923.3999999910593,
+        "bytes": 4856516
+      },
+      {
+        "path": "/reconstruction/neighborhood/textures/fea247dd085cd05d8deb.jpg",
+        "startMs": 930.8999999910593,
+        "endMs": 1024.5999999940395,
+        "bytes": 769715
+      },
+      {
+        "path": "/reconstruction/neighborhood/textures/4ff16bb96fc2df3ef71d.jpg",
+        "startMs": 931,
+        "endMs": 1038.3999999910593,
+        "bytes": 1195378
+      },
+      {
+        "path": "/reconstruction/neighborhood/textures/ee8625308ef01f5e2efa.png",
+        "startMs": 931,
+        "endMs": 1029,
+        "bytes": 609840
+      },
+      {
+        "path": "/reconstruction/neighborhood/textures/a1483d99ea1ca6e23adc.jpg",
+        "startMs": 931.2999999970198,
+        "endMs": 1035.0999999940395,
+        "bytes": 888760
+      },
+      {
+        "path": "/reconstruction/neighborhood/textures/f4dbf11efcb2a4ce0a97.png",
+        "startMs": 931.3999999910593,
+        "endMs": 1054.2999999970198,
+        "bytes": 1356255
+      },
+      {
+        "path": "/reconstruction/neighborhood/textures/e2159482d8dec6db0c61.jpg",
+        "startMs": 931.5,
+        "endMs": 1027.199999988079,
+        "bytes": 725873
+      },
+      {
+        "path": "/reconstruction/neighborhood/textures/9bfd45e24720d851017c.jpg",
+        "startMs": 931.8999999910593,
+        "endMs": 1058.699999988079,
+        "bytes": 955730
+      },
+      {
+        "path": "/reconstruction/neighborhood/textures/9c58254c099b2d211478.jpg",
+        "startMs": 932,
+        "endMs": 1061.0999999940395,
+        "bytes": 694800
+      },
+      {
+        "path": "/reconstruction/neighborhood/textures/51e187559b7d3036ec00.png",
+        "startMs": 932.0999999940395,
+        "endMs": 1063.0999999940395,
+        "bytes": 919676
+      },
+      {
+        "path": "/reconstruction/neighborhood/block-5-2.glb",
+        "startMs": 1443.2999999970198,
+        "endMs": 1644.8999999910593,
+        "bytes": 4512716
+      },
+      {
+        "path": "/reconstruction/neighborhood/block-4-2.glb",
+        "startMs": 1775.0999999940395,
+        "endMs": 1956.0999999940395,
+        "bytes": 3851324
+      },
+      {
+        "path": "/reconstruction/neighborhood/block-4-1.glb",
+        "startMs": 2196.0999999940395,
+        "endMs": 2331.5,
+        "bytes": 4225104
+      }
+    ],
+    "longTasks": [
+      {
+        "start": 269.09999999403954,
+        "duration": 69
+      },
+      {
+        "start": 374.59999999403954,
+        "duration": 67
+      },
+      {
+        "start": 489.29999999701977,
+        "duration": 190
+      },
+      {
+        "start": 680.1999999880791,
+        "duration": 193
+      },
+      {
+        "start": 979.3999999910593,
+        "duration": 56
+      },
+      {
+        "start": 1443.3999999910593,
+        "duration": 133
+      },
+      {
+        "start": 1776.8999999910593,
+        "duration": 121
+      },
+      {
+        "start": 1966.8999999910593,
+        "duration": 229
+      },
+      {
+        "start": 3359.5999999940395,
+        "duration": 130
+      }
+    ]
+  },
+  "graphics": {
+    "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M1, Unspecified Version)",
+    "pixelRatio": 1,
+    "ao": true,
+    "quality": "detail",
+    "samples": 4,
+    "transmissionScale": 1,
+    "memory": {
+      "geometries": 684,
+      "textures": 29
+    }
+  },
+  "farTravel": {
+    "x": 214,
+    "z": -145,
+    "yaw": 0,
+    "mode": "walk",
+    "ready": true,
+    "tiles": [
+      "block-1-2",
+      "block-2-2",
+      "block-3-2",
+      "edge-east",
+      "edge-north"
+    ],
+    "coreLoaded": true,
+    "corePending": false,
+    "pending": 0
+  },
+  "returned": {
+    "x": 0,
+    "z": 228,
+    "yaw": 0,
+    "mode": "walk",
+    "ready": true,
+    "tiles": [
+      "block-1-2",
+      "block-2-2",
+      "block-3-2",
+      "block-4-1",
+      "block-4-2",
+      "block-5-1",
+      "block-5-2",
+      "edge-east",
+      "edge-north",
+      "edge-south"
+    ],
+    "coreLoaded": true,
+    "corePending": false,
+    "pending": 0
+  },
+  "runtime": {
+    "viewer.js": "bb6bffe9bc0a809447e8136a01575588be348debcaa6fdd55cb2508d31987de8",
+    "neighborhood-render.js": "8c392b43af98762aa9f10710886489a961ecf0be1fefb8a8137850a10e8fc901"
+  },
+  "measurementLimits": "One Apple M1, local unthrottled HTTP, Chrome 152, 1440x1000 DPR 1. GPU caches and thermal state not reset. Fixed-frame driving samples differ in distance/duration. Additional Automatic tests are warm after travel, not directly comparable to cold Detailed driving."
+}

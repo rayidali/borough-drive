@@ -9,12 +9,18 @@
     "type": "git",
     "url": "https://github.com/rayidali/borough-drive.git"
   },
-  "bugs": { "url": "https://github.com/rayidali/borough-drive/issues" },
+  "bugs": {
+    "url": "https://github.com/rayidali/borough-drive/issues"
+  },
   "homepage": "https://github.com/rayidali/borough-drive#readme",
-  "engines": { "node": ">=22" },
+  "engines": {
+    "node": ">=22"
+  },
   "scripts": {
     "dev": "node scripts/serve.mjs",
     "start": "node scripts/serve.mjs",
-    "verify": "node scripts/verify-intersection.mjs && node scripts/verify-neighborhood.mjs && node scripts/prepare-street-materials.mjs --check && node scripts/verify-spatial-batches.mjs"
+    "verify": "node scripts/verify-intersection.mjs && node scripts/verify-neighborhood.mjs && node scripts/prepare-street-materials.mjs --check && node scripts/verify-spatial-batches.mjs && node scripts/verify-browser-presentation.mjs",
+    "workflow:verify": "python3 scripts/verify-block-workflow.py",
+    "workflow:plan": "python3 scripts/block-workflow.py plan"
   }
 }

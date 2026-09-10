@@ -63,3 +63,5 @@ Explain the problem and resulting behavior, link related issues or research, and
 Refresh the handoff and session log after meaningful milestones. Record the exact gameplay/source commit, local changes, push state and verified live state separately. Keep earlier reports dated; documentation-only commits may follow a gameplay commit without changing its models.
 
 Discuss the work respectfully and keep feedback specific to the proposed change. Original contributions are submitted under the project's MIT license. Third-party material retains its own license and must include its source and required notices; see [THIRD-PARTY-NOTICES.md](THIRD-PARTY-NOTICES.md).
+
+For the current browser-first work, read [pass 09](model-source/BROWSER-PASS-09.md) and [the block workflow](model-source/BLOCK-WORKFLOW.md). `npm run workflow:verify` tests the offline planner; Python 3 is needed for these optional workflow tools. Worker packets propose edits for one facade and cannot self-accept or publish. The Google API key is not a bulk/derivative-use permission grant.

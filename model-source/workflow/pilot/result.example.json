@@ -1,0 +1,50 @@
+{
+  "recordType": "offline validation example; no paid AI worker executed",
+  "jobId": "facade-241822226-first-avenue",
+  "inputFingerprint": "7da37f54c7cc9ad40897dee6a9de05c4534b0b03cf2eb5a9de851d48e60cbb93",
+  "status": "needs-evidence",
+  "observations": [
+    {
+      "category": "massing-and-proportions",
+      "visibility": "occluded",
+      "description": "The new automated workflow has no authorized reference image for this category; existing game geometry is not photographic evidence.",
+      "sourceIds": []
+    },
+    {
+      "category": "windows-doors-and-architecture",
+      "visibility": "occluded",
+      "description": "The new automated workflow has no authorized reference image for this category; existing game geometry is not photographic evidence.",
+      "sourceIds": []
+    },
+    {
+      "category": "materials-paint-and-weathering",
+      "visibility": "occluded",
+      "description": "The new automated workflow has no authorized reference image for this category; existing game geometry is not photographic evidence.",
+      "sourceIds": []
+    },
+    {
+      "category": "storefront-signs-and-lighting",
+      "visibility": "occluded",
+      "description": "The new automated workflow has no authorized reference image for this category; existing game geometry is not photographic evidence.",
+      "sourceIds": []
+    },
+    {
+      "category": "seating-boards-fixtures-and-street-edge",
+      "visibility": "occluded",
+      "description": "The new automated workflow has no authorized reference image for this category; existing game geometry is not photographic evidence.",
+      "sourceIds": []
+    },
+    {
+      "category": "roof-return-and-occluded-surfaces",
+      "visibility": "occluded",
+      "description": "The new automated workflow has no authorized reference image for this category; existing game geometry is not photographic evidence.",
+      "sourceIds": []
+    }
+  ],
+  "changes": [],
+  "patchFile": null,
+  "unresolved": [
+    "Register an authorized dated full-facade photograph and an oblique view for this frontage.",
+    "Source permission must cover derivative work and AI processing; the current Google API key alone does not establish that permission."
+  ]
+}

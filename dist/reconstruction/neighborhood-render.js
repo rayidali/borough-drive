@@ -2,6 +2,7 @@ import * as THREE from 'three';
 import {mergeGeometries} from 'three/addons/utils/BufferGeometryUtils.js';
 import {partitionStaticMeshes} from './spatial-batches.js';
 import {createStorefrontGlass} from './storefront-glass.js';
+import {refineCornerRoadMaterial} from './corner-atmosphere.js';
 
 const COLORS={'seventh red brick':0x875440,'seventh buff brick':0xb4a387,'seventh red plaster':0x973b28,'painted blue':0x2b6888,'painted ochre':0xc49a34,'warm brick':0x825944,'salmon brick':0x9c7162,'buff brick':0xb1a080,'charcoal brick':0x575653,'aged brownstone':0x796050,'limestone facade':0xb6af9c,'painted ivory':0xc7c4b7,'painted grey':0x858880,'weathered red':0x7e4d3b,'red brick':0x875440,'dark red brick':0x754736,'pale render':0xb8b5a7,'cream stone':0xb6aa89,'ochre brick':0x927454,'orange stucco':0xa86243};
 export async function createNeighborhoodRenderer({scene,loader,renderer,data,core,initialMaterials,asset,onChange,onStatus}){
@@ -39,6 +40,7 @@ export async function createNeighborhoodRenderer({scene,loader,renderer,data,cor
   geometry(g,m);
  }
  const asphalt=mat('asphalt',0x404441),pavement=mat('sidewalk',0x9b9a8c),curb=mat('curb granite',0xa9aaa1),seam=mat('concrete seam',0x64665f),white=mat('road paint',0xd4d0b7),green=mat('bike green',0x41694f),yellow=mat('yellow paint',0xcda651),busRed=mat('bus lane red',0x854b3d);
+ refineCornerRoadMaterial(asphalt);for(const surface of [white,green,yellow,busRed])refineCornerRoadMaterial(surface,{paint:true});
  const redTactile=new THREE.MeshStandardMaterial({color:0x973c32,roughness:.92});
  const ext=data.extent,avs=data.avenues,sts=data.streets;
  box((ext[0]+ext[2])/2,-.14,(ext[1]+ext[3])/2,ext[2]-ext[0],.28,ext[3]-ext[1],asphalt);
