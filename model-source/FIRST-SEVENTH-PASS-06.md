@@ -1,8 +1,8 @@
 # First Avenue / East 7th Street — study 06
 
-Study authored September 8, 2026 and **accepted by the user on September 9 as the minimum completion standard** for future blocks. Use the most recent accessible view and preserve or exceed this detail and presentation. [Performance pass 07](PERFORMANCE-PASS-07.md) retains these models while optimizing speed. The [handoff](../CODEX-HANDOFF.md) records exact source/push/deployment states. Wider map work awaits the later planning discussion.
+Study authored September 8, 2026 and **accepted by the user on September 9 as the minimum completion standard** for future blocks. Use the most recent accessible view and preserve or exceed this detail and presentation. [Performance pass 07](PERFORMANCE-PASS-07.md) retains these models while optimizing speed. The [handoff](../CODEX-HANDOFF.md) records exact source/push/deployment states. Continuation update, September 12: passes 08/09 are published and the automatic block process is being brainstormed. The user has requested no new implementation yet.
 
-The later [pass 08](FIRST-SEVENTH-PASS-08.md) uses the newly working Street View API. This report preserves what was actually observed and implemented in revision 06; its access failure is historical.
+The later [pass 08](FIRST-SEVENTH-PASS-08.md) uses the newly working Street View API; [browser pass 09](BROWSER-PASS-09.md) then improves runtime presentation while preserving those models. This report preserves what was actually observed and implemented in revision 06; its access failure is historical.
 
 ## Implemented scope
 

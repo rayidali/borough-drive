@@ -1,5 +1,7 @@
 ## Change
 
+For a continuation of the owner’s session, read `CODEX-HANDOFF.md`: the September 12 state is brainstorming only. Identify the later instruction authorizing implementation; the existing backlog or offline packet is not that instruction.
+
 Describe the problem and the resulting behavior. Link related issues.
 
 State the requested scope, the part completed here and any remaining work. Do not equate a gap inventory or partial detail pass with a completed digital twin.
@@ -12,7 +14,7 @@ Identify the building/street and relevant storefront or elevation records. First
 
 ## Validation
 
-Preserve the user-accepted First & 7th revision 06 minimum standard. For speed changes, include comparable device/viewport/quality measurements, actual render counts versus idle RAF callbacks, and loading/travel checks; see `model-source/PERFORMANCE-PASS-07.md`.
+Preserve the user-accepted First & 7th revision 06 minimum standard. For speed changes, include comparable device/viewport/quality measurements, actual render counts versus idle RAF callbacks, and loading/travel checks; see `model-source/BROWSER-PASS-09.md` for current measurements and `model-source/PERFORMANCE-PASS-07.md` for the earlier baseline.
 
 List the checks you actually ran, including `npm run verify` when applicable, and the browser/device used for hands-on checks. Note any remaining limitations.
 

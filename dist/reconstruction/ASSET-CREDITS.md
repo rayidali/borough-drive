@@ -115,3 +115,7 @@ The refinement’s wall markings, lettering, color values and small display item
 ## Browser presentation pass 09
 
 The depth-based ambient pass extends the vendored Three.js SSAO kernel and blur; the original Three.js MIT notice and shader provenance remain included. Static procedural clouds and bounded road-color variation are authored presentation effects applied to the existing credited surface materials. No new photograph or generated architectural reference is included. The new offline workflow does not ingest Google imagery: standard Google Maps terms restrict bulk extraction and derived content, and an API key or deletion of previews does not itself resolve those restrictions. Existing source and photographic credits remain unchanged.
+
+## Documentation continuation — September 12, 2026
+
+Corner pass 08 and browser pass 09 were published September 10; this documentation refresh adds no assets or photographic observations. The future process for automatic reference acquisition and block reconstruction is still under discussion. Prior source dates, uncertainty and all credits above remain unchanged. Current source/publication and continuation scope are recorded in the [repository handoff](https://github.com/rayidali/borough-drive/blob/main/CODEX-HANDOFF.md).

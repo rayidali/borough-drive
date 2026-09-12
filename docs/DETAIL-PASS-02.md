@@ -1,6 +1,6 @@
 # First & 10th — detail pass 02
 
-**Historical reference/report; current state updated September 9, 2026.** The material below remains a dated record, including its original counts, source dates and checks. The owner accepted [First & 7th revision 06](../model-source/FIRST-SEVENTH-PASS-06.md) as the minimum completion standard. [Performance pass 07](../model-source/PERFORMANCE-PASS-07.md) preserves the model exports and improves runtime speed. Read [CODEX-HANDOFF.md](../CODEX-HANDOFF.md) for exact current source/push/deployment states. Wider block/street processing awaits the later plan; this historical report does not authorize new work.
+**Continuation update — September 12, 2026.** This is a historical report; its observations, counts and checks keep their original dates. [Corner pass 08](../model-source/FIRST-SEVENTH-PASS-08.md) and [browser pass 09](../model-source/BROWSER-PASS-09.md) were published September 10. Revision 06 remains the accepted minimum. The [block process](../model-source/BLOCK-WORKFLOW.md) is under discussion; automatic acquisition and execution are not implemented. Read the [current handoff](../CODEX-HANDOFF.md) before resuming. The user requested brainstorming only, with no new implementation yet.
 
 Preserved notes from the ten-block export's original README. These describe authored model details; source dates and uncertainty remain in the [storefront records](../model-source/CURRENT-STOREFRONTS.md), [business records](../dist/reconstruction/businesses.json), and [asset credits](../dist/reconstruction/ASSET-CREDITS.md).
 

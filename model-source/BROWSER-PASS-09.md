@@ -2,6 +2,8 @@
 
 September 10, 2026. The user chose smooth browser exploration, deferred Unreal, and requested further First & 7th improvement followed by a cheaper block workflow. This pass retains all model assets from [corner pass 08](FIRST-SEVENTH-PASS-08.md). Published September 10: [live smoke evidence](browser-review-09/live-smoke.json) and the [handoff](../CODEX-HANDOFF.md) record the exact source and deployment state. It is not a PS5-quality or universal 60 FPS claim.
 
+**September 12 continuation:** source remains `c76dccebc143960498d21eeab8c55c2d0dbcc5ce`; publication/evidence checkpoint `8792ce4a941165343c5115792b66ce09688c8172` was pushed after the verified `5905b95` deployment. No fresh performance or visual result is claimed by this documentation update. Resume the automatic block-process discussion; new implementation is paused.
+
 ## Implemented changes
 
 - **Contact shading without another city draw.** [DepthAmbientPass](../dist/reconstruction/depth-ambient-pass.js) reuses the main scene depth, estimates geometric normals with edge-aware derivatives, and uses the vendored Three.js SSAO kernel/blur. It runs 16 samples at half CSS resolution. This reduces geometry submissions while retaining contact shading; the shading approximation differs from a separate normal render and needs visual review at thin edges/glass.

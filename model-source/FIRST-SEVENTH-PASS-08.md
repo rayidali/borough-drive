@@ -3,7 +3,9 @@
 [Browser pass 09](BROWSER-PASS-09.md) subsequently preserves these models and improves presentation/rendering. [The block workflow](BLOCK-WORKFLOW.md) records the browser-first direction and imagery requirements for later automation.
 
 
-Authored September 10, 2026 after the user authorized using the working Street View API to improve this corner toward the detail and presentation of Assassin’s Creed Unity. The five-building, nine-elevation, eight-shop scope remains the accepted [revision 06](FIRST-SEVENTH-PASS-06.md) benchmark. [The handoff](../CODEX-HANDOFF.md) distinguishes this local work from the previously published speed pass. This pass is not a claim of AAA production quality or a surveyed, pixel-exact digital twin.
+Authored September 10, 2026 after the user authorized using the working Street View API to improve this corner toward the detail and presentation of Assassin’s Creed Unity. The five-building, nine-elevation, eight-shop scope remains the accepted [revision 06](FIRST-SEVENTH-PASS-06.md) benchmark. Published September 10 together with browser pass 09; [publication evidence](publication-review-2026-09-10.json) and [the handoff](../CODEX-HANDOFF.md) record the exact source and deployment. This pass is not a claim of AAA production quality or a surveyed, pixel-exact digital twin.
+
+**September 12 continuation:** these dated observations and modeled details remain the working corner reference. The future process should acquire references automatically and review every assigned surface; it is brainstorming only, with no new model, imagery or job work authorized yet.
 
 ## What changed
 

@@ -2,9 +2,11 @@
 
 The repository includes the active ten-block game, exported models, textures, reference data, and editable source recipes. You can play without rebuilding anything.
 
-## Resume state — September 10, 2026
+## Resume state — September 12, 2026
 
 The owner accepted [First & 7th revision 06](model-source/FIRST-SEVENTH-PASS-06.md) as the minimum completion standard: five individual building profiles, nine exposed elevations and eight shops. [Performance pass 07](model-source/PERFORMANCE-PASS-07.md) preserves those models while improving startup, rendering and idle GPU use. The user subsequently authorized [pass 08](model-source/FIRST-SEVENTH-PASS-08.md), a Street View-based refinement of this corner. Passes 08 and 09 were published on September 10; the exact source and verified deployment states are recorded in the handoff. An economical block/street process is now prepared for a small pilot before wider East Village work; Manhattan/NYC remain longer-term objectives.
+
+**Current instruction: brainstorming only; no new implementation yet.** The desired future batch process must find useful reference views itself, process each block’s facades and street details, review the results and retain progress without depending on this chat or manual image uploads. Automatic acquisition, a persistent execution ledger and the worker/build/review coordinator are not implemented.
 
 The latest direction is browser-first: Unreal is deferred. [Browser pass 09](model-source/BROWSER-PASS-09.md) improves the corner's presentation and rendering; [the block workflow](model-source/BLOCK-WORKFLOW.md) prepares small offline worker packets and a finite coverage inventory. No paid AI batch or wider building pass has started. Google API access does not establish permission for bulk/derived-content processing; the new workflow requires suitable imagery rights.
 
@@ -66,7 +68,7 @@ If an earlier deployment shows `404: NOT_FOUND`, deploy the latest commit contai
 
 For a new session, open this repository and start with the current checkpoint in [CODEX-HANDOFF.md](CODEX-HANDOFF.md) and the latest entry in [SESSION-LOG.md](SESSION-LOG.md). The log records completed work, the exact gameplay commit, publishing status, unfinished work and next steps. [AGENTS.md](AGENTS.md) instructs coding agents to read and maintain these records as they work.
 
-A useful opening message is: **"Read AGENTS.md, CODEX-HANDOFF.md and the latest SESSION-LOG.md entry, inspect Git and publication state, and preserve the accepted First & 7th minimum standard and measured performance improvements. Keep the browser-first direction, read the block workflow, and use my next instruction for the corner/pilot; do not start paid batches or expansion automatically."** Add your review or next task.
+A useful opening message is: **"Read AGENTS.md, CODEX-HANDOFF.md and the latest SESSION-LOG.md entry, inspect Git and publication state, and preserve the accepted First & 7th minimum standard and measured performance improvements. Keep the browser-first direction and read BLOCK-WORKFLOW.md. Resume brainstorming automatic reference lookup, block jobs, cheaper workers and review/cost controls. Do not implement, start jobs, acquire imagery or expand the map until I ask."** Add your review or next task.
 
 Read [CONTRIBUTING.md](CONTRIBUTING.md) and [model-source/NEIGHBORHOOD-NOTES.md](model-source/NEIGHBORHOOD-NOTES.md) before substantial changes. The active entry point is `dist/index.html`; `dist/prototype.html` preserves the earlier experiment.
 
@@ -84,4 +86,4 @@ Original code is available under [MIT](LICENSE). Preserve the [third-party notic
 
 ## Local imagery access checks
 
-The optional research helpers read `GOOGLE_MAPS_API_KEY` from the root `.env`, which Git ignores and the local game server does not serve. Keep credentials out of chat, commits and browser code. `node scripts/check-street-view-access.mjs` checks metadata; add `--image` to retrieve at most one potentially billable preview. Inspect and delete temporary previews after use. No key or Google service is required to play. `scripts/view-first-seventh-reference.mjs` supports bounded reference angles for the authorized corner; it is not an unattended citywide batch.
+These helpers document prior access; reopening the project is not an instruction to call them. The optional research helpers read `GOOGLE_MAPS_API_KEY` from the root `.env`, which Git ignores and the local game server does not serve. Keep credentials out of chat, commits and browser code. `node scripts/check-street-view-access.mjs` checks metadata; add `--image` to retrieve at most one potentially billable preview. Inspect and delete temporary previews after use. No key or Google service is required to play. `scripts/view-first-seventh-reference.mjs` supports bounded reference angles for the authorized corner; it is not an unattended citywide batch.

@@ -1,6 +1,6 @@
 # Core storefront modeling references — September 6, 2026
 
-**Historical reference/report; current state updated September 9, 2026.** The material below remains a dated record, including its original counts, source dates and checks. The owner accepted [First & 7th revision 06](FIRST-SEVENTH-PASS-06.md) as the minimum completion standard. [Performance pass 07](PERFORMANCE-PASS-07.md) preserves the model exports and improves runtime speed. Read [CODEX-HANDOFF.md](../CODEX-HANDOFF.md) for exact current source/push/deployment states. Wider block/street processing awaits the later plan; this historical report does not authorize new work.
+**Continuation update — September 12, 2026.** This is a historical report; its observations, counts and checks keep their original dates. [Corner pass 08](FIRST-SEVENTH-PASS-08.md) and [browser pass 09](BROWSER-PASS-09.md) were published September 10. Revision 06 remains the accepted minimum. The [block process](BLOCK-WORKFLOW.md) is under discussion; automatic acquisition and execution are not implemented. Read the [current handoff](../CODEX-HANDOFF.md) before resuming. The user requested brainstorming only, with no new implementation yet.
 
 Image and source-metadata basenames below describe the original research collection; not all are distributed local files. Their dated web links and the tracked [asset credits](../dist/reconstruction/ASSET-CREDITS.md) preserve the references needed to resume. Do not infer that an unavailable temporary image or metadata file has been bundled or newly inspected.
 

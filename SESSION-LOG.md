@@ -10,6 +10,19 @@ git log --oneline -- CODEX-HANDOFF.md SESSION-LOG.md
 
 Checkpoint notes describe observed state, not a live monitor. Recheck local files, remote branches and deployment status when resuming. Keep necessary artifacts in the repository and record reproducible commands; temporary directories and old tool/process IDs are not durable checkpoints. Store no tokens, passwords or authentication cookies here.
 
+## 2026-09-12-01 — All Markdown synchronized for closing and resuming the session
+
+**Recorded:** 2026-09-12T19:40:19-04:00 (America/New_York).
+**User objective and decisions:** Update all Markdown before closing. Keep the current brainstorming-only scope: discuss a process that finds its own references and reconstructs/reviews every part of each block using cheaper workers; do not implement or launch jobs yet. Browser-first; Unreal and geographic expansion remain deferred.
+**Completed work:** Refreshed all 23 tracked Markdown files, including agent/PR instructions, handoff/start/README, contribution/workflow notes, historical pass/reference reports, paused pilot task and credits. Recorded the automatic coordinator proposal, missing execution components, current source/publication, performance limits, imagery/cost questions and a concrete resume prompt. Preserved historical observations, license notices and earlier checkpoints.
+**Gameplay/source baseline:** Unchanged `c76dccebc143960498d21eeab8c55c2d0dbcc5ce`. Session-start HEAD and cached origin/main were `8792ce4a941165343c5115792b66ce09688c8172`, clean. All non-Markdown runtime, model, source-data and workflow files unchanged; only asset-credit documentation changed under dist.
+**Local changes:** Documentation-only edits saved in a local continuation commit; use Git history for its own SHA. No uncommitted source/model work to recover and no background production job to resume. This handoff commit is not pushed by the documentation-only request.
+**Remote state:** No fetch or push this refresh. Prior turn successfully pushed `8792ce4a941165343c5115792b66ce09688c8172`; cached origin/main still matches that revision before this local documentation save. Current remote state is not newly checked.
+**Deployment state:** No deployment or live verification today. Last directly verified gameplay deployment is `5905b95ff3fcd2c111011ec73097af51dd25e100`, Vercel `3nNFK32d2P9W4E42BnT2aR9ey43G`, verified September 10 at https://borough-drive.vercel.app. Later pushed publication checkpoint `8792ce4a941165343c5115792b66ce09688c8172` had identical served files; its own deployment was not separately checked.
+**Validation:** All project Markdown accounted for, relative links and whitespace checked, non-Markdown tracked files unchanged, saved offline pilot record still validates with accepted=false. No new npm/Blender/browser/performance/imagery/API check; prior Node.js 22/24 CI, live hashes/smoke and pass 09 measurements remain dated evidence.
+**Unresolved issues:** Automatic imagery discovery, persistent ledger, paid dispatcher and coordinator/build/review loop are unimplemented. Imagery permissions, cheaper-model quality and total cost are unresolved; no approved images or paid model jobs. Dense driving remains below consistent 60 FPS, hidden/unmeasured geometry stays uncertain, and inherited compiler height resets need attention before unattended builds.
+**Next action:** Read the updated handoff/workflow and inspect Git before continuing. Brainstorm source acquisition/permissions, block review units, small facade qualification, budget/resume design and scaling. Do not implement, acquire imagery, launch paid workers or expand until instructed. Use npm run dev / Graphics → Automatic to review the existing game; no old processes or temporary files are needed.
+
 ## 2026-09-10-09 — Saved corner/browser work pushed to main and verified live
 
 **Recorded:** 2026-09-10T15:03:43-04:00 (America/New_York).

@@ -53,3 +53,7 @@ The refinement’s wall markings, lettering, color values and small display item
 ## Browser presentation pass 09
 
 The depth-based ambient pass extends the vendored Three.js SSAO kernel and blur; the original Three.js MIT notice and shader provenance remain included. Static procedural clouds and bounded road-color variation are authored presentation effects applied to the existing credited surface materials. No new photograph or generated architectural reference is included. The new offline workflow does not ingest Google imagery: standard Google Maps terms restrict bulk extraction and derived content, and an API key or deletion of previews does not itself resolve those restrictions. Existing source and photographic credits remain unchanged.
+
+## September 12 continuation
+
+This session refresh changes documentation only and adds no imagery, models or licenses. The September 10 [source-policy discussion](model-source/BLOCK-WORKFLOW.md#imagery-constraint) remains unresolved for future automated acquisition: API access, viewing without retaining images, or manually providing Google screenshots does not itself establish the needed permission. Existing provenance and all notices above remain intact; no source-policy change or new rights verification occurred in this refresh.

@@ -1,6 +1,18 @@
-# Browser-first block workflow — September 10, 2026
+# Browser-first block workflow — September 12 continuation
 
 The user chose smooth browser exploration, deferred Unreal, and asked for a repeatable process that can reproduce the First & 7th standard across the existing map using cheaper AI workers. Current [corner pass 08](FIRST-SEVENTH-PASS-08.md) is the visual reference; [browser pass 09](BROWSER-PASS-09.md) improves its presentation and runtime. This document specifies the next production process. It does not claim the wider map has been upgraded or that an AI batch has run.
+
+## Current decision and missing coordinator
+
+**The user requested brainstorming only, with no new implementation yet.** The September 10 conversation clarified that the desired job should find reference images itself, inspect and reconstruct the block, review results and continue without the user manually supplying every view. This September 12 update saves that discussion; it does not launch a pilot or add any worker capability.
+
+The proposed coordinator would run independently of the chat, on the local computer initially or a server later. A block would be the review unit, with smaller facade/shop/street tasks inside it. It would seek dated full, oblique and close views, verify that each depicts the correct building, try alternate viewpoints for obscured features, and record unresolved areas when no useful view exists. Existing footprint/height data would anchor geometry; image observations would guide appearance without becoming surveyed measurements.
+
+A cheaper vision worker would produce a small evidence-linked specification, reusable recipes would build its particular geometry/materials, and a reviewer would compare corresponding rendered views and check browser performance. Missing details would return for limited repair; unusual components and failed reviews would escalate to a stronger model. A durable ledger would retain source/version hashes, task status, actual spend and retry counts, supporting restart, unchanged-work skipping, budget stops and a block-level review boundary. Every surface would remain accounted for as reviewed or unresolved, including hidden returns and roofs. These are proposed behaviors, not implemented services.
+
+Automatic acquisition, a persistent execution ledger, paid dispatch, coordinator/build/repair execution and scheduling are **not built**. No job will continue after this chat closes. Three facade tasks followed by one complete block are the proposed qualification sequence, before the remaining East Village blocks and later Manhattan/NYC. Cheaper-model quality and end-to-end cost still need measurement. City expansion would also require continued streaming and distance-appropriate rendering to preserve browser speed.
+
+The next session should discuss the imagery source/permission, coordinator scope and review/budget boundaries with the user. It should not execute the commands below as an automatic next step. The published source is `c76dcce`; the [handoff](../CODEX-HANDOFF.md) records exact Git and live verification states.
 
 ## What is implemented now
 
@@ -34,7 +46,7 @@ The initial coordinator procedure uses the existing compiler/exporter, `npm run 
 
 ## Imagery constraint
 
-Google's standard Maps terms restrict bulk extraction/caching and creating content from Maps content in §3.2.3; its Static Street View policy also limits storage, with an exception for panorama IDs. A functioning API key does not establish permission for an automated reconstruction pipeline. Deleting previews does not by itself resolve derivative-use restrictions. [Google Maps terms](https://cloud.google.com/maps-platform/terms), [Street View policy](https://developers.google.com/maps/documentation/streetview/policies).
+Google's standard Maps terms restrict bulk extraction/caching and creating content from Maps content in §3.2.3; its Static Street View policy also limits storage, with an exception for panorama IDs. A functioning API key does not establish permission for an automated reconstruction pipeline. This records the September 10 terms review, not a new September 12 legal/source check. Deleting previews, viewing instead of storing them, or manually uploading Google screenshots does not by itself establish permission for the proposed reconstruction workflow. Suitable permission or appropriately licensed alternative imagery is still needed for automatic acquisition. [Google Maps terms](https://cloud.google.com/maps-platform/terms), [Street View policy](https://developers.google.com/maps/documentation/streetview/policies).
 
 Consequently, this new planner has **no Google imagery ingestion or paid batch submission**. Register owner-supplied or appropriately licensed images whose permission covers the proposed processing and derivative work. The source record requires a capture date, credit, use basis and explicit approval; a public image URL alone is insufficient. Google-specific permission would require a deliberate source-policy change and review before adding an adapter. Existing pass 08 provenance stays intact and is not promoted into an automated image-use permission grant.
 
@@ -42,15 +54,17 @@ The example Tile Bar packet deliberately has no approved source images. Its [exa
 
 ## Model and cost policy
 
-Start by evaluating **GPT-5.4 Mini** for structured visual observations and bounded code proposals. Its official documentation supports image input and structured outputs, and lists standard input/output pricing of **$0.75 / $4.50 per million tokens**. The snapshot in the policy is `gpt-5.4-mini-2026-03-17`; account availability has not been tested. [Official model documentation](https://developers.openai.com/api/docs/models/gpt-5.4-mini).
+The September 10 proposal was to evaluate **GPT-5.4 Mini** for structured visual observations and bounded code proposals. Its official documentation supports image input and structured outputs, and lists standard input/output pricing of **$0.75 / $4.50 per million tokens**. The snapshot in the policy is `gpt-5.4-mini-2026-03-17`; account availability has not been tested. [Official model documentation](https://developers.openai.com/api/docs/models/gpt-5.4-mini).
 
-OpenAI's Batch API offers **50% lower input/output costs with a 24-hour completion window** for eligible work. Observation, implementation and review are dependent stages: complete one stage before submitting the next. A single batch is not an unattended coding session that can run Blender, fix files and inspect its own browser. The local coordinator still handles those steps. [Batch documentation](https://developers.openai.com/api/docs/guides/batch).
+The September 10 documentation check recorded that OpenAI's Batch API offers **50% lower input/output costs with a 24-hour completion window** for eligible work. Observation, implementation and review are dependent stages: complete one stage before submitting the next. A single batch is not an unattended coding session that can run Blender, fix files and inspect its own browser. The local coordinator still handles those steps. [Batch documentation](https://developers.openai.com/api/docs/guides/batch).
 
 The saved pilot uses three facade jobs and allows three model requests per job: proposal, one repair and review. With an assumed allowance of 18,000 input and 5,000 output tokens per request, the calculated Batch model cost is **$0.162 for the pilot**. This is an arithmetic example, **not a measured end-to-end quote or billing guarantee**. Image tokenization, reasoning/output usage, retries, acquisition, Blender compute and human review must be measured. API prices and Batch discounts should not be treated as the price of this current Codex conversation.
 
 The current planner limits a plan to three jobs and rejects token-allowance estimates above the requested budget (maximum $2 by default). It records zero requests sent. A future paid runner must reserve budget before each request, record actual usage, stop on budget exhaustion and cap retries; the offline estimate alone cannot enforce provider billing. Stronger models handle uncertain sources, new architecture components and failed reviews. They should not reread the whole map for every ordinary facade. No model was switched, trained or evaluated during this setup.
 
-## Commands
+Model availability, prices and source terms in this document are dated planning inputs; recheck them before a later authorized paid pilot. They were not refreshed during the September 12 documentation-only handoff.
+
+## Commands (offline reference; implementation paused)
 
 ```sh
 # Rebuild the finite inventory; no networking or game edits.
