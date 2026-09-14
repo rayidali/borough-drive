@@ -15,6 +15,18 @@ Walk and drive through ten connected East Village blocks, reconstructed from map
 
 </div>
 
+## New local driving study: Seventh, slowly.
+
+The September 14 Godot browser slice adds an authored apricot coupe, chase/hood/cockpit/overhead views, golden hour/dusk/rain, a small route map, original lofi audio and downloadable postcards around First & Seventh. Run `npm run dev` and open **http://127.0.0.1:5173/seventh/**. Use WASD/arrows to drive, C for cameras and T for weather. The export is included and runs on the player's device without a GPU server.
+
+[Controls and rebuild](engine/first-seventh/README.md) · [Measured review and limits](model-source/SEVENTH-ENGINE-01.md) · [Current local/push/deployment state](CODEX-HANDOFF.md)
+
+The existing public ten-block game described below remains intact. The new slice is local and unpublished; the eventual 500-user goal is not a tested capacity claim.
+
+![Seventh slowly browser driving game, with the apricot car at First and Seventh in golden hour](docs/images/seventh-engine-01/golden-chase.png)
+
+*Actual Godot browser capture. [Rain](docs/images/seventh-engine-01/rain-chase.png), [cockpit](docs/images/seventh-engine-01/cockpit.png) and [overhead](docs/images/seventh-engine-01/dusk-overhead.png). [Credits](dist/seventh/credits.txt).*
+
 ![Modeled First Avenue and East 10th Street, with corner storefronts, brick facades, fire escapes, and a crosswalk](dist/reconstruction/intersection-render.png)
 
 *First & 10th, the project's most individually detailed intersection. This is a Blender render of the authored model; browser lighting differs. [Image and model credits](dist/reconstruction/ASSET-CREDITS.md).*
@@ -71,7 +83,7 @@ If port 5173 is occupied, run `npm run dev -- 5174`. See [START-HERE.md](START-H
 | Open the travel map | M |
 | Return to First & 7th | R |
 | Inspect its four corners | First & 7th detail-study buttons |
-| Choose rendering quality | Graphics selector; Detailed is the default |
+| Choose rendering quality | Graphics selector; Automatic is the default for new visitors |
 
 ![Southwest corner model showing ornate masonry, black fire escapes, the theater frontage, and the tower behind it](dist/reconstruction/southwest-render.png)
 

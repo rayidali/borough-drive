@@ -57,3 +57,9 @@ The depth-based ambient pass extends the vendored Three.js SSAO kernel and blur;
 ## September 12 continuation
 
 This session refresh changes documentation only and adds no imagery, models or licenses. The September 10 [source-policy discussion](model-source/BLOCK-WORKFLOW.md#imagery-constraint) remains unresolved for future automated acquisition: API access, viewing without retaining images, or manually providing Google screenshots does not itself establish the needed permission. Existing provenance and all notices above remain intact; no source-policy change or new rights verification occurred in this refresh.
+
+## September 14 Godot browser slice
+
+The separate First & Seventh game reuses existing neighborhood geometry and applies authored vertex colors, sky/weather and street dressing. The car and synthesized audio loops are original contributions; no new reference photographs or sampled commercial recordings are included. Existing photographic observations, geographic licenses, Damion sign-font attribution and uncertainty remain intact. This does not establish new source rights or measured architectural fidelity.
+
+Godot 4.7.2 is MIT-licensed; [full engine and third-party notices](dist/seventh/godot-notices.txt) are extracted from the installed engine and distributed beside its browser binary. The package also includes [original-code MIT](dist/seventh/LICENSE.txt), [Damion OFL](dist/seventh/DAMION-OFL.txt) and [slice credits/geographic attribution](dist/seventh/credits.txt). These notices do not replace any source-specific terms above. New review screenshots and postcards are captures of the actual game.

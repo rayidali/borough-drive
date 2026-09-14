@@ -54,11 +54,11 @@ static func rings(parent: Node3D, profiles: Array, mat: Material) -> MeshInstanc
 		for col in range(6):
 			var a=row*6+col
 			var b=row*6+(col+1)%6
-			for i in [a,b,b+6,a,b+6,a+6]: st.add_vertex(vertices[i])
+			for i in [a,b+6,b,a,a+6,b+6]: st.add_vertex(vertices[i])
 	for end in [0,profiles.size()-1]:
 		for col in range(1,5):
 			var indices=[end*6,end*6+col,end*6+col+1]
-			if end==0: indices.reverse()
+			if end!=0: indices.reverse()
 			for i in indices: st.add_vertex(vertices[i])
 	st.generate_normals()
 	return mesh(parent,Vector3.ZERO,st.commit(),mat)

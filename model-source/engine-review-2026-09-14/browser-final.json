@@ -1,0 +1,783 @@
+{
+  "date": "2026-09-14T21:50:01.695Z",
+  "url": "http://127.0.0.1:5173/seventh/?review=1",
+  "viewport": {
+    "width": 1440,
+    "height": 1000,
+    "deviceScaleFactor": 1
+  },
+  "conditions": "Local HTTP, Apple M1, unthrottled CPU/network; browser cache disabled for startup. Render counters from the actual engine; subsequent samples warmed.",
+  "errors": [],
+  "warnings": [],
+  "failedRequests": [],
+  "samples": [
+    {
+      "name": "weather-0-northbound",
+      "seconds": 5.003200000005959,
+      "frames": 379,
+      "counterMs": 5069,
+      "rafFps": 74.75215861839513,
+      "p95Ms": 14.099999999998545,
+      "drawCalls": 485.3573333333333,
+      "triangles": 2863274.5306666666,
+      "final": {
+        "buildings": 154,
+        "camera": 0,
+        "collisions": 0,
+        "drawCalls": 385,
+        "fps": 75,
+        "frames": 1277,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -0.5,
+          -0.0190591868013144,
+          -51.2892532348633
+        ],
+        "ready": true,
+        "scale": 1,
+        "sound": false,
+        "speed": 17.5,
+        "started": true,
+        "tickMs": 19067,
+        "triangles": 1956012,
+        "weather": 0,
+        "wetness": 0,
+        "yaw": 0
+      },
+      "renderFps": 74.7681988557901
+    },
+    {
+      "name": "weather-1-northbound",
+      "seconds": 5.003199999999997,
+      "frames": 380,
+      "counterMs": 5069,
+      "rafFps": 74.95203070035181,
+      "p95Ms": 14.299999999999272,
+      "drawCalls": 485.4308510638298,
+      "triangles": 2867144.8191489363,
+      "final": {
+        "buildings": 154,
+        "camera": 0,
+        "collisions": 0,
+        "drawCalls": 385,
+        "fps": 75,
+        "frames": 2436,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -0.5,
+          -0.0190591868013144,
+          -51.2892532348633
+        ],
+        "ready": true,
+        "scale": 1,
+        "sound": false,
+        "speed": 17.5,
+        "started": true,
+        "tickMs": 34526,
+        "triangles": 1956008,
+        "weather": 1,
+        "wetness": 0.219839873606087,
+        "yaw": 0
+      },
+      "renderFps": 74.96547642533044
+    },
+    {
+      "name": "weather-2-northbound",
+      "seconds": 5.002300000008938,
+      "frames": 380,
+      "counterMs": 5068,
+      "rafFps": 74.96551586256922,
+      "p95Ms": 14.30000000000291,
+      "drawCalls": 486.17287234042556,
+      "triangles": 2864864.526595745,
+      "final": {
+        "buildings": 154,
+        "camera": 0,
+        "collisions": 0,
+        "drawCalls": 391,
+        "fps": 75,
+        "frames": 3590,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -0.5,
+          -0.0190581157803535,
+          -50.414249420166
+        ],
+        "ready": true,
+        "scale": 1,
+        "sound": false,
+        "speed": 17.5,
+        "started": true,
+        "tickMs": 49971,
+        "triangles": 2034391,
+        "weather": 2,
+        "wetness": 0.999439507694345,
+        "yaw": 0
+      },
+      "renderFps": 74.9802683504341
+    }
+  ],
+  "checks": {
+    "camerasAndWeather": 12,
+    "reverse": true,
+    "brake": true,
+    "pause": true,
+    "reset": true,
+    "steering": true,
+    "settingsReload": true,
+    "resize": true,
+    "focusLoss": true,
+    "postcard": true
+  },
+  "screenshots": [
+    {
+      "name": "title",
+      "stats": {
+        "buildings": 154,
+        "camera": 0,
+        "collisions": 0,
+        "drawCalls": 485,
+        "fps": 68,
+        "frames": 121,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -0.5,
+          -0.0197903737425804,
+          8
+        ],
+        "ready": true,
+        "scale": 1,
+        "sound": false,
+        "speed": 0,
+        "started": false,
+        "tickMs": 3608,
+        "triangles": 2720547,
+        "weather": 0,
+        "wetness": 0,
+        "yaw": 0
+      }
+    },
+    {
+      "name": "weather-0-camera-0",
+      "stats": {
+        "buildings": 154,
+        "camera": 0,
+        "collisions": 0,
+        "drawCalls": 505,
+        "fps": 75,
+        "frames": 632,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -0.5,
+          -0.0198763031512499,
+          8
+        ],
+        "ready": true,
+        "scale": 1,
+        "sound": false,
+        "speed": 0,
+        "started": true,
+        "tickMs": 10450,
+        "triangles": 2722723,
+        "weather": 0,
+        "wetness": 0,
+        "yaw": 0
+      }
+    },
+    {
+      "name": "weather-0-camera-1",
+      "stats": {
+        "buildings": 154,
+        "camera": 1,
+        "collisions": 0,
+        "drawCalls": 326,
+        "fps": 75,
+        "frames": 708,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -0.5,
+          -0.0198763031512499,
+          8
+        ],
+        "ready": true,
+        "scale": 1,
+        "sound": false,
+        "speed": 0,
+        "started": true,
+        "tickMs": 11464,
+        "triangles": 2686490,
+        "weather": 0,
+        "wetness": 0,
+        "yaw": 0
+      }
+    },
+    {
+      "name": "weather-0-camera-2",
+      "stats": {
+        "buildings": 154,
+        "camera": 2,
+        "collisions": 0,
+        "drawCalls": 388,
+        "fps": 75,
+        "frames": 765,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -0.5,
+          -0.0198763031512499,
+          8
+        ],
+        "ready": true,
+        "scale": 1,
+        "sound": false,
+        "speed": 0,
+        "started": true,
+        "tickMs": 12224,
+        "triangles": 2703515,
+        "weather": 0,
+        "wetness": 0,
+        "yaw": 0
+      }
+    },
+    {
+      "name": "weather-0-camera-3",
+      "stats": {
+        "buildings": 154,
+        "camera": 3,
+        "collisions": 0,
+        "drawCalls": 333,
+        "fps": 75,
+        "frames": 822,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -0.5,
+          -0.0198763031512499,
+          8
+        ],
+        "ready": true,
+        "scale": 1,
+        "sound": false,
+        "speed": 0,
+        "started": true,
+        "tickMs": 12985,
+        "triangles": 2268985,
+        "weather": 0,
+        "wetness": 0,
+        "yaw": 0
+      }
+    },
+    {
+      "name": "weather-0-drive",
+      "stats": {
+        "buildings": 154,
+        "camera": 0,
+        "collisions": 0,
+        "drawCalls": 374,
+        "fps": 75,
+        "frames": 1296,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -0.5,
+          -0.0190592221915722,
+          -55.7980194091797
+        ],
+        "ready": true,
+        "scale": 1,
+        "sound": false,
+        "speed": 16.4041129744529,
+        "started": true,
+        "tickMs": 19320,
+        "triangles": 1910434,
+        "weather": 0,
+        "wetness": 0,
+        "yaw": 0
+      }
+    },
+    {
+      "name": "weather-1-camera-0",
+      "stats": {
+        "buildings": 154,
+        "camera": 0,
+        "collisions": 0,
+        "drawCalls": 507,
+        "fps": 75,
+        "frames": 1809,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -0.5,
+          -0.0198763031512499,
+          8
+        ],
+        "ready": true,
+        "scale": 1,
+        "sound": false,
+        "speed": 0,
+        "started": true,
+        "tickMs": 26163,
+        "triangles": 2723151,
+        "weather": 1,
+        "wetness": 0.211145658830724,
+        "yaw": 0
+      }
+    },
+    {
+      "name": "weather-1-camera-1",
+      "stats": {
+        "buildings": 154,
+        "camera": 1,
+        "collisions": 0,
+        "drawCalls": 326,
+        "fps": 75,
+        "frames": 1866,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -0.5,
+          -0.0198763031512499,
+          8
+        ],
+        "ready": true,
+        "scale": 1,
+        "sound": false,
+        "speed": 0,
+        "started": true,
+        "tickMs": 26923,
+        "triangles": 2686486,
+        "weather": 1,
+        "wetness": 0.213852060491867,
+        "yaw": 0
+      }
+    },
+    {
+      "name": "weather-1-camera-2",
+      "stats": {
+        "buildings": 154,
+        "camera": 2,
+        "collisions": 0,
+        "drawCalls": 388,
+        "fps": 75,
+        "frames": 1923,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -0.5,
+          -0.0198763031512499,
+          8
+        ],
+        "ready": true,
+        "scale": 1,
+        "sound": false,
+        "speed": 0,
+        "started": true,
+        "tickMs": 27683,
+        "triangles": 2703511,
+        "weather": 1,
+        "wetness": 0.215731228391467,
+        "yaw": 0
+      }
+    },
+    {
+      "name": "weather-1-camera-3",
+      "stats": {
+        "buildings": 154,
+        "camera": 3,
+        "collisions": 0,
+        "drawCalls": 334,
+        "fps": 75,
+        "frames": 1980,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -0.5,
+          -0.0198763031512499,
+          8
+        ],
+        "ready": true,
+        "scale": 1,
+        "sound": false,
+        "speed": 0,
+        "started": true,
+        "tickMs": 28444,
+        "triangles": 2269197,
+        "weather": 1,
+        "wetness": 0.217036013281896,
+        "yaw": 0
+      }
+    },
+    {
+      "name": "weather-1-drive",
+      "stats": {
+        "buildings": 154,
+        "camera": 0,
+        "collisions": 0,
+        "drawCalls": 374,
+        "fps": 75,
+        "frames": 2455,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -0.5,
+          -0.0190580021589994,
+          -55.5246162414551
+        ],
+        "ready": true,
+        "scale": 1,
+        "sound": false,
+        "speed": 16.4691931725371,
+        "started": true,
+        "tickMs": 34779,
+        "triangles": 1910430,
+        "weather": 1,
+        "wetness": 0.219858207247038,
+        "yaw": 0
+      }
+    },
+    {
+      "name": "weather-2-camera-0",
+      "stats": {
+        "buildings": 154,
+        "camera": 0,
+        "collisions": 0,
+        "drawCalls": 508,
+        "fps": 75,
+        "frames": 2963,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -0.5,
+          -0.0198763031512499,
+          8
+        ],
+        "ready": true,
+        "scale": 1,
+        "sound": false,
+        "speed": 0,
+        "started": true,
+        "tickMs": 41608,
+        "triangles": 2726877,
+        "weather": 2,
+        "wetness": 0.969007045148832,
+        "yaw": 0
+      }
+    },
+    {
+      "name": "weather-2-camera-1",
+      "stats": {
+        "buildings": 154,
+        "camera": 1,
+        "collisions": 0,
+        "drawCalls": 327,
+        "fps": 75,
+        "frames": 3020,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -0.5,
+          -0.0198763031512499,
+          8
+        ],
+        "ready": true,
+        "scale": 1,
+        "sound": false,
+        "speed": 0,
+        "started": true,
+        "tickMs": 42369,
+        "triangles": 2690212,
+        "weather": 2,
+        "wetness": 0.978480294811266,
+        "yaw": 0
+      }
+    },
+    {
+      "name": "weather-2-camera-2",
+      "stats": {
+        "buildings": 154,
+        "camera": 2,
+        "collisions": 0,
+        "drawCalls": 389,
+        "fps": 75,
+        "frames": 3077,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -0.5,
+          -0.0198763031512499,
+          8
+        ],
+        "ready": true,
+        "scale": 1,
+        "sound": false,
+        "speed": 0,
+        "started": true,
+        "tickMs": 43129,
+        "triangles": 2707237,
+        "weather": 2,
+        "wetness": 0.985057968379141,
+        "yaw": 0
+      }
+    },
+    {
+      "name": "weather-2-camera-3",
+      "stats": {
+        "buildings": 154,
+        "camera": 3,
+        "collisions": 0,
+        "drawCalls": 333,
+        "fps": 75,
+        "frames": 3153,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -0.5,
+          -0.0198763031512499,
+          8
+        ],
+        "ready": true,
+        "scale": 1,
+        "sound": false,
+        "speed": 0,
+        "started": true,
+        "tickMs": 44143,
+        "triangles": 2254034,
+        "weather": 2,
+        "wetness": 0.990812991965945,
+        "yaw": 0
+      }
+    },
+    {
+      "name": "weather-2-drive",
+      "stats": {
+        "buildings": 154,
+        "camera": 0,
+        "collisions": 0,
+        "drawCalls": 379,
+        "fps": 75,
+        "frames": 3609,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -0.5,
+          -0.0190591290593147,
+          -54.7117729187012
+        ],
+        "ready": true,
+        "scale": 1,
+        "sound": false,
+        "speed": 16.7338848284916,
+        "started": true,
+        "tickMs": 50225,
+        "triangles": 1920388,
+        "weather": 2,
+        "wetness": 0.999503681154049,
+        "yaw": 0
+      }
+    },
+    {
+      "name": "pause",
+      "stats": {
+        "buildings": 154,
+        "camera": 0,
+        "collisions": 0,
+        "drawCalls": 537,
+        "fps": 75,
+        "frames": 4273,
+        "paused": true,
+        "persistent": true,
+        "position": [
+          -0.5,
+          -0.019059544429183,
+          -4.7700719833374
+        ],
+        "ready": true,
+        "scale": 1,
+        "sound": false,
+        "speed": 0,
+        "started": true,
+        "tickMs": 59081,
+        "triangles": 3177793,
+        "weather": 2,
+        "wetness": 0.999992961993554,
+        "yaw": 0
+      }
+    },
+    {
+      "name": "retina-resize",
+      "stats": {
+        "buildings": 154,
+        "camera": 0,
+        "collisions": 0,
+        "drawCalls": 496,
+        "fps": 73,
+        "frames": 380,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -0.5,
+          -0.0197903737425804,
+          8
+        ],
+        "ready": true,
+        "scale": 1,
+        "sound": false,
+        "speed": 0,
+        "started": true,
+        "tickMs": 6737,
+        "triangles": 2665527,
+        "weather": 0,
+        "wetness": 0.494239036139956,
+        "yaw": 0
+      }
+    },
+    {
+      "name": "download-recovery"
+    },
+    {
+      "name": "graphics-recovery",
+      "stats": {
+        "buildings": 154,
+        "camera": 0,
+        "collisions": 0,
+        "drawCalls": 485,
+        "fps": 70,
+        "frames": 123,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -0.5,
+          -0.0197903737425804,
+          8
+        ],
+        "ready": true,
+        "scale": 1,
+        "sound": false,
+        "speed": 0,
+        "started": false,
+        "tickMs": 3096,
+        "triangles": 2720547,
+        "weather": 0,
+        "wetness": 0,
+        "yaw": 0
+      }
+    }
+  ],
+  "recovery": {
+    "errors": [
+      "Error: Failed loading file 'index.pck'\n    at http://127.0.0.1:5173/seventh/index.js:147:27\n    at async Promise.all (index 1)",
+      "Error: The graphics context was lost.\n    at canvas.addEventListener.capture (http://127.0.0.1:5173/seventh/?review=1:76:15)"
+    ],
+    "warnings": [],
+    "failedRequests": [
+      [
+        503,
+        "http://127.0.0.1:5173/seventh/index.pck"
+      ],
+      [
+        503,
+        "http://127.0.0.1:5173/seventh/index.pck"
+      ],
+      [
+        503,
+        "http://127.0.0.1:5173/seventh/index.pck"
+      ],
+      [
+        503,
+        "http://127.0.0.1:5173/seventh/index.pck"
+      ]
+    ],
+    "checks": {
+      "missingPackRetry": true,
+      "contextLossRetry": true
+    }
+  },
+  "startup": {
+    "readyMs": 3621.2999999970198,
+    "resources": [
+      {
+        "path": "/seventh/index.js",
+        "bytes": 280115,
+        "durationMs": 34.20000000298023
+      },
+      {
+        "path": "/seventh/index.wasm",
+        "bytes": 39515054,
+        "durationMs": 511.79999999701977
+      },
+      {
+        "path": "/seventh/index.pck",
+        "bytes": 67173900,
+        "durationMs": 680.7000000029802
+      }
+    ],
+    "stats": {
+      "buildings": 154,
+      "camera": 0,
+      "collisions": 0,
+      "drawCalls": 485,
+      "fps": 68,
+      "frames": 102,
+      "paused": false,
+      "persistent": true,
+      "position": [
+        -0.5,
+        -0.0197903737425804,
+        8
+      ],
+      "ready": true,
+      "scale": 1,
+      "sound": false,
+      "speed": 0,
+      "started": false,
+      "tickMs": 3354,
+      "triangles": 2720547,
+      "weather": 0,
+      "wetness": 0,
+      "yaw": 0
+    }
+  },
+  "settingsBeforeReload": {
+    "buildings": 154,
+    "camera": 1,
+    "collisions": 0,
+    "drawCalls": 328,
+    "fps": 75,
+    "frames": 4784,
+    "paused": false,
+    "persistent": true,
+    "position": [
+      -0.5,
+      -0.0198763031512499,
+      8
+    ],
+    "ready": true,
+    "scale": 1,
+    "sound": true,
+    "speed": 0,
+    "started": true,
+    "tickMs": 65924,
+    "triangles": 2690250,
+    "weather": 2,
+    "wetness": 0.999999735996512,
+    "yaw": 0
+  },
+  "retinaCanvas": {
+    "width": 1100,
+    "height": 800,
+    "css": [
+      1100,
+      800
+    ]
+  },
+  "captureNote": "Actual browser captures; HTTP cache disabled, browser/driver compilation caches warmed by earlier local reviews.",
+  "reviewedPackageManifestSha256": "a72bfa31dee58fe92bfc2bfb21aa5672200725dfc7135e25ee0e28ca3543c160",
+  "packagedManifestSha256": "ee85751c16371f06efba489fc1ba1a6a38df92c30ffcb3c1c1861342776bb4d6",
+  "postReviewPackaging": "Only trailing whitespace/blank lines in generated HTML and license notices normalized. All engine/game binary, JS and worklet hashes match the reviewed package."
+}

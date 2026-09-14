@@ -1,0 +1,38 @@
+SEVENTH, SLOWLY. — BOROUGH DRIVE
+
+Original game code, car, street furniture, sky/road shaders and synthesized audio:
+Copyright (c) 2026 Rayid Ali and Borough Drive contributors. MIT License.
+The music is an original generated chord loop, reproduced by
+model-source/make_seventh_audio.py; no commercial recording is sampled.
+See LICENSE.txt for the original-code license.
+
+Engine: Godot 4.7.2, MIT. Godot Engine contributors; Juan Linietsky,
+Ariel Manzur. Full engine and third-party notices: godot-notices.txt.
+https://godotengine.org/license/
+
+Geography: © OpenStreetMap contributors, ODbL 1.0.
+https://www.openstreetmap.org/copyright
+NYC OTI building footprints; DCP PLUTO 26v2; DOHMH/DCWP dated records.
+https://cityofnewyork.github.io/opendatatsm/publicpolicies.html
+The City does not sponsor this project. These are dated geographic records,
+estimated details and architectural observations, not a current field survey.
+
+Some modeled sign lettering derives from Damion Regular, Copyright 2014
+The Damion Project Authors, SIL Open Font License 1.1. See DAMION-OFL.txt.
+
+Existing First & Seventh model geometry was converted from Borough Drive's
+source recipes without introducing new photographic observations. Lofi colors,
+weather and additional street props are authored atmosphere. Business names,
+wall markings and proportions retain the parent's documented uncertainties.
+No new reference photographs are bundled with this slice.
+
+Complete inherited source credits: ../reconstruction/ASSET-CREDITS.md
+Dated source inventory: ../reconstruction/neighborhood-sources.json
+Source distribution and photographic provenance:
+https://github.com/rayidali/borough-drive
+THIRD-PARTY-NOTICES.md and model-source/NEIGHBORHOOD-NOTES.md in that repository.
+
+The original project's licensed core photographs, source-specific notices,
+geographic database licenses and other third-party rights remain applicable
+to their respective materials. MIT covers only original contributions.
+Business names and signs do not imply endorsement or grant trademark rights.

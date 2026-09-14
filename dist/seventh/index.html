@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#283f46">
+  <meta name="description" content="A little New York, at your own pace. An atmospheric browser driving study of First & Seventh in the East Village.">
+  <title>Seventh, slowly. — Borough Drive</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23283f46'/%3E%3Ctext x='32' y='48' text-anchor='middle' font-size='49' font-family='Georgia' fill='%23eed3ad'%3E7%3C/text%3E%3C/svg%3E">
+  <style>
+    *{box-sizing:border-box}html,body{margin:0;width:100%;height:100%;overflow:hidden;background:#283f46;color:#f6e7d0;font-family:system-ui,sans-serif}button{font:inherit}#canvas{display:block;outline:none;touch-action:none}#loading{position:fixed;inset:0;z-index:5;display:grid;place-items:center;background:radial-gradient(ellipse at 76% 24%,#d09e89 0%,#a18189 30%,#435969 66%,#283f46 100%);transition:opacity .6s}#loading[hidden]{display:none}.card{width:min(530px,88vw)}.eyebrow{font-size:11px;letter-spacing:.24em;text-transform:uppercase}h1{font-family:Georgia,serif;font-weight:400;font-size:clamp(56px,10vw,96px);letter-spacing:-.05em;line-height:1;margin:36px 0 24px}h1 em{font-weight:400}.copy{font-size:16px;line-height:1.7;max-width:390px;color:#f1e0cd}progress{width:100%;height:3px;appearance:none;border:0;margin-top:36px;background:#ffffff25;color:#ffe1b3}progress::-webkit-progress-bar{background:#ffffff25}progress::-webkit-progress-value{background:#ffe1b3}progress::-moz-progress-bar{background:#ffe1b3}.small{font-size:12px;line-height:1.6;color:#e1d6ce}#retry{border:1px solid #f6e7d060;background:#283f46;color:inherit;border-radius:9px;padding:13px 23px;margin-top:20px;cursor:pointer}footer{position:absolute;bottom:24px;left:6vw;right:6vw;display:flex;justify-content:space-between;font-size:11px;letter-spacing:.04em}a{color:inherit}noscript{position:fixed;inset:0;z-index:10;padding:12vh 8vw;background:#283f46}#credits{position:fixed;right:12px;bottom:4px;font-size:9px;opacity:.6;z-index:2}
+  </style>
+
+</head>
+<body>
+  <canvas id="canvas" tabindex="0" aria-label="Borough Drive. WASD or arrow keys to drive, C for cameras, T for weather, Escape to pause.">This game needs a browser with canvas support.</canvas>
+  <section id="loading" aria-live="polite">
+    <div class="card">
+      <span class="eyebrow">Borough Drive · East Village</span>
+      <h1>Seventh,<br><em>slowly.</em></h1>
+      <p class="copy">A warm evening. A familiar corner.<br>Nowhere you need to be.</p>
+      <progress id="progress" aria-label="Loading the neighborhood"></progress>
+      <p id="status" class="small">Opening a little piece of New York…</p>
+      <button id="retry" hidden>Try again</button>
+    </div>
+    <footer><span>FIRST & SEVENTH · NEW YORK</span><span>Best with a keyboard & headphones</span></footer>
+  </section>
+  <a id="credits" href="credits.txt" target="_blank" rel="noopener">Credits</a>
+  <noscript>This little neighborhood needs JavaScript enabled to open.</noscript>
+  <script src="index.js"></script>
+  <script>
+    const config = {"args":[],"canvasResizePolicy":0,"emscriptenPoolSize":8,"ensureCrossOriginIsolationHeaders":true,"executable":"index","experimentalVK":false,"fileSizes":{"index.pck":67173600,"index.wasm":39514754},"focusCanvas":true,"gdextensionLibs":[],"godotPoolSize":4};
+    const threaded = false;
+    const loading = document.getElementById('loading');
+    const status = document.getElementById('status');
+    const progress = document.getElementById('progress');
+    const retry = document.getElementById('retry');
+    const canvas = document.getElementById('canvas');
+    // Render at CSS-pixel resolution on Retina too; retain a responsive canvas
+    // without silently multiplying the GPU workload by four.
+    function fitCanvas() {
+      canvas.width = Math.max(1, innerWidth);
+      canvas.height = Math.max(1, innerHeight);
+      canvas.style.width = innerWidth + 'px';
+      canvas.style.height = innerHeight + 'px';
+    }
+    fitCanvas();
+    window.addEventListener('resize', fitCanvas);
+    window.boroughReview = new URLSearchParams(location.search).get('review') === '1';
+    let failed = false;
+    let loadingTimer;
+    let previousBytes = -1;
+    function keepLoading() {
+      clearTimeout(loadingTimer);
+      loadingTimer = setTimeout(() => failure(new Error('Loading stopped making progress.')), 45000);
+    }
+    keepLoading();
+    function failure(error) {
+      if (failed) return;
+      failed = true;
+      clearTimeout(loadingTimer);
+      console.error(error);
+      loading.hidden = false;
+      loading.style.opacity = '1';
+      progress.hidden = true;
+      status.textContent = 'The neighborhood couldn’t open. Check your connection, close any other heavy tabs, and try again.';
+      retry.hidden = false;
+    }
+    window.seventhLoadFailed = () => failure(new Error('A neighborhood file could not be opened.'));
+    retry.addEventListener('click', () => location.reload());
+    canvas.addEventListener('contextmenu', event => event.preventDefault());
+    canvas.addEventListener('webglcontextlost', event => {
+      event.preventDefault();
+      // Use the visible in-page recovery instead of the engine's blocking alert.
+      event.stopImmediatePropagation();
+      failure(new Error('The graphics context was lost.'));
+      status.textContent = 'The graphics paused. Reload to return to First & Seventh.';
+    }, {capture: true});
+    function ready() {
+      if (failed) return;
+      clearTimeout(loadingTimer);
+      fitCanvas();
+      window.seventhReadyMs = performance.now();
+      loading.style.opacity = '0';
+      setTimeout(() => { if (!failed) loading.hidden = true; }, 650);
+      canvas.focus();
+    }
+    if (typeof Engine === 'undefined') {
+      failure(new Error('The engine download did not finish.'));
+    } else {
+      const missing = Engine.getMissingFeatures({threads: threaded});
+      if (missing.length) {
+        failure(new Error(missing.join(', ')));
+        status.textContent = 'This game needs WebGL 2 and WebAssembly. Try a current desktop browser with hardware acceleration enabled.';
+      } else {
+        const engine = new Engine(config);
+        engine.startGame({
+          onProgress(current, total) {
+            if (failed) return;
+            if (current !== previousBytes) { previousBytes = current; keepLoading(); }
+            if (total > 0) {
+              progress.max = total; progress.value = current;
+              status.textContent = current < total ? `Opening the neighborhood · ${Math.round(current / total * 100)}%` : 'Warming the streetlights…';
+            }
+          },
+          onPrint(...args) {
+            console.log(...args);
+            if (args.join(' ').startsWith('SEVENTH_BUILDINGS')) keepLoading();
+            if (args.join(' ').startsWith('SEVENTH_READY')) ready();
+          },
+          onPrintError(...args) { console.error(...args); },
+          onExit(code) { if (code !== 0) failure(new Error(`Game stopped (${code}).`)); }
+        }).catch(failure);
+      }
+    }
+  </script>
+</body>
+</html>

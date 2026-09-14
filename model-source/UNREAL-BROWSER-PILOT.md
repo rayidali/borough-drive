@@ -1,5 +1,7 @@
 # First & 7th Unreal browser pilot — September 14, 2026
 
+**Superseded compute decision:** Later September 14 the user said a GPU machine is unavailable and authorized proceeding with available tools. The [Godot browser slice](../engine/first-seventh/README.md) is now implemented locally. Its [review](SEVENTH-ENGINE-01.md) and [current handoff](../CODEX-HANDOFF.md) take precedence. The plan below remains a historical future Unreal option; its pending-question and Godot-pause statements are no longer current instructions. No GPU hosting was purchased.
+
 The user wants a proper browser driving game with an aesthetic lofi animated look, changing weather, proper streets and several driving viewpoints, with GTA Vice City as a gameplay reference. The immediate scope is First & 7th; the eventual capacity target is approximately 500 independently controlled simultaneous players. This supersedes the previous browser-engine recommendation. New Godot implementation is paused after this clarification. No Unreal project has been built or streamed yet.
 
 ## First playable milestone

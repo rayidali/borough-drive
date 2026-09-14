@@ -1,4 +1,8 @@
-# East Village neighborhood — continuation notes, September 12, 2026
+# East Village neighborhood — continuation notes, September 14, 2026
+
+**September 14 current direction:** No GPU rental; the user authorized a bounded First & Seventh lofi driving slice with available hardware. The separate [Godot browser project](../engine/first-seventh/README.md) reuses 154 existing objects along First, Second, Seventh and St Marks, with four cameras, weather and authored atmosphere. [Engine review](SEVENTH-ENGINE-01.md) records tests and limits. The existing ten-block game/core, source records and provenance are preserved; no wider modeling, imagery acquisition or publication is implied. The September 12 process discussion below is historical and does not pause the newly authorized slice.
+
+## Previous continuation — September 12
 
 **Current checkpoint, September 12:** The owner accepted [First & 7th revision 06](FIRST-SEVENTH-PASS-06.md) as the minimum completion standard for later work. [Performance pass 07](PERFORMANCE-PASS-07.md) retains all its geometry/material sources and optimizes the runtime. Source observations remain in [first-and-seventh.json](first-and-seventh.json), `first_seventh_kit.py` and [storefront-details.json](storefront-details.json). The user authorized a further [Street View refinement, pass 08](FIRST-SEVENTH-PASS-08.md), of these same corners. Read the [handoff](../CODEX-HANDOFF.md) and [session log](../SESSION-LOG.md) for exact local/push/deployment states and next action. Wider East Village work and eventual Manhattan/NYC processing are deferred to a later plan.
 

@@ -1,0 +1,75 @@
+{
+	"buildingObjects": 154,
+	"checks": {
+		"building_collision": true,
+		"cameras_weather_captured": 12,
+		"reset": true,
+		"reverse": true,
+		"street_circuit": {
+			"position": [
+				-0.000357783224899322,
+				4.07538318634033
+			],
+			"seconds": 65.986,
+			"wallContacts": 0,
+			"waypoints": 9
+		}
+	},
+	"engine": {
+		"build": "official",
+		"hash": "ed1daf0bf001b61586d9930840f2f1394092c079",
+		"hex": 263938,
+		"major": 4,
+		"minor": 7,
+		"patch": 2,
+		"status": "stable",
+		"string": "4.7.2-stable (official)",
+		"timestamp": 0
+	},
+	"renderer": "gl_compatibility",
+	"samples": [
+		{
+			"drawCalls": 517.868512110727,
+			"fps": 72.2456110791266,
+			"frames": 289,
+			"p95Ms": 16.738,
+			"position": [
+				-0.5,
+				-0.0190562382340431,
+				-33.7891540527344
+			],
+			"primitives": 3116994.20761246,
+			"weather": "Golden hour"
+		},
+		{
+			"drawCalls": 517.887372013652,
+			"fps": 73.0188163425578,
+			"frames": 293,
+			"p95Ms": 16.686,
+			"position": [
+				-0.5,
+				-0.0190562382340431,
+				-33.7891540527344
+			],
+			"primitives": 3116153.24914676,
+			"weather": "Blue hour"
+		},
+		{
+			"drawCalls": 518.747440273038,
+			"fps": 73.0490906510125,
+			"frames": 293,
+			"p95Ms": 16.732,
+			"position": [
+				-0.5,
+				-0.0190565027296543,
+				-34.0808219909668
+			],
+			"primitives": 3118328.93515358,
+			"weather": "Passing rain"
+		}
+	],
+	"viewport": [
+		1280,
+		800
+	]
+}

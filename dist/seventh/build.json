@@ -1,0 +1,85 @@
+{
+  "schema": 1,
+  "builtAt": "2026-09-14T21:54:19.992Z",
+  "engine": "Godot 4.7.2",
+  "renderer": "Compatibility / WebGL 2",
+  "threaded": false,
+  "buildings": 154,
+  "sourceCommit": "c76dccebc143960498d21eeab8c55c2d0dbcc5ce",
+  "geographySha256": "fd61b108e80eab18d477686b677413ef565f1ab16edc26170751347e22651a5c",
+  "files": {
+    "DAMION-OFL.txt": {
+      "bytes": 4389,
+      "sha256": "4aeb831b7b6ab653dca84308e576613059c598696aa2dc83192ab6117b24a5fa"
+    },
+    "LICENSE.txt": {
+      "bytes": 1097,
+      "sha256": "d698c1c978070d4305be75e60e904f6f54715f003fe248a23bf8b3ee0ca07134"
+    },
+    "credits.txt": {
+      "bytes": 2054,
+      "sha256": "edc27dcf09c7025b19f7d4cbaeea76740f95a19f863d1eea5c885d7637ae55ad"
+    },
+    "godot-notices.txt": {
+      "bytes": 87732,
+      "sha256": "96b99d808a955ca39a6a8db9b93b3c04d012d1d71109c9e1dd8af85f00eeeb98"
+    },
+    "index.audio.position.worklet.js": {
+      "bytes": 2973,
+      "sha256": "be33985bc7160d6bf9646f259cd86b259cd67b02ccb297ee5c44f8ac84327bc8"
+    },
+    "index.audio.worklet.js": {
+      "bytes": 7298,
+      "sha256": "5b476a9c9ce642c0ee4256436d1bc31d9c38f868aca0f9a8e2a57c18d2dec2a3"
+    },
+    "index.html": {
+      "bytes": 7272,
+      "sha256": "fdf8fcbe774b1387ee3a288ecc2a77b11447515d6c9376d79232bc3894321646"
+    },
+    "index.js": {
+      "bytes": 279815,
+      "sha256": "33c94cb3175f3333b82e2a3be5e8e86f77986f0aa2042b1631f6367a4e5bb6ba"
+    },
+    "index.pck": {
+      "bytes": 67173600,
+      "sha256": "c4ff6af2a65be9c8dd91d1f008de8fa5397fb7aaf28afb717e7036fcf5b574b5",
+      "brotliBytes": 59782552
+    },
+    "index.png": {
+      "bytes": 21443,
+      "sha256": "3cb4495c0b98dfbe4b663cbf2b6836473572339beb66d902367893162a70be0e"
+    },
+    "index.wasm": {
+      "bytes": 39514754,
+      "sha256": "fc74679e3b97f76878947fcd4fbe1268cbfa6188182a2e33bbc3f5dc9bfa57d0",
+      "brotliBytes": 8182023
+    }
+  },
+  "sources": {
+    "engine/first-seventh/assets/audio/cornerlight.wav": "25e74f3f7d782323220af9ca8f41fe196ecf30355b77424b6bcd3c399cb9134e",
+    "engine/first-seventh/assets/audio/engine.wav": "097c783c581d3d26ea483f49c0d61fe900d7b9e3fce58d3df47dcfb6c9660c22",
+    "engine/first-seventh/assets/audio/rain.wav": "371be06535d635590c9c5f44528f17806265de885e0daaaba7f4f41e802d9111",
+    "engine/first-seventh/assets/credits.txt": "edc27dcf09c7025b19f7d4cbaeea76740f95a19f863d1eea5c885d7637ae55ad",
+    "engine/first-seventh/assets/slice.json": "6ce4a4c63b0136b48fc0da54d87dfb2ccca3f57c0bea723c9d700821ee4af47d",
+    "engine/first-seventh/export_presets.cfg": "de830db6e0808164dba6f22f4cfceee803f4d56d002c7e9bdd87b395609de38b",
+    "engine/first-seventh/project.godot": "5edd092c2aa389943e0ee0c65cf1c7d805494b7a04c4cf81543eba28076f5ad9",
+    "engine/first-seventh/scenes/main.tscn": "36b1ee7da0776608f1933cf39d31d5d928b160da1f474fcedac7a5f9f3e67e3a",
+    "engine/first-seventh/scripts/cameras.gd": "9fcb84e91c570e15660e7ce22c6a01cb899bd2bae9f0618d77af197d75fda500",
+    "engine/first-seventh/scripts/car.gd": "2e8bef97265b43cdcf24f86200e749aa5c7a572939f0e66363c93655e3f63fca",
+    "engine/first-seventh/scripts/export_credits.gd": "b6e415b08e93abdeb7ac41976a74210de5a6db00f221fb48fd3f1a94725f076b",
+    "engine/first-seventh/scripts/hud.gd": "e8498d3c9d45fbf1ea751effba8c7d573c4bdb474a60931c51ebaf38fb4b73ba",
+    "engine/first-seventh/scripts/main.gd": "779510ed2d0dd6a4d61a81b3943df28a5a95a43ab34ef7681a1edf862deaf790",
+    "engine/first-seventh/scripts/minimap.gd": "038448bb260d5bcc031099812525215ae4ddedb2e36636ac38b00e1ec7f35521",
+    "engine/first-seventh/scripts/shapes.gd": "d825a4be3f13bd833322e4ee1bc3477046994bd6ee434da2b07c87d60288fc15",
+    "engine/first-seventh/scripts/weather.gd": "b660ad1601823e014f4b87fe864ed716d8c82c63dce623bf7cc484d52f7b2a73",
+    "engine/first-seventh/scripts/world.gd": "9173026ebf1a0703e3d4d5d5ba82406b89c5d667ab6b73e390f9266c567e73b1",
+    "engine/first-seventh/shaders/film.gdshader": "f1633072e86da2ee3c9f771009c69e8b2d5c8a9f829e2178e94fb6f4f63e0e42",
+    "engine/first-seventh/shaders/paint.gdshader": "9ed33a1c2b3ef44b849ce41db63f2e2730e07fae68eae8387e52bde7f7564d19",
+    "engine/first-seventh/shaders/road.gdshader": "86a6fc77ec8db974af7722cd6f8779a99c7cd7afa1b756b99cddf8e2e4b23ea1",
+    "engine/first-seventh/shaders/sky.gdshader": "b55915fc5d5e0df055eec96f1369c93235d529f8a322d19ed175f80de08f39a5",
+    "engine/first-seventh/web/shell.html": "9e12140734e49916fe1dd526e9dbcab66cb297ac5f00179deb6e643ebffaa9bc",
+    "model-source/export_seventh_engine.py": "915e800eb1aa54bc8cb95fd72771d6312fe5d10f721bafbda0a977d7d9023cbe",
+    "model-source/make_seventh_audio.py": "78ca5a96e2e7e8cc0b54dd29f47da59640c1dd6af4394b1ef22dec275e02ca6a",
+    "scripts/export-seventh.mjs": "580e5c2cdbd8da745e44ec7abd276a34e83e6fe952989add798ce144f8764d57"
+  }
+}
