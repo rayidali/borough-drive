@@ -10,6 +10,32 @@ git log --oneline -- CODEX-HANDOFF.md SESSION-LOG.md
 
 Checkpoint notes describe observed state, not a live monitor. Recheck local files, remote branches and deployment status when resuming. Keep necessary artifacts in the repository and record reproducible commands; temporary directories and old tool/process IDs are not durable checkpoints. Store no tokens, passwords or authentication cookies here.
 
+## 2026-09-14-02 — Unreal browser clarified; baseline and pilot plan saved
+
+**Recorded:** 2026-09-14T15:59:17-04:00 (America/New_York).
+**User objective and decisions:** Build the First & 7th lofi game slice with weather, proper streets and several driving cameras. The user clarified Unreal delivered in the browser, eventually around 500 concurrent independent players, and asked whether DigitalOcean/free options or Vercel can support it. Godot work is paused; no hosting purchase or budget is authorized.
+**Completed work:** Fresh existing-browser baseline; separate bounded source export; official engine/Pixel Streaming/hosting research; [concrete pilot and scaling plan](model-source/UNREAL-BROWSER-PILOT.md). Explained that Vercel can host the site but Unreal sessions require GPU rendering/encoding. Asked whether a suitable GPU machine exists or a small cloud pilot should be prepared. Recorded costs as dated examples, not a quote or tested capacity.
+**Gameplay/source baseline:** Unchanged `c76dccebc143960498d21eeab8c55c2d0dbcc5ce`; branch `feature/seventh-lofi-engine` from `b4120fa`. Existing dist/scripts/source-data remain unchanged.
+**Local changes:** Exporter, 154-object slice manifest, baseline/export evidence, incomplete paused Godot look-development files, pilot plan, ignore rules and checkpoints. Approximately 201 MiB of generated GLBs and official Godot/tools templates are ignored local caches. Reproduction does not depend on those caches; no runnable new game is claimed. Saved locally; identify own checkpoint commit in Git history.
+**Remote state:** No fetch, push or remote branch creation. Cached origin/main `8792ce4`; original main retains `b4120fa`.
+**Deployment state:** No new deployment/live check; September 10 evidence remains historical. No GPU VM, account, subscription or public upload created.
+**Validation:** Current browser profile completed, zero recorded errors/warnings/failed requests; M1/1440×1000/DPR 1 local Detailed drive 22.29 FPS and warm Automatic drive 42.18 FPS, tail 52.96 FPS. Static export validated 154 unique objects/all five corner buildings, file lengths/hashes, 2,835,181 triangles and unchanged source hash. Existing `npm run verify` passed; preservation and whitespace checked. Sandbox Blender graphics initialization initially crashed; approved retry exported successfully. No Unreal import/build/stream or 500-user test.
+**Unresolved issues:** Suitable Unreal GPU development/streaming machine, provider and exact budget/access. Local M1 has 8 GB RAM and about 28 GiB free disk; Unreal is absent. New gameplay, cameras, weather and visual acceptance are incomplete. No answer to the compute-route question yet.
+**Next action:** Resolve GPU access, present an exact bounded pilot cost for approval, then implement and review a single Unreal browser session. Measure capacity, latency and failure recovery before scaling. Do not resume Godot or provision paid services from silence.
+
+## 2026-09-14-01 — First & 7th lofi engine prototype authorized
+
+**Recorded:** September 14, 2026 (America/New_York).
+**User objective and decisions:** Build a bounded First & 7th game slice with strong lofi art direction, weather changes, proper streets and multiple driving views. The current game feels slow. Engine selection is delegated; smoothness, scalability and robustness are required design priorities. This supersedes the implementation pause for the slice, without authorizing wider reconstruction, paid jobs or publication.
+**Completed work:** Read all 23 Markdown files; checked code, source inventory, Git history, local hardware and official engine requirements. Found stale README claims about Detailed being the default; actual code defaults to Automatic. Investigating Godot, which supports the local M1/8 GB machine and browser/desktop exports. Asked the user for preferred delivery platform.
+**Gameplay/source baseline:** `c76dccebc143960498d21eeab8c55c2d0dbcc5ce`; main checkpoint HEAD `b4120fa`. Existing browser source and models preserved.
+**Local changes:** Checkpoint and ignored local-engine-tool/cache paths; engine download underway. No new playable implementation yet.
+**Remote state:** Cached origin/main `8792ce4`; not fetched or pushed.
+**Deployment state:** Not deployed or rechecked; September 10 live evidence remains historical.
+**Validation:** Read-only repository/source/hardware inspection. No new model, game or performance check yet.
+**Unresolved issues:** Delivery preference, engine feasibility, bounded asset export, art-direction implementation and measured frame-time targets.
+**Next action:** Complete engine setup and baseline checks; build the bounded playable slice, test driving/camera/weather/recovery and inspect actual rendered results. Update this record during work.
+
 ## 2026-09-12-01 — All Markdown synchronized for closing and resuming the session
 
 **Recorded:** 2026-09-12T19:40:19-04:00 (America/New_York).

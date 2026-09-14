@@ -2,7 +2,9 @@
 
 The repository includes the active ten-block game, exported models, textures, reference data, and editable source recipes. You can play without rebuilding anything.
 
-## Resume state — September 12, 2026
+**September 14 update:** The existing browser game below remains unchanged. The user has requested a First & 7th Unreal browser prototype with lofi graphics, weather, multiple driving cameras and an eventual 500-concurrent-player goal. Read [the pilot plan](model-source/UNREAL-BROWSER-PILOT.md) and [current handoff](CODEX-HANDOFF.md). GPU machine/cloud-pilot access is unresolved; the paused Godot experiment is incomplete and is not a playable replacement. No server or deployment has been purchased or launched.
+
+## Previous resume state — September 12, 2026
 
 The owner accepted [First & 7th revision 06](model-source/FIRST-SEVENTH-PASS-06.md) as the minimum completion standard: five individual building profiles, nine exposed elevations and eight shops. [Performance pass 07](model-source/PERFORMANCE-PASS-07.md) preserves those models while improving startup, rendering and idle GPU use. The user subsequently authorized [pass 08](model-source/FIRST-SEVENTH-PASS-08.md), a Street View-based refinement of this corner. Passes 08 and 09 were published on September 10; the exact source and verified deployment states are recorded in the handoff. An economical block/street process is now prepared for a small pilot before wider East Village work; Manhattan/NYC remain longer-term objectives.
 
