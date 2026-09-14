@@ -10,6 +10,45 @@ git log --oneline -- CODEX-HANDOFF.md SESSION-LOG.md
 
 Checkpoint notes describe observed state, not a live monitor. Recheck local files, remote branches and deployment status when resuming. Keep necessary artifacts in the repository and record reproducible commands; temporary directories and old tool/process IDs are not durable checkpoints. Store no tokens, passwords or authentication cookies here.
 
+## 2026-09-14-05 — Godot browser slice completed, tested and saved locally
+
+**Recorded:** 2026-09-14T17:55:24-04:00 (America/New_York).
+**User objective and decisions:** Proceed with available hardware after deferring a GPU machine; make a bounded lofi browser driving game around First & Seventh with weather and several cameras. Eventual target is approximately 500 concurrent independent players. No paid compute, wider reconstruction or publication was requested for this save.
+**Completed work:** Actual Godot/WebGL 2 game at `/seventh/`, with original coupe, four cameras, golden/dusk/rain, existing street circuit, map/HUD, original synthesized sound, preferences, pause/focus/reset and postcards. Fixed native camera typing/winding/ground alignment, browser JavaScriptBridge typing, Retina workload, browser visibility pause and the engine's blocking graphics-loss alert. Preserved original ten-block runtime, models, source records and credits. Included the player package, build/hash tools, licenses, four browser screenshots and [measured review](model-source/SEVENTH-ENGINE-01.md).
+**Gameplay/source baseline:** New slice saved as `1b07429987e6478b51e8579e6bbc9c8664e68047`; original game/source stays `c76dccebc143960498d21eeab8c55c2d0dbcc5ce`. Branch `feature/seventh-lofi-engine`; source follows clean resume `6d21a27`. The current handoff/log are a separate following documentation commit, identifiable in history.
+**Local changes:** Source/required runtime/evidence committed; only final checkpoint documents remained before their save. No unresolved implementation/export job. Approximately 201 MiB of generated GLBs and local Godot/tools remain ignored reproducible caches; they are not required to play the included export.
+**Remote state:** No fetch, push, merge or remote branch creation. Cached origin/main `8792ce4`; local main `b4120fa`. Current remote state unverified.
+**Deployment state:** Local only. HTTP 200 confirmed and browser preview opened at http://127.0.0.1:5173/seventh/. No Vercel deployment or production check; prior September 10 publication evidence remains dated history.
+**Validation:** Final browser: 74.8/75.0/75.0 FPS in short golden/dusk/rain driving samples, full scale, M1/1440×1000; 3.62 s local startup with warmed compilation caches, zero healthy-runtime errors/warnings/failed requests. All 12 views and keyboard controls, brake/reverse/steering/reset/pause, settings reload, Retina pixel cap, real tab switching and actual postcard download passed. Deliberate missing-pack 503 and WebGL-context-loss scenarios both displayed recovery and returned to play through Retry; expected errors separate. Native complete nine-waypoint circuit: 65.986 s, zero wall contacts; frontage collision/reverse/reset passed. `npm run verify`, `npm run seventh:verify`, preservation, staged whitespace and 397 relative Markdown links passed. Post-review packaging only normalized generated HTML/notice whitespace; gameplay binary/JS hashes match reviewed bytes.
+**Unresolved issues:** Art direction is awaiting user review. Initial raw download remains approximately 102 MiB; no public-network or 500-user test, broad device matrix, mobile touch controls, multiplayer or traffic. This smaller-scene result does not certify whole-map frame rate or new measured facade fidelity. No new source-rights assertion, imagery acquisition or automatic pipeline implementation.
+**Next action:** User review of the local graphics/handling, then bounded refinements and startup/device performance. Preserve the original game and all provenance. Keep wider expansion, paid work and publishing deferred until requested; restart with npm run dev without relying on old tool sessions.
+
+## 2026-09-14-04 — First playable Godot browser milestone
+
+**Recorded:** September 14, 2026 (America/New_York), during implementation.
+**User objective and decisions:** Proceed with the available M1 hardware; no GPU rental. Build a bounded aesthetic browser driving game around First & Seventh, preserving the existing reconstruction.
+**Completed work:** Actual Godot vehicle/street/weather/camera/interface/audio implementation and separate browser export. Diagnosed and fixed browser startup typing error. First native and browser control reviews passed; all 12 camera/weather combinations inspected, revealing material/lighting and Retina-resolution issues now being refined.
+**Gameplay/source baseline:** Original `c76dcce`; branch `feature/seventh-lofi-engine` at saved investigation checkpoint `6d21a27`, with implementation uncommitted.
+**Local changes:** New engine source, audio generation recipe and loops, `dist/seventh/` export, browser review script, checkpoint updates. [Passing preliminary browser evidence](model-source/engine-review-2026-09-14/browser-first-playable.json) is durable. Route map, softer lighting/wet roads and Retina pixel cap await final export/review; complete street-circuit test is running.
+**Remote state:** No fetch or push; cached origin/main unchanged.
+**Deployment state:** Local route only; no publication or live verification.
+**Validation:** First browser review: 66.4/72.1/72.1 FPS golden/dusk/rain driving, M1/1440×1000/DPR 1/full scale, short warmed samples; 9.26 s local startup. Cameras/weather, reverse, brake, steering, reset, pause, preference reload and resize passed; zero recorded errors/warnings/failed requests. Earlier native frontage-collision check passed. These results do not establish equal-scene superiority, universal performance, 500-user capacity or visual acceptance.
+**Unresolved issues:** Final art/camera review, full route traversal, context/download recovery, final Retina verification, reproducible export/package checks and documentation. Initial uncompressed export is approximately 102 MiB; first-load size remains material. Multiplayer and automatic reconstruction are not implemented.
+**Next action:** Complete the active refinement and checks, preserve source/licensing, export the finished local build, save evidence and commits, and open the browser preview for user review.
+
+## 2026-09-14-03 — Local browser engine implementation resumed
+
+**Recorded:** September 14, 2026 (America/New_York).
+**User objective and decisions:** No GPU machine is available; proceed with existing tools/hardware. Build the bounded lofi First & 7th game with weather and multiple driving views. Local Godot/browser implementation resumes; paid compute and publication are not authorized.
+**Completed work:** Resumed clean feature branch at `6d21a27`, reviewed current source/checkpoints and confirmed existing engine/tools/assets. Beginning actual game implementation and asset import.
+**Gameplay/source baseline:** Original browser game `c76dcce`; local investigation checkpoint `6d21a27`. Existing published game preserved.
+**Local changes:** Checkpoints and new game implementation underway in `engine/first-seventh`.
+**Remote state:** No fetch or push.
+**Deployment state:** No new deployment or live check.
+**Validation:** Previous baseline/export checks retained; new Godot/browser gameplay checks pending.
+**Unresolved issues:** Complete vehicle/cameras/world/weather/interface, inspect actual rendering and establish measured performance.
+**Next action:** Finish the playable slice, export to a separate local browser route, test controls/recovery/performance, fix visible issues and save the result for review.
+
 ## 2026-09-14-02 — Unreal browser clarified; baseline and pilot plan saved
 
 **Recorded:** 2026-09-14T15:59:17-04:00 (America/New_York).
