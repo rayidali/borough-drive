@@ -1,0 +1,61 @@
+# Seventh Street architectural fidelity benchmark
+
+September 14, 2026. The user's requirement is that a resident can recognize **their particular house**, including its doors, windows, lettering and access. The scope is every mapped East 7th Street frontage in the current slice: 82 elevation records, including boundary context. A familiar business name on an approximate building does not satisfy this requirement.
+
+This document defines the acceptance target. Revision 03 is a **candidate reconstruction under review**, not 82 accepted replicas. The working comparison pair is **50 and 48½ East 7th Street**, identified from the user's April 2026 Street View comparison. The earlier accepted First & Seventh corner remains a minimum to preserve; its acceptance does not automatically extend to the new street or to this stricter target. See [current checkpoint](../CODEX-HANDOFF.md) for the authorized next action and actual save state.
+
+## What a facade must match
+
+| Feature | Required evidence and acceptance rule |
+| --- | --- |
+| Identity and position | Confirm the building across the road, not merely Street View's camera-address label. Match street side, neighbors, footprint and facade extent. Preserve fractions such as **48½**. |
+| Mass and silhouette | Match exposed floors, width/height proportions, parapet, cornice profile, dormer/tower, setbacks and visible side returns. A parcel's maximum roof height is not automatically the street facade height. |
+| Windows | Correct number and order on **each floor**, including paired/grouped bays, unequal widths, sashes, mullions, transom rails, arch shape, sill/hood, grilles, recess and projection. No default equal grid or randomly assigned AC/blinds as evidence. |
+| Doors | Correct side and position; single/double leaves, material, panel count and layout, glazing, fanlight/transom, portal columns/pilasters, recess, handles, intercom and visible label. A rectangular door plus a decorative arch is not an arched opening. |
+| Access | Explicit at-grade threshold, stoop, basement areaway and/or ramp, with observed direction, landings, rails and visible tread count. Do not add a stoop from an obsolete image or a ramp because the component exists. Hidden access remains unresolved. |
+| Masonry | Match red/pale/painted wall zones, stone base, rustication, pilasters, courses, lintels, spandrels, cornice brackets and distinctive relief silhouettes. A shared component is permitted only when its parameters express the observed feature. |
+| Storefront and lettering | Match unit boundaries, residential entrance separation, frame/panel order, recessed entrance, awnings, projecting signs and readable text. Exact letters/case/fractions are mandatory where legible; a substitute typeface or approximate logo remains a mismatch. Unknown occupancy does not remove an observed physical shopfront. |
+| Street edge | Check pits/trees, basement railings, service connections and fixed furniture against facade landmarks. Atmosphere and movable objects must not hide missing architecture in the review. |
+
+Lofi lighting and color grading may remain. They must preserve the features above. Dark glass, bloom, trees or an attractive camera cannot conceal a wrong opening count, entry position or missing cornice.
+
+## Comparison and release gates
+
+1. **References:** discover a current frontal/near-frontal view and an oblique view; obtain a clear entrance view. Save source URL or panorama ID, capture date, viewing direction/FOV and what was inspected. Use adjacent viewpoints when a truck, tree or shed blocks the entrance. An older image can establish surviving ornament, but cannot establish current doors, paint or tenants without corroboration. Do not call a building complete when a required view is unavailable.
+2. **Observation before geometry:** record each visible opening and access feature in `storefront-details.json.seventhEngine.elevations[].architecture`. Keep the source observation, inferred dimensions and modeled parameters distinct. Record conflicts and exclusions. Do not distribute inspection photographs as textures.
+3. **Lock a comparable camera:** retain location, heading, pitch, field of view and estimated height. Panorama GPS and a 2.5 m camera height are only a starting estimate. Calibrate the facade plane against at least four stable landmarks and a second view; record adjustments. Do not deform a facade to compensate for a wrong camera. A frontage closeup or orthographic elevation is a separate diagnostic, not a matched photograph.
+4. **Count/type gate:** every visible floor/bay, door leaf, window group, major railing/access feature and legible identity label must agree. **Zero known count/type/identity errors.** These cannot be averaged away by an overall similarity score.
+5. **Alignment gate:** at the locked view, annotate facade corners plus door/window corners, sill/head levels, cornice and fixed access landmarks. Target mean projected landmark error at most **1.5% of image width**, no individual error above **3%**, and entrance-detail error at most **1%**. Record pixel coordinates, resolution and occluded landmarks. These are proposed photographic acceptance tolerances, not a claim of centimetre surveying. The separate [church pose diagnostic](seventh-fidelity-camera-03.json) records ten approximate manual landmarks and a one-view pose fit; it has not passed the independent second-view gate. Revision 03 has not passed full annotated acceptance.
+6. **Close and oblique review:** inspect readable labels and full entry details in a perspective closeup, then depth/steps/columns/bays in both street directions. Check that masonry does not fill openings and that decals/text remain in front of their supports. Record each mismatch against its source, model parameter and capture.
+7. **Performance/preservation gate:** run the original and Seventh verification; drive the whole Seventh route and both approaches in golden/dusk/rain on the same measured device. Compare full-scale rendered frames and startup/package size against revision 02. Target at least **60 FPS** in the existing M1/1440×1000/DPR 1 route samples, no more than a **10%** mean-frame-rate regression and no unexpected contacts or healthy-runtime errors. Keep the PCK below **100 MiB**. A local benchmark does not certify other devices, public-network startup or 500 users.
+8. **Acceptance:** save the exact package/source hashes, evidence and unresolved list. A model/export/schema check is not visual acceptance. The worker may recommend a pass; a separate review and the user's approval of the initial benchmark are required before calling it the template for cheaper-model work. No publishing or automatic street expansion follows from a pass.
+
+## The working comparison pair
+
+| Address | Observed distinctions revision 03 must retain | Still requiring precise comparison |
+| --- | --- | --- |
+| **50 East 7th** | Asymmetric church house; grouped three-light left and two-light right windows; one broad left arch and scroll apron; low left balustrade/right tower. Both oak double entrances now reach grade. The right entry has engaged columns, layered stone arch, decorative fanlight, two-pane transom, small lower panels and **50 EAST 7TH STREET**. Separate left doors sit below a three-light window. Inscription, granite base, notice case and fire-service fittings are distinct. | Camera/width-height alignment, exact carved scroll/capital contours, stone texture scale and tone, fanlight ironwork, all door-panel/hardware dimensions, fractional neighboring label/type, changing notice artwork. |
+| **48½ East 7th** | Red brick, four upper bays with shaped hoods, central fire escape, black cornice. Separate dark residential doorway **left** of the white Van Leeuwen storefront: one larger operable glazed door and a narrow fixed left sidelight, literal **48 1/2** in the transom. Continuous white fascia/entrance brackets; angled multi-pane projecting shop bays, recessed shop door, projecting sign and open metal benches. | Precise window/hood and leaf proportions, proprietary script outlines, full upper cornice ornament, threshold and street-tree position, shop interior and current movable objects. |
+
+The April 2026 panorama is `BhbNLmsrLJoqeAErWVcK_w`; metadata and inspected views are under `seventh-03-streetview-50` in the schedule. The adjacent April 2026 panorama `py0O1VK0amcbISU49EuZXQ` resolves the residential door and shop bay arrangement previously hidden by the tree; lower access is still vehicle-occluded. Its two inspected views are stored under `seventh-03-streetview-48`. The user screenshot remains a private local input: its hash and relevant observation are recorded, but unrelated desktop content and the source pixels are excluded from the game/review publication. [June 2026 exterior photographs](https://daytoninmanhattan.blogspot.com/2026/06/the-1892-middle-church-house-50-east.html) corroborate the lowered current oak entrances; architect/project context is separately recorded and was not treated as a current entrance photograph.
+
+## Reproduce the review
+
+The included player runs with `npm run dev` at `http://127.0.0.1:5173/seventh/`. Use the [engine rebuild instructions](../engine/first-seventh/README.md) after geometry changes. With a separate Chromium review browser on CDP port 9222:
+
+```sh
+# All saved reference-camera starting poses and all 82 entrance records:
+node scripts/review-seventh-fidelity.mjs renders/seventh-engine-03/fidelity
+
+# Bounded candidate-pair check (both church doors are captured):
+node scripts/review-seventh-fidelity.mjs renders/seventh-engine-03/pair 241829575,241829643
+
+# All modeled elevations, without claiming photographic-camera alignment:
+.tools/godot/Godot.app/Contents/MacOS/Godot --path engine/first-seventh -- --review-out=/absolute/path/to/elevations --facade-review
+```
+
+Native review must follow the rebuild/import step; launching the game directly can otherwise show stale imported GLBs. Make the native contact sheets with `node scripts/seventh-review-sheets.mjs /absolute/path/to/elevations`. Do this separately from frame-rate tests.
+
+The capture tool creates and closes only its own review tab. It records poses, image hashes and exact build bytes. It does not download references, submit paid jobs, implement a persistent AI pipeline, accept a facade or publish anything.
+
+For a later cheaper-model task, give the worker one bounded elevation, the inspected source metadata/views, the explicit schedule, this contract and accepted matched captures **once available**. Require the same artifacts and gates for every elevation. Keep unresolved records in the full-street inventory; do not reduce the requested scope to selected shops or treat a source/photo count as a completion score.

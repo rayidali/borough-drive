@@ -1,0 +1,21 @@
+{
+  "checked": "2026-09-15T03:07:52.073529+00:00",
+  "basis": "Final late sidelight/window-bay/stone-hood corrections after the full-street elevation inspection; all other 181 GLBs remain byte-identical.",
+  "previousBrowserPackage": "99b3015ced3d24a29a6de2cd791b1131ce1250bb5f6d42409a4eecd7ed16b11c",
+  "finalBrowserPackage": "e6279599b212cbc07753871e25af98e8246513a9059845abb677995c4aa05654",
+  "changedBuildings": [
+    {
+      "file": "engine/first-seventh/assets/neighborhood/building-241829643.glb",
+      "before": "4798a1340c6ccac78a548cd32853a2a11200eb119f616d580bdba7552810c94d",
+      "after": "da2af96d776b6dbc90d38661c0a95ee924fc54ec34a66da99aa2ad3c72f748d2"
+    }
+  ],
+  "unchangedBuildings": 181,
+  "finalComparisonBuildingInspected": true,
+  "fullStreetPreviousInspection": "All 14 native contact sheets / 82 elevations inspected before the bounded correction; final 48 1/2 elevation inspected again. All final contact sheets retained.",
+  "sourceViews": [
+    "seventh-03-streetview-50",
+    "seventh-03-streetview-48"
+  ],
+  "acceptance": "No automatic photographic or user acceptance."
+}

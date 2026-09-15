@@ -41,8 +41,8 @@ func _ready():
 	sun.shadow_enabled = true
 	sun.directional_shadow_max_distance = 90
 	sun.directional_shadow_mode = DirectionalLight3D.SHADOW_PARALLEL_2_SPLITS
-	sun.shadow_bias = .065
-	sun.shadow_normal_bias = 1.6
+	sun.shadow_bias = .035
+	sun.shadow_normal_bias = .75
 	add_child(sun)
 	rain = CPUParticles3D.new()
 	rain.amount = 620

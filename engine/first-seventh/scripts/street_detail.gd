@@ -20,9 +20,9 @@ func rod(root: Node3D, a: Vector3, b: Vector3, radius: float, mat: Material, top
 	var item = S.mesh(root,(a+b)*.5,shape,mat)
 	item.quaternion = Quaternion(Vector3.UP,(b-a).normalized())
 
-func tree(root: Node3D, p: Vector3, size = 1.0):
-	var height = rng.randf_range(5.9,7.8)*size
-	var trunk_top = p+Vector3(.08,height*.59,-.06)
+func tree(root: Node3D, p: Vector3, size = 1.0, mature = false):
+	var height = (15.0 if mature else rng.randf_range(5.9,7.8))*size
+	var trunk_top = p+Vector3(.08,height*(.38 if mature else .59),-.06)
 	rod(root,p+Vector3(0,.14,0),trunk_top,.15*size,bark,.06*size)
 	S.box(root,p+Vector3(0,.155,0),Vector3(1.65,.016,1.50)*size,soil)
 	for x in [-.84,.84]:S.box(root,p+Vector3(x*size,.21,0),Vector3(.06,.12,1.58)*size,metal)
@@ -30,7 +30,8 @@ func tree(root: Node3D, p: Vector3, size = 1.0):
 	var clusters: Array[Vector3] = []
 	for branch in range(9):
 		var angle=branch*TAU/9+rng.randf_range(-.2,.2)
-		var tip=p+Vector3(cos(angle)*rng.randf_range(.8,1.9)*size,height*rng.randf_range(.66,.93),sin(angle)*rng.randf_range(.8,1.7)*size)
+		var spread = 2.2 if mature else 1.0
+		var tip=p+Vector3(cos(angle)*rng.randf_range(.8,1.9)*size*spread,height*rng.randf_range(.66,.93),sin(angle)*rng.randf_range(.8,1.7)*size*spread)
 		rod(root,trunk_top-Vector3(0,(branch%3)*.42,0),tip,.046*size,bark,.015*size)
 		clusters.append(tip)
 	var st = SurfaceTool.new()
@@ -85,8 +86,10 @@ func dress(root: Node3D):
 	# Recorded as authored placements. Source photographs establish object types,
 	# not a present-day municipal furniture inventory or exact tree coordinates.
 	for side in [-1,1]:
-		var positions=[-197,-156,-124,-89,-58,47,73,110,146,178,253] if side<0 else [-206,-169,-138,-107,-78,-50,60,91,125,159,186,258]
-		for x in positions:tree(root,Vector3(x,0,side*7.25))
+		var positions=[-197,-156,-124,-89,-58,47,73,110,146,178,253] if side<0 else [-206,-174,-138,-107,-78,-50,60,91,125,159,186,258]
+		# April 2026 comparison places the mature church tree beside its right
+		# entrance, not across the left double doors. Position/height estimated.
+		for x in positions:tree(root,Vector3(x,0,side*7.25),1.0,side>0 and x==-174)
 		for x in [-190,-111,-52,64,137,188]:street_lamp(root,Vector3(x,0,side*6.15),bulb)
 		for x in [-246,-205,-42,34,177,237]:hydrant(root,Vector3(x,0,side*5.90))
 	for p in [Vector3(-214,0,6.2),Vector3(14,0,-6.2),Vector3(201,0,6.0)]:mailbox(root,p,blue)

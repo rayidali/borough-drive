@@ -9,6 +9,7 @@ uniform sampler2D stone_color : source_color, filter_linear_mipmap_anisotropic, 
 uniform sampler2D stone_normal : hint_normal, filter_linear_mipmap_anisotropic, repeat_enable;
 uniform float dusk : hint_range(0.0,1.0) = 0.0;
 uniform bool luminous = false;
+uniform vec3 window_sky : source_color = vec3(.48,.63,.74);
 float hash(vec2 p) { return fract(sin(dot(p,vec2(127.1,311.7)))*43758.5453); }
 void vertex() {
     world_pos = (MODEL_MATRIX * vec4(VERTEX,1.0)).xyz;
@@ -52,13 +53,24 @@ void fragment() {
         NORMAL_MAP_DEPTH = kind<3.5 ? .24 : .18;
         // Restrained lower-wall patina; uniform artistic wear, not a photo claim.
         pigment *= mix(.85,1.0,smoothstep(.15,1.4,world_pos.y));
-    } else if (kind>4.5) {
-        pigment *= .96+.04*sin(UV.y*150.0+sin(UV.x*13.0));
+    } else if (kind>4.5 && kind<5.5) {
+        pigment *= .98+.02*sin(UV.x*160.0+sin(UV.y*9.0)*.65);
+    } else if (kind>5.5) {
+        // Opaque architectural glazing stays in the same building batch.
+        // A restrained sky tint/fresnel makes the recess readable without
+        // another reflection pass or invented room/photographic textures.
+        float grazing=pow(1.0-clamp(dot(normalize(NORMAL),normalize(VIEW)),0.0,1.0),4.0);
+        pigment=mix(pigment,window_sky,.32+grazing*.34);
     }
     pigment = mix(pigment, vec3(0.77,0.61,0.54),0.055);
     ALBEDO = pigment;
     ROUGHNESS = 0.88;
     SPECULAR = 0.18;
+    if (kind>5.5) {
+        ROUGHNESS=.24;
+        SPECULAR=.55;
+        EMISSION=window_sky*.07;
+    }
     if (luminous) { EMISSION = pigment * mix(0.12,1.45,dusk); }
 }
 void light() {

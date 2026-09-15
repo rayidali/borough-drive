@@ -252,6 +252,7 @@ func batch_details():
 
 func set_weather(dusk: float, wet: float, reflection: Color):
 	paint.set_shader_parameter("dusk",dusk)
+	paint.set_shader_parameter("window_sky",Color("719ab2").lerp(reflection,.35+wet*.3))
 	glow.set_shader_parameter("dusk",dusk)
 	asphalt.set_shader_parameter("wetness",wet)
 	asphalt.set_shader_parameter("reflection_tint",reflection)

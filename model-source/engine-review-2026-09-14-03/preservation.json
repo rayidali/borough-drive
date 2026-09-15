@@ -1,0 +1,44 @@
+{
+  "baseline": "afcb746",
+  "originalGameplay": "c76dccebc143960498d21eeab8c55c2d0dbcc5ce",
+  "unchangedPaths": [
+    "dist/index.html",
+    "dist/prototype.html",
+    "dist/reconstruction",
+    "dist/vendor",
+    "source-data",
+    "model-source/build_intersection.py",
+    "model-source/build_neighborhood.py",
+    "model-source/first_seventh_kit.py",
+    "model-source/first_seventh_refinement.py",
+    "model-source/first-and-seventh.json"
+  ],
+  "legacyStorefrontNamespacesEqual": true,
+  "protectedCornerGlbHashesEqual": [
+    {
+      "id": 241822226,
+      "sha256": "6a180f2dbcc3c54b9d2583bb5bb4d0fddde956086d845fddeaed1b05b735213c"
+    },
+    {
+      "id": 241829631,
+      "sha256": "97354524586db3f1957a799c3afde8a206f0dbddc11645c8501eb6ac8c41589e"
+    },
+    {
+      "id": 248142331,
+      "sha256": "9bd5e69cb2c2f68398ea483739c5de578dac0aa1eb62da8fa63c6b70d628744c"
+    },
+    {
+      "id": 248142404,
+      "sha256": "abc32559643cc97e54bd22b69200fcba0f2e8ff1d3b1235d17edce367243b823"
+    },
+    {
+      "id": 248142707,
+      "sha256": "4f9b80fb8e3794afd5e4cff045f1724da6e23e899b34afa5ca0edf5e2a0d8840"
+    }
+  ],
+  "all182CachedGlbHashesValid": true,
+  "vehicleAndAudioUnchanged": true,
+  "scope": "Local working tree; no remote/deployment claim.",
+  "checked": "2026-09-15T03:05:33.821644+00:00",
+  "finalPackSha256": "e6279599b212cbc07753871e25af98e8246513a9059845abb677995c4aa05654"
+}

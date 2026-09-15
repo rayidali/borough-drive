@@ -29,7 +29,7 @@ args = parser.parse_args(sys.argv[sys.argv.index('--')+1:] if '--' in sys.argv e
 schedule = json.loads((ROOT/'model-source/storefront-details.json').read_text()).get('seventhEngine', {})
 def canonical_digest(value):
     return hashlib.sha256(json.dumps(value,sort_keys=True,separators=(',',':'),ensure_ascii=False).encode()).hexdigest()
-recipe_files=['model-source/export_seventh_engine.py','model-source/seventh_street_kit.py',
+recipe_files=['model-source/export_seventh_engine.py','model-source/seventh_street_kit.py','model-source/seventh_fidelity_kit.py',
     'model-source/build_neighborhood.py','model-source/build_intersection.py',
     'model-source/neighborhood_detail_kit.py','model-source/storefront_detail_kit.py',
     'model-source/neighborhood_landmarks.py','model-source/first_seventh_kit.py',
@@ -39,6 +39,15 @@ detail_source = ROOT/'model-source/seventh_street_kit.py'
 if detail_source.exists():
     exec(compile(detail_source.read_text(),str(detail_source),'exec'),kit)
     kit['apply_seventh_schedule'](data,schedule)
+    fidelity_source=ROOT/'model-source/seventh_fidelity_kit.py'
+    exec(compile(fidelity_source.read_text(),str(fidelity_source),'exec'),kit)
+    by_id={b['id']:b for b in data['buildings']}
+    for record in schedule.get('elevations',[]):
+        if record.get('architecture'):
+            building=by_id[record['buildingId']]
+            building['seventhArchitecture']=record['architecture']
+            if record['architecture'].get('wall'):
+                building['facadeSpec']['elevations']['East 7th Street']['wall']=record['architecture']['wall']
 # A complete First/Second/Seventh/St Marks circuit plus the facing street walls.
 bounds = [-268, 121, 77, 283]
 selected = [b for b in data['buildings'] if not b['core'] and (
@@ -125,11 +134,13 @@ for index, building in enumerate(selected):
         # small architectural vertices, materially reducing browser download.
         surface = 0.0
         if kind == 'paint':
-            if 'brick' in name or name.startswith('painted '):
+            if name=='seventh reflective glass':
+                surface = 6.0
+            elif 'brick' in name or name.startswith('painted '):
                 surface = 3.0 if name.startswith('painted ') else 2.0 if any(t in name for t in ['buff','white','pale','smoke']) else 1.0
             elif any(t in name for t in ['stone','limestone','terra cotta','concrete','stucco','plaster']):
                 surface = 4.0
-            elif name in ['wood','seventh canvas brown']:
+            elif name in ['wood','seventh canvas brown','seventh oak door','seventh oak recess','seventh oak edge']:
                 surface = 5.0
         for layer in list(mesh.uv_layers): mesh.uv_layers.remove(layer)
         colors = mesh.color_attributes.get('Color')
@@ -187,7 +198,7 @@ manifest = {'schema':1, 'sourceCommit':'c76dccebc143960498d21eeab8c55c2d0dbcc5ce
     'sourceSha256':hashlib.sha256((ROOT/'dist/reconstruction/neighborhood.json').read_bytes()).hexdigest(),
     'originShift':[0,0,228], 'bounds':[-306,-107,289,55], 'buildings':records,
     'seventhFrontages':[b['id'] for b in selected if any(f['street']=='East 7th Street' for f in b['frontages'])],
-    'detailRevision':'02',
+    'detailRevision':'03',
     'detailScheduleSha256':canonical_digest(schedule),
     'detailSourceSha256':hashlib.sha256((ROOT/'model-source/storefront-details.json').read_bytes()).hexdigest(),
     'recipeHashes':recipe_hashes,

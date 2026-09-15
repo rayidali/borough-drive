@@ -1,0 +1,837 @@
+{
+  "date": "2026-09-15T03:17:57.383834+00:00",
+  "finalPackageSha256": "e6279599b212cbc07753871e25af98e8246513a9059845abb677995c4aa05654",
+  "source": "Actual final-package browser images and native orthographic elevation contact sheets; no Google/reference photograph pixels.",
+  "fidelityViews": 117,
+  "referenceStartingPoses": 33,
+  "poseFitDiagnostics": 1,
+  "entranceCloseups": 83,
+  "nativeElevationsRepresented": 82,
+  "contactSheets": 14,
+  "additionalBrowserImages": 6,
+  "inspection": "All 82 native elevations inspected during the full-street pass; the final 48 1/2 correction was re-inspected, and all other 181 GLBs retain their previous bytes. Comparison pair/selected close views inspected; capturing all 117 views does not constitute detailed visual acceptance of all 117.",
+  "files": [
+    {
+      "file": "docs/images/seventh-engine-03/browser/handbrake-drift.png",
+      "bytes": 1410839,
+      "sha256": "d3e74b9513d99c27d442cce5ee93a1e33bc96f840b26f701fbb023016186e4e1",
+      "kind": "actual browser capture"
+    },
+    {
+      "file": "docs/images/seventh-engine-03/browser/seventh-east-0.png",
+      "bytes": 1427676,
+      "sha256": "a1b375ffa528b93fa4239fe48c759c5a368582f6e94b3a89ed27ca7e12e87aba",
+      "kind": "actual browser capture"
+    },
+    {
+      "file": "docs/images/seventh-engine-03/browser/seventh-west-1.png",
+      "bytes": 1218526,
+      "sha256": "9e0ec68eae95c09aa37ce338d5afa02a23f0f88270f8c99dc630ec7209f9e49e",
+      "kind": "actual browser capture"
+    },
+    {
+      "file": "docs/images/seventh-engine-03/browser/seventh-west-2.png",
+      "bytes": 1315654,
+      "sha256": "01385329ddf74076998bc74a0b74603617ac9759b3894ac27042fdd32e8b383a",
+      "kind": "actual browser capture"
+    },
+    {
+      "file": "docs/images/seventh-engine-03/browser/shop-10090555737.png",
+      "bytes": 1154035,
+      "sha256": "263a191484b22d683e4c5675e8ae33ad00d0c1804ab98eb6def0dffea97c3f25",
+      "kind": "actual browser capture"
+    },
+    {
+      "file": "docs/images/seventh-engine-03/browser/shop-2494064642.png",
+      "bytes": 1251236,
+      "sha256": "d6e5b1106316b9916eddff9d699cc7adc924a056bc8febf2dead760c42f56895",
+      "kind": "actual browser capture"
+    },
+    {
+      "file": "docs/images/seventh-engine-03/elevations/sheet-0.webp",
+      "bytes": 381440,
+      "sha256": "ee5f448ae8bd39bcc652f80be152f564e9f9340fbcf327a9d5253d7762f4168f",
+      "kind": "native orthographic contact sheet"
+    },
+    {
+      "file": "docs/images/seventh-engine-03/elevations/sheet-1.webp",
+      "bytes": 398646,
+      "sha256": "26368ce844d25665f91e9d16e43fd2ce4bcfa030d138e0f0b56bda804d0f77c5",
+      "kind": "native orthographic contact sheet"
+    },
+    {
+      "file": "docs/images/seventh-engine-03/elevations/sheet-10.webp",
+      "bytes": 256018,
+      "sha256": "75b19efd79732ce94a8d413eed034f2861f805cd300e1832d8464d8119018353",
+      "kind": "native orthographic contact sheet"
+    },
+    {
+      "file": "docs/images/seventh-engine-03/elevations/sheet-11.webp",
+      "bytes": 324538,
+      "sha256": "52df82fd4e25b454292f08a5c5ba578bbf20473d87b68816385039b3426f0b0e",
+      "kind": "native orthographic contact sheet"
+    },
+    {
+      "file": "docs/images/seventh-engine-03/elevations/sheet-12.webp",
+      "bytes": 337526,
+      "sha256": "abeb6211cdc50e85eeb39227ba17fe8be70c2c85a13171cb7d51f2397b1f7549",
+      "kind": "native orthographic contact sheet"
+    },
+    {
+      "file": "docs/images/seventh-engine-03/elevations/sheet-13.webp",
+      "bytes": 218614,
+      "sha256": "d6db7cc658c456fa78166cfa040bcb708fffaffea62f962f5203930b5416c05b",
+      "kind": "native orthographic contact sheet"
+    },
+    {
+      "file": "docs/images/seventh-engine-03/elevations/sheet-2.webp",
+      "bytes": 352554,
+      "sha256": "e41a87b47cbe6dbe34de8ccbb94e9b6b6f36107e251aab27c33da992059b0d79",
+      "kind": "native orthographic contact sheet"
+    },
+    {
+      "file": "docs/images/seventh-engine-03/elevations/sheet-3.webp",
+      "bytes": 288518,
+      "sha256": "03f9de210a6ed88d50777b415d3fd01788dc31c61dbefbf0c9680410f3cb5c7b",
+      "kind": "native orthographic contact sheet"
+    },
+    {
+      "file": "docs/images/seventh-engine-03/elevations/sheet-4.webp",
+      "bytes": 271918,
+      "sha256": "d790633f3b035e0a65b146bd0650fe26ef57c482779215854959c2b4f4f2c858",
+      "kind": "native orthographic contact sheet"
+    },
+    {
+      "file": "docs/images/seventh-engine-03/elevations/sheet-5.webp",
+      "bytes": 234660,
+      "sha256": "cd015b065c4ce92a0d5b6bb1d6469a2965461c6d5fd877de0745fa85b05c939f",
+      "kind": "native orthographic contact sheet"
+    },
+    {
+      "file": "docs/images/seventh-engine-03/elevations/sheet-6.webp",
+      "bytes": 208566,
+      "sha256": "b89aef15316fac6b4302ab3d18b03e2ccbda6577da2d40b8e215fcd1fb89ae66",
+      "kind": "native orthographic contact sheet"
+    },
+    {
+      "file": "docs/images/seventh-engine-03/elevations/sheet-7.webp",
+      "bytes": 221770,
+      "sha256": "004f18d5f95cef89de150b8c8e177177f82220d04e3896c94adef3b4104b5420",
+      "kind": "native orthographic contact sheet"
+    },
+    {
+      "file": "docs/images/seventh-engine-03/elevations/sheet-8.webp",
+      "bytes": 239878,
+      "sha256": "37f2f071c860d18bc1c625083837e54a679dac139d54ceebae8c396cd70367f1",
+      "kind": "native orthographic contact sheet"
+    },
+    {
+      "file": "docs/images/seventh-engine-03/elevations/sheet-9.webp",
+      "bytes": 242702,
+      "sha256": "0a48a6ff8cdd852dd2fc59a61286bd9872f7aa1f92cd88e94e74e698bb6eb3ae",
+      "kind": "native orthographic contact sheet"
+    },
+    {
+      "file": "docs/images/seventh-engine-03/fidelity/church-pose-fit.png",
+      "bytes": 472879,
+      "sha256": "4561dabc0e546ecb46cf714757cc16891d7195c1c9967165eac99cfe4343ed69",
+      "kind": "actual browser capture"
+    },
+    {
+      "file": "docs/images/seventh-engine-03/fidelity/entry--177966.png",
+      "bytes": 483089,
+      "sha256": "142be668b23ef76a0bf0a3ce6589575e406fca45518add757d1286053bbd5487",
+      "kind": "actual browser capture"
+    },
+    {
+      "file": "docs/images/seventh-engine-03/fidelity/entry-241822156.png",
+      "bytes": 525454,
+      "sha256": "b350470c09ad0a0d8db40ce1f8b3963b919c9c65dc1c608c27a286d090e00491",
+      "kind": "actual browser capture"
+    },
+    {
+      "file": "docs/images/seventh-engine-03/fidelity/entry-241822157.png",
+      "bytes": 397783,
+      "sha256": "37e984215bef73ae3b2a65050379570f353d5127ec99934d268cb572baa3179c",
+      "kind": "actual browser capture"
+    },
+    {
+      "file": "docs/images/seventh-engine-03/fidelity/entry-241822169.png",
+      "bytes": 486043,
+      "sha256": "76be8edad5f190f97ef4d0794d1f45b3a79ede76f43edd975ab63050bdf027d3",
+      "kind": "actual browser capture"
+    },
+    {
+      "file": "docs/images/seventh-engine-03/fidelity/entry-241822176.png",
+      "bytes": 467561,
+      "sha256": "d0129ee1b08175ac0ee35fe9bfa8a163bcaf03dc996ae518c49038dc6e5cb205",
+      "kind": "actual browser capture"
+    },
+    {
+      "file": "docs/images/seventh-engine-03/fidelity/entry-241822178.png",
+      "bytes": 381766,
+      "sha256": "b84c1822ba9a1281ad03a9921535364cf5cf6cbeb5ba1ce18e6a769ef7d7aeb9",
+      "kind": "actual browser capture"
+    },
+    {
+      "file": "docs/images/seventh-engine-03/fidelity/entry-241822185.png",
+      "bytes": 478924,
+      "sha256": "af5a3a782408e50a579bb081ad68b2971c1a4a64b8751c382496e7df3539a31b",
+      "kind": "actual browser capture"
+    },
+    {
+      "file": "docs/images/seventh-engine-03/fidelity/entry-241822192.png",
+      "bytes": 430266,
+      "sha256": "f48f6abda2bc39ffdea684f3ebf7d7041ee8e5bac0aba7c32901b0db70a22157",
+      "kind": "actual browser capture"
+    },
+    {
+      "file": "docs/images/seventh-engine-03/fidelity/entry-241822197.png",
+      "bytes": 359969,
+      "sha256": "b4258551441dc03b54ed8ba2dcf768253005b84fe240fcaf4ead052202f45b19",
+      "kind": "actual browser capture"
+    },
+    {
+      "file": "docs/images/seventh-engine-03/fidelity/entry-241822199.png",
+      "bytes": 396012,
+      "sha256": "05078fe48f782c037f4d4779cff528b778fa193acf30008ce485d95bd6179b3e",
+      "kind": "actual browser capture"
+    },
+    {
+      "file": "docs/images/seventh-engine-03/fidelity/entry-241822201.png",
+      "bytes": 481750,
+      "sha256": "fbfb44c19d51bece1f5e8bda5684af9dffdb87b80406f9138591e5199bc06efd",
+      "kind": "actual browser capture"
+    },
+    {
+      "file": "docs/images/seventh-engine-03/fidelity/entry-241822202.png",
+      "bytes": 464291,
+      "sha256": "b63ec50300f4e4be5774ca249611f65255404b0a2648761e111b65e1402eaec3",
+      "kind": "actual browser capture"
+    },
+    {
+      "file": "docs/images/seventh-engine-03/fidelity/entry-241822226.png",
+      "bytes": 394584,
+      "sha256": "4ab70726741d82f66b74cfd8efa3c3e55e8bd84fa9dc05dfbcdeb8251d2bc5df",
+      "kind": "actual browser capture"
+    },
+    {
+      "file": "docs/images/seventh-engine-03/fidelity/entry-241822274.png",
+      "bytes": 544378,
+      "sha256": "0815f09da48f5487f323fad4e1d9b12019762d55b307abd5052cfb8fd08e9e27",
+      "kind": "actual browser capture"
+    },
+    {
+      "file": "docs/images/seventh-engine-03/fidelity/entry-241822317.png",
+      "bytes": 446632,
+      "sha256": "5f3610a4d158b388f7c3432f3f995a2dba1ae65680f04ca9209d4508f1ce2b47",
+      "kind": "actual browser capture"
+    },
+    {
+      "file": "docs/images/seventh-engine-03/fidelity/entry-241822319.png",
+      "bytes": 453087,
+      "sha256": "2da088352cb17a65dbb6e93b12b65180ca0a0091a5ef4dd89466250708aba03b",
+      "kind": "actual browser capture"
+    },
+    {
+      "file": "docs/images/seventh-engine-03/fidelity/entry-241822325.png",
+      "bytes": 589898,
+      "sha256": "d3698dd78f0e91646135a7e69db10c7a2847a07d4f2efb39e4af874766dfd480",
+      "kind": "actual browser capture"
+    },
+    {
+      "file": "docs/images/seventh-engine-03/fidelity/entry-241822329.png",
+      "bytes": 428694,
+      "sha256": "b665fe107a61df8ecc364304bb617a3671bf109afa6b7fbda261dcda699acd7b",
+      "kind": "actual browser capture"
+    },
+    {
+      "file": "docs/images/seventh-engine-03/fidelity/entry-241822336.png",
+      "bytes": 384623,
+      "sha256": "87f4f0338fc9c9fdd5bd019500011ef064dfb2d2b4ddebf08345d5d5493d4066",
+      "kind": "actual browser capture"
+    },
+    {
+      "file": "docs/images/seventh-engine-03/fidelity/entry-241822340.png",
+      "bytes": 481099,
+      "sha256": "c4c6572964476f09a1af671e9155f9cb06986f406a5e13f9de86515f41074d50",
+      "kind": "actual browser capture"
+    },
+    {
+      "file": "docs/images/seventh-engine-03/fidelity/entry-241829565.png",
+      "bytes": 365958,
+      "sha256": "5f772413941dfd34399299034a6a858be502e73d7bd25cf0c992d4fdcbb72d7d",
+      "kind": "actual browser capture"
+    },
+    {
+      "file": "docs/images/seventh-engine-03/fidelity/entry-241829566.png",
+      "bytes": 419142,
+      "sha256": "39812a5ee92b50636f635d03fb236e902d720be5ce9e189404dff1fb1fcc02ad",
+      "kind": "actual browser capture"
+    },
+    {
+      "file": "docs/images/seventh-engine-03/fidelity/entry-241829567.png",
+      "bytes": 367215,
+      "sha256": "4fcd44d79cec048d28ec2d640cafc46978b9d2a1f61033ad848399d0a816e91e",
+      "kind": "actual browser capture"
+    },
+    {
+      "file": "docs/images/seventh-engine-03/fidelity/entry-241829572.png",
+      "bytes": 361105,
+      "sha256": "2f3a22aaac2c74a2c65836b84d370ce4b931ea59dd6f21e33d2f204b323670ee",
+      "kind": "actual browser capture"
+    },
+    {
+      "file": "docs/images/seventh-engine-03/fidelity/entry-241829573.png",
+      "bytes": 407707,
+      "sha256": "61dfbf5df8a84d51fafd82982d50a8ace1f4ca2a71d9a9d93b8b59235989707b",
+      "kind": "actual browser capture"
+    },
+    {
+      "file": "docs/images/seventh-engine-03/fidelity/entry-241829574.png",
+      "bytes": 419408,
+      "sha256": "4b795fe3a19f0e61dd348e1011e858adad1e0819c4d854cff424008cd62bcfa8",
+      "kind": "actual browser capture"
+    },
+    {
+      "file": "docs/images/seventh-engine-03/fidelity/entry-241829575-1.png",
+      "bytes": 415713,
+      "sha256": "aaa04e6c8186cfb0c7644c90b0fd5712051e0168f193a72855e5f1a4847a1eb3",
+      "kind": "actual browser capture"
+    },
+    {
+      "file": "docs/images/seventh-engine-03/fidelity/entry-241829575.png",
+      "bytes": 412592,
+      "sha256": "733ae467196e6be2efe35e9b1a6650733e91d617aac1b35c5dd63b4e149dc663",
+      "kind": "actual browser capture"
+    },
+    {
+      "file": "docs/images/seventh-engine-03/fidelity/entry-241829577.png",
+      "bytes": 412771,
+      "sha256": "66092242665d1de313ae95670f7952f0b985e7135315125c46e721118887796a",
+      "kind": "actual browser capture"
+    },
+    {
+      "file": "docs/images/seventh-engine-03/fidelity/entry-241829579.png",
+      "bytes": 370624,
+      "sha256": "9426d64fdc5ff8bcf71d048b48a601de1273b346845e897ab38449d16ae1835b",
+      "kind": "actual browser capture"
+    },
+    {
+      "file": "docs/images/seventh-engine-03/fidelity/entry-241829580.png",
+      "bytes": 386555,
+      "sha256": "e4e55c7fbebf9972601df74c694a8b2c517bb4bc536877e9fce2de007e8a4249",
+      "kind": "actual browser capture"
+    },
+    {
+      "file": "docs/images/seventh-engine-03/fidelity/entry-241829581.png",
+      "bytes": 320375,
+      "sha256": "00a23bd157b8b30697d1229f13e319c5aae9dfd5112940836e87af4b5c2b6a70",
+      "kind": "actual browser capture"
+    },
+    {
+      "file": "docs/images/seventh-engine-03/fidelity/entry-241829582.png",
+      "bytes": 356007,
+      "sha256": "697537eaed3923badb0e8e07b4964f2386e4a7fcab388db5ff17d32caae50f6a",
+      "kind": "actual browser capture"
+    },
+    {
+      "file": "docs/images/seventh-engine-03/fidelity/entry-241829595.png",
+      "bytes": 327688,
+      "sha256": "5d25b04d21d8b71c5ebcf4b35313f28e91f54bf19004fb2b285e75960d3adc53",
+      "kind": "actual browser capture"
+    },
+    {
+      "file": "docs/images/seventh-engine-03/fidelity/entry-241829621.png",
+      "bytes": 397670,
+      "sha256": "db6068d8d452e968f1d503bf0cc6ebb465ed46ff24d6059ad87d3a826c10d238",
+      "kind": "actual browser capture"
+    },
+    {
+      "file": "docs/images/seventh-engine-03/fidelity/entry-241829629.png",
+      "bytes": 381085,
+      "sha256": "2aecf30fec316cb0e3e427acb94bcb19bb61b6304288cfa023d9ae2ddd929b15",
+      "kind": "actual browser capture"
+    },
+    {
+      "file": "docs/images/seventh-engine-03/fidelity/entry-241829631.png",
+      "bytes": 325588,
+      "sha256": "eeff7418a66df32535dfd01a35f7779bc4e900dc5c5244c602620d19495fdc29",
+      "kind": "actual browser capture"
+    },
+    {
+      "file": "docs/images/seventh-engine-03/fidelity/entry-241829633.png",
+      "bytes": 340601,
+      "sha256": "66b7c283352ac63ae1403b6d707b04bea903ea6c0ecf72bc0e75ed5fa4a3df3d",
+      "kind": "actual browser capture"
+    },
+    {
+      "file": "docs/images/seventh-engine-03/fidelity/entry-241829643.png",
+      "bytes": 376768,
+      "sha256": "f37bf94d8117a3f4a6867fbbe44ade839446e4e9aaa2033b61ee7790cb202402",
+      "kind": "actual browser capture"
+    },
+    {
+      "file": "docs/images/seventh-engine-03/fidelity/entry-241829665.png",
+      "bytes": 344797,
+      "sha256": "8956a9a32482eec8cfede850c98f0a1bf893d84cedf8c7ee315eac2b263a4154",
+      "kind": "actual browser capture"
+    },
+    {
+      "file": "docs/images/seventh-engine-03/fidelity/entry-241833274.png",
+      "bytes": 477146,
+      "sha256": "6405cf6a2f92f787739a3f76d76766a5c8b3d806aebf46b6d00f6712ac3f30ab",
+      "kind": "actual browser capture"
+    },
+    {
+      "file": "docs/images/seventh-engine-03/fidelity/entry-241833299.png",
+      "bytes": 423920,
+      "sha256": "31aa3343181d8af837d9f95dae945b3d9f9bbd4ddfd2d02731b58e6896117858",
+      "kind": "actual browser capture"
+    },
+    {
+      "file": "docs/images/seventh-engine-03/fidelity/entry-241833322.png",
+      "bytes": 361905,
+      "sha256": "28106b3a87cdd1feb4f14c807c759ae2875c9d60bc786e1204dfde2cb05f9dce",
+      "kind": "actual browser capture"
+    },
+    {
+      "file": "docs/images/seventh-engine-03/fidelity/entry-248142313.png",
+      "bytes": 360692,
+      "sha256": "a30daa34d99359a53733a4f733df656cea4873967d9640b8160cef213a29d6af",
+      "kind": "actual browser capture"
+    },
+    {
+      "file": "docs/images/seventh-engine-03/fidelity/entry-248142319.png",
+      "bytes": 272433,
+      "sha256": "5f871bb7f5fb473d2fb33424e472600c01d40e8130bd5b9530cf0044cdd79292",
+      "kind": "actual browser capture"
+    },
+    {
+      "file": "docs/images/seventh-engine-03/fidelity/entry-248142322.png",
+      "bytes": 359376,
+      "sha256": "06fe606ffbb282782cde3f8e393c4d947ec61d14470c2a2b2948fa8004a19e10",
+      "kind": "actual browser capture"
+    },
+    {
+      "file": "docs/images/seventh-engine-03/fidelity/entry-248142324.png",
+      "bytes": 373767,
+      "sha256": "40753eda6c96865bd8530d9c22101c593100c2a2f4c92336e1e7a22217325f75",
+      "kind": "actual browser capture"
+    },
+    {
+      "file": "docs/images/seventh-engine-03/fidelity/entry-248142328.png",
+      "bytes": 401423,
+      "sha256": "343d132f84212c0845659246f6b18bbaacdb2d0984e30e9ee86e5bfc66a3bcea",
+      "kind": "actual browser capture"
+    },
+    {
+      "file": "docs/images/seventh-engine-03/fidelity/entry-248142330.png",
+      "bytes": 331392,
+      "sha256": "731c152e26ac6dfa011c7aafae66c6a7d63fdb52fad10a2d291d7bade69d6bdf",
+      "kind": "actual browser capture"
+    },
+    {
+      "file": "docs/images/seventh-engine-03/fidelity/entry-248142332.png",
+      "bytes": 295524,
+      "sha256": "218f855eecb347afd4213c2d2300169223606b40c64aa8d8e6c7e3af3659dbf0",
+      "kind": "actual browser capture"
+    },
+    {
+      "file": "docs/images/seventh-engine-03/fidelity/entry-248142333.png",
+      "bytes": 361317,
+      "sha256": "cf3d385ca9ef5132b29ab1d9bdbf69f48326ae1269f0cc149c0c66cd94146e70",
+      "kind": "actual browser capture"
+    },
+    {
+      "file": "docs/images/seventh-engine-03/fidelity/entry-248142334.png",
+      "bytes": 370614,
+      "sha256": "041f95021dd58d02328d9cc0ac7222f60ef855d2186e9ae3f4e2e211f6581d9e",
+      "kind": "actual browser capture"
+    },
+    {
+      "file": "docs/images/seventh-engine-03/fidelity/entry-248142335.png",
+      "bytes": 300113,
+      "sha256": "28e306f7d94f6d90b411a52ce045a597eecf59f3b114b9310956ee7b14f3db81",
+      "kind": "actual browser capture"
+    },
+    {
+      "file": "docs/images/seventh-engine-03/fidelity/entry-248142336.png",
+      "bytes": 348905,
+      "sha256": "d4850e509fc1408eb8edeeac69d847edbef4c30410cd35f8b580759cd38717e1",
+      "kind": "actual browser capture"
+    },
+    {
+      "file": "docs/images/seventh-engine-03/fidelity/entry-248142337.png",
+      "bytes": 336688,
+      "sha256": "3c98015678734e7013e81b94496dd61ccad4d468931b4e37d1cc9aad68de888d",
+      "kind": "actual browser capture"
+    },
+    {
+      "file": "docs/images/seventh-engine-03/fidelity/entry-248142338.png",
+      "bytes": 450655,
+      "sha256": "13f1ca03c0158efef298c0caddb5861f0718478912f58f9980ca5b69e2e2e520",
+      "kind": "actual browser capture"
+    },
+    {
+      "file": "docs/images/seventh-engine-03/fidelity/entry-248142390.png",
+      "bytes": 378717,
+      "sha256": "e6e167b1b0af1d4156f0348e58117d3c9ee7175c39d20633af253fe20a39e872",
+      "kind": "actual browser capture"
+    },
+    {
+      "file": "docs/images/seventh-engine-03/fidelity/entry-248142393.png",
+      "bytes": 354122,
+      "sha256": "2db34ddd17b0e8c635ba265e5e2216c1793f7c2dd1da9fbaba7cf5907d62f972",
+      "kind": "actual browser capture"
+    },
+    {
+      "file": "docs/images/seventh-engine-03/fidelity/entry-248142396.png",
+      "bytes": 357536,
+      "sha256": "5d201d57d07c6a27ec71a5b0f4780729a4c027733c4aa47e3fb74061a8f19c3d",
+      "kind": "actual browser capture"
+    },
+    {
+      "file": "docs/images/seventh-engine-03/fidelity/entry-248142404.png",
+      "bytes": 416851,
+      "sha256": "0126c94c3291a3a2e42d6dbccbcb0659c1e4cff06da4df4944b735dfc1107e1d",
+      "kind": "actual browser capture"
+    },
+    {
+      "file": "docs/images/seventh-engine-03/fidelity/entry-248142407.png",
+      "bytes": 428864,
+      "sha256": "332a409f6d42229e9154e0d8165c4ea8cc807e77c16403936d657461899173f2",
+      "kind": "actual browser capture"
+    },
+    {
+      "file": "docs/images/seventh-engine-03/fidelity/entry-248142411.png",
+      "bytes": 299182,
+      "sha256": "7454fde48b8d74588cbf674ce3fa7023fd2cf3bb40b848b4f98f5e5e944c2aeb",
+      "kind": "actual browser capture"
+    },
+    {
+      "file": "docs/images/seventh-engine-03/fidelity/entry-248142412.png",
+      "bytes": 404665,
+      "sha256": "e048f012b572057963bea3efb604c3f98767c8ae9e02e8661731dedd27d4ea07",
+      "kind": "actual browser capture"
+    },
+    {
+      "file": "docs/images/seventh-engine-03/fidelity/entry-248142615.png",
+      "bytes": 480304,
+      "sha256": "fa74920fe9267ecd8464fb284b36e7c27dbedd4f8b50888834aed61bf88ea414",
+      "kind": "actual browser capture"
+    },
+    {
+      "file": "docs/images/seventh-engine-03/fidelity/entry-248142618.png",
+      "bytes": 430679,
+      "sha256": "f657491dd57f96f152d95b6c3bbdfffe3c4e5acded8a2dc887cd631c3f68c73a",
+      "kind": "actual browser capture"
+    },
+    {
+      "file": "docs/images/seventh-engine-03/fidelity/entry-248142621.png",
+      "bytes": 513453,
+      "sha256": "aeafa8a4dac155d6fb294667cf2147f022fa48f087555d4e74df413b09e03e45",
+      "kind": "actual browser capture"
+    },
+    {
+      "file": "docs/images/seventh-engine-03/fidelity/entry-248142624.png",
+      "bytes": 586515,
+      "sha256": "57690d47e90ace8dcfa3d096add6c2ff3af280a6c9a4ee48b5515a96b271731b",
+      "kind": "actual browser capture"
+    },
+    {
+      "file": "docs/images/seventh-engine-03/fidelity/entry-248142633.png",
+      "bytes": 437205,
+      "sha256": "b69f06ee27ceac6c67262ab9c23fdbe7fdc857e825044b849946af93b17dce97",
+      "kind": "actual browser capture"
+    },
+    {
+      "file": "docs/images/seventh-engine-03/fidelity/entry-248142640.png",
+      "bytes": 400688,
+      "sha256": "1fb898786cfb9febbe4ec0937b99c9a759fe789fec3fc2193213274378a720bf",
+      "kind": "actual browser capture"
+    },
+    {
+      "file": "docs/images/seventh-engine-03/fidelity/entry-248142645.png",
+      "bytes": 421930,
+      "sha256": "20669e93b7b44d7ec9e5e620a198c0ab6294d7a09724f8f1fd4aab026c682d38",
+      "kind": "actual browser capture"
+    },
+    {
+      "file": "docs/images/seventh-engine-03/fidelity/entry-248142647.png",
+      "bytes": 423645,
+      "sha256": "55372fc0c696f0df456f5aa9b215446aae49397f6d66498dee8e84cdf7311812",
+      "kind": "actual browser capture"
+    },
+    {
+      "file": "docs/images/seventh-engine-03/fidelity/entry-248142650.png",
+      "bytes": 423953,
+      "sha256": "39928f7ea9b15e4ecc52e19d304b4853706d7e5730b943348f5e8bd0335a18fb",
+      "kind": "actual browser capture"
+    },
+    {
+      "file": "docs/images/seventh-engine-03/fidelity/entry-248142653.png",
+      "bytes": 396986,
+      "sha256": "12cf0d6bed9272863b3ef202ce9b96e370cac1b03231e1713e4122a5e2a76063",
+      "kind": "actual browser capture"
+    },
+    {
+      "file": "docs/images/seventh-engine-03/fidelity/entry-248142656.png",
+      "bytes": 428114,
+      "sha256": "4e76f75658ebde2e654b927f431872c6e6c4782c99225634c32ecfc385aadbb4",
+      "kind": "actual browser capture"
+    },
+    {
+      "file": "docs/images/seventh-engine-03/fidelity/entry-248142690.png",
+      "bytes": 407340,
+      "sha256": "d8faa963930ed04e625b65f157e1f123c4556573e7b7d2e6c4cb47caaf966161",
+      "kind": "actual browser capture"
+    },
+    {
+      "file": "docs/images/seventh-engine-03/fidelity/entry-248142693.png",
+      "bytes": 370489,
+      "sha256": "fefb1dbbc1ea8d2535a94449c86e47c97da7042a32fb40e09b965604d1dfd8d2",
+      "kind": "actual browser capture"
+    },
+    {
+      "file": "docs/images/seventh-engine-03/fidelity/entry-248142697.png",
+      "bytes": 468116,
+      "sha256": "ca3566e8d9bb66aa426327aabb3391b33d1a04395a9db6f2f1247fdccd248c9e",
+      "kind": "actual browser capture"
+    },
+    {
+      "file": "docs/images/seventh-engine-03/fidelity/entry-248142701.png",
+      "bytes": 346395,
+      "sha256": "249fb35566d19b2adea434b19cab43e0d6df6409be273c6a6f09d698d174143d",
+      "kind": "actual browser capture"
+    },
+    {
+      "file": "docs/images/seventh-engine-03/fidelity/entry-248142707.png",
+      "bytes": 559879,
+      "sha256": "04a4baba682269f2e8159cbcbbd3c92c8e20cf46a5decb08253db8e9bfd059a8",
+      "kind": "actual browser capture"
+    },
+    {
+      "file": "docs/images/seventh-engine-03/fidelity/entry-248142714.png",
+      "bytes": 493090,
+      "sha256": "273846d00d4f5f3bc1a88cc0ac1f6c574633739a7c8b1ed9af78dbb04f54eba0",
+      "kind": "actual browser capture"
+    },
+    {
+      "file": "docs/images/seventh-engine-03/fidelity/entry-248142715.png",
+      "bytes": 468888,
+      "sha256": "a755b93dd747b72b1b8320f82594c8a865ea3458a94e6d115565dc0ca99dc8b0",
+      "kind": "actual browser capture"
+    },
+    {
+      "file": "docs/images/seventh-engine-03/fidelity/entry-951679435.png",
+      "bytes": 345757,
+      "sha256": "c1ddd966f9998e9898e81c2ef51705093a38fc0b8efdba78724fa3ecafa25213",
+      "kind": "actual browser capture"
+    },
+    {
+      "file": "docs/images/seventh-engine-03/fidelity/entry-978475216.png",
+      "bytes": 532792,
+      "sha256": "bed062799665abfb18f28aca01843a32bc644a62022eac1f63f1c263ebee1b38",
+      "kind": "actual browser capture"
+    },
+    {
+      "file": "docs/images/seventh-engine-03/fidelity/seventh-03-panorama-0-0.png",
+      "bytes": 400175,
+      "sha256": "c0d3f134eee9494e94259bac9bc7dcbddd031fd20d02ed8d6d137998104f72f4",
+      "kind": "actual browser capture"
+    },
+    {
+      "file": "docs/images/seventh-engine-03/fidelity/seventh-03-panorama-0-1.png",
+      "bytes": 479927,
+      "sha256": "7e5ee400d54538afb776b1e2b8334701967503f8a724d336d6f9e3a79b460e0d",
+      "kind": "actual browser capture"
+    },
+    {
+      "file": "docs/images/seventh-engine-03/fidelity/seventh-03-panorama-1-0.png",
+      "bytes": 417327,
+      "sha256": "2a765d2e780e4c36f2984a7057a7d89e7995a6fc3fdd607dc08ad2c299bd4943",
+      "kind": "actual browser capture"
+    },
+    {
+      "file": "docs/images/seventh-engine-03/fidelity/seventh-03-panorama-1-1.png",
+      "bytes": 434739,
+      "sha256": "60442ea18cb03354f9080acac91c57513a0b4da2841354e029064849d0d25a66",
+      "kind": "actual browser capture"
+    },
+    {
+      "file": "docs/images/seventh-engine-03/fidelity/seventh-03-panorama-10-0.png",
+      "bytes": 385967,
+      "sha256": "ce32b9bcd901e71cd675ac0ebba10592b231ed2c2e3cdce01576a5537a670ff3",
+      "kind": "actual browser capture"
+    },
+    {
+      "file": "docs/images/seventh-engine-03/fidelity/seventh-03-panorama-10-1.png",
+      "bytes": 401485,
+      "sha256": "e1c7118dac8612db02042248b787a16b8175d70d59a85c0f8c7ff66cb2493324",
+      "kind": "actual browser capture"
+    },
+    {
+      "file": "docs/images/seventh-engine-03/fidelity/seventh-03-panorama-2-0.png",
+      "bytes": 414155,
+      "sha256": "1d9f6315f03f7f4be8d3d1846a0f77c89337a214d2f709c1444a79b41b459ee5",
+      "kind": "actual browser capture"
+    },
+    {
+      "file": "docs/images/seventh-engine-03/fidelity/seventh-03-panorama-2-1.png",
+      "bytes": 486776,
+      "sha256": "d426b0d6ba692ac45218f7a5e18223acc522eb1e195de254b16c5c284d660402",
+      "kind": "actual browser capture"
+    },
+    {
+      "file": "docs/images/seventh-engine-03/fidelity/seventh-03-panorama-3-0.png",
+      "bytes": 359634,
+      "sha256": "bfe1d573824bdb94735a4aaf76a9e7211759a7a55c26ee11350918b20fc7abcf",
+      "kind": "actual browser capture"
+    },
+    {
+      "file": "docs/images/seventh-engine-03/fidelity/seventh-03-panorama-3-1.png",
+      "bytes": 431899,
+      "sha256": "cd44da82fed5124de80e85c6352ee593a93d63b809d02c6ceb95474a445d6cb6",
+      "kind": "actual browser capture"
+    },
+    {
+      "file": "docs/images/seventh-engine-03/fidelity/seventh-03-panorama-4-0.png",
+      "bytes": 387227,
+      "sha256": "0e96e3b992da4b81e465d23b388253c23752c5c04f93994c0ef419cf75ff5840",
+      "kind": "actual browser capture"
+    },
+    {
+      "file": "docs/images/seventh-engine-03/fidelity/seventh-03-panorama-4-1.png",
+      "bytes": 447140,
+      "sha256": "9e11a9ad9edeaceab18b2a5c9d46de25f6e2e193702a5246ef9748fa180236d7",
+      "kind": "actual browser capture"
+    },
+    {
+      "file": "docs/images/seventh-engine-03/fidelity/seventh-03-panorama-5-0.png",
+      "bytes": 362827,
+      "sha256": "d9b11bf015b0669b52b55bcd050513ac3b0a327405b357ff955c6a3c530b9459",
+      "kind": "actual browser capture"
+    },
+    {
+      "file": "docs/images/seventh-engine-03/fidelity/seventh-03-panorama-5-1.png",
+      "bytes": 454228,
+      "sha256": "300d5617039c7787684a92798f7075996562d022338f729332df0fea8602b183",
+      "kind": "actual browser capture"
+    },
+    {
+      "file": "docs/images/seventh-engine-03/fidelity/seventh-03-panorama-6-0.png",
+      "bytes": 387022,
+      "sha256": "90b30b1992f9eb1d82c5a6cc99af3a1ec72b5a04be9c00cb548a51a136d756eb",
+      "kind": "actual browser capture"
+    },
+    {
+      "file": "docs/images/seventh-engine-03/fidelity/seventh-03-panorama-6-1.png",
+      "bytes": 464963,
+      "sha256": "359005a188ad9c9e92c267900a1b73423a61a5ed0a06d1e735cc0f3977711de2",
+      "kind": "actual browser capture"
+    },
+    {
+      "file": "docs/images/seventh-engine-03/fidelity/seventh-03-panorama-7-0.png",
+      "bytes": 388108,
+      "sha256": "7ea3bd85f87a368450cae0150f2838910456c581130c1fd6508f1475332ca86c",
+      "kind": "actual browser capture"
+    },
+    {
+      "file": "docs/images/seventh-engine-03/fidelity/seventh-03-panorama-7-1.png",
+      "bytes": 455491,
+      "sha256": "0ec906822e4f33df7b680075f2dc4d8c16d658fd2a7232292493458e2a19f731",
+      "kind": "actual browser capture"
+    },
+    {
+      "file": "docs/images/seventh-engine-03/fidelity/seventh-03-panorama-8-0.png",
+      "bytes": 382697,
+      "sha256": "8bdc49527bdc80fc3908d56c3b156ee1a7687eea77330019c668dbad24a5b318",
+      "kind": "actual browser capture"
+    },
+    {
+      "file": "docs/images/seventh-engine-03/fidelity/seventh-03-panorama-8-1.png",
+      "bytes": 399958,
+      "sha256": "0c9e4d5b2ce3e5f1d956e8cba920fb5febf79fd5fc1de61960537caa631ae951",
+      "kind": "actual browser capture"
+    },
+    {
+      "file": "docs/images/seventh-engine-03/fidelity/seventh-03-panorama-9-0.png",
+      "bytes": 414088,
+      "sha256": "0d506a3f14cda346ddd41530c317482d42a4a6bb59346061d68acba81f239c32",
+      "kind": "actual browser capture"
+    },
+    {
+      "file": "docs/images/seventh-engine-03/fidelity/seventh-03-panorama-9-1.png",
+      "bytes": 350789,
+      "sha256": "b2dcc648420535143cb4ff74c664ba5f677892171206511d09e114ba71887728",
+      "kind": "actual browser capture"
+    },
+    {
+      "file": "docs/images/seventh-engine-03/fidelity/seventh-03-second-0.png",
+      "bytes": 393966,
+      "sha256": "dec23498bd3cbbcf43a42da95e6fc51e8399c5f4b6f54ce1258f4fd9619416cb",
+      "kind": "actual browser capture"
+    },
+    {
+      "file": "docs/images/seventh-engine-03/fidelity/seventh-03-second-1.png",
+      "bytes": 454225,
+      "sha256": "f11f436ef91034b7bbe94de28088e84a5615055620d9ce348eef2e588ed0caff",
+      "kind": "actual browser capture"
+    },
+    {
+      "file": "docs/images/seventh-engine-03/fidelity/seventh-03-streetview-48-0.png",
+      "bytes": 368704,
+      "sha256": "6c88e53314d20478db2e03c15cbc9668a93dadc921549aa7978485ae57d43d3f",
+      "kind": "actual browser capture"
+    },
+    {
+      "file": "docs/images/seventh-engine-03/fidelity/seventh-03-streetview-48-1.png",
+      "bytes": 407674,
+      "sha256": "f57ccc5553a6a426541cfddde78a348936b2e52e529897a5ce50437d79810ea5",
+      "kind": "actual browser capture"
+    },
+    {
+      "file": "docs/images/seventh-engine-03/fidelity/seventh-03-streetview-50-0.png",
+      "bytes": 451294,
+      "sha256": "74645f3a27caf035f836d11988ef580226297f48af7821af3a370d31551e51e9",
+      "kind": "actual browser capture"
+    },
+    {
+      "file": "docs/images/seventh-engine-03/fidelity/seventh-03-streetview-50-1.png",
+      "bytes": 493820,
+      "sha256": "0affa04e109222b8424b554edb9518507c5341b23c4636a1f7c7da293da43f69",
+      "kind": "actual browser capture"
+    },
+    {
+      "file": "docs/images/seventh-engine-03/fidelity/seventh-03-streetview-50-2.png",
+      "bytes": 497988,
+      "sha256": "1c053bfda0338eff147f3fe70c301ffa154f1b5191e75d0fd65d22bd920e973a",
+      "kind": "actual browser capture"
+    },
+    {
+      "file": "docs/images/seventh-engine-03/fidelity/seventh-03-streetview-50-3.png",
+      "bytes": 480828,
+      "sha256": "f58ca8a4ce93725d8afe079762c21cd54d5d1297f2cd8ffc6327f44e6058e27e",
+      "kind": "actual browser capture"
+    },
+    {
+      "file": "docs/images/seventh-engine-03/fidelity/seventh-03-streetview-50-4.png",
+      "bytes": 420833,
+      "sha256": "ee7e451fdaa1865737c9cdf6ec898e2c373d93e19def3a1a688723c4776a223e",
+      "kind": "actual browser capture"
+    },
+    {
+      "file": "docs/images/seventh-engine-03/fidelity/seventh-03-west-0.png",
+      "bytes": 379586,
+      "sha256": "107cac9788841dc3d6ce63ad0db41ba7b01fe5bb36a66b766b1f6275d9857e4f",
+      "kind": "actual browser capture"
+    },
+    {
+      "file": "docs/images/seventh-engine-03/fidelity/seventh-03-west-1.png",
+      "bytes": 497506,
+      "sha256": "dcbd2d0714482b6cf9ea531600fd073e7b94782b1be4d0fbe2cf1d8a422a03ae",
+      "kind": "actual browser capture"
+    }
+  ]
+}

@@ -34,6 +34,7 @@ var browser_review = false
 var stats_timer = 0.0
 var browser_focus_callback
 var facade_review = false
+var review_ids: Array[int] = []
 
 func _ready():
 	print("SEVENTH_OPENING")
@@ -44,6 +45,8 @@ func _ready():
 		JavaScriptBridge.get_interface("window").addEventListener("blur",browser_focus_callback)
 	for arg in OS.get_cmdline_user_args():
 		if arg == "--facade-review": facade_review = true
+		if arg.begins_with("--review-ids="):
+			for value in arg.trim_prefix("--review-ids=").split(","): review_ids.append(int(value))
 		if arg.begins_with("--review-out="):
 			review_mode = true
 			review_dir = arg.trim_prefix("--review-out=")
@@ -146,6 +149,7 @@ func reset():
 	car.reset_car()
 	cameras.set_process(true)
 	cameras.camera.projection = Camera3D.PROJECTION_PERSPECTIVE
+	cameras.camera.keep_aspect = Camera3D.KEEP_HEIGHT
 	car.visible = true
 	if started:
 		hud.top.visible = hud.shown
@@ -204,6 +208,8 @@ func _process(dt):
 					car.reset_physics_interpolation()
 				elif command.get("type") == "frontage":
 					show_review_frontage(int(command.id),bool(command.get("close",false)),float(command.get("along",.5)),float(command.get("span",1.0)))
+				elif command.get("type") == "reference":
+					show_reference_camera(command)
 				JavaScriptBridge.eval("window.seventhReviewAck="+str(int(command.get("sequence",0))))
 		stats_timer += dt
 		if stats_timer >= .25:
@@ -346,11 +352,30 @@ func show_review_frontage(id: int, close: bool, along = .5, span = 1.0):
 	# A documented orthographic elevation pass stays inside the narrow street;
 	# perspective closeups and gameplay captures are separate evidence.
 	cameras.camera.projection = Camera3D.PROJECTION_PERSPECTIVE if close else Camera3D.PROJECTION_ORTHOGONAL
+	cameras.camera.keep_aspect = Camera3D.KEEP_HEIGHT
 	cameras.camera.size = maxf(height*1.17,float(f.length)*.78)
 	cameras.camera.global_position=middle+normal*distance+Vector3.UP*(2.1 if close else height*.51)
 	cameras.camera.fov=58
 	cameras.camera.look_at(target,Vector3.UP)
 	hud.top.hide();hud.bottom.hide()
+
+func show_reference_camera(command: Dictionary):
+	# Reference panorama pose, already converted from geographic coordinates by
+	# the review script. This bridge is available only with explicit ?review=1.
+	car.stop_car()
+	car.enabled = false
+	car.visible = false
+	cameras.set_process(false)
+	cameras.camera.projection = Camera3D.PROJECTION_PERSPECTIVE
+	cameras.camera.keep_aspect = Camera3D.KEEP_WIDTH
+	cameras.camera.fov = clampf(float(command.fov),25,120)
+	cameras.camera.global_position = Vector3(float(command.x),float(command.get("height",2.5)),float(command.z))
+	var yaw = deg_to_rad(float(command.heading)-29.076863530557524)
+	var pitch = deg_to_rad(float(command.pitch))
+	var direction = Vector3(sin(yaw)*cos(pitch),sin(pitch),-cos(yaw)*cos(pitch))
+	cameras.camera.look_at(cameras.camera.global_position+direction,Vector3.UP)
+	hud.top.hide()
+	hud.bottom.hide()
 
 func run_review():
 	DirAccess.make_dir_recursive_absolute(review_dir)
@@ -361,11 +386,14 @@ func run_review():
 	car.testing = true
 	if facade_review:
 		weather.select(0,true)
+		var captured_frontages = 0
 		for entry in world.data.reviewFrontages:
+			if not review_ids.is_empty() and int(entry.id) not in review_ids: continue
 			show_review_frontage(int(entry.id),false)
 			await get_tree().create_timer(.16).timeout
 			await capture("facade-"+str(int(entry.id)))
-		print("SEVENTH_FACADE_REVIEW_COMPLETE ",world.data.reviewFrontages.size())
+			captured_frontages += 1
+		print("SEVENTH_FACADE_REVIEW_COMPLETE ",captured_frontages)
 		get_tree().quit()
 		return
 	for mood in range(3):

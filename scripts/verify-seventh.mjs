@@ -45,3 +45,4 @@ const html=await fs.readFile(path.join(root,'dist/seventh/index.html'),'utf8');a
 assert(html.includes('"canvasResizePolicy":0'),'CSS-pixel rendering');assert(html.includes('const threaded = false'),'No GPU server or cross-origin threads required');
 assert(!/<script[^>]+src=["']https?:/.test(html),'Runtime scripts must be local');
 console.log(`Verified Seventh: ${Object.keys(build.files).length} package files, ${Object.keys(build.sources).length} source hashes, 182 buildings, all 82 Seventh frontages and original geography.`);
+await import('./verify-seventh-architecture.mjs');

@@ -1,0 +1,4287 @@
+{
+  "revision": "03",
+  "checked": "2026-09-14",
+  "scope": "Entire East 7th Street in the original map, Second Avenue through Avenue A with existing boundary context; separate Godot export only.",
+  "benchmark": "SEVENTH-FIDELITY-BENCHMARK.md",
+  "status": "Candidate reconstruction; no new frontage has passed full photographic benchmark acceptance.",
+  "sourceScheduleSha256": "cd438b7d2f0046c2f1d71e241c864bbe7a4603ba47ed8638da4eaae1a13e1920",
+  "modelObjects": 182,
+  "seventhFrontages": 82,
+  "explicitElevations": 76,
+  "preservedElevationRecipes": 6,
+  "windowGroups": 1547,
+  "explicitEntrances": 77,
+  "provisionalUnletteredGroundUnits": 17,
+  "records": [
+    {
+      "id": 241822156,
+      "address": "118 2nd Avenue",
+      "sources": [
+        {
+          "id": "architecture-241822156",
+          "captureDate": null,
+          "url": "https://buildingblocks.villagepreservation.org/building/118-2nd-avenue/",
+          "scope": null
+        },
+        {
+          "id": "seventh-03-second",
+          "captureDate": "2024-09",
+          "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=dhHN7nptFd5a5rM5JqMSZQ",
+          "scope": null
+        }
+      ],
+      "geometry": "explicit Seventh-only schedule",
+      "scheduledWindowGroups": 58,
+      "scheduledEntrances": 1,
+      "unletteredUnits": 0,
+      "observation": {
+        "sources": [
+          "architecture-241822156",
+          "seventh-03-second"
+        ],
+        "reviewed": "2026-09-14",
+        "basis": "Individual bay count, upper window/hood types and ground entrance arrangement transcribed from the listed dated views. Geometry dimensions remain photo-proportion estimates within the existing mapped envelope.",
+        "unknown": [
+          "Surveyed opening widths, recesses and heights",
+          "Door hardware/ornament contours below reference resolution",
+          "Occluded ground details and exact tread counts",
+          "Current condition where only older imagery is available"
+        ],
+        "acceptance": "Engine comparison pending. This is an authored architectural correction, not measured 1:1 acceptance."
+      },
+      "nativeElevation": {
+        "file": "../docs/images/seventh-engine-03/elevations/sheet-0.webp",
+        "slot": 0,
+        "projection": "orthographic diagnostic; not a photographic camera"
+      },
+      "reviewStatus": "Native elevation inspected in the full 82-frontage pass. Final contact sheet retained; photographic count/type/alignment acceptance remains open.",
+      "acceptance": {
+        "countAndTypeGate": "not independently certified",
+        "matchedLandmarkGate": "not passed",
+        "closeAndObliqueGate": "candidate review; exact hardware and profiles unresolved",
+        "userAccepted": false
+      },
+      "entranceCaptures": [
+        "../docs/images/seventh-engine-03/fidelity/entry-241822156.png"
+      ]
+    },
+    {
+      "id": 241822157,
+      "address": "65 East 7th Street",
+      "sources": [
+        {
+          "id": "architecture-241822157",
+          "captureDate": null,
+          "url": "https://buildingblocks.villagepreservation.org/building/65-east-7th-street/",
+          "scope": null
+        },
+        {
+          "id": "seventh-03-panorama-1",
+          "captureDate": "2024-09",
+          "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=udBbZpfPC17Suy6rtTWtaw",
+          "scope": null
+        }
+      ],
+      "geometry": "explicit Seventh-only schedule",
+      "scheduledWindowGroups": 13,
+      "scheduledEntrances": 1,
+      "unletteredUnits": 0,
+      "observation": {
+        "sources": [
+          "architecture-241822157",
+          "seventh-03-panorama-1"
+        ],
+        "reviewed": "2026-09-14",
+        "basis": "Individual bay count, upper window/hood types and ground entrance arrangement transcribed from the listed dated views. Geometry dimensions remain photo-proportion estimates within the existing mapped envelope.",
+        "unknown": [
+          "Surveyed opening widths, recesses and heights",
+          "Door hardware/ornament contours below reference resolution",
+          "Occluded ground details and exact tread counts",
+          "Current condition where only older imagery is available"
+        ],
+        "acceptance": "Engine comparison pending. This is an authored architectural correction, not measured 1:1 acceptance."
+      },
+      "nativeElevation": {
+        "file": "../docs/images/seventh-engine-03/elevations/sheet-0.webp",
+        "slot": 1,
+        "projection": "orthographic diagnostic; not a photographic camera"
+      },
+      "reviewStatus": "Native elevation inspected in the full 82-frontage pass. Final contact sheet retained; photographic count/type/alignment acceptance remains open.",
+      "acceptance": {
+        "countAndTypeGate": "not independently certified",
+        "matchedLandmarkGate": "not passed",
+        "closeAndObliqueGate": "candidate review; exact hardware and profiles unresolved",
+        "userAccepted": false
+      },
+      "entranceCaptures": [
+        "../docs/images/seventh-engine-03/fidelity/entry-241822157.png"
+      ]
+    },
+    {
+      "id": 241822169,
+      "address": "57 East 7th Street",
+      "sources": [
+        {
+          "id": "architecture-241822169",
+          "captureDate": null,
+          "url": "https://buildingblocks.villagepreservation.org/building/57-east-7th-street/",
+          "scope": null
+        },
+        {
+          "id": "seventh-03-panorama-0",
+          "captureDate": "2024-09",
+          "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=wk5o9wHwIlPud3GicfSaWg",
+          "scope": null
+        }
+      ],
+      "geometry": "explicit Seventh-only schedule",
+      "scheduledWindowGroups": 14,
+      "scheduledEntrances": 1,
+      "unletteredUnits": 0,
+      "observation": {
+        "sources": [
+          "architecture-241822169",
+          "seventh-03-panorama-0"
+        ],
+        "reviewed": "2026-09-14",
+        "basis": "Three bays, shallow entrance canopy and paired barred ground windows; no ornate stone hoods.",
+        "unknown": [
+          "Surveyed opening widths, recesses and heights",
+          "Door hardware/ornament contours below reference resolution",
+          "Occluded ground details and exact tread counts",
+          "Current condition where only older imagery is available"
+        ],
+        "acceptance": "Engine comparison pending. This is an authored architectural correction, not measured 1:1 acceptance."
+      },
+      "nativeElevation": {
+        "file": "../docs/images/seventh-engine-03/elevations/sheet-0.webp",
+        "slot": 2,
+        "projection": "orthographic diagnostic; not a photographic camera"
+      },
+      "reviewStatus": "Native elevation inspected in the full 82-frontage pass. Final contact sheet retained; photographic count/type/alignment acceptance remains open.",
+      "acceptance": {
+        "countAndTypeGate": "not independently certified",
+        "matchedLandmarkGate": "not passed",
+        "closeAndObliqueGate": "candidate review; exact hardware and profiles unresolved",
+        "userAccepted": false
+      },
+      "entranceCaptures": [
+        "../docs/images/seventh-engine-03/fidelity/entry-241822169.png"
+      ]
+    },
+    {
+      "id": 241822176,
+      "address": "69 East 7th Street",
+      "sources": [
+        {
+          "id": "architecture-241822176",
+          "captureDate": null,
+          "url": "https://buildingblocks.villagepreservation.org/building/69-east-7th-street/",
+          "scope": null
+        },
+        {
+          "id": "seventh-03-panorama-1",
+          "captureDate": "2024-09",
+          "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=udBbZpfPC17Suy6rtTWtaw",
+          "scope": null
+        }
+      ],
+      "geometry": "explicit Seventh-only schedule",
+      "scheduledWindowGroups": 19,
+      "scheduledEntrances": 1,
+      "unletteredUnits": 0,
+      "observation": {
+        "sources": [
+          "architecture-241822176",
+          "seventh-03-panorama-1"
+        ],
+        "reviewed": "2026-09-14",
+        "basis": "Four-bay dark brick elevation; diamond inlays, left door and three barred ground windows, no central portal.",
+        "unknown": [
+          "Surveyed opening widths, recesses and heights",
+          "Door hardware/ornament contours below reference resolution",
+          "Occluded ground details and exact tread counts",
+          "Current condition where only older imagery is available"
+        ],
+        "acceptance": "Engine comparison pending. This is an authored architectural correction, not measured 1:1 acceptance."
+      },
+      "nativeElevation": {
+        "file": "../docs/images/seventh-engine-03/elevations/sheet-0.webp",
+        "slot": 3,
+        "projection": "orthographic diagnostic; not a photographic camera"
+      },
+      "reviewStatus": "Native elevation inspected in the full 82-frontage pass. Final contact sheet retained; photographic count/type/alignment acceptance remains open.",
+      "acceptance": {
+        "countAndTypeGate": "not independently certified",
+        "matchedLandmarkGate": "not passed",
+        "closeAndObliqueGate": "candidate review; exact hardware and profiles unresolved",
+        "userAccepted": false
+      },
+      "entranceCaptures": [
+        "../docs/images/seventh-engine-03/fidelity/entry-241822176.png"
+      ]
+    },
+    {
+      "id": 241822178,
+      "address": "53 East 7th Street",
+      "sources": [
+        {
+          "id": "architecture-241822178",
+          "captureDate": null,
+          "url": "https://buildingblocks.villagepreservation.org/building/53-east-7th-street/",
+          "scope": null
+        }
+      ],
+      "geometry": "explicit Seventh-only schedule",
+      "scheduledWindowGroups": 24,
+      "scheduledEntrances": 1,
+      "unletteredUnits": 0,
+      "observation": {
+        "sources": [
+          "architecture-241822178"
+        ],
+        "reviewed": "2026-09-14",
+        "basis": "Individual bay count, upper window/hood types and ground entrance arrangement transcribed from the listed dated views. Geometry dimensions remain photo-proportion estimates within the existing mapped envelope.",
+        "unknown": [
+          "Surveyed opening widths, recesses and heights",
+          "Door hardware/ornament contours below reference resolution",
+          "Occluded ground details and exact tread counts",
+          "Current condition where only older imagery is available"
+        ],
+        "acceptance": "Engine comparison pending. This is an authored architectural correction, not measured 1:1 acceptance.",
+        "detailReview": "Reviewed the archive exterior again for stone piers, horizontal sill courses, spandrel panels, base finish and cornice profile; current panoramas take precedence where the same part is visible. Dimensions and shallow relief contours remain photograph-based estimates."
+      },
+      "nativeElevation": {
+        "file": "../docs/images/seventh-engine-03/elevations/sheet-0.webp",
+        "slot": 4,
+        "projection": "orthographic diagnostic; not a photographic camera"
+      },
+      "reviewStatus": "Native elevation inspected in the full 82-frontage pass. Final contact sheet retained; photographic count/type/alignment acceptance remains open.",
+      "acceptance": {
+        "countAndTypeGate": "not independently certified",
+        "matchedLandmarkGate": "not passed",
+        "closeAndObliqueGate": "candidate review; exact hardware and profiles unresolved",
+        "userAccepted": false
+      },
+      "entranceCaptures": [
+        "../docs/images/seventh-engine-03/fidelity/entry-241822178.png"
+      ]
+    },
+    {
+      "id": 241822185,
+      "address": "77 East 7th Street",
+      "sources": [
+        {
+          "id": "architecture-241822185",
+          "captureDate": null,
+          "url": "https://buildingblocks.villagepreservation.org/building/77-east-7th-street/",
+          "scope": null
+        },
+        {
+          "id": "seventh-03-panorama-2",
+          "captureDate": "2024-09",
+          "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=BUNJSXOY9He29Pvm3_1thw",
+          "scope": null
+        }
+      ],
+      "geometry": "explicit Seventh-only schedule",
+      "scheduledWindowGroups": 20,
+      "scheduledEntrances": 1,
+      "unletteredUnits": 0,
+      "observation": {
+        "sources": [
+          "architecture-241822185",
+          "seventh-03-panorama-2"
+        ],
+        "reviewed": "2026-09-14",
+        "basis": "Individual bay count, upper window/hood types and ground entrance arrangement transcribed from the listed dated views. Geometry dimensions remain photo-proportion estimates within the existing mapped envelope.",
+        "unknown": [
+          "Surveyed opening widths, recesses and heights",
+          "Door hardware/ornament contours below reference resolution",
+          "Occluded ground details and exact tread counts",
+          "Current condition where only older imagery is available"
+        ],
+        "acceptance": "Engine comparison pending. This is an authored architectural correction, not measured 1:1 acceptance.",
+        "detailReview": "Reviewed the archive exterior again for stone piers, horizontal sill courses, spandrel panels, base finish and cornice profile; current panoramas take precedence where the same part is visible. Dimensions and shallow relief contours remain photograph-based estimates."
+      },
+      "nativeElevation": {
+        "file": "../docs/images/seventh-engine-03/elevations/sheet-0.webp",
+        "slot": 5,
+        "projection": "orthographic diagnostic; not a photographic camera"
+      },
+      "reviewStatus": "Native elevation inspected in the full 82-frontage pass. Final contact sheet retained; photographic count/type/alignment acceptance remains open.",
+      "acceptance": {
+        "countAndTypeGate": "not independently certified",
+        "matchedLandmarkGate": "not passed",
+        "closeAndObliqueGate": "candidate review; exact hardware and profiles unresolved",
+        "userAccepted": false
+      },
+      "entranceCaptures": [
+        "../docs/images/seventh-engine-03/fidelity/entry-241822185.png"
+      ]
+    },
+    {
+      "id": 241822192,
+      "address": "85 East 7th Street",
+      "sources": [
+        {
+          "id": "architecture-241822192",
+          "captureDate": null,
+          "url": "https://buildingblocks.villagepreservation.org/building/85-east-7th-street/",
+          "scope": null
+        },
+        {
+          "id": "seventh-03-panorama-3",
+          "captureDate": "2024-09",
+          "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=ItX9nZtNODUaCo_CCZwimw",
+          "scope": null
+        }
+      ],
+      "geometry": "explicit Seventh-only schedule",
+      "scheduledWindowGroups": 14,
+      "scheduledEntrances": 1,
+      "unletteredUnits": 0,
+      "observation": {
+        "sources": [
+          "architecture-241822192",
+          "seventh-03-panorama-3"
+        ],
+        "reviewed": "2026-09-14",
+        "basis": "Individual bay count, upper window/hood types and ground entrance arrangement transcribed from the listed dated views. Geometry dimensions remain photo-proportion estimates within the existing mapped envelope.",
+        "unknown": [
+          "Surveyed opening widths, recesses and heights",
+          "Door hardware/ornament contours below reference resolution",
+          "Occluded ground details and exact tread counts",
+          "Current condition where only older imagery is available"
+        ],
+        "acceptance": "Engine comparison pending. This is an authored architectural correction, not measured 1:1 acceptance."
+      },
+      "nativeElevation": {
+        "file": "../docs/images/seventh-engine-03/elevations/sheet-1.webp",
+        "slot": 0,
+        "projection": "orthographic diagnostic; not a photographic camera"
+      },
+      "reviewStatus": "Native elevation inspected in the full 82-frontage pass. Final contact sheet retained; photographic count/type/alignment acceptance remains open.",
+      "acceptance": {
+        "countAndTypeGate": "not independently certified",
+        "matchedLandmarkGate": "not passed",
+        "closeAndObliqueGate": "candidate review; exact hardware and profiles unresolved",
+        "userAccepted": false
+      },
+      "entranceCaptures": [
+        "../docs/images/seventh-engine-03/fidelity/entry-241822192.png"
+      ]
+    },
+    {
+      "id": 241822197,
+      "address": "55 East 7th Street",
+      "sources": [
+        {
+          "id": "architecture-241822197",
+          "captureDate": null,
+          "url": "https://buildingblocks.villagepreservation.org/building/55-east-7th-street/",
+          "scope": null
+        },
+        {
+          "id": "seventh-03-panorama-0",
+          "captureDate": "2024-09",
+          "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=wk5o9wHwIlPud3GicfSaWg",
+          "scope": null
+        }
+      ],
+      "geometry": "explicit Seventh-only schedule",
+      "scheduledWindowGroups": 20,
+      "scheduledEntrances": 1,
+      "unletteredUnits": 0,
+      "observation": {
+        "sources": [
+          "architecture-241822197",
+          "seventh-03-panorama-0"
+        ],
+        "reviewed": "2026-09-14",
+        "basis": "Individual bay count, upper window/hood types and ground entrance arrangement transcribed from the listed dated views. Geometry dimensions remain photo-proportion estimates within the existing mapped envelope.",
+        "unknown": [
+          "Surveyed opening widths, recesses and heights",
+          "Door hardware/ornament contours below reference resolution",
+          "Occluded ground details and exact tread counts",
+          "Current condition where only older imagery is available"
+        ],
+        "acceptance": "Engine comparison pending. This is an authored architectural correction, not measured 1:1 acceptance.",
+        "detailReview": "Reviewed the archive exterior again for stone piers, horizontal sill courses, spandrel panels, base finish and cornice profile; current panoramas take precedence where the same part is visible. Dimensions and shallow relief contours remain photograph-based estimates."
+      },
+      "nativeElevation": {
+        "file": "../docs/images/seventh-engine-03/elevations/sheet-1.webp",
+        "slot": 1,
+        "projection": "orthographic diagnostic; not a photographic camera"
+      },
+      "reviewStatus": "Native elevation inspected in the full 82-frontage pass. Final contact sheet retained; photographic count/type/alignment acceptance remains open.",
+      "acceptance": {
+        "countAndTypeGate": "not independently certified",
+        "matchedLandmarkGate": "not passed",
+        "closeAndObliqueGate": "candidate review; exact hardware and profiles unresolved",
+        "userAccepted": false
+      },
+      "entranceCaptures": [
+        "../docs/images/seventh-engine-03/fidelity/entry-241822197.png"
+      ]
+    },
+    {
+      "id": 241822199,
+      "address": "59 East 7th Street",
+      "sources": [
+        {
+          "id": "architecture-241822199",
+          "captureDate": null,
+          "url": "https://buildingblocks.villagepreservation.org/building/59-east-7th-street/",
+          "scope": null
+        },
+        {
+          "id": "seventh-03-panorama-0",
+          "captureDate": "2024-09",
+          "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=wk5o9wHwIlPud3GicfSaWg",
+          "scope": null
+        }
+      ],
+      "geometry": "explicit Seventh-only schedule",
+      "scheduledWindowGroups": 24,
+      "scheduledEntrances": 1,
+      "unletteredUnits": 0,
+      "observation": {
+        "sources": [
+          "architecture-241822199",
+          "seventh-03-panorama-0"
+        ],
+        "reviewed": "2026-09-14",
+        "basis": "Individual bay count, upper window/hood types and ground entrance arrangement transcribed from the listed dated views. Geometry dimensions remain photo-proportion estimates within the existing mapped envelope.",
+        "unknown": [
+          "Surveyed opening widths, recesses and heights",
+          "Door hardware/ornament contours below reference resolution",
+          "Occluded ground details and exact tread counts",
+          "Current condition where only older imagery is available"
+        ],
+        "acceptance": "Engine comparison pending. This is an authored architectural correction, not measured 1:1 acceptance.",
+        "detailReview": "Reviewed the archive exterior again for stone piers, horizontal sill courses, spandrel panels, base finish and cornice profile; current panoramas take precedence where the same part is visible. Dimensions and shallow relief contours remain photograph-based estimates."
+      },
+      "nativeElevation": {
+        "file": "../docs/images/seventh-engine-03/elevations/sheet-1.webp",
+        "slot": 2,
+        "projection": "orthographic diagnostic; not a photographic camera"
+      },
+      "reviewStatus": "Native elevation inspected in the full 82-frontage pass. Final contact sheet retained; photographic count/type/alignment acceptance remains open.",
+      "acceptance": {
+        "countAndTypeGate": "not independently certified",
+        "matchedLandmarkGate": "not passed",
+        "closeAndObliqueGate": "candidate review; exact hardware and profiles unresolved",
+        "userAccepted": false
+      },
+      "entranceCaptures": [
+        "../docs/images/seventh-engine-03/fidelity/entry-241822199.png"
+      ]
+    },
+    {
+      "id": 241822201,
+      "address": "61 East 7th Street",
+      "sources": [
+        {
+          "id": "architecture-241822201",
+          "captureDate": null,
+          "url": "https://buildingblocks.villagepreservation.org/building/61-east-7th-street/",
+          "scope": null
+        },
+        {
+          "id": "seventh-03-panorama-0",
+          "captureDate": "2024-09",
+          "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=wk5o9wHwIlPud3GicfSaWg",
+          "scope": null
+        }
+      ],
+      "geometry": "explicit Seventh-only schedule",
+      "scheduledWindowGroups": 20,
+      "scheduledEntrances": 1,
+      "unletteredUnits": 0,
+      "observation": {
+        "sources": [
+          "architecture-241822201",
+          "seventh-03-panorama-0"
+        ],
+        "reviewed": "2026-09-14",
+        "basis": "Individual bay count, upper window/hood types and ground entrance arrangement transcribed from the listed dated views. Geometry dimensions remain photo-proportion estimates within the existing mapped envelope.",
+        "unknown": [
+          "Surveyed opening widths, recesses and heights",
+          "Door hardware/ornament contours below reference resolution",
+          "Occluded ground details and exact tread counts",
+          "Current condition where only older imagery is available"
+        ],
+        "acceptance": "Engine comparison pending. This is an authored architectural correction, not measured 1:1 acceptance.",
+        "detailReview": "Reviewed the archive exterior again for stone piers, horizontal sill courses, spandrel panels, base finish and cornice profile; current panoramas take precedence where the same part is visible. Dimensions and shallow relief contours remain photograph-based estimates."
+      },
+      "nativeElevation": {
+        "file": "../docs/images/seventh-engine-03/elevations/sheet-1.webp",
+        "slot": 3,
+        "projection": "orthographic diagnostic; not a photographic camera"
+      },
+      "reviewStatus": "Native elevation inspected in the full 82-frontage pass. Final contact sheet retained; photographic count/type/alignment acceptance remains open.",
+      "acceptance": {
+        "countAndTypeGate": "not independently certified",
+        "matchedLandmarkGate": "not passed",
+        "closeAndObliqueGate": "candidate review; exact hardware and profiles unresolved",
+        "userAccepted": false
+      },
+      "entranceCaptures": [
+        "../docs/images/seventh-engine-03/fidelity/entry-241822201.png"
+      ]
+    },
+    {
+      "id": 241822202,
+      "address": "63 East 7th Street",
+      "sources": [
+        {
+          "id": "architecture-241822202",
+          "captureDate": null,
+          "url": null,
+          "scope": null
+        },
+        {
+          "id": "seventh-03-panorama-0",
+          "captureDate": "2024-09",
+          "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=wk5o9wHwIlPud3GicfSaWg",
+          "scope": null
+        }
+      ],
+      "geometry": "explicit Seventh-only schedule",
+      "scheduledWindowGroups": 24,
+      "scheduledEntrances": 1,
+      "unletteredUnits": 0,
+      "observation": {
+        "sources": [
+          "architecture-241822202",
+          "seventh-03-panorama-0"
+        ],
+        "reviewed": "2026-09-14",
+        "basis": "Individual bay count, upper window/hood types and ground entrance arrangement transcribed from the listed dated views. Geometry dimensions remain photo-proportion estimates within the existing mapped envelope.",
+        "unknown": [
+          "Surveyed opening widths, recesses and heights",
+          "Door hardware/ornament contours below reference resolution",
+          "Occluded ground details and exact tread counts",
+          "Current condition where only older imagery is available"
+        ],
+        "acceptance": "Engine comparison pending. This is an authored architectural correction, not measured 1:1 acceptance.",
+        "detailReview": "Reviewed the archive exterior again for stone piers, horizontal sill courses, spandrel panels, base finish and cornice profile; current panoramas take precedence where the same part is visible. Dimensions and shallow relief contours remain photograph-based estimates."
+      },
+      "nativeElevation": {
+        "file": "../docs/images/seventh-engine-03/elevations/sheet-1.webp",
+        "slot": 4,
+        "projection": "orthographic diagnostic; not a photographic camera"
+      },
+      "reviewStatus": "Native elevation inspected in the full 82-frontage pass. Final contact sheet retained; photographic count/type/alignment acceptance remains open.",
+      "acceptance": {
+        "countAndTypeGate": "not independently certified",
+        "matchedLandmarkGate": "not passed",
+        "closeAndObliqueGate": "candidate review; exact hardware and profiles unresolved",
+        "userAccepted": false
+      },
+      "entranceCaptures": [
+        "../docs/images/seventh-engine-03/fidelity/entry-241822202.png"
+      ]
+    },
+    {
+      "id": 241822226,
+      "address": "115 1st Avenue",
+      "sources": [
+        {
+          "id": "architecture-241822226",
+          "captureDate": null,
+          "url": "https://buildingblocks.villagepreservation.org/building/115-1st-avenue-87-east-7th-street/",
+          "scope": null
+        }
+      ],
+      "geometry": "existing accepted-corner/landmark recipe retained",
+      "scheduledWindowGroups": 0,
+      "scheduledEntrances": 0,
+      "unletteredUnits": 0,
+      "observation": {
+        "sources": [
+          "architecture-241822226"
+        ],
+        "reviewed": "2026-09-14",
+        "basis": "Preserve accepted corner geometry or existing church-specific architecture. Separate matched comparison still required for the stricter benchmark.",
+        "acceptance": "Not newly accepted as exact."
+      },
+      "nativeElevation": {
+        "file": "../docs/images/seventh-engine-03/elevations/sheet-1.webp",
+        "slot": 5,
+        "projection": "orthographic diagnostic; not a photographic camera"
+      },
+      "reviewStatus": "Native elevation inspected in the full 82-frontage pass. Final contact sheet retained; photographic count/type/alignment acceptance remains open.",
+      "acceptance": {
+        "countAndTypeGate": "not independently certified",
+        "matchedLandmarkGate": "not passed",
+        "closeAndObliqueGate": "candidate review; exact hardware and profiles unresolved",
+        "userAccepted": false,
+        "note": "Prior accepted corner or retained landmark is preserved; this does not certify the stricter Seventh benchmark."
+      },
+      "entranceCaptures": [
+        "../docs/images/seventh-engine-03/fidelity/entry-241822226.png"
+      ]
+    },
+    {
+      "id": 241822274,
+      "address": "67 East 7th Street",
+      "sources": [
+        {
+          "id": "architecture-241822274",
+          "captureDate": null,
+          "url": "https://buildingblocks.villagepreservation.org/building/67-east-7th-street/",
+          "scope": null
+        },
+        {
+          "id": "seventh-03-panorama-1",
+          "captureDate": "2024-09",
+          "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=udBbZpfPC17Suy6rtTWtaw",
+          "scope": null
+        }
+      ],
+      "geometry": "explicit Seventh-only schedule",
+      "scheduledWindowGroups": 11,
+      "scheduledEntrances": 1,
+      "unletteredUnits": 0,
+      "observation": {
+        "sources": [
+          "architecture-241822274",
+          "seventh-03-panorama-1"
+        ],
+        "reviewed": "2026-09-14",
+        "basis": "Individual bay count, upper window/hood types and ground entrance arrangement transcribed from the listed dated views. Geometry dimensions remain photo-proportion estimates within the existing mapped envelope.",
+        "unknown": [
+          "Surveyed opening widths, recesses and heights",
+          "Door hardware/ornament contours below reference resolution",
+          "Occluded ground details and exact tread counts",
+          "Current condition where only older imagery is available"
+        ],
+        "acceptance": "Engine comparison pending. This is an authored architectural correction, not measured 1:1 acceptance."
+      },
+      "nativeElevation": {
+        "file": "../docs/images/seventh-engine-03/elevations/sheet-2.webp",
+        "slot": 0,
+        "projection": "orthographic diagnostic; not a photographic camera"
+      },
+      "reviewStatus": "Native elevation inspected in the full 82-frontage pass. Final contact sheet retained; photographic count/type/alignment acceptance remains open.",
+      "acceptance": {
+        "countAndTypeGate": "not independently certified",
+        "matchedLandmarkGate": "not passed",
+        "closeAndObliqueGate": "candidate review; exact hardware and profiles unresolved",
+        "userAccepted": false
+      },
+      "entranceCaptures": [
+        "../docs/images/seventh-engine-03/fidelity/entry-241822274.png"
+      ]
+    },
+    {
+      "id": 241822317,
+      "address": "83 East 7th Street",
+      "sources": [
+        {
+          "id": "architecture-241822317",
+          "captureDate": null,
+          "url": "https://buildingblocks.villagepreservation.org/building/83-east-7th-street/",
+          "scope": null
+        },
+        {
+          "id": "seventh-03-panorama-3",
+          "captureDate": "2024-09",
+          "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=ItX9nZtNODUaCo_CCZwimw",
+          "scope": null
+        }
+      ],
+      "geometry": "explicit Seventh-only schedule",
+      "scheduledWindowGroups": 12,
+      "scheduledEntrances": 1,
+      "unletteredUnits": 0,
+      "observation": {
+        "sources": [
+          "architecture-241822317",
+          "seventh-03-panorama-3"
+        ],
+        "reviewed": "2026-09-14",
+        "basis": "Individual bay count, upper window/hood types and ground entrance arrangement transcribed from the listed dated views. Geometry dimensions remain photo-proportion estimates within the existing mapped envelope.",
+        "unknown": [
+          "Surveyed opening widths, recesses and heights",
+          "Door hardware/ornament contours below reference resolution",
+          "Occluded ground details and exact tread counts",
+          "Current condition where only older imagery is available"
+        ],
+        "acceptance": "Engine comparison pending. This is an authored architectural correction, not measured 1:1 acceptance."
+      },
+      "nativeElevation": {
+        "file": "../docs/images/seventh-engine-03/elevations/sheet-2.webp",
+        "slot": 1,
+        "projection": "orthographic diagnostic; not a photographic camera"
+      },
+      "reviewStatus": "Native elevation inspected in the full 82-frontage pass. Final contact sheet retained; photographic count/type/alignment acceptance remains open.",
+      "acceptance": {
+        "countAndTypeGate": "not independently certified",
+        "matchedLandmarkGate": "not passed",
+        "closeAndObliqueGate": "candidate review; exact hardware and profiles unresolved",
+        "userAccepted": false
+      },
+      "entranceCaptures": [
+        "../docs/images/seventh-engine-03/fidelity/entry-241822317.png"
+      ]
+    },
+    {
+      "id": 241822319,
+      "address": "71 East 7th Street",
+      "sources": [
+        {
+          "id": "architecture-241822319",
+          "captureDate": null,
+          "url": "https://buildingblocks.villagepreservation.org/building/71-east-7th-street/",
+          "scope": null
+        },
+        {
+          "id": "seventh-03-panorama-1",
+          "captureDate": "2024-09",
+          "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=udBbZpfPC17Suy6rtTWtaw",
+          "scope": null
+        }
+      ],
+      "geometry": "explicit Seventh-only schedule",
+      "scheduledWindowGroups": 11,
+      "scheduledEntrances": 1,
+      "unletteredUnits": 0,
+      "observation": {
+        "sources": [
+          "architecture-241822319",
+          "seventh-03-panorama-1"
+        ],
+        "reviewed": "2026-09-14",
+        "basis": "Individual bay count, upper window/hood types and ground entrance arrangement transcribed from the listed dated views. Geometry dimensions remain photo-proportion estimates within the existing mapped envelope.",
+        "unknown": [
+          "Surveyed opening widths, recesses and heights",
+          "Door hardware/ornament contours below reference resolution",
+          "Occluded ground details and exact tread counts",
+          "Current condition where only older imagery is available"
+        ],
+        "acceptance": "Engine comparison pending. This is an authored architectural correction, not measured 1:1 acceptance."
+      },
+      "nativeElevation": {
+        "file": "../docs/images/seventh-engine-03/elevations/sheet-2.webp",
+        "slot": 2,
+        "projection": "orthographic diagnostic; not a photographic camera"
+      },
+      "reviewStatus": "Native elevation inspected in the full 82-frontage pass. Final contact sheet retained; photographic count/type/alignment acceptance remains open.",
+      "acceptance": {
+        "countAndTypeGate": "not independently certified",
+        "matchedLandmarkGate": "not passed",
+        "closeAndObliqueGate": "candidate review; exact hardware and profiles unresolved",
+        "userAccepted": false
+      },
+      "entranceCaptures": [
+        "../docs/images/seventh-engine-03/fidelity/entry-241822319.png"
+      ]
+    },
+    {
+      "id": 241822325,
+      "address": "49 East 7th Street",
+      "sources": [
+        {
+          "id": "architecture-241822325",
+          "captureDate": null,
+          "url": "https://buildingblocks.villagepreservation.org/building/49-east-7th-street/",
+          "scope": null
+        },
+        {
+          "id": "seventh-03-streetview-50",
+          "captureDate": "2026-04",
+          "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=BhbNLmsrLJoqeAErWVcK_w&heading=239.08&pitch=13&fov=85",
+          "scope": "Inspected 49/51 and 50/52, plus oblique 48½. Parked cars/branches occlude low or upper details."
+        }
+      ],
+      "geometry": "explicit Seventh-only schedule",
+      "scheduledWindowGroups": 11,
+      "scheduledEntrances": 1,
+      "unletteredUnits": 0,
+      "observation": {
+        "sources": [
+          "architecture-241822325",
+          "seventh-03-streetview-50"
+        ],
+        "reviewed": "2026-09-14",
+        "basis": "Three upper sash bays with curved brown hoods; three round ground openings, left entrance and iron forecourt.",
+        "unknown": [
+          "Surveyed opening widths, recesses and heights",
+          "Door hardware/ornament contours below reference resolution",
+          "Occluded ground details and exact tread counts",
+          "Current condition where only older imagery is available"
+        ],
+        "acceptance": "Engine comparison pending. This is an authored architectural correction, not measured 1:1 acceptance."
+      },
+      "nativeElevation": {
+        "file": "../docs/images/seventh-engine-03/elevations/sheet-2.webp",
+        "slot": 3,
+        "projection": "orthographic diagnostic; not a photographic camera"
+      },
+      "reviewStatus": "Native elevation inspected in the full 82-frontage pass. Final contact sheet retained; photographic count/type/alignment acceptance remains open.",
+      "acceptance": {
+        "countAndTypeGate": "not independently certified",
+        "matchedLandmarkGate": "not passed",
+        "closeAndObliqueGate": "candidate review; exact hardware and profiles unresolved",
+        "userAccepted": false
+      },
+      "entranceCaptures": [
+        "../docs/images/seventh-engine-03/fidelity/entry-241822325.png"
+      ]
+    },
+    {
+      "id": 241822329,
+      "address": "81 East 7th Street",
+      "sources": [
+        {
+          "id": "architecture-241822329",
+          "captureDate": null,
+          "url": "https://buildingblocks.villagepreservation.org/building/81-east-7th-street/",
+          "scope": null
+        },
+        {
+          "id": "seventh-03-panorama-2",
+          "captureDate": "2024-09",
+          "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=BUNJSXOY9He29Pvm3_1thw",
+          "scope": null
+        }
+      ],
+      "geometry": "explicit Seventh-only schedule",
+      "scheduledWindowGroups": 13,
+      "scheduledEntrances": 1,
+      "unletteredUnits": 0,
+      "observation": {
+        "sources": [
+          "architecture-241822329",
+          "seventh-03-panorama-2"
+        ],
+        "reviewed": "2026-09-14",
+        "basis": "Individual bay count, upper window/hood types and ground entrance arrangement transcribed from the listed dated views. Geometry dimensions remain photo-proportion estimates within the existing mapped envelope.",
+        "unknown": [
+          "Surveyed opening widths, recesses and heights",
+          "Door hardware/ornament contours below reference resolution",
+          "Occluded ground details and exact tread counts",
+          "Current condition where only older imagery is available"
+        ],
+        "acceptance": "Engine comparison pending. This is an authored architectural correction, not measured 1:1 acceptance."
+      },
+      "nativeElevation": {
+        "file": "../docs/images/seventh-engine-03/elevations/sheet-2.webp",
+        "slot": 4,
+        "projection": "orthographic diagnostic; not a photographic camera"
+      },
+      "reviewStatus": "Native elevation inspected in the full 82-frontage pass. Final contact sheet retained; photographic count/type/alignment acceptance remains open.",
+      "acceptance": {
+        "countAndTypeGate": "not independently certified",
+        "matchedLandmarkGate": "not passed",
+        "closeAndObliqueGate": "candidate review; exact hardware and profiles unresolved",
+        "userAccepted": false
+      },
+      "entranceCaptures": [
+        "../docs/images/seventh-engine-03/fidelity/entry-241822329.png"
+      ]
+    },
+    {
+      "id": 241822336,
+      "address": "79 East 7th Street",
+      "sources": [
+        {
+          "id": "architecture-241822336",
+          "captureDate": null,
+          "url": "https://buildingblocks.villagepreservation.org/building/79-east-7th-street/",
+          "scope": null
+        },
+        {
+          "id": "seventh-bluegold",
+          "captureDate": null,
+          "url": "https://urbanmatter.com/chicago/dive-bars-nyc/",
+          "scope": null
+        },
+        {
+          "id": "seventh-03-panorama-2",
+          "captureDate": "2024-09",
+          "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=BUNJSXOY9He29Pvm3_1thw",
+          "scope": null
+        }
+      ],
+      "geometry": "explicit Seventh-only schedule",
+      "scheduledWindowGroups": 12,
+      "scheduledEntrances": 1,
+      "unletteredUnits": 0,
+      "observation": {
+        "sources": [
+          "architecture-241822336",
+          "seventh-bluegold",
+          "seventh-03-panorama-2"
+        ],
+        "reviewed": "2026-09-14",
+        "basis": "Individual bay count, upper window/hood types and ground entrance arrangement transcribed from the listed dated views. Geometry dimensions remain photo-proportion estimates within the existing mapped envelope.",
+        "unknown": [
+          "Surveyed opening widths, recesses and heights",
+          "Door hardware/ornament contours below reference resolution",
+          "Occluded ground details and exact tread counts",
+          "Current condition where only older imagery is available"
+        ],
+        "acceptance": "Engine comparison pending. This is an authored architectural correction, not measured 1:1 acceptance."
+      },
+      "nativeElevation": {
+        "file": "../docs/images/seventh-engine-03/elevations/sheet-2.webp",
+        "slot": 5,
+        "projection": "orthographic diagnostic; not a photographic camera"
+      },
+      "reviewStatus": "Native elevation inspected in the full 82-frontage pass. Final contact sheet retained; photographic count/type/alignment acceptance remains open.",
+      "acceptance": {
+        "countAndTypeGate": "not independently certified",
+        "matchedLandmarkGate": "not passed",
+        "closeAndObliqueGate": "candidate review; exact hardware and profiles unresolved",
+        "userAccepted": false
+      },
+      "entranceCaptures": [
+        "../docs/images/seventh-engine-03/fidelity/entry-241822336.png"
+      ]
+    },
+    {
+      "id": 241822340,
+      "address": "51 East 7th Street",
+      "sources": [
+        {
+          "id": "architecture-241822340",
+          "captureDate": null,
+          "url": "https://buildingblocks.villagepreservation.org/building/51-east-7th-street/",
+          "scope": null
+        },
+        {
+          "id": "seventh-03-streetview-50",
+          "captureDate": "2026-04",
+          "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=BhbNLmsrLJoqeAErWVcK_w&heading=239.08&pitch=13&fov=85",
+          "scope": "Inspected 49/51 and 50/52, plus oblique 48½. Parked cars/branches occlude low or upper details."
+        }
+      ],
+      "geometry": "explicit Seventh-only schedule",
+      "scheduledWindowGroups": 14,
+      "scheduledEntrances": 1,
+      "unletteredUnits": 0,
+      "observation": {
+        "sources": [
+          "architecture-241822340",
+          "seventh-03-streetview-50"
+        ],
+        "reviewed": "2026-09-14",
+        "basis": "Three unornamented bays, fire escape on left pair; low left entrance (old default raised stoop removed).",
+        "unknown": [
+          "Surveyed opening widths, recesses and heights",
+          "Door hardware/ornament contours below reference resolution",
+          "Occluded ground details and exact tread counts",
+          "Current condition where only older imagery is available"
+        ],
+        "acceptance": "Engine comparison pending. This is an authored architectural correction, not measured 1:1 acceptance."
+      },
+      "nativeElevation": {
+        "file": "../docs/images/seventh-engine-03/elevations/sheet-3.webp",
+        "slot": 0,
+        "projection": "orthographic diagnostic; not a photographic camera"
+      },
+      "reviewStatus": "Native elevation inspected in the full 82-frontage pass. Final contact sheet retained; photographic count/type/alignment acceptance remains open.",
+      "acceptance": {
+        "countAndTypeGate": "not independently certified",
+        "matchedLandmarkGate": "not passed",
+        "closeAndObliqueGate": "candidate review; exact hardware and profiles unresolved",
+        "userAccepted": false
+      },
+      "entranceCaptures": [
+        "../docs/images/seventh-engine-03/fidelity/entry-241822340.png"
+      ]
+    },
+    {
+      "id": 241829565,
+      "address": "58 East 7th Street",
+      "sources": [
+        {
+          "id": "architecture-241829565",
+          "captureDate": null,
+          "url": "https://buildingblocks.villagepreservation.org/building/58-east-7th-street/",
+          "scope": null
+        },
+        {
+          "id": "seventh-03-panorama-0",
+          "captureDate": "2024-09",
+          "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=wk5o9wHwIlPud3GicfSaWg",
+          "scope": null
+        }
+      ],
+      "geometry": "explicit Seventh-only schedule",
+      "scheduledWindowGroups": 14,
+      "scheduledEntrances": 1,
+      "unletteredUnits": 0,
+      "observation": {
+        "sources": [
+          "architecture-241829565",
+          "seventh-03-panorama-0"
+        ],
+        "reviewed": "2026-09-14",
+        "basis": "Red brick with pale vertical window surrounds, three bays; entrance at far right of blue-painted ground floor.",
+        "unknown": [
+          "Surveyed opening widths, recesses and heights",
+          "Door hardware/ornament contours below reference resolution",
+          "Occluded ground details and exact tread counts",
+          "Current condition where only older imagery is available"
+        ],
+        "acceptance": "Engine comparison pending. This is an authored architectural correction, not measured 1:1 acceptance.",
+        "detailReview": "September 2024 south view: pale vertical stone surrounds on red brick and blue-painted base; tree and parked cars partly conceal the bottom. Dimensions and shallow relief contours remain photograph-based estimates."
+      },
+      "nativeElevation": {
+        "file": "../docs/images/seventh-engine-03/elevations/sheet-3.webp",
+        "slot": 1,
+        "projection": "orthographic diagnostic; not a photographic camera"
+      },
+      "reviewStatus": "Native elevation inspected in the full 82-frontage pass. Final contact sheet retained; photographic count/type/alignment acceptance remains open.",
+      "acceptance": {
+        "countAndTypeGate": "not independently certified",
+        "matchedLandmarkGate": "not passed",
+        "closeAndObliqueGate": "candidate review; exact hardware and profiles unresolved",
+        "userAccepted": false
+      },
+      "entranceCaptures": [
+        "../docs/images/seventh-engine-03/fidelity/entry-241829565.png"
+      ]
+    },
+    {
+      "id": 241829566,
+      "address": "80 East 7th Street",
+      "sources": [
+        {
+          "id": "architecture-241829566",
+          "captureDate": null,
+          "url": "https://buildingblocks.villagepreservation.org/building/80-east-7th-street/",
+          "scope": null
+        },
+        {
+          "id": "seventh-03-panorama-2",
+          "captureDate": "2024-09",
+          "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=BUNJSXOY9He29Pvm3_1thw",
+          "scope": null
+        }
+      ],
+      "geometry": "explicit Seventh-only schedule",
+      "scheduledWindowGroups": 30,
+      "scheduledEntrances": 1,
+      "unletteredUnits": 0,
+      "observation": {
+        "sources": [
+          "architecture-241829566",
+          "seventh-03-panorama-2"
+        ],
+        "reviewed": "2026-09-14",
+        "basis": "Individual bay count, upper window/hood types and ground entrance arrangement transcribed from the listed dated views. Geometry dimensions remain photo-proportion estimates within the existing mapped envelope.",
+        "unknown": [
+          "Surveyed opening widths, recesses and heights",
+          "Door hardware/ornament contours below reference resolution",
+          "Occluded ground details and exact tread counts",
+          "Current condition where only older imagery is available"
+        ],
+        "acceptance": "Engine comparison pending. This is an authored architectural correction, not measured 1:1 acceptance."
+      },
+      "nativeElevation": {
+        "file": "../docs/images/seventh-engine-03/elevations/sheet-3.webp",
+        "slot": 2,
+        "projection": "orthographic diagnostic; not a photographic camera"
+      },
+      "reviewStatus": "Native elevation inspected in the full 82-frontage pass. Final contact sheet retained; photographic count/type/alignment acceptance remains open.",
+      "acceptance": {
+        "countAndTypeGate": "not independently certified",
+        "matchedLandmarkGate": "not passed",
+        "closeAndObliqueGate": "candidate review; exact hardware and profiles unresolved",
+        "userAccepted": false
+      },
+      "entranceCaptures": [
+        "../docs/images/seventh-engine-03/fidelity/entry-241829566.png"
+      ]
+    },
+    {
+      "id": 241829567,
+      "address": "76 East 7th Street",
+      "sources": [
+        {
+          "id": "architecture-241829567",
+          "captureDate": null,
+          "url": null,
+          "scope": null
+        },
+        {
+          "id": "seventh-03-panorama-2",
+          "captureDate": "2024-09",
+          "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=BUNJSXOY9He29Pvm3_1thw",
+          "scope": null
+        }
+      ],
+      "geometry": "explicit Seventh-only schedule",
+      "scheduledWindowGroups": 30,
+      "scheduledEntrances": 1,
+      "unletteredUnits": 2,
+      "observation": {
+        "sources": [
+          "architecture-241829567",
+          "seventh-03-panorama-2"
+        ],
+        "reviewed": "2026-09-14",
+        "basis": "Individual bay count, upper window/hood types and ground entrance arrangement transcribed from the listed dated views. Geometry dimensions remain photo-proportion estimates within the existing mapped envelope.",
+        "unknown": [
+          "Surveyed opening widths, recesses and heights",
+          "Door hardware/ornament contours below reference resolution",
+          "Occluded ground details and exact tread counts",
+          "Current condition where only older imagery is available",
+          "Current lettering and exact door hardware of the unlettered ground units"
+        ],
+        "acceptance": "Engine comparison pending. This is an authored architectural correction, not measured 1:1 acceptance."
+      },
+      "nativeElevation": {
+        "file": "../docs/images/seventh-engine-03/elevations/sheet-3.webp",
+        "slot": 3,
+        "projection": "orthographic diagnostic; not a photographic camera"
+      },
+      "reviewStatus": "Native elevation inspected in the full 82-frontage pass. Final contact sheet retained; photographic count/type/alignment acceptance remains open.",
+      "acceptance": {
+        "countAndTypeGate": "not independently certified",
+        "matchedLandmarkGate": "not passed",
+        "closeAndObliqueGate": "candidate review; exact hardware and profiles unresolved",
+        "userAccepted": false
+      },
+      "remainingPriority": "Resolve actual pane order, occupancy/lettering and hidden hardware before accepting this provisional physical-unit layout.",
+      "entranceCaptures": [
+        "../docs/images/seventh-engine-03/fidelity/entry-241829567.png"
+      ]
+    },
+    {
+      "id": 241829572,
+      "address": "62 East 7th Street",
+      "sources": [
+        {
+          "id": "architecture-241829572",
+          "captureDate": null,
+          "url": "https://buildingblocks.villagepreservation.org/building/62-east-7th-street/",
+          "scope": null
+        },
+        {
+          "id": "seventh-03-panorama-0",
+          "captureDate": "2024-09",
+          "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=wk5o9wHwIlPud3GicfSaWg",
+          "scope": null
+        }
+      ],
+      "geometry": "explicit Seventh-only schedule",
+      "scheduledWindowGroups": 16,
+      "scheduledEntrances": 1,
+      "unletteredUnits": 0,
+      "observation": {
+        "sources": [
+          "architecture-241829572",
+          "seventh-03-panorama-0"
+        ],
+        "reviewed": "2026-09-14",
+        "basis": "Individual bay count, upper window/hood types and ground entrance arrangement transcribed from the listed dated views. Geometry dimensions remain photo-proportion estimates within the existing mapped envelope.",
+        "unknown": [
+          "Surveyed opening widths, recesses and heights",
+          "Door hardware/ornament contours below reference resolution",
+          "Occluded ground details and exact tread counts",
+          "Current condition where only older imagery is available"
+        ],
+        "acceptance": "Engine comparison pending. This is an authored architectural correction, not measured 1:1 acceptance.",
+        "detailReview": "Reviewed the archive exterior again for stone piers, horizontal sill courses, spandrel panels, base finish and cornice profile; current panoramas take precedence where the same part is visible. Dimensions and shallow relief contours remain photograph-based estimates."
+      },
+      "nativeElevation": {
+        "file": "../docs/images/seventh-engine-03/elevations/sheet-3.webp",
+        "slot": 4,
+        "projection": "orthographic diagnostic; not a photographic camera"
+      },
+      "reviewStatus": "Native elevation inspected in the full 82-frontage pass. Final contact sheet retained; photographic count/type/alignment acceptance remains open.",
+      "acceptance": {
+        "countAndTypeGate": "not independently certified",
+        "matchedLandmarkGate": "not passed",
+        "closeAndObliqueGate": "candidate review; exact hardware and profiles unresolved",
+        "userAccepted": false
+      },
+      "entranceCaptures": [
+        "../docs/images/seventh-engine-03/fidelity/entry-241829572.png"
+      ]
+    },
+    {
+      "id": 241829573,
+      "address": "74 East 7th Street",
+      "sources": [
+        {
+          "id": "architecture-241829573",
+          "captureDate": null,
+          "url": "https://buildingblocks.villagepreservation.org/building/74-east-7th-street/",
+          "scope": null
+        },
+        {
+          "id": "seventh-03-panorama-2",
+          "captureDate": "2024-09",
+          "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=BUNJSXOY9He29Pvm3_1thw",
+          "scope": null
+        }
+      ],
+      "geometry": "explicit Seventh-only schedule",
+      "scheduledWindowGroups": 20,
+      "scheduledEntrances": 1,
+      "unletteredUnits": 0,
+      "observation": {
+        "sources": [
+          "architecture-241829573",
+          "seventh-03-panorama-2"
+        ],
+        "reviewed": "2026-09-14",
+        "basis": "Individual bay count, upper window/hood types and ground entrance arrangement transcribed from the listed dated views. Geometry dimensions remain photo-proportion estimates within the existing mapped envelope.",
+        "unknown": [
+          "Surveyed opening widths, recesses and heights",
+          "Door hardware/ornament contours below reference resolution",
+          "Occluded ground details and exact tread counts",
+          "Current condition where only older imagery is available"
+        ],
+        "acceptance": "Engine comparison pending. This is an authored architectural correction, not measured 1:1 acceptance.",
+        "detailReview": "Reviewed the archive exterior again for stone piers, horizontal sill courses, spandrel panels, base finish and cornice profile; current panoramas take precedence where the same part is visible. Dimensions and shallow relief contours remain photograph-based estimates."
+      },
+      "nativeElevation": {
+        "file": "../docs/images/seventh-engine-03/elevations/sheet-3.webp",
+        "slot": 5,
+        "projection": "orthographic diagnostic; not a photographic camera"
+      },
+      "reviewStatus": "Native elevation inspected in the full 82-frontage pass. Final contact sheet retained; photographic count/type/alignment acceptance remains open.",
+      "acceptance": {
+        "countAndTypeGate": "not independently certified",
+        "matchedLandmarkGate": "not passed",
+        "closeAndObliqueGate": "candidate review; exact hardware and profiles unresolved",
+        "userAccepted": false
+      },
+      "entranceCaptures": [
+        "../docs/images/seventh-engine-03/fidelity/entry-241829573.png"
+      ]
+    },
+    {
+      "id": 241829574,
+      "address": "72 East 7th Street",
+      "sources": [
+        {
+          "id": "architecture-241829574",
+          "captureDate": null,
+          "url": "https://buildingblocks.villagepreservation.org/building/72-east-7th-street/",
+          "scope": null
+        },
+        {
+          "id": "seventh-03-panorama-1",
+          "captureDate": "2024-09",
+          "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=udBbZpfPC17Suy6rtTWtaw",
+          "scope": null
+        }
+      ],
+      "geometry": "explicit Seventh-only schedule",
+      "scheduledWindowGroups": 20,
+      "scheduledEntrances": 1,
+      "unletteredUnits": 0,
+      "observation": {
+        "sources": [
+          "architecture-241829574",
+          "seventh-03-panorama-1"
+        ],
+        "reviewed": "2026-09-14",
+        "basis": "Individual bay count, upper window/hood types and ground entrance arrangement transcribed from the listed dated views. Geometry dimensions remain photo-proportion estimates within the existing mapped envelope.",
+        "unknown": [
+          "Surveyed opening widths, recesses and heights",
+          "Door hardware/ornament contours below reference resolution",
+          "Occluded ground details and exact tread counts",
+          "Current condition where only older imagery is available"
+        ],
+        "acceptance": "Engine comparison pending. This is an authored architectural correction, not measured 1:1 acceptance.",
+        "detailReview": "Reviewed the archive exterior again for stone piers, horizontal sill courses, spandrel panels, base finish and cornice profile; current panoramas take precedence where the same part is visible. Dimensions and shallow relief contours remain photograph-based estimates."
+      },
+      "nativeElevation": {
+        "file": "../docs/images/seventh-engine-03/elevations/sheet-4.webp",
+        "slot": 0,
+        "projection": "orthographic diagnostic; not a photographic camera"
+      },
+      "reviewStatus": "Native elevation inspected in the full 82-frontage pass. Final contact sheet retained; photographic count/type/alignment acceptance remains open.",
+      "acceptance": {
+        "countAndTypeGate": "not independently certified",
+        "matchedLandmarkGate": "not passed",
+        "closeAndObliqueGate": "candidate review; exact hardware and profiles unresolved",
+        "userAccepted": false
+      },
+      "entranceCaptures": [
+        "../docs/images/seventh-engine-03/fidelity/entry-241829574.png"
+      ]
+    },
+    {
+      "id": 241829575,
+      "address": "50 East 7th Street",
+      "sources": [
+        {
+          "id": "seventh-03-user-comparison",
+          "captureDate": "2026-04",
+          "url": null,
+          "scope": "50 and 48½ E 7th architectural comparison; camera label 49 E 7th is not the pictured address."
+        },
+        {
+          "id": "seventh-03-middle-current",
+          "captureDate": null,
+          "url": "https://daytoninmanhattan.blogspot.com/2026/06/the-1892-middle-church-house-50-east.html",
+          "scope": "Three inspected exterior photographs: lowered oak doors, extended engaged columns, stone courses, inscription, sash/relief details."
+        },
+        {
+          "id": "seventh-03-streetview-50",
+          "captureDate": "2026-04",
+          "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=BhbNLmsrLJoqeAErWVcK_w&heading=239.08&pitch=13&fov=85",
+          "scope": "Inspected 49/51 and 50/52, plus oblique 48½. Parked cars/branches occlude low or upper details."
+        },
+        {
+          "id": "architecture-241829575",
+          "captureDate": null,
+          "url": "https://buildingblocks.villagepreservation.org/building/50-east-7th-street/",
+          "scope": null
+        }
+      ],
+      "geometry": "explicit Seventh-only schedule",
+      "scheduledWindowGroups": 7,
+      "scheduledEntrances": 2,
+      "unletteredUnits": 0,
+      "observation": {
+        "sources": [
+          "seventh-03-user-comparison",
+          "seventh-03-middle-current",
+          "seventh-03-streetview-50",
+          "architecture-241829575"
+        ],
+        "reviewed": "2026-09-14",
+        "basis": "Visible feature topology and panel count inspected; metre dimensions estimated against mapped 7.703 m frontage and height envelope. Historical upper massing reconciled with current entrance.",
+        "unknown": [
+          "Exact carving contours and font outlines",
+          "Surveyed depth and internal floor elevation",
+          "Top surfaces partly obscured by branches",
+          "Changing poster artwork and small print are omitted; purple card and visible headline are modeled from the June 2026 exterior."
+        ],
+        "acceptance": "Matched engine review pending; not measured 1:1."
+      },
+      "nativeElevation": {
+        "file": "../docs/images/seventh-engine-03/elevations/sheet-4.webp",
+        "slot": 1,
+        "projection": "orthographic diagnostic; not a photographic camera"
+      },
+      "reviewStatus": "Native elevation inspected in the full 82-frontage pass. Final contact sheet retained; photographic count/type/alignment acceptance remains open.",
+      "acceptance": {
+        "countAndTypeGate": "not independently certified",
+        "matchedLandmarkGate": "not passed",
+        "closeAndObliqueGate": "candidate review; exact hardware and profiles unresolved",
+        "userAccepted": false
+      },
+      "remainingPriority": "Finish independent multi-view alignment, measured proportions, exact trim/lettering and street-tree placement for the initial benchmark pair.",
+      "entranceCaptures": [
+        "../docs/images/seventh-engine-03/fidelity/entry-241829575.png",
+        "../docs/images/seventh-engine-03/fidelity/entry-241829575-1.png"
+      ]
+    },
+    {
+      "id": 241829577,
+      "address": "70 East 7th Street",
+      "sources": [
+        {
+          "id": "architecture-241829577",
+          "captureDate": null,
+          "url": "https://buildingblocks.villagepreservation.org/building/70-east-7th-street/",
+          "scope": null
+        },
+        {
+          "id": "seventh-03-panorama-1",
+          "captureDate": "2024-09",
+          "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=udBbZpfPC17Suy6rtTWtaw",
+          "scope": null
+        }
+      ],
+      "geometry": "explicit Seventh-only schedule",
+      "scheduledWindowGroups": 22,
+      "scheduledEntrances": 1,
+      "unletteredUnits": 0,
+      "observation": {
+        "sources": [
+          "architecture-241829577",
+          "seventh-03-panorama-1"
+        ],
+        "reviewed": "2026-09-14",
+        "basis": "Individual bay count, upper window/hood types and ground entrance arrangement transcribed from the listed dated views. Geometry dimensions remain photo-proportion estimates within the existing mapped envelope.",
+        "unknown": [
+          "Surveyed opening widths, recesses and heights",
+          "Door hardware/ornament contours below reference resolution",
+          "Occluded ground details and exact tread counts",
+          "Current condition where only older imagery is available"
+        ],
+        "acceptance": "Engine comparison pending. This is an authored architectural correction, not measured 1:1 acceptance.",
+        "detailReview": "Reviewed the archive exterior again for stone piers, horizontal sill courses, spandrel panels, base finish and cornice profile; current panoramas take precedence where the same part is visible. Dimensions and shallow relief contours remain photograph-based estimates."
+      },
+      "nativeElevation": {
+        "file": "../docs/images/seventh-engine-03/elevations/sheet-4.webp",
+        "slot": 2,
+        "projection": "orthographic diagnostic; not a photographic camera"
+      },
+      "reviewStatus": "Native elevation inspected in the full 82-frontage pass. Final contact sheet retained; photographic count/type/alignment acceptance remains open.",
+      "acceptance": {
+        "countAndTypeGate": "not independently certified",
+        "matchedLandmarkGate": "not passed",
+        "closeAndObliqueGate": "candidate review; exact hardware and profiles unresolved",
+        "userAccepted": false
+      },
+      "entranceCaptures": [
+        "../docs/images/seventh-engine-03/fidelity/entry-241829577.png"
+      ]
+    },
+    {
+      "id": 241829579,
+      "address": "66 East 7th Street",
+      "sources": [
+        {
+          "id": "architecture-241829579",
+          "captureDate": null,
+          "url": "https://buildingblocks.villagepreservation.org/building/66-east-7th-street/",
+          "scope": null
+        },
+        {
+          "id": "seventh-03-panorama-1",
+          "captureDate": "2024-09",
+          "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=udBbZpfPC17Suy6rtTWtaw",
+          "scope": null
+        }
+      ],
+      "geometry": "explicit Seventh-only schedule",
+      "scheduledWindowGroups": 15,
+      "scheduledEntrances": 1,
+      "unletteredUnits": 0,
+      "observation": {
+        "sources": [
+          "architecture-241829579",
+          "seventh-03-panorama-1"
+        ],
+        "reviewed": "2026-09-14",
+        "basis": "Individual bay count, upper window/hood types and ground entrance arrangement transcribed from the listed dated views. Geometry dimensions remain photo-proportion estimates within the existing mapped envelope.",
+        "unknown": [
+          "Surveyed opening widths, recesses and heights",
+          "Door hardware/ornament contours below reference resolution",
+          "Occluded ground details and exact tread counts",
+          "Current condition where only older imagery is available"
+        ],
+        "acceptance": "Engine comparison pending. This is an authored architectural correction, not measured 1:1 acceptance."
+      },
+      "nativeElevation": {
+        "file": "../docs/images/seventh-engine-03/elevations/sheet-4.webp",
+        "slot": 3,
+        "projection": "orthographic diagnostic; not a photographic camera"
+      },
+      "reviewStatus": "Native elevation inspected in the full 82-frontage pass. Final contact sheet retained; photographic count/type/alignment acceptance remains open.",
+      "acceptance": {
+        "countAndTypeGate": "not independently certified",
+        "matchedLandmarkGate": "not passed",
+        "closeAndObliqueGate": "candidate review; exact hardware and profiles unresolved",
+        "userAccepted": false
+      },
+      "entranceCaptures": [
+        "../docs/images/seventh-engine-03/fidelity/entry-241829579.png"
+      ]
+    },
+    {
+      "id": 241829580,
+      "address": "54 East 7th Street",
+      "sources": [
+        {
+          "id": "architecture-241829580",
+          "captureDate": null,
+          "url": "https://buildingblocks.villagepreservation.org/building/54-east-7th-street/",
+          "scope": null
+        }
+      ],
+      "geometry": "explicit Seventh-only schedule",
+      "scheduledWindowGroups": 20,
+      "scheduledEntrances": 1,
+      "unletteredUnits": 0,
+      "observation": {
+        "sources": [
+          "architecture-241829580"
+        ],
+        "reviewed": "2026-09-14",
+        "basis": "Individual bay count, upper window/hood types and ground entrance arrangement transcribed from the listed dated views. Geometry dimensions remain photo-proportion estimates within the existing mapped envelope.",
+        "unknown": [
+          "Surveyed opening widths, recesses and heights",
+          "Door hardware/ornament contours below reference resolution",
+          "Occluded ground details and exact tread counts",
+          "Current condition where only older imagery is available"
+        ],
+        "acceptance": "Engine comparison pending. This is an authored architectural correction, not measured 1:1 acceptance.",
+        "detailReview": "Reviewed the archive exterior again for stone piers, horizontal sill courses, spandrel panels, base finish and cornice profile; current panoramas take precedence where the same part is visible. Dimensions and shallow relief contours remain photograph-based estimates."
+      },
+      "nativeElevation": {
+        "file": "../docs/images/seventh-engine-03/elevations/sheet-4.webp",
+        "slot": 4,
+        "projection": "orthographic diagnostic; not a photographic camera"
+      },
+      "reviewStatus": "Native elevation inspected in the full 82-frontage pass. Final contact sheet retained; photographic count/type/alignment acceptance remains open.",
+      "acceptance": {
+        "countAndTypeGate": "not independently certified",
+        "matchedLandmarkGate": "not passed",
+        "closeAndObliqueGate": "candidate review; exact hardware and profiles unresolved",
+        "userAccepted": false
+      },
+      "entranceCaptures": [
+        "../docs/images/seventh-engine-03/fidelity/entry-241829580.png"
+      ]
+    },
+    {
+      "id": 241829581,
+      "address": "56 East 7th Street",
+      "sources": [
+        {
+          "id": "architecture-241829581",
+          "captureDate": null,
+          "url": "https://buildingblocks.villagepreservation.org/building/56-east-7th-street/",
+          "scope": null
+        },
+        {
+          "id": "seventh-03-panorama-0",
+          "captureDate": "2024-09",
+          "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=wk5o9wHwIlPud3GicfSaWg",
+          "scope": null
+        }
+      ],
+      "geometry": "explicit Seventh-only schedule",
+      "scheduledWindowGroups": 20,
+      "scheduledEntrances": 1,
+      "unletteredUnits": 0,
+      "observation": {
+        "sources": [
+          "architecture-241829581",
+          "seventh-03-panorama-0"
+        ],
+        "reviewed": "2026-09-14",
+        "basis": "Individual bay count, upper window/hood types and ground entrance arrangement transcribed from the listed dated views. Geometry dimensions remain photo-proportion estimates within the existing mapped envelope.",
+        "unknown": [
+          "Surveyed opening widths, recesses and heights",
+          "Door hardware/ornament contours below reference resolution",
+          "Occluded ground details and exact tread counts",
+          "Current condition where only older imagery is available"
+        ],
+        "acceptance": "Engine comparison pending. This is an authored architectural correction, not measured 1:1 acceptance.",
+        "detailReview": "Reviewed the archive exterior again for stone piers, horizontal sill courses, spandrel panels, base finish and cornice profile; current panoramas take precedence where the same part is visible. Dimensions and shallow relief contours remain photograph-based estimates."
+      },
+      "nativeElevation": {
+        "file": "../docs/images/seventh-engine-03/elevations/sheet-4.webp",
+        "slot": 5,
+        "projection": "orthographic diagnostic; not a photographic camera"
+      },
+      "reviewStatus": "Native elevation inspected in the full 82-frontage pass. Final contact sheet retained; photographic count/type/alignment acceptance remains open.",
+      "acceptance": {
+        "countAndTypeGate": "not independently certified",
+        "matchedLandmarkGate": "not passed",
+        "closeAndObliqueGate": "candidate review; exact hardware and profiles unresolved",
+        "userAccepted": false
+      },
+      "entranceCaptures": [
+        "../docs/images/seventh-engine-03/fidelity/entry-241829581.png"
+      ]
+    },
+    {
+      "id": 241829582,
+      "address": "52 East 7th Street",
+      "sources": [
+        {
+          "id": "architecture-241829582",
+          "captureDate": null,
+          "url": "https://buildingblocks.villagepreservation.org/building/52-east-7th-street/",
+          "scope": null
+        },
+        {
+          "id": "seventh-03-streetview-50",
+          "captureDate": "2026-04",
+          "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=BhbNLmsrLJoqeAErWVcK_w&heading=239.08&pitch=13&fov=85",
+          "scope": "Inspected 49/51 and 50/52, plus oblique 48½. Parked cars/branches occlude low or upper details."
+        }
+      ],
+      "geometry": "explicit Seventh-only schedule",
+      "scheduledWindowGroups": 20,
+      "scheduledEntrances": 1,
+      "unletteredUnits": 0,
+      "observation": {
+        "sources": [
+          "architecture-241829582",
+          "seventh-03-streetview-50"
+        ],
+        "reviewed": "2026-09-14",
+        "basis": "Individual bay count, upper window/hood types and ground entrance arrangement transcribed from the listed dated views. Geometry dimensions remain photo-proportion estimates within the existing mapped envelope.",
+        "unknown": [
+          "Surveyed opening widths, recesses and heights",
+          "Door hardware/ornament contours below reference resolution",
+          "Occluded ground details and exact tread counts",
+          "Current condition where only older imagery is available"
+        ],
+        "acceptance": "Engine comparison pending. This is an authored architectural correction, not measured 1:1 acceptance.",
+        "detailReview": "Reviewed the archive exterior again for stone piers, horizontal sill courses, spandrel panels, base finish and cornice profile; current panoramas take precedence where the same part is visible. Dimensions and shallow relief contours remain photograph-based estimates."
+      },
+      "nativeElevation": {
+        "file": "../docs/images/seventh-engine-03/elevations/sheet-5.webp",
+        "slot": 0,
+        "projection": "orthographic diagnostic; not a photographic camera"
+      },
+      "reviewStatus": "Native elevation inspected in the full 82-frontage pass. Final contact sheet retained; photographic count/type/alignment acceptance remains open.",
+      "acceptance": {
+        "countAndTypeGate": "not independently certified",
+        "matchedLandmarkGate": "not passed",
+        "closeAndObliqueGate": "candidate review; exact hardware and profiles unresolved",
+        "userAccepted": false
+      },
+      "entranceCaptures": [
+        "../docs/images/seventh-engine-03/fidelity/entry-241829582.png"
+      ]
+    },
+    {
+      "id": 241829595,
+      "address": "84 East 7th Street",
+      "sources": [
+        {
+          "id": "architecture-241829595",
+          "captureDate": null,
+          "url": "https://buildingblocks.villagepreservation.org/building/84-east-7th-street/",
+          "scope": null
+        },
+        {
+          "id": "seventh-03-panorama-3",
+          "captureDate": "2024-09",
+          "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=ItX9nZtNODUaCo_CCZwimw",
+          "scope": null
+        }
+      ],
+      "geometry": "explicit Seventh-only schedule",
+      "scheduledWindowGroups": 16,
+      "scheduledEntrances": 1,
+      "unletteredUnits": 0,
+      "observation": {
+        "sources": [
+          "architecture-241829595",
+          "seventh-03-panorama-3"
+        ],
+        "reviewed": "2026-09-14",
+        "basis": "Individual bay count, upper window/hood types and ground entrance arrangement transcribed from the listed dated views. Geometry dimensions remain photo-proportion estimates within the existing mapped envelope.",
+        "unknown": [
+          "Surveyed opening widths, recesses and heights",
+          "Door hardware/ornament contours below reference resolution",
+          "Occluded ground details and exact tread counts",
+          "Current condition where only older imagery is available"
+        ],
+        "acceptance": "Engine comparison pending. This is an authored architectural correction, not measured 1:1 acceptance."
+      },
+      "nativeElevation": {
+        "file": "../docs/images/seventh-engine-03/elevations/sheet-5.webp",
+        "slot": 1,
+        "projection": "orthographic diagnostic; not a photographic camera"
+      },
+      "reviewStatus": "Native elevation inspected in the full 82-frontage pass. Final contact sheet retained; photographic count/type/alignment acceptance remains open.",
+      "acceptance": {
+        "countAndTypeGate": "not independently certified",
+        "matchedLandmarkGate": "not passed",
+        "closeAndObliqueGate": "candidate review; exact hardware and profiles unresolved",
+        "userAccepted": false
+      },
+      "entranceCaptures": [
+        "../docs/images/seventh-engine-03/fidelity/entry-241829595.png"
+      ]
+    },
+    {
+      "id": 241829621,
+      "address": "68 East 7th Street",
+      "sources": [
+        {
+          "id": "architecture-241829621",
+          "captureDate": null,
+          "url": "https://buildingblocks.villagepreservation.org/building/68-east-7th-street/",
+          "scope": null
+        },
+        {
+          "id": "seventh-03-panorama-1",
+          "captureDate": "2024-09",
+          "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=udBbZpfPC17Suy6rtTWtaw",
+          "scope": null
+        }
+      ],
+      "geometry": "explicit Seventh-only schedule",
+      "scheduledWindowGroups": 13,
+      "scheduledEntrances": 1,
+      "unletteredUnits": 0,
+      "observation": {
+        "sources": [
+          "architecture-241829621",
+          "seventh-03-panorama-1"
+        ],
+        "reviewed": "2026-09-14",
+        "basis": "Three-bay red townhouse, no escape, pale curved window hoods and substantial right-hand raised entrance.",
+        "unknown": [
+          "Surveyed opening widths, recesses and heights",
+          "Door hardware/ornament contours below reference resolution",
+          "Occluded ground details and exact tread counts",
+          "Current condition where only older imagery is available"
+        ],
+        "acceptance": "Engine comparison pending. This is an authored architectural correction, not measured 1:1 acceptance."
+      },
+      "nativeElevation": {
+        "file": "../docs/images/seventh-engine-03/elevations/sheet-5.webp",
+        "slot": 2,
+        "projection": "orthographic diagnostic; not a photographic camera"
+      },
+      "reviewStatus": "Native elevation inspected in the full 82-frontage pass. Final contact sheet retained; photographic count/type/alignment acceptance remains open.",
+      "acceptance": {
+        "countAndTypeGate": "not independently certified",
+        "matchedLandmarkGate": "not passed",
+        "closeAndObliqueGate": "candidate review; exact hardware and profiles unresolved",
+        "userAccepted": false
+      },
+      "entranceCaptures": [
+        "../docs/images/seventh-engine-03/fidelity/entry-241829621.png"
+      ]
+    },
+    {
+      "id": 241829629,
+      "address": "64 East 7th Street",
+      "sources": [
+        {
+          "id": "architecture-241829629",
+          "captureDate": null,
+          "url": "https://buildingblocks.villagepreservation.org/building/64-east-7th-street/",
+          "scope": null
+        },
+        {
+          "id": "seventh-03-panorama-0",
+          "captureDate": "2024-09",
+          "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=wk5o9wHwIlPud3GicfSaWg",
+          "scope": null
+        }
+      ],
+      "geometry": "explicit Seventh-only schedule",
+      "scheduledWindowGroups": 13,
+      "scheduledEntrances": 1,
+      "unletteredUnits": 0,
+      "observation": {
+        "sources": [
+          "architecture-241829629",
+          "seventh-03-panorama-0"
+        ],
+        "reviewed": "2026-09-14",
+        "basis": "Three-bay townhouse, no escape, six-over-six sash subdivisions and right-hand raised entrance.",
+        "unknown": [
+          "Surveyed opening widths, recesses and heights",
+          "Door hardware/ornament contours below reference resolution",
+          "Occluded ground details and exact tread counts",
+          "Current condition where only older imagery is available"
+        ],
+        "acceptance": "Engine comparison pending. This is an authored architectural correction, not measured 1:1 acceptance."
+      },
+      "nativeElevation": {
+        "file": "../docs/images/seventh-engine-03/elevations/sheet-5.webp",
+        "slot": 3,
+        "projection": "orthographic diagnostic; not a photographic camera"
+      },
+      "reviewStatus": "Native elevation inspected in the full 82-frontage pass. Final contact sheet retained; photographic count/type/alignment acceptance remains open.",
+      "acceptance": {
+        "countAndTypeGate": "not independently certified",
+        "matchedLandmarkGate": "not passed",
+        "closeAndObliqueGate": "candidate review; exact hardware and profiles unresolved",
+        "userAccepted": false
+      },
+      "entranceCaptures": [
+        "../docs/images/seventh-engine-03/fidelity/entry-241829629.png"
+      ]
+    },
+    {
+      "id": 241829631,
+      "address": "86 East 7th Street",
+      "sources": [
+        {
+          "id": "architecture-241829631",
+          "captureDate": null,
+          "url": "https://buildingblocks.villagepreservation.org/building/113-1st-avenue/",
+          "scope": null
+        }
+      ],
+      "geometry": "existing accepted-corner/landmark recipe retained",
+      "scheduledWindowGroups": 0,
+      "scheduledEntrances": 0,
+      "unletteredUnits": 0,
+      "observation": {
+        "sources": [
+          "architecture-241829631"
+        ],
+        "reviewed": "2026-09-14",
+        "basis": "Preserve accepted corner geometry or existing church-specific architecture. Separate matched comparison still required for the stricter benchmark.",
+        "acceptance": "Not newly accepted as exact."
+      },
+      "nativeElevation": {
+        "file": "../docs/images/seventh-engine-03/elevations/sheet-5.webp",
+        "slot": 4,
+        "projection": "orthographic diagnostic; not a photographic camera"
+      },
+      "reviewStatus": "Native elevation inspected in the full 82-frontage pass. Final contact sheet retained; photographic count/type/alignment acceptance remains open.",
+      "acceptance": {
+        "countAndTypeGate": "not independently certified",
+        "matchedLandmarkGate": "not passed",
+        "closeAndObliqueGate": "candidate review; exact hardware and profiles unresolved",
+        "userAccepted": false,
+        "note": "Prior accepted corner or retained landmark is preserved; this does not certify the stricter Seventh benchmark."
+      },
+      "entranceCaptures": [
+        "../docs/images/seventh-engine-03/fidelity/entry-241829631.png"
+      ]
+    },
+    {
+      "id": 241829633,
+      "address": "82 East 7th Street",
+      "sources": [
+        {
+          "id": "architecture-241829633",
+          "captureDate": null,
+          "url": "https://buildingblocks.villagepreservation.org/building/82-east-7th-street/",
+          "scope": null
+        },
+        {
+          "id": "seventh-03-panorama-2",
+          "captureDate": "2024-09",
+          "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=BUNJSXOY9He29Pvm3_1thw",
+          "scope": null
+        }
+      ],
+      "geometry": "explicit Seventh-only schedule",
+      "scheduledWindowGroups": 14,
+      "scheduledEntrances": 1,
+      "unletteredUnits": 0,
+      "observation": {
+        "sources": [
+          "architecture-241829633",
+          "seventh-03-panorama-2"
+        ],
+        "reviewed": "2026-09-14",
+        "basis": "Individual bay count, upper window/hood types and ground entrance arrangement transcribed from the listed dated views. Geometry dimensions remain photo-proportion estimates within the existing mapped envelope.",
+        "unknown": [
+          "Surveyed opening widths, recesses and heights",
+          "Door hardware/ornament contours below reference resolution",
+          "Occluded ground details and exact tread counts",
+          "Current condition where only older imagery is available"
+        ],
+        "acceptance": "Engine comparison pending. This is an authored architectural correction, not measured 1:1 acceptance."
+      },
+      "nativeElevation": {
+        "file": "../docs/images/seventh-engine-03/elevations/sheet-5.webp",
+        "slot": 5,
+        "projection": "orthographic diagnostic; not a photographic camera"
+      },
+      "reviewStatus": "Native elevation inspected in the full 82-frontage pass. Final contact sheet retained; photographic count/type/alignment acceptance remains open.",
+      "acceptance": {
+        "countAndTypeGate": "not independently certified",
+        "matchedLandmarkGate": "not passed",
+        "closeAndObliqueGate": "candidate review; exact hardware and profiles unresolved",
+        "userAccepted": false
+      },
+      "entranceCaptures": [
+        "../docs/images/seventh-engine-03/fidelity/entry-241829633.png"
+      ]
+    },
+    {
+      "id": 241829643,
+      "address": "48 1/2 East 7th Street",
+      "sources": [
+        {
+          "id": "seventh-03-user-comparison",
+          "captureDate": "2026-04",
+          "url": null,
+          "scope": "50 and 48½ E 7th architectural comparison; camera label 49 E 7th is not the pictured address."
+        },
+        {
+          "id": "seventh-03-streetview-50",
+          "captureDate": "2026-04",
+          "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=BhbNLmsrLJoqeAErWVcK_w&heading=239.08&pitch=13&fov=85",
+          "scope": "Inspected 49/51 and 50/52, plus oblique 48½. Parked cars/branches occlude low or upper details."
+        },
+        {
+          "id": "seventh-03-streetview-48",
+          "captureDate": "2026-04",
+          "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=py0O1VK0amcbISU49EuZXQ",
+          "scope": "Current sidelight/door text and projected shop bays; lower access occluded."
+        }
+      ],
+      "geometry": "explicit Seventh-only schedule",
+      "scheduledWindowGroups": 16,
+      "scheduledEntrances": 1,
+      "unletteredUnits": 0,
+      "observation": {
+        "sources": [
+          "seventh-03-user-comparison",
+          "seventh-03-streetview-50",
+          "seventh-03-streetview-48"
+        ],
+        "reviewed": "2026-09-14",
+        "basis": "April 2026 adjacent unblocked panorama resolves a narrow fixed sidelight LEFT of a single larger dark glazed door, literal 48 1/2 transom lettering, offset within a brick pier, and white brackets/continuous cornice. Window rows and hood types remain as the prior inspected schedule. Pane/order corrections are observed; all metric dimensions and projection depths remain estimates. The same current view shows pale weathered stone surrounds and solid segmental hood panels at the lowest upper-window row; prior dark trim was corrected.",
+        "unknown": [
+          "Exact opening widths/heights and bay projection depths",
+          "Proprietary script outlines and current shop interior",
+          "Lower threshold and exact basement/access geometry occluded by the parked car",
+          "Fine upper cornice/hood carving and paint/weathering"
+        ],
+        "acceptance": "Matched engine review pending."
+      },
+      "nativeElevation": {
+        "file": "../docs/images/seventh-engine-03/elevations/sheet-6.webp",
+        "slot": 0,
+        "projection": "orthographic diagnostic; not a photographic camera"
+      },
+      "reviewStatus": "Final native elevation re-inspected after the adjacent-view sidelight/bay/stone-hood correction. Entrance and two perspective source-camera views retained. Exact photographic acceptance remains open.",
+      "acceptance": {
+        "countAndTypeGate": "not independently certified",
+        "matchedLandmarkGate": "not passed",
+        "closeAndObliqueGate": "candidate review; exact hardware and profiles unresolved",
+        "userAccepted": false
+      },
+      "remainingPriority": "Finish independent multi-view alignment, measured proportions, exact trim/lettering and street-tree placement for the initial benchmark pair.",
+      "entranceCaptures": [
+        "../docs/images/seventh-engine-03/fidelity/entry-241829643.png"
+      ]
+    },
+    {
+      "id": 241829665,
+      "address": "60 East 7th Street",
+      "sources": [
+        {
+          "id": "architecture-241829665",
+          "captureDate": null,
+          "url": "https://buildingblocks.villagepreservation.org/building/60-east-7th-street/",
+          "scope": null
+        },
+        {
+          "id": "seventh-03-panorama-0",
+          "captureDate": "2024-09",
+          "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=wk5o9wHwIlPud3GicfSaWg",
+          "scope": null
+        }
+      ],
+      "geometry": "explicit Seventh-only schedule",
+      "scheduledWindowGroups": 14,
+      "scheduledEntrances": 1,
+      "unletteredUnits": 0,
+      "observation": {
+        "sources": [
+          "architecture-241829665",
+          "seventh-03-panorama-0"
+        ],
+        "reviewed": "2026-09-14",
+        "basis": "Smooth red-painted facade, no cornice or stone window ornament; right-hand low doorway, barred windows.",
+        "unknown": [
+          "Surveyed opening widths, recesses and heights",
+          "Door hardware/ornament contours below reference resolution",
+          "Occluded ground details and exact tread counts",
+          "Current condition where only older imagery is available"
+        ],
+        "acceptance": "Engine comparison pending. This is an authored architectural correction, not measured 1:1 acceptance."
+      },
+      "nativeElevation": {
+        "file": "../docs/images/seventh-engine-03/elevations/sheet-6.webp",
+        "slot": 1,
+        "projection": "orthographic diagnostic; not a photographic camera"
+      },
+      "reviewStatus": "Native elevation inspected in the full 82-frontage pass. Final contact sheet retained; photographic count/type/alignment acceptance remains open.",
+      "acceptance": {
+        "countAndTypeGate": "not independently certified",
+        "matchedLandmarkGate": "not passed",
+        "closeAndObliqueGate": "candidate review; exact hardware and profiles unresolved",
+        "userAccepted": false
+      },
+      "entranceCaptures": [
+        "../docs/images/seventh-engine-03/fidelity/entry-241829665.png"
+      ]
+    },
+    {
+      "id": 241833274,
+      "address": "43 East 7th Street",
+      "sources": [
+        {
+          "id": "architecture-241833274",
+          "captureDate": null,
+          "url": "https://buildingblocks.villagepreservation.org/building/41-43-east-7th-street/",
+          "scope": null
+        },
+        {
+          "id": "seventh-03-west",
+          "captureDate": "2024-09",
+          "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=0s_gDj_64WQVbaplip5Z7Q",
+          "scope": null
+        }
+      ],
+      "geometry": "explicit Seventh-only schedule",
+      "scheduledWindowGroups": 30,
+      "scheduledEntrances": 1,
+      "unletteredUnits": 0,
+      "observation": {
+        "sources": [
+          "architecture-241833274",
+          "seventh-03-west"
+        ],
+        "reviewed": "2026-09-14",
+        "basis": "Individual bay count, upper window/hood types and ground entrance arrangement transcribed from the listed dated views. Geometry dimensions remain photo-proportion estimates within the existing mapped envelope.",
+        "unknown": [
+          "Surveyed opening widths, recesses and heights",
+          "Door hardware/ornament contours below reference resolution",
+          "Occluded ground details and exact tread counts",
+          "Current condition where only older imagery is available"
+        ],
+        "acceptance": "Engine comparison pending. This is an authored architectural correction, not measured 1:1 acceptance.",
+        "detailReview": "Archive full-height exterior: paired outer bays and four individual center bays, alternating pediment/segmental outer hoods, continuous sill courses, quoins, plain capped parapet. These are not eight uniformly spaced independent windows."
+      },
+      "nativeElevation": {
+        "file": "../docs/images/seventh-engine-03/elevations/sheet-6.webp",
+        "slot": 2,
+        "projection": "orthographic diagnostic; not a photographic camera"
+      },
+      "reviewStatus": "Native elevation inspected in the full 82-frontage pass. Final contact sheet retained; photographic count/type/alignment acceptance remains open.",
+      "acceptance": {
+        "countAndTypeGate": "not independently certified",
+        "matchedLandmarkGate": "not passed",
+        "closeAndObliqueGate": "candidate review; exact hardware and profiles unresolved",
+        "userAccepted": false
+      },
+      "entranceCaptures": [
+        "../docs/images/seventh-engine-03/fidelity/entry-241833274.png"
+      ]
+    },
+    {
+      "id": 241833299,
+      "address": "117 2nd Avenue",
+      "sources": [
+        {
+          "id": "architecture-241833299",
+          "captureDate": null,
+          "url": null,
+          "scope": null
+        },
+        {
+          "id": "seventh-03-west",
+          "captureDate": "2024-09",
+          "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=0s_gDj_64WQVbaplip5Z7Q",
+          "scope": null
+        }
+      ],
+      "geometry": "explicit Seventh-only schedule",
+      "scheduledWindowGroups": 32,
+      "scheduledEntrances": 1,
+      "unletteredUnits": 0,
+      "observation": {
+        "sources": [
+          "architecture-241833299",
+          "seventh-03-west"
+        ],
+        "reviewed": "2026-09-14",
+        "basis": "Individual bay count, upper window/hood types and ground entrance arrangement transcribed from the listed dated views. Geometry dimensions remain photo-proportion estimates within the existing mapped envelope.",
+        "unknown": [
+          "Surveyed opening widths, recesses and heights",
+          "Door hardware/ornament contours below reference resolution",
+          "Occluded ground details and exact tread counts",
+          "Current condition where only older imagery is available",
+          "Ground floor concealed by sidewalk shed; stepped roof/side elevation needs further calibration."
+        ],
+        "acceptance": "Engine comparison pending. This is an authored architectural correction, not measured 1:1 acceptance."
+      },
+      "nativeElevation": {
+        "file": "../docs/images/seventh-engine-03/elevations/sheet-6.webp",
+        "slot": 3,
+        "projection": "orthographic diagnostic; not a photographic camera"
+      },
+      "reviewStatus": "Native elevation inspected in the full 82-frontage pass. Final contact sheet retained; photographic count/type/alignment acceptance remains open.",
+      "acceptance": {
+        "countAndTypeGate": "not independently certified",
+        "matchedLandmarkGate": "not passed",
+        "closeAndObliqueGate": "candidate review; exact hardware and profiles unresolved",
+        "userAccepted": false
+      },
+      "entranceCaptures": [
+        "../docs/images/seventh-engine-03/fidelity/entry-241833299.png"
+      ]
+    },
+    {
+      "id": 241833322,
+      "address": "46 East 7th Street",
+      "sources": [
+        {
+          "id": "architecture-241833322",
+          "captureDate": null,
+          "url": null,
+          "scope": null
+        },
+        {
+          "id": "seventh-03-west",
+          "captureDate": "2024-09",
+          "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=0s_gDj_64WQVbaplip5Z7Q",
+          "scope": null
+        }
+      ],
+      "geometry": "explicit Seventh-only schedule",
+      "scheduledWindowGroups": 15,
+      "scheduledEntrances": 1,
+      "unletteredUnits": 1,
+      "observation": {
+        "sources": [
+          "architecture-241833322",
+          "seventh-03-west"
+        ],
+        "reviewed": "2026-09-14",
+        "basis": "Individual bay count, upper window/hood types and ground entrance arrangement transcribed from the listed dated views. Geometry dimensions remain photo-proportion estimates within the existing mapped envelope.",
+        "unknown": [
+          "Surveyed opening widths, recesses and heights",
+          "Door hardware/ornament contours below reference resolution",
+          "Occluded ground details and exact tread counts",
+          "Current condition where only older imagery is available",
+          "Ground floor concealed by sidewalk shed in the available frontal September 2024 view.",
+          "Current lettering and exact door hardware of the unlettered ground units",
+          "Sidewalk shed obscures the current ground unit: its subdivision is provisional, not photo-confirmed."
+        ],
+        "acceptance": "Engine comparison pending. This is an authored architectural correction, not measured 1:1 acceptance."
+      },
+      "nativeElevation": {
+        "file": "../docs/images/seventh-engine-03/elevations/sheet-6.webp",
+        "slot": 4,
+        "projection": "orthographic diagnostic; not a photographic camera"
+      },
+      "reviewStatus": "Native elevation inspected in the full 82-frontage pass. Final contact sheet retained; photographic count/type/alignment acceptance remains open.",
+      "acceptance": {
+        "countAndTypeGate": "not independently certified",
+        "matchedLandmarkGate": "not passed",
+        "closeAndObliqueGate": "candidate review; exact hardware and profiles unresolved",
+        "userAccepted": false
+      },
+      "remainingPriority": "Resolve actual pane order, occupancy/lettering and hidden hardware before accepting this provisional physical-unit layout.",
+      "entranceCaptures": [
+        "../docs/images/seventh-engine-03/fidelity/entry-241833322.png"
+      ]
+    },
+    {
+      "id": 248142313,
+      "address": "100 East 7th Street",
+      "sources": [
+        {
+          "id": "architecture-248142313",
+          "captureDate": null,
+          "url": "https://buildingblocks.villagepreservation.org/building/100-east-7th-street/",
+          "scope": null
+        },
+        {
+          "id": "seventh-03-panorama-5",
+          "captureDate": "2026-04",
+          "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=0Qy50LzBil1AbaIMJRlpjA",
+          "scope": null
+        }
+      ],
+      "geometry": "explicit Seventh-only schedule",
+      "scheduledWindowGroups": 20,
+      "scheduledEntrances": 1,
+      "unletteredUnits": 0,
+      "observation": {
+        "sources": [
+          "architecture-248142313",
+          "seventh-03-panorama-5"
+        ],
+        "reviewed": "2026-09-14",
+        "basis": "Individual bay count, upper window/hood types and ground entrance arrangement transcribed from the listed dated views. Geometry dimensions remain photo-proportion estimates within the existing mapped envelope.",
+        "unknown": [
+          "Surveyed opening widths, recesses and heights",
+          "Door hardware/ornament contours below reference resolution",
+          "Occluded ground details and exact tread counts",
+          "Current condition where only older imagery is available"
+        ],
+        "acceptance": "Engine comparison pending. This is an authored architectural correction, not measured 1:1 acceptance.",
+        "detailReview": "Reviewed the archive exterior again for stone piers, horizontal sill courses, spandrel panels, base finish and cornice profile; current panoramas take precedence where the same part is visible. Dimensions and shallow relief contours remain photograph-based estimates."
+      },
+      "nativeElevation": {
+        "file": "../docs/images/seventh-engine-03/elevations/sheet-6.webp",
+        "slot": 5,
+        "projection": "orthographic diagnostic; not a photographic camera"
+      },
+      "reviewStatus": "Native elevation inspected in the full 82-frontage pass. Final contact sheet retained; photographic count/type/alignment acceptance remains open.",
+      "acceptance": {
+        "countAndTypeGate": "not independently certified",
+        "matchedLandmarkGate": "not passed",
+        "closeAndObliqueGate": "candidate review; exact hardware and profiles unresolved",
+        "userAccepted": false
+      },
+      "entranceCaptures": [
+        "../docs/images/seventh-engine-03/fidelity/entry-248142313.png"
+      ]
+    },
+    {
+      "id": 248142319,
+      "address": "102 East 7th Street",
+      "sources": [
+        {
+          "id": "architecture-248142319",
+          "captureDate": null,
+          "url": "https://buildingblocks.villagepreservation.org/building/102-east-7th-street/",
+          "scope": null
+        },
+        {
+          "id": "seventh-03-panorama-5",
+          "captureDate": "2026-04",
+          "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=0Qy50LzBil1AbaIMJRlpjA",
+          "scope": null
+        }
+      ],
+      "geometry": "explicit Seventh-only schedule",
+      "scheduledWindowGroups": 8,
+      "scheduledEntrances": 1,
+      "unletteredUnits": 2,
+      "observation": {
+        "sources": [
+          "architecture-248142319",
+          "seventh-03-panorama-5"
+        ],
+        "reviewed": "2026-09-14",
+        "basis": "Two broad projecting grouped windows per upper row, black frames; storefront ground.",
+        "unknown": [
+          "Surveyed opening widths, recesses and heights",
+          "Door hardware/ornament contours below reference resolution",
+          "Occluded ground details and exact tread counts",
+          "Current condition where only older imagery is available",
+          "Current lettering and exact door hardware of the unlettered ground units"
+        ],
+        "acceptance": "Engine comparison pending. This is an authored architectural correction, not measured 1:1 acceptance.",
+        "detailReview": "April 2026 view: paired broad black projecting box bays, three lights per bay and a lower horizontal rail; projection depth is estimated. Dimensions and shallow relief contours remain photograph-based estimates."
+      },
+      "nativeElevation": {
+        "file": "../docs/images/seventh-engine-03/elevations/sheet-7.webp",
+        "slot": 0,
+        "projection": "orthographic diagnostic; not a photographic camera"
+      },
+      "reviewStatus": "Native elevation inspected in the full 82-frontage pass. Final contact sheet retained; photographic count/type/alignment acceptance remains open.",
+      "acceptance": {
+        "countAndTypeGate": "not independently certified",
+        "matchedLandmarkGate": "not passed",
+        "closeAndObliqueGate": "candidate review; exact hardware and profiles unresolved",
+        "userAccepted": false
+      },
+      "remainingPriority": "Resolve actual pane order, occupancy/lettering and hidden hardware before accepting this provisional physical-unit layout.",
+      "entranceCaptures": [
+        "../docs/images/seventh-engine-03/fidelity/entry-248142319.png"
+      ]
+    },
+    {
+      "id": 248142322,
+      "address": "104 East 7th Street",
+      "sources": [
+        {
+          "id": "architecture-248142322",
+          "captureDate": null,
+          "url": "https://buildingblocks.villagepreservation.org/building/104-east-7th-street/",
+          "scope": null
+        },
+        {
+          "id": "seventh-03-panorama-5",
+          "captureDate": "2026-04",
+          "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=0Qy50LzBil1AbaIMJRlpjA",
+          "scope": null
+        }
+      ],
+      "geometry": "explicit Seventh-only schedule",
+      "scheduledWindowGroups": 14,
+      "scheduledEntrances": 1,
+      "unletteredUnits": 0,
+      "observation": {
+        "sources": [
+          "architecture-248142322",
+          "seventh-03-panorama-5"
+        ],
+        "reviewed": "2026-09-14",
+        "basis": "Three upper groups with broad projecting middle group; retain unequal glazing widths.",
+        "unknown": [
+          "Surveyed opening widths, recesses and heights",
+          "Door hardware/ornament contours below reference resolution",
+          "Occluded ground details and exact tread counts",
+          "Current condition where only older imagery is available"
+        ],
+        "acceptance": "Engine comparison pending. This is an authored architectural correction, not measured 1:1 acceptance."
+      },
+      "nativeElevation": {
+        "file": "../docs/images/seventh-engine-03/elevations/sheet-7.webp",
+        "slot": 1,
+        "projection": "orthographic diagnostic; not a photographic camera"
+      },
+      "reviewStatus": "Native elevation inspected in the full 82-frontage pass. Final contact sheet retained; photographic count/type/alignment acceptance remains open.",
+      "acceptance": {
+        "countAndTypeGate": "not independently certified",
+        "matchedLandmarkGate": "not passed",
+        "closeAndObliqueGate": "candidate review; exact hardware and profiles unresolved",
+        "userAccepted": false
+      },
+      "entranceCaptures": [
+        "../docs/images/seventh-engine-03/fidelity/entry-248142322.png"
+      ]
+    },
+    {
+      "id": 248142324,
+      "address": "106 East 7th Street",
+      "sources": [
+        {
+          "id": "architecture-248142324",
+          "captureDate": null,
+          "url": "https://buildingblocks.villagepreservation.org/building/106-east-7th-street/",
+          "scope": null
+        },
+        {
+          "id": "seventh-03-panorama-6",
+          "captureDate": "2026-04",
+          "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=6h8_UA7jRJ37XJV5nYgNcQ",
+          "scope": null
+        }
+      ],
+      "geometry": "explicit Seventh-only schedule",
+      "scheduledWindowGroups": 18,
+      "scheduledEntrances": 1,
+      "unletteredUnits": 0,
+      "observation": {
+        "sources": [
+          "architecture-248142324",
+          "seventh-03-panorama-6"
+        ],
+        "reviewed": "2026-09-14",
+        "basis": "Individual bay count, upper window/hood types and ground entrance arrangement transcribed from the listed dated views. Geometry dimensions remain photo-proportion estimates within the existing mapped envelope.",
+        "unknown": [
+          "Surveyed opening widths, recesses and heights",
+          "Door hardware/ornament contours below reference resolution",
+          "Occluded ground details and exact tread counts",
+          "Current condition where only older imagery is available"
+        ],
+        "acceptance": "Engine comparison pending. This is an authored architectural correction, not measured 1:1 acceptance."
+      },
+      "nativeElevation": {
+        "file": "../docs/images/seventh-engine-03/elevations/sheet-7.webp",
+        "slot": 2,
+        "projection": "orthographic diagnostic; not a photographic camera"
+      },
+      "reviewStatus": "Native elevation inspected in the full 82-frontage pass. Final contact sheet retained; photographic count/type/alignment acceptance remains open.",
+      "acceptance": {
+        "countAndTypeGate": "not independently certified",
+        "matchedLandmarkGate": "not passed",
+        "closeAndObliqueGate": "candidate review; exact hardware and profiles unresolved",
+        "userAccepted": false
+      },
+      "entranceCaptures": [
+        "../docs/images/seventh-engine-03/fidelity/entry-248142324.png"
+      ]
+    },
+    {
+      "id": 248142328,
+      "address": "110 East 7th Street",
+      "sources": [
+        {
+          "id": "architecture-248142328",
+          "captureDate": null,
+          "url": "https://buildingblocks.villagepreservation.org/building/110-east-7th-street/",
+          "scope": null
+        },
+        {
+          "id": "seventh-03-panorama-6",
+          "captureDate": "2026-04",
+          "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=6h8_UA7jRJ37XJV5nYgNcQ",
+          "scope": null
+        }
+      ],
+      "geometry": "explicit Seventh-only schedule",
+      "scheduledWindowGroups": 20,
+      "scheduledEntrances": 1,
+      "unletteredUnits": 0,
+      "observation": {
+        "sources": [
+          "architecture-248142328",
+          "seventh-03-panorama-6"
+        ],
+        "reviewed": "2026-09-14",
+        "basis": "Individual bay count, upper window/hood types and ground entrance arrangement transcribed from the listed dated views. Geometry dimensions remain photo-proportion estimates within the existing mapped envelope.",
+        "unknown": [
+          "Surveyed opening widths, recesses and heights",
+          "Door hardware/ornament contours below reference resolution",
+          "Occluded ground details and exact tread counts",
+          "Current condition where only older imagery is available"
+        ],
+        "acceptance": "Engine comparison pending. This is an authored architectural correction, not measured 1:1 acceptance.",
+        "detailReview": "Reviewed the archive exterior again for stone piers, horizontal sill courses, spandrel panels, base finish and cornice profile; current panoramas take precedence where the same part is visible. Dimensions and shallow relief contours remain photograph-based estimates."
+      },
+      "nativeElevation": {
+        "file": "../docs/images/seventh-engine-03/elevations/sheet-7.webp",
+        "slot": 3,
+        "projection": "orthographic diagnostic; not a photographic camera"
+      },
+      "reviewStatus": "Native elevation inspected in the full 82-frontage pass. Final contact sheet retained; photographic count/type/alignment acceptance remains open.",
+      "acceptance": {
+        "countAndTypeGate": "not independently certified",
+        "matchedLandmarkGate": "not passed",
+        "closeAndObliqueGate": "candidate review; exact hardware and profiles unresolved",
+        "userAccepted": false
+      },
+      "entranceCaptures": [
+        "../docs/images/seventh-engine-03/fidelity/entry-248142328.png"
+      ]
+    },
+    {
+      "id": 248142330,
+      "address": "112 East 7th Street",
+      "sources": [
+        {
+          "id": "architecture-248142330",
+          "captureDate": null,
+          "url": "https://buildingblocks.villagepreservation.org/building/112-east-7th-street/",
+          "scope": null
+        },
+        {
+          "id": "seventh-03-panorama-6",
+          "captureDate": "2026-04",
+          "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=6h8_UA7jRJ37XJV5nYgNcQ",
+          "scope": null
+        }
+      ],
+      "geometry": "explicit Seventh-only schedule",
+      "scheduledWindowGroups": 20,
+      "scheduledEntrances": 1,
+      "unletteredUnits": 0,
+      "observation": {
+        "sources": [
+          "architecture-248142330",
+          "seventh-03-panorama-6"
+        ],
+        "reviewed": "2026-09-14",
+        "basis": "Individual bay count, upper window/hood types and ground entrance arrangement transcribed from the listed dated views. Geometry dimensions remain photo-proportion estimates within the existing mapped envelope.",
+        "unknown": [
+          "Surveyed opening widths, recesses and heights",
+          "Door hardware/ornament contours below reference resolution",
+          "Occluded ground details and exact tread counts",
+          "Current condition where only older imagery is available"
+        ],
+        "acceptance": "Engine comparison pending. This is an authored architectural correction, not measured 1:1 acceptance.",
+        "detailReview": "Reviewed the archive exterior again for stone piers, horizontal sill courses, spandrel panels, base finish and cornice profile; current panoramas take precedence where the same part is visible. Dimensions and shallow relief contours remain photograph-based estimates."
+      },
+      "nativeElevation": {
+        "file": "../docs/images/seventh-engine-03/elevations/sheet-7.webp",
+        "slot": 4,
+        "projection": "orthographic diagnostic; not a photographic camera"
+      },
+      "reviewStatus": "Native elevation inspected in the full 82-frontage pass. Final contact sheet retained; photographic count/type/alignment acceptance remains open.",
+      "acceptance": {
+        "countAndTypeGate": "not independently certified",
+        "matchedLandmarkGate": "not passed",
+        "closeAndObliqueGate": "candidate review; exact hardware and profiles unresolved",
+        "userAccepted": false
+      },
+      "entranceCaptures": [
+        "../docs/images/seventh-engine-03/fidelity/entry-248142330.png"
+      ]
+    },
+    {
+      "id": 248142332,
+      "address": "114 East 7th Street",
+      "sources": [
+        {
+          "id": "architecture-248142332",
+          "captureDate": null,
+          "url": "https://buildingblocks.villagepreservation.org/building/114-east-7th-street/",
+          "scope": null
+        },
+        {
+          "id": "seventh-03-panorama-6",
+          "captureDate": "2026-04",
+          "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=6h8_UA7jRJ37XJV5nYgNcQ",
+          "scope": null
+        }
+      ],
+      "geometry": "explicit Seventh-only schedule",
+      "scheduledWindowGroups": 24,
+      "scheduledEntrances": 1,
+      "unletteredUnits": 0,
+      "observation": {
+        "sources": [
+          "architecture-248142332",
+          "seventh-03-panorama-6"
+        ],
+        "reviewed": "2026-09-14",
+        "basis": "Individual bay count, upper window/hood types and ground entrance arrangement transcribed from the listed dated views. Geometry dimensions remain photo-proportion estimates within the existing mapped envelope.",
+        "unknown": [
+          "Surveyed opening widths, recesses and heights",
+          "Door hardware/ornament contours below reference resolution",
+          "Occluded ground details and exact tread counts",
+          "Current condition where only older imagery is available"
+        ],
+        "acceptance": "Engine comparison pending. This is an authored architectural correction, not measured 1:1 acceptance.",
+        "detailReview": "Reviewed the archive exterior again for stone piers, horizontal sill courses, spandrel panels, base finish and cornice profile; current panoramas take precedence where the same part is visible. Dimensions and shallow relief contours remain photograph-based estimates."
+      },
+      "nativeElevation": {
+        "file": "../docs/images/seventh-engine-03/elevations/sheet-7.webp",
+        "slot": 5,
+        "projection": "orthographic diagnostic; not a photographic camera"
+      },
+      "reviewStatus": "Native elevation inspected in the full 82-frontage pass. Final contact sheet retained; photographic count/type/alignment acceptance remains open.",
+      "acceptance": {
+        "countAndTypeGate": "not independently certified",
+        "matchedLandmarkGate": "not passed",
+        "closeAndObliqueGate": "candidate review; exact hardware and profiles unresolved",
+        "userAccepted": false
+      },
+      "entranceCaptures": [
+        "../docs/images/seventh-engine-03/fidelity/entry-248142332.png"
+      ]
+    },
+    {
+      "id": 248142333,
+      "address": "118 East 7th Street",
+      "sources": [
+        {
+          "id": "architecture-248142333",
+          "captureDate": null,
+          "url": "https://buildingblocks.villagepreservation.org/building/118-east-7th-street/",
+          "scope": null
+        },
+        {
+          "id": "seventh-03-panorama-7",
+          "captureDate": "2026-04",
+          "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=oc5mdx5ZMGzjnS86El8U2Q",
+          "scope": null
+        }
+      ],
+      "geometry": "explicit Seventh-only schedule",
+      "scheduledWindowGroups": 22,
+      "scheduledEntrances": 1,
+      "unletteredUnits": 0,
+      "observation": {
+        "sources": [
+          "architecture-248142333",
+          "seventh-03-panorama-7"
+        ],
+        "reviewed": "2026-09-14",
+        "basis": "Individual bay count, upper window/hood types and ground entrance arrangement transcribed from the listed dated views. Geometry dimensions remain photo-proportion estimates within the existing mapped envelope.",
+        "unknown": [
+          "Surveyed opening widths, recesses and heights",
+          "Door hardware/ornament contours below reference resolution",
+          "Occluded ground details and exact tread counts",
+          "Current condition where only older imagery is available"
+        ],
+        "acceptance": "Engine comparison pending. This is an authored architectural correction, not measured 1:1 acceptance."
+      },
+      "nativeElevation": {
+        "file": "../docs/images/seventh-engine-03/elevations/sheet-8.webp",
+        "slot": 0,
+        "projection": "orthographic diagnostic; not a photographic camera"
+      },
+      "reviewStatus": "Native elevation inspected in the full 82-frontage pass. Final contact sheet retained; photographic count/type/alignment acceptance remains open.",
+      "acceptance": {
+        "countAndTypeGate": "not independently certified",
+        "matchedLandmarkGate": "not passed",
+        "closeAndObliqueGate": "candidate review; exact hardware and profiles unresolved",
+        "userAccepted": false
+      },
+      "entranceCaptures": [
+        "../docs/images/seventh-engine-03/fidelity/entry-248142333.png"
+      ]
+    },
+    {
+      "id": 248142334,
+      "address": "120 East 7th Street",
+      "sources": [
+        {
+          "id": "architecture-248142334",
+          "captureDate": null,
+          "url": "https://buildingblocks.villagepreservation.org/building/120-east-7th-street/",
+          "scope": null
+        },
+        {
+          "id": "seventh-03-panorama-7",
+          "captureDate": "2026-04",
+          "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=oc5mdx5ZMGzjnS86El8U2Q",
+          "scope": null
+        }
+      ],
+      "geometry": "explicit Seventh-only schedule",
+      "scheduledWindowGroups": 20,
+      "scheduledEntrances": 1,
+      "unletteredUnits": 1,
+      "observation": {
+        "sources": [
+          "architecture-248142334",
+          "seventh-03-panorama-7"
+        ],
+        "reviewed": "2026-09-14",
+        "basis": "Individual bay count, upper window/hood types and ground entrance arrangement transcribed from the listed dated views. Geometry dimensions remain photo-proportion estimates within the existing mapped envelope.",
+        "unknown": [
+          "Surveyed opening widths, recesses and heights",
+          "Door hardware/ornament contours below reference resolution",
+          "Occluded ground details and exact tread counts",
+          "Current condition where only older imagery is available",
+          "Current lettering and exact door hardware of the unlettered ground units"
+        ],
+        "acceptance": "Engine comparison pending. This is an authored architectural correction, not measured 1:1 acceptance."
+      },
+      "nativeElevation": {
+        "file": "../docs/images/seventh-engine-03/elevations/sheet-8.webp",
+        "slot": 1,
+        "projection": "orthographic diagnostic; not a photographic camera"
+      },
+      "reviewStatus": "Native elevation inspected in the full 82-frontage pass. Final contact sheet retained; photographic count/type/alignment acceptance remains open.",
+      "acceptance": {
+        "countAndTypeGate": "not independently certified",
+        "matchedLandmarkGate": "not passed",
+        "closeAndObliqueGate": "candidate review; exact hardware and profiles unresolved",
+        "userAccepted": false
+      },
+      "remainingPriority": "Resolve actual pane order, occupancy/lettering and hidden hardware before accepting this provisional physical-unit layout.",
+      "entranceCaptures": [
+        "../docs/images/seventh-engine-03/fidelity/entry-248142334.png"
+      ]
+    },
+    {
+      "id": 248142335,
+      "address": "122 East 7th Street",
+      "sources": [
+        {
+          "id": "architecture-248142335",
+          "captureDate": null,
+          "url": "https://buildingblocks.villagepreservation.org/building/122-east-7th-street/",
+          "scope": null
+        },
+        {
+          "id": "seventh-03-panorama-7",
+          "captureDate": "2026-04",
+          "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=oc5mdx5ZMGzjnS86El8U2Q",
+          "scope": null
+        }
+      ],
+      "geometry": "explicit Seventh-only schedule",
+      "scheduledWindowGroups": 20,
+      "scheduledEntrances": 1,
+      "unletteredUnits": 2,
+      "observation": {
+        "sources": [
+          "architecture-248142335",
+          "seventh-03-panorama-7"
+        ],
+        "reviewed": "2026-09-14",
+        "basis": "Individual bay count, upper window/hood types and ground entrance arrangement transcribed from the listed dated views. Geometry dimensions remain photo-proportion estimates within the existing mapped envelope.",
+        "unknown": [
+          "Surveyed opening widths, recesses and heights",
+          "Door hardware/ornament contours below reference resolution",
+          "Occluded ground details and exact tread counts",
+          "Current condition where only older imagery is available",
+          "Current lettering and exact door hardware of the unlettered ground units"
+        ],
+        "acceptance": "Engine comparison pending. This is an authored architectural correction, not measured 1:1 acceptance."
+      },
+      "nativeElevation": {
+        "file": "../docs/images/seventh-engine-03/elevations/sheet-8.webp",
+        "slot": 2,
+        "projection": "orthographic diagnostic; not a photographic camera"
+      },
+      "reviewStatus": "Native elevation inspected in the full 82-frontage pass. Final contact sheet retained; photographic count/type/alignment acceptance remains open.",
+      "acceptance": {
+        "countAndTypeGate": "not independently certified",
+        "matchedLandmarkGate": "not passed",
+        "closeAndObliqueGate": "candidate review; exact hardware and profiles unresolved",
+        "userAccepted": false
+      },
+      "remainingPriority": "Resolve actual pane order, occupancy/lettering and hidden hardware before accepting this provisional physical-unit layout.",
+      "entranceCaptures": [
+        "../docs/images/seventh-engine-03/fidelity/entry-248142335.png"
+      ]
+    },
+    {
+      "id": 248142336,
+      "address": "126 East 7th Street",
+      "sources": [
+        {
+          "id": "architecture-248142336",
+          "captureDate": null,
+          "url": "https://buildingblocks.villagepreservation.org/building/126-east-7th-street/",
+          "scope": null
+        },
+        {
+          "id": "seventh-03-panorama-7",
+          "captureDate": "2026-04",
+          "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=oc5mdx5ZMGzjnS86El8U2Q",
+          "scope": null
+        }
+      ],
+      "geometry": "explicit Seventh-only schedule",
+      "scheduledWindowGroups": 16,
+      "scheduledEntrances": 1,
+      "unletteredUnits": 1,
+      "observation": {
+        "sources": [
+          "architecture-248142336",
+          "seventh-03-panorama-7"
+        ],
+        "reviewed": "2026-09-14",
+        "basis": "Individual bay count, upper window/hood types and ground entrance arrangement transcribed from the listed dated views. Geometry dimensions remain photo-proportion estimates within the existing mapped envelope.",
+        "unknown": [
+          "Surveyed opening widths, recesses and heights",
+          "Door hardware/ornament contours below reference resolution",
+          "Occluded ground details and exact tread counts",
+          "Current condition where only older imagery is available",
+          "Current lettering and exact door hardware of the unlettered ground units"
+        ],
+        "acceptance": "Engine comparison pending. This is an authored architectural correction, not measured 1:1 acceptance."
+      },
+      "nativeElevation": {
+        "file": "../docs/images/seventh-engine-03/elevations/sheet-8.webp",
+        "slot": 3,
+        "projection": "orthographic diagnostic; not a photographic camera"
+      },
+      "reviewStatus": "Native elevation inspected in the full 82-frontage pass. Final contact sheet retained; photographic count/type/alignment acceptance remains open.",
+      "acceptance": {
+        "countAndTypeGate": "not independently certified",
+        "matchedLandmarkGate": "not passed",
+        "closeAndObliqueGate": "candidate review; exact hardware and profiles unresolved",
+        "userAccepted": false
+      },
+      "remainingPriority": "Resolve actual pane order, occupancy/lettering and hidden hardware before accepting this provisional physical-unit layout.",
+      "entranceCaptures": [
+        "../docs/images/seventh-engine-03/fidelity/entry-248142336.png"
+      ]
+    },
+    {
+      "id": 248142337,
+      "address": "128 East 7th Street",
+      "sources": [
+        {
+          "id": "architecture-248142337",
+          "captureDate": null,
+          "url": null,
+          "scope": null
+        },
+        {
+          "id": "seventh-03-panorama-8",
+          "captureDate": "2026-04",
+          "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=gqOoo6pPv6uGGJ_COh_w4w",
+          "scope": null
+        }
+      ],
+      "geometry": "explicit Seventh-only schedule",
+      "scheduledWindowGroups": 20,
+      "scheduledEntrances": 1,
+      "unletteredUnits": 0,
+      "observation": {
+        "sources": [
+          "architecture-248142337",
+          "seventh-03-panorama-8"
+        ],
+        "reviewed": "2026-09-14",
+        "basis": "Individual bay count, upper window/hood types and ground entrance arrangement transcribed from the listed dated views. Geometry dimensions remain photo-proportion estimates within the existing mapped envelope.",
+        "unknown": [
+          "Surveyed opening widths, recesses and heights",
+          "Door hardware/ornament contours below reference resolution",
+          "Occluded ground details and exact tread counts",
+          "Current condition where only older imagery is available"
+        ],
+        "acceptance": "Engine comparison pending. This is an authored architectural correction, not measured 1:1 acceptance."
+      },
+      "nativeElevation": {
+        "file": "../docs/images/seventh-engine-03/elevations/sheet-8.webp",
+        "slot": 4,
+        "projection": "orthographic diagnostic; not a photographic camera"
+      },
+      "reviewStatus": "Native elevation inspected in the full 82-frontage pass. Final contact sheet retained; photographic count/type/alignment acceptance remains open.",
+      "acceptance": {
+        "countAndTypeGate": "not independently certified",
+        "matchedLandmarkGate": "not passed",
+        "closeAndObliqueGate": "candidate review; exact hardware and profiles unresolved",
+        "userAccepted": false
+      },
+      "entranceCaptures": [
+        "../docs/images/seventh-engine-03/fidelity/entry-248142337.png"
+      ]
+    },
+    {
+      "id": 248142338,
+      "address": "140 East 7th Street",
+      "sources": [
+        {
+          "id": "architecture-248142338",
+          "captureDate": null,
+          "url": "https://buildingblocks.villagepreservation.org/building/134-140-east-7th-street/",
+          "scope": null
+        },
+        {
+          "id": "seventh-03-panorama-10",
+          "captureDate": "2026-04",
+          "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=G8bR78fEWeSRKhINtfNcCg",
+          "scope": null
+        }
+      ],
+      "geometry": "explicit Seventh-only schedule",
+      "scheduledWindowGroups": 44,
+      "scheduledEntrances": 1,
+      "unletteredUnits": 0,
+      "observation": {
+        "sources": [
+          "architecture-248142338",
+          "seventh-03-panorama-10"
+        ],
+        "reviewed": "2026-09-14",
+        "basis": "Long pale apartment facade uses grouped casements, not fourteen single historic sash windows.",
+        "unknown": [
+          "Surveyed opening widths, recesses and heights",
+          "Door hardware/ornament contours below reference resolution",
+          "Occluded ground details and exact tread counts",
+          "Current condition where only older imagery is available"
+        ],
+        "acceptance": "Engine comparison pending. This is an authored architectural correction, not measured 1:1 acceptance.",
+        "detailReview": "April 2026 east-end view confirms three-light residential ground windows, not a continuous blank base. Entrance camera coverage is incomplete; full longitudinal placement remains a review issue."
+      },
+      "nativeElevation": {
+        "file": "../docs/images/seventh-engine-03/elevations/sheet-8.webp",
+        "slot": 5,
+        "projection": "orthographic diagnostic; not a photographic camera"
+      },
+      "reviewStatus": "Native elevation inspected in the full 82-frontage pass. Final contact sheet retained; photographic count/type/alignment acceptance remains open.",
+      "acceptance": {
+        "countAndTypeGate": "not independently certified",
+        "matchedLandmarkGate": "not passed",
+        "closeAndObliqueGate": "candidate review; exact hardware and profiles unresolved",
+        "userAccepted": false
+      },
+      "entranceCaptures": [
+        "../docs/images/seventh-engine-03/fidelity/entry-248142338.png"
+      ]
+    },
+    {
+      "id": 248142390,
+      "address": "94 East 7th Street",
+      "sources": [
+        {
+          "id": "architecture-248142390",
+          "captureDate": null,
+          "url": "https://buildingblocks.villagepreservation.org/building/94-east-7th-street/",
+          "scope": null
+        },
+        {
+          "id": "seventh-03-panorama-4",
+          "captureDate": "2026-04",
+          "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=wGzBFCUjzRmQplfVj96NMg",
+          "scope": null
+        }
+      ],
+      "geometry": "explicit Seventh-only schedule",
+      "scheduledWindowGroups": 16,
+      "scheduledEntrances": 1,
+      "unletteredUnits": 0,
+      "observation": {
+        "sources": [
+          "architecture-248142390",
+          "seventh-03-panorama-4"
+        ],
+        "reviewed": "2026-09-14",
+        "basis": "Three-bay pale ornate facade; tall left arched entrance with six-step stoop; two narrow arched ground windows.",
+        "unknown": [
+          "Surveyed opening widths, recesses and heights",
+          "Door hardware/ornament contours below reference resolution",
+          "Occluded ground details and exact tread counts",
+          "Current condition where only older imagery is available"
+        ],
+        "acceptance": "Engine comparison pending. This is an authored architectural correction, not measured 1:1 acceptance."
+      },
+      "nativeElevation": {
+        "file": "../docs/images/seventh-engine-03/elevations/sheet-9.webp",
+        "slot": 0,
+        "projection": "orthographic diagnostic; not a photographic camera"
+      },
+      "reviewStatus": "Native elevation inspected in the full 82-frontage pass. Final contact sheet retained; photographic count/type/alignment acceptance remains open.",
+      "acceptance": {
+        "countAndTypeGate": "not independently certified",
+        "matchedLandmarkGate": "not passed",
+        "closeAndObliqueGate": "candidate review; exact hardware and profiles unresolved",
+        "userAccepted": false
+      },
+      "entranceCaptures": [
+        "../docs/images/seventh-engine-03/fidelity/entry-248142390.png"
+      ]
+    },
+    {
+      "id": 248142393,
+      "address": "96 East 7th Street",
+      "sources": [
+        {
+          "id": "architecture-248142393",
+          "captureDate": null,
+          "url": "https://buildingblocks.villagepreservation.org/building/96-east-7th-street/",
+          "scope": null
+        },
+        {
+          "id": "seventh-03-panorama-4",
+          "captureDate": "2026-04",
+          "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=wGzBFCUjzRmQplfVj96NMg",
+          "scope": null
+        }
+      ],
+      "geometry": "explicit Seventh-only schedule",
+      "scheduledWindowGroups": 16,
+      "scheduledEntrances": 1,
+      "unletteredUnits": 0,
+      "observation": {
+        "sources": [
+          "architecture-248142393",
+          "seventh-03-panorama-4"
+        ],
+        "reviewed": "2026-09-14",
+        "basis": "Individual bay count, upper window/hood types and ground entrance arrangement transcribed from the listed dated views. Geometry dimensions remain photo-proportion estimates within the existing mapped envelope.",
+        "unknown": [
+          "Surveyed opening widths, recesses and heights",
+          "Door hardware/ornament contours below reference resolution",
+          "Occluded ground details and exact tread counts",
+          "Current condition where only older imagery is available"
+        ],
+        "acceptance": "Engine comparison pending. This is an authored architectural correction, not measured 1:1 acceptance."
+      },
+      "nativeElevation": {
+        "file": "../docs/images/seventh-engine-03/elevations/sheet-9.webp",
+        "slot": 1,
+        "projection": "orthographic diagnostic; not a photographic camera"
+      },
+      "reviewStatus": "Native elevation inspected in the full 82-frontage pass. Final contact sheet retained; photographic count/type/alignment acceptance remains open.",
+      "acceptance": {
+        "countAndTypeGate": "not independently certified",
+        "matchedLandmarkGate": "not passed",
+        "closeAndObliqueGate": "candidate review; exact hardware and profiles unresolved",
+        "userAccepted": false
+      },
+      "entranceCaptures": [
+        "../docs/images/seventh-engine-03/fidelity/entry-248142393.png"
+      ]
+    },
+    {
+      "id": 248142396,
+      "address": "98 East 7th Street",
+      "sources": [
+        {
+          "id": "architecture-248142396",
+          "captureDate": null,
+          "url": "https://buildingblocks.villagepreservation.org/building/98-east-7th-street/",
+          "scope": null
+        },
+        {
+          "id": "seventh-03-panorama-5",
+          "captureDate": "2026-04",
+          "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=0Qy50LzBil1AbaIMJRlpjA",
+          "scope": null
+        }
+      ],
+      "geometry": "explicit Seventh-only schedule",
+      "scheduledWindowGroups": 14,
+      "scheduledEntrances": 1,
+      "unletteredUnits": 0,
+      "observation": {
+        "sources": [
+          "architecture-248142396",
+          "seventh-03-panorama-5"
+        ],
+        "reviewed": "2026-09-14",
+        "basis": "Individual bay count, upper window/hood types and ground entrance arrangement transcribed from the listed dated views. Geometry dimensions remain photo-proportion estimates within the existing mapped envelope.",
+        "unknown": [
+          "Surveyed opening widths, recesses and heights",
+          "Door hardware/ornament contours below reference resolution",
+          "Occluded ground details and exact tread counts",
+          "Current condition where only older imagery is available"
+        ],
+        "acceptance": "Engine comparison pending. This is an authored architectural correction, not measured 1:1 acceptance."
+      },
+      "nativeElevation": {
+        "file": "../docs/images/seventh-engine-03/elevations/sheet-9.webp",
+        "slot": 2,
+        "projection": "orthographic diagnostic; not a photographic camera"
+      },
+      "reviewStatus": "Native elevation inspected in the full 82-frontage pass. Final contact sheet retained; photographic count/type/alignment acceptance remains open.",
+      "acceptance": {
+        "countAndTypeGate": "not independently certified",
+        "matchedLandmarkGate": "not passed",
+        "closeAndObliqueGate": "candidate review; exact hardware and profiles unresolved",
+        "userAccepted": false
+      },
+      "entranceCaptures": [
+        "../docs/images/seventh-engine-03/fidelity/entry-248142396.png"
+      ]
+    },
+    {
+      "id": 248142404,
+      "address": "116 1st Avenue",
+      "sources": [
+        {
+          "id": "architecture-248142404",
+          "captureDate": null,
+          "url": null,
+          "scope": null
+        }
+      ],
+      "geometry": "existing accepted-corner/landmark recipe retained",
+      "scheduledWindowGroups": 0,
+      "scheduledEntrances": 0,
+      "unletteredUnits": 0,
+      "observation": {
+        "sources": [
+          "architecture-248142404"
+        ],
+        "reviewed": "2026-09-14",
+        "basis": "Preserve accepted corner geometry or existing church-specific architecture. Separate matched comparison still required for the stricter benchmark.",
+        "acceptance": "Not newly accepted as exact."
+      },
+      "nativeElevation": {
+        "file": "../docs/images/seventh-engine-03/elevations/sheet-9.webp",
+        "slot": 3,
+        "projection": "orthographic diagnostic; not a photographic camera"
+      },
+      "reviewStatus": "Native elevation inspected in the full 82-frontage pass. Final contact sheet retained; photographic count/type/alignment acceptance remains open.",
+      "acceptance": {
+        "countAndTypeGate": "not independently certified",
+        "matchedLandmarkGate": "not passed",
+        "closeAndObliqueGate": "candidate review; exact hardware and profiles unresolved",
+        "userAccepted": false,
+        "note": "Prior accepted corner or retained landmark is preserved; this does not certify the stricter Seventh benchmark."
+      },
+      "entranceCaptures": [
+        "../docs/images/seventh-engine-03/fidelity/entry-248142404.png"
+      ]
+    },
+    {
+      "id": 248142407,
+      "address": "109 Avenue A",
+      "sources": [
+        {
+          "id": "architecture-248142407",
+          "captureDate": null,
+          "url": "https://buildingblocks.villagepreservation.org/building/109-avenue-a/",
+          "scope": null
+        },
+        {
+          "id": "seventh-03-panorama-8",
+          "captureDate": "2026-04",
+          "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=gqOoo6pPv6uGGJ_COh_w4w",
+          "scope": null
+        }
+      ],
+      "geometry": "explicit Seventh-only schedule",
+      "scheduledWindowGroups": 60,
+      "scheduledEntrances": 1,
+      "unletteredUnits": 0,
+      "observation": {
+        "sources": [
+          "architecture-248142407",
+          "seventh-03-panorama-8"
+        ],
+        "reviewed": "2026-09-14",
+        "basis": "Individual bay count, upper window/hood types and ground entrance arrangement transcribed from the listed dated views. Geometry dimensions remain photo-proportion estimates within the existing mapped envelope.",
+        "unknown": [
+          "Surveyed opening widths, recesses and heights",
+          "Door hardware/ornament contours below reference resolution",
+          "Occluded ground details and exact tread counts",
+          "Current condition where only older imagery is available"
+        ],
+        "acceptance": "Engine comparison pending. This is an authored architectural correction, not measured 1:1 acceptance."
+      },
+      "nativeElevation": {
+        "file": "../docs/images/seventh-engine-03/elevations/sheet-9.webp",
+        "slot": 4,
+        "projection": "orthographic diagnostic; not a photographic camera"
+      },
+      "reviewStatus": "Native elevation inspected in the full 82-frontage pass. Final contact sheet retained; photographic count/type/alignment acceptance remains open.",
+      "acceptance": {
+        "countAndTypeGate": "not independently certified",
+        "matchedLandmarkGate": "not passed",
+        "closeAndObliqueGate": "candidate review; exact hardware and profiles unresolved",
+        "userAccepted": false
+      },
+      "entranceCaptures": [
+        "../docs/images/seventh-engine-03/fidelity/entry-248142407.png"
+      ]
+    },
+    {
+      "id": 248142411,
+      "address": "",
+      "sources": [
+        {
+          "id": "architecture-248142411",
+          "captureDate": null,
+          "url": "https://buildingblocks.villagepreservation.org/building/114-east-7th-street/",
+          "scope": null
+        },
+        {
+          "id": "seventh-03-panorama-7",
+          "captureDate": "2026-04",
+          "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=oc5mdx5ZMGzjnS86El8U2Q",
+          "scope": null
+        }
+      ],
+      "geometry": "explicit Seventh-only schedule",
+      "scheduledWindowGroups": 24,
+      "scheduledEntrances": 1,
+      "unletteredUnits": 0,
+      "observation": {
+        "sources": [
+          "architecture-248142411",
+          "seventh-03-panorama-7"
+        ],
+        "reviewed": "2026-09-14",
+        "basis": "Unnumbered mapped frontage retained as a separate object; do not invent an address label.",
+        "unknown": [
+          "Surveyed opening widths, recesses and heights",
+          "Door hardware/ornament contours below reference resolution",
+          "Occluded ground details and exact tread counts",
+          "Current condition where only older imagery is available"
+        ],
+        "acceptance": "Engine comparison pending. This is an authored architectural correction, not measured 1:1 acceptance."
+      },
+      "nativeElevation": {
+        "file": "../docs/images/seventh-engine-03/elevations/sheet-9.webp",
+        "slot": 5,
+        "projection": "orthographic diagnostic; not a photographic camera"
+      },
+      "reviewStatus": "Native elevation inspected in the full 82-frontage pass. Final contact sheet retained; photographic count/type/alignment acceptance remains open.",
+      "acceptance": {
+        "countAndTypeGate": "not independently certified",
+        "matchedLandmarkGate": "not passed",
+        "closeAndObliqueGate": "candidate review; exact hardware and profiles unresolved",
+        "userAccepted": false
+      },
+      "entranceCaptures": [
+        "../docs/images/seventh-engine-03/fidelity/entry-248142411.png"
+      ]
+    },
+    {
+      "id": 248142412,
+      "address": "112 Avenue A",
+      "sources": [
+        {
+          "id": "architecture-248142412",
+          "captureDate": null,
+          "url": null,
+          "scope": null
+        },
+        {
+          "id": "seventh-03-panorama-10",
+          "captureDate": "2026-04",
+          "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=G8bR78fEWeSRKhINtfNcCg",
+          "scope": null
+        }
+      ],
+      "geometry": "explicit Seventh-only schedule",
+      "scheduledWindowGroups": 24,
+      "scheduledEntrances": 1,
+      "unletteredUnits": 0,
+      "observation": {
+        "sources": [
+          "architecture-248142412",
+          "seventh-03-panorama-10"
+        ],
+        "reviewed": "2026-09-14",
+        "basis": "Individual bay count, upper window/hood types and ground entrance arrangement transcribed from the listed dated views. Geometry dimensions remain photo-proportion estimates within the existing mapped envelope.",
+        "unknown": [
+          "Surveyed opening widths, recesses and heights",
+          "Door hardware/ornament contours below reference resolution",
+          "Occluded ground details and exact tread counts",
+          "Current condition where only older imagery is available"
+        ],
+        "acceptance": "Engine comparison pending. This is an authored architectural correction, not measured 1:1 acceptance."
+      },
+      "nativeElevation": {
+        "file": "../docs/images/seventh-engine-03/elevations/sheet-10.webp",
+        "slot": 0,
+        "projection": "orthographic diagnostic; not a photographic camera"
+      },
+      "reviewStatus": "Native elevation inspected in the full 82-frontage pass. Final contact sheet retained; photographic count/type/alignment acceptance remains open.",
+      "acceptance": {
+        "countAndTypeGate": "not independently certified",
+        "matchedLandmarkGate": "not passed",
+        "closeAndObliqueGate": "candidate review; exact hardware and profiles unresolved",
+        "userAccepted": false
+      },
+      "entranceCaptures": [
+        "../docs/images/seventh-engine-03/fidelity/entry-248142412.png"
+      ]
+    },
+    {
+      "id": 248142615,
+      "address": "101 East 7th Street",
+      "sources": [
+        {
+          "id": "architecture-248142615",
+          "captureDate": null,
+          "url": "https://buildingblocks.villagepreservation.org/building/101-east-7th-street/",
+          "scope": null
+        },
+        {
+          "id": "seventh-03-panorama-5",
+          "captureDate": "2026-04",
+          "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=0Qy50LzBil1AbaIMJRlpjA",
+          "scope": null
+        }
+      ],
+      "geometry": "explicit Seventh-only schedule",
+      "scheduledWindowGroups": 10,
+      "scheduledEntrances": 1,
+      "unletteredUnits": 0,
+      "observation": {
+        "sources": [
+          "architecture-248142615",
+          "seventh-03-panorama-5"
+        ],
+        "reviewed": "2026-09-14",
+        "basis": "Individual bay count, upper window/hood types and ground entrance arrangement transcribed from the listed dated views. Geometry dimensions remain photo-proportion estimates within the existing mapped envelope.",
+        "unknown": [
+          "Surveyed opening widths, recesses and heights",
+          "Door hardware/ornament contours below reference resolution",
+          "Occluded ground details and exact tread counts",
+          "Current condition where only older imagery is available"
+        ],
+        "acceptance": "Engine comparison pending. This is an authored architectural correction, not measured 1:1 acceptance."
+      },
+      "nativeElevation": {
+        "file": "../docs/images/seventh-engine-03/elevations/sheet-10.webp",
+        "slot": 1,
+        "projection": "orthographic diagnostic; not a photographic camera"
+      },
+      "reviewStatus": "Native elevation inspected in the full 82-frontage pass. Final contact sheet retained; photographic count/type/alignment acceptance remains open.",
+      "acceptance": {
+        "countAndTypeGate": "not independently certified",
+        "matchedLandmarkGate": "not passed",
+        "closeAndObliqueGate": "candidate review; exact hardware and profiles unresolved",
+        "userAccepted": false
+      },
+      "entranceCaptures": [
+        "../docs/images/seventh-engine-03/fidelity/entry-248142615.png"
+      ]
+    },
+    {
+      "id": 248142618,
+      "address": "107 East 7th Street",
+      "sources": [
+        {
+          "id": "architecture-248142618",
+          "captureDate": null,
+          "url": null,
+          "scope": null
+        }
+      ],
+      "geometry": "existing accepted-corner/landmark recipe retained",
+      "scheduledWindowGroups": 0,
+      "scheduledEntrances": 0,
+      "unletteredUnits": 0,
+      "observation": {
+        "sources": [
+          "architecture-248142618"
+        ],
+        "reviewed": "2026-09-14",
+        "basis": "Preserve accepted corner geometry or existing church-specific architecture. Separate matched comparison still required for the stricter benchmark.",
+        "acceptance": "Not newly accepted as exact."
+      },
+      "nativeElevation": {
+        "file": "../docs/images/seventh-engine-03/elevations/sheet-10.webp",
+        "slot": 2,
+        "projection": "orthographic diagnostic; not a photographic camera"
+      },
+      "reviewStatus": "Native elevation inspected in the full 82-frontage pass. Final contact sheet retained; photographic count/type/alignment acceptance remains open.",
+      "acceptance": {
+        "countAndTypeGate": "not independently certified",
+        "matchedLandmarkGate": "not passed",
+        "closeAndObliqueGate": "candidate review; exact hardware and profiles unresolved",
+        "userAccepted": false,
+        "note": "Prior accepted corner or retained landmark is preserved; this does not certify the stricter Seventh benchmark."
+      },
+      "entranceCaptures": [
+        "../docs/images/seventh-engine-03/fidelity/entry-248142618.png"
+      ]
+    },
+    {
+      "id": 248142621,
+      "address": "101 East 7th Street",
+      "sources": [
+        {
+          "id": "architecture-248142621",
+          "captureDate": null,
+          "url": null,
+          "scope": null
+        },
+        {
+          "id": "seventh-03-panorama-6",
+          "captureDate": "2026-04",
+          "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=6h8_UA7jRJ37XJV5nYgNcQ",
+          "scope": null
+        }
+      ],
+      "geometry": "explicit Seventh-only schedule",
+      "scheduledWindowGroups": 8,
+      "scheduledEntrances": 1,
+      "unletteredUnits": 0,
+      "observation": {
+        "sources": [
+          "architecture-248142621",
+          "seventh-03-panorama-6"
+        ],
+        "reviewed": "2026-09-14",
+        "basis": "Separate parish frontage east of St Stanislaus: its duplicated source address does not authorize a second 101 sign.",
+        "unknown": [
+          "Surveyed opening widths, recesses and heights",
+          "Door hardware/ornament contours below reference resolution",
+          "Occluded ground details and exact tread counts",
+          "Current condition where only older imagery is available"
+        ],
+        "acceptance": "Engine comparison pending. This is an authored architectural correction, not measured 1:1 acceptance."
+      },
+      "nativeElevation": {
+        "file": "../docs/images/seventh-engine-03/elevations/sheet-10.webp",
+        "slot": 3,
+        "projection": "orthographic diagnostic; not a photographic camera"
+      },
+      "reviewStatus": "Native elevation inspected in the full 82-frontage pass. Final contact sheet retained; photographic count/type/alignment acceptance remains open.",
+      "acceptance": {
+        "countAndTypeGate": "not independently certified",
+        "matchedLandmarkGate": "not passed",
+        "closeAndObliqueGate": "candidate review; exact hardware and profiles unresolved",
+        "userAccepted": false
+      },
+      "entranceCaptures": [
+        "../docs/images/seventh-engine-03/fidelity/entry-248142621.png"
+      ]
+    },
+    {
+      "id": 248142624,
+      "address": "111 East 7th Street",
+      "sources": [
+        {
+          "id": "architecture-248142624",
+          "captureDate": null,
+          "url": null,
+          "scope": null
+        },
+        {
+          "id": "seventh-03-panorama-6",
+          "captureDate": "2026-04",
+          "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=6h8_UA7jRJ37XJV5nYgNcQ",
+          "scope": null
+        }
+      ],
+      "geometry": "explicit Seventh-only schedule",
+      "scheduledWindowGroups": 45,
+      "scheduledEntrances": 1,
+      "unletteredUnits": 0,
+      "observation": {
+        "sources": [
+          "architecture-248142624",
+          "seventh-03-panorama-6"
+        ],
+        "reviewed": "2026-09-14",
+        "basis": "Wide red tenement, nine-bay elevation, two escapes; white ground stone with central arched portal and separately divided shop units.",
+        "unknown": [
+          "Surveyed opening widths, recesses and heights",
+          "Door hardware/ornament contours below reference resolution",
+          "Occluded ground details and exact tread counts",
+          "Current condition where only older imagery is available"
+        ],
+        "acceptance": "Engine comparison pending. This is an authored architectural correction, not measured 1:1 acceptance."
+      },
+      "nativeElevation": {
+        "file": "../docs/images/seventh-engine-03/elevations/sheet-10.webp",
+        "slot": 4,
+        "projection": "orthographic diagnostic; not a photographic camera"
+      },
+      "reviewStatus": "Native elevation inspected in the full 82-frontage pass. Final contact sheet retained; photographic count/type/alignment acceptance remains open.",
+      "acceptance": {
+        "countAndTypeGate": "not independently certified",
+        "matchedLandmarkGate": "not passed",
+        "closeAndObliqueGate": "candidate review; exact hardware and profiles unresolved",
+        "userAccepted": false
+      },
+      "entranceCaptures": [
+        "../docs/images/seventh-engine-03/fidelity/entry-248142624.png"
+      ]
+    },
+    {
+      "id": 248142633,
+      "address": "117 East 7th Street",
+      "sources": [
+        {
+          "id": "architecture-248142633",
+          "captureDate": null,
+          "url": null,
+          "scope": null
+        },
+        {
+          "id": "seventh-03-panorama-6",
+          "captureDate": "2026-04",
+          "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=6h8_UA7jRJ37XJV5nYgNcQ",
+          "scope": null
+        }
+      ],
+      "geometry": "explicit Seventh-only schedule",
+      "scheduledWindowGroups": 25,
+      "scheduledEntrances": 1,
+      "unletteredUnits": 2,
+      "observation": {
+        "sources": [
+          "architecture-248142633",
+          "seventh-03-panorama-6"
+        ],
+        "reviewed": "2026-09-14",
+        "basis": "Individual bay count, upper window/hood types and ground entrance arrangement transcribed from the listed dated views. Geometry dimensions remain photo-proportion estimates within the existing mapped envelope.",
+        "unknown": [
+          "Surveyed opening widths, recesses and heights",
+          "Door hardware/ornament contours below reference resolution",
+          "Occluded ground details and exact tread counts",
+          "Current condition where only older imagery is available",
+          "Current lettering and exact door hardware of the unlettered ground units"
+        ],
+        "acceptance": "Engine comparison pending. This is an authored architectural correction, not measured 1:1 acceptance."
+      },
+      "nativeElevation": {
+        "file": "../docs/images/seventh-engine-03/elevations/sheet-10.webp",
+        "slot": 5,
+        "projection": "orthographic diagnostic; not a photographic camera"
+      },
+      "reviewStatus": "Native elevation inspected in the full 82-frontage pass. Final contact sheet retained; photographic count/type/alignment acceptance remains open.",
+      "acceptance": {
+        "countAndTypeGate": "not independently certified",
+        "matchedLandmarkGate": "not passed",
+        "closeAndObliqueGate": "candidate review; exact hardware and profiles unresolved",
+        "userAccepted": false
+      },
+      "remainingPriority": "Resolve actual pane order, occupancy/lettering and hidden hardware before accepting this provisional physical-unit layout.",
+      "entranceCaptures": [
+        "../docs/images/seventh-engine-03/fidelity/entry-248142633.png"
+      ]
+    },
+    {
+      "id": 248142640,
+      "address": "121 East 7th Street",
+      "sources": [
+        {
+          "id": "architecture-248142640",
+          "captureDate": null,
+          "url": null,
+          "scope": null
+        }
+      ],
+      "geometry": "existing accepted-corner/landmark recipe retained",
+      "scheduledWindowGroups": 0,
+      "scheduledEntrances": 0,
+      "unletteredUnits": 0,
+      "observation": {
+        "sources": [
+          "architecture-248142640"
+        ],
+        "reviewed": "2026-09-14",
+        "basis": "Preserve accepted corner geometry or existing church-specific architecture. Separate matched comparison still required for the stricter benchmark.",
+        "acceptance": "Not newly accepted as exact."
+      },
+      "nativeElevation": {
+        "file": "../docs/images/seventh-engine-03/elevations/sheet-11.webp",
+        "slot": 0,
+        "projection": "orthographic diagnostic; not a photographic camera"
+      },
+      "reviewStatus": "Native elevation inspected in the full 82-frontage pass. Final contact sheet retained; photographic count/type/alignment acceptance remains open.",
+      "acceptance": {
+        "countAndTypeGate": "not independently certified",
+        "matchedLandmarkGate": "not passed",
+        "closeAndObliqueGate": "candidate review; exact hardware and profiles unresolved",
+        "userAccepted": false,
+        "note": "Prior accepted corner or retained landmark is preserved; this does not certify the stricter Seventh benchmark."
+      },
+      "entranceCaptures": [
+        "../docs/images/seventh-engine-03/fidelity/entry-248142640.png"
+      ]
+    },
+    {
+      "id": 248142645,
+      "address": "123 East 7th Street",
+      "sources": [
+        {
+          "id": "architecture-248142645",
+          "captureDate": null,
+          "url": "https://buildingblocks.villagepreservation.org/building/123-east-7th-street/",
+          "scope": null
+        },
+        {
+          "id": "seventh-03-panorama-7",
+          "captureDate": "2026-04",
+          "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=oc5mdx5ZMGzjnS86El8U2Q",
+          "scope": null
+        }
+      ],
+      "geometry": "explicit Seventh-only schedule",
+      "scheduledWindowGroups": 12,
+      "scheduledEntrances": 1,
+      "unletteredUnits": 1,
+      "observation": {
+        "sources": [
+          "architecture-248142645",
+          "seventh-03-panorama-7"
+        ],
+        "reviewed": "2026-09-14",
+        "basis": "Individual bay count, upper window/hood types and ground entrance arrangement transcribed from the listed dated views. Geometry dimensions remain photo-proportion estimates within the existing mapped envelope.",
+        "unknown": [
+          "Surveyed opening widths, recesses and heights",
+          "Door hardware/ornament contours below reference resolution",
+          "Occluded ground details and exact tread counts",
+          "Current condition where only older imagery is available",
+          "Current lettering and exact door hardware of the unlettered ground units"
+        ],
+        "acceptance": "Engine comparison pending. This is an authored architectural correction, not measured 1:1 acceptance."
+      },
+      "nativeElevation": {
+        "file": "../docs/images/seventh-engine-03/elevations/sheet-11.webp",
+        "slot": 1,
+        "projection": "orthographic diagnostic; not a photographic camera"
+      },
+      "reviewStatus": "Native elevation inspected in the full 82-frontage pass. Final contact sheet retained; photographic count/type/alignment acceptance remains open.",
+      "acceptance": {
+        "countAndTypeGate": "not independently certified",
+        "matchedLandmarkGate": "not passed",
+        "closeAndObliqueGate": "candidate review; exact hardware and profiles unresolved",
+        "userAccepted": false
+      },
+      "remainingPriority": "Resolve actual pane order, occupancy/lettering and hidden hardware before accepting this provisional physical-unit layout.",
+      "entranceCaptures": [
+        "../docs/images/seventh-engine-03/fidelity/entry-248142645.png"
+      ]
+    },
+    {
+      "id": 248142647,
+      "address": "125 East 7th Street",
+      "sources": [
+        {
+          "id": "architecture-248142647",
+          "captureDate": null,
+          "url": "https://buildingblocks.villagepreservation.org/building/125-east-7th-street/",
+          "scope": null
+        },
+        {
+          "id": "seventh-03-panorama-7",
+          "captureDate": "2026-04",
+          "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=oc5mdx5ZMGzjnS86El8U2Q",
+          "scope": null
+        }
+      ],
+      "geometry": "explicit Seventh-only schedule",
+      "scheduledWindowGroups": 12,
+      "scheduledEntrances": 1,
+      "unletteredUnits": 1,
+      "observation": {
+        "sources": [
+          "architecture-248142647",
+          "seventh-03-panorama-7"
+        ],
+        "reviewed": "2026-09-14",
+        "basis": "Individual bay count, upper window/hood types and ground entrance arrangement transcribed from the listed dated views. Geometry dimensions remain photo-proportion estimates within the existing mapped envelope.",
+        "unknown": [
+          "Surveyed opening widths, recesses and heights",
+          "Door hardware/ornament contours below reference resolution",
+          "Occluded ground details and exact tread counts",
+          "Current condition where only older imagery is available",
+          "Current lettering and exact door hardware of the unlettered ground units"
+        ],
+        "acceptance": "Engine comparison pending. This is an authored architectural correction, not measured 1:1 acceptance."
+      },
+      "nativeElevation": {
+        "file": "../docs/images/seventh-engine-03/elevations/sheet-11.webp",
+        "slot": 2,
+        "projection": "orthographic diagnostic; not a photographic camera"
+      },
+      "reviewStatus": "Native elevation inspected in the full 82-frontage pass. Final contact sheet retained; photographic count/type/alignment acceptance remains open.",
+      "acceptance": {
+        "countAndTypeGate": "not independently certified",
+        "matchedLandmarkGate": "not passed",
+        "closeAndObliqueGate": "candidate review; exact hardware and profiles unresolved",
+        "userAccepted": false
+      },
+      "remainingPriority": "Resolve actual pane order, occupancy/lettering and hidden hardware before accepting this provisional physical-unit layout.",
+      "entranceCaptures": [
+        "../docs/images/seventh-engine-03/fidelity/entry-248142647.png"
+      ]
+    },
+    {
+      "id": 248142650,
+      "address": "127 East 7th Street",
+      "sources": [
+        {
+          "id": "architecture-248142650",
+          "captureDate": null,
+          "url": "https://buildingblocks.villagepreservation.org/building/127-east-7th-street/",
+          "scope": null
+        },
+        {
+          "id": "seventh-03-panorama-7",
+          "captureDate": "2026-04",
+          "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=oc5mdx5ZMGzjnS86El8U2Q",
+          "scope": null
+        }
+      ],
+      "geometry": "explicit Seventh-only schedule",
+      "scheduledWindowGroups": 12,
+      "scheduledEntrances": 1,
+      "unletteredUnits": 1,
+      "observation": {
+        "sources": [
+          "architecture-248142650",
+          "seventh-03-panorama-7"
+        ],
+        "reviewed": "2026-09-14",
+        "basis": "Individual bay count, upper window/hood types and ground entrance arrangement transcribed from the listed dated views. Geometry dimensions remain photo-proportion estimates within the existing mapped envelope.",
+        "unknown": [
+          "Surveyed opening widths, recesses and heights",
+          "Door hardware/ornament contours below reference resolution",
+          "Occluded ground details and exact tread counts",
+          "Current condition where only older imagery is available",
+          "Current lettering and exact door hardware of the unlettered ground units"
+        ],
+        "acceptance": "Engine comparison pending. This is an authored architectural correction, not measured 1:1 acceptance."
+      },
+      "nativeElevation": {
+        "file": "../docs/images/seventh-engine-03/elevations/sheet-11.webp",
+        "slot": 3,
+        "projection": "orthographic diagnostic; not a photographic camera"
+      },
+      "reviewStatus": "Native elevation inspected in the full 82-frontage pass. Final contact sheet retained; photographic count/type/alignment acceptance remains open.",
+      "acceptance": {
+        "countAndTypeGate": "not independently certified",
+        "matchedLandmarkGate": "not passed",
+        "closeAndObliqueGate": "candidate review; exact hardware and profiles unresolved",
+        "userAccepted": false
+      },
+      "remainingPriority": "Resolve actual pane order, occupancy/lettering and hidden hardware before accepting this provisional physical-unit layout.",
+      "entranceCaptures": [
+        "../docs/images/seventh-engine-03/fidelity/entry-248142650.png"
+      ]
+    },
+    {
+      "id": 248142653,
+      "address": "129 East 7th Street",
+      "sources": [
+        {
+          "id": "architecture-248142653",
+          "captureDate": null,
+          "url": "https://buildingblocks.villagepreservation.org/building/129-east-7th-street/",
+          "scope": null
+        },
+        {
+          "id": "seventh-03-panorama-8",
+          "captureDate": "2026-04",
+          "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=gqOoo6pPv6uGGJ_COh_w4w",
+          "scope": null
+        }
+      ],
+      "geometry": "explicit Seventh-only schedule",
+      "scheduledWindowGroups": 12,
+      "scheduledEntrances": 1,
+      "unletteredUnits": 0,
+      "observation": {
+        "sources": [
+          "architecture-248142653",
+          "seventh-03-panorama-8"
+        ],
+        "reviewed": "2026-09-14",
+        "basis": "Individual bay count, upper window/hood types and ground entrance arrangement transcribed from the listed dated views. Geometry dimensions remain photo-proportion estimates within the existing mapped envelope.",
+        "unknown": [
+          "Surveyed opening widths, recesses and heights",
+          "Door hardware/ornament contours below reference resolution",
+          "Occluded ground details and exact tread counts",
+          "Current condition where only older imagery is available"
+        ],
+        "acceptance": "Engine comparison pending. This is an authored architectural correction, not measured 1:1 acceptance."
+      },
+      "nativeElevation": {
+        "file": "../docs/images/seventh-engine-03/elevations/sheet-11.webp",
+        "slot": 4,
+        "projection": "orthographic diagnostic; not a photographic camera"
+      },
+      "reviewStatus": "Native elevation inspected in the full 82-frontage pass. Final contact sheet retained; photographic count/type/alignment acceptance remains open.",
+      "acceptance": {
+        "countAndTypeGate": "not independently certified",
+        "matchedLandmarkGate": "not passed",
+        "closeAndObliqueGate": "candidate review; exact hardware and profiles unresolved",
+        "userAccepted": false
+      },
+      "entranceCaptures": [
+        "../docs/images/seventh-engine-03/fidelity/entry-248142653.png"
+      ]
+    },
+    {
+      "id": 248142656,
+      "address": "131 East 7th Street",
+      "sources": [
+        {
+          "id": "architecture-248142656",
+          "captureDate": null,
+          "url": null,
+          "scope": null
+        },
+        {
+          "id": "seventh-03-panorama-8",
+          "captureDate": "2026-04",
+          "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=gqOoo6pPv6uGGJ_COh_w4w",
+          "scope": null
+        }
+      ],
+      "geometry": "explicit Seventh-only schedule",
+      "scheduledWindowGroups": 20,
+      "scheduledEntrances": 1,
+      "unletteredUnits": 0,
+      "observation": {
+        "sources": [
+          "architecture-248142656",
+          "seventh-03-panorama-8"
+        ],
+        "reviewed": "2026-09-14",
+        "basis": "Red-brick five-bay frontage beside the Avenue A corner; pale lintels, dark cornice, several distinct ground units.",
+        "unknown": [
+          "Surveyed opening widths, recesses and heights",
+          "Door hardware/ornament contours below reference resolution",
+          "Occluded ground details and exact tread counts",
+          "Current condition where only older imagery is available"
+        ],
+        "acceptance": "Engine comparison pending. This is an authored architectural correction, not measured 1:1 acceptance."
+      },
+      "nativeElevation": {
+        "file": "../docs/images/seventh-engine-03/elevations/sheet-11.webp",
+        "slot": 5,
+        "projection": "orthographic diagnostic; not a photographic camera"
+      },
+      "reviewStatus": "Native elevation inspected in the full 82-frontage pass. Final contact sheet retained; photographic count/type/alignment acceptance remains open.",
+      "acceptance": {
+        "countAndTypeGate": "not independently certified",
+        "matchedLandmarkGate": "not passed",
+        "closeAndObliqueGate": "candidate review; exact hardware and profiles unresolved",
+        "userAccepted": false
+      },
+      "entranceCaptures": [
+        "../docs/images/seventh-engine-03/fidelity/entry-248142656.png"
+      ]
+    },
+    {
+      "id": 248142690,
+      "address": "95 East 7th Street",
+      "sources": [
+        {
+          "id": "architecture-248142690",
+          "captureDate": null,
+          "url": "https://buildingblocks.villagepreservation.org/building/95-east-7th-street/",
+          "scope": null
+        },
+        {
+          "id": "seventh-03-panorama-4",
+          "captureDate": "2026-04",
+          "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=wGzBFCUjzRmQplfVj96NMg",
+          "scope": null
+        }
+      ],
+      "geometry": "explicit Seventh-only schedule",
+      "scheduledWindowGroups": 20,
+      "scheduledEntrances": 1,
+      "unletteredUnits": 0,
+      "observation": {
+        "sources": [
+          "architecture-248142690",
+          "seventh-03-panorama-4"
+        ],
+        "reviewed": "2026-09-14",
+        "basis": "Individual bay count, upper window/hood types and ground entrance arrangement transcribed from the listed dated views. Geometry dimensions remain photo-proportion estimates within the existing mapped envelope.",
+        "unknown": [
+          "Surveyed opening widths, recesses and heights",
+          "Door hardware/ornament contours below reference resolution",
+          "Occluded ground details and exact tread counts",
+          "Current condition where only older imagery is available"
+        ],
+        "acceptance": "Engine comparison pending. This is an authored architectural correction, not measured 1:1 acceptance.",
+        "detailReview": "Reviewed the archive exterior again for stone piers, horizontal sill courses, spandrel panels, base finish and cornice profile; current panoramas take precedence where the same part is visible. Dimensions and shallow relief contours remain photograph-based estimates."
+      },
+      "nativeElevation": {
+        "file": "../docs/images/seventh-engine-03/elevations/sheet-12.webp",
+        "slot": 0,
+        "projection": "orthographic diagnostic; not a photographic camera"
+      },
+      "reviewStatus": "Native elevation inspected in the full 82-frontage pass. Final contact sheet retained; photographic count/type/alignment acceptance remains open.",
+      "acceptance": {
+        "countAndTypeGate": "not independently certified",
+        "matchedLandmarkGate": "not passed",
+        "closeAndObliqueGate": "candidate review; exact hardware and profiles unresolved",
+        "userAccepted": false
+      },
+      "entranceCaptures": [
+        "../docs/images/seventh-engine-03/fidelity/entry-248142690.png"
+      ]
+    },
+    {
+      "id": 248142693,
+      "address": "97 1/2 East 7th Street",
+      "sources": [
+        {
+          "id": "architecture-248142693",
+          "captureDate": null,
+          "url": null,
+          "scope": null
+        },
+        {
+          "id": "seventh-03-panorama-5",
+          "captureDate": "2026-04",
+          "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=0Qy50LzBil1AbaIMJRlpjA",
+          "scope": null
+        }
+      ],
+      "geometry": "explicit Seventh-only schedule",
+      "scheduledWindowGroups": 16,
+      "scheduledEntrances": 1,
+      "unletteredUnits": 0,
+      "observation": {
+        "sources": [
+          "architecture-248142693",
+          "seventh-03-panorama-5"
+        ],
+        "reviewed": "2026-09-14",
+        "basis": "Individual bay count, upper window/hood types and ground entrance arrangement transcribed from the listed dated views. Geometry dimensions remain photo-proportion estimates within the existing mapped envelope.",
+        "unknown": [
+          "Surveyed opening widths, recesses and heights",
+          "Door hardware/ornament contours below reference resolution",
+          "Occluded ground details and exact tread counts",
+          "Current condition where only older imagery is available"
+        ],
+        "acceptance": "Engine comparison pending. This is an authored architectural correction, not measured 1:1 acceptance.",
+        "detailReview": "Reviewed the archive exterior again for stone piers, horizontal sill courses, spandrel panels, base finish and cornice profile; current panoramas take precedence where the same part is visible. Dimensions and shallow relief contours remain photograph-based estimates."
+      },
+      "nativeElevation": {
+        "file": "../docs/images/seventh-engine-03/elevations/sheet-12.webp",
+        "slot": 1,
+        "projection": "orthographic diagnostic; not a photographic camera"
+      },
+      "reviewStatus": "Native elevation inspected in the full 82-frontage pass. Final contact sheet retained; photographic count/type/alignment acceptance remains open.",
+      "acceptance": {
+        "countAndTypeGate": "not independently certified",
+        "matchedLandmarkGate": "not passed",
+        "closeAndObliqueGate": "candidate review; exact hardware and profiles unresolved",
+        "userAccepted": false
+      },
+      "entranceCaptures": [
+        "../docs/images/seventh-engine-03/fidelity/entry-248142693.png"
+      ]
+    },
+    {
+      "id": 248142697,
+      "address": "99 East 7th Street",
+      "sources": [
+        {
+          "id": "architecture-248142697",
+          "captureDate": null,
+          "url": "https://buildingblocks.villagepreservation.org/building/99-east-7th-street/",
+          "scope": null
+        },
+        {
+          "id": "seventh-03-panorama-5",
+          "captureDate": "2026-04",
+          "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=0Qy50LzBil1AbaIMJRlpjA",
+          "scope": null
+        }
+      ],
+      "geometry": "explicit Seventh-only schedule",
+      "scheduledWindowGroups": 20,
+      "scheduledEntrances": 1,
+      "unletteredUnits": 0,
+      "observation": {
+        "sources": [
+          "architecture-248142697",
+          "seventh-03-panorama-5"
+        ],
+        "reviewed": "2026-09-14",
+        "basis": "Individual bay count, upper window/hood types and ground entrance arrangement transcribed from the listed dated views. Geometry dimensions remain photo-proportion estimates within the existing mapped envelope.",
+        "unknown": [
+          "Surveyed opening widths, recesses and heights",
+          "Door hardware/ornament contours below reference resolution",
+          "Occluded ground details and exact tread counts",
+          "Current condition where only older imagery is available"
+        ],
+        "acceptance": "Engine comparison pending. This is an authored architectural correction, not measured 1:1 acceptance.",
+        "detailReview": "Reviewed the archive exterior again for stone piers, horizontal sill courses, spandrel panels, base finish and cornice profile; current panoramas take precedence where the same part is visible. Dimensions and shallow relief contours remain photograph-based estimates."
+      },
+      "nativeElevation": {
+        "file": "../docs/images/seventh-engine-03/elevations/sheet-12.webp",
+        "slot": 2,
+        "projection": "orthographic diagnostic; not a photographic camera"
+      },
+      "reviewStatus": "Native elevation inspected in the full 82-frontage pass. Final contact sheet retained; photographic count/type/alignment acceptance remains open.",
+      "acceptance": {
+        "countAndTypeGate": "not independently certified",
+        "matchedLandmarkGate": "not passed",
+        "closeAndObliqueGate": "candidate review; exact hardware and profiles unresolved",
+        "userAccepted": false
+      },
+      "entranceCaptures": [
+        "../docs/images/seventh-engine-03/fidelity/entry-248142697.png"
+      ]
+    },
+    {
+      "id": 248142701,
+      "address": "97 East 7th Street",
+      "sources": [
+        {
+          "id": "architecture-248142701",
+          "captureDate": null,
+          "url": "https://buildingblocks.villagepreservation.org/building/97-east-7th-street/",
+          "scope": null
+        },
+        {
+          "id": "seventh-03-panorama-4",
+          "captureDate": "2026-04",
+          "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=wGzBFCUjzRmQplfVj96NMg",
+          "scope": null
+        }
+      ],
+      "geometry": "explicit Seventh-only schedule",
+      "scheduledWindowGroups": 20,
+      "scheduledEntrances": 1,
+      "unletteredUnits": 0,
+      "observation": {
+        "sources": [
+          "architecture-248142701",
+          "seventh-03-panorama-4"
+        ],
+        "reviewed": "2026-09-14",
+        "basis": "Individual bay count, upper window/hood types and ground entrance arrangement transcribed from the listed dated views. Geometry dimensions remain photo-proportion estimates within the existing mapped envelope.",
+        "unknown": [
+          "Surveyed opening widths, recesses and heights",
+          "Door hardware/ornament contours below reference resolution",
+          "Occluded ground details and exact tread counts",
+          "Current condition where only older imagery is available"
+        ],
+        "acceptance": "Engine comparison pending. This is an authored architectural correction, not measured 1:1 acceptance.",
+        "detailReview": "Reviewed the archive exterior again for stone piers, horizontal sill courses, spandrel panels, base finish and cornice profile; current panoramas take precedence where the same part is visible. Dimensions and shallow relief contours remain photograph-based estimates."
+      },
+      "nativeElevation": {
+        "file": "../docs/images/seventh-engine-03/elevations/sheet-12.webp",
+        "slot": 3,
+        "projection": "orthographic diagnostic; not a photographic camera"
+      },
+      "reviewStatus": "Native elevation inspected in the full 82-frontage pass. Final contact sheet retained; photographic count/type/alignment acceptance remains open.",
+      "acceptance": {
+        "countAndTypeGate": "not independently certified",
+        "matchedLandmarkGate": "not passed",
+        "closeAndObliqueGate": "candidate review; exact hardware and profiles unresolved",
+        "userAccepted": false
+      },
+      "entranceCaptures": [
+        "../docs/images/seventh-engine-03/fidelity/entry-248142701.png"
+      ]
+    },
+    {
+      "id": 248142707,
+      "address": "118 1st Avenue",
+      "sources": [
+        {
+          "id": "architecture-248142707",
+          "captureDate": null,
+          "url": "https://buildingblocks.villagepreservation.org/building/118-first-avenue-91-east-7th-street/",
+          "scope": null
+        }
+      ],
+      "geometry": "existing accepted-corner/landmark recipe retained",
+      "scheduledWindowGroups": 0,
+      "scheduledEntrances": 0,
+      "unletteredUnits": 0,
+      "observation": {
+        "sources": [
+          "architecture-248142707"
+        ],
+        "reviewed": "2026-09-14",
+        "basis": "Preserve accepted corner geometry or existing church-specific architecture. Separate matched comparison still required for the stricter benchmark.",
+        "acceptance": "Not newly accepted as exact."
+      },
+      "nativeElevation": {
+        "file": "../docs/images/seventh-engine-03/elevations/sheet-12.webp",
+        "slot": 4,
+        "projection": "orthographic diagnostic; not a photographic camera"
+      },
+      "reviewStatus": "Native elevation inspected in the full 82-frontage pass. Final contact sheet retained; photographic count/type/alignment acceptance remains open.",
+      "acceptance": {
+        "countAndTypeGate": "not independently certified",
+        "matchedLandmarkGate": "not passed",
+        "closeAndObliqueGate": "candidate review; exact hardware and profiles unresolved",
+        "userAccepted": false,
+        "note": "Prior accepted corner or retained landmark is preserved; this does not certify the stricter Seventh benchmark."
+      },
+      "entranceCaptures": [
+        "../docs/images/seventh-engine-03/fidelity/entry-248142707.png"
+      ]
+    },
+    {
+      "id": 248142714,
+      "address": "111 Avenue A",
+      "sources": [
+        {
+          "id": "architecture-248142714",
+          "captureDate": null,
+          "url": "https://buildingblocks.villagepreservation.org/building/111-avenue-a-131-3-east-7th-street/",
+          "scope": null
+        },
+        {
+          "id": "seventh-03-panorama-8",
+          "captureDate": "2026-04",
+          "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=gqOoo6pPv6uGGJ_COh_w4w",
+          "scope": null
+        }
+      ],
+      "geometry": "explicit Seventh-only schedule",
+      "scheduledWindowGroups": 32,
+      "scheduledEntrances": 1,
+      "unletteredUnits": 0,
+      "observation": {
+        "sources": [
+          "architecture-248142714",
+          "seventh-03-panorama-8"
+        ],
+        "reviewed": "2026-09-14",
+        "basis": "Individual bay count, upper window/hood types and ground entrance arrangement transcribed from the listed dated views. Geometry dimensions remain photo-proportion estimates within the existing mapped envelope.",
+        "unknown": [
+          "Surveyed opening widths, recesses and heights",
+          "Door hardware/ornament contours below reference resolution",
+          "Occluded ground details and exact tread counts",
+          "Current condition where only older imagery is available"
+        ],
+        "acceptance": "Engine comparison pending. This is an authored architectural correction, not measured 1:1 acceptance."
+      },
+      "nativeElevation": {
+        "file": "../docs/images/seventh-engine-03/elevations/sheet-12.webp",
+        "slot": 5,
+        "projection": "orthographic diagnostic; not a photographic camera"
+      },
+      "reviewStatus": "Native elevation inspected in the full 82-frontage pass. Final contact sheet retained; photographic count/type/alignment acceptance remains open.",
+      "acceptance": {
+        "countAndTypeGate": "not independently certified",
+        "matchedLandmarkGate": "not passed",
+        "closeAndObliqueGate": "candidate review; exact hardware and profiles unresolved",
+        "userAccepted": false
+      },
+      "entranceCaptures": [
+        "../docs/images/seventh-engine-03/fidelity/entry-248142714.png"
+      ]
+    },
+    {
+      "id": 248142715,
+      "address": "93 East 7th Street",
+      "sources": [
+        {
+          "id": "architecture-248142715",
+          "captureDate": null,
+          "url": "https://buildingblocks.villagepreservation.org/building/93-93-12-east-7th-street/",
+          "scope": null
+        },
+        {
+          "id": "seventh-03-panorama-4",
+          "captureDate": "2026-04",
+          "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=wGzBFCUjzRmQplfVj96NMg",
+          "scope": null
+        }
+      ],
+      "geometry": "explicit Seventh-only schedule",
+      "scheduledWindowGroups": 12,
+      "scheduledEntrances": 1,
+      "unletteredUnits": 0,
+      "observation": {
+        "sources": [
+          "architecture-248142715",
+          "seventh-03-panorama-4"
+        ],
+        "reviewed": "2026-09-14",
+        "basis": "Individual bay count, upper window/hood types and ground entrance arrangement transcribed from the listed dated views. Geometry dimensions remain photo-proportion estimates within the existing mapped envelope.",
+        "unknown": [
+          "Surveyed opening widths, recesses and heights",
+          "Door hardware/ornament contours below reference resolution",
+          "Occluded ground details and exact tread counts",
+          "Current condition where only older imagery is available"
+        ],
+        "acceptance": "Engine comparison pending. This is an authored architectural correction, not measured 1:1 acceptance."
+      },
+      "nativeElevation": {
+        "file": "../docs/images/seventh-engine-03/elevations/sheet-13.webp",
+        "slot": 0,
+        "projection": "orthographic diagnostic; not a photographic camera"
+      },
+      "reviewStatus": "Native elevation inspected in the full 82-frontage pass. Final contact sheet retained; photographic count/type/alignment acceptance remains open.",
+      "acceptance": {
+        "countAndTypeGate": "not independently certified",
+        "matchedLandmarkGate": "not passed",
+        "closeAndObliqueGate": "candidate review; exact hardware and profiles unresolved",
+        "userAccepted": false
+      },
+      "entranceCaptures": [
+        "../docs/images/seventh-engine-03/fidelity/entry-248142715.png"
+      ]
+    },
+    {
+      "id": 951679435,
+      "address": "92 East 7th Street",
+      "sources": [
+        {
+          "id": "architecture-951679435",
+          "captureDate": null,
+          "url": "https://buildingblocks.villagepreservation.org/building/92-east-7th-street/",
+          "scope": null
+        },
+        {
+          "id": "seventh-03-panorama-4",
+          "captureDate": "2026-04",
+          "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=wGzBFCUjzRmQplfVj96NMg",
+          "scope": null
+        }
+      ],
+      "geometry": "explicit Seventh-only schedule",
+      "scheduledWindowGroups": 10,
+      "scheduledEntrances": 1,
+      "unletteredUnits": 1,
+      "observation": {
+        "sources": [
+          "architecture-951679435",
+          "seventh-03-panorama-4"
+        ],
+        "reviewed": "2026-09-14",
+        "basis": "Two wide modern window groups per upper floor, dark mullions and metal balcony rails; no historic sash/cornice substitution.",
+        "unknown": [
+          "Surveyed opening widths, recesses and heights",
+          "Door hardware/ornament contours below reference resolution",
+          "Occluded ground details and exact tread counts",
+          "Current condition where only older imagery is available",
+          "Current lettering and exact door hardware of the unlettered ground units"
+        ],
+        "acceptance": "Engine comparison pending. This is an authored architectural correction, not measured 1:1 acceptance.",
+        "detailReview": "April 2026 view: tall black-framed paired window groups and red narrow piers; facade height scaled against adjacent 94 rather than the original parcel maximum. Camera framing is not surveyed height."
+      },
+      "nativeElevation": {
+        "file": "../docs/images/seventh-engine-03/elevations/sheet-13.webp",
+        "slot": 1,
+        "projection": "orthographic diagnostic; not a photographic camera"
+      },
+      "reviewStatus": "Native elevation inspected in the full 82-frontage pass. Final contact sheet retained; photographic count/type/alignment acceptance remains open.",
+      "acceptance": {
+        "countAndTypeGate": "not independently certified",
+        "matchedLandmarkGate": "not passed",
+        "closeAndObliqueGate": "candidate review; exact hardware and profiles unresolved",
+        "userAccepted": false
+      },
+      "remainingPriority": "Resolve actual pane order, occupancy/lettering and hidden hardware before accepting this provisional physical-unit layout.",
+      "entranceCaptures": [
+        "../docs/images/seventh-engine-03/fidelity/entry-951679435.png"
+      ]
+    },
+    {
+      "id": 978475216,
+      "address": "45 East 7th Street",
+      "sources": [
+        {
+          "id": "architecture-978475216",
+          "captureDate": null,
+          "url": "https://ma.com/45-east-7th.html",
+          "scope": null
+        },
+        {
+          "id": "seventh-03-west",
+          "captureDate": "2024-09",
+          "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=0s_gDj_64WQVbaplip5Z7Q",
+          "scope": null
+        }
+      ],
+      "geometry": "explicit Seventh-only schedule",
+      "scheduledWindowGroups": 70,
+      "scheduledEntrances": 1,
+      "unletteredUnits": 2,
+      "observation": {
+        "sources": [
+          "architecture-978475216",
+          "seventh-03-west"
+        ],
+        "reviewed": "2026-09-14",
+        "basis": "Modern pale masonry face: five upper levels of tightly repeated tall single-light openings, not the former nine widely spaced historic sashes; count/layout transcribed from September 2024 frontal panorama. Edge bays and metre scale require comparison.",
+        "unknown": [
+          "Surveyed opening widths, recesses and heights",
+          "Door hardware/ornament contours below reference resolution",
+          "Occluded ground details and exact tread counts",
+          "Current condition where only older imagery is available",
+          "Current lettering and exact door hardware of the unlettered ground units"
+        ],
+        "acceptance": "Engine comparison pending. This is an authored architectural correction, not measured 1:1 acceptance."
+      },
+      "nativeElevation": {
+        "file": "../docs/images/seventh-engine-03/elevations/sheet-13.webp",
+        "slot": 2,
+        "projection": "orthographic diagnostic; not a photographic camera"
+      },
+      "reviewStatus": "Native elevation inspected in the full 82-frontage pass. Final contact sheet retained; photographic count/type/alignment acceptance remains open.",
+      "acceptance": {
+        "countAndTypeGate": "not independently certified",
+        "matchedLandmarkGate": "not passed",
+        "closeAndObliqueGate": "candidate review; exact hardware and profiles unresolved",
+        "userAccepted": false
+      },
+      "remainingPriority": "Resolve actual pane order, occupancy/lettering and hidden hardware before accepting this provisional physical-unit layout.",
+      "entranceCaptures": [
+        "../docs/images/seventh-engine-03/fidelity/entry-978475216.png"
+      ]
+    },
+    {
+      "id": -177966,
+      "address": "73-75 East 7th Street",
+      "sources": [
+        {
+          "id": "architecture--177966",
+          "captureDate": null,
+          "url": "https://buildingblocks.villagepreservation.org/building/73-75-east-7th-street/",
+          "scope": null
+        },
+        {
+          "id": "seventh-03-panorama-2",
+          "captureDate": "2024-09",
+          "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=BUNJSXOY9He29Pvm3_1thw",
+          "scope": null
+        }
+      ],
+      "geometry": "explicit Seventh-only schedule",
+      "scheduledWindowGroups": 40,
+      "scheduledEntrances": 1,
+      "unletteredUnits": 0,
+      "observation": {
+        "sources": [
+          "architecture--177966",
+          "seventh-03-panorama-2"
+        ],
+        "reviewed": "2026-09-14",
+        "basis": "Individual bay count, upper window/hood types and ground entrance arrangement transcribed from the listed dated views. Geometry dimensions remain photo-proportion estimates within the existing mapped envelope.",
+        "unknown": [
+          "Surveyed opening widths, recesses and heights",
+          "Door hardware/ornament contours below reference resolution",
+          "Occluded ground details and exact tread counts",
+          "Current condition where only older imagery is available"
+        ],
+        "acceptance": "Engine comparison pending. This is an authored architectural correction, not measured 1:1 acceptance.",
+        "detailReview": "Reviewed the archive exterior again for stone piers, horizontal sill courses, spandrel panels, base finish and cornice profile; current panoramas take precedence where the same part is visible. Dimensions and shallow relief contours remain photograph-based estimates."
+      },
+      "nativeElevation": {
+        "file": "../docs/images/seventh-engine-03/elevations/sheet-13.webp",
+        "slot": 3,
+        "projection": "orthographic diagnostic; not a photographic camera"
+      },
+      "reviewStatus": "Native elevation inspected in the full 82-frontage pass. Final contact sheet retained; photographic count/type/alignment acceptance remains open.",
+      "acceptance": {
+        "countAndTypeGate": "not independently certified",
+        "matchedLandmarkGate": "not passed",
+        "closeAndObliqueGate": "candidate review; exact hardware and profiles unresolved",
+        "userAccepted": false
+      },
+      "entranceCaptures": [
+        "../docs/images/seventh-engine-03/fidelity/entry--177966.png"
+      ]
+    }
+  ],
+  "packageSha256": "e6279599b212cbc07753871e25af98e8246513a9059845abb677995c4aa05654",
+  "reviewReports": {
+    "browser": "engine-review-2026-09-14-03/browser-final.json",
+    "native": "engine-review-2026-09-14-03/native-final.json",
+    "photographicCameraAndEntrances": "engine-review-2026-09-14-03/fidelity-final.json",
+    "lateFrontageCorrection": "engine-review-2026-09-14-03/late-frontage-correction.json"
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "schema": 1,
+  "checked": "2026-09-14",
+  "source": "seventh-03-streetview-50",
+  "panoramaId": "BhbNLmsrLJoqeAErWVcK_w",
+  "view": {
+    "heading": 239.08,
+    "pitch": 13,
+    "fov": 85
+  },
+  "viewport": [
+    640,
+    640
+  ],
+  "basis": "Manual approximate landmark readings from the inspected 640px April 2026 panorama. Pose-only fit with heading/pitch/FOV held to the source metadata. This diagnostic is not a surveyed or accepted multi-view calibration.",
+  "baseCamera": {
+    "x": -167.4986056666329,
+    "height": 2.5,
+    "z": 0.5310336816953622
+  },
+  "fittedCamera": {
+    "x": -165.41860566660003,
+    "height": 1.937,
+    "z": 0.4110336816999999
+  },
+  "offset": {
+    "x": 2.080000000032868,
+    "height": -0.563,
+    "z": -0.11999999999536237
+  },
+  "fitRmsPixels": 9.50056538369169,
+  "acceptance": "not passed; a second independent view and precise annotated coordinates are still required",
+  "buildingId": 241829575,
+  "landmarks": [
+    {
+      "alongFacade": 0.106,
+      "modelHeight": 2.83,
+      "sourcePixel": [
+        224,
+        368
+      ]
+    },
+    {
+      "alongFacade": 0.444,
+      "modelHeight": 2.83,
+      "sourcePixel": [
+        305,
+        380
+      ]
+    },
+    {
+      "alongFacade": 0.106,
+      "modelHeight": 4.52,
+      "sourcePixel": [
+        230,
+        303
+      ]
+    },
+    {
+      "alongFacade": 0.444,
+      "modelHeight": 4.52,
+      "sourcePixel": [
+        310,
+        313
+      ]
+    },
+    {
+      "alongFacade": 0.106,
+      "modelHeight": 5.38,
+      "sourcePixel": [
+        224,
+        257
+      ]
+    },
+    {
+      "alongFacade": 0.444,
+      "modelHeight": 5.38,
+      "sourcePixel": [
+        305,
+        273
+      ]
+    },
+    {
+      "alongFacade": 0.106,
+      "modelHeight": 7.51,
+      "sourcePixel": [
+        233,
+        197
+      ]
+    },
+    {
+      "alongFacade": 0.444,
+      "modelHeight": 7.51,
+      "sourcePixel": [
+        314,
+        213
+      ]
+    },
+    {
+      "alongFacade": 0.652,
+      "modelHeight": 3.62,
+      "sourcePixel": [
+        340,
+        349
+      ]
+    },
+    {
+      "alongFacade": 0.884,
+      "modelHeight": 3.62,
+      "sourcePixel": [
+        394,
+        356
+      ]
+    }
+  ]
+}
