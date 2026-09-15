@@ -37,6 +37,9 @@ const server = http.createServer(async (req, res) => {
     return fail(400, 'Invalid URL');
   }
   if (pathname.includes('\0') || pathname.includes('\\')) return fail(400, 'Invalid path');
+  // Keep local development aligned with Vercel: the current Seventh slice is
+  // the root experience, while the original game remains at /index.html.
+  if (pathname === '/') pathname = '/seventh/';
   const filename = path.resolve(root, '.' + (pathname.endsWith('/') ? pathname + 'index.html' : pathname));
   const relative = path.relative(root, filename);
   if (relative.startsWith('..') || path.isAbsolute(relative)) return fail(403, 'Forbidden');

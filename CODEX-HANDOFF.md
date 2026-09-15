@@ -1,6 +1,16 @@
 # Borough Drive: continuation context
 
-## Current checkpoint — September 15, 2026: 1:1 acceptance explained; session ready to close
+## Current checkpoint — September 15, 2026: Seventh build promoted to Vercel root
+
+Recorded **2026-09-15T17:21:00+00:00**. The user requested that the latest Seventh browser version open at `https://borough-drive.vercel.app/` rather than only at `/seventh/`. Vercel and the local dev server now route the exact root to `/seventh/`; the Godot shell has a `/seventh/` asset base so both URLs load the same package. The legacy Three.js game remains available at `/index.html`. This is a local routing change committed below and has not yet been pushed or deployment-verified.
+
+- **Gameplay/source baseline:** unchanged `d4fbafe9a6af4497de81e2220d31c878f930612e`; prior documentation checkpoint `b36a612`. New routing/documentation commit follows it.
+- **Changed files:** `vercel.json`, `scripts/serve.mjs`, `dist/seventh/index.html`, `README.md`, `engine/first-seventh/README.md`, `START-HERE.md`, `AGENTS.md` and this handoff. No models, PCK/WASM, controller code or fidelity records changed. The private screenshot remains untracked and excluded.
+- **Expected routes:** `/` → Seventh build; `/seventh/` → Seventh build; `/index.html` → preserved original ten-block game. The custom `drivearound.nyc` domain remains unconnected.
+- **Validation needed after commit:** `npm run verify` is not required for a routing/HTML-only change, but check JSON/HTML, local root and `/seventh/` responses, then push `main` and verify both Vercel routes. No deployment is assumed from the local edit.
+- **Next concrete step:** run the route checks, commit this routing change, push `main` if still authorized, and report the live root URL. Do not start additional modeling or fidelity work.
+
+## Previous checkpoint — September 15, 2026: 1:1 acceptance explained; session ready to close
 
 Recorded **2026-09-15T15:21:02+00:00**. After revision 04 was saved, the user asked **what it takes to certify 1:1**, then requested Markdown updates so they can close and continue later. This follow-up is discussion/documentation only. No additional modeling, reference acquisition, export, game tests or publication was started.
 

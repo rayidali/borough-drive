@@ -3,5 +3,8 @@
   "framework": null,
   "installCommand": "",
   "buildCommand": "",
-  "outputDirectory": "dist"
+  "outputDirectory": "dist",
+  "rewrites": [
+    { "source": "/", "destination": "/seventh/" }
+  ]
 }

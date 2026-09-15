@@ -10,6 +10,19 @@ git log --oneline -- CODEX-HANDOFF.md SESSION-LOG.md
 
 Checkpoint notes describe observed state, not a live monitor. Recheck local files, remote branches and deployment status when resuming. Keep necessary artifacts in the repository and record reproducible commands; temporary directories and old tool/process IDs are not durable checkpoints. Store no tokens, passwords or authentication cookies here.
 
+## 2026-09-15-09 — Promote Seventh build to Vercel root
+
+**Recorded:** 2026-09-15T17:21:00+00:00.
+**User objective and decisions:** Open the latest Seventh browser version at `https://borough-drive.vercel.app/` instead of requiring `/seventh/`, while preserving the original game.
+**Completed work:** Added exact-root routing to `/seventh/` in Vercel and the local dev server, added the Seventh shell's `/seventh/` base path and root canonical URL, and documented `/index.html` as the legacy game route. No model/PCK changes.
+**Exact gameplay/source commit:** Unchanged `d4fbafe9a6af4497de81e2220d31c878f930612e`; routing change is pending its own local commit.
+**Local changes:** `vercel.json`, `scripts/serve.mjs`, `dist/seventh/index.html`, `README.md`, `engine/first-seventh/README.md`, `START-HERE.md`, `AGENTS.md`, `CODEX-HANDOFF.md`, and this log. Private screenshot unchanged and excluded.
+**Remote state:** Current `main`/`origin/main` still point to `b36a612` until this routing change is committed and pushed.
+**Deployment state:** Vercel has not been checked after this edit; verify after push. The custom domain remains unconnected.
+**Validation:** Pending local route checks and commit; no full runtime/performance rerun needed for this HTML/config-only change.
+**Unresolved issues:** Root rewrite behavior must be verified on Vercel, especially relative Godot assets and the preserved `/index.html` legacy route.
+**Next concrete step:** Validate local JSON/HTML and root/Seventh responses, commit, push `main`, then check `https://borough-drive.vercel.app/` and `/seventh/`.
+
 ## 2026-09-15-08 — 1:1 acceptance clarification and closing handoff
 
 **Recorded:** 2026-09-15T15:21:02+00:00.

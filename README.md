@@ -17,7 +17,7 @@ Walk and drive through ten connected East Village blocks, reconstructed from map
 
 ## New local driving study: Seventh, slowly.
 
-The September 14 Godot browser slice adds an authored apricot coupe, chase/hood/cockpit/overhead views, golden hour/dusk/rain, a small route map, original lofi audio and downloadable postcards around First & Seventh. Run `npm run dev` and open **http://127.0.0.1:5173/seventh/**. Revision 02 adds grip-based drifting, RPM/gear-driven sound, all of Seventh Street through Avenue A, textured masonry, individually detailed shop layouts, branching leaf trees and street furniture. Use WASD/arrows to drive, **S to brake/reverse**, **Space to handbrake**, C for cameras and T for weather. During play, right-drag orbits, Shift + right-drag or middle-drag pans, the wheel zooms, and V recenters the selected camera. Revision 03 corrects individual window/door/access layouts, including the 50/48½ church-house and shop comparison, with a stricter photographic fidelity benchmark. Revision 04 concentrates on the First–Second block, with dated basement/entry/storefront/material and street-feature corrections, a live address label and independent camera movement. The street remains a candidate reconstruction awaiting full photographic acceptance. The export is included and runs on the player's device without a GPU server.
+The September 14 Godot browser slice adds an authored apricot coupe, chase/hood/cockpit/overhead views, golden hour/dusk/rain, a small route map, original lofi audio and downloadable postcards around First & Seventh. Run `npm run dev` and open **http://127.0.0.1:5173/**; the same build remains at `/seventh/`. The legacy ten-block game is available at `/index.html`. Revision 02 adds grip-based drifting, RPM/gear-driven sound, all of Seventh Street through Avenue A, textured masonry, individually detailed shop layouts, branching leaf trees and street furniture. Use WASD/arrows to drive, **S to brake/reverse**, **Space to handbrake**, C for cameras and T for weather. During play, right-drag orbits, Shift + right-drag or middle-drag pans, the wheel zooms, and V recenters the selected camera. Revision 03 corrects individual window/door/access layouts, including the 50/48½ church-house and shop comparison, with a stricter photographic fidelity benchmark. Revision 04 concentrates on the First–Second block, with dated basement/entry/storefront/material and street-feature corrections, a live address label and independent camera movement. The street remains a candidate reconstruction awaiting full photographic acceptance. The export is included and runs on the player's device without a GPU server.
 
 [Controls and rebuild](engine/first-seventh/README.md) · [Current review and limits](model-source/SEVENTH-ENGINE-04.md) · [Architectural benchmark](model-source/SEVENTH-FIDELITY-BENCHMARK.md) · [Current local/push/deployment state](CODEX-HANDOFF.md)
 
@@ -95,7 +95,7 @@ The browser runs vanilla JavaScript modules and bundled **Three.js r180**. Blend
 
 | Location | Purpose |
 | --- | --- |
-| [`dist/index.html`](dist/index.html) | Active game entry point |
+| [`dist/index.html`](dist/index.html) | Legacy ten-block game entry point (`/index.html`) |
 | [`dist/reconstruction/viewer.js`](dist/reconstruction/viewer.js) | Rendering, camera, input, and interface |
 | [`dist/reconstruction/vehicle.js`](dist/reconstruction/vehicle.js) | Vehicle simulation |
 | [`dist/reconstruction/neighborhood-world.js`](dist/reconstruction/neighborhood-world.js) | Streets, collision, and travel destinations |
@@ -106,7 +106,7 @@ The browser runs vanilla JavaScript modules and bundled **Three.js r180**. Blend
 | [`scripts/`](scripts/) | Local server, data preparation, and verification |
 | [`dist/vendor/`](dist/vendor/) | Bundled renderer and Draco decoder with license notices |
 
-**`dist/` is editable source and required game content.** Keep it in Git. The older generic experiment lives at [`dist/prototype.html`](dist/prototype.html); the active game is `dist/index.html`.
+**`dist/` is editable source and required game content.** Keep it in Git. The older generic experiment lives at [`dist/prototype.html`](dist/prototype.html); the current root game is the tracked Godot package in `dist/seventh/`, while `dist/index.html` remains the preserved legacy game.
 
 ### Verify changes
 
