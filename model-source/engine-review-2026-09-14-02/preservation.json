@@ -1,0 +1,41 @@
+{
+  "baseline": "41eafac",
+  "originalGameplay": "c76dccebc143960498d21eeab8c55c2d0dbcc5ce",
+  "originalTreesChecked": [
+    "dist/index.html",
+    "dist/prototype.html",
+    "dist/reconstruction/",
+    "dist/vendor/",
+    "source-data/"
+  ],
+  "oldStorefrontRecordsDeepEqual": true,
+  "files": [
+    {
+      "path": "dist/index.html",
+      "sha256": "2858279f5ed13eb900a32cbcb4cd6fe65b5ac4fb31bc618390a2e4b945e3d46e",
+      "matchesResume": true
+    },
+    {
+      "path": "dist/prototype.html",
+      "sha256": "1a2e6532d08abd9a6c9692f4637a23d19b62928fc2f56e96a33eb0327b0e5de4",
+      "matchesResume": true
+    },
+    {
+      "path": "dist/reconstruction/neighborhood.json",
+      "sha256": "fd61b108e80eab18d477686b677413ef565f1ab16edc26170751347e22651a5c",
+      "matchesResume": true
+    },
+    {
+      "path": "model-source/first_seventh_kit.py",
+      "sha256": "0b8054b71913c3a8ec53cb83bf19886d973e3e650d2a9cdeddb653fc4c4ba20a",
+      "matchesResume": true
+    },
+    {
+      "path": "model-source/first_seventh_refinement.py",
+      "sha256": "5ea53dfd46a5aef6da13848413cbb1edff9de1fbc46848467f359c0c574d7d86",
+      "matchesResume": true
+    }
+  ],
+  "checked": "2026-09-14",
+  "originalTreesDiffEmpty": true
+}

@@ -1,6 +1,8 @@
 extends CharacterBody3D
 
 const S = preload("res://scripts/shapes.gd")
+const Handling = preload("res://scripts/handling.gd")
+var handling = Handling.new()
 var speed = 0.0
 var steering = 0.0
 var wetness = 0.0
@@ -8,6 +10,7 @@ var enabled = false
 var testing = false
 var test_throttle = 0.0
 var test_steer = 0.0
+var test_handbrake = false
 var distance_driven = 0.0
 var collision_count = 0
 var body: Node3D
@@ -18,6 +21,8 @@ var lamps: Array[Light3D] = []
 var brake_material: StandardMaterial3D
 var steering_wheel: Node3D
 var throttle_value = 0.0
+var handbraking = false
+var impact_strength = 0.0
 
 func _ready():
 	collision_layer = 2
@@ -134,7 +139,15 @@ func reset_car():
 	velocity = Vector3.ZERO
 	speed = 0
 	steering = 0
+	handling.reset()
+	handling.heading = 0
+	handbraking = false
 	reset_physics_interpolation()
+
+func stop_car():
+	velocity = Vector3.ZERO
+	speed = 0.0
+	handling.reset()
 
 func _physics_process(dt):
 	var throttle = 0.0
@@ -143,31 +156,34 @@ func _physics_process(dt):
 	if enabled:
 		throttle = test_throttle if testing else Input.get_axis("brake","accelerate")
 		turn = test_steer if testing else Input.get_axis("right","left")
-		handbrake = Input.is_action_pressed("handbrake") and not testing
+		handbrake = test_handbrake if testing else Input.is_action_pressed("handbrake")
 	throttle_value = throttle
+	handbraking = handbrake
 	var before = global_position
 	var previous_speed = speed
-	if throttle > .01:
-		speed = move_toward(speed, 17.5, (13.0 if speed < -.3 else 5.4)*throttle*dt)
-	elif throttle < -.01:
-		speed = move_toward(speed, -5.5, (13.0 if speed > .3 else 3.6)*-throttle*dt)
-	else:
-		speed = move_toward(speed,0,(.65+speed*speed*.012)*dt)
-	if not enabled or handbrake:
-		speed = move_toward(speed,0,(12.0 if not enabled else 9.0)*dt)
-	steering = move_toward(steering,turn*.52/(1+abs(speed)*.04),dt*1.9)
-	rotation.y += speed/2.52*tan(steering)*dt*(1.0-wetness*.10)
+	handling.motion = Vector2(velocity.x,velocity.z)
+	handling.heading = rotation.y
+	if enabled: handling.step(dt,throttle,turn,handbrake,wetness)
+	else: handling.reset()
+	rotation.y = handling.heading
+	steering = handling.steering
+	speed = handling.speed
 	var forward = -global_basis.z
-	velocity.x = forward.x*speed
-	velocity.z = forward.z*speed
+	velocity.x = handling.motion.x
+	velocity.z = handling.motion.y
 	velocity.y = -1.0 if is_on_floor() else max(-18,velocity.y-19.6*dt)
+	var before_collision = velocity
 	move_and_slide()
+	impact_strength = 0.0
 	if get_slide_collision_count() > 0:
 		for i in get_slide_collision_count():
 			var hit = get_slide_collision(i)
 			if abs(hit.get_normal().y) < .4:
 				if abs(speed)>1: collision_count += 1
+				impact_strength = (velocity-before_collision).length()
 				speed = Vector2(velocity.x,velocity.z).dot(Vector2(forward.x,forward.z))
+				handling.motion = Vector2(velocity.x,velocity.z)
+				handling.yaw_rate *= .35
 				break
 	distance_driven += Vector2(global_position.x-before.x,global_position.z-before.z).length()
 	for i in wheel_pivots.size():

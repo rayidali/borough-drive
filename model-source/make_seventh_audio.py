@@ -42,10 +42,49 @@ for bar,chord in enumerate(chords):
             t=i/RATE
             music[offset+i]+=(rng.random()-.5)*math.exp(-t*80)*.025
 save('cornerlight.wav',music)
-save('engine.wav',[(math.sin(math.tau*55*i/RATE)+.27*math.sin(math.tau*110*i/RATE)+.12*math.sin(math.tau*165*i/RATE)) for i in range(RATE*2)])
+# Four-cylinder firing pulses, exhaust harmonics and induction texture. Integer
+# periods make the loops seamless; runtime pitch follows RPM and crossfades load.
+# These are original synthesis, not a recording or an imitation of a named car.
+def engine_loop(rpm, loaded):
+    count=RATE*4
+    crank=rpm/60
+    samples=[]
+    for i in range(count):
+        t=i/RATE
+        fire=math.tau*crank*2*t
+        rumble=(math.sin(fire)+.48*math.sin(fire*2+.4)
+                +.28*math.sin(fire*3+.8)+.15*math.sin(fire*5+.3)
+                +.18*math.sin(fire*.5)+.10*math.sin(fire*1.5+.7))
+        rasp=sum(math.sin(fire*k+.31*k)/(k**1.28) for k in range(6,22))
+        induction=(math.sin(math.tau*179*t)+.5*math.sin(math.tau*283*t)
+                   +.22*math.sin(math.tau*431*t))*.055
+        rough=1+.035*math.sin(math.tau*7*t)+.018*math.sin(math.tau*13*t)
+        samples.append(math.tanh((rumble*(.64 if loaded else .44)
+                                  +rasp*(.64 if loaded else .12))*rough)+induction)
+    return samples
+save('engine-idle.wav',engine_loop(1050,False))
+save('engine-load.wav',engine_loop(2400,True))
+save('engine-coast.wav',engine_loop(2400,False))
+# Cyclic, filtered noise avoids a click at every tire/road loop boundary.
+def noise_loop(seed, decay):
+    rand=random.Random(seed)
+    raw=[rand.uniform(-1,1) for _ in range(RATE*4)]
+    out=[]; low=0
+    for value in raw[-RATE:]+raw:
+        low=low*decay+value*(1-decay)
+        out.append(low)
+    return out[RATE:]
+road=noise_loop(703,.94)
+rubber=noise_loop(704,.53)
+save('road.wav',road)
+save('tires.wav',[v*.78+.05*math.sin(math.tau*913*i/RATE+1.8*math.sin(math.tau*9*i/RATE))
+                  +.022*math.sin(math.tau*1373*i/RATE) for i,v in enumerate(rubber)])
+save('impact.wav',[(road[i]*2+math.sin(math.tau*53*i/RATE)*.38)
+                   *min(1,i/(RATE*.004))*math.exp(-i/RATE*15)
+                   for i in range(round(RATE*.55))])
 noise=[];previous=0
 for i in range(RATE*4):
     previous=previous*.65+(rng.random()-.5)*.35
     noise.append(previous)
 save('rain.wav',noise)
-print('Three original audio loops written')
+print('Original music, engine/load/coast, tire/road, impact and rain audio written')

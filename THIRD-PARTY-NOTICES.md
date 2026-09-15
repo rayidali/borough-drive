@@ -63,3 +63,10 @@ This session refresh changes documentation only and adds no imagery, models or l
 The separate First & Seventh game reuses existing neighborhood geometry and applies authored vertex colors, sky/weather and street dressing. The car and synthesized audio loops are original contributions; no new reference photographs or sampled commercial recordings are included. Existing photographic observations, geographic licenses, Damion sign-font attribution and uncertainty remain intact. This does not establish new source rights or measured architectural fidelity.
 
 Godot 4.7.2 is MIT-licensed; [full engine and third-party notices](dist/seventh/godot-notices.txt) are extracted from the installed engine and distributed beside its browser binary. The package also includes [original-code MIT](dist/seventh/LICENSE.txt), [Damion OFL](dist/seventh/DAMION-OFL.txt) and [slice credits/geographic attribution](dist/seventh/credits.txt). These notices do not replace any source-specific terms above. New review screenshots and postcards are captures of the actual game.
+
+
+## Seventh Street engine refinement, revision 02
+
+The separate Godot export uses six existing Poly Haven CC0 diffuse/normal maps: [Red Brick 03](https://polyhaven.com/a/red_brick_03), [White Bricks, Rob Tuytel](https://polyhaven.com/a/white_bricks), and [Concrete Wall 006](https://polyhaven.com/a/concrete_wall_006). They are generic surfaces, not photographs of these buildings. [Runtime credits](dist/seventh/credits.txt) accompany the package. Original synthesized engine/load/coast/tire/impact sounds, tree meshes and surface shaders are MIT project contributions.
+
+[Seventh Street references](model-source/seventh-street-reference-02.json) record inspected Village Preservation, business and local-reporting images, dates, photographer attribution and exclusions. Reference pixels and exact artwork are not distributed. New geometry uses authored dimensions and substitute lettering, retaining all earlier notices and provenance. [Report](model-source/SEVENTH-ENGINE-02.md).

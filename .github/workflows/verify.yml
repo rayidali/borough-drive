@@ -32,3 +32,5 @@ jobs:
           package-manager-cache: false
       - name: Verify models, modules, roads, and vehicle behavior
         run: npm run verify
+      - name: Verify the included Seventh browser export and source provenance
+        run: npm run seventh:verify

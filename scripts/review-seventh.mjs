@@ -25,7 +25,10 @@ async function key(key,down){await send('Input.dispatchKeyEvent',{type:down?'key
 async function tap(value){await key(value,true);await sleep(80);await key(value,false);await sleep(350);}
 async function hold(value,ms){await key(value,true);await sleep(ms);await key(value,false);await sleep(300);}
 const stats=()=>evaluate('window.seventhStats');
+let commandSequence=0;
+async function command(value){const sequence=++commandSequence;await evaluate('window.seventhReviewCommand='+JSON.stringify({...value,sequence}));await until('window.seventhReviewAck==='+sequence,5000);await sleep(350);}
 const report={date:new Date().toISOString(),url,viewport:{width:1440,height:1000,deviceScaleFactor:1},conditions:'Local HTTP, Apple M1, unthrottled CPU/network; browser cache disabled for startup. Render counters from the actual engine; subsequent samples warmed.',errors:[],warnings:[],failedRequests:[],samples:[],checks:{},screenshots:[]};
+report.build=JSON.parse(await fs.readFile(new URL('../dist/seventh/build.json',import.meta.url),'utf8'));
 let faultPhase=false;
 report.recovery={errors:[],warnings:[],failedRequests:[],checks:{}};
 const log=()=>faultPhase?report.recovery:report;
@@ -44,7 +47,7 @@ try {
   await send('Page.navigate',{url});
   await until('window.seventhStats?.ready && document.getElementById("loading").hidden');
   report.startup=await evaluate('({readyMs:seventhReadyMs,resources:performance.getEntriesByType("resource").map(r=>({path:new URL(r.name).pathname,bytes:r.transferSize,durationMs:r.duration})),stats:seventhStats})');
-  assert.equal((await stats()).buildings,154);
+  assert.equal((await stats()).buildings,182);
   await screenshot('title');
   await tap('Enter');assert.equal((await stats()).started,true);
   // Normalize to golden hour/chase through actual controls, including saved settings.
@@ -61,7 +64,38 @@ try {
   }
   report.checks.camerasAndWeather=12;
   await tap('r');await hold('s',1600);assert((await stats()).position[2]>10);report.checks.reverse=true;
-  await tap('r');await hold('w',1600);await hold('Space',2000);assert(Math.abs((await stats()).speed)<.2);report.checks.brake=true;
+  await tap('r');await hold('w',1600);const beforeBrake=(await stats()).speed;await hold('s',450);assert((await stats()).speed<beforeBrake-4,'S brakes before reversing');report.checks.brake=true;
+  // Actual input on Seventh: accelerate, steer and pull the handbrake, then
+  // release both. Pose selection only places the car; it cannot inject motion.
+  while((await stats()).weather!==0)await tap('t');await sleep(5000);
+  await command({type:'pose',x:-229,z:18,yaw:0});
+  const driftContacts=(await stats()).collisions;
+  await key('w',true);await sleep(2100);await key('a',true);await key('Space',true);
+  // Telemetry updates at 4 Hz; observe the actual slip rather than sampling
+  // a stale quarter-second record at one fragile wall-clock instant.
+  let drift;const driftStarted=Date.now();
+  while(Date.now()-driftStarted<1200){drift=await stats();if(Math.abs(drift.slipDegrees)>18)break;await sleep(35);}
+  await key('Space',false);await key('a',false);await key('w',false);
+  await screenshot('handbrake-drift');
+  await key('d',true);await sleep(320);await key('d',false);
+  await sleep(350);const recovered=await stats();
+  assert(Math.abs(drift.slipDegrees)>15&&drift.tireScrub>.2,'Actual handbrake must release grip');
+  assert(Math.abs(recovered.slipDegrees)<10,'Released drift regains grip');
+  assert.equal(recovered.collisions,driftContacts,'Countersteered drift clears the real intersection');
+  report.checks.drift={during:drift,after:recovered,countersteerMs:320,wallContacts:recovered.collisions-driftContacts};
+  await tap('r'); // Stop coasting before the next weather settles.
+  // Samples down the full street expose more of the scene than the old
+  // northbound-only benchmark. All movement uses the normal keyboard control.
+  for(let mood=0;mood<3;mood++){
+    while((await stats()).weather!==mood)await tap('t');await sleep(5000);
+    await command({type:'pose',x:-260,z:0,yaw:-Math.PI/2});
+    await key('w',true);await sample(`weather-${mood}-seventh-east`,8);await key('w',false);
+    await screenshot(`seventh-east-${mood}`);
+    await command({type:'pose',x:258,z:0,yaw:Math.PI/2});
+    await key('w',true);await sample(`weather-${mood}-seventh-west`,8);await key('w',false);
+    await screenshot(`seventh-west-${mood}`);
+  }
+  await tap('r');
   await tap('Escape');const stopped=await stats();await hold('w',800);assert.equal((await stats()).paused,true);assert(Math.hypot((await stats()).position[0]-stopped.position[0],(await stats()).position[2]-stopped.position[2])<.1);await screenshot('pause');await tap('Escape');report.checks.pause=true;
   await tap('r');await sleep(500);assert(Math.abs((await stats()).speed)<.1);assert(Math.abs((await stats()).position[2]-8)<.1);report.checks.reset=true;
   await hold('a',600);await key('a',true);await hold('w',900);await key('a',false);assert((await stats()).yaw>.1);report.checks.steering=true;
@@ -88,6 +122,14 @@ try {
   let postcard;
   for(let i=0;i<50;i++){postcard=(await fs.readdir(downloads)).find(x=>x.endsWith('.png')&&!beforeDownload.has(x));if(postcard)break;await sleep(200);}
   assert(postcard,'Postcard should download');assert((await fs.stat(path.join(downloads,postcard))).size>100000,'Postcard contains the actual scene');report.checks.postcard=true;
+  while((await stats()).weather!==0)await tap('t');await sleep(5000);
+  const details=JSON.parse(await fs.readFile(new URL('../model-source/storefront-details.json',import.meta.url),'utf8')).seventhEngine;
+  for(const shop of details.frontages){
+    await command({type:'frontage',id:shop.buildingId,close:true,along:(shop.span[0]+shop.span[1])/2,span:shop.span[1]-shop.span[0]});
+    await screenshot('shop-'+shop.businessId.replace('osm-node-',''));
+  }
+  report.checks.perspectiveShopCaptures=details.frontages.length;
+  await tap('r');
   assert.equal(report.errors.length,0,JSON.stringify(report.errors));assert.equal(report.failedRequests.length,0,JSON.stringify(report.failedRequests));
   await fs.writeFile(path.join(out,'review.json'),JSON.stringify(report,null,2)+'\n');
   console.log('SEVENTH_CONTROLS_PASSED');
@@ -95,15 +137,15 @@ try {
   faultPhase=true;
   on('Fetch.requestPaused',event=>{send('Fetch.fulfillRequest',{requestId:event.requestId,responseCode:503,responseHeaders:[{name:'Content-Type',value:'text/plain'}],body:Buffer.from('Intentional review failure').toString('base64')}).catch(()=>{});});
   await send('Fetch.enable',{patterns:[{urlPattern:'*/seventh/index.pck',requestStage:'Request'}]});
-  await send('Page.reload');await until('!document.getElementById("retry").hidden');await screenshot('download-recovery');
+  await send('Page.reload');await until('document.getElementById("retry")?.hidden === false');await screenshot('download-recovery');
   console.log('SEVENTH_DOWNLOAD_FAILURE_VISIBLE');
   await send('Fetch.disable');await evaluate('setTimeout(()=>document.getElementById("retry").click(),0)');
-  await until('window.seventhStats?.ready && document.getElementById("loading").hidden');report.recovery.checks.missingPackRetry=true;
+  await until('window.seventhStats?.ready && document.getElementById("loading")?.hidden === true');report.recovery.checks.missingPackRetry=true;
   await fs.writeFile(path.join(out,'review.json'),JSON.stringify(report,null,2)+'\n');
   console.log('SEVENTH_DOWNLOAD_RETRY_PASSED');
   await evaluate('canvas.getContext("webgl2").getExtension("WEBGL_lose_context").loseContext()');
-  await until('!document.getElementById("retry").hidden');assert((await evaluate('document.getElementById("status").textContent')).includes('graphics paused'));await screenshot('graphics-recovery');
-  await evaluate('setTimeout(()=>document.getElementById("retry").click(),0)');await until('window.seventhStats?.ready && document.getElementById("loading").hidden');report.recovery.checks.contextLossRetry=true;
+  await until('document.getElementById("retry")?.hidden === false');assert((await evaluate('document.getElementById("status").textContent')).includes('graphics paused'));await screenshot('graphics-recovery');
+  await evaluate('setTimeout(()=>document.getElementById("retry").click(),0)');await until('window.seventhStats?.ready && document.getElementById("loading")?.hidden === true');report.recovery.checks.contextLossRetry=true;
   await fs.writeFile(path.join(out,'review.json'),JSON.stringify(report,null,2)+'\n');
   assert.equal(report.errors.length,0,JSON.stringify(report.errors));assert.equal(report.failedRequests.length,0,JSON.stringify(report.failedRequests));
   console.log('SEVENTH_BROWSER_REVIEW_COMPLETE',out);

@@ -1,8 +1,10 @@
 # Run Borough Drive locally
 
+**Current local refinement:** `/seventh/` includes momentum-based drifting (turn + Space, then release/countersteer), improved RPM/load audio and the full mapped Seventh Street stretch through Avenue A. See [engine controls/rebuild](engine/first-seventh/README.md), [revision 02 evidence](model-source/SEVENTH-ENGINE-02.md) and the [handoff](CODEX-HANDOFF.md) for exact verification/save state. Other streets and publication await further direction.
+
 The repository includes the active ten-block game, exported models, textures, reference data, and editable source recipes. You can play without rebuilding anything.
 
-**September 14 update:** The user deferred a GPU machine and authorized implementation with available hardware. A playable Godot browser slice is at **http://127.0.0.1:5173/seventh/** after `npm run dev`. WASD/arrows drive, C cycles four cameras and T changes weather. [Controls and rebuild](engine/first-seventh/README.md), [review](model-source/SEVENTH-ENGINE-01.md) and [current handoff](CODEX-HANDOFF.md). The existing ten-block game remains at `/`. All runtime files are included; no GPU rental, paid server, push or deployment has occurred. Wider reconstruction and autonomous imagery work remain deferred.
+**Initial September 14 slice:** The user deferred a GPU machine and authorized implementation with available hardware. A playable Godot browser slice is at **http://127.0.0.1:5173/seventh/** after `npm run dev`. WASD/arrows drive, C cycles four cameras and T changes weather. [Controls and rebuild](engine/first-seventh/README.md), [initial review](model-source/SEVENTH-ENGINE-01.md) and [current handoff](CODEX-HANDOFF.md). The existing ten-block game remains at `/`. All runtime files are included; no GPU rental, paid server, push or deployment has occurred. Wider reconstruction and autonomous imagery work remain deferred.
 
 ## Previous resume state — September 12, 2026
 

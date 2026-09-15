@@ -1,0 +1,1931 @@
+{
+  "revision": "02",
+  "scope": "Entire East 7th Street in the original map, Second Avenue through Avenue A with existing boundary context; separate Godot export only.",
+  "originalGameUnchanged": true,
+  "modelObjects": 182,
+  "seventhFrontages": 82,
+  "archiveImagesInspected": 67,
+  "additionalSourceImagesInspected": 39,
+  "newShopDesigns": 15,
+  "sourceTriangles": 3431884,
+  "records": [
+    {
+      "id": 241822156,
+      "address": "118 2nd Avenue",
+      "sourceInspection": "archive photograph inspected this session",
+      "sources": [
+        "architecture-241822156"
+      ],
+      "modeledFeatures": {
+        "areawayRail": false,
+        "stoneBands": false
+      },
+      "elevationReview": {
+        "status": "inspected actual engine capture",
+        "projection": "orthographic from the street; not a matched photographic camera",
+        "sheet": "../docs/images/seventh-engine-02/elevations/sheet-0.webp",
+        "slot": 1
+      },
+      "shops": [],
+      "acceptance": "User review pending; not certified 1:1. Dimensions, ornament shapes, material/typography substitutions and unseen/current details remain estimates."
+    },
+    {
+      "id": 241822157,
+      "address": "65 East 7th Street",
+      "sourceInspection": "archive photograph inspected this session",
+      "sources": [
+        "architecture-241822157"
+      ],
+      "modeledFeatures": {
+        "areawayRail": true,
+        "stoneBands": false
+      },
+      "elevationReview": {
+        "status": "inspected actual engine capture",
+        "projection": "orthographic from the street; not a matched photographic camera",
+        "sheet": "../docs/images/seventh-engine-02/elevations/sheet-0.webp",
+        "slot": 2
+      },
+      "shops": [],
+      "acceptance": "User review pending; not certified 1:1. Dimensions, ornament shapes, material/typography substitutions and unseen/current details remain estimates."
+    },
+    {
+      "id": 241822169,
+      "address": "57 East 7th Street",
+      "sourceInspection": "archive photograph inspected this session",
+      "sources": [
+        "architecture-241822169"
+      ],
+      "modeledFeatures": {
+        "areawayRail": false,
+        "stoneBands": false
+      },
+      "elevationReview": {
+        "status": "inspected actual engine capture",
+        "projection": "orthographic from the street; not a matched photographic camera",
+        "sheet": "../docs/images/seventh-engine-02/elevations/sheet-0.webp",
+        "slot": 3
+      },
+      "shops": [],
+      "acceptance": "User review pending; not certified 1:1. Dimensions, ornament shapes, material/typography substitutions and unseen/current details remain estimates."
+    },
+    {
+      "id": 241822176,
+      "address": "69 East 7th Street",
+      "sourceInspection": "archive photograph inspected this session",
+      "sources": [
+        "architecture-241822176"
+      ],
+      "modeledFeatures": {
+        "areawayRail": false,
+        "stoneBands": false,
+        "diamondPanels": true
+      },
+      "elevationReview": {
+        "status": "inspected actual engine capture",
+        "projection": "orthographic from the street; not a matched photographic camera",
+        "sheet": "../docs/images/seventh-engine-02/elevations/sheet-0.webp",
+        "slot": 4
+      },
+      "shops": [],
+      "acceptance": "User review pending; not certified 1:1. Dimensions, ornament shapes, material/typography substitutions and unseen/current details remain estimates."
+    },
+    {
+      "id": 241822178,
+      "address": "53 East 7th Street",
+      "sourceInspection": "archive photograph inspected this session",
+      "sources": [
+        "architecture-241822178"
+      ],
+      "modeledFeatures": {
+        "areawayRail": true,
+        "stoneBands": true
+      },
+      "elevationReview": {
+        "status": "inspected actual engine capture",
+        "projection": "orthographic from the street; not a matched photographic camera",
+        "sheet": "../docs/images/seventh-engine-02/elevations/sheet-0.webp",
+        "slot": 5
+      },
+      "shops": [],
+      "acceptance": "User review pending; not certified 1:1. Dimensions, ornament shapes, material/typography substitutions and unseen/current details remain estimates."
+    },
+    {
+      "id": 241822185,
+      "address": "77 East 7th Street",
+      "sourceInspection": "archive photograph inspected this session",
+      "sources": [
+        "architecture-241822185"
+      ],
+      "modeledFeatures": {
+        "areawayRail": false,
+        "stoneBands": false
+      },
+      "elevationReview": {
+        "status": "inspected actual engine capture",
+        "projection": "orthographic from the street; not a matched photographic camera",
+        "sheet": "../docs/images/seventh-engine-02/elevations/sheet-0.webp",
+        "slot": 6
+      },
+      "shops": [
+        {
+          "id": "osm-node-12542984185",
+          "name": "Whiskey Cellar",
+          "supportedName": true,
+          "engineDesign": "inherited/estimated",
+          "perspectiveReview": "not newly reviewed individually"
+        }
+      ],
+      "acceptance": "User review pending; not certified 1:1. Dimensions, ornament shapes, material/typography substitutions and unseen/current details remain estimates."
+    },
+    {
+      "id": 241822192,
+      "address": "85 East 7th Street",
+      "sourceInspection": "archive photograph inspected this session",
+      "sources": [
+        "architecture-241822192"
+      ],
+      "modeledFeatures": {
+        "areawayRail": false,
+        "stoneBands": false
+      },
+      "elevationReview": {
+        "status": "inspected actual engine capture",
+        "projection": "orthographic from the street; not a matched photographic camera",
+        "sheet": "../docs/images/seventh-engine-02/elevations/sheet-1.webp",
+        "slot": 1
+      },
+      "shops": [],
+      "acceptance": "User review pending; not certified 1:1. Dimensions, ornament shapes, material/typography substitutions and unseen/current details remain estimates."
+    },
+    {
+      "id": 241822197,
+      "address": "55 East 7th Street",
+      "sourceInspection": "archive photograph inspected this session",
+      "sources": [
+        "architecture-241822197"
+      ],
+      "modeledFeatures": {
+        "areawayRail": true,
+        "stoneBands": true
+      },
+      "elevationReview": {
+        "status": "inspected actual engine capture",
+        "projection": "orthographic from the street; not a matched photographic camera",
+        "sheet": "../docs/images/seventh-engine-02/elevations/sheet-1.webp",
+        "slot": 2
+      },
+      "shops": [],
+      "acceptance": "User review pending; not certified 1:1. Dimensions, ornament shapes, material/typography substitutions and unseen/current details remain estimates."
+    },
+    {
+      "id": 241822199,
+      "address": "59 East 7th Street",
+      "sourceInspection": "archive photograph inspected this session",
+      "sources": [
+        "architecture-241822199"
+      ],
+      "modeledFeatures": {
+        "areawayRail": true,
+        "stoneBands": true
+      },
+      "elevationReview": {
+        "status": "inspected actual engine capture",
+        "projection": "orthographic from the street; not a matched photographic camera",
+        "sheet": "../docs/images/seventh-engine-02/elevations/sheet-1.webp",
+        "slot": 3
+      },
+      "shops": [],
+      "acceptance": "User review pending; not certified 1:1. Dimensions, ornament shapes, material/typography substitutions and unseen/current details remain estimates."
+    },
+    {
+      "id": 241822201,
+      "address": "61 East 7th Street",
+      "sourceInspection": "archive photograph inspected this session",
+      "sources": [
+        "architecture-241822201"
+      ],
+      "modeledFeatures": {
+        "areawayRail": true,
+        "stoneBands": true
+      },
+      "elevationReview": {
+        "status": "inspected actual engine capture",
+        "projection": "orthographic from the street; not a matched photographic camera",
+        "sheet": "../docs/images/seventh-engine-02/elevations/sheet-1.webp",
+        "slot": 4
+      },
+      "shops": [],
+      "acceptance": "User review pending; not certified 1:1. Dimensions, ornament shapes, material/typography substitutions and unseen/current details remain estimates."
+    },
+    {
+      "id": 241822202,
+      "address": "63 East 7th Street",
+      "sourceInspection": "inherited architectural reference; shop photos separately recorded",
+      "sources": [
+        "architecture-241822202"
+      ],
+      "modeledFeatures": {
+        "areawayRail": true,
+        "stoneBands": false
+      },
+      "elevationReview": {
+        "status": "inspected actual engine capture",
+        "projection": "orthographic from the street; not a matched photographic camera",
+        "sheet": "../docs/images/seventh-engine-02/elevations/sheet-1.webp",
+        "slot": 5
+      },
+      "shops": [
+        {
+          "id": "osm-node-12542984189",
+          "name": "Kinka",
+          "supportedName": true,
+          "engineDesign": "seventh-02-241822202-kinka",
+          "perspectiveReview": "Inspected actual browser view; interpreted geometry, not a matched photographic camera or accepted 1:1 facade.",
+          "capture": "../docs/images/seventh-engine-02/shops/shop-12542984189.png"
+        }
+      ],
+      "acceptance": "User review pending; not certified 1:1. Dimensions, ornament shapes, material/typography substitutions and unseen/current details remain estimates."
+    },
+    {
+      "id": 241822226,
+      "address": "115 1st Avenue",
+      "sourceInspection": "archive photograph inspected this session",
+      "sources": [
+        "architecture-241822226"
+      ],
+      "modeledFeatures": {
+        "areawayRail": false,
+        "stoneBands": false
+      },
+      "elevationReview": {
+        "status": "inspected actual engine capture",
+        "projection": "orthographic from the street; not a matched photographic camera",
+        "sheet": "../docs/images/seventh-engine-02/elevations/sheet-1.webp",
+        "slot": 6
+      },
+      "shops": [],
+      "acceptance": "User review pending; not certified 1:1. Dimensions, ornament shapes, material/typography substitutions and unseen/current details remain estimates."
+    },
+    {
+      "id": 241822274,
+      "address": "67 East 7th Street",
+      "sourceInspection": "archive photograph inspected this session",
+      "sources": [
+        "architecture-241822274"
+      ],
+      "modeledFeatures": {
+        "areawayRail": true,
+        "stoneBands": false
+      },
+      "elevationReview": {
+        "status": "inspected actual engine capture",
+        "projection": "orthographic from the street; not a matched photographic camera",
+        "sheet": "../docs/images/seventh-engine-02/elevations/sheet-2.webp",
+        "slot": 1
+      },
+      "shops": [],
+      "acceptance": "User review pending; not certified 1:1. Dimensions, ornament shapes, material/typography substitutions and unseen/current details remain estimates."
+    },
+    {
+      "id": 241822317,
+      "address": "83 East 7th Street",
+      "sourceInspection": "archive photograph inspected this session",
+      "sources": [
+        "architecture-241822317"
+      ],
+      "modeledFeatures": {
+        "areawayRail": false,
+        "stoneBands": false
+      },
+      "elevationReview": {
+        "status": "inspected actual engine capture",
+        "projection": "orthographic from the street; not a matched photographic camera",
+        "sheet": "../docs/images/seventh-engine-02/elevations/sheet-2.webp",
+        "slot": 2
+      },
+      "shops": [
+        {
+          "id": "osm-node-5919252677",
+          "name": "Tokio 7",
+          "supportedName": true,
+          "engineDesign": "seventh-02-241822317-tokio",
+          "perspectiveReview": "Inspected actual browser view; interpreted geometry, not a matched photographic camera or accepted 1:1 facade.",
+          "capture": "../docs/images/seventh-engine-02/shops/shop-5919252677.png"
+        }
+      ],
+      "acceptance": "User review pending; not certified 1:1. Dimensions, ornament shapes, material/typography substitutions and unseen/current details remain estimates."
+    },
+    {
+      "id": 241822319,
+      "address": "71 East 7th Street",
+      "sourceInspection": "archive photograph inspected this session",
+      "sources": [
+        "architecture-241822319"
+      ],
+      "modeledFeatures": {
+        "areawayRail": true,
+        "stoneBands": false
+      },
+      "elevationReview": {
+        "status": "inspected actual engine capture",
+        "projection": "orthographic from the street; not a matched photographic camera",
+        "sheet": "../docs/images/seventh-engine-02/elevations/sheet-2.webp",
+        "slot": 3
+      },
+      "shops": [],
+      "acceptance": "User review pending; not certified 1:1. Dimensions, ornament shapes, material/typography substitutions and unseen/current details remain estimates."
+    },
+    {
+      "id": 241822325,
+      "address": "49 East 7th Street",
+      "sourceInspection": "archive photograph inspected this session",
+      "sources": [
+        "architecture-241822325"
+      ],
+      "modeledFeatures": {
+        "areawayRail": true,
+        "stoneBands": false
+      },
+      "elevationReview": {
+        "status": "inspected actual engine capture",
+        "projection": "orthographic from the street; not a matched photographic camera",
+        "sheet": "../docs/images/seventh-engine-02/elevations/sheet-2.webp",
+        "slot": 4
+      },
+      "shops": [],
+      "acceptance": "User review pending; not certified 1:1. Dimensions, ornament shapes, material/typography substitutions and unseen/current details remain estimates."
+    },
+    {
+      "id": 241822329,
+      "address": "81 East 7th Street",
+      "sourceInspection": "archive photograph inspected this session",
+      "sources": [
+        "architecture-241822329"
+      ],
+      "modeledFeatures": {
+        "areawayRail": true,
+        "stoneBands": false
+      },
+      "elevationReview": {
+        "status": "inspected actual engine capture",
+        "projection": "orthographic from the street; not a matched photographic camera",
+        "sheet": "../docs/images/seventh-engine-02/elevations/sheet-2.webp",
+        "slot": 5
+      },
+      "shops": [
+        {
+          "id": "osm-node-4551161735",
+          "name": "ABRAÇO",
+          "supportedName": true,
+          "engineDesign": "seventh-02-241822329-abra",
+          "perspectiveReview": "Inspected actual browser view; interpreted geometry, not a matched photographic camera or accepted 1:1 facade.",
+          "capture": "../docs/images/seventh-engine-02/shops/shop-4551161735.png"
+        }
+      ],
+      "acceptance": "User review pending; not certified 1:1. Dimensions, ornament shapes, material/typography substitutions and unseen/current details remain estimates."
+    },
+    {
+      "id": 241822336,
+      "address": "79 East 7th Street",
+      "sourceInspection": "archive photograph inspected this session",
+      "sources": [
+        "architecture-241822336",
+        "seventh-bluegold"
+      ],
+      "modeledFeatures": {
+        "areawayRail": false,
+        "stoneBands": false
+      },
+      "elevationReview": {
+        "status": "inspected actual engine capture",
+        "projection": "orthographic from the street; not a matched photographic camera",
+        "sheet": "../docs/images/seventh-engine-02/elevations/sheet-2.webp",
+        "slot": 6
+      },
+      "shops": [
+        {
+          "id": "osm-node-12542984188",
+          "name": "BLUE & GOLD",
+          "supportedName": true,
+          "engineDesign": "inherited/estimated",
+          "perspectiveReview": "not newly reviewed individually"
+        }
+      ],
+      "acceptance": "User review pending; not certified 1:1. Dimensions, ornament shapes, material/typography substitutions and unseen/current details remain estimates."
+    },
+    {
+      "id": 241822340,
+      "address": "51 East 7th Street",
+      "sourceInspection": "archive photograph inspected this session",
+      "sources": [
+        "architecture-241822340"
+      ],
+      "modeledFeatures": {
+        "areawayRail": true,
+        "stoneBands": false
+      },
+      "elevationReview": {
+        "status": "inspected actual engine capture",
+        "projection": "orthographic from the street; not a matched photographic camera",
+        "sheet": "../docs/images/seventh-engine-02/elevations/sheet-3.webp",
+        "slot": 1
+      },
+      "shops": [],
+      "acceptance": "User review pending; not certified 1:1. Dimensions, ornament shapes, material/typography substitutions and unseen/current details remain estimates."
+    },
+    {
+      "id": 241829565,
+      "address": "58 East 7th Street",
+      "sourceInspection": "archive photograph inspected this session",
+      "sources": [
+        "architecture-241829565"
+      ],
+      "modeledFeatures": {
+        "areawayRail": false,
+        "stoneBands": false
+      },
+      "elevationReview": {
+        "status": "inspected actual engine capture",
+        "projection": "orthographic from the street; not a matched photographic camera",
+        "sheet": "../docs/images/seventh-engine-02/elevations/sheet-3.webp",
+        "slot": 2
+      },
+      "shops": [],
+      "acceptance": "User review pending; not certified 1:1. Dimensions, ornament shapes, material/typography substitutions and unseen/current details remain estimates."
+    },
+    {
+      "id": 241829566,
+      "address": "80 East 7th Street",
+      "sourceInspection": "archive photograph inspected this session",
+      "sources": [
+        "architecture-241829566"
+      ],
+      "modeledFeatures": {
+        "areawayRail": false,
+        "stoneBands": false
+      },
+      "elevationReview": {
+        "status": "inspected actual engine capture",
+        "projection": "orthographic from the street; not a matched photographic camera",
+        "sheet": "../docs/images/seventh-engine-02/elevations/sheet-3.webp",
+        "slot": 3
+      },
+      "shops": [
+        {
+          "id": "osm-node-12709183133",
+          "name": "East Village Hats",
+          "supportedName": true,
+          "engineDesign": "seventh-02-241829566-hats",
+          "perspectiveReview": "Inspected actual browser view; interpreted geometry, not a matched photographic camera or accepted 1:1 facade.",
+          "capture": "../docs/images/seventh-engine-02/shops/shop-12709183133.png"
+        }
+      ],
+      "acceptance": "User review pending; not certified 1:1. Dimensions, ornament shapes, material/typography substitutions and unseen/current details remain estimates."
+    },
+    {
+      "id": 241829567,
+      "address": "76 East 7th Street",
+      "sourceInspection": "inherited architectural reference; shop photos separately recorded",
+      "sources": [
+        "architecture-241829567"
+      ],
+      "modeledFeatures": {
+        "areawayRail": false,
+        "stoneBands": false
+      },
+      "elevationReview": {
+        "status": "inspected actual engine capture",
+        "projection": "orthographic from the street; not a matched photographic camera",
+        "sheet": "../docs/images/seventh-engine-02/elevations/sheet-3.webp",
+        "slot": 4
+      },
+      "shops": [],
+      "acceptance": "User review pending; not certified 1:1. Dimensions, ornament shapes, material/typography substitutions and unseen/current details remain estimates."
+    },
+    {
+      "id": 241829572,
+      "address": "62 East 7th Street",
+      "sourceInspection": "archive photograph inspected this session",
+      "sources": [
+        "architecture-241829572"
+      ],
+      "modeledFeatures": {
+        "areawayRail": true,
+        "stoneBands": false
+      },
+      "elevationReview": {
+        "status": "inspected actual engine capture",
+        "projection": "orthographic from the street; not a matched photographic camera",
+        "sheet": "../docs/images/seventh-engine-02/elevations/sheet-3.webp",
+        "slot": 5
+      },
+      "shops": [],
+      "acceptance": "User review pending; not certified 1:1. Dimensions, ornament shapes, material/typography substitutions and unseen/current details remain estimates."
+    },
+    {
+      "id": 241829573,
+      "address": "74 East 7th Street",
+      "sourceInspection": "archive photograph inspected this session",
+      "sources": [
+        "architecture-241829573"
+      ],
+      "modeledFeatures": {
+        "areawayRail": false,
+        "stoneBands": true
+      },
+      "elevationReview": {
+        "status": "inspected actual engine capture",
+        "projection": "orthographic from the street; not a matched photographic camera",
+        "sheet": "../docs/images/seventh-engine-02/elevations/sheet-3.webp",
+        "slot": 6
+      },
+      "shops": [
+        {
+          "id": "osm-node-6916463756",
+          "name": "Setsugekka",
+          "supportedName": true,
+          "engineDesign": "seventh-02-241829573-setsugekka",
+          "perspectiveReview": "Inspected actual browser view; interpreted geometry, not a matched photographic camera or accepted 1:1 facade.",
+          "capture": "../docs/images/seventh-engine-02/shops/shop-6916463756.png"
+        }
+      ],
+      "acceptance": "User review pending; not certified 1:1. Dimensions, ornament shapes, material/typography substitutions and unseen/current details remain estimates."
+    },
+    {
+      "id": 241829574,
+      "address": "72 East 7th Street",
+      "sourceInspection": "archive photograph inspected this session",
+      "sources": [
+        "architecture-241829574"
+      ],
+      "modeledFeatures": {
+        "areawayRail": false,
+        "stoneBands": true
+      },
+      "elevationReview": {
+        "status": "inspected actual engine capture",
+        "projection": "orthographic from the street; not a matched photographic camera",
+        "sheet": "../docs/images/seventh-engine-02/elevations/sheet-4.webp",
+        "slot": 1
+      },
+      "shops": [
+        {
+          "id": "osm-node-4811993324",
+          "name": "Agavi",
+          "supportedName": true,
+          "engineDesign": "seventh-02-241829574-agavi",
+          "perspectiveReview": "Inspected actual browser view; interpreted geometry, not a matched photographic camera or accepted 1:1 facade.",
+          "capture": "../docs/images/seventh-engine-02/shops/shop-4811993324.png"
+        }
+      ],
+      "acceptance": "User review pending; not certified 1:1. Dimensions, ornament shapes, material/typography substitutions and unseen/current details remain estimates."
+    },
+    {
+      "id": 241829575,
+      "address": "50 East 7th Street",
+      "sourceInspection": "archive photograph inspected this session",
+      "sources": [
+        "architecture-241829575"
+      ],
+      "modeledFeatures": {
+        "areawayRail": true,
+        "stoneBands": false,
+        "profile": "asymmetric-50"
+      },
+      "elevationReview": {
+        "status": "inspected actual engine capture",
+        "projection": "orthographic from the street; not a matched photographic camera",
+        "sheet": "../docs/images/seventh-engine-02/elevations/sheet-4.webp",
+        "slot": 2
+      },
+      "shops": [],
+      "acceptance": "User review pending; not certified 1:1. Dimensions, ornament shapes, material/typography substitutions and unseen/current details remain estimates."
+    },
+    {
+      "id": 241829577,
+      "address": "70 East 7th Street",
+      "sourceInspection": "archive photograph inspected this session",
+      "sources": [
+        "architecture-241829577"
+      ],
+      "modeledFeatures": {
+        "areawayRail": false,
+        "stoneBands": true
+      },
+      "elevationReview": {
+        "status": "inspected actual engine capture",
+        "projection": "orthographic from the street; not a matched photographic camera",
+        "sheet": "../docs/images/seventh-engine-02/elevations/sheet-4.webp",
+        "slot": 3
+      },
+      "shops": [],
+      "acceptance": "User review pending; not certified 1:1. Dimensions, ornament shapes, material/typography substitutions and unseen/current details remain estimates."
+    },
+    {
+      "id": 241829579,
+      "address": "66 East 7th Street",
+      "sourceInspection": "archive photograph inspected this session",
+      "sources": [
+        "architecture-241829579"
+      ],
+      "modeledFeatures": {
+        "areawayRail": false,
+        "stoneBands": false
+      },
+      "elevationReview": {
+        "status": "inspected actual engine capture",
+        "projection": "orthographic from the street; not a matched photographic camera",
+        "sheet": "../docs/images/seventh-engine-02/elevations/sheet-4.webp",
+        "slot": 4
+      },
+      "shops": [
+        {
+          "id": "osm-node-12980291801",
+          "name": "Eastside Quality Dry Cleaners",
+          "supportedName": false,
+          "engineDesign": "inherited/estimated",
+          "perspectiveReview": "not newly reviewed individually"
+        }
+      ],
+      "acceptance": "User review pending; not certified 1:1. Dimensions, ornament shapes, material/typography substitutions and unseen/current details remain estimates."
+    },
+    {
+      "id": 241829580,
+      "address": "54 East 7th Street",
+      "sourceInspection": "archive photograph inspected this session",
+      "sources": [
+        "architecture-241829580"
+      ],
+      "modeledFeatures": {
+        "areawayRail": true,
+        "stoneBands": true
+      },
+      "elevationReview": {
+        "status": "inspected actual engine capture",
+        "projection": "orthographic from the street; not a matched photographic camera",
+        "sheet": "../docs/images/seventh-engine-02/elevations/sheet-4.webp",
+        "slot": 5
+      },
+      "shops": [],
+      "acceptance": "User review pending; not certified 1:1. Dimensions, ornament shapes, material/typography substitutions and unseen/current details remain estimates."
+    },
+    {
+      "id": 241829581,
+      "address": "56 East 7th Street",
+      "sourceInspection": "archive photograph inspected this session",
+      "sources": [
+        "architecture-241829581"
+      ],
+      "modeledFeatures": {
+        "areawayRail": true,
+        "stoneBands": true
+      },
+      "elevationReview": {
+        "status": "inspected actual engine capture",
+        "projection": "orthographic from the street; not a matched photographic camera",
+        "sheet": "../docs/images/seventh-engine-02/elevations/sheet-4.webp",
+        "slot": 6
+      },
+      "shops": [],
+      "acceptance": "User review pending; not certified 1:1. Dimensions, ornament shapes, material/typography substitutions and unseen/current details remain estimates."
+    },
+    {
+      "id": 241829582,
+      "address": "52 East 7th Street",
+      "sourceInspection": "archive photograph inspected this session",
+      "sources": [
+        "architecture-241829582"
+      ],
+      "modeledFeatures": {
+        "areawayRail": true,
+        "stoneBands": false
+      },
+      "elevationReview": {
+        "status": "inspected actual engine capture",
+        "projection": "orthographic from the street; not a matched photographic camera",
+        "sheet": "../docs/images/seventh-engine-02/elevations/sheet-5.webp",
+        "slot": 1
+      },
+      "shops": [],
+      "acceptance": "User review pending; not certified 1:1. Dimensions, ornament shapes, material/typography substitutions and unseen/current details remain estimates."
+    },
+    {
+      "id": 241829595,
+      "address": "84 East 7th Street",
+      "sourceInspection": "archive photograph inspected this session",
+      "sources": [
+        "architecture-241829595"
+      ],
+      "modeledFeatures": {
+        "areawayRail": false,
+        "stoneBands": false
+      },
+      "elevationReview": {
+        "status": "inspected actual engine capture",
+        "projection": "orthographic from the street; not a matched photographic camera",
+        "sheet": "../docs/images/seventh-engine-02/elevations/sheet-5.webp",
+        "slot": 2
+      },
+      "shops": [
+        {
+          "id": "osm-node-6053103886",
+          "name": "Goldwater Thriftique",
+          "supportedName": true,
+          "engineDesign": "seventh-02-241829595-goldwater",
+          "perspectiveReview": "Inspected actual browser view; interpreted geometry, not a matched photographic camera or accepted 1:1 facade.",
+          "capture": "../docs/images/seventh-engine-02/shops/shop-6053103886.png"
+        },
+        {
+          "id": "osm-node-12542984186",
+          "name": "Studio duArte",
+          "supportedName": true,
+          "engineDesign": "seventh-02-241829595-duarte",
+          "perspectiveReview": "Inspected actual browser view; interpreted geometry, not a matched photographic camera or accepted 1:1 facade.",
+          "capture": "../docs/images/seventh-engine-02/shops/shop-12542984186.png"
+        }
+      ],
+      "acceptance": "User review pending; not certified 1:1. Dimensions, ornament shapes, material/typography substitutions and unseen/current details remain estimates."
+    },
+    {
+      "id": 241829621,
+      "address": "68 East 7th Street",
+      "sourceInspection": "archive photograph inspected this session",
+      "sources": [
+        "architecture-241829621"
+      ],
+      "modeledFeatures": {
+        "areawayRail": true,
+        "stoneBands": false
+      },
+      "elevationReview": {
+        "status": "inspected actual engine capture",
+        "projection": "orthographic from the street; not a matched photographic camera",
+        "sheet": "../docs/images/seventh-engine-02/elevations/sheet-5.webp",
+        "slot": 3
+      },
+      "shops": [],
+      "acceptance": "User review pending; not certified 1:1. Dimensions, ornament shapes, material/typography substitutions and unseen/current details remain estimates."
+    },
+    {
+      "id": 241829629,
+      "address": "64 East 7th Street",
+      "sourceInspection": "archive photograph inspected this session",
+      "sources": [
+        "architecture-241829629"
+      ],
+      "modeledFeatures": {
+        "areawayRail": true,
+        "stoneBands": false
+      },
+      "elevationReview": {
+        "status": "inspected actual engine capture",
+        "projection": "orthographic from the street; not a matched photographic camera",
+        "sheet": "../docs/images/seventh-engine-02/elevations/sheet-5.webp",
+        "slot": 4
+      },
+      "shops": [],
+      "acceptance": "User review pending; not certified 1:1. Dimensions, ornament shapes, material/typography substitutions and unseen/current details remain estimates."
+    },
+    {
+      "id": 241829631,
+      "address": "86 East 7th Street",
+      "sourceInspection": "archive photograph inspected this session",
+      "sources": [
+        "architecture-241829631"
+      ],
+      "modeledFeatures": {
+        "areawayRail": false,
+        "stoneBands": false
+      },
+      "elevationReview": {
+        "status": "inspected actual engine capture",
+        "projection": "orthographic from the street; not a matched photographic camera",
+        "sheet": "../docs/images/seventh-engine-02/elevations/sheet-5.webp",
+        "slot": 5
+      },
+      "shops": [
+        {
+          "id": "osm-node-2494127817",
+          "name": "Yubu",
+          "supportedName": true,
+          "engineDesign": "existing corner design",
+          "perspectiveReview": "not newly reviewed individually"
+        }
+      ],
+      "acceptance": "User review pending; not certified 1:1. Dimensions, ornament shapes, material/typography substitutions and unseen/current details remain estimates."
+    },
+    {
+      "id": 241829633,
+      "address": "82 East 7th Street",
+      "sourceInspection": "archive photograph inspected this session",
+      "sources": [
+        "architecture-241829633"
+      ],
+      "modeledFeatures": {
+        "areawayRail": false,
+        "stoneBands": false
+      },
+      "elevationReview": {
+        "status": "inspected actual engine capture",
+        "projection": "orthographic from the street; not a matched photographic camera",
+        "sheet": "../docs/images/seventh-engine-02/elevations/sheet-5.webp",
+        "slot": 6
+      },
+      "shops": [],
+      "acceptance": "User review pending; not certified 1:1. Dimensions, ornament shapes, material/typography substitutions and unseen/current details remain estimates."
+    },
+    {
+      "id": 241829643,
+      "address": "48 1/2 East 7th Street",
+      "sourceInspection": "inherited architectural reference; shop photos separately recorded",
+      "sources": [
+        "architecture-241829643"
+      ],
+      "modeledFeatures": {
+        "areawayRail": false,
+        "stoneBands": false
+      },
+      "elevationReview": {
+        "status": "inspected actual engine capture",
+        "projection": "orthographic from the street; not a matched photographic camera",
+        "sheet": "../docs/images/seventh-engine-02/elevations/sheet-6.webp",
+        "slot": 1
+      },
+      "shops": [
+        {
+          "id": "osm-node-2494064642",
+          "name": "Van Leeuwen Ice Cream",
+          "supportedName": true,
+          "engineDesign": "seventh-02-241829643-leeuwen",
+          "perspectiveReview": "Inspected actual browser view; interpreted geometry, not a matched photographic camera or accepted 1:1 facade.",
+          "capture": "../docs/images/seventh-engine-02/shops/shop-2494064642.png"
+        }
+      ],
+      "acceptance": "User review pending; not certified 1:1. Dimensions, ornament shapes, material/typography substitutions and unseen/current details remain estimates."
+    },
+    {
+      "id": 241829665,
+      "address": "60 East 7th Street",
+      "sourceInspection": "archive photograph inspected this session",
+      "sources": [
+        "architecture-241829665"
+      ],
+      "modeledFeatures": {
+        "areawayRail": false,
+        "stoneBands": false
+      },
+      "elevationReview": {
+        "status": "inspected actual engine capture",
+        "projection": "orthographic from the street; not a matched photographic camera",
+        "sheet": "../docs/images/seventh-engine-02/elevations/sheet-6.webp",
+        "slot": 2
+      },
+      "shops": [],
+      "acceptance": "User review pending; not certified 1:1. Dimensions, ornament shapes, material/typography substitutions and unseen/current details remain estimates."
+    },
+    {
+      "id": 241833274,
+      "address": "43 East 7th Street",
+      "sourceInspection": "archive photograph inspected this session",
+      "sources": [
+        "architecture-241833274"
+      ],
+      "modeledFeatures": {
+        "areawayRail": false,
+        "stoneBands": false
+      },
+      "elevationReview": {
+        "status": "inspected actual engine capture",
+        "projection": "orthographic from the street; not a matched photographic camera",
+        "sheet": "../docs/images/seventh-engine-02/elevations/sheet-6.webp",
+        "slot": 3
+      },
+      "shops": [
+        {
+          "id": "osm-node-879680036",
+          "name": "Standings",
+          "supportedName": true,
+          "engineDesign": "inherited/estimated",
+          "perspectiveReview": "not newly reviewed individually"
+        },
+        {
+          "id": "osm-node-879705916",
+          "name": "Burp Castle",
+          "supportedName": true,
+          "engineDesign": "inherited/estimated",
+          "perspectiveReview": "not newly reviewed individually"
+        }
+      ],
+      "acceptance": "User review pending; not certified 1:1. Dimensions, ornament shapes, material/typography substitutions and unseen/current details remain estimates."
+    },
+    {
+      "id": 241833299,
+      "address": "117 2nd Avenue",
+      "sourceInspection": "inherited architectural reference; shop photos separately recorded",
+      "sources": [
+        "architecture-241833299"
+      ],
+      "modeledFeatures": {
+        "areawayRail": false,
+        "stoneBands": false
+      },
+      "elevationReview": {
+        "status": "inspected actual engine capture",
+        "projection": "orthographic from the street; not a matched photographic camera",
+        "sheet": "../docs/images/seventh-engine-02/elevations/sheet-6.webp",
+        "slot": 4
+      },
+      "shops": [],
+      "acceptance": "User review pending; not certified 1:1. Dimensions, ornament shapes, material/typography substitutions and unseen/current details remain estimates."
+    },
+    {
+      "id": 241833322,
+      "address": "46 East 7th Street",
+      "sourceInspection": "inherited architectural reference; shop photos separately recorded",
+      "sources": [
+        "architecture-241833322"
+      ],
+      "modeledFeatures": {
+        "areawayRail": false,
+        "stoneBands": false
+      },
+      "elevationReview": {
+        "status": "inspected actual engine capture",
+        "projection": "orthographic from the street; not a matched photographic camera",
+        "sheet": "../docs/images/seventh-engine-02/elevations/sheet-6.webp",
+        "slot": 5
+      },
+      "shops": [],
+      "acceptance": "User review pending; not certified 1:1. Dimensions, ornament shapes, material/typography substitutions and unseen/current details remain estimates."
+    },
+    {
+      "id": 248142313,
+      "address": "100 East 7th Street",
+      "sourceInspection": "archive photograph inspected this session",
+      "sources": [
+        "architecture-248142313"
+      ],
+      "modeledFeatures": {
+        "areawayRail": true,
+        "stoneBands": false
+      },
+      "elevationReview": {
+        "status": "inspected actual engine capture",
+        "projection": "orthographic from the street; not a matched photographic camera",
+        "sheet": "../docs/images/seventh-engine-02/elevations/sheet-6.webp",
+        "slot": 6
+      },
+      "shops": [],
+      "acceptance": "User review pending; not certified 1:1. Dimensions, ornament shapes, material/typography substitutions and unseen/current details remain estimates."
+    },
+    {
+      "id": 248142319,
+      "address": "102 East 7th Street",
+      "sourceInspection": "archive photograph inspected this session",
+      "sources": [
+        "architecture-248142319"
+      ],
+      "modeledFeatures": {
+        "areawayRail": false,
+        "stoneBands": false
+      },
+      "elevationReview": {
+        "status": "inspected actual engine capture",
+        "projection": "orthographic from the street; not a matched photographic camera",
+        "sheet": "../docs/images/seventh-engine-02/elevations/sheet-7.webp",
+        "slot": 1
+      },
+      "shops": [
+        {
+          "id": "osm-node-12980265002",
+          "name": "Maza Mexican Restaurant",
+          "supportedName": false,
+          "engineDesign": "inherited/estimated",
+          "perspectiveReview": "not newly reviewed individually"
+        }
+      ],
+      "acceptance": "User review pending; not certified 1:1. Dimensions, ornament shapes, material/typography substitutions and unseen/current details remain estimates."
+    },
+    {
+      "id": 248142322,
+      "address": "104 East 7th Street",
+      "sourceInspection": "archive photograph inspected this session",
+      "sources": [
+        "architecture-248142322"
+      ],
+      "modeledFeatures": {
+        "areawayRail": true,
+        "stoneBands": false
+      },
+      "elevationReview": {
+        "status": "inspected actual engine capture",
+        "projection": "orthographic from the street; not a matched photographic camera",
+        "sheet": "../docs/images/seventh-engine-02/elevations/sheet-7.webp",
+        "slot": 2
+      },
+      "shops": [],
+      "acceptance": "User review pending; not certified 1:1. Dimensions, ornament shapes, material/typography substitutions and unseen/current details remain estimates."
+    },
+    {
+      "id": 248142324,
+      "address": "106 East 7th Street",
+      "sourceInspection": "archive photograph inspected this session",
+      "sources": [
+        "architecture-248142324"
+      ],
+      "modeledFeatures": {
+        "areawayRail": false,
+        "stoneBands": false
+      },
+      "elevationReview": {
+        "status": "inspected actual engine capture",
+        "projection": "orthographic from the street; not a matched photographic camera",
+        "sheet": "../docs/images/seventh-engine-02/elevations/sheet-7.webp",
+        "slot": 3
+      },
+      "shops": [],
+      "acceptance": "User review pending; not certified 1:1. Dimensions, ornament shapes, material/typography substitutions and unseen/current details remain estimates."
+    },
+    {
+      "id": 248142328,
+      "address": "110 East 7th Street",
+      "sourceInspection": "archive photograph inspected this session",
+      "sources": [
+        "architecture-248142328"
+      ],
+      "modeledFeatures": {
+        "areawayRail": false,
+        "stoneBands": false
+      },
+      "elevationReview": {
+        "status": "inspected actual engine capture",
+        "projection": "orthographic from the street; not a matched photographic camera",
+        "sheet": "../docs/images/seventh-engine-02/elevations/sheet-7.webp",
+        "slot": 4
+      },
+      "shops": [
+        {
+          "id": "osm-node-6583001086",
+          "name": "Ho Foods",
+          "supportedName": true,
+          "engineDesign": "seventh-02-248142328-ho-foods",
+          "perspectiveReview": "Inspected actual browser view; interpreted geometry, not a matched photographic camera or accepted 1:1 facade.",
+          "capture": "../docs/images/seventh-engine-02/shops/shop-6583001086.png"
+        }
+      ],
+      "acceptance": "User review pending; not certified 1:1. Dimensions, ornament shapes, material/typography substitutions and unseen/current details remain estimates."
+    },
+    {
+      "id": 248142330,
+      "address": "112 East 7th Street",
+      "sourceInspection": "archive photograph inspected this session",
+      "sources": [
+        "architecture-248142330"
+      ],
+      "modeledFeatures": {
+        "areawayRail": true,
+        "stoneBands": false
+      },
+      "elevationReview": {
+        "status": "inspected actual engine capture",
+        "projection": "orthographic from the street; not a matched photographic camera",
+        "sheet": "../docs/images/seventh-engine-02/elevations/sheet-7.webp",
+        "slot": 5
+      },
+      "shops": [],
+      "acceptance": "User review pending; not certified 1:1. Dimensions, ornament shapes, material/typography substitutions and unseen/current details remain estimates."
+    },
+    {
+      "id": 248142332,
+      "address": "114 East 7th Street",
+      "sourceInspection": "archive photograph inspected this session",
+      "sources": [
+        "architecture-248142332"
+      ],
+      "modeledFeatures": {
+        "areawayRail": true,
+        "stoneBands": false
+      },
+      "elevationReview": {
+        "status": "inspected actual engine capture",
+        "projection": "orthographic from the street; not a matched photographic camera",
+        "sheet": "../docs/images/seventh-engine-02/elevations/sheet-7.webp",
+        "slot": 6
+      },
+      "shops": [],
+      "acceptance": "User review pending; not certified 1:1. Dimensions, ornament shapes, material/typography substitutions and unseen/current details remain estimates."
+    },
+    {
+      "id": 248142333,
+      "address": "118 East 7th Street",
+      "sourceInspection": "archive photograph inspected this session",
+      "sources": [
+        "architecture-248142333"
+      ],
+      "modeledFeatures": {
+        "areawayRail": false,
+        "stoneBands": false
+      },
+      "elevationReview": {
+        "status": "inspected actual engine capture",
+        "projection": "orthographic from the street; not a matched photographic camera",
+        "sheet": "../docs/images/seventh-engine-02/elevations/sheet-8.webp",
+        "slot": 1
+      },
+      "shops": [],
+      "acceptance": "User review pending; not certified 1:1. Dimensions, ornament shapes, material/typography substitutions and unseen/current details remain estimates."
+    },
+    {
+      "id": 248142334,
+      "address": "120 East 7th Street",
+      "sourceInspection": "archive photograph inspected this session",
+      "sources": [
+        "architecture-248142334"
+      ],
+      "modeledFeatures": {
+        "areawayRail": false,
+        "stoneBands": false
+      },
+      "elevationReview": {
+        "status": "inspected actual engine capture",
+        "projection": "orthographic from the street; not a matched photographic camera",
+        "sheet": "../docs/images/seventh-engine-02/elevations/sheet-8.webp",
+        "slot": 2
+      },
+      "shops": [],
+      "acceptance": "User review pending; not certified 1:1. Dimensions, ornament shapes, material/typography substitutions and unseen/current details remain estimates."
+    },
+    {
+      "id": 248142335,
+      "address": "122 East 7th Street",
+      "sourceInspection": "archive photograph inspected this session",
+      "sources": [
+        "architecture-248142335"
+      ],
+      "modeledFeatures": {
+        "areawayRail": false,
+        "stoneBands": false
+      },
+      "elevationReview": {
+        "status": "inspected actual engine capture",
+        "projection": "orthographic from the street; not a matched photographic camera",
+        "sheet": "../docs/images/seventh-engine-02/elevations/sheet-8.webp",
+        "slot": 3
+      },
+      "shops": [
+        {
+          "id": "osm-node-13075288501",
+          "name": "Jones St. Wine Bar & Room",
+          "supportedName": false,
+          "engineDesign": "inherited/estimated",
+          "perspectiveReview": "not newly reviewed individually"
+        }
+      ],
+      "acceptance": "User review pending; not certified 1:1. Dimensions, ornament shapes, material/typography substitutions and unseen/current details remain estimates."
+    },
+    {
+      "id": 248142336,
+      "address": "126 East 7th Street",
+      "sourceInspection": "archive photograph inspected this session",
+      "sources": [
+        "architecture-248142336"
+      ],
+      "modeledFeatures": {
+        "areawayRail": false,
+        "stoneBands": false
+      },
+      "elevationReview": {
+        "status": "inspected actual engine capture",
+        "projection": "orthographic from the street; not a matched photographic camera",
+        "sheet": "../docs/images/seventh-engine-02/elevations/sheet-8.webp",
+        "slot": 4
+      },
+      "shops": [
+        {
+          "id": "osm-node-10090555738",
+          "name": "Giano",
+          "supportedName": false,
+          "engineDesign": "inherited/estimated",
+          "perspectiveReview": "not newly reviewed individually"
+        }
+      ],
+      "acceptance": "User review pending; not certified 1:1. Dimensions, ornament shapes, material/typography substitutions and unseen/current details remain estimates."
+    },
+    {
+      "id": 248142337,
+      "address": "128 East 7th Street",
+      "sourceInspection": "inherited architectural reference; shop photos separately recorded",
+      "sources": [
+        "architecture-248142337"
+      ],
+      "modeledFeatures": {
+        "areawayRail": false,
+        "stoneBands": false
+      },
+      "elevationReview": {
+        "status": "inspected actual engine capture",
+        "projection": "orthographic from the street; not a matched photographic camera",
+        "sheet": "../docs/images/seventh-engine-02/elevations/sheet-8.webp",
+        "slot": 5
+      },
+      "shops": [
+        {
+          "id": "osm-node-10090555737",
+          "name": "Pylos Restaurant",
+          "supportedName": true,
+          "engineDesign": "seventh-02-248142337-pylos",
+          "perspectiveReview": "Inspected actual browser view; interpreted geometry, not a matched photographic camera or accepted 1:1 facade.",
+          "capture": "../docs/images/seventh-engine-02/shops/shop-10090555737.png"
+        }
+      ],
+      "acceptance": "User review pending; not certified 1:1. Dimensions, ornament shapes, material/typography substitutions and unseen/current details remain estimates."
+    },
+    {
+      "id": 248142338,
+      "address": "140 East 7th Street",
+      "sourceInspection": "archive photograph inspected this session",
+      "sources": [
+        "architecture-248142338"
+      ],
+      "modeledFeatures": {
+        "areawayRail": false,
+        "stoneBands": false
+      },
+      "elevationReview": {
+        "status": "inspected actual engine capture",
+        "projection": "orthographic from the street; not a matched photographic camera",
+        "sheet": "../docs/images/seventh-engine-02/elevations/sheet-8.webp",
+        "slot": 6
+      },
+      "shops": [],
+      "acceptance": "User review pending; not certified 1:1. Dimensions, ornament shapes, material/typography substitutions and unseen/current details remain estimates."
+    },
+    {
+      "id": 248142390,
+      "address": "94 East 7th Street",
+      "sourceInspection": "archive photograph inspected this session",
+      "sources": [
+        "architecture-248142390"
+      ],
+      "modeledFeatures": {
+        "areawayRail": true,
+        "stoneBands": false
+      },
+      "elevationReview": {
+        "status": "inspected actual engine capture",
+        "projection": "orthographic from the street; not a matched photographic camera",
+        "sheet": "../docs/images/seventh-engine-02/elevations/sheet-9.webp",
+        "slot": 1
+      },
+      "shops": [],
+      "acceptance": "User review pending; not certified 1:1. Dimensions, ornament shapes, material/typography substitutions and unseen/current details remain estimates."
+    },
+    {
+      "id": 248142393,
+      "address": "96 East 7th Street",
+      "sourceInspection": "archive photograph inspected this session",
+      "sources": [
+        "architecture-248142393"
+      ],
+      "modeledFeatures": {
+        "areawayRail": true,
+        "stoneBands": false
+      },
+      "elevationReview": {
+        "status": "inspected actual engine capture",
+        "projection": "orthographic from the street; not a matched photographic camera",
+        "sheet": "../docs/images/seventh-engine-02/elevations/sheet-9.webp",
+        "slot": 2
+      },
+      "shops": [
+        {
+          "id": "osm-node-9161604572",
+          "name": "Trash and Vaudville",
+          "supportedName": true,
+          "engineDesign": "seventh-02-248142393-trash",
+          "perspectiveReview": "Inspected actual browser view; interpreted geometry, not a matched photographic camera or accepted 1:1 facade.",
+          "capture": "../docs/images/seventh-engine-02/shops/shop-9161604572.png"
+        }
+      ],
+      "acceptance": "User review pending; not certified 1:1. Dimensions, ornament shapes, material/typography substitutions and unseen/current details remain estimates."
+    },
+    {
+      "id": 248142396,
+      "address": "98 East 7th Street",
+      "sourceInspection": "archive photograph inspected this session",
+      "sources": [
+        "architecture-248142396"
+      ],
+      "modeledFeatures": {
+        "areawayRail": true,
+        "stoneBands": false
+      },
+      "elevationReview": {
+        "status": "inspected actual engine capture",
+        "projection": "orthographic from the street; not a matched photographic camera",
+        "sheet": "../docs/images/seventh-engine-02/elevations/sheet-9.webp",
+        "slot": 3
+      },
+      "shops": [],
+      "acceptance": "User review pending; not certified 1:1. Dimensions, ornament shapes, material/typography substitutions and unseen/current details remain estimates."
+    },
+    {
+      "id": 248142404,
+      "address": "116 1st Avenue",
+      "sourceInspection": "inherited architectural reference; shop photos separately recorded",
+      "sources": [
+        "architecture-248142404"
+      ],
+      "modeledFeatures": {
+        "areawayRail": false,
+        "stoneBands": false
+      },
+      "elevationReview": {
+        "status": "inspected actual engine capture",
+        "projection": "orthographic from the street; not a matched photographic camera",
+        "sheet": "../docs/images/seventh-engine-02/elevations/sheet-9.webp",
+        "slot": 4
+      },
+      "shops": [],
+      "acceptance": "User review pending; not certified 1:1. Dimensions, ornament shapes, material/typography substitutions and unseen/current details remain estimates."
+    },
+    {
+      "id": 248142407,
+      "address": "109 Avenue A",
+      "sourceInspection": "archive photograph inspected this session",
+      "sources": [
+        "architecture-248142407"
+      ],
+      "modeledFeatures": {
+        "areawayRail": false,
+        "stoneBands": true
+      },
+      "elevationReview": {
+        "status": "inspected actual engine capture",
+        "projection": "orthographic from the street; not a matched photographic camera",
+        "sheet": "../docs/images/seventh-engine-02/elevations/sheet-9.webp",
+        "slot": 5
+      },
+      "shops": [
+        {
+          "id": "osm-node-12994866301",
+          "name": "Titi’s Empanadas",
+          "supportedName": true,
+          "engineDesign": "seventh-02-248142407-titi",
+          "perspectiveReview": "Inspected actual browser view; interpreted geometry, not a matched photographic camera or accepted 1:1 facade.",
+          "capture": "../docs/images/seventh-engine-02/shops/shop-12994866301.png"
+        }
+      ],
+      "acceptance": "User review pending; not certified 1:1. Dimensions, ornament shapes, material/typography substitutions and unseen/current details remain estimates."
+    },
+    {
+      "id": 248142411,
+      "address": "",
+      "sourceInspection": "archive photograph inspected this session",
+      "sources": [
+        "architecture-248142411"
+      ],
+      "modeledFeatures": {
+        "areawayRail": true,
+        "stoneBands": false
+      },
+      "elevationReview": {
+        "status": "inspected actual engine capture",
+        "projection": "orthographic from the street; not a matched photographic camera",
+        "sheet": "../docs/images/seventh-engine-02/elevations/sheet-9.webp",
+        "slot": 6
+      },
+      "shops": [],
+      "acceptance": "User review pending; not certified 1:1. Dimensions, ornament shapes, material/typography substitutions and unseen/current details remain estimates."
+    },
+    {
+      "id": 248142412,
+      "address": "112 Avenue A",
+      "sourceInspection": "inherited architectural reference; shop photos separately recorded",
+      "sources": [
+        "architecture-248142412"
+      ],
+      "modeledFeatures": {
+        "areawayRail": false,
+        "stoneBands": false
+      },
+      "elevationReview": {
+        "status": "inspected actual engine capture",
+        "projection": "orthographic from the street; not a matched photographic camera",
+        "sheet": "../docs/images/seventh-engine-02/elevations/sheet-10.webp",
+        "slot": 1
+      },
+      "shops": [
+        {
+          "id": "osm-node-11067172705",
+          "name": "Lovers of Today",
+          "supportedName": true,
+          "engineDesign": "inherited/estimated",
+          "perspectiveReview": "not newly reviewed individually"
+        }
+      ],
+      "acceptance": "User review pending; not certified 1:1. Dimensions, ornament shapes, material/typography substitutions and unseen/current details remain estimates."
+    },
+    {
+      "id": 248142615,
+      "address": "101 East 7th Street",
+      "sourceInspection": "archive photograph inspected this session",
+      "sources": [
+        "architecture-248142615"
+      ],
+      "modeledFeatures": {
+        "areawayRail": true,
+        "stoneBands": false
+      },
+      "elevationReview": {
+        "status": "inspected actual engine capture",
+        "projection": "orthographic from the street; not a matched photographic camera",
+        "sheet": "../docs/images/seventh-engine-02/elevations/sheet-10.webp",
+        "slot": 2
+      },
+      "shops": [],
+      "acceptance": "User review pending; not certified 1:1. Dimensions, ornament shapes, material/typography substitutions and unseen/current details remain estimates."
+    },
+    {
+      "id": 248142618,
+      "address": "107 East 7th Street",
+      "sourceInspection": "inherited architectural reference; shop photos separately recorded",
+      "sources": [
+        "architecture-248142618"
+      ],
+      "modeledFeatures": {
+        "areawayRail": false,
+        "stoneBands": false
+      },
+      "elevationReview": {
+        "status": "inspected actual engine capture",
+        "projection": "orthographic from the street; not a matched photographic camera",
+        "sheet": "../docs/images/seventh-engine-02/elevations/sheet-10.webp",
+        "slot": 3
+      },
+      "shops": [],
+      "acceptance": "User review pending; not certified 1:1. Dimensions, ornament shapes, material/typography substitutions and unseen/current details remain estimates."
+    },
+    {
+      "id": 248142621,
+      "address": "101 East 7th Street",
+      "sourceInspection": "inherited architectural reference; shop photos separately recorded",
+      "sources": [
+        "architecture-248142621"
+      ],
+      "modeledFeatures": {
+        "areawayRail": false,
+        "stoneBands": false
+      },
+      "elevationReview": {
+        "status": "inspected actual engine capture",
+        "projection": "orthographic from the street; not a matched photographic camera",
+        "sheet": "../docs/images/seventh-engine-02/elevations/sheet-10.webp",
+        "slot": 4
+      },
+      "shops": [],
+      "acceptance": "User review pending; not certified 1:1. Dimensions, ornament shapes, material/typography substitutions and unseen/current details remain estimates."
+    },
+    {
+      "id": 248142624,
+      "address": "111 East 7th Street",
+      "sourceInspection": "inherited architectural reference; shop photos separately recorded",
+      "sources": [
+        "architecture-248142624"
+      ],
+      "modeledFeatures": {
+        "areawayRail": false,
+        "stoneBands": true
+      },
+      "elevationReview": {
+        "status": "inspected actual engine capture",
+        "projection": "orthographic from the street; not a matched photographic camera",
+        "sheet": "../docs/images/seventh-engine-02/elevations/sheet-10.webp",
+        "slot": 5
+      },
+      "shops": [
+        {
+          "id": "osm-node-11270580267",
+          "name": "Ladybird",
+          "supportedName": true,
+          "engineDesign": "seventh-02-248142624-ladybird",
+          "perspectiveReview": "Inspected actual browser view; interpreted geometry, not a matched photographic camera or accepted 1:1 facade.",
+          "capture": "../docs/images/seventh-engine-02/shops/shop-11270580267.png"
+        },
+        {
+          "id": "osm-node-11270580268",
+          "name": "Cadence",
+          "supportedName": false,
+          "engineDesign": "inherited/estimated",
+          "perspectiveReview": "not newly reviewed individually"
+        }
+      ],
+      "acceptance": "User review pending; not certified 1:1. Dimensions, ornament shapes, material/typography substitutions and unseen/current details remain estimates."
+    },
+    {
+      "id": 248142633,
+      "address": "117 East 7th Street",
+      "sourceInspection": "inherited architectural reference; shop photos separately recorded",
+      "sources": [
+        "architecture-248142633"
+      ],
+      "modeledFeatures": {
+        "areawayRail": false,
+        "stoneBands": false
+      },
+      "elevationReview": {
+        "status": "inspected actual engine capture",
+        "projection": "orthographic from the street; not a matched photographic camera",
+        "sheet": "../docs/images/seventh-engine-02/elevations/sheet-10.webp",
+        "slot": 6
+      },
+      "shops": [
+        {
+          "id": "osm-node-4811903022",
+          "name": "Los Tacos NYC",
+          "supportedName": false,
+          "engineDesign": "inherited/estimated",
+          "perspectiveReview": "not newly reviewed individually"
+        }
+      ],
+      "acceptance": "User review pending; not certified 1:1. Dimensions, ornament shapes, material/typography substitutions and unseen/current details remain estimates."
+    },
+    {
+      "id": 248142640,
+      "address": "121 East 7th Street",
+      "sourceInspection": "inherited architectural reference; shop photos separately recorded",
+      "sources": [
+        "architecture-248142640"
+      ],
+      "modeledFeatures": {
+        "areawayRail": false,
+        "stoneBands": false
+      },
+      "elevationReview": {
+        "status": "inspected actual engine capture",
+        "projection": "orthographic from the street; not a matched photographic camera",
+        "sheet": "../docs/images/seventh-engine-02/elevations/sheet-11.webp",
+        "slot": 1
+      },
+      "shops": [],
+      "acceptance": "User review pending; not certified 1:1. Dimensions, ornament shapes, material/typography substitutions and unseen/current details remain estimates."
+    },
+    {
+      "id": 248142645,
+      "address": "123 East 7th Street",
+      "sourceInspection": "archive photograph inspected this session",
+      "sources": [
+        "architecture-248142645"
+      ],
+      "modeledFeatures": {
+        "areawayRail": false,
+        "stoneBands": false
+      },
+      "elevationReview": {
+        "status": "inspected actual engine capture",
+        "projection": "orthographic from the street; not a matched photographic camera",
+        "sheet": "../docs/images/seventh-engine-02/elevations/sheet-11.webp",
+        "slot": 2
+      },
+      "shops": [],
+      "acceptance": "User review pending; not certified 1:1. Dimensions, ornament shapes, material/typography substitutions and unseen/current details remain estimates."
+    },
+    {
+      "id": 248142647,
+      "address": "125 East 7th Street",
+      "sourceInspection": "archive photograph inspected this session",
+      "sources": [
+        "architecture-248142647"
+      ],
+      "modeledFeatures": {
+        "areawayRail": false,
+        "stoneBands": false
+      },
+      "elevationReview": {
+        "status": "inspected actual engine capture",
+        "projection": "orthographic from the street; not a matched photographic camera",
+        "sheet": "../docs/images/seventh-engine-02/elevations/sheet-11.webp",
+        "slot": 3
+      },
+      "shops": [],
+      "acceptance": "User review pending; not certified 1:1. Dimensions, ornament shapes, material/typography substitutions and unseen/current details remain estimates."
+    },
+    {
+      "id": 248142650,
+      "address": "127 East 7th Street",
+      "sourceInspection": "archive photograph inspected this session",
+      "sources": [
+        "architecture-248142650"
+      ],
+      "modeledFeatures": {
+        "areawayRail": false,
+        "stoneBands": false
+      },
+      "elevationReview": {
+        "status": "inspected actual engine capture",
+        "projection": "orthographic from the street; not a matched photographic camera",
+        "sheet": "../docs/images/seventh-engine-02/elevations/sheet-11.webp",
+        "slot": 4
+      },
+      "shops": [],
+      "acceptance": "User review pending; not certified 1:1. Dimensions, ornament shapes, material/typography substitutions and unseen/current details remain estimates."
+    },
+    {
+      "id": 248142653,
+      "address": "129 East 7th Street",
+      "sourceInspection": "archive photograph inspected this session",
+      "sources": [
+        "architecture-248142653"
+      ],
+      "modeledFeatures": {
+        "areawayRail": false,
+        "stoneBands": false
+      },
+      "elevationReview": {
+        "status": "inspected actual engine capture",
+        "projection": "orthographic from the street; not a matched photographic camera",
+        "sheet": "../docs/images/seventh-engine-02/elevations/sheet-11.webp",
+        "slot": 5
+      },
+      "shops": [],
+      "acceptance": "User review pending; not certified 1:1. Dimensions, ornament shapes, material/typography substitutions and unseen/current details remain estimates."
+    },
+    {
+      "id": 248142656,
+      "address": "131 East 7th Street",
+      "sourceInspection": "inherited architectural reference; shop photos separately recorded",
+      "sources": [
+        "architecture-248142656"
+      ],
+      "modeledFeatures": {
+        "areawayRail": false,
+        "stoneBands": false
+      },
+      "elevationReview": {
+        "status": "inspected actual engine capture",
+        "projection": "orthographic from the street; not a matched photographic camera",
+        "sheet": "../docs/images/seventh-engine-02/elevations/sheet-11.webp",
+        "slot": 6
+      },
+      "shops": [
+        {
+          "id": "osm-node-6558563123",
+          "name": "787 Coffee Co.",
+          "supportedName": true,
+          "engineDesign": "seventh-02-248142656-787",
+          "perspectiveReview": "Inspected actual browser view; interpreted geometry, not a matched photographic camera or accepted 1:1 facade.",
+          "capture": "../docs/images/seventh-engine-02/shops/shop-6558563123.png"
+        }
+      ],
+      "acceptance": "User review pending; not certified 1:1. Dimensions, ornament shapes, material/typography substitutions and unseen/current details remain estimates."
+    },
+    {
+      "id": 248142690,
+      "address": "95 East 7th Street",
+      "sourceInspection": "archive photograph inspected this session",
+      "sources": [
+        "architecture-248142690"
+      ],
+      "modeledFeatures": {
+        "areawayRail": true,
+        "stoneBands": false
+      },
+      "elevationReview": {
+        "status": "inspected actual engine capture",
+        "projection": "orthographic from the street; not a matched photographic camera",
+        "sheet": "../docs/images/seventh-engine-02/elevations/sheet-12.webp",
+        "slot": 1
+      },
+      "shops": [],
+      "acceptance": "User review pending; not certified 1:1. Dimensions, ornament shapes, material/typography substitutions and unseen/current details remain estimates."
+    },
+    {
+      "id": 248142693,
+      "address": "97 1/2 East 7th Street",
+      "sourceInspection": "inherited architectural reference; shop photos separately recorded",
+      "sources": [
+        "architecture-248142693"
+      ],
+      "modeledFeatures": {
+        "areawayRail": true,
+        "stoneBands": false
+      },
+      "elevationReview": {
+        "status": "inspected actual engine capture",
+        "projection": "orthographic from the street; not a matched photographic camera",
+        "sheet": "../docs/images/seventh-engine-02/elevations/sheet-12.webp",
+        "slot": 2
+      },
+      "shops": [],
+      "acceptance": "User review pending; not certified 1:1. Dimensions, ornament shapes, material/typography substitutions and unseen/current details remain estimates."
+    },
+    {
+      "id": 248142697,
+      "address": "99 East 7th Street",
+      "sourceInspection": "archive photograph inspected this session",
+      "sources": [
+        "architecture-248142697"
+      ],
+      "modeledFeatures": {
+        "areawayRail": true,
+        "stoneBands": false
+      },
+      "elevationReview": {
+        "status": "inspected actual engine capture",
+        "projection": "orthographic from the street; not a matched photographic camera",
+        "sheet": "../docs/images/seventh-engine-02/elevations/sheet-12.webp",
+        "slot": 3
+      },
+      "shops": [],
+      "acceptance": "User review pending; not certified 1:1. Dimensions, ornament shapes, material/typography substitutions and unseen/current details remain estimates."
+    },
+    {
+      "id": 248142701,
+      "address": "97 East 7th Street",
+      "sourceInspection": "archive photograph inspected this session",
+      "sources": [
+        "architecture-248142701"
+      ],
+      "modeledFeatures": {
+        "areawayRail": true,
+        "stoneBands": false
+      },
+      "elevationReview": {
+        "status": "inspected actual engine capture",
+        "projection": "orthographic from the street; not a matched photographic camera",
+        "sheet": "../docs/images/seventh-engine-02/elevations/sheet-12.webp",
+        "slot": 4
+      },
+      "shops": [],
+      "acceptance": "User review pending; not certified 1:1. Dimensions, ornament shapes, material/typography substitutions and unseen/current details remain estimates."
+    },
+    {
+      "id": 248142707,
+      "address": "118 1st Avenue",
+      "sourceInspection": "archive photograph inspected this session",
+      "sources": [
+        "architecture-248142707"
+      ],
+      "modeledFeatures": {
+        "areawayRail": false,
+        "stoneBands": false
+      },
+      "elevationReview": {
+        "status": "inspected actual engine capture",
+        "projection": "orthographic from the street; not a matched photographic camera",
+        "sheet": "../docs/images/seventh-engine-02/elevations/sheet-12.webp",
+        "slot": 5
+      },
+      "shops": [
+        {
+          "id": "osm-node-9708208979",
+          "name": "7th Street Burger",
+          "supportedName": true,
+          "engineDesign": "existing corner design",
+          "perspectiveReview": "not newly reviewed individually"
+        }
+      ],
+      "acceptance": "User review pending; not certified 1:1. Dimensions, ornament shapes, material/typography substitutions and unseen/current details remain estimates."
+    },
+    {
+      "id": 248142714,
+      "address": "111 Avenue A",
+      "sourceInspection": "archive photograph inspected this session",
+      "sources": [
+        "architecture-248142714"
+      ],
+      "modeledFeatures": {
+        "areawayRail": false,
+        "stoneBands": false
+      },
+      "elevationReview": {
+        "status": "inspected actual engine capture",
+        "projection": "orthographic from the street; not a matched photographic camera",
+        "sheet": "../docs/images/seventh-engine-02/elevations/sheet-12.webp",
+        "slot": 6
+      },
+      "shops": [],
+      "acceptance": "User review pending; not certified 1:1. Dimensions, ornament shapes, material/typography substitutions and unseen/current details remain estimates."
+    },
+    {
+      "id": 248142715,
+      "address": "93 East 7th Street",
+      "sourceInspection": "archive photograph inspected this session",
+      "sources": [
+        "architecture-248142715"
+      ],
+      "modeledFeatures": {
+        "areawayRail": false,
+        "stoneBands": false
+      },
+      "elevationReview": {
+        "status": "inspected actual engine capture",
+        "projection": "orthographic from the street; not a matched photographic camera",
+        "sheet": "../docs/images/seventh-engine-02/elevations/sheet-13.webp",
+        "slot": 1
+      },
+      "shops": [
+        {
+          "id": "osm-node-1109836197",
+          "name": "Baonanas",
+          "supportedName": false,
+          "engineDesign": "inherited/estimated",
+          "perspectiveReview": "not newly reviewed individually"
+        },
+        {
+          "id": "osm-node-12368232423",
+          "name": "Mary O’s Irish Soda Bread Shop",
+          "supportedName": false,
+          "engineDesign": "inherited/estimated",
+          "perspectiveReview": "not newly reviewed individually"
+        }
+      ],
+      "acceptance": "User review pending; not certified 1:1. Dimensions, ornament shapes, material/typography substitutions and unseen/current details remain estimates."
+    },
+    {
+      "id": 951679435,
+      "address": "92 East 7th Street",
+      "sourceInspection": "archive photograph inspected this session",
+      "sources": [
+        "architecture-951679435"
+      ],
+      "modeledFeatures": {
+        "areawayRail": false,
+        "stoneBands": false
+      },
+      "elevationReview": {
+        "status": "inspected actual engine capture",
+        "projection": "orthographic from the street; not a matched photographic camera",
+        "sheet": "../docs/images/seventh-engine-02/elevations/sheet-13.webp",
+        "slot": 2
+      },
+      "shops": [],
+      "acceptance": "User review pending; not certified 1:1. Dimensions, ornament shapes, material/typography substitutions and unseen/current details remain estimates."
+    },
+    {
+      "id": 978475216,
+      "address": "45 East 7th Street",
+      "sourceInspection": "archive photograph inspected this session",
+      "sources": [
+        "architecture-978475216"
+      ],
+      "modeledFeatures": {
+        "areawayRail": false,
+        "stoneBands": false
+      },
+      "elevationReview": {
+        "status": "inspected actual engine capture",
+        "projection": "orthographic from the street; not a matched photographic camera",
+        "sheet": "../docs/images/seventh-engine-02/elevations/sheet-13.webp",
+        "slot": 3
+      },
+      "shops": [],
+      "acceptance": "User review pending; not certified 1:1. Dimensions, ornament shapes, material/typography substitutions and unseen/current details remain estimates."
+    },
+    {
+      "id": -177966,
+      "address": "73-75 East 7th Street",
+      "sourceInspection": "archive photograph inspected this session",
+      "sources": [
+        "architecture--177966"
+      ],
+      "modeledFeatures": {
+        "areawayRail": false,
+        "stoneBands": true
+      },
+      "elevationReview": {
+        "status": "inspected actual engine capture",
+        "projection": "orthographic from the street; not a matched photographic camera",
+        "sheet": "../docs/images/seventh-engine-02/elevations/sheet-13.webp",
+        "slot": 4
+      },
+      "shops": [
+        {
+          "id": "osm-node-12542984187",
+          "name": "Redge Salon",
+          "supportedName": false,
+          "engineDesign": "inherited/estimated",
+          "perspectiveReview": "not newly reviewed individually"
+        },
+        {
+          "id": "osm-node-12542984190",
+          "name": "BIG BAR",
+          "supportedName": true,
+          "engineDesign": "inherited/estimated",
+          "perspectiveReview": "not newly reviewed individually"
+        }
+      ],
+      "acceptance": "User review pending; not certified 1:1. Dimensions, ornament shapes, material/typography substitutions and unseen/current details remain estimates."
+    }
+  ],
+  "limits": [
+    "This is a continuous architectural/material/street pass, not completion of the ultimate facade standard.",
+    "15 individually scheduled new shop corrections; other shop layouts retain inherited or estimated treatments.",
+    "67 archive views have unknown capture dates; upload/publication dates do not establish current appearance.",
+    "Orthographic model views establish visible geometry, not pixel-matched source camera accuracy."
+  ],
+  "checked": "2026-09-14",
+  "elevationCaptureBuildPckSha256": "66cd84e12565f2a4971187c2d02e1080538aa94e3900bf56bfdfddb4c0b40a0f",
+  "browserCaptureBuildPckSha256": "66cd84e12565f2a4971187c2d02e1080538aa94e3900bf56bfdfddb4c0b40a0f"
+}

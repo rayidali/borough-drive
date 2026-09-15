@@ -1,0 +1,77 @@
+{
+  "method": "Source PCM amplitude/duration checks: nonempty audio below clipping, before runtime gains. Not a perceptual listening certification.",
+  "samples": [
+    {
+      "file": "impact.wav",
+      "rate": 22050,
+      "channels": 1,
+      "seconds": 0.5500226757369614,
+      "rms": 0.06914885945864559,
+      "peak": 0.759979248046875,
+      "seam": 9.1552734375e-05
+    },
+    {
+      "file": "road.wav",
+      "rate": 22050,
+      "channels": 1,
+      "seconds": 4.0,
+      "rms": 0.17043473851044272,
+      "peak": 0.759979248046875,
+      "seam": 0.084716796875
+    },
+    {
+      "file": "engine-coast.wav",
+      "rate": 22050,
+      "channels": 1,
+      "seconds": 4.0,
+      "rms": 0.3735128414318917,
+      "peak": 0.759979248046875,
+      "seam": 0.0380859375
+    },
+    {
+      "file": "engine-idle.wav",
+      "rate": 22050,
+      "channels": 1,
+      "seconds": 4.0,
+      "rms": 0.36870907616610976,
+      "peak": 0.759979248046875,
+      "seam": 0.02056884765625
+    },
+    {
+      "file": "rain.wav",
+      "rate": 22050,
+      "channels": 1,
+      "seconds": 4.0,
+      "rms": 0.23617636473844353,
+      "peak": 0.759979248046875,
+      "seam": 0.373443603515625
+    },
+    {
+      "file": "engine-load.wav",
+      "rate": 22050,
+      "channels": 1,
+      "seconds": 4.0,
+      "rms": 0.40408590692741087,
+      "peak": 0.759979248046875,
+      "seam": 0.0240478515625
+    },
+    {
+      "file": "tires.wav",
+      "rate": 22050,
+      "channels": 1,
+      "seconds": 4.0,
+      "rms": 0.2609149744671766,
+      "peak": 0.759979248046875,
+      "seam": 0.106109619140625
+    },
+    {
+      "file": "cornerlight.wav",
+      "rate": 22050,
+      "channels": 1,
+      "seconds": 12.0,
+      "rms": 0.12310786197221305,
+      "peak": 0.759979248046875,
+      "seam": 0.001739501953125
+    }
+  ]
+}

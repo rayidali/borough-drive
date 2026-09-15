@@ -16,6 +16,10 @@ async function run(command,args,cwd=project){
   });
 }
 const data=JSON.parse(await fs.readFile(path.join(project,'assets/slice.json'),'utf8'));
+for(const [name,expected] of Object.entries({...data.recipeHashes,'model-source/storefront-details.json':data.detailSourceSha256})){
+  const actual=createHash('sha256').update(await fs.readFile(path.join(root,name))).digest('hex');
+  if(actual!==expected)throw Error('Re-export the Blender models after editing '+name);
+}
 for(const record of data.buildings){
   const filename=path.join(project,record.asset.replace('res://',''));
   let buffer;
@@ -51,13 +55,13 @@ try{
       if(entry.name.startsWith('.')||entry.name==='exports'||entry.name==='neighborhood')continue;
       const filename=path.join(directory,entry.name);
       if(entry.isDirectory())await sources(filename);
-      else if(/\.(gd|gdshader|tscn|godot|cfg|html|json|wav|txt)$/.test(entry.name)){
+      else if(/\.(gd|gdshader|tscn|godot|cfg|html|json|wav|txt|jpg|png|import)$/.test(entry.name)){
         manifest.sources[path.relative(root,filename)]=createHash('sha256').update(await fs.readFile(filename)).digest('hex');
       }
     }
   }
   await sources(project);
-  for(const name of ['model-source/export_seventh_engine.py','model-source/make_seventh_audio.py','scripts/export-seventh.mjs']){
+  for(const name of [...Object.keys(data.recipeHashes),'model-source/storefront-details.json','model-source/seventh-street-reference-02.json','model-source/make_seventh_audio.py','scripts/export-seventh.mjs']){
     manifest.sources[name]=createHash('sha256').update(await fs.readFile(path.join(root,name))).digest('hex');
   }
   await fs.writeFile(path.join(stage,'build.json'),JSON.stringify(manifest,null,2)+'\n');

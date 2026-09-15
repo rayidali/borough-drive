@@ -23,6 +23,7 @@ var start_button: Button
 var loading_label: Label
 var pause_panel: PanelContainer
 var distance_label: Label
+var drivetrain_label: Label
 var mood_label: Label
 var status_label: Label
 var audio_button: Button
@@ -139,6 +140,8 @@ func _ready():
 	units.add_child(label("MPH",11,MUTED))
 	distance_label = label("JUST WANDER",10,MUTED)
 	units.add_child(distance_label)
+	drivetrain_label = label("D1  ·  850 RPM",10,MUTED)
+	instrument.add_child(drivetrain_label)
 	var controls = VBoxContainer.new()
 	controls.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 	controls.alignment = BoxContainer.ALIGNMENT_END
@@ -146,7 +149,7 @@ func _ready():
 	status_label = label("",13,INK)
 	status_label.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
 	controls.add_child(status_label)
-	var hint = label("WASD / arrows  drive     SPACE  brake     C  camera     T  weather",12,INK)
+	var hint = label("WASD  drive / S  brake     SPACE  handbrake     C  camera     T  weather",12,INK)
 	hint.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
 	controls.add_child(hint)
 	var hint2 = label("Right-drag  look around     R  reset     H  hide interface",11,MUTED)
@@ -205,7 +208,7 @@ func build_pause():
 	pause_panel.hide()
 
 func loaded(ok: bool):
-	loading_label.text = "WASD to drive. C to find your favorite view." if ok else "A neighborhood file is missing. Reload to try again."
+	loading_label.text = "WASD to drive. Turn + tap Space to slide." if ok else "A neighborhood file is missing. Reload to try again."
 	start_button.disabled = not ok
 
 func begin():
@@ -228,6 +231,12 @@ func toggle_interface():
 func toast(message: String):
 	status_label.text = message
 	toast_time = 4.0
+
+func update_drivetrain(handling, handbrake: bool):
+	var gear = "R" if handling.speed<-.3 else "D%d" % handling.gear
+	var slide = "  ·  SLIDING" if absf(handling.slip)>.23 and absf(handling.speed)>4 else "  ·  HANDBRAKE" if handbrake else ""
+	drivetrain_label.text = "%s  ·  %d RPM%s" % [gear,roundi(handling.rpm/50)*50,slide]
+	drivetrain_label.modulate = Color("edba8e") if not slide.is_empty() else Color.WHITE
 
 func update_display(speed: float, distance: float, camera_name: String, weather_name: String, mood: int, dt: float):
 	speed_label.text = "%02d" % roundi(abs(speed)*2.23694)

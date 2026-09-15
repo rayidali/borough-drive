@@ -17,15 +17,15 @@ Walk and drive through ten connected East Village blocks, reconstructed from map
 
 ## New local driving study: Seventh, slowly.
 
-The September 14 Godot browser slice adds an authored apricot coupe, chase/hood/cockpit/overhead views, golden hour/dusk/rain, a small route map, original lofi audio and downloadable postcards around First & Seventh. Run `npm run dev` and open **http://127.0.0.1:5173/seventh/**. Use WASD/arrows to drive, C for cameras and T for weather. The export is included and runs on the player's device without a GPU server.
+The September 14 Godot browser slice adds an authored apricot coupe, chase/hood/cockpit/overhead views, golden hour/dusk/rain, a small route map, original lofi audio and downloadable postcards around First & Seventh. Run `npm run dev` and open **http://127.0.0.1:5173/seventh/**. Revision 02 adds grip-based drifting, RPM/gear-driven sound, all of Seventh Street through Avenue A, textured masonry, individually detailed shop layouts, branching leaf trees and street furniture. Use WASD/arrows to drive, **S to brake/reverse**, **Space to handbrake**, C for cameras and T for weather. The export is included and runs on the player's device without a GPU server.
 
-[Controls and rebuild](engine/first-seventh/README.md) · [Measured review and limits](model-source/SEVENTH-ENGINE-01.md) · [Current local/push/deployment state](CODEX-HANDOFF.md)
+[Controls and rebuild](engine/first-seventh/README.md) · [Current review and limits](model-source/SEVENTH-ENGINE-02.md) · [Current local/push/deployment state](CODEX-HANDOFF.md)
 
 The existing public ten-block game described below remains intact. The new slice is local and unpublished; the eventual 500-user goal is not a tested capacity claim.
 
-![Seventh slowly browser driving game, with the apricot car at First and Seventh in golden hour](docs/images/seventh-engine-01/golden-chase.png)
+![Seventh slowly browser driving game, with the apricot car driving along Seventh Street in golden hour](docs/images/seventh-engine-02/golden-seventh.png)
 
-*Actual Godot browser capture. [Rain](docs/images/seventh-engine-01/rain-chase.png), [cockpit](docs/images/seventh-engine-01/cockpit.png) and [overhead](docs/images/seventh-engine-01/dusk-overhead.png). [Credits](dist/seventh/credits.txt).*
+*Actual Godot browser capture. [Rain](docs/images/seventh-engine-02/rain-seventh.png), [cockpit](docs/images/seventh-engine-02/cockpit.png) and [overhead](docs/images/seventh-engine-02/dusk-overhead.png). [Credits](dist/seventh/credits.txt).*
 
 ![Modeled First Avenue and East 10th Street, with corner storefronts, brick facades, fire escapes, and a crosswalk](dist/reconstruction/intersection-render.png)
 

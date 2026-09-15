@@ -5,6 +5,7 @@ const Car = preload("res://scripts/car.gd")
 const Cameras = preload("res://scripts/cameras.gd")
 const Weather = preload("res://scripts/weather.gd")
 const HUD = preload("res://scripts/hud.gd")
+const CarAudio = preload("res://scripts/car_audio.gd")
 var world
 var car
 var cameras
@@ -15,7 +16,7 @@ var started = false
 var paused = false
 var audio_enabled = false
 var music: AudioStreamPlayer
-var engine_sound: AudioStreamPlayer
+var car_audio
 var rain_sound: AudioStreamPlayer
 var initial_camera = 0
 var initial_weather = 0
@@ -32,6 +33,7 @@ var started_ms = Time.get_ticks_msec()
 var browser_review = false
 var stats_timer = 0.0
 var browser_focus_callback
+var facade_review = false
 
 func _ready():
 	print("SEVENTH_OPENING")
@@ -41,6 +43,7 @@ func _ready():
 		JavaScriptBridge.get_interface("document").addEventListener("visibilitychange",browser_focus_callback)
 		JavaScriptBridge.get_interface("window").addEventListener("blur",browser_focus_callback)
 	for arg in OS.get_cmdline_user_args():
+		if arg == "--facade-review": facade_review = true
 		if arg.begins_with("--review-out="):
 			review_mode = true
 			review_dir = arg.trim_prefix("--review-out=")
@@ -73,16 +76,36 @@ func _ready():
 	car = Car.new()
 	add_child(car)
 	car.reset_car()
+	var tire_effects = preload("res://scripts/tire_effects.gd").new()
+	tire_effects.car = car
+	add_child(tire_effects)
 	cameras.car = car
 	hud.minimap.car = car
 	cameras.set_mode(initial_camera)
 	weather.car = car
 	weather.select(initial_weather,true)
 	setup_audio()
+	await warm_street_views()
 	ready_to_play = true
 	hud.loaded(true)
 	print("SEVENTH_READY ",Time.get_ticks_msec()-started_ms," ms; ",world.building_roots.size()," building objects")
 	if review_mode: call_deferred("run_review")
+
+func warm_street_views():
+	# Upload the two street walls/foliage while the opening screen is present.
+	# First-visit profiling showed a hitch when turning onto Seventh; a few
+	# hidden views move that work before the player takes control.
+	cameras.set_process(false)
+	for x in [-140.0,135.0]:
+		for direction in [-1.0,1.0]:
+			cameras.camera.position = Vector3(x,2.9,0)
+			cameras.camera.look_at(Vector3(x+direction*45,2.9,0),Vector3.UP)
+			await get_tree().process_frame
+			await RenderingServer.frame_post_draw
+	cameras.snap_next = true
+	cameras.set_process(true)
+	await get_tree().process_frame
+	await RenderingServer.frame_post_draw
 
 func configure_input():
 	var bindings = {"accelerate":[KEY_W,KEY_UP],"brake":[KEY_S,KEY_DOWN],"left":[KEY_A,KEY_LEFT],"right":[KEY_D,KEY_RIGHT],"handbrake":[KEY_SPACE]}
@@ -115,13 +138,18 @@ func toggle_pause():
 	paused = not paused
 	car.enabled = not paused
 	if paused:
-		car.speed = 0.0
-		car.velocity = Vector3.ZERO
+		car.stop_car()
 	hud.set_paused(paused)
 
 func reset():
 	if not ready_to_play: return
 	car.reset_car()
+	cameras.set_process(true)
+	cameras.camera.projection = Camera3D.PROJECTION_PERSPECTIVE
+	car.visible = true
+	if started:
+		hud.top.visible = hud.shown
+		hud.bottom.visible = hud.shown
 	cameras.snap_next = true
 	paused = false
 	car.enabled = started
@@ -154,8 +182,7 @@ func browser_focus_changed(_arguments: Array):
 func pause_for_focus_loss():
 	paused = true
 	car.enabled = false
-	car.speed = 0.0
-	car.velocity = Vector3.ZERO
+	car.stop_car()
 	cameras.holding = false
 	hud.set_paused(true)
 	for action in ["accelerate","brake","left","right","handbrake"]:
@@ -165,20 +192,37 @@ func _process(dt):
 	if not ready_to_play: return
 	session_time += dt
 	if browser_review:
+		var command_text = JavaScriptBridge.eval("window.seventhReviewCommand ? JSON.stringify(window.seventhReviewCommand) : ''")
+		if command_text is String and not command_text.is_empty():
+			var command = JSON.parse_string(command_text)
+			JavaScriptBridge.eval("window.seventhReviewCommand=null")
+			if command is Dictionary:
+				if command.get("type") == "pose":
+					reset()
+					car.position = Vector3(float(command.x),.15,float(command.z))
+					car.rotation.y = float(command.yaw)
+					car.reset_physics_interpolation()
+				elif command.get("type") == "frontage":
+					show_review_frontage(int(command.id),bool(command.get("close",false)),float(command.get("along",.5)),float(command.get("span",1.0)))
+				JavaScriptBridge.eval("window.seventhReviewAck="+str(int(command.get("sequence",0))))
 		stats_timer += dt
 		if stats_timer >= .25:
 			stats_timer = 0.0
 			var stats = {"ready":ready_to_play,"started":started,"paused":paused,"frames":Engine.get_frames_drawn(),"fps":Engine.get_frames_per_second(),"drawCalls":RenderingServer.get_rendering_info(RenderingServer.RENDERING_INFO_TOTAL_DRAW_CALLS_IN_FRAME),"triangles":RenderingServer.get_rendering_info(RenderingServer.RENDERING_INFO_TOTAL_PRIMITIVES_IN_FRAME),"scale":scale_3d,"position":[car.position.x,car.position.y,car.position.z],"yaw":car.rotation.y,"speed":car.speed,"camera":cameras.mode,"weather":weather.mode,"wetness":weather.current.wet,"sound":audio_enabled,"collisions":car.collision_count,"buildings":world.building_roots.size(),"persistent":OS.is_userfs_persistent()}
 			stats["tickMs"] = Time.get_ticks_msec()
+			stats["slipDegrees"] = rad_to_deg(car.handling.slip)
+			stats["rpm"] = car.handling.rpm
+			stats["gear"] = car.handling.gear
+			stats["handbrake"] = car.handbraking
+			stats["tireScrub"] = car.handling.tire_scrub
 			JavaScriptBridge.eval("window.seventhStats="+JSON.stringify(stats))
 	hud.update_display(car.speed,car.distance_driven,cameras.NAMES[cameras.mode],weather.NAMES[weather.mode],weather.mode,dt)
+	hud.update_drivetrain(car.handling,car.handbraking)
 	if collect_frames:
 		telemetry.append({"ms":dt*1000,"calls":RenderingServer.get_rendering_info(RenderingServer.RENDERING_INFO_TOTAL_DRAW_CALLS_IN_FRAME),"primitives":RenderingServer.get_rendering_info(RenderingServer.RENDERING_INFO_TOTAL_PRIMITIVES_IN_FRAME)})
 	if started and session_time > 4 and not review_mode:
 		adapt_resolution(dt)
-	if audio_enabled and engine_sound:
-		engine_sound.pitch_scale = .65+abs(car.speed)*.065+max(car.throttle_value,0)*.10
-		engine_sound.volume_db = -33+min(abs(car.speed)*.30,6)
+	if audio_enabled:
 		rain_sound.volume_db = linear_to_db(max(.0001,weather.current.wet*.20))
 
 func adapt_resolution(dt):
@@ -228,7 +272,9 @@ func save_settings():
 
 func setup_audio():
 	music = make_loop("res://assets/audio/cornerlight.wav",-23)
-	engine_sound = make_loop("res://assets/audio/engine.wav",-33)
+	car_audio = CarAudio.new()
+	car_audio.car = car
+	add_child(car_audio)
 	rain_sound = make_loop("res://assets/audio/rain.wav",-60)
 	hud.audio_button.text = "Sound on" if audio_enabled else "Sound off"
 
@@ -250,7 +296,8 @@ func toggle_audio():
 	save_settings()
 
 func apply_audio():
-	for player in [music,engine_sound,rain_sound]:
+	car_audio.set_enabled(audio_enabled and started)
+	for player in [music,rain_sound]:
 		if not player: continue
 		if audio_enabled and not player.playing: player.play()
 		if not audio_enabled: player.stop()
@@ -280,6 +327,31 @@ func capture(name: String):
 	var result = image.save_png(review_dir+"/"+name+".png")
 	assert(result==OK,"Review screenshot could not be saved")
 
+func show_review_frontage(id: int, close: bool, along = .5, span = 1.0):
+	# Explicit ?review=1 / native review only. Normal visits have no pose bridge.
+	var record = null
+	for entry in world.data.reviewFrontages:
+		if int(entry.id)==id: record=entry;break
+	if record == null: return
+	car.stop_car()
+	car.enabled = false
+	car.visible = false
+	cameras.set_process(false)
+	var f = record.frontage
+	var middle = Vector3(f.x+f.rx*f.length*along,0,f.z-228+f.rz*f.length*along)
+	var normal = Vector3(-f.rz,0,f.rx)
+	var height = 3.7 if close else float(record.height)
+	var target = middle+Vector3.UP*(height*.51)
+	var distance = minf(9.0,maxf(float(f.length)*span*.78,5.2)) if close else 9.0
+	# A documented orthographic elevation pass stays inside the narrow street;
+	# perspective closeups and gameplay captures are separate evidence.
+	cameras.camera.projection = Camera3D.PROJECTION_PERSPECTIVE if close else Camera3D.PROJECTION_ORTHOGONAL
+	cameras.camera.size = maxf(height*1.17,float(f.length)*.78)
+	cameras.camera.global_position=middle+normal*distance+Vector3.UP*(2.1 if close else height*.51)
+	cameras.camera.fov=58
+	cameras.camera.look_at(target,Vector3.UP)
+	hud.top.hide();hud.bottom.hide()
+
 func run_review():
 	DirAccess.make_dir_recursive_absolute(review_dir)
 	var report = {"engine":Engine.get_version_info(),"renderer":"gl_compatibility","viewport":[get_viewport().size.x,get_viewport().size.y],"buildingObjects":world.building_roots.size(),"samples":[],"checks":{}}
@@ -287,6 +359,15 @@ func run_review():
 	await capture("title")
 	begin()
 	car.testing = true
+	if facade_review:
+		weather.select(0,true)
+		for entry in world.data.reviewFrontages:
+			show_review_frontage(int(entry.id),false)
+			await get_tree().create_timer(.16).timeout
+			await capture("facade-"+str(int(entry.id)))
+		print("SEVENTH_FACADE_REVIEW_COMPLETE ",world.data.reviewFrontages.size())
+		get_tree().quit()
+		return
 	for mood in range(3):
 		weather.select(mood,true)
 		reset()
@@ -359,6 +440,23 @@ func run_review():
 	car.test_throttle = 0.0
 	car.test_steer = 0.0
 	report.checks["street_circuit"] = {"waypoints":route.size(),"seconds":(Time.get_ticks_msec()-route_started)/1000.0,"wallContacts":car.collision_count-route_collisions,"position":[car.position.x,car.position.z]}
+	# Both directions through the newly connected Seventh Street extension.
+	reset()
+	car.position=Vector3(-275,.15,0);car.rotation.y=-PI/2
+	car.reset_physics_interpolation()
+	car.test_throttle=1
+	var east_started=Time.get_ticks_msec()
+	var east_collisions=car.collision_count
+	while car.position.x<270:
+		car.test_steer=clampf(wrapf(-PI/2-car.rotation.y,-PI,PI)*2.0,-1,1)
+		if Time.get_ticks_msec()-east_started>55000:
+			push_error("Seventh eastbound traversal timed out");get_tree().quit(1);return
+		await get_tree().physics_frame
+	report.checks["seventh_eastbound"]={"metres":car.position.x+275,"seconds":(Time.get_ticks_msec()-east_started)/1000.0,"wallContacts":car.collision_count-east_collisions}
+	assert(car.collision_count==east_collisions,"Seventh must be connected through both blocks")
+	await capture("avenue-a-arrival")
+	car.test_throttle=0
+	car.stop_car()
 	reset()
 	cameras.holding = true
 	cameras.orbit_yaw = .85
