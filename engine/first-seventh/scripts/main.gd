@@ -79,6 +79,7 @@ func _ready():
 	car = Car.new()
 	add_child(car)
 	car.reset_car()
+	hud.vehicle = car
 	var tire_effects = preload("res://scripts/tire_effects.gd").new()
 	tire_effects.car = car
 	add_child(tire_effects)
@@ -124,6 +125,7 @@ func begin():
 	started = true
 	paused = false
 	car.enabled = true
+	cameras.set_input_enabled(true)
 	hud.begin()
 	if audio_enabled: apply_audio()
 
@@ -142,6 +144,7 @@ func toggle_pause():
 	car.enabled = not paused
 	if paused:
 		car.stop_car()
+	cameras.set_input_enabled(started and not paused)
 	hud.set_paused(paused)
 
 func reset():
@@ -157,6 +160,7 @@ func reset():
 	cameras.snap_next = true
 	paused = false
 	car.enabled = started
+	cameras.set_input_enabled(started and not paused)
 	hud.set_paused(false)
 	hud.toast("Back at First & Seventh")
 
@@ -187,7 +191,8 @@ func pause_for_focus_loss():
 	paused = true
 	car.enabled = false
 	car.stop_car()
-	cameras.holding = false
+	cameras.set_input_enabled(false)
+	cameras.clear_input()
 	hud.set_paused(true)
 	for action in ["accelerate","brake","left","right","handbrake"]:
 		Input.action_release(action)
@@ -214,7 +219,8 @@ func _process(dt):
 		stats_timer += dt
 		if stats_timer >= .25:
 			stats_timer = 0.0
-			var stats = {"ready":ready_to_play,"started":started,"paused":paused,"frames":Engine.get_frames_drawn(),"fps":Engine.get_frames_per_second(),"drawCalls":RenderingServer.get_rendering_info(RenderingServer.RENDERING_INFO_TOTAL_DRAW_CALLS_IN_FRAME),"triangles":RenderingServer.get_rendering_info(RenderingServer.RENDERING_INFO_TOTAL_PRIMITIVES_IN_FRAME),"scale":scale_3d,"position":[car.position.x,car.position.y,car.position.z],"yaw":car.rotation.y,"speed":car.speed,"camera":cameras.mode,"weather":weather.mode,"wetness":weather.current.wet,"sound":audio_enabled,"collisions":car.collision_count,"buildings":world.building_roots.size(),"persistent":OS.is_userfs_persistent()}
+			var address_state = hud.address_state()
+			var stats = {"ready":ready_to_play,"started":started,"paused":paused,"frames":Engine.get_frames_drawn(),"fps":Engine.get_frames_per_second(),"drawCalls":RenderingServer.get_rendering_info(RenderingServer.RENDERING_INFO_TOTAL_DRAW_CALLS_IN_FRAME),"triangles":RenderingServer.get_rendering_info(RenderingServer.RENDERING_INFO_TOTAL_PRIMITIVES_IN_FRAME),"scale":scale_3d,"position":[car.position.x,car.position.y,car.position.z],"yaw":car.rotation.y,"speed":car.speed,"camera":cameras.mode,"cameraPose":cameras.camera_state(),"weather":weather.mode,"wetness":weather.current.wet,"sound":audio_enabled,"collisions":car.collision_count,"buildings":world.building_roots.size(),"persistent":OS.is_userfs_persistent(),"address":address_state.address,"addressId":address_state.addressId,"addressVisible":address_state.addressVisible}
 			stats["tickMs"] = Time.get_ticks_msec()
 			stats["slipDegrees"] = rad_to_deg(car.handling.slip)
 			stats["rpm"] = car.handling.rpm
@@ -348,14 +354,22 @@ func show_review_frontage(id: int, close: bool, along = .5, span = 1.0):
 	var normal = Vector3(-f.rz,0,f.rx)
 	var height = 3.7 if close else float(record.height)
 	var target = middle+Vector3.UP*(height*.51)
-	var distance = minf(9.0,maxf(float(f.length)*span*.78,5.2)) if close else 9.0
 	# A documented orthographic elevation pass stays inside the narrow street;
 	# perspective closeups and gameplay captures are separate evidence.
 	cameras.camera.projection = Camera3D.PROJECTION_PERSPECTIVE if close else Camera3D.PROJECTION_ORTHOGONAL
 	cameras.camera.keep_aspect = Camera3D.KEEP_HEIGHT
-	cameras.camera.size = maxf(height*1.17,float(f.length)*.78)
-	cameras.camera.global_position=middle+normal*distance+Vector3.UP*(2.1 if close else height*.51)
+	# KEEP_HEIGHT makes the square review viewport's horizontal span equal to
+	# camera.size; retain a small margin around the complete elevation.
+	cameras.camera.size = maxf(height*1.17,float(f.length)*1.06)
 	cameras.camera.fov=58
+	# Keep perspective review inside the street. Long frontages are reviewed as
+	# overlapping subviews by review-seventh-fidelity.mjs; the separate
+	# orthographic pass covers their complete elevation without crossing into
+	# the opposite buildings. Narrow entrance reviews retain the 5.2 m minimum.
+	var half_fov = deg_to_rad(cameras.camera.fov*.5)
+	var fit_distance = float(f.length)*span/(2.0*tan(half_fov))
+	var distance = clampf(fit_distance*1.06,5.2,9.0) if close else 9.0
+	cameras.camera.global_position=middle+normal*distance+Vector3.UP*(2.1 if close else height*.51)
 	cameras.camera.look_at(target,Vector3.UP)
 	hud.top.hide();hud.bottom.hide()
 

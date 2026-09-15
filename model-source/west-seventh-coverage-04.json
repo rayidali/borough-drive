@@ -1,0 +1,961 @@
+{
+  "schema": 1,
+  "revision": "04",
+  "checked": "2026-09-15T06:06:11.973262+00:00",
+  "scope": "East 7th Street between Second and First Avenues: every one of 39 mapped frontage records, plus the separately recorded vacant fire-site edge.",
+  "status": "All 39 source records and final game elevations inspected; final street closeups captured with selected focused inspections. No facade is certified 1:1 or calibrated across independent views.",
+  "referenceLedger": "west-seventh-reference-04.json",
+  "records": [
+    {
+      "id": 241822156,
+      "address": "118 2nd Avenue",
+      "referenceIds": [
+        "west",
+        "church-site"
+      ],
+      "sourceViewsInspected": true,
+      "gameViewsInspected": true,
+      "multiViewCalibrated": false,
+      "certifiedOneToOne": false,
+      "limits": [
+        "Unmeasured frontage proportions and camera alignment.",
+        "Dated sources do not establish every temporary feature or current tenant at September 2026.",
+        "Exact lettering, ornamental profiles, unseen entrances and interiors remain outside photographic acceptance."
+      ],
+      "scheduleNote": "118 Second Avenue is a boundary elevation. Its inspected west/church source views are in the reference ledger; gray ground and two prominent fire-escape projections are in seventhEngine.observedGroundCorrections. There is no duplicate detailed observation row in west-seventh-observations-04.json.",
+      "gameReviewKind": "Whole orthographic elevation inspected in the final seven contact sheets; no calibrated photographic acceptance.",
+      "gameElevation": "../docs/images/seventh-engine-04/fidelity/frontage-241822156-elevation.png",
+      "gameElevationSha256": "217d3d2f5926be150665b1b2e7bcf9cc80e6ebbbd74d9a636b0ac62dc9f7e11e",
+      "perspectiveViewsCaptured": [
+        "frontage-241822156-perspective-1",
+        "frontage-241822156-perspective-2",
+        "frontage-241822156-perspective-3",
+        "frontage-241822156-perspective-4",
+        "frontage-241822156-perspective-5"
+      ],
+      "focusedPerspectiveInspected": true
+    },
+    {
+      "id": 241822157,
+      "address": "65 East 7th Street",
+      "referenceIds": [
+        "62"
+      ],
+      "sourceViewsInspected": true,
+      "gameViewsInspected": true,
+      "multiViewCalibrated": false,
+      "certifiedOneToOne": false,
+      "limits": [
+        "Unmeasured frontage proportions and camera alignment.",
+        "Dated sources do not establish every temporary feature or current tenant at September 2026.",
+        "Exact lettering, ornamental profiles, unseen entrances and interiors remain outside photographic acceptance."
+      ],
+      "gameReviewKind": "Whole orthographic elevation inspected in the final seven contact sheets; no calibrated photographic acceptance.",
+      "gameElevation": "../docs/images/seventh-engine-04/fidelity/frontage-241822157-elevation.png",
+      "gameElevationSha256": "f3b4e8fe175a62625607a56745adac03e8c7d13a383413836f7cff2174d66acb",
+      "perspectiveViewsCaptured": [
+        "frontage-241822157-perspective-1"
+      ],
+      "focusedPerspectiveInspected": false
+    },
+    {
+      "id": 241822169,
+      "address": "57 East 7th Street",
+      "referenceIds": [
+        "58",
+        "57-close"
+      ],
+      "sourceViewsInspected": true,
+      "gameViewsInspected": true,
+      "multiViewCalibrated": false,
+      "certifiedOneToOne": false,
+      "limits": [
+        "Unmeasured frontage proportions and camera alignment.",
+        "Dated sources do not establish every temporary feature or current tenant at September 2026.",
+        "Exact lettering, ornamental profiles, unseen entrances and interiors remain outside photographic acceptance."
+      ],
+      "gameReviewKind": "Whole orthographic elevation inspected in the final seven contact sheets; no calibrated photographic acceptance.",
+      "gameElevation": "../docs/images/seventh-engine-04/fidelity/frontage-241822169-elevation.png",
+      "gameElevationSha256": "60495accf645f25d33af7b89c1a29dd1e494be5c644119d21cccb0918ec576f2",
+      "perspectiveViewsCaptured": [
+        "frontage-241822169-perspective-1"
+      ],
+      "focusedPerspectiveInspected": false
+    },
+    {
+      "id": 241822176,
+      "address": "69 East 7th Street",
+      "referenceIds": [
+        "68",
+        "69-close"
+      ],
+      "sourceViewsInspected": true,
+      "gameViewsInspected": true,
+      "multiViewCalibrated": false,
+      "certifiedOneToOne": false,
+      "limits": [
+        "Unmeasured frontage proportions and camera alignment.",
+        "Dated sources do not establish every temporary feature or current tenant at September 2026.",
+        "Exact lettering, ornamental profiles, unseen entrances and interiors remain outside photographic acceptance."
+      ],
+      "gameReviewKind": "Whole orthographic elevation inspected in the final seven contact sheets; no calibrated photographic acceptance.",
+      "gameElevation": "../docs/images/seventh-engine-04/fidelity/frontage-241822176-elevation.png",
+      "gameElevationSha256": "65922ecbe49a6035bd6e0ac92e1d86b855321b0a37664905fab83a5ad189224a",
+      "perspectiveViewsCaptured": [
+        "frontage-241822176-perspective-1"
+      ],
+      "focusedPerspectiveInspected": false
+    },
+    {
+      "id": 241822178,
+      "address": "53 East 7th Street",
+      "referenceIds": [
+        "church",
+        "55-close"
+      ],
+      "sourceViewsInspected": true,
+      "gameViewsInspected": true,
+      "multiViewCalibrated": false,
+      "certifiedOneToOne": false,
+      "limits": [
+        "Unmeasured frontage proportions and camera alignment.",
+        "Dated sources do not establish every temporary feature or current tenant at September 2026.",
+        "Exact lettering, ornamental profiles, unseen entrances and interiors remain outside photographic acceptance."
+      ],
+      "gameReviewKind": "Whole orthographic elevation inspected in the final seven contact sheets; no calibrated photographic acceptance.",
+      "gameElevation": "../docs/images/seventh-engine-04/fidelity/frontage-241822178-elevation.png",
+      "gameElevationSha256": "50b5dae073bdb7cb30bdd8fe817389d64517adad59134f10e28532390986ecb2",
+      "perspectiveViewsCaptured": [
+        "frontage-241822178-perspective-1"
+      ],
+      "focusedPerspectiveInspected": false
+    },
+    {
+      "id": 241822185,
+      "address": "77 East 7th Street",
+      "referenceIds": [
+        "76",
+        "77-close"
+      ],
+      "sourceViewsInspected": true,
+      "gameViewsInspected": true,
+      "multiViewCalibrated": false,
+      "certifiedOneToOne": false,
+      "limits": [
+        "Unmeasured frontage proportions and camera alignment.",
+        "Dated sources do not establish every temporary feature or current tenant at September 2026.",
+        "Exact lettering, ornamental profiles, unseen entrances and interiors remain outside photographic acceptance."
+      ],
+      "gameReviewKind": "Whole orthographic elevation inspected in the final seven contact sheets; no calibrated photographic acceptance.",
+      "gameElevation": "../docs/images/seventh-engine-04/fidelity/frontage-241822185-elevation.png",
+      "gameElevationSha256": "5f99bc5dad255beeadca56d2c530ebc660a714be497b5afaabbdb60147c5d2d1",
+      "perspectiveViewsCaptured": [
+        "frontage-241822185-perspective-1"
+      ],
+      "focusedPerspectiveInspected": false
+    },
+    {
+      "id": 241822192,
+      "address": "85 East 7th Street",
+      "referenceIds": [
+        "85-close",
+        "corner"
+      ],
+      "sourceViewsInspected": true,
+      "gameViewsInspected": true,
+      "multiViewCalibrated": false,
+      "certifiedOneToOne": false,
+      "limits": [
+        "Unmeasured frontage proportions and camera alignment.",
+        "Dated sources do not establish every temporary feature or current tenant at September 2026.",
+        "Exact lettering, ornamental profiles, unseen entrances and interiors remain outside photographic acceptance."
+      ],
+      "gameReviewKind": "Whole orthographic elevation inspected in the final seven contact sheets; no calibrated photographic acceptance.",
+      "gameElevation": "../docs/images/seventh-engine-04/fidelity/frontage-241822192-elevation.png",
+      "gameElevationSha256": "a06ef327d8ddd3669c0b43326f95751914b7758c321c7f5c15d62c4de9ed0575",
+      "perspectiveViewsCaptured": [
+        "frontage-241822192-perspective-1"
+      ],
+      "focusedPerspectiveInspected": false
+    },
+    {
+      "id": 241822197,
+      "address": "55 East 7th Street",
+      "referenceIds": [
+        "54",
+        "55-close"
+      ],
+      "sourceViewsInspected": true,
+      "gameViewsInspected": true,
+      "multiViewCalibrated": false,
+      "certifiedOneToOne": false,
+      "limits": [
+        "Unmeasured frontage proportions and camera alignment.",
+        "Dated sources do not establish every temporary feature or current tenant at September 2026.",
+        "Exact lettering, ornamental profiles, unseen entrances and interiors remain outside photographic acceptance."
+      ],
+      "gameReviewKind": "Whole orthographic elevation inspected in the final seven contact sheets; no calibrated photographic acceptance.",
+      "gameElevation": "../docs/images/seventh-engine-04/fidelity/frontage-241822197-elevation.png",
+      "gameElevationSha256": "92275d028918ba7c6d9b27e29b6f970bb804e0b9e3dc914d1121ecf330563e67",
+      "perspectiveViewsCaptured": [
+        "frontage-241822197-perspective-1"
+      ],
+      "focusedPerspectiveInspected": false
+    },
+    {
+      "id": 241822199,
+      "address": "59 East 7th Street",
+      "referenceIds": [
+        "58",
+        "57-close"
+      ],
+      "sourceViewsInspected": true,
+      "gameViewsInspected": true,
+      "multiViewCalibrated": false,
+      "certifiedOneToOne": false,
+      "limits": [
+        "Unmeasured frontage proportions and camera alignment.",
+        "Dated sources do not establish every temporary feature or current tenant at September 2026.",
+        "Exact lettering, ornamental profiles, unseen entrances and interiors remain outside photographic acceptance."
+      ],
+      "gameReviewKind": "Whole orthographic elevation inspected in the final seven contact sheets; no calibrated photographic acceptance.",
+      "gameElevation": "../docs/images/seventh-engine-04/fidelity/frontage-241822199-elevation.png",
+      "gameElevationSha256": "6a6a4ef8f008abf3ec2e5307795be6eb27eeae6c61aceda06ee64b609a59276c",
+      "perspectiveViewsCaptured": [
+        "frontage-241822199-perspective-1"
+      ],
+      "focusedPerspectiveInspected": false
+    },
+    {
+      "id": 241822201,
+      "address": "61 East 7th Street",
+      "referenceIds": [
+        "62"
+      ],
+      "sourceViewsInspected": true,
+      "gameViewsInspected": true,
+      "multiViewCalibrated": false,
+      "certifiedOneToOne": false,
+      "limits": [
+        "Unmeasured frontage proportions and camera alignment.",
+        "Dated sources do not establish every temporary feature or current tenant at September 2026.",
+        "Exact lettering, ornamental profiles, unseen entrances and interiors remain outside photographic acceptance."
+      ],
+      "gameReviewKind": "Whole orthographic elevation inspected in the final seven contact sheets; no calibrated photographic acceptance.",
+      "gameElevation": "../docs/images/seventh-engine-04/fidelity/frontage-241822201-elevation.png",
+      "gameElevationSha256": "767dcddeb4ff120a0325c14dc43d7ee71c27b0122c77bf5b269d3fdd2ce2ceef",
+      "perspectiveViewsCaptured": [
+        "frontage-241822201-perspective-1"
+      ],
+      "focusedPerspectiveInspected": false
+    },
+    {
+      "id": 241822202,
+      "address": "63 East 7th Street",
+      "referenceIds": [
+        "62",
+        "63-close"
+      ],
+      "sourceViewsInspected": true,
+      "gameViewsInspected": true,
+      "multiViewCalibrated": false,
+      "certifiedOneToOne": false,
+      "limits": [
+        "Unmeasured frontage proportions and camera alignment.",
+        "Dated sources do not establish every temporary feature or current tenant at September 2026.",
+        "Exact lettering, ornamental profiles, unseen entrances and interiors remain outside photographic acceptance."
+      ],
+      "gameReviewKind": "Whole orthographic elevation inspected in the final seven contact sheets; no calibrated photographic acceptance.",
+      "gameElevation": "../docs/images/seventh-engine-04/fidelity/frontage-241822202-elevation.png",
+      "gameElevationSha256": "6e9218dda9de31d21389b74e997182802e94b249501ec4ba43da80dece225116",
+      "perspectiveViewsCaptured": [
+        "frontage-241822202-perspective-1"
+      ],
+      "focusedPerspectiveInspected": true
+    },
+    {
+      "id": 241822226,
+      "address": "115 1st Avenue",
+      "referenceIds": [
+        "corner"
+      ],
+      "sourceViewsInspected": true,
+      "gameViewsInspected": true,
+      "multiViewCalibrated": false,
+      "certifiedOneToOne": false,
+      "limits": [
+        "Unmeasured frontage proportions and camera alignment.",
+        "Dated sources do not establish every temporary feature or current tenant at September 2026.",
+        "Exact lettering, ornamental profiles, unseen entrances and interiors remain outside photographic acceptance."
+      ],
+      "gameReviewKind": "Whole orthographic elevation inspected in the final seven contact sheets; no calibrated photographic acceptance.",
+      "gameElevation": "../docs/images/seventh-engine-04/fidelity/frontage-241822226-elevation.png",
+      "gameElevationSha256": "232dcd62a1d46ab23fbbf7a9c16c6c3dac7238471f9045ee89b095b0f40d239a",
+      "perspectiveViewsCaptured": [
+        "frontage-241822226-perspective-1",
+        "frontage-241822226-perspective-2"
+      ],
+      "focusedPerspectiveInspected": false
+    },
+    {
+      "id": 241822274,
+      "address": "67 East 7th Street",
+      "referenceIds": [
+        "68",
+        "69-close"
+      ],
+      "sourceViewsInspected": true,
+      "gameViewsInspected": true,
+      "multiViewCalibrated": false,
+      "certifiedOneToOne": false,
+      "limits": [
+        "Unmeasured frontage proportions and camera alignment.",
+        "Dated sources do not establish every temporary feature or current tenant at September 2026.",
+        "Exact lettering, ornamental profiles, unseen entrances and interiors remain outside photographic acceptance."
+      ],
+      "gameReviewKind": "Whole orthographic elevation inspected in the final seven contact sheets; no calibrated photographic acceptance.",
+      "gameElevation": "../docs/images/seventh-engine-04/fidelity/frontage-241822274-elevation.png",
+      "gameElevationSha256": "44a6f00aa2aafe7c7ca07578c3b9e97b3b02285be68c076e03329a30d4363350",
+      "perspectiveViewsCaptured": [
+        "frontage-241822274-perspective-1"
+      ],
+      "focusedPerspectiveInspected": false
+    },
+    {
+      "id": 241822317,
+      "address": "83 East 7th Street",
+      "referenceIds": [
+        "78",
+        "85-close"
+      ],
+      "sourceViewsInspected": true,
+      "gameViewsInspected": true,
+      "multiViewCalibrated": false,
+      "certifiedOneToOne": false,
+      "limits": [
+        "Unmeasured frontage proportions and camera alignment.",
+        "Dated sources do not establish every temporary feature or current tenant at September 2026.",
+        "Exact lettering, ornamental profiles, unseen entrances and interiors remain outside photographic acceptance."
+      ],
+      "gameReviewKind": "Whole orthographic elevation inspected in the final seven contact sheets; no calibrated photographic acceptance.",
+      "gameElevation": "../docs/images/seventh-engine-04/fidelity/frontage-241822317-elevation.png",
+      "gameElevationSha256": "2c1c2e7b5fb9a5cee57eb4835d939be0d80b1c55126c02359d9b50370ca95c78",
+      "perspectiveViewsCaptured": [
+        "frontage-241822317-perspective-1"
+      ],
+      "focusedPerspectiveInspected": false
+    },
+    {
+      "id": 241822319,
+      "address": "71 East 7th Street",
+      "referenceIds": [
+        "73-close"
+      ],
+      "sourceViewsInspected": true,
+      "gameViewsInspected": true,
+      "multiViewCalibrated": false,
+      "certifiedOneToOne": false,
+      "limits": [
+        "Unmeasured frontage proportions and camera alignment.",
+        "Dated sources do not establish every temporary feature or current tenant at September 2026.",
+        "Exact lettering, ornamental profiles, unseen entrances and interiors remain outside photographic acceptance."
+      ],
+      "gameReviewKind": "Whole orthographic elevation inspected in the final seven contact sheets; no calibrated photographic acceptance.",
+      "gameElevation": "../docs/images/seventh-engine-04/fidelity/frontage-241822319-elevation.png",
+      "gameElevationSha256": "2d9b35ccaa53f157a1dd41ef5d8caa1d583b374ff5105b105bc87290c58c6846",
+      "perspectiveViewsCaptured": [
+        "frontage-241822319-perspective-1"
+      ],
+      "focusedPerspectiveInspected": false
+    },
+    {
+      "id": 241822325,
+      "address": "49 East 7th Street",
+      "referenceIds": [
+        "church",
+        "49-close"
+      ],
+      "sourceViewsInspected": true,
+      "gameViewsInspected": true,
+      "multiViewCalibrated": false,
+      "certifiedOneToOne": false,
+      "limits": [
+        "Unmeasured frontage proportions and camera alignment.",
+        "Dated sources do not establish every temporary feature or current tenant at September 2026.",
+        "Exact lettering, ornamental profiles, unseen entrances and interiors remain outside photographic acceptance."
+      ],
+      "gameReviewKind": "Whole orthographic elevation inspected in the final seven contact sheets; no calibrated photographic acceptance.",
+      "gameElevation": "../docs/images/seventh-engine-04/fidelity/frontage-241822325-elevation.png",
+      "gameElevationSha256": "55b5d62f9c2e883d29b3204527fa22484806702b95c5c406261d2964fea83bbf",
+      "perspectiveViewsCaptured": [
+        "frontage-241822325-perspective-1"
+      ],
+      "focusedPerspectiveInspected": false
+    },
+    {
+      "id": 241822329,
+      "address": "81 East 7th Street",
+      "referenceIds": [
+        "78",
+        "81-close"
+      ],
+      "sourceViewsInspected": true,
+      "gameViewsInspected": true,
+      "multiViewCalibrated": false,
+      "certifiedOneToOne": false,
+      "limits": [
+        "Unmeasured frontage proportions and camera alignment.",
+        "Dated sources do not establish every temporary feature or current tenant at September 2026.",
+        "Exact lettering, ornamental profiles, unseen entrances and interiors remain outside photographic acceptance."
+      ],
+      "gameReviewKind": "Whole orthographic elevation inspected in the final seven contact sheets; no calibrated photographic acceptance.",
+      "gameElevation": "../docs/images/seventh-engine-04/fidelity/frontage-241822329-elevation.png",
+      "gameElevationSha256": "0971264e8db4ad286e8d81401905e0849116e138fece18b467dd0918190b85f8",
+      "perspectiveViewsCaptured": [
+        "frontage-241822329-perspective-1"
+      ],
+      "focusedPerspectiveInspected": true
+    },
+    {
+      "id": 241822336,
+      "address": "79 East 7th Street",
+      "referenceIds": [
+        "77-close",
+        "78"
+      ],
+      "sourceViewsInspected": true,
+      "gameViewsInspected": true,
+      "multiViewCalibrated": false,
+      "certifiedOneToOne": false,
+      "limits": [
+        "Unmeasured frontage proportions and camera alignment.",
+        "Dated sources do not establish every temporary feature or current tenant at September 2026.",
+        "Exact lettering, ornamental profiles, unseen entrances and interiors remain outside photographic acceptance."
+      ],
+      "gameReviewKind": "Whole orthographic elevation inspected in the final seven contact sheets; no calibrated photographic acceptance.",
+      "gameElevation": "../docs/images/seventh-engine-04/fidelity/frontage-241822336-elevation.png",
+      "gameElevationSha256": "72518f10b7050286362b644ac69982b1064ee62bd48ba6fe100a7ae8f1bf77db",
+      "perspectiveViewsCaptured": [
+        "frontage-241822336-perspective-1"
+      ],
+      "focusedPerspectiveInspected": true
+    },
+    {
+      "id": 241822340,
+      "address": "51 East 7th Street",
+      "referenceIds": [
+        "church"
+      ],
+      "sourceViewsInspected": true,
+      "gameViewsInspected": true,
+      "multiViewCalibrated": false,
+      "certifiedOneToOne": false,
+      "limits": [
+        "Unmeasured frontage proportions and camera alignment.",
+        "Dated sources do not establish every temporary feature or current tenant at September 2026.",
+        "Exact lettering, ornamental profiles, unseen entrances and interiors remain outside photographic acceptance."
+      ],
+      "gameReviewKind": "Whole orthographic elevation inspected in the final seven contact sheets; no calibrated photographic acceptance.",
+      "gameElevation": "../docs/images/seventh-engine-04/fidelity/frontage-241822340-elevation.png",
+      "gameElevationSha256": "0493b076b32cf27083f13895ca5dec981fde5d996e2b3a718caab90fe4a2e8c2",
+      "perspectiveViewsCaptured": [
+        "frontage-241822340-perspective-1"
+      ],
+      "focusedPerspectiveInspected": false
+    },
+    {
+      "id": 241829565,
+      "address": "58 East 7th Street",
+      "referenceIds": [
+        "58",
+        "57-close"
+      ],
+      "sourceViewsInspected": true,
+      "gameViewsInspected": true,
+      "multiViewCalibrated": false,
+      "certifiedOneToOne": false,
+      "limits": [
+        "Unmeasured frontage proportions and camera alignment.",
+        "Dated sources do not establish every temporary feature or current tenant at September 2026.",
+        "Exact lettering, ornamental profiles, unseen entrances and interiors remain outside photographic acceptance."
+      ],
+      "gameReviewKind": "Whole orthographic elevation inspected in the final seven contact sheets; no calibrated photographic acceptance.",
+      "gameElevation": "../docs/images/seventh-engine-04/fidelity/frontage-241829565-elevation.png",
+      "gameElevationSha256": "6ba31e14286a1e91e47a5f96cd6fd187276b019402d235be447efd42957b7db1",
+      "perspectiveViewsCaptured": [
+        "frontage-241829565-perspective-1"
+      ],
+      "focusedPerspectiveInspected": false
+    },
+    {
+      "id": 241829566,
+      "address": "80 East 7th Street",
+      "referenceIds": [
+        "77-close",
+        "78"
+      ],
+      "sourceViewsInspected": true,
+      "gameViewsInspected": true,
+      "multiViewCalibrated": false,
+      "certifiedOneToOne": false,
+      "limits": [
+        "Unmeasured frontage proportions and camera alignment.",
+        "Dated sources do not establish every temporary feature or current tenant at September 2026.",
+        "Exact lettering, ornamental profiles, unseen entrances and interiors remain outside photographic acceptance."
+      ],
+      "gameReviewKind": "Whole orthographic elevation inspected in the final seven contact sheets; no calibrated photographic acceptance.",
+      "gameElevation": "../docs/images/seventh-engine-04/fidelity/frontage-241829566-elevation.png",
+      "gameElevationSha256": "419f41ae808b57c2533c78b33eec5ffad51ad6c14f58d18bb7279740590507c9",
+      "perspectiveViewsCaptured": [
+        "frontage-241829566-perspective-1",
+        "frontage-241829566-perspective-2"
+      ],
+      "focusedPerspectiveInspected": false
+    },
+    {
+      "id": 241829567,
+      "address": "76 East 7th Street",
+      "referenceIds": [
+        "76",
+        "77-close"
+      ],
+      "sourceViewsInspected": true,
+      "gameViewsInspected": true,
+      "multiViewCalibrated": false,
+      "certifiedOneToOne": false,
+      "limits": [
+        "Unmeasured frontage proportions and camera alignment.",
+        "Dated sources do not establish every temporary feature or current tenant at September 2026.",
+        "Exact lettering, ornamental profiles, unseen entrances and interiors remain outside photographic acceptance."
+      ],
+      "gameReviewKind": "Whole orthographic elevation inspected in the final seven contact sheets; no calibrated photographic acceptance.",
+      "gameElevation": "../docs/images/seventh-engine-04/fidelity/frontage-241829567-elevation.png",
+      "gameElevationSha256": "dbb99d0ab5ec64f1a3253d51ad548c3cc41dc5faab4b370678971162f39e8f62",
+      "perspectiveViewsCaptured": [
+        "frontage-241829567-perspective-1",
+        "frontage-241829567-perspective-2"
+      ],
+      "focusedPerspectiveInspected": false
+    },
+    {
+      "id": 241829572,
+      "address": "62 East 7th Street",
+      "referenceIds": [
+        "62"
+      ],
+      "sourceViewsInspected": true,
+      "gameViewsInspected": true,
+      "multiViewCalibrated": false,
+      "certifiedOneToOne": false,
+      "limits": [
+        "Unmeasured frontage proportions and camera alignment.",
+        "Dated sources do not establish every temporary feature or current tenant at September 2026.",
+        "Exact lettering, ornamental profiles, unseen entrances and interiors remain outside photographic acceptance."
+      ],
+      "gameReviewKind": "Whole orthographic elevation inspected in the final seven contact sheets; no calibrated photographic acceptance.",
+      "gameElevation": "../docs/images/seventh-engine-04/fidelity/frontage-241829572-elevation.png",
+      "gameElevationSha256": "e111af1b2d077cdaec6aabc49c0495778fcbed0d5646ffea31086a8de2de007e",
+      "perspectiveViewsCaptured": [
+        "frontage-241829572-perspective-1"
+      ],
+      "focusedPerspectiveInspected": true
+    },
+    {
+      "id": 241829573,
+      "address": "74 East 7th Street",
+      "referenceIds": [
+        "73-close",
+        "76"
+      ],
+      "sourceViewsInspected": true,
+      "gameViewsInspected": true,
+      "multiViewCalibrated": false,
+      "certifiedOneToOne": false,
+      "limits": [
+        "Unmeasured frontage proportions and camera alignment.",
+        "Dated sources do not establish every temporary feature or current tenant at September 2026.",
+        "Exact lettering, ornamental profiles, unseen entrances and interiors remain outside photographic acceptance."
+      ],
+      "gameReviewKind": "Whole orthographic elevation inspected in the final seven contact sheets; no calibrated photographic acceptance.",
+      "gameElevation": "../docs/images/seventh-engine-04/fidelity/frontage-241829573-elevation.png",
+      "gameElevationSha256": "889d69811ddb812cd59fdb59dd2bd9c2bfb41af24b4868c62c43b5b7c57eeebe",
+      "perspectiveViewsCaptured": [
+        "frontage-241829573-perspective-1"
+      ],
+      "focusedPerspectiveInspected": false
+    },
+    {
+      "id": 241829574,
+      "address": "72 East 7th Street",
+      "referenceIds": [
+        "73-close"
+      ],
+      "sourceViewsInspected": true,
+      "gameViewsInspected": true,
+      "multiViewCalibrated": false,
+      "certifiedOneToOne": false,
+      "limits": [
+        "Unmeasured frontage proportions and camera alignment.",
+        "Dated sources do not establish every temporary feature or current tenant at September 2026.",
+        "Exact lettering, ornamental profiles, unseen entrances and interiors remain outside photographic acceptance."
+      ],
+      "gameReviewKind": "Whole orthographic elevation inspected in the final seven contact sheets; no calibrated photographic acceptance.",
+      "gameElevation": "../docs/images/seventh-engine-04/fidelity/frontage-241829574-elevation.png",
+      "gameElevationSha256": "04297c652ebb1fa20767379fb013352ca71f8a45f6df61496933925c3ecf9ddd",
+      "perspectiveViewsCaptured": [
+        "frontage-241829574-perspective-1"
+      ],
+      "focusedPerspectiveInspected": false
+    },
+    {
+      "id": 241829575,
+      "address": "50 East 7th Street",
+      "referenceIds": [
+        "church",
+        "49-close"
+      ],
+      "sourceViewsInspected": true,
+      "gameViewsInspected": true,
+      "multiViewCalibrated": false,
+      "certifiedOneToOne": false,
+      "limits": [
+        "Unmeasured frontage proportions and camera alignment.",
+        "Dated sources do not establish every temporary feature or current tenant at September 2026.",
+        "Exact lettering, ornamental profiles, unseen entrances and interiors remain outside photographic acceptance."
+      ],
+      "gameReviewKind": "Whole orthographic elevation inspected in the final seven contact sheets; no calibrated photographic acceptance.",
+      "gameElevation": "../docs/images/seventh-engine-04/fidelity/frontage-241829575-elevation.png",
+      "gameElevationSha256": "3d2b21e85b0ad9f444971c1a86979407476c39079381a911a7cc5a905d7bcff9",
+      "perspectiveViewsCaptured": [
+        "frontage-241829575-perspective-1"
+      ],
+      "focusedPerspectiveInspected": false
+    },
+    {
+      "id": 241829577,
+      "address": "70 East 7th Street",
+      "referenceIds": [
+        "68",
+        "69-close"
+      ],
+      "sourceViewsInspected": true,
+      "gameViewsInspected": true,
+      "multiViewCalibrated": false,
+      "certifiedOneToOne": false,
+      "limits": [
+        "Unmeasured frontage proportions and camera alignment.",
+        "Dated sources do not establish every temporary feature or current tenant at September 2026.",
+        "Exact lettering, ornamental profiles, unseen entrances and interiors remain outside photographic acceptance."
+      ],
+      "gameReviewKind": "Whole orthographic elevation inspected in the final seven contact sheets; no calibrated photographic acceptance.",
+      "gameElevation": "../docs/images/seventh-engine-04/fidelity/frontage-241829577-elevation.png",
+      "gameElevationSha256": "ee7f067de3102f2f14b4e4813f2d2c6757bc4cc10049628f2bcd34cb4fc34acd",
+      "perspectiveViewsCaptured": [
+        "frontage-241829577-perspective-1"
+      ],
+      "focusedPerspectiveInspected": false
+    },
+    {
+      "id": 241829579,
+      "address": "66 East 7th Street",
+      "referenceIds": [
+        "62",
+        "68"
+      ],
+      "sourceViewsInspected": true,
+      "gameViewsInspected": true,
+      "multiViewCalibrated": false,
+      "certifiedOneToOne": false,
+      "limits": [
+        "Unmeasured frontage proportions and camera alignment.",
+        "Dated sources do not establish every temporary feature or current tenant at September 2026.",
+        "Exact lettering, ornamental profiles, unseen entrances and interiors remain outside photographic acceptance."
+      ],
+      "gameReviewKind": "Whole orthographic elevation inspected in the final seven contact sheets; no calibrated photographic acceptance.",
+      "gameElevation": "../docs/images/seventh-engine-04/fidelity/frontage-241829579-elevation.png",
+      "gameElevationSha256": "f1c72af89a117494e680bc8f9d9ee9a56ced9d32efd425b494d118cabcedf99a",
+      "perspectiveViewsCaptured": [
+        "frontage-241829579-perspective-1"
+      ],
+      "focusedPerspectiveInspected": true
+    },
+    {
+      "id": 241829580,
+      "address": "54 East 7th Street",
+      "referenceIds": [
+        "church",
+        "54",
+        "55-close"
+      ],
+      "sourceViewsInspected": true,
+      "gameViewsInspected": true,
+      "multiViewCalibrated": false,
+      "certifiedOneToOne": false,
+      "limits": [
+        "Unmeasured frontage proportions and camera alignment.",
+        "Dated sources do not establish every temporary feature or current tenant at September 2026.",
+        "Exact lettering, ornamental profiles, unseen entrances and interiors remain outside photographic acceptance."
+      ],
+      "gameReviewKind": "Whole orthographic elevation inspected in the final seven contact sheets; no calibrated photographic acceptance.",
+      "gameElevation": "../docs/images/seventh-engine-04/fidelity/frontage-241829580-elevation.png",
+      "gameElevationSha256": "d2955ff225d5a5986bd5207bd92c927d8c7a5335472310733d37ba9a83236e07",
+      "perspectiveViewsCaptured": [
+        "frontage-241829580-perspective-1"
+      ],
+      "focusedPerspectiveInspected": false
+    },
+    {
+      "id": 241829581,
+      "address": "56 East 7th Street",
+      "referenceIds": [
+        "54",
+        "55-close"
+      ],
+      "sourceViewsInspected": true,
+      "gameViewsInspected": true,
+      "multiViewCalibrated": false,
+      "certifiedOneToOne": false,
+      "limits": [
+        "Unmeasured frontage proportions and camera alignment.",
+        "Dated sources do not establish every temporary feature or current tenant at September 2026.",
+        "Exact lettering, ornamental profiles, unseen entrances and interiors remain outside photographic acceptance."
+      ],
+      "gameReviewKind": "Whole orthographic elevation inspected in the final seven contact sheets; no calibrated photographic acceptance.",
+      "gameElevation": "../docs/images/seventh-engine-04/fidelity/frontage-241829581-elevation.png",
+      "gameElevationSha256": "a4325909d3e52d183716a09753d9239b434cf17ed789c2d9dd49e51dd12ad1be",
+      "perspectiveViewsCaptured": [
+        "frontage-241829581-perspective-1"
+      ],
+      "focusedPerspectiveInspected": false
+    },
+    {
+      "id": 241829582,
+      "address": "52 East 7th Street",
+      "referenceIds": [
+        "church"
+      ],
+      "sourceViewsInspected": true,
+      "gameViewsInspected": true,
+      "multiViewCalibrated": false,
+      "certifiedOneToOne": false,
+      "limits": [
+        "Unmeasured frontage proportions and camera alignment.",
+        "Dated sources do not establish every temporary feature or current tenant at September 2026.",
+        "Exact lettering, ornamental profiles, unseen entrances and interiors remain outside photographic acceptance."
+      ],
+      "gameReviewKind": "Whole orthographic elevation inspected in the final seven contact sheets; no calibrated photographic acceptance.",
+      "gameElevation": "../docs/images/seventh-engine-04/fidelity/frontage-241829582-elevation.png",
+      "gameElevationSha256": "dfe0fbaeb48a164eb55a59cbd827c9863ffdf49aaea34cd43256104890bddbb3",
+      "perspectiveViewsCaptured": [
+        "frontage-241829582-perspective-1"
+      ],
+      "focusedPerspectiveInspected": false
+    },
+    {
+      "id": 241829595,
+      "address": "84 East 7th Street",
+      "referenceIds": [
+        "85-close"
+      ],
+      "sourceViewsInspected": true,
+      "gameViewsInspected": true,
+      "multiViewCalibrated": false,
+      "certifiedOneToOne": false,
+      "limits": [
+        "Unmeasured frontage proportions and camera alignment.",
+        "Dated sources do not establish every temporary feature or current tenant at September 2026.",
+        "Exact lettering, ornamental profiles, unseen entrances and interiors remain outside photographic acceptance."
+      ],
+      "scheduleNote": "84 East 7th uses the existing individual AuH2O / Duarte frontage recipes; its dated observation does not imply an additional observedGroundCorrections replacement.",
+      "gameReviewKind": "Whole orthographic elevation inspected in the final seven contact sheets; no calibrated photographic acceptance.",
+      "gameElevation": "../docs/images/seventh-engine-04/fidelity/frontage-241829595-elevation.png",
+      "gameElevationSha256": "4bddd1b081f77339e30281cc17d8760a9d57cd5b0691bf2c65ff4afb6b8e29f3",
+      "perspectiveViewsCaptured": [
+        "frontage-241829595-perspective-1"
+      ],
+      "focusedPerspectiveInspected": false
+    },
+    {
+      "id": 241829621,
+      "address": "68 East 7th Street",
+      "referenceIds": [
+        "68",
+        "69-close"
+      ],
+      "sourceViewsInspected": true,
+      "gameViewsInspected": true,
+      "multiViewCalibrated": false,
+      "certifiedOneToOne": false,
+      "limits": [
+        "Unmeasured frontage proportions and camera alignment.",
+        "Dated sources do not establish every temporary feature or current tenant at September 2026.",
+        "Exact lettering, ornamental profiles, unseen entrances and interiors remain outside photographic acceptance."
+      ],
+      "gameReviewKind": "Whole orthographic elevation inspected in the final seven contact sheets; no calibrated photographic acceptance.",
+      "gameElevation": "../docs/images/seventh-engine-04/fidelity/frontage-241829621-elevation.png",
+      "gameElevationSha256": "368b0c95f8ad070d410c64c9645a5c29416ffb9e1ef72aa8e5c7870168aa83e4",
+      "perspectiveViewsCaptured": [
+        "frontage-241829621-perspective-1"
+      ],
+      "focusedPerspectiveInspected": false
+    },
+    {
+      "id": 241829629,
+      "address": "64 East 7th Street",
+      "referenceIds": [
+        "62",
+        "63-close"
+      ],
+      "sourceViewsInspected": true,
+      "gameViewsInspected": true,
+      "multiViewCalibrated": false,
+      "certifiedOneToOne": false,
+      "limits": [
+        "Unmeasured frontage proportions and camera alignment.",
+        "Dated sources do not establish every temporary feature or current tenant at September 2026.",
+        "Exact lettering, ornamental profiles, unseen entrances and interiors remain outside photographic acceptance."
+      ],
+      "gameReviewKind": "Whole orthographic elevation inspected in the final seven contact sheets; no calibrated photographic acceptance.",
+      "gameElevation": "../docs/images/seventh-engine-04/fidelity/frontage-241829629-elevation.png",
+      "gameElevationSha256": "71377684de5ccfa24726b7f9a87ea0f360b3ccdda8228b93caa92c337c8cf657",
+      "perspectiveViewsCaptured": [
+        "frontage-241829629-perspective-1"
+      ],
+      "focusedPerspectiveInspected": false
+    },
+    {
+      "id": 241829631,
+      "address": "86 East 7th Street",
+      "referenceIds": [
+        "85-close",
+        "corner"
+      ],
+      "sourceViewsInspected": true,
+      "gameViewsInspected": true,
+      "multiViewCalibrated": false,
+      "certifiedOneToOne": false,
+      "limits": [
+        "Unmeasured frontage proportions and camera alignment.",
+        "Dated sources do not establish every temporary feature or current tenant at September 2026.",
+        "Exact lettering, ornamental profiles, unseen entrances and interiors remain outside photographic acceptance."
+      ],
+      "gameReviewKind": "Whole orthographic elevation inspected in the final seven contact sheets; no calibrated photographic acceptance.",
+      "gameElevation": "../docs/images/seventh-engine-04/fidelity/frontage-241829631-elevation.png",
+      "gameElevationSha256": "a13b052ef34d9a74f1d5cef89673767ba56a9f00d9fc860be0a5d6442bc06a1f",
+      "perspectiveViewsCaptured": [
+        "frontage-241829631-perspective-1",
+        "frontage-241829631-perspective-2",
+        "frontage-241829631-perspective-3"
+      ],
+      "focusedPerspectiveInspected": false
+    },
+    {
+      "id": 241829633,
+      "address": "82 East 7th Street",
+      "referenceIds": [
+        "78",
+        "81-close"
+      ],
+      "sourceViewsInspected": true,
+      "gameViewsInspected": true,
+      "multiViewCalibrated": false,
+      "certifiedOneToOne": false,
+      "limits": [
+        "Unmeasured frontage proportions and camera alignment.",
+        "Dated sources do not establish every temporary feature or current tenant at September 2026.",
+        "Exact lettering, ornamental profiles, unseen entrances and interiors remain outside photographic acceptance.",
+        "White-painted upper brick/dark sash and tile ground now rendered; exact grout scale, tile wear, window/door profiles and air conditioners remain uncalibrated."
+      ],
+      "gameReviewKind": "Whole orthographic elevation inspected in the final seven contact sheets; no calibrated photographic acceptance.",
+      "gameElevation": "../docs/images/seventh-engine-04/fidelity/frontage-241829633-elevation.png",
+      "gameElevationSha256": "1298656051766087f45a0ce10a1c4bd14627395203d3202df295ecc3e1e2ac46",
+      "perspectiveViewsCaptured": [
+        "frontage-241829633-perspective-1"
+      ],
+      "focusedPerspectiveInspected": true
+    },
+    {
+      "id": 241829643,
+      "address": "48 1/2 East 7th Street",
+      "referenceIds": [
+        "west",
+        "49-close"
+      ],
+      "sourceViewsInspected": true,
+      "gameViewsInspected": true,
+      "multiViewCalibrated": false,
+      "certifiedOneToOne": false,
+      "limits": [
+        "Unmeasured frontage proportions and camera alignment.",
+        "Dated sources do not establish every temporary feature or current tenant at September 2026.",
+        "Exact lettering, ornamental profiles, unseen entrances and interiors remain outside photographic acceptance."
+      ],
+      "gameReviewKind": "Whole orthographic elevation inspected in the final seven contact sheets; no calibrated photographic acceptance.",
+      "gameElevation": "../docs/images/seventh-engine-04/fidelity/frontage-241829643-elevation.png",
+      "gameElevationSha256": "5640e89278ef6717c09c096d87d52df5cab7e62b12179c6a50d938d1fd62c391",
+      "perspectiveViewsCaptured": [
+        "frontage-241829643-perspective-1",
+        "frontage-241829643-perspective-2"
+      ],
+      "focusedPerspectiveInspected": false
+    },
+    {
+      "id": 241829665,
+      "address": "60 East 7th Street",
+      "referenceIds": [
+        "58",
+        "57-close"
+      ],
+      "sourceViewsInspected": true,
+      "gameViewsInspected": true,
+      "multiViewCalibrated": false,
+      "certifiedOneToOne": false,
+      "limits": [
+        "Unmeasured frontage proportions and camera alignment.",
+        "Dated sources do not establish every temporary feature or current tenant at September 2026.",
+        "Exact lettering, ornamental profiles, unseen entrances and interiors remain outside photographic acceptance."
+      ],
+      "gameReviewKind": "Whole orthographic elevation inspected in the final seven contact sheets; no calibrated photographic acceptance.",
+      "gameElevation": "../docs/images/seventh-engine-04/fidelity/frontage-241829665-elevation.png",
+      "gameElevationSha256": "b92322fa6f8be133a5630d373dc9f41b2ed66c7098516a91b64bb4e9e1724f1e",
+      "perspectiveViewsCaptured": [
+        "frontage-241829665-perspective-1"
+      ],
+      "focusedPerspectiveInspected": false
+    },
+    {
+      "id": -177966,
+      "address": "73-75 East 7th Street",
+      "referenceIds": [
+        "73-close",
+        "76"
+      ],
+      "sourceViewsInspected": true,
+      "gameViewsInspected": true,
+      "multiViewCalibrated": false,
+      "certifiedOneToOne": false,
+      "limits": [
+        "Unmeasured frontage proportions and camera alignment.",
+        "Dated sources do not establish every temporary feature or current tenant at September 2026.",
+        "Exact lettering, ornamental profiles, unseen entrances and interiors remain outside photographic acceptance.",
+        "Stacked readable BIG / Bar, black canopy, blue/yellow panels and parked bicycle are rendered; exact proprietary letterforms, grille pattern, dimensions and transient window notices remain approximate."
+      ],
+      "gameReviewKind": "Whole orthographic elevation inspected in the final seven contact sheets; no calibrated photographic acceptance.",
+      "gameElevation": "../docs/images/seventh-engine-04/fidelity/frontage--177966-elevation.png",
+      "gameElevationSha256": "5d4e9d8ad7fb6dbbe1837b967eeb232d427449a41caf96656e8a88ea5086b38b",
+      "perspectiveViewsCaptured": [
+        "frontage--177966-perspective-1",
+        "frontage--177966-perspective-2"
+      ],
+      "focusedPerspectiveInspected": true
+    }
+  ],
+  "vacantSiteReferenceIds": [
+    "church-site",
+    "additionalSite"
+  ],
+  "acceptanceRule": "Source-photo inspection, modeled geometry, actual game-view inspection and calibrated independent-view acceptance are separate states. No automatic acceptance from record count or successful export.",
+  "recordJoin": "Join by numeric building ID. Display addresses retain source fractions and hyphen/en-dash variants; never join records solely by the address string.",
+  "savedPckSha256": "15b96df07f67a66862794ed1bff06f8f0a48a3d95644a82b368577134b8a81fe",
+  "visualReport": "engine-review-2026-09-15-04/fidelity-final.json"
+}

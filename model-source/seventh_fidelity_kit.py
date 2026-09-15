@@ -23,6 +23,10 @@ material('seventh weathered limestone', (.58,.56,.51), .96)
 material('seventh pale limestone', (.73,.70,.62), .95)
 material('seventh grey painted stone', (.60,.615,.59), .94)
 material('seventh cornice recess', (.075,.087,.079), .94)
+material('seventh dusty red paint', (.40,.17,.13), .91)
+material('seventh ceramic tile', (.63,.61,.53), .94)
+material('seventh red door enamel', (.48,.105,.065), .72)
+material('seventh charcoal gray paint', (.27,.30,.30), .92)
 
 class FidelityProjectedFacade:
     def __init__(self,base,depth):self.base=base;self.depth=depth
@@ -212,6 +216,10 @@ def fidelity_door(f,r):
     else:f.b(s,top+.08,.09,w+.25,.16,.34,trim)
     if r.get('hood')=='pediment':
         for side in [-1,1]:f.line((s+side*(w/2+.22),top+.15,.17),(s,top+.55,.17),.07,trim)
+    elif r.get('hood')=='stepped':
+        for j in range(3):
+            inset=j*.07
+            f.b(s,top+.10+j*.09,.17,w+.34-inset*2,.09,.28,trim)
     if r.get('portal') in ['pilasters','columns']:
         for side in [-1,1]:
             x=s+side*(w/2+.20)
@@ -223,7 +231,7 @@ def fidelity_door(f,r):
         for j in range(1,6):
             a=j*math.pi/6
             f.line((s,shoulder,d+.10),(s+math.cos(a)*w*.47,shoulder+math.sin(a)*arch_rise*.93,d+.10),.009,'black iron')
-    f.b(s,bottom,.10,w+.14,.06,.52,trim)
+    f.b(s,bottom,.10,w+.14,.06,.52,r.get('thresholdMaterial',trim))
     if r.get('label'):
         sign_text(f,s,r.get('labelY',min(top-.12,leaf_top+.22)),w*.90,r['label'],r.get('labelMaterial','cream stone'),r.get('labelSize',.16),d+.13)
     fidelity_access(f,s,w+.28,r.get('access',{}))
@@ -250,6 +258,29 @@ def fidelity_courses(f,top,mat,step=.44,bottom=.18,depth=.028):
                 for j in range(n):
                     x0=a+(b-a)*j/n;x1=a+(b-a)*(j+1)/n
                     if x1-x0>.035 and y1-y0>.025:f.b((x0+x1)/2,(y0+y1)/2,depth,x1-x0-.016,y1-y0,.12,mat)
+
+def fidelity_clipped_surface(f,left,right,bottom,top,depth,thickness,mat,padding=0):
+    """Place a shallow facade surface without covering registered openings."""
+    def clamp_x(value):return max(left,min(right,value))
+    cuts=sorted({left,right,*[
+        value for opening in OPENINGS[frontage_key(f)]
+        for value in (clamp_x(opening[0]-padding),clamp_x(opening[2]+padding))
+    ]})
+    assert all(left-.000001<=value<=right+.000001 for value in cuts),"Clipped surface cut escaped its requested span"
+    for a,b in zip(cuts,cuts[1:]):
+        if b-a<.004:continue
+        center=(a+b)/2;intervals=[(bottom,top)]
+        for opening_left,opening_bottom,opening_right,opening_top in OPENINGS[frontage_key(f)]:
+            if not opening_left-padding<center<opening_right+padding:continue
+            clipped=[]
+            for y0,y1 in intervals:
+                if opening_top+padding<=y0 or opening_bottom-padding>=y1:
+                    clipped.append((y0,y1));continue
+                if y0<opening_bottom-padding:clipped.append((y0,opening_bottom-padding))
+                if opening_top+padding<y1:clipped.append((opening_top+padding,y1))
+            intervals=clipped
+        for y0,y1 in intervals:
+            if y1-y0>.004:f.b(center,(y0+y1)/2,depth,b-a,y1-y0,thickness,mat)
 
 def fidelity_cornice(f,h,c):
     mat=c['material'];profile=c.get('profile','bracketed' if c.get('ornate',True) else 'plain')
@@ -444,16 +475,169 @@ def fidelity_bayed_shop(f,a,b,r):
             x=ss+side*ww*.37
             for zz in [dd-.13,dd+.17]:f.line((x,.17,zz),(x,.46,zz),.025,'black iron')
 
+OBSERVED_GROUND = globals().get('SEVENTH_GROUND_OVERRIDES',{})
+
+def _observed_scaffold(f, spec):
+    """Shallow street-facing scaffold seen in a dated view; no permit text."""
+    spans=spec.get('scaffold',[])
+    for sc in spans:
+        a=sc.get('at',0)*f.L if isinstance(sc.get('at',0),(int,float)) else sc['at'][0]*f.L
+        b=sc.get('to',1)*f.L if isinstance(sc.get('to',1),(int,float)) else sc['at'][1]*f.L
+        levels=sc.get('levels',[.35,3.45,6.55,9.65,12.75])
+        depth=sc.get('depth',.36)
+        for x in [a,b]:
+            f.line((x,.18,depth),(x,levels[-1],depth),.035,'black iron')
+        for y in levels:f.line((a,y,depth),(b,y,depth),.028,'black iron')
+        # The photographed 66 shed projects across the sidewalk. Its deck and
+        # outer poles make a real obstruction instead of thin wall-line art.
+        var_canopy_y=sc.get('canopyY',3.40)
+        f.b((a+b)/2,var_canopy_y,depth*.5,b-a,.10,depth,'black iron')
+        var_poles=max(2,round((b-a)/1.65))
+        for j in range(var_poles+1):
+            var_x=a+(b-a)*j/var_poles
+            f.line((var_x,.18,depth),(var_x,var_canopy_y+.10,depth),.030,'black iron')
+            f.line((var_x,var_canopy_y,0.06),(var_x,var_canopy_y,depth),.024,'black iron')
+        for y in levels[1:]:
+            f.line((a,y,depth),(b,y-.28,depth),.020,'black iron')
+            f.line((b,y,depth),(a,y-.28,depth),.020,'black iron')
+        for y in levels[:-1]:
+            f.b((a+b)/2,y,depth,b-a,.055,.72,'black iron')
+
+def _observed_ground(f,b):
+    spec=b.get('seventhArchitecture',{}).get('observedGround',OBSERVED_GROUND.get(str(b['id']),{}))
+    if not spec:return
+    tile=spec.get('tileGround')
+    if tile:
+        material_name=tile.get('material','seventh ceramic tile');tile_h=tile.get('height',.92);tile_w=tile.get('width',.18)
+        cols=max(1,round(f.L/tile_w));rows=max(1,round(tile_h/tile_w))
+    for opening in spec.get('groundOpenings',[]):
+        fidelity_window(f,{**opening,'at':opening['at'],'hood':opening.get('hood','none'),
+                           'shape':opening.get('shape','rectangle'),'recess':opening.get('recess',-.15),
+                           'bottom':opening.get('bottom',.20),'height':opening.get('height',2.0),
+                           'frame':opening.get('frame','black iron'),'trim':opening.get('trim','cream stone'),
+                           'grille':opening.get('grille',False),'rails':opening.get('rails',[])})
+    for door in spec.get('groundDoors',[]):
+        fidelity_door(f,door)
+    for unit in spec.get('blankGround',[]):
+        design=deepcopy(unit['design'])
+        photographed_shop(f,unit['span'][0]*f.L,unit['span'][1]*f.L,{'design':design,'name':''})
+        aw=unit.get('awning')
+        if aw:
+            a=unit['span'][0]*f.L;bb=unit['span'][1]*f.L;y=aw.get('y',2.95);drop=aw.get('drop',.35)
+            count=max(2,round((bb-a)/.27))
+            for j in range(count):
+                l=a+(bb-a)*j/count;r=a+(bb-a)*(j+1)/count
+                mat=aw.get('material','seventh shop blue') if j%2 else aw.get('stripe','sign white')
+                face([f.p(l,y-drop,aw.get('depth',.46)),f.p(r,y-drop,aw.get('depth',.46)),
+                      f.p(r,y,.05),f.p(l,y,.05)],mat)
+                f.b((l+r)/2,y-drop-aw.get('valance',.14)/2,aw.get('depth',.47),
+                    r-l,aw.get('valance',.14),.025,mat)
+            if aw.get('topMaterial'):
+                f.b((a+bb)/2,y+.025,.06,bb-a,.07,.06,aw['topMaterial'])
+            if aw.get('text'):
+                sign_text(f,(a+bb)/2,y-drop-aw.get('valance',.14)*.5,bb-a-.12,
+                          aw['text'],aw.get('textMaterial','sign white'),aw.get('textSize',.16),
+                          aw.get('depth',.46)+.03)
+    # These surfaces sit in front of the wall, so every window and door must
+    # have registered first.  Split them around the recesses instead of
+    # drawing an opaque slab across the newly modeled glass.
+    if tile:
+        surface_depth=tile.get('depth',.045);surface_thickness=tile.get('thickness',.018)
+        grout=tile.get('grout','seventh grey painted stone')
+        fidelity_clipped_surface(f,0,f.L,0,tile_h,surface_depth,surface_thickness,material_name)
+        for x in range(1,cols):
+            xx=f.L*x/cols
+            fidelity_clipped_surface(f,xx-.009,xx+.009,0,tile_h,surface_depth+.014,.012,grout)
+        for y in range(1,rows):
+            yy=tile_h*y/rows
+            fidelity_clipped_surface(f,0,f.L,yy-.009,yy+.009,surface_depth+.014,.012,grout)
+    for band in spec.get('baseBands',[]):
+        width=f.L*band.get('width',1);center=f.L*band.get('at',.5)
+        fidelity_clipped_surface(f,center-width/2,center+width/2,
+            band.get('y',.55)-band.get('height',.86)/2,
+            band.get('y',.55)+band.get('height',.86)/2,
+            band.get('depth',.03),band.get('thickness',.08),
+            band.get('material','seventh shop blue'),.025)
+    awnings=list(spec.get('groundAwnings',[]))
+    if spec.get('groundAwning'):awnings.append(spec['groundAwning'])
+    for aw in awnings:
+        a=(aw.get('at',.5)-aw.get('width',.3)/2)*f.L
+        bb=(aw.get('at',.5)+aw.get('width',.3)/2)*f.L
+        y=aw.get('y',3.1);drop=aw.get('drop',.35);d=aw.get('depth',.48)
+        f.b((a+bb)/2,y-drop/2,d,bb-a,drop,.035,aw.get('material','theater red'))
+        f.b((a+bb)/2,y-drop-.08,d,bb-a,.16,.035,aw.get('material','theater red'))
+        if aw.get('text'):
+            sign_text(f,(a+bb)/2,y-drop-.04,bb-a-.08,aw['text'],
+                      aw.get('textMaterial','sign white'),aw.get('textSize',.13),d+.04)
+    for at in spec.get('lanterns',[]):
+        s=at*f.L
+        f.b(s,2.45,.30,.12,.22,.12,'opal lamp')
+        f.line((s,2.34,.28),(s,2.63,.28),.018,'black iron')
+    for well in spec.get('basementAreaways',[]):
+        at=well.get('at',.5)*f.L;width=well.get('width',.34)*f.L;depth=well.get('depth',.92)
+        material_name=well.get('material','seventh sandstone')
+        below=well.get('depthBelow',.46);rim=.06
+        # The well is an open descent: side and street-edge curbs only, with
+        # treads falling from the sidewalk toward the facade and a real floor.
+        for x in [at-width/2+rim/2,at+width/2-rim/2]:
+            f.b(x,.02,depth/2,rim,.12,depth,material_name)
+        f.b(at,.02,depth-rim/2,width-rim*2,.12,rim,material_name)
+        count=max(0,well.get('steps',2));floor_depth=max(.18,depth*.24)
+        inner_edge=.04+floor_depth;stair_depth=max(.04,depth-rim-inner_edge)
+        f.b(at,-below,.04+floor_depth/2,width-rim*2,.08,floor_depth,material_name)
+        for j in range(count):
+            yy=-below*(j+.5)/count
+            d=depth-rim-(j+.5)*stair_depth/count
+            f.b(at,yy,d,width-rim*2,.08,stair_depth/count+.012,material_name)
+        for side in [-1,1]:
+            x=at+side*(width/2-.03)
+            f.line((x,.12,.10),(x,1.24,depth+.10),.021,'black iron')
+            f.line((x,1.24,depth+.10),(x,1.24,.10),.021,'black iron')
+            for j in range(4):
+                d=.10+(depth-.10)*j/3
+                f.line((x,.12,d),(x,1.24,d),.011,'black iron')
+        f.line((at-width/2+.03,1.24,depth+.10),(at+width/2-.03,1.24,depth+.10),.021,'black iron')
+    for fence in spec.get('groundFences',[]):
+        seventh_fence(f,f.L*fence['span'][0],f.L*fence['span'][1],fence.get('depth',.70))
+    _observed_scaffold(f,spec)
+
 def fidelity_elevation(b,f,r):
     f.wall=r.get('wall','warm brick');f.detail={};f.window_dressing=False
-    for window in r.get('windows',[]):fidelity_window(f,window)
-    for door in r.get('doors',[]):fidelity_door(f,door)
+    ground=r.get('observedGround',OBSERVED_GROUND.get(str(b['id']),{}))
+    replace_windows=ground.get('replaceWindows',bool(ground.get('groundOpenings')))
+    replace_doors=ground.get('replaceDoors',bool(ground.get('groundDoors')))
+    def overlaps_observed_opening(window):
+        left=window['at']-window['width']/2;right=window['at']+window['width']/2
+        bottom=window.get('bottom',0);top=bottom+window.get('height',0)
+        observed_openings=list(ground.get('groundOpenings',[]))+[
+            {**door,'height':door['top']-door.get('bottom',.19)} for door in ground.get('groundDoors',[])
+        ]
+        for observed in observed_openings:
+            observed_left=observed['at']-observed['width']/2;observed_right=observed['at']+observed['width']/2
+            observed_bottom=observed.get('bottom',.20);observed_top=observed_bottom+observed.get('height',2.0)
+            if min(right,observed_right)-max(left,observed_left)>.001 and min(top,observed_top)-max(bottom,observed_bottom)>.001:return True
+        return False
+    for window in r.get('windows',[]):
+        if replace_windows and window.get('bottom',99)<3.55:continue
+        if replace_windows and overlaps_observed_opening(window):continue
+        fidelity_window(f,window)
+    for door in r.get('doors',[]):
+        if replace_doors and door.get('bottom',99)<3.55:continue
+        fidelity_door(f,door)
+    # Register replacement openings before courses, piers and facade bands
+    # are emitted, otherwise shallow masonry would close the new recesses.
+    _observed_ground(f,b)
+    suppressed_businesses=set(ground.get('suppressBusinessExteriorIds',[]))
     for shop in b.get('businesses',[]):
         if shop.get('street')!='East 7th Street' or not shop.get('renderName'):continue
+        var_appearance=shop.get('appearance',{})
+        if isinstance(var_appearance,dict) and var_appearance.get('record') in suppressed_businesses:continue
         a,end=shop['unit']
         # Keep explicitly scheduled entrances clear, including legacy units
         # whose old geocoded span covered the entire ground floor.
-        for door in r.get('doors',[]):
+        effective_doors=(list(ground.get('groundDoors',[])) if replace_doors
+                         else list(r.get('doors',[]))+list(ground.get('groundDoors',[])))
+        for door in effective_doors:
             left=(door['at']-door['width']/2-.025)*f.L
             right=(door['at']+door['width']/2+.025)*f.L
             if a<right and end>left:

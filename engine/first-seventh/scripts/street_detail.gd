@@ -83,23 +83,50 @@ func street_lamp(root: Node3D, p: Vector3, bulb: Material):
 func dress(root: Node3D):
 	var blue=S.material(Color("3f6478"),.75)
 	var bulb=S.material(Color("ffe0ad"),.60,1.0)
-	# Recorded as authored placements. Source photographs establish object types,
-	# not a present-day municipal furniture inventory or exact tree coordinates.
+	# Dated source anchors for the bounded First–Second E7 pass. The x values
+	# are inferred curb-plane points, not a municipal survey. North is -z and
+	# south is +z in the runtime map.
+	var west_e7_trees = {
+		-1: [-174.51,-151.68,-144.49,-118.57,-103.37,-83.53,-59.19,-53.94],
+		1: [-188.86,-166.92,-151.66,-143.78,-121.99,-78.44,-59.19]
+	}
+	var west_e7_mature = {
+		-1: [-103.37,-83.53],
+		1: [-143.78,-121.99]
+	}
 	for side in [-1,1]:
 		var positions=[-197,-156,-124,-89,-58,47,73,110,146,178,253] if side<0 else [-206,-174,-138,-107,-78,-50,60,91,125,159,186,258]
-		# April 2026 comparison places the mature church tree beside its right
-		# entrance, not across the left double doors. Position/height estimated.
-		for x in positions:tree(root,Vector3(x,0,side*7.25),1.0,side>0 and x==-174)
-		for x in [-190,-111,-52,64,137,188]:street_lamp(root,Vector3(x,0,side*6.15),bulb)
-		for x in [-246,-205,-42,34,177,237]:hydrant(root,Vector3(x,0,side*5.90))
-	for p in [Vector3(-214,0,6.2),Vector3(14,0,-6.2),Vector3(201,0,6.0)]:mailbox(root,p,blue)
-	# Catch basins, service covers and restrained curb-side litter.
+		for x in positions:
+			if x>-216.0 and x<-15.0: continue
+			tree(root,Vector3(x,0,side*7.25),1.0,side>0 and x==-174)
+		for x in west_e7_trees[side]:
+			tree(root,Vector3(x,0,side*7.25),1.0,x in west_e7_mature[side])
+		for x in [-190,-111,-52,64,137,188]:
+			if x > -218.0 and x < -15.0: continue
+			street_lamp(root,Vector3(x,0,side*6.15),bulb)
+		for x in [-246,-205,-42,34,177,237]:
+			if x > -218.0 and x < -15.0: continue
+			hydrant(root,Vector3(x,0,side*5.90))
+	# The 2024-09 corner view places this mailbox beside Tile's Seventh wall.
+	# It is not a proxy for unresolved west-E7 mailbox locations.
+	mailbox(root,Vector3(-25,0,-6.2),blue)
+	for p in [Vector3(14,0,-6.2),Vector3(201,0,6.0)]:mailbox(root,p,blue)
+	# West-E7 keeps only the dated 85-close drain anchor; generic duplicates are
+	# omitted. The three parking posts below are metric estimates from 77-close.
 	for side in [-1,1]:
 		for x in [-212,-21,20,197,236]:
+			if x > -218.0 and x < -15.0: continue
 			var p=Vector3(x,.025,side*4.56)
 			S.box(root,p,Vector3(.87,.025,.41),soil)
 			for i in range(9):S.box(root,p+Vector3(-.36+i*.09,.018,0),Vector3(.025,.016,.37),metal)
 		for x in [-166,-135,-78,79,150]:
+			if x > -218.0 and x < -15.0: continue
 			var p=Vector3(x,.151,side*6.3)
 			S.box(root,p,Vector3(.72,.012,1.0),metal)
 			for i in range(7):S.box(root,p+Vector3(-.27+i*.09,.009,0),Vector3(.012,.008,.87),soil)
+	var drain=Vector3(-42.0,.025,4.56)
+	S.box(root,drain,Vector3(.87,.025,.41),soil)
+	for i in range(9):S.box(root,drain+Vector3(-.36+i*.09,.018,0),Vector3(.025,.016,.37),metal)
+	for x in [-57.45,-56.95,-56.45]:
+		S.cylinder(root,Vector3(x,.43,6.3),.045,.82,metal,8)
+		S.cylinder(root,Vector3(x,.84,6.3),.075,.07,S.material(Color("c6a64b")),8)

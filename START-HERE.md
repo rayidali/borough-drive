@@ -1,6 +1,6 @@
-# Run Borough Drive locally
+# Run DriveAround.nyc locally
 
-**Current local refinement:** `/seventh/` includes momentum-based drifting (turn + Space, then release/countersteer), improved RPM/load audio and the full mapped Seventh Street stretch through Avenue A. Revision 03 adds explicit window/door/access schedules and the corrected 50/48½ comparison pair; photographic acceptance remains pending. See [engine controls/rebuild](engine/first-seventh/README.md), [revision 03 evidence](model-source/SEVENTH-ENGINE-03.md) and [architectural fidelity benchmark](model-source/SEVENTH-FIDELITY-BENCHMARK.md) and the [handoff](CODEX-HANDOFF.md) for exact verification/save state. Other streets and publication await further direction.
+**Current local revision 04:** `/seventh/` has DriveAround.nyc branding, a live address label on the First–Second block, photo-guided corrections to that block and camera movement independent of the car. Right-drag to orbit/look, Shift + right-drag or middle-drag to pan up toward roofs, wheel to zoom, and V to recenter the camera. C still selects the driving view. The existing drift, sound, weather and full Seventh-through-Avenue-A route remain. See [controls/rebuild](engine/first-seventh/README.md), [revision 04 evidence and limits](model-source/SEVENTH-ENGINE-04.md), [fidelity benchmark](model-source/SEVENTH-FIDELITY-BENCHMARK.md) and [current handoff](CODEX-HANDOFF.md) for the exact save/test state. This is local and unpublished; the domain has not been connected in this session and the block is not certified 1:1.
 
 The repository includes the active ten-block game, exported models, textures, reference data, and editable source recipes. You can play without rebuilding anything.
 

@@ -164,6 +164,12 @@ def photographed_shop(f,a,b,r):
         for yy in [.83,.96]:f.b(ss,yy,d-.22,width,.105,.04,bench.get('material','wood'))
 
 def apply_seventh_schedule(data,schedule):
+    # Compile the revision-04 ground observations into each effective
+    # elevation architecture before exporter/review code reads it. The source
+    # schedule remains grouped for auditability, while the runtime receives a
+    # single architecture record instead of silently drawing stale doors.
+    global SEVENTH_GROUND_OVERRIDES
+    ground_corrections=schedule.get('observedGroundCorrections',{})
     byid={b['id']:b for b in data['buildings']}
     sources=schedule.get('sources',{})
     for record in schedule.get('elevations',[]):
@@ -174,6 +180,9 @@ def apply_seventh_schedule(data,schedule):
         existing=b['facadeSpec'].get('elevations',{}).get('East 7th Street',{})
         b['facadeSpec'].setdefault('elevations',{})['East 7th Street']={**existing,**deepcopy(record['spec'])}
         b['seventhDetail']=record.get('features',{})
+        observed_ground=ground_corrections.get(str(record['buildingId']))
+        if observed_ground:
+            record.setdefault('architecture',{})['observedGround']=deepcopy(observed_ground)
     for record in schedule.get('frontages',[]):
         b=byid[record['buildingId']]
         assert not b['core']
@@ -191,6 +200,11 @@ def apply_seventh_schedule(data,schedule):
         shop['unitBasis']='Seventh engine photo-proportion estimate; unmeasured.'
         if record.get('elevation'):
             b['facadeSpec']['elevations']['East 7th Street'].update(record['elevation'])
+    SEVENTH_GROUND_OVERRIDES={
+        str(record['buildingId']):record.get('architecture',{}).get('observedGround',{})
+        for record in schedule.get('elevations',[])
+        if record.get('architecture',{}).get('observedGround')
+    }
 
 def seventh_plant(f,s,d,scale=1.0,seed=0):
     rng=random.Random(DETAIL_SEED+seed)
@@ -276,6 +290,17 @@ def add_seventh_detail(b,schedule):
         elif kind=='kinka':
             seventh_fence(f,a+w*.15,end,.9)
             for k in range(4):seventh_plant(f,a+w*(.43+k*.13),-.20,.55,k)
+            aw=design.get('awning')
+            if aw and aw.get('brackets'):
+                text_width=w*aw.get('textWidth',.94);text_y=aw.get('y',3.10)-aw.get('drop',.50)-aw.get('valance',.20)*.52
+                text_at=a+w*aw.get('textAt',.5);bd=aw.get('depth',1.12)+.16;bw=text_width*.22;bh=aw.get('bracketHeight',.30)
+                for side in [-1,1]:
+                    x=text_at+side*(text_width*.40)
+                    f.line((x,text_y+bh/2,bd),(x-side*bw,text_y+bh/2,bd),.018,'sign white')
+                    f.line((x-side*bw,text_y+bh/2,bd),(x-side*bw,text_y-bh/2,bd),.018,'sign white')
+                    f.line((x-side*bw,text_y-bh/2,bd),(x,text_y-bh/2,bd),.018,'sign white')
+                if aw.get('redDot'):
+                    f.b(text_at-text_width*.43,text_y+bh*.66,bd,.075,.075,.025,'neon rose')
         elif kind=='clothes':
             f.line((a+w*.14,.20,.73),(a+w*.14,1.63,.73),.019,'metal')
             f.line((a+w*.58,.20,.73),(a+w*.58,1.63,.73),.019,'metal')

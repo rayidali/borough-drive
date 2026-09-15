@@ -1,0 +1,260 @@
+{
+  "schemaVersion": 1,
+  "revision": "04",
+  "checked": "2026-09-15",
+  "scope": {
+    "street": "East 7th Street",
+    "from": "Second Avenue",
+    "to": "First Avenue",
+    "engineX": [-229.0, 0.0],
+    "roadCenterZ": 0.0,
+    "roadHalfWidth": 4.95,
+    "frontageCount": 39,
+    "addressPolicy": "The bounded review scope uses the 39 exact East 7th frontage records in west-seventh-reference-04.json, including 50 East 7th, 62 East 7th, 118 2nd Avenue and 115 1st Avenue frontage lines. The 76/80 records are separate mapped objects; there is no mapped 78 East 7th record."
+  },
+  "sourcePolicy": "Dated reference metadata and the cited public Kinka article were inspected for feature transcription. The durable dated view and 39-record scope index is retained in model-source/west-seventh-reference-04.json, keyed by reference view ID. Reference pixels are not copied into game assets. Feature dimensions and hidden details remain estimates unless explicitly measured.",
+  "sources": [
+    {"id": "49-close", "kind": "street-view close metadata", "imageryDate": "2026-04", "pano": "py0O1VK0amcbISU49EuZXQ", "durableReference": "model-source/west-seventh-reference-04.json", "referenceViewId": "49-close"},
+    {"id": "54", "kind": "street-view metadata", "imageryDate": "2024-09", "pano": "WgP2V5svtqWWPfeXZItkIA", "durableReference": "model-source/west-seventh-reference-04.json", "referenceViewId": "54"},
+    {"id": "55-close", "kind": "street-view close metadata", "imageryDate": "2024-09", "pano": "WgP2V5svtqWWPfeXZItkIA", "durableReference": "model-source/west-seventh-reference-04.json", "referenceViewId": "55-close"},
+    {"id": "58", "kind": "street-view metadata", "imageryDate": "2024-09", "pano": "wk5o9wHwIlPud3GicfSaWg", "durableReference": "model-source/west-seventh-reference-04.json", "referenceViewId": "58"},
+    {"id": "57-close", "kind": "street-view close metadata", "imageryDate": "2024-09", "pano": "wk5o9wHwIlPud3GicfSaWg", "durableReference": "model-source/west-seventh-reference-04.json", "referenceViewId": "57-close"},
+    {"id": "62", "kind": "street-view metadata", "imageryDate": "2024-09", "pano": "RfYj9wLrlvNm-eK3Wa4N3w", "durableReference": "model-source/west-seventh-reference-04.json", "referenceViewId": "62"},
+    {"id": "63-close", "kind": "street-view close metadata", "imageryDate": "2024-09", "pano": "RfYj9wLrlvNm-eK3Wa4N3w", "durableReference": "model-source/west-seventh-reference-04.json", "referenceViewId": "63-close"},
+    {"id": "68", "kind": "street-view metadata", "imageryDate": "2024-09", "pano": "udBbZpfPC17Suy6rtTWtaw", "durableReference": "model-source/west-seventh-reference-04.json", "referenceViewId": "68"},
+    {"id": "69-close", "kind": "street-view close metadata", "imageryDate": "2024-09", "pano": "udBbZpfPC17Suy6rtTWtaw", "durableReference": "model-source/west-seventh-reference-04.json", "referenceViewId": "69-close"},
+    {"id": "73-close", "kind": "street-view close metadata", "imageryDate": "2024-09", "pano": "WA_DDeW1YGZ_SYMjbigU0g", "durableReference": "model-source/west-seventh-reference-04.json", "referenceViewId": "73-close"},
+    {"id": "76", "kind": "street-view metadata", "imageryDate": "2024-09", "pano": "BUNJSXOY9He29Pvm3_1thw", "durableReference": "model-source/west-seventh-reference-04.json", "referenceViewId": "76"},
+    {"id": "77-close", "kind": "street-view close metadata", "imageryDate": "2024-09", "pano": "pX3O-Orh-CdGLnQKg1RebA", "durableReference": "model-source/west-seventh-reference-04.json", "referenceViewId": "77-close"},
+    {"id": "78", "kind": "street-view metadata", "imageryDate": "2024-09", "pano": "UYyub9LVUfa4IVO050rCeA", "durableReference": "model-source/west-seventh-reference-04.json", "referenceViewId": "78"},
+    {"id": "81-close", "kind": "street-view close metadata", "imageryDate": "2024-09", "pano": "UYyub9LVUfa4IVO050rCeA", "durableReference": "model-source/west-seventh-reference-04.json", "referenceViewId": "81-close"},
+    {"id": "85-close", "kind": "street-view close metadata", "imageryDate": "2024-09", "pano": "sV6FEVN5gyys-t_T1jhmnA", "durableReference": "model-source/west-seventh-reference-04.json", "referenceViewId": "85-close"},
+    {"id": "citibike-04", "kind": "official GBFS constrained query", "checked": "2026-09-15", "durableReference": "model-source/west-seventh-reference-04.json", "referenceId": "facilityFinding", "note": "The durable facility finding records no station on this East 7th segment; the two nearby records are on St Marks Place and East 6th Street."},
+    {"id": "scope-index", "kind": "durable source/scope index", "checked": "2026-09-15", "durableReference": "model-source/west-seventh-reference-04.json", "referenceId": "scopedFrontages", "note": "41 inspected dated view records and 39 exact scoped frontage records."},
+    {"id": "lpc-50-2026", "kind": "official LPC presentation PDF", "imageryDate": "2026-07-30", "url": "https://www.nyc.gov/assets/lpc/downloads/pdf/presentation-materials/20260804/50-East-7th-Street-112-2nd-Ave.pdf", "note": "Existing 50 East 7th door photos corroborate the current recipe; proposed work pages are excluded from observation."},
+    {"id": "kinka-2023", "kind": "dated public article/photo", "imageryDate": "circa 2023", "articleDate": "2023-07-19", "url": "https://villagepreservation.org/2023/07/19/welcome-to-the-neighborhood-kinka-63-east-7th-street/", "imageUrl": "https://media.villagepreservation.org/wp-content/uploads/2023/07/19122719/kinka-outside-1050x1400.jpg", "evidenceNote": "The public article and image URL are the durable provenance; the local inspection copy is not required by this ledger."}
+  ],
+  "observationStatus": "All observation entries are source transcriptions and candidate mappings pending matched visual review; they are not claims of successfully modeled or accepted geometry.",
+  "observations": [
+    {
+      "buildingId": 241822325,
+      "address": "49 East 7th Street",
+      "sourceIds": ["49-close"],
+      "observed": ["White facade with red hoods", "left/west arched black door behind an iron forecourt", "raised threshold is visible but partly hidden"],
+      "unknowns": ["Exact threshold rise, forecourt dimensions and concealed ground openings"],
+      "candidateGeometryMapping": "observedGroundCorrections.241822325"
+    },
+    {
+      "buildingId": 241822197,
+      "address": "55 East 7th Street",
+      "sourceIds": ["55-close"],
+      "observed": ["At-grade central door with a round five-spoke fanlight", "two black lanterns flanking the door", "rusticated salmon ground base"],
+      "unknowns": ["Exact door width, recess depth, hardware and masonry dimensions"],
+      "candidateGeometryMapping": "observedGroundCorrections.241822197"
+    },
+    {
+      "buildingId": 241822178,
+      "address": "53 East 7th Street",
+      "sourceIds": ["55-close"],
+      "observed": ["Single red at-grade entrance on the right/east side under a white flat lintel", "lower opening on the left/east-to-west sequence remains visible"],
+      "unknowns": ["Unseen or occluded ground partition details"],
+      "candidateGeometryMapping": "observedGroundCorrections.241822178"
+    },
+    {
+      "buildingId": 241822169,
+      "address": "57 East 7th Street",
+      "sourceIds": ["57-close", "58"],
+      "observed": ["Central recessed black iron grille/entry at grade", "low brick fence and wrought-iron rail with a centered walk", "low curved broad hood/pediment", "no raised steps at the central entry"],
+      "unknowns": ["Exact grille and fence dimensions"],
+      "candidateGeometryMapping": "observedGroundCorrections.241822169"
+    },
+    {
+      "buildingId": 241822199,
+      "address": "59 East 7th Street",
+      "sourceIds": ["57-close", "58"],
+      "observed": ["Raised arched entrance", "clear basement opening under the left/west window"],
+      "unknowns": ["Basement-room depth and concealed rail return"],
+      "candidateGeometryMapping": "observedGroundCorrections.241822199"
+    },
+    {
+      "buildingId": 241822202,
+      "address": "63 East 7th Street",
+      "sourceIds": ["63-close", "kinka-2023"],
+      "observed": ["Kinka occupies the right/east basement unit with a low entry to the left of its large display window", "blue awning carries spaced KINKA lettering toward the right inside open white brackets", "small red circle appears above the left bracket", "raised iron sidewalk areaway is in front of the Kinka low entry with two descending thresholds", "green small-hexagon/tile areaway floor and tall plant growth are visible", "separate central raised residential entry is a high multi-tread semicircular-arch double-wood entry", "large arched grilled upper windows flank the entry", "the left/west lower opening remains unnamed"],
+      "unknowns": ["Exact shop/residential frontage boundary, awning dimensions, areaway depth and plant species", "Whether the left adjacent lower opening is currently occupied; preserve it as unnamed/shuttered"],
+      "candidateGeometryMapping": "frontages.seventh-02-241822202-kinka plus observedGroundCorrections.241822202"
+    },
+    {
+      "buildingId": 241829565,
+      "address": "58 East 7th Street",
+      "sourceIds": ["58"],
+      "observed": ["Blue ground treatment", "two grilled ground windows", "right/east at-grade entry"],
+      "unknowns": ["Exact paint boundary and door hardware"],
+      "candidateGeometryMapping": "observedGroundCorrections.241829565"
+    },
+    {
+      "buildingId": 241829665,
+      "address": "60 East 7th Street",
+      "sourceIds": ["58"],
+      "observed": ["Maroon awning treatment", "right/east flat at-grade entry", "grilled ground windows"],
+      "unknowns": ["Awning tenant lettering beyond the visible address treatment"],
+      "candidateGeometryMapping": "observedGroundCorrections.241829665"
+    },
+    {
+      "buildingId": 241829580,
+      "address": "54 East 7th Street",
+      "sourceIds": ["54", "55-close"],
+      "observed": ["Right/east grey-green round-arched wood/glass door", "raised entry with approximately five visible steps and a landing", "tubular rails with a loop motif"],
+      "unknowns": ["Exact step rise, rail profile and concealed lower opening"],
+      "candidateGeometryMapping": "observedGroundCorrections.241829580"
+    },
+    {
+      "buildingId": 241829581,
+      "address": "56 East 7th Street",
+      "sourceIds": ["54", "55-close"],
+      "observed": ["Left/west dark arched entry", "raised entry with approximately five visible steps and a landing", "black scroll iron at the access"],
+      "unknowns": ["Exact step rise, rail profile and concealed lower opening"],
+      "candidateGeometryMapping": "observedGroundCorrections.241829581"
+    },
+    {
+      "buildingId": 241829621,
+      "address": "68 East 7th Street",
+      "sourceIds": ["68", "69-close"],
+      "observed": ["Right/east raised gated entry with approximately eight treads", "two parlor windows on the left/west", "basement fence"],
+      "unknowns": ["Exact tread count, gate hardware and basement depth"],
+      "candidateGeometryMapping": "observedGroundCorrections.241829621"
+    },
+    {
+      "buildingId": 241822176,
+      "address": "69 East 7th Street",
+      "sourceIds": ["69-close"],
+      "observed": ["Left/west brownwood single entrance with a small multi-pane floral/stained transom", "broad stepped brown lintel with centered 69 address", "two tall grilled ground windows on the right/east", "brown brick and pale diamond spandrels remain visible above"],
+      "unknowns": ["Exact transom pattern and lintel dimensions"],
+      "candidateGeometryMapping": "observedGroundCorrections.241822176"
+    },
+    {
+      "buildingId": 241822274,
+      "address": "67 East 7th Street",
+      "sourceIds": ["69-close"],
+      "observed": ["Three-bay red-brick facade", "left/west low blue-gray door under a flat projected stone hood with narrow pilasters", "two short grilled basement windows on the right/east behind a continuous iron fence"],
+      "unknowns": ["Exact hood projection, fence spacing and lower-room depth"],
+      "candidateGeometryMapping": "observedGroundCorrections.241822274"
+    },
+    {
+      "buildingId": 241829579,
+      "address": "66 East 7th Street",
+      "sourceIds": ["68", "69-close"],
+      "observed": ["Scaffold structure spans the visible facade", "two grilled ground openings flank a central at-grade arched entry"],
+      "unknowns": ["Current tenant, scaffold permit text and work scope are not established; no permit text is modeled"],
+      "candidateGeometryMapping": "observedGroundCorrections.241829579"
+    },
+    {
+      "buildingId": 241829577,
+      "address": "70 East 7th Street",
+      "sourceIds": ["68", "69-close"],
+      "observed": ["Dark ground with a central at-grade entry", "blue/white striped awning at the left/west lower unit", "lower-unit tenant is not legible in the inspected view"],
+      "unknowns": ["Exact unit boundary, door hardware and tenant name"],
+      "candidateGeometryMapping": "observedGroundCorrections.241829577"
+    },
+    {
+      "buildingId": -177966,
+      "address": "73–75 East 7th Street",
+      "sourceIds": ["73-close"],
+      "observed": ["BIG BAR occupies the left/west portion of the combined facade", "black sloped awning with stacked off-center white BIG BAR letters", "blue/yellow lower awning panels", "central residential portal separates the right unit"],
+      "unknowns": ["Right-unit tenant and exact combined-facade partition"],
+      "candidateGeometryMapping": "observedGroundCorrections.-177966"
+    },
+    {
+      "buildingId": 241829567,
+      "address": "76 East 7th Street",
+      "sourceIds": ["76"],
+      "observed": ["Southern side shows multiple ground units and residential access; one blue fascia is visible", "unit sequence is represented as anonymous openings/door pending tenant confirmation"],
+      "unknowns": ["Exact unit boundaries, names, door hardware and any shed relationship"],
+      "candidateGeometryMapping": "observedGroundCorrections.241829567"
+    },
+    {
+      "buildingId": 241829633,
+      "address": "82 East 7th Street",
+      "sourceIds": ["78", "81-close"],
+      "observed": ["White square-tile ground", "central black metal/glass door", "large grilled windows to left/west and right/east"],
+      "unknowns": ["Exact tile size, grille spacing and ground-unit occupancy"],
+      "candidateGeometryMapping": "observedGroundCorrections.241829633"
+    },
+    {
+      "buildingId": 241822317,
+      "address": "83 East 7th Street",
+      "sourceIds": ["85-close"],
+      "observed": ["Broad Tokio 7 lower storefront spans nearly the full frontage", "left/west entry", "teal low awning and black open-grille storefront are visible", "central residential door is not retained as the storefront access"],
+      "unknowns": ["Exact left entry partition and lower-board graffiti lettering"],
+      "candidateGeometryMapping": "frontages.seventh-02-241822317-tokio plus observedGroundCorrections.241822317"
+    },
+    {
+      "buildingId": 241822336,
+      "address": "79 East 7th Street",
+      "sourceIds": ["77-close"],
+      "observed": ["Left/west at-grade black door carries literal 79", "broad shop frontage continues to the right/east with brick/red piers", "low green awning edge and Blue & Gold identity are visible", "shop door is on the right/east and a center display window is visible"],
+      "unknowns": ["Tree/dining-shed occlusion and exact tenant partition"],
+      "candidateGeometryMapping": "seventh-02-241822336-bluegold plus architecture-241822336 observedGround; pending matched visual review"
+    },
+    {
+      "buildingId": 241822185,
+      "address": "77 East 7th Street",
+      "sourceIds": ["77-close"],
+      "observed": ["Residential entry is on the right/east near 0.84", "far-left commercial frontage is partly hidden behind the black dining shed", "basement descent is hidden and no precise stair count is inferred"],
+      "unknowns": ["Commercial partition and concealed basement opening"],
+      "candidateGeometryMapping": "observedGroundCorrections.241822185"
+    },
+    {
+      "buildingId": 241829595,
+      "address": "84 East 7th Street",
+      "sourceIds": ["85-close"],
+      "observed": ["Studio DuArte remains the left/west unit and AuH2O the right/east unit", "AuH2O has a closed grille, dark awning and round cream sign above the storefront"],
+      "unknowns": ["Exact grille and sign dimensions"],
+      "candidateGeometryMapping": "frontages.seventh-02-241829595-goldwater"
+    },
+    {
+      "buildingId": 241822192,
+      "address": "85 East 7th Street",
+      "sourceIds": ["85-close"],
+      "observed": ["Red-brick facade with brownstone base", "center wood entry with two narrow vertical glazed leaves under a rectangular transom", "large grilled ground windows on both sides", "near at-grade threshold with one shallow rise"],
+      "unknowns": ["Literal address lettering was not legible; exact door and grille dimensions remain estimates"],
+      "candidateGeometryMapping": "observedGroundCorrections.241822192"
+    },
+    {
+      "buildingId": 241822329,
+      "address": "81 East 7th Street",
+      "sourceIds": ["78", "81-close"],
+      "observed": ["Raised residential entry is on the left/west under a black triangular pediment", "two tall grilled parlor windows are on the right/east with matching pediments", "ABRAÇO occupies a low center/right basement unit under the windows", "iron areaway and plants are visible at the lower storefront"],
+      "unknowns": ["Exact entry drop, areaway depth, plant species and lower-unit partition"],
+      "candidateGeometryMapping": "frontages.seventh-02-241822329-abra plus observedGroundCorrections.241822329"
+    }
+  ],
+  "frontageInventory": [
+    {"buildingId": 241822325, "address": "49 East 7th"}, {"buildingId": 241822340, "address": "51 East 7th"}, {"buildingId": 241822178, "address": "53 East 7th"}, {"buildingId": 241822197, "address": "55 East 7th"}, {"buildingId": 241822169, "address": "57 East 7th"}, {"buildingId": 241822199, "address": "59 East 7th"}, {"buildingId": 241822201, "address": "61 East 7th"}, {"buildingId": 241822202, "address": "63 East 7th"}, {"buildingId": 241822157, "address": "65 East 7th"}, {"buildingId": 241822274, "address": "67 East 7th"}, {"buildingId": 241822176, "address": "69 East 7th"}, {"buildingId": 241822319, "address": "71 East 7th"}, {"buildingId": -177966, "address": "73–75 East 7th"}, {"buildingId": 241822185, "address": "77 East 7th"}, {"buildingId": 241822336, "address": "79 East 7th"}, {"buildingId": 241822329, "address": "81 East 7th"}, {"buildingId": 241822317, "address": "83 East 7th"}, {"buildingId": 241822192, "address": "85 East 7th"}, {"buildingId": 241829582, "address": "52 East 7th"}, {"buildingId": 241829580, "address": "54 East 7th"}, {"buildingId": 241829581, "address": "56 East 7th"}, {"buildingId": 241829565, "address": "58 East 7th"}, {"buildingId": 241829665, "address": "60 East 7th"}, {"buildingId": 241829629, "address": "64 East 7th"}, {"buildingId": 241829579, "address": "66 East 7th"}, {"buildingId": 241829621, "address": "68 East 7th"}, {"buildingId": 241829577, "address": "70 East 7th"}, {"buildingId": 241829574, "address": "72 East 7th"}, {"buildingId": 241829573, "address": "74 East 7th"}, {"buildingId": 241829567, "address": "76 East 7th"}, {"buildingId": 241829566, "address": "80 East 7th"}, {"buildingId": 241829633, "address": "82 East 7th"}, {"buildingId": 241829595, "address": "84 East 7th"}, {"buildingId": 241829631, "address": "86 East 7th"}, {"buildingId": 241829643, "address": "48½ East 7th"}
+  ],
+  "additionalScopedFrontages": [
+    {"buildingId": 241829575, "address": "50 East 7th"},
+    {"buildingId": 241829572, "address": "62 East 7th"},
+    {"buildingId": 241822156, "address": "118 2nd Avenue"},
+    {"buildingId": 241822226, "address": "115 1st Avenue"}
+  ],
+  "streetFacilities": {
+    "citibike": {"sourceId": "citibike-04", "stationsOnSegment": [], "note": "The constrained official GBFS query found no station on this E7 segment; nearby results do not authorize an E7 dock."},
+    "diningShed": {"observed": true, "sourceIds": ["76"], "scope": "View-specific opposite-side road dining shed near the Blue & Gold/Whiskey Cellar area; exact frontage and permanence are unresolved."},
+    "otherFurniture": {"status": "No dated evidence in this revision for a complete CitiBike, table, chair, or sidewalk-furniture inventory."}
+  },
+  "groundVoidDerivation": {
+    "source": "model-source/export_seventh_engine.py",
+    "input": "Only explicit observedGroundCorrections basementAreaways with positive depth",
+    "output": "Export manifest groundVoids records retain buildingId, frontage line, normalized position, width, outward depth and an explicitly authored below-surface cut envelope.",
+    "records": [
+      {"buildingId": 241822202, "address": "63 East 7th", "at": 0.70, "width": 0.30, "worldWidth": 2.2422, "depth": 1.00, "cutExtent": 1.00},
+      {"buildingId": 241822329, "address": "81 East 7th", "at": 0.69, "width": 0.57, "worldWidth": 4.4460, "depth": 1.03, "cutExtent": 1.03},
+      {"buildingId": 241822199, "address": "59 East 7th", "at": 0.17, "width": 0.30, "worldWidth": 2.1993, "depth": 0.94, "cutExtent": 0.94},
+      {"buildingId": 241829621, "address": "68 East 7th", "at": 0.28, "width": 0.48, "worldWidth": 3.6566, "depth": 1.00, "cutExtent": 1.00}
+    ],
+    "limits": "Width is stored both as frontage fraction and derived worldWidth; cutExtent is outward from the facade and steps descend toward the facade. Below-surface depth is a collision/visual cut envelope pending measurement. No void is inferred for an unlisted frontage. Runtime sidewalk and solid-plane cuts remain a downstream world implementation task."
+  },
+  "unmodifiedCoverage": "The remaining frontageInventory records have no discrete geometry correction encoded by this revision. Existing schedules and original namespaces remain authoritative until a matching view supplies an observed change.",
+  "limits": "This ledger records observed feature types and bounded source coverage. It does not claim complete present-day occupancy, measured dimensions, successfully modeled geometry, or 1:1 facade acceptance. Durable view metadata and scoped frontage records are keyed in model-source/west-seventh-reference-04.json; public provenance is retained where supplied. Candidate mappings remain pending matched visual review."
+}

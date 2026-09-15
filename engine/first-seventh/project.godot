@@ -1,13 +1,13 @@
-; Borough Drive — Seventh, slowly. Local engine prototype.
+; DriveAround.nyc — Seventh, slowly. Local engine prototype.
 config_version=5
 
 [application]
-config/name="Borough Drive — Seventh, slowly"
+config/name="DriveAround.nyc — Seventh, slowly"
 run/main_scene="res://scenes/main.tscn"
 config/use_custom_user_dir=true
 config/custom_user_dir_name="Borough Drive Seventh"
 config/features=PackedStringArray("4.7", "GL Compatibility")
-config/description="A small, unhurried drive through the East Village."
+config/description="A small, unhurried drive through the East Village, from DriveAround.nyc."
 
 [display]
 window/size/viewport_width=1280

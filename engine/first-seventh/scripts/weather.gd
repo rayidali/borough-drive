@@ -18,6 +18,19 @@ var world: Node3D
 var auto_weather = false
 var auto_timer = 0.0
 var rain_sound: AudioStreamPlayer
+var visual_timer = 0.0
+var visual_initialized = false
+var applied_top = Color(-1,-1,-1)
+var applied_horizon = Color(-1,-1,-1)
+var applied_cloud = Color(-1,-1,-1)
+var applied_ambient = Color(-1,-1,-1)
+var applied_fog = Color(-1,-1,-1)
+var applied_sun = Color(-1,-1,-1)
+var applied_cover = -1.0
+var applied_density = -1.0
+var applied_energy = -1.0
+var applied_wet = -1.0
+var applied_dusk = -1.0
 
 func _ready():
 	sky_material.shader = preload("res://shaders/sky.gdshader")
@@ -73,7 +86,9 @@ func select(value: int, instant: bool = false):
 	auto_timer = 0
 	if instant:
 		current = PRESETS[mode].duplicate()
-		apply()
+		# The initial call happens after World has finished building, so force
+		# one handoff even when the selected preset matches _ready's default.
+		apply(true)
 
 func _process(dt):
 	auto_timer += dt
@@ -82,13 +97,21 @@ func _process(dt):
 	for key in current:
 		if current[key] is Color: current[key] = current[key].lerp(PRESETS[mode][key],weight)
 		else: current[key] = lerp(float(current[key]),float(PRESETS[mode][key]),weight)
-	apply()
+	# Environment and shader uniforms do not need to be submitted at display
+	# rate. Keeping the interpolation at frame rate preserves smooth gameplay,
+	# while a 30 Hz visual update avoids repeated driver work once the mood has
+	# settled. Vehicle wetness/dusk below remain frame rate for handling/audio.
+	visual_timer += dt
+	if visual_timer >= 1.0/30.0:
+		visual_timer = fmod(visual_timer,1.0/30.0)
+		apply()
 	if car:
 		rain.global_position = car.global_position+Vector3(0,18,-3)
 		car.wetness = current.wet
 		car.set_dusk(current.dusk)
 
-func apply():
+func apply(force: bool = false):
+	if not force and visual_initialized and not visual_changed(): return
 	sky_material.set_shader_parameter("zenith",current.top)
 	sky_material.set_shader_parameter("horizon",current.horizon)
 	sky_material.set_shader_parameter("cloud_color",current.cloud)
@@ -102,3 +125,33 @@ func apply():
 	sun.light_energy = current.energy*.60
 	rain.emitting = current.wet > .40
 	if world: world.set_weather(current.dusk,current.wet,current.horizon)
+	applied_top = current.top
+	applied_horizon = current.horizon
+	applied_cloud = current.cloud
+	applied_ambient = current.ambient
+	applied_fog = current.fog
+	applied_sun = current.sun
+	applied_cover = current.cover
+	applied_density = current.density
+	applied_energy = current.energy
+	applied_wet = current.wet
+	applied_dusk = current.dusk
+	visual_initialized = true
+
+func visual_changed() -> bool:
+	# A sub-thousandth change is below the useful precision of these broad
+	# atmosphere colors and avoids uniform churn at the interpolation tail.
+	return color_changed(current.top,applied_top) \
+		or color_changed(current.horizon,applied_horizon) \
+		or color_changed(current.cloud,applied_cloud) \
+		or color_changed(current.ambient,applied_ambient) \
+		or color_changed(current.fog,applied_fog) \
+		or color_changed(current.sun,applied_sun) \
+		or abs(float(current.cover)-applied_cover) > .001 \
+		or abs(float(current.density)-applied_density) > .00001 \
+		or abs(float(current.energy)-applied_energy) > .001 \
+		or abs(float(current.wet)-applied_wet) > .001 \
+		or abs(float(current.dusk)-applied_dusk) > .001
+
+func color_changed(a: Color,b: Color) -> bool:
+	return abs(a.r-b.r) > .001 or abs(a.g-b.g) > .001 or abs(a.b-b.b) > .001

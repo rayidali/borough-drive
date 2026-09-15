@@ -1,0 +1,1219 @@
+{
+  "schema": 1,
+  "checkedAt": "2026-09-15T04:04:10.597006+00:00",
+  "scope": "East 7th Street between First and Second Avenues. Preserve existing outer map and accepted First & Seventh corner.",
+  "referenceViews": [
+    {
+      "id": "54",
+      "checkedAt": "2026-09-15T03:56:04.080Z",
+      "panoramaId": "WgP2V5svtqWWPfeXZItkIA",
+      "captureDate": "2024-09",
+      "location": {
+        "lat": 40.72764682093706,
+        "lon": -73.98732701842758
+      },
+      "attribution": "© Google",
+      "engineCameraStart": {
+        "x": -151.3629652344635,
+        "z": 0.3785258583878601,
+        "height": 2.5
+      },
+      "views": [
+        {
+          "heading": 209.08,
+          "pitch": 0,
+          "fov": 90
+        },
+        {
+          "heading": 29.08,
+          "pitch": 0,
+          "fov": 90
+        }
+      ],
+      "inspection": "Both views visually inspected by coordinator. Visible features only; capture date is not current-day status.",
+      "limits": "GPS/camera height, metric dimensions and source-to-model alignment require calibration. Vehicles/foliage conceal lower features. No source pixels distributed."
+    },
+    {
+      "id": "55-close",
+      "checkedAt": "2026-09-15T04:01:08.375Z",
+      "panoramaId": "WgP2V5svtqWWPfeXZItkIA",
+      "captureDate": "2024-09",
+      "location": {
+        "lat": 40.72764682093706,
+        "lon": -73.98732701842758
+      },
+      "attribution": "© Google",
+      "engineCameraStart": {
+        "x": -151.3629652344635,
+        "z": 0.3785258583878601,
+        "height": 2.5
+      },
+      "views": [
+        {
+          "heading": 29.08,
+          "pitch": -3,
+          "fov": 60
+        },
+        {
+          "heading": 209.08,
+          "pitch": -3,
+          "fov": 60
+        }
+      ],
+      "inspection": "Both views visually inspected by coordinator. Visible features only; capture date is not current-day status.",
+      "limits": "GPS/camera height, metric dimensions and source-to-model alignment require calibration. Vehicles/foliage conceal lower features. No source pixels distributed."
+    },
+    {
+      "id": "57-close",
+      "checkedAt": "2026-09-15T04:01:08.914Z",
+      "panoramaId": "wk5o9wHwIlPud3GicfSaWg",
+      "captureDate": "2024-09",
+      "location": {
+        "lat": 40.72758904899453,
+        "lon": -73.98718668148271
+      },
+      "attribution": "© Google",
+      "engineCameraStart": {
+        "x": -137.89088509158725,
+        "z": 0.24577209521385157,
+        "height": 2.5
+      },
+      "views": [
+        {
+          "heading": 29.08,
+          "pitch": -3,
+          "fov": 65
+        },
+        {
+          "heading": 209.08,
+          "pitch": -3,
+          "fov": 65
+        }
+      ],
+      "inspection": "Both views visually inspected by coordinator. Visible features only; capture date is not current-day status.",
+      "limits": "GPS/camera height, metric dimensions and source-to-model alignment require calibration. Vehicles/foliage conceal lower features. No source pixels distributed."
+    },
+    {
+      "id": "58",
+      "checkedAt": "2026-09-15T03:54:32.557Z",
+      "panoramaId": "wk5o9wHwIlPud3GicfSaWg",
+      "captureDate": "2024-09",
+      "location": {
+        "lat": 40.72758904899453,
+        "lon": -73.98718668148271
+      },
+      "attribution": "© Google",
+      "engineCameraStart": {
+        "x": -137.89088509158725,
+        "z": 0.24577209521385157,
+        "height": 2.5
+      },
+      "views": [
+        {
+          "heading": 209.08,
+          "pitch": 0,
+          "fov": 110
+        },
+        {
+          "heading": 29.08,
+          "pitch": 0,
+          "fov": 110
+        }
+      ],
+      "inspection": "Both views visually inspected by coordinator. Visible features only; capture date is not current-day status.",
+      "limits": "GPS/camera height, metric dimensions and source-to-model alignment require calibration. Vehicles/foliage conceal lower features. No source pixels distributed."
+    },
+    {
+      "id": "62",
+      "checkedAt": "2026-09-15T03:56:04.885Z",
+      "panoramaId": "RfYj9wLrlvNm-eK3Wa4N3w",
+      "captureDate": "2024-09",
+      "location": {
+        "lat": 40.72750814010923,
+        "lon": -73.98699011991526
+      },
+      "attribution": "© Google",
+      "engineCameraStart": {
+        "x": -119.0218251471564,
+        "z": 0.058973716425668954,
+        "height": 2.5
+      },
+      "views": [
+        {
+          "heading": 209.08,
+          "pitch": 0,
+          "fov": 90
+        },
+        {
+          "heading": 29.08,
+          "pitch": 0,
+          "fov": 90
+        }
+      ],
+      "inspection": "Both views visually inspected by coordinator. Visible features only; capture date is not current-day status.",
+      "limits": "GPS/camera height, metric dimensions and source-to-model alignment require calibration. Vehicles/foliage conceal lower features. No source pixels distributed."
+    },
+    {
+      "id": "63-close",
+      "checkedAt": "2026-09-15T04:01:07.847Z",
+      "panoramaId": "RfYj9wLrlvNm-eK3Wa4N3w",
+      "captureDate": "2024-09",
+      "location": {
+        "lat": 40.72750814010923,
+        "lon": -73.98699011991526
+      },
+      "attribution": "© Google",
+      "engineCameraStart": {
+        "x": -119.0218251471564,
+        "z": 0.058973716425668954,
+        "height": 2.5
+      },
+      "views": [
+        {
+          "heading": 29.08,
+          "pitch": -5,
+          "fov": 65
+        },
+        {
+          "heading": 209.08,
+          "pitch": -5,
+          "fov": 65
+        }
+      ],
+      "inspection": "Both views visually inspected by coordinator. Visible features only; capture date is not current-day status.",
+      "limits": "GPS/camera height, metric dimensions and source-to-model alignment require calibration. Vehicles/foliage conceal lower features. No source pixels distributed."
+    },
+    {
+      "id": "68",
+      "checkedAt": "2026-09-15T03:54:33.558Z",
+      "panoramaId": "udBbZpfPC17Suy6rtTWtaw",
+      "captureDate": "2024-09",
+      "location": {
+        "lat": 40.72742449193511,
+        "lon": -73.98678701206231
+      },
+      "attribution": "© Google",
+      "engineCameraStart": {
+        "x": -99.52193188638499,
+        "z": -0.12969695419729987,
+        "height": 2.5
+      },
+      "views": [
+        {
+          "heading": 209.08,
+          "pitch": 0,
+          "fov": 110
+        },
+        {
+          "heading": 29.08,
+          "pitch": 0,
+          "fov": 110
+        }
+      ],
+      "inspection": "Both views visually inspected by coordinator. Visible features only; capture date is not current-day status.",
+      "limits": "GPS/camera height, metric dimensions and source-to-model alignment require calibration. Vehicles/foliage conceal lower features. No source pixels distributed."
+    },
+    {
+      "id": "73-close",
+      "checkedAt": "2026-09-15T03:58:46.887Z",
+      "panoramaId": "WA_DDeW1YGZ_SYMjbigU0g",
+      "captureDate": "2024-09",
+      "location": {
+        "lat": 40.72733966923902,
+        "lon": -73.98658094480251
+      },
+      "attribution": "© Google",
+      "engineCameraStart": {
+        "x": -79.74030886196172,
+        "z": -0.3254250306084714,
+        "height": 2.5
+      },
+      "views": [
+        {
+          "heading": 29.08,
+          "pitch": -3,
+          "fov": 90
+        },
+        {
+          "heading": 209.08,
+          "pitch": -3,
+          "fov": 90
+        }
+      ],
+      "inspection": "Both views visually inspected by coordinator. Visible features only; capture date is not current-day status.",
+      "limits": "GPS/camera height, metric dimensions and source-to-model alignment require calibration. Vehicles/foliage conceal lower features. No source pixels distributed."
+    },
+    {
+      "id": "76",
+      "checkedAt": "2026-09-15T03:54:34.646Z",
+      "panoramaId": "BUNJSXOY9He29Pvm3_1thw",
+      "captureDate": "2024-09",
+      "location": {
+        "lat": 40.72729581875181,
+        "lon": -73.98647441386085
+      },
+      "attribution": "© Google",
+      "engineCameraStart": {
+        "x": -69.51379371280854,
+        "z": -0.4266543187128491,
+        "height": 2.5
+      },
+      "views": [
+        {
+          "heading": 209.08,
+          "pitch": 0,
+          "fov": 110
+        },
+        {
+          "heading": 29.08,
+          "pitch": 0,
+          "fov": 110
+        }
+      ],
+      "inspection": "Both views visually inspected by coordinator. Visible features only; capture date is not current-day status.",
+      "limits": "GPS/camera height, metric dimensions and source-to-model alignment require calibration. Vehicles/foliage conceal lower features. No source pixels distributed."
+    },
+    {
+      "id": "77-close",
+      "checkedAt": "2026-09-15T04:01:09.888Z",
+      "panoramaId": "pX3O-Orh-CdGLnQKg1RebA",
+      "captureDate": "2024-09",
+      "location": {
+        "lat": 40.72725152650449,
+        "lon": -73.98636689646166
+      },
+      "attribution": "© Google",
+      "engineCameraStart": {
+        "x": -59.190650830271935,
+        "z": -0.5253465039843945,
+        "height": 2.5
+      },
+      "views": [
+        {
+          "heading": 29.08,
+          "pitch": -3,
+          "fov": 85
+        },
+        {
+          "heading": 209.08,
+          "pitch": -3,
+          "fov": 85
+        }
+      ],
+      "inspection": "Both views visually inspected by coordinator. Visible features only; capture date is not current-day status.",
+      "limits": "GPS/camera height, metric dimensions and source-to-model alignment require calibration. Vehicles/foliage conceal lower features. No source pixels distributed."
+    },
+    {
+      "id": "78",
+      "checkedAt": "2026-09-15T03:56:05.913Z",
+      "panoramaId": "UYyub9LVUfa4IVO050rCeA",
+      "captureDate": "2024-09",
+      "location": {
+        "lat": 40.72720758763026,
+        "lon": -73.98626027572861
+      },
+      "attribution": "© Google",
+      "engineCameraStart": {
+        "x": -48.9527339184412,
+        "z": -0.6216577824150136,
+        "height": 2.5
+      },
+      "views": [
+        {
+          "heading": 209.08,
+          "pitch": 0,
+          "fov": 90
+        },
+        {
+          "heading": 29.08,
+          "pitch": 0,
+          "fov": 90
+        }
+      ],
+      "inspection": "Both views visually inspected by coordinator. Visible features only; capture date is not current-day status.",
+      "limits": "GPS/camera height, metric dimensions and source-to-model alignment require calibration. Vehicles/foliage conceal lower features. No source pixels distributed."
+    },
+    {
+      "id": "81-close",
+      "checkedAt": "2026-09-15T03:58:46.195Z",
+      "panoramaId": "UYyub9LVUfa4IVO050rCeA",
+      "captureDate": "2024-09",
+      "location": {
+        "lat": 40.72720758763026,
+        "lon": -73.98626027572861
+      },
+      "attribution": "© Google",
+      "engineCameraStart": {
+        "x": -48.9527339184412,
+        "z": -0.6216577824150136,
+        "height": 2.5
+      },
+      "views": [
+        {
+          "heading": 29.08,
+          "pitch": -6,
+          "fov": 60
+        },
+        {
+          "heading": 209.08,
+          "pitch": -6,
+          "fov": 60
+        }
+      ],
+      "inspection": "Both views visually inspected by coordinator. Visible features only; capture date is not current-day status.",
+      "limits": "GPS/camera height, metric dimensions and source-to-model alignment require calibration. Vehicles/foliage conceal lower features. No source pixels distributed."
+    },
+    {
+      "id": "church",
+      "checkedAt": "2026-09-15T03:53:52.493Z",
+      "panoramaId": "BhbNLmsrLJoqeAErWVcK_w",
+      "captureDate": "2026-04",
+      "location": {
+        "lat": 40.72771606592374,
+        "lon": -73.98749506393777
+      },
+      "attribution": "© Google",
+      "engineCameraStart": {
+        "x": -167.4986056666329,
+        "z": 0.5310336816953622,
+        "height": 2.5
+      },
+      "views": [
+        {
+          "heading": 209.08,
+          "pitch": 2,
+          "fov": 100
+        },
+        {
+          "heading": 29.08,
+          "pitch": 2,
+          "fov": 100
+        }
+      ],
+      "inspection": "Both views visually inspected by coordinator. Visible features only; capture date is not current-day status.",
+      "limits": "GPS/camera height, metric dimensions and source-to-model alignment require calibration. Vehicles/foliage conceal lower features. No source pixels distributed."
+    },
+    {
+      "id": "corner",
+      "checkedAt": "2026-09-15T03:58:47.972Z",
+      "panoramaId": "-TOgDaVjcnj1xBGaAc3K6g",
+      "captureDate": "2024-09",
+      "location": {
+        "lat": 40.72707477339342,
+        "lon": -73.9859381713546
+      },
+      "attribution": "© Google",
+      "engineCameraStart": {
+        "x": -18.019703525122765,
+        "z": -0.9054560429980825,
+        "height": 2.5
+      },
+      "views": [
+        {
+          "heading": 29.08,
+          "pitch": 0,
+          "fov": 100
+        },
+        {
+          "heading": 209.08,
+          "pitch": 0,
+          "fov": 100
+        }
+      ],
+      "inspection": "Both views visually inspected by coordinator. Visible features only; capture date is not current-day status.",
+      "limits": "GPS/camera height, metric dimensions and source-to-model alignment require calibration. Vehicles/foliage conceal lower features. No source pixels distributed."
+    },
+    {
+      "id": "second",
+      "checkedAt": "2026-09-15T03:53:51.687Z",
+      "panoramaId": "dhHN7nptFd5a5rM5JqMSZQ",
+      "captureDate": "2024-09",
+      "location": {
+        "lat": 40.72797495132452,
+        "lon": -73.98813541103571
+      },
+      "attribution": "© Google",
+      "engineCameraStart": {
+        "x": -228.715160644587,
+        "z": 1.5963488240567472,
+        "height": 2.5
+      },
+      "views": [
+        {
+          "heading": 209.08,
+          "pitch": 3,
+          "fov": 100
+        },
+        {
+          "heading": 29.08,
+          "pitch": 3,
+          "fov": 100
+        }
+      ],
+      "inspection": "Both views visually inspected by coordinator; second is avenue context excluded from Seventh facade observations.",
+      "limits": "GPS/camera height, metric dimensions and source-to-model alignment require calibration. Vehicles/foliage conceal lower features. No source pixels distributed."
+    },
+    {
+      "id": "west",
+      "checkedAt": "2026-09-15T03:54:31.511Z",
+      "panoramaId": "WUDmCr1p_h1szKnxUYSX5g",
+      "captureDate": "2026-04",
+      "location": {
+        "lat": 40.72780608705231,
+        "lon": -73.98771386363453
+      },
+      "attribution": "© Google",
+      "engineCameraStart": {
+        "x": -188.50018793411397,
+        "z": 0.7429972909494609,
+        "height": 2.5
+      },
+      "views": [
+        {
+          "heading": 209.08,
+          "pitch": 0,
+          "fov": 110
+        },
+        {
+          "heading": 29.08,
+          "pitch": 0,
+          "fov": 110
+        }
+      ],
+      "inspection": "Both views visually inspected by coordinator. Visible features only; capture date is not current-day status.",
+      "limits": "GPS/camera height, metric dimensions and source-to-model alignment require calibration. Vehicles/foliage conceal lower features. No source pixels distributed."
+    },
+    {
+      "id": "church-site",
+      "checkedAt": "2026-09-15T04:04:56.021Z",
+      "panoramaId": "BHfkqHTI2feL6r9NwnOFew",
+      "captureDate": "2024-09",
+      "location": {
+        "lat": 40.72787958492045,
+        "lon": -73.98789222107168
+      },
+      "attribution": "© Google",
+      "engineCameraStart": {
+        "x": -205.62617640381404,
+        "z": 0.9044997802570265,
+        "height": 2.5
+      },
+      "views": [
+        {
+          "heading": 209.08,
+          "pitch": 0,
+          "fov": 100
+        },
+        {
+          "heading": 149.08,
+          "pitch": 0,
+          "fov": 100
+        },
+        {
+          "heading": 29.08,
+          "pitch": 0,
+          "fov": 100
+        }
+      ],
+      "inspection": "All listed views visually inspected by coordinator; corresponding visible entry, material and street-feature observations supplied to implementation workers.",
+      "limits": "GPS/camera height and metric dimensions estimated. Vehicles/trees conceal some features. No reference pixels distributed."
+    },
+    {
+      "id": "49-close",
+      "checkedAt": "2026-09-15T04:07:35.329Z",
+      "panoramaId": "py0O1VK0amcbISU49EuZXQ",
+      "captureDate": "2026-04",
+      "location": {
+        "lat": 40.72776143003806,
+        "lon": -73.9876053605374
+      },
+      "attribution": "© Google",
+      "engineCameraStart": {
+        "x": -178.08463861877627,
+        "z": 0.6393826682010513,
+        "height": 2.5
+      },
+      "views": [
+        {
+          "heading": 29.08,
+          "pitch": -3,
+          "fov": 80
+        },
+        {
+          "heading": 209.08,
+          "pitch": -3,
+          "fov": 80
+        }
+      ],
+      "inspection": "All listed views visually inspected by coordinator; corresponding visible entry, material and street-feature observations supplied to implementation workers.",
+      "limits": "GPS/camera height and metric dimensions estimated. Vehicles/trees conceal some features. No reference pixels distributed."
+    },
+    {
+      "id": "69-close",
+      "checkedAt": "2026-09-15T04:07:34.679Z",
+      "panoramaId": "udBbZpfPC17Suy6rtTWtaw",
+      "captureDate": "2024-09",
+      "location": {
+        "lat": 40.72742449193511,
+        "lon": -73.98678701206231
+      },
+      "attribution": "© Google",
+      "engineCameraStart": {
+        "x": -99.52193188638499,
+        "z": -0.12969695419729987,
+        "height": 2.5
+      },
+      "views": [
+        {
+          "heading": 29.08,
+          "pitch": -3,
+          "fov": 70
+        },
+        {
+          "heading": 209.08,
+          "pitch": -3,
+          "fov": 70
+        }
+      ],
+      "inspection": "All listed views visually inspected by coordinator; corresponding visible entry, material and street-feature observations supplied to implementation workers.",
+      "limits": "GPS/camera height and metric dimensions estimated. Vehicles/trees conceal some features. No reference pixels distributed."
+    },
+    {
+      "id": "85-close",
+      "checkedAt": "2026-09-15T04:07:34.073Z",
+      "panoramaId": "sV6FEVN5gyys-t_T1jhmnA",
+      "captureDate": "2024-09",
+      "location": {
+        "lat": 40.72716420386381,
+        "lon": -73.98615491035392
+      },
+      "attribution": "© Google",
+      "engineCameraStart": {
+        "x": -38.83740209162765,
+        "z": -0.7205096452212558,
+        "height": 2.5
+      },
+      "views": [
+        {
+          "heading": 29.08,
+          "pitch": -2,
+          "fov": 85
+        },
+        {
+          "heading": 209.08,
+          "pitch": -2,
+          "fov": 85
+        }
+      ],
+      "inspection": "All listed views visually inspected by coordinator; corresponding visible entry, material and street-feature observations supplied to implementation workers.",
+      "limits": "GPS/camera height and metric dimensions estimated. Vehicles/trees conceal some features. No reference pixels distributed."
+    }
+  ],
+  "streetFacilities": {
+    "source": "https://gbfs.lyft.com/gbfs/2.3/bkn/en/station_information.json",
+    "checkedAt": "2026-09-15T03:56:46.221473+00:00",
+    "lastUpdated": 1789444556,
+    "queryBounds": [
+      40.7267,
+      40.7284,
+      -73.9887,
+      -73.9853
+    ],
+    "stations": [
+      {
+        "station_id": "66dc1702-0aca-11e7-82f6-3863bb44ef7c",
+        "name": "St Marks Pl & 1 Ave",
+        "short_name": "5626.13",
+        "lon": -73.98564945,
+        "lat": 40.72779126,
+        "region_id": "71",
+        "capacity": 69,
+        "rental_uris": {
+          "android": "https://bkn.lft.to/lastmile_qr_scan",
+          "ios": "https://bkn.lft.to/lastmile_qr_scan"
+        }
+      },
+      {
+        "station_id": "3edec530-4791-4872-8912-2a2397a903a4",
+        "name": "E 6 St & 2 Ave",
+        "short_name": "5669.12",
+        "lon": -73.98840844631195,
+        "lat": 40.727378693232225,
+        "region_id": "71",
+        "capacity": 69,
+        "rental_uris": {
+          "android": "https://bkn.lft.to/lastmile_qr_scan",
+          "ios": "https://bkn.lft.to/lastmile_qr_scan"
+        }
+      }
+    ]
+  },
+  "facilityFinding": "No station record lies on this East 7th segment in the current official feed. The two nearby records are on St Marks Place and East 6th Street; neither is added to this bounded pass.",
+  "independentReferences": [
+    {
+      "id": "kinka-exterior-2023",
+      "url": "https://villagepreservation.org/2023/07/19/welcome-to-the-neighborhood-kinka-63-east-7th-street/",
+      "imageUrl": "https://media.villagepreservation.org/wp-content/uploads/2023/07/19122719/kinka-outside-1050x1400.jpg",
+      "published": "2023-07-19",
+      "captureDate": null,
+      "inspected": true,
+      "observations": [
+        "Basement storefront east/right of residential stoop; left glazed door, larger right display glass",
+        "Blue sloping fascia with right-aligned spaced KINKA lettering and broken white rectangular motif/red dot",
+        "Iron areaway gate, low floor and descending doorway thresholds; small green floor tile; plants at right"
+      ],
+      "limits": "Photo predates September 2024 street view; dimensions and hidden parts not measured; no pixels included."
+    },
+    {
+      "id": "kinka-current-address",
+      "url": "https://www.kinka.nyc/",
+      "checked": "2026-09-15",
+      "observation": "Official page lists 63 East 7th Street STORE EAST; identity corroboration only."
+    },
+    {
+      "id": "whiskey-current-address",
+      "url": "https://www.whiskeycellarnyc.com/",
+      "checked": "2026-09-15",
+      "observation": "Official page lists77 East 7th Street and Whiskey Cellar; page text alone does not establish complete exterior layout."
+    },
+    {
+      "id": "lpc-july-2026",
+      "url": "https://www.nyc.gov/assets/lpc/downloads/pdf/presentation-materials/20260804/50-East-7th-Street-112-2nd-Ave.pdf",
+      "published": "2026-07-30",
+      "hearing": "2026-08-04",
+      "checked": "2026-09-15",
+      "sha256": "ec3164a6460e4c4192434d5d5676549ccc7576c48d73e692ede383b3e79276bf",
+      "inspectedPages": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        16
+      ],
+      "observations": [
+        "PDF 6 existing site plan: separate vacant former48 tenement parcel on E7; L-shaped church lot behind, exposed neighboring sidewalls",
+        "PDF 6–10 current-condition photographs: plywood bracing, stacked salvaged carved pale stone, stored gothic ironwork, orange water barriers, yellow temporary rails, dirt/rubble and excavation",
+        "PDF16 LEFT existing50 entry photos: at-grade oakdoubleentrances; opaque oak square panels below upperfanlight, addressrail andlowerpanels; RIGHT proposedentryrender excluded",
+        "PDF5 historical restoration2024 exteriorgreenplywoodfence alongSecond, with JUST LOVE LIBERATES lettering; do not confuse withE7 adjacentvacantlot chainlink"
+      ],
+      "limits": "Submission labels photos current conditions but exact capture dates unavailable; designs on later sheets are proposals, not evidence of completed construction. No PDF/photo pixels copied into public assets."
+    }
+  ],
+  "acceptance": "Source inspection only. Every-property camera alignment, geometric accuracy and present-day temporary fixtures are not certified by this ledger.",
+  "scopedFrontages": [
+    {
+      "id": 241822156,
+      "address": "118 2nd Avenue",
+      "height": 18.09,
+      "frontage": {
+        "x": -212.512,
+        "z": 218.861,
+        "rx": 0.9999912644534588,
+        "rz": -0.00417983453888566,
+        "length": 36.604,
+        "street": "East 7th Street"
+      }
+    },
+    {
+      "id": 241822157,
+      "address": "65 East 7th Street",
+      "height": 17.53,
+      "frontage": {
+        "x": -113.752,
+        "z": 217.466,
+        "rx": 0.9999908946649311,
+        "rz": -0.004267386463721483,
+        "length": 7.733,
+        "street": "East 7th Street"
+      }
+    },
+    {
+      "id": 241822169,
+      "address": "57 East 7th Street",
+      "height": 17.36,
+      "frontage": {
+        "x": -144.015,
+        "z": 217.01,
+        "rx": 0.9999875133813916,
+        "rz": -0.004997307405112499,
+        "length": 7.604,
+        "street": "East 7th Street"
+      }
+    },
+    {
+      "id": 241822176,
+      "address": "69 East 7th Street",
+      "height": 17.13,
+      "frontage": {
+        "x": -98.323,
+        "z": 218.949,
+        "rx": 0.9999870120432212,
+        "rz": -0.005096640547530238,
+        "length": 7.652,
+        "street": "East 7th Street"
+      }
+    },
+    {
+      "id": 241822178,
+      "address": "53 East 7th Street",
+      "height": 18.63,
+      "frontage": {
+        "x": -159.059,
+        "z": 219.656,
+        "rx": 0.9999909113541287,
+        "rz": -0.004263473834683532,
+        "length": 7.271,
+        "street": "East 7th Street"
+      }
+    },
+    {
+      "id": 241822185,
+      "address": "77 East 7th Street",
+      "height": 21.08,
+      "frontage": {
+        "x": -67.936,
+        "z": 218.814,
+        "rx": 0.9999955711745466,
+        "rz": -0.002976177295161168,
+        "length": 7.392,
+        "street": "East 7th Street"
+      }
+    },
+    {
+      "id": 241822192,
+      "address": "85 East 7th Street",
+      "height": 17.61,
+      "frontage": {
+        "x": -37.016,
+        "z": 218.905,
+        "rx": 0.9999931807043061,
+        "rz": -0.0036930400600508136,
+        "length": 7.311,
+        "street": "East 7th Street"
+      }
+    },
+    {
+      "id": 241822197,
+      "address": "55 East 7th Street",
+      "height": 17.86,
+      "frontage": {
+        "x": -151.788,
+        "z": 219.625,
+        "rx": 0.999991584590122,
+        "rz": -0.004102529577806993,
+        "length": 7.8,
+        "street": "East 7th Street"
+      }
+    },
+    {
+      "id": 241822199,
+      "address": "59 East 7th Street",
+      "height": 20.91,
+      "frontage": {
+        "x": -136.391,
+        "z": 219.559,
+        "rx": 0.999993710933828,
+        "rz": -0.0035465606989892274,
+        "length": 7.331,
+        "street": "East 7th Street"
+      }
+    },
+    {
+      "id": 241822201,
+      "address": "61 East 7th Street",
+      "height": 17.57,
+      "frontage": {
+        "x": -129.06,
+        "z": 219.533,
+        "rx": 0.9999911595548023,
+        "rz": -0.004204855793233374,
+        "length": 7.848,
+        "street": "East 7th Street"
+      }
+    },
+    {
+      "id": 241822202,
+      "address": "63 East 7th Street",
+      "height": 21.52,
+      "frontage": {
+        "x": -121.212,
+        "z": 219.5,
+        "rx": 0.9999919443409092,
+        "rz": -0.00401388257027407,
+        "length": 7.474,
+        "street": "East 7th Street"
+      }
+    },
+    {
+      "id": 241822226,
+      "address": "115 1st Avenue",
+      "height": 13.06,
+      "frontage": {
+        "x": -29.705,
+        "z": 218.878,
+        "rx": 0.9999926065742973,
+        "rz": -0.0038453604177751096,
+        "length": 15.083,
+        "street": "East 7th Street"
+      }
+    },
+    {
+      "id": 241822274,
+      "address": "67 East 7th Street",
+      "height": 17.56,
+      "frontage": {
+        "x": -106.019,
+        "z": 217.433,
+        "rx": 0.9999913285924218,
+        "rz": -0.004164461545411207,
+        "length": 7.684,
+        "street": "East 7th Street"
+      }
+    },
+    {
+      "id": 241822317,
+      "address": "83 East 7th Street",
+      "height": 16.45,
+      "frontage": {
+        "x": -44.883,
+        "z": 217.535,
+        "rx": 0.9999883015956862,
+        "rz": -0.004837010623805825,
+        "length": 7.856,
+        "street": "East 7th Street"
+      }
+    },
+    {
+      "id": 241822319,
+      "address": "71 East 7th Street",
+      "height": 17.84,
+      "frontage": {
+        "x": -90.679,
+        "z": 217.768,
+        "rx": 0.9999917616081673,
+        "rz": -0.004059152102901544,
+        "length": 7.637,
+        "street": "East 7th Street"
+      }
+    },
+    {
+      "id": 241822325,
+      "address": "49 East 7th Street",
+      "height": 16.4,
+      "frontage": {
+        "x": -174.46,
+        "z": 217.546,
+        "rx": 0.9999922353240434,
+        "rz": -0.003940722221007417,
+        "length": 7.359,
+        "street": "East 7th Street"
+      }
+    },
+    {
+      "id": 241822329,
+      "address": "81 East 7th Street",
+      "height": 16.47,
+      "frontage": {
+        "x": -52.683,
+        "z": 217.567,
+        "rx": 0.999991584590122,
+        "rz": -0.004102529577807,
+        "length": 7.8,
+        "street": "East 7th Street"
+      }
+    },
+    {
+      "id": 241822336,
+      "address": "79 East 7th Street",
+      "height": 17.37,
+      "frontage": {
+        "x": -60.551,
+        "z": 217.599,
+        "rx": 0.9999917294218322,
+        "rz": -0.004067073632623397,
+        "length": 7.868,
+        "street": "East 7th Street"
+      }
+    },
+    {
+      "id": 241822340,
+      "address": "51 East 7th Street",
+      "height": 17.69,
+      "frontage": {
+        "x": -167.101,
+        "z": 217.517,
+        "rx": 0.9999934689966651,
+        "rz": -0.0036141339233424284,
+        "length": 8.024,
+        "street": "East 7th Street"
+      }
+    },
+    {
+      "id": 241829565,
+      "address": "58 East 7th Street",
+      "height": 18.15,
+      "frontage": {
+        "x": -136.384,
+        "z": 239.222,
+        "rx": -0.999999861422948,
+        "rz": -0.0005264542571348887,
+        "length": 7.598,
+        "street": "East 7th Street"
+      }
+    },
+    {
+      "id": 241829566,
+      "address": "80 East 7th Street",
+      "height": 19.17,
+      "frontage": {
+        "x": -52.613,
+        "z": 237.36,
+        "rx": -0.9999999041699561,
+        "rz": -0.00043778999394743467,
+        "length": 11.421,
+        "street": "East 7th Street"
+      }
+    },
+    {
+      "id": 241829567,
+      "address": "76 East 7th Street",
+      "height": 18.7,
+      "frontage": {
+        "x": -64.034,
+        "z": 237.355,
+        "rx": -0.9999999653861094,
+        "rz": -0.00026311172567481414,
+        "length": 11.402,
+        "street": "East 7th Street"
+      }
+    },
+    {
+      "id": 241829572,
+      "address": "62 East 7th Street",
+      "height": 18.2,
+      "frontage": {
+        "x": -121.144,
+        "z": 237.345,
+        "rx": -0.9999996780284235,
+        "rz": 0.0008024606216625338,
+        "length": 7.477,
+        "street": "East 7th Street"
+      }
+    },
+    {
+      "id": 241829573,
+      "address": "74 East 7th Street",
+      "height": 20.2,
+      "frontage": {
+        "x": -75.436,
+        "z": 237.352,
+        "rx": -0.9999999230260318,
+        "rz": -0.0003923619891567388,
+        "length": 7.646,
+        "street": "East 7th Street"
+      }
+    },
+    {
+      "id": 241829574,
+      "address": "72 East 7th Street",
+      "height": 19.73,
+      "frontage": {
+        "x": -83.082,
+        "z": 237.349,
+        "rx": -0.9999999674365597,
+        "rz": 0.00025519968545140593,
+        "length": 7.837,
+        "street": "East 7th Street"
+      }
+    },
+    {
+      "id": 241829575,
+      "address": "50 East 7th Street",
+      "height": 18.12,
+      "frontage": {
+        "x": -166.771,
+        "z": 237.293,
+        "rx": -0.9999978428081608,
+        "rz": 0.002077108332457705,
+        "length": 7.703,
+        "street": "East 7th Street"
+      }
+    },
+    {
+      "id": 241829577,
+      "address": "70 East 7th Street",
+      "height": 20.04,
+      "frontage": {
+        "x": -90.919,
+        "z": 237.351,
+        "rx": -0.9999999909720184,
+        "rz": -0.00013437247930351952,
+        "length": 7.442,
+        "street": "East 7th Street"
+      }
+    },
+    {
+      "id": 241829579,
+      "address": "66 East 7th Street",
+      "height": 20.01,
+      "frontage": {
+        "x": -105.975,
+        "z": 237.355,
+        "rx": -0.9999999206361898,
+        "rz": -0.00039840634288107197,
+        "length": 7.53,
+        "street": "East 7th Street"
+      }
+    },
+    {
+      "id": 241829580,
+      "address": "54 East 7th Street",
+      "height": 17.51,
+      "frontage": {
+        "x": -151.615,
+        "z": 237.348,
+        "rx": -0.9999999657893452,
+        "rz": -0.0002615746706236259,
+        "length": 7.646,
+        "street": "East 7th Street"
+      }
+    },
+    {
+      "id": 241829581,
+      "address": "56 East 7th Street",
+      "height": 17.7,
+      "frontage": {
+        "x": -143.994,
+        "z": 237.339,
+        "rx": -0.9999993026823696,
+        "rz": 0.0011809465587397806,
+        "length": 7.621,
+        "street": "East 7th Street"
+      }
+    },
+    {
+      "id": 241829582,
+      "address": "52 East 7th Street",
+      "height": 17.33,
+      "frontage": {
+        "x": -159.261,
+        "z": 237.346,
+        "rx": -0.9999750984920422,
+        "rz": -0.007057081254337626,
+        "length": 7.51,
+        "street": "East 7th Street"
+      }
+    },
+    {
+      "id": 241829595,
+      "address": "84 East 7th Street",
+      "height": 13.59,
+      "frontage": {
+        "x": -36.485,
+        "z": 237.359,
+        "rx": -1.0,
+        "rz": 0.0,
+        "length": 8.223,
+        "street": "East 7th Street"
+      }
+    },
+    {
+      "id": 241829621,
+      "address": "68 East 7th Street",
+      "height": 15.05,
+      "frontage": {
+        "x": -98.356,
+        "z": 238.697,
+        "rx": -0.9999997846088098,
+        "rz": -0.0006563401054134281,
+        "length": 7.618,
+        "street": "East 7th Street"
+      }
+    },
+    {
+      "id": 241829629,
+      "address": "64 East 7th Street",
+      "height": 14.96,
+      "frontage": {
+        "x": -113.493,
+        "z": 239.179,
+        "rx": -0.9999999230260318,
+        "rz": -0.0003923619891567381,
+        "length": 7.646,
+        "street": "East 7th Street"
+      }
+    },
+    {
+      "id": 241829631,
+      "address": "86 East 7th Street",
+      "height": 16.7,
+      "frontage": {
+        "x": -16.588,
+        "z": 237.364,
+        "rx": -0.9999999684256229,
+        "rz": -0.0002512941570148046,
+        "length": 19.897,
+        "street": "East 7th Street"
+      }
+    },
+    {
+      "id": 241829633,
+      "address": "82 East 7th Street",
+      "height": 13.79,
+      "frontage": {
+        "x": -44.708,
+        "z": 237.359,
+        "rx": -0.999999991998595,
+        "rz": 0.00012650221277714987,
+        "length": 7.905,
+        "street": "East 7th Street"
+      }
+    },
+    {
+      "id": 241829643,
+      "address": "48 1/2 East 7th Street",
+      "height": 16.8,
+      "frontage": {
+        "x": -174.474,
+        "z": 237.309,
+        "rx": -0.9999972157428063,
+        "rz": 0.002359768343558125,
+        "length": 11.018,
+        "street": "East 7th Street"
+      }
+    },
+    {
+      "id": 241829665,
+      "address": "60 East 7th Street",
+      "height": 18.05,
+      "frontage": {
+        "x": -128.615,
+        "z": 239.219,
+        "rx": -0.9999999254440647,
+        "rz": 0.0003861500548779158,
+        "length": 7.769,
+        "street": "East 7th Street"
+      }
+    },
+    {
+      "id": -177966,
+      "address": "73-75 East 7th Street",
+      "height": 20.19,
+      "frontage": {
+        "x": -83.03599729692505,
+        "z": 218.88165144106608,
+        "rx": 0.999991391443956,
+        "rz": -0.004149341873212225,
+        "length": 15.099062963532567,
+        "street": "East 7th Street"
+      }
+    }
+  ],
+  "additionalSite": {
+    "address": "48 East 7th Street / 112–114 Second Avenue vacant fire site",
+    "source": "lpc-july-2026",
+    "basis": "Existing site plan shows the E7 vacant former tenement parcel and L-shaped church site behind it. Building-frontage records alone omit this street edge."
+  }
+}

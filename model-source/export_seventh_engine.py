@@ -198,10 +198,40 @@ manifest = {'schema':1, 'sourceCommit':'c76dccebc143960498d21eeab8c55c2d0dbcc5ce
     'sourceSha256':hashlib.sha256((ROOT/'dist/reconstruction/neighborhood.json').read_bytes()).hexdigest(),
     'originShift':[0,0,228], 'bounds':[-306,-107,289,55], 'buildings':records,
     'seventhFrontages':[b['id'] for b in selected if any(f['street']=='East 7th Street' for f in b['frontages'])],
-    'detailRevision':'03',
+    'detailRevision':'04',
     'detailScheduleSha256':canonical_digest(schedule),
     'detailSourceSha256':hashlib.sha256((ROOT/'model-source/storefront-details.json').read_bytes()).hexdigest(),
     'recipeHashes':recipe_hashes,
+    # Export only the explicit areaways recorded in revision 04.  The runtime
+    # can use these records to cut matching sidewalk/solid planes; no generic
+    # basement openings are inferred from building type or address.
+    'groundVoids':[
+        {
+            'buildingId':building_id,
+            'address':by_id[int(building_id)]['address'],
+            'at':well.get('at',.5),
+            'width':well.get('width',.34),
+            'worldWidth':well.get('width',.34)*next(f for f in by_id[int(building_id)]['frontages'] if f['street']=='East 7th Street')['length'],
+            'depth':well.get('depth',.92),
+            'cutExtent':well.get('depth',.92),
+            'stepsTowardFacade':True,
+            'depthBelow':well.get('depthBelow',.30),
+            'runtimeCenter':[
+                (lambda f:f['x']+f['rx']*f['length']*well.get('at',.5))(next(f for f in by_id[int(building_id)]['frontages'] if f['street']=='East 7th Street')),
+                (lambda f:f['z']+f['rz']*f['length']*well.get('at',.5)-228)(next(f for f in by_id[int(building_id)]['frontages'] if f['street']=='East 7th Street'))
+            ],
+            'runtimeNormal':[
+                (lambda f:-f['rz'])(next(f for f in by_id[int(building_id)]['frontages'] if f['street']=='East 7th Street')),
+                (lambda f:f['rx'])(next(f for f in by_id[int(building_id)]['frontages'] if f['street']=='East 7th Street'))
+            ],
+            'frontage':{**next(f for f in by_id[int(building_id)]['frontages'] if f['street']=='East 7th Street')},
+            'basis':'Explicit observedGroundCorrections basementAreaway; below-grade depth is an authored cut envelope pending measurement.'
+        }
+        for building_id,spec in schedule.get('observedGroundCorrections',{}).items()
+        if int(building_id) in by_id
+        for well in spec.get('basementAreaways',[])
+        if well.get('depth',0)>0
+    ],
     'reviewFrontages':[{'id':b['id'],'address':b['address'],'height':b['renderHeight'],
         'frontage':{**next(f for f in b['frontages'] if f['street']=='East 7th Street')}}
         for b in selected if any(f['street']=='East 7th Street' for f in b['frontages'])],

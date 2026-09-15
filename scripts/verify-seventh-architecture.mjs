@@ -6,6 +6,43 @@ const root=new URL('../',import.meta.url);
 const {seventhEngine:schedule}=JSON.parse(await fs.readFile(new URL('model-source/storefront-details.json',root),'utf8'));
 const shapes=new Set(['rectangle','round','segmental']);
 const finite=(v,label)=>assert(Number.isFinite(v),label+' must be finite');
+const groundCorrections=schedule.observedGroundCorrections||{};
+function overlap(a,b){
+  return Math.min(a.right,b.right)-Math.max(a.left,b.left)>.003 &&
+    Math.min(a.top,b.top)-Math.max(a.bottom,b.bottom)>.003;
+}
+function openingBounds(opening,kind){
+  const bottom=opening.bottom??(kind==='door'?.19:0);
+  const top=kind==='door'?opening.top:bottom+opening.height;
+  return {left:opening.at-opening.width/2,right:opening.at+opening.width/2,bottom,top};
+}
+function effectiveArchitecture(record){
+  const raw=record.architecture||{};
+  const correction=groundCorrections[String(record.buildingId)]||{};
+  const architecture={...raw,
+    windows:[...(raw.windows||[]).map(window=>({...window,_observed:false}))],
+    doors:[...(raw.doors||[]).map(door=>({...door,_observed:false}))],
+    basementAreaways:[...(raw.basementAreaways||[])]};
+  // Mirror fidelity_elevation(): each replacement list independently removes
+  // stale low geometry before the observed openings are rendered.
+  const replaceWindows=correction.replaceWindows??Boolean(correction.groundOpenings?.length);
+  const replaceDoors=correction.replaceDoors??Boolean(correction.groundDoors?.length);
+  if(replaceWindows){
+    architecture.windows=architecture.windows.filter(window=>window.bottom===undefined||window.bottom>=3.55);
+    const observed=[...(correction.groundOpenings||[]),...(correction.groundDoors||[])];
+    architecture.windows=architecture.windows.filter(window=>!observed.some(opening=>
+      overlap(openingBounds(window,'window'),openingBounds(opening,opening.top===undefined?'window':'door'))));
+  }
+  if(replaceDoors){
+    architecture.doors=architecture.doors.filter(door=>door.bottom===undefined||door.bottom>=3.55);
+  }
+  architecture.windows.push(...(correction.groundOpenings||[]).map(window=>({
+    ...window,_observed:true,shape:window.shape||'rectangle',columns:window.columns||1,rails:window.rails||[]
+  })));
+  architecture.doors.push(...(correction.groundDoors||[]).map(door=>({...door,_observed:true})));
+  architecture.basementAreaways.push(...(correction.basementAreaways||[]));
+  return architecture;
+}
 function span(at,width,label){
   finite(at,label+' position');finite(width,label+' width');
   assert(width>0 && at-width/2>=-.001 && at+width/2<=1.001,label+' exceeds facade bounds');
@@ -17,22 +54,36 @@ function panelUnit(u,label){
   assert(u.observation?.length,label+' observation');
 }
 let explicit=0,preserved=0,windows=0,doors=0,unlettered=0;
+const elevationIds=new Set(schedule.elevations.map(e=>String(e.buildingId)));
+for(const [id,correction] of Object.entries(groundCorrections)){
+  assert(elevationIds.has(id),'Ground correction has no elevation '+id);
+  assert(!correction.suppressAllWindows,id+' must use replaceWindows so observed ground work never removes upper windows');
+  if(correction.suppressBusinessExteriorIds){
+    const storefronts=new Set(schedule.frontages.filter(r=>String(r.buildingId)===id).map(r=>r.id));
+    for(const storefront of correction.suppressBusinessExteriorIds){
+      assert(storefronts.has(storefront),id+' suppresses an unknown storefront '+storefront);
+    }
+  }
+}
 for(const e of schedule.elevations){
-  const a=e.architecture,label=e.address||String(e.buildingId);
+  const a=effectiveArchitecture(e),label=e.address||String(e.buildingId);
   assert(a,label+' missing architecture');
   if(a.preserveRecipe){preserved++;continue;}
   explicit++;finite(a.height,label+' height');assert(a.height>0);
   assert(a.observation?.sources?.length,label+' architectural sources');
   for(const id of a.observation.sources)assert(schedule.sources[id],label+' missing source '+id);
   assert(a.observation.unknown?.length,label+' must retain limits');
-  const openings=new Set();
+  const openings=[];
   for(const w of a.windows||[]){
     const name=label+' window';span(w.at,w.width,name);finite(w.bottom,name);finite(w.height,name);
     assert(w.bottom>=0 && w.height>0 && w.bottom+w.height<=a.height+.1,name+' height outside envelope');
     assert(shapes.has(w.shape||'rectangle'),name+' shape');
     assert(Number.isInteger(w.columns||1) && (w.columns||1)>0,name+' columns');
     assert((w.rails||[]).every(v=>Number.isFinite(v)&&v>0&&v<1),name+' rails');
-    const key=[w.at,w.bottom].join('/');assert(!openings.has(key),name+' duplicated opening '+key);openings.add(key);
+    const geometry={...openingBounds(w,'window'),type:'window',observed:w._observed};
+    const windowConflict=openings.find(other=>geometry.observed&&other.observed&&overlap(geometry,other));
+    assert(!windowConflict,name+' overlaps an effective '+windowConflict?.type+' opening');
+    openings.push(geometry);
     windows++;
   }
   for(const d of a.doors||[]){
@@ -54,7 +105,20 @@ for(const e of schedule.elevations){
       assert([...r.start,...r.end].every(Number.isFinite),name+' ramp coordinates');
       assert(Math.hypot(r.end[0]-r.start[0],r.end[2]-r.start[2])>0,name+' zero-length ramp');
     }
+    const geometry={...openingBounds(d,'door'),type:'door',observed:d._observed};
+    const doorConflict=openings.find(other=>geometry.observed&&other.observed&&overlap(geometry,other));
+    assert(!doorConflict,name+' overlaps an effective '+doorConflict?.type+' opening');
+    openings.push(geometry);
     doors++;
+  }
+  for(const well of a.basementAreaways||[]){
+    const name=label+' basement areaway';span(well.at,well.width,name);
+    finite(well.depth,name+' depth');assert(well.depth>0,name+' depth must be positive');
+    if(well.depthBelow!==undefined){
+      finite(well.depthBelow,name+' below-grade depth');
+      assert(well.depthBelow>=0,name+' below-grade depth must be nonnegative');
+    }
+    assert(Number.isInteger(well.steps||0)&&(well.steps||0)>=0,name+' steps');
   }
   for(const u of a.unletteredUnits||[]){panelUnit(u,label+' unlettered unit');unlettered++;}
 }

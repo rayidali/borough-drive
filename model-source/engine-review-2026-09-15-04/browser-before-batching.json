@@ -1,0 +1,3539 @@
+{
+  "date": "2026-09-15T05:34:03.582Z",
+  "url": "http://127.0.0.1:5173/seventh/?review=1",
+  "viewport": {
+    "width": 1440,
+    "height": 1000,
+    "deviceScaleFactor": 1
+  },
+  "conditions": "Local HTTP, Apple M1, unthrottled CPU/network; browser cache disabled for startup. Render counters from the actual engine; subsequent samples warmed.",
+  "errors": [],
+  "warnings": [],
+  "failedRequests": [],
+  "samples": [
+    {
+      "name": "weather-0-northbound",
+      "seconds": 5.00830000001788,
+      "frames": 301,
+      "counterMs": 5048,
+      "rafFps": 59.70089651157729,
+      "p95Ms": 18.600000000002183,
+      "drawCalls": 546.91,
+      "triangles": 2832029.3966666665,
+      "final": {
+        "address": "",
+        "addressId": 0,
+        "addressVisible": false,
+        "buildings": 182,
+        "camera": 0,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 0,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            -0.5,
+            3.48094201087952,
+            -48.4327430725098
+          ],
+          "target": [
+            -0.5,
+            1.13094198703766,
+            -59.8827438354492
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 0,
+        "drawCalls": 383,
+        "fps": 60,
+        "frames": 1021,
+        "gear": 2,
+        "handbrake": false,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -0.5,
+          -0.0190593264997005,
+          -60.7540512084961
+        ],
+        "ready": true,
+        "rpm": 4970.37041320597,
+        "scale": 1,
+        "slipDegrees": 0,
+        "sound": false,
+        "speed": 22.2193698883057,
+        "started": true,
+        "tickMs": 21960,
+        "tireScrub": 0,
+        "triangles": 1834168,
+        "weather": 0,
+        "wetness": 0,
+        "yaw": 0
+      },
+      "renderFps": 59.62757527733756
+    },
+    {
+      "name": "weather-1-northbound",
+      "seconds": 5.006800000023839,
+      "frames": 303,
+      "counterMs": 5051,
+      "rafFps": 59.91851082499233,
+      "p95Ms": 18.599999999998545,
+      "drawCalls": 548.7342192691029,
+      "triangles": 2849853.5282392027,
+      "final": {
+        "address": "",
+        "addressId": 0,
+        "addressVisible": false,
+        "buildings": 182,
+        "camera": 0,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 0,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            -0.5,
+            3.48094201087952,
+            -49.5394172668457
+          ],
+          "target": [
+            -0.5,
+            1.13094186782837,
+            -60.9894180297852
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 0,
+        "drawCalls": 383,
+        "fps": 60,
+        "frames": 1928,
+        "gear": 2,
+        "handbrake": false,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -0.5,
+          -0.0190576743334532,
+          -61.867847442627
+        ],
+        "ready": true,
+        "rpm": 4991.05202629978,
+        "scale": 1,
+        "slipDegrees": 0,
+        "sound": false,
+        "speed": 22.3040294647217,
+        "started": true,
+        "tickMs": 38262,
+        "tireScrub": 0,
+        "triangles": 1835411,
+        "weather": 1,
+        "wetness": 0.219854345568979,
+        "yaw": 0
+      },
+      "renderFps": 59.988121164125914
+    },
+    {
+      "name": "weather-2-northbound",
+      "seconds": 5.01070000002384,
+      "frames": 303,
+      "counterMs": 5048,
+      "rafFps": 59.87187418895017,
+      "p95Ms": 18.599999999998545,
+      "drawCalls": 549.2823920265781,
+      "triangles": 2851994.73089701,
+      "final": {
+        "address": "",
+        "addressId": 0,
+        "addressVisible": false,
+        "buildings": 182,
+        "camera": 0,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 0,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            -0.5,
+            3.48094177246094,
+            -49.355598449707
+          ],
+          "target": [
+            -0.5,
+            1.13094186782837,
+            -60.8055992126465
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 0,
+        "drawCalls": 384,
+        "fps": 60,
+        "frames": 2805,
+        "gear": 2,
+        "handbrake": false,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -0.5,
+          -0.0190576743334532,
+          -61.867847442627
+        ],
+        "ready": true,
+        "rpm": 4991.05202629978,
+        "scale": 1,
+        "slipDegrees": 0,
+        "sound": false,
+        "speed": 22.3040294647217,
+        "started": true,
+        "tickMs": 54109,
+        "tireScrub": 0,
+        "triangles": 1839137,
+        "weather": 2,
+        "wetness": 0.999376598552647,
+        "yaw": 0
+      },
+      "renderFps": 60.02377179080824
+    },
+    {
+      "name": "weather-0-seventh-east",
+      "seconds": 8.005100000017876,
+      "frames": 416,
+      "counterMs": 7765,
+      "rafFps": 53.715756205299094,
+      "p95Ms": 18.59999999999127,
+      "drawCalls": 787.1484918793503,
+      "triangles": 2755971.255220418,
+      "final": {
+        "address": "57 E 7TH ST",
+        "addressId": 241822169,
+        "addressVisible": true,
+        "buildings": 182,
+        "camera": 0,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 0,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            -149.541778564453,
+            3.48094153404236,
+            4.8282645366271e-06
+          ],
+          "target": [
+            -138.091796875,
+            1.13094162940979,
+            5.3287599257601e-06
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 0,
+        "drawCalls": 698,
+        "fps": 60,
+        "frames": 4466,
+        "gear": 3,
+        "handbrake": false,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -137.03337097168,
+          -0.0190581940114498,
+          5.37502455699723e-06
+        ],
+        "ready": true,
+        "rpm": 3868.52469199283,
+        "scale": 1,
+        "slipDegrees": -1.3582108452007e-12,
+        "sound": false,
+        "speed": 23.9792518615723,
+        "started": true,
+        "tickMs": 84290,
+        "tireScrub": 0,
+        "triangles": 2624988,
+        "weather": 0,
+        "wetness": 1.60834073775722e-05,
+        "yaw": -1.57079637050629
+      },
+      "renderFps": 53.57372826786864
+    },
+    {
+      "name": "weather-0-seventh-west",
+      "seconds": 8.005000000017885,
+      "frames": 466,
+      "counterMs": 7983,
+      "rafFps": 58.33853841336123,
+      "p95Ms": 18.60000000000582,
+      "drawCalls": 791.6730769230769,
+      "triangles": 2569143.6816239315,
+      "final": {
+        "address": "",
+        "addressId": 0,
+        "addressVisible": false,
+        "buildings": 182,
+        "camera": 0,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 0,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            132.312973022461,
+            3.4809422492981,
+            5.4939432629908e-06
+          ],
+          "target": [
+            120.862983703613,
+            1.13094174861908,
+            5.99443865212379e-06
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 0,
+        "drawCalls": 960,
+        "fps": 58,
+        "frames": 5000,
+        "gear": 3,
+        "handbrake": false,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          119.447052001953,
+          -0.0190581995993853,
+          6.05633022132679e-06
+        ],
+        "ready": true,
+        "rpm": 3869.26194260929,
+        "scale": 1,
+        "slipDegrees": 1.3582108452007e-12,
+        "sound": false,
+        "speed": 23.9792518615723,
+        "started": true,
+        "tickMs": 93723,
+        "tireScrub": 0,
+        "triangles": 3559425,
+        "weather": 0,
+        "wetness": 1.85424490870502e-07,
+        "yaw": 1.57079637050629
+      },
+      "renderFps": 58.374044845296254
+    },
+    {
+      "name": "weather-1-seventh-east",
+      "seconds": 8.002800000011922,
+      "frames": 339,
+      "counterMs": 8589,
+      "rafFps": 43.98460538804864,
+      "p95Ms": 18.59999999999127,
+      "drawCalls": 789.7337110481586,
+      "triangles": 2746295.158640227,
+      "final": {
+        "address": "53 E 7TH ST",
+        "addressId": 241822178,
+        "addressVisible": true,
+        "buildings": 182,
+        "camera": 0,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 0,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            -168.328201293945,
+            3.48094177246094,
+            4.00709132009069e-06
+          ],
+          "target": [
+            -156.878219604492,
+            1.13094174861908,
+            4.50758670922369e-06
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 0,
+        "drawCalls": 708,
+        "fps": 55,
+        "frames": 5485,
+        "gear": 3,
+        "handbrake": false,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -155.781646728516,
+          -0.0190581995993853,
+          4.55551844424917e-06
+        ],
+        "ready": true,
+        "rpm": 3796.06932651873,
+        "scale": 0.875,
+        "slipDegrees": -2.74781515320265e-13,
+        "sound": false,
+        "speed": 23.7052917480469,
+        "started": true,
+        "tickMs": 115923,
+        "tireScrub": 0,
+        "triangles": 2870994,
+        "weather": 1,
+        "wetness": 0.216877995097049,
+        "yaw": -1.57079637050629
+      },
+      "renderFps": 39.46908836884387
+    },
+    {
+      "name": "weather-1-seventh-west",
+      "seconds": 8.015100000017876,
+      "frames": 467,
+      "counterMs": 7945,
+      "rafFps": 58.63931828660301,
+      "p95Ms": 18.5,
+      "drawCalls": 792.1486199575371,
+      "triangles": 2581333.1146496814,
+      "final": {
+        "address": "",
+        "addressId": 0,
+        "addressVisible": false,
+        "buildings": 182,
+        "camera": 0,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 0,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            134.413223266602,
+            3.48094201087952,
+            5.40213932254119e-06
+          ],
+          "target": [
+            122.963226318359,
+            1.13094174861908,
+            5.90263471167418e-06
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 0,
+        "drawCalls": 961,
+        "fps": 58,
+        "frames": 6023,
+        "gear": 3,
+        "handbrake": false,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          121.844970703125,
+          -0.0190582033246756,
+          5.95151459492627e-06
+        ],
+        "ready": true,
+        "rpm": 3869.25766314555,
+        "scale": 0.875,
+        "slipDegrees": 1.3582108452007e-12,
+        "sound": false,
+        "speed": 23.9792518615723,
+        "started": true,
+        "tickMs": 125369,
+        "tireScrub": 0,
+        "triangles": 3546819,
+        "weather": 1,
+        "wetness": 0.219963752902413,
+        "yaw": 1.57079637050629
+      },
+      "renderFps": 58.77910635619887
+    },
+    {
+      "name": "weather-2-seventh-east",
+      "seconds": 8.00370000000595,
+      "frames": 452,
+      "counterMs": 7948,
+      "rafFps": 56.84870747275158,
+      "p95Ms": 31.300000000017462,
+      "drawCalls": 787.3157894736842,
+      "triangles": 2768929.9078947366,
+      "final": {
+        "address": "61 E 7TH ST",
+        "addressId": 241822201,
+        "addressVisible": true,
+        "buildings": 182,
+        "camera": 0,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 0,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            -134.017135620117,
+            3.48094201087952,
+            5.50686627320829e-06
+          ],
+          "target": [
+            -122.56714630127,
+            1.13094162940979,
+            6.00736166234128e-06
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 0,
+        "drawCalls": 683,
+        "fps": 51,
+        "frames": 6810,
+        "gear": 3,
+        "handbrake": false,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -121.446876525879,
+          -0.0190581809729338,
+          6.05632885708474e-06
+        ],
+        "ready": true,
+        "rpm": 3869.26194260929,
+        "scale": 0.875,
+        "slipDegrees": -1.62985301424083e-12,
+        "sound": false,
+        "speed": 23.9792518615723,
+        "started": true,
+        "tickMs": 140404,
+        "tireScrub": 0,
+        "triangles": 2665560,
+        "weather": 2,
+        "wetness": 0.998713369374857,
+        "yaw": -1.57079637050629
+      },
+      "renderFps": 56.869652742828386
+    },
+    {
+      "name": "weather-2-seventh-west",
+      "seconds": 8.002900000011927,
+      "frames": 444,
+      "counterMs": 7859,
+      "rafFps": 56.604480875598206,
+      "p95Ms": 31.39999999999418,
+      "drawCalls": 791.977973568282,
+      "triangles": 2574162.0506607927,
+      "final": {
+        "address": "",
+        "addressId": 0,
+        "addressVisible": false,
+        "buildings": 182,
+        "camera": 0,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 0,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            135.823272705078,
+            3.48094177246094,
+            5.34050286660204e-06
+          ],
+          "target": [
+            124.373291015625,
+            1.13094162940979,
+            5.84099825573503e-06
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 0,
+        "drawCalls": 953,
+        "fps": 53,
+        "frames": 7307,
+        "gear": 3,
+        "handbrake": false,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          123.043930053711,
+          -0.0190581642091274,
+          5.899106781726e-06
+        ],
+        "ready": true,
+        "rpm": 3869.25375081076,
+        "scale": 0.875,
+        "slipDegrees": 1.62985301424083e-12,
+        "sound": false,
+        "speed": 23.9792518615723,
+        "started": true,
+        "tickMs": 150130,
+        "tireScrub": 0,
+        "triangles": 3568451,
+        "weather": 2,
+        "wetness": 0.999982970355801,
+        "yaw": 1.57079637050629
+      },
+      "renderFps": 56.49573737116682
+    }
+  ],
+  "checks": {
+    "camerasAndWeather": 12,
+    "reverse": true,
+    "brake": true,
+    "drift": {
+      "during": {
+        "address": "",
+        "addressId": 0,
+        "addressVisible": false,
+        "buildings": 182,
+        "camera": 0,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 0,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            -224.541168212891,
+            3.48094201087952,
+            1.88290679454803
+          ],
+          "target": [
+            -230.695556640625,
+            1.13094198703766,
+            -7.0319676399231
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 0,
+        "drawCalls": 307,
+        "fps": 60,
+        "frames": 3641,
+        "gear": 1,
+        "handbrake": true,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -229.76057434082,
+          -0.0190591160207987,
+          -7.22459268569946
+        ],
+        "ready": true,
+        "rpm": 4027.56034622803,
+        "scale": 1,
+        "slipDegrees": 35.8719551522973,
+        "sound": false,
+        "speed": 10.6676759719849,
+        "started": true,
+        "tickMs": 69442,
+        "tireScrub": 0.85,
+        "triangles": 693625,
+        "weather": 0,
+        "wetness": 0.0147676258744499,
+        "yaw": 0.914394795894623
+      },
+      "after": {
+        "address": "",
+        "addressId": 0,
+        "addressVisible": false,
+        "buildings": 182,
+        "camera": 0,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 0,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            -227.457931518555,
+            3.48094272613525,
+            -6.87428951263428
+          ],
+          "target": [
+            -235.8349609375,
+            1.13094282150269,
+            -13.5565729141235
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 0,
+        "drawCalls": 268,
+        "fps": 43,
+        "frames": 3685,
+        "gear": 1,
+        "handbrake": false,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -234.990875244141,
+          -0.0190587025135756,
+          -12.84046459198
+        ],
+        "ready": true,
+        "rpm": 2781.25898229378,
+        "scale": 1,
+        "slipDegrees": -6.89754126493048,
+        "sound": false,
+        "speed": 7.84902667999268,
+        "started": true,
+        "tickMs": 70443,
+        "tireScrub": 0.0440579677795564,
+        "triangles": 599201,
+        "weather": 0,
+        "wetness": 0.00982034784572895,
+        "yaw": 0.70187121629715
+      },
+      "countersteerMs": 320,
+      "wallContacts": 0
+    },
+    "pause": true,
+    "reset": true,
+    "steering": true,
+    "settingsReload": true,
+    "resize": true,
+    "focusLoss": true,
+    "postcard": true,
+    "perspectiveShopCaptures": 17
+  },
+  "screenshots": [
+    {
+      "name": "title",
+      "stats": {
+        "address": "",
+        "addressId": 0,
+        "addressVisible": false,
+        "buildings": 182,
+        "camera": 3,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 3,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            8.5,
+            21.9802093505859,
+            23
+          ],
+          "target": [
+            -0.5,
+            -0.0197903737425804,
+            6.59999990463257
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 0,
+        "drawCalls": 379,
+        "fps": 22,
+        "frames": 128,
+        "gear": 1,
+        "handbrake": false,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -0.5,
+          -0.0197903737425804,
+          8
+        ],
+        "ready": true,
+        "rpm": 850,
+        "scale": 1,
+        "slipDegrees": 0,
+        "sound": false,
+        "speed": 0,
+        "started": false,
+        "tickMs": 5812,
+        "tireScrub": 0,
+        "triangles": 2234067,
+        "weather": 0,
+        "wetness": 0,
+        "yaw": 0
+      }
+    },
+    {
+      "name": "weather-0-camera-0",
+      "stats": {
+        "address": "",
+        "addressId": 0,
+        "addressVisible": false,
+        "buildings": 182,
+        "camera": 0,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 0,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            -0.5,
+            3.48012399673462,
+            15.8000001907349
+          ],
+          "target": [
+            -0.5,
+            1.13012373447418,
+            5.59999990463257
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 0,
+        "drawCalls": 599,
+        "fps": 60,
+        "frames": 554,
+        "gear": 1,
+        "handbrake": false,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -0.5,
+          -0.0198763031512499,
+          8
+        ],
+        "ready": true,
+        "rpm": 850,
+        "scale": 1,
+        "slipDegrees": 0,
+        "sound": false,
+        "speed": 0,
+        "started": true,
+        "tickMs": 13396,
+        "tireScrub": 0,
+        "triangles": 2764064,
+        "weather": 0,
+        "wetness": 0,
+        "yaw": 0
+      }
+    },
+    {
+      "name": "weather-0-camera-1",
+      "stats": {
+        "address": "",
+        "addressId": 0,
+        "addressVisible": false,
+        "buildings": 182,
+        "camera": 1,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 1,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            -0.5,
+            1.17012369632721,
+            6.48000001907349
+          ],
+          "target": [
+            -0.5,
+            1.27012372016907,
+            -5.51999998092651
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 0,
+        "drawCalls": 381,
+        "fps": 49,
+        "frames": 592,
+        "gear": 1,
+        "handbrake": false,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -0.5,
+          -0.0198763031512499,
+          8
+        ],
+        "ready": true,
+        "rpm": 850,
+        "scale": 1,
+        "slipDegrees": 0,
+        "sound": false,
+        "speed": 0,
+        "started": true,
+        "tickMs": 14313,
+        "tireScrub": 0,
+        "triangles": 2673056,
+        "weather": 0,
+        "wetness": 0,
+        "yaw": 0
+      }
+    },
+    {
+      "name": "weather-0-camera-2",
+      "stats": {
+        "address": "",
+        "addressId": 0,
+        "addressVisible": false,
+        "buildings": 182,
+        "camera": 2,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 2,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            -0.899999976158142,
+            1.38012361526489,
+            8.31999969482422
+          ],
+          "target": [
+            -0.899999976158142,
+            1.53012359142303,
+            -3.68000030517578
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 0,
+        "drawCalls": 445,
+        "fps": 49,
+        "frames": 633,
+        "gear": 1,
+        "handbrake": false,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -0.5,
+          -0.0198763031512499,
+          8
+        ],
+        "ready": true,
+        "rpm": 850,
+        "scale": 1,
+        "slipDegrees": 0,
+        "sound": false,
+        "speed": 0,
+        "started": true,
+        "tickMs": 15212,
+        "tireScrub": 0,
+        "triangles": 2714726,
+        "weather": 0,
+        "wetness": 0,
+        "yaw": 0
+      }
+    },
+    {
+      "name": "weather-0-camera-3",
+      "stats": {
+        "address": "",
+        "addressId": 0,
+        "addressVisible": false,
+        "buildings": 182,
+        "camera": 3,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 3,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            8.5,
+            21.9801235198975,
+            23
+          ],
+          "target": [
+            -0.5,
+            -0.0198763031512499,
+            6.59999990463257
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 0,
+        "drawCalls": 405,
+        "fps": 38,
+        "frames": 673,
+        "gear": 1,
+        "handbrake": false,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -0.5,
+          -0.0198763031512499,
+          8
+        ],
+        "ready": true,
+        "rpm": 850,
+        "scale": 1,
+        "slipDegrees": 0,
+        "sound": false,
+        "speed": 0,
+        "started": true,
+        "tickMs": 16129,
+        "tireScrub": 0,
+        "triangles": 2266481,
+        "weather": 0,
+        "wetness": 0,
+        "yaw": 0
+      }
+    },
+    {
+      "name": "weather-0-drive",
+      "stats": {
+        "address": "",
+        "addressId": 0,
+        "addressVisible": false,
+        "buildings": 182,
+        "camera": 0,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 0,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            -0.5,
+            3.48094201087952,
+            -54.3367462158203
+          ],
+          "target": [
+            -0.5,
+            1.13094186782837,
+            -65.7867431640625
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 0,
+        "drawCalls": 366,
+        "fps": 60,
+        "frames": 1037,
+        "gear": 2,
+        "handbrake": false,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -0.5,
+          -0.0190595258027315,
+          -66.6747360229492
+        ],
+        "ready": true,
+        "rpm": 4997.08156760704,
+        "scale": 1,
+        "slipDegrees": 0,
+        "sound": false,
+        "speed": 21.8568820953369,
+        "started": true,
+        "tickMs": 22229,
+        "tireScrub": 0,
+        "triangles": 1513583,
+        "weather": 0,
+        "wetness": 0,
+        "yaw": 0
+      }
+    },
+    {
+      "name": "weather-1-camera-0",
+      "stats": {
+        "address": "",
+        "addressId": 0,
+        "addressVisible": false,
+        "buildings": 182,
+        "camera": 0,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 0,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            -0.5,
+            3.48012471199036,
+            15.8000001907349
+          ],
+          "target": [
+            -0.5,
+            1.13012409210205,
+            5.59999990463257
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 0,
+        "drawCalls": 601,
+        "fps": 60,
+        "frames": 1440,
+        "gear": 1,
+        "handbrake": false,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -0.5,
+          -0.0198763031512499,
+          8
+        ],
+        "ready": true,
+        "rpm": 850,
+        "scale": 1,
+        "slipDegrees": 0,
+        "sound": false,
+        "speed": 0,
+        "started": true,
+        "tickMs": 29380,
+        "tireScrub": 0,
+        "triangles": 2764492,
+        "weather": 1,
+        "wetness": 0.210895157395201,
+        "yaw": 0
+      }
+    },
+    {
+      "name": "weather-1-camera-1",
+      "stats": {
+        "address": "",
+        "addressId": 0,
+        "addressVisible": false,
+        "buildings": 182,
+        "camera": 1,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 1,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            -0.5,
+            1.17012369632721,
+            6.48000001907349
+          ],
+          "target": [
+            -0.5,
+            1.27012372016907,
+            -5.51999998092651
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 0,
+        "drawCalls": 381,
+        "fps": 46,
+        "frames": 1482,
+        "gear": 1,
+        "handbrake": false,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -0.5,
+          -0.0198763031512499,
+          8
+        ],
+        "ready": true,
+        "rpm": 850,
+        "scale": 1,
+        "slipDegrees": 0,
+        "sound": false,
+        "speed": 0,
+        "started": true,
+        "tickMs": 30312,
+        "tireScrub": 0,
+        "triangles": 2673052,
+        "weather": 1,
+        "wetness": 0.213896556339777,
+        "yaw": 0
+      }
+    },
+    {
+      "name": "weather-1-camera-2",
+      "stats": {
+        "address": "",
+        "addressId": 0,
+        "addressVisible": false,
+        "buildings": 182,
+        "camera": 2,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 2,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            -0.899999976158142,
+            1.38012361526489,
+            8.31999969482422
+          ],
+          "target": [
+            -0.899999976158142,
+            1.53012359142303,
+            -3.68000030517578
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 0,
+        "drawCalls": 445,
+        "fps": 43,
+        "frames": 1522,
+        "gear": 1,
+        "handbrake": false,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -0.5,
+          -0.0198763031512499,
+          8
+        ],
+        "ready": true,
+        "rpm": 850,
+        "scale": 1,
+        "slipDegrees": 0,
+        "sound": false,
+        "speed": 0,
+        "started": true,
+        "tickMs": 31212,
+        "tireScrub": 0,
+        "triangles": 2714722,
+        "weather": 1,
+        "wetness": 0.216039235166649,
+        "yaw": 0
+      }
+    },
+    {
+      "name": "weather-1-camera-3",
+      "stats": {
+        "address": "",
+        "addressId": 0,
+        "addressVisible": false,
+        "buildings": 182,
+        "camera": 3,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 3,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            8.5,
+            21.9801235198975,
+            23
+          ],
+          "target": [
+            -0.5,
+            -0.0198763031512499,
+            6.59999990463257
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 0,
+        "drawCalls": 404,
+        "fps": 40,
+        "frames": 1563,
+        "gear": 1,
+        "handbrake": false,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -0.5,
+          -0.0198763031512499,
+          8
+        ],
+        "ready": true,
+        "rpm": 850,
+        "scale": 1,
+        "slipDegrees": 0,
+        "sound": false,
+        "speed": 0,
+        "started": true,
+        "tickMs": 32178,
+        "tireScrub": 0,
+        "triangles": 2252867,
+        "weather": 1,
+        "wetness": 0.217302241760815,
+        "yaw": 0
+      }
+    },
+    {
+      "name": "weather-1-drive",
+      "stats": {
+        "address": "",
+        "addressId": 0,
+        "addressVisible": false,
+        "buildings": 182,
+        "camera": 0,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 0,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            -0.5,
+            3.4809422492981,
+            -55.4543418884277
+          ],
+          "target": [
+            -0.5,
+            1.13094198703766,
+            -66.9043579101562
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 0,
+        "drawCalls": 361,
+        "fps": 60,
+        "frames": 1944,
+        "gear": 2,
+        "handbrake": false,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -0.5,
+          -0.0190589185804129,
+          -70.2903518676758
+        ],
+        "ready": true,
+        "rpm": 4897.04350780725,
+        "scale": 1,
+        "slipDegrees": 0,
+        "sound": false,
+        "speed": 21.3494205474854,
+        "started": true,
+        "tickMs": 38748,
+        "tireScrub": 0,
+        "triangles": 1464438,
+        "weather": 1,
+        "wetness": 0.219871844800526,
+        "yaw": 0
+      }
+    },
+    {
+      "name": "weather-2-camera-0",
+      "stats": {
+        "address": "",
+        "addressId": 0,
+        "addressVisible": false,
+        "buildings": 182,
+        "camera": 0,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 0,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            -0.5,
+            3.48012471199036,
+            15.8000001907349
+          ],
+          "target": [
+            -0.5,
+            1.13012409210205,
+            5.59999990463257
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 0,
+        "drawCalls": 600,
+        "fps": 60,
+        "frames": 2332,
+        "gear": 1,
+        "handbrake": false,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -0.5,
+          -0.0198763031512499,
+          8
+        ],
+        "ready": true,
+        "rpm": 850,
+        "scale": 1,
+        "slipDegrees": 0,
+        "sound": false,
+        "speed": 0,
+        "started": true,
+        "tickMs": 45545,
+        "tireScrub": 0,
+        "triangles": 2767786,
+        "weather": 2,
+        "wetness": 0.965939387772076,
+        "yaw": 0
+      }
+    },
+    {
+      "name": "weather-2-camera-1",
+      "stats": {
+        "address": "",
+        "addressId": 0,
+        "addressVisible": false,
+        "buildings": 182,
+        "camera": 1,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 1,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            -0.5,
+            1.17012369632721,
+            6.48000001907349
+          ],
+          "target": [
+            -0.5,
+            1.27012372016907,
+            -5.51999998092651
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 0,
+        "drawCalls": 382,
+        "fps": 48,
+        "frames": 2375,
+        "gear": 1,
+        "handbrake": false,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -0.5,
+          -0.0198763031512499,
+          8
+        ],
+        "ready": true,
+        "rpm": 850,
+        "scale": 1,
+        "slipDegrees": 0,
+        "sound": false,
+        "speed": 0,
+        "started": true,
+        "tickMs": 46461,
+        "tireScrub": 0,
+        "triangles": 2676778,
+        "weather": 2,
+        "wetness": 0.977189316288293,
+        "yaw": 0
+      }
+    },
+    {
+      "name": "weather-2-camera-2",
+      "stats": {
+        "address": "",
+        "addressId": 0,
+        "addressVisible": false,
+        "buildings": 182,
+        "camera": 2,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 2,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            -0.899999976158142,
+            1.38012361526489,
+            8.31999969482422
+          ],
+          "target": [
+            -0.899999976158142,
+            1.53012359142303,
+            -3.68000030517578
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 0,
+        "drawCalls": 446,
+        "fps": 48,
+        "frames": 2416,
+        "gear": 1,
+        "handbrake": false,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -0.5,
+          -0.0198763031512499,
+          8
+        ],
+        "ready": true,
+        "rpm": 850,
+        "scale": 1,
+        "slipDegrees": 0,
+        "sound": false,
+        "speed": 0,
+        "started": true,
+        "tickMs": 47359,
+        "tireScrub": 0,
+        "triangles": 2718448,
+        "weather": 2,
+        "wetness": 0.985181846602357,
+        "yaw": 0
+      }
+    },
+    {
+      "name": "weather-2-camera-3",
+      "stats": {
+        "address": "",
+        "addressId": 0,
+        "addressVisible": false,
+        "buildings": 182,
+        "camera": 3,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 3,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            8.5,
+            21.9801235198975,
+            23
+          ],
+          "target": [
+            -0.5,
+            -0.0198763031512499,
+            6.59999990463257
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 0,
+        "drawCalls": 414,
+        "fps": 48,
+        "frames": 2447,
+        "gear": 1,
+        "handbrake": false,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -0.5,
+          -0.0198763031512499,
+          8
+        ],
+        "ready": true,
+        "rpm": 850,
+        "scale": 1,
+        "slipDegrees": 0,
+        "sound": false,
+        "speed": 0,
+        "started": true,
+        "tickMs": 47878,
+        "tireScrub": 0,
+        "triangles": 2286936,
+        "weather": 2,
+        "wetness": 0.988436691669544,
+        "yaw": 0
+      }
+    },
+    {
+      "name": "weather-2-drive",
+      "stats": {
+        "address": "",
+        "addressId": 0,
+        "addressVisible": false,
+        "buildings": 182,
+        "camera": 0,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 0,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            -0.5,
+            3.4809422492981,
+            -53.0441093444824
+          ],
+          "target": [
+            -0.5,
+            1.13094210624695,
+            -64.4941101074219
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 0,
+        "drawCalls": 370,
+        "fps": 60,
+        "frames": 2815,
+        "gear": 2,
+        "handbrake": false,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -0.5,
+          -0.0190586317330599,
+          -68.079719543457
+        ],
+        "ready": true,
+        "rpm": 4917.38368618415,
+        "scale": 1,
+        "slipDegrees": 0,
+        "sound": false,
+        "speed": 21.44895362854,
+        "started": true,
+        "tickMs": 54495,
+        "tireScrub": 0,
+        "triangles": 1570751,
+        "weather": 2,
+        "wetness": 0.999424526092074,
+        "yaw": 0
+      }
+    },
+    {
+      "name": "handbrake-drift",
+      "stats": {
+        "address": "",
+        "addressId": 0,
+        "addressVisible": false,
+        "buildings": 182,
+        "camera": 0,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 0,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            -223.143630981445,
+            3.48094296455383,
+            -2.97785758972168
+          ],
+          "target": [
+            -231.941986083984,
+            1.1309427022934,
+            -8.95389080047607
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 0,
+        "drawCalls": 271,
+        "fps": 60,
+        "frames": 3653,
+        "gear": 1,
+        "handbrake": false,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -231.375549316406,
+          -0.0190562717616558,
+          -10.2779197692871
+        ],
+        "ready": true,
+        "rpm": 2971.83954745514,
+        "scale": 1,
+        "slipDegrees": 23.4853562769474,
+        "sound": false,
+        "speed": 8.37846183776855,
+        "started": true,
+        "tickMs": 69911,
+        "tireScrub": 0.463850349903141,
+        "triangles": 603047,
+        "weather": 0,
+        "wetness": 0.0134159082266916,
+        "yaw": 1.16824471950531
+      }
+    },
+    {
+      "name": "seventh-east-0",
+      "stats": {
+        "address": "61 E 7TH ST",
+        "addressId": 241822201,
+        "addressVisible": true,
+        "buildings": 182,
+        "camera": 0,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 0,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            -136.780990600586,
+            3.48094153404236,
+            5.38605490874033e-06
+          ],
+          "target": [
+            -125.331001281738,
+            1.13094162940979,
+            5.88655029787333e-06
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 0,
+        "drawCalls": 697,
+        "fps": 60,
+        "frames": 4496,
+        "gear": 3,
+        "handbrake": false,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -124.398361206055,
+          -0.0190582014620304,
+          5.9273165788909e-06
+        ],
+        "ready": true,
+        "rpm": 3740.13238766109,
+        "scale": 1,
+        "slipDegrees": -2.84534616739685e-13,
+        "sound": false,
+        "speed": 22.8927364349365,
+        "started": true,
+        "tickMs": 84809,
+        "tireScrub": 0,
+        "triangles": 2777071,
+        "weather": 0,
+        "wetness": 1.24509681494225e-05,
+        "yaw": -1.57079637050629
+      }
+    },
+    {
+      "name": "seventh-west-0",
+      "stats": {
+        "address": "",
+        "addressId": 0,
+        "addressVisible": false,
+        "buildings": 182,
+        "camera": 0,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 0,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            112.492156982422,
+            3.48094201087952,
+            6.36033564660465e-06
+          ],
+          "target": [
+            101.04216003418,
+            1.13094162940979,
+            6.86083103573765e-06
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 0,
+        "drawCalls": 945,
+        "fps": 50,
+        "frames": 5032,
+        "gear": 3,
+        "handbrake": false,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          97.6628112792969,
+          -0.0190581865608692,
+          7.0085457082314e-06
+        ],
+        "ready": true,
+        "rpm": 3572.6529880139,
+        "scale": 1,
+        "slipDegrees": 5.95710148379417e-13,
+        "sound": false,
+        "speed": 21.8689441680908,
+        "started": true,
+        "tickMs": 94893,
+        "tireScrub": 0,
+        "triangles": 3729651,
+        "weather": 0,
+        "wetness": 1.24295741972411e-07,
+        "yaw": 1.57079637050629
+      }
+    },
+    {
+      "name": "seventh-east-1",
+      "stats": {
+        "address": "57 E 7TH ST",
+        "addressId": 241822169,
+        "addressVisible": true,
+        "buildings": 182,
+        "camera": 0,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 0,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            -149.281829833984,
+            3.48094177246094,
+            4.83963049191516e-06
+          ],
+          "target": [
+            -137.831848144531,
+            1.13094174861908,
+            5.34012588104815e-06
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 0,
+        "drawCalls": 697,
+        "fps": 61,
+        "frames": 5524,
+        "gear": 3,
+        "handbrake": false,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -137.194534301758,
+          -0.0190581902861595,
+          5.36798415851081e-06
+        ],
+        "ready": true,
+        "rpm": 3582.75233975135,
+        "scale": 0.875,
+        "slipDegrees": -2.97020534727077e-13,
+        "sound": false,
+        "speed": 21.9303894042969,
+        "started": true,
+        "tickMs": 116889,
+        "tireScrub": 0,
+        "triangles": 2625349,
+        "weather": 1,
+        "wetness": 0.217873464876666,
+        "yaw": -1.57079637050629
+      }
+    },
+    {
+      "name": "seventh-west-1",
+      "stats": {
+        "address": "",
+        "addressId": 0,
+        "addressVisible": false,
+        "buildings": 182,
+        "camera": 0,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 0,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            121.269943237305,
+            3.48094201087952,
+            5.97664802626241e-06
+          ],
+          "target": [
+            109.819946289062,
+            1.13094174861908,
+            6.4771434153954e-06
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 0,
+        "drawCalls": 950,
+        "fps": 58,
+        "frames": 6049,
+        "gear": 3,
+        "handbrake": false,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          108.854339599609,
+          -0.0190581791102886,
+          6.51935079076793e-06
+        ],
+        "ready": true,
+        "rpm": 3716.85660908754,
+        "scale": 0.875,
+        "slipDegrees": 2.86345079026234e-13,
+        "sound": false,
+        "speed": 22.7479934692383,
+        "started": true,
+        "tickMs": 125922,
+        "tireScrub": 0,
+        "triangles": 3536902,
+        "weather": 1,
+        "wetness": 0.219972162894206,
+        "yaw": 1.57079637050629
+      }
+    },
+    {
+      "name": "seventh-east-2",
+      "stats": {
+        "address": "63 E 7TH ST",
+        "addressId": 241822202,
+        "addressVisible": true,
+        "buildings": 182,
+        "camera": 0,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 0,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            -123.299591064453,
+            3.48094201087952,
+            5.97534335611272e-06
+          ],
+          "target": [
+            -111.849601745605,
+            1.13094162940979,
+            6.47583874524571e-06
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 0,
+        "drawCalls": 682,
+        "fps": 51,
+        "frames": 6835,
+        "gear": 3,
+        "handbrake": false,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -108.149452209473,
+          -0.0190582051873207,
+          6.63757600705139e-06
+        ],
+        "ready": true,
+        "rpm": 3674.87669163914,
+        "scale": 0.875,
+        "slipDegrees": -2.89626836546381e-13,
+        "sound": false,
+        "speed": 22.4902362823486,
+        "started": true,
+        "tickMs": 141208,
+        "tireScrub": 0,
+        "triangles": 2959634,
+        "weather": 2,
+        "wetness": 0.998964062428481,
+        "yaw": -1.57079637050629
+      }
+    },
+    {
+      "name": "seventh-west-2",
+      "stats": {
+        "address": "",
+        "addressId": 0,
+        "addressVisible": false,
+        "buildings": 182,
+        "camera": 0,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 0,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            124.136054992676,
+            3.48094177246094,
+            5.85136649533524e-06
+          ],
+          "target": [
+            112.686058044434,
+            1.13094162940979,
+            6.35186188446824e-06
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 0,
+        "drawCalls": 946,
+        "fps": 53,
+        "frames": 7334,
+        "gear": 3,
+        "handbrake": false,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          108.922386169434,
+          -0.0190582182258368,
+          6.51637583359843e-06
+        ],
+        "ready": true,
+        "rpm": 3685.33207249965,
+        "scale": 0.875,
+        "slipDegrees": 5.77611759918453e-13,
+        "sound": false,
+        "speed": 22.5541667938232,
+        "started": true,
+        "tickMs": 150988,
+        "tireScrub": 0,
+        "triangles": 3552046,
+        "weather": 2,
+        "wetness": 0.999986529857063,
+        "yaw": 1.57079637050629
+      }
+    },
+    {
+      "name": "pause",
+      "stats": {
+        "address": "",
+        "addressId": 0,
+        "addressVisible": false,
+        "buildings": 182,
+        "camera": 0,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 0,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            -0.5,
+            3.4801242351532,
+            15.7999954223633
+          ],
+          "target": [
+            -0.5,
+            1.13012397289276,
+            5.60000133514404
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 0,
+        "drawCalls": 612,
+        "fps": 59,
+        "frames": 7466,
+        "gear": 1,
+        "handbrake": false,
+        "paused": true,
+        "persistent": true,
+        "position": [
+          -0.5,
+          -0.0198763031512499,
+          8
+        ],
+        "ready": true,
+        "rpm": 850,
+        "scale": 1,
+        "slipDegrees": 0,
+        "sound": false,
+        "speed": 0,
+        "started": true,
+        "tickMs": 153538,
+        "tireScrub": 0,
+        "triangles": 2769780,
+        "weather": 2,
+        "wetness": 0.999995716196163,
+        "yaw": 0
+      }
+    },
+    {
+      "name": "retina-resize",
+      "stats": {
+        "address": "",
+        "addressId": 0,
+        "addressVisible": false,
+        "buildings": 182,
+        "camera": 0,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 0,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            -0.5,
+            3.48020958900452,
+            15.8000001907349
+          ],
+          "target": [
+            -0.5,
+            1.13020956516266,
+            5.59999990463257
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 0,
+        "drawCalls": 587,
+        "fps": 60,
+        "frames": 407,
+        "gear": 1,
+        "handbrake": false,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -0.5,
+          -0.0197903737425804,
+          8
+        ],
+        "ready": true,
+        "rpm": 850,
+        "scale": 1,
+        "slipDegrees": 0,
+        "sound": false,
+        "speed": 0,
+        "started": true,
+        "tickMs": 11422,
+        "tireScrub": 0,
+        "triangles": 2699393,
+        "weather": 0,
+        "wetness": 0.269272080198422,
+        "yaw": 0
+      }
+    },
+    {
+      "name": "shop-12542984189",
+      "stats": {
+        "address": "",
+        "addressId": 0,
+        "addressVisible": false,
+        "buildings": 182,
+        "camera": 0,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 0,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            -115.24934387207,
+            2.09999990463257,
+            -3.32389163970947
+          ],
+          "target": [
+            -0.5,
+            1.13020956516266,
+            5.59999990463257
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 0,
+        "drawCalls": 292,
+        "fps": 60,
+        "frames": 883,
+        "gear": 1,
+        "handbrake": false,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -0.5,
+          -0.0197903737425804,
+          8
+        ],
+        "ready": true,
+        "rpm": 850,
+        "scale": 1,
+        "slipDegrees": 0,
+        "sound": false,
+        "speed": 0,
+        "started": true,
+        "tickMs": 21679,
+        "tireScrub": 0,
+        "triangles": 1932181,
+        "weather": 0,
+        "wetness": 0.00481409579772992,
+        "yaw": 0
+      }
+    },
+    {
+      "name": "shop-12709183133",
+      "stats": {
+        "address": "",
+        "addressId": 0,
+        "addressVisible": false,
+        "buildings": 182,
+        "camera": 0,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 0,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            -56.3368225097656,
+            2.09999990463257,
+            4.15836954116821
+          ],
+          "target": [
+            -0.5,
+            1.13020956516266,
+            5.59999990463257
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 0,
+        "drawCalls": 53,
+        "fps": 29,
+        "frames": 938,
+        "gear": 1,
+        "handbrake": false,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -0.5,
+          -0.0197903737425804,
+          8
+        ],
+        "ready": true,
+        "rpm": 850,
+        "scale": 1,
+        "slipDegrees": 0,
+        "sound": false,
+        "speed": 0,
+        "started": true,
+        "tickMs": 22821,
+        "tireScrub": 0,
+        "triangles": 351817,
+        "weather": 0,
+        "wetness": 0.00275112610058624,
+        "yaw": 0
+      }
+    },
+    {
+      "name": "shop-6916463756",
+      "stats": {
+        "address": "",
+        "addressId": 0,
+        "addressVisible": false,
+        "buildings": 182,
+        "camera": 0,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 0,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            -77.7659912109375,
+            2.09999990463257,
+            4.1510853767395
+          ],
+          "target": [
+            -0.5,
+            1.13020956516266,
+            5.59999990463257
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 0,
+        "drawCalls": 41,
+        "fps": 46,
+        "frames": 984,
+        "gear": 1,
+        "handbrake": false,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -0.5,
+          -0.0197903737425804,
+          8
+        ],
+        "ready": true,
+        "rpm": 850,
+        "scale": 1,
+        "slipDegrees": 0,
+        "sound": false,
+        "speed": 0,
+        "started": true,
+        "tickMs": 23589,
+        "tireScrub": 0,
+        "triangles": 358869,
+        "weather": 0,
+        "wetness": 0.00190352288428434,
+        "yaw": 0
+      }
+    },
+    {
+      "name": "shop-4811993324",
+      "stats": {
+        "address": "",
+        "addressId": 0,
+        "addressVisible": false,
+        "buildings": 182,
+        "camera": 0,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 0,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            -84.8270568847656,
+            2.09999990463257,
+            4.1494460105896
+          ],
+          "target": [
+            -0.5,
+            1.13020956516266,
+            5.59999990463257
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 0,
+        "drawCalls": 34,
+        "fps": 45,
+        "frames": 1033,
+        "gear": 1,
+        "handbrake": false,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -0.5,
+          -0.0197903737425804,
+          8
+        ],
+        "ready": true,
+        "rpm": 850,
+        "scale": 1,
+        "slipDegrees": 0,
+        "sound": false,
+        "speed": 0,
+        "started": true,
+        "tickMs": 24904,
+        "tireScrub": 0,
+        "triangles": 415494,
+        "weather": 0,
+        "wetness": 0.00121720143622559,
+        "yaw": 0
+      }
+    },
+    {
+      "name": "shop-5919252677",
+      "stats": {
+        "address": "",
+        "addressId": 0,
+        "addressVisible": false,
+        "buildings": 182,
+        "camera": 0,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 0,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            -40.920166015625,
+            2.09999990463257,
+            -3.27306604385376
+          ],
+          "target": [
+            -0.5,
+            1.13020956516266,
+            5.59999990463257
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 0,
+        "drawCalls": 291,
+        "fps": 45,
+        "frames": 1079,
+        "gear": 1,
+        "handbrake": false,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -0.5,
+          -0.0197903737425804,
+          8
+        ],
+        "ready": true,
+        "rpm": 850,
+        "scale": 1,
+        "slipDegrees": 0,
+        "sound": false,
+        "speed": 0,
+        "started": true,
+        "tickMs": 25670,
+        "tireScrub": 0,
+        "triangles": 1820111,
+        "weather": 0,
+        "wetness": 0.000795941426202623,
+        "yaw": 0
+      }
+    },
+    {
+      "name": "shop-4551161735",
+      "stats": {
+        "address": "",
+        "addressId": 0,
+        "addressVisible": false,
+        "buildings": 182,
+        "camera": 0,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 0,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            -47.0457153320312,
+            2.09999990463257,
+            -5.25608348846436
+          ],
+          "target": [
+            -0.5,
+            1.13020956516266,
+            5.59999990463257
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 0,
+        "drawCalls": 278,
+        "fps": 45,
+        "frames": 1131,
+        "gear": 1,
+        "handbrake": false,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -0.5,
+          -0.0197903737425804,
+          8
+        ],
+        "ready": true,
+        "rpm": 850,
+        "scale": 1,
+        "slipDegrees": 0,
+        "sound": false,
+        "speed": 0,
+        "started": true,
+        "tickMs": 27037,
+        "tireScrub": 0,
+        "triangles": 1856889,
+        "weather": 0,
+        "wetness": 0.000496487148005189,
+        "yaw": 0
+      }
+    },
+    {
+      "name": "shop-12542984186",
+      "stats": {
+        "address": "",
+        "addressId": 0,
+        "addressVisible": false,
+        "buildings": 182,
+        "camera": 0,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 0,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            -38.3762893676758,
+            2.09999990463257,
+            4.15900039672852
+          ],
+          "target": [
+            -0.5,
+            1.13020956516266,
+            5.59999990463257
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 0,
+        "drawCalls": 71,
+        "fps": 47,
+        "frames": 1177,
+        "gear": 1,
+        "handbrake": false,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -0.5,
+          -0.0197903737425804,
+          8
+        ],
+        "ready": true,
+        "rpm": 850,
+        "scale": 1,
+        "slipDegrees": 0,
+        "sound": false,
+        "speed": 0,
+        "started": true,
+        "tickMs": 27805,
+        "tireScrub": 0,
+        "triangles": 1214550,
+        "weather": 0,
+        "wetness": 0.000325141866035252,
+        "yaw": 0
+      }
+    },
+    {
+      "name": "shop-6053103886",
+      "stats": {
+        "address": "",
+        "addressId": 0,
+        "addressVisible": false,
+        "buildings": 182,
+        "camera": 0,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 0,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            -43.1456298828125,
+            2.09999990463257,
+            4.15900039672852
+          ],
+          "target": [
+            -0.5,
+            1.13020956516266,
+            5.59999990463257
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 0,
+        "drawCalls": 66,
+        "fps": 50,
+        "frames": 1228,
+        "gear": 1,
+        "handbrake": false,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -0.5,
+          -0.0197903737425804,
+          8
+        ],
+        "ready": true,
+        "rpm": 850,
+        "scale": 1,
+        "slipDegrees": 0,
+        "sound": false,
+        "speed": 0,
+        "started": true,
+        "tickMs": 29304,
+        "tireScrub": 0,
+        "triangles": 583378,
+        "weather": 0,
+        "wetness": 0.000204329440962659,
+        "yaw": 0
+      }
+    },
+    {
+      "name": "shop-2494064642",
+      "stats": {
+        "address": "",
+        "addressId": 0,
+        "addressVisible": false,
+        "buildings": 182,
+        "camera": 0,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 0,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            -181.526306152344,
+            2.09999990463257,
+            1.98285913467407
+          ],
+          "target": [
+            -0.5,
+            1.13020956516266,
+            5.59999990463257
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 0,
+        "drawCalls": 120,
+        "fps": 42,
+        "frames": 1274,
+        "gear": 1,
+        "handbrake": false,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -0.5,
+          -0.0197903737425804,
+          8
+        ],
+        "ready": true,
+        "rpm": 850,
+        "scale": 1,
+        "slipDegrees": 0,
+        "sound": false,
+        "speed": 0,
+        "started": true,
+        "tickMs": 30072,
+        "tireScrub": 0,
+        "triangles": 320210,
+        "weather": 0,
+        "wetness": 0.000133837931021671,
+        "yaw": 0
+      }
+    },
+    {
+      "name": "shop-6583001086",
+      "stats": {
+        "address": "",
+        "addressId": 0,
+        "addressVisible": false,
+        "buildings": 182,
+        "camera": 0,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 0,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            109.621231079102,
+            2.09999990463257,
+            4.25576305389404
+          ],
+          "target": [
+            -0.5,
+            1.13020956516266,
+            5.59999990463257
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 0,
+        "drawCalls": 28,
+        "fps": 40,
+        "frames": 1323,
+        "gear": 1,
+        "handbrake": false,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -0.5,
+          -0.0197903737425804,
+          8
+        ],
+        "ready": true,
+        "rpm": 850,
+        "scale": 1,
+        "slipDegrees": 0,
+        "sound": false,
+        "speed": 0,
+        "started": true,
+        "tickMs": 31487,
+        "tireScrub": 0,
+        "triangles": 220248,
+        "weather": 0,
+        "wetness": 8.54563396341695e-05,
+        "yaw": 0
+      }
+    },
+    {
+      "name": "shop-10090555737",
+      "stats": {
+        "address": "",
+        "addressId": 0,
+        "addressVisible": false,
+        "buildings": 182,
+        "camera": 0,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 0,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            170.50080871582,
+            2.09999990463257,
+            4.23757600784302
+          ],
+          "target": [
+            -0.5,
+            1.13020956516266,
+            5.59999990463257
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 0,
+        "drawCalls": 47,
+        "fps": 44,
+        "frames": 1369,
+        "gear": 1,
+        "handbrake": false,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -0.5,
+          -0.0197903737425804,
+          8
+        ],
+        "ready": true,
+        "rpm": 850,
+        "scale": 1,
+        "slipDegrees": 0,
+        "sound": false,
+        "speed": 0,
+        "started": true,
+        "tickMs": 32455,
+        "tireScrub": 0,
+        "triangles": 263604,
+        "weather": 0,
+        "wetness": 5.59121437940766e-05,
+        "yaw": 0
+      }
+    },
+    {
+      "name": "shop-9161604572",
+      "stats": {
+        "address": "",
+        "addressId": 0,
+        "addressVisible": false,
+        "buildings": 182,
+        "camera": 0,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 0,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            51.7539482116699,
+            2.09999990463257,
+            4.29020309448242
+          ],
+          "target": [
+            -0.5,
+            1.13020956516266,
+            5.59999990463257
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 0,
+        "drawCalls": 57,
+        "fps": 48,
+        "frames": 1415,
+        "gear": 1,
+        "handbrake": false,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -0.5,
+          -0.0197903737425804,
+          8
+        ],
+        "ready": true,
+        "rpm": 850,
+        "scale": 1,
+        "slipDegrees": 0,
+        "sound": false,
+        "speed": 0,
+        "started": true,
+        "tickMs": 33488,
+        "tireScrub": 0,
+        "triangles": 1348306,
+        "weather": 0,
+        "wetness": 3.65914130940503e-05,
+        "yaw": 0
+      }
+    },
+    {
+      "name": "shop-11270580267",
+      "stats": {
+        "address": "",
+        "addressId": 0,
+        "addressVisible": false,
+        "buildings": 182,
+        "camera": 0,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 0,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            108.60905456543,
+            2.09999990463257,
+            -3.42013549804688
+          ],
+          "target": [
+            -0.5,
+            1.13020956516266,
+            5.59999990463257
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 0,
+        "drawCalls": 159,
+        "fps": 44,
+        "frames": 1462,
+        "gear": 1,
+        "handbrake": false,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -0.5,
+          -0.0197903737425804,
+          8
+        ],
+        "ready": true,
+        "rpm": 850,
+        "scale": 1,
+        "slipDegrees": 0,
+        "sound": false,
+        "speed": 0,
+        "started": true,
+        "tickMs": 34505,
+        "tireScrub": 0,
+        "triangles": 1238907,
+        "weather": 0,
+        "wetness": 2.37794460918162e-05,
+        "yaw": 0
+      }
+    },
+    {
+      "name": "shop-6558563123",
+      "stats": {
+        "address": "",
+        "addressId": 0,
+        "addressVisible": false,
+        "buildings": 182,
+        "camera": 0,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 0,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            176.255447387695,
+            2.09999990463257,
+            -1.55167055130005
+          ],
+          "target": [
+            -0.5,
+            1.13020956516266,
+            5.59999990463257
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 0,
+        "drawCalls": 83,
+        "fps": 46,
+        "frames": 1508,
+        "gear": 1,
+        "handbrake": false,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -0.5,
+          -0.0197903737425804,
+          8
+        ],
+        "ready": true,
+        "rpm": 850,
+        "scale": 1,
+        "slipDegrees": 0,
+        "sound": false,
+        "speed": 0,
+        "started": true,
+        "tickMs": 35538,
+        "tireScrub": 0,
+        "triangles": 965020,
+        "weather": 0,
+        "wetness": 1.55469052257252e-05,
+        "yaw": 0
+      }
+    },
+    {
+      "name": "shop-12994866301",
+      "stats": {
+        "address": "",
+        "addressId": 0,
+        "addressVisible": false,
+        "buildings": 182,
+        "camera": 0,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 0,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            176.195083618164,
+            2.09999990463257,
+            1.70216083526611
+          ],
+          "target": [
+            -0.5,
+            1.13020956516266,
+            5.59999990463257
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 0,
+        "drawCalls": 49,
+        "fps": 44,
+        "frames": 1555,
+        "gear": 1,
+        "handbrake": false,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -0.5,
+          -0.0197903737425804,
+          8
+        ],
+        "ready": true,
+        "rpm": 850,
+        "scale": 1,
+        "slipDegrees": 0,
+        "sound": false,
+        "speed": 0,
+        "started": true,
+        "tickMs": 36321,
+        "tireScrub": 0,
+        "triangles": 246729,
+        "weather": 0,
+        "wetness": 1.00922277506056e-05,
+        "yaw": 0
+      }
+    },
+    {
+      "name": "shop-12542984188",
+      "stats": {
+        "address": "",
+        "addressId": 0,
+        "addressVisible": false,
+        "buildings": 182,
+        "camera": 0,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 0,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            -55.1796569824219,
+            2.09999990463257,
+            -5.22280311584473
+          ],
+          "target": [
+            -0.5,
+            1.13020956516266,
+            5.59999990463257
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 0,
+        "drawCalls": 263,
+        "fps": 44,
+        "frames": 1604,
+        "gear": 1,
+        "handbrake": false,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -0.5,
+          -0.0197903737425804,
+          8
+        ],
+        "ready": true,
+        "rpm": 850,
+        "scale": 1,
+        "slipDegrees": 0,
+        "sound": false,
+        "speed": 0,
+        "started": true,
+        "tickMs": 37638,
+        "tireScrub": 0,
+        "triangles": 1874223,
+        "weather": 0,
+        "wetness": 6.45519735602885e-06,
+        "yaw": 0
+      }
+    },
+    {
+      "name": "shop-12542984190",
+      "stats": {
+        "address": "",
+        "addressId": 0,
+        "addressVisible": false,
+        "buildings": 182,
+        "camera": 0,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 0,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            -80.2966156005859,
+            2.09999990463257,
+            -3.9296703338623
+          ],
+          "target": [
+            -0.5,
+            1.13020956516266,
+            5.59999990463257
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 0,
+        "drawCalls": 273,
+        "fps": 46,
+        "frames": 1650,
+        "gear": 1,
+        "handbrake": false,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -0.5,
+          -0.0197903737425804,
+          8
+        ],
+        "ready": true,
+        "rpm": 850,
+        "scale": 1,
+        "slipDegrees": 0,
+        "sound": false,
+        "speed": 0,
+        "started": true,
+        "tickMs": 38404,
+        "tireScrub": 0,
+        "triangles": 1880374,
+        "weather": 0,
+        "wetness": 4.22261075029907e-06,
+        "yaw": 0
+      }
+    },
+    {
+      "name": "download-recovery"
+    },
+    {
+      "name": "graphics-recovery",
+      "stats": {
+        "address": "",
+        "addressId": 0,
+        "addressVisible": false,
+        "buildings": 182,
+        "camera": 0,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 0,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            -0.5,
+            3.48020958900452,
+            15.8000001907349
+          ],
+          "target": [
+            -0.5,
+            1.13020956516266,
+            5.59999990463257
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 0,
+        "drawCalls": 579,
+        "fps": 28,
+        "frames": 127,
+        "gear": 1,
+        "handbrake": false,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -0.5,
+          -0.0197903737425804,
+          8
+        ],
+        "ready": true,
+        "rpm": 850,
+        "scale": 1,
+        "slipDegrees": 0,
+        "sound": false,
+        "speed": 0,
+        "started": false,
+        "tickMs": 5887,
+        "tireScrub": 0,
+        "triangles": 2761730,
+        "weather": 0,
+        "wetness": 0,
+        "yaw": 0
+      }
+    }
+  ],
+  "build": {
+    "schema": 1,
+    "builtAt": "2026-09-15T05:33:23.484Z",
+    "engine": "Godot 4.7.2",
+    "renderer": "Compatibility / WebGL 2",
+    "threaded": false,
+    "buildings": 182,
+    "sourceCommit": "c76dccebc143960498d21eeab8c55c2d0dbcc5ce",
+    "geographySha256": "fd61b108e80eab18d477686b677413ef565f1ab16edc26170751347e22651a5c",
+    "files": {
+      "DAMION-OFL.txt": {
+        "bytes": 4389,
+        "sha256": "4aeb831b7b6ab653dca84308e576613059c598696aa2dc83192ab6117b24a5fa"
+      },
+      "LICENSE.txt": {
+        "bytes": 1097,
+        "sha256": "d698c1c978070d4305be75e60e904f6f54715f003fe248a23bf8b3ee0ca07134"
+      },
+      "credits.txt": {
+        "bytes": 3023,
+        "sha256": "70a5cd4c221229624d8bc2975efa3bce9de696583995c556274ffccfaac985a9"
+      },
+      "godot-notices.txt": {
+        "bytes": 87732,
+        "sha256": "96b99d808a955ca39a6a8db9b93b3c04d012d1d71109c9e1dd8af85f00eeeb98"
+      },
+      "index.audio.position.worklet.js": {
+        "bytes": 2973,
+        "sha256": "be33985bc7160d6bf9646f259cd86b259cd67b02ccb297ee5c44f8ac84327bc8"
+      },
+      "index.audio.worklet.js": {
+        "bytes": 7298,
+        "sha256": "5b476a9c9ce642c0ee4256436d1bc31d9c38f868aca0f9a8e2a57c18d2dec2a3"
+      },
+      "index.html": {
+        "bytes": 7732,
+        "sha256": "0bafc8140ecd5419cadeffd583a8b1df9e0fd0abd4d8297deb3b8ca6755ac360"
+      },
+      "index.js": {
+        "bytes": 279815,
+        "sha256": "33c94cb3175f3333b82e2a3be5e8e86f77986f0aa2042b1631f6367a4e5bb6ba"
+      },
+      "index.pck": {
+        "bytes": 86494400,
+        "sha256": "99e4a058c83f2bb5762240dca39c8f4e4d522f0ab8da8558140269f0a8e0257d",
+        "brotliBytes": 77999848
+      },
+      "index.png": {
+        "bytes": 21443,
+        "sha256": "3cb4495c0b98dfbe4b663cbf2b6836473572339beb66d902367893162a70be0e"
+      },
+      "index.wasm": {
+        "bytes": 39514754,
+        "sha256": "fc74679e3b97f76878947fcd4fbe1268cbfa6188182a2e33bbc3f5dc9bfa57d0",
+        "brotliBytes": 8182023
+      }
+    },
+    "sources": {
+      "engine/first-seventh/assets/audio/cornerlight.wav": "25e74f3f7d782323220af9ca8f41fe196ecf30355b77424b6bcd3c399cb9134e",
+      "engine/first-seventh/assets/audio/cornerlight.wav.import": "fd5f7ed95ed31620af2e488521190f1380ba88cc5c9c49f417556de5283777d1",
+      "engine/first-seventh/assets/audio/engine-coast.wav": "fc8fd78f33021d261377a51a0e53526648d12f052a06734c6f7bc0bd00aca740",
+      "engine/first-seventh/assets/audio/engine-coast.wav.import": "2a420089cb0f5e34318414d20678557e470d930372a7e7b3b7f9d7e4a317be3d",
+      "engine/first-seventh/assets/audio/engine-idle.wav": "b914dc2baf867b7115ebb10cbb830ab27f6da9559110a3cd71c8aa5c1f583550",
+      "engine/first-seventh/assets/audio/engine-idle.wav.import": "5a887ee72b701d3d67729c4531540daace46221a1e28f7b8c705d405c87df44c",
+      "engine/first-seventh/assets/audio/engine-load.wav": "6ab1a1203a4a15a5e7c4a3cbe3240dd9a7986fb4031b21d366991527357116b6",
+      "engine/first-seventh/assets/audio/engine-load.wav.import": "f11e99702f4ac029273cd6bfcb76e53ca8ca27e0714fb9371f85e249e367b7ac",
+      "engine/first-seventh/assets/audio/impact.wav": "60ac6a81a97c01eb363cec6f62c020c66970f31f0a175d870c270060820860dd",
+      "engine/first-seventh/assets/audio/impact.wav.import": "f0d61f82267eed97ea8e360d61e07612915a1d21885a1c55ec6ac295426302c3",
+      "engine/first-seventh/assets/audio/rain.wav": "371be06535d635590c9c5f44528f17806265de885e0daaaba7f4f41e802d9111",
+      "engine/first-seventh/assets/audio/rain.wav.import": "830b6262c52c97a8cf659dcae8d31b436daf47df4b3b5a827a8186f07f8e2ce5",
+      "engine/first-seventh/assets/audio/road.wav": "f1a25770ea0d98e8f9b6a594a9d1d2b5426089036ddc86730652e6859bfca42c",
+      "engine/first-seventh/assets/audio/road.wav.import": "a79ba0601825c5fc01b589e893a7a735786cc4fc736d3c6bec657d6f2f51e2bc",
+      "engine/first-seventh/assets/audio/tires.wav": "b66574c0f6934a85bdee5b0842667dda7250b98693807ef46f9d6e426fc179a2",
+      "engine/first-seventh/assets/audio/tires.wav.import": "6255e82a47207e8eabe22e509fec9e8cb6d82340c11d6c76713a157bb4ce345e",
+      "engine/first-seventh/assets/credits.txt": "70a5cd4c221229624d8bc2975efa3bce9de696583995c556274ffccfaac985a9",
+      "engine/first-seventh/assets/slice.json": "56a3539b413ad1a91df9804dcd59f9c6ecd2ec143adcb06d7775e224d9adfb37",
+      "engine/first-seventh/assets/surfaces/concrete_wall_006_diff_1k.jpg": "fea247dd085cd05d8deb335234c834764d622029da351f8bcc8913935316bacd",
+      "engine/first-seventh/assets/surfaces/concrete_wall_006_diff_1k.jpg.import": "86cb4a30d395f5d755478389def71c133918d1cb4fbe8cabf91665ab8e05ffde",
+      "engine/first-seventh/assets/surfaces/concrete_wall_006_nor_gl_1k.jpg": "4ff16bb96fc2df3ef71d22007151aff1d8bf7cb10a493d3f8e973213a99dd428",
+      "engine/first-seventh/assets/surfaces/concrete_wall_006_nor_gl_1k.jpg.import": "ce3fd08785570bec136acddbf9bf4ce69b6e1090475e54940c687c5d0e247bf2",
+      "engine/first-seventh/assets/surfaces/red_brick_03_diff_1k.jpg": "9c58254c099b2d211478f50a427fcdde622af24249ff2e94da41fb836f8c857f",
+      "engine/first-seventh/assets/surfaces/red_brick_03_diff_1k.jpg.import": "e77d7e5dca366fafc2e4572aec4b1b7f971628b64c5836825bf151a31c308f30",
+      "engine/first-seventh/assets/surfaces/red_brick_03_nor_gl_1k.jpg": "9bfd45e24720d851017c1e1678b70219c72239b2ac6b25e11d57d458bdab8503",
+      "engine/first-seventh/assets/surfaces/red_brick_03_nor_gl_1k.jpg.import": "e4851b33d07c7e9d0b829f7699d35822e74d3da2c50228781f2f3367746eaa3e",
+      "engine/first-seventh/assets/surfaces/white_bricks_diff_1k.jpg": "a1483d99ea1ca6e23adce0ba4ad1a1ba0e586e76cafd1979c826424916cb03c4",
+      "engine/first-seventh/assets/surfaces/white_bricks_diff_1k.jpg.import": "13d0a1946b85ea8e72e6412e822e66fdab92e6cd1c2f473c72a296fd7a994e9c",
+      "engine/first-seventh/assets/surfaces/white_bricks_nor_gl_1k.jpg": "e2159482d8dec6db0c617b5d8313d01ac5dca23c642354331c1c5b4664d1728e",
+      "engine/first-seventh/assets/surfaces/white_bricks_nor_gl_1k.jpg.import": "3c5854cb19adeb6fc8ed209db33178ef502d3e5bcaf49c2ff2f816557af062ee",
+      "engine/first-seventh/assets/west_seventh_streetscape.json": "f65c8d4e8e77cbe0202d1b4c9e6fdb3b8233a6d91778f541b09de988d5c4a88b",
+      "engine/first-seventh/export_presets.cfg": "de830db6e0808164dba6f22f4cfceee803f4d56d002c7e9bdd87b395609de38b",
+      "engine/first-seventh/project.godot": "e91e8078b7ad682e3fa628113c4bc840d6f69101d4fc44ed57b8bace4fa9d73f",
+      "engine/first-seventh/scenes/main.tscn": "36b1ee7da0776608f1933cf39d31d5d928b160da1f474fcedac7a5f9f3e67e3a",
+      "engine/first-seventh/scripts/address_locator.gd": "55d7bbd45f78866693aee0cb0dad3797978feb91a12a5b7d5a039d389a9f6da2",
+      "engine/first-seventh/scripts/cameras.gd": "41bee5dc1557b8220549bcfb6d7fb663c0dab996388cd61599e5158a7932f2fa",
+      "engine/first-seventh/scripts/car.gd": "af3cbe86cf9768161b76d46364a41726e0f277554bf6222cb5e1d846dd8b190d",
+      "engine/first-seventh/scripts/car_audio.gd": "21c2003f12e9afe16b0d08f6c7532b011ae67585aa0e0a116bf243bcc2b0af50",
+      "engine/first-seventh/scripts/export_credits.gd": "b6e415b08e93abdeb7ac41976a74210de5a6db00f221fb48fd3f1a94725f076b",
+      "engine/first-seventh/scripts/handling.gd": "f421fb6ba97f937db1b50bdb2488138997fb3a69882f69f9f7b3ce3d85e67518",
+      "engine/first-seventh/scripts/hud.gd": "5e66cccc1c799b8741e5b7d9c5ebb712ab0c2a38775477fda69d48af1739b14c",
+      "engine/first-seventh/scripts/main.gd": "dd57720853fc260411c4817836e2381a6ad8f6b3382c2452511f3a6439a2dbcc",
+      "engine/first-seventh/scripts/minimap.gd": "4e9e245fabf20da3b3764926cf33c473a9640f735022fbc8bf25afad43d91209",
+      "engine/first-seventh/scripts/shapes.gd": "d825a4be3f13bd833322e4ee1bc3477046994bd6ee434da2b07c87d60288fc15",
+      "engine/first-seventh/scripts/street_detail.gd": "8425d6c7fc91b3b97a520ef6bdf96cbcb693363ea5d9a50a2fc9f253d70ba1a9",
+      "engine/first-seventh/scripts/tire_effects.gd": "bcbfa5e84c38d4a2a7b3cf74a1544c5dbca451e63fed41d1afc1a96306415026",
+      "engine/first-seventh/scripts/weather.gd": "b9ae9e0d1771f69f0142ae49cfceae7b7672820d5711bf7551a7ebf62a985bd8",
+      "engine/first-seventh/scripts/world.gd": "6a7948adee92387b223ddb2ca5a49b8dcc5b0ef72f1a65e36ab2a24a4943dbaf",
+      "engine/first-seventh/shaders/film.gdshader": "f1633072e86da2ee3c9f771009c69e8b2d5c8a9f829e2178e94fb6f4f63e0e42",
+      "engine/first-seventh/shaders/foliage.gdshader": "4dab411186d82b31b99c89036f100ede2c8aa1d8233076fe31f77aecd15c6214",
+      "engine/first-seventh/shaders/paint.gdshader": "70651010ecd19513690d2d5beb69cfc99685fc6ffbdcad1d97b8725ab77bd4f3",
+      "engine/first-seventh/shaders/road.gdshader": "86a6fc77ec8db974af7722cd6f8779a99c7cd7afa1b756b99cddf8e2e4b23ea1",
+      "engine/first-seventh/shaders/sidewalk.gdshader": "48b744cdc85df84b47ca63f906fdf5981004b43135b8659bf105012b340fbb12",
+      "engine/first-seventh/shaders/sky.gdshader": "b55915fc5d5e0df055eec96f1369c93235d529f8a322d19ed175f80de08f39a5",
+      "engine/first-seventh/shaders/tire_marks.gdshader": "6f5f96e7ff361bd8ac2e18bb9da3284e1fcfccb40994c3b40ae74a9048ee63c5",
+      "engine/first-seventh/tests/address_locator.gd": "cd29a685e301c8d46a22859e09fe2ce573a17c4a076e4a6d8a966bfac3b334f5",
+      "engine/first-seventh/tests/cameras.gd": "594d63915ee5123387a98742e2630bb24a5fd3c860751c6b73afa69063aed6b4",
+      "engine/first-seventh/tests/handling.gd": "a1aabddf6e9dcecdc97c942025c2b13fdd316d3302575c4481843864d039be7e",
+      "engine/first-seventh/web/shell.html": "69459e25ca96a26a0fcc7a36a9edee6922611b15b405468db6fb09ea5eea205d",
+      "model-source/export_seventh_engine.py": "8d764bf96fe2bba98e5a0566cf73746cda80db6cbafce822751b773f5d036c41",
+      "model-source/seventh_street_kit.py": "cc6d45b938e76df0797701fba30cccf4e92e72dfcf9797f5aa2bb41e035ebe9c",
+      "model-source/seventh_fidelity_kit.py": "8b86c12c7a716d34d4b67b108a65cdd5c4b232d1d01c9f49f278c54e8d05eea0",
+      "model-source/build_neighborhood.py": "96582aa9e4b995573c31b83067879d45efd326c190478473f6cd4160f27f81be",
+      "model-source/build_intersection.py": "ff42784487c1eb8f036d400a37674c2fef4f02307119a9963a875a81555465b0",
+      "model-source/neighborhood_detail_kit.py": "6d4331d82f360a883565c0b2e0a21b44e21b159080494b788569edf6a6c8fc0f",
+      "model-source/storefront_detail_kit.py": "ab6d199c0a69e26a92b2ba208fc5f4522339e26192aee13a5b792583996422ce",
+      "model-source/neighborhood_landmarks.py": "7e8c48c9fc5f233d5eaa10b0bffe24f29b0f85e9cf76ca44007cd84e9a1baad3",
+      "model-source/first_seventh_kit.py": "0b8054b71913c3a8ec53cb83bf19886d973e3e650d2a9cdeddb653fc4c4ba20a",
+      "model-source/first_seventh_refinement.py": "5ea53dfd46a5aef6da13848413cbb1edff9de1fbc46848467f359c0c574d7d86",
+      "model-source/storefront-details.json": "adce65cb730b7a9ab97dc56592938b312fbf32a03cf7ecd9828800bff48b8190",
+      "model-source/seventh-street-reference-02.json": "363260952d0c582078cb9fafd1cb7ef406cf6c355b8205d1c3c23cdaa73b3752",
+      "model-source/west-seventh-reference-04.json": "fc1cbdc2cc377e5efb785a98ae321cfa4ec93d9c82b889d15b3af1d26169a00f",
+      "model-source/west-seventh-observations-04.json": "b5c679b6a2603385e6dee1d1a8aa2392a0fa8b9c27d16d631637ba0d39bef70c",
+      "model-source/make_seventh_audio.py": "859a0530f8d141a0b0f8403f201f428132edfbd1e0df4f4778ac84b337e4d0a3",
+      "scripts/export-seventh.mjs": "c3d85b02abecf898504a5444cf773e48f65244676c80f5d42130a513fa3b90e1"
+    }
+  },
+  "recovery": {
+    "errors": [
+      "Error: Failed loading file 'index.pck'\n    at http://127.0.0.1:5173/seventh/index.js:147:27\n    at async Promise.all (index 1)",
+      "Error: The graphics context was lost.\n    at canvas.addEventListener.capture (http://127.0.0.1:5173/seventh/?review=1:79:15)"
+    ],
+    "warnings": [],
+    "failedRequests": [
+      [
+        503,
+        "http://127.0.0.1:5173/seventh/index.pck"
+      ],
+      [
+        503,
+        "http://127.0.0.1:5173/seventh/index.pck"
+      ],
+      [
+        503,
+        "http://127.0.0.1:5173/seventh/index.pck"
+      ],
+      [
+        503,
+        "http://127.0.0.1:5173/seventh/index.pck"
+      ]
+    ],
+    "checks": {
+      "missingPackRetry": true,
+      "contextLossRetry": true
+    }
+  },
+  "startup": {
+    "readyMs": 6182.199999988079,
+    "resources": [
+      {
+        "path": "/seventh/index.js",
+        "bytes": 280115,
+        "durationMs": 32.10000002384186
+      },
+      {
+        "path": "/seventh/index.wasm",
+        "bytes": 39515054,
+        "durationMs": 565.1000000238419
+      },
+      {
+        "path": "/seventh/index.pck",
+        "bytes": 86494700,
+        "durationMs": 832.5
+      }
+    ],
+    "stats": {
+      "address": "",
+      "addressId": 0,
+      "addressVisible": false,
+      "buildings": 182,
+      "camera": 3,
+      "cameraPose": {
+        "inspecting": false,
+        "mode": 3,
+        "pan": [
+          0,
+          0,
+          0
+        ],
+        "pitch": 0,
+        "position": [
+          8.5,
+          21.9802093505859,
+          23
+        ],
+        "target": [
+          -0.5,
+          -0.0197903737425804,
+          6.59999990463257
+        ],
+        "yaw": 0,
+        "zoom": 1
+      },
+      "collisions": 0,
+      "drawCalls": 384,
+      "fps": 22,
+      "frames": 112,
+      "gear": 1,
+      "handbrake": false,
+      "paused": false,
+      "persistent": true,
+      "position": [
+        -0.5,
+        -0.0197903737425804,
+        8
+      ],
+      "ready": true,
+      "rpm": 850,
+      "scale": 1,
+      "slipDegrees": 0,
+      "sound": false,
+      "speed": 0,
+      "started": false,
+      "tickMs": 5546,
+      "tireScrub": 0,
+      "triangles": 2250531,
+      "weather": 0,
+      "wetness": 0,
+      "yaw": 0
+    }
+  },
+  "settingsBeforeReload": {
+    "address": "",
+    "addressId": 0,
+    "addressVisible": false,
+    "buildings": 182,
+    "camera": 1,
+    "cameraPose": {
+      "inspecting": false,
+      "mode": 1,
+      "pan": [
+        0,
+        0,
+        0
+      ],
+      "pitch": 0,
+      "position": [
+        -0.5,
+        1.17012369632721,
+        6.48000288009644
+      ],
+      "target": [
+        -0.5,
+        1.27012372016907,
+        -5.51997327804565
+      ],
+      "yaw": 0,
+      "zoom": 1
+    },
+    "collisions": 0,
+    "drawCalls": 383,
+    "fps": 60,
+    "frames": 7868,
+    "gear": 1,
+    "handbrake": false,
+    "paused": false,
+    "persistent": true,
+    "position": [
+      -0.5,
+      -0.0198763031512499,
+      8
+    ],
+    "ready": true,
+    "rpm": 850,
+    "scale": 1,
+    "slipDegrees": 0,
+    "sound": true,
+    "speed": 0,
+    "started": true,
+    "tickMs": 160487,
+    "tireScrub": 0,
+    "triangles": 2676818,
+    "weather": 2,
+    "wetness": 0.999999850950485,
+    "yaw": 0
+  },
+  "retinaCanvas": {
+    "width": 1100,
+    "height": 800,
+    "css": [
+      1100,
+      800
+    ]
+  },
+  "resultNote": "Pre-optimization runtime checks passed, but performance regressed and Automatic reduced scale to 0.875 during dusk/rain. This candidate was rejected for performance and followed by static material/batch optimization.",
+  "measurementLimit": "Worker editor/headless checks ran around01:38 EDT (05:38 UTC); possible overlap with the overall browser suite was not independently timed. Use the isolated following spatial-batch run and final isolated performance report for comparisons. The earlier historical rev03 run showed a75FPS ceiling while this browser session showed60; do not treat the historicalmean as an identical-current-environment A/B."
+}

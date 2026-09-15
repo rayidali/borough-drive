@@ -1,9 +1,9 @@
 {
-  "name": "borough-drive",
+  "name": "drivearound-nyc",
   "version": "0.4.0",
   "private": true,
   "type": "module",
-  "description": "A photo-guided reconstruction of ten connected East Village blocks",
+  "description": "DriveAround.nyc — a photo-guided reconstruction of ten connected East Village blocks",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -12,7 +12,7 @@
   "bugs": {
     "url": "https://github.com/rayidali/borough-drive/issues"
   },
-  "homepage": "https://github.com/rayidali/borough-drive#readme",
+  "homepage": "https://drivearound.nyc",
   "engines": {
     "node": ">=22"
   },
@@ -22,6 +22,8 @@
     "seventh:build": "node scripts/export-seventh.mjs",
     "seventh:verify": "node scripts/verify-seventh.mjs",
     "seventh:review": "node scripts/review-seventh.mjs",
+    "seventh:address-review": "node scripts/review-seventh-address.mjs",
+    "seventh:camera-review": "node scripts/review-seventh-camera.mjs",
     "verify": "node scripts/verify-intersection.mjs && node scripts/verify-neighborhood.mjs && node scripts/prepare-street-materials.mjs --check && node scripts/verify-spatial-batches.mjs && node scripts/verify-browser-presentation.mjs",
     "workflow:verify": "python3 scripts/verify-block-workflow.py",
     "workflow:plan": "python3 scripts/block-workflow.py plan"

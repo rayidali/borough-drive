@@ -2564,8 +2564,8 @@
     }
   ],
   "seventhEngine": {
-    "revision": "03",
-    "checked": "2026-09-14",
+    "revision": "04",
+    "checked": "2026-09-15",
     "scope": "Entire East 7th Street in the original map, Second Avenue through Avenue A with existing boundary context; separate Godot export only.",
     "sources": {
       "architecture-241822156": {
@@ -3617,6 +3617,13 @@
         "checked": "2026-09-14",
         "observations": "Interior photo only: red warm lamps, bottle shelves, dark bar. Does not establish exterior geometry; exterior remains inherited and explicitly unreviewed.",
         "captureDate": null
+      },
+      "seventh-04-73-close": {
+        "record": "model-source/west-seventh-reference-04.json#73-close",
+        "panoramaId": "WA_DDeW1YGZ_SYMjbigU0g",
+        "captureDate": "2024-09",
+        "checked": "2026-09-15",
+        "observations": "North close view shows the separate 73-75 BIG BAR black sloping awning, stacked white name, broad grilled glass, blue-over-yellow lower panels and a right-hand residential portal. Fractions remain photo-proportion estimates."
       },
       "seventh-03-user-comparison": {
         "kind": "user screenshot, local only",
@@ -5006,7 +5013,10 @@
             }
           ],
           "rails": [],
-          "escapes": [],
+          "escapes": [
+            {"at": 0.465, "width": 0.145, "levels": [3.40, 6.55, 9.70, 12.85, 16.00], "material": "black iron"},
+            {"at": 0.845, "width": 0.145, "levels": [3.40, 6.55, 9.70, 12.85, 16.00], "material": "black iron"}
+          ],
           "legacyShops": true,
           "cornice": {
             "material": "cornice copper brown",
@@ -5071,7 +5081,7 @@
         "preserveCorner": false,
         "limits": "Facade features follow the listed observation record. Rail dimensions, patina, hardware, window dressings and unmeasured proportions are estimates. An export is not proof of complete fidelity.",
         "architecture": {
-          "wall": "warm brick",
+          "wall": "seventh dusty red paint",
           "height": 17.53,
           "windows": [
             {
@@ -9594,7 +9604,7 @@
             {
               "at": 0.14,
               "width": 0.145,
-              "bottom": 4.25,
+              "bottom": 4.95,
               "height": 2.299,
               "columns": 1,
               "rails": [
@@ -9609,7 +9619,7 @@
             {
               "at": 0.37,
               "width": 0.145,
-              "bottom": 4.25,
+              "bottom": 4.95,
               "height": 2.299,
               "columns": 1,
               "rails": [
@@ -9624,7 +9634,7 @@
             {
               "at": 0.63,
               "width": 0.145,
-              "bottom": 4.25,
+              "bottom": 4.95,
               "height": 2.299,
               "columns": 1,
               "rails": [
@@ -9639,7 +9649,7 @@
             {
               "at": 0.86,
               "width": 0.145,
-              "bottom": 4.25,
+              "bottom": 4.95,
               "height": 2.299,
               "columns": 1,
               "rails": [
@@ -11393,7 +11403,7 @@
             {
               "at": 0.17,
               "width": 0.1564,
-              "bottom": 4.25,
+              "bottom": 4.95,
               "height": 2.32,
               "columns": 1,
               "rails": [
@@ -11408,7 +11418,7 @@
             {
               "at": 0.5,
               "width": 0.1564,
-              "bottom": 4.25,
+              "bottom": 4.95,
               "height": 2.32,
               "columns": 1,
               "rails": [
@@ -11423,7 +11433,7 @@
             {
               "at": 0.83,
               "width": 0.1564,
-              "bottom": 4.25,
+              "bottom": 4.95,
               "height": 2.32,
               "columns": 1,
               "rails": [
@@ -11961,6 +11971,49 @@
           },
           "rustication": [],
           "ornaments": [],
+          "observedGround": {
+            "replaceDoors": true,
+            "groundDoors": [
+              {
+                "at": 0.15,
+                "width": 0.14,
+                "bottom": 0.19,
+                "top": 3.05,
+                "leafTop": 2.46,
+                "shape": "rectangle",
+                "leaves": 1,
+                "material": "black iron",
+                "trim": "warm brick",
+                "recess": 0.25,
+                "label": "79",
+                "labelY": 2.72,
+                "labelSize": 0.16,
+                "portal": "plain",
+                "fanlight": false,
+                "panels": [
+                  {
+                    "y": 0.65,
+                    "height": 0.48,
+                    "glass": true
+                  },
+                  {
+                    "y": 0.19,
+                    "height": 0.2,
+                    "columns": 2
+                  }
+                ],
+                "access": {
+                  "rise": 0,
+                  "steps": 0,
+                  "landing": 0.42,
+                  "run": 0.0,
+                  "material": "warm brick",
+                  "observation": "Source 77-close shows the left/west black at-grade residential door; dimensions remain photo-proportion estimates."
+                }
+              }
+            ],
+            "observation": "Source 77-close north: left/west black at-grade 79 door; the Blue & Gold shop begins near 0.38 and remains a separate right/east low storefront."
+          },
           "observation": {
             "sources": [
               "architecture-241822336",
@@ -14159,7 +14212,7 @@
               "shape": "round",
               "leaves": 2,
               "material": "door enamel",
-              "trim": "painted terracotta",
+              "trim": "seventh weathered limestone",
               "recess": 0.25,
               "label": "62",
               "labelY": 3.36,
@@ -14183,7 +14236,7 @@
                 "steps": 4,
                 "landing": 0.42,
                 "run": 1.04,
-                "material": "painted terracotta",
+                "material": "seventh weathered limestone",
                 "observation": "Visible access type follows reference; rise, tread dimensions and obscured step count are photo estimates."
               }
             }
@@ -14214,7 +14267,7 @@
             {
               "top": 3.85,
               "step": 0.46,
-              "material": "painted terracotta"
+              "material": "seventh weathered limestone"
             }
           ],
           "ornaments": [],
@@ -19623,14 +19676,8 @@
               "width": 0.1596,
               "bottom": 4.25,
               "height": 2.301,
-              "columns": 3,
-              "rails": [
-                0.17,
-                0.34,
-                0.5,
-                0.67,
-                0.84
-              ],
+              "columns": 2,
+              "rails": [0.5],
               "shape": "rectangle",
               "hood": "none",
               "trim": "cream stone",
@@ -19642,14 +19689,8 @@
               "width": 0.1596,
               "bottom": 4.25,
               "height": 2.301,
-              "columns": 3,
-              "rails": [
-                0.17,
-                0.34,
-                0.5,
-                0.67,
-                0.84
-              ],
+              "columns": 2,
+              "rails": [0.5],
               "shape": "rectangle",
               "hood": "none",
               "trim": "cream stone",
@@ -19661,14 +19702,8 @@
               "width": 0.1596,
               "bottom": 4.25,
               "height": 2.301,
-              "columns": 3,
-              "rails": [
-                0.17,
-                0.34,
-                0.5,
-                0.67,
-                0.84
-              ],
+              "columns": 2,
+              "rails": [0.5],
               "shape": "rectangle",
               "hood": "none",
               "trim": "cream stone",
@@ -19680,14 +19715,8 @@
               "width": 0.1596,
               "bottom": 7.537,
               "height": 2.301,
-              "columns": 3,
-              "rails": [
-                0.17,
-                0.34,
-                0.5,
-                0.67,
-                0.84
-              ],
+              "columns": 2,
+              "rails": [0.5],
               "shape": "rectangle",
               "hood": "none",
               "trim": "cream stone",
@@ -19699,14 +19728,8 @@
               "width": 0.1596,
               "bottom": 7.537,
               "height": 2.301,
-              "columns": 3,
-              "rails": [
-                0.17,
-                0.34,
-                0.5,
-                0.67,
-                0.84
-              ],
+              "columns": 2,
+              "rails": [0.5],
               "shape": "rectangle",
               "hood": "none",
               "trim": "cream stone",
@@ -19718,14 +19741,8 @@
               "width": 0.1596,
               "bottom": 7.537,
               "height": 2.301,
-              "columns": 3,
-              "rails": [
-                0.17,
-                0.34,
-                0.5,
-                0.67,
-                0.84
-              ],
+              "columns": 2,
+              "rails": [0.5],
               "shape": "rectangle",
               "hood": "none",
               "trim": "cream stone",
@@ -19737,14 +19754,8 @@
               "width": 0.1596,
               "bottom": 10.823,
               "height": 2.301,
-              "columns": 3,
-              "rails": [
-                0.17,
-                0.34,
-                0.5,
-                0.67,
-                0.84
-              ],
+              "columns": 2,
+              "rails": [0.5],
               "shape": "rectangle",
               "hood": "none",
               "trim": "cream stone",
@@ -19756,14 +19767,8 @@
               "width": 0.1596,
               "bottom": 10.823,
               "height": 2.301,
-              "columns": 3,
-              "rails": [
-                0.17,
-                0.34,
-                0.5,
-                0.67,
-                0.84
-              ],
+              "columns": 2,
+              "rails": [0.5],
               "shape": "rectangle",
               "hood": "none",
               "trim": "cream stone",
@@ -19775,14 +19780,8 @@
               "width": 0.1596,
               "bottom": 10.823,
               "height": 2.301,
-              "columns": 3,
-              "rails": [
-                0.17,
-                0.34,
-                0.5,
-                0.67,
-                0.84
-              ],
+              "columns": 2,
+              "rails": [0.5],
               "shape": "rectangle",
               "hood": "none",
               "trim": "cream stone",
@@ -19875,7 +19874,7 @@
               ],
               "access": {
                 "rise": 0.62,
-                "steps": 4,
+                "steps": 6,
                 "landing": 0.42,
                 "run": 1.04,
                 "material": "cream stone",
@@ -19913,7 +19912,7 @@
               "seventh-03-panorama-0"
             ],
             "reviewed": "2026-09-14",
-            "basis": "Three-bay townhouse, no escape, six-over-six sash subdivisions and right-hand raised entrance.",
+            "basis": "Three-bay townhouse, no escape, two-over-two sash subdivisions and right-hand raised entrance.",
             "unknown": [
               "Surveyed opening widths, recesses and heights",
               "Door hardware/ornament contours below reference resolution",
@@ -20015,7 +20014,7 @@
         ],
         "spec": {
           "observed": true,
-          "wall": "aged brownstone",
+          "wall": "painted ivory",
           "trim": "cream stone",
           "ornament": 0,
           "escape": false,
@@ -20042,7 +20041,7 @@
         "preserveCorner": false,
         "limits": "Facade features follow the listed observation record. Rail dimensions, patina, hardware, window dressings and unmeasured proportions are estimates. An export is not proof of complete fidelity.",
         "architecture": {
-          "wall": "aged brownstone",
+          "wall": "painted ivory",
           "height": 13.79,
           "windows": [
             {
@@ -20056,8 +20055,8 @@
               ],
               "shape": "rectangle",
               "hood": "none",
-              "trim": "cream stone",
-              "frame": "white frame",
+              "trim": "painted ivory",
+              "frame": "black iron",
               "surround": false
             },
             {
@@ -20071,8 +20070,8 @@
               ],
               "shape": "rectangle",
               "hood": "none",
-              "trim": "cream stone",
-              "frame": "white frame",
+              "trim": "painted ivory",
+              "frame": "black iron",
               "surround": false
             },
             {
@@ -20086,8 +20085,8 @@
               ],
               "shape": "rectangle",
               "hood": "none",
-              "trim": "cream stone",
-              "frame": "white frame",
+              "trim": "painted ivory",
+              "frame": "black iron",
               "surround": false
             },
             {
@@ -20101,8 +20100,8 @@
               ],
               "shape": "rectangle",
               "hood": "none",
-              "trim": "cream stone",
-              "frame": "white frame",
+              "trim": "painted ivory",
+              "frame": "black iron",
               "surround": false
             },
             {
@@ -20116,8 +20115,8 @@
               ],
               "shape": "rectangle",
               "hood": "none",
-              "trim": "cream stone",
-              "frame": "white frame",
+              "trim": "painted ivory",
+              "frame": "black iron",
               "surround": false
             },
             {
@@ -20131,8 +20130,8 @@
               ],
               "shape": "rectangle",
               "hood": "none",
-              "trim": "cream stone",
-              "frame": "white frame",
+              "trim": "painted ivory",
+              "frame": "black iron",
               "surround": false
             },
             {
@@ -20146,8 +20145,8 @@
               ],
               "shape": "rectangle",
               "hood": "none",
-              "trim": "cream stone",
-              "frame": "white frame",
+              "trim": "painted ivory",
+              "frame": "black iron",
               "surround": false
             },
             {
@@ -20161,8 +20160,8 @@
               ],
               "shape": "rectangle",
               "hood": "none",
-              "trim": "cream stone",
-              "frame": "white frame",
+              "trim": "painted ivory",
+              "frame": "black iron",
               "surround": false
             },
             {
@@ -20176,8 +20175,8 @@
               ],
               "shape": "rectangle",
               "hood": "none",
-              "trim": "cream stone",
-              "frame": "white frame",
+              "trim": "painted ivory",
+              "frame": "black iron",
               "surround": false
             },
             {
@@ -20191,8 +20190,8 @@
               ],
               "shape": "rectangle",
               "hood": "none",
-              "trim": "cream stone",
-              "frame": "white frame",
+              "trim": "painted ivory",
+              "frame": "black iron",
               "surround": false
             },
             {
@@ -20206,8 +20205,8 @@
               ],
               "shape": "rectangle",
               "hood": "none",
-              "trim": "cream stone",
-              "frame": "white frame",
+              "trim": "painted ivory",
+              "frame": "black iron",
               "surround": false
             },
             {
@@ -20221,8 +20220,8 @@
               ],
               "shape": "rectangle",
               "hood": "none",
-              "trim": "cream stone",
-              "frame": "white frame",
+              "trim": "painted ivory",
+              "frame": "black iron",
               "surround": false
             },
             {
@@ -41077,8 +41076,8 @@
         "street": "East 7th Street",
         "address": "63 East 7th Street",
         "span": [
-          0.03,
-          0.38
+          0.62,
+          0.97
         ],
         "sources": [
           "seventh-kinka"
@@ -41097,9 +41096,9 @@
           ],
           "frame": "black iron",
           "surround": "seventh shop blue",
-          "base": 0.56,
-          "head": 2.68,
-          "top": 3.3,
+          "base": 0.30,
+          "head": 2.08,
+          "top": 2.35,
           "recess": 0.25,
           "transom": false,
           "seventhDetail": "kinka",
@@ -41114,10 +41113,23 @@
                 }
               ],
               "width": 0.98,
-              "y": 3.05,
+              "y": 2.34,
               "height": 0.48
             }
           ],
+          "awning": {
+            "material": "seventh shop blue",
+            "stripe": "sign white",
+            "y": 2.34,
+            "drop": 0.36,
+            "depth": 0.56,
+            "valance": 0.16,
+            "text": "KINKA",
+            "textSize": 0.20,
+            "brackets": true,
+            "redDot": true,
+            "bracketHeight": 0.30
+          },
           "plants": [
             {
               "at": 0.45,
@@ -41139,7 +41151,7 @@
         },
         "elevation": {
           "residentialEntry": true,
-          "entryPosition": 0.89,
+          "entryPosition": 0.50,
           "groundUse": "shops"
         }
       },
@@ -41367,7 +41379,7 @@
         "street": "East 7th Street",
         "address": "83 East 7th Street",
         "span": [
-          0.61,
+          0.02,
           0.98
         ],
         "sources": [
@@ -41436,8 +41448,8 @@
         "street": "East 7th Street",
         "address": "81 East 7th Street",
         "span": [
-          0.02,
-          0.38
+          0.47,
+          0.97
         ],
         "sources": [
           "seventh-abraco-0",
@@ -41498,7 +41510,7 @@
         },
         "elevation": {
           "residentialEntry": true,
-          "entryPosition": 0.88,
+          "entryPosition": 0.20,
           "groundUse": "basement_shops",
           "stoop": true,
           "basement": true
@@ -41603,7 +41615,7 @@
           "seventhDetail": "clothes",
           "blades": [
             {
-              "material": "yellow paint",
+              "material": "seventh cloth pale",
               "lines": [
                 {
                   "text": "AuH2O",
@@ -41611,16 +41623,23 @@
                   "size": 0.12
                 }
               ],
-              "shape": "oval",
+              "shape": "round",
               "at": 0.55,
               "width": 0.49,
               "height": 0.49,
-              "y": 3.05
+              "y": 3.30
             }
           ],
+          "awning": {
+            "material": "black iron",
+            "y": 3.30,
+            "depth": 0.42,
+            "drop": 0.16,
+            "valance": 0.10
+          },
           "signs": [
             {
-              "material": "yellow paint",
+              "material": "seventh cloth pale",
               "lines": [
                 {
                   "text": "AuH2O",
@@ -41631,7 +41650,7 @@
               "shape": "oval",
               "width": 0.21,
               "height": 0.58,
-              "y": 1.83,
+              "y": 3.30,
               "at": 0.31
             }
           ]
@@ -42246,8 +42265,373 @@
           "residentialEntry": true,
           "entryPosition": 0.39
         }
-      }
-    ],
-    "limits": "All 82 mapped Seventh elevations remain in scope: 76 explicit architectural schedules and six preserved corner/landmark recipes. Reference inspections, schematic parameters and source counts are distinct from visual acceptance. Dimensions, small ornament and lettering remain estimates; 17 unlettered ground-unit subdivisions are provisional, including shed-obscured units. The 50/48½ comparison pair has current dated references but has not passed independent multi-view photographic acceptance. See SEVENTH-FIDELITY-BENCHMARK.md and seventh-street-coverage-03.json; no 1:1 completeness or accepted-facade count is asserted."
+      },
+    {
+        "id": "seventh-02-241822336-bluegold",
+        "buildingId": 241822336,
+        "businessId": "osm-node-12542984188",
+        "street": "East 7th Street",
+        "address": "79 East 7th Street",
+        "span": [
+            0.38,
+            0.98
+        ],
+        "sources": [
+            "seventh-bluegold",
+            "seventh-03-panorama-2"
+        ],
+        "limits": "Source-supported Blue & Gold storefront arrangement: low brick surround, dark display, right/east shop door and restrained green fascia/sign. Unit span, pane widths, recess and lettering are photo-proportion estimates pending matched visual review.",
+        "design": {
+            "panels": [
+                [
+                    "window",
+                    0.8
+                ],
+                [
+                    "door",
+                    0.2
+                ]
+            ],
+            "frame": "black iron",
+            "surround": "warm brick",
+            "base": 0.28,
+            "head": 2.38,
+            "top": 2.8,
+            "recess": 0.25,
+            "transom": false,
+            "doorMaterial": "black iron",
+            "seventhDetail": "general",
+            "awning": {
+                "material": "awning green",
+                "y": 2.88,
+                "depth": 0.38,
+                "drop": 0.16,
+                "valance": 0.09
+            },
+            "signs": [
+                {
+                    "material": "nishaan blue",
+                    "width": 0.6,
+                    "height": 0.2,
+                    "y": 2.96,
+                    "depth": 0.34,
+                    "lines": [
+                        {
+                            "text": "BLUE & GOLD",
+                            "material": "sign white",
+                            "size": 0.095
+                        }
+                    ]
+                }
+            ]
+        },
+        "elevation": {
+            "residentialEntry": true,
+            "entryPosition": 0.15,
+            "groundUse": "shops"
+        }
+    },
+    {
+      "id": "seventh-04--177966-bigbar",
+      "buildingId": -177966,
+      "businessId": "osm-node-12542984190",
+      "street": "East 7th Street",
+      "address": "73-75 East 7th Street",
+      "span": [0.02, 0.34],
+      "sources": ["seventh-04-73-close", "seventh-bigbar"],
+      "limits": "The 2024 north view supports this named frontage, black awning, stacked lettering, grille and lower panel colors. Storefront fractions, sign dimensions, panel depth and the adjacent unlettered unit remain photo-proportion estimates, not a survey.",
+      "design": {
+        "panels": [["window", 1]],
+        "frame": "black iron",
+        "surround": "black iron",
+        "base": 0.31,
+        "head": 2.28,
+        "top": 2.74,
+        "recess": 0.25,
+        "transom": false,
+        "grille": true,
+        "seventhDetail": "general",
+        "awning": {"material": "black iron", "y": 3.25, "drop": 0.48, "depth": 0.54, "valance": 0.18},
+        "signs": [{"material": "black iron", "width": 0.86, "height": 0.82, "y": 2.92, "depth": 0.78, "lines": [{"text": "BIG", "material": "sign white", "size": 0.38, "y": 0.22}, {"text": "Bar", "material": "sign white", "size": 0.33, "y": -0.24}]}]
+      },
+      "elevation": {"residentialEntry": true, "entryPosition": 0.43, "groundUse": "shops"}
+    }
+  ],
+    "observedGroundCorrections": {
+      "241822156": {
+        "replaceWindows": true,
+        "replaceDoors": true,
+        "baseBands": [{"at": 0.69, "width": 0.48, "y": 1.70, "height": 3.40, "material": "seventh charcoal gray paint"}],
+        "groundOpenings": [
+          {"at": 0.58, "width": 0.075, "bottom": 0.38, "height": 2.72, "trim": "seventh charcoal gray paint", "frame": "black iron", "grille": false},
+          {"at": 0.82, "width": 0.075, "bottom": 0.38, "height": 2.72, "trim": "seventh charcoal gray paint", "frame": "black iron", "grille": false}
+        ],
+        "groundDoors": [
+          {"at": 0.69, "width": 0.072, "bottom": 0.19, "top": 3.18, "leafTop": 2.60, "leaves": 1, "material": "seventh reflective glass", "trim": "black iron", "label": "", "portal": "plain", "fanlight": false, "access": {"rise": 0, "steps": 0, "landing": 0.36, "run": 0, "material": "seventh charcoal gray paint"}}
+        ],
+        "observation": "2024 118 Second north view: projected east-side gray ground band, two tall ground windows and central glass entry; other frontage extent remains unassigned."
+      },
+      "241822325": {
+        "replaceGround": true,
+        "groundDoors": [
+          {"at": 0.18, "width": 0.16, "bottom": 0.28, "top": 3.18, "leafTop": 2.58, "shape": "round", "leaves": 1, "material": "black iron", "trim": "painted ivory", "label": "49", "labelY": 2.90, "portal": "plain", "fanlight": true, "access": {"rise": 0.12, "steps": 1, "landing": 0.38, "run": 0.28, "material": "painted ivory"}}
+        ],
+        "groundOpenings": [
+          {"at": 0.51, "width": 0.22, "bottom": 0.78, "height": 2.05, "trim": "painted ivory", "frame": "black iron", "grille": true},
+          {"at": 0.82, "width": 0.22, "bottom": 0.78, "height": 2.05, "trim": "painted ivory", "frame": "black iron", "grille": true}
+        ],
+        "groundFences": [{"span": [0.02, 0.42], "depth": 0.70}]
+      },
+      "241822202": {
+        "replaceGround": true,
+        "replaceWindows": true,
+        "replaceDoors": true,
+        "suppressBusinessExteriorIds": ["seventh-02-241822202-kinka"],
+        "groundOpenings": [
+          {"at": 0.17, "width": 0.22, "bottom": 2.40, "height": 1.80, "trim": "seventh sandstone", "frame": "black iron", "grille": true, "shape": "round", "hood": "none"},
+          {"at": 0.83, "width": 0.22, "bottom": 2.40, "height": 1.80, "trim": "seventh sandstone", "frame": "black iron", "grille": true, "shape": "round", "hood": "none"},
+          {"at": 0.17, "width": 0.22, "bottom": 0.26, "height": 0.63, "trim": "seventh sandstone", "frame": "black iron", "grille": true},
+          {"at": 0.88, "width": 0.22, "bottom": 0.20, "height": 1.86, "trim": "seventh sandstone", "frame": "black iron", "grille": true}
+        ],
+        "groundDoors": [
+          {"at": 0.50, "width": 0.19, "bottom": 1.48, "top": 4.20, "leafTop": 3.64, "shape": "round", "leaves": 2, "material": "seventh oak door", "trim": "seventh sandstone", "label": "63", "labelY": 3.90, "portal": "columns", "fanlight": true, "access": {"rise": 1.34, "steps": 7, "landing": 0.44, "run": 1.45, "material": "seventh sandstone"}},
+          {"at": 0.70, "width": 0.12, "bottom": 0.18, "top": 2.06, "leafTop": 1.64, "leaves": 1, "material": "black iron", "trim": "seventh shop blue", "label": "", "access": {"rise": 0, "steps": 0, "landing": 0.28, "run": 0, "material": "seventh shop blue"}}
+        ],
+        "blankGround": [
+          {"span": [0.02, 0.38], "design": {"panels": [["window", 0.78], ["door", 0.22]], "frame": "black iron", "surround": "black iron", "base": 0.24, "head": 1.88, "top": 2.12, "recess": 0.28, "transom": false}}
+        ],
+        "groundAwning": {"at": 0.795, "width": 0.35, "y": 2.34, "drop": 0.36, "depth": 0.56, "material": "seventh shop blue", "text": "KINKA", "textMaterial": "sign white", "textSize": 0.20},
+        "basementAreaways": [{"at": 0.70, "width": 0.30, "depth": 1.00, "depthBelow": 0.42, "steps": 2}]
+      },
+      "241822329": {
+        "replaceGround": true,
+        "replaceWindows": true,
+        "replaceDoors": true,
+        "groundOpenings": [
+          {"at": 0.58, "width": 0.17, "bottom": 2.20, "height": 1.90, "trim": "painted terracotta", "frame": "black iron", "grille": true, "hood": "pediment"},
+          {"at": 0.82, "width": 0.17, "bottom": 2.20, "height": 1.90, "trim": "painted terracotta", "frame": "black iron", "grille": true, "hood": "pediment"}
+        ],
+        "groundDoors": [
+          {"at": 0.20, "width": 0.18, "bottom": 1.10, "top": 4.10, "leafTop": 3.50, "leaves": 1, "material": "door enamel", "trim": "black iron", "label": "81", "labelY": 3.80, "portal": "plain", "hood": "pediment", "fanlight": false, "access": {"rise": 0.96, "steps": 6, "landing": 0.44, "run": 1.15, "material": "painted terracotta"}}
+        ],
+        "basementAreaways": [{"at": 0.69, "width": 0.57, "depth": 1.03, "depthBelow": 0.46, "steps": 2}]
+      },
+      "241822197": {
+        "replaceGround": true,
+        "groundDoors": [
+          {"at": 0.50, "width": 0.17, "bottom": 0.19, "top": 3.46, "leafTop": 2.86, "shape": "round", "leaves": 1, "material": "seventh oak door", "trim": "painted terracotta", "label": "55", "labelY": 3.12, "portal": "columns", "fanlight": true, "access": {"rise": 0, "steps": 0, "landing": 0.40, "run": 0, "material": "painted terracotta"}}
+        ],
+        "lanterns": [0.30, 0.70]
+      },
+      "241822178": {
+        "replaceGround": true,
+        "groundDoors": [
+          {"at": 0.82, "width": 0.15, "bottom": 0.19, "top": 3.22, "leafTop": 2.62, "leaves": 1, "material": "seventh red door enamel", "trim": "painted terracotta", "label": "53", "labelY": 2.95, "portal": "plain", "panels": [{"y": 0.65, "height": 0.48, "glass": true}, {"y": 0.23, "height": 0.22, "columns": 1}], "access": {"rise": 0, "steps": 0, "landing": 0.36, "run": 0, "material": "painted terracotta"}}
+        ],
+        "groundOpenings": [
+          {"at": 0.18, "width": 0.22, "bottom": 0.26, "height": 1.70, "trim": "seventh sandstone", "frame": "black iron", "grille": true},
+          {"at": 0.42, "width": 0.18, "bottom": 0.26, "height": 1.70, "trim": "seventh sandstone", "frame": "black iron", "grille": true}
+        ]
+      },
+      "241822169": {
+        "replaceGround": true,
+        "groundDoors": [
+          {"at": 0.50, "width": 0.17, "bottom": 0.19, "top": 3.36, "leafTop": 2.78, "leaves": 1, "material": "door enamel", "trim": "cream stone", "label": "57", "labelY": 3.02, "portal": "plain", "hood": "pediment", "access": {"rise": 0, "steps": 0, "landing": 0.38, "run": 0, "material": "cream stone"}}
+        ]
+      },
+      "241822199": {
+        "groundOpenings": [
+          {"at": 0.17, "width": 0.20, "bottom": 0.26, "height": 0.65, "trim": "seventh sandstone", "frame": "black iron", "grille": true}
+        ],
+        "basementAreaways": [{"at": 0.17, "width": 0.30, "depth": 0.94, "steps": 2}]
+      },
+      "241829565": {
+        "replaceGround": true,
+        "baseBands": [{"at": 0.50, "width": 1.0, "y": 0.56, "height": 0.92, "material": "seventh shop blue"}],
+        "groundOpenings": [
+          {"at": 0.17, "width": 0.22, "bottom": 0.78, "height": 1.95, "trim": "seventh shop blue", "frame": "black iron", "grille": true},
+          {"at": 0.50, "width": 0.22, "bottom": 0.78, "height": 1.95, "trim": "seventh shop blue", "frame": "black iron", "grille": true}
+        ],
+        "groundDoors": [
+          {"at": 0.83, "width": 0.15, "bottom": 0.19, "top": 3.02, "leafTop": 2.43, "leaves": 1, "material": "door enamel", "trim": "seventh shop blue", "label": "58", "labelY": 2.70, "access": {"rise": 0, "steps": 0, "landing": 0.34, "run": 0, "material": "seventh shop blue"}}
+        ]
+      },
+      "241829665": {
+        "replaceGround": true,
+        "groundOpenings": [
+          {"at": 0.17, "width": 0.22, "bottom": 0.78, "height": 1.95, "trim": "painted terracotta", "frame": "black iron", "grille": true},
+          {"at": 0.50, "width": 0.22, "bottom": 0.78, "height": 1.95, "trim": "painted terracotta", "frame": "black iron", "grille": true}
+        ],
+        "groundDoors": [
+          {"at": 0.83, "width": 0.15, "bottom": 0.19, "top": 3.02, "leafTop": 2.43, "leaves": 1, "material": "door enamel", "trim": "painted terracotta", "label": "60", "labelY": 2.70, "access": {"rise": 0, "steps": 0, "landing": 0.34, "run": 0, "material": "painted terracotta"}}
+        ],
+        "groundAwning": {"at": 0.83, "width": 0.30, "y": 3.18, "drop": 0.30, "depth": 0.46, "material": "painted terracotta", "text": "60"}
+      },
+      "241829580": {
+        "replaceGround": true,
+        "groundDoors": [
+          {"at": 0.63, "width": 0.18, "bottom": 0.88, "top": 3.70, "leafTop": 3.10, "shape": "round", "leaves": 1, "material": "seventh mint door", "trim": "seventh grey painted stone", "label": "54", "labelY": 3.38, "portal": "columns", "fanlight": true, "access": {"rise": 0.88, "steps": 5, "landing": 0.45, "run": 1.15, "material": "seventh grey painted stone"}}
+        ]
+      },
+      "241829581": {
+        "replaceGround": true,
+        "groundDoors": [
+          {"at": 0.37, "width": 0.18, "bottom": 0.88, "top": 3.70, "leafTop": 3.10, "shape": "round", "leaves": 1, "material": "door enamel", "trim": "seventh sandstone", "label": "56", "labelY": 3.38, "portal": "columns", "fanlight": true, "access": {"rise": 0.88, "steps": 5, "landing": 0.45, "run": 1.15, "material": "seventh sandstone"}}
+        ]
+      },
+      "241829621": {
+        "replaceGround": true,
+        "groundOpenings": [
+          {"at": 0.17, "width": 0.20, "bottom": 1.18, "height": 2.08, "trim": "cream stone", "frame": "black iron", "grille": true, "hood": "pediment"},
+          {"at": 0.46, "width": 0.20, "bottom": 1.18, "height": 2.08, "trim": "cream stone", "frame": "black iron", "grille": true, "hood": "pediment"},
+          {"at": 0.17, "width": 0.20, "bottom": 0.26, "height": 0.63, "trim": "cream stone", "frame": "black iron", "grille": true, "hood": "none"},
+          {"at": 0.46, "width": 0.20, "bottom": 0.26, "height": 0.63, "trim": "cream stone", "frame": "black iron", "grille": true, "hood": "none"}
+        ],
+        "groundDoors": [
+          {"at": 0.80, "width": 0.17, "bottom": 1.20, "top": 4.10, "leafTop": 3.50, "leaves": 1, "material": "door enamel", "trim": "cream stone", "label": "68", "labelY": 3.78, "portal": "pilasters", "access": {"rise": 1.32, "steps": 8, "landing": 0.46, "run": 1.70, "material": "cream stone"}}
+        ],
+        "basementAreaways": [{"at": 0.28, "width": 0.48, "depth": 1.00, "steps": 2}]
+      },
+      "241822176": {
+        "replaceGround": true,
+        "groundOpenings": [
+          {"at": 0.68, "width": 0.18, "bottom": 0.80, "height": 2.05, "trim": "painted ivory", "frame": "black iron", "grille": true},
+          {"at": 0.88, "width": 0.16, "bottom": 0.80, "height": 2.05, "trim": "painted ivory", "frame": "black iron", "grille": true}
+        ],
+        "groundDoors": [
+          {"at": 0.18, "width": 0.16, "bottom": 0.19, "top": 3.21, "leafTop": 2.61, "leaves": 1, "material": "seventh oak door", "trim": "brownstone", "label": "69", "labelY": 3.30, "portal": "plain", "hood": "stepped", "transomMaterial": "seventh reflective glass", "access": {"rise": 0, "steps": 0, "landing": 0.38, "run": 0, "material": "brownstone"}}
+        ]
+      },
+      "241822274": {
+        "replaceGround": true,
+        "groundOpenings": [
+          {"at": 0.65, "width": 0.18, "bottom": 0.35, "height": 0.90, "trim": "cream stone", "frame": "black iron", "grille": true},
+          {"at": 0.86, "width": 0.16, "bottom": 0.35, "height": 0.90, "trim": "cream stone", "frame": "black iron", "grille": true}
+        ],
+        "groundDoors": [
+          {"at": 0.18, "width": 0.15, "bottom": 0.19, "top": 2.72, "leafTop": 2.20, "leaves": 1, "material": "door enamel", "trim": "seventh grey painted stone", "label": "67", "labelY": 2.83, "portal": "pilasters", "access": {"rise": 0, "steps": 0, "landing": 0.34, "run": 0, "material": "seventh grey painted stone"}}
+        ],
+        "groundFences": [{"span": [0.56, 0.98], "depth": 0.72}]
+      },
+      "241829579": {
+        "replaceGround": true,
+        "scaffold": [{"at": 0.02, "to": 0.99, "levels": [0.30, 3.40, 6.50, 9.60, 12.70], "depth": 1.70, "canopyY": 3.40}],
+        "groundOpenings": [
+          {"at": 0.18, "width": 0.23, "bottom": 0.78, "height": 2.04, "trim": "white frame", "frame": "black iron", "grille": true},
+          {"at": 0.82, "width": 0.23, "bottom": 0.78, "height": 2.04, "trim": "white frame", "frame": "black iron", "grille": true}
+        ],
+        "groundDoors": [
+          {"at": 0.50, "width": 0.17, "bottom": 0.19, "top": 3.25, "leafTop": 2.66, "shape": "round", "leaves": 1, "material": "door enamel", "trim": "white frame", "portal": "plain", "access": {"rise": 0, "steps": 0, "landing": 0.36, "run": 0, "material": "white frame"}}
+        ]
+      },
+      "241829577": {
+        "replaceGround": true,
+        "groundDoors": [
+          {"at": 0.51, "width": 0.17, "bottom": 0.19, "top": 3.20, "leafTop": 2.62, "leaves": 1, "material": "door enamel", "trim": "seventh sandstone", "portal": "plain", "access": {"rise": 0, "steps": 0, "landing": 0.36, "run": 0, "material": "seventh sandstone"}}
+        ],
+        "blankGround": [
+          {"span": [0.02, 0.40], "awning": {"material": "seventh shop blue", "stripe": "sign white", "y": 2.92, "drop": 0.38, "depth": 0.48, "valance": 0.16}, "design": {"panels": [["window", 0.72], ["door", 0.28]], "frame": "black iron", "surround": "seventh shop blue", "base": 0.30, "head": 1.95, "top": 2.18, "recess": 0.25, "transom": false}}
+        ]
+      },
+      "-177966": {
+        "replaceDoors": true,
+        "blankGround": [
+          {"span": [0.55, 0.98], "design": {"panels": [["window", 1]], "frame": "black iron", "surround": "black iron", "base": 0.30, "head": 2.15, "top": 2.42, "recess": 0.25, "transom": false, "grille": true}}
+        ],
+        "baseBands": [
+          {"at": 0.18, "width": 0.32, "y": 0.68, "height": 0.52, "depth": 0.03, "material": "seventh shop blue"},
+          {"at": 0.18, "width": 0.32, "y": 0.34, "height": 0.16, "depth": 0.04, "material": "yellow paint"}
+        ],
+        "groundDoors": [
+          {"at": 0.43, "width": 0.085, "bottom": 0.19, "top": 3.18, "leafTop": 2.60, "leaves": 1, "material": "door enamel", "trim": "black iron", "label": "", "portal": "plain", "access": {"rise": 0, "steps": 0, "landing": 0.36, "run": 0, "material": "black iron"}}
+        ]
+      },
+      "241829567": {
+        "blankGround": [
+          {"span": [0.02, 0.29], "design": {"panels": [["window", 1]], "frame": "black iron", "surround": "black iron", "base": 0.28, "head": 1.92, "top": 2.15, "recess": 0.25, "transom": false}},
+          {"span": [0.34, 0.62], "design": {"panels": [["door", 1]], "frame": "black iron", "surround": "black iron", "base": 0.20, "head": 2.04, "top": 2.28, "recess": 0.25, "transom": false}},
+          {"span": [0.67, 0.98], "design": {"panels": [["window", 1]], "frame": "black iron", "surround": "black iron", "base": 0.28, "head": 1.92, "top": 2.15, "recess": 0.25, "transom": false}}
+        ]
+      },
+      "241822317": {
+        "replaceGround": true,
+        "groundDoors": [
+          {"at": 0.15, "width": 0.14, "bottom": 0.19, "top": 3.05, "leafTop": 2.46, "leaves": 1, "material": "door enamel", "trim": "cream stone", "label": "83", "labelY": 2.72, "portal": "plain", "access": {"rise": 0, "steps": 0, "landing": 0.38, "run": 0, "material": "cream stone"}}
+        ]
+      },
+      "241822185": {
+        "replaceGround": true,
+        "groundDoors": [
+          {"at": 0.84, "width": 0.14, "bottom": 0.19, "top": 3.05, "leafTop": 2.46, "leaves": 1, "material": "door enamel", "trim": "cream stone", "label": "77", "labelY": 2.72, "portal": "plain", "access": {"rise": 0, "steps": 0, "landing": 0.38, "run": 0, "material": "cream stone"}}
+        ]
+      },
+      "241829633": {
+        "replaceGround": true,
+        "replaceWindows": true,
+        "replaceDoors": true,
+        "tileGround": {"material": "seventh ceramic tile", "grout": "seventh grey painted stone", "height": 3.00, "width": 0.18},
+        "groundOpenings": [
+          {"at": 0.17, "width": 0.23, "bottom": 0.80, "height": 2.05, "trim": "painted ivory", "frame": "black iron", "grille": true},
+          {"at": 0.83, "width": 0.23, "bottom": 0.80, "height": 2.05, "trim": "painted ivory", "frame": "black iron", "grille": true}
+        ],
+        "groundDoors": [
+          {"at": 0.50, "width": 0.16, "bottom": 0.19, "top": 3.05, "leafTop": 2.46, "leaves": 1, "material": "door enamel", "trim": "painted ivory", "thresholdMaterial": "painted terracotta", "label": "82", "labelY": 2.72, "access": {"rise": 0, "steps": 0, "landing": 0.38, "run": 0, "material": "painted terracotta"}}
+        ]
+      },
+      "241822192": {
+        "replaceGround": true,
+        "groundOpenings": [
+          {"at": 0.17, "width": 0.23, "bottom": 0.80, "height": 2.05, "trim": "brownstone", "frame": "black iron", "grille": true},
+          {"at": 0.83, "width": 0.23, "bottom": 0.80, "height": 2.05, "trim": "brownstone", "frame": "black iron", "grille": true}
+        ],
+        "groundDoors": [
+          {"at": 0.50, "width": 0.17, "bottom": 0.19, "top": 3.05, "leafTop": 2.46, "leaves": 2, "material": "seventh oak door", "trim": "brownstone", "label": "85", "labelY": 2.72, "portal": "plain", "panels": [{"y": 0.65, "height": 0.48, "glass": true}, {"y": 0.19, "height": 0.20, "columns": 2}], "access": {"rise": 0, "steps": 0, "landing": 0.38, "run": 0, "material": "brownstone"}}
+        ]
+      },
+        "241822336": {
+          "replaceDoors": true,
+          "groundDoors": [
+            {
+              "at": 0.15,
+              "width": 0.14,
+              "bottom": 0.19,
+              "top": 3.05,
+              "leafTop": 2.46,
+              "shape": "rectangle",
+              "leaves": 1,
+              "material": "black iron",
+              "trim": "warm brick",
+              "recess": 0.25,
+              "label": "79",
+              "labelY": 2.72,
+              "labelSize": 0.16,
+              "portal": "plain",
+              "fanlight": false,
+              "panels": [
+                {
+                  "y": 0.65,
+                  "height": 0.48,
+                  "glass": true
+                },
+                {
+                  "y": 0.19,
+                  "height": 0.2,
+                  "columns": 2
+                }
+              ],
+              "access": {
+                "rise": 0,
+                "steps": 0,
+                "landing": 0.42,
+                "run": 0.0,
+                "material": "warm brick",
+                "observation": "Source 77-close shows the left/west black at-grade residential door; dimensions remain photo-proportion estimates."
+              }
+            }
+          ],
+          "observation": "Source 77-close north: left/west black at-grade 79 door; the Blue & Gold shop begins near 0.38 and remains a separate right/east low storefront."
+        }
+    },
+    "limits": "All 82 mapped Seventh elevations remain in scope: 76 explicit architectural schedules and six preserved corner/landmark recipes. Reference inspections, schematic parameters and source counts are distinct from visual acceptance. Dimensions, small ornament and lettering remain estimates; 17 unlettered ground-unit subdivisions are provisional, including shed-obscured units. The 50/48½ comparison pair has current dated references but has not passed independent multi-view photographic acceptance. Revision 04 adds only explicitly observed ground corrections and effective architecture compilation; see SEVENTH-FIDELITY-BENCHMARK.md and west-seventh-reference-04.json. No 1:1 completeness or accepted-facade count is asserted."
   }
 }

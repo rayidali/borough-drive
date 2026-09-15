@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "builtAt": "2026-09-15T03:02:40.894Z",
+  "builtAt": "2026-09-15T06:00:16.317Z",
   "engine": "Godot 4.7.2",
   "renderer": "Compatibility / WebGL 2",
   "threaded": false,
@@ -33,17 +33,17 @@
       "sha256": "5b476a9c9ce642c0ee4256436d1bc31d9c38f868aca0f9a8e2a57c18d2dec2a3"
     },
     "index.html": {
-      "bytes": 7325,
-      "sha256": "7fd055871fcdb95ce854207bd8ae609ffd2081638c445f67bb312d8164fac1c2"
+      "bytes": 7732,
+      "sha256": "230766405722b8cd8680c6a243769ae69f1edb506e748ec05a27016dd21df69c"
     },
     "index.js": {
       "bytes": 279815,
       "sha256": "33c94cb3175f3333b82e2a3be5e8e86f77986f0aa2042b1631f6367a4e5bb6ba"
     },
     "index.pck": {
-      "bytes": 86087216,
-      "sha256": "e6279599b212cbc07753871e25af98e8246513a9059845abb677995c4aa05654",
-      "brotliBytes": 77614918
+      "bytes": 86494928,
+      "sha256": "15b96df07f67a66862794ed1bff06f8f0a48a3d95644a82b368577134b8a81fe",
+      "brotliBytes": 78002638
     },
     "index.png": {
       "bytes": 21443,
@@ -73,7 +73,7 @@
     "engine/first-seventh/assets/audio/tires.wav": "b66574c0f6934a85bdee5b0842667dda7250b98693807ef46f9d6e426fc179a2",
     "engine/first-seventh/assets/audio/tires.wav.import": "6255e82a47207e8eabe22e509fec9e8cb6d82340c11d6c76713a157bb4ce345e",
     "engine/first-seventh/assets/credits.txt": "70a5cd4c221229624d8bc2975efa3bce9de696583995c556274ffccfaac985a9",
-    "engine/first-seventh/assets/slice.json": "c3350dd3d85353f2390618a96b6e91b03e67a39c551af274942ff77ad8dd2be9",
+    "engine/first-seventh/assets/slice.json": "825aae4894b9e063af4f7e1c18a757a6e3e3885991f645448ad7632d710b7365",
     "engine/first-seventh/assets/surfaces/concrete_wall_006_diff_1k.jpg": "fea247dd085cd05d8deb335234c834764d622029da351f8bcc8913935316bacd",
     "engine/first-seventh/assets/surfaces/concrete_wall_006_diff_1k.jpg.import": "86cb4a30d395f5d755478389def71c133918d1cb4fbe8cabf91665ab8e05ffde",
     "engine/first-seventh/assets/surfaces/concrete_wall_006_nor_gl_1k.jpg": "4ff16bb96fc2df3ef71d22007151aff1d8bf7cb10a493d3f8e973213a99dd428",
@@ -86,22 +86,24 @@
     "engine/first-seventh/assets/surfaces/white_bricks_diff_1k.jpg.import": "13d0a1946b85ea8e72e6412e822e66fdab92e6cd1c2f473c72a296fd7a994e9c",
     "engine/first-seventh/assets/surfaces/white_bricks_nor_gl_1k.jpg": "e2159482d8dec6db0c617b5d8313d01ac5dca23c642354331c1c5b4664d1728e",
     "engine/first-seventh/assets/surfaces/white_bricks_nor_gl_1k.jpg.import": "3c5854cb19adeb6fc8ed209db33178ef502d3e5bcaf49c2ff2f816557af062ee",
+    "engine/first-seventh/assets/west_seventh_streetscape.json": "f65c8d4e8e77cbe0202d1b4c9e6fdb3b8233a6d91778f541b09de988d5c4a88b",
     "engine/first-seventh/export_presets.cfg": "de830db6e0808164dba6f22f4cfceee803f4d56d002c7e9bdd87b395609de38b",
-    "engine/first-seventh/project.godot": "5edd092c2aa389943e0ee0c65cf1c7d805494b7a04c4cf81543eba28076f5ad9",
+    "engine/first-seventh/project.godot": "e91e8078b7ad682e3fa628113c4bc840d6f69101d4fc44ed57b8bace4fa9d73f",
     "engine/first-seventh/scenes/main.tscn": "36b1ee7da0776608f1933cf39d31d5d928b160da1f474fcedac7a5f9f3e67e3a",
-    "engine/first-seventh/scripts/cameras.gd": "9fcb84e91c570e15660e7ce22c6a01cb899bd2bae9f0618d77af197d75fda500",
+    "engine/first-seventh/scripts/address_locator.gd": "55d7bbd45f78866693aee0cb0dad3797978feb91a12a5b7d5a039d389a9f6da2",
+    "engine/first-seventh/scripts/cameras.gd": "41bee5dc1557b8220549bcfb6d7fb663c0dab996388cd61599e5158a7932f2fa",
     "engine/first-seventh/scripts/car.gd": "af3cbe86cf9768161b76d46364a41726e0f277554bf6222cb5e1d846dd8b190d",
     "engine/first-seventh/scripts/car_audio.gd": "21c2003f12e9afe16b0d08f6c7532b011ae67585aa0e0a116bf243bcc2b0af50",
     "engine/first-seventh/scripts/export_credits.gd": "b6e415b08e93abdeb7ac41976a74210de5a6db00f221fb48fd3f1a94725f076b",
     "engine/first-seventh/scripts/handling.gd": "f421fb6ba97f937db1b50bdb2488138997fb3a69882f69f9f7b3ce3d85e67518",
-    "engine/first-seventh/scripts/hud.gd": "9e94d9246b8bb6094c6e62124c33cef13cc9c2901072f6e47d24a4fc48d8e650",
-    "engine/first-seventh/scripts/main.gd": "268e0df515ab9867d5e682e356ff7201188103fdfea53771921c2ff5bc30825c",
+    "engine/first-seventh/scripts/hud.gd": "5e66cccc1c799b8741e5b7d9c5ebb712ab0c2a38775477fda69d48af1739b14c",
+    "engine/first-seventh/scripts/main.gd": "dd57720853fc260411c4817836e2381a6ad8f6b3382c2452511f3a6439a2dbcc",
     "engine/first-seventh/scripts/minimap.gd": "4e9e245fabf20da3b3764926cf33c473a9640f735022fbc8bf25afad43d91209",
     "engine/first-seventh/scripts/shapes.gd": "d825a4be3f13bd833322e4ee1bc3477046994bd6ee434da2b07c87d60288fc15",
-    "engine/first-seventh/scripts/street_detail.gd": "91db491bdeb42f043267054b40823858c7ac482cc2f5a2afd0827b1b0d4c08e3",
+    "engine/first-seventh/scripts/street_detail.gd": "8425d6c7fc91b3b97a520ef6bdf96cbcb693363ea5d9a50a2fc9f253d70ba1a9",
     "engine/first-seventh/scripts/tire_effects.gd": "bcbfa5e84c38d4a2a7b3cf74a1544c5dbca451e63fed41d1afc1a96306415026",
-    "engine/first-seventh/scripts/weather.gd": "2a3d8d8ab12fe8b9b753065c25fd058eca9a30228b350a3c058e13a92800f114",
-    "engine/first-seventh/scripts/world.gd": "c68afe5ecc9f4c5a841bd218b8e487d16959762bb3d2460e9a4c91ec42fbce5b",
+    "engine/first-seventh/scripts/weather.gd": "b9ae9e0d1771f69f0142ae49cfceae7b7672820d5711bf7551a7ebf62a985bd8",
+    "engine/first-seventh/scripts/world.gd": "39b4452706331c6c3c2d326355a9746221addfd567f06c3e22736ec6eb65fcba",
     "engine/first-seventh/shaders/film.gdshader": "f1633072e86da2ee3c9f771009c69e8b2d5c8a9f829e2178e94fb6f4f63e0e42",
     "engine/first-seventh/shaders/foliage.gdshader": "4dab411186d82b31b99c89036f100ede2c8aa1d8233076fe31f77aecd15c6214",
     "engine/first-seventh/shaders/paint.gdshader": "70651010ecd19513690d2d5beb69cfc99685fc6ffbdcad1d97b8725ab77bd4f3",
@@ -109,11 +111,13 @@
     "engine/first-seventh/shaders/sidewalk.gdshader": "48b744cdc85df84b47ca63f906fdf5981004b43135b8659bf105012b340fbb12",
     "engine/first-seventh/shaders/sky.gdshader": "b55915fc5d5e0df055eec96f1369c93235d529f8a322d19ed175f80de08f39a5",
     "engine/first-seventh/shaders/tire_marks.gdshader": "6f5f96e7ff361bd8ac2e18bb9da3284e1fcfccb40994c3b40ae74a9048ee63c5",
+    "engine/first-seventh/tests/address_locator.gd": "cd29a685e301c8d46a22859e09fe2ce573a17c4a076e4a6d8a966bfac3b334f5",
+    "engine/first-seventh/tests/cameras.gd": "594d63915ee5123387a98742e2630bb24a5fd3c860751c6b73afa69063aed6b4",
     "engine/first-seventh/tests/handling.gd": "a1aabddf6e9dcecdc97c942025c2b13fdd316d3302575c4481843864d039be7e",
-    "engine/first-seventh/web/shell.html": "a485fd72816357e061ead916b280911231a8b9f4da90dad04443bef26a29d977",
-    "model-source/export_seventh_engine.py": "a3f42dd4f24d21ffc54b44e320eb5893abc4ed3d45ea50d0c99f83db15064367",
-    "model-source/seventh_street_kit.py": "e85f81b72b8abc4048ced0a1c4e17bbfe5e231e941b129cd9f2f236b56b317fb",
-    "model-source/seventh_fidelity_kit.py": "a1d9fbff0746d35963b00b0db96124506bad8e976c5e19cfbc9ba31c1f2c4108",
+    "engine/first-seventh/web/shell.html": "69459e25ca96a26a0fcc7a36a9edee6922611b15b405468db6fb09ea5eea205d",
+    "model-source/export_seventh_engine.py": "8d764bf96fe2bba98e5a0566cf73746cda80db6cbafce822751b773f5d036c41",
+    "model-source/seventh_street_kit.py": "cc6d45b938e76df0797701fba30cccf4e92e72dfcf9797f5aa2bb41e035ebe9c",
+    "model-source/seventh_fidelity_kit.py": "8b86c12c7a716d34d4b67b108a65cdd5c4b232d1d01c9f49f278c54e8d05eea0",
     "model-source/build_neighborhood.py": "96582aa9e4b995573c31b83067879d45efd326c190478473f6cd4160f27f81be",
     "model-source/build_intersection.py": "ff42784487c1eb8f036d400a37674c2fef4f02307119a9963a875a81555465b0",
     "model-source/neighborhood_detail_kit.py": "6d4331d82f360a883565c0b2e0a21b44e21b159080494b788569edf6a6c8fc0f",
@@ -121,9 +125,11 @@
     "model-source/neighborhood_landmarks.py": "7e8c48c9fc5f233d5eaa10b0bffe24f29b0f85e9cf76ca44007cd84e9a1baad3",
     "model-source/first_seventh_kit.py": "0b8054b71913c3a8ec53cb83bf19886d973e3e650d2a9cdeddb653fc4c4ba20a",
     "model-source/first_seventh_refinement.py": "5ea53dfd46a5aef6da13848413cbb1edff9de1fbc46848467f359c0c574d7d86",
-    "model-source/storefront-details.json": "cd438b7d2f0046c2f1d71e241c864bbe7a4603ba47ed8638da4eaae1a13e1920",
+    "model-source/storefront-details.json": "e3af23d0d3e26f5250f42fa2fed4f9855fafe9434ea390ffcb9c73345168e710",
     "model-source/seventh-street-reference-02.json": "363260952d0c582078cb9fafd1cb7ef406cf6c355b8205d1c3c23cdaa73b3752",
+    "model-source/west-seventh-reference-04.json": "fc1cbdc2cc377e5efb785a98ae321cfa4ec93d9c82b889d15b3af1d26169a00f",
+    "model-source/west-seventh-observations-04.json": "b5c679b6a2603385e6dee1d1a8aa2392a0fa8b9c27d16d631637ba0d39bef70c",
     "model-source/make_seventh_audio.py": "859a0530f8d141a0b0f8403f201f428132edfbd1e0df4f4778ac84b337e4d0a3",
-    "scripts/export-seventh.mjs": "5f95dbe86ecc00032d7ed47d7cef5a2d476607bedc9433f3ffc2c9427a5902ee"
+    "scripts/export-seventh.mjs": "c3d85b02abecf898504a5444cf773e48f65244676c80f5d42130a513fa3b90e1"
   }
 }

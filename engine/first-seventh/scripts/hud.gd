@@ -23,6 +23,7 @@ var start_button: Button
 var loading_label: Label
 var pause_panel: PanelContainer
 var distance_label: Label
+var address_label: Label
 var drivetrain_label: Label
 var mood_label: Label
 var status_label: Label
@@ -31,6 +32,8 @@ var minimap: Control
 var is_started = false
 var shown = true
 var toast_time = 0.0
+var address_locator
+var vehicle: Node3D
 
 func style(color: Color = BG, radius: int = 14) -> StyleBoxFlat:
 	var b = StyleBoxFlat.new()
@@ -65,6 +68,7 @@ func button(text: String, callback: Callable) -> Button:
 	return node
 
 func _ready():
+	address_locator = preload("res://scripts/address_locator.gd").new()
 	root = Control.new()
 	root.set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
 	root.mouse_filter = Control.MOUSE_FILTER_IGNORE
@@ -88,7 +92,7 @@ func _ready():
 	var identity = VBoxContainer.new()
 	identity.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 	row.add_child(identity)
-	identity.add_child(label("B O R O U G H   D R I V E",13))
+	identity.add_child(label("D R I V E A R O U N D . N Y C",13))
 	identity.add_child(label("Seventh, slowly.",27))
 	mood_label = label("EAST VILLAGE  /  GOLDEN HOUR",11,MUTED)
 	identity.add_child(mood_label)
@@ -140,6 +144,10 @@ func _ready():
 	units.add_child(label("MPH",11,MUTED))
 	distance_label = label("JUST WANDER",10,MUTED)
 	units.add_child(distance_label)
+	address_label = label("",10,MUTED)
+	address_label.custom_minimum_size = Vector2(130,0)
+	address_label.visible = false
+	units.add_child(address_label)
 	drivetrain_label = label("D1  ·  850 RPM",10,MUTED)
 	instrument.add_child(drivetrain_label)
 	var controls = VBoxContainer.new()
@@ -152,7 +160,7 @@ func _ready():
 	var hint = label("WASD  drive / S  brake     SPACE  handbrake     C  camera     T  weather",12,INK)
 	hint.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
 	controls.add_child(hint)
-	var hint2 = label("Right-drag  look around     R  reset     H  hide interface",11,MUTED)
+	var hint2 = label("Right-drag  orbit/look · Shift+right or middle  pan · wheel  zoom · V  recenter     R  reset     H  hide interface",11,MUTED)
 	hint2.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
 	controls.add_child(hint2)
 	var views = VBoxContainer.new()
@@ -186,7 +194,7 @@ func build_intro():
 	start_button.add_theme_font_size_override("font_size",18)
 	start_button.disabled = true
 	box.add_child(start_button)
-	box.add_child(label("FIRST & SEVENTH  ·  EAST VILLAGE",11,MUTED))
+	box.add_child(label("DRIVEAROUND.NYC  ·  EAST VILLAGE",11,MUTED))
 
 func build_pause():
 	pause_panel = PanelContainer.new()
@@ -241,6 +249,7 @@ func update_drivetrain(handling, handbrake: bool):
 func update_display(speed: float, distance: float, camera_name: String, weather_name: String, mood: int, dt: float):
 	speed_label.text = "%02d" % roundi(abs(speed)*2.23694)
 	distance_label.text = "%03d M  WANDERED" % roundi(distance)
+	update_address()
 	camera_button.text = "Camera  /  %s   >" % camera_name
 	mood_label.text = "EAST VILLAGE  /  "+weather_name.to_upper()
 	for i in weather_buttons.size():
@@ -248,3 +257,12 @@ func update_display(speed: float, distance: float, camera_name: String, weather_
 	if toast_time > 0:
 		toast_time -= dt
 		if toast_time <= 0: status_label.text = ""
+
+func update_address():
+	if not is_instance_valid(vehicle): return
+	var address = address_locator.sample(vehicle.global_position,vehicle.rotation.y)
+	address_label.text = address
+	address_label.visible = not address.is_empty()
+
+func address_state() -> Dictionary:
+	return {"address":address_label.text if address_label.visible else "","addressId":address_locator.active_id,"addressVisible":address_label.visible}

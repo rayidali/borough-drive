@@ -1,6 +1,9 @@
 # Seventh Street architectural fidelity benchmark
 
-September 14, 2026. The user's requirement is that a resident can recognize **their particular house**, including its doors, windows, lettering and access. The scope is every mapped East 7th Street frontage in the current slice: 82 elevation records, including boundary context. A familiar business name on an approximate building does not satisfy this requirement.
+**Current September 15 scope:** East 7th between First and Second Avenues only: **39 mapped Seventh-facing building records plus the vacant church/fire-site street edge at the Second Avenue end**. The two avenue-addressed corner faces are included. The previous 82-frontage scope below describes revision 03's full slice, which remains preserved outside this pass. The stricter current request includes construction/dining sheds, fixed street fixtures and all visible basement businesses; a building-only inventory is insufficient. Each source date must travel with temporary features. Latest available September 2024/April 2026 views and July 2026 existing-condition architectural material do not establish an identical September 2026 streetscape.
+
+
+The original September 14 scope covered 82 frontages. The user's requirement is that a resident can recognize **their particular house**, including its doors, windows, lettering and access. That earlier scope was every mapped East 7th Street frontage in the slice: 82 elevation records, including boundary context. The active revision 04 review is the 39-record block above. A familiar business name on an approximate building does not satisfy this requirement.
 
 This document defines the acceptance target. Revision 03 is a **candidate reconstruction under review**, not 82 accepted replicas. The working comparison pair is **50 and 48½ East 7th Street**, identified from the user's April 2026 Street View comparison. The earlier accepted First & Seventh corner remains a minimum to preserve; its acceptance does not automatically extend to the new street or to this stricter target. See [current checkpoint](../CODEX-HANDOFF.md) for the authorized next action and actual save state.
 
@@ -22,7 +25,7 @@ Lofi lighting and color grading may remain. They must preserve the features abov
 ## Comparison and release gates
 
 1. **References:** discover a current frontal/near-frontal view and an oblique view; obtain a clear entrance view. Save source URL or panorama ID, capture date, viewing direction/FOV and what was inspected. Use adjacent viewpoints when a truck, tree or shed blocks the entrance. An older image can establish surviving ornament, but cannot establish current doors, paint or tenants without corroboration. Do not call a building complete when a required view is unavailable.
-2. **Observation before geometry:** record each visible opening and access feature in `storefront-details.json.seventhEngine.elevations[].architecture`. Keep the source observation, inferred dimensions and modeled parameters distinct. Record conflicts and exclusions. Do not distribute inspection photographs as textures.
+2. **Observation before geometry:** record each visible opening and access feature in `storefront-details.json.seventhEngine`. Revision 04 uses `observedGroundCorrections` as the authoritative ground-floor schedule compiled into each effective elevation, while explicit `frontages` supply storefronts; do not inspect only the older raw architecture list. Join records by numeric building ID, since display addresses can use fractions and Unicode punctuation. Keep the source observation, inferred dimensions and modeled parameters distinct. Record conflicts and exclusions. Do not distribute inspection photographs as textures.
 3. **Lock a comparable camera:** retain location, heading, pitch, field of view and estimated height. Panorama GPS and a 2.5 m camera height are only a starting estimate. Calibrate the facade plane against at least four stable landmarks and a second view; record adjustments. Do not deform a facade to compensate for a wrong camera. A frontage closeup or orthographic elevation is a separate diagnostic, not a matched photograph.
 4. **Count/type gate:** every visible floor/bay, door leaf, window group, major railing/access feature and legible identity label must agree. **Zero known count/type/identity errors.** These cannot be averaged away by an overall similarity score.
 5. **Alignment gate:** at the locked view, annotate facade corners plus door/window corners, sill/head levels, cornice and fixed access landmarks. Target mean projected landmark error at most **1.5% of image width**, no individual error above **3%**, and entrance-detail error at most **1%**. Record pixel coordinates, resolution and occluded landmarks. These are proposed photographic acceptance tolerances, not a claim of centimetre surveying. The separate [church pose diagnostic](seventh-fidelity-camera-03.json) records ten approximate manual landmarks and a one-view pose fit; it has not passed the independent second-view gate. Revision 03 has not passed full annotated acceptance.
@@ -44,7 +47,10 @@ The April 2026 panorama is `BhbNLmsrLJoqeAErWVcK_w`; metadata and inspected view
 The included player runs with `npm run dev` at `http://127.0.0.1:5173/seventh/`. Use the [engine rebuild instructions](../engine/first-seventh/README.md) after geometry changes. With a separate Chromium review browser on CDP port 9222:
 
 ```sh
-# All saved reference-camera starting poses and all 82 entrance records:
+# Current bounded block: reference-camera starts, all 39 elevations and overlapping street closeups:
+node scripts/review-seventh-fidelity.mjs renders/seventh-engine-04/fidelity "" model-source/west-seventh-reference-04.json
+
+# Historical full-street review: all saved poses and all 82 entrance records:
 node scripts/review-seventh-fidelity.mjs renders/seventh-engine-03/fidelity
 
 # Bounded candidate-pair check (both church doors are captured):

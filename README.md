@@ -1,6 +1,6 @@
 <div align="center">
 
-# Borough Drive
+# DriveAround.nyc
 
 **A little piece of New York, at your own pace.**
 
@@ -11,15 +11,15 @@ Walk and drive through ten connected East Village blocks, reconstructed from map
 [![Node.js 22+](https://img.shields.io/badge/Node.js-22%2B-5b8268)](package.json)
 [![Three.js](https://img.shields.io/badge/Three.js-r180-697b86)](dist/vendor/THREE-LICENSE.txt)
 
-[Play online](https://borough-drive.vercel.app) · [Get started](#get-started) · [Explore the project](#how-it-works) · [Contribute](CONTRIBUTING.md) · [Sources & credits](dist/reconstruction/ASSET-CREDITS.md)
+[Play online](https://borough-drive.vercel.app) · [DriveAround.nyc branding target](https://drivearound.nyc) · [Get started](#get-started) · [Explore the project](#how-it-works) · [Contribute](CONTRIBUTING.md) · [Sources & credits](dist/reconstruction/ASSET-CREDITS.md)
 
 </div>
 
 ## New local driving study: Seventh, slowly.
 
-The September 14 Godot browser slice adds an authored apricot coupe, chase/hood/cockpit/overhead views, golden hour/dusk/rain, a small route map, original lofi audio and downloadable postcards around First & Seventh. Run `npm run dev` and open **http://127.0.0.1:5173/seventh/**. Revision 02 adds grip-based drifting, RPM/gear-driven sound, all of Seventh Street through Avenue A, textured masonry, individually detailed shop layouts, branching leaf trees and street furniture. Use WASD/arrows to drive, **S to brake/reverse**, **Space to handbrake**, C for cameras and T for weather. Revision 03 corrects individual window/door/access layouts, including the 50/48½ church-house and shop comparison, with a stricter photographic fidelity benchmark. The street remains a candidate reconstruction awaiting that review. The export is included and runs on the player's device without a GPU server.
+The September 14 Godot browser slice adds an authored apricot coupe, chase/hood/cockpit/overhead views, golden hour/dusk/rain, a small route map, original lofi audio and downloadable postcards around First & Seventh. Run `npm run dev` and open **http://127.0.0.1:5173/seventh/**. Revision 02 adds grip-based drifting, RPM/gear-driven sound, all of Seventh Street through Avenue A, textured masonry, individually detailed shop layouts, branching leaf trees and street furniture. Use WASD/arrows to drive, **S to brake/reverse**, **Space to handbrake**, C for cameras and T for weather. During play, right-drag orbits, Shift + right-drag or middle-drag pans, the wheel zooms, and V recenters the selected camera. Revision 03 corrects individual window/door/access layouts, including the 50/48½ church-house and shop comparison, with a stricter photographic fidelity benchmark. Revision 04 concentrates on the First–Second block, with dated basement/entry/storefront/material and street-feature corrections, a live address label and independent camera movement. The street remains a candidate reconstruction awaiting full photographic acceptance. The export is included and runs on the player's device without a GPU server.
 
-[Controls and rebuild](engine/first-seventh/README.md) · [Current review and limits](model-source/SEVENTH-ENGINE-03.md) · [Architectural benchmark](model-source/SEVENTH-FIDELITY-BENCHMARK.md) · [Current local/push/deployment state](CODEX-HANDOFF.md)
+[Controls and rebuild](engine/first-seventh/README.md) · [Current review and limits](model-source/SEVENTH-ENGINE-04.md) · [Architectural benchmark](model-source/SEVENTH-FIDELITY-BENCHMARK.md) · [Current local/push/deployment state](CODEX-HANDOFF.md)
 
 The existing public ten-block game described below remains intact. The new slice is local and unpublished; the eventual 500-user goal is not a tested capacity claim.
 
@@ -33,7 +33,7 @@ The existing public ten-block game described below remains intact. The new slice
 
 ## The neighborhood
 
-Borough Drive is a small, explorable reconstruction of Manhattan's East Village. The focus is familiar streets, recognizable architecture, warm afternoon light, and a relaxed driving feel. The long-term ambition is to explore more of New York; the current work concentrates on making these ten blocks better.
+DriveAround.nyc is a small, explorable reconstruction of Manhattan's East Village. The focus is familiar streets, recognizable architecture, warm afternoon light, and a relaxed driving feel. The long-term ambition is to explore more of New York; the current work concentrates on making these ten blocks better.
 
 The playable area runs from **East 7th to East 12th Street**, between **Second Avenue and Avenue A**. You start at **First Avenue and East 7th Street, facing north**. First & 10th remains the preserved detail anchor, with ten complete blocks and four boundary sections extending toward the edge of Tompkins Square Park.
 
@@ -55,7 +55,7 @@ The [browser pass 09](model-source/BROWSER-PASS-09.md) adds static clouds, bound
 
 ## Get started
 
-[Play Borough Drive in your browser](https://borough-drive.vercel.app), or run it locally with **Node.js 22 or newer**:
+[Play DriveAround.nyc in your browser](https://borough-drive.vercel.app), or run it locally with **Node.js 22 or newer**:
 
 ```sh
 git clone https://github.com/rayidali/borough-drive.git

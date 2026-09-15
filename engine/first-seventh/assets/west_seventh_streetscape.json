@@ -1,0 +1,60 @@
+{
+  "schema": "borough-drive.west-seventh-streetscape.v2",
+  "basis": "Dated Street View anchors for East 7th Street between First and Second. Tree bases are curb-plane projections in the engine map frame, never a survey or a present-day municipal fixture inventory.",
+  "checkedAt": "2026-09-15",
+  "projection": {
+    "imageSizePx": [640, 640],
+    "focalPx": "320 / tan(sourceViewFOVDeg / 2)",
+    "curbDepthM": 7.25,
+    "northCurbZ": -7.25,
+    "southCurbZ": 7.25,
+    "projectionFormula": "north: cameraStart.x + (pixelU - 320) / focalPx * abs(-7.25 - cameraStart.z); south: cameraStart.x - (pixelU - 320) / focalPx * abs(7.25 - cameraStart.z)",
+    "poseRule": "cameraStart is copied from west-seventh-reference-04.json.engineCameraStart. Source pitch is retained as image metadata and is never substituted for cameraStart.z.",
+    "uncertaintyMeaning": "Placement guidance only; combines trunk-base pixel ambiguity, curb-depth assumption and source-to-engine alignment uncertainty."
+  },
+  "sourceViews": [
+    {"label":"west","imageryDate":"2026-04","panoramaId":"WUDmCr1p_h1szKnxUYSX5g","cameraStart":{"x":-188.50018793411397,"z":0.7429972909494609,"height":2.5}},
+    {"label":"church","imageryDate":"2026-04","panoramaId":"BhbNLmsrLJoqeAErWVcK_w","cameraStart":{"x":-167.4986056666329,"z":0.5310336816953622,"height":2.5}},
+    {"label":"54","imageryDate":"2024-09","panoramaId":"WgP2V5svtqWWPfeXZItkIA","cameraStart":{"x":-151.3629652344635,"z":0.3785258583878601,"height":2.5}},
+    {"label":"58","imageryDate":"2024-09","panoramaId":"wk5o9wHwIlPud3GicfSaWg","cameraStart":{"x":-137.89088509158725,"z":0.24577209521385157,"height":2.5}},
+    {"label":"62","imageryDate":"2024-09","panoramaId":"RfYj9wLrlvNm-eK3Wa4N3w","cameraStart":{"x":-119.0218251471564,"z":0.058973716425668954,"height":2.5}},
+    {"label":"68","imageryDate":"2024-09","panoramaId":"udBbZpfPC17Suy6rtTWtaw","cameraStart":{"x":-99.52193188638499,"z":-0.12969695419729987,"height":2.5}},
+    {"label":"73-close","imageryDate":"2024-09","panoramaId":"WA_DDeW1YGZ_SYMjbigU0g","cameraStart":{"x":-79.74030886196172,"z":-0.3254250306084714,"height":2.5}},
+    {"label":"77-close","imageryDate":"2024-09","panoramaId":"pX3O-Orh-CdGLnQKg1RebA","cameraStart":{"x":-59.190650830271935,"z":-0.5253465039843945,"height":2.5}},
+    {"label":"78","imageryDate":"2024-09","panoramaId":"UYyub9LVUfa4IVO050rCeA","cameraStart":{"x":-48.9527339184412,"z":-0.6216577824150136,"height":2.5}}
+  ],
+  "trees": [
+    {"id":"west-north","side":"north","size":"regular","source":"west","pixelU":310,"sourceViewHeadingDeg":29.08,"sourceViewPitchDeg":0,"sourceViewFOVDeg":110,"cameraStart":{"x":-188.50018793411397,"z":0.7429972909494609,"height":2.5},"inferredGroundX":-188.86,"uncertaintyM":2.5},
+    {"id":"church-north","side":"north","size":"regular","source":"church","pixelU":340,"sourceViewHeadingDeg":29.08,"sourceViewPitchDeg":2,"sourceViewFOVDeg":100,"cameraStart":{"x":-167.4986056666329,"z":0.5310336816953622,"height":2.5},"inferredGroundX":-166.92,"uncertaintyM":2.5},
+    {"id":"church-south","side":"south","size":"regular","source":"church","pixelU":600,"sourceViewHeadingDeg":209.08,"sourceViewPitchDeg":2,"sourceViewFOVDeg":100,"cameraStart":{"x":-167.4986056666329,"z":0.5310336816953622,"height":2.5},"inferredGroundX":-174.51,"uncertaintyM":3.0},
+    {"id":"54-north","side":"north","size":"regular","source":"54","pixelU":307,"sourceViewHeadingDeg":29.08,"sourceViewPitchDeg":0,"sourceViewFOVDeg":90,"cameraStart":{"x":-151.3629652344635,"z":0.3785258583878601,"height":2.5},"inferredGroundX":-151.66,"uncertaintyM":2.0},
+    {"id":"54-south","side":"south","size":"regular","source":"54","pixelU":334,"sourceViewHeadingDeg":209.08,"sourceViewPitchDeg":0,"sourceViewFOVDeg":90,"cameraStart":{"x":-151.3629652344635,"z":0.3785258583878601,"height":2.5},"inferredGroundX":-151.68,"uncertaintyM":2.0},
+    {"id":"58-north","side":"north","size":"mature","source":"58","pixelU":144,"sourceViewHeadingDeg":29.08,"sourceViewPitchDeg":0,"sourceViewFOVDeg":110,"cameraStart":{"x":-137.89088509158725,"z":0.24577209521385157,"height":2.5},"inferredGroundX":-143.78,"uncertaintyM":3.0},
+    {"id":"58-south","side":"south","size":"regular","source":"58","pixelU":531,"sourceViewHeadingDeg":209.08,"sourceViewPitchDeg":0,"sourceViewFOVDeg":110,"cameraStart":{"x":-137.89088509158725,"z":0.24577209521385157,"height":2.5},"inferredGroundX":-144.49,"uncertaintyM":3.0},
+    {"id":"62-north","side":"north","size":"mature","source":"62","pixelU":190,"sourceViewHeadingDeg":29.08,"sourceViewPitchDeg":0,"sourceViewFOVDeg":90,"cameraStart":{"x":-119.0218251471564,"z":0.058973716425668954,"height":2.5},"inferredGroundX":-121.99,"uncertaintyM":2.5},
+    {"id":"62-south","side":"south","size":"regular","source":"62","pixelU":300,"sourceViewHeadingDeg":209.08,"sourceViewPitchDeg":0,"sourceViewFOVDeg":90,"cameraStart":{"x":-119.0218251471564,"z":0.058973716425668954,"height":2.5},"inferredGroundX":-118.57,"uncertaintyM":2.0},
+    {"id":"68-south","side":"south","size":"mature","source":"68","pixelU":437,"sourceViewHeadingDeg":209.08,"sourceViewPitchDeg":0,"sourceViewFOVDeg":110,"cameraStart":{"x":-99.52193188638499,"z":-0.12969695419729987,"height":2.5},"inferredGroundX":-103.37,"uncertaintyM":3.0},
+    {"id":"73-76-north","side":"north","size":"regular","source":"73-close","alsoSeenIn":"76","pixelU":375,"sourceViewHeadingDeg":29.08,"sourceViewPitchDeg":-3,"sourceViewFOVDeg":90,"cameraStart":{"x":-79.74030886196172,"z":-0.3254250306084714,"height":2.5},"inferredGroundX":-78.44,"uncertaintyM":3.0,"note":"One placement only: the 76 view is recorded as a possible repeat and does not authorize a second trunk."},
+    {"id":"73-south","side":"south","size":"mature","source":"73-close","pixelU":480,"sourceViewHeadingDeg":209.08,"sourceViewPitchDeg":-3,"sourceViewFOVDeg":90,"cameraStart":{"x":-79.74030886196172,"z":-0.3254250306084714,"height":2.5},"inferredGroundX":-83.53,"uncertaintyM":3.0},
+    {"id":"77-north-79","side":"north","size":"regular","source":"77-close","pixelU":320,"sourceViewHeadingDeg":29.08,"sourceViewPitchDeg":-3,"sourceViewFOVDeg":85,"cameraStart":{"x":-59.190650830271935,"z":-0.5253465039843945,"height":2.5},"inferredGroundX":-59.19,"uncertaintyM":2.5},
+    {"id":"77-south-80","side":"south","size":"regular","source":"77-close","pixelU":320,"sourceViewHeadingDeg":209.08,"sourceViewPitchDeg":-3,"sourceViewFOVDeg":85,"cameraStart":{"x":-59.190650830271935,"z":-0.5253465039843945,"height":2.5},"inferredGroundX":-59.19,"uncertaintyM":2.5},
+    {"id":"78-south","side":"south","size":"regular","source":"78","pixelU":523,"sourceViewHeadingDeg":209.08,"sourceViewPitchDeg":0,"sourceViewFOVDeg":90,"cameraStart":{"x":-48.9527339184412,"z":-0.6216577824150136,"height":2.5},"inferredGroundX":-53.94,"uncertaintyM":2.5}
+  ],
+  "observedFixtures": {
+    "bicycle": {"x":-80.0,"z":-6.4,"side":"north","address":"73-75 East 7th Street","source":"73-close.json","imageryDate":"2024-09","checkedAt":"2026-09-15","observed":"One parked bicycle is visible in front of Big Bar in the north-side close view.","placement":"Approximate curb-plane placement inferred from the 73-close image; x and z are runtime estimates.","limits":"Low-poly wheel, frame, handlebar and saddle silhouette; no readable branding or exact lock geometry inferred."},
+    "parkingPosts": [{"x":-57.0,"z":6.3,"basis":"77-close: visible curbside posts; count and dimensions are metric estimates"}],
+    "drains": [{"x":-42.0,"z":4.56,"basis":"85-close: curb drain visible; map position is an estimate"}],
+    "cornerTileMailbox": {"x":-25.0,"z":-6.2,"basis":"2024-09 corner view (-TOgDaVjcnj1xBGaAc3K6g): mailbox by the Tile Seventh wall; exact map alignment remains approximate"}
+  },
+  "diningStructures": [
+    {"id":"77-north-shed","address":"77 East 7th Street","side":"north","footprintEstimate":{"centerX":-64.0,"centerZ":-3.75,"width":6.4,"depth":2.4},"observed":"black corrugated sloped roof and translucent mesh-panel enclosure in the dated 76 view","limits":"Curb-anchored metric footprint, graffiti, seating and interior are estimated; structure is modeled as a roadway obstruction."},
+    {"id":"yubu-86-south","address":"86 East 7th Street","side":"south","footprintEstimate":{"centerX":-32.0,"centerZ":3.75,"width":6.4,"depth":2.4},"observed":"red/yellow trimmed Yubu roadway enclosure in the dated 85-close view","limits":"Curb-anchored metric footprint and panel artwork are estimated; structure is modeled as a roadway obstruction."}
+  ],
+  "vacantSite": {
+    "conditionDate":"2024-09 plus July 2026 LPC current-condition photos",
+    "metricEnvelopeEstimate":{"former48Strip":[-218.0,-185.0,9.0,20.0],"churchLotL":[-218.0,-185.0,20.0,39.0],"eastReturn":[-185.0,-174.0,20.0,27.0]},
+    "modeledFeatures":["green chain-link fence and poster panels along the E7 former-48 strip","plywood bracing","pale salvaged carved-stone stack","stored black gothic ironwork","orange barriers and yellow temporary rails","dirt/rubble/excavation","tan remaining party wall with pointed-arch niches"],
+    "exclusions":["The proposed metal-and-glass portico/building is unbuilt and excluded.","No element above is a measured site survey."]
+  },
+  "unresolved":["No defensible west-E7 hydrant or lamp coordinates were resolved. Generic west-E7 hydrants, lamps and mailboxes are intentionally not retained as evidence claims.","No Citi Bike dock was found on this segment in the dated GBFS inspection."]
+}
