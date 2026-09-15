@@ -2,13 +2,13 @@
 
 ## Current checkpoint — September 15, 2026: Seventh build promoted to Vercel root
 
-Recorded **2026-09-15T17:21:00+00:00**. The user requested that the latest Seventh browser version open at `https://borough-drive.vercel.app/` rather than only at `/seventh/`. Vercel and the local dev server now route the exact root to `/seventh/`; the Godot shell has a `/seventh/` asset base so both URLs load the same package. The legacy Three.js game remains available at `/index.html`. This is a local routing change committed below and has not yet been pushed or deployment-verified.
+Recorded **2026-09-15T17:30:00+00:00**. The user requested that the latest Seventh browser version open at `https://borough-drive.vercel.app/` rather than only at `/seventh/`. Vercel and the local dev server now route the exact root to `/seventh/`; the Godot shell has a `/seventh/` asset base so both URLs load the same package. The legacy Three.js game remains available at `/index.html`. Routing commit `3b88cad` is pushed to `origin/main`.
 
 - **Gameplay/source baseline:** unchanged `d4fbafe9a6af4497de81e2220d31c878f930612e`; prior documentation checkpoint `b36a612`. New routing/documentation commit follows it.
 - **Changed files:** `vercel.json`, `scripts/serve.mjs`, `dist/seventh/index.html`, `README.md`, `engine/first-seventh/README.md`, `START-HERE.md`, `AGENTS.md` and this handoff. No models, PCK/WASM, controller code or fidelity records changed. The private screenshot remains untracked and excluded.
 - **Expected routes:** `/` → Seventh build; `/seventh/` → Seventh build; `/index.html` → preserved original ten-block game. The custom `drivearound.nyc` domain remains unconnected.
-- **Validation needed after commit:** `npm run verify` is not required for a routing/HTML-only change, but check JSON/HTML, local root and `/seventh/` responses, then push `main` and verify both Vercel routes. No deployment is assumed from the local edit.
-- **Next concrete step:** run the route checks, commit this routing change, push `main` if still authorized, and report the live root URL. Do not start additional modeling or fidelity work.
+- **Validation:** `npm run verify` passed; JSON and HTML checks passed. GitHub `origin/main` is `3b88cad`. The deployed Vercel root was checked after the push but still serves the previous legacy HTML (cached response last modified before this commit); `/seventh/` remains the known live Seventh route. Vercel has not yet deployed the new rewrite.
+- **Next concrete step:** trigger or await a Vercel deployment for `3b88cad`, then verify that `/` serves the Seventh shell and `/index.html` still serves the legacy game. Do not start additional modeling or fidelity work.
 
 ## Previous checkpoint — September 15, 2026: 1:1 acceptance explained; session ready to close
 

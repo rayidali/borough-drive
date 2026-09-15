@@ -23,6 +23,16 @@ Checkpoint notes describe observed state, not a live monitor. Recheck local file
 **Unresolved issues:** Root rewrite behavior must be verified on Vercel, especially relative Godot assets and the preserved `/index.html` legacy route.
 **Next concrete step:** Validate local JSON/HTML and root/Seventh responses, commit, push `main`, then check `https://borough-drive.vercel.app/` and `/seventh/`.
 
+## 2026-09-15-10 — Routing pushed; Vercel deployment pending
+
+**Recorded:** 2026-09-15T17:30:00+00:00.
+**User objective and decisions:** Promote the latest Seventh build to the Vercel root URL while retaining the legacy game.
+**Completed work:** Routing commit `3b88cad` pushed successfully to GitHub `origin/main`. Local and Vercel configuration route `/` to `/seventh/`; `/index.html` remains the legacy entry point. `npm run verify` and route configuration checks passed.
+**Remote state:** `origin/main` points to `3b88cad`; local `main` matches it. Private screenshot remains untracked and excluded.
+**Deployment state:** Vercel root was checked after the push and still returned the older legacy page with a pre-push `last-modified` timestamp. `/seventh/` is live. A new Vercel deployment has not been observed.
+**Unresolved issues:** Wait for or trigger Vercel deployment, then verify both root and legacy routes. No Vercel CLI is installed in this terminal.
+**Next concrete step:** Deploy commit `3b88cad` through the existing Vercel project/integration and confirm `https://borough-drive.vercel.app/`; no further game or fidelity work is needed for this routing task.
+
 ## 2026-09-15-08 — 1:1 acceptance clarification and closing handoff
 
 **Recorded:** 2026-09-15T15:21:02+00:00.
