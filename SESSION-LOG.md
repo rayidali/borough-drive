@@ -10,6 +10,58 @@ git log --oneline -- CODEX-HANDOFF.md SESSION-LOG.md
 
 Checkpoint notes describe observed state, not a live monitor. Recheck local files, remote branches and deployment status when resuming. Keep necessary artifacts in the repository and record reproducible commands; temporary directories and old tool/process IDs are not durable checkpoints. Store no tokens, passwords or authentication cookies here.
 
+## 2026-09-14-09 — Seventh revision 02 tested and saved locally
+
+**Recorded:** 2026-09-14T20:06:44-04:00 (America/New_York).
+**User objective and decisions:** Improve car controls/drifting/noise and all of Seventh Street's authentic detail, surfaces, lighting, trees and street life while protecting browser performance. Full original-map Seventh, Second through Avenue A with boundary context, was the stated extent. Wider-map fidelity is a later scope; the Seventh every-inch target remains open.
+**Completed work:** Recoverable momentum/grip drifting, RPM/gears and original layered car audio, bounded skid marks; 182-object slice/all 82 Seventh frontages and original circuit. Continuous material/elevation/street-detail pass, 15 individually modeled photo-based shops and distinctive 50 East 7th architecture. Source discovery/inspection, final facade corrections, all-frontage coverage record, report and 56 evidence images saved. Original ten-block game/core/corner/provenance preserved.
+**Gameplay/source baseline:** New local source `2a43c9fc2519c81b32fc5b5587382e983dd378c6`, branch `feature/seventh-lofi-engine`; resumed clean at `41eafac`, prior engine `1b07429`. Original gameplay remains `c76dccebc143960498d21eeab8c55c2d0dbcc5ce`. This checkpoint is a following documentation commit, identifiable in Git history.
+**Local changes:** Source, required runtime, review evidence and CI check committed. Only handoff/log remain before their separate save. No pending model/export job. Final PCK 83.21 MiB; total player package 121.29 MiB; source triangles 3,431,884. Rebuild/import caches and tools remain ignored/regenerable.
+**Remote state:** No fetch/push/merge or remote branch creation. Cached origin/main `8792ce4`; local main `b4120fa`; current remote state unverified.
+**Deployment state:** Local only at http://127.0.0.1:5173/seventh/. No new production check or deployment. No paid compute.
+**Validation:** Final actual browser: 72.0–75.1 FPS across nine short local M1/1440×1000/DPR 1 driving samples, full render scale, zero contacts; local startup 4.95 s with warmed compilation caches. Zero healthy errors/warnings/failed requests. Key-driven drift 18.10° recovered to −2.59°, brake/reverse/steering/reset/pause, all 12 camera/weather views, saved settings, tab switch, Retina cap, postcard download and both injected download/graphics Retry checks passed. Deterministic handling, PCM levels, native circuit (66.609 s) and 545 m Seventh traversal (24.904 s) passed; both native routes zero contacts. `npm run verify`, `npm run seventh:verify`, all 182 GLB hashes/358 RGBA primitives, original-tree/legacy-namespace preservation, staged whitespace and 430 relative Markdown links checked. CI configured for Seventh; no remote run. Actual captures/measurements are in revision 02's review directory.
+**Unresolved issues:** New work needs user driving/sound/visual review. Fifteen newly detailed shops and a continuous material/architecture pass do not complete every business/facade; remaining estimates and evidence gaps are tracked individually. Exact artwork/type, measurements, interiors, unseen/current details and movable props remain incomplete. Initial download remains heavy; no broad device/network matrix, multiplayer, traffic or 500-user test. No full-map expansion or automatic imagery worker was built.
+**Next action:** Review locally with the user, then continue Seventh's saved fidelity gaps from their direction. Keep other streets, publication and autonomous/paid jobs deferred.
+
+## 2026-09-14-08 — Full-street browser checks pass; final storefront corrections reviewed
+
+**Recorded:** 2026-09-14T19:54:25-04:00 (America/New_York).
+**User objective and decisions:** Better driving/drifting/sound and highly detailed Seventh Street, with smooth browser play; full mapped Second–Avenue A stretch assumed as stated. Every-inch fidelity remains the target, including unresolved frontages.
+**Completed work:** All 82 elevation captures and 15 perspective shop captures inspected. Fixed dropped RGBA surface tags, mipmaps, storefront backing/stone-course occlusion and first-turn upload hitch. Final close-up review also corrected Agavi's inward-facing awning, lettering contrast and Ladybird's entrance proportions/white wall/panel relief. Original source namespaces and ten-block runtime remain unchanged.
+**Gameplay/source baseline:** Previous engine `1b07429987e6478b51e8579e6bbc9c8664e68047`, documentation resume `41eafac`; branch `feature/seventh-lofi-engine`. New source remains uncommitted before final save.
+**Local changes:** Final 182-object export rebuilt, 3,431,884 source triangles; PCK 83.21 MiB, package 121.29 MiB. Durable reference/coverage records, review report and evidence are being finalized.
+**Remote state:** No fetch, push, merge or remote branch creation.
+**Deployment state:** Local only; production neither checked nor changed.
+**Validation:** Deterministic handling, original-game and package/source checks pass. Native circuit 66.609 s and full 545 m Seventh traversal 24.904 s, zero contacts. Complete browser run before the final two facade fixes passed drift/countersteer, all cameras/weather, settings/focus/Retina/postcard and both injected recovery scenarios; full-scale driving samples about 74–75 FPS on M1/1440×1000. A reload timing error in the test runner was corrected. Final two facade fixes now captured natively; final browser/save pending.
+**Unresolved issues:** Finish final visual evidence/package check and local commits. Some Seventh shops remain inherited/estimated, with exact typography/artwork/dimensions/interiors/occluded/current details still unresolved. No all-facades acceptance, public-network/device matrix or 500-user capacity claim.
+**Next action:** Review the final browser package, save source plus checkpoint commits, and present local play for user feedback. No other street expansion or publication.
+
+## 2026-09-14-07 — Drift model and continuous Seventh Street refinement built; review underway
+
+**Recorded:** September 14, 2026, during implementation (America/New_York).
+**User objective and decisions:** Improve handling, drift and engine audio; detailed Seventh Street with authentic building/shop features, textured vegetation and street furniture, preserving speed. Proceeded with the stated full Second–Avenue A assumption after the optional extent question received no answer.
+**Completed work:** Momentum and tire-grip controller, automatic RPM/gears with original synthesized audio layers and capped fading tire marks. Expanded separate Godot slice to 182 buildings/all 82 Seventh frontages. Shared licensed masonry/normal maps, individually branching leaf trees, pavement, drains, hydrants, mailboxes and evening light sources. Inspected 67 archive photos and 39 additional images, with wrong-address/interior/illustration exclusions recorded; added 15 source-linked shop schedules and a distinct asymmetrical 50 East 7th profile. Source schedules are engine-only; original corner/core/export preserved.
+**Gameplay/source baseline:** Saved engine `1b07429987e6478b51e8579e6bbc9c8664e68047`, branch `feature/seventh-lofi-engine`, resume documentation `41eafac`. This work is not committed yet.
+**Local changes:** Model export rebuilt. First native renders exposed opaque store glass, too harsh masonry and obstructed review cameras; fixes and a new export are in progress. Final web package still pending.
+**Remote state:** No fetch, push, merge or remote branch creation.
+**Deployment state:** Local only; production not checked or changed.
+**Validation:** Deterministic handling tests pass: dry slide 36.20 degrees, wet 38.68, release recovery, forward brake/reverse, bounded RPM/upshift, symmetric steering and consistent 30/60/120 Hz integration. `npm run verify` passed for the original game. First 82 facade captures rendered; some review views were obstructed and need recapturing. No new completed browser performance or fidelity acceptance claim.
+**Unresolved issues:** Finish the visual fixes, inspect all new facade views and close storefront views, test actual controls/drift and complete route traversal, measure the larger scene in the browser, export/verify and save source plus final checkpoint. All uncertain/current/occluded details remain explicit in the source record.
+**Next action:** Complete native visual review and the browser build/review. Do not expand beyond Seventh or publish.
+
+## 2026-09-14-06 — User accepts visual direction; driving and Seventh Street work begins
+
+**Recorded:** September 14, 2026 (America/New_York).
+**User objective and decisions:** “Looks good”; improve controls, allow drifting, improve engine noise, and give all of Seventh Street continuous, evidence-based detail with better materials, lighting, trees and street furniture. Keep performance central. The rest of the map is a later session. Street extent clarification pending; independent driving and inventory work proceeds.
+**Completed work:** Read current instructions/checkpoints, inspected clean branch/history and identified the current car's absence of lateral momentum. Starting implementation and photographic inventory.
+**Gameplay/source baseline:** Engine `1b07429987e6478b51e8579e6bbc9c8664e68047`, checkpoint `41eafac`, branch `feature/seventh-lofi-engine`; original game `c76dcce` preserved.
+**Local changes:** In-progress checkpoint and authorized refinement. No new completed export yet.
+**Remote state:** No fetch or push; cached origin/main unchanged.
+**Deployment state:** Local work only; current production unverified.
+**Validation:** Prior engine/browser evidence remains the baseline; new physics, fidelity and performance checks pending.
+**Unresolved issues:** Complete drifting/audio and full bounded Seventh Street detail; reference coverage, current occupancy and unmeasured details must stay explicit.
+**Next action:** Implement/test handling and sound, inspect street references, build/review every frontage in scope and record measured browser performance before saving the finished local build.
+
 ## 2026-09-14-05 — Godot browser slice completed, tested and saved locally
 
 **Recorded:** 2026-09-14T17:55:24-04:00 (America/New_York).
