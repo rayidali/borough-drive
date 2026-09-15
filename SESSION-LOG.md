@@ -10,6 +10,107 @@ git log --oneline -- CODEX-HANDOFF.md SESSION-LOG.md
 
 Checkpoint notes describe observed state, not a live monitor. Recheck local files, remote branches and deployment status when resuming. Keep necessary artifacts in the repository and record reproducible commands; temporary directories and old tool/process IDs are not durable checkpoints. Store no tokens, passwords or authentication cookies here.
 
+## 2026-09-15-07 — First–Second revision 04 saved locally
+
+**Recorded:** 2026-09-15T06:13:00+00:00.
+**User objective and decisions:** Precise First–Second Seventh block, all properties and observed street features, DriveAround.nyc branding, bounded live addresses, camera inspection independent of car/POV and smooth browser play. Lower-cost agents implemented; root reviewed sources/renders and integration. No wider expansion or publication.
+**Completed work:** Source, final export and 145 game images committed. 28 changed building GLBs all in scope; five protected corner models and original source namespaces retained. Added orbit/pan/zoom/V recenter, nearest-frontage addresses, dated facade/access/shop/material/sign and street/site corrections. All 39 final elevations inspected; no 1:1 certification. Final Big Bar sign moved forward to keep both lines visible.
+**Exact gameplay/source commit:** `d4fbafe9a6af4497de81e2220d31c878f930612e` on `feature/seventh-lofi-engine`, following docs `48620a7` / gameplay `34bf6c40e43834918aed2e8e0f4293f3fada8e0f`. This checkpoint is a separate following documentation commit; identify its own hash in Git history.
+**Local changes:** Only this handoff/log pending their documentation save. Private screenshot unchanged and excluded. No model/export/test/worker job remains. Removed 54 task-owned temporary source images/PDF; durable references/observations and all prior provenance retained.
+**Remote state:** No fetch, push or merge; cached origin/main `8792ce4`, local main `b4120fa`.
+**Deployment state:** No deployment, DNS or domain connection. Production unverified; DriveAround.nyc branding is local.
+**Validation:** Four-mode camera/roof inspection and fixed-car assertions passed; nine final-package address cases passed. Native camera/address units clean. Full browser interaction/recovery suite passed before the final static-batch-only change. Isolated optimized samples 59.98–60.02 FPS, mean 60.00 at scale 1; startup 5.341 s. Native circuit 66.653 s and 545 m run 24.880 s, zero contacts. Performance/native/camera reports keep the actual pre-sign-depth package hash and qualify the final cosmetic-only repair; final visual/address tests use saved PCK `15b96df07f67a66862794ed1bff06f8f0a48a3d95644a82b368577134b8a81fe`. Current 60 FPS ceiling differs from historical 75, so no identical-environment speedup claim. Original and final export verification, preservation, whitespace, 503 relative Markdown links and 201-file local credential scan passed. [Full report](model-source/SEVENTH-ENGINE-04.md).
+**Unresolved issues:** Strict 1:1 photographic calibration and occluded/unmeasured details, exact type/ornament/material wear, mixed source dates, large first download, wider device testing and 500-user/shared-world capacity. No new facade benchmark acceptance.
+**Next concrete step:** User review of local block/camera behavior, then bounded fidelity comparison/calibration. No automatic wider work or publication.
+
+## 2026-09-15-06 — Final isolated performance passed at full scale
+
+**Recorded:** 2026-09-15T01:53-04:00.
+**User objective and decisions:** Same bounded block/brand/address/camera/performance task; local only.
+**Completed work:** Reverted the costly 48 m static-detail split, retaining canonical material sharing and every modeled triangle. Final nine isolated browser samples 59.98–60.02 FPS, mean 60.00, all scale 1 and zero contacts; local startup 5.341 s. Runtime source now frozen, PCK `40a5a63c8425b8bdebe36703012920fb390d5bbad542304d2c905ba0e756c69d`.
+**Gameplay/source baseline:** `34bf6c40e43834918aed2e8e0f4293f3fada8e0f`; all new source still uncommitted on `feature/seventh-lofi-engine`.
+**Local changes:** Final export and durable performance report present. Final native route test running; final visual capture/inspection and evidence save still pending.
+**Remote state:** No fetch, push or merge.
+**Deployment state:** No deployment or domain connection; live state unverified.
+**Validation:** Final package/source verification passed. Camera/address behavior and full browser controls/recoveries passed on earlier cosmetic/static-batch variants with unchanged interaction code/collisions; exact hashes retained. Current browser 60 FPS ceiling differs from historical rev03's75, so no direct speedup claim. No 1:1 certification.
+**Next concrete step:** Finish native route and final visuals, save evidence and local source/checkpoint commits.
+
+## 2026-09-15-05 — Browser behavior passed; performance repair required
+
+**Recorded:** 2026-09-15T01:39-04:00.
+**User objective and decisions:** Same bounded fidelity, branding, camera, addresses and speed task, local only.
+**Completed work:** Inspected all 39 current game elevations and key perspective views. Fixed final 82 white upper paint/dark sash, Big Bar stacked lettering and open bicycle wheels; only two facade GLBs changed in that last repair. Five corner models remain unchanged.
+**Gameplay/source baseline:** `34bf6c40e43834918aed2e8e0f4293f3fada8e0f`; source changes still uncommitted on `feature/seventh-lofi-engine`.
+**Local changes:** Camera/address, source ledgers, street/model corrections, branding and browser package present. Static-material/batch performance repair now in progress; rebuild after it.
+**Remote state:** No fetch, push or merge.
+**Deployment state:** No deployment or domain connection; live state unverified.
+**Validation:** Four-mode camera/browser and nine address cases passed; clean native tests passed. General browser controls/drift/12 weather-camera combinations/recovery checks passed. Performance failed the target: 55.91 FPS mean, 39.47 dusk-east minimum and scale .875, with about 790 Seventh draw calls. This is a rejected intermediate benchmark, not final acceptance. Evidence saved as browser-before-batching.json.
+**Next concrete step:** Repair static batching without reducing geometry, then rebuild and measure final browser/native behavior, refresh visual evidence and save local commits. Photographic 1:1 acceptance remains separate.
+
+## 2026-09-15-04 — Final export ready for browser validation
+
+**Recorded:** 2026-09-15T01:22-04:00.
+**User objective and decisions:** Same First–Second fidelity, branding, address, independent camera and performance scope; local work only.
+**Completed work:** Final finite visual repairs exported. 182 models, 3,362,194 source triangles; 28 changed GLBs all in scope, five protected corner GLBs unchanged. Browser export contains final source, PCK SHA256 `4422e53f1f520d5c4abb940dae1b482a76579365b24e0d8e008f81f9f3035abd`.
+**Gameplay/source baseline:** `34bf6c40e43834918aed2e8e0f4293f3fada8e0f`; branch `feature/seventh-lofi-engine`; no new source commit yet.
+**Local changes:** Final source/package and evidence ledgers remain uncommitted. Source frozen except concrete validation failures. Private screenshot unchanged and excluded.
+**Remote state:** No fetch, push or merge.
+**Deployment state:** No deployment or domain connection; production unverified.
+**Validation:** Final original and Seventh verification passed; 11 package files and 75 source hashes verified. Preservation report saved. Browser camera/address tests underway; final visuals, FPS/recovery and native full circuit still pending. No 1:1 certification.
+**Next concrete step:** Finish sequential actual-browser/native tests, inspect final images, save durable evidence and local source/checkpoint commits.
+
+## 2026-09-15-03 — All 39 candidate elevations visually inspected
+
+**Recorded:** 2026-09-15T01:04-04:00.
+**User objective and decisions:** Continue the same bounded fidelity, branding, address, camera and performance task. No publication or wider expansion.
+**Completed work:** Re-exported 182 models and imported them into Godot. Rendered and inspected all 39 scoped elevations in seven contact sheets. Found and corrected/queued visible issues: stretched 63/81 entrances, old Big Bar shop overlay, missing 118 Second fire escapes, 82 grout clipping, 79's old generic fascia, 62 ground stone color and 66 scaffold projection. Camera pan now applies in all four modes; defaults, input gating and address hysteresis reviewed.
+**Gameplay/source baseline:** `34bf6c40e43834918aed2e8e0f4293f3fada8e0f`, documentation `48620a7`, branch `feature/seventh-lofi-engine`.
+**Local changes:** Uncommitted source and intermediate GLB cache. Subsequent source corrections require another Blender export before the final browser build. The shipped PCK still contains revision 03. Initial game captures are in ignored `renders/seventh-engine-04/elevations-first`; final evidence must be copied into durable review artifacts before handoff. No private source images or user screenshot have been distributed.
+**Remote state:** No fetch, push or merge.
+**Deployment state:** No deployment, DNS or domain connection; production unverified.
+**Validation:** Original `npm run verify` passed. Camera/address headless checks passed; standalone camera-test resource cleanup repaired. Full39 actual native model inspection completed. Initial exports exposed a legacy string-appearance crash, then fixed and successfully re-exported. Final geometry, browser behavior/FPS and final source hash checks remain pending.
+**Unresolved issues:** Finish the finite visual repair bundle, render the resulting package and inspect the affected facades again. Every-property photographic measurement and independent-view acceptance remain incomplete; no 1:1 certification.
+**Next concrete step:** Freeze the final source, re-export/import, test the browser camera and address controls, capture final comparison views and benchmark driving sequentially.
+
+## 2026-09-15-02 — Camera review and source-to-geometry corrections
+
+**Recorded:** 2026-09-15T00:38-04:00.
+**User objective and decisions:** Continue all First–Second properties and street features, DriveAround.nyc branding, live addresses and smoother play. Add camera orbit, pan and zoom without moving the car. Lower-cost agents perform the coding; the coordinator checks photographic evidence and integration.
+**Completed work:** Inspected 41 dated Street View images, the independent Kinka exterior and July 2026 LPC existing-condition photographs/site plan. Saved 39 frontage records and the vacant former 48/church-site boundary. Implemented camera controls and branding/address UI; reviewed code and requested default-pose, input-gating and hysteresis repairs. Corrected tree projection to use actual camera coordinates. Street geometry includes the two observed dining enclosures and existing fire-site details; basement cuts and corrected facade schedules are being integrated.
+**Gameplay/source baseline:** `34bf6c40e43834918aed2e8e0f4293f3fada8e0f`, documentation `48620a7`, branch `feature/seventh-lofi-engine`.
+**Local changes:** Uncommitted source changes; no revision 04 export or new source commit yet. Private user screenshot preserved. Reference pixels remain temporary inspection material and are not game assets.
+**Remote state:** No fetch, push or merge.
+**Deployment state:** Local only; no domain connection or deployment. Production was not checked.
+**Validation:** Workers report address/camera unit checks and parsing. Coordinator found and requested repairs for source-side errors, omitted ground windows, basement dimensions, stale door clipping and address hysteresis. Actual final-package browser, visual and FPS checks remain pending.
+**Unresolved issues:** Complete the source corrections, inspect all scoped game elevations, validate basement cuts and street collisions, then measure the exact exported package. No frontage has received new 1:1 acceptance.
+**Next concrete step:** Freeze geometry after the corrections, export/import, inspect the rendered result against references and run browser controls/performance checks.
+
+## 2026-09-15-01 — Basement/site errors identified; free camera controls added to scope
+
+**Recorded:** 2026-09-15T00:15-04:00.
+**User objective and decisions:** Continue every-property First–Second fidelity, DriveAround.nyc, live addresses and speed. Also move, aim, zoom and pan the camera to inspect rooftops without changing the car or cycling POV. Retain lower-cost coding workers.
+**Completed work:** Reviewed 41 dated Street View images, an independent Kinka exterior and July 2026 LPC existing-condition material. Corrected the inventory to 39 Seventh-facing records plus the former 48/church fire-site edge. Identified misplaced Kinka/Abraço layouts, false stoops, 82's tile ground floor and omitted temporary features. Saved reference metadata in `model-source/west-seventh-reference-04.json`.
+**Gameplay/source baseline:** `34bf6c40e43834918aed2e8e0f4293f3fada8e0f`, documentation `48620a7`, branch `feature/seventh-lofi-engine`.
+**Local changes:** Geometry, fixtures, UI and camera work in progress; no final export or source commit. Private screenshot preserved; no reference pixels distributed.
+**Remote state:** No fetch, push or merge.
+**Deployment state:** Local only; domain not connected or deployed, production not checked.
+**Validation:** Workers reported 39-frontage address checks and Godot parsing. Integration, browser and FPS checks remain pending. A tree camera-anchor mistake was detected and sent for correction before export.
+**Unresolved issues:** Basements require visible floor/stair geometry. Feature placement, camera alignment, temporary-object dates and final runtime verification remain open.
+**Next concrete step:** Finish observed corrections and camera controls, export after the geometry freeze, review the actual game views and test camera input without moving the car.
+
+## 2026-09-14-14 — First–Second precision pass and DriveAround.nyc authorized
+
+**Recorded:** 2026-09-14T23:58-04:00.
+**User objective and decisions:** Narrow implementation to all E7 properties and street features between First and Second; exact basement/access/material/sign/temporary construction observations. Add DriveAround.nyc branding, live addresses on this segment and improve speed. Use lower-cost agents for coding. No publishing or DNS instruction.
+**Completed work:** Resumed Git/docs inspection and bounded dated source-view inspection. Three lower-cost workers assigned disjoint UI/address, runtime performance and block inventory/observed geometry work.
+**Gameplay/source baseline:** `34bf6c40e43834918aed2e8e0f4293f3fada8e0f`, documentation `48620a7`, branch `feature/seventh-lofi-engine`.
+**Local changes:** Instructions/checkpoint refreshed; coding and review in progress. Private screenshot untouched/untracked. No new exported runtime yet.
+**Remote state:** No fetch/push/merge; cached states unchanged.
+**Deployment state:** Local only; domain ownership user supplied, connection/production not checked or changed.
+**Validation:** Previous rev03 results are baseline. New reference metadata/dates inspected, not a new visual-acceptance test. No rev04 build/check/FPS result yet.
+**Unresolved issues:** Every-property photographic matching, latest available construction/access evidence, game corrections and final integration remain. No newly certified 1:1 facade.
+**Next concrete step:** Finish bounded property/fixture observations, implement verified visible differences, rebuild/review and test the final local package; preserve all source provenance and outer/protected geometry.
+
 ## 2026-09-14-13 — Seventh architectural fidelity candidate tested and saved locally
 
 **Recorded:** 2026-09-14T23:26:02-04:00 (America/New_York).
