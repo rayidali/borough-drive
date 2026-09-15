@@ -1,14 +1,15 @@
 # Borough Drive: continuation context
 
-## Current checkpoint — September 15, 2026: Seventh build promoted to Vercel root
+## Current checkpoint — September 15, 2026: Seventh build live at Vercel root
 
-Recorded **2026-09-15T17:30:00+00:00**. The user requested that the latest Seventh browser version open at `https://borough-drive.vercel.app/` rather than only at `/seventh/`. Vercel and the local dev server now route the exact root to `/seventh/`; the Godot shell has a `/seventh/` asset base so both URLs load the same package. The legacy Three.js game remains available at `/index.html`. Routing commit `3b88cad` is pushed to `origin/main`.
+Recorded **2026-09-15T17:41:00+00:00**. The user requested that the latest Seventh browser version open at `https://borough-drive.vercel.app/` and asked to fix the failed jobs. Commit `bfbc8d7` is pushed to `origin/main`, Vercel reports a successful production deployment, and the public root now serves the Seventh shell. The legacy Three.js game remains available at `/index.html`.
 
 - **Gameplay/source baseline:** unchanged `d4fbafe9a6af4497de81e2220d31c878f930612e`; prior documentation checkpoint `b36a612`. New routing/documentation commit follows it.
-- **Changed files:** `vercel.json`, `scripts/serve.mjs`, `dist/seventh/index.html`, `README.md`, `engine/first-seventh/README.md`, `START-HERE.md`, `AGENTS.md` and this handoff. No models, PCK/WASM, controller code or fidelity records changed. The private screenshot remains untracked and excluded.
-- **Expected routes:** `/` → Seventh build; `/seventh/` → Seventh build; `/index.html` → preserved original ten-block game. The custom `drivearound.nyc` domain remains unconnected.
-- **Validation:** `npm run verify` passed; JSON and HTML checks passed. GitHub `origin/main` is `3b88cad`. The deployed Vercel root was checked after the push but still serves the previous legacy HTML (cached response last modified before this commit); `/seventh/` remains the known live Seventh route. Vercel has not yet deployed the new rewrite.
-- **Next concrete step:** trigger or await a Vercel deployment for `3b88cad`, then verify that `/` serves the Seventh shell and `/index.html` still serves the legacy game. Do not start additional modeling or fidelity work.
+- **Root-routing repair:** the first rewrite deployed but did not replace the physical `dist/index.html`, because Vercel gives filesystem files precedence over rewrites. The original file is now preserved as `dist/legacy.html`; `/` rewrites to `/seventh/index.html`, while `/index.html` rewrites to the legacy page. The local server mirrors these routes. The Godot shell's `/seventh/` base preserves JS/PCK/WASM paths while the browser URL remains `/`.
+- **Failed-job repair:** the two failed jobs were GitHub Actions Node checks, not failed Vercel deployments. The shell edit had left `dist/seventh/build.json` with stale `index.html` size/hash data. The manifest and source-shell hash are synchronized, and the original-game verification scripts now inspect `dist/legacy.html`.
+- **Validation:** local `npm run verify` and `npm run seventh:verify` pass; local HTTP checks confirmed root=Seventh, `/index.html`=legacy and the expected PCK size. GitHub Actions **Node.js 22 and Node.js 24 both pass** for `bfbc8d7`. Vercel status is successful. Live HTTP checks confirm `/` contains the Seventh shell and `/seventh/` base, `/index.html` contains the legacy ten-block page, and `/seventh/index.pck` returns 200 with **86,494,928 bytes**. No model, PCK/WASM, controls or fidelity records changed. The private screenshot remains untracked and excluded.
+- **Remote/deployment:** `bfbc8d7` is pushed to `origin/main` and deployed at `https://borough-drive.vercel.app/`. The custom `drivearound.nyc` domain remains unconnected.
+- **Next concrete step:** resume from the user's next direction. Root routing and checks are complete; do not start additional modeling or fidelity work automatically.
 
 ## Previous checkpoint — September 15, 2026: 1:1 acceptance explained; session ready to close
 

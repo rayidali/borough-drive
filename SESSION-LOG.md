@@ -10,6 +10,19 @@ git log --oneline -- CODEX-HANDOFF.md SESSION-LOG.md
 
 Checkpoint notes describe observed state, not a live monitor. Recheck local files, remote branches and deployment status when resuming. Keep necessary artifacts in the repository and record reproducible commands; temporary directories and old tool/process IDs are not durable checkpoints. Store no tokens, passwords or authentication cookies here.
 
+## 2026-09-15-11 — Root route and failed jobs fixed and live
+
+**Recorded:** 2026-09-15T17:41:00+00:00.
+**User objective and decisions:** Finish the Vercel root promotion and fix all reported failed jobs.
+**Completed work:** Diagnosed two separate problems. Vercel had successfully deployed, but its filesystem precedence kept physical `dist/index.html` at `/`; moved that legacy page to `dist/legacy.html` and mapped `/` to the Seventh shell plus `/index.html` to the legacy page. GitHub Actions had failed because the edited Seventh shell no longer matched `dist/seventh/build.json`; synchronized package/source hashes and updated original-game verification paths.
+**Exact routing commit:** `bfbc8d764f838708f753a53de9b7f054101b45f0` on `main`; gameplay/PCK baseline remains `d4fbafe9a6af4497de81e2220d31c878f930612e`. This checkpoint follows in a documentation-only commit.
+**Local changes:** Runtime routing, manifest, source shell, verification scripts and current documentation saved. No model, PCK/WASM, controller or facade change. Private screenshot remains untracked and excluded.
+**Remote state:** `bfbc8d7` pushed to GitHub `origin/main`; local main matched before this documentation update.
+**Deployment state:** Vercel reports success. Live `https://borough-drive.vercel.app/` serves the Seventh shell; `/index.html` serves the preserved legacy game; `/seventh/index.pck` returns 200 at 86,494,928 bytes. Custom `drivearound.nyc` remains unconnected.
+**Validation:** `npm run verify` and `npm run seventh:verify` pass locally. Local route checks pass. GitHub Actions Node.js 22 and Node.js 24 both pass for `bfbc8d7`. Live root, legacy shell and PCK headers checked after the successful deployment.
+**Unresolved issues:** None for the root-routing/failed-job request. Photographic fidelity, custom-domain connection and wider product work retain their prior states.
+**Next concrete step:** Resume from the user's next direction; do not automatically start another fidelity or deployment task.
+
 ## 2026-09-15-09 — Promote Seventh build to Vercel root
 
 **Recorded:** 2026-09-15T17:21:00+00:00.
