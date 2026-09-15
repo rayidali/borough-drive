@@ -5,6 +5,7 @@
   "buildCommand": "",
   "outputDirectory": "dist",
   "rewrites": [
-    { "source": "/", "destination": "/seventh/" }
+    { "source": "/", "destination": "/seventh/index.html" },
+    { "source": "/index.html", "destination": "/legacy.html" }
   ]
 }

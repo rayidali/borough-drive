@@ -48,7 +48,7 @@ Standalone review renders can go into the ignored `renders/` directory. Keep fin
 
 ## Runtime changes and validation
 
-The active game is `dist/index.html`. Files in `dist/` are editable source and required game assets. Keep the vanilla JavaScript module structure and bundled Three.js unless a migration has been discussed.
+The deployed root game is `dist/seventh/index.html`, selected by `vercel.json`. The original vanilla Three.js game is preserved at `dist/legacy.html` and exposed at `/index.html`. Files in `dist/` are editable source and required game assets. Keep the existing structures unless a migration has been discussed.
 
 Run `npm run verify` for changes to models, roads, controls, module paths, and vehicle behavior. The checks cover asset integrity, exact street-material reproduction, lossless spatial batching, and meaningful road and vehicle invariants. After changing the preserved core export, run `node scripts/prepare-street-materials.mjs` to refresh its startup subset. Use `node scripts/profile-performance.mjs` in an isolated Chrome instance for full-frame rendering and startup measurements; distinguish RAF responsiveness from actual scene redraws when idle. They do not establish visual accuracy or browser performance.
 

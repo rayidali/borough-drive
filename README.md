@@ -95,7 +95,7 @@ The browser runs vanilla JavaScript modules and bundled **Three.js r180**. Blend
 
 | Location | Purpose |
 | --- | --- |
-| [`dist/index.html`](dist/index.html) | Legacy ten-block game entry point (`/index.html`) |
+| [`dist/legacy.html`](dist/legacy.html) | Legacy ten-block game, exposed at `/index.html` |
 | [`dist/reconstruction/viewer.js`](dist/reconstruction/viewer.js) | Rendering, camera, input, and interface |
 | [`dist/reconstruction/vehicle.js`](dist/reconstruction/vehicle.js) | Vehicle simulation |
 | [`dist/reconstruction/neighborhood-world.js`](dist/reconstruction/neighborhood-world.js) | Streets, collision, and travel destinations |
@@ -106,7 +106,7 @@ The browser runs vanilla JavaScript modules and bundled **Three.js r180**. Blend
 | [`scripts/`](scripts/) | Local server, data preparation, and verification |
 | [`dist/vendor/`](dist/vendor/) | Bundled renderer and Draco decoder with license notices |
 
-**`dist/` is editable source and required game content.** Keep it in Git. The older generic experiment lives at [`dist/prototype.html`](dist/prototype.html); the current root game is the tracked Godot package in `dist/seventh/`, while `dist/index.html` remains the preserved legacy game.
+**`dist/` is editable source and required game content.** Keep it in Git. The older generic experiment lives at [`dist/prototype.html`](dist/prototype.html); the current root game is the tracked Godot package in `dist/seventh/`, while `dist/legacy.html` preserves the original game and is exposed at `/index.html`.
 
 ### Verify changes
 

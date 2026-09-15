@@ -63,7 +63,7 @@ If an earlier deployment shows `404: NOT_FOUND`, deploy the latest commit contai
 
 | Symptom | What to check |
 | --- | --- |
-| Opening `dist/index.html` directly fails | Use the local HTTP server; modules and models need HTTP loading. |
+| Opening `dist/legacy.html` directly fails | Use the local HTTP server; modules and models need HTTP loading. |
 | The 3D view cannot start | Use a browser with WebGL2 and hardware acceleration enabled. |
 | Initial loading takes a moment | Nearby section models and a 4.18 MiB street-material asset load first; First & 10th streams when approached. |
 | The address is already in use | Choose another port, such as `npm run dev -- 5174`. |
@@ -76,7 +76,7 @@ For a new session, open this repository and start with the current checkpoint in
 
 A useful opening message is: **"Read AGENTS.md, CODEX-HANDOFF.md and the latest SESSION-LOG.md entry, inspect Git and publication state, and preserve the accepted neighborhood. Read the Seventh engine review and resume from my feedback on the local browser slice. Keep wider reconstruction and paid jobs deferred."** Add your review or next task.
 
-Read [CONTRIBUTING.md](CONTRIBUTING.md) and [model-source/NEIGHBORHOOD-NOTES.md](model-source/NEIGHBORHOOD-NOTES.md) before substantial changes. The active entry point is `dist/index.html`; `dist/prototype.html` preserves the earlier experiment.
+Read [CONTRIBUTING.md](CONTRIBUTING.md) and [model-source/NEIGHBORHOOD-NOTES.md](model-source/NEIGHBORHOOD-NOTES.md) before substantial changes. The deployed root entry point is `dist/seventh/index.html`; `dist/legacy.html` preserves the original ten-block game and `dist/prototype.html` preserves the earlier experiment.
 
 The [current First & 7th report](model-source/FIRST-SEVENTH-PASS-08.md) identifies the corner recipes, reference dates, review captures and reproduction commands. For later fidelity work, [storefront-details.json](model-source/storefront-details.json) contains the explicit shop designs and photographic sources; [digital-twin-coverage.json](model-source/digital-twin-coverage.json) lists outstanding frontages. [STOREFRONT-PASS-05.md](model-source/STOREFRONT-PASS-05.md) explains compilation, affected-section export and browser review. The [clean reproduction verifier](scripts/verify-neighborhood-reproduction.py) works in a disposable copy, so it can check source data without resetting the playable exports.
 

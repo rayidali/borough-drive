@@ -24,7 +24,7 @@ const impact=createVehicle({x:0,z:0,yaw:0});impact.longitudinal=5;
 const collision=stepVehicle(impact,{throttle:1},1/120,{carCollides:()=>true});
 assert(collision.collision&&impact.z===0,'Blocked movement must not cross the collision surface.');
 
-const html=fs.readFileSync(path.join(root,'index.html'),'utf8');
+const html=fs.readFileSync(path.join(root,'legacy.html'),'utf8');
 const ids=new Set([...html.matchAll(/\bid="([^"]+)"/g)].map(m=>m[1]));
 const app=fs.readFileSync(path.join(root,'reconstruction/viewer.js'),'utf8');
 for(const m of app.matchAll(/\$\('#([^']+)'\)/g))assert(ids.has(m[1]),`Missing interface element: ${m[1]}`);
