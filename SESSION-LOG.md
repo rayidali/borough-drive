@@ -10,6 +10,58 @@ git log --oneline -- CODEX-HANDOFF.md SESSION-LOG.md
 
 Checkpoint notes describe observed state, not a live monitor. Recheck local files, remote branches and deployment status when resuming. Keep necessary artifacts in the repository and record reproducible commands; temporary directories and old tool/process IDs are not durable checkpoints. Store no tokens, passwords or authentication cookies here.
 
+## 2026-09-14-13 — Seventh architectural fidelity candidate tested and saved locally
+
+**Recorded:** 2026-09-14T23:26:02-04:00 (America/New_York).
+**User objective and decisions:** Precise recognizable individual houses across all Seventh Street, including door/window styles, labels and access; establish a benchmark for later cheaper-model work. Revision 02 resemblance is insufficient. Current Seventh implementation/reference discovery is authorized; wider streets, automatic production and publishing remain deferred.
+**Completed work:** 76 explicit elevation schedules and six preserved recipes across all 82 frontages; 1,547 window groups, 77 entrances, 17 provisional unlettered units. Added Seventh-only architectural components, posed/entrance review tools and a strict photographic benchmark. Corrected the 50/48½ comparison case; an adjacent April 2026 view resolved 48½'s single door/fixed sidelight, literal 48 1/2 label, white cornice, projected shop bays, recessed entry, benches and pale solid stone hoods. Retained all existing provenance and original runtime/core/corner geometry. [Report](model-source/SEVENTH-ENGINE-03.md).
+**Gameplay/source baseline:** New local source `34bf6c40e43834918aed2e8e0f4293f3fada8e0f` on `feature/seventh-lofi-engine`, resumed from `afcb746` / prior gameplay `2a43c9fc2519c81b32fc5b5587382e983dd378c6`. Original ten-block game remains `c76dccebc143960498d21eeab8c55c2d0dbcc5ce`. This checkpoint follows in its own documentation commit, identifiable in Git history.
+**Local changes:** Source/runtime/benchmark/evidence committed; no unfinished model/import/export/browser job. This handoff/log saved separately. The private user screenshot remains untracked and untouched. Saved 137 actual game images, source metadata, 82-frontage status and exact package/results. Temporary Google previews from this task removed; no reference-photo pixels published. PCK 82.10 MiB, total runtime 120.18 MiB, 3,346,371 source triangles.
+**Remote state:** No fetch/push/merge or remote branch creation. Cached origin/main `8792ce4` and local main `b4120fa` are unchanged; current remote state unverified.
+**Deployment state:** Local only at http://127.0.0.1:5173/seventh/. No production check or deployment this session. Final PCK SHA256 `e6279599b212cbc07753871e25af98e8246513a9059845abb677995c4aa05654` is the exact final browser-tested package.
+**Validation:** Final local M1/8 GB browser, 1440×1000/DPR 1/full scale: nine short driving samples 62.84–75.00 FPS, mean 70.69 FPS (4.6% below revision 02), startup 5.920 s with disabled HTTP cache and warmed compilation caches. All 12 weather/camera combinations, key-driven drift 29.22° → −2.70° with no contacts, brake/reverse/steering/pause/reset, settings, focus loss, Retina cap, postcard and injected missing-pack/context-loss retry passed. Zero healthy errors/warnings/failed requests. Final native nine-waypoint circuit 66.924 s and 545 m Seventh traversal 24.874 s, no contacts; collision/reverse/reset passed. Original and Seventh verification passed, including 11 package files/69 source hashes/182 buildings and architecture bounds/parts/paths. All 182 GLB hashes, five protected corner GLBs, old JSON namespaces, original runtime and vehicle/audio preservation checked. All 82 elevations inspected; final single-building correction re-inspected, other 181 GLBs identical. 117 final perspective captures retained, selected close views inspected; not all captured views independently accepted. Staged whitespace, 472 Markdown links and a 177-file local credential-value scan passed.
+**Unresolved issues:** No new frontage is certified/user-accepted as 1:1. Independent second-view calibration, exact dimensions, fine carving/hardware, letterforms, concealed thresholds/steps/ramps, interiors and provisional storefront partitions remain. Some landmark recipes remain inherited and need the stricter review. Dusk/rain vary; individual samples regress more than the mean, and sustained 60 FPS, broad devices/public networks and 500 users are not established. A proposed photographic benchmark is not an accepted example or an implemented cheaper-model pipeline.
+**Next action:** Review the saved 50/48½ comparison, align an independent second view, and resolve the full Seventh inventory's recorded mismatches under the benchmark. Approve the initial example before calling it a template for cheaper models. Keep other streets, publishing and autonomous/paid jobs separate. Rebuild/import before native review so cached GLBs do not hide source changes.
+
+## 2026-09-14-12 — Architectural candidate built; browser behavior and performance measured
+
+**Recorded:** 2026-09-14T22:32:44-04:00.
+**User objective and decisions:** Exact recognizable individual Seventh Street houses and a reusable quality benchmark; all 82 frontages remain in scope. Other streets, autonomous production and publishing remain deferred.
+**Completed work:** Final 76 architectural schedules/six preserved recipes; 1,547 window groups, 77 entrances, 17 provisional physical ground units. Fixed geometry found in review, restored transparent shop glazing and reduced hidden trim geometry. Concrete benchmark, sources, candidate inventory, camera diagnostic and review tools saved locally.
+**Gameplay/source baseline:** `2a43c9fc2519c81b32fc5b5587382e983dd378c6`, documentation `afcb746`, branch `feature/seventh-lofi-engine`; revision 03 changes remain uncommitted.
+**Local changes:** Included final revision-03 package is 81.55 MiB PCK/119.63 MiB total; 3,324,107 source triangles. Final source hash/package and review snapshots are under the revision report. No source-photo pixels are included; private screenshot remains untracked.
+**Remote state:** No fetch/push/merge.
+**Deployment state:** Local only; production unverified and unchanged by this work.
+**Validation:** Full browser controls, drift, 12 camera/weather combinations, saved settings, focus, Retina, postcard and both injected recovery checks passed. Zero healthy errors/warnings/failed requests. Nine local M1 samples 61.70–75.00 FPS, 4.973 s startup. Subsequent metadata-only repack preserves all 182 GLBs and 20 gameplay/shader hashes; final native and perspective captures still being finished. Earlier original/Seventh verification passed; final metadata verification refresh pending.
+**Unresolved issues:** Rain/west sample regressed 15.5%; nine-sample mean regressed 1.9%. Exact full photographic/second-view alignment, hardware, letterforms, hidden access and estimated proportions remain unaccepted. Need final native/capture/verification evidence and local commits.
+**Next action:** Finish final route/all-elevation/entrance review, save reproducible evidence and source, then record exact saved commit. No automatic acceptance or expansion.
+
+## 2026-09-14-11 — Architectural schedules and candidate comparison review
+
+**Recorded:** 2026-09-14T21:52:59-04:00.
+**User objective and decisions:** Correct the entire mapped Seventh Street at door/window/label/access level and establish a reproducible fidelity benchmark. The current work is authorized; wider expansion, publishing and automatic processing remain deferred.
+**Completed work:** Inspected current panoramas and all 67 archive elevations, corrected current 50/48½ entrances and facade identity, authored 76 explicit architectural schedules with six existing landmark/corner recipes retained. Added a Seventh-only component kit, comparative camera/entrance capture command and a concrete fidelity contract. First 82 modeled elevations and seven browser pair views exposed further issues; corrected masonry/trim, missing physical storefronts without verified names, 43 grouped bays, 92 street height, hidden church label and tree obstruction.
+**Gameplay/source baseline:** Still local `2a43c9fc2519c81b32fc5b5587382e983dd378c6`, documentation `afcb746`, branch `feature/seventh-lofi-engine`; new source uncommitted. Original ten-block `c76dcce` preserved.
+**Local changes:** Geometry schedule/kit/exporter, opaque glass and wood shading, close shadow bias, one church-side tree, review camera hooks, required browser package and documentation. Final rebuild/review underway; source and metadata are durable, temporary reference images are not required for restarting the game/export.
+**Remote state:** No fetch/push/merge.
+**Deployment state:** Local only, no live check or deployment.
+**Validation:** Successful intermediate Blender/Godot exports, all 82 initial elevations inspected, seven intermediate browser pair views with no recorded runtime/request errors; original JSON namespaces unchanged. Current final FPS, routes and required verification still pending. No measured 1:1 acceptance.
+**Unresolved issues:** Finish current export, review final closeups/all elevations, measure actual browser performance, record precise remaining mismatches and save source/evidence. Camera GPS is a starting pose, not calibrated photographic alignment. Fine ornament/typeface/occluded entrances remain unresolved across the inventory.
+**Next action:** Complete final render/performance/verification and update the checkpoint with actual results. Do not call the 82 records accepted or start a cheaper-model production job.
+
+## 2026-09-14-10 — Exact Seventh architecture and a repeatable benchmark requested
+
+**Recorded:** 2026-09-14T20:46:33-04:00.
+**User objective and decisions:** Correct all Seventh Street facades so residents can recognize their own houses, including individual doors, windows, labels, steps and ramps. Use the supplied local Street View/game comparison to establish a stronger benchmark for future cheaper-model work. Revision 02 resemblance is insufficient; bounded implementation is authorized.
+**Completed work:** Read required checkpoints/instructions; inspected branch, history and the untracked screenshot. Identified 50 and 48½ E 7th, generic entrance/window substitutions, an incorrect church stoop and a wrong neighboring wall palette/door position. Located recent exterior and architect references; reference inspection continues.
+**Gameplay/source baseline:** `2a43c9fc2519c81b32fc5b5587382e983dd378c6`, documentation HEAD `afcb746`, branch `feature/seventh-lofi-engine`; original game `c76dcce` preserved.
+**Local changes:** In-progress documentation only so far. User screenshot remains untracked and private; its relevant evidence hash is recorded in the handoff.
+**Remote state:** No fetch, push, merge or remote branch creation.
+**Deployment state:** Local only; production unverified and unchanged by this session.
+**Validation:** Source/reference inspection only. No new build, browser performance result or visual acceptance yet.
+**Unresolved issues:** Implement precise architectural layouts throughout Seventh, match review views, retain unknowns without treating them as completion, validate the resulting playable build and record the quality contract. No work on other streets or automatic model pipeline.
+**Next action:** Calibrate the screenshot frontage and reusable geometry from observed features, continue the entire Seventh inventory, then rebuild and review.
+
 ## 2026-09-14-09 — Seventh revision 02 tested and saved locally
 
 **Recorded:** 2026-09-14T20:06:44-04:00 (America/New_York).
