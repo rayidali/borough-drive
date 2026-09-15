@@ -1,5 +1,7 @@
 # Run DriveAround.nyc locally
 
+**September 15 closing checkpoint:** revision 04 is saved locally; the latest follow-up clarified [what passing 1:1 requires](model-source/SEVENTH-FIDELITY-BENCHMARK.md#what-passing-11-means-in-this-project) and updated the [handoff](CODEX-HANDOFF.md). All 39 block records have source/elevation review; none has passed calibrated multi-view acceptance. Remaining work includes real modeling corrections. No further fidelity job or deployment was started; resume with the user's next direction. Start the included game with `npm run dev` as below.
+
 **Current local revision 04:** `/seventh/` has DriveAround.nyc branding, a live address label on the First–Second block, photo-guided corrections to that block and camera movement independent of the car. Right-drag to orbit/look, Shift + right-drag or middle-drag to pan up toward roofs, wheel to zoom, and V to recenter the camera. C still selects the driving view. The existing drift, sound, weather and full Seventh-through-Avenue-A route remain. See [controls/rebuild](engine/first-seventh/README.md), [revision 04 evidence and limits](model-source/SEVENTH-ENGINE-04.md), [fidelity benchmark](model-source/SEVENTH-FIDELITY-BENCHMARK.md) and [current handoff](CODEX-HANDOFF.md) for the exact save/test state. This is local and unpublished; the domain has not been connected in this session and the block is not certified 1:1.
 
 The repository includes the active ten-block game, exported models, textures, reference data, and editable source recipes. You can play without rebuilding anything.

@@ -10,6 +10,19 @@ git log --oneline -- CODEX-HANDOFF.md SESSION-LOG.md
 
 Checkpoint notes describe observed state, not a live monitor. Recheck local files, remote branches and deployment status when resuming. Keep necessary artifacts in the repository and record reproducible commands; temporary directories and old tool/process IDs are not durable checkpoints. Store no tokens, passwords or authentication cookies here.
 
+## 2026-09-15-08 — 1:1 acceptance clarification and closing handoff
+
+**Recorded:** 2026-09-15T15:21:02+00:00.
+**User objective and decisions:** Explain what it takes to certify the First–Second block 1:1 and update Markdown so the session can close and resume. No further game changes or production jobs requested by this follow-up. All 39 properties plus the street/site scope remain the objective.
+**Completed work:** Clarified that certification means project visual acceptance, not an external certificate. Documented dated source coverage, actual model corrections, calibrated photo/game comparisons, zero known feature/identity errors, proposed image-space tolerances and independent review. Clarified that the 50/48½ working pair must not replace the full block scope, and that the same gates apply to every property and street/site feature. Updated handoff, start instructions, neighborhood notes, agent instructions and benchmark; preserved historical checkpoints.
+**Exact gameplay/source commit:** Unchanged `d4fbafe9a6af4497de81e2220d31c878f930612e` on `feature/seventh-lofi-engine`. Previous documentation `b7d1f27`; this is a separate following documentation save, identifiable in Git history.
+**Local changes:** Six Markdown files only. Gameplay, required runtime, evidence and private untracked screenshot unchanged. No modeling/export/research/test job remains; use `npm run dev` to reopen `/seventh/` without depending on an old server or session.
+**Remote state:** No fetch, push or merge; cached origin/main `8792ce4`, local main `b4120fa`.
+**Deployment state:** No deployment, DNS or domain connection; production unverified. Revision 04 remains local.
+**Validation:** Branch/status/recent commits checked against the previous checkpoint. Acceptance ledger reconfirmed: 39/39 source reviews and game elevation reviews; 0/39 calibrated multi-view passes and 0/39 certified. Documentation diff, relative links and whitespace checked. No runtime or performance rerun for this documentation-only follow-up; the preceding checkpoint/report retain exact package qualifications for earlier tests.
+**Unresolved issues:** Actual facade/access/material/lettering discrepancies as well as photographic calibration, mixed source dates and obscured details. Proposed photographic tolerances do not establish surveyed dimensional accuracy. User has not accepted a new facade benchmark, tolerance or target-date policy. Existing download/device/capacity limits remain.
+**Next concrete step:** Resume from the current handoff and await the user's next direction. Proposed first fidelity work is a fully compared 50/48½ pair, followed by the same gates for all remaining properties and street/site details; no automatic implementation, expansion, pipeline, paid batch or publication.
+
 ## 2026-09-15-07 — First–Second revision 04 saved locally
 
 **Recorded:** 2026-09-15T06:13:00+00:00.
