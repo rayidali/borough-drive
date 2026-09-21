@@ -3,37 +3,75 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="theme-color" content="#283f46">
+  <meta name="theme-color" content="#182426">
   <meta name="description" content="DriveAround.nyc — a little New York, at your own pace. An atmospheric browser driving study of First & Seventh in the East Village.">
-  <meta property="og:title" content="Seventh, slowly. — DriveAround.nyc">
+  <meta property="og:title" content="DriveAround.nyc — New York, at your own pace">
   <meta property="og:description" content="A warm, unhurried drive through First & Seventh in New York's East Village.">
   <link rel="canonical" href="https://drivearound.nyc/">
   <base href="/seventh/">
-  <title>Seventh, slowly. — DriveAround.nyc</title>
-  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23283f46'/%3E%3Ctext x='32' y='48' text-anchor='middle' font-size='49' font-family='Georgia' fill='%23eed3ad'%3E7%3C/text%3E%3C/svg%3E">
+  <title>DriveAround.nyc — New York, at your own pace</title>
+  <link rel="icon" type="image/png" href="drivearound-logo.png">
+  <link rel="apple-touch-icon" href="drivearound-logo.png">
+  <link rel="preload" href="InterVariable.woff2" as="font" type="font/woff2" crossorigin>
   <style>
-    *{box-sizing:border-box}html,body{margin:0;width:100%;height:100%;overflow:hidden;background:#283f46;color:#f6e7d0;font-family:system-ui,sans-serif}button{font:inherit}#canvas{display:block;outline:none;touch-action:none}#loading{position:fixed;inset:0;z-index:5;display:grid;place-items:center;background:radial-gradient(ellipse at 76% 24%,#d09e89 0%,#a18189 30%,#435969 66%,#283f46 100%);transition:opacity .6s}#loading[hidden]{display:none}.card{width:min(530px,88vw)}.eyebrow{font-size:11px;letter-spacing:.24em;text-transform:uppercase}h1{font-family:Georgia,serif;font-weight:400;font-size:clamp(56px,10vw,96px);letter-spacing:-.05em;line-height:1;margin:36px 0 24px}h1 em{font-weight:400}.copy{font-size:16px;line-height:1.7;max-width:390px;color:#f1e0cd}progress{width:100%;height:3px;appearance:none;border:0;margin-top:36px;background:#ffffff25;color:#ffe1b3}progress::-webkit-progress-bar{background:#ffffff25}progress::-webkit-progress-value{background:#ffe1b3}progress::-moz-progress-bar{background:#ffe1b3}.small{font-size:12px;line-height:1.6;color:#e1d6ce}#retry{border:1px solid #f6e7d060;background:#283f46;color:inherit;border-radius:9px;padding:13px 23px;margin-top:20px;cursor:pointer}footer{position:absolute;bottom:24px;left:6vw;right:6vw;display:flex;justify-content:space-between;font-size:11px;letter-spacing:.04em}a{color:inherit}noscript{position:fixed;inset:0;z-index:10;padding:12vh 8vw;background:#283f46}#credits{position:fixed;right:12px;bottom:4px;font-size:9px;opacity:.6;z-index:2}
+    @font-face{font-family:Inter;src:url("InterVariable.woff2") format("woff2");font-weight:100 900;font-display:swap}
+    :root{color-scheme:dark;--bg:#182426;--ink:#f4f2eb;--muted:#b7c1bd;--sage:#aec4b5;--line:#ffffff20}
+    *{box-sizing:border-box}
+    html,body{margin:0;width:100%;height:100%;overflow:hidden;background:var(--bg);color:var(--ink);font-family:Inter,system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+    button,a{-webkit-tap-highlight-color:transparent}
+    button{font:inherit}
+    #canvas{display:block;outline:none;touch-action:none}
+    #loading{position:fixed;inset:0;z-index:5;display:flex;flex-direction:column;background:radial-gradient(ellipse at 75% 55%,#31413b65,transparent 65%),var(--bg);transition:opacity .35s}
+    #loading[hidden]{display:none}
+    .masthead{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:28px 32px}
+    .brand{display:flex;align-items:center;gap:10px;font-weight:600;font-size:16px;letter-spacing:-.035em;white-space:nowrap}
+    .brand-symbol{display:grid;place-items:center;width:34px;height:34px;overflow:hidden;border-radius:9px;background:#fff}
+    .brand-symbol img{width:46px;height:46px;max-width:none}
+    .location{font-size:11px;font-weight:500;color:var(--muted);letter-spacing:.08em}
+    .card{width:min(440px,calc(100% - 48px));margin:auto;transform:translateY(-14px)}
+    .eyebrow{display:flex;align-items:center;gap:9px;font-size:11px;font-weight:500;letter-spacing:.12em;color:var(--sage)}
+    .eyebrow::before{content:"";width:5px;height:5px;border-radius:50%;background:var(--sage)}
+    h1{font-size:clamp(28px,4.5vw,42px);font-weight:500;letter-spacing:-.055em;line-height:1.16;margin:21px 0 16px}
+    .copy{font-size:14px;line-height:1.65;color:var(--muted);margin:0 0 38px;max-width:340px}
+    progress{display:block;width:100%;height:3px;appearance:none;border:0;border-radius:2px;overflow:hidden;background:var(--line);color:var(--sage)}
+    progress[hidden]{display:none}
+    progress::-webkit-progress-bar{background:var(--line)}progress::-webkit-progress-value{background:var(--sage)}progress::-moz-progress-bar{background:var(--sage)}
+    .small{font-size:11px;line-height:1.6;color:var(--muted);margin:13px 0 0;min-height:18px}
+    #retry{border:1px solid transparent;background:var(--sage);color:var(--bg);border-radius:8px;padding:12px 18px;margin-top:20px;cursor:pointer;font-weight:600;font-size:13px}
+    #retry:hover{background:#c3d7ca}
+    button:focus-visible,a:focus-visible{outline:2px solid var(--sage);outline-offset:4px}
+    footer{display:flex;justify-content:space-between;gap:16px;padding:24px 32px;font-size:10px;line-height:1.6;color:var(--muted)}
+    a{color:inherit;text-decoration:none}a:hover{text-decoration:underline}
+    noscript{position:fixed;inset:0;z-index:10;padding:12vh 8vw;background:var(--bg)}
+    #credits{position:fixed;right:24px;bottom:7px;font-size:10px;color:#f4f2ebbe;z-index:2;text-shadow:0 1px 4px #182426}
+    @media(max-width:600px){.masthead{padding:20px}.location{display:none}.card{width:calc(100% - 48px)}footer{padding:20px 24px;flex-direction:column;gap:3px}.brand{font-size:15px}}
+    @media(max-height:480px){.masthead{padding:14px 24px}.card{transform:none}h1{font-size:26px;margin:12px 0}.copy{margin-bottom:20px}footer{padding:14px 24px}}
+    @media(prefers-reduced-motion:reduce){#loading{transition:none}}
   </style>
 
 </head>
 <body>
   <canvas id="canvas" tabindex="0" aria-label="DriveAround.nyc. WASD or arrow keys to drive, S to brake or reverse, Space to handbrake and drift, C for cameras. Right-drag orbits, Shift plus right-drag or middle drag pans, mouse wheel zooms, V recenters the camera, T changes weather and Escape pauses.">This game needs a browser with canvas support.</canvas>
-  <section id="loading" aria-live="polite">
+  <section id="loading" aria-live="polite" aria-label="Loading DriveAround.nyc">
+    <header class="masthead">
+      <div class="brand"><span class="brand-symbol"><img src="drivearound-logo.png" alt="" width="46" height="46"></span><span>DriveAround.nyc</span></div>
+      <span class="location">NEW YORK / EAST VILLAGE</span>
+    </header>
     <div class="card">
-      <span class="eyebrow">DriveAround.nyc · East Village</span>
-      <h1>Seventh,<br><em>slowly.</em></h1>
-      <p class="copy">A warm evening. A familiar corner.<br>Nowhere you need to be.</p>
+      <span class="eyebrow">GO A LITTLE SLOWER</span>
+      <h1>A little New York.<br>All the time you need.</h1>
+      <p class="copy">An unhurried drive through the East Village.</p>
       <progress id="progress" aria-label="Loading the neighborhood"></progress>
-      <p id="status" class="small">Opening a little piece of New York…</p>
-      <button id="retry" hidden>Try again</button>
+      <p id="status" class="small">Opening the neighborhood…</p>
+      <button id="retry" type="button" hidden>Try again</button>
     </div>
-    <footer><span>DRIVEAROUND.NYC · NEW YORK</span><span>Keyboard + mouse · headphones recommended</span></footer>
+    <footer><span>Built for a little escape.</span><span>Keyboard + mouse · Sound is yours to choose</span></footer>
   </section>
   <a id="credits" href="credits.txt" target="_blank" rel="noopener">Credits</a>
   <noscript>This little neighborhood needs JavaScript enabled to open.</noscript>
   <script src="index.js"></script>
   <script>
-    const config = {"args":[],"canvasResizePolicy":0,"emscriptenPoolSize":8,"ensureCrossOriginIsolationHeaders":true,"executable":"index","experimentalVK":false,"fileSizes":{"index.pck":86494928,"index.wasm":39514754},"focusCanvas":true,"gdextensionLibs":[],"godotPoolSize":4};
+    const config = {"args":[],"canvasResizePolicy":0,"emscriptenPoolSize":8,"ensureCrossOriginIsolationHeaders":true,"executable":"index","experimentalVK":false,"fileSizes":{"index.pck":87390432,"index.wasm":39514754},"focusCanvas":true,"gdextensionLibs":[],"godotPoolSize":4};
     const threaded = false;
     const loading = document.getElementById('loading');
     const status = document.getElementById('status');
@@ -104,7 +142,7 @@
             if (current !== previousBytes) { previousBytes = current; keepLoading(); }
             if (total > 0) {
               progress.max = total; progress.value = current;
-              status.textContent = current < total ? `Opening the neighborhood · ${Math.round(current / total * 100)}%` : 'Warming the streetlights…';
+              status.textContent = current < total ? `Opening the neighborhood · ${Math.round(current / total * 100)}%` : 'Getting your drive ready…';
             }
           },
           onPrint(...args) {

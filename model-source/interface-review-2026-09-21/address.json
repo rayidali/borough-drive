@@ -1,0 +1,542 @@
+{
+  "date": "2026-09-21T21:22:32.528Z",
+  "url": "http://127.0.0.1:5173/seventh/?review=1",
+  "cases": [
+    {
+      "name": "second-corner",
+      "expected": "118 2ND AVE",
+      "stats": {
+        "address": "118 2ND AVE",
+        "addressId": 241822156,
+        "addressVisible": true,
+        "buildings": 182,
+        "camera": 3,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 3,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            -192.609588623047,
+            22.1269245147705,
+            6.75610446929932
+          ],
+          "target": [
+            -200.209594726562,
+            0.126924127340317,
+            -8.24389553070068
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 0,
+        "drawCalls": 288,
+        "fps": 52,
+        "frames": 154,
+        "gear": 1,
+        "handbrake": false,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -219,
+          0.140104174613953,
+          -9
+        ],
+        "ready": true,
+        "rpm": 850,
+        "scale": 1,
+        "slipDegrees": 0,
+        "sound": false,
+        "speed": 0,
+        "started": true,
+        "tickMs": 8926,
+        "tireScrub": 0,
+        "triangles": 1124018,
+        "weather": 2,
+        "wetness": 1,
+        "yaw": -1.57079637050629
+      }
+    },
+    {
+      "name": "half-address",
+      "expected": "48 1/2 E 7TH ST",
+      "stats": {
+        "address": "48 1/2 E 7TH ST",
+        "addressId": 241829643,
+        "addressVisible": true,
+        "buildings": 182,
+        "camera": 3,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 3,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            -179.481857299805,
+            2.66707468032837,
+            9.01976585388184
+          ],
+          "target": [
+            -178.614593505859,
+            0.140146851539612,
+            8.43058490753174
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 0,
+        "drawCalls": 280,
+        "fps": 28,
+        "frames": 208,
+        "gear": 1,
+        "handbrake": false,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -180.001342773438,
+          0.140146106481552,
+          8.43646621704102
+        ],
+        "ready": true,
+        "rpm": 850,
+        "scale": 1,
+        "slipDegrees": 0,
+        "sound": false,
+        "speed": 0,
+        "started": true,
+        "tickMs": 10381,
+        "tireScrub": 0,
+        "triangles": 911266,
+        "weather": 2,
+        "wetness": 1,
+        "yaw": -1.57079637050629
+      }
+    },
+    {
+      "name": "south-property",
+      "expected": "50 E 7TH ST",
+      "stats": {
+        "address": "50 E 7TH ST",
+        "addressId": 241829575,
+        "addressVisible": true,
+        "buildings": 182,
+        "camera": 3,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 3,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            -169.474914550781,
+            2.65989565849304,
+            8.99861621856689
+          ],
+          "target": [
+            -168.604614257812,
+            0.140146866440773,
+            8.41473960876465
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 0,
+        "drawCalls": 274,
+        "fps": 40,
+        "frames": 264,
+        "gear": 1,
+        "handbrake": false,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -170.001220703125,
+          0.140146106481552,
+          8.41468715667725
+        ],
+        "ready": true,
+        "rpm": 850,
+        "scale": 1,
+        "slipDegrees": 0,
+        "sound": false,
+        "speed": 0,
+        "started": true,
+        "tickMs": 11897,
+        "tireScrub": 0,
+        "triangles": 875885,
+        "weather": 2,
+        "wetness": 1,
+        "yaw": -1.57079637050629
+      }
+    },
+    {
+      "name": "north-property",
+      "expected": "49 E 7TH ST",
+      "stats": {
+        "address": "49 E 7TH ST",
+        "addressId": 241822325,
+        "addressVisible": true,
+        "buildings": 182,
+        "camera": 3,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 3,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            -161.000335693359,
+            22.1393203735352,
+            6.00012111663818
+          ],
+          "target": [
+            -168.600021362305,
+            0.14010426402092,
+            -8.99930000305176
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 0,
+        "drawCalls": 303,
+        "fps": 21,
+        "frames": 334,
+        "gear": 1,
+        "handbrake": false,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -170,
+          0.140104174613953,
+          -9
+        ],
+        "ready": true,
+        "rpm": 850,
+        "scale": 1,
+        "slipDegrees": 0,
+        "sound": false,
+        "speed": 0,
+        "started": true,
+        "tickMs": 13713,
+        "tireScrub": 0,
+        "triangles": 1341858,
+        "weather": 2,
+        "wetness": 1,
+        "yaw": -1.57079637050629
+      }
+    },
+    {
+      "name": "big-bar",
+      "expected": "73-75 E 7TH ST",
+      "stats": {
+        "address": "73-75 E 7TH ST",
+        "addressId": -177966,
+        "addressVisible": true,
+        "buildings": 182,
+        "camera": 3,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 3,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            -66.0315170288086,
+            22.1401081085205,
+            9.99867343902588
+          ],
+          "target": [
+            -73.6315155029297,
+            0.140104502439499,
+            -5.00132703781128
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 0,
+        "drawCalls": 321,
+        "fps": 23,
+        "frames": 384,
+        "gear": 1,
+        "handbrake": false,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -75,
+          0.140104174613953,
+          -5
+        ],
+        "ready": true,
+        "rpm": 850,
+        "scale": 1,
+        "slipDegrees": 0,
+        "sound": false,
+        "speed": 0,
+        "started": true,
+        "tickMs": 15180,
+        "tireScrub": 0,
+        "triangles": 1670944,
+        "weather": 2,
+        "wetness": 1,
+        "yaw": -1.57079637050629
+      }
+    },
+    {
+      "name": "first-corner",
+      "expected": "115 1ST AVE",
+      "stats": {
+        "address": "115 1ST AVE",
+        "addressId": 241822226,
+        "addressVisible": true,
+        "buildings": 182,
+        "camera": 3,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 3,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            -2.99608373641968,
+            22.1401767730713,
+            6.12283611297607
+          ],
+          "target": [
+            -10.5960845947266,
+            0.140175744891167,
+            -8.87716388702393
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 0,
+        "drawCalls": 333,
+        "fps": 30,
+        "frames": 423,
+        "gear": 1,
+        "handbrake": false,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -10,
+          0.140104174613953,
+          -9
+        ],
+        "ready": true,
+        "rpm": 850,
+        "scale": 1,
+        "slipDegrees": 0,
+        "sound": false,
+        "speed": 0,
+        "started": true,
+        "tickMs": 16330,
+        "tireScrub": 0,
+        "triangles": 2464100,
+        "weather": 2,
+        "wetness": 1,
+        "yaw": -1.57079637050629
+      }
+    },
+    {
+      "name": "second-edge",
+      "expected": "",
+      "stats": {
+        "address": "",
+        "addressId": 0,
+        "addressVisible": false,
+        "buildings": 182,
+        "camera": 3,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 3,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            -216.789337158203,
+            21.9811840057373,
+            14.9912223815918
+          ],
+          "target": [
+            -224.389343261719,
+            -0.0188166312873363,
+            -0.00877733528614044
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 0,
+        "drawCalls": 273,
+        "fps": 43,
+        "frames": 479,
+        "gear": 1,
+        "handbrake": false,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -226,
+          -0.0190104097127914,
+          0
+        ],
+        "ready": true,
+        "rpm": 850,
+        "scale": 1,
+        "slipDegrees": 0,
+        "sound": false,
+        "speed": 0,
+        "started": true,
+        "tickMs": 17880,
+        "tireScrub": 0,
+        "triangles": 752908,
+        "weather": 2,
+        "wetness": 1,
+        "yaw": -1.57079637050629
+      }
+    },
+    {
+      "name": "first-edge",
+      "expected": "",
+      "stats": {
+        "address": "",
+        "addressId": 0,
+        "addressVisible": false,
+        "buildings": 182,
+        "camera": 3,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 3,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            5.99475479125977,
+            21.980993270874,
+            15
+          ],
+          "target": [
+            -1.60524535179138,
+            -0.0190095361322165,
+            6.11959407592622e-8
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 0,
+        "drawCalls": 341,
+        "fps": 29,
+        "frames": 551,
+        "gear": 1,
+        "handbrake": false,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -3,
+          -0.0190104097127914,
+          0
+        ],
+        "ready": true,
+        "rpm": 850,
+        "scale": 1,
+        "slipDegrees": 0,
+        "sound": false,
+        "speed": 0,
+        "started": true,
+        "tickMs": 19597,
+        "tireScrub": 0,
+        "triangles": 2802771,
+        "weather": 2,
+        "wetness": 1,
+        "yaw": -1.57079637050629
+      }
+    },
+    {
+      "name": "st-marks",
+      "expected": "",
+      "stats": {
+        "address": "",
+        "addressId": 0,
+        "addressVisible": false,
+        "buildings": 182,
+        "camera": 3,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 3,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            -162.983261108398,
+            17.4136161804199,
+            -66.5078964233398
+          ],
+          "target": [
+            -168.596176147461,
+            -0.0190095063298941,
+            -77.8982086181641
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 0,
+        "drawCalls": 304,
+        "fps": 45,
+        "frames": 606,
+        "gear": 1,
+        "handbrake": false,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -170,
+          -0.0190104097127914,
+          -77.9000015258789
+        ],
+        "ready": true,
+        "rpm": 850,
+        "scale": 1,
+        "slipDegrees": 0,
+        "sound": false,
+        "speed": 0,
+        "started": true,
+        "tickMs": 21030,
+        "tireScrub": 0,
+        "triangles": 1356209,
+        "weather": 2,
+        "wetness": 1,
+        "yaw": -1.57079637050629
+      }
+    }
+  ],
+  "branding": {
+    "title": "DriveAround.nyc — Seventh, slowly",
+    "description": "DriveAround.nyc — a little New York, at your own pace. An atmospheric browser driving study of First & Seventh in the East Village.",
+    "canvasLabel": "DriveAround.nyc. WASD or arrow keys to drive, S to brake or reverse, Space to handbrake and drift, C for cameras. Right-drag orbits, Shift plus right-drag or middle drag pans, mouse wheel zooms, V recenters the camera, T changes weather and Escape pauses."
+  }
+}

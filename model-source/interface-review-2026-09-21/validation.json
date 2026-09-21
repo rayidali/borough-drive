@@ -1,0 +1,29 @@
+{
+  "date": "2026-09-21T21:21:15.728389+00:00",
+  "finalPckSha256": "e091db30994a4fbe2d42cec5d190b727d17de8959dadc52df744153da8d48131",
+  "finalBuildTime": "2026-09-21T21:14:23.340Z",
+  "build": "pass; final normal local Godot export has no ERROR/WARNING log entries",
+  "seventhVerify": "pass, 14 package files / 82 source hashes / 182 buildings / 82 frontages",
+  "legacyVerify": "pass before final narrow HUD layout adjustment; legacy sources/assets unchanged",
+  "ui": {
+    "captures": 16,
+    "errors": [],
+    "widths": [
+      390,
+      640,
+      800,
+      1100,
+      1440
+    ],
+    "retina": [
+      1100,
+      800,
+      2
+    ]
+  },
+  "camera": "final package passed all four modes, car transform stability, recenter, pan release, paused input and drive during orbit",
+  "fullBrowser": "Passed on the preceding UI package, before narrow layout adjustment; exact hashes and results retained in browser.json",
+  "reviewRunnerNote": "A camera attempt hit a CDP Input.dispatchMouseEvent timeout before menu checks; a fresh-tab retry passed. An address attempt timed out on startup; inspection confirmed document.hidden=true with the recovery shell visible. An explicitly foregrounded repeat passed all nine cases. Both focused runners now bring the tab to front, and the camera readiness guard also waits for the loading overlay to hide. The input-timeout cause itself was not confirmed.",
+  "publication": "Local uncommitted UI candidate; earlier documentation only is on main.",
+  "address": "Final package passed all nine mapped-address/hide cases after explicitly foregrounding the review tab"
+}

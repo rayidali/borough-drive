@@ -35,6 +35,12 @@ try{
   await fs.copyFile(path.join(project,'assets/credits.txt'),path.join(stage,'credits.txt'));
   await fs.copyFile(path.join(root,'LICENSE'),path.join(stage,'LICENSE.txt'));
   await fs.copyFile(path.join(root,'model-source/fonts/OFL.txt'),path.join(stage,'DAMION-OFL.txt'));
+  // Keep the shell's identity/font assets local and in the verified package.
+  for(const [source,name] of [
+    ['assets/brand/drivearound-logo.png','drivearound-logo.png'],
+    ['assets/fonts/InterVariable.woff2','InterVariable.woff2'],
+    ['assets/fonts/INTER-OFL.txt','INTER-OFL.txt']
+  ])await fs.copyFile(path.join(project,source),path.join(stage,name));
   for(const name of ['index.html','godot-notices.txt']){
     const filename=path.join(stage,name);
     const text=(await fs.readFile(filename,'utf8')).replace(/[ \t]+$/gm,'').replace(/\n+$/,'\n');
@@ -55,7 +61,7 @@ try{
       if(entry.name.startsWith('.')||entry.name==='exports'||entry.name==='neighborhood')continue;
       const filename=path.join(directory,entry.name);
       if(entry.isDirectory())await sources(filename);
-      else if(/\.(gd|gdshader|tscn|godot|cfg|html|json|wav|txt|jpg|png|import)$/.test(entry.name)){
+      else if(/\.(gd|gdshader|tscn|godot|cfg|html|json|wav|txt|jpg|png|ttf|woff2|import)$/.test(entry.name)){
         manifest.sources[path.relative(root,filename)]=createHash('sha256').update(await fs.readFile(filename)).digest('hex');
       }
     }

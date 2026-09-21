@@ -1,0 +1,100 @@
+{
+  "source": "Actual local browser captures, not private user screenshots. before-intro is the preceding package. Recovery images use browser.json; all other images use the final build in interface-review.json.",
+  "captures": [
+    {
+      "path": "docs/images/interface-05/before-intro.png",
+      "sha256": "a305be05174ef36555b84e73340fe558d7c47cb5358fdd60bf30e287e658d92e",
+      "bytes": 1325071
+    },
+    {
+      "path": "docs/images/interface-05/download-recovery.png",
+      "sha256": "37df62e2871cb1e657a0dd0a952bb8db13c4757f255744debe640b0b4f875e8c",
+      "bytes": 184739
+    },
+    {
+      "path": "docs/images/interface-05/driving-desktop.png",
+      "sha256": "97f97ce5e363c1965e9808a6336b36ccea42df9c74e293cbc3f9f2a26d3d4e08",
+      "bytes": 1354847
+    },
+    {
+      "path": "docs/images/interface-05/driving-narrow.png",
+      "sha256": "ccc319d4e2c8cfc45143748a5b9875478cccaf5ab17655de45b35b9296c4ad88",
+      "bytes": 349192
+    },
+    {
+      "path": "docs/images/interface-05/driving-small.png",
+      "sha256": "658cf02bd68ade64c900b27e3627074886c741209c43e08161d678436b049b13",
+      "bytes": 508204
+    },
+    {
+      "path": "docs/images/interface-05/driving-weather-0.png",
+      "sha256": "fa2d0c9835a137b9a9168e198e5db870ba8f8de3ca8c8c9be001a98bf3267ba5",
+      "bytes": 1171340
+    },
+    {
+      "path": "docs/images/interface-05/driving-weather-1.png",
+      "sha256": "bc39d1d29d23cd14b83a7df13063bd4c04203a3bc05ef2d67e6686baa156a252",
+      "bytes": 1181254
+    },
+    {
+      "path": "docs/images/interface-05/graphics-recovery.png",
+      "sha256": "46a43b4130320ba95902593cb6f651c4da4c1314c32da786eefa3bbc67ad0e36",
+      "bytes": 181908
+    },
+    {
+      "path": "docs/images/interface-05/help-desktop.png",
+      "sha256": "a5a4c179b22ef2aadec5acc51b497f05fe8c11e9536666d8877d4b8c3bf14b9d",
+      "bytes": 1316280
+    },
+    {
+      "path": "docs/images/interface-05/help-narrow.png",
+      "sha256": "3ac046505e46262af99bdb279bdc65f842cde25756c290adc85f48549b90cd34",
+      "bytes": 273684
+    },
+    {
+      "path": "docs/images/interface-05/help-small.png",
+      "sha256": "a16a2d3911e0e9b6b748fa541de4dffd32740fbc2de2ffeb64a8ce0974ebb755",
+      "bytes": 452486
+    },
+    {
+      "path": "docs/images/interface-05/intro-desktop.png",
+      "sha256": "33b64a4343369652e0adad11fc9cb26c43603c7623c76cb12f1551e3bba6ce9a",
+      "bytes": 1320320
+    },
+    {
+      "path": "docs/images/interface-05/intro-medium.png",
+      "sha256": "09e4dc087160651b4d954c30226fbe5cfef8af7cb74bf7015aad6cb094ccf66e",
+      "bytes": 362991
+    },
+    {
+      "path": "docs/images/interface-05/intro-narrow.png",
+      "sha256": "119a5409d6dce28499167267b04c7e0f640d9f4a9e169c51ed0e06ffcdfc5300",
+      "bytes": 329813
+    },
+    {
+      "path": "docs/images/interface-05/intro-retina.png",
+      "sha256": "381ddc0cf0879c884d39097530b42411697bc19c9df6e68a21d01996ed3ef4ff",
+      "bytes": 2302463
+    },
+    {
+      "path": "docs/images/interface-05/intro-small.png",
+      "sha256": "5fce054923e6b20ffe7f79d5fc0a0bfcfd67947a56f55f5b69c0c625d77094d1",
+      "bytes": 491389
+    },
+    {
+      "path": "docs/images/interface-05/loading-desktop.png",
+      "sha256": "91f8f5d97e8b41777adf28c676709b38999522d1bb2c1eaa7b0754aef4475316",
+      "bytes": 174792
+    },
+    {
+      "path": "docs/images/interface-05/pause-desktop.png",
+      "sha256": "e694e5d1d2ed0396b73d396ca701f96b00e0b4635f4c54dab69c68e2b23f1f6c",
+      "bytes": 1333912
+    },
+    {
+      "path": "docs/images/interface-05/pause-small.png",
+      "sha256": "453513760727a541f24dc75bec875ae15fc5ef52314bec81665b1b29e40b7757",
+      "bytes": 472227
+    }
+  ]
+}

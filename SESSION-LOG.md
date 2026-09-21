@@ -10,6 +10,32 @@ git log --oneline -- CODEX-HANDOFF.md SESSION-LOG.md
 
 Checkpoint notes describe observed state, not a live monitor. Recheck local files, remote branches and deployment status when resuming. Keep necessary artifacts in the repository and record reproducible commands; temporary directories and old tool/process IDs are not durable checkpoints. Store no tokens, passwords or authentication cookies here.
 
+## 2026-09-21-04 — Compact lo-fi interface exported and reviewed locally
+
+**Recorded:** 2026-09-21T17:23:00-04:00 (America/New_York).
+**User objective and decisions:** Replace the oversized left intro/fonts/layout with restrained, professional indie-game lo-fi presentation. Bounded local UI implementation; no new modeling, music change or publication.
+**Completed work:** Compact launch/HUD/pause/controls layouts; local Inter/OFL and unchanged supplied logo; matching loading/retry shell and tab icon; responsive narrow layout; deterministic export/asset verification. [Report and screenshots](model-source/INTERFACE-PASS-05.md) preserve styling decisions and evidence. Review-runner readiness/foregrounding improved after observed automation stalls.
+**Gameplay/source baseline:** `main` and cached `origin/main` remain `d7546478a101d10e15c8a6f1ef46ed6c850dc052`; architectural gameplay source `d4fbafe9a6af4497de81e2220d31c878f930612e`, routing `bfbc8d764f838708f753a53de9b7f054101b45f0`. New UI is uncommitted. Final PCK SHA256 `e091db30994a4fbe2d42cec5d190b727d17de8959dadc52df744153da8d48131`.
+**Local changes:** Source/assets/export, two browser review helpers, evidence and linked Markdown. All 182 GLBs and original gameplay/audio/geography preserved. Both private screenshots remain unchanged/untracked. No unfinished build or reconstruction job.
+**Remote state:** No fetch, commit or push for this follow-up; earlier documentation is already published.
+**Deployment state:** UI candidate not deployed or checked live. Local root/direct/legacy and new asset routes match disk.
+**Validation:** Final clean native export and Seventh package/source verification passed; original `npm run verify` passed. Final UI captures at desktop/laptop/narrow/Retina sizes, keyboard help, all four camera modes/inspection/car stability and nine address cases passed. Broader driving/settings/postcard/12-weather-camera/retry suite passed before the last narrow-layout adjustment; exact package boundaries are documented. One camera transport timeout and one hidden address-tab startup timed out; fresh/foregrounded retries passed. [Validation index](model-source/interface-review-2026-09-21/validation.json).
+**Unresolved issues:** User aesthetic review remains; louder/longer music, dedicated small icon derivatives and legacy branding remain future work. No new photographic acceptance, full accessibility/mobile/browser matrix or measured UI performance improvement.
+**Next action:** Open the local root to review this UI; respond to the next bounded task. Do not automatically publish or restart street reconstruction.
+
+## 2026-09-21-03 — Interface redesign started from user screenshot
+
+**Recorded:** 2026-09-21T16:54:28-04:00 (America/New_York).
+**User objective and decisions:** Replace oversized left intro/fonts/layout with polished, restrained indie-game lo-fi UI; bounded local implementation now authorized.
+**Completed work:** Inspected the private screenshot and live code; captured a local before-view. Prepared coherent source HTML loading screen, bundled official Inter font/license and unchanged supplied logo, exporter asset/hash handling and font MIME types. Native HUD edit in progress.
+**Gameplay/source baseline:** `main` at `d7546478a101d10e15c8a6f1ef46ed6c850dc052`; gameplay/model baseline remains `d4fbafe…` and routing `bfbc8d7`.
+**Local changes:** UI/export/asset source changes uncommitted. Both private screenshots remain untracked/excluded. No model/road/audio changes.
+**Remote state:** No fetch/commit/push this UI follow-up.
+**Deployment state:** Not changed or rechecked; prior documentation publication remains historical.
+**Validation:** Source JS syntax/whitespace checks and before-capture complete. Native build, final visual/interaction and preservation verification pending.
+**Unresolved issues:** Candidate UI needs actual browser review and final build; no new fidelity or listening acceptance.
+**Next action:** Finish native HUD, build existing slice, review small/desktop layouts and interactions, save final evidence/checkpoint; no automatic publication.
+
 ## 2026-09-21-02 — Reconstruction guidance and original logo pushed to main
 
 **Recorded:** 2026-09-21T16:30:47-04:00 (America/New_York).

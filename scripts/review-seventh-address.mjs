@@ -32,7 +32,7 @@ const cases=[
 ];
 const report={date:new Date().toISOString(),url,cases:[],branding:{}};
 try{
-  await send('Page.enable');await send('Runtime.enable');await send('Emulation.setDeviceMetricsOverride',{width:1440,height:1000,deviceScaleFactor:1,mobile:false});
+  await send('Page.enable');await send('Page.bringToFront');await send('Runtime.enable');await send('Emulation.setDeviceMetricsOverride',{width:1440,height:1000,deviceScaleFactor:1,mobile:false});
   await send('Page.navigate',{url});await until('window.seventhStats?.ready && document.getElementById("loading").hidden');
   report.branding=await evaluate('({title:document.title,description:document.querySelector("meta[name=description]")?.content,canvasLabel:document.querySelector("#canvas")?.getAttribute("aria-label")})');
   assert(report.branding.title.includes('DriveAround.nyc'),'Seventh title should use the DriveAround.nyc brand');

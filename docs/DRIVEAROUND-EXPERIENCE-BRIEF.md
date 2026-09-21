@@ -1,6 +1,8 @@
 # DriveAround.nyc — brand and calm-driving experience brief
 
-Prepared September 21, 2026. **Planning only: no logo derivatives, website changes, audio changes, export or publication were made for this brief.** The user wants the supplied logo used thoughtfully throughout the website, including the favicon, a more professional and aesthetic experience, and better, more audible music with a calming lo-fi feel. They explicitly requested documentation before implementation.
+Prepared September 21, 2026 as a planning-only brief. The user subsequently requested a redesign of the oversized left intro, fonts and layout. That bounded local implementation is recorded in the [interface pass](../model-source/INTERFACE-PASS-05.md): compact launch/HUD/pause, bundled Inter, charcoal/sage palette, original logo in the interface and tab icon, and revised loading/retry presentation. Models and audio are unchanged. The supplied logo is reused without altering its source pixels; specially drawn small icons, social artwork and legacy branding remain future work.
+
+The initial request also calls for better, more audible music with a calming lo-fi feel. The audio specification below remains unimplemented. Read the current handoff rather than treating the historical baseline table as the new UI state.
 
 Read the [current handoff](../CODEX-HANDOFF.md) before starting. This brief records the future product work separately from street reconstruction. It does not authorize map expansion or alter the saved Seventh Street quality reference.
 
@@ -10,7 +12,7 @@ An unhurried evening drive through a recognizable New York neighborhood. The str
 
 Keep the established “Seventh, slowly.” chapter identity under the **DriveAround.nyc** product name. Retain the existing apricot car, muted blue-green/cream palette and golden/dusk/rain moods as the starting point. Improve visual consistency and sound balance before adding more decoration. The user's calm direction is not a request for extra moving grain, flashing effects, repeated notifications or a large landing page that delays playing.
 
-## Observed baseline
+## Historical baseline before the interface pass
 
 This is a source/document audit of checkout `e65e835` on `main`, with gameplay/model baseline `d4fbafe9a6af4497de81e2220d31c878f930612e` and routing fix `bfbc8d764f838708f753a53de9b7f054101b45f0`. No new browser session, performance run or listening review was performed.
 
@@ -105,4 +107,4 @@ For later shell-only work, keep template/exported HTML and `build.json` file byt
 5. **Evidence:** record exact candidate/source hashes, before/after UI captures, audio files/mix parameters and measured results with their environment. Label unperformed tests and subjective questions. Historical September reports do not test the new package.
 6. **Save:** update the current handoff and session log with actual local/commit/push/deployment states. Publishing and custom-domain connection require the user's later direction. Do not turn a successful local brand/audio review into an assertion of live deployment or new photographic fidelity.
 
-Next action remains the user's choice to implement this bounded brand/audio brief or to assign a small street reconstruction task using the accompanying reconstruction guidance. Nothing in this document starts either job automatically.
+Next work follows the user's review of the local interface candidate or another explicit bounded task. The music specification, remaining icon work and street reconstruction guidance do not start further jobs automatically.

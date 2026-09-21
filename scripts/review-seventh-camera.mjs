@@ -40,8 +40,8 @@ let sequence=0;
 async function command(value){const n=++sequence;await evaluate('window.seventhReviewCommand='+JSON.stringify({...value,sequence:n}));await until('window.seventhReviewAck==='+n,5000);await sleep(300);}
 const report={date:new Date().toISOString(),url,build,checks:{},modes:[]};
 try {
-  await send('Page.enable');await send('Runtime.enable');await send('Emulation.setDeviceMetricsOverride',{width:1440,height:1000,deviceScaleFactor:1,mobile:false});
-  await send('Page.navigate',{url});await until('window.seventhStats?.ready');
+  await send('Page.enable');await send('Page.bringToFront');await send('Runtime.enable');await send('Emulation.setDeviceMetricsOverride',{width:1440,height:1000,deviceScaleFactor:1,mobile:false});
+  await send('Page.navigate',{url});await until('window.seventhStats?.ready && document.getElementById("loading").hidden');
   const label=await evaluate('document.querySelector("#canvas")?.getAttribute("aria-label")||""');
   assert(label.includes('Shift plus right-drag')&&label.includes('mouse wheel')&&label.includes('V recenters'),'Shell must expose camera inspection controls');report.checks.controlLabel=true;
   // Mouse gestures before Start must not alter the camera on the intro menu.

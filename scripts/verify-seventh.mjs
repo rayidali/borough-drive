@@ -8,7 +8,7 @@ import assert from 'node:assert/strict';
 const root=fileURLToPath(new URL('../',import.meta.url));
 const digest=b=>createHash('sha256').update(b).digest('hex');
 const build=JSON.parse(await fs.readFile(path.join(root,'dist/seventh/build.json'),'utf8'));
-for(const required of ['index.html','index.js','index.wasm','index.pck','credits.txt','godot-notices.txt','LICENSE.txt','DAMION-OFL.txt'])assert(build.files[required],required);
+for(const required of ['index.html','index.js','index.wasm','index.pck','credits.txt','godot-notices.txt','LICENSE.txt','DAMION-OFL.txt','INTER-OFL.txt','InterVariable.woff2','drivearound-logo.png'])assert(build.files[required],required);
 for(const [name,record] of Object.entries(build.files)){
   const data=await fs.readFile(path.join(root,'dist/seventh',name));assert.equal(data.length,record.bytes,name);assert.equal(digest(data),record.sha256,name);
 }

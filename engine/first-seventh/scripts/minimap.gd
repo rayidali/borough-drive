@@ -2,10 +2,10 @@ extends Control
 
 var car: Node3D
 var elapsed = 0.0
-const INK = Color("dac8a9")
+const INK = Color("a8b3ad")
 
 func _ready():
-	custom_minimum_size = Vector2(200,92)
+	custom_minimum_size = Vector2(198,78)
 	mouse_filter = Control.MOUSE_FILTER_IGNORE
 
 func point(x: float, z: float) -> Vector2:
@@ -18,9 +18,9 @@ func _process(dt):
 		queue_redraw()
 
 func _draw():
-	var road = Color("738c88")
-	draw_rect(Rect2(point(-218,-73),point(-11,-5)-point(-218,-73)),Color("354c51"))
-	draw_rect(Rect2(point(11,-40),point(205,-5)-point(11,-40)),Color("354c51"))
+	var road = Color("aec4b5")
+	draw_rect(Rect2(point(-218,-73),point(-11,-5)-point(-218,-73)),Color("243536"))
+	draw_rect(Rect2(point(11,-40),point(205,-5)-point(11,-40)),Color("243536"))
 	for x in [-229,0]: draw_line(point(x,-119),point(x,57),road,4,true)
 	draw_line(point(214,-38),point(214,57),road,4,true)
 	draw_line(point(-269,-77.9),point(77,-77.9),road,2.5,true)
@@ -31,11 +31,11 @@ func _draw():
 	draw_string(font,Vector2(164,30),"AVE A",HORIZONTAL_ALIGNMENT_LEFT,-1,8,INK)
 	draw_string(font,Vector2(47,15),"ST MARKS",HORIZONTAL_ALIGNMENT_LEFT,-1,8,INK)
 	draw_string(font,Vector2(60,68),"SEVENTH STREET",HORIZONTAL_ALIGNMENT_LEFT,-1,8,INK)
-	draw_string(font,Vector2(185,85),"N ^",HORIZONTAL_ALIGNMENT_LEFT,-1,8,INK)
+	draw_string(font,Vector2(185,70),"N ^",HORIZONTAL_ALIGNMENT_LEFT,-1,8,INK)
 	if car:
 		var p = point(car.position.x,car.position.z)
-		draw_circle(p,6,Color(.95,.74,.54,.15))
+		draw_circle(p,6,Color(.68,.77,.71,.16))
 		var arrow = PackedVector2Array()
 		for vertex in [Vector2(0,-5),Vector2(3.4,4),Vector2(0,2),Vector2(-3.4,4)]:
 			arrow.append(vertex.rotated(-car.rotation.y)+p)
-		draw_colored_polygon(arrow,Color("ffe0a8"))
+		draw_colored_polygon(arrow,Color("f4f2eb"))

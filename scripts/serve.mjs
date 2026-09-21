@@ -18,6 +18,7 @@ const types = {
   '.gltf': 'model/gltf+json', '.png': 'image/png', '.jpg': 'image/jpeg',
   '.jpeg': 'image/jpeg', '.webp': 'image/webp', '.svg': 'image/svg+xml',
   '.ico': 'image/x-icon', '.hdr': 'application/octet-stream',
+  '.woff2': 'font/woff2', '.ttf': 'font/ttf',
   '.txt': 'text/plain; charset=utf-8', '.md': 'text/plain; charset=utf-8'
 };
 

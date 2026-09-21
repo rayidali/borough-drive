@@ -4,6 +4,8 @@ September 15, 2026. The user deferred a GPU machine and authorized proceeding wi
 
 Run `npm run dev` from the repository root and open **http://127.0.0.1:5173/** (the same build is also at `/seventh/`). All runtime assets are included in `dist/seventh/`; playing needs no Godot installation, backend, API key or GPU server. Desktop keyboard play is the tested target. The original ten-block game remains at `/index.html` in the deployed site. Vercel root promotion is configured in `vercel.json`.
 
+**September 21 local interface pass:** a compact bottom launch panel replaces the oversized left introduction. The loading screen, HUD and pause menu use bundled Inter, charcoal/sage surfaces and the supplied logo. Start/Enter begins; Escape → Controls reveals the full input guide. UI pixels follow the actual browser viewport so labels stay readable on a small laptop; the existing Retina rendering cap remains. [Interface report and actual browser evidence](../../model-source/INTERFACE-PASS-05.md). Architecture remains revision 04; no model or audio source changed. Publication status is recorded separately in the [handoff](../../CODEX-HANDOFF.md).
+
 On the bounded East 7th Street run between First and Second Avenues, the HUD places the nearest mapped frontage address beside the speedometer. It follows the authored footprint edges in `assets/slice.json`, holds changes briefly at frontage boundaries and hides the address at intersections, on other streets or when the vehicle heading is not aligned with Seventh.
 
 | Action | Control |
@@ -15,6 +17,7 @@ On the bounded East 7th Street run between First and Second Avenues, the HUD pla
 | Camera inspection | Right-drag orbit/look · Shift + right-drag or middle-drag pan around the car and up toward roofs · wheel zoom |
 | Golden hour → dusk → rain | T or weather buttons |
 | Pause / resume | Escape; switching tabs also pauses |
+| Full keyboard/mouse guide | Escape, then Controls; Tab navigates pause actions |
 | Return to First & Seventh | R |
 | Recenter camera inspection | V (keeps the selected camera mode) |
 | Engine, music and ambience | M or Sound button |
