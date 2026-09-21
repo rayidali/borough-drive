@@ -10,6 +10,19 @@ git log --oneline -- CODEX-HANDOFF.md SESSION-LOG.md
 
 Checkpoint notes describe observed state, not a live monitor. Recheck local files, remote branches and deployment status when resuming. Keep necessary artifacts in the repository and record reproducible commands; temporary directories and old tool/process IDs are not durable checkpoints. Store no tokens, passwords or authentication cookies here.
 
+## 2026-09-21-01 — Portable Seventh-quality skill and future experience brief
+
+**Recorded:** 2026-09-21T16:26:15-04:00 (America/New_York).
+**User objective and decisions:** Documentation only before any implementation. Use the current Seventh build as the visual reference for future streets and make the method reusable by lower-effort models. Record the supplied logo, favicon/site polish and louder, better, calming lo-fi audio for later work. No next street or deployment requested.
+**Completed work:** Created [portable skill](model-source/skills/reconstruct-street/SKILL.md) with detailed visual/reference/review guidance, current source/build adapter and small worker/reviewer templates; created [experience brief](docs/DRIVEAROUND-EXPERIENCE-BRIEF.md). Source and saved-capture inspection informed the instructions. Updated discoverability and current checkpoints while preserving historical records. Corrected current documentation about `build.json.sourceCommit`: it is an inherited geographic baseline, not checkout HEAD.
+**Gameplay/source baseline:** Unchanged `d4fbafe9a6af4497de81e2220d31c878f930612e`; routing `bfbc8d764f838708f753a53de9b7f054101b45f0`. Session-start `main`/cached `origin/main`: `e65e8356f2c75f11fba5f511a0c3cea77c026dac`.
+**Local changes:** Uncommitted Markdown only; skill/reference documents and future experience brief are new. User logo and private screenshot remain unchanged/untracked. No unfinished implementation/export/media/background job.
+**Remote state:** No fetch, commit or push; cached remote only inspected.
+**Deployment state:** Not checked or changed. Last recorded live root/legacy verification remains September 15 for `bfbc8d7` at `https://borough-drive.vercel.app/`; domain connection not rechecked.
+**Validation:** Skill validator passed; 347 relative paths across 15 changed/new Markdown files resolve; whitespace and documentation-only diff checks pass; original logo/private screenshot hashes unchanged. Independent source and brand/audio audits, selected existing game-image inspection and a fresh-context hypothetical planning review completed. The planning exercise identified initial-packet/corner-boundary guidance now incorporated; it is not a new street or cheaper-model reconstruction/cost evaluation. No game/performance/listening/export tests rerun for this documentation task.
+**Unresolved issues:** No skill can guarantee every cheaper model reproduces the result; qualification and actual cost/repair measurement remain future work. No new photographic acceptance: 39 source/elevation reviews, zero calibrated multi-view passes. New streets need explicit export/runtime/review adaptation. Branding/music proposals have not been implemented or auditioned.
+**Next action:** Follow the user's next bounded implementation or planning instruction. Do not automatically run a street, branding/audio job, paid pipeline or publication.
+
 ## 2026-09-15-11 — Root route and failed jobs fixed and live
 
 **Recorded:** 2026-09-15T17:41:00+00:00.

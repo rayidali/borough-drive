@@ -1,5 +1,7 @@
 # Browser-first block workflow — September 12 continuation
 
+**September 21 entry point:** use the [portable Seventh-quality skill](skills/reconstruct-street/SKILL.md) for the current user-endorsed visual reference and model-independent worker/reviewer instructions. The document below remains the historical offline-planner proposal; its implementation, imagery and price/model status have not been refreshed. The new skill is documentation, not an implemented coordinator or an instruction to run this backlog. See the [current handoff](../CODEX-HANDOFF.md).
+
 The user chose smooth browser exploration, deferred Unreal, and asked for a repeatable process that can reproduce the First & 7th standard across the existing map using cheaper AI workers. Current [corner pass 08](FIRST-SEVENTH-PASS-08.md) is the visual reference; [browser pass 09](BROWSER-PASS-09.md) improves its presentation and runtime. This document specifies the next production process. It does not claim the wider map has been upgraded or that an AI batch has run.
 
 ## Current decision and missing coordinator

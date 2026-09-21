@@ -1,12 +1,12 @@
 # Run DriveAround.nyc locally
 
-**September 15 closing checkpoint:** revision 04 is saved locally; the latest follow-up clarified [what passing 1:1 requires](model-source/SEVENTH-FIDELITY-BENCHMARK.md#what-passing-11-means-in-this-project) and updated the [handoff](CODEX-HANDOFF.md). All 39 block records have source/elevation review; none has passed calibrated multi-view acceptance. Remaining work includes real modeling corrections. No further fidelity job or deployment was started; resume with the user's next direction. Start the included game with `npm run dev` as below.
+**September 21 checkpoint — documentation only:** the user endorses current Seventh Street quality as the visual reference for future streets and asked for reusable instructions before implementation. Start with the [portable reconstruction skill](model-source/skills/reconstruct-street/SKILL.md); it includes detailed quality checks, source/build guidance and small worker/reviewer templates for any assistant. The [future experience brief](docs/DRIVEAROUND-EXPERIENCE-BRIEF.md) covers the supplied logo, favicon/site polish and louder, calming lo-fi music. No game, logo, sound or model changes were made. No next street is assigned. Follow the [handoff](CODEX-HANDOFF.md) and the user’s next instruction.
 
-**Current local revision 04:** the Seventh build is now the Vercel root route (`/`) and remains directly available at `/seventh/`. It has DriveAround.nyc branding, a live address label on the First–Second block, photo-guided corrections to that block and camera movement independent of the car. Right-drag to orbit/look, Shift + right-drag or middle-drag to pan up toward roofs, wheel to zoom, and V to recenter the camera. C still selects the driving view. The legacy ten-block game remains available at `/index.html`. The existing drift, sound, weather and full Seventh-through-Avenue-A route remain. See [controls/rebuild](engine/first-seventh/README.md), [revision 04 evidence and limits](model-source/SEVENTH-ENGINE-04.md), [fidelity benchmark](model-source/SEVENTH-FIDELITY-BENCHMARK.md) and [current handoff](CODEX-HANDOFF.md) for the exact save/test state. This is local and unpublished; the domain has not been connected in this session and the block is not certified 1:1.
+**Current revision 04:** the Seventh build uses the Vercel root route (`/`) and remains directly available at `/seventh/`; root publication was last verified September 15. It has DriveAround.nyc text branding, a live address label on the First–Second block, photo-guided corrections and camera movement independent of the car. Right-drag to orbit/look, Shift + right-drag or middle-drag to pan up toward roofs, wheel to zoom, and V to recenter the camera. C selects the driving view. The legacy ten-block game remains available at `/index.html`. Drift, sound, weather and the full Seventh-through-Avenue-A route remain. See [controls/rebuild](engine/first-seventh/README.md), [revision 04 evidence and limits](model-source/SEVENTH-ENGINE-04.md), [fidelity benchmark](model-source/SEVENTH-FIDELITY-BENCHMARK.md) and [current handoff](CODEX-HANDOFF.md) for exact save/test states. Production and custom-domain status were not rechecked September 21; the block is not certified 1:1.
 
 The repository includes the active ten-block game, exported models, textures, reference data, and editable source recipes. You can play without rebuilding anything.
 
-**Initial September 14 slice:** The user deferred a GPU machine and authorized implementation with available hardware. A playable Godot browser slice is at **http://127.0.0.1:5173/seventh/** after `npm run dev`. WASD/arrows drive, C cycles four cameras and T changes weather. [Controls and rebuild](engine/first-seventh/README.md), [initial review](model-source/SEVENTH-ENGINE-01.md) and [current handoff](CODEX-HANDOFF.md). The existing ten-block game remains at `/`. All runtime files are included; no GPU rental, paid server, push or deployment has occurred. Wider reconstruction and autonomous imagery work remain deferred.
+**Historical initial September 14 slice:** The user deferred a GPU machine and authorized implementation with available hardware. The Godot slice ran at `/seventh/` while the ten-block game then occupied `/`; September 15 routing superseded that arrangement. WASD/arrows drive, C cycles four cameras and T changes weather. [Controls and rebuild](engine/first-seventh/README.md), [initial review](model-source/SEVENTH-ENGINE-01.md). Runtime files are included; wider reconstruction and autonomous imagery work remain deferred to explicit future tasks.
 
 ## Previous resume state — September 12, 2026
 
@@ -42,6 +42,8 @@ python3 -m http.server 5173 --bind 127.0.0.1 --directory dist
 
 On Windows, use `py` in place of `python3` if needed.
 
+This basic Python server does not apply the project’s rewrites: open **http://127.0.0.1:5173/seventh/** for Seventh and **http://127.0.0.1:5173/legacy.html** for the original game. Use `npm run dev` to reproduce the deployed `/` and `/index.html` routes.
+
 ## Host on Vercel
 
 The existing project connects [rayidali/borough-drive](https://github.com/rayidali/borough-drive) to [borough-drive.vercel.app](https://borough-drive.vercel.app), deploying from `main`. Use that setup when continuing this project. For a separate fork, import its GitHub repository and leave **Root Directory** at the repository root (the default). The checked-in [vercel.json](vercel.json) selects the **Other** framework preset, skips installation and building, and serves **`dist/`** as the website. The game is available at `/` on the deployed domain.
@@ -51,6 +53,8 @@ Do not use `npm run dev` or `npm start` as a Vercel build command: those command
 If an earlier deployment shows `404: NOT_FOUND`, deploy the latest commit containing `vercel.json` and check that the project's Root Directory is still the repository root. Redeploying an older commit will retain its old configuration.
 
 ## Controls
+
+For the default Seventh game, use the [current driving/camera controls](engine/first-seventh/README.md). The following controls apply to the preserved **legacy game at `/index.html`**:
 
 - On foot: W/A/S/D to move, drag to look, Q/E to turn.
 - Click **Drive**: W to accelerate, S to brake and then reverse, A/D to steer, Space to brake.
@@ -74,7 +78,7 @@ If an earlier deployment shows `404: NOT_FOUND`, deploy the latest commit contai
 
 For a new session, open this repository and start with the current checkpoint in [CODEX-HANDOFF.md](CODEX-HANDOFF.md) and the latest entry in [SESSION-LOG.md](SESSION-LOG.md). The log records completed work, the exact gameplay commit, publishing status, unfinished work and next steps. [AGENTS.md](AGENTS.md) instructs coding agents to read and maintain these records as they work.
 
-A useful opening message is: **"Read AGENTS.md, CODEX-HANDOFF.md and the latest SESSION-LOG.md entry, inspect Git and publication state, and preserve the accepted neighborhood. Read the Seventh engine review and resume from my feedback on the local browser slice. Keep wider reconstruction and paid jobs deferred."** Add your review or next task.
+A useful opening message is: **“Read AGENTS.md, CODEX-HANDOFF.md and `model-source/skills/reconstruct-street/SKILL.md`. Plan [street, from intersection, to intersection] to our Seventh visual standard, both sides and street details. Prepare the inventory and first bounded packet; do not implement or publish yet.”** Replace the bracketed scope and planning instruction with your actual next task. For branding/music work, point instead to [the experience brief](docs/DRIVEAROUND-EXPERIENCE-BRIEF.md).
 
 Read [CONTRIBUTING.md](CONTRIBUTING.md) and [model-source/NEIGHBORHOOD-NOTES.md](model-source/NEIGHBORHOOD-NOTES.md) before substantial changes. The deployed root entry point is `dist/seventh/index.html`; `dist/legacy.html` preserves the original ten-block game and `dist/prototype.html` preserves the earlier experiment.
 

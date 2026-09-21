@@ -7,6 +7,10 @@ The original September 14 scope covered 82 frontages. The user's requirement is 
 
 This document defines the acceptance target. Revision 03 is a **candidate reconstruction under review**, not 82 accepted replicas. The working comparison pair is **50 and 48½ East 7th Street**, identified from the user's April 2026 Street View comparison. The earlier accepted First & Seventh corner remains a minimum to preserve; its acceptance does not automatically extend to the new street or to this stricter target. See [current checkpoint](../CODEX-HANDOFF.md) for the authorized next action and actual save state.
 
+## September 21 visual-reference endorsement
+
+The user now endorses the current Seventh build's quality as the reference for future streets and requests reusable instructions **before any implementation**. The [portable reconstruction skill](skills/reconstruct-street/SKILL.md) translates that visual direction into bounded work packets and detailed review gates. This supersedes earlier wording that no current visual reference can be used for cheaper-model work. It does not accept every individual feature, approve the numerical photographic thresholds below or establish calibrated multi-view acceptance. Future authorized work can use revision 04 as its visual standard while retaining the stricter 1:1 target and explicit unresolved details. No worker-model cost/quality qualification has run.
+
 ## What passing 1:1 means in this project
 
 **September 15 clarification:** “certified 1:1” has been used as shorthand for passing this project's documented photographic acceptance checks. It is not an external certification or a measured survey. Revision 04 has **39/39 source-view reviews and game-elevation reviews, but 0/39 calibrated multi-view passes and 0/39 certified records** in [the coverage ledger](west-seventh-coverage-04.json). Some dimensions, access details, ornament, material scale and letterforms still need actual model corrections. Additional screenshots or paperwork alone cannot complete the block.

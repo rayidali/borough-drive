@@ -15,13 +15,15 @@ Walk and drive through ten connected East Village blocks, reconstructed from map
 
 </div>
 
-## New local driving study: Seventh, slowly.
+## Current driving study: Seventh, slowly.
 
 The September 14 Godot browser slice adds an authored apricot coupe, chase/hood/cockpit/overhead views, golden hour/dusk/rain, a small route map, original lofi audio and downloadable postcards around First & Seventh. Run `npm run dev` and open **http://127.0.0.1:5173/**; the same build remains at `/seventh/`. The legacy ten-block game is available at `/index.html`. Revision 02 adds grip-based drifting, RPM/gear-driven sound, all of Seventh Street through Avenue A, textured masonry, individually detailed shop layouts, branching leaf trees and street furniture. Use WASD/arrows to drive, **S to brake/reverse**, **Space to handbrake**, C for cameras and T for weather. During play, right-drag orbits, Shift + right-drag or middle-drag pans, the wheel zooms, and V recenters the selected camera. Revision 03 corrects individual window/door/access layouts, including the 50/48½ church-house and shop comparison, with a stricter photographic fidelity benchmark. Revision 04 concentrates on the First–Second block, with dated basement/entry/storefront/material and street-feature corrections, a live address label and independent camera movement. The street remains a candidate reconstruction awaiting full photographic acceptance. The export is included and runs on the player's device without a GPU server.
 
 [Controls and rebuild](engine/first-seventh/README.md) · [Current review and limits](model-source/SEVENTH-ENGINE-04.md) · [Architectural benchmark](model-source/SEVENTH-FIDELITY-BENCHMARK.md) · [Current local/push/deployment state](CODEX-HANDOFF.md)
 
-The existing public ten-block game described below remains intact. The new slice is local and unpublished; the eventual 500-user goal is not a tested capacity claim.
+The original ten-block game described below remains intact at `/index.html`. Seventh was last verified live at the Vercel root on September 15; production was not rechecked during the September 21 documentation session. The eventual 500-user goal is not a tested capacity claim.
+
+**September 21 — reusable instructions, no implementation:** the user endorses Seventh as the visual reference for future streets. The [portable reconstruction skill](model-source/skills/reconstruct-street/SKILL.md) gives any assistant a detailed feature checklist, source/build guidance and small worker/reviewer templates. The [future experience brief](docs/DRIVEAROUND-EXPERIENCE-BRIEF.md) records the supplied logo, favicon/site polish and louder, calmer lo-fi music. These documents do not start another street, change the game or certify photographic 1:1 accuracy.
 
 ![Seventh slowly browser driving game, with the apricot car driving along Seventh Street in golden hour](docs/images/seventh-engine-03/browser/seventh-east-0.png)
 
