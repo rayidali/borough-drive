@@ -1,6 +1,19 @@
 # Borough Drive: continuation context
 
-## Current checkpoint — September 21, 2026: portable reconstruction skill and experience brief
+## Current checkpoint — September 21, 2026: reconstruction guidance pushed to main
+
+Recorded **2026-09-21T16:30:47-04:00** (America/New_York). The user explicitly requested **“push it to main”** after the documentation-only work below. Publication of the prepared guidance is complete; implementation remains deferred.
+
+- **Published save:** `180ebccc8e06c030388c0e662cdc37fd93bc3ad6` on `main`/`origin/main`, containing 15 Markdown files and the original unchanged logo source asset. Includes the [portable skill](model-source/skills/reconstruct-street/SKILL.md), [experience brief](docs/DRIVEAROUND-EXPERIENCE-BRIEF.md), linked instructions and provenance corrections. The logo is tracked so a fresh checkout retains the brief's source image. Private screenshot remains untracked/excluded and unchanged.
+- **Gameplay/source baseline:** unchanged `d4fbafe9a6af4497de81e2220d31c878f930612e`; runtime/routing baseline `bfbc8d764f838708f753a53de9b7f054101b45f0`. No `dist/`, model, runtime script, audio or exported game byte changed. Saving the source logo does not integrate it into the website.
+- **Git:** fetched the existing origin and confirmed no divergence before committing; push `e65e835..180ebcc` succeeded. This publication checkpoint follows in a separate documentation commit; obtain its own hash and push state from Git history/status rather than amending it to contain itself.
+- **Checks:** skill validator and committed whitespace checks pass. Independent publication audit found no broken tracked link or credential-pattern match. Logo SHA256 remains `9156dec61cc0ab10adb5b471e7f80d77d4e79102c2a4069e09227f93462f5448`; private screenshot remains `a182ce14205d2c4d6125f5f332b80ff643b77b56f0117678e7a2d83541fd652d`. GitHub [verification run](https://github.com/rayidali/borough-drive/actions/runs/35651413773) for `180ebcc`: Node.js 22 and Node.js 24 both passed; the run completed successfully. No local game rebuild or new visual/performance/listening assessment was needed or run.
+- **Deployment:** Vercel reports [success for `180ebcc`](https://vercel.com/rayidalis-projects/borough-drive/CmJTcu9UHznb9nJzGvHs9BXeHzVb). Live HTTPS checks confirm `/` exactly matches `dist/seventh/index.html` and `/index.html` exactly matches `dist/legacy.html`. Root SHA256 `3b6cdbc901933ecf5607c82a44f6426fa2e81c6e84fc481ca51a2d5809aaccca`; legacy SHA256 `ad8fa5a259fea000caa0a463ce636ce5004dad5641d4c9f324930acdaacbb908`. Python's local certificate setup failed initially; system curl completed both checks with TLS verification enabled. No DNS/custom-domain change or check.
+- **Remaining scope:** the skill is ready to use as Markdown; brand/favicon/music work and the next street are unimplemented. Visual endorsement, zero calibrated multi-view acceptance and unmeasured cheaper-model cost/quality retain the preceding checkpoint's distinctions.
+
+**Next concrete step:** follow the user's next bounded task using the skill or experience brief. Do not start implementation, reference acquisition or background jobs from this publication request.
+
+## Previous checkpoint — September 21, 2026: portable reconstruction skill and experience brief
 
 Recorded **2026-09-21T16:26:15-04:00** (America/New_York), documentation-only session. The user says the current Seventh Street quality is a good model for the wider project, wants reusable instructions so lower-effort models can reproduce that attention to detail, and explicitly asks **not to implement anything yet**. They supplied `drivearoundnyclogo.png` and want future branding/favicon/site polish plus louder, better, calming lo-fi music. No next street is assigned.
 

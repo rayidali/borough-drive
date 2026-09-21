@@ -10,6 +10,19 @@ git log --oneline -- CODEX-HANDOFF.md SESSION-LOG.md
 
 Checkpoint notes describe observed state, not a live monitor. Recheck local files, remote branches and deployment status when resuming. Keep necessary artifacts in the repository and record reproducible commands; temporary directories and old tool/process IDs are not durable checkpoints. Store no tokens, passwords or authentication cookies here.
 
+## 2026-09-21-02 — Reconstruction guidance and original logo pushed to main
+
+**Recorded:** 2026-09-21T16:30:47-04:00 (America/New_York).
+**User objective and decisions:** Push the prepared work to `main`. Publication is authorized; implementation of the branding/audio brief or another street is not requested.
+**Completed work:** Saved and pushed the portable reconstruction skill, experience brief, linked Markdown updates and original unchanged logo. Source logo inclusion makes the brief usable from a fresh checkout; it is not a website integration. Private screenshot remains local/untracked.
+**Gameplay/source baseline:** Unchanged gameplay `d4fbafe9a6af4497de81e2220d31c878f930612e` and routing/runtime `bfbc8d764f838708f753a53de9b7f054101b45f0`. Documentation/source-logo save: `180ebccc8e06c030388c0e662cdc37fd93bc3ad6`, branch `main`.
+**Local changes:** Prepared work committed; this checkpoint follows separately. No runtime/model/audio/export changes or background jobs. Only the private screenshot remains unrelated/untracked.
+**Remote state:** Fetched origin, confirmed no incoming/divergent work, then pushed `e65e835..180ebcc` to `origin/main`. Identify this following checkpoint's own revision/push state through Git history/status.
+**Deployment state:** Vercel success for `180ebcc`; live root and legacy shells match tracked bytes exactly over HTTPS. No domain/DNS work. Detailed hashes and deployment link are in the current handoff.
+**Validation:** Skill/whitespace checks and independent publication audit pass; all checked relative links resolve to tracked files, no credential-pattern matches, original input hashes preserved. GitHub Actions Node.js 22 and Node.js 24 both passed for `180ebcc`. System curl verified both routes after Python's local certificate failure. No new local game build, visual/performance or listening check.
+**Unresolved issues:** None for the prepared-content push. No new fidelity acceptance or cheaper-model cost qualification; branding/audio remain planned.
+**Next action:** Resume from the user's next bounded instruction; no implementation or autonomous pipeline starts from publishing the guidance.
+
 ## 2026-09-21-01 — Portable Seventh-quality skill and future experience brief
 
 **Recorded:** 2026-09-21T16:26:15-04:00 (America/New_York).
