@@ -59,6 +59,10 @@ async function capture(name,details){const result=await send('Page.captureScreen
 try{
   await send('Runtime.enable');await send('Network.enable');await send('Page.enable');
   await send('Emulation.setDeviceMetricsOverride',{width:640,height:640,deviceScaleFactor:1,mobile:false});
+  // Keep this isolated diagnostic visible/focused while the reviewer inspects sources.
+  // User-facing focus-loss behavior is checked separately by review-seventh.mjs.
+  await send('Emulation.setFocusEmulationEnabled',{enabled:true});
+  await send('Page.bringToFront');
   await send('Page.navigate',{url:'http://127.0.0.1:5173/seventh/?review=1'});
   await until('window.seventhStats?.ready && document.getElementById("loading")?.hidden');
   await send('Input.dispatchKeyEvent',{type:'keyDown',key:'Enter',code:'Enter',windowsVirtualKeyCode:13});
@@ -105,7 +109,7 @@ try{
       if(filter&&!filter.includes(r.id))continue;
       await command({type:'frontage',id:r.id,close:false,along:.5,span:1});
       await capture('frontage-'+r.id+'-elevation',{buildingId:r.id,address:r.address,span:1,along:.5,
-        projection:'orthographic whole elevation; not matched to a photograph',source:'west-seventh-reference-04'});
+        projection:'orthographic whole elevation; not matched to a photograph',source:ledgerPath});
       const length=Math.max(0.01,Number(r.frontage?.length||r.length||0));
       const span=Math.min(1,9/length);
       const step=span*.8;
@@ -122,7 +126,7 @@ try{
       for(let i=0;i<centers.length;i++){
         await command({type:'frontage',id:r.id,close:true,along:centers[i],span});
         await capture('frontage-'+r.id+'-perspective-'+(i+1),{buildingId:r.id,address:r.address,span,along:centers[i],overlap:.2,
-          projection:'perspective street subview; not matched to a photograph',source:'west-seventh-reference-04'});
+          projection:'perspective street subview; not matched to a photograph',source:ledgerPath});
       }
     }
   }else{

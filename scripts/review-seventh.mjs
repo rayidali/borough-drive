@@ -95,6 +95,23 @@ try {
     await key('w',true);await sample(`weather-${mood}-seventh-west`,8);await key('w',false);
     await screenshot(`seventh-west-${mood}`);
   }
+  // Cover the complete newly refined First–A block in both directions.
+  // The older cross-street samples only reach part of this block.
+  report.checks.eastBlockRoutes=[];
+  for(let mood=0;mood<3;mood++){
+    while((await stats()).weather!==mood)await tap('t');await sleep(5000);
+    for(const direction of ['east','west']){
+      await command({type:'pose',x:direction==='east'?16:203,z:0,yaw:direction==='east'?-Math.PI/2:Math.PI/2});
+      const before=await stats();
+      await key('w',true);await sample(`east-block-${mood}-${direction}`,10.5);await key('w',false);
+      const after=await stats();
+      assert.equal(after.collisions,before.collisions,'Full east-block route must clear building collision');
+      assert(direction==='east'?after.position[0]>185:after.position[0]<35,'Route must traverse the entire requested block');
+      report.checks.eastBlockRoutes.push({weather:mood,direction,start:before.position,end:after.position,contacts:after.collisions-before.collisions});
+      await command({type:'pose',x:direction==='east'?76:143,z:0,yaw:direction==='east'?-Math.PI/2:Math.PI/2});
+      await screenshot(`east-block-${mood}-${direction}`);
+    }
+  }
   await tap('r');
   await tap('Escape');const stopped=await stats();await hold('w',800);assert.equal((await stats()).paused,true);assert(Math.hypot((await stats()).position[0]-stopped.position[0],(await stats()).position[2]-stopped.position[2])<.1);await screenshot('pause');await tap('Escape');report.checks.pause=true;
   await tap('r');await sleep(500);assert(Math.abs((await stats()).speed)<.1);assert(Math.abs((await stats()).position[2]-8)<.1);report.checks.reset=true;
@@ -111,8 +128,12 @@ try {
   await send('Emulation.setDeviceMetricsOverride',{...report.viewport,mobile:false});
   report.checks.resize=true;
   const elsewhere=await send('Target.createTarget',{url:'about:blank'});
-  await send('Target.activateTarget',{targetId:elsewhere.targetId});await sleep(600);
-  await send('Target.activateTarget',{targetId:tab.id});await sleep(600);
+  await send('Target.activateTarget',{targetId:elsewhere.targetId});
+  await until('document.visibilityState === "hidden"',5000);await sleep(600);
+  await send('Target.activateTarget',{targetId:tab.id});
+  // Hidden tabs may defer the engine frame publishing pause telemetry. Wait
+  // for the real state after returning rather than assuming a fixed 600 ms.
+  await until('document.visibilityState === "visible" && window.seventhStats?.paused === true',5000);
   assert.equal((await stats()).paused,true,'Switching tabs safely pauses driving');
   await send('Target.closeTarget',{targetId:elsewhere.targetId});await tap('Escape');
   report.checks.focusLoss=true;

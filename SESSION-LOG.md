@@ -10,6 +10,49 @@ git log --oneline -- CODEX-HANDOFF.md SESSION-LOG.md
 
 Checkpoint notes describe observed state, not a live monitor. Recheck local files, remote branches and deployment status when resuming. Keep necessary artifacts in the repository and record reproducible commands; temporary directories and old tool/process IDs are not durable checkpoints. Store no tokens, passwords or authentication cookies here.
 
+## 2026-09-21-10 — First Avenue–Avenue A public-reference candidate complete locally
+
+**Recorded:** 2026-09-22T03:08:17.395951+00:00 (September 21 local).
+**User objective and decisions:** Implement both sides of this Seventh block to the endorsed west-block quality. Finish with public references after Street View billing denial; zero image requests from the authorized maximum 40. No publication.
+**Completed work:** Thirty-three refined models across 35 editable + two protected frontages, both churches/McKinley, distinct residential/shop access and corner returns, corrected identities and east address HUD. Full inventory, observations, 89 final facade/ground captures + four obliques, browser evidence, report and skill/entry-point updates saved. Fixed partial-rebuild review heights and verified full/partial manifest equality.
+**Gameplay/source baseline:** `f2bf1bf486ff1db0f28c3bc28be5c3aca5ad6a42`; local branch `feature/east-seventh-fidelity-06`. Implementation commit is being saved after these checks; following checkpoint supplies the exact source hash.
+**Local changes:** Final required browser export and reproducible recipes included. PCK `600c609cfb9bb17267e0668bcf9729c46ef0db2fd4f442758461688c0aa56432`, 88,153,136 bytes. No pending model/export/runtime check. Both private screenshots unchanged and excluded.
+**Remote state:** Not pushed, remote not fetched. **Deployment state:** No deployment or live recheck; published interface/revision 04 remains the prior verified baseline.
+**Validation:** Original/Seventh verification, native handling/address/cameras, 17 final browser address cases, four-POV camera inspection, full driving/weather/settings/pause/postcard/recovery pass. Six complete east-block routes have zero contacts. Final nine performance samples 59.75–60.03 FPS at scale 1, versus 59.00–60.04 baseline; ready 5.873→5.579 s on local M1/8 GiB, Chromium 153, 1440×1000 DPR 1. All 147 protected/out-of-scope models unchanged. Visual/full behavior used PCK `c29296a…b3cc9`; final metadata-only export retains identical geometry/runtime code, with final performance/address/package checks on `600c609…56432`. [Exact boundaries and evidence](model-source/east-seventh-review-06/validation.json).
+**Unresolved issues:** Current 108 site, street-fixture/temporary-condition placement, some occluded/current tenant details, measurements and calibrated review remain open. Zero calibrated multi-view passes; source counts and successful tests are not photographic acceptance.
+**Next action:** User review of the local candidate, then a specific evidence-backed correction if requested. Do not automatically publish, retry paid references, expand streets, or alter music/UI. [Report](model-source/SEVENTH-ENGINE-06.md).
+
+## 2026-09-21-09 — Final east-block geometry reviewed; public references selected
+
+**Recorded:** 2026-09-22T02:55:37.217264+00:00 (September 21 local).
+**User objective and decisions:** Finish First Avenue–Avenue A using public references. User first authorized up to 40 Street View images; metadata was denied for disabled billing, zero images were requested, then user explicitly chose public references. No publication.
+**Completed work:** Thirty-three scoped models changed; source-linked facades/access, two church profiles, McKinley, Mary O's, Avenue A returns and east-block address HUD. Final 89 elevation/ground views plus four obliques reviewed; two shaded stoop edges refined for readable steps. All 147 protected/out-of-scope model hashes identical.
+**Gameplay/source baseline:** `f2bf1bf486ff1db0f28c3bc28be5c3aca5ad6a42`; local branch `feature/east-seventh-fidelity-06`, uncommitted. Reviewed PCK `c29296a391a7700ec33a3c68183203a0db92622abd47375f3cc48300167b3cc9`; a limits-text metadata refresh remains pending.
+**Validation:** Package/original/native handling/address/cameras pass; 17 browser address cases and all four camera modes pass. Full regression/three-weather block routes are running. Initial full-suite tab-switch assertion was too early; browser events confirmed pause after telemetry update, and the harness now waits for real visibility/paused state. Earlier attempt is retained.
+**Remote/deployment state:** No push, deployment or live recheck. Interface remains the published baseline.
+**Unresolved issues:** Current 108 site, fixture positions and obscured/mixed-date details remain evidence gaps. Zero calibrated multi-view acceptance. Final runtime/performance and metadata build still pending.
+**Next action:** Finish active checks, synchronize source/package metadata, verify unchanged geometry, record final performance and exact test/build boundaries, then save the local pass and handoff.
+
+## 2026-09-21-08 — East-block architecture first candidate and browser comparison
+
+**User objective and decisions:** Continue the complete First Avenue–Avenue A block to the endorsed west-block standard; no publication/audio change.
+**Gameplay/source baseline:** `f2bf1bf486ff1db0f28c3bc28be5c3aca5ad6a42`, local branch `feature/east-seventh-fidelity-06`.
+**Local changes:** Individual source/observation ledger; corrected identities, bay/floor rhythm, lower access, church profiles, proportion/cornice refinements and Mary O’s dated facade. Thirty-five editable and two protected records remain the full scope. East address HUD now authored with intersection exclusion and new tests; not yet exported/tested.
+**Remote/deployment state:** Uncommitted local candidate; no push/deployment. Published game unchanged.
+**Validation:** Baseline 89 browser views and nine passing performance samples (~59–60 FPS, full scale); first geometry/browser export completed, exactly 26 editable GLBs changed, all protected/out-of-scope model hashes identical. Six-building first visual iteration captured/inspected (16 views captured; elevation contact reviewed); later corrections require another export. Structural architectural verifier passes. Earlier interrupted performance attempts retained separately.
+**Unresolved issues:** Final export/whole-block visual/play/runtime/performance review pending. Current 108 edge and some tenant/occluded details unresolved. Up to 40 possibly billable Street View references were asked about; no answer and no paid request. Source archive dates remain unknown, not inferred from upload paths.
+**Next action:** Finish the source-supported returns/details; export; compare final renderer with the sources; repair mismatches and record exact final test/package boundaries.
+
+## 2026-09-21-07 — First Avenue–Avenue A fidelity pass started
+
+**User objective and decisions:** Implement the complete East 7th block between First Avenue and Avenue A to the First–Second quality standard. Both sides, all properties/access/shops/street details; protect accepted corner and neighboring blocks.
+**Gameplay/source baseline:** `f2bf1bf486ff1db0f28c3bc28be5c3aca5ad6a42`; new local branch `feature/east-seventh-fidelity-06`.
+**Local changes:** Bounded 37-record inventory and frozen 182-model/runtime/source baseline. Two corner records protected; 35 editable; identity/edge gaps require source review. Both private screenshots untouched.
+**Remote/deployment state:** No push/deployment for this task. Published interface remains unchanged.
+**Validation:** Repository/skill/source-chain and scope audit only so far; no new build or runtime result.
+**Unresolved issues:** Per-property image review, duplicate/unlabeled identity correction, street-edge evidence, implementation and final rendered comparison pending.
+**Next action:** Inspect references and transcribe all consequential features before edits; export/review/verify affected scope and keep the checkpoint current.
+
 ## 2026-09-21-06 — Session closed; relevant Markdown reconciled for resuming
 
 **Recorded:** 2026-09-21T21:18:39-04:00 (America/New_York).

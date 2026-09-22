@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "builtAt": "2026-09-21T21:14:23.340Z",
+  "builtAt": "2026-09-22T03:03:29.727Z",
   "engine": "Godot 4.7.2",
   "renderer": "Compatibility / WebGL 2",
   "threaded": false,
@@ -46,16 +46,16 @@
     },
     "index.html": {
       "bytes": 9845,
-      "sha256": "9328aa7ad34f1695ce677de1b4df8846eff85d612be7a0c972f9c3606fa06013"
+      "sha256": "a3afa5856d5571860c867882bda4ebf1b6d8a30433cce33229a80334bfffcbef"
     },
     "index.js": {
       "bytes": 279815,
       "sha256": "33c94cb3175f3333b82e2a3be5e8e86f77986f0aa2042b1631f6367a4e5bb6ba"
     },
     "index.pck": {
-      "bytes": 87390432,
-      "sha256": "e091db30994a4fbe2d42cec5d190b727d17de8959dadc52df744153da8d48131",
-      "brotliBytes": 78881727
+      "bytes": 88153136,
+      "sha256": "600c609cfb9bb17267e0668bcf9729c46ef0db2fd4f442758461688c0aa56432",
+      "brotliBytes": 79577055
     },
     "index.png": {
       "bytes": 21443,
@@ -92,7 +92,7 @@
     "engine/first-seventh/assets/fonts/InterVariable.ttf.import": "608295b5dcece46082f83470307d9757145081e719109a4d4a7f37b494cd4e74",
     "engine/first-seventh/assets/fonts/InterVariable.woff2": "693b77d4f32ee9b8bfc995589b5fad5e99adf2832738661f5402f9978429a8e3",
     "engine/first-seventh/assets/fonts/InterVariable.woff2.import": "0568aa77832669aadd728e2dacdb6f59327433fa4710673fcc93f96490e82bbe",
-    "engine/first-seventh/assets/slice.json": "825aae4894b9e063af4f7e1c18a757a6e3e3885991f645448ad7632d710b7365",
+    "engine/first-seventh/assets/slice.json": "78061680f0bc4ba64700b4433a69e079215b703a30b250d65c65db7ce89fd011",
     "engine/first-seventh/assets/surfaces/concrete_wall_006_diff_1k.jpg": "fea247dd085cd05d8deb335234c834764d622029da351f8bcc8913935316bacd",
     "engine/first-seventh/assets/surfaces/concrete_wall_006_diff_1k.jpg.import": "86cb4a30d395f5d755478389def71c133918d1cb4fbe8cabf91665ab8e05ffde",
     "engine/first-seventh/assets/surfaces/concrete_wall_006_nor_gl_1k.jpg": "4ff16bb96fc2df3ef71d22007151aff1d8bf7cb10a493d3f8e973213a99dd428",
@@ -109,7 +109,7 @@
     "engine/first-seventh/export_presets.cfg": "de830db6e0808164dba6f22f4cfceee803f4d56d002c7e9bdd87b395609de38b",
     "engine/first-seventh/project.godot": "71a99956d6b337e274d693ea40aadf5ee3ffbc595b21be5509426189fb952675",
     "engine/first-seventh/scenes/main.tscn": "36b1ee7da0776608f1933cf39d31d5d928b160da1f474fcedac7a5f9f3e67e3a",
-    "engine/first-seventh/scripts/address_locator.gd": "55d7bbd45f78866693aee0cb0dad3797978feb91a12a5b7d5a039d389a9f6da2",
+    "engine/first-seventh/scripts/address_locator.gd": "67039770c035bcc663c9bd9d8f4bb35d6778a57264f68429e994572b551e2d2f",
     "engine/first-seventh/scripts/cameras.gd": "41bee5dc1557b8220549bcfb6d7fb663c0dab996388cd61599e5158a7932f2fa",
     "engine/first-seventh/scripts/car.gd": "af3cbe86cf9768161b76d46364a41726e0f277554bf6222cb5e1d846dd8b190d",
     "engine/first-seventh/scripts/car_audio.gd": "21c2003f12e9afe16b0d08f6c7532b011ae67585aa0e0a116bf243bcc2b0af50",
@@ -130,13 +130,13 @@
     "engine/first-seventh/shaders/sidewalk.gdshader": "48b744cdc85df84b47ca63f906fdf5981004b43135b8659bf105012b340fbb12",
     "engine/first-seventh/shaders/sky.gdshader": "b55915fc5d5e0df055eec96f1369c93235d529f8a322d19ed175f80de08f39a5",
     "engine/first-seventh/shaders/tire_marks.gdshader": "6f5f96e7ff361bd8ac2e18bb9da3284e1fcfccb40994c3b40ae74a9048ee63c5",
-    "engine/first-seventh/tests/address_locator.gd": "cd29a685e301c8d46a22859e09fe2ce573a17c4a076e4a6d8a966bfac3b334f5",
+    "engine/first-seventh/tests/address_locator.gd": "830fa769510cf07de9cbf8ef44a2dc0545d7540661a1c8cc70a86562d9c7fb93",
     "engine/first-seventh/tests/cameras.gd": "594d63915ee5123387a98742e2630bb24a5fd3c860751c6b73afa69063aed6b4",
     "engine/first-seventh/tests/handling.gd": "a1aabddf6e9dcecdc97c942025c2b13fdd316d3302575c4481843864d039be7e",
     "engine/first-seventh/web/shell.html": "60e9c60be19838cef65ce68dc36cf68876f8711f827fe17c5c896f08faba11f5",
-    "model-source/export_seventh_engine.py": "8d764bf96fe2bba98e5a0566cf73746cda80db6cbafce822751b773f5d036c41",
-    "model-source/seventh_street_kit.py": "cc6d45b938e76df0797701fba30cccf4e92e72dfcf9797f5aa2bb41e035ebe9c",
-    "model-source/seventh_fidelity_kit.py": "8b86c12c7a716d34d4b67b108a65cdd5c4b232d1d01c9f49f278c54e8d05eea0",
+    "model-source/export_seventh_engine.py": "83444111332ce94162ec88681bd0ee0c56a3a4d879a6499b330fc98460a6dacd",
+    "model-source/seventh_street_kit.py": "ea631191c9200d76f2fb10810728d9a0caf4358d1dbff3d8559d62f2a9fabbf6",
+    "model-source/seventh_fidelity_kit.py": "39c8c9302e8152c8daddac35737174f15385487c29649bd5b961e2ad2616ffb6",
     "model-source/build_neighborhood.py": "96582aa9e4b995573c31b83067879d45efd326c190478473f6cd4160f27f81be",
     "model-source/build_intersection.py": "ff42784487c1eb8f036d400a37674c2fef4f02307119a9963a875a81555465b0",
     "model-source/neighborhood_detail_kit.py": "6d4331d82f360a883565c0b2e0a21b44e21b159080494b788569edf6a6c8fc0f",
@@ -144,11 +144,13 @@
     "model-source/neighborhood_landmarks.py": "7e8c48c9fc5f233d5eaa10b0bffe24f29b0f85e9cf76ca44007cd84e9a1baad3",
     "model-source/first_seventh_kit.py": "0b8054b71913c3a8ec53cb83bf19886d973e3e650d2a9cdeddb653fc4c4ba20a",
     "model-source/first_seventh_refinement.py": "5ea53dfd46a5aef6da13848413cbb1edff9de1fbc46848467f359c0c574d7d86",
-    "model-source/storefront-details.json": "e3af23d0d3e26f5250f42fa2fed4f9855fafe9434ea390ffcb9c73345168e710",
+    "model-source/storefront-details.json": "d1e7bf5e57578356fc40afa17fdeaf2bfbf941c31efe4d6d98ee21918b04c950",
     "model-source/seventh-street-reference-02.json": "363260952d0c582078cb9fafd1cb7ef406cf6c355b8205d1c3c23cdaa73b3752",
     "model-source/west-seventh-reference-04.json": "fc1cbdc2cc377e5efb785a98ae321cfa4ec93d9c82b889d15b3af1d26169a00f",
     "model-source/west-seventh-observations-04.json": "b5c679b6a2603385e6dee1d1a8aa2392a0fa8b9c27d16d631637ba0d39bef70c",
+    "model-source/east-seventh-reference-06.json": "aa494d54ff6cd2b33d65c089808c8dc9568addce5c67db9deb986efcd9d00ba2",
+    "model-source/east-seventh-observations-06.json": "8a6ca017474bea086c22ca8ac2244fe85952096eeaaf384354c0687ce7b581a5",
     "model-source/make_seventh_audio.py": "859a0530f8d141a0b0f8403f201f428132edfbd1e0df4f4778ac84b337e4d0a3",
-    "scripts/export-seventh.mjs": "720d9d0fa2b50f252c3d46c480ce65985e56b268fa8b1b9051b310da69104dc6"
+    "scripts/export-seventh.mjs": "6be4727affe846728934aa1e6ffe53255da8b44c0b9bcec8e8c15dcc068837ec"
   }
 }

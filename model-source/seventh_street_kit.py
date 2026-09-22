@@ -92,6 +92,19 @@ class SeventhShopFacade:
         self.base.b(s,y,self.back if mat=='dark glass' and abs(d+.85)<.001 else d,w,h,depth,mat)
 _seventh_observed_awning=observed_awning
 def observed_awning(f,a,b,aw):
+    if aw.get('solidValance'):
+        # Mary O's has a striped canopy and a solid green lettered valance.
+        # Keep this opt-in so the accepted corner and other awnings retain
+        # their existing geometry and lettering.
+        roof=deepcopy(aw);roof['text']=''
+        _seventh_observed_awning(f,a,b,roof)
+        y=aw.get('y',3.1)-aw.get('drop',.5)
+        val=aw.get('valance',.20);d=aw.get('depth',1.12)
+        f.b((a+b)/2,y-val/2,d+.125,b-a,val,.025,aw['material'])
+        sign_text(f,a+(b-a)*aw.get('textAt',.5),y-val*.52,
+                  (b-a)*aw.get('textWidth',.94),aw.get('text',''),
+                  aw.get('letters','sign white'),aw.get('textSize',.23),d+.15)
+        return
     if aw.get('stripeWidth',0)<.10:
         return _seventh_observed_awning(f,a,b,aw)
     # Broad alternating fabric panels visible at Agavi; the old corner kit's
@@ -176,6 +189,17 @@ def apply_seventh_schedule(data,schedule):
         b=byid[record['buildingId']]
         assert not b['core'] and record['street']=='East 7th Street'
         assert all(s in sources for s in record['sources'])
+        # Engine-only identity corrections: the preserved ten-block geography
+        # retains its original address/provenance record.
+        if record.get('addressOverride'):
+            b['address']=record['addressOverride']
+        for override in record.get('businessOverrides',[]):
+            # Only already mapped businesses may acquire a source-reviewed
+            # engine appearance; no inferred POI is added to the legacy map.
+            shop=next(p for p in b.get('businesses',[]) if p['id']==override['id'])
+            assert shop['street']=='East 7th Street'
+            assert override.get('sources') and all(s in sources for s in override['sources'])
+            shop['renderName']=bool(override['renderName'])
         # A separate elevation prevents an avenue face borrowing Seventh's bays.
         existing=b['facadeSpec'].get('elevations',{}).get('East 7th Street',{})
         b['facadeSpec'].setdefault('elevations',{})['East 7th Street']={**existing,**deepcopy(record['spec'])}

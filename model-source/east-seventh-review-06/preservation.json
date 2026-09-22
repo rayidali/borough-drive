@@ -1,0 +1,199 @@
+{
+  "checkedAt": "2026-09-22T03:03:56.269253+00:00",
+  "baselineCommit": "f2bf1bf486ff1db0f28c3bc28be5c3aca5ad6a42",
+  "modelCount": 182,
+  "changedModelIds": [
+    248142313,
+    248142319,
+    248142322,
+    248142324,
+    248142328,
+    248142330,
+    248142332,
+    248142333,
+    248142334,
+    248142335,
+    248142336,
+    248142337,
+    248142390,
+    248142393,
+    248142396,
+    248142407,
+    248142411,
+    248142615,
+    248142618,
+    248142621,
+    248142624,
+    248142633,
+    248142640,
+    248142645,
+    248142647,
+    248142650,
+    248142653,
+    248142690,
+    248142693,
+    248142697,
+    248142701,
+    248142714,
+    248142715
+  ],
+  "changedModelCount": 33,
+  "unchangedModelCount": 149,
+  "protectedAndOutsideModelCount": 147,
+  "allProtectedAndOutsideModelsIdentical": true,
+  "retainedEditableIds": [
+    248142656,
+    951679435
+  ],
+  "protectedFiles": [
+    {
+      "path": "dist/legacy.html",
+      "before": "ad8fa5a259fea000caa0a463ce636ce5004dad5641d4c9f324930acdaacbb908",
+      "after": "ad8fa5a259fea000caa0a463ce636ce5004dad5641d4c9f324930acdaacbb908",
+      "equal": true
+    },
+    {
+      "path": "dist/reconstruction/neighborhood.json",
+      "before": "fd61b108e80eab18d477686b677413ef565f1ab16edc26170751347e22651a5c",
+      "after": "fd61b108e80eab18d477686b677413ef565f1ab16edc26170751347e22651a5c",
+      "equal": true
+    },
+    {
+      "path": "model-source/first-and-seventh.json",
+      "before": "d79d5d8aa2b8e3587475686c40d0f33569844f1cae4910f16f1935d523dd7467",
+      "after": "d79d5d8aa2b8e3587475686c40d0f33569844f1cae4910f16f1935d523dd7467",
+      "equal": true
+    },
+    {
+      "path": "engine/first-seventh/scripts/hud.gd",
+      "before": "4ced53732bf274b09c441f27db133ff0208acab704e3ebf59c24a9e7a912900e",
+      "after": "4ced53732bf274b09c441f27db133ff0208acab704e3ebf59c24a9e7a912900e",
+      "equal": true
+    },
+    {
+      "path": "engine/first-seventh/scripts/cameras.gd",
+      "before": "41bee5dc1557b8220549bcfb6d7fb663c0dab996388cd61599e5158a7932f2fa",
+      "after": "41bee5dc1557b8220549bcfb6d7fb663c0dab996388cd61599e5158a7932f2fa",
+      "equal": true
+    },
+    {
+      "path": "engine/first-seventh/scripts/car.gd",
+      "before": "af3cbe86cf9768161b76d46364a41726e0f277554bf6222cb5e1d846dd8b190d",
+      "after": "af3cbe86cf9768161b76d46364a41726e0f277554bf6222cb5e1d846dd8b190d",
+      "equal": true
+    },
+    {
+      "path": "engine/first-seventh/web/shell.html",
+      "before": "60e9c60be19838cef65ce68dc36cf68876f8711f827fe17c5c896f08faba11f5",
+      "after": "60e9c60be19838cef65ce68dc36cf68876f8711f827fe17c5c896f08faba11f5",
+      "equal": true
+    },
+    {
+      "path": "engine/first-seventh/assets/audio/engine-coast.wav.import",
+      "before": "2a420089cb0f5e34318414d20678557e470d930372a7e7b3b7f9d7e4a317be3d",
+      "after": "2a420089cb0f5e34318414d20678557e470d930372a7e7b3b7f9d7e4a317be3d",
+      "equal": true
+    },
+    {
+      "path": "engine/first-seventh/assets/audio/impact.wav",
+      "before": "60ac6a81a97c01eb363cec6f62c020c66970f31f0a175d870c270060820860dd",
+      "after": "60ac6a81a97c01eb363cec6f62c020c66970f31f0a175d870c270060820860dd",
+      "equal": true
+    },
+    {
+      "path": "engine/first-seventh/assets/audio/impact.wav.import",
+      "before": "f0d61f82267eed97ea8e360d61e07612915a1d21885a1c55ec6ac295426302c3",
+      "after": "f0d61f82267eed97ea8e360d61e07612915a1d21885a1c55ec6ac295426302c3",
+      "equal": true
+    },
+    {
+      "path": "engine/first-seventh/assets/audio/road.wav",
+      "before": "f1a25770ea0d98e8f9b6a594a9d1d2b5426089036ddc86730652e6859bfca42c",
+      "after": "f1a25770ea0d98e8f9b6a594a9d1d2b5426089036ddc86730652e6859bfca42c",
+      "equal": true
+    },
+    {
+      "path": "engine/first-seventh/assets/audio/engine-load.wav.import",
+      "before": "f11e99702f4ac029273cd6bfcb76e53ca8ca27e0714fb9371f85e249e367b7ac",
+      "after": "f11e99702f4ac029273cd6bfcb76e53ca8ca27e0714fb9371f85e249e367b7ac",
+      "equal": true
+    },
+    {
+      "path": "engine/first-seventh/assets/audio/cornerlight.wav.import",
+      "before": "fd5f7ed95ed31620af2e488521190f1380ba88cc5c9c49f417556de5283777d1",
+      "after": "fd5f7ed95ed31620af2e488521190f1380ba88cc5c9c49f417556de5283777d1",
+      "equal": true
+    },
+    {
+      "path": "engine/first-seventh/assets/audio/rain.wav.import",
+      "before": "830b6262c52c97a8cf659dcae8d31b436daf47df4b3b5a827a8186f07f8e2ce5",
+      "after": "830b6262c52c97a8cf659dcae8d31b436daf47df4b3b5a827a8186f07f8e2ce5",
+      "equal": true
+    },
+    {
+      "path": "engine/first-seventh/assets/audio/road.wav.import",
+      "before": "a79ba0601825c5fc01b589e893a7a735786cc4fc736d3c6bec657d6f2f51e2bc",
+      "after": "a79ba0601825c5fc01b589e893a7a735786cc4fc736d3c6bec657d6f2f51e2bc",
+      "equal": true
+    },
+    {
+      "path": "engine/first-seventh/assets/audio/tires.wav.import",
+      "before": "6255e82a47207e8eabe22e509fec9e8cb6d82340c11d6c76713a157bb4ce345e",
+      "after": "6255e82a47207e8eabe22e509fec9e8cb6d82340c11d6c76713a157bb4ce345e",
+      "equal": true
+    },
+    {
+      "path": "engine/first-seventh/assets/audio/engine-coast.wav",
+      "before": "fc8fd78f33021d261377a51a0e53526648d12f052a06734c6f7bc0bd00aca740",
+      "after": "fc8fd78f33021d261377a51a0e53526648d12f052a06734c6f7bc0bd00aca740",
+      "equal": true
+    },
+    {
+      "path": "engine/first-seventh/assets/audio/engine-idle.wav",
+      "before": "b914dc2baf867b7115ebb10cbb830ab27f6da9559110a3cd71c8aa5c1f583550",
+      "after": "b914dc2baf867b7115ebb10cbb830ab27f6da9559110a3cd71c8aa5c1f583550",
+      "equal": true
+    },
+    {
+      "path": "engine/first-seventh/assets/audio/rain.wav",
+      "before": "371be06535d635590c9c5f44528f17806265de885e0daaaba7f4f41e802d9111",
+      "after": "371be06535d635590c9c5f44528f17806265de885e0daaaba7f4f41e802d9111",
+      "equal": true
+    },
+    {
+      "path": "engine/first-seventh/assets/audio/engine-idle.wav.import",
+      "before": "5a887ee72b701d3d67729c4531540daace46221a1e28f7b8c705d405c87df44c",
+      "after": "5a887ee72b701d3d67729c4531540daace46221a1e28f7b8c705d405c87df44c",
+      "equal": true
+    },
+    {
+      "path": "engine/first-seventh/assets/audio/engine-load.wav",
+      "before": "6ab1a1203a4a15a5e7c4a3cbe3240dd9a7986fb4031b21d366991527357116b6",
+      "after": "6ab1a1203a4a15a5e7c4a3cbe3240dd9a7986fb4031b21d366991527357116b6",
+      "equal": true
+    },
+    {
+      "path": "engine/first-seventh/assets/audio/tires.wav",
+      "before": "b66574c0f6934a85bdee5b0842667dda7250b98693807ef46f9d6e426fc179a2",
+      "after": "b66574c0f6934a85bdee5b0842667dda7250b98693807ef46f9d6e426fc179a2",
+      "equal": true
+    },
+    {
+      "path": "engine/first-seventh/assets/audio/cornerlight.wav",
+      "before": "25e74f3f7d782323220af9ca8f41fe196ecf30355b77424b6bcd3c399cb9134e",
+      "after": "25e74f3f7d782323220af9ca8f41fe196ecf30355b77424b6bcd3c399cb9134e",
+      "equal": true
+    }
+  ],
+  "legacyScheduleSemanticallyIdentical": true,
+  "legacyRouteSource": "dist/legacy.html",
+  "rootIndexAbsent": true,
+  "pck": {
+    "bytes": 88153136,
+    "sha256": "600c609cfb9bb17267e0668bcf9729c46ef0db2fd4f442758461688c0aa56432",
+    "brotliBytes": 79577055
+  },
+  "trianglesBefore": 3362194,
+  "trianglesAfter": 3401466,
+  "notes": "Engine-only source changes and address override. Model hashes checked against actual final slice manifest; package validation verifies local GLB bytes."
+}

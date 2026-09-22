@@ -1,0 +1,116 @@
+{
+  "checkedAt": "2026-09-22T03:06:46.006422+00:00",
+  "device": "Apple M1, 8 GiB RAM",
+  "browser": "Brave / Chromium 153.0.8010.53",
+  "viewport": [
+    1440,
+    1000,
+    1
+  ],
+  "conditions": "Same isolated browser, local HTTP, disabled HTTP cache for startup, no simultaneous rendering/export tasks; focused diagnostic sampling. Short 5/8-second samples, not sustained/mobile/capacity claims.",
+  "beforePck": {
+    "bytes": 87390432,
+    "sha256": "e091db30994a4fbe2d42cec5d190b727d17de8959dadc52df744153da8d48131",
+    "brotliBytes": 78881727
+  },
+  "afterPck": {
+    "bytes": 88153136,
+    "sha256": "600c609cfb9bb17267e0668bcf9729c46ef0db2fd4f442758461688c0aa56432",
+    "brotliBytes": 79577055
+  },
+  "beforeReadyMs": 5873,
+  "afterReadyMs": 5578.5,
+  "samples": [
+    {
+      "name": "weather-0-northbound",
+      "beforeFps": 59.08009516256939,
+      "afterFps": 60.01589825119237,
+      "beforeP95Ms": 17.69999999999891,
+      "afterP95Ms": 18.5,
+      "beforeScale": 1,
+      "afterScale": 1,
+      "afterCollisions": 0
+    },
+    {
+      "name": "weather-1-northbound",
+      "beforeFps": 59.79869745411486,
+      "afterFps": 60.031595576619274,
+      "beforeP95Ms": 17.600000000002183,
+      "afterP95Ms": 18.5,
+      "beforeScale": 1,
+      "afterScale": 1,
+      "afterCollisions": 0
+    },
+    {
+      "name": "weather-2-northbound",
+      "beforeFps": 59.99605289125716,
+      "afterFps": 59.98421468034728,
+      "beforeP95Ms": 17.60000000000582,
+      "afterP95Ms": 18.5,
+      "beforeScale": 1,
+      "afterScale": 1,
+      "afterCollisions": 0
+    },
+    {
+      "name": "weather-0-seventh-east",
+      "beforeFps": 58.99888212644392,
+      "afterFps": 59.75,
+      "beforeP95Ms": 17.599999999998545,
+      "afterP95Ms": 18.30000000000291,
+      "beforeScale": 1,
+      "afterScale": 1,
+      "afterCollisions": 1
+    },
+    {
+      "name": "weather-0-seventh-west",
+      "beforeFps": 60,
+      "afterFps": 60,
+      "beforeP95Ms": 17.599999999998545,
+      "afterP95Ms": 18.099999999998545,
+      "beforeScale": 1,
+      "afterScale": 1,
+      "afterCollisions": 1
+    },
+    {
+      "name": "weather-1-seventh-east",
+      "beforeFps": 60,
+      "afterFps": 60.0075009376172,
+      "beforeP95Ms": 17.60000000000582,
+      "afterP95Ms": 18.59999999999127,
+      "beforeScale": 1,
+      "afterScale": 1,
+      "afterCollisions": 1
+    },
+    {
+      "name": "weather-1-seventh-west",
+      "beforeFps": 60.0075009376172,
+      "afterFps": 59.99250093738283,
+      "beforeP95Ms": 17.59999999999127,
+      "afterP95Ms": 18.5,
+      "beforeScale": 1,
+      "afterScale": 1,
+      "afterCollisions": 1
+    },
+    {
+      "name": "weather-2-seventh-east",
+      "beforeFps": 60.04011030333417,
+      "afterFps": 60,
+      "beforeP95Ms": 17.59999999999127,
+      "afterP95Ms": 18.39999999999418,
+      "beforeScale": 1,
+      "afterScale": 1,
+      "afterCollisions": 1
+    },
+    {
+      "name": "weather-2-seventh-west",
+      "beforeFps": 59.222082810539526,
+      "afterFps": 60.01500375093774,
+      "beforeP95Ms": 17.60000000000582,
+      "afterP95Ms": 18.59999999999127,
+      "beforeScale": 1,
+      "afterScale": 1,
+      "afterCollisions": 1
+    }
+  ],
+  "notes": "Earlier interrupted baseline attempts and an intermediate metadata-package sample are retained separately. Full behavior/route tests in browser.json use the visually reviewed package; metadata-refresh.json verifies unchanged rendering and runtime code."
+}

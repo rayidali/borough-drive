@@ -194,11 +194,14 @@ for index, building in enumerate(selected):
         'sha256':hashlib.sha256(target.read_bytes()).hexdigest()})
     print('ENGINE_BUILDING',index+1,len(selected),building['id'],triangles,flush=True)
 
+# A partial rebuild does not run the renderer that sets renderHeight for
+# cached buildings. Their verified exported records retain the real height.
+exported_heights = {record['id']:record['height'] for record in records}
 manifest = {'schema':1, 'sourceCommit':'c76dccebc143960498d21eeab8c55c2d0dbcc5ce',
     'sourceSha256':hashlib.sha256((ROOT/'dist/reconstruction/neighborhood.json').read_bytes()).hexdigest(),
     'originShift':[0,0,228], 'bounds':[-306,-107,289,55], 'buildings':records,
     'seventhFrontages':[b['id'] for b in selected if any(f['street']=='East 7th Street' for f in b['frontages'])],
-    'detailRevision':'04',
+    'detailRevision':schedule.get('revision','04'),
     'detailScheduleSha256':canonical_digest(schedule),
     'detailSourceSha256':hashlib.sha256((ROOT/'model-source/storefront-details.json').read_bytes()).hexdigest(),
     'recipeHashes':recipe_hashes,
@@ -232,7 +235,7 @@ manifest = {'schema':1, 'sourceCommit':'c76dccebc143960498d21eeab8c55c2d0dbcc5ce
         for well in spec.get('basementAreaways',[])
         if well.get('depth',0)>0
     ],
-    'reviewFrontages':[{'id':b['id'],'address':b['address'],'height':b['renderHeight'],
+    'reviewFrontages':[{'id':b['id'],'address':b['address'],'height':exported_heights[b['id']],
         'frontage':{**next(f for f in b['frontages'] if f['street']=='East 7th Street')}}
         for b in selected if any(f['street']=='East 7th Street' for f in b['frontages'])],
     'roads':[{'name':r['name'],'a':[r['a'][0],r['a'][1]-228],

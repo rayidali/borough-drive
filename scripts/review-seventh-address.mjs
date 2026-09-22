@@ -28,6 +28,14 @@ const cases=[
   {name:'first-corner',x:-10,z:-9,yaw:-Math.PI/2,address:'115 1ST AVE'},
   {name:'second-edge',x:-226,z:0,yaw:-Math.PI/2,address:''},
   {name:'first-edge',x:-3,z:0,yaw:-Math.PI/2,address:''},
+  {name:'east-first-edge',x:3,z:0,yaw:-Math.PI/2,address:''},
+  {name:'east-north',x:39,z:-9,yaw:-Math.PI/2,address:'93 E 7TH ST'},
+  {name:'east-corrected-109',x:98,z:-9,yaw:-Math.PI/2,address:'109 E 7TH ST'},
+  {name:'east-corrected-116',x:130,z:9,yaw:-Math.PI/2,address:'116 E 7TH ST'},
+  {name:'east-mckinley',x:113,z:-9,yaw:-Math.PI/2,address:'111–115 E 7TH ST'},
+  {name:'east-avenue-a-return',x:195,z:-9,yaw:-Math.PI/2,address:'111 AVE A'},
+  {name:'avenue-a-edge',x:212,z:0,yaw:-Math.PI/2,address:''},
+  {name:'beyond-avenue-a',x:237,z:0,yaw:-Math.PI/2,address:''},
   {name:'st-marks',x:-170,z:-77.9,yaw:-Math.PI/2,address:''},
 ];
 const report={date:new Date().toISOString(),url,cases:[],branding:{}};

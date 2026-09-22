@@ -1,0 +1,842 @@
+{
+  "schema": 1,
+  "revision": "06",
+  "checkedAt": "2026-09-22",
+  "scope": {
+    "street": "East 7th Street",
+    "from": "First Avenue",
+    "to": "Avenue A",
+    "sides": [
+      "north",
+      "south"
+    ],
+    "cornerReturns": "Existing corner parcels facing this block only; First Avenue accepted corner geometry protected; no adjacent avenue parcel expansion.",
+    "datePolicy": "Prefer latest available inspected views; retain capture dates separately, mark older/mixed-date details and uncertain occupancy explicitly."
+  },
+  "sources": {
+    "east06-archive-248142715": {
+      "url": "https://buildingblocks.villagepreservation.org/building/93-93-12-east-7th-street/",
+      "photo": "https://buildingblocks.villagepreservation.org/wp-content/uploads/2012/07/435_57_PRIMARYPHOTO.jpg",
+      "captureDate": null,
+      "retrievedAt": "2026-09-22",
+      "use": "Architectural observation only; no source pixels in exported assets.",
+      "inspected": true
+    },
+    "east06-archive-248142690": {
+      "url": "https://buildingblocks.villagepreservation.org/building/95-east-7th-street/",
+      "photo": "https://buildingblocks.villagepreservation.org/wp-content/uploads/2012/07/435_56_PRIMARYPHOTO.jpg",
+      "captureDate": null,
+      "retrievedAt": "2026-09-22",
+      "use": "Architectural observation only; no source pixels in exported assets.",
+      "inspected": true
+    },
+    "east06-archive-248142701": {
+      "url": "https://buildingblocks.villagepreservation.org/building/97-east-7th-street/",
+      "photo": "https://buildingblocks.villagepreservation.org/wp-content/uploads/2012/07/435_55_PRIMARYPHOTO.jpg",
+      "captureDate": null,
+      "retrievedAt": "2026-09-22",
+      "use": "Architectural observation only; no source pixels in exported assets.",
+      "inspected": true
+    },
+    "east06-archive-248142693": {
+      "url": "https://buildingblocks.villagepreservation.org/building/97%c2%bd-east-7th-street/",
+      "photo": "https://buildingblocks.villagepreservation.org/wp-content/uploads/2013/10/435_54_PRIMARYPHOTO.jpg",
+      "captureDate": null,
+      "retrievedAt": "2026-09-22",
+      "use": "Architectural observation only; no source pixels in exported assets.",
+      "inspected": true
+    },
+    "east06-archive-248142697": {
+      "url": "https://buildingblocks.villagepreservation.org/building/99-east-7th-street/",
+      "photo": "https://buildingblocks.villagepreservation.org/wp-content/uploads/2012/07/435_53_PRIMARYPHOTO.jpg",
+      "captureDate": null,
+      "retrievedAt": "2026-09-22",
+      "use": "Architectural observation only; no source pixels in exported assets.",
+      "inspected": true
+    },
+    "east06-archive-248142615": {
+      "url": "https://buildingblocks.villagepreservation.org/building/101-east-7th-street/",
+      "photo": "https://buildingblocks.villagepreservation.org/wp-content/uploads/2012/07/435_52_PRIMARYPHOTO.jpg",
+      "captureDate": null,
+      "retrievedAt": "2026-09-22",
+      "use": "Architectural observation only; no source pixels in exported assets.",
+      "inspected": true
+    },
+    "east06-archive-248142618": {
+      "url": "https://buildingblocks.villagepreservation.org/building/103-107-east-7th-street/",
+      "photo": "https://buildingblocks.villagepreservation.org/wp-content/uploads/2012/07/435_49_PRIMARYPHOTO.jpg",
+      "captureDate": null,
+      "retrievedAt": "2026-09-22",
+      "use": "Architectural observation only; no source pixels in exported assets.",
+      "inspected": true
+    },
+    "east06-archive-248142621": {
+      "url": "https://buildingblocks.villagepreservation.org/building/109-east-7th-street/",
+      "photo": "https://buildingblocks.villagepreservation.org/wp-content/uploads/2012/07/435_48_PRIMARYPHOTO.jpg",
+      "captureDate": null,
+      "retrievedAt": "2026-09-22",
+      "use": "Architectural observation only; no source pixels in exported assets.",
+      "inspected": true
+    },
+    "east06-archive-248142624": {
+      "url": "https://buildingblocks.villagepreservation.org/building/111-115-east-7th-street/",
+      "photo": "https://buildingblocks.villagepreservation.org/wp-content/uploads/2012/07/435_45_PRIMARYPHOTO.jpg",
+      "captureDate": null,
+      "retrievedAt": "2026-09-22",
+      "use": "Architectural observation only; no source pixels in exported assets.",
+      "inspected": true
+    },
+    "east06-archive-248142633": {
+      "url": "https://buildingblocks.villagepreservation.org/building/117-119-east-7th-street/",
+      "photo": "https://buildingblocks.villagepreservation.org/wp-content/uploads/2012/07/435_43_PRIMARYPHOTO.jpg",
+      "captureDate": null,
+      "retrievedAt": "2026-09-22",
+      "use": "Architectural observation only; no source pixels in exported assets.",
+      "inspected": true
+    },
+    "east06-archive-248142640": {
+      "url": "https://buildingblocks.villagepreservation.org/building/121-east-7th-street/",
+      "photo": "https://buildingblocks.villagepreservation.org/wp-content/uploads/2012/07/435_42_PRIMARYPHOTO.jpg",
+      "captureDate": null,
+      "retrievedAt": "2026-09-22",
+      "use": "Architectural observation only; no source pixels in exported assets.",
+      "inspected": true
+    },
+    "east06-archive-248142645": {
+      "url": "https://buildingblocks.villagepreservation.org/building/123-east-7th-street/",
+      "photo": "https://buildingblocks.villagepreservation.org/wp-content/uploads/2012/07/435_41_PRIMARYPHOTO.jpg",
+      "captureDate": null,
+      "retrievedAt": "2026-09-22",
+      "use": "Architectural observation only; no source pixels in exported assets.",
+      "inspected": true
+    },
+    "east06-archive-248142647": {
+      "url": "https://buildingblocks.villagepreservation.org/building/125-east-7th-street/",
+      "photo": "https://buildingblocks.villagepreservation.org/wp-content/uploads/2012/07/435_40_PRIMARYPHOTO.jpg",
+      "captureDate": null,
+      "retrievedAt": "2026-09-22",
+      "use": "Architectural observation only; no source pixels in exported assets.",
+      "inspected": true
+    },
+    "east06-archive-248142650": {
+      "url": "https://buildingblocks.villagepreservation.org/building/127-east-7th-street/",
+      "photo": "https://buildingblocks.villagepreservation.org/wp-content/uploads/2012/07/435_39_PRIMARYPHOTO.jpg",
+      "captureDate": null,
+      "retrievedAt": "2026-09-22",
+      "use": "Architectural observation only; no source pixels in exported assets.",
+      "inspected": true
+    },
+    "east06-archive-248142653": {
+      "url": "https://buildingblocks.villagepreservation.org/building/129-east-7th-street/",
+      "photo": "https://buildingblocks.villagepreservation.org/wp-content/uploads/2012/07/435_38_PRIMARYPHOTO.jpg",
+      "captureDate": null,
+      "retrievedAt": "2026-09-22",
+      "use": "Architectural observation only; no source pixels in exported assets.",
+      "inspected": true
+    },
+    "east06-archive-248142656": {
+      "url": null,
+      "photo": null,
+      "captureDate": null,
+      "retrievedAt": "2026-09-22",
+      "use": "Architectural observation only; no source pixels in exported assets.",
+      "inspected": false
+    },
+    "east06-archive-248142714": {
+      "url": "https://buildingblocks.villagepreservation.org/building/111-avenue-a-131-3-east-7th-street/",
+      "photo": "https://buildingblocks.villagepreservation.org/wp-content/uploads/2012/07/435_37_PRIMARYPHOTO.jpg",
+      "captureDate": null,
+      "retrievedAt": "2026-09-22",
+      "use": "Architectural observation only; no source pixels in exported assets.",
+      "inspected": true
+    },
+    "east06-archive-951679435": {
+      "url": "https://buildingblocks.villagepreservation.org/building/92-east-7th-street/",
+      "photo": "https://buildingblocks.villagepreservation.org/wp-content/uploads/2012/07/434_10_PRIMARYPHOTO.jpg",
+      "captureDate": null,
+      "retrievedAt": "2026-09-22",
+      "use": "Architectural observation only; no source pixels in exported assets.",
+      "inspected": true
+    },
+    "east06-archive-248142390": {
+      "url": "https://buildingblocks.villagepreservation.org/building/94-east-7th-street/",
+      "photo": "https://buildingblocks.villagepreservation.org/wp-content/uploads/2012/07/434_11_PRIMARYPHOTO.jpg",
+      "captureDate": null,
+      "retrievedAt": "2026-09-22",
+      "use": "Architectural observation only; no source pixels in exported assets.",
+      "inspected": true
+    },
+    "east06-archive-248142393": {
+      "url": "https://buildingblocks.villagepreservation.org/building/96-east-7th-street/",
+      "photo": "https://buildingblocks.villagepreservation.org/wp-content/uploads/2012/07/434_12_PRIMARYPHOTO.jpg",
+      "captureDate": null,
+      "retrievedAt": "2026-09-22",
+      "use": "Architectural observation only; no source pixels in exported assets.",
+      "inspected": true
+    },
+    "east06-archive-248142396": {
+      "url": "https://buildingblocks.villagepreservation.org/building/98-east-7th-street/",
+      "photo": "https://buildingblocks.villagepreservation.org/wp-content/uploads/2012/07/434_13_PRIMARYPHOTO.jpg",
+      "captureDate": null,
+      "retrievedAt": "2026-09-22",
+      "use": "Architectural observation only; no source pixels in exported assets.",
+      "inspected": true
+    },
+    "east06-archive-248142313": {
+      "url": "https://buildingblocks.villagepreservation.org/building/100-east-7th-street/",
+      "photo": "https://buildingblocks.villagepreservation.org/wp-content/uploads/2012/07/434_14_PRIMARYPHOTO.jpg",
+      "captureDate": null,
+      "retrievedAt": "2026-09-22",
+      "use": "Architectural observation only; no source pixels in exported assets.",
+      "inspected": true
+    },
+    "east06-archive-248142319": {
+      "url": "https://buildingblocks.villagepreservation.org/building/102-east-7th-street/",
+      "photo": "https://buildingblocks.villagepreservation.org/wp-content/uploads/2012/07/434_15_PRIMARYPHOTO.jpg",
+      "captureDate": null,
+      "retrievedAt": "2026-09-22",
+      "use": "Architectural observation only; no source pixels in exported assets.",
+      "inspected": true
+    },
+    "east06-archive-248142322": {
+      "url": "https://buildingblocks.villagepreservation.org/building/104-east-7th-street/",
+      "photo": "https://buildingblocks.villagepreservation.org/wp-content/uploads/2012/07/434_16_PRIMARYPHOTO.jpg",
+      "captureDate": null,
+      "retrievedAt": "2026-09-22",
+      "use": "Architectural observation only; no source pixels in exported assets.",
+      "inspected": true
+    },
+    "east06-archive-248142324": {
+      "url": "https://buildingblocks.villagepreservation.org/building/106-east-7th-street/",
+      "photo": "https://buildingblocks.villagepreservation.org/wp-content/uploads/2012/07/434_17_PRIMARYPHOTO.jpg",
+      "captureDate": null,
+      "retrievedAt": "2026-09-22",
+      "use": "Architectural observation only; no source pixels in exported assets.",
+      "inspected": true
+    },
+    "east06-archive-248142328": {
+      "url": "https://buildingblocks.villagepreservation.org/building/110-east-7th-street/",
+      "photo": "https://buildingblocks.villagepreservation.org/wp-content/uploads/2012/07/434_19_PRIMARYPHOTO.jpg",
+      "captureDate": null,
+      "retrievedAt": "2026-09-22",
+      "use": "Architectural observation only; no source pixels in exported assets.",
+      "inspected": true
+    },
+    "east06-archive-248142330": {
+      "url": "https://buildingblocks.villagepreservation.org/building/112-east-7th-street/",
+      "photo": "https://buildingblocks.villagepreservation.org/wp-content/uploads/2012/07/434_20_PRIMARYPHOTO.jpg",
+      "captureDate": null,
+      "retrievedAt": "2026-09-22",
+      "use": "Architectural observation only; no source pixels in exported assets.",
+      "inspected": true
+    },
+    "east06-archive-248142332": {
+      "url": "https://buildingblocks.villagepreservation.org/building/114-east-7th-street/",
+      "photo": "https://buildingblocks.villagepreservation.org/wp-content/uploads/2012/07/434_21_PRIMARYPHOTO.jpg",
+      "captureDate": null,
+      "retrievedAt": "2026-09-22",
+      "use": "Architectural observation only; no source pixels in exported assets.",
+      "inspected": true
+    },
+    "east06-archive-248142411": {
+      "url": "https://buildingblocks.villagepreservation.org/building/116-east-7th-street/",
+      "photo": "https://buildingblocks.villagepreservation.org/wp-content/uploads/2012/07/434_22_PRIMARYPHOTO.jpg",
+      "captureDate": null,
+      "retrievedAt": "2026-09-22",
+      "use": "Architectural observation only; no source pixels in exported assets.",
+      "inspected": true
+    },
+    "east06-archive-248142333": {
+      "url": "https://buildingblocks.villagepreservation.org/building/118-east-7th-street/",
+      "photo": "https://buildingblocks.villagepreservation.org/wp-content/uploads/2012/07/434_23_PRIMARYPHOTO.jpg",
+      "captureDate": null,
+      "retrievedAt": "2026-09-22",
+      "use": "Architectural observation only; no source pixels in exported assets.",
+      "inspected": true
+    },
+    "east06-archive-248142334": {
+      "url": "https://buildingblocks.villagepreservation.org/building/120-east-7th-street/",
+      "photo": "https://buildingblocks.villagepreservation.org/wp-content/uploads/2012/07/434_24_PRIMARYPHOTO.jpg",
+      "captureDate": null,
+      "retrievedAt": "2026-09-22",
+      "use": "Architectural observation only; no source pixels in exported assets.",
+      "inspected": true
+    },
+    "east06-archive-248142335": {
+      "url": "https://buildingblocks.villagepreservation.org/building/122-east-7th-street/",
+      "photo": "https://buildingblocks.villagepreservation.org/wp-content/uploads/2012/07/434_25_PRIMARYPHOTO.jpg",
+      "captureDate": null,
+      "retrievedAt": "2026-09-22",
+      "use": "Architectural observation only; no source pixels in exported assets.",
+      "inspected": true
+    },
+    "east06-archive-248142336": {
+      "url": "https://buildingblocks.villagepreservation.org/building/126-east-7th-street/",
+      "photo": "https://buildingblocks.villagepreservation.org/wp-content/uploads/2012/07/434_26_PRIMARYPHOTO.jpg",
+      "captureDate": null,
+      "retrievedAt": "2026-09-22",
+      "use": "Architectural observation only; no source pixels in exported assets.",
+      "inspected": true
+    },
+    "east06-archive-248142337": {
+      "url": "https://buildingblocks.villagepreservation.org/building/128-east-7th-street/",
+      "photo": "https://buildingblocks.villagepreservation.org/wp-content/uploads/2012/07/434_7502_PRIMARYPHOTO.jpg",
+      "captureDate": null,
+      "retrievedAt": "2026-09-22",
+      "use": "Architectural observation only; no source pixels in exported assets.",
+      "inspected": true
+    },
+    "east06-archive-248142407": {
+      "url": "https://buildingblocks.villagepreservation.org/building/109-avenue-a/",
+      "photo": "https://buildingblocks.villagepreservation.org/wp-content/uploads/2012/07/434_29_PRIMARYPHOTO.jpg",
+      "captureDate": null,
+      "retrievedAt": "2026-09-22",
+      "use": "Architectural observation only; no source pixels in exported assets.",
+      "inspected": true
+    },
+    "east06-lpc2012": {
+      "url": "https://s-media.nyc.gov/agencies/lpc/lp/2491.pdf",
+      "publicationDate": "2012",
+      "use": "Historic identity/access cross-check; historic descriptions do not prove current condition."
+    },
+    "east06-stmary-approval": {
+      "url": "https://evgrieve.com/2026/03/lpc-oks-church-to-residential.html",
+      "published": "2026-03-05",
+      "retrievedAt": "2026-09-22",
+      "observation": "Approval of church conversion and two-story addition is reported, not completed construction. The source image must be distinguished from proposal renderings."
+    }
+  },
+  "observations": [
+    {
+      "buildingId": 248142707,
+      "address": "118 1st Avenue",
+      "state": "protected-existing-reference",
+      "notes": [
+        "Accepted First Avenue corner recipe and final model bytes protected; preserve its current storefronts."
+      ]
+    },
+    {
+      "buildingId": 248142715,
+      "address": "93 East 7th Street",
+      "sources": [
+        "east06-archive-248142715"
+      ],
+      "upperObservation": "Four upper rows of three rectangular windows; red-painted brick and dark projecting cornice; fire escape aligned across middle/right bays.",
+      "groundObservation": "Three distinct ground units in the archive; commercial occupants have changed. Preserve side/recess separations and verify current signs before replacing them.",
+      "repairOrReview": "Current Mary O name/address supported by official site; physical frontage needs newer close view.",
+      "dimensions": "All normalized positions and metric dimensions are authored photo-ratio estimates within unchanged mapped footprints.",
+      "groundCurrentView": "2024 exterior + current official identity",
+      "modelState": "revision 06 geometry authored; review results recorded separately in east-seventh-review-06",
+      "visualAcceptance": "See separate final review record; no calibrated acceptance inferred from this observation."
+    },
+    {
+      "buildingId": 248142690,
+      "address": "95 East 7th Street",
+      "sources": [
+        "east06-archive-248142690"
+      ],
+      "upperObservation": "Four upper rows of four openings; paired outer groups, flat middle lintels, shell-shaped caps at lowest/top upper rows; gray stone trim over red facade. Detailed reinspection distinguishes rectangular sash under curved carved hoods; those are not arched glass openings.",
+      "groundObservation": "Centered raised arched entrance, paired parlor openings and fenced basement access.",
+      "repairOrReview": "Keep gray trim distinct from red neighboring 97; review basement stair opening and door color.",
+      "dimensions": "All normalized positions and metric dimensions are authored photo-ratio estimates within unchanged mapped footprints.",
+      "groundCurrentView": "pending",
+      "modelState": "revision 06 geometry authored; review results recorded separately in east-seventh-review-06",
+      "visualAcceptance": "See separate final review record; no calibrated acceptance inferred from this observation."
+    },
+    {
+      "buildingId": 248142701,
+      "address": "97 East 7th Street",
+      "sources": [
+        "east06-archive-248142701"
+      ],
+      "upperObservation": "Four upper rows of four openings; same massing family as 95 with red/orange trim, rather than copying its gray palette. Detailed reinspection distinguishes rectangular sash under curved carved hoods; those are not arched glass openings.",
+      "groundObservation": "Centered round-arched entrance and raised stoop; basement store/steps remain distinct.",
+      "repairOrReview": "Ground lettering needs newer reference.",
+      "dimensions": "All normalized positions and metric dimensions are authored photo-ratio estimates within unchanged mapped footprints.",
+      "groundCurrentView": "pending",
+      "modelState": "revision 06 geometry authored; review results recorded separately in east-seventh-review-06",
+      "visualAcceptance": "See separate final review record; no calibrated acceptance inferred from this observation."
+    },
+    {
+      "buildingId": 248142693,
+      "address": "97 1/2 East 7th Street",
+      "sources": [
+        "east06-archive-248142693"
+      ],
+      "upperObservation": "Three upper bays and alternating arched/rectangular profiles between 97 and 99; narrow parcel.",
+      "groundObservation": "Recessed raised entrance right of left paired ground window, two stone columns under a round arch; low left shop unit and metal/stone areaway separation.",
+      "repairOrReview": "Transcribe narrow three-bay house independently from 99; preserve literal half address and separate lower shop.",
+      "dimensions": "All normalized positions and metric dimensions are authored photo-ratio estimates within unchanged mapped footprints.",
+      "groundCurrentView": "pending",
+      "modelState": "revision 06 geometry authored; review results recorded separately in east-seventh-review-06",
+      "visualAcceptance": "See separate final review record; no calibrated acceptance inferred from this observation."
+    },
+    {
+      "buildingId": 248142697,
+      "address": "99 East 7th Street",
+      "sources": [
+        "east06-archive-248142697"
+      ],
+      "upperObservation": "Four upper bays; ivory-painted stone/brick, round-arched rows alternating with rectangular rows, ornate cornice and central escape.",
+      "groundObservation": "Raised central columned arched porch; paired lower windows flank entrance; basement separate.",
+      "repairOrReview": "Individual paired parlor sashes and porch depth require explicit geometry.",
+      "dimensions": "All normalized positions and metric dimensions are authored photo-ratio estimates within unchanged mapped footprints.",
+      "groundCurrentView": "pending",
+      "modelState": "revision 06 geometry authored; review results recorded separately in east-seventh-review-06",
+      "visualAcceptance": "See separate final review record; no calibrated acceptance inferred from this observation."
+    },
+    {
+      "buildingId": 248142615,
+      "address": "101 East 7th Street",
+      "sources": [
+        "east06-archive-248142615"
+      ],
+      "upperObservation": "Three-bay, three-story rectory; projecting bracketed cornice, short hood brackets; no fire escape.",
+      "groundObservation": "Street-level doorway on image-left below the parlor; stoop removed. Three parlor grilles; areaway fence and statue/flag pole in front.",
+      "repairOrReview": "Remove invented raised front stoop and separate lower entrance from parlor windows.",
+      "dimensions": "All normalized positions and metric dimensions are authored photo-ratio estimates within unchanged mapped footprints.",
+      "groundCurrentView": "pending",
+      "modelState": "revision 06 geometry authored; review results recorded separately in east-seventh-review-06",
+      "visualAcceptance": "See separate final review record; no calibrated acceptance inferred from this observation."
+    },
+    {
+      "buildingId": 248142618,
+      "address": "107 East 7th Street",
+      "sources": [
+        "east06-archive-248142618"
+      ],
+      "upperObservation": "St Stanislaus: five tall Gothic upper windows, paired on each side of broader center; tripartite pale-brick facade, central twin-open bell stage and slender spire.",
+      "groundObservation": "Three separate pairs of timber doors under pointed transoms; narrow lancets between doors, raised stairs, iron railings, signs and wall lights. Pointed door heads are opaque timber; the upper church lancets are glazed.",
+      "repairOrReview": "Existing recipe has only one upper window per side and simplified doors; correct counts, openings and tower detail.",
+      "dimensions": "All normalized positions and metric dimensions are authored photo-ratio estimates within unchanged mapped footprints.",
+      "groundCurrentView": "pending",
+      "modelState": "revision 06 geometry authored; review results recorded separately in east-seventh-review-06",
+      "visualAcceptance": "See separate final review record; no calibrated acceptance inferred from this observation."
+    },
+    {
+      "buildingId": 248142621,
+      "address": "109 East 7th Street",
+      "sources": [
+        "east06-archive-248142621"
+      ],
+      "upperObservation": "109 church house: three upper bays, three stories plus basement, pale wall, large bracketed cornice and strongly molded lintels.",
+      "groundObservation": "Entry lowered to image-left at street level, separate grilled parlor row/areaway; no central stoop.",
+      "repairOrReview": "Correct engine-only address from duplicate 101 to 109 and remove the false center stair.",
+      "dimensions": "All normalized positions and metric dimensions are authored photo-ratio estimates within unchanged mapped footprints.",
+      "groundCurrentView": "pending",
+      "modelState": "revision 06 geometry authored; review results recorded separately in east-seventh-review-06",
+      "visualAcceptance": "See separate final review record; no calibrated acceptance inferred from this observation."
+    },
+    {
+      "buildingId": 248142624,
+      "address": "111 East 7th Street",
+      "sources": [
+        "east06-archive-248142624"
+      ],
+      "upperObservation": "McKinley: nine-bay facade with six upper opening rows above the ground story; narrow central open-air stack, two fire escapes, stone quoins, ornate lower pediments and central projecting balcony.",
+      "groundObservation": "Seven distinct lower openings; Ladybird doors/window at the west side and the MCKINLEY residential arch east of the upper middle recess, plus separate far-right entry. Exact normalized spans are oblique-photo estimates.",
+      "repairOrReview": "Add omitted upper row; distinguish open central passage from glazed residential windows; preserve current Ladybird detail.",
+      "dimensions": "All normalized positions and metric dimensions are authored photo-ratio estimates within unchanged mapped footprints.",
+      "groundCurrentView": "pending",
+      "modelState": "revision 06 geometry authored; review results recorded separately in east-seventh-review-06",
+      "visualAcceptance": "See separate final review record; no calibrated acceptance inferred from this observation."
+    },
+    {
+      "buildingId": 248142633,
+      "address": "117 East 7th Street",
+      "sources": [
+        "east06-archive-248142633"
+      ],
+      "upperObservation": "117–119: six upper openings per row, five upper rows; second-from-top outer arches with flat middle pair; buff brick, dark cornice and single middle escape.",
+      "groundObservation": "Broad dark ground band with distinct shop/entry divisions; tree conceals portions.",
+      "repairOrReview": "Replace incorrect five-bay schedule; retain unknown current commercial text.",
+      "dimensions": "All normalized positions and metric dimensions are authored photo-ratio estimates within unchanged mapped footprints.",
+      "groundCurrentView": "pending",
+      "modelState": "revision 06 geometry authored; review results recorded separately in east-seventh-review-06",
+      "visualAcceptance": "See separate final review record; no calibrated acceptance inferred from this observation."
+    },
+    {
+      "buildingId": 248142640,
+      "address": "121 East 7th Street",
+      "sources": [
+        "east06-archive-248142640"
+      ],
+      "upperObservation": "121 former church: three-bay rough stone facade, round upper openings and short centered tower with pyramidal roof; older material and 2025 existing-condition evidence differ from proposals.",
+      "groundObservation": "Two raised timber doors and a separate right arched window, metal stair/fence.",
+      "repairOrReview": "Do not model proposed two-story addition as built; resolve later dated condition.",
+      "dimensions": "All normalized positions and metric dimensions are authored photo-ratio estimates within unchanged mapped footprints.",
+      "groundCurrentView": "pending",
+      "modelState": "revision 06 geometry authored; review results recorded separately in east-seventh-review-06",
+      "visualAcceptance": "See separate final review record; no calibrated acceptance inferred from this observation."
+    },
+    {
+      "buildingId": 248142645,
+      "address": "123 East 7th Street",
+      "sources": [
+        "east06-archive-248142645"
+      ],
+      "upperObservation": "123: four upper rows, three rectangular windows, broad dark cornice, pale/weathered brick and projecting hood lintels.",
+      "groundObservation": "Tiled base has distinctive ogee-arched shop openings and a separate right residential entry.",
+      "repairOrReview": "Do not substitute a flat glass strip for the curved shop openings.",
+      "dimensions": "All normalized positions and metric dimensions are authored photo-ratio estimates within unchanged mapped footprints.",
+      "groundCurrentView": "pending",
+      "modelState": "revision 06 geometry authored; review results recorded separately in east-seventh-review-06",
+      "visualAcceptance": "See separate final review record; no calibrated acceptance inferred from this observation."
+    },
+    {
+      "buildingId": 248142647,
+      "address": "125 East 7th Street",
+      "sources": [
+        "east06-archive-248142647"
+      ],
+      "upperObservation": "125: four upper rows of three rectangular windows, cream-painted wall, brown lintels/cornice and central pale fire escape.",
+      "groundObservation": "Separate commercial opening(s) and residential access; tree hides part of ground.",
+      "repairOrReview": "Use newer source for storefront paint/name; upper rhythm is visible.",
+      "dimensions": "All normalized positions and metric dimensions are authored photo-ratio estimates within unchanged mapped footprints.",
+      "groundCurrentView": "pending",
+      "modelState": "revision 06 geometry authored; review results recorded separately in east-seventh-review-06",
+      "visualAcceptance": "See separate final review record; no calibrated acceptance inferred from this observation."
+    },
+    {
+      "buildingId": 248142650,
+      "address": "127 East 7th Street",
+      "sources": [
+        "east06-archive-248142650"
+      ],
+      "upperObservation": "127: four upper rows of three rectangular windows; cool gray wall and pale trim/escape, dark cornice.",
+      "groundObservation": "Separate middle residential door with shop openings on both sides; archive shop shutter/awning not current occupancy.",
+      "repairOrReview": "Raw entry at far left does not match visible central door; verify close view.",
+      "dimensions": "All normalized positions and metric dimensions are authored photo-ratio estimates within unchanged mapped footprints.",
+      "groundCurrentView": "pending",
+      "modelState": "revision 06 geometry authored; review results recorded separately in east-seventh-review-06",
+      "visualAcceptance": "See separate final review record; no calibrated acceptance inferred from this observation."
+    },
+    {
+      "buildingId": 248142653,
+      "address": "129 East 7th Street",
+      "sources": [
+        "east06-archive-248142653"
+      ],
+      "upperObservation": "129: four upper rows of three rectangular windows; red-painted wall, deep dark cornice/lintels and central fire escape.",
+      "groundObservation": "Central shallow pointed/ogee entrance and separate right opening, with dark brick/tile lower facade.",
+      "repairOrReview": "Do not restore archive funeral-home lettering as current.",
+      "dimensions": "All normalized positions and metric dimensions are authored photo-ratio estimates within unchanged mapped footprints.",
+      "groundCurrentView": "pending",
+      "modelState": "revision 06 geometry authored; review results recorded separately in east-seventh-review-06",
+      "visualAcceptance": "See separate final review record; no calibrated acceptance inferred from this observation."
+    },
+    {
+      "buildingId": 248142656,
+      "address": "131 East 7th Street",
+      "sources": [
+        "east06-archive-248142656"
+      ],
+      "upperObservation": "131 adjoins 111 Avenue A; separate mapped front must be inspected in the corner return, not guessed from the avenue elevation.",
+      "groundObservation": "Existing 787 source has yellow canopy, white framing, projecting round sign and separate residential access.",
+      "repairOrReview": "Official 2026 page confirms 131; incidental blog graphic is not a facade photo.",
+      "dimensions": "All normalized positions and metric dimensions are authored photo-ratio estimates within unchanged mapped footprints.",
+      "groundCurrentView": "pending",
+      "modelState": "existing source-guided geometry retained; final browser review separate",
+      "visualAcceptance": "See separate final review record; no calibrated acceptance inferred from this observation."
+    },
+    {
+      "buildingId": 248142714,
+      "address": "111 Avenue A",
+      "sources": [
+        "east06-archive-248142714"
+      ],
+      "upperObservation": "111 Avenue A: red brick corner with bracketed dark cornice and two escape stacks on its long Seventh return.",
+      "groundObservation": "Yellow Yuca ground storefront zone, independent doors/windows and corner join.",
+      "repairOrReview": "Archive avenue photo supports corner massing; current Seventh return needs its own image.",
+      "dimensions": "All normalized positions and metric dimensions are authored photo-ratio estimates within unchanged mapped footprints.",
+      "groundCurrentView": "pending",
+      "modelState": "revision 06 geometry authored; review results recorded separately in east-seventh-review-06",
+      "visualAcceptance": "See separate final review record; no calibrated acceptance inferred from this observation."
+    },
+    {
+      "buildingId": 248142404,
+      "address": "116 1st Avenue",
+      "state": "protected-existing-reference",
+      "notes": [
+        "Accepted First Avenue corner recipe and final model bytes protected; preserve its current storefronts."
+      ]
+    },
+    {
+      "buildingId": 951679435,
+      "address": "92 East 7th Street",
+      "sources": [
+        "east06-archive-951679435"
+      ],
+      "upperObservation": "92: narrow modern facade with two broad multi-light groups at each of five upper rows, red piers and charcoal window framing.",
+      "groundObservation": "Two separate tall ground openings in a pale base and entrance; tree partly occludes.",
+      "repairOrReview": "Retain modern proportions and avoid decorative tenement trim.",
+      "dimensions": "All normalized positions and metric dimensions are authored photo-ratio estimates within unchanged mapped footprints.",
+      "groundCurrentView": "pending",
+      "modelState": "existing source-guided geometry retained; final browser review separate",
+      "visualAcceptance": "See separate final review record; no calibrated acceptance inferred from this observation."
+    },
+    {
+      "buildingId": 248142390,
+      "address": "94 East 7th Street",
+      "sources": [
+        "east06-archive-248142390"
+      ],
+      "upperObservation": "94: three upper bays over raised ground; buff/stone facade with round/flat profiles, elaborate hoods, green cornice and green fire escape.",
+      "groundObservation": "Timber arched residential entrance at image-left with raised stone steps; separate broad right ground opening and basement edge.",
+      "repairOrReview": "Keep the left-side entry; detail its arch, stair cheeks and broad neighboring window rather than mirroring it.",
+      "dimensions": "All normalized positions and metric dimensions are authored photo-ratio estimates within unchanged mapped footprints.",
+      "groundCurrentView": "pending",
+      "modelState": "revision 06 geometry authored; review results recorded separately in east-seventh-review-06",
+      "visualAcceptance": "See separate final review record; no calibrated acceptance inferred from this observation."
+    },
+    {
+      "buildingId": 248142393,
+      "address": "96 East 7th Street",
+      "sources": [
+        "east06-archive-248142393"
+      ],
+      "upperObservation": "96: four upper bays, four upper rows, red brick, rectangular openings with pale lintels; no front escape on this facade in archive.",
+      "groundObservation": "2025 source: left raised residential entry separate from the broad black shop with two pink display reveals flanking its center door; seasonal displays are excluded.",
+      "repairOrReview": "Use 2025 detailed shop source instead of archived salon sign.",
+      "dimensions": "All normalized positions and metric dimensions are authored photo-ratio estimates within unchanged mapped footprints.",
+      "groundCurrentView": "2025-10 dated exterior inspected",
+      "modelState": "revision 06 geometry authored; review results recorded separately in east-seventh-review-06",
+      "visualAcceptance": "See separate final review record; no calibrated acceptance inferred from this observation."
+    },
+    {
+      "buildingId": 248142396,
+      "address": "98 East 7th Street",
+      "sources": [
+        "east06-archive-248142396"
+      ],
+      "upperObservation": "98: four upper rows of four rectangular openings, red/pink wall, dark cornice, central fire escape.",
+      "groundObservation": "Raised centered residential entrance with four/split parlor openings and low basement windows.",
+      "repairOrReview": "Correct three-bay upper schedule to four; exact stair count needs close view.",
+      "dimensions": "All normalized positions and metric dimensions are authored photo-ratio estimates within unchanged mapped footprints.",
+      "groundCurrentView": "pending",
+      "modelState": "revision 06 geometry authored; review results recorded separately in east-seventh-review-06",
+      "visualAcceptance": "See separate final review record; no calibrated acceptance inferred from this observation."
+    },
+    {
+      "buildingId": 248142313,
+      "address": "100 East 7th Street",
+      "sources": [
+        "east06-archive-248142313"
+      ],
+      "upperObservation": "100: four upper bays, four upper rows; golden/buff brick and central black escape, round decorative top caps.",
+      "groundObservation": "Broad divided parlor windows beside centered entrance; gray stone ground base and fenced basement edge.",
+      "repairOrReview": "Preserve floor/bay layout, improve lower grouping/depth from detail views.",
+      "dimensions": "All normalized positions and metric dimensions are authored photo-ratio estimates within unchanged mapped footprints.",
+      "groundCurrentView": "pending",
+      "modelState": "revision 06 geometry authored; review results recorded separately in east-seventh-review-06",
+      "visualAcceptance": "See separate final review record; no calibrated acceptance inferred from this observation."
+    },
+    {
+      "buildingId": 248142319,
+      "address": "102 East 7th Street",
+      "sources": [
+        "east06-archive-248142319"
+      ],
+      "upperObservation": "102: four upper rows split into a broad left three-light group and narrower right two-light group; projecting iron balconies alternate groups.",
+      "groundObservation": "Separate narrow central entrance and two commercial ground units.",
+      "repairOrReview": "Preserve asymmetric multi-light groups; storefront span must not cover the door.",
+      "dimensions": "All normalized positions and metric dimensions are authored photo-ratio estimates within unchanged mapped footprints.",
+      "groundCurrentView": "pending",
+      "modelState": "revision 06 geometry authored; review results recorded separately in east-seventh-review-06",
+      "visualAcceptance": "See separate final review record; no calibrated acceptance inferred from this observation."
+    },
+    {
+      "buildingId": 248142322,
+      "address": "104 East 7th Street",
+      "sources": [
+        "east06-archive-248142322"
+      ],
+      "upperObservation": "104: three upper bays per row, with middle grouping varying; upper ornamental cornice largely stripped/plain in archive.",
+      "groundObservation": "Raised parlor/entry arrangement and sunken ground openings; a single generic at-grade door loses the access distinction.",
+      "repairOrReview": "Current ground geometry needs closer source before assignment.",
+      "dimensions": "All normalized positions and metric dimensions are authored photo-ratio estimates within unchanged mapped footprints.",
+      "groundCurrentView": "pending",
+      "modelState": "revision 06 geometry authored; review results recorded separately in east-seventh-review-06",
+      "visualAcceptance": "See separate final review record; no calibrated acceptance inferred from this observation."
+    },
+    {
+      "buildingId": 248142324,
+      "address": "106 East 7th Street",
+      "sources": [
+        "east06-archive-248142324"
+      ],
+      "upperObservation": "106: four upper rows of four windows; red brick, pale molded hoods/sill courses and plain dark roof edge; no frontage escape.",
+      "groundObservation": "Central doorway and paired ground/parlor openings with separate basement edge.",
+      "repairOrReview": "The exposed east wall borders the 108 site; preserve that return, not a new full-width building.",
+      "dimensions": "All normalized positions and metric dimensions are authored photo-ratio estimates within unchanged mapped footprints.",
+      "groundCurrentView": "pending",
+      "modelState": "revision 06 geometry authored; review results recorded separately in east-seventh-review-06",
+      "visualAcceptance": "See separate final review record; no calibrated acceptance inferred from this observation."
+    },
+    {
+      "buildingId": 248142328,
+      "address": "110 East 7th Street",
+      "sources": [
+        "east06-archive-248142328"
+      ],
+      "upperObservation": "110: five upper rows of four windows; second-from-top has arched openings; dense brick/stone trim and central fire escape.",
+      "groundObservation": "Separate Ho Foods, center residential entry and adjacent unit; dark/pale historical surround.",
+      "repairOrReview": "Current official image found is interior-only; use actual exterior source before exterior changes.",
+      "dimensions": "All normalized positions and metric dimensions are authored photo-ratio estimates within unchanged mapped footprints.",
+      "groundCurrentView": "pending",
+      "modelState": "revision 06 geometry authored; review results recorded separately in east-seventh-review-06",
+      "visualAcceptance": "See separate final review record; no calibrated acceptance inferred from this observation."
+    },
+    {
+      "buildingId": 248142330,
+      "address": "112 East 7th Street",
+      "sources": [
+        "east06-archive-248142330"
+      ],
+      "upperObservation": "112: four upper rows of four windows, brick top without old projecting cornice, paired center bays and outer arched row near top.",
+      "groundObservation": "Raised center entrance with ornamental portal; physically projecting ground bays on both sides.",
+      "repairOrReview": "Reproduce bay depth and removed cornice; do not place wall trim through windows.",
+      "dimensions": "All normalized positions and metric dimensions are authored photo-ratio estimates within unchanged mapped footprints.",
+      "groundCurrentView": "pending",
+      "modelState": "revision 06 geometry authored; review results recorded separately in east-seventh-review-06",
+      "visualAcceptance": "See separate final review record; no calibrated acceptance inferred from this observation."
+    },
+    {
+      "buildingId": 248142332,
+      "address": "114 East 7th Street",
+      "sources": [
+        "east06-archive-248142332"
+      ],
+      "upperObservation": "114: five upper rows of four windows; pale painted brick, dark broad cornice and top arched row, central black escape.",
+      "groundObservation": "Two paired parlor groups, oak double center doors under an arch, broad seven-ish visible treads with solid stone side walls and separate basement windows.",
+      "repairOrReview": "Keep four bays; add grouped parlor glazing and solid stair cheeks.",
+      "dimensions": "All normalized positions and metric dimensions are authored photo-ratio estimates within unchanged mapped footprints.",
+      "groundCurrentView": "pending",
+      "modelState": "revision 06 geometry authored; review results recorded separately in east-seventh-review-06",
+      "visualAcceptance": "See separate final review record; no calibrated acceptance inferred from this observation."
+    },
+    {
+      "buildingId": 248142411,
+      "address": "116 East 7th Street",
+      "sources": [
+        "east06-archive-248142411"
+      ],
+      "upperObservation": "116: three upper windows per row, five rows above ground; red painted/brick facade and curved lintels; no front escape on this exact eastern half.",
+      "groundObservation": "Two broad lower openings with narrow residential entry between; former high stoop removed; upper parlor row has plain rectangular grilles.",
+      "repairOrReview": "Replace 114-photo copy: correct source/address, three bays, red material and at-grade access.",
+      "dimensions": "All normalized positions and metric dimensions are authored photo-ratio estimates within unchanged mapped footprints.",
+      "groundCurrentView": "pending",
+      "modelState": "revision 06 geometry authored; review results recorded separately in east-seventh-review-06",
+      "visualAcceptance": "See separate final review record; no calibrated acceptance inferred from this observation."
+    },
+    {
+      "buildingId": 248142333,
+      "address": "118 East 7th Street",
+      "sources": [
+        "east06-archive-248142333"
+      ],
+      "upperObservation": "118: three upper windows per row, five rows; red brick/paint, curved lintels and central escape, corbelled roof frieze.",
+      "groundObservation": "Street-level residential entry at image-left and separate grilled low openings; wide first-story west opening has retained hood.",
+      "repairOrReview": "Replace incorrect four-bay rhythm and center entry.",
+      "dimensions": "All normalized positions and metric dimensions are authored photo-ratio estimates within unchanged mapped footprints.",
+      "groundCurrentView": "pending",
+      "modelState": "revision 06 geometry authored; review results recorded separately in east-seventh-review-06",
+      "visualAcceptance": "See separate final review record; no calibrated acceptance inferred from this observation."
+    },
+    {
+      "buildingId": 248142334,
+      "address": "120 East 7th Street",
+      "sources": [
+        "east06-archive-248142334"
+      ],
+      "upperObservation": "120: three upper windows per row, five rows; warm brick with light curved hoods, no front fire escape; corbelled frieze.",
+      "groundObservation": "Centered residential entrance with two lower commercial openings and white ground frame.",
+      "repairOrReview": "Replace four-bay rhythm and far-right entry.",
+      "dimensions": "All normalized positions and metric dimensions are authored photo-ratio estimates within unchanged mapped footprints.",
+      "groundCurrentView": "pending",
+      "modelState": "revision 06 geometry authored; review results recorded separately in east-seventh-review-06",
+      "visualAcceptance": "See separate final review record; no calibrated acceptance inferred from this observation."
+    },
+    {
+      "buildingId": 248142335,
+      "address": "122 East 7th Street",
+      "sources": [
+        "east06-archive-248142335"
+      ],
+      "upperObservation": "122: four upper windows per row, four upper rows above raised first-story windows; red wall, curved lintels, wide center escape.",
+      "groundObservation": "Distinct shop, central narrow residential access and another unit at right; shallow awning/sign layers.",
+      "repairOrReview": "Five visible window tiers include the raised first-story openings; retain total tier count and check row heights against the ground fascia.",
+      "dimensions": "All normalized positions and metric dimensions are authored photo-ratio estimates within unchanged mapped footprints.",
+      "groundCurrentView": "pending",
+      "modelState": "revision 06 geometry authored; review results recorded separately in east-seventh-review-06",
+      "visualAcceptance": "See separate final review record; no calibrated acceptance inferred from this observation."
+    },
+    {
+      "buildingId": 248142336,
+      "address": "126 East 7th Street",
+      "sources": [
+        "east06-archive-248142336"
+      ],
+      "upperObservation": "126: four upper windows per row, four upper rows; cream-painted facade, dark plain roofline and reddish iron escape.",
+      "groundObservation": "Broad left shop shutter and separate right residential door; former Giano identity not automatically current.",
+      "repairOrReview": "Keep observed partition while leaving unverified new tenant text unresolved.",
+      "dimensions": "All normalized positions and metric dimensions are authored photo-ratio estimates within unchanged mapped footprints.",
+      "groundCurrentView": "pending",
+      "modelState": "revision 06 geometry authored; review results recorded separately in east-seventh-review-06",
+      "visualAcceptance": "See separate final review record; no calibrated acceptance inferred from this observation."
+    },
+    {
+      "buildingId": 248142337,
+      "address": "128 East 7th Street",
+      "sources": [
+        "east06-archive-248142337"
+      ],
+      "upperObservation": "128: uppermost story is one broad modified horizontal opening; five lower upper rows of three windows; limestone-colored facade with pilasters/dentils.",
+      "groundObservation": "Pylos recessed ground entrance/windows and raised projecting first-floor terrace with timber guard.",
+      "repairOrReview": "Replace generic three windows at the top and capture terrace depth.",
+      "dimensions": "All normalized positions and metric dimensions are authored photo-ratio estimates within unchanged mapped footprints.",
+      "groundCurrentView": "pending",
+      "modelState": "revision 06 geometry authored; review results recorded separately in east-seventh-review-06",
+      "visualAcceptance": "See separate final review record; no calibrated acceptance inferred from this observation."
+    },
+    {
+      "buildingId": 248142407,
+      "address": "109 Avenue A",
+      "sources": [
+        "east06-archive-248142407"
+      ],
+      "upperObservation": "109 Avenue A: tall buff corner building with separate Avenue A and long Seventh facade; horizontal stone bands and exposed side escape.",
+      "groundObservation": "Seventh return contains Miss Lily’s and Titi’s with separate shop divisions, entrances and signs.",
+      "repairOrReview": "Archive avenue image is insufficient for exact return bays; retain existing footprint and inspect return separately.",
+      "dimensions": "All normalized positions and metric dimensions are authored photo-ratio estimates within unchanged mapped footprints.",
+      "groundCurrentView": "pending",
+      "modelState": "revision 06 geometry authored; review results recorded separately in east-seventh-review-06",
+      "visualAcceptance": "See separate final review record; no calibrated acceptance inferred from this observation."
+    }
+  ],
+  "additionalEdges": [
+    {
+      "id": "east7-south-108-gap",
+      "source": "https://buildingblocks.villagepreservation.org/building/108-east-7th-street/",
+      "observation": "Archive shows low concrete garage wall and double opening between 106 and 110; 2015 proposal would remove wall/ramp for a garden. Proposal is not proof of completed condition.",
+      "currentState": "needs newer observed reference"
+    }
+  ],
+  "limits": [
+    "Archive photos have unknown capture dates; years in upload paths are not capture dates.",
+    "Dated business exterior photos and official identities are recorded separately. User authorized up to 40 Street View images; metadata failed because billing was disabled, zero images were requested, and the user then chose to finish with public references.",
+    "Per-feature dimensions, hidden details, exact carving/lettering, current 108 site condition and calibrated multi-view acceptance remain open.",
+    "Source photographs remain local observation material; no source pixels are exported or committed. Final game comparisons are in a separate review record."
+  ],
+  "streetViewAcquisition": {
+    "authorization": "User explicitly authorized up to 40 reference images in this session.",
+    "imageRequestLimit": 40,
+    "imageRequestsMade": 0,
+    "metadataRequestsMade": 12,
+    "status": "REQUEST_DENIED",
+    "providerReason": "Billing must be enabled on the Google Cloud project.",
+    "nextAction": "No retry scheduled: user chose to finish this pass using public references.",
+    "sourcePixelsDistributed": false,
+    "finalUserDirection": "Finish using the public references for now"
+  }
+}

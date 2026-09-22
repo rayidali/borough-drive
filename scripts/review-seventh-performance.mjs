@@ -41,7 +41,7 @@ async function command(value){const sequence=++commandSequence;await evaluate('w
 
 const report={
   date:new Date().toISOString(),url,viewport:{width:1440,height:1000,deviceScaleFactor:1},build,buildHashes,
-  conditions:'Local HTTP, Apple M1, unthrottled CPU/network; browser cache disabled for startup. Same routes, weather transitions, reset behavior, and warm intervals as review-seventh.mjs; no screenshots or control/recovery checks.',
+  conditions:'Local HTTP, Apple M1, unthrottled CPU/network; browser cache disabled for startup. Same routes, weather transitions, reset behavior, and warm intervals as review-seventh.mjs; focus/visibility emulated for isolated sampling; no screenshots or control/recovery checks.',
   routeConfig:{northbound:{seconds:5,warmAfterResetMs:5500},seventhEast:{pose:{x:-260,z:0,yaw:-Math.PI/2},seconds:8,weatherSettleMs:5000},seventhWest:{pose:{x:258,z:0,yaw:Math.PI/2},seconds:8,weatherSettleMs:5000}},
   errors:[],warnings:[],failedRequests:[],samples:[]
 };
@@ -58,6 +58,10 @@ try{
   await send('Page.enable');await send('Runtime.enable');await send('Network.enable');
   await send('Network.setCacheDisabled',{cacheDisabled:true});
   await send('Emulation.setDeviceMetricsOverride',{...report.viewport,mobile:false});
+  // Keep this isolated diagnostic visible/focused while the reviewer inspects sources.
+  // User-facing focus-loss behavior is checked separately by review-seventh.mjs.
+  await send('Emulation.setFocusEmulationEnabled',{enabled:true});
+  await send('Page.bringToFront');
   await send('Page.navigate',{url});
   await until('window.seventhStats?.ready && document.getElementById("loading").hidden');
   report.startup=await evaluate('({readyMs:seventhReadyMs,resources:performance.getEntriesByType("resource").map(resource=>({path:new URL(resource.name).pathname,bytes:resource.transferSize,durationMs:resource.duration})),stats:seventhStats})');

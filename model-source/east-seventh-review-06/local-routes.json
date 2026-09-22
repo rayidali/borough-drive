@@ -1,0 +1,30 @@
+{
+  "checkedAt": "2026-09-22T03:08:58.173Z",
+  "origin": "http://127.0.0.1:5173",
+  "checks": [
+    {
+      "route": "/",
+      "status": 200,
+      "sha256": "a3afa5856d5571860c867882bda4ebf1b6d8a30433cce33229a80334bfffcbef",
+      "matches": "dist/seventh/index.html"
+    },
+    {
+      "route": "/seventh/",
+      "status": 200,
+      "sha256": "a3afa5856d5571860c867882bda4ebf1b6d8a30433cce33229a80334bfffcbef",
+      "matches": "dist/seventh/index.html"
+    },
+    {
+      "route": "/index.html",
+      "status": 200,
+      "sha256": "ad8fa5a259fea000caa0a463ce636ce5004dad5641d4c9f324930acdaacbb908",
+      "matches": "dist/legacy.html"
+    },
+    {
+      "route": "/seventh/build.json",
+      "status": 200,
+      "sha256": "8ffd3dbd83c9a3a5f9bedc07be841bb02f5fdd2614afbe8a2e9c0bed9b5ec2e3",
+      "matches": "dist/seventh/build.json"
+    }
+  ]
+}

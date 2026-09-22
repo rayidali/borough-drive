@@ -1,0 +1,463 @@
+{
+  "schema": "east-seventh-reference-06",
+  "checkedAt": "2026-09-22T01:43:24.062141+00:00",
+  "scope": {
+    "street": "East 7th Street",
+    "from": "First Avenue",
+    "to": "Avenue A",
+    "sides": [
+      "north",
+      "south"
+    ],
+    "cornerReturns": "Existing corner parcels facing this block only; First Avenue accepted corner geometry protected; no adjacent avenue parcel expansion.",
+    "datePolicy": "Prefer latest available inspected views; retain capture dates separately, mark older/mixed-date details and uncertain occupancy explicitly."
+  },
+  "referenceViews": [],
+  "scopedFrontages": [
+    {
+      "id": 248142707,
+      "address": "118 1st Avenue",
+      "frontage": {
+        "x": 15.412029208856282,
+        "z": 219.466545464283,
+        "rx": 0.9999967998213825,
+        "rz": -0.002529890707918786,
+        "length": 19.584019549127696,
+        "street": "East 7th Street"
+      }
+    },
+    {
+      "id": 248142715,
+      "address": "93 East 7th Street",
+      "frontage": {
+        "x": 34.996,
+        "z": 219.417,
+        "rx": 0.9999997974102341,
+        "rz": -0.0006365371084724842,
+        "length": 9.426,
+        "street": "East 7th Street"
+      }
+    },
+    {
+      "id": 248142690,
+      "address": "95 East 7th Street",
+      "frontage": {
+        "x": 44.422,
+        "z": 219.411,
+        "rx": 0.9999998571308688,
+        "rz": 0.0005345448922242618,
+        "length": 7.483,
+        "street": "East 7th Street"
+      }
+    },
+    {
+      "id": 248142701,
+      "address": "97 East 7th Street",
+      "frontage": {
+        "x": 51.905,
+        "z": 219.415,
+        "rx": 0.9999999163603469,
+        "rz": -0.00040899792079985593,
+        "length": 7.335,
+        "street": "East 7th Street"
+      }
+    },
+    {
+      "id": 248142693,
+      "address": "97 1/2 East 7th Street",
+      "frontage": {
+        "x": 59.24,
+        "z": 219.412,
+        "rx": 0.9999997604564718,
+        "rz": -0.0006921611077772944,
+        "length": 5.779,
+        "street": "East 7th Street"
+      }
+    },
+    {
+      "id": 248142697,
+      "address": "99 East 7th Street",
+      "frontage": {
+        "x": 65.019,
+        "z": 219.408,
+        "rx": 0.9999986150230961,
+        "rz": -0.0016643172443063716,
+        "length": 7.811,
+        "street": "East 7th Street"
+      }
+    },
+    {
+      "id": 248142615,
+      "address": "101 East 7th Street",
+      "frontage": {
+        "x": 72.829,
+        "z": 217.397,
+        "rx": 0.9999986996936167,
+        "rz": -0.0016126410251454699,
+        "length": 6.201,
+        "street": "East 7th Street"
+      }
+    },
+    {
+      "id": 248142618,
+      "address": "107 East 7th Street",
+      "frontage": {
+        "x": 80.342,
+        "z": 218.53,
+        "rx": 0.9999999274284345,
+        "rz": -0.00038097654229289705,
+        "length": 15.749,
+        "street": "East 7th Street"
+      }
+    },
+    {
+      "id": 248142621,
+      "address": "109 East 7th Street",
+      "frontage": {
+        "x": 96.854,
+        "z": 217.831,
+        "rx": 0.9999999514453823,
+        "rz": -0.0003116235436073373,
+        "length": 6.418,
+        "street": "East 7th Street"
+      }
+    },
+    {
+      "id": 248142624,
+      "address": "111–115 East 7th Street",
+      "frontage": {
+        "x": 103.276,
+        "z": 219.381,
+        "rx": 0.9999999773436373,
+        "rz": -0.00021286785745118554,
+        "length": 18.791,
+        "street": "East 7th Street"
+      }
+    },
+    {
+      "id": 248142633,
+      "address": "117–119 East 7th Street",
+      "frontage": {
+        "x": 122.067,
+        "z": 219.377,
+        "rx": 0.9999995685388915,
+        "rz": -0.0009289359670589204,
+        "length": 12.918,
+        "street": "East 7th Street"
+      }
+    },
+    {
+      "id": 248142640,
+      "address": "121 East 7th Street",
+      "frontage": {
+        "x": 134.985,
+        "z": 219.365,
+        "rx": 0.9999994687508144,
+        "rz": -0.0010307754794964962,
+        "length": 6.791,
+        "street": "East 7th Street"
+      }
+    },
+    {
+      "id": 248142645,
+      "address": "123 East 7th Street",
+      "frontage": {
+        "x": 141.776,
+        "z": 219.358,
+        "rx": 0.9999999916148583,
+        "rz": -0.00012950012841487124,
+        "length": 7.722,
+        "street": "East 7th Street"
+      }
+    },
+    {
+      "id": 248142647,
+      "address": "125 East 7th Street",
+      "frontage": {
+        "x": 149.498,
+        "z": 219.357,
+        "rx": 0.9999995369592751,
+        "rz": -0.0009623311463733747,
+        "length": 7.274,
+        "street": "East 7th Street"
+      }
+    },
+    {
+      "id": 248142650,
+      "address": "127 East 7th Street",
+      "frontage": {
+        "x": 156.772,
+        "z": 219.35,
+        "rx": 0.9999999674282479,
+        "rz": -0.0002552322530420649,
+        "length": 7.836,
+        "street": "East 7th Street"
+      }
+    },
+    {
+      "id": 248142653,
+      "address": "129 East 7th Street",
+      "frontage": {
+        "x": 164.608,
+        "z": 219.348,
+        "rx": 1.0,
+        "rz": 0.0,
+        "length": 7.606,
+        "street": "East 7th Street"
+      }
+    },
+    {
+      "id": 248142656,
+      "address": "131 East 7th Street",
+      "frontage": {
+        "x": 172.214,
+        "z": 219.348,
+        "rx": 0.9999996455953741,
+        "rz": -0.0008419080271630422,
+        "length": 10.69,
+        "street": "East 7th Street"
+      }
+    },
+    {
+      "id": 248142714,
+      "address": "111 Avenue A",
+      "frontage": {
+        "x": 184.602,
+        "z": 219.338,
+        "rx": 0.9999998749583463,
+        "rz": -0.0005000832846925184,
+        "length": 17.997,
+        "street": "East 7th Street"
+      }
+    },
+    {
+      "id": 248142404,
+      "address": "116 1st Avenue",
+      "frontage": {
+        "x": 36.992,
+        "z": 237.502,
+        "rx": -0.9999989026081164,
+        "rz": -0.0014814798557160106,
+        "length": 20.925,
+        "street": "East 7th Street"
+      }
+    },
+    {
+      "id": 951679435,
+      "address": "92 East 7th Street",
+      "frontage": {
+        "x": 43.769,
+        "z": 237.504,
+        "rx": -0.9999999564533254,
+        "rz": -0.0002951158201103406,
+        "length": 6.777,
+        "street": "East 7th Street"
+      }
+    },
+    {
+      "id": 248142390,
+      "address": "94 East 7th Street",
+      "frontage": {
+        "x": 50.209,
+        "z": 237.49,
+        "rx": -0.999997637059415,
+        "rz": 0.0021739079066480406,
+        "length": 6.44,
+        "street": "East 7th Street"
+      }
+    },
+    {
+      "id": 248142393,
+      "address": "96 East 7th Street",
+      "frontage": {
+        "x": 57.835,
+        "z": 237.491,
+        "rx": -0.9999999914024167,
+        "rz": -0.00013113034243472223,
+        "length": 7.626,
+        "street": "East 7th Street"
+      }
+    },
+    {
+      "id": 248142396,
+      "address": "98 East 7th Street",
+      "frontage": {
+        "x": 65.631,
+        "z": 237.486,
+        "rx": -0.99999979433224,
+        "rz": 0.0006413544088872594,
+        "length": 7.796,
+        "street": "East 7th Street"
+      }
+    },
+    {
+      "id": 248142313,
+      "address": "100 East 7th Street",
+      "frontage": {
+        "x": 73.265,
+        "z": 237.483,
+        "rx": -0.9999999227838484,
+        "rz": 0.0003929787487997705,
+        "length": 7.634,
+        "street": "East 7th Street"
+      }
+    },
+    {
+      "id": 248142319,
+      "address": "102 East 7th Street",
+      "frontage": {
+        "x": 81.001,
+        "z": 237.474,
+        "rx": -0.9999993232602912,
+        "rz": 0.0011633911465042874,
+        "length": 7.736,
+        "street": "East 7th Street"
+      }
+    },
+    {
+      "id": 248142322,
+      "address": "104 East 7th Street",
+      "frontage": {
+        "x": 88.579,
+        "z": 237.476,
+        "rx": -0.9999999651726227,
+        "rz": -0.0002639218699333331,
+        "length": 7.578,
+        "street": "East 7th Street"
+      }
+    },
+    {
+      "id": 248142324,
+      "address": "106 East 7th Street",
+      "frontage": {
+        "x": 96.22,
+        "z": 237.468,
+        "rx": -0.9999994519133525,
+        "rz": 0.0010469828053025247,
+        "length": 7.641,
+        "street": "East 7th Street"
+      }
+    },
+    {
+      "id": 248142328,
+      "address": "110 East 7th Street",
+      "frontage": {
+        "x": 111.318,
+        "z": 237.454,
+        "rx": -0.9999994585942346,
+        "rz": 0.00104058216294683,
+        "length": 7.688,
+        "street": "East 7th Street"
+      }
+    },
+    {
+      "id": 248142330,
+      "address": "112 East 7th Street",
+      "frontage": {
+        "x": 119.135,
+        "z": 237.451,
+        "rx": -0.9999999263568694,
+        "rz": 0.00038377891506779203,
+        "length": 7.817,
+        "street": "East 7th Street"
+      }
+    },
+    {
+      "id": 248142332,
+      "address": "114 East 7th Street",
+      "frontage": {
+        "x": 126.421,
+        "z": 237.449,
+        "rx": -0.9999999623251409,
+        "rz": 0.00027449902890905976,
+        "length": 7.286,
+        "street": "East 7th Street"
+      }
+    },
+    {
+      "id": 248142411,
+      "address": "116 East 7th Street",
+      "frontage": {
+        "x": 134.218,
+        "z": 237.445,
+        "rx": -0.9999998684063803,
+        "rz": 0.000513017759862079,
+        "length": 7.797,
+        "street": "East 7th Street"
+      }
+    },
+    {
+      "id": 248142333,
+      "address": "118 East 7th Street",
+      "frontage": {
+        "x": 141.756,
+        "z": 237.444,
+        "rx": -0.9999999912005053,
+        "rz": 0.00013266118217103724,
+        "length": 7.538,
+        "street": "East 7th Street"
+      }
+    },
+    {
+      "id": 248142334,
+      "address": "120 East 7th Street",
+      "frontage": {
+        "x": 149.294,
+        "z": 237.443,
+        "rx": -0.9999999912005053,
+        "rz": 0.00013266118216726677,
+        "length": 7.538,
+        "street": "East 7th Street"
+      }
+    },
+    {
+      "id": 248142335,
+      "address": "122 East 7th Street",
+      "frontage": {
+        "x": 156.88,
+        "z": 237.441,
+        "rx": -0.99999996524604,
+        "rz": 0.00026364354475370865,
+        "length": 7.586,
+        "street": "East 7th Street"
+      }
+    },
+    {
+      "id": 248142336,
+      "address": "126 East 7th Street",
+      "frontage": {
+        "x": 164.927,
+        "z": 237.436,
+        "rx": -0.9999998069624111,
+        "rz": 0.0006213494513244078,
+        "length": 8.047,
+        "street": "East 7th Street"
+      }
+    },
+    {
+      "id": 248142337,
+      "address": "128 East 7th Street",
+      "frontage": {
+        "x": 172.003,
+        "z": 237.438,
+        "rx": -0.9999999600557454,
+        "rz": -0.0002826455511719362,
+        "length": 7.076,
+        "street": "East 7th Street"
+      }
+    },
+    {
+      "id": 248142407,
+      "address": "109 Avenue A",
+      "frontage": {
+        "x": 202.524,
+        "z": 237.42,
+        "rx": -0.9999998260928717,
+        "rz": 0.0005897577690662942,
+        "length": 30.521,
+        "street": "East 7th Street"
+      }
+    }
+  ],
+  "acceptance": "Review camera ledger. Source image/elevation/oblique inspection and calibrated acceptance remain separate."
+}

@@ -23,6 +23,10 @@ const expectedSeventh=geography.buildings.filter(b=>b.frontages.some(f=>f.street
 assert.equal(expectedSeventh.length,82);
 assert.deepEqual([...slice.seventhFrontages].sort((a,b)=>a-b),expectedSeventh,'Every mapped Seventh frontage is included');
 assert.deepEqual(slice.reviewFrontages.map(b=>b.id).sort((a,b)=>a-b),expectedSeventh);
+for(const frontage of slice.reviewFrontages){
+  assert.equal(frontage.height,slice.buildings.find(b=>b.id===frontage.id).height,
+    'Review height must match the actual exported model, including cached partial rebuilds: '+frontage.id);
+}
 const details=JSON.parse(await fs.readFile(path.join(root,'model-source/storefront-details.json'),'utf8'));
 const schedule=details.seventhEngine;
 assert.deepEqual(schedule.elevations.map(b=>b.buildingId).sort((a,b)=>a-b),expectedSeventh);
@@ -34,7 +38,14 @@ for(const r of [...schedule.elevations,...schedule.frontages]){
 }
 for(const r of schedule.frontages){
   const b=geography.buildings.find(b=>b.id===r.buildingId),shop=b.businesses.find(s=>s.id===r.businessId);
-  assert(shop.renderName&&shop.street==='East 7th Street','Keep shop identity provenance');
+  const elevation=schedule.elevations.find(e=>e.buildingId===r.buildingId);
+  const override=elevation.businessOverrides?.find(o=>o.id===r.businessId);
+  if(override){
+    assert.equal(override.renderName,true,'Explicit shop activation');
+    assert(override.sources?.length,'An engine-only identity change needs its own evidence');
+    for(const source of override.sources)assert(schedule.sources[source],'Missing identity source '+source);
+  }
+  assert(shop && (shop.renderName||override?.renderName) && shop.street==='East 7th Street','Keep mapped shop identity and explicit activation provenance');
   assert(r.span[0]>=0&&r.span[1]<=1&&r.span[0]<r.span[1]);
   assert(Math.abs(r.design.panels.reduce((n,p)=>n+p[1],0)-1)<1e-5);
 }

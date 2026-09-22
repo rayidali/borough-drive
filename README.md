@@ -17,15 +17,17 @@ Walk and drive through ten connected East Village blocks, reconstructed from map
 
 ## Current driving study: Seventh, slowly.
 
+**Local revision 06 — First Avenue–Avenue A:** the requested east block now has a public-reference pass across both sides: corrected individual facades and entrances, both churches, McKinley, shop/corner returns and an address HUD through Avenue A. Thirty-three scoped models changed; the west block, accepted corner, original game, compact interface and audio are preserved. [Report, actual game views and remaining evidence gaps](model-source/SEVENTH-ENGINE-06.md). This candidate is local; it has not replaced the published build.
+
 The September 14 Godot browser slice adds an authored apricot coupe, chase/hood/cockpit/overhead views, golden hour/dusk/rain, a small route map, original lofi audio and downloadable postcards around First & Seventh. Run `npm run dev` and open **http://127.0.0.1:5173/**; the same build remains at `/seventh/`. The legacy ten-block game is available at `/index.html`. Revision 02 adds grip-based drifting, RPM/gear-driven sound, all of Seventh Street through Avenue A, textured masonry, individually detailed shop layouts, branching leaf trees and street furniture. Use WASD/arrows to drive, **S to brake/reverse**, **Space to handbrake**, C for cameras and T for weather. During play, right-drag orbits, Shift + right-drag or middle-drag pans, the wheel zooms, and V recenters the selected camera. Revision 03 corrects individual window/door/access layouts, including the 50/48½ church-house and shop comparison, with a stricter photographic fidelity benchmark. Revision 04 concentrates on the First–Second block, with dated basement/entry/storefront/material and street-feature corrections, a live address label and independent camera movement. The street remains a candidate reconstruction awaiting full photographic acceptance. The export is included and runs on the player's device without a GPU server.
 
-[Controls and rebuild](engine/first-seventh/README.md) · [Current review and limits](model-source/SEVENTH-ENGINE-04.md) · [Architectural benchmark](model-source/SEVENTH-FIDELITY-BENCHMARK.md) · [Current local/push/deployment state](CODEX-HANDOFF.md)
+[Controls and rebuild](engine/first-seventh/README.md) · [Current review and limits](model-source/SEVENTH-ENGINE-06.md) · [Architectural benchmark](model-source/SEVENTH-FIDELITY-BENCHMARK.md) · [Current local/push/deployment state](CODEX-HANDOFF.md)
 
 The original ten-block game described below remains intact at `/index.html`. The September 21 interface source and exported runtime are published on `main`; publication checkpoint `533570e` passed both Node CI jobs, and the [handoff](CODEX-HANDOFF.md) records the verified Vercel deployment and route checks. The eventual 500-user goal is not a tested capacity claim.
 
 **September 21 — compact interface:** the included build now has a small bottom launch panel, bundled Inter typography, the supplied logo, charcoal/sage controls and a quieter loading/pause experience. Escape → Controls opens the full keyboard/mouse guide. [Actual captures, checks and remaining limits](model-source/INTERFACE-PASS-05.md). This presentation pass preserves the existing models and audio.
 
-The published [portable reconstruction skill](model-source/skills/reconstruct-street/SKILL.md) gives any assistant a detailed feature checklist, source/build guidance and small worker/reviewer packets for the user-endorsed Seventh visual standard. The [experience brief](docs/DRIVEAROUND-EXPERIENCE-BRIEF.md) retains remaining identity/icon work and louder, calmer lo-fi music. No next street or photographic 1:1 certification follows from these documents.
+The published [portable reconstruction skill](model-source/skills/reconstruct-street/SKILL.md) gives any assistant a detailed feature checklist, source/build guidance and small worker/reviewer packets for the user-endorsed Seventh visual standard. The [experience brief](docs/DRIVEAROUND-EXPERIENCE-BRIEF.md) retains remaining identity/icon work and louder, calmer lo-fi music. The current bounded task is the First Avenue–Avenue A pass above; other streets and photographic 1:1 acceptance remain separate.
 
 ![Seventh slowly browser driving game, with the apricot car driving along Seventh Street in golden hour](docs/images/seventh-engine-03/browser/seventh-east-0.png)
 
@@ -153,7 +155,7 @@ Observations, occupancy claims, and inferred geometry are recorded separately. U
 
 ## Resume development
 
-**Current close — September 21, 2026:** the bounded interface redesign is complete and published with the existing Godot revision 04 architecture. No next street, modeling pass, audio change, Unreal pilot or photographic 1:1 certification is assigned. To resume, read the [current handoff](CODEX-HANDOFF.md), [latest session log](SESSION-LOG.md), [portable reconstruction skill](model-source/skills/reconstruct-street/SKILL.md), and [experience brief](docs/DRIVEAROUND-EXPERIENCE-BRIEF.md); follow the user's next explicit scope.
+**Current local work — September 21, 2026:** revision 06 implements the First Avenue–Avenue A Seventh block with public references and records the remaining evidence gaps. It is local; the published interface/revision 04 remains the live baseline. No other street, audio change, Unreal pilot or photographic 1:1 certification is assigned. To resume, read the [current handoff](CODEX-HANDOFF.md), [latest session log](SESSION-LOG.md), [portable reconstruction skill](model-source/skills/reconstruct-street/SKILL.md), and [experience brief](docs/DRIVEAROUND-EXPERIENCE-BRIEF.md); follow the user's next explicit scope.
 
 ### Historical planning notes
 

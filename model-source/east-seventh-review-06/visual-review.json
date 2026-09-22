@@ -1,0 +1,701 @@
+{
+  "checkedAt": "2026-09-22T02:42:42.224447+00:00",
+  "pckSha256": "c29296a391a7700ec33a3c68183203a0db92622abd47375f3cc48300167b3cc9",
+  "basis": "Source-informed visual review of 37 elevations plus 52 overlapping perspective ground views, after two correction iterations. Source pose calibration unavailable.",
+  "sourceCameraMatches": 0,
+  "calibratedMultiViewPasses": 0,
+  "reviewedViews": 89,
+  "frontages": [
+    {
+      "id": 248142707,
+      "address": "118 1st Avenue",
+      "geometry": "protected unchanged",
+      "images": [
+        "frontage-248142707-elevation.png",
+        "frontage-248142707-perspective-1.png",
+        "frontage-248142707-perspective-2.png",
+        "frontage-248142707-perspective-3.png"
+      ],
+      "inspection": "Whole opening rhythm, entrances/access, shop separations, roofline and export defects checked in final captures. Fine scale source agreement remains limited by the recorded photographs.",
+      "accepted": false,
+      "calibratedMultiViewPass": false,
+      "limits": [
+        "Metric dimensions, microdetail and occluded surfaces remain estimates.",
+        "No calibrated multi-view acceptance."
+      ]
+    },
+    {
+      "id": 248142715,
+      "address": "93 East 7th Street",
+      "geometry": "revision 06 authored",
+      "images": [
+        "frontage-248142715-elevation.png",
+        "frontage-248142715-perspective-1.png",
+        "frontage-248142715-perspective-2.png"
+      ],
+      "inspection": "Whole opening rhythm, entrances/access, shop separations, roofline and export defects checked in final captures. Fine scale source agreement remains limited by the recorded photographs.",
+      "accepted": false,
+      "calibratedMultiViewPass": false,
+      "limits": [
+        "Metric dimensions, microdetail and occluded surfaces remain estimates.",
+        "No calibrated multi-view acceptance."
+      ]
+    },
+    {
+      "id": 248142690,
+      "address": "95 East 7th Street",
+      "geometry": "revision 06 authored",
+      "images": [
+        "frontage-248142690-elevation.png",
+        "frontage-248142690-perspective-1.png"
+      ],
+      "inspection": "Whole opening rhythm, entrances/access, shop separations, roofline and export defects checked in final captures. Fine scale source agreement remains limited by the recorded photographs.",
+      "accepted": false,
+      "calibratedMultiViewPass": false,
+      "limits": [
+        "Metric dimensions, microdetail and occluded surfaces remain estimates.",
+        "No calibrated multi-view acceptance.",
+        "Latest condition/tenant or occluded ground details not established by the archived view."
+      ]
+    },
+    {
+      "id": 248142701,
+      "address": "97 East 7th Street",
+      "geometry": "revision 06 authored",
+      "images": [
+        "frontage-248142701-elevation.png",
+        "frontage-248142701-perspective-1.png"
+      ],
+      "inspection": "Whole opening rhythm, entrances/access, shop separations, roofline and export defects checked in final captures. Fine scale source agreement remains limited by the recorded photographs.",
+      "accepted": false,
+      "calibratedMultiViewPass": false,
+      "limits": [
+        "Metric dimensions, microdetail and occluded surfaces remain estimates.",
+        "No calibrated multi-view acceptance.",
+        "Latest condition/tenant or occluded ground details not established by the archived view."
+      ]
+    },
+    {
+      "id": 248142693,
+      "address": "97 1/2 East 7th Street",
+      "geometry": "revision 06 authored",
+      "images": [
+        "frontage-248142693-elevation.png",
+        "frontage-248142693-perspective-1.png"
+      ],
+      "inspection": "Whole opening rhythm, entrances/access, shop separations, roofline and export defects checked in final captures. Fine scale source agreement remains limited by the recorded photographs.",
+      "accepted": false,
+      "calibratedMultiViewPass": false,
+      "limits": [
+        "Metric dimensions, microdetail and occluded surfaces remain estimates.",
+        "No calibrated multi-view acceptance.",
+        "Latest condition/tenant or occluded ground details not established by the archived view."
+      ]
+    },
+    {
+      "id": 248142697,
+      "address": "99 East 7th Street",
+      "geometry": "revision 06 authored",
+      "images": [
+        "frontage-248142697-elevation.png",
+        "frontage-248142697-perspective-1.png"
+      ],
+      "inspection": "Whole opening rhythm, entrances/access, shop separations, roofline and export defects checked in final captures. Fine scale source agreement remains limited by the recorded photographs.",
+      "accepted": false,
+      "calibratedMultiViewPass": false,
+      "limits": [
+        "Metric dimensions, microdetail and occluded surfaces remain estimates.",
+        "No calibrated multi-view acceptance.",
+        "Latest condition/tenant or occluded ground details not established by the archived view."
+      ]
+    },
+    {
+      "id": 248142615,
+      "address": "101 East 7th Street",
+      "geometry": "revision 06 authored",
+      "images": [
+        "frontage-248142615-elevation.png",
+        "frontage-248142615-perspective-1.png"
+      ],
+      "inspection": "Whole opening rhythm, entrances/access, shop separations, roofline and export defects checked in final captures. Fine scale source agreement remains limited by the recorded photographs.",
+      "accepted": false,
+      "calibratedMultiViewPass": false,
+      "limits": [
+        "Metric dimensions, microdetail and occluded surfaces remain estimates.",
+        "No calibrated multi-view acceptance.",
+        "Latest condition/tenant or occluded ground details not established by the archived view."
+      ]
+    },
+    {
+      "id": 248142618,
+      "address": "107 East 7th Street",
+      "geometry": "revision 06 authored",
+      "images": [
+        "frontage-248142618-elevation.png",
+        "frontage-248142618-perspective-1.png",
+        "frontage-248142618-perspective-2.png"
+      ],
+      "inspection": "Whole opening rhythm, entrances/access, shop separations, roofline and export defects checked in final captures. Fine scale source agreement remains limited by the recorded photographs.",
+      "accepted": false,
+      "calibratedMultiViewPass": false,
+      "limits": [
+        "Metric dimensions, microdetail and occluded surfaces remain estimates.",
+        "No calibrated multi-view acceptance.",
+        "Latest condition/tenant or occluded ground details not established by the archived view."
+      ]
+    },
+    {
+      "id": 248142621,
+      "address": "109 East 7th Street",
+      "geometry": "revision 06 authored",
+      "images": [
+        "frontage-248142621-elevation.png",
+        "frontage-248142621-perspective-1.png"
+      ],
+      "inspection": "Whole opening rhythm, entrances/access, shop separations, roofline and export defects checked in final captures. Fine scale source agreement remains limited by the recorded photographs.",
+      "accepted": false,
+      "calibratedMultiViewPass": false,
+      "limits": [
+        "Metric dimensions, microdetail and occluded surfaces remain estimates.",
+        "No calibrated multi-view acceptance.",
+        "Latest condition/tenant or occluded ground details not established by the archived view."
+      ]
+    },
+    {
+      "id": 248142624,
+      "address": "111–115 East 7th Street",
+      "geometry": "revision 06 authored",
+      "images": [
+        "frontage-248142624-elevation.png",
+        "frontage-248142624-perspective-1.png",
+        "frontage-248142624-perspective-2.png",
+        "frontage-248142624-perspective-3.png"
+      ],
+      "inspection": "Whole opening rhythm, entrances/access, shop separations, roofline and export defects checked in final captures. Fine scale source agreement remains limited by the recorded photographs.",
+      "accepted": false,
+      "calibratedMultiViewPass": false,
+      "limits": [
+        "Metric dimensions, microdetail and occluded surfaces remain estimates.",
+        "No calibrated multi-view acceptance.",
+        "Latest condition/tenant or occluded ground details not established by the archived view."
+      ]
+    },
+    {
+      "id": 248142633,
+      "address": "117–119 East 7th Street",
+      "geometry": "revision 06 authored",
+      "images": [
+        "frontage-248142633-elevation.png",
+        "frontage-248142633-perspective-1.png",
+        "frontage-248142633-perspective-2.png"
+      ],
+      "inspection": "Whole opening rhythm, entrances/access, shop separations, roofline and export defects checked in final captures. Fine scale source agreement remains limited by the recorded photographs.",
+      "accepted": false,
+      "calibratedMultiViewPass": false,
+      "limits": [
+        "Metric dimensions, microdetail and occluded surfaces remain estimates.",
+        "No calibrated multi-view acceptance.",
+        "Latest condition/tenant or occluded ground details not established by the archived view."
+      ]
+    },
+    {
+      "id": 248142640,
+      "address": "121 East 7th Street",
+      "geometry": "revision 06 authored",
+      "images": [
+        "frontage-248142640-elevation.png",
+        "frontage-248142640-perspective-1.png"
+      ],
+      "inspection": "Whole opening rhythm, entrances/access, shop separations, roofline and export defects checked in final captures. Fine scale source agreement remains limited by the recorded photographs.",
+      "accepted": false,
+      "calibratedMultiViewPass": false,
+      "limits": [
+        "Metric dimensions, microdetail and occluded surfaces remain estimates.",
+        "No calibrated multi-view acceptance.",
+        "Latest condition/tenant or occluded ground details not established by the archived view."
+      ]
+    },
+    {
+      "id": 248142645,
+      "address": "123 East 7th Street",
+      "geometry": "revision 06 authored",
+      "images": [
+        "frontage-248142645-elevation.png",
+        "frontage-248142645-perspective-1.png"
+      ],
+      "inspection": "Whole opening rhythm, entrances/access, shop separations, roofline and export defects checked in final captures. Fine scale source agreement remains limited by the recorded photographs.",
+      "accepted": false,
+      "calibratedMultiViewPass": false,
+      "limits": [
+        "Metric dimensions, microdetail and occluded surfaces remain estimates.",
+        "No calibrated multi-view acceptance.",
+        "Latest condition/tenant or occluded ground details not established by the archived view."
+      ]
+    },
+    {
+      "id": 248142647,
+      "address": "125 East 7th Street",
+      "geometry": "revision 06 authored",
+      "images": [
+        "frontage-248142647-elevation.png",
+        "frontage-248142647-perspective-1.png"
+      ],
+      "inspection": "Whole opening rhythm, entrances/access, shop separations, roofline and export defects checked in final captures. Fine scale source agreement remains limited by the recorded photographs.",
+      "accepted": false,
+      "calibratedMultiViewPass": false,
+      "limits": [
+        "Metric dimensions, microdetail and occluded surfaces remain estimates.",
+        "No calibrated multi-view acceptance.",
+        "Latest condition/tenant or occluded ground details not established by the archived view."
+      ]
+    },
+    {
+      "id": 248142650,
+      "address": "127 East 7th Street",
+      "geometry": "revision 06 authored",
+      "images": [
+        "frontage-248142650-elevation.png",
+        "frontage-248142650-perspective-1.png"
+      ],
+      "inspection": "Whole opening rhythm, entrances/access, shop separations, roofline and export defects checked in final captures. Fine scale source agreement remains limited by the recorded photographs.",
+      "accepted": false,
+      "calibratedMultiViewPass": false,
+      "limits": [
+        "Metric dimensions, microdetail and occluded surfaces remain estimates.",
+        "No calibrated multi-view acceptance.",
+        "Latest condition/tenant or occluded ground details not established by the archived view."
+      ]
+    },
+    {
+      "id": 248142653,
+      "address": "129 East 7th Street",
+      "geometry": "revision 06 authored",
+      "images": [
+        "frontage-248142653-elevation.png",
+        "frontage-248142653-perspective-1.png"
+      ],
+      "inspection": "Whole opening rhythm, entrances/access, shop separations, roofline and export defects checked in final captures. Fine scale source agreement remains limited by the recorded photographs.",
+      "accepted": false,
+      "calibratedMultiViewPass": false,
+      "limits": [
+        "Metric dimensions, microdetail and occluded surfaces remain estimates.",
+        "No calibrated multi-view acceptance.",
+        "Latest condition/tenant or occluded ground details not established by the archived view."
+      ]
+    },
+    {
+      "id": 248142656,
+      "address": "131 East 7th Street",
+      "geometry": "source-guided baseline retained",
+      "images": [
+        "frontage-248142656-elevation.png",
+        "frontage-248142656-perspective-1.png",
+        "frontage-248142656-perspective-2.png"
+      ],
+      "inspection": "Whole opening rhythm, entrances/access, shop separations, roofline and export defects checked in final captures. Fine scale source agreement remains limited by the recorded photographs.",
+      "accepted": false,
+      "calibratedMultiViewPass": false,
+      "limits": [
+        "Metric dimensions, microdetail and occluded surfaces remain estimates.",
+        "No calibrated multi-view acceptance.",
+        "Latest condition/tenant or occluded ground details not established by the archived view.",
+        "131 complete current upper elevation not re-established; retain existing source-guided geometry."
+      ]
+    },
+    {
+      "id": 248142714,
+      "address": "111 Avenue A",
+      "geometry": "revision 06 authored",
+      "images": [
+        "frontage-248142714-elevation.png",
+        "frontage-248142714-perspective-1.png",
+        "frontage-248142714-perspective-2.png",
+        "frontage-248142714-perspective-3.png"
+      ],
+      "inspection": "Whole opening rhythm, entrances/access, shop separations, roofline and export defects checked in final captures. Fine scale source agreement remains limited by the recorded photographs.",
+      "accepted": false,
+      "calibratedMultiViewPass": false,
+      "limits": [
+        "Metric dimensions, microdetail and occluded surfaces remain estimates.",
+        "No calibrated multi-view acceptance.",
+        "Latest condition/tenant or occluded ground details not established by the archived view."
+      ]
+    },
+    {
+      "id": 248142404,
+      "address": "116 1st Avenue",
+      "geometry": "protected unchanged",
+      "images": [
+        "frontage-248142404-elevation.png",
+        "frontage-248142404-perspective-1.png",
+        "frontage-248142404-perspective-2.png",
+        "frontage-248142404-perspective-3.png"
+      ],
+      "inspection": "Whole opening rhythm, entrances/access, shop separations, roofline and export defects checked in final captures. Fine scale source agreement remains limited by the recorded photographs.",
+      "accepted": false,
+      "calibratedMultiViewPass": false,
+      "limits": [
+        "Metric dimensions, microdetail and occluded surfaces remain estimates.",
+        "No calibrated multi-view acceptance."
+      ]
+    },
+    {
+      "id": 951679435,
+      "address": "92 East 7th Street",
+      "geometry": "source-guided baseline retained",
+      "images": [
+        "frontage-951679435-elevation.png",
+        "frontage-951679435-perspective-1.png"
+      ],
+      "inspection": "Whole opening rhythm, entrances/access, shop separations, roofline and export defects checked in final captures. Fine scale source agreement remains limited by the recorded photographs.",
+      "accepted": false,
+      "calibratedMultiViewPass": false,
+      "limits": [
+        "Metric dimensions, microdetail and occluded surfaces remain estimates.",
+        "No calibrated multi-view acceptance.",
+        "Latest condition/tenant or occluded ground details not established by the archived view."
+      ]
+    },
+    {
+      "id": 248142390,
+      "address": "94 East 7th Street",
+      "geometry": "revision 06 authored",
+      "images": [
+        "frontage-248142390-elevation.png",
+        "frontage-248142390-perspective-1.png"
+      ],
+      "inspection": "Whole opening rhythm, entrances/access, shop separations, roofline and export defects checked in final captures. Fine scale source agreement remains limited by the recorded photographs.",
+      "accepted": false,
+      "calibratedMultiViewPass": false,
+      "limits": [
+        "Metric dimensions, microdetail and occluded surfaces remain estimates.",
+        "No calibrated multi-view acceptance.",
+        "Latest condition/tenant or occluded ground details not established by the archived view."
+      ]
+    },
+    {
+      "id": 248142393,
+      "address": "96 East 7th Street",
+      "geometry": "revision 06 authored",
+      "images": [
+        "frontage-248142393-elevation.png",
+        "frontage-248142393-perspective-1.png"
+      ],
+      "inspection": "Whole opening rhythm, entrances/access, shop separations, roofline and export defects checked in final captures. Fine scale source agreement remains limited by the recorded photographs.",
+      "accepted": false,
+      "calibratedMultiViewPass": false,
+      "limits": [
+        "Metric dimensions, microdetail and occluded surfaces remain estimates.",
+        "No calibrated multi-view acceptance."
+      ]
+    },
+    {
+      "id": 248142396,
+      "address": "98 East 7th Street",
+      "geometry": "revision 06 authored",
+      "images": [
+        "frontage-248142396-elevation.png",
+        "frontage-248142396-perspective-1.png"
+      ],
+      "inspection": "Whole opening rhythm, entrances/access, shop separations, roofline and export defects checked in final captures. Fine scale source agreement remains limited by the recorded photographs.",
+      "accepted": false,
+      "calibratedMultiViewPass": false,
+      "limits": [
+        "Metric dimensions, microdetail and occluded surfaces remain estimates.",
+        "No calibrated multi-view acceptance.",
+        "Latest condition/tenant or occluded ground details not established by the archived view."
+      ]
+    },
+    {
+      "id": 248142313,
+      "address": "100 East 7th Street",
+      "geometry": "revision 06 authored",
+      "images": [
+        "frontage-248142313-elevation.png",
+        "frontage-248142313-perspective-1.png"
+      ],
+      "inspection": "Whole opening rhythm, entrances/access, shop separations, roofline and export defects checked in final captures. Fine scale source agreement remains limited by the recorded photographs.",
+      "accepted": false,
+      "calibratedMultiViewPass": false,
+      "limits": [
+        "Metric dimensions, microdetail and occluded surfaces remain estimates.",
+        "No calibrated multi-view acceptance.",
+        "Latest condition/tenant or occluded ground details not established by the archived view."
+      ]
+    },
+    {
+      "id": 248142319,
+      "address": "102 East 7th Street",
+      "geometry": "revision 06 authored",
+      "images": [
+        "frontage-248142319-elevation.png",
+        "frontage-248142319-perspective-1.png"
+      ],
+      "inspection": "Whole opening rhythm, entrances/access, shop separations, roofline and export defects checked in final captures. Fine scale source agreement remains limited by the recorded photographs.",
+      "accepted": false,
+      "calibratedMultiViewPass": false,
+      "limits": [
+        "Metric dimensions, microdetail and occluded surfaces remain estimates.",
+        "No calibrated multi-view acceptance.",
+        "Latest condition/tenant or occluded ground details not established by the archived view."
+      ]
+    },
+    {
+      "id": 248142322,
+      "address": "104 East 7th Street",
+      "geometry": "revision 06 authored",
+      "images": [
+        "frontage-248142322-elevation.png",
+        "frontage-248142322-perspective-1.png"
+      ],
+      "inspection": "Whole opening rhythm, entrances/access, shop separations, roofline and export defects checked in final captures. Fine scale source agreement remains limited by the recorded photographs.",
+      "accepted": false,
+      "calibratedMultiViewPass": false,
+      "limits": [
+        "Metric dimensions, microdetail and occluded surfaces remain estimates.",
+        "No calibrated multi-view acceptance.",
+        "Latest condition/tenant or occluded ground details not established by the archived view."
+      ]
+    },
+    {
+      "id": 248142324,
+      "address": "106 East 7th Street",
+      "geometry": "revision 06 authored",
+      "images": [
+        "frontage-248142324-elevation.png",
+        "frontage-248142324-perspective-1.png"
+      ],
+      "inspection": "Whole opening rhythm, entrances/access, shop separations, roofline and export defects checked in final captures. Fine scale source agreement remains limited by the recorded photographs.",
+      "accepted": false,
+      "calibratedMultiViewPass": false,
+      "limits": [
+        "Metric dimensions, microdetail and occluded surfaces remain estimates.",
+        "No calibrated multi-view acceptance.",
+        "Latest condition/tenant or occluded ground details not established by the archived view."
+      ]
+    },
+    {
+      "id": 248142328,
+      "address": "110 East 7th Street",
+      "geometry": "revision 06 authored",
+      "images": [
+        "frontage-248142328-elevation.png",
+        "frontage-248142328-perspective-1.png"
+      ],
+      "inspection": "Whole opening rhythm, entrances/access, shop separations, roofline and export defects checked in final captures. Fine scale source agreement remains limited by the recorded photographs.",
+      "accepted": false,
+      "calibratedMultiViewPass": false,
+      "limits": [
+        "Metric dimensions, microdetail and occluded surfaces remain estimates.",
+        "No calibrated multi-view acceptance.",
+        "Latest condition/tenant or occluded ground details not established by the archived view."
+      ]
+    },
+    {
+      "id": 248142330,
+      "address": "112 East 7th Street",
+      "geometry": "revision 06 authored",
+      "images": [
+        "frontage-248142330-elevation.png",
+        "frontage-248142330-perspective-1.png"
+      ],
+      "inspection": "Whole opening rhythm, entrances/access, shop separations, roofline and export defects checked in final captures. Fine scale source agreement remains limited by the recorded photographs.",
+      "accepted": false,
+      "calibratedMultiViewPass": false,
+      "limits": [
+        "Metric dimensions, microdetail and occluded surfaces remain estimates.",
+        "No calibrated multi-view acceptance.",
+        "Latest condition/tenant or occluded ground details not established by the archived view."
+      ]
+    },
+    {
+      "id": 248142332,
+      "address": "114 East 7th Street",
+      "geometry": "revision 06 authored",
+      "images": [
+        "frontage-248142332-elevation.png",
+        "frontage-248142332-perspective-1.png"
+      ],
+      "inspection": "Whole opening rhythm, entrances/access, shop separations, roofline and export defects checked in final captures. Fine scale source agreement remains limited by the recorded photographs.",
+      "accepted": false,
+      "calibratedMultiViewPass": false,
+      "limits": [
+        "Metric dimensions, microdetail and occluded surfaces remain estimates.",
+        "No calibrated multi-view acceptance.",
+        "Latest condition/tenant or occluded ground details not established by the archived view."
+      ]
+    },
+    {
+      "id": 248142411,
+      "address": "116 East 7th Street",
+      "geometry": "revision 06 authored",
+      "images": [
+        "frontage-248142411-elevation.png",
+        "frontage-248142411-perspective-1.png"
+      ],
+      "inspection": "Whole opening rhythm, entrances/access, shop separations, roofline and export defects checked in final captures. Fine scale source agreement remains limited by the recorded photographs.",
+      "accepted": false,
+      "calibratedMultiViewPass": false,
+      "limits": [
+        "Metric dimensions, microdetail and occluded surfaces remain estimates.",
+        "No calibrated multi-view acceptance.",
+        "Latest condition/tenant or occluded ground details not established by the archived view."
+      ]
+    },
+    {
+      "id": 248142333,
+      "address": "118 East 7th Street",
+      "geometry": "revision 06 authored",
+      "images": [
+        "frontage-248142333-elevation.png",
+        "frontage-248142333-perspective-1.png"
+      ],
+      "inspection": "Whole opening rhythm, entrances/access, shop separations, roofline and export defects checked in final captures. Fine scale source agreement remains limited by the recorded photographs.",
+      "accepted": false,
+      "calibratedMultiViewPass": false,
+      "limits": [
+        "Metric dimensions, microdetail and occluded surfaces remain estimates.",
+        "No calibrated multi-view acceptance.",
+        "Latest condition/tenant or occluded ground details not established by the archived view."
+      ]
+    },
+    {
+      "id": 248142334,
+      "address": "120 East 7th Street",
+      "geometry": "revision 06 authored",
+      "images": [
+        "frontage-248142334-elevation.png",
+        "frontage-248142334-perspective-1.png"
+      ],
+      "inspection": "Whole opening rhythm, entrances/access, shop separations, roofline and export defects checked in final captures. Fine scale source agreement remains limited by the recorded photographs.",
+      "accepted": false,
+      "calibratedMultiViewPass": false,
+      "limits": [
+        "Metric dimensions, microdetail and occluded surfaces remain estimates.",
+        "No calibrated multi-view acceptance.",
+        "Latest condition/tenant or occluded ground details not established by the archived view."
+      ]
+    },
+    {
+      "id": 248142335,
+      "address": "122 East 7th Street",
+      "geometry": "revision 06 authored",
+      "images": [
+        "frontage-248142335-elevation.png",
+        "frontage-248142335-perspective-1.png"
+      ],
+      "inspection": "Whole opening rhythm, entrances/access, shop separations, roofline and export defects checked in final captures. Fine scale source agreement remains limited by the recorded photographs.",
+      "accepted": false,
+      "calibratedMultiViewPass": false,
+      "limits": [
+        "Metric dimensions, microdetail and occluded surfaces remain estimates.",
+        "No calibrated multi-view acceptance.",
+        "Latest condition/tenant or occluded ground details not established by the archived view."
+      ]
+    },
+    {
+      "id": 248142336,
+      "address": "126 East 7th Street",
+      "geometry": "revision 06 authored",
+      "images": [
+        "frontage-248142336-elevation.png",
+        "frontage-248142336-perspective-1.png"
+      ],
+      "inspection": "Whole opening rhythm, entrances/access, shop separations, roofline and export defects checked in final captures. Fine scale source agreement remains limited by the recorded photographs.",
+      "accepted": false,
+      "calibratedMultiViewPass": false,
+      "limits": [
+        "Metric dimensions, microdetail and occluded surfaces remain estimates.",
+        "No calibrated multi-view acceptance.",
+        "Latest condition/tenant or occluded ground details not established by the archived view."
+      ]
+    },
+    {
+      "id": 248142337,
+      "address": "128 East 7th Street",
+      "geometry": "revision 06 authored",
+      "images": [
+        "frontage-248142337-elevation.png",
+        "frontage-248142337-perspective-1.png"
+      ],
+      "inspection": "Whole opening rhythm, entrances/access, shop separations, roofline and export defects checked in final captures. Fine scale source agreement remains limited by the recorded photographs.",
+      "accepted": false,
+      "calibratedMultiViewPass": false,
+      "limits": [
+        "Metric dimensions, microdetail and occluded surfaces remain estimates.",
+        "No calibrated multi-view acceptance.",
+        "Latest condition/tenant or occluded ground details not established by the archived view."
+      ]
+    },
+    {
+      "id": 248142407,
+      "address": "109 Avenue A",
+      "geometry": "revision 06 authored",
+      "images": [
+        "frontage-248142407-elevation.png",
+        "frontage-248142407-perspective-1.png",
+        "frontage-248142407-perspective-2.png",
+        "frontage-248142407-perspective-3.png",
+        "frontage-248142407-perspective-4.png"
+      ],
+      "inspection": "Whole opening rhythm, entrances/access, shop separations, roofline and export defects checked in final captures. Fine scale source agreement remains limited by the recorded photographs.",
+      "accepted": false,
+      "calibratedMultiViewPass": false,
+      "limits": [
+        "Metric dimensions, microdetail and occluded surfaces remain estimates.",
+        "No calibrated multi-view acceptance.",
+        "Latest condition/tenant or occluded ground details not established by the archived view."
+      ]
+    }
+  ],
+  "remaining": [
+    {
+      "id": "east7-south-108-gap",
+      "runtimeIntervalX": [
+        96.2,
+        103.6
+      ],
+      "identity": "108 East 7th Street site between 106 and 110",
+      "state": "needs newer observed reference; existing gap retained",
+      "evidence": "Archive low garage wall; 2015 garden approval is not proof of built condition."
+    },
+    {
+      "id": "east7-church-side-gaps",
+      "runtimeIntervalX": [
+        79,
+        80.3,
+        96.1,
+        96.9
+      ],
+      "identity": "Observed separation beside St Stanislaus and its rectories",
+      "state": "existing mapped separation retained; concealed side surfaces not accepted"
+    },
+    {
+      "ownership": "east7-street-edge-06",
+      "state": "existing runtime street dressing retained; facade-local rails/stoops corrected from photos",
+      "unchangedGenericFeatures": [
+        "street tree placement",
+        "lamp/hydrant placement",
+        "curb furniture"
+      ],
+      "acceptance": "Current per-object positions and temporary construction require newer unoccluded references; no street-feature photographic pass claimed."
+    }
+  ],
+  "publicReferenceDecision": {
+    "authorization": "User explicitly authorized up to 40 reference images in this session.",
+    "imageRequestLimit": 40,
+    "imageRequestsMade": 0,
+    "metadataRequestsMade": 12,
+    "status": "REQUEST_DENIED",
+    "providerReason": "Billing must be enabled on the Google Cloud project.",
+    "nextAction": "No retry scheduled: user chose to finish this pass using public references.",
+    "sourcePixelsDistributed": false,
+    "finalUserDirection": "Finish using the public references for now"
+  },
+  "extraObliqueReview": {
+    "views": 4,
+    "ledger": "oblique-ledger.json",
+    "evidence": "oblique.json",
+    "inspection": "Church depth and raised stoops checked in four authored obliques. Worn nosing contrast refined at 114 and former St Mary; actual step geometry retained. These are not source camera matches."
+  }
+}

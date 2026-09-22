@@ -2,11 +2,12 @@ extends RefCounted
 ## Selects a mapped E 7th Street frontage for the driving HUD.
 ##
 ## This is deliberately a small, local locator.  It reads the same footprint
-## records used by the world and only exposes addresses between Second and
-## First Avenues while the vehicle is aligned with Seventh Street.
+## records used by the world and exposes the two reviewed Seventh blocks,
+## Second Avenue through Avenue A, while aligned with the street.
 
 const SECOND_AVENUE_X = -229.0
 const FIRST_AVENUE_X = 0.0
+const AVENUE_A_X = 214.0
 const RUNTIME_ORIGIN_Z = 228.0
 const DISPLAY_MARGIN = 4.0
 const KEEP_MARGIN = 9.0
@@ -43,7 +44,7 @@ func _load_frontages():
 		if absf(frontage_z)>DISPLAY_LATERAL_LIMIT: continue
 		# A frontage wholly beyond either avenue is boundary context, not
 		# part of the bounded address display.
-		if max_x < SECOND_AVENUE_X or min_x > FIRST_AVENUE_X: continue
+		if max_x < SECOND_AVENUE_X or min_x > AVENUE_A_X: continue
 		frontages.append({
 			"id":int(entry.get("id",0)),
 			"address":str(entry.get("address","")),
@@ -78,7 +79,9 @@ func _eligible(position: Vector3, heading: float, entering: bool) -> bool:
 	# wider/slacker keep envelope prevents a wall-parallel drive from flickering.
 	var lateral_limit = DISPLAY_LATERAL_LIMIT if entering else KEEP_LATERAL_LIMIT
 	var heading_limit = HEADING_LIMIT if entering else KEEP_HEADING_LIMIT
-	if position.x < SECOND_AVENUE_X+margin or position.x > FIRST_AVENUE_X-margin: return false
+	var in_west = position.x >= SECOND_AVENUE_X+margin and position.x <= FIRST_AVENUE_X-margin
+	var in_east = position.x >= FIRST_AVENUE_X+margin and position.x <= AVENUE_A_X-margin
+	if not in_west and not in_east: return false
 	if absf(position.z) > lateral_limit: return false
 	# rotation.y=0 points down -Z; Seventh is the X axis.  The absolute
 	# value also permits a controlled reverse manoeuvre without inventing
@@ -92,7 +95,7 @@ func _record_by_id(id: int):
 	return null
 
 func _compact_address(address: String) -> String:
-	return address.replace("East 7th Street","E 7TH ST").replace("2nd Avenue","2ND AVE").replace("1st Avenue","1ST AVE")
+	return address.replace("East 7th Street","E 7TH ST").replace("2nd Avenue","2ND AVE").replace("1st Avenue","1ST AVE").replace("Avenue A","AVE A")
 
 ## Returns an empty string outside the bounded segment or while not travelling
 ## along Seventh.  Address changes retain the current frontage until the next

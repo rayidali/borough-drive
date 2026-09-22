@@ -1,0 +1,1565 @@
+{
+  "schema": 1,
+  "revision": "06",
+  "checkedAt": "2026-09-22T02:42:16.094978+00:00",
+  "mode": "implement",
+  "scope": {
+    "street": "East 7th Street",
+    "from": "First Avenue",
+    "to": "Avenue A",
+    "sides": [
+      "north",
+      "south"
+    ],
+    "cornerReturns": "Existing corner parcels facing this block only; First Avenue accepted corner geometry protected; no adjacent avenue parcel expansion.",
+    "datePolicy": "Prefer latest available inspected views; retain capture dates separately, mark older/mixed-date details and uncertain occupancy explicitly."
+  },
+  "baselineCommit": "f2bf1bf486ff1db0f28c3bc28be5c3aca5ad6a42",
+  "frontages": [
+    {
+      "buildingId": 248142707,
+      "mappedAddress": "118 1st Avenue",
+      "displayAddress": "118 1st Avenue",
+      "faceId": "248142707:East 7th Street",
+      "side": "north",
+      "runtimeIntervalX": [
+        15.412029208856282,
+        34.99598608562337
+      ],
+      "frontage": {
+        "x": 15.412029208856282,
+        "z": 219.466545464283,
+        "rx": 0.9999967998213825,
+        "rz": -0.002529890707918786,
+        "length": 19.584019549127696,
+        "street": "East 7th Street"
+      },
+      "preserveCorner": true,
+      "sourceIds": [
+        "architecture-248142707"
+      ],
+      "sourceReview": "protected prior reference",
+      "geometry": "protected unchanged",
+      "visualReview": "final whole elevation and overlapping ground subviews inspected",
+      "accepted": false,
+      "businesses": [
+        {
+          "id": "osm-node-2549928447",
+          "name": "E7 Deli & Cafe",
+          "renderName": true,
+          "street": "First Avenue",
+          "frontageIndex": 1
+        },
+        {
+          "id": "osm-node-2549928762",
+          "name": "Hen House NYC",
+          "renderName": true,
+          "street": "First Avenue",
+          "frontageIndex": 1
+        },
+        {
+          "id": "osm-node-6109307685",
+          "name": "Monkey Sushi",
+          "renderName": true,
+          "street": "First Avenue",
+          "frontageIndex": 1
+        },
+        {
+          "id": "osm-node-9708208979",
+          "name": "7th Street Burger",
+          "renderName": true,
+          "street": "East 7th Street",
+          "frontageIndex": 0
+        }
+      ],
+      "uncertainties": [
+        "Metric dimensions, microdetail and occluded surfaces remain estimates.",
+        "No calibrated multi-view acceptance."
+      ],
+      "calibratedMultiViewAcceptance": false,
+      "reviewRecord": "east-seventh-review-06/visual-review.json"
+    },
+    {
+      "buildingId": 248142715,
+      "mappedAddress": "93 East 7th Street",
+      "displayAddress": "93 East 7th Street",
+      "faceId": "248142715:East 7th Street",
+      "side": "north",
+      "runtimeIntervalX": [
+        34.996,
+        44.42199809038887
+      ],
+      "frontage": {
+        "x": 34.996,
+        "z": 219.417,
+        "rx": 0.9999997974102341,
+        "rz": -0.0006365371084724842,
+        "length": 9.426,
+        "street": "East 7th Street"
+      },
+      "preserveCorner": false,
+      "sourceIds": [
+        "architecture-248142715",
+        "seventh-03-panorama-4",
+        "east06-archive-248142715"
+      ],
+      "sourceReview": "public architectural source inspected; mixed/unknown capture dates",
+      "geometry": "revision 06 authored",
+      "visualReview": "final whole elevation and overlapping ground subviews inspected",
+      "accepted": false,
+      "businesses": [
+        {
+          "id": "osm-node-1109836197",
+          "name": "Baonanas",
+          "renderName": false,
+          "street": "East 7th Street",
+          "frontageIndex": 0
+        },
+        {
+          "id": "osm-node-12368232423",
+          "name": "Mary O’s Irish Soda Bread Shop",
+          "renderName": false,
+          "street": "East 7th Street",
+          "frontageIndex": 0
+        }
+      ],
+      "uncertainties": [
+        "Metric dimensions, microdetail and occluded surfaces remain estimates.",
+        "No calibrated multi-view acceptance."
+      ],
+      "calibratedMultiViewAcceptance": false,
+      "reviewRecord": "east-seventh-review-06/visual-review.json"
+    },
+    {
+      "buildingId": 248142690,
+      "mappedAddress": "95 East 7th Street",
+      "displayAddress": "95 East 7th Street",
+      "faceId": "248142690:East 7th Street",
+      "side": "north",
+      "runtimeIntervalX": [
+        44.422,
+        51.90499893091029
+      ],
+      "frontage": {
+        "x": 44.422,
+        "z": 219.411,
+        "rx": 0.9999998571308688,
+        "rz": 0.0005345448922242618,
+        "length": 7.483,
+        "street": "East 7th Street"
+      },
+      "preserveCorner": false,
+      "sourceIds": [
+        "architecture-248142690",
+        "seventh-03-panorama-4",
+        "east06-archive-248142690"
+      ],
+      "sourceReview": "public architectural source inspected; mixed/unknown capture dates",
+      "geometry": "revision 06 authored",
+      "visualReview": "final whole elevation and overlapping ground subviews inspected",
+      "accepted": false,
+      "businesses": [],
+      "uncertainties": [
+        "Metric dimensions, microdetail and occluded surfaces remain estimates.",
+        "No calibrated multi-view acceptance.",
+        "Latest condition/tenant or occluded ground details not established by the archived view."
+      ],
+      "calibratedMultiViewAcceptance": false,
+      "reviewRecord": "east-seventh-review-06/visual-review.json"
+    },
+    {
+      "buildingId": 248142701,
+      "mappedAddress": "97 East 7th Street",
+      "displayAddress": "97 East 7th Street",
+      "faceId": "248142701:East 7th Street",
+      "side": "north",
+      "runtimeIntervalX": [
+        51.905,
+        59.23999938650314
+      ],
+      "frontage": {
+        "x": 51.905,
+        "z": 219.415,
+        "rx": 0.9999999163603469,
+        "rz": -0.00040899792079985593,
+        "length": 7.335,
+        "street": "East 7th Street"
+      },
+      "preserveCorner": false,
+      "sourceIds": [
+        "architecture-248142701",
+        "seventh-03-panorama-4",
+        "east06-archive-248142701"
+      ],
+      "sourceReview": "public architectural source inspected; mixed/unknown capture dates",
+      "geometry": "revision 06 authored",
+      "visualReview": "final whole elevation and overlapping ground subviews inspected",
+      "accepted": false,
+      "businesses": [],
+      "uncertainties": [
+        "Metric dimensions, microdetail and occluded surfaces remain estimates.",
+        "No calibrated multi-view acceptance.",
+        "Latest condition/tenant or occluded ground details not established by the archived view."
+      ],
+      "calibratedMultiViewAcceptance": false,
+      "reviewRecord": "east-seventh-review-06/visual-review.json"
+    },
+    {
+      "buildingId": 248142693,
+      "mappedAddress": "97 1/2 East 7th Street",
+      "displayAddress": "97 1/2 East 7th Street",
+      "faceId": "248142693:East 7th Street",
+      "side": "north",
+      "runtimeIntervalX": [
+        59.24,
+        65.01899861567796
+      ],
+      "frontage": {
+        "x": 59.24,
+        "z": 219.412,
+        "rx": 0.9999997604564718,
+        "rz": -0.0006921611077772944,
+        "length": 5.779,
+        "street": "East 7th Street"
+      },
+      "preserveCorner": false,
+      "sourceIds": [
+        "architecture-248142693",
+        "seventh-03-panorama-5",
+        "east06-archive-248142693"
+      ],
+      "sourceReview": "public architectural source inspected; mixed/unknown capture dates",
+      "geometry": "revision 06 authored",
+      "visualReview": "final whole elevation and overlapping ground subviews inspected",
+      "accepted": false,
+      "businesses": [],
+      "uncertainties": [
+        "Metric dimensions, microdetail and occluded surfaces remain estimates.",
+        "No calibrated multi-view acceptance.",
+        "Latest condition/tenant or occluded ground details not established by the archived view."
+      ],
+      "calibratedMultiViewAcceptance": false,
+      "reviewRecord": "east-seventh-review-06/visual-review.json"
+    },
+    {
+      "buildingId": 248142697,
+      "mappedAddress": "99 East 7th Street",
+      "displayAddress": "99 East 7th Street",
+      "faceId": "248142697:East 7th Street",
+      "side": "north",
+      "runtimeIntervalX": [
+        65.019,
+        72.82998918194541
+      ],
+      "frontage": {
+        "x": 65.019,
+        "z": 219.408,
+        "rx": 0.9999986150230961,
+        "rz": -0.0016643172443063716,
+        "length": 7.811,
+        "street": "East 7th Street"
+      },
+      "preserveCorner": false,
+      "sourceIds": [
+        "architecture-248142697",
+        "seventh-03-panorama-5",
+        "east06-archive-248142697"
+      ],
+      "sourceReview": "public architectural source inspected; mixed/unknown capture dates",
+      "geometry": "revision 06 authored",
+      "visualReview": "final whole elevation and overlapping ground subviews inspected",
+      "accepted": false,
+      "businesses": [],
+      "uncertainties": [
+        "Metric dimensions, microdetail and occluded surfaces remain estimates.",
+        "No calibrated multi-view acceptance.",
+        "Latest condition/tenant or occluded ground details not established by the archived view."
+      ],
+      "calibratedMultiViewAcceptance": false,
+      "reviewRecord": "east-seventh-review-06/visual-review.json"
+    },
+    {
+      "buildingId": 248142615,
+      "mappedAddress": "101 East 7th Street",
+      "displayAddress": "101 East 7th Street",
+      "faceId": "248142615:East 7th Street",
+      "side": "north",
+      "runtimeIntervalX": [
+        72.829,
+        79.02999193680012
+      ],
+      "frontage": {
+        "x": 72.829,
+        "z": 217.397,
+        "rx": 0.9999986996936167,
+        "rz": -0.0016126410251454699,
+        "length": 6.201,
+        "street": "East 7th Street"
+      },
+      "preserveCorner": false,
+      "sourceIds": [
+        "architecture-248142615",
+        "seventh-03-panorama-5",
+        "east06-archive-248142615"
+      ],
+      "sourceReview": "public architectural source inspected; mixed/unknown capture dates",
+      "geometry": "revision 06 authored",
+      "visualReview": "final whole elevation and overlapping ground subviews inspected",
+      "accepted": false,
+      "businesses": [],
+      "uncertainties": [
+        "Metric dimensions, microdetail and occluded surfaces remain estimates.",
+        "No calibrated multi-view acceptance.",
+        "Latest condition/tenant or occluded ground details not established by the archived view."
+      ],
+      "calibratedMultiViewAcceptance": false,
+      "reviewRecord": "east-seventh-review-06/visual-review.json"
+    },
+    {
+      "buildingId": 248142618,
+      "mappedAddress": "107 East 7th Street",
+      "displayAddress": "107 East 7th Street",
+      "faceId": "248142618:East 7th Street",
+      "side": "north",
+      "runtimeIntervalX": [
+        80.342,
+        96.09099885707042
+      ],
+      "frontage": {
+        "x": 80.342,
+        "z": 218.53,
+        "rx": 0.9999999274284345,
+        "rz": -0.00038097654229289705,
+        "length": 15.749,
+        "street": "East 7th Street"
+      },
+      "preserveCorner": false,
+      "sourceIds": [
+        "architecture-248142618",
+        "east06-archive-248142618"
+      ],
+      "sourceReview": "public architectural source inspected; mixed/unknown capture dates",
+      "geometry": "revision 06 authored",
+      "visualReview": "final whole elevation and overlapping ground subviews inspected",
+      "accepted": false,
+      "businesses": [],
+      "uncertainties": [
+        "Metric dimensions, microdetail and occluded surfaces remain estimates.",
+        "No calibrated multi-view acceptance.",
+        "Latest condition/tenant or occluded ground details not established by the archived view."
+      ],
+      "calibratedMultiViewAcceptance": false,
+      "reviewRecord": "east-seventh-review-06/visual-review.json"
+    },
+    {
+      "buildingId": 248142621,
+      "mappedAddress": "101 East 7th Street",
+      "displayAddress": "109 East 7th Street",
+      "faceId": "248142621:East 7th Street",
+      "side": "north",
+      "runtimeIntervalX": [
+        96.854,
+        103.27199968837647
+      ],
+      "frontage": {
+        "x": 96.854,
+        "z": 217.831,
+        "rx": 0.9999999514453823,
+        "rz": -0.0003116235436073373,
+        "length": 6.418,
+        "street": "East 7th Street"
+      },
+      "preserveCorner": false,
+      "sourceIds": [
+        "architecture-248142621",
+        "seventh-03-panorama-6",
+        "east06-archive-248142621"
+      ],
+      "sourceReview": "public architectural source inspected; mixed/unknown capture dates",
+      "geometry": "revision 06 authored",
+      "visualReview": "final whole elevation and overlapping ground subviews inspected",
+      "accepted": false,
+      "businesses": [],
+      "uncertainties": [
+        "Metric dimensions, microdetail and occluded surfaces remain estimates.",
+        "No calibrated multi-view acceptance.",
+        "Latest condition/tenant or occluded ground details not established by the archived view."
+      ],
+      "calibratedMultiViewAcceptance": false,
+      "reviewRecord": "east-seventh-review-06/visual-review.json"
+    },
+    {
+      "buildingId": 248142624,
+      "mappedAddress": "111 East 7th Street",
+      "displayAddress": "111–115 East 7th Street",
+      "faceId": "248142624:East 7th Street",
+      "side": "north",
+      "runtimeIntervalX": [
+        103.276,
+        122.06699957426429
+      ],
+      "frontage": {
+        "x": 103.276,
+        "z": 219.381,
+        "rx": 0.9999999773436373,
+        "rz": -0.00021286785745118554,
+        "length": 18.791,
+        "street": "East 7th Street"
+      },
+      "preserveCorner": false,
+      "sourceIds": [
+        "architecture-248142624",
+        "seventh-03-panorama-6",
+        "east06-archive-248142624"
+      ],
+      "sourceReview": "public architectural source inspected; mixed/unknown capture dates",
+      "geometry": "revision 06 authored",
+      "visualReview": "final whole elevation and overlapping ground subviews inspected",
+      "accepted": false,
+      "businesses": [
+        {
+          "id": "osm-node-11270580267",
+          "name": "Ladybird",
+          "renderName": true,
+          "street": "East 7th Street",
+          "frontageIndex": 0
+        },
+        {
+          "id": "osm-node-11270580268",
+          "name": "Cadence",
+          "renderName": false,
+          "street": "East 7th Street",
+          "frontageIndex": 0
+        }
+      ],
+      "uncertainties": [
+        "Metric dimensions, microdetail and occluded surfaces remain estimates.",
+        "No calibrated multi-view acceptance.",
+        "Latest condition/tenant or occluded ground details not established by the archived view."
+      ],
+      "calibratedMultiViewAcceptance": false,
+      "reviewRecord": "east-seventh-review-06/visual-review.json"
+    },
+    {
+      "buildingId": 248142633,
+      "mappedAddress": "117 East 7th Street",
+      "displayAddress": "117–119 East 7th Street",
+      "faceId": "248142633:East 7th Street",
+      "side": "north",
+      "runtimeIntervalX": [
+        122.067,
+        134.98499442638538
+      ],
+      "frontage": {
+        "x": 122.067,
+        "z": 219.377,
+        "rx": 0.9999995685388915,
+        "rz": -0.0009289359670589204,
+        "length": 12.918,
+        "street": "East 7th Street"
+      },
+      "preserveCorner": false,
+      "sourceIds": [
+        "architecture-248142633",
+        "seventh-03-panorama-6",
+        "east06-archive-248142633"
+      ],
+      "sourceReview": "public architectural source inspected; mixed/unknown capture dates",
+      "geometry": "revision 06 authored",
+      "visualReview": "final whole elevation and overlapping ground subviews inspected",
+      "accepted": false,
+      "businesses": [
+        {
+          "id": "osm-node-4811903022",
+          "name": "Los Tacos NYC",
+          "renderName": false,
+          "street": "East 7th Street",
+          "frontageIndex": 0
+        }
+      ],
+      "uncertainties": [
+        "Metric dimensions, microdetail and occluded surfaces remain estimates.",
+        "No calibrated multi-view acceptance.",
+        "Latest condition/tenant or occluded ground details not established by the archived view."
+      ],
+      "calibratedMultiViewAcceptance": false,
+      "reviewRecord": "east-seventh-review-06/visual-review.json"
+    },
+    {
+      "buildingId": 248142640,
+      "mappedAddress": "121 East 7th Street",
+      "displayAddress": "121 East 7th Street",
+      "faceId": "248142640:East 7th Street",
+      "side": "north",
+      "runtimeIntervalX": [
+        134.985,
+        141.7759963922868
+      ],
+      "frontage": {
+        "x": 134.985,
+        "z": 219.365,
+        "rx": 0.9999994687508144,
+        "rz": -0.0010307754794964962,
+        "length": 6.791,
+        "street": "East 7th Street"
+      },
+      "preserveCorner": false,
+      "sourceIds": [
+        "architecture-248142640",
+        "east06-archive-248142640"
+      ],
+      "sourceReview": "public architectural source inspected; mixed/unknown capture dates",
+      "geometry": "revision 06 authored",
+      "visualReview": "final whole elevation and overlapping ground subviews inspected",
+      "accepted": false,
+      "businesses": [],
+      "uncertainties": [
+        "Metric dimensions, microdetail and occluded surfaces remain estimates.",
+        "No calibrated multi-view acceptance.",
+        "Latest condition/tenant or occluded ground details not established by the archived view."
+      ],
+      "calibratedMultiViewAcceptance": false,
+      "reviewRecord": "east-seventh-review-06/visual-review.json"
+    },
+    {
+      "buildingId": 248142645,
+      "mappedAddress": "123 East 7th Street",
+      "displayAddress": "123 East 7th Street",
+      "faceId": "248142645:East 7th Street",
+      "side": "north",
+      "runtimeIntervalX": [
+        141.776,
+        149.49799993524994
+      ],
+      "frontage": {
+        "x": 141.776,
+        "z": 219.358,
+        "rx": 0.9999999916148583,
+        "rz": -0.00012950012841487124,
+        "length": 7.722,
+        "street": "East 7th Street"
+      },
+      "preserveCorner": false,
+      "sourceIds": [
+        "architecture-248142645",
+        "seventh-03-panorama-7",
+        "east06-archive-248142645"
+      ],
+      "sourceReview": "public architectural source inspected; mixed/unknown capture dates",
+      "geometry": "revision 06 authored",
+      "visualReview": "final whole elevation and overlapping ground subviews inspected",
+      "accepted": false,
+      "businesses": [],
+      "uncertainties": [
+        "Metric dimensions, microdetail and occluded surfaces remain estimates.",
+        "No calibrated multi-view acceptance.",
+        "Latest condition/tenant or occluded ground details not established by the archived view."
+      ],
+      "calibratedMultiViewAcceptance": false,
+      "reviewRecord": "east-seventh-review-06/visual-review.json"
+    },
+    {
+      "buildingId": 248142647,
+      "mappedAddress": "125 East 7th Street",
+      "displayAddress": "125 East 7th Street",
+      "faceId": "248142647:East 7th Street",
+      "side": "north",
+      "runtimeIntervalX": [
+        149.498,
+        156.77199663184174
+      ],
+      "frontage": {
+        "x": 149.498,
+        "z": 219.357,
+        "rx": 0.9999995369592751,
+        "rz": -0.0009623311463733747,
+        "length": 7.274,
+        "street": "East 7th Street"
+      },
+      "preserveCorner": false,
+      "sourceIds": [
+        "architecture-248142647",
+        "seventh-03-panorama-7",
+        "east06-archive-248142647"
+      ],
+      "sourceReview": "public architectural source inspected; mixed/unknown capture dates",
+      "geometry": "revision 06 authored",
+      "visualReview": "final whole elevation and overlapping ground subviews inspected",
+      "accepted": false,
+      "businesses": [],
+      "uncertainties": [
+        "Metric dimensions, microdetail and occluded surfaces remain estimates.",
+        "No calibrated multi-view acceptance.",
+        "Latest condition/tenant or occluded ground details not established by the archived view."
+      ],
+      "calibratedMultiViewAcceptance": false,
+      "reviewRecord": "east-seventh-review-06/visual-review.json"
+    },
+    {
+      "buildingId": 248142650,
+      "mappedAddress": "127 East 7th Street",
+      "displayAddress": "127 East 7th Street",
+      "faceId": "248142650:East 7th Street",
+      "side": "north",
+      "runtimeIntervalX": [
+        156.772,
+        164.60799974476774
+      ],
+      "frontage": {
+        "x": 156.772,
+        "z": 219.35,
+        "rx": 0.9999999674282479,
+        "rz": -0.0002552322530420649,
+        "length": 7.836,
+        "street": "East 7th Street"
+      },
+      "preserveCorner": false,
+      "sourceIds": [
+        "architecture-248142650",
+        "seventh-03-panorama-7",
+        "east06-archive-248142650"
+      ],
+      "sourceReview": "public architectural source inspected; mixed/unknown capture dates",
+      "geometry": "revision 06 authored",
+      "visualReview": "final whole elevation and overlapping ground subviews inspected",
+      "accepted": false,
+      "businesses": [],
+      "uncertainties": [
+        "Metric dimensions, microdetail and occluded surfaces remain estimates.",
+        "No calibrated multi-view acceptance.",
+        "Latest condition/tenant or occluded ground details not established by the archived view."
+      ],
+      "calibratedMultiViewAcceptance": false,
+      "reviewRecord": "east-seventh-review-06/visual-review.json"
+    },
+    {
+      "buildingId": 248142653,
+      "mappedAddress": "129 East 7th Street",
+      "displayAddress": "129 East 7th Street",
+      "faceId": "248142653:East 7th Street",
+      "side": "north",
+      "runtimeIntervalX": [
+        164.608,
+        172.214
+      ],
+      "frontage": {
+        "x": 164.608,
+        "z": 219.348,
+        "rx": 1.0,
+        "rz": 0.0,
+        "length": 7.606,
+        "street": "East 7th Street"
+      },
+      "preserveCorner": false,
+      "sourceIds": [
+        "architecture-248142653",
+        "seventh-03-panorama-8",
+        "east06-archive-248142653"
+      ],
+      "sourceReview": "public architectural source inspected; mixed/unknown capture dates",
+      "geometry": "revision 06 authored",
+      "visualReview": "final whole elevation and overlapping ground subviews inspected",
+      "accepted": false,
+      "businesses": [],
+      "uncertainties": [
+        "Metric dimensions, microdetail and occluded surfaces remain estimates.",
+        "No calibrated multi-view acceptance.",
+        "Latest condition/tenant or occluded ground details not established by the archived view."
+      ],
+      "calibratedMultiViewAcceptance": false,
+      "reviewRecord": "east-seventh-review-06/visual-review.json"
+    },
+    {
+      "buildingId": 248142656,
+      "mappedAddress": "131 East 7th Street",
+      "displayAddress": "131 East 7th Street",
+      "faceId": "248142656:East 7th Street",
+      "side": "north",
+      "runtimeIntervalX": [
+        172.214,
+        182.90399621141455
+      ],
+      "frontage": {
+        "x": 172.214,
+        "z": 219.348,
+        "rx": 0.9999996455953741,
+        "rz": -0.0008419080271630422,
+        "length": 10.69,
+        "street": "East 7th Street"
+      },
+      "preserveCorner": false,
+      "sourceIds": [
+        "architecture-248142656",
+        "seventh-03-panorama-8"
+      ],
+      "sourceReview": "public architectural source inspected; mixed/unknown capture dates",
+      "geometry": "source-guided baseline retained",
+      "visualReview": "final whole elevation and overlapping ground subviews inspected",
+      "accepted": false,
+      "businesses": [
+        {
+          "id": "osm-node-6558563123",
+          "name": "787 Coffee Co.",
+          "renderName": true,
+          "street": "East 7th Street",
+          "frontageIndex": 0
+        }
+      ],
+      "uncertainties": [
+        "Metric dimensions, microdetail and occluded surfaces remain estimates.",
+        "No calibrated multi-view acceptance.",
+        "Latest condition/tenant or occluded ground details not established by the archived view.",
+        "131 complete current upper elevation not re-established; retain existing source-guided geometry."
+      ],
+      "calibratedMultiViewAcceptance": false,
+      "reviewRecord": "east-seventh-review-06/visual-review.json"
+    },
+    {
+      "buildingId": 248142714,
+      "mappedAddress": "111 Avenue A",
+      "displayAddress": "111 Avenue A",
+      "faceId": "248142714:East 7th Street",
+      "side": "north",
+      "runtimeIntervalX": [
+        184.602,
+        202.59899774962537
+      ],
+      "frontage": {
+        "x": 184.602,
+        "z": 219.338,
+        "rx": 0.9999998749583463,
+        "rz": -0.0005000832846925184,
+        "length": 17.997,
+        "street": "East 7th Street"
+      },
+      "preserveCorner": false,
+      "sourceIds": [
+        "architecture-248142714",
+        "seventh-03-panorama-8",
+        "east06-archive-248142714"
+      ],
+      "sourceReview": "public architectural source inspected; mixed/unknown capture dates",
+      "geometry": "revision 06 authored",
+      "visualReview": "final whole elevation and overlapping ground subviews inspected",
+      "accepted": false,
+      "businesses": [
+        {
+          "id": "osm-node-4711117992",
+          "name": "Yuca Bar & Restaurant",
+          "renderName": true,
+          "street": "Avenue A",
+          "frontageIndex": 0
+        }
+      ],
+      "uncertainties": [
+        "Metric dimensions, microdetail and occluded surfaces remain estimates.",
+        "No calibrated multi-view acceptance.",
+        "Latest condition/tenant or occluded ground details not established by the archived view."
+      ],
+      "calibratedMultiViewAcceptance": false,
+      "reviewRecord": "east-seventh-review-06/visual-review.json"
+    },
+    {
+      "buildingId": 248142404,
+      "mappedAddress": "116 1st Avenue",
+      "displayAddress": "116 1st Avenue",
+      "faceId": "248142404:East 7th Street",
+      "side": "south",
+      "runtimeIntervalX": [
+        16.06702296292516,
+        36.992
+      ],
+      "frontage": {
+        "x": 36.992,
+        "z": 237.502,
+        "rx": -0.9999989026081164,
+        "rz": -0.0014814798557160106,
+        "length": 20.925,
+        "street": "East 7th Street"
+      },
+      "preserveCorner": true,
+      "sourceIds": [
+        "architecture-248142404"
+      ],
+      "sourceReview": "protected prior reference",
+      "geometry": "protected unchanged",
+      "visualReview": "final whole elevation and overlapping ground subviews inspected",
+      "accepted": false,
+      "businesses": [],
+      "uncertainties": [
+        "Metric dimensions, microdetail and occluded surfaces remain estimates.",
+        "No calibrated multi-view acceptance."
+      ],
+      "calibratedMultiViewAcceptance": false,
+      "reviewRecord": "east-seventh-review-06/visual-review.json"
+    },
+    {
+      "buildingId": 951679435,
+      "mappedAddress": "92 East 7th Street",
+      "displayAddress": "92 East 7th Street",
+      "faceId": "951679435:East 7th Street",
+      "side": "south",
+      "runtimeIntervalX": [
+        36.992000295115815,
+        43.769
+      ],
+      "frontage": {
+        "x": 43.769,
+        "z": 237.504,
+        "rx": -0.9999999564533254,
+        "rz": -0.0002951158201103406,
+        "length": 6.777,
+        "street": "East 7th Street"
+      },
+      "preserveCorner": false,
+      "sourceIds": [
+        "architecture-951679435",
+        "seventh-03-panorama-4"
+      ],
+      "sourceReview": "public architectural source inspected; mixed/unknown capture dates",
+      "geometry": "source-guided baseline retained",
+      "visualReview": "final whole elevation and overlapping ground subviews inspected",
+      "accepted": false,
+      "businesses": [],
+      "uncertainties": [
+        "Metric dimensions, microdetail and occluded surfaces remain estimates.",
+        "No calibrated multi-view acceptance.",
+        "Latest condition/tenant or occluded ground details not established by the archived view."
+      ],
+      "calibratedMultiViewAcceptance": false,
+      "reviewRecord": "east-seventh-review-06/visual-review.json"
+    },
+    {
+      "buildingId": 248142390,
+      "mappedAddress": "94 East 7th Street",
+      "displayAddress": "94 East 7th Street",
+      "faceId": "248142390:East 7th Street",
+      "side": "south",
+      "runtimeIntervalX": [
+        43.76901521733737,
+        50.209
+      ],
+      "frontage": {
+        "x": 50.209,
+        "z": 237.49,
+        "rx": -0.999997637059415,
+        "rz": 0.0021739079066480406,
+        "length": 6.44,
+        "street": "East 7th Street"
+      },
+      "preserveCorner": false,
+      "sourceIds": [
+        "architecture-248142390",
+        "seventh-03-panorama-4",
+        "east06-archive-248142390"
+      ],
+      "sourceReview": "public architectural source inspected; mixed/unknown capture dates",
+      "geometry": "revision 06 authored",
+      "visualReview": "final whole elevation and overlapping ground subviews inspected",
+      "accepted": false,
+      "businesses": [],
+      "uncertainties": [
+        "Metric dimensions, microdetail and occluded surfaces remain estimates.",
+        "No calibrated multi-view acceptance.",
+        "Latest condition/tenant or occluded ground details not established by the archived view."
+      ],
+      "calibratedMultiViewAcceptance": false,
+      "reviewRecord": "east-seventh-review-06/visual-review.json"
+    },
+    {
+      "buildingId": 248142393,
+      "mappedAddress": "96 East 7th Street",
+      "displayAddress": "96 East 7th Street",
+      "faceId": "248142393:East 7th Street",
+      "side": "south",
+      "runtimeIntervalX": [
+        50.20900006556517,
+        57.835
+      ],
+      "frontage": {
+        "x": 57.835,
+        "z": 237.491,
+        "rx": -0.9999999914024167,
+        "rz": -0.00013113034243472223,
+        "length": 7.626,
+        "street": "East 7th Street"
+      },
+      "preserveCorner": false,
+      "sourceIds": [
+        "architecture-248142393",
+        "seventh-03-panorama-4"
+      ],
+      "sourceReview": "public architectural source inspected; mixed/unknown capture dates",
+      "geometry": "revision 06 authored",
+      "visualReview": "final whole elevation and overlapping ground subviews inspected",
+      "accepted": false,
+      "businesses": [
+        {
+          "id": "osm-node-9161604572",
+          "name": "Trash and Vaudville",
+          "renderName": true,
+          "street": "East 7th Street",
+          "frontageIndex": 0
+        }
+      ],
+      "uncertainties": [
+        "Metric dimensions, microdetail and occluded surfaces remain estimates.",
+        "No calibrated multi-view acceptance."
+      ],
+      "calibratedMultiViewAcceptance": false,
+      "reviewRecord": "east-seventh-review-06/visual-review.json"
+    },
+    {
+      "buildingId": 248142396,
+      "mappedAddress": "98 East 7th Street",
+      "displayAddress": "98 East 7th Street",
+      "faceId": "248142396:East 7th Street",
+      "side": "south",
+      "runtimeIntervalX": [
+        57.835001603385855,
+        65.631
+      ],
+      "frontage": {
+        "x": 65.631,
+        "z": 237.486,
+        "rx": -0.99999979433224,
+        "rz": 0.0006413544088872594,
+        "length": 7.796,
+        "street": "East 7th Street"
+      },
+      "preserveCorner": false,
+      "sourceIds": [
+        "architecture-248142396",
+        "seventh-03-panorama-5",
+        "east06-archive-248142396"
+      ],
+      "sourceReview": "public architectural source inspected; mixed/unknown capture dates",
+      "geometry": "revision 06 authored",
+      "visualReview": "final whole elevation and overlapping ground subviews inspected",
+      "accepted": false,
+      "businesses": [],
+      "uncertainties": [
+        "Metric dimensions, microdetail and occluded surfaces remain estimates.",
+        "No calibrated multi-view acceptance.",
+        "Latest condition/tenant or occluded ground details not established by the archived view."
+      ],
+      "calibratedMultiViewAcceptance": false,
+      "reviewRecord": "east-seventh-review-06/visual-review.json"
+    },
+    {
+      "buildingId": 248142313,
+      "mappedAddress": "100 East 7th Street",
+      "displayAddress": "100 East 7th Street",
+      "faceId": "248142313:East 7th Street",
+      "side": "south",
+      "runtimeIntervalX": [
+        65.6310005894681,
+        73.265
+      ],
+      "frontage": {
+        "x": 73.265,
+        "z": 237.483,
+        "rx": -0.9999999227838484,
+        "rz": 0.0003929787487997705,
+        "length": 7.634,
+        "street": "East 7th Street"
+      },
+      "preserveCorner": false,
+      "sourceIds": [
+        "architecture-248142313",
+        "seventh-03-panorama-5",
+        "east06-archive-248142313"
+      ],
+      "sourceReview": "public architectural source inspected; mixed/unknown capture dates",
+      "geometry": "revision 06 authored",
+      "visualReview": "final whole elevation and overlapping ground subviews inspected",
+      "accepted": false,
+      "businesses": [],
+      "uncertainties": [
+        "Metric dimensions, microdetail and occluded surfaces remain estimates.",
+        "No calibrated multi-view acceptance.",
+        "Latest condition/tenant or occluded ground details not established by the archived view."
+      ],
+      "calibratedMultiViewAcceptance": false,
+      "reviewRecord": "east-seventh-review-06/visual-review.json"
+    },
+    {
+      "buildingId": 248142319,
+      "mappedAddress": "102 East 7th Street",
+      "displayAddress": "102 East 7th Street",
+      "faceId": "248142319:East 7th Street",
+      "side": "south",
+      "runtimeIntervalX": [
+        73.2650052352584,
+        81.001
+      ],
+      "frontage": {
+        "x": 81.001,
+        "z": 237.474,
+        "rx": -0.9999993232602912,
+        "rz": 0.0011633911465042874,
+        "length": 7.736,
+        "street": "East 7th Street"
+      },
+      "preserveCorner": false,
+      "sourceIds": [
+        "architecture-248142319",
+        "seventh-03-panorama-5",
+        "east06-archive-248142319"
+      ],
+      "sourceReview": "public architectural source inspected; mixed/unknown capture dates",
+      "geometry": "revision 06 authored",
+      "visualReview": "final whole elevation and overlapping ground subviews inspected",
+      "accepted": false,
+      "businesses": [
+        {
+          "id": "osm-node-12980265002",
+          "name": "Maza Mexican Restaurant",
+          "renderName": false,
+          "street": "East 7th Street",
+          "frontageIndex": 0
+        }
+      ],
+      "uncertainties": [
+        "Metric dimensions, microdetail and occluded surfaces remain estimates.",
+        "No calibrated multi-view acceptance.",
+        "Latest condition/tenant or occluded ground details not established by the archived view."
+      ],
+      "calibratedMultiViewAcceptance": false,
+      "reviewRecord": "east-seventh-review-06/visual-review.json"
+    },
+    {
+      "buildingId": 248142322,
+      "mappedAddress": "104 East 7th Street",
+      "displayAddress": "104 East 7th Street",
+      "faceId": "248142322:East 7th Street",
+      "side": "south",
+      "runtimeIntervalX": [
+        81.00100026392185,
+        88.579
+      ],
+      "frontage": {
+        "x": 88.579,
+        "z": 237.476,
+        "rx": -0.9999999651726227,
+        "rz": -0.0002639218699333331,
+        "length": 7.578,
+        "street": "East 7th Street"
+      },
+      "preserveCorner": false,
+      "sourceIds": [
+        "architecture-248142322",
+        "seventh-03-panorama-5",
+        "east06-archive-248142322"
+      ],
+      "sourceReview": "public architectural source inspected; mixed/unknown capture dates",
+      "geometry": "revision 06 authored",
+      "visualReview": "final whole elevation and overlapping ground subviews inspected",
+      "accepted": false,
+      "businesses": [],
+      "uncertainties": [
+        "Metric dimensions, microdetail and occluded surfaces remain estimates.",
+        "No calibrated multi-view acceptance.",
+        "Latest condition/tenant or occluded ground details not established by the archived view."
+      ],
+      "calibratedMultiViewAcceptance": false,
+      "reviewRecord": "east-seventh-review-06/visual-review.json"
+    },
+    {
+      "buildingId": 248142324,
+      "mappedAddress": "106 East 7th Street",
+      "displayAddress": "106 East 7th Street",
+      "faceId": "248142324:East 7th Street",
+      "side": "south",
+      "runtimeIntervalX": [
+        88.57900418793007,
+        96.22
+      ],
+      "frontage": {
+        "x": 96.22,
+        "z": 237.468,
+        "rx": -0.9999994519133525,
+        "rz": 0.0010469828053025247,
+        "length": 7.641,
+        "street": "East 7th Street"
+      },
+      "preserveCorner": false,
+      "sourceIds": [
+        "architecture-248142324",
+        "seventh-03-panorama-6",
+        "east06-archive-248142324"
+      ],
+      "sourceReview": "public architectural source inspected; mixed/unknown capture dates",
+      "geometry": "revision 06 authored",
+      "visualReview": "final whole elevation and overlapping ground subviews inspected",
+      "accepted": false,
+      "businesses": [],
+      "uncertainties": [
+        "Metric dimensions, microdetail and occluded surfaces remain estimates.",
+        "No calibrated multi-view acceptance.",
+        "Latest condition/tenant or occluded ground details not established by the archived view."
+      ],
+      "calibratedMultiViewAcceptance": false,
+      "reviewRecord": "east-seventh-review-06/visual-review.json"
+    },
+    {
+      "buildingId": 248142328,
+      "mappedAddress": "110 East 7th Street",
+      "displayAddress": "110 East 7th Street",
+      "faceId": "248142328:East 7th Street",
+      "side": "south",
+      "runtimeIntervalX": [
+        103.63000416232752,
+        111.318
+      ],
+      "frontage": {
+        "x": 111.318,
+        "z": 237.454,
+        "rx": -0.9999994585942346,
+        "rz": 0.00104058216294683,
+        "length": 7.688,
+        "street": "East 7th Street"
+      },
+      "preserveCorner": false,
+      "sourceIds": [
+        "architecture-248142328",
+        "seventh-03-panorama-6",
+        "east06-archive-248142328"
+      ],
+      "sourceReview": "public architectural source inspected; mixed/unknown capture dates",
+      "geometry": "revision 06 authored",
+      "visualReview": "final whole elevation and overlapping ground subviews inspected",
+      "accepted": false,
+      "businesses": [
+        {
+          "id": "osm-node-6583001086",
+          "name": "Ho Foods",
+          "renderName": true,
+          "street": "East 7th Street",
+          "frontageIndex": 0
+        }
+      ],
+      "uncertainties": [
+        "Metric dimensions, microdetail and occluded surfaces remain estimates.",
+        "No calibrated multi-view acceptance.",
+        "Latest condition/tenant or occluded ground details not established by the archived view."
+      ],
+      "calibratedMultiViewAcceptance": false,
+      "reviewRecord": "east-seventh-review-06/visual-review.json"
+    },
+    {
+      "buildingId": 248142330,
+      "mappedAddress": "112 East 7th Street",
+      "displayAddress": "112 East 7th Street",
+      "faceId": "248142330:East 7th Street",
+      "side": "south",
+      "runtimeIntervalX": [
+        111.31800057566835,
+        119.135
+      ],
+      "frontage": {
+        "x": 119.135,
+        "z": 237.451,
+        "rx": -0.9999999263568694,
+        "rz": 0.00038377891506779203,
+        "length": 7.817,
+        "street": "East 7th Street"
+      },
+      "preserveCorner": false,
+      "sourceIds": [
+        "architecture-248142330",
+        "seventh-03-panorama-6",
+        "east06-archive-248142330"
+      ],
+      "sourceReview": "public architectural source inspected; mixed/unknown capture dates",
+      "geometry": "revision 06 authored",
+      "visualReview": "final whole elevation and overlapping ground subviews inspected",
+      "accepted": false,
+      "businesses": [],
+      "uncertainties": [
+        "Metric dimensions, microdetail and occluded surfaces remain estimates.",
+        "No calibrated multi-view acceptance.",
+        "Latest condition/tenant or occluded ground details not established by the archived view."
+      ],
+      "calibratedMultiViewAcceptance": false,
+      "reviewRecord": "east-seventh-review-06/visual-review.json"
+    },
+    {
+      "buildingId": 248142332,
+      "mappedAddress": "114 East 7th Street",
+      "displayAddress": "114 East 7th Street",
+      "faceId": "248142332:East 7th Street",
+      "side": "south",
+      "runtimeIntervalX": [
+        119.13500027449903,
+        126.421
+      ],
+      "frontage": {
+        "x": 126.421,
+        "z": 237.449,
+        "rx": -0.9999999623251409,
+        "rz": 0.00027449902890905976,
+        "length": 7.286,
+        "street": "East 7th Street"
+      },
+      "preserveCorner": false,
+      "sourceIds": [
+        "architecture-248142332",
+        "seventh-03-panorama-6",
+        "east06-archive-248142332"
+      ],
+      "sourceReview": "public architectural source inspected; mixed/unknown capture dates",
+      "geometry": "revision 06 authored",
+      "visualReview": "final whole elevation and overlapping ground subviews inspected",
+      "accepted": false,
+      "businesses": [],
+      "uncertainties": [
+        "Metric dimensions, microdetail and occluded surfaces remain estimates.",
+        "No calibrated multi-view acceptance.",
+        "Latest condition/tenant or occluded ground details not established by the archived view."
+      ],
+      "calibratedMultiViewAcceptance": false,
+      "reviewRecord": "east-seventh-review-06/visual-review.json"
+    },
+    {
+      "buildingId": 248142411,
+      "mappedAddress": "",
+      "displayAddress": "116 East 7th Street",
+      "faceId": "248142411:East 7th Street",
+      "side": "south",
+      "runtimeIntervalX": [
+        126.42100102603544,
+        134.218
+      ],
+      "frontage": {
+        "x": 134.218,
+        "z": 237.445,
+        "rx": -0.9999998684063803,
+        "rz": 0.000513017759862079,
+        "length": 7.797,
+        "street": "East 7th Street"
+      },
+      "preserveCorner": false,
+      "sourceIds": [
+        "architecture-248142411",
+        "seventh-03-panorama-7",
+        "east06-archive-248142411"
+      ],
+      "sourceReview": "public architectural source inspected; mixed/unknown capture dates",
+      "geometry": "revision 06 authored",
+      "visualReview": "final whole elevation and overlapping ground subviews inspected",
+      "accepted": false,
+      "businesses": [],
+      "uncertainties": [
+        "Metric dimensions, microdetail and occluded surfaces remain estimates.",
+        "No calibrated multi-view acceptance.",
+        "Latest condition/tenant or occluded ground details not established by the archived view."
+      ],
+      "calibratedMultiViewAcceptance": false,
+      "reviewRecord": "east-seventh-review-06/visual-review.json"
+    },
+    {
+      "buildingId": 248142333,
+      "mappedAddress": "118 East 7th Street",
+      "displayAddress": "118 East 7th Street",
+      "faceId": "248142333:East 7th Street",
+      "side": "south",
+      "runtimeIntervalX": [
+        134.2180000663306,
+        141.756
+      ],
+      "frontage": {
+        "x": 141.756,
+        "z": 237.444,
+        "rx": -0.9999999912005053,
+        "rz": 0.00013266118217103724,
+        "length": 7.538,
+        "street": "East 7th Street"
+      },
+      "preserveCorner": false,
+      "sourceIds": [
+        "architecture-248142333",
+        "seventh-03-panorama-7",
+        "east06-archive-248142333"
+      ],
+      "sourceReview": "public architectural source inspected; mixed/unknown capture dates",
+      "geometry": "revision 06 authored",
+      "visualReview": "final whole elevation and overlapping ground subviews inspected",
+      "accepted": false,
+      "businesses": [],
+      "uncertainties": [
+        "Metric dimensions, microdetail and occluded surfaces remain estimates.",
+        "No calibrated multi-view acceptance.",
+        "Latest condition/tenant or occluded ground details not established by the archived view."
+      ],
+      "calibratedMultiViewAcceptance": false,
+      "reviewRecord": "east-seventh-review-06/visual-review.json"
+    },
+    {
+      "buildingId": 248142334,
+      "mappedAddress": "120 East 7th Street",
+      "displayAddress": "120 East 7th Street",
+      "faceId": "248142334:East 7th Street",
+      "side": "south",
+      "runtimeIntervalX": [
+        141.7560000663306,
+        149.294
+      ],
+      "frontage": {
+        "x": 149.294,
+        "z": 237.443,
+        "rx": -0.9999999912005053,
+        "rz": 0.00013266118216726677,
+        "length": 7.538,
+        "street": "East 7th Street"
+      },
+      "preserveCorner": false,
+      "sourceIds": [
+        "architecture-248142334",
+        "seventh-03-panorama-7",
+        "east06-archive-248142334"
+      ],
+      "sourceReview": "public architectural source inspected; mixed/unknown capture dates",
+      "geometry": "revision 06 authored",
+      "visualReview": "final whole elevation and overlapping ground subviews inspected",
+      "accepted": false,
+      "businesses": [],
+      "uncertainties": [
+        "Metric dimensions, microdetail and occluded surfaces remain estimates.",
+        "No calibrated multi-view acceptance.",
+        "Latest condition/tenant or occluded ground details not established by the archived view."
+      ],
+      "calibratedMultiViewAcceptance": false,
+      "reviewRecord": "east-seventh-review-06/visual-review.json"
+    },
+    {
+      "buildingId": 248142335,
+      "mappedAddress": "122 East 7th Street",
+      "displayAddress": "122 East 7th Street",
+      "faceId": "248142335:East 7th Street",
+      "side": "south",
+      "runtimeIntervalX": [
+        149.29400026364354,
+        156.88
+      ],
+      "frontage": {
+        "x": 156.88,
+        "z": 237.441,
+        "rx": -0.99999996524604,
+        "rz": 0.00026364354475370865,
+        "length": 7.586,
+        "street": "East 7th Street"
+      },
+      "preserveCorner": false,
+      "sourceIds": [
+        "architecture-248142335",
+        "seventh-03-panorama-7",
+        "east06-archive-248142335"
+      ],
+      "sourceReview": "public architectural source inspected; mixed/unknown capture dates",
+      "geometry": "revision 06 authored",
+      "visualReview": "final whole elevation and overlapping ground subviews inspected",
+      "accepted": false,
+      "businesses": [
+        {
+          "id": "osm-node-13075288501",
+          "name": "Jones St. Wine Bar & Room",
+          "renderName": false,
+          "street": "East 7th Street",
+          "frontageIndex": 0
+        }
+      ],
+      "uncertainties": [
+        "Metric dimensions, microdetail and occluded surfaces remain estimates.",
+        "No calibrated multi-view acceptance.",
+        "Latest condition/tenant or occluded ground details not established by the archived view."
+      ],
+      "calibratedMultiViewAcceptance": false,
+      "reviewRecord": "east-seventh-review-06/visual-review.json"
+    },
+    {
+      "buildingId": 248142336,
+      "mappedAddress": "126 East 7th Street",
+      "displayAddress": "126 East 7th Street",
+      "faceId": "248142336:East 7th Street",
+      "side": "south",
+      "runtimeIntervalX": [
+        156.88000155337346,
+        164.927
+      ],
+      "frontage": {
+        "x": 164.927,
+        "z": 237.436,
+        "rx": -0.9999998069624111,
+        "rz": 0.0006213494513244078,
+        "length": 8.047,
+        "street": "East 7th Street"
+      },
+      "preserveCorner": false,
+      "sourceIds": [
+        "architecture-248142336",
+        "seventh-03-panorama-7",
+        "east06-archive-248142336"
+      ],
+      "sourceReview": "public architectural source inspected; mixed/unknown capture dates",
+      "geometry": "revision 06 authored",
+      "visualReview": "final whole elevation and overlapping ground subviews inspected",
+      "accepted": false,
+      "businesses": [
+        {
+          "id": "osm-node-10090555738",
+          "name": "Giano",
+          "renderName": false,
+          "street": "East 7th Street",
+          "frontageIndex": 0
+        }
+      ],
+      "uncertainties": [
+        "Metric dimensions, microdetail and occluded surfaces remain estimates.",
+        "No calibrated multi-view acceptance.",
+        "Latest condition/tenant or occluded ground details not established by the archived view."
+      ],
+      "calibratedMultiViewAcceptance": false,
+      "reviewRecord": "east-seventh-review-06/visual-review.json"
+    },
+    {
+      "buildingId": 248142337,
+      "mappedAddress": "128 East 7th Street",
+      "displayAddress": "128 East 7th Street",
+      "faceId": "248142337:East 7th Street",
+      "side": "south",
+      "runtimeIntervalX": [
+        164.92700028264554,
+        172.003
+      ],
+      "frontage": {
+        "x": 172.003,
+        "z": 237.438,
+        "rx": -0.9999999600557454,
+        "rz": -0.0002826455511719362,
+        "length": 7.076,
+        "street": "East 7th Street"
+      },
+      "preserveCorner": false,
+      "sourceIds": [
+        "architecture-248142337",
+        "seventh-03-panorama-8",
+        "east06-archive-248142337"
+      ],
+      "sourceReview": "public architectural source inspected; mixed/unknown capture dates",
+      "geometry": "revision 06 authored",
+      "visualReview": "final whole elevation and overlapping ground subviews inspected",
+      "accepted": false,
+      "businesses": [
+        {
+          "id": "osm-node-10090555737",
+          "name": "Pylos Restaurant",
+          "renderName": true,
+          "street": "East 7th Street",
+          "frontageIndex": 0
+        }
+      ],
+      "uncertainties": [
+        "Metric dimensions, microdetail and occluded surfaces remain estimates.",
+        "No calibrated multi-view acceptance.",
+        "Latest condition/tenant or occluded ground details not established by the archived view."
+      ],
+      "calibratedMultiViewAcceptance": false,
+      "reviewRecord": "east-seventh-review-06/visual-review.json"
+    },
+    {
+      "buildingId": 248142407,
+      "mappedAddress": "109 Avenue A",
+      "displayAddress": "109 Avenue A",
+      "faceId": "248142407:East 7th Street",
+      "side": "south",
+      "runtimeIntervalX": [
+        172.00300530781945,
+        202.524
+      ],
+      "frontage": {
+        "x": 202.524,
+        "z": 237.42,
+        "rx": -0.9999998260928717,
+        "rz": 0.0005897577690662942,
+        "length": 30.521,
+        "street": "East 7th Street"
+      },
+      "preserveCorner": false,
+      "sourceIds": [
+        "architecture-248142407",
+        "seventh-03-panorama-8",
+        "east06-archive-248142407"
+      ],
+      "sourceReview": "public architectural source inspected; mixed/unknown capture dates",
+      "geometry": "revision 06 authored",
+      "visualReview": "final whole elevation and overlapping ground subviews inspected",
+      "accepted": false,
+      "businesses": [
+        {
+          "id": "osm-node-4006284842",
+          "name": "Miss Lily’s",
+          "renderName": true,
+          "street": "Avenue A",
+          "frontageIndex": 1
+        },
+        {
+          "id": "osm-node-12994866301",
+          "name": "Titi’s Empanadas",
+          "renderName": true,
+          "street": "East 7th Street",
+          "frontageIndex": 0
+        }
+      ],
+      "uncertainties": [
+        "Metric dimensions, microdetail and occluded surfaces remain estimates.",
+        "No calibrated multi-view acceptance.",
+        "Latest condition/tenant or occluded ground details not established by the archived view."
+      ],
+      "calibratedMultiViewAcceptance": false,
+      "reviewRecord": "east-seventh-review-06/visual-review.json"
+    }
+  ],
+  "additionalEdges": [
+    {
+      "id": "east7-south-108-gap",
+      "runtimeIntervalX": [
+        96.2,
+        103.6
+      ],
+      "identity": "108 East 7th Street site between 106 and 110",
+      "state": "needs newer observed reference; existing gap retained",
+      "evidence": "Archive low garage wall; 2015 garden approval is not proof of built condition."
+    },
+    {
+      "id": "east7-church-side-gaps",
+      "runtimeIntervalX": [
+        79,
+        80.3,
+        96.1,
+        96.9
+      ],
+      "identity": "Observed separation beside St Stanislaus and its rectories",
+      "state": "existing mapped separation retained; concealed side surfaces not accepted"
+    }
+  ],
+  "streetFeatures": {
+    "ownership": "east7-street-edge-06",
+    "state": "existing runtime street dressing retained; facade-local rails/stoops corrected from photos",
+    "unchangedGenericFeatures": [
+      "street tree placement",
+      "lamp/hydrant placement",
+      "curb furniture"
+    ],
+    "acceptance": "Current per-object positions and temporary construction require newer unoccluded references; no street-feature photographic pass claimed."
+  },
+  "acceptance": {
+    "state": "public-reference implementation candidate, user review pending",
+    "frontagesReviewed": 37,
+    "editableFrontages": 35,
+    "changedModels": 33,
+    "protectedFrontages": 2,
+    "calibratedMultiViewPasses": 0,
+    "limits": "All frontages inventoried/reviewed; source inspection or successful export is not complete 1:1 acceptance."
+  }
+}

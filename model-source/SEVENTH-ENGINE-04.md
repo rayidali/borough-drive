@@ -1,5 +1,7 @@
 # DriveAround.nyc — First–Second block revision 04
 
+**Later east-block work:** [revision 06](SEVENTH-ENGINE-06.md) applies the endorsed visual standard to First Avenue–Avenue A. It preserves this west-block model set; its local package, address coverage, reviews and evidence gaps are separate from the historical results below.
+
 **September 21 documentation note:** the user endorses this build's visual quality as the reference for future streets; use the [portable skill](skills/reconstruct-street/SKILL.md). This dated implementation report below precedes the September 15 root promotion: the current root is Seventh and the original game is `/index.html`. Also, its later statement that `build.json.sourceCommit` is checkout HEAD is incorrect: that field inherits the hardcoded geographic baseline `c76dcce…` from `slice.json`. Actual gameplay save and tested content hashes remain separate; see the [current handoff](../CODEX-HANDOFF.md). No new photographic acceptance or runtime test was performed for this note.
 
 **September 21 closing addendum:** architectural source remains `d4fbafe9a6af4497de81e2220d31c878f930612e`. The later [compact interface pass](INTERFACE-PASS-05.md), source `b194dc6`, is published, with final publication checkpoint `533570e` verified on CI/Vercel and the branded root/legacy routes. It preserves the models and audio. Use that report/current manifest for shipped UI/package hashes and its own browser-test boundaries; the measurements below still describe revision 04. No new facade acceptance or reconstruction task was added.

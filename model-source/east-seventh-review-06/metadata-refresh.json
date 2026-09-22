@@ -1,0 +1,35 @@
+{
+  "checkedAt": "2026-09-22T03:03:56.167848+00:00",
+  "purpose": "Correct the explanatory schedule limits and fix cached review heights in partial exports. No geometric/gameplay change after visual/full browser review.",
+  "visualAndFullBrowserPck": {
+    "bytes": 88153136,
+    "sha256": "c29296a391a7700ec33a3c68183203a0db92622abd47375f3cc48300167b3cc9",
+    "brotliBytes": 79576962
+  },
+  "finalPck": {
+    "bytes": 88153136,
+    "sha256": "600c609cfb9bb17267e0668bcf9729c46ef0db2fd4f442758461688c0aa56432",
+    "brotliBytes": 79577055
+  },
+  "changedSources": [
+    "engine/first-seventh/assets/slice.json",
+    "model-source/export_seventh_engine.py",
+    "model-source/storefront-details.json"
+  ],
+  "changedSliceFields": [
+    "buildings",
+    "detailScheduleSha256",
+    "detailSourceSha256",
+    "recipeHashes"
+  ],
+  "all182RenderedBuildingRecordsIdentical": true,
+  "buildingRecordException": "inputSha256 changes because the exporter recipe hash changed; asset hashes, heights, footprint/collision records and render fields remain identical.",
+  "reviewFrontagesIdenticalToVisualBuild": true,
+  "allRuntimeCodeAndOtherSourceHashesIdentical": true,
+  "onlyScheduleLimitsTextChanged": true,
+  "partialRebuildRegression": "partial-rebuild.json",
+  "changedPackageFiles": [
+    "index.pck"
+  ],
+  "validationBoundary": "Visual/camera/full behavior review used the recorded reviewed PCK. Final performance, address smoke and package verification use the metadata-refreshed PCK; identical geometry and runtime code are verified here."
+}

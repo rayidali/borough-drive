@@ -1,0 +1,66 @@
+[
+  {
+    "tag": "before",
+    "hasFocus": true,
+    "visibility": "visible",
+    "paused": false,
+    "started": true,
+    "events": []
+  },
+  {
+    "tag": "away",
+    "hasFocus": false,
+    "visibility": "hidden",
+    "paused": false,
+    "started": true,
+    "events": [
+      "blur",
+      "hidden"
+    ]
+  },
+  {
+    "tag": "back",
+    "hasFocus": true,
+    "visibility": "visible",
+    "paused": true,
+    "started": true,
+    "events": [
+      "blur",
+      "hidden",
+      "visible",
+      "focus"
+    ]
+  },
+  {
+    "tag": "explicit-disabled-away",
+    "hasFocus": false,
+    "visibility": "hidden",
+    "paused": true,
+    "started": true,
+    "events": [
+      "blur",
+      "hidden",
+      "visible",
+      "focus",
+      "blur",
+      "hidden"
+    ]
+  },
+  {
+    "tag": "explicit-disabled-back",
+    "hasFocus": true,
+    "visibility": "visible",
+    "paused": true,
+    "started": true,
+    "events": [
+      "blur",
+      "hidden",
+      "visible",
+      "focus",
+      "blur",
+      "hidden",
+      "visible",
+      "focus"
+    ]
+  }
+]

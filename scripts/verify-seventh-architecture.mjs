@@ -4,7 +4,7 @@ import fs from 'node:fs/promises';
 import assert from 'node:assert/strict';
 const root=new URL('../',import.meta.url);
 const {seventhEngine:schedule}=JSON.parse(await fs.readFile(new URL('model-source/storefront-details.json',root),'utf8'));
-const shapes=new Set(['rectangle','round','segmental']);
+const shapes=new Set(['rectangle','round','segmental','pointed','ogee']);
 const finite=(v,label)=>assert(Number.isFinite(v),label+' must be finite');
 const groundCorrections=schedule.observedGroundCorrections||{};
 function overlap(a,b){
@@ -121,7 +121,31 @@ for(const e of schedule.elevations){
     assert(Number.isInteger(well.steps||0)&&(well.steps||0)>=0,name+' steps');
   }
   for(const u of a.unletteredUnits||[]){panelUnit(u,label+' unlettered unit');unlettered++;}
+  for(const u of a.returnShops||[]){
+    panelUnit(u,label+' corner return');
+    assert(u.name?.length && u.sources?.length,label+' corner return identity/evidence');
+    for(const id of u.sources)assert(schedule.sources[id],label+' missing return source '+id);
+    const conflict=(a.doors||[]).find(d=>{
+      const bounds=openingBounds(d,'door');
+      return Math.min(bounds.right,u.span[1])-Math.max(bounds.left,u.span[0])>.003;
+    });
+    assert(!conflict,label+' corner shop must not cover its independent residential door');
+  }
 }
+// These specific corrections address observed identity/count mistakes. They
+// protect against recurrence; they do not award photographic acceptance.
+const eastById=new Map(schedule.elevations.map(e=>[e.buildingId,e]));
+for(const [id,address] of [[248142621,'109 East 7th Street'],[248142411,'116 East 7th Street']]){
+  assert.equal(eastById.get(id).addressOverride,address,'Engine-only identity correction');
+}
+for(const [id,count] of [[248142633,6],[248142396,4],[248142411,3],[248142333,3],[248142334,3]]){
+  const rows=new Map();
+  for(const w of eastById.get(id).architecture.windows.filter(w=>w.bottom>=3.55))rows.set(w.bottom,(rows.get(w.bottom)||0)+1);
+  assert([...rows.values()].every(n=>n===count),id+' per-floor opening count');
+}
+assert.equal(new Set(eastById.get(248142624).architecture.windows.map(w=>w.bottom)).size,6,'McKinley six upper rows');
+assert.equal(eastById.get(248142618).architecture.windows.filter(w=>w.bottom>7&&w.bottom<8).length,5,'St Stanislaus five upper lancets');
+for(const id of [248142707,248142404])assert(eastById.get(id).preserveCorner,'Accepted First Avenue corner remains protected');
 for(const r of schedule.frontages){
   const p=r.design?.facadePath;if(!p)continue;
   assert(p.length===r.design.panels.length+1 && p[0][0]===0 && p.at(-1)[0]===1,r.id+' projected shop path');

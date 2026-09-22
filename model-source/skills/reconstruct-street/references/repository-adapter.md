@@ -41,7 +41,7 @@ For the newly authorized street, prepare an adapter plan with its exact IDs/face
 | Export selection | Hardcoded circuit bounds plus every literal `East 7th Street` frontage |
 | Schedule/render dispatch | Seventh-named namespace and literal street selection; some per-building exceptions |
 | World placement | Origin shift, slice bounds, road/pavement and ground-void transforms |
-| Runtime coverage | Collision/street geometry, culling/minimap and address HUD explicitly bounded to the current segment |
+| Runtime coverage | Collision/street geometry, culling/minimap and address HUD explicitly bounded to Second Avenue–Avenue A, hiding at First Avenue and endpoint intersections |
 | Evidence capture | Seventh reference ledger, panorama conversions, facade lookup and camera routes |
 | Verification | Fixed 182 buildings / 82 Seventh frontage expectations and named corner invariants |
 | Preservation and output | Accepted core/corner and old game must stay intact; distinguish supported new scope from unchanged context |
@@ -109,3 +109,14 @@ Compare assigned changed IDs and out-of-scope assets/records against the frozen 
 The deployed routing contract is `/` → `dist/seventh/index.html`, `/index.html` → `dist/legacy.html`, direct `/seventh/` preserved. Keep `dist/index.html` absent because filesystem precedence bypasses the root rewrite. Preserve the shell's `/seventh/` base path. A shell-only edit still changes shipped `index.html` and its source hash: keep `build.json` synchronized and run verification. Do not change the manifest merely to disguise a stale binary; rebuild when its actual sources changed.
 
 Report local save, push and verified live deployment separately. Only publish when the current user instruction authorizes it. Credits and provenance remain required. Saving this skill creates no background work, source-acquisition permission or new route.
+
+
+## First Avenue–Avenue A revision 06 example
+
+The [east-block report](../../../SEVENTH-ENGINE-06.md) and [inventory](../../../east-seventh-coverage-06.json) are the implemented example for 35 editable + two protected frontages. They are not an accepted photographic template. Use `east-seventh-reference-06.json` with the existing fidelity capture script; its 37 whole-elevation and 52 overlapping ground views are diagnostic, with no calibrated source poses.
+
+The effective ground layout can come from `seventhEngine.observedGroundCorrections`, replacing `architecture.windows`/`doors`. Inspect both before editing access or counting openings. Engine-only `addressOverride` corrects mapped identity without mutating the preserved geographic source. `businessOverrides` can activate only an already mapped Seventh POI with explicit supporting source IDs. `architecture.returnShops` assigns a corner business's Seventh face separately from its avenue face; it must not overlap an independent residential door.
+
+Opt-in pointed/ogee openings, church profiles, corbelled cornices, balcony geometry, solid awning valances and worn tread edges express observed differences. Their defaults preserve the accepted west/corner models. Compare all model hashes after a shared recipe change, not just assigned IDs. Unknown current 108-site conditions and generic street fixtures remain named gaps; a new full-block source ledger must not automatically mark them accepted.
+
+Partial rebuilds must take review-camera heights from the verified exported building records. A revision 06 check caught eight cached facades reverting to old source heights in `reviewFrontages` during `--only`; the exporter now uses the retained model heights and verification asserts equality. This affects review framing, not building geometry. Verify full and partial exports produce equivalent review records.

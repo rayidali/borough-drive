@@ -8,7 +8,7 @@ func check(condition: bool, message: String):
 
 func _initialize():
 	var locator = Locator.new()
-	check(locator.frontages.size() == 39,"The bounded locator should retain all 37 E7 frontages and both avenue-addressed corner properties")
+	check(locator.frontages.size() == 76,"Retain the 39 west-block and 37 east-block frontages, including corner properties")
 	var records_by_address = {}
 	for record in locator.frontages:
 		records_by_address[record.address] = record
@@ -41,6 +41,16 @@ func _initialize():
 	check(locator.sample(Vector3(-210,.15,-9),-PI/2) == "118 2ND AVE","The Second Avenue corner frontage must be included")
 	check(locator.sample(Vector3(-20,.15,-9),-PI/2) == "115 1ST AVE","The First Avenue corner frontage must be included")
 	var lateral = Locator.new()
+	var east = Locator.new()
+	check(east.sample(Vector3(3,.15,0),-PI/2).is_empty(),"First Avenue intersection remains unlabeled from the east")
+	check(east.sample(Vector3(39,.15,-9),-PI/2) == "93 E 7TH ST","East north frontage must be selectable")
+	check(east.sample(Vector3(98,.15,-9),-PI/2) == "109 E 7TH ST","Correct the duplicate rectory address east of the church")
+	check(east.sample(Vector3(130,.15,9),-PI/2) == "116 E 7TH ST","Formerly unnamed south parcel must have its observed address")
+	check(east.sample(Vector3(113,.15,-9),-PI/2) == "111–115 E 7TH ST","McKinley address range remains intact")
+	check(east.sample(Vector3(195,.15,-9),-PI/2) == "111 AVE A","Include the Seventh return of the Avenue A corner")
+	check(east.sample(Vector3(212,.15,0),-PI/2).is_empty(),"Release the address before Avenue A")
+	check(east.sample(Vector3(237,.15,-9),-PI/2).is_empty(),"Do not expand the locator east of Avenue A")
+	check(east.sample(Vector3(110,.15,0),0).is_empty(),"An east-block turn across Seventh hides its address")
 	check(lateral.sample(Vector3(-170,.15,14.5),-PI/2).is_empty(),"Entry outside the lateral display envelope must stay hidden")
 	check(lateral.sample(Vector3(-170,.15,13.0),-PI/2) == "50 E 7TH ST","Entry inside the lateral display envelope must appear")
 	check(lateral.sample(Vector3(-170,.15,16.0),-PI/2) == "50 E 7TH ST","Keeping an address may use the wider lateral envelope")
