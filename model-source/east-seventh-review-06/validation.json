@@ -580,12 +580,14 @@
   "publication": {
     "pushed": false,
     "deployed": false,
-    "liveRechecked": false
+    "liveRechecked": false,
+    "localImplementationCommitted": true
   },
   "limits": [
     "No calibrated multi-view facade acceptance.",
     "Current 108 site and some street/occluded details remain unresolved.",
     "Native handling/camera scripts are unchanged by the last material-only export; browser checks identify the final PCK separately."
   ],
-  "remainingRequiredChecks": []
+  "remainingRequiredChecks": [],
+  "implementationCommit": "acf1d18fe36879faf74d1589e25c7330bbe4ef48"
 }

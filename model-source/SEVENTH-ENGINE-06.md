@@ -2,6 +2,8 @@
 
 September 21, 2026 local session (evidence timestamps continue into September 22 UTC). This implements a public-reference architectural pass on both sides of the requested block, using the user-endorsed First–Second revision 04 as the visual standard. It is a locally reviewable candidate, not a claim that every minute detail or current street condition matches a photograph. The published interface, west block, accepted First Avenue corner and original game remain preserved.
 
+Implementation/source/export/evidence save: `acf1d18fe36879faf74d1589e25c7330bbe4ef48` on `feature/east-seventh-fidelity-06`, local only. The final documentation checkpoint follows separately in Git history.
+
 ## Scope and visible changes
 
 The [inventory](east-seventh-coverage-06.json) covers **37 Seventh-facing records: 35 editable and two protected corner records**. Thirty-three building models changed; 92 and 131 retain their existing source-guided models. Both church profiles now use individual opening schedules. The full exported neighborhood remains 182 buildings and 82 Seventh frontages; no new block is added.
