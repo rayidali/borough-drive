@@ -1,6 +1,41 @@
 # Borough Drive: continuation context
 
-## Current checkpoint — September 21, 2026: compact interface published and verified
+## Current checkpoint — September 21, 2026: session closed with resumable documentation
+
+Recorded **2026-09-21T21:18:39-04:00**. The user requested all relevant Markdown be updated before closing the session. This follow-up changes documentation only. The compact interface is already published; no next implementation task or background reconstruction job is assigned.
+
+### Exact saved and published state
+
+| Item | State to resume from |
+| --- | --- |
+| Branch at start of closing update | `main` and cached `origin/main` both `533570ed9ee458e7f5104c23e35d6b19447d7122`; only two private screenshots were untracked |
+| Interface source/runtime | `b194dc6ca371b588b27f073bd6cf5be9df4fa9ca` — compact launch/HUD/pause/loading, Inter, supplied logo, narrow layouts and review evidence; pushed |
+| Publication checkpoint | `533570ed9ee458e7f5104c23e35d6b19447d7122` — pushed; [CI success](https://github.com/rayidali/borough-drive/actions/runs/35671744723), both Node.js 22 and 24 passed; [Vercel success](https://vercel.com/rayidalis-projects/borough-drive/4ssCMoWSCSJaTwnvZa2DCoQ6TkuA) |
+| Architectural source | `d4fbafe9a6af4497de81e2220d31c878f930612e`, revision 04; all 182 building assets, geographic data, original game and audio preserved by the interface pass |
+| Routing baseline | `bfbc8d764f838708f753a53de9b7f054101b45f0`; `/` and `/seventh/` serve Seventh, `/index.html` serves `dist/legacy.html`; keep `dist/index.html` absent |
+| Final package | PCK SHA256 `e091db30994a4fbe2d42cec5d190b727d17de8959dadc52df744153da8d48131`, 87,390,432 bytes; all 14 runtime files total 127,760,150 bytes; 82 source hashes in [build.json](dist/seventh/build.json) |
+
+The last publication task verified both **https://www.drivearound.nyc/** and **https://www.drivearound.nyc/index.html** against the final shells after `533570e`; `https://drivearound.nyc/` redirects to the branded www host. The Vercel host/direct route, manifest, logo, font, license and credits also matched. No DNS changes were needed. The large live PCK download timed out; total-size and 65,536-byte prefix checks passed, so do not claim a full remote PCK hash. [Publication evidence](model-source/interface-review-2026-09-21/publication.json) records the implementation-commit checks; the later checkpoint-commit CI/deployment links are above. This closing task does not rerun the game or establish a new performance/fidelity result.
+
+This closing Markdown is saved as a subsequent documentation commit under the preceding request to push the work to main. Find its own hash/status with `git log --oneline -- CODEX-HANDOFF.md SESSION-LOG.md` and `git status --short --branch`; do not repeatedly amend the checkpoint to insert its own hash. Neither private `Screenshot 2026-09-14…png` nor `Screenshot 2026-09-21…png` belongs in a commit. Preserve both original local files.
+
+### What is complete and what remains
+
+- **Complete:** portable [Seventh reconstruction skill](model-source/skills/reconstruct-street/SKILL.md), source/build adapter, detailed quality standard and small worker/reviewer packets; published [interface pass and styling contract](model-source/INTERFACE-PASS-05.md); original logo/font sources and licenses; actual review images and package records. No global skill installation or automated worker service is required to read the Markdown.
+- **Verified locally during implementation:** final layout/start/pause/help at desktop/laptop/narrow/Retina sizes; final four-POV camera inspection and nine address cases; structural/package checks. The broader driving/settings/postcard/recovery suite used the preceding UI package before the final narrow-layout adjustment. Preserve the [exact test boundaries](model-source/interface-review-2026-09-21/validation.json), including the successful repeats after review-tab/transport stalls.
+- **Remaining experience work:** more audible, less repetitive and calming music with actual listening/mix review; dedicated tiny-icon/social artwork and legacy branding if requested; further aesthetic feedback. The [experience brief](docs/DRIVEAROUND-EXPERIENCE-BRIEF.md) now distinguishes completed requirements from these proposals. Audio remains the original 12-second music loop at −23 dB; no new listening acceptance was recorded.
+- **Remaining reconstruction work:** no next street is assigned. Revision 04 is the user-endorsed visual reference, with 39 source/elevation reviews and zero calibrated multi-view passes. No new 1:1 certification, cheaper-model cost/quality qualification or unattended acquisition/build pipeline exists. The [benchmark](model-source/SEVENTH-FIDELITY-BENCHMARK.md) retains its proposed photographic thresholds; published UI does not change them.
+- **Closing documentation:** current instructions, entry-point READMEs, contribution/resume guidance, experience brief, interface report, reconstruction skill references and historical engine/benchmark headers were reconciled. Earlier dated evidence and all license notices remain intact. Validation passed: all 430 relative Markdown links across the 17 changed documents resolve, the skill validator passes, whitespace checks are clean, and non-Markdown files are unchanged. No rebuild is required.
+
+### Next session
+
+1. Read this checkpoint, the latest [session log](SESSION-LOG.md), [AGENTS.md](AGENTS.md), [start instructions](START-HERE.md) and [neighborhood notes](model-source/NEIGHBORHOOD-NOTES.md). Inspect branch/history/status and preserve private or uncommitted work.
+2. To review the game, run `npm run dev` and open **http://127.0.0.1:5173/**. Existing tracked exports are sufficient. No Godot/Blender rebuild, new install, temporary image folder, old browser tab or surviving server process is needed to resume.
+3. Follow the user's next bounded task. For a named street, use the skill and specify endpoints/sides/corner extent before implementation. For music/branding, use the experience brief and preserve the published UI. Do not automatically execute a historical plan or the unfinished fidelity backlog.
+
+Copyable opener: **“Read AGENTS.md and the current CODEX-HANDOFF.md, inspect Git status, then help with [my next bounded task]. Preserve the published interface and architectural baseline.”**
+
+## Previous checkpoint — September 21, 2026: compact interface published and verified
 
 Recorded **2026-09-21T20:22:43-04:00**. The user explicitly requested **“push it to main”** after the finished interface review. The redesigned UI is pushed and deployed. [Play DriveAround.nyc](https://www.drivearound.nyc/) · [Interface report](model-source/INTERFACE-PASS-05.md) · [Publication evidence](model-source/interface-review-2026-09-21/publication.json).
 

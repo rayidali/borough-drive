@@ -4,7 +4,7 @@ Read when observing, modeling or reviewing a facade. This standard transfers the
 
 ## Fixed reference and honest acceptance
 
-The September 21 user endorses the current Seventh build as the desired project direction. Reference geometry/gameplay is `d4fbafe9a6af4497de81e2220d31c878f930612e`; subsequent routing fix is `bfbc8d764f838708f753a53de9b7f054101b45f0`. Use the current checkpoint for later changes. The saved revision 04 PCK SHA256 is `15b96df07f67a66862794ed1bff06f8f0a48a3d95644a82b368577134b8a81fe`.
+The September 21 user endorses Seventh revision 04 as the desired architectural direction. Reference geometry/gameplay is `d4fbafe9a6af4497de81e2220d31c878f930612e`; subsequent routing fix is `bfbc8d764f838708f753a53de9b7f054101b45f0`. The historical revision 04 PCK SHA256 is `15b96df07f67a66862794ed1bff06f8f0a48a3d95644a82b368577134b8a81fe`. It is not the current interface package: [interface pass 05](../../../INTERFACE-PASS-05.md), source `b194dc6ca371b588b27f073bd6cf5be9df4fa9ca`, preserves those models and has PCK SHA256 `e091db30994a4fbe2d42cec5d190b727d17de8959dadc52df744153da8d48131`. Use the current checkpoint and package manifest when reproducing or comparing the shipped game.
 
 The [revision 04 report](../../../SEVENTH-ENGINE-04.md), [coverage ledger](../../../west-seventh-coverage-04.json) and [capture manifest](../../../engine-review-2026-09-15-04/visual-captures.json) are the evidence index. Forty-one inspected source images and 39 reviewed elevations do not imply 39 exact replicas. No calibrated multi-view pass is recorded. Some captures are diagnostic poses, not matched photographs; not every captured perspective was inspected.
 

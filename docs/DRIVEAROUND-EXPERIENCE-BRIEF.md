@@ -1,10 +1,22 @@
 # DriveAround.nyc — brand and calm-driving experience brief
 
-Prepared September 21, 2026 as a planning-only brief. The user subsequently requested a redesign of the oversized left intro, fonts and layout. That bounded local implementation is recorded in the [interface pass](../model-source/INTERFACE-PASS-05.md): compact launch/HUD/pause, bundled Inter, charcoal/sage palette, original logo in the interface and tab icon, and revised loading/retry presentation. Models and audio are unchanged. The supplied logo is reused without altering its source pixels; specially drawn small icons, social artwork and legacy branding remain future work.
+Prepared September 21, 2026 as a planning-only brief, then partially implemented and published at the user's request. The [interface pass](../model-source/INTERFACE-PASS-05.md), source `b194dc6`, now ships compact launch/HUD/pause layouts, bundled Inter, charcoal/sage styling, the original logo in the interface and tab icon, and revised loading/retry presentation. Checkpoint `533570e` passed CI and Vercel deployment; the branded root and legacy route were verified live. Models and audio are unchanged. The original logo pixels remain intact; dedicated small icons, social artwork and legacy branding remain future work.
 
 The initial request also calls for better, more audible music with a calming lo-fi feel. The audio specification below remains unimplemented. Read the current handoff rather than treating the historical baseline table as the new UI state.
 
 Read the [current handoff](../CODEX-HANDOFF.md) before starting. This brief records the future product work separately from street reconstruction. It does not authorize map expansion or alter the saved Seventh Street quality reference.
+
+## Resume status
+
+| Area | State at session close | Next bounded work, only when requested |
+| --- | --- | --- |
+| Interface and identity | Implemented, reviewed and published; [styling contract and captures](../model-source/INTERFACE-PASS-05.md). | Refine from user feedback while preserving the established layout/type/palette. |
+| Website | [DriveAround.nyc](https://www.drivearound.nyc/) serves Seventh at `/`; `/index.html` serves the legacy game. Both matched the final files after checkpoint `533570e`. No DNS work was needed. | Recheck host/route state when a later task depends on it; do not create another project. |
+| Icons and sharing | Original full PNG is used for Seventh favicon/touch icon and identity; no dedicated tiny-icon or social-art derivatives. | Inspect/prepare deliberate native-size artwork and legacy treatment. |
+| Music and levels | Original 12-second track and −23 dB music gain remain; no new listening or mixed-output measurement. | Audition music balance/arrangement using the specification below, with repeatable listening evidence. |
+| Reconstruction | Portable skill is ready; no next street assigned. | User supplies a bounded street/task; use its inventory and review gates. |
+
+The specifications below include both completed interface requirements and remaining proposals. Read this status table and the implementation report before starting so a new session does not redo the published UI or silently begin the audio backlog.
 
 ## Intended experience
 
@@ -91,7 +103,7 @@ Use headroom across the **sum** of music and simultaneous effects. Check a loud 
 | [Car audio](../engine/first-seventh/scripts/car_audio.gd) | RPM/load/tire/road/impact mix. |
 | [Audio recipe](../model-source/make_seventh_audio.py), `engine/first-seventh/assets/audio/` | Reproducible original WAVs; running the current recipe rewrites music **and** effects, so scope changes carefully. |
 | [Legacy shell](../dist/legacy.html) | Preserved original game metadata/favicon and its existing entry point. |
-| [Exporter](../scripts/export-seventh.mjs), [verifier](../scripts/verify-seventh.mjs), [build manifest](../dist/seventh/build.json) | Reproducible runtime export and exact package/source hashes. Newly introduced branding files must enter the appropriate export/copy and verification path; the current exporter does not automatically copy arbitrary web assets. |
+| [Exporter](../scripts/export-seventh.mjs), [verifier](../scripts/verify-seventh.mjs), [build manifest](../dist/seventh/build.json) | Reproducible runtime export and exact package/source hashes. The original logo, Inter WOFF2 and OFL file are explicitly copied/verified; font sources are hashed. Additional assets must enter this path because arbitrary web files are not copied automatically. |
 | [Vercel routes](../vercel.json), [local server](../scripts/serve.mjs) | `/` → Seventh; `/index.html` → legacy; `/seventh/` remains directly usable. |
 
 **Keep `dist/index.html` absent.** Vercel serves filesystem entries before rewrites; creating that file would break the intended root route. Keep `/seventh/` as the shell's base and preserve JS/PCK/WASM resolution on both root and direct visits. `dist/` contains required tracked assets, not disposable output.
@@ -105,6 +117,6 @@ For later shell-only work, keep template/exported HTML and `build.json` file byt
 3. **Listening review:** record/listen on ordinary laptop speakers and headphones at consistent device volume. Compare idle, cruising, acceleration, drift, impact, rain, pause/resume and several consecutive musical loops. Include a continuous session long enough to judge repetition and fatigue. Save the actual listener's observations, not only telemetry. User listening feedback is needed to settle subjective comfort.
 4. **Technical checks:** run `npm run seventh:verify` and `npm run verify` for changed runtime/source as applicable. Reuse relevant existing browser review scripts for interaction regressions. Verify `/`, `/seventh/`, `/index.html`, brand asset URLs and credits locally; injected load/context failures must recover. Check download-size/startup/frame cost against the same environment if new assets or rendering effects could affect them.
 5. **Evidence:** record exact candidate/source hashes, before/after UI captures, audio files/mix parameters and measured results with their environment. Label unperformed tests and subjective questions. Historical September reports do not test the new package.
-6. **Save:** update the current handoff and session log with actual local/commit/push/deployment states. Publishing and custom-domain connection require the user's later direction. Do not turn a successful local brand/audio review into an assertion of live deployment or new photographic fidelity.
+6. **Save:** update the current handoff and session log with actual local/commit/push/deployment states. Follow the session's current publication authorization; September 21's finished interface is already published and the domain works. A future feature's local review does not itself establish live deployment or photographic fidelity.
 
-Next work follows the user's review of the local interface candidate or another explicit bounded task. The music specification, remaining icon work and street reconstruction guidance do not start further jobs automatically.
+The user is closing the session. Continue from their next bounded request about the published interface, music/icons or a named street. Nothing is queued to run after closure.

@@ -4,6 +4,8 @@ Read `CODEX-HANDOFF.md`, the latest entry in `SESSION-LOG.md`, `START-HERE.md`, 
 
 ## Session checkpoints
 
+- Latest September 21 closing request: update relevant Markdown so the user can close and resume. Interface source/runtime `b194dc6` and publication checkpoint `533570e` are pushed; both Node CI jobs and Vercel succeeded for `533570e`, and the branded root plus legacy route matched the final files. This closing follow-up is documentation only. Read the newest handoff/log before working; no next street, audio change, source acquisition or queued pipeline is assigned. Preserve both private untracked screenshots and do not treat historical paused/local-only notes as current deployment state.
+
 - Latest September 21 interface publication: the user explicitly requested pushing the finished UI to `main`. Interface source/runtime/evidence are saved in `b194dc6ca371b588b27f073bd6cf5be9df4fa9ca` and pushed. Read the current handoff for CI, deployment and live-route verification. Both private screenshots remain local/untracked. No additional modeling or audio work follows from publication.
 
 - Latest September 21 UI direction: the user rejects the large left intro panel, fonts and overall layout in the private `Screenshot 2026-09-21 at 4.47.09 PM` reference and requests polished big-tech/indie-game lo-fi presentation. This authorizes a bounded local interface redesign (loading/start/HUD/pause, typography and supplied identity), superseding the earlier documentation-only pause for this UI work. Preserve geography, models, controls, audio and both routes. No new street, photographic job or new publication is implied. Keep both private screenshots local. Read the current handoff for actual build/review state.

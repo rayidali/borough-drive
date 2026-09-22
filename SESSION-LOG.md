@@ -10,6 +10,19 @@ git log --oneline -- CODEX-HANDOFF.md SESSION-LOG.md
 
 Checkpoint notes describe observed state, not a live monitor. Recheck local files, remote branches and deployment status when resuming. Keep necessary artifacts in the repository and record reproducible commands; temporary directories and old tool/process IDs are not durable checkpoints. Store no tokens, passwords or authentication cookies here.
 
+## 2026-09-21-06 — Session closed; relevant Markdown reconciled for resuming
+
+**Recorded:** 2026-09-21T21:18:39-04:00 (America/New_York).
+**User objective and decisions:** Update all relevant Markdown before closing. Documentation only; preserve the published UI and wait for the next bounded task.
+**Completed work:** Consolidated final source/checkpoint hashes, branded/root/legacy deployment evidence, actual test limits, completed skill/UI work and remaining music/icon/fidelity work. Refreshed entry-point guidance, experience brief, skill source/build references and historical engine/benchmark headings; retained earlier reports and all notices. No gameplay, model, audio, asset or export edits.
+**Gameplay/source baseline:** Interface/runtime `b194dc6ca371b588b27f073bd6cf5be9df4fa9ca`; publication checkpoint `533570ed9ee458e7f5104c23e35d6b19447d7122`; architectural source `d4fbafe9a6af4497de81e2220d31c878f930612e`; routing `bfbc8d764f838708f753a53de9b7f054101b45f0`.
+**Local changes:** Closing Markdown saved separately; identify its own commit from Git history. The only pre-existing untracked files were the two private screenshots, preserved and excluded. No unfinished implementation/export/research job.
+**Remote state:** At closing start, main/origin both matched `533570e`; implementation and publication notes were already pushed. This documentation save follows under the preceding publication authorization; inspect Git for its own hash/push state.
+**Deployment state:** Last verified checkpoint `533570e`: both Node.js 22/24 CI jobs and Vercel passed; branded `/` and `/index.html` matched Seventh/legacy. Closing edits leave all runtime bytes unchanged. Live full-PCK hashing remains uncompleted after the earlier timeout; correct total size/prefix were checked.
+**Validation:** Skill validator passed; all 430 relative Markdown links across 17 changed documents resolve; whitespace and non-Markdown preservation checks passed. Earlier native/browser/performance results retain their original package boundaries; no local game tests, listening or visual-fidelity review are rerun for closing documentation.
+**Unresolved issues:** No closure blocker. No next street assigned; music/icon work, model qualification and calibrated 1:1 acceptance remain future work, not queued jobs.
+**Next action:** Read the current handoff and inspect Git, then follow the user's next bounded instruction. To play, `npm run dev` at the local root; no rebuild is needed to resume.
+
 ## 2026-09-21-05 — Compact interface pushed to main and verified live
 
 **Recorded:** 2026-09-21T20:22:43-04:00 (America/New_York).

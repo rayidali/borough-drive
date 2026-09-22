@@ -2,6 +2,8 @@
 
 Read before implementation or technical review. These are verified source relationships as of September 21, 2026, not a new export/test run. Recheck the relevant consumer before a later edit. Commands below describe future authorized implementation; this documentation session runs none of the modeling/export jobs.
 
+**Closing baseline:** architectural source remains `d4fbafe9a6af4497de81e2220d31c878f930612e`; interface/runtime is `b194dc6ca371b588b27f073bd6cf5be9df4fa9ca`, published with checkpoint `533570ed9ee458e7f5104c23e35d6b19447d7122`. Preserve the [interface pass](../../../INTERFACE-PASS-05.md): bundled Inter/logo assets and their exporter/license/hash entries, actual-viewport UI sizing, narrow-layout handling and existing input behavior. No new street is assigned; use the current handoff for subsequent source changes.
+
 ## Follow the real source chain
 
 | Responsibility | Source / consumer | Practical rule |
@@ -73,6 +75,8 @@ Do not regenerate music for a facade edit. Do not edit cached GLBs as the only s
 
 Start `npm run dev`. Browser review uses a separate Chromium review profile with CDP on port 9222; follow the engine README and installed browser setup, leaving the user's normal browser alone. Use a new task-owned output folder, then save relevant game captures and reports durably before handoff.
 
+The focused camera/address runners explicitly foreground their review tab; camera gestures wait for the loading overlay to hide. Preserve these readiness checks: September 21 review encountered a hidden-tab startup timeout and an input transport timeout. Distinguish a test/browser startup failure from a failed game assertion before editing gameplay to repair it.
+
 ```sh
 # Existing First–Second scope: reference-camera starts, elevations, closeups.
 node scripts/review-seventh-fidelity.mjs renders/street-review/fidelity "" model-source/west-seventh-reference-04.json
@@ -91,6 +95,8 @@ The fidelity script saves images and hashes; it does not acquire sources or insp
 For native circuit/collision or elevation checks, use the engine README's `--review-out=/absolute/path/...` command and optional `--facade-review`. Use actual output paths, never the placeholder. Handling, camera and address test scripts also live under `engine/first-seventh/tests/`. Run relevant checks for changed behavior; an unrelated documentation edit requires no game rebuild or runtime suite.
 
 Pause other rendering/export work during performance tests. Record device, browser, viewport, DPR, render scale, weather, route, cache conditions, sample duration, frame behavior, contacts/errors and package bytes. Revision 04's historical short M1 / 8 GB / 1440×1000 / DPR 1 samples averaged 60 FPS at full scale, with 5.341 s local ready time and an 82.49 MiB PCK. Earlier captures had a different FPS ceiling; run a same-environment baseline before claiming a speedup/regression.
+
+The later interface review measured 8.23 s startup and 39.1–53.8 FPS with adaptive scale reaching 0.75 on its intermediate package. Final interface PCK is 87,390,432 bytes. Those figures are not an A/B against revision 04; the [interface report](../../../INTERFACE-PASS-05.md) separates intermediate full-suite evidence from final layout/camera/address checks. Use the actual current package for a new baseline rather than inheriting historical frame-rate claims.
 
 The existing benchmark targets ≥60 FPS, no more than 10% mean regression and PCK below 100 MiB for the current slice. These are project targets, not a promise that the whole map fits the same package budget. A larger authorized scope needs explicit streaming/package planning, not silent detail deletion or an unsupported capacity claim. Global material sharing helped the last pass; a 48 m spatial-bucket change increased draw calls and was reverted. Measure an optimization rather than assuming it helps.
 

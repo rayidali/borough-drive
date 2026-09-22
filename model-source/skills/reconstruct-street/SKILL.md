@@ -7,7 +7,7 @@ description: Reconstruct a bounded Borough Drive street to the user-endorsed Sev
 
 This is a repository-local, model-independent skill. Read it as ordinary Markdown in any assistant with access to this repository; no plugin, provider API, paid coordinator or installed skill loader is required. Keep its `references/` folder beside it. Repository links assume this location.
 
-**Current instruction, September 21, 2026: documentation only.** The user endorses the existing Seventh Street quality as the reference for future streets and wants an economical, repeatable process before implementation. A later explicit street implementation request supersedes this pause for that scope; do not ask for the same authorization again. Brand/favicon and louder, calmer lo-fi audio are recorded in the [future experience brief](../../../docs/DRIVEAROUND-EXPERIENCE-BRIEF.md).
+**September 21 closing state:** this skill is ready; no next street or reconstruction job is assigned. The user endorses Seventh revision 04 as the architectural visual reference. The later [interface pass](../../INTERFACE-PASS-05.md) is implemented and published; preserve its compact layout, local font and identity when extending the map. Remaining icon and louder, calmer lo-fi audio work is in the [experience brief](../../../docs/DRIVEAROUND-EXPERIENCE-BRIEF.md). Follow the next user's requested mode and scope; a later explicit implementation request authorizes that bounded work without repeated permission.
 
 ## Establish the task
 

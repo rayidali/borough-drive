@@ -2,6 +2,10 @@
 
 **September 21 documentation note:** the user endorses this build's visual quality as the reference for future streets; use the [portable skill](skills/reconstruct-street/SKILL.md). This dated implementation report below precedes the September 15 root promotion: the current root is Seventh and the original game is `/index.html`. Also, its later statement that `build.json.sourceCommit` is checkout HEAD is incorrect: that field inherits the hardcoded geographic baseline `c76dcce…` from `slice.json`. Actual gameplay save and tested content hashes remain separate; see the [current handoff](../CODEX-HANDOFF.md). No new photographic acceptance or runtime test was performed for this note.
 
+**September 21 closing addendum:** architectural source remains `d4fbafe9a6af4497de81e2220d31c878f930612e`. The later [compact interface pass](INTERFACE-PASS-05.md), source `b194dc6`, is published, with final publication checkpoint `533570e` verified on CI/Vercel and the branded root/legacy routes. It preserves the models and audio. Use that report/current manifest for shipped UI/package hashes and its own browser-test boundaries; the measurements below still describe revision 04. No new facade acceptance or reconstruction task was added.
+
+## Historical revision 04 implementation report
+
 Revision 04 is a local candidate for **East 7th Street between Second and First Avenues**: all 39 mapped Seventh-facing properties and the vacant former 48 / Middle Collegiate fire-site edge. It adds independent camera inspection, a live address label and DriveAround.nyc branding. All 28 changed building models lie within that scope; the five accepted First & Seventh corner models remain byte-identical. The original ten-block game remains at `/`, with branding text/metadata updated. [Exact source/save state](../CODEX-HANDOFF.md).
 
 ## Changes
