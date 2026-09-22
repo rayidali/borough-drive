@@ -1,0 +1,110 @@
+{
+  "date": "2026-09-22T00:21:29.375526+00:00",
+  "commit": "b194dc6ca371b588b27f073bd6cf5be9df4fa9ca",
+  "host": "https://borough-drive.vercel.app",
+  "ci": {
+    "url": "https://github.com/rayidali/borough-drive/actions/runs/35659130950",
+    "conclusion": "success",
+    "jobs": {
+      "Node.js 22": "success",
+      "Node.js 24": "success"
+    }
+  },
+  "deployment": {
+    "state": "success",
+    "url": "https://vercel.com/rayidalis-projects/borough-drive/13kgVBv3gjEHEH1k63NzMLV5c5Ax"
+  },
+  "routes": [
+    {
+      "path": "/",
+      "status": 200,
+      "effectiveUrl": "https://borough-drive.vercel.app/",
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 9845,
+      "sha256": "9328aa7ad34f1695ce677de1b4df8846eff85d612be7a0c972f9c3606fa06013",
+      "matchesLocal": true
+    },
+    {
+      "path": "/seventh/",
+      "status": 200,
+      "effectiveUrl": "https://borough-drive.vercel.app/seventh/",
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 9845,
+      "sha256": "9328aa7ad34f1695ce677de1b4df8846eff85d612be7a0c972f9c3606fa06013",
+      "matchesLocal": true
+    },
+    {
+      "path": "/index.html",
+      "status": 200,
+      "effectiveUrl": "https://borough-drive.vercel.app/index.html",
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 11540,
+      "sha256": "ad8fa5a259fea000caa0a463ce636ce5004dad5641d4c9f324930acdaacbb908",
+      "matchesLocal": true
+    },
+    {
+      "path": "/seventh/build.json",
+      "status": 200,
+      "effectiveUrl": "https://borough-drive.vercel.app/seventh/build.json",
+      "contentType": "application/json; charset=utf-8",
+      "bytes": 12402,
+      "sha256": "03611d52019218bf993f7dab8e90a1c0aed7d5ef9e7de8983cdf9e74e188dd8b",
+      "matchesLocal": true
+    },
+    {
+      "path": "/seventh/InterVariable.woff2",
+      "status": 200,
+      "effectiveUrl": "https://borough-drive.vercel.app/seventh/InterVariable.woff2",
+      "contentType": "font/woff2",
+      "bytes": 352240,
+      "sha256": "693b77d4f32ee9b8bfc995589b5fad5e99adf2832738661f5402f9978429a8e3",
+      "matchesLocal": true
+    },
+    {
+      "path": "/seventh/drivearound-logo.png",
+      "status": 200,
+      "effectiveUrl": "https://borough-drive.vercel.app/seventh/drivearound-logo.png",
+      "contentType": "image/png",
+      "bytes": 80463,
+      "sha256": "9156dec61cc0ab10adb5b471e7f80d77d4e79102c2a4069e09227f93462f5448",
+      "matchesLocal": true
+    },
+    {
+      "path": "/seventh/INTER-OFL.txt",
+      "status": 200,
+      "effectiveUrl": "https://borough-drive.vercel.app/seventh/INTER-OFL.txt",
+      "contentType": "text/plain; charset=utf-8",
+      "bytes": 4380,
+      "sha256": "262481e844521b326f5ecd053e59b98c8b2da78c8ee1bdbb6e8174305e54935a",
+      "matchesLocal": true
+    },
+    {
+      "path": "/seventh/credits.txt",
+      "status": 200,
+      "effectiveUrl": "https://borough-drive.vercel.app/seventh/credits.txt",
+      "contentType": "text/plain; charset=utf-8",
+      "bytes": 3289,
+      "sha256": "4ae0affa1819eaf17d6409b32c3bbfc19ef36fde0d5aef5a3e1a90df296d4e2e",
+      "matchesLocal": true
+    }
+  ],
+  "customDomain": {
+    "requested": "https://drivearound.nyc/",
+    "effective": "https://www.drivearound.nyc/",
+    "status": 200,
+    "rootSha256": "9328aa7ad34f1695ce677de1b4df8846eff85d612be7a0c972f9c3606fa06013",
+    "rootMatchesLocal": true
+  },
+  "packCheck": {
+    "fullDownload": "Timed out after receiving 42790366 of 87390432 bytes; no complete live PCK hash claimed",
+    "rangeStatus": 206,
+    "range": [
+      0,
+      65535
+    ],
+    "totalBytes": 87390432,
+    "prefixSha256": "20406faa56e20da70640baed5043d101f7eb9236e0e0f3d7e53b938254e5dbd6",
+    "prefixMatchesLocal": true
+  },
+  "scope": "HTTPS byte identity of listed files and deployment status; earlier local browser evidence retains exact tested build boundaries. No DNS changes."
+}

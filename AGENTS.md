@@ -4,6 +4,8 @@ Read `CODEX-HANDOFF.md`, the latest entry in `SESSION-LOG.md`, `START-HERE.md`, 
 
 ## Session checkpoints
 
+- Latest September 21 interface publication: the user explicitly requested pushing the finished UI to `main`. Interface source/runtime/evidence are saved in `b194dc6ca371b588b27f073bd6cf5be9df4fa9ca` and pushed. Read the current handoff for CI, deployment and live-route verification. Both private screenshots remain local/untracked. No additional modeling or audio work follows from publication.
+
 - Latest September 21 UI direction: the user rejects the large left intro panel, fonts and overall layout in the private `Screenshot 2026-09-21 at 4.47.09 PM` reference and requests polished big-tech/indie-game lo-fi presentation. This authorizes a bounded local interface redesign (loading/start/HUD/pause, typography and supplied identity), superseding the earlier documentation-only pause for this UI work. Preserve geography, models, controls, audio and both routes. No new street, photographic job or new publication is implied. Keep both private screenshots local. Read the current handoff for actual build/review state.
 
 - September 21 publication follow-up: the user explicitly requested pushing the prepared work to `main`. The reconstruction skill, experience brief, supporting Markdown and original unchanged `drivearoundnyclogo.png` are saved in `180ebcc` and pushed to `origin/main`. The private screenshot stays local/untracked. This authorizes publishing those prepared materials, not implementing branding/audio, another street or an automated pipeline. Read the latest handoff for CI and route evidence.

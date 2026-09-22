@@ -1,6 +1,19 @@
 # Borough Drive: continuation context
 
-## Current checkpoint — September 21, 2026: compact interface ready for local review
+## Current checkpoint — September 21, 2026: compact interface published and verified
+
+Recorded **2026-09-21T20:22:43-04:00**. The user explicitly requested **“push it to main”** after the finished interface review. The redesigned UI is pushed and deployed. [Play DriveAround.nyc](https://www.drivearound.nyc/) · [Interface report](model-source/INTERFACE-PASS-05.md) · [Publication evidence](model-source/interface-review-2026-09-21/publication.json).
+
+- **Published source/runtime:** `b194dc6ca371b588b27f073bd6cf5be9df4fa9ca` on `main`/`origin/main`, containing the compact launch/HUD/pause/loading design, Inter and supplied logo, exported package, review evidence and documentation. Fetched origin and confirmed no divergence before pushing `d754647..b194dc6`. This publication checkpoint follows in a separate documentation commit; find its own revision in Git history rather than amending it to contain itself.
+- **CI:** [Verify run 35659130950](https://github.com/rayidali/borough-drive/actions/runs/35659130950) completed successfully for `b194dc6`; Node.js 22 and Node.js 24 both passed. Local `npm run seventh:verify`, `npm run verify` and whitespace checks passed again before publication. Independent publication audit found no blocker.
+- **Deployment:** [Vercel reports success](https://vercel.com/rayidalis-projects/borough-drive/13kgVBv3gjEHEH1k63NzMLV5c5Ax). Live HTTPS `/`, `/seventh/`, `/index.html`, build manifest, font, logo, font license and credits exactly match disk. `https://drivearound.nyc/` redirects to `https://www.drivearound.nyc/`, whose root exactly matches the new shell. No DNS or domain configuration was changed.
+- **Pack evidence:** local committed PCK SHA256 remains `e091db30994a4fbe2d42cec5d190b727d17de8959dadc52df744153da8d48131`, **87,390,432 bytes**. Live range request returned 206, the same total size and an exact 65,536-byte prefix match. A full live download timed out after 42,790,366 bytes; no full live PCK hash or new public-browser performance result is claimed. The complete local package/source checks and preceding browser evidence retain their recorded scope.
+- **Preservation:** architecture/gameplay-model baseline `d4fbafe9a6af4497de81e2220d31c878f930612e`, routing `bfbc8d764f838708f753a53de9b7f054101b45f0`, models/audio/original game remain unchanged. `dist/index.html` stays absent. Both private screenshots remain unchanged/untracked and were excluded from the commit. All original logo and license/provenance files are preserved.
+- **Remaining work:** none for this interface publication. Music loudness/arrangement, dedicated small-icon artwork, legacy branding, further aesthetic review and future streets remain separate tasks. No additional modeling, source acquisition, audio job or paid/background pipeline was started.
+
+**Next action:** continue from the user's next bounded request. The UI is on main and live; do not automatically start the remaining experience or reconstruction backlog.
+
+## Previous checkpoint — September 21, 2026: compact interface ready for local review
 
 Recorded **2026-09-21T17:23:00-04:00**. The user rejected the oversized left intro, fonts and layout and requested professional product polish with an indie-game lo-fi mood. The bounded local interface redesign is complete. [Report, styling contract and screenshots](model-source/INTERFACE-PASS-05.md).
 

@@ -10,6 +10,19 @@ git log --oneline -- CODEX-HANDOFF.md SESSION-LOG.md
 
 Checkpoint notes describe observed state, not a live monitor. Recheck local files, remote branches and deployment status when resuming. Keep necessary artifacts in the repository and record reproducible commands; temporary directories and old tool/process IDs are not durable checkpoints. Store no tokens, passwords or authentication cookies here.
 
+## 2026-09-21-05 — Compact interface pushed to main and verified live
+
+**Recorded:** 2026-09-21T20:22:43-04:00 (America/New_York).
+**User objective and decisions:** Explicitly push the completed UI redesign to main; no additional implementation requested.
+**Completed work:** Committed 62 prepared source/runtime/asset/evidence/documentation files as `b194dc6ca371b588b27f073bd6cf5be9df4fa9ca`, pushed to origin/main, checked both CI jobs and deployment, and verified live root/direct/legacy and new asset URLs. Updated current publication references and this resumable checkpoint.
+**Gameplay/source baseline:** New interface source/runtime `b194dc6`; architecture remains `d4fbafe9a6af4497de81e2220d31c878f930612e`, routing `bfbc8d764f838708f753a53de9b7f054101b45f0`. PCK SHA256 `e091db30994a4fbe2d42cec5d190b727d17de8959dadc52df744153da8d48131`.
+**Local changes:** Source/runtime committed; this publication checkpoint is a following documentation save. Both private screenshots remain unchanged/untracked and excluded. No unfinished build or reconstruction job.
+**Remote state:** Fetch confirmed no divergence; push `d754647..b194dc6` succeeded. The checkpoint's own revision/push state is in Git history/status.
+**Deployment state:** Vercel success for `b194dc6`. Live Vercel root/direct/legacy, manifest, logo/font/license/credits match disk. Branded root redirects to `https://www.drivearound.nyc/` and matches the new shell; no DNS changes.
+**Validation:** Node.js 22/24 CI passed; local original/Seventh verification and whitespace checks passed. Independent publish audit clear. Live pack 206 response has correct total size and prefix bytes; full download timed out, so no complete remote pack hash is claimed. [Exact publication evidence](model-source/interface-review-2026-09-21/publication.json). Earlier actual-browser checks retain their original package boundaries.
+**Unresolved issues:** None for pushing the reviewed UI. Previous musical/icon/photographic limits remain separate future work.
+**Next action:** Resume from the user's next bounded task; do not automatically process another street or alter audio.
+
 ## 2026-09-21-04 — Compact lo-fi interface exported and reviewed locally
 
 **Recorded:** 2026-09-21T17:23:00-04:00 (America/New_York).

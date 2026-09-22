@@ -1,6 +1,6 @@
 # DriveAround.nyc interface pass — September 21, 2026
 
-The user rejected the large left intro, fonts and overall layout, asking for professional product polish with an indie-game lo-fi mood. This local presentation pass replaces the oversized card with a compact bottom launch panel and leaves the neighborhood as the main view. Architecture remains Seventh revision 04.
+The user rejected the large left intro, fonts and overall layout, asking for professional product polish with an indie-game lo-fi mood. This presentation pass replaces the oversized card with a compact bottom launch panel and leaves the neighborhood as the main view. Architecture remains Seventh revision 04.
 
 ![Actual compact start screen](../docs/images/interface-05/intro-desktop.png)
 
@@ -36,7 +36,7 @@ npm run dev
 
 Open `http://127.0.0.1:5173/`; `/seventh/` serves the same build and `/index.html` preserves the legacy game. Keep `dist/index.html` absent. No Blender export is needed for this interface change.
 
-The [tested interface record](interface-review-2026-09-21/interface-review.json) embeds the exact package and all source hashes; [build.json](../dist/seventh/build.json) is the current export manifest. Its inherited `sourceCommit` is the geographic baseline, not the checkout revision. The starting checkout was `d7546478a101d10e15c8a6f1ef46ed6c850dc052`; these changes are local and uncommitted at this checkpoint.
+The [tested interface record](interface-review-2026-09-21/interface-review.json) embeds the exact package and all source hashes; [build.json](../dist/seventh/build.json) is the current export manifest. Its inherited `sourceCommit` is the geographic baseline, not the checkout revision. The starting checkout was `d7546478a101d10e15c8a6f1ef46ed6c850dc052`; the implementation, runtime and review evidence are saved in `b194dc6ca371b588b27f073bd6cf5be9df4fa9ca` and pushed to `main` at the user’s subsequent request.
 
 The PCK grew from 86,494,928 to 87,390,432 bytes, principally for the bundled font/logo. The complete 14-file runtime is 127,760,150 bytes uncompressed. No new external runtime font/image service is used. Both original font license sets and existing engine/material credits remain included.
 
@@ -51,6 +51,6 @@ The PCK grew from 86,494,928 to 87,390,432 bytes, principally for the bundled fo
 
 ## Limits and next review
 
-This is a local UI candidate, not a new architectural pass or a live deployment. No calibrated photographic acceptance, listening review, new track or music-level change occurred. The original full PNG is now used as the icon; specially prepared 16/32/48 px artwork, social previews and legacy-game branding remain separate work in the [experience brief](../docs/DRIVEAROUND-EXPERIENCE-BRIEF.md).
+This is a presentation pass; the existing architectural acceptance state remains unchanged. Publication and live verification are recorded in the [current handoff](../CODEX-HANDOFF.md). No calibrated photographic acceptance, listening review, new track or music-level change occurred. The original full PNG is now used as the icon; specially prepared 16/32/48 px artwork, social previews and legacy-game branding remain separate work in the [experience brief](../docs/DRIVEAROUND-EXPERIENCE-BRIEF.md).
 
-Visual review covers the listed sizes, not a mobile/browser matrix, screen-reader navigation or 200% browser zoom. The intermediate full review measured 8.23 s local startup and 39.1–53.8 FPS in its driving samples, with adaptive scale reaching 0.75; these are observations from this run, not a controlled comparison against the prior UI or a speed improvement claim. The user should review this local interface direction before further aesthetic changes; publishing and the remaining music/icon work follow their next instruction. See the [current handoff](../CODEX-HANDOFF.md) for exact save/push/deployment state.
+Visual review covers the listed sizes, not a mobile/browser matrix, screen-reader navigation or 200% browser zoom. The intermediate full review measured 8.23 s local startup and 39.1–53.8 FPS in its driving samples, with adaptive scale reaching 0.75; these are observations from this run, not a controlled comparison against the prior UI or a speed improvement claim. Further aesthetic changes and the remaining music/icon work follow the user’s next instruction. See the [current handoff](../CODEX-HANDOFF.md) for exact save/push/deployment state.

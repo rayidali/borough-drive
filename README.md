@@ -11,7 +11,7 @@ Walk and drive through ten connected East Village blocks, reconstructed from map
 [![Node.js 22+](https://img.shields.io/badge/Node.js-22%2B-5b8268)](package.json)
 [![Three.js](https://img.shields.io/badge/Three.js-r180-697b86)](dist/vendor/THREE-LICENSE.txt)
 
-[Play online](https://borough-drive.vercel.app) · [DriveAround.nyc branding target](https://drivearound.nyc) · [Get started](#get-started) · [Explore the project](#how-it-works) · [Contribute](CONTRIBUTING.md) · [Sources & credits](dist/reconstruction/ASSET-CREDITS.md)
+[Play online](https://borough-drive.vercel.app) · [DriveAround.nyc](https://www.drivearound.nyc/) · [Get started](#get-started) · [Explore the project](#how-it-works) · [Contribute](CONTRIBUTING.md) · [Sources & credits](dist/reconstruction/ASSET-CREDITS.md)
 
 </div>
 
@@ -21,9 +21,9 @@ The September 14 Godot browser slice adds an authored apricot coupe, chase/hood/
 
 [Controls and rebuild](engine/first-seventh/README.md) · [Current review and limits](model-source/SEVENTH-ENGINE-04.md) · [Architectural benchmark](model-source/SEVENTH-FIDELITY-BENCHMARK.md) · [Current local/push/deployment state](CODEX-HANDOFF.md)
 
-The original ten-block game described below remains intact at `/index.html`. The September 21 documentation publication was verified at the Vercel root and legacy routes; the subsequent interface redesign is local. The eventual 500-user goal is not a tested capacity claim.
+The original ten-block game described below remains intact at `/index.html`. The September 21 interface source and exported runtime are published on `main`; see the [handoff](CODEX-HANDOFF.md) for deployment verification. The eventual 500-user goal is not a tested capacity claim.
 
-**September 21 — compact interface:** the local build now has a small bottom launch panel, bundled Inter typography, the supplied logo, charcoal/sage controls and a quieter loading/pause experience. Escape → Controls opens the full keyboard/mouse guide. [Actual captures, checks and remaining limits](model-source/INTERFACE-PASS-05.md). This presentation pass preserves the existing models and audio.
+**September 21 — compact interface:** the included build now has a small bottom launch panel, bundled Inter typography, the supplied logo, charcoal/sage controls and a quieter loading/pause experience. Escape → Controls opens the full keyboard/mouse guide. [Actual captures, checks and remaining limits](model-source/INTERFACE-PASS-05.md). This presentation pass preserves the existing models and audio.
 
 The published [portable reconstruction skill](model-source/skills/reconstruct-street/SKILL.md) gives any assistant a detailed feature checklist, source/build guidance and small worker/reviewer packets for the user-endorsed Seventh visual standard. The [experience brief](docs/DRIVEAROUND-EXPERIENCE-BRIEF.md) retains remaining identity/icon work and louder, calmer lo-fi music. No next street or photographic 1:1 certification follows from these documents.
 
