@@ -1,6 +1,6 @@
 # DriveAround.nyc — brand and calm-driving experience brief
 
-Prepared September 21, 2026 as a planning-only brief, then partially implemented and published at the user's request. The [interface pass](../model-source/INTERFACE-PASS-05.md), source `b194dc6`, now ships compact launch/HUD/pause layouts, bundled Inter, charcoal/sage styling, the original logo in the interface and tab icon, and revised loading/retry presentation. Checkpoint `533570e` passed CI and Vercel deployment; the branded root and legacy route were verified live. Models and audio are unchanged. The original logo pixels remain intact; dedicated small icons, social artwork and legacy branding remain future work.
+Prepared September 21, 2026 as a planning-only brief, then partially implemented and published at the user's request. The [interface pass](../model-source/INTERFACE-PASS-05.md), source `b194dc6`, now ships compact launch/HUD/pause layouts, bundled Inter, charcoal/sage styling, the original logo in the interface and tab icon, and revised loading/retry presentation. Checkpoint `533570e` passed CI and Vercel deployment; the branded root and legacy route were verified live. That interface pass left models and audio unchanged. The later [revision 07](../model-source/SEVENTH-ENGINE-07.md) updates the east-block architecture while preserving this interface and audio; it is published through checkpoint `78aa716` with passing CI/Vercel. This September 23 session close is documentation only. The original logo pixels remain intact; dedicated small icons, social artwork and legacy branding remain future work.
 
 The initial request also calls for better, more audible music with a calming lo-fi feel. The audio specification below remains unimplemented. Read the current handoff rather than treating the historical baseline table as the new UI state.
 
@@ -11,10 +11,10 @@ Read the [current handoff](../CODEX-HANDOFF.md) before starting. This brief reco
 | Area | State at session close | Next bounded work, only when requested |
 | --- | --- | --- |
 | Interface and identity | Implemented, reviewed and published; [styling contract and captures](../model-source/INTERFACE-PASS-05.md). | Refine from user feedback while preserving the established layout/type/palette. |
-| Website | [DriveAround.nyc](https://www.drivearound.nyc/) serves Seventh at `/`; `/index.html` serves the legacy game. Both matched the final files after checkpoint `533570e`. No DNS work was needed. | Recheck host/route state when a later task depends on it; do not create another project. |
+| Website | [DriveAround.nyc](https://www.drivearound.nyc/) serves Seventh at `/`; `/index.html` serves the legacy game. Both matched the revision 07 files, with full PCK verification recorded for release `4b999cd` and CI/Vercel success for checkpoint `78aa716`. No DNS work was needed. | Recheck host/route state when a later task depends on it; do not create another project. |
 | Icons and sharing | Original full PNG is used for Seventh favicon/touch icon and identity; no dedicated tiny-icon or social-art derivatives. | Inspect/prepare deliberate native-size artwork and legacy treatment. |
 | Music and levels | Original 12-second track and −23 dB music gain remain; no new listening or mixed-output measurement. | Audition music balance/arrangement using the specification below, with repeatable listening evidence. |
-| Reconstruction | Portable skill is ready; no next street assigned. | User supplies a bounded street/task; use its inventory and review gates. |
+| Reconstruction | Revision 07 is published and user-endorsed; the portable skill prefers browser Street View inspection. No next street assigned. | User supplies a bounded street/task; use its inventory and review gates. |
 
 The specifications below include both completed interface requirements and remaining proposals. Read this status table and the implementation report before starting so a new session does not redo the published UI or silently begin the audio backlog.
 

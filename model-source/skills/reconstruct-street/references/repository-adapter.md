@@ -2,7 +2,7 @@
 
 Read before implementation or technical review. Source relationships were rechecked during the September 23 revision 07 pass. Commands describe the authorized build/review workflow; they do not assign another street or a background job. Use the current handoff for exact completed tests and package hashes.
 
-**Protected baseline:** east-block [revision 07](../../../SEVENTH-ENGINE-07.md), source `098f1cc89b41c2067fe1577ddb62df5a3b3c6002`, is user-endorsed and authorized for publication. It preserves the [interface contract](../../../INTERFACE-PASS-05.md), west block, accepted corner and audio. Use the current handoff for actual source/save/deployment state; the earlier interface-only publication is historical.
+**Protected baseline:** east-block [revision 07](../../../SEVENTH-ENGINE-07.md), source `098f1cc89b41c2067fe1577ddb62df5a3b3c6002`, is user-endorsed and published through guidance release `4b999cd` and checkpoint `78aa716`. The current session is closed; the commands below apply only to a later assigned task. It preserves the [interface contract](../../../INTERFACE-PASS-05.md), west block, accepted corner and audio. Use the current handoff for actual source/save/deployment state; the earlier interface-only publication is historical.
 
 ## Follow the real source chain
 
@@ -127,7 +127,7 @@ The [east-block report](../../../SEVENTH-ENGINE-06.md) and [inventory](../../../
 
 The effective ground layout can come from `seventhEngine.observedGroundCorrections`, replacing `architecture.windows`/`doors`. Inspect both before editing access or counting openings. Engine-only `addressOverride` corrects mapped identity without mutating the preserved geographic source. `businessOverrides` can activate only an already mapped Seventh POI with explicit supporting source IDs. `architecture.returnShops` assigns a corner business's Seventh face separately from its avenue face; it must not overlap an independent residential door.
 
-Opt-in pointed/ogee openings, church profiles, corbelled cornices, balcony geometry, solid awning valances and worn tread edges express observed differences. Their defaults preserve the accepted west/corner models. Compare all model hashes after a shared recipe change, not just assigned IDs. Unknown current 108-site conditions and generic street fixtures remain named gaps; a new full-block source ledger must not automatically mark them accepted.
+Opt-in pointed/ogee openings, church profiles, corbelled cornices, balcony geometry, solid awning valances and worn tread edges express observed differences. Their defaults preserve the accepted west/corner models. Compare all model hashes after a shared recipe change, not just assigned IDs. Revision 06 left the 108 site unresolved. Revision 07 subsequently inspected and modeled its visible gated/planted street edge; the hidden rear building and complete curb-fixture placement remain gaps. A new source ledger must not automatically mark them accepted.
 
 Partial rebuilds must take review-camera heights from the verified exported building records. A revision 06 check caught eight cached facades reverting to old source heights in `reviewFrontages` during `--only`; the exporter now uses the retained model heights and verification asserts equality. This affects review framing, not building geometry. Verify full and partial exports produce equivalent review records.
 

@@ -1,10 +1,10 @@
 # Browser-first block workflow — September 12 continuation
 
-**September 21 entry point:** use the [portable Seventh-quality skill](skills/reconstruct-street/SKILL.md) for the current user-endorsed visual reference and model-independent worker/reviewer instructions. The document below remains the historical offline-planner proposal; its implementation, imagery and price/model status have not been refreshed. The new skill is documentation, not an implemented coordinator or an instruction to run this backlog. See the [current handoff](../CODEX-HANDOFF.md).
+**September 23 closing entry point:** use the [portable Seventh-quality skill](skills/reconstruct-street/SKILL.md) for the current user-endorsed visual reference and model-independent worker/reviewer instructions. The document below remains the historical offline-planner proposal; its implementation, imagery and price/model status have not been refreshed. The user-endorsed revision 07 demonstrates ordinary browser Street View inspection across a full bounded block; the skill now prefers that method for future assigned streets. The skill does not implement a coordinator or run this backlog. Revision 07 is published and no next task is queued. See the [current handoff](../CODEX-HANDOFF.md).
 
 The user chose smooth browser exploration, deferred Unreal, and asked for a repeatable process that can reproduce the First & 7th standard across the existing map using cheaper AI workers. Current [corner pass 08](FIRST-SEVENTH-PASS-08.md) is the visual reference; [browser pass 09](BROWSER-PASS-09.md) improves its presentation and runtime. This document specifies the next production process. It does not claim the wider map has been upgraded or that an AI batch has run.
 
-## Current decision and missing coordinator
+## Historical September 12 decision and missing coordinator
 
 **The user requested brainstorming only, with no new implementation yet.** The September 10 conversation clarified that the desired job should find reference images itself, inspect and reconstruct the block, review results and continue without the user manually supplying every view. This September 12 update saves that discussion; it does not launch a pilot or add any worker capability.
 

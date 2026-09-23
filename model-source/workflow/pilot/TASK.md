@@ -1,6 +1,6 @@
 # Facade worker: facade-241822226-first-avenue
 
-**Paused example — September 12, 2026.** This tracked packet is an offline illustration, not a queued or authorized execution. Its source list is empty and its example result is `needs-evidence`. Read the [current handoff](../../../CODEX-HANDOFF.md) and [workflow discussion](../../BLOCK-WORKFLOW.md) before resuming. The user requested brainstorming only; do not run this task until later instructed. The worker contract below is retained for that future decision.
+**Paused example — September 12, 2026.** This tracked packet is an offline illustration, not a queued or authorized execution. Its source list is empty and its example result is `needs-evidence`. Read the [current handoff](../../../CODEX-HANDOFF.md) and [workflow discussion](../../BLOCK-WORKFLOW.md) before resuming. That September 12 brainstorming state is historical. The September 23 browser-reference revision 07 is published, but this source-empty example is still unassigned; do not run it without a new task. The worker contract below is retained for that future decision.
 
 Read packet.json. Work only on the assigned building/elevation. Preserve mapped footprints and the First & 10th core. Read the minimum relevant recipe functions; do not load the whole neighborhood or session history.
 

@@ -1,5 +1,7 @@
 # Seventh Street revision 03 — architectural fidelity candidate
 
+**September 23 resume note:** this is a historical report. [Revision 07](SEVENTH-ENGINE-07.md) is now published and user-endorsed; the [current handoff](../CODEX-HANDOFF.md) governs the next session. Older routes, local-only status, source access and pause instructions below describe their original date. No task is queued at session close.
+
 September 14, 2026. The user's Street View comparison showed that revision 02's resemblance did not meet the requested door/window/label/access precision. This pass changes the **entire existing 82-frontage Seventh inventory**, with the 50/48½ East 7th pair as the detailed comparison case. It remains a candidate reconstruction, not a certified 1:1 street or an accepted template for cheaper-model production.
 
 Play with `npm run dev` at **http://127.0.0.1:5173/seventh/**. The current source/save/push/deployment states are in [the handoff](../CODEX-HANDOFF.md). No other street was expanded and no publishing or autonomous reconstruction job was started. Driving, audio, cameras and the return circuit are preserved.

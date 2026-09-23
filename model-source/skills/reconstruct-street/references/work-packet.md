@@ -2,6 +2,8 @@
 
 Copy the template below into a durable, task-specific Markdown file under `model-source/` when a future task is authorized. Fill it with the actual unit and baseline; this template is not an implemented queue, JSON schema or automatic runner. Do not append it to the legacy planner's JSON expecting compatibility.
 
+For the current baseline and user-endorsed examples, read the [skill entry point](../SKILL.md) and current handoff; this reusable template does not assign a task at session close.
+
 The coordinator inventories the whole requested street first. Each worker receives only its unit, relevant source records/component interfaces and the images it must actually inspect. A corner with multiple faces needs separate face IDs and shared-feature ownership. Workers proposing edits to shared JSON return per-record patches for serial integration; do not let independent workers rewrite the whole file.
 
 ## Scope bootstrap when there is no ready facade packet

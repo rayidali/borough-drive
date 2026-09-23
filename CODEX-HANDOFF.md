@@ -1,6 +1,42 @@
 # Borough Drive: continuation context
 
-## Current checkpoint — September 23, 2026: revision 07 published and verified
+## Current checkpoint — September 23, 2026: session closed with updated Markdown
+
+Recorded **2026-09-23T17:32:39.206364-04:00**. The user requested all Markdown be updated before closing. This follow-up is **documentation only**. The user-endorsed First Avenue–Avenue A revision 07 and its preferred browser Street View workflow are already published; no next street or implementation/research job is assigned.
+
+### Exact saved and published baseline
+
+| Item | State to resume from |
+| --- | --- |
+| Closing start | `main` and fetched `origin/main` both **`78aa7164739e4d77405ae7ca2b95fceeaccd54bd`**; only the two private screenshots were untracked |
+| Architectural source/export | **`098f1cc89b41c2067fe1577ddb62df5a3b3c6002`** — browser-observed east-block revision 07 |
+| Preferred-method publication | **`4b999cd6843d331ee0974348638592efc63a4493`** — reviewed game plus skill guidance pushed to main |
+| Verified publication checkpoint | **`78aa7164739e4d77405ae7ca2b95fceeaccd54bd`** — pushed; [both Node.js 22/24 CI jobs passed](https://github.com/rayidali/borough-drive/actions/runs/35922139972), [Vercel production succeeded](https://vercel.com/rayidalis-projects/borough-drive/FoR5nYv9TDSiJn7hyUZs9L7Br5Kq) |
+| Player identity | PCK **`746113ee606ebfb6b6b0e32861974ce2ae3445c25d7a6b509b011c7c6bd393fa`**, **89,466,244 bytes**; 14 runtime files, 86 matching source hashes |
+| Routing | `/` and `/seventh/` use Seventh; `/index.html` serves `dist/legacy.html`. Keep `dist/index.html` absent. |
+
+The final checkpoint's CI/Vercel status was rechecked during closure. Eleven live responses were also compared with local files after `78aa716`: branded root, direct Seventh, legacy, manifest, logo, font, credits and engine JS; apex redirect; Vercel root and legacy. All matched. The earlier release's **complete 22-range PCK download and hash** remain recorded in [publication evidence](model-source/east-seventh-review-07/publication.json). The documentation checkpoint preserves identical runtime bytes; closure does not repeat that 89 MB download or claim a new gameplay/performance test.
+
+This closing Markdown is saved and pushed in a subsequent documentation commit under the preceding publication request. Find its own hash with `git log --oneline -- CODEX-HANDOFF.md SESSION-LOG.md`; do not repeatedly amend the checkpoint to insert itself. The table records the last independently verified production checkpoint. A later documentation commit's automatic deployment is separate and should be checked if a future task depends on that exact deployment.
+
+### Completed work and remaining limits
+
+- **Complete and user-endorsed:** all 37 east-block frontages plus the 108 site inspected in April 2026 browser imagery; 35 editable models refined, two accepted corner records protected. All 147 protected/out-of-scope GLBs remain unchanged. Door-number support surfaces, individual entry/shop/window arrangements, stoops/oriels, construction and corner returns are captured in the [revision 07 report](model-source/SEVENTH-ENGINE-07.md) and [observation ledger](model-source/east-seventh-browser-07.json).
+- **Reusable method:** the [reconstruction skill](model-source/skills/reconstruct-street/SKILL.md) prefers ordinary browser Street View for future authorized streets, with complete inventories, adjacent/overlapping views, imagery/inspection dates, exact number placement, unknowns and source-to-game repair review. West revision 04 and east revision 07 are distinct user-endorsed examples. No cheaper-model cost/quality guarantee or unattended acquisition/coordinator service has been demonstrated.
+- **Actual prior validation:** 98 final elevation/ground/oblique images reviewed; package/original checks, native handling/address/cameras, browser address/camera inspection, driving and focused recovery passed within the [recorded package boundaries](model-source/east-seventh-review-07/validation.json). The initial final-package reload stall and passing focused repeat remain documented. Local nine-sample mean was about **46.64 FPS**, so 60 FPS is not established.
+- **Remaining accuracy:** unreadable/occluded numbers and ornament, concealed surfaces/108 rear building, measured dimensions, complete curb-fixture placement and calibrated multi-view acceptance. April imagery is not September condition verification. User endorsement does not establish photographic 1:1 acceptance.
+- **Separate future experience work:** louder, calmer, less repetitive music with listening/mix review; dedicated tiny-icon/social artwork and legacy identity refinements. The [experience brief](docs/DRIVEAROUND-EXPERIENCE-BRIEF.md) distinguishes those proposals from the preserved published UI. Original 12-second music at −23 dB remains unchanged.
+- **Closing checks:** all 40 tracked Markdown files audited; current guides/skill and stale historical entry points reconciled, with dated evidence and all license notices preserved. All **802 relative links across 40 documents resolve**; the skill validator and whitespace checks pass. **36 Markdown files updated; no non-Markdown file changed.** Both private screenshot SHA256 values match the saved preservation record; they remain untracked and excluded.
+
+### Resume next session
+
+1. Read this checkpoint, latest [session log](SESSION-LOG.md), [AGENTS.md](AGENTS.md), [start instructions](START-HERE.md) and [neighborhood notes](model-source/NEIGHBORHOOD-NOTES.md); inspect Git branch/history/status and preserve any user changes.
+2. Follow the user's next bounded instruction. For another street, use the skill's inventory, preferred browser-reference method and review gates. The historical backlog and offline pilot do not assign work.
+3. To play locally, run `npm run dev` and open **http://127.0.0.1:5173/**. The included player requires no rebuild, API key, prior temporary reference images, running server or browser profile. Remote source URLs/dated observations and actual game captures are durable; excluded photographic previews are not bundled offline evidence.
+
+Copyable opener: **“Read AGENTS.md and the current CODEX-HANDOFF.md, inspect Git status, then help with [my next bounded task]. Preserve published revision 07 and use the reconstruction skill for street work.”**
+
+## Previous checkpoint — September 23, 2026: revision 07 published and verified
 
 The user endorsed the First Avenue–Avenue A browser-reference result, requested **main/production publication**, and asked to preserve the successful method in the reconstruction skill. **The release is pushed and live.** [Play DriveAround.nyc](https://www.drivearound.nyc/) · [revision 07 report](model-source/SEVENTH-ENGINE-07.md) · [publication evidence](model-source/east-seventh-review-07/publication.json).
 

@@ -10,6 +10,18 @@ git log --oneline -- CODEX-HANDOFF.md SESSION-LOG.md
 
 Checkpoint notes describe observed state, not a live monitor. Recheck local files, remote branches and deployment status when resuming. Keep necessary artifacts in the repository and record reproducible commands; temporary directories and old tool/process IDs are not durable checkpoints. Store no tokens, passwords or authentication cookies here.
 
+## 2026-09-23-06 — Session closed; Markdown and resume state reconciled
+
+**Recorded:** 2026-09-23T17:32:39.206364-04:00.
+**User objective and decisions:** Update all relevant Markdown before closing the session. Documentation only; preserve the published game and browser-reference preference. No next implementation, street, audio/UI or source-acquisition task.
+**Completed work:** Audited all 40 tracked Markdown files. Reconciled current handoff/entry points, skill/quality/adapter/packet guidance, experience brief, PR template and stale historical report headers; retained dated evidence and all notices. Recorded browser-reference success and the exact source/CI/deployment/test boundaries for resuming.
+**Gameplay/source baseline:** Architecture/export `098f1cc89b41c2067fe1577ddb62df5a3b3c6002`; method release `4b999cd6843d331ee0974348638592efc63a4493`; publication checkpoint `78aa7164739e4d77405ae7ca2b95fceeaccd54bd`. Main and fetched origin matched the latter at closing start. Runtime PCK remains `746113ee606ebfb6b6b0e32861974ce2ae3445c25d7a6b509b011c7c6bd393fa`.
+**Local changes:** Markdown only; both private screenshots unchanged/untracked/excluded. No unfinished model, export, reference or test job. This closing save follows in a separate documentation commit identified through Git history, under the preceding request to publish the work.
+**Remote/deployment state:** `78aa716` is pushed; its [Node.js 22/24 CI jobs](https://github.com/rayidali/borough-drive/actions/runs/35922139972) and [Vercel production](https://vercel.com/rayidalis-projects/borough-drive/FoR5nYv9TDSiJn7hyUZs9L7Br5Kq) were rechecked successful. Eleven live routes/assets were compared after that checkpoint and match local bytes. The preceding complete live-PCK hash remains valid for identical runtime files; it was not downloaded again during closure. The closing documentation commit's own deployment is a separate state, not silently included in this check.
+**Validation:** All 802 relative links across 40 documents resolve; 36 Markdown files updated. Skill validator and whitespace checks pass; no non-Markdown changes, and both private screenshot hashes match their saved values. No model rebuild, new gameplay test, listening review or fidelity acceptance is claimed.
+**Unresolved issues:** No closure blocker. Existing occluded details, exact geometry/fixtures, calibrated acceptance, 60 FPS target and future music/icon work remain documented proposals/gaps, with nothing queued after closure.
+**Next action:** Read the current handoff and Git state, then follow the user's next bounded request. Existing tracked exports suffice for local play; no old process, API key or temporary browser/reference folder is needed.
+
 ## 2026-09-23-05 — Browser-reference result published and verified
 
 **Recorded:** 2026-09-23T17:23:00.344098-04:00.

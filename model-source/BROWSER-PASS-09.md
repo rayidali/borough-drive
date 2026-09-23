@@ -1,5 +1,7 @@
 # Browser presentation and performance — pass 09
 
+**September 23 resume note:** this is a historical report. [Revision 07](SEVENTH-ENGINE-07.md) is now published and user-endorsed; the [current handoff](../CODEX-HANDOFF.md) governs the next session. Older routes, local-only status, source access and pause instructions below describe their original date. No task is queued at session close.
+
 September 10, 2026. The user chose smooth browser exploration, deferred Unreal, and requested further First & 7th improvement followed by a cheaper block workflow. This pass retains all model assets from [corner pass 08](FIRST-SEVENTH-PASS-08.md). Published September 10: [live smoke evidence](browser-review-09/live-smoke.json) and the [handoff](../CODEX-HANDOFF.md) record the exact source and deployment state. It is not a PS5-quality or universal 60 FPS claim.
 
 **September 12 continuation:** source remains `c76dccebc143960498d21eeab8c55c2d0dbcc5ce`; publication/evidence checkpoint `8792ce4a941165343c5115792b66ce09688c8172` was pushed after the verified `5905b95` deployment. No fresh performance or visual result is claimed by this documentation update. Resume the automatic block-process discussion; new implementation is paused.

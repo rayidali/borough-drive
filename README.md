@@ -155,11 +155,11 @@ Observations, occupancy claims, and inferred geometry are recorded separately. U
 
 ## Resume development
 
-**Current revision — September 23, 2026:** the user endorsed the First Avenue–Avenue A browser-reference refinement and requested main/production publication. Follow the [current handoff](CODEX-HANDOFF.md), [session log](SESSION-LOG.md) and [reconstruction skill](model-source/skills/reconstruct-street/SKILL.md). No other street or audio work is assigned.
+**Session closed — September 23, 2026:** revision 07 and its browser-reference guidance are published. Implementation `098f1cc`, guidance release `4b999cd` and publication checkpoint `78aa716` are saved on main; both CI jobs and Vercel passed for the latter checkpoint. No implementation or research job is pending. Follow the [current handoff](CODEX-HANDOFF.md), [session log](SESSION-LOG.md) and [reconstruction skill](model-source/skills/reconstruct-street/SKILL.md). No other street or audio work is assigned.
 
 ### Historical planning notes
 
-**September 14/12 historical discussion:** Earlier notes discussed a bounded First & 7th Unreal/browser pilot and described an initial Godot experiment as paused and incomplete. That wording is superseded by the published Godot revision 04 package and interface pass above; the [pilot plan](model-source/UNREAL-BROWSER-PILOT.md) remains historical planning material, not an active task.
+**September 14/12 historical discussion:** Earlier notes discussed a bounded First & 7th Unreal/browser pilot and described an initial Godot experiment as paused and incomplete. That wording is superseded by the published Godot revision 07 and preserved interface above; the [pilot plan](model-source/UNREAL-BROWSER-PILOT.md) remains historical planning material, not an active task.
 
 Read [AGENTS.md](AGENTS.md), the current [handoff](CODEX-HANDOFF.md), the latest [session log](SESSION-LOG.md), and [START-HERE.md](START-HERE.md) before continuing an existing session. First & 7th revision 06 is the accepted minimum standard; [browser pass 09](model-source/BROWSER-PASS-09.md) records historical presentation and performance, following [pass 07](model-source/PERFORMANCE-PASS-07.md). The handoff distinguishes local commits, pushing to main and a verified live deployment. The September 12 resume state was brainstorming only: the proposed future process would find dated reference views, build and review small tasks, save progress, and eventually cover every part of the map. The offline inventory/packets exist; automatic acquisition, paid workers and the coordinator do not.
 

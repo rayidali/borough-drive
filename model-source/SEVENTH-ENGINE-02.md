@@ -1,5 +1,7 @@
 # Seventh, slowly. — driving and full-street refinement 02
 
+**September 23 resume note:** this is a historical report. [Revision 07](SEVENTH-ENGINE-07.md) is now published and user-endorsed; the [current handoff](../CODEX-HANDOFF.md) governs the next session. Older routes, local-only status, source access and pause instructions below describe their original date. No task is queued at session close.
+
 September 14, 2026. The user accepted the first Godot slice's direction and requested better controls, drifting and engine sound, followed by a highly detailed Seventh Street pass. This revision covers **the original map's entire Seventh Street, Second Avenue through Avenue A with its boundary context**. The First–Second–Seventh–St Marks return circuit remains. The optional extent question received no answer; this full-street assumption was stated before proceeding.
 
 Play at **http://127.0.0.1:5173/seventh/** after `npm run dev`. This is an included Godot 4.7.2 / WebGL 2 export running on the player's device. It needs no GPU server or backend. The original ten-block game at `/`, its accepted corner/core geometry and its photographic records remain intact. The new slice is local and unpublished; see the [checkpoint](../CODEX-HANDOFF.md) for exact source/save/push state.

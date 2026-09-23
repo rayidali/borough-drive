@@ -1,5 +1,7 @@
 # Runtime performance pass 07 — September 9, 2026
 
+**September 23 resume note:** this is a historical report. [Revision 07](SEVENTH-ENGINE-07.md) is now published and user-endorsed; the [current handoff](../CODEX-HANDOFF.md) governs the next session. Older routes, local-only status, source access and pause instructions below describe their original date. No task is queued at session close.
+
 **Historical performance baseline; continuation updated September 12, 2026.** [Pass 09](BROWSER-PASS-09.md) is the later published browser improvement. The measurements below remain September 9 results. The user has paused new implementation while brainstorming automatic block work; see [the handoff](../CODEX-HANDOFF.md) and [workflow](BLOCK-WORKFLOW.md).
 
 The owner accepted First & 7th [revision 06](FIRST-SEVENTH-PASS-06.md) as the **minimum completion standard** and requested speed optimization, publication to `main`, and updated documentation. This pass preserves every existing model export and photographic asset. Wider East Village work, economical block/street batches, Manhattan and NYC expansion remain deferred to the next planning discussion. No service, paid imagery access or background job was configured.

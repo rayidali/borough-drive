@@ -1,5 +1,7 @@
 # Core storefront modeling references — September 6, 2026
 
+**September 23 resume note:** this is a historical report. [Revision 07](SEVENTH-ENGINE-07.md) is now published and user-endorsed; the [current handoff](../CODEX-HANDOFF.md) governs the next session. Older routes, local-only status, source access and pause instructions below describe their original date. No task is queued at session close.
+
 **Continuation update — September 12, 2026.** This is a historical report; its observations, counts and checks keep their original dates. [Corner pass 08](FIRST-SEVENTH-PASS-08.md) and [browser pass 09](BROWSER-PASS-09.md) were published September 10. Revision 06 remains the accepted minimum. The [block process](BLOCK-WORKFLOW.md) is under discussion; automatic acquisition and execution are not implemented. Read the [current handoff](../CODEX-HANDOFF.md) before resuming. The user requested brainstorming only, with no new implementation yet.
 
 Image and source-metadata basenames below describe the original research collection; not all are distributed local files. Their dated web links and the tracked [asset credits](../dist/reconstruction/ASSET-CREDITS.md) preserve the references needed to resume. Do not infer that an unavailable temporary image or metadata file has been bundled or newly inspected.

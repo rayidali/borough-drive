@@ -1,5 +1,7 @@
 # First Avenue / East 7th Street — Street View refinement 08
 
+**September 23 resume note:** this is a historical report. [Revision 07](SEVENTH-ENGINE-07.md) is now published and user-endorsed; the [current handoff](../CODEX-HANDOFF.md) governs the next session. Older routes, local-only status, source access and pause instructions below describe their original date. No task is queued at session close.
+
 [Browser pass 09](BROWSER-PASS-09.md) subsequently preserves these models and improves presentation/rendering. [The block workflow](BLOCK-WORKFLOW.md) records the browser-first direction and imagery requirements for later automation.
 
 

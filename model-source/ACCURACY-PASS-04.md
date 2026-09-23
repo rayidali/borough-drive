@@ -1,5 +1,7 @@
 # Neighborhood accuracy revision 04 — September 6, 2026
 
+**September 23 resume note:** this is a historical report. [Revision 07](SEVENTH-ENGINE-07.md) is now published and user-endorsed; the [current handoff](../CODEX-HANDOFF.md) governs the next session. Older routes, local-only status, source access and pause instructions below describe their original date. No task is queued at session close.
+
 **Continuation update — September 12, 2026.** This is a historical report; its observations, counts and checks keep their original dates. [Corner pass 08](FIRST-SEVENTH-PASS-08.md) and [browser pass 09](BROWSER-PASS-09.md) were published September 10. Revision 06 remains the accepted minimum. The [block process](BLOCK-WORKFLOW.md) is under discussion; automatic acquisition and execution are not implemented. Read the [current handoff](../CODEX-HANDOFF.md) before resuming. The user requested brainstorming only, with no new implementation yet.
 
 The previous detail pass added geometry without resolving enough of the underlying geography and storefront inventory. This pass audits the whole existing map against municipal footprints, architectural photographs and independently dated business evidence. The First Avenue/East 10th Street core and its licensed photographs remain preserved.

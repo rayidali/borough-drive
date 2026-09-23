@@ -1,5 +1,7 @@
 # DriveAround.nyc interface pass — September 21, 2026
 
+**September 23 context:** this dated interface report remains valid for the preserved UI. The subsequently published [revision 07](SEVENTH-ENGINE-07.md) changes east-block architecture, so “revision 04 architecture” below describes the interface pass at its original date. Read the [closing handoff](../CODEX-HANDOFF.md) for the current package/deployment; audio and the UI remain unchanged.
+
 The user rejected the large left intro, fonts and overall layout, asking for professional product polish with an indie-game lo-fi mood. This presentation pass replaces the oversized card with a compact bottom launch panel and leaves the neighborhood as the main view. Architecture remains Seventh revision 04.
 
 **Published closing state:** interface source/runtime `b194dc6ca371b588b27f073bd6cf5be9df4fa9ca`; publication checkpoint `533570ed9ee458e7f5104c23e35d6b19447d7122` also passed [both CI jobs](https://github.com/rayidali/borough-drive/actions/runs/35671744723) and [Vercel deployment](https://vercel.com/rayidalis-projects/borough-drive/4ssCMoWSCSJaTwnvZa2DCoQ6TkuA). The final branded `/` and `/index.html` matched the Seventh and legacy shells. [Play](https://www.drivearound.nyc/) · [Resume checkpoint](../CODEX-HANDOFF.md). Closing documentation changes no runtime bytes; no further UI/audio/street job is queued.

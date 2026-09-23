@@ -1,5 +1,7 @@
 # Working on Borough Drive
 
+**September 23 session close:** this follow-up is documentation only. Revision 07 is published; the user is closing the session. Read the current handoff before starting a later task. No next street, source-acquisition job, UI/audio change or autonomous pipeline is queued. Both private screenshots stay local/untracked. The closing documentation is saved/pushed under the preceding publication request; use Git history for its commit.
+
 Read `CODEX-HANDOFF.md`, the latest entry in `SESSION-LOG.md`, `START-HERE.md`, and `model-source/NEIGHBORHOOD-NOTES.md` before substantial work.
 
 ## Session checkpoints
@@ -43,7 +45,7 @@ Read `CODEX-HANDOFF.md`, the latest entry in `SESSION-LOG.md`, `START-HERE.md`, 
 - This is an existing ten-block East Village reconstruction. Preserve the accepted First Avenue/East 10th Street core and the First & 7th minimum standard, and improve the real neighborhood's fidelity and cozy presentation.
 - The user's quality target applies across the entire requested map: shop layouts, neon/projecting signs, boards, outdoor seating, paint, proportions and architectural details. Do not silently replace that scope with a selected-shop pass. Shared components must express observed features; a supported business name, photographic record, successful export or gap report is not proof that a facade is complete or 1:1.
 - The deployed root game is `dist/seventh/index.html`, selected by `vercel.json`; the preserved original ten-block game is `dist/legacy.html` and remains exposed at `/index.html`. Files under `dist/` are editable source and required game assets; do not delete or ignore that directory as build output. `dist/prototype.html` is an older generic prototype.
-- The separately authorized Godot slice is `engine/first-seventh/`, exported to required tracked files in `dist/seventh/`. Serve it with `npm run dev` at `/seventh/`; rebuild with `npm run seventh:build` and check export/source hashes with `npm run seventh:verify`. Read `model-source/SEVENTH-ENGINE-04.md` for current runtime evidence and limits. Preserve the original game and keep cache/output distinctions in the engine README.
+- The separately authorized Godot slice is `engine/first-seventh/`, exported to required tracked files in `dist/seventh/`. Serve it with `npm run dev` at `/seventh/`; rebuild with `npm run seventh:build` and check export/source hashes with `npm run seventh:verify`. Read `model-source/SEVENTH-ENGINE-07.md` and the current handoff for runtime evidence and limits; revision 04 remains the west-block historical reference. Preserve the original game and keep cache/output distinctions in the engine README.
 - The project uses vanilla JavaScript modules and vendored Three.js. Keep the current structure unless a requested change calls for a migration. No npm dependencies are needed to run the export.
 - Use `npm run dev` to serve the game locally and `npm run verify` after changes that affect models, roads, controls, module paths, or vehicle behavior. Report what was actually verified; these checks do not establish visual accuracy or frame rate.
 - Keep geometry and facade recipes reproducible in `model-source/`. Update observation records and provenance when making evidence-based changes. Use dated sources for present-day business claims and keep uncertain details explicit.

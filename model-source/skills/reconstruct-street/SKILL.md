@@ -7,7 +7,7 @@ description: Reconstruct a bounded Borough Drive street to the user-endorsed Sev
 
 This is a repository-local, model-independent skill. Read it as ordinary Markdown in any assistant with access to this repository; no plugin, provider API, paid coordinator or installed skill loader is required. Keep its `references/` folder beside it. Repository links assume this location.
 
-**September 23 acceptance and publication request:** the user endorsed the First Avenue–Avenue A browser-reference result and explicitly requested pushing it to `main`/production. The [revision 07 report](../../SEVENTH-ENGINE-07.md) and [observation ledger](../../east-seventh-browser-07.json) retain actual inspection and uncertainty; the current handoff records push/deployment verification. Revision 04 remains the west-block visual reference, and revision 07 is the user-endorsed east-block example. Preserve the compact interface and audio. No additional street is assigned.
+**September 23 saved workflow and session close:** the user endorsed the First Avenue–Avenue A browser-reference result and explicitly requested pushing it to `main`/production. The [revision 07 report](../../SEVENTH-ENGINE-07.md) and [observation ledger](../../east-seventh-browser-07.json) retain actual inspection and uncertainty; publication and checkpoint `78aa716` passed CI/Vercel, and the current handoff records exact live checks. The closing task changes documentation only; resume from the user’s next bounded instruction. Revision 04 remains the west-block visual reference, and revision 07 is the user-endorsed east-block example. Preserve the compact interface and audio. No additional street is assigned.
 
 ## Establish the task
 
@@ -20,7 +20,7 @@ This is a repository-local, model-independent skill. Read it as ordinary Markdow
 
 The user endorsed revision 04's overall quality on September 21. Preserve its individual architecture, credible depth/materials, precise access/shop distinctions, calm atmosphere and playable browser performance. This is a usable visual reference now; it does **not** require waiting for a new 1:1 certificate before any later authorized work.
 
-It is not an exact survey or a fully calibrated photographic template. The saved 39-record ledger has source/elevation review for all records and zero calibrated multi-view passes. The [stricter benchmark](../../SEVENTH-FIDELITY-BENCHMARK.md) remains a separate target. Do not copy its remaining mistakes or upgrade its acceptance labels. No instruction file guarantees identical results from every model, image set or effort setting: the review gates supply the missing feedback.
+It is not an exact survey or a fully calibrated photographic template. The saved west-block 39-record ledger has source/elevation review for all records and zero calibrated multi-view passes. The [stricter benchmark](../../SEVENTH-FIDELITY-BENCHMARK.md) remains a separate target. Do not copy its remaining mistakes or upgrade its acceptance labels. No instruction file guarantees identical results from every model, image set or effort setting: the review gates supply the missing feedback.
 
 ## Execute one bounded unit
 
@@ -62,6 +62,6 @@ Keep the original ten-block map, First & 10th core and accepted First & 7th corn
 
 ## Copyable next-session instruction
 
-> Read `model-source/skills/reconstruct-street/SKILL.md` and the current project checkpoint. Plan **[street, from intersection, to intersection]**, both sides and corner/street details, using Seventh revision 04 as the visual reference. Prepare the complete inventory and first bounded work packet. Keep unresolved details explicit. Do not implement or publish yet.
+> Read `model-source/skills/reconstruct-street/SKILL.md` and the current project checkpoint. Plan **[street, from intersection, to intersection]**, both sides and corner/street details, using west-block revision 04 and the browser-inspected east-block revision 07 as the visual references. Prepare the complete inventory and first bounded work packet. Keep unresolved details explicit. Do not implement or publish yet.
 
 For a later implementation request, replace the final two sentences with the actual authorized implementation scope and budget. Do not run placeholder commands or treat a sample prompt as a new user instruction.
