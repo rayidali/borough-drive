@@ -10,6 +10,14 @@ git log --oneline -- CODEX-HANDOFF.md SESSION-LOG.md
 
 Checkpoint notes describe observed state, not a live monitor. Recheck local files, remote branches and deployment status when resuming. Keep necessary artifacts in the repository and record reproducible commands; temporary directories and old tool/process IDs are not durable checkpoints. Store no tokens, passwords or authentication cookies here.
 
+## 2026-09-23-04 — Revision 07 publication authorized; browser method endorsed
+
+**User objective and decisions:** Push the reviewed block to main/production and record browser Street View as a preferred reference method because the user endorsed the result.
+**Gameplay/source baseline:** `098f1cc89b41c2067fe1577ddb62df5a3b3c6002`, checkpoint `90b6af9`, on `feature/east-seventh-fidelity-06`. Runtime/source bytes unchanged in this follow-up.
+**Local changes:** Skill guidance now specifies all-property browser inspection, overlapping views, exact number support surfaces, dated observations, unresolved occlusions and source-to-game review. Both private screenshots remain excluded.
+**Remote/deployment state:** Origin fetched; main is an ancestor with no intervening changes. Push, CI and production checks pending.
+**Next action:** Save guidance, fast-forward main, push and verify GitHub/Vercel plus root/legacy production bytes. No new street, paid API or UI/audio work follows.
+
 ## 2026-09-23-03 — Browser-reference refinement saved locally
 
 **Recorded:** September 23, 2026, America/New_York.

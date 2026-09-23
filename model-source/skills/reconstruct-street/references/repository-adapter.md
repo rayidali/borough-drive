@@ -2,7 +2,7 @@
 
 Read before implementation or technical review. Source relationships were rechecked during the September 23 revision 07 pass. Commands describe the authorized build/review workflow; they do not assign another street or a background job. Use the current handoff for exact completed tests and package hashes.
 
-**Protected baseline:** the published interface/runtime is `b194dc6ca371b588b27f073bd6cf5be9df4fa9ca`, with publication checkpoint `533570ed9ee458e7f5104c23e35d6b19447d7122`. The later east-block [revision 07](../../../SEVENTH-ENGINE-07.md) is local. Preserve the [interface contract](../../../INTERFACE-PASS-05.md), west block, accepted corner and audio. Use the current handoff for actual source/save/deployment state.
+**Protected baseline:** east-block [revision 07](../../../SEVENTH-ENGINE-07.md), source `098f1cc89b41c2067fe1577ddb62df5a3b3c6002`, is user-endorsed and authorized for publication. It preserves the [interface contract](../../../INTERFACE-PASS-05.md), west block, accepted corner and audio. Use the current handoff for actual source/save/deployment state; the earlier interface-only publication is historical.
 
 ## Follow the real source chain
 

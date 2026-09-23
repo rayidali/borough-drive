@@ -30,6 +30,7 @@ The output is a planning draft with the next inventory/evidence action, not an e
 - Publication: <actual instruction; normally not part of a facade packet>
 
 ## Evidence
+- Acquisition/inspection method: <ordinary browser Street View preferred when available; actual fallback and reason>
 | Source ID | URL/panorama/local permitted path | Capture/publication/retrieval dates | View/crop/pose | Identity confirmation | Use/credit | Inspected by/when | Visibility limits |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | <ID> | <durable locator> | <separate dates/unknown> | <front/oblique/detail> | <neighbor/footprint anchors> | <source registry or use record> | <actual inspection> | <occluded features> |

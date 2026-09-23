@@ -1,6 +1,10 @@
 # Borough Drive: continuation context
 
-## Current checkpoint — September 23, 2026: browser-reference refinement complete locally
+## Current checkpoint — September 23, 2026: revision 07 publication requested
+
+The user endorsed the browser-reference refinement and explicitly requested **pushing it to `main`/production**. Publish the reviewed source/export `098f1cc89b41c2067fe1577ddb62df5a3b3c6002`, local checkpoint `90b6af9`, and the new preferred browser-reference workflow in the reconstruction skill. Source/runtime bytes are unchanged by this follow-up. `origin/main` was fetched and is an ancestor of the feature branch, with no intervening remote changes. Publication and CI/live verification are in progress, not yet recorded as successful. Preserve both private screenshots. No new street or paid reference acquisition is assigned.
+
+## Previous checkpoint — September 23, 2026: browser-reference refinement complete locally
 
 The user requested redoing **both sides of East 7th between First Avenue and Avenue A** through ordinary browser Street View observation, including each property's visible address placement. Revision 07 is implemented, exported and reviewed locally. [Report and game images](model-source/SEVENTH-ENGINE-07.md) · [validation index](model-source/east-seventh-review-07/validation.json). No publication was requested.
 
