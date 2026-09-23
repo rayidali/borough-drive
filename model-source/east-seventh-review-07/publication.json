@@ -1,0 +1,297 @@
+{
+  "checkedAt": "2026-09-23T21:20:05.809184+00:00",
+  "commit": "4b999cd6843d331ee0974348638592efc63a4493",
+  "host": "https://www.drivearound.nyc",
+  "routes": [
+    {
+      "url": "https://www.drivearound.nyc/",
+      "status": 200,
+      "effectiveUrl": "https://www.drivearound.nyc/",
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 9845,
+      "sha256": "5c0b8974b5ff55d12278e009520dbcc1adbe3658d3d37182d9d66654f0b61a8a",
+      "matchesLocal": true
+    },
+    {
+      "url": "https://www.drivearound.nyc/seventh/",
+      "status": 200,
+      "effectiveUrl": "https://www.drivearound.nyc/seventh/",
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 9845,
+      "sha256": "5c0b8974b5ff55d12278e009520dbcc1adbe3658d3d37182d9d66654f0b61a8a",
+      "matchesLocal": true
+    },
+    {
+      "url": "https://www.drivearound.nyc/index.html",
+      "status": 200,
+      "effectiveUrl": "https://www.drivearound.nyc/index.html",
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 11540,
+      "sha256": "ad8fa5a259fea000caa0a463ce636ce5004dad5641d4c9f324930acdaacbb908",
+      "matchesLocal": true
+    },
+    {
+      "url": "https://www.drivearound.nyc/seventh/build.json",
+      "status": 200,
+      "effectiveUrl": "https://www.drivearound.nyc/seventh/build.json",
+      "contentType": "application/json; charset=utf-8",
+      "bytes": 12887,
+      "sha256": "ef23044b14e704145c7be88d4310e58b1c9c8d596e3c070474ee762218c1b459",
+      "matchesLocal": true
+    },
+    {
+      "url": "https://www.drivearound.nyc/seventh/drivearound-logo.png",
+      "status": 200,
+      "effectiveUrl": "https://www.drivearound.nyc/seventh/drivearound-logo.png",
+      "contentType": "image/png",
+      "bytes": 80463,
+      "sha256": "9156dec61cc0ab10adb5b471e7f80d77d4e79102c2a4069e09227f93462f5448",
+      "matchesLocal": true
+    },
+    {
+      "url": "https://www.drivearound.nyc/seventh/credits.txt",
+      "status": 200,
+      "effectiveUrl": "https://www.drivearound.nyc/seventh/credits.txt",
+      "contentType": "text/plain; charset=utf-8",
+      "bytes": 3289,
+      "sha256": "4ae0affa1819eaf17d6409b32c3bbfc19ef36fde0d5aef5a3e1a90df296d4e2e",
+      "matchesLocal": true
+    },
+    {
+      "url": "https://www.drivearound.nyc/seventh/InterVariable.woff2",
+      "status": 200,
+      "effectiveUrl": "https://www.drivearound.nyc/seventh/InterVariable.woff2",
+      "contentType": "font/woff2",
+      "bytes": 352240,
+      "sha256": "693b77d4f32ee9b8bfc995589b5fad5e99adf2832738661f5402f9978429a8e3",
+      "matchesLocal": true
+    },
+    {
+      "url": "https://www.drivearound.nyc/seventh/index.js",
+      "status": 200,
+      "effectiveUrl": "https://www.drivearound.nyc/seventh/index.js",
+      "contentType": "application/javascript; charset=utf-8",
+      "bytes": 279815,
+      "sha256": "33c94cb3175f3333b82e2a3be5e8e86f77986f0aa2042b1631f6367a4e5bb6ba",
+      "matchesLocal": true
+    },
+    {
+      "url": "https://drivearound.nyc/",
+      "status": 200,
+      "effectiveUrl": "https://www.drivearound.nyc/",
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 9845,
+      "sha256": "5c0b8974b5ff55d12278e009520dbcc1adbe3658d3d37182d9d66654f0b61a8a",
+      "matchesLocal": true
+    },
+    {
+      "url": "https://borough-drive.vercel.app/",
+      "status": 200,
+      "effectiveUrl": "https://borough-drive.vercel.app/",
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 9845,
+      "sha256": "5c0b8974b5ff55d12278e009520dbcc1adbe3658d3d37182d9d66654f0b61a8a",
+      "matchesLocal": true
+    },
+    {
+      "url": "https://borough-drive.vercel.app/index.html",
+      "status": 200,
+      "effectiveUrl": "https://borough-drive.vercel.app/index.html",
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 11540,
+      "sha256": "ad8fa5a259fea000caa0a463ce636ce5004dad5641d4c9f324930acdaacbb908",
+      "matchesLocal": true
+    }
+  ],
+  "scope": "HTTPS byte identity, not a new browser gameplay or frame-rate test.",
+  "packCheck": {
+    "method": "Complete file reassembled from validated HTTP 206 ranges",
+    "bytes": 89466244,
+    "sha256": "746113ee606ebfb6b6b0e32861974ce2ae3445c25d7a6b509b011c7c6bd393fa",
+    "matchesLocal": true,
+    "ranges": [
+      {
+        "start": 0,
+        "end": 4194303,
+        "bytes": 4194304,
+        "sha256": "682141d7161b2ce3e5e2ea31688de0ab330f5cefda5687868acd624d04945ba9",
+        "matchesLocal": true
+      },
+      {
+        "start": 4194304,
+        "end": 8388607,
+        "bytes": 4194304,
+        "sha256": "2720fd03c79c86aad6e70c1cef637592fd481fb7fb68297d4942c1f55d2d147b",
+        "matchesLocal": true
+      },
+      {
+        "start": 8388608,
+        "end": 12582911,
+        "bytes": 4194304,
+        "sha256": "e7c8b77719301c70aa780fb35389fe6b2eb99c3025457df53e9d1c1d916d6920",
+        "matchesLocal": true
+      },
+      {
+        "start": 12582912,
+        "end": 16777215,
+        "bytes": 4194304,
+        "sha256": "493b5be67809a85b5599f6b8fcfdd4ff98b4c037c8034623ad9ff4d55d643fb4",
+        "matchesLocal": true
+      },
+      {
+        "start": 16777216,
+        "end": 20971519,
+        "bytes": 4194304,
+        "sha256": "added27d290af3c3c8f51ed86375325f83587302e931ee047c2b39b48dd22fac",
+        "matchesLocal": true
+      },
+      {
+        "start": 20971520,
+        "end": 25165823,
+        "bytes": 4194304,
+        "sha256": "613ba639e77341a1f657c72999005aaf77427ae5c416a8f733ef5c2ba51cf0a0",
+        "matchesLocal": true
+      },
+      {
+        "start": 25165824,
+        "end": 29360127,
+        "bytes": 4194304,
+        "sha256": "8c5d06a34e79c3f92ea00f1999e9675789734ee159c37212047dafbbd96ff51d",
+        "matchesLocal": true
+      },
+      {
+        "start": 29360128,
+        "end": 33554431,
+        "bytes": 4194304,
+        "sha256": "675d59b8a02e7834c87304510a4267324af9628826b9591aeb2f1b6315eb0666",
+        "matchesLocal": true
+      },
+      {
+        "start": 33554432,
+        "end": 37748735,
+        "bytes": 4194304,
+        "sha256": "5bc338166a36c6395e1dc0f88dd80f6e61420a1d49520069b18efc26961fcb6f",
+        "matchesLocal": true
+      },
+      {
+        "start": 37748736,
+        "end": 41943039,
+        "bytes": 4194304,
+        "sha256": "206e9322a3f52abdc0ad7e9efc72e978b9f584bce68942dde10cfed66353bfda",
+        "matchesLocal": true
+      },
+      {
+        "start": 41943040,
+        "end": 46137343,
+        "bytes": 4194304,
+        "sha256": "d368daabff0b2ee985abf7b40928d11597a120e7d0ac323bf86091bf7344ec3f",
+        "matchesLocal": true
+      },
+      {
+        "start": 46137344,
+        "end": 50331647,
+        "bytes": 4194304,
+        "sha256": "726fc07cecebc4f09b2f707a8895db0eadbefe3f02e85e4951e867d801a6ecfb",
+        "matchesLocal": true
+      },
+      {
+        "start": 50331648,
+        "end": 54525951,
+        "bytes": 4194304,
+        "sha256": "843f0ac4b4a2ab36d1fb00dcefdae6fa83240115ac28b9e8707dd3df8a1cb5ad",
+        "matchesLocal": true
+      },
+      {
+        "start": 54525952,
+        "end": 58720255,
+        "bytes": 4194304,
+        "sha256": "221ae69ce897cbb20bc5b79faef87cc9c1d756d2c754fc06050a9a05592c0f26",
+        "matchesLocal": true
+      },
+      {
+        "start": 58720256,
+        "end": 62914559,
+        "bytes": 4194304,
+        "sha256": "e81c5b381d538dceeb6c809e8dc3f9995d25ea630527cca8e414b702507fff80",
+        "matchesLocal": true
+      },
+      {
+        "start": 62914560,
+        "end": 67108863,
+        "bytes": 4194304,
+        "sha256": "dbf4fd509ea5e63e7c92f356bb3907d30db24ddc404a23a116a286ce2d386ce3",
+        "matchesLocal": true
+      },
+      {
+        "start": 67108864,
+        "end": 71303167,
+        "bytes": 4194304,
+        "sha256": "fa48a8a1eaf3c6b8a7d6764bf10fc5b829d08094ee0e6d45c8c40bae613caaee",
+        "matchesLocal": true
+      },
+      {
+        "start": 71303168,
+        "end": 75497471,
+        "bytes": 4194304,
+        "sha256": "cb8a260cde6d1b54f00f0e298149f98ae330ed3fd9412a1e869a33862c1b470e",
+        "matchesLocal": true
+      },
+      {
+        "start": 75497472,
+        "end": 79691775,
+        "bytes": 4194304,
+        "sha256": "23a285037111dd54200d781c57e0ddd9cadf7ffd0ef97d155d8579b06aa17360",
+        "matchesLocal": true
+      },
+      {
+        "start": 79691776,
+        "end": 83886079,
+        "bytes": 4194304,
+        "sha256": "9e3105d7de5e781c56f33adc6cf5469c1ed6ff3a0fda7f8ab94baf754a775881",
+        "matchesLocal": true
+      },
+      {
+        "start": 83886080,
+        "end": 88080383,
+        "bytes": 4194304,
+        "sha256": "2fd34fb3248f68ea48713e7270f6fdd9142bfb7c3039874f59957e8192cb59ef",
+        "matchesLocal": true
+      },
+      {
+        "start": 88080384,
+        "end": 89466243,
+        "bytes": 1385860,
+        "sha256": "c872ee3507218a7db9cf919be17a846a514e7b76a2ba0f837f3f056fea51163c",
+        "matchesLocal": true
+      }
+    ]
+  },
+  "completedAt": "2026-09-23T17:23:00.344098-04:00",
+  "sourceCommit": "098f1cc89b41c2067fe1577ddb62df5a3b3c6002",
+  "publicationCommit": "4b999cd6843d331ee0974348638592efc63a4493",
+  "ci": {
+    "url": "https://github.com/rayidali/borough-drive/actions/runs/35920923506",
+    "conclusion": "success",
+    "jobs": {
+      "Node.js 22": "success",
+      "Node.js 24": "success"
+    }
+  },
+  "deployment": {
+    "state": "success",
+    "target": "production",
+    "id": "dpl_CWahKPL73E2zfyDebVsb6haj9QAT",
+    "url": "https://vercel.com/rayidalis-projects/borough-drive/CWahKPL73E2zfyDebVsb6haj9QAT",
+    "deploymentUrl": "https://borough-drive-9n7k6gb0u-rayidalis-projects.vercel.app",
+    "aliases": [
+      "https://www.drivearound.nyc",
+      "https://drivearound.nyc",
+      "https://borough-drive.vercel.app"
+    ]
+  },
+  "attempts": [
+    "Initial Python HTTPS request failed because its default local CA store lacked the issuer. Repeated with /etc/ssl/cert.pem and certificate verification enabled; all listed checks passed."
+  ],
+  "preservation": "Runtime files unchanged from the reviewed implementation; both private screenshots excluded. No DNS, billing, credential or model changes in this publication follow-up.",
+  "documentation": "Final publication checkpoint follows in its own documentation commit; identify that commit via Git history."
+}

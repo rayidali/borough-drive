@@ -10,6 +10,17 @@ git log --oneline -- CODEX-HANDOFF.md SESSION-LOG.md
 
 Checkpoint notes describe observed state, not a live monitor. Recheck local files, remote branches and deployment status when resuming. Keep necessary artifacts in the repository and record reproducible commands; temporary directories and old tool/process IDs are not durable checkpoints. Store no tokens, passwords or authentication cookies here.
 
+## 2026-09-23-05 — Browser-reference result published and verified
+
+**Recorded:** 2026-09-23T17:23:00.344098-04:00.
+**User objective and decisions:** Push the endorsed East Seventh result to main/production and make browser Street View the preferred reference workflow for future authorized street tasks.
+**Completed work:** Fast-forwarded main and pushed source/export `098f1cc89b41c2067fe1577ddb62df5a3b3c6002`, checkpoint `90b6af9` and guidance release **`4b999cd6843d331ee0974348638592efc63a4493`**. Updated the reconstruction skill, packet evidence-method field and current entry-point/report documentation. Preserved both private screenshots and all reviewed runtime bytes.
+**Remote state:** Push `f2bf1bf..4b999cd` succeeded to `origin/main`. Final publication documentation follows separately under the same request; identify its commit through Git history.
+**Deployment state:** [Vercel production release](https://vercel.com/rayidalis-projects/borough-drive/CWahKPL73E2zfyDebVsb6haj9QAT) Ready with branded and Vercel domains assigned. [Both CI jobs](https://github.com/rayidali/borough-drive/actions/runs/35920923506) passed. No DNS/configuration change.
+**Validation:** Eleven live URL responses match local files, including root/direct/legacy routes and manifest/assets. All 22 PCK ranges match; full reassembled SHA256 `746113ee606ebfb6b6b0e32861974ce2ae3445c25d7a6b509b011c7c6bd393fa`, 89,466,244 bytes. Initial Python CA-store failure resolved using the system CA bundle with TLS verification retained. Local Seventh verification, skill validator and Markdown links pass. [Durable publication evidence](model-source/east-seventh-review-07/publication.json).
+**Unresolved issues:** No publication blocker. Existing photographic, occlusion and performance limits remain; this task adds no new 1:1 or 60 FPS acceptance.
+**Next action:** Resume the user's next bounded task from revision 07. No automatic street expansion, paid API, audio/UI change or source acquisition.
+
 ## 2026-09-23-04 — Revision 07 publication authorized; browser method endorsed
 
 **User objective and decisions:** Push the reviewed block to main/production and record browser Street View as a preferred reference method because the user endorsed the result.
