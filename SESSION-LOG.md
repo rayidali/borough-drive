@@ -10,6 +10,38 @@ git log --oneline -- CODEX-HANDOFF.md SESSION-LOG.md
 
 Checkpoint notes describe observed state, not a live monitor. Recheck local files, remote branches and deployment status when resuming. Keep necessary artifacts in the repository and record reproducible commands; temporary directories and old tool/process IDs are not durable checkpoints. Store no tokens, passwords or authentication cookies here.
 
+## 2026-09-23-03 — Browser-reference refinement saved locally
+
+**Recorded:** September 23, 2026, America/New_York.
+**User objective and decisions:** Reconstruct both sides of East 7th from First Avenue to Avenue A using ordinary browser Street View, including observed address-number placement. Browser observation was explicitly authorized; no paid API, billing changes or publication.
+**Completed work:** All 37 frontage records plus the 108 site inspected in April 2026 imagery; all 35 editable models refined. Distinct entries, numbered doors/headers, shop divisions, upper windows, stoops/oriels, church details, dated sheds/scaffolding and Avenue A returns updated. The 108 gate/planting meshes now use the existing static batcher. Final game images, dated observation ledger, reproducible recipes and reconstruction skill/entry-point guidance saved.
+**Gameplay/source baseline:** Branch `feature/east-seventh-fidelity-06`; baseline source `acf1d18fe36879faf74d1589e25c7330bbe4ef48`, prior checkpoint `f176aed`. Implementation/source/export/evidence committed locally as **`098f1cc89b41c2067fe1577ddb62df5a3b3c6002`**. This checkpoint follows separately; identify its commit through Git history.
+**Local changes:** Final PCK `746113ee606ebfb6b6b0e32861974ce2ae3445c25d7a6b509b011c7c6bd393fa`, 89,466,244 bytes; 14 runtime files, 86 source hashes. No pending model/export/test job. All 147 protected/out-of-scope models, original game, west block/accepted corner, compact UI, controls and audio preserved. Both private screenshots remain unchanged/untracked/excluded.
+**Remote state:** No fetch or push. **Deployment state:** Not deployed or rechecked live; the September 21 published interface/revision 04 remains the last verified live baseline.
+**Validation:** Original/Seventh verification passes; native handling/address/cameras, 17 browser address cases and four-mode inspection pass. All 37 final elevations, 52 ground views and nine obliques visually inspected. Six final-package full-block driving routes across three weather states have zero contacts; braking/drift/pause/reset/steering pass. Focused final-package settings reload, Retina sizing, true tab-switch pause, postcards and download/graphics recovery pass. Native/address/camera-inspection checks used pre-batch `362be9c…afbf1`; all 182 GLBs and the other 85 package-source hashes remain identical. Final visual/performance/driving/recovery use `746113e…393fa`. Skill validator, relative Markdown links and whitespace checks pass.
+**Failures and performance limits:** The first final-package settings reload hit the loader watchdog while the browser was visible but OS-unfocused. The retained failed report is followed by a passing focused repeat on unchanged runtime bytes; the harness now maintains ordinary focus and releases it for the explicit focus-loss test. Native logs retain a macOS certificate-enumeration warning. Nine short M1/8 GiB samples: baseline 40.13–53.93 FPS, final 37.68–55.54; means 46.17→46.64, ready 8.833→8.965 s. This does not demonstrate 60 FPS or a statistically established speedup.
+**Unresolved issues:** Occluded numbers/lettering, exact ornament/curved ironwork, hidden surfaces, measured dimensions and complete curb-fixture positions remain uncertain. April imagery does not establish September conditions. Zero calibrated multi-view acceptance passes; no photographic 1:1 claim.
+**Next action:** User review at `http://127.0.0.1:5173/` (`npm run dev` if needed), driving east toward Avenue A. See the revision 07 report and current handoff. Do not automatically publish, expand streets, retry paid references or change UI/audio.
+
+## 2026-09-23-02 — All-property source/model review complete; batching refinement
+
+**Objective:** Browser-reference reconstruction of First Avenue–Avenue A, including actual address placements; no publication.
+**Completed:** All 37 frontage sources and the 108 site inspected in April 2026 browser imagery. All 35 editable models refined; 147 protected/out-of-scope models unchanged. All 89 final frontage views and nine obliques visually inspected after source/render repairs. Original game, interface/audio and private screenshots preserved.
+**Baseline/local state:** Branch `feature/east-seventh-fidelity-06`, baseline source `acf1d18`, checkpoint `f176aed`; current implementation remains uncommitted.
+**Checks:** Package `362be9c…afbf1` passed original/Seventh checks, native handling/address/cameras, 17 browser address cases, four-mode camera inspection and full browser driving/settings/recovery. Six complete east-block routes had zero contacts. Its performance samples were 38.66–50.75 FPS versus this session’s 40.13–53.93 baseline, with higher draw calls.
+**Latest change:** 108 nested detail meshes bypassed the existing direct-child batcher. Static meshes now enter that existing batch input, retaining geometry/materials/transforms and collision. Rebuilt PCK `746113ee606ebfb6b6b0e32861974ce2ae3445c25d7a6b509b011c7c6bd393fa`, 89,466,244 bytes; post-batch measurements and final review pending.
+**Remote/deployment:** No push, fetch, deployment or live recheck.
+**Next action:** Finish post-batch verification, save final evidence/local commits and exact handoff. No calibrated 1:1 acceptance is claimed.
+
+## 2026-09-23-01 — Browser-reference pass started
+
+**User objective and decisions:** Inspect every First–Avenue A property through browser Street View and refine the game, including address-number placement. Ordinary browser reference viewing is explicitly requested; no paid API, billing or publication.
+**Baseline/local state:** `feature/east-seventh-fidelity-06`, implementation `acf1d18`, checkpoint `f176aed`; two private untracked screenshots preserved. New `east-seventh-browser-07.json` inventory is in progress.
+**Reference state:** Public browser Street View loads April 2026 views. Initial source inspection reveals truck occlusions and number-placement distinctions; no new game geometry yet.
+**Remote/deployment:** No fetch, push or deployment.
+**Validation:** Baseline status/history and skill/source adapters read; no new export/tests.
+**Next action:** Complete all-property reference observations, update reproducible geometry and verify actual rendered result.
+
 ## 2026-09-21-10 — First Avenue–Avenue A public-reference candidate complete locally
 
 **Recorded:** 2026-09-22T03:08:17.395951+00:00 (September 21 local).
