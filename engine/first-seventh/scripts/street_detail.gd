@@ -130,3 +130,4 @@ func dress(root: Node3D):
 	for x in [-57.45,-56.95,-56.45]:
 		S.cylinder(root,Vector3(x,.43,6.3),.045,.82,metal,8)
 		S.cylinder(root,Vector3(x,.84,6.3),.075,.07,S.material(Color("c6a64b")),8)
+	preload("res://scripts/east_seventh_detail.gd").new().dress(root,self)

@@ -1,0 +1,985 @@
+{
+  "date": "2026-09-23T20:16:32.367Z",
+  "url": "http://127.0.0.1:5173/seventh/?review=1",
+  "viewport": {
+    "width": 1440,
+    "height": 1000,
+    "deviceScaleFactor": 1
+  },
+  "build": {
+    "schema": 1,
+    "builtAt": "2026-09-23T20:02:45.782Z",
+    "engine": "Godot 4.7.2",
+    "renderer": "Compatibility / WebGL 2",
+    "threaded": false,
+    "buildings": 182,
+    "sourceCommit": "c76dccebc143960498d21eeab8c55c2d0dbcc5ce",
+    "geographySha256": "fd61b108e80eab18d477686b677413ef565f1ab16edc26170751347e22651a5c",
+    "files": {
+      "DAMION-OFL.txt": {
+        "bytes": 4389,
+        "sha256": "4aeb831b7b6ab653dca84308e576613059c598696aa2dc83192ab6117b24a5fa"
+      },
+      "INTER-OFL.txt": {
+        "bytes": 4380,
+        "sha256": "262481e844521b326f5ecd053e59b98c8b2da78c8ee1bdbb6e8174305e54935a"
+      },
+      "InterVariable.woff2": {
+        "bytes": 352240,
+        "sha256": "693b77d4f32ee9b8bfc995589b5fad5e99adf2832738661f5402f9978429a8e3"
+      },
+      "LICENSE.txt": {
+        "bytes": 1097,
+        "sha256": "d698c1c978070d4305be75e60e904f6f54715f003fe248a23bf8b3ee0ca07134"
+      },
+      "credits.txt": {
+        "bytes": 3289,
+        "sha256": "4ae0affa1819eaf17d6409b32c3bbfc19ef36fde0d5aef5a3e1a90df296d4e2e"
+      },
+      "drivearound-logo.png": {
+        "bytes": 80463,
+        "sha256": "9156dec61cc0ab10adb5b471e7f80d77d4e79102c2a4069e09227f93462f5448"
+      },
+      "godot-notices.txt": {
+        "bytes": 87732,
+        "sha256": "96b99d808a955ca39a6a8db9b93b3c04d012d1d71109c9e1dd8af85f00eeeb98"
+      },
+      "index.audio.position.worklet.js": {
+        "bytes": 2973,
+        "sha256": "be33985bc7160d6bf9646f259cd86b259cd67b02ccb297ee5c44f8ac84327bc8"
+      },
+      "index.audio.worklet.js": {
+        "bytes": 7298,
+        "sha256": "5b476a9c9ce642c0ee4256436d1bc31d9c38f868aca0f9a8e2a57c18d2dec2a3"
+      },
+      "index.html": {
+        "bytes": 9845,
+        "sha256": "d095047a7f0c8dfe39437f33488a5c5380b39892e302926711cfe286bf40c2b5"
+      },
+      "index.js": {
+        "bytes": 279815,
+        "sha256": "33c94cb3175f3333b82e2a3be5e8e86f77986f0aa2042b1631f6367a4e5bb6ba"
+      },
+      "index.pck": {
+        "bytes": 89466148,
+        "sha256": "362be9c886f79dfa61ed51087bc51029d21d71d75470edd70e46d3cff6eafbf1",
+        "brotliBytes": 80656563
+      },
+      "index.png": {
+        "bytes": 21443,
+        "sha256": "3cb4495c0b98dfbe4b663cbf2b6836473572339beb66d902367893162a70be0e"
+      },
+      "index.wasm": {
+        "bytes": 39514754,
+        "sha256": "fc74679e3b97f76878947fcd4fbe1268cbfa6188182a2e33bbc3f5dc9bfa57d0",
+        "brotliBytes": 8182023
+      }
+    },
+    "sources": {
+      "engine/first-seventh/assets/audio/cornerlight.wav": "25e74f3f7d782323220af9ca8f41fe196ecf30355b77424b6bcd3c399cb9134e",
+      "engine/first-seventh/assets/audio/cornerlight.wav.import": "fd5f7ed95ed31620af2e488521190f1380ba88cc5c9c49f417556de5283777d1",
+      "engine/first-seventh/assets/audio/engine-coast.wav": "fc8fd78f33021d261377a51a0e53526648d12f052a06734c6f7bc0bd00aca740",
+      "engine/first-seventh/assets/audio/engine-coast.wav.import": "2a420089cb0f5e34318414d20678557e470d930372a7e7b3b7f9d7e4a317be3d",
+      "engine/first-seventh/assets/audio/engine-idle.wav": "b914dc2baf867b7115ebb10cbb830ab27f6da9559110a3cd71c8aa5c1f583550",
+      "engine/first-seventh/assets/audio/engine-idle.wav.import": "5a887ee72b701d3d67729c4531540daace46221a1e28f7b8c705d405c87df44c",
+      "engine/first-seventh/assets/audio/engine-load.wav": "6ab1a1203a4a15a5e7c4a3cbe3240dd9a7986fb4031b21d366991527357116b6",
+      "engine/first-seventh/assets/audio/engine-load.wav.import": "f11e99702f4ac029273cd6bfcb76e53ca8ca27e0714fb9371f85e249e367b7ac",
+      "engine/first-seventh/assets/audio/impact.wav": "60ac6a81a97c01eb363cec6f62c020c66970f31f0a175d870c270060820860dd",
+      "engine/first-seventh/assets/audio/impact.wav.import": "f0d61f82267eed97ea8e360d61e07612915a1d21885a1c55ec6ac295426302c3",
+      "engine/first-seventh/assets/audio/rain.wav": "371be06535d635590c9c5f44528f17806265de885e0daaaba7f4f41e802d9111",
+      "engine/first-seventh/assets/audio/rain.wav.import": "830b6262c52c97a8cf659dcae8d31b436daf47df4b3b5a827a8186f07f8e2ce5",
+      "engine/first-seventh/assets/audio/road.wav": "f1a25770ea0d98e8f9b6a594a9d1d2b5426089036ddc86730652e6859bfca42c",
+      "engine/first-seventh/assets/audio/road.wav.import": "a79ba0601825c5fc01b589e893a7a735786cc4fc736d3c6bec657d6f2f51e2bc",
+      "engine/first-seventh/assets/audio/tires.wav": "b66574c0f6934a85bdee5b0842667dda7250b98693807ef46f9d6e426fc179a2",
+      "engine/first-seventh/assets/audio/tires.wav.import": "6255e82a47207e8eabe22e509fec9e8cb6d82340c11d6c76713a157bb4ce345e",
+      "engine/first-seventh/assets/brand/drivearound-logo.png": "9156dec61cc0ab10adb5b471e7f80d77d4e79102c2a4069e09227f93462f5448",
+      "engine/first-seventh/assets/brand/drivearound-logo.png.import": "6adb8ca30681fbb1fc94657317fa6b433aca03305664fa51cc7770c7d2876645",
+      "engine/first-seventh/assets/credits.txt": "4ae0affa1819eaf17d6409b32c3bbfc19ef36fde0d5aef5a3e1a90df296d4e2e",
+      "engine/first-seventh/assets/fonts/INTER-OFL.txt": "262481e844521b326f5ecd053e59b98c8b2da78c8ee1bdbb6e8174305e54935a",
+      "engine/first-seventh/assets/fonts/InterVariable.ttf": "4989b125924991b90d05b2d16e0e388c48f7d5bb8b30539bbf9c755278d0ccaf",
+      "engine/first-seventh/assets/fonts/InterVariable.ttf.import": "608295b5dcece46082f83470307d9757145081e719109a4d4a7f37b494cd4e74",
+      "engine/first-seventh/assets/fonts/InterVariable.woff2": "693b77d4f32ee9b8bfc995589b5fad5e99adf2832738661f5402f9978429a8e3",
+      "engine/first-seventh/assets/fonts/InterVariable.woff2.import": "0568aa77832669aadd728e2dacdb6f59327433fa4710673fcc93f96490e82bbe",
+      "engine/first-seventh/assets/slice.json": "bed9d7c38f07a3388066c2f1822290fc5ff7740a0685836a5f8e904ef11fc857",
+      "engine/first-seventh/assets/surfaces/concrete_wall_006_diff_1k.jpg": "fea247dd085cd05d8deb335234c834764d622029da351f8bcc8913935316bacd",
+      "engine/first-seventh/assets/surfaces/concrete_wall_006_diff_1k.jpg.import": "86cb4a30d395f5d755478389def71c133918d1cb4fbe8cabf91665ab8e05ffde",
+      "engine/first-seventh/assets/surfaces/concrete_wall_006_nor_gl_1k.jpg": "4ff16bb96fc2df3ef71d22007151aff1d8bf7cb10a493d3f8e973213a99dd428",
+      "engine/first-seventh/assets/surfaces/concrete_wall_006_nor_gl_1k.jpg.import": "ce3fd08785570bec136acddbf9bf4ce69b6e1090475e54940c687c5d0e247bf2",
+      "engine/first-seventh/assets/surfaces/red_brick_03_diff_1k.jpg": "9c58254c099b2d211478f50a427fcdde622af24249ff2e94da41fb836f8c857f",
+      "engine/first-seventh/assets/surfaces/red_brick_03_diff_1k.jpg.import": "e77d7e5dca366fafc2e4572aec4b1b7f971628b64c5836825bf151a31c308f30",
+      "engine/first-seventh/assets/surfaces/red_brick_03_nor_gl_1k.jpg": "9bfd45e24720d851017c1e1678b70219c72239b2ac6b25e11d57d458bdab8503",
+      "engine/first-seventh/assets/surfaces/red_brick_03_nor_gl_1k.jpg.import": "e4851b33d07c7e9d0b829f7699d35822e74d3da2c50228781f2f3367746eaa3e",
+      "engine/first-seventh/assets/surfaces/white_bricks_diff_1k.jpg": "a1483d99ea1ca6e23adce0ba4ad1a1ba0e586e76cafd1979c826424916cb03c4",
+      "engine/first-seventh/assets/surfaces/white_bricks_diff_1k.jpg.import": "13d0a1946b85ea8e72e6412e822e66fdab92e6cd1c2f473c72a296fd7a994e9c",
+      "engine/first-seventh/assets/surfaces/white_bricks_nor_gl_1k.jpg": "e2159482d8dec6db0c617b5d8313d01ac5dca23c642354331c1c5b4664d1728e",
+      "engine/first-seventh/assets/surfaces/white_bricks_nor_gl_1k.jpg.import": "3c5854cb19adeb6fc8ed209db33178ef502d3e5bcaf49c2ff2f816557af062ee",
+      "engine/first-seventh/assets/west_seventh_streetscape.json": "f65c8d4e8e77cbe0202d1b4c9e6fdb3b8233a6d91778f541b09de988d5c4a88b",
+      "engine/first-seventh/export_presets.cfg": "de830db6e0808164dba6f22f4cfceee803f4d56d002c7e9bdd87b395609de38b",
+      "engine/first-seventh/project.godot": "71a99956d6b337e274d693ea40aadf5ee3ffbc595b21be5509426189fb952675",
+      "engine/first-seventh/scenes/main.tscn": "36b1ee7da0776608f1933cf39d31d5d928b160da1f474fcedac7a5f9f3e67e3a",
+      "engine/first-seventh/scripts/address_locator.gd": "67039770c035bcc663c9bd9d8f4bb35d6778a57264f68429e994572b551e2d2f",
+      "engine/first-seventh/scripts/cameras.gd": "41bee5dc1557b8220549bcfb6d7fb663c0dab996388cd61599e5158a7932f2fa",
+      "engine/first-seventh/scripts/car.gd": "af3cbe86cf9768161b76d46364a41726e0f277554bf6222cb5e1d846dd8b190d",
+      "engine/first-seventh/scripts/car_audio.gd": "21c2003f12e9afe16b0d08f6c7532b011ae67585aa0e0a116bf243bcc2b0af50",
+      "engine/first-seventh/scripts/east_seventh_detail.gd": "a58a13ee45fd7680297997977aecaea013ec48e0aaced55d125931b61428c61b",
+      "engine/first-seventh/scripts/export_credits.gd": "b6e415b08e93abdeb7ac41976a74210de5a6db00f221fb48fd3f1a94725f076b",
+      "engine/first-seventh/scripts/handling.gd": "f421fb6ba97f937db1b50bdb2488138997fb3a69882f69f9f7b3ce3d85e67518",
+      "engine/first-seventh/scripts/hud.gd": "4ced53732bf274b09c441f27db133ff0208acab704e3ebf59c24a9e7a912900e",
+      "engine/first-seventh/scripts/main.gd": "dd57720853fc260411c4817836e2381a6ad8f6b3382c2452511f3a6439a2dbcc",
+      "engine/first-seventh/scripts/minimap.gd": "fe97467d38921f80fbed32ff0b5fffd038ab2190d77a04a0c07a89337c41a83e",
+      "engine/first-seventh/scripts/shapes.gd": "d825a4be3f13bd833322e4ee1bc3477046994bd6ee434da2b07c87d60288fc15",
+      "engine/first-seventh/scripts/street_detail.gd": "f5c2b49a57dc75c4adc532a1df26883853902245b5fd7fdc4392e0c9b0ae4d73",
+      "engine/first-seventh/scripts/tire_effects.gd": "bcbfa5e84c38d4a2a7b3cf74a1544c5dbca451e63fed41d1afc1a96306415026",
+      "engine/first-seventh/scripts/weather.gd": "b9ae9e0d1771f69f0142ae49cfceae7b7672820d5711bf7551a7ebf62a985bd8",
+      "engine/first-seventh/scripts/world.gd": "39b4452706331c6c3c2d326355a9746221addfd567f06c3e22736ec6eb65fcba",
+      "engine/first-seventh/shaders/film.gdshader": "f1633072e86da2ee3c9f771009c69e8b2d5c8a9f829e2178e94fb6f4f63e0e42",
+      "engine/first-seventh/shaders/foliage.gdshader": "4dab411186d82b31b99c89036f100ede2c8aa1d8233076fe31f77aecd15c6214",
+      "engine/first-seventh/shaders/paint.gdshader": "70651010ecd19513690d2d5beb69cfc99685fc6ffbdcad1d97b8725ab77bd4f3",
+      "engine/first-seventh/shaders/road.gdshader": "86a6fc77ec8db974af7722cd6f8779a99c7cd7afa1b756b99cddf8e2e4b23ea1",
+      "engine/first-seventh/shaders/sidewalk.gdshader": "48b744cdc85df84b47ca63f906fdf5981004b43135b8659bf105012b340fbb12",
+      "engine/first-seventh/shaders/sky.gdshader": "b55915fc5d5e0df055eec96f1369c93235d529f8a322d19ed175f80de08f39a5",
+      "engine/first-seventh/shaders/tire_marks.gdshader": "6f5f96e7ff361bd8ac2e18bb9da3284e1fcfccb40994c3b40ae74a9048ee63c5",
+      "engine/first-seventh/tests/address_locator.gd": "830fa769510cf07de9cbf8ef44a2dc0545d7540661a1c8cc70a86562d9c7fb93",
+      "engine/first-seventh/tests/cameras.gd": "594d63915ee5123387a98742e2630bb24a5fd3c860751c6b73afa69063aed6b4",
+      "engine/first-seventh/tests/handling.gd": "a1aabddf6e9dcecdc97c942025c2b13fdd316d3302575c4481843864d039be7e",
+      "engine/first-seventh/web/shell.html": "60e9c60be19838cef65ce68dc36cf68876f8711f827fe17c5c896f08faba11f5",
+      "model-source/export_seventh_engine.py": "83444111332ce94162ec88681bd0ee0c56a3a4d879a6499b330fc98460a6dacd",
+      "model-source/seventh_street_kit.py": "1d8db3bbc8dceab0ba23b558a06e57d75f7a2e1ccc3ba05ef4e3f470c7fbe0da",
+      "model-source/seventh_fidelity_kit.py": "29bc7a804fd639e546fefb6844d724bf60c2ee22270c6b2a57bc7d9c76d235e7",
+      "model-source/build_neighborhood.py": "96582aa9e4b995573c31b83067879d45efd326c190478473f6cd4160f27f81be",
+      "model-source/build_intersection.py": "ff42784487c1eb8f036d400a37674c2fef4f02307119a9963a875a81555465b0",
+      "model-source/neighborhood_detail_kit.py": "6d4331d82f360a883565c0b2e0a21b44e21b159080494b788569edf6a6c8fc0f",
+      "model-source/storefront_detail_kit.py": "ab6d199c0a69e26a92b2ba208fc5f4522339e26192aee13a5b792583996422ce",
+      "model-source/neighborhood_landmarks.py": "7e8c48c9fc5f233d5eaa10b0bffe24f29b0f85e9cf76ca44007cd84e9a1baad3",
+      "model-source/first_seventh_kit.py": "0b8054b71913c3a8ec53cb83bf19886d973e3e650d2a9cdeddb653fc4c4ba20a",
+      "model-source/first_seventh_refinement.py": "5ea53dfd46a5aef6da13848413cbb1edff9de1fbc46848467f359c0c574d7d86",
+      "model-source/storefront-details.json": "272fe166d4f7192cbf26bc2232f1371133f534b50099691566c2b1e40e02b3f1",
+      "model-source/seventh-street-reference-02.json": "363260952d0c582078cb9fafd1cb7ef406cf6c355b8205d1c3c23cdaa73b3752",
+      "model-source/west-seventh-reference-04.json": "fc1cbdc2cc377e5efb785a98ae321cfa4ec93d9c82b889d15b3af1d26169a00f",
+      "model-source/west-seventh-observations-04.json": "b5c679b6a2603385e6dee1d1a8aa2392a0fa8b9c27d16d631637ba0d39bef70c",
+      "model-source/east-seventh-reference-06.json": "aa494d54ff6cd2b33d65c089808c8dc9568addce5c67db9deb986efcd9d00ba2",
+      "model-source/east-seventh-observations-06.json": "8a6ca017474bea086c22ca8ac2244fe85952096eeaaf384354c0687ce7b581a5",
+      "model-source/east-seventh-browser-07.json": "eccbe6e7218852c0f90a897890c68df480b1e5c00bb9abe542fcd2fbd295bcb9",
+      "model-source/make_seventh_audio.py": "859a0530f8d141a0b0f8403f201f428132edfbd1e0df4f4778ac84b337e4d0a3",
+      "scripts/export-seventh.mjs": "b245fc26a4b1a0c1e6c5b1b01ae8a86169e58f359287f41cdc5cb3b5c5088415"
+    }
+  },
+  "buildHashes": {
+    "sourceCommit": "c76dccebc143960498d21eeab8c55c2d0dbcc5ce",
+    "geographySha256": "fd61b108e80eab18d477686b677413ef565f1ab16edc26170751347e22651a5c",
+    "files": {
+      "DAMION-OFL.txt": "4aeb831b7b6ab653dca84308e576613059c598696aa2dc83192ab6117b24a5fa",
+      "INTER-OFL.txt": "262481e844521b326f5ecd053e59b98c8b2da78c8ee1bdbb6e8174305e54935a",
+      "InterVariable.woff2": "693b77d4f32ee9b8bfc995589b5fad5e99adf2832738661f5402f9978429a8e3",
+      "LICENSE.txt": "d698c1c978070d4305be75e60e904f6f54715f003fe248a23bf8b3ee0ca07134",
+      "credits.txt": "4ae0affa1819eaf17d6409b32c3bbfc19ef36fde0d5aef5a3e1a90df296d4e2e",
+      "drivearound-logo.png": "9156dec61cc0ab10adb5b471e7f80d77d4e79102c2a4069e09227f93462f5448",
+      "godot-notices.txt": "96b99d808a955ca39a6a8db9b93b3c04d012d1d71109c9e1dd8af85f00eeeb98",
+      "index.audio.position.worklet.js": "be33985bc7160d6bf9646f259cd86b259cd67b02ccb297ee5c44f8ac84327bc8",
+      "index.audio.worklet.js": "5b476a9c9ce642c0ee4256436d1bc31d9c38f868aca0f9a8e2a57c18d2dec2a3",
+      "index.html": "d095047a7f0c8dfe39437f33488a5c5380b39892e302926711cfe286bf40c2b5",
+      "index.js": "33c94cb3175f3333b82e2a3be5e8e86f77986f0aa2042b1631f6367a4e5bb6ba",
+      "index.pck": "362be9c886f79dfa61ed51087bc51029d21d71d75470edd70e46d3cff6eafbf1",
+      "index.png": "3cb4495c0b98dfbe4b663cbf2b6836473572339beb66d902367893162a70be0e",
+      "index.wasm": "fc74679e3b97f76878947fcd4fbe1268cbfa6188182a2e33bbc3f5dc9bfa57d0"
+    },
+    "sources": {
+      "engine/first-seventh/assets/audio/cornerlight.wav": "25e74f3f7d782323220af9ca8f41fe196ecf30355b77424b6bcd3c399cb9134e",
+      "engine/first-seventh/assets/audio/cornerlight.wav.import": "fd5f7ed95ed31620af2e488521190f1380ba88cc5c9c49f417556de5283777d1",
+      "engine/first-seventh/assets/audio/engine-coast.wav": "fc8fd78f33021d261377a51a0e53526648d12f052a06734c6f7bc0bd00aca740",
+      "engine/first-seventh/assets/audio/engine-coast.wav.import": "2a420089cb0f5e34318414d20678557e470d930372a7e7b3b7f9d7e4a317be3d",
+      "engine/first-seventh/assets/audio/engine-idle.wav": "b914dc2baf867b7115ebb10cbb830ab27f6da9559110a3cd71c8aa5c1f583550",
+      "engine/first-seventh/assets/audio/engine-idle.wav.import": "5a887ee72b701d3d67729c4531540daace46221a1e28f7b8c705d405c87df44c",
+      "engine/first-seventh/assets/audio/engine-load.wav": "6ab1a1203a4a15a5e7c4a3cbe3240dd9a7986fb4031b21d366991527357116b6",
+      "engine/first-seventh/assets/audio/engine-load.wav.import": "f11e99702f4ac029273cd6bfcb76e53ca8ca27e0714fb9371f85e249e367b7ac",
+      "engine/first-seventh/assets/audio/impact.wav": "60ac6a81a97c01eb363cec6f62c020c66970f31f0a175d870c270060820860dd",
+      "engine/first-seventh/assets/audio/impact.wav.import": "f0d61f82267eed97ea8e360d61e07612915a1d21885a1c55ec6ac295426302c3",
+      "engine/first-seventh/assets/audio/rain.wav": "371be06535d635590c9c5f44528f17806265de885e0daaaba7f4f41e802d9111",
+      "engine/first-seventh/assets/audio/rain.wav.import": "830b6262c52c97a8cf659dcae8d31b436daf47df4b3b5a827a8186f07f8e2ce5",
+      "engine/first-seventh/assets/audio/road.wav": "f1a25770ea0d98e8f9b6a594a9d1d2b5426089036ddc86730652e6859bfca42c",
+      "engine/first-seventh/assets/audio/road.wav.import": "a79ba0601825c5fc01b589e893a7a735786cc4fc736d3c6bec657d6f2f51e2bc",
+      "engine/first-seventh/assets/audio/tires.wav": "b66574c0f6934a85bdee5b0842667dda7250b98693807ef46f9d6e426fc179a2",
+      "engine/first-seventh/assets/audio/tires.wav.import": "6255e82a47207e8eabe22e509fec9e8cb6d82340c11d6c76713a157bb4ce345e",
+      "engine/first-seventh/assets/brand/drivearound-logo.png": "9156dec61cc0ab10adb5b471e7f80d77d4e79102c2a4069e09227f93462f5448",
+      "engine/first-seventh/assets/brand/drivearound-logo.png.import": "6adb8ca30681fbb1fc94657317fa6b433aca03305664fa51cc7770c7d2876645",
+      "engine/first-seventh/assets/credits.txt": "4ae0affa1819eaf17d6409b32c3bbfc19ef36fde0d5aef5a3e1a90df296d4e2e",
+      "engine/first-seventh/assets/fonts/INTER-OFL.txt": "262481e844521b326f5ecd053e59b98c8b2da78c8ee1bdbb6e8174305e54935a",
+      "engine/first-seventh/assets/fonts/InterVariable.ttf": "4989b125924991b90d05b2d16e0e388c48f7d5bb8b30539bbf9c755278d0ccaf",
+      "engine/first-seventh/assets/fonts/InterVariable.ttf.import": "608295b5dcece46082f83470307d9757145081e719109a4d4a7f37b494cd4e74",
+      "engine/first-seventh/assets/fonts/InterVariable.woff2": "693b77d4f32ee9b8bfc995589b5fad5e99adf2832738661f5402f9978429a8e3",
+      "engine/first-seventh/assets/fonts/InterVariable.woff2.import": "0568aa77832669aadd728e2dacdb6f59327433fa4710673fcc93f96490e82bbe",
+      "engine/first-seventh/assets/slice.json": "bed9d7c38f07a3388066c2f1822290fc5ff7740a0685836a5f8e904ef11fc857",
+      "engine/first-seventh/assets/surfaces/concrete_wall_006_diff_1k.jpg": "fea247dd085cd05d8deb335234c834764d622029da351f8bcc8913935316bacd",
+      "engine/first-seventh/assets/surfaces/concrete_wall_006_diff_1k.jpg.import": "86cb4a30d395f5d755478389def71c133918d1cb4fbe8cabf91665ab8e05ffde",
+      "engine/first-seventh/assets/surfaces/concrete_wall_006_nor_gl_1k.jpg": "4ff16bb96fc2df3ef71d22007151aff1d8bf7cb10a493d3f8e973213a99dd428",
+      "engine/first-seventh/assets/surfaces/concrete_wall_006_nor_gl_1k.jpg.import": "ce3fd08785570bec136acddbf9bf4ce69b6e1090475e54940c687c5d0e247bf2",
+      "engine/first-seventh/assets/surfaces/red_brick_03_diff_1k.jpg": "9c58254c099b2d211478f50a427fcdde622af24249ff2e94da41fb836f8c857f",
+      "engine/first-seventh/assets/surfaces/red_brick_03_diff_1k.jpg.import": "e77d7e5dca366fafc2e4572aec4b1b7f971628b64c5836825bf151a31c308f30",
+      "engine/first-seventh/assets/surfaces/red_brick_03_nor_gl_1k.jpg": "9bfd45e24720d851017c1e1678b70219c72239b2ac6b25e11d57d458bdab8503",
+      "engine/first-seventh/assets/surfaces/red_brick_03_nor_gl_1k.jpg.import": "e4851b33d07c7e9d0b829f7699d35822e74d3da2c50228781f2f3367746eaa3e",
+      "engine/first-seventh/assets/surfaces/white_bricks_diff_1k.jpg": "a1483d99ea1ca6e23adce0ba4ad1a1ba0e586e76cafd1979c826424916cb03c4",
+      "engine/first-seventh/assets/surfaces/white_bricks_diff_1k.jpg.import": "13d0a1946b85ea8e72e6412e822e66fdab92e6cd1c2f473c72a296fd7a994e9c",
+      "engine/first-seventh/assets/surfaces/white_bricks_nor_gl_1k.jpg": "e2159482d8dec6db0c617b5d8313d01ac5dca23c642354331c1c5b4664d1728e",
+      "engine/first-seventh/assets/surfaces/white_bricks_nor_gl_1k.jpg.import": "3c5854cb19adeb6fc8ed209db33178ef502d3e5bcaf49c2ff2f816557af062ee",
+      "engine/first-seventh/assets/west_seventh_streetscape.json": "f65c8d4e8e77cbe0202d1b4c9e6fdb3b8233a6d91778f541b09de988d5c4a88b",
+      "engine/first-seventh/export_presets.cfg": "de830db6e0808164dba6f22f4cfceee803f4d56d002c7e9bdd87b395609de38b",
+      "engine/first-seventh/project.godot": "71a99956d6b337e274d693ea40aadf5ee3ffbc595b21be5509426189fb952675",
+      "engine/first-seventh/scenes/main.tscn": "36b1ee7da0776608f1933cf39d31d5d928b160da1f474fcedac7a5f9f3e67e3a",
+      "engine/first-seventh/scripts/address_locator.gd": "67039770c035bcc663c9bd9d8f4bb35d6778a57264f68429e994572b551e2d2f",
+      "engine/first-seventh/scripts/cameras.gd": "41bee5dc1557b8220549bcfb6d7fb663c0dab996388cd61599e5158a7932f2fa",
+      "engine/first-seventh/scripts/car.gd": "af3cbe86cf9768161b76d46364a41726e0f277554bf6222cb5e1d846dd8b190d",
+      "engine/first-seventh/scripts/car_audio.gd": "21c2003f12e9afe16b0d08f6c7532b011ae67585aa0e0a116bf243bcc2b0af50",
+      "engine/first-seventh/scripts/east_seventh_detail.gd": "a58a13ee45fd7680297997977aecaea013ec48e0aaced55d125931b61428c61b",
+      "engine/first-seventh/scripts/export_credits.gd": "b6e415b08e93abdeb7ac41976a74210de5a6db00f221fb48fd3f1a94725f076b",
+      "engine/first-seventh/scripts/handling.gd": "f421fb6ba97f937db1b50bdb2488138997fb3a69882f69f9f7b3ce3d85e67518",
+      "engine/first-seventh/scripts/hud.gd": "4ced53732bf274b09c441f27db133ff0208acab704e3ebf59c24a9e7a912900e",
+      "engine/first-seventh/scripts/main.gd": "dd57720853fc260411c4817836e2381a6ad8f6b3382c2452511f3a6439a2dbcc",
+      "engine/first-seventh/scripts/minimap.gd": "fe97467d38921f80fbed32ff0b5fffd038ab2190d77a04a0c07a89337c41a83e",
+      "engine/first-seventh/scripts/shapes.gd": "d825a4be3f13bd833322e4ee1bc3477046994bd6ee434da2b07c87d60288fc15",
+      "engine/first-seventh/scripts/street_detail.gd": "f5c2b49a57dc75c4adc532a1df26883853902245b5fd7fdc4392e0c9b0ae4d73",
+      "engine/first-seventh/scripts/tire_effects.gd": "bcbfa5e84c38d4a2a7b3cf74a1544c5dbca451e63fed41d1afc1a96306415026",
+      "engine/first-seventh/scripts/weather.gd": "b9ae9e0d1771f69f0142ae49cfceae7b7672820d5711bf7551a7ebf62a985bd8",
+      "engine/first-seventh/scripts/world.gd": "39b4452706331c6c3c2d326355a9746221addfd567f06c3e22736ec6eb65fcba",
+      "engine/first-seventh/shaders/film.gdshader": "f1633072e86da2ee3c9f771009c69e8b2d5c8a9f829e2178e94fb6f4f63e0e42",
+      "engine/first-seventh/shaders/foliage.gdshader": "4dab411186d82b31b99c89036f100ede2c8aa1d8233076fe31f77aecd15c6214",
+      "engine/first-seventh/shaders/paint.gdshader": "70651010ecd19513690d2d5beb69cfc99685fc6ffbdcad1d97b8725ab77bd4f3",
+      "engine/first-seventh/shaders/road.gdshader": "86a6fc77ec8db974af7722cd6f8779a99c7cd7afa1b756b99cddf8e2e4b23ea1",
+      "engine/first-seventh/shaders/sidewalk.gdshader": "48b744cdc85df84b47ca63f906fdf5981004b43135b8659bf105012b340fbb12",
+      "engine/first-seventh/shaders/sky.gdshader": "b55915fc5d5e0df055eec96f1369c93235d529f8a322d19ed175f80de08f39a5",
+      "engine/first-seventh/shaders/tire_marks.gdshader": "6f5f96e7ff361bd8ac2e18bb9da3284e1fcfccb40994c3b40ae74a9048ee63c5",
+      "engine/first-seventh/tests/address_locator.gd": "830fa769510cf07de9cbf8ef44a2dc0545d7540661a1c8cc70a86562d9c7fb93",
+      "engine/first-seventh/tests/cameras.gd": "594d63915ee5123387a98742e2630bb24a5fd3c860751c6b73afa69063aed6b4",
+      "engine/first-seventh/tests/handling.gd": "a1aabddf6e9dcecdc97c942025c2b13fdd316d3302575c4481843864d039be7e",
+      "engine/first-seventh/web/shell.html": "60e9c60be19838cef65ce68dc36cf68876f8711f827fe17c5c896f08faba11f5",
+      "model-source/export_seventh_engine.py": "83444111332ce94162ec88681bd0ee0c56a3a4d879a6499b330fc98460a6dacd",
+      "model-source/seventh_street_kit.py": "1d8db3bbc8dceab0ba23b558a06e57d75f7a2e1ccc3ba05ef4e3f470c7fbe0da",
+      "model-source/seventh_fidelity_kit.py": "29bc7a804fd639e546fefb6844d724bf60c2ee22270c6b2a57bc7d9c76d235e7",
+      "model-source/build_neighborhood.py": "96582aa9e4b995573c31b83067879d45efd326c190478473f6cd4160f27f81be",
+      "model-source/build_intersection.py": "ff42784487c1eb8f036d400a37674c2fef4f02307119a9963a875a81555465b0",
+      "model-source/neighborhood_detail_kit.py": "6d4331d82f360a883565c0b2e0a21b44e21b159080494b788569edf6a6c8fc0f",
+      "model-source/storefront_detail_kit.py": "ab6d199c0a69e26a92b2ba208fc5f4522339e26192aee13a5b792583996422ce",
+      "model-source/neighborhood_landmarks.py": "7e8c48c9fc5f233d5eaa10b0bffe24f29b0f85e9cf76ca44007cd84e9a1baad3",
+      "model-source/first_seventh_kit.py": "0b8054b71913c3a8ec53cb83bf19886d973e3e650d2a9cdeddb653fc4c4ba20a",
+      "model-source/first_seventh_refinement.py": "5ea53dfd46a5aef6da13848413cbb1edff9de1fbc46848467f359c0c574d7d86",
+      "model-source/storefront-details.json": "272fe166d4f7192cbf26bc2232f1371133f534b50099691566c2b1e40e02b3f1",
+      "model-source/seventh-street-reference-02.json": "363260952d0c582078cb9fafd1cb7ef406cf6c355b8205d1c3c23cdaa73b3752",
+      "model-source/west-seventh-reference-04.json": "fc1cbdc2cc377e5efb785a98ae321cfa4ec93d9c82b889d15b3af1d26169a00f",
+      "model-source/west-seventh-observations-04.json": "b5c679b6a2603385e6dee1d1a8aa2392a0fa8b9c27d16d631637ba0d39bef70c",
+      "model-source/east-seventh-reference-06.json": "aa494d54ff6cd2b33d65c089808c8dc9568addce5c67db9deb986efcd9d00ba2",
+      "model-source/east-seventh-observations-06.json": "8a6ca017474bea086c22ca8ac2244fe85952096eeaaf384354c0687ce7b581a5",
+      "model-source/east-seventh-browser-07.json": "eccbe6e7218852c0f90a897890c68df480b1e5c00bb9abe542fcd2fbd295bcb9",
+      "model-source/make_seventh_audio.py": "859a0530f8d141a0b0f8403f201f428132edfbd1e0df4f4778ac84b337e4d0a3",
+      "scripts/export-seventh.mjs": "b245fc26a4b1a0c1e6c5b1b01ae8a86169e58f359287f41cdc5cb3b5c5088415"
+    }
+  },
+  "conditions": "Local HTTP, Apple M1, unthrottled CPU/network; browser cache disabled for startup. Same routes, weather transitions, reset behavior, and warm intervals as review-seventh.mjs; focus/visibility emulated for isolated sampling; no screenshots or control/recovery checks.",
+  "routeConfig": {
+    "northbound": {
+      "seconds": 5,
+      "warmAfterResetMs": 5500
+    },
+    "seventhEast": {
+      "pose": {
+        "x": -260,
+        "z": 0,
+        "yaw": -1.5707963267948966
+      },
+      "seconds": 8,
+      "weatherSettleMs": 5000
+    },
+    "seventhWest": {
+      "pose": {
+        "x": 258,
+        "z": 0,
+        "yaw": 1.5707963267948966
+      },
+      "seconds": 8,
+      "weatherSettleMs": 5000
+    }
+  },
+  "errors": [],
+  "warnings": [],
+  "failedRequests": [],
+  "samples": [
+    {
+      "name": "weather-0-northbound",
+      "seconds": 5.009999999982119,
+      "frames": 249,
+      "counterMs": 5026,
+      "rafFps": 50.099800399380406,
+      "p95Ms": 33.599999999998545,
+      "drawCalls": 457.8888888888889,
+      "triangles": 3220695.23015873,
+      "final": {
+        "address": "",
+        "addressId": 0,
+        "addressVisible": false,
+        "buildings": 182,
+        "camera": 0,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 0,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            -0.5,
+            3.48094177246094,
+            -48.5825805664062
+          ],
+          "target": [
+            -0.5,
+            1.13094174861908,
+            -60.0325813293457
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 0,
+        "drawCalls": 359,
+        "fps": 58,
+        "frames": 694,
+        "gear": 2,
+        "handbrake": false,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -0.5,
+          -0.0190575886517763,
+          -61.1248474121094
+        ],
+        "ready": true,
+        "rpm": 4977.31499752006,
+        "scale": 1,
+        "slipDegrees": 0,
+        "sound": false,
+        "speed": 22.2478008270264,
+        "started": true,
+        "tickMs": 21367,
+        "tireScrub": 0,
+        "triangles": 2314074,
+        "weather": 0,
+        "wetness": 0,
+        "yaw": 0
+      },
+      "renderFps": 49.54237962594509
+    },
+    {
+      "name": "weather-1-northbound",
+      "seconds": 5.000399999994042,
+      "frames": 250,
+      "counterMs": 4926,
+      "rafFps": 50.99592032643465,
+      "p95Ms": 33.70000000000073,
+      "drawCalls": 461.60546875,
+      "triangles": 3248591.57421875,
+      "final": {
+        "address": "",
+        "addressId": 0,
+        "addressVisible": false,
+        "buildings": 182,
+        "camera": 0,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 0,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            -0.5,
+            3.48094177246094,
+            -45.9353218078613
+          ],
+          "target": [
+            -0.5,
+            1.13094174861908,
+            -57.3853225708008
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 0,
+        "drawCalls": 364,
+        "fps": 41,
+        "frames": 1267,
+        "gear": 2,
+        "handbrake": false,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -0.5,
+          -0.0190594606101513,
+          -58.1719398498535
+        ],
+        "ready": true,
+        "rpm": 4920.30830248506,
+        "scale": 1,
+        "slipDegrees": 0,
+        "sound": false,
+        "speed": 22.0143604278564,
+        "started": true,
+        "tickMs": 32779,
+        "tireScrub": 0,
+        "triangles": 2369185,
+        "weather": 1,
+        "wetness": 0.218997970396786,
+        "yaw": 0
+      },
+      "renderFps": 50.75111652456354
+    },
+    {
+      "name": "weather-2-northbound",
+      "seconds": 5.014099999976155,
+      "frames": 228,
+      "counterMs": 4915,
+      "rafFps": 46.66839512596733,
+      "p95Ms": 33.400000000001455,
+      "drawCalls": 471.91063829787237,
+      "triangles": 3357401.4085106384,
+      "final": {
+        "address": "",
+        "addressId": 0,
+        "addressVisible": false,
+        "buildings": 182,
+        "camera": 0,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 0,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            -0.5,
+            3.4809422492981,
+            -37.7695693969727
+          ],
+          "target": [
+            -0.5,
+            1.13094246387482,
+            -49.2195701599121
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 0,
+        "drawCalls": 382,
+        "fps": 58,
+        "frames": 1814,
+        "gear": 2,
+        "handbrake": false,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -0.5,
+          -0.0190599337220192,
+          -49.8670539855957
+        ],
+        "ready": true,
+        "rpm": 4736.75675545712,
+        "scale": 0.875,
+        "slipDegrees": 0,
+        "sound": false,
+        "speed": 21.2617378234863,
+        "started": true,
+        "tickMs": 44346,
+        "tireScrub": 0,
+        "triangles": 2501051,
+        "weather": 2,
+        "wetness": 0.995444350255266,
+        "yaw": 0
+      },
+      "renderFps": 46.38860630722279
+    },
+    {
+      "name": "weather-0-seventh-east",
+      "seconds": 8.006699999976162,
+      "frames": 304,
+      "counterMs": 7863,
+      "rafFps": 38.592678631760904,
+      "p95Ms": 49,
+      "drawCalls": 713.6225806451613,
+      "triangles": 3088706.4322580644,
+      "final": {
+        "address": "59 E 7TH ST",
+        "addressId": 241822199,
+        "addressVisible": true,
+        "buildings": 182,
+        "camera": 0,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 0,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            -141.376281738281,
+            3.48094177246094,
+            0.0000051852002798114
+          ],
+          "target": [
+            -129.926284790039,
+            1.13094162940979,
+            0.00000568569566894439
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 1,
+        "drawCalls": 659,
+        "fps": 42,
+        "frames": 2482,
+        "gear": 3,
+        "handbrake": false,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -128.640808105469,
+          -0.0190581809729338,
+          0.00000574188470636727
+        ],
+        "ready": true,
+        "rpm": 3869.22515862443,
+        "scale": 0.75,
+        "slipDegrees": -1.3582108452007e-12,
+        "sound": false,
+        "speed": 23.9792518615723,
+        "started": true,
+        "tickMs": 58464,
+        "tireScrub": 0,
+        "triangles": 3180891,
+        "weather": 0,
+        "wetness": 0.00139866611192152,
+        "yaw": -1.57079637050629
+      },
+      "renderFps": 38.662088261477805
+    },
+    {
+      "name": "weather-0-seventh-west",
+      "seconds": 8.001699999982113,
+      "frames": 326,
+      "counterMs": 7952,
+      "rafFps": 41.11626279424815,
+      "p95Ms": 34.299999999995634,
+      "drawCalls": 812.7121212121212,
+      "triangles": 3101158.7363636363,
+      "final": {
+        "address": "117–119 E 7TH ST",
+        "addressId": 248142633,
+        "addressVisible": true,
+        "buildings": 182,
+        "camera": 0,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 0,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            132.143661499023,
+            3.48094177246094,
+            0.00000550134518562118
+          ],
+          "target": [
+            120.69367980957,
+            1.13094162940979,
+            0.00000600184057475417
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 1,
+        "drawCalls": 954,
+        "fps": 34,
+        "frames": 2825,
+        "gear": 3,
+        "handbrake": false,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          119.447052001953,
+          -0.0190581865608692,
+          0.00000605633113082149
+        ],
+        "ready": true,
+        "rpm": 3869.26194260929,
+        "scale": 0.75,
+        "slipDegrees": 1.3582108452007e-12,
+        "sound": false,
+        "speed": 23.9792518615723,
+        "started": true,
+        "tickMs": 66977,
+        "tireScrub": 0,
+        "triangles": 4049313,
+        "weather": 0,
+        "wetness": 0.000023838604018787,
+        "yaw": 1.57079637050629
+      },
+      "renderFps": 40.99597585513079
+    },
+    {
+      "name": "weather-1-seventh-east",
+      "seconds": 8.012499999994034,
+      "frames": 345,
+      "counterMs": 8078,
+      "rafFps": 42.808112324524856,
+      "p95Ms": 34,
+      "drawCalls": 710.6773255813954,
+      "triangles": 3090887.8372093025,
+      "final": {
+        "address": "63 E 7TH ST",
+        "addressId": 241822202,
+        "addressVisible": true,
+        "buildings": 182,
+        "camera": 0,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 0,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            -130.952789306641,
+            3.48094177246094,
+            0.00000564082392884302
+          ],
+          "target": [
+            -119.502784729004,
+            1.13094162940979,
+            0.00000614131931797601
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 1,
+        "drawCalls": 657,
+        "fps": 40,
+        "frames": 3400,
+        "gear": 3,
+        "handbrake": false,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -118.249824523926,
+          -0.0190582070499659,
+          0.00000619608681518002
+        ],
+        "ready": true,
+        "rpm": 3869.36299114115,
+        "scale": 0.75,
+        "slipDegrees": -1.63088574143419e-12,
+        "sound": false,
+        "speed": 23.9640674591064,
+        "started": true,
+        "tickMs": 81395,
+        "tireScrub": 0,
+        "triangles": 3206632,
+        "weather": 1,
+        "wetness": 0.219751907919975,
+        "yaw": -1.57079637050629
+      },
+      "renderFps": 42.70859123545432
+    },
+    {
+      "name": "weather-1-seventh-west",
+      "seconds": 8.032999999988082,
+      "frames": 349,
+      "counterMs": 8100,
+      "rafFps": 43.0723266526221,
+      "p95Ms": 34.10000000000582,
+      "drawCalls": 813.4755043227666,
+      "triangles": 3095395.6397694526,
+      "final": {
+        "address": "117–119 E 7TH ST",
+        "addressId": 248142633,
+        "addressVisible": true,
+        "buildings": 182,
+        "camera": 0,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 0,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            132.705062866211,
+            3.48094177246094,
+            0.00000547680656381999
+          ],
+          "target": [
+            121.255058288574,
+            1.1309415102005,
+            0.00000597730195295298
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 1,
+        "drawCalls": 952,
+        "fps": 39,
+        "frames": 3761,
+        "gear": 3,
+        "handbrake": false,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          119.846710205078,
+          -0.019058208912611,
+          0.00000603886201133719
+        ],
+        "ready": true,
+        "rpm": 3869.36024150991,
+        "scale": 0.75,
+        "slipDegrees": 1.63088574143419e-12,
+        "sound": false,
+        "speed": 23.9640674591064,
+        "started": true,
+        "tickMs": 89752,
+        "tireScrub": 0,
+        "triangles": 4048965,
+        "weather": 1,
+        "wetness": 0.219995510811423,
+        "yaw": 1.57079637050629
+      },
+      "renderFps": 43.08641975308642
+    },
+    {
+      "name": "weather-2-seventh-east",
+      "seconds": 8.013699999999996,
+      "frames": 344,
+      "counterMs": 7878,
+      "rafFps": 43.05127469208981,
+      "p95Ms": 34.19999999999709,
+      "drawCalls": 712.3901734104046,
+      "triangles": 3091503.5693641617,
+      "final": {
+        "address": "61 E 7TH ST",
+        "addressId": 241822201,
+        "addressVisible": true,
+        "buildings": 182,
+        "camera": 0,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 0,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            -136.758255004883,
+            3.48094177246094,
+            0.00000538705899089109
+          ],
+          "target": [
+            -125.308242797852,
+            1.13094162940979,
+            0.00000588755438002408
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 1,
+        "drawCalls": 660,
+        "fps": 45,
+        "frames": 4325,
+        "gear": 3,
+        "handbrake": false,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -123.844955444336,
+          -0.0190582014620304,
+          0.00000595151550442097
+        ],
+        "ready": true,
+        "rpm": 3869.25766314555,
+        "scale": 0.75,
+        "slipDegrees": -1.62985301424083e-12,
+        "sound": false,
+        "speed": 23.9792518615723,
+        "started": true,
+        "tickMs": 103764,
+        "tireScrub": 0,
+        "triangles": 3204094,
+        "weather": 2,
+        "wetness": 0.998922552309557,
+        "yaw": -1.57079637050629
+      },
+      "renderFps": 43.66590505204367
+    },
+    {
+      "name": "weather-2-seventh-west",
+      "seconds": 8.017099999976155,
+      "frames": 330,
+      "counterMs": 7907,
+      "rafFps": 41.66094972009746,
+      "p95Ms": 33.79999999998836,
+      "drawCalls": 818.3880597014926,
+      "triangles": 3115372.36119403,
+      "final": {
+        "address": "111–115 E 7TH ST",
+        "addressId": 248142624,
+        "addressVisible": true,
+        "buildings": 182,
+        "camera": 0,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 0,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            130.746643066406,
+            3.48094153404236,
+            0.00000556241047888761
+          ],
+          "target": [
+            119.296653747559,
+            1.13094162940979,
+            0.00000606290586802061
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 1,
+        "drawCalls": 952,
+        "fps": 37,
+        "frames": 4678,
+        "gear": 3,
+        "handbrake": false,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          117.848190307617,
+          -0.0190582051873207,
+          0.00000612621943218983
+        ],
+        "ready": true,
+        "rpm": 3869.46111456541,
+        "scale": 0.75,
+        "slipDegrees": 1.90030122537573e-12,
+        "sound": false,
+        "speed": 23.9943180084229,
+        "started": true,
+        "tickMs": 112468,
+        "tireScrub": 0,
+        "triangles": 4060841,
+        "weather": 2,
+        "wetness": 0.999983593751413,
+        "yaw": 1.57079637050629
+      },
+      "renderFps": 41.73517136714304
+    }
+  ],
+  "startup": {
+    "readyMs": 9120.40000000596,
+    "resources": [
+      {
+        "path": "/seventh/InterVariable.woff2",
+        "bytes": 352540,
+        "durationMs": 42.20000001788139
+      },
+      {
+        "path": "/seventh/drivearound-logo.png",
+        "bytes": 80763,
+        "durationMs": 32.69999998807907
+      },
+      {
+        "path": "/seventh/index.js",
+        "bytes": 280115,
+        "durationMs": 38
+      },
+      {
+        "path": "/seventh/index.wasm",
+        "bytes": 39515054,
+        "durationMs": 667.7000000178814
+      },
+      {
+        "path": "/seventh/index.pck",
+        "bytes": 89466448,
+        "durationMs": 1141
+      }
+    ],
+    "stats": {
+      "address": "",
+      "addressId": 0,
+      "addressVisible": false,
+      "buildings": 182,
+      "camera": 3,
+      "cameraPose": {
+        "inspecting": false,
+        "mode": 3,
+        "pan": [
+          0,
+          0,
+          0
+        ],
+        "pitch": 0,
+        "position": [
+          8.5,
+          21.9802093505859,
+          23
+        ],
+        "target": [
+          -0.5,
+          -0.0197903737425804,
+          6.59999990463257
+        ],
+        "yaw": 0,
+        "zoom": 1
+      },
+      "collisions": 0,
+      "drawCalls": 335,
+      "fps": 29,
+      "frames": 93,
+      "gear": 1,
+      "handbrake": false,
+      "paused": false,
+      "persistent": true,
+      "position": [
+        -0.5,
+        -0.0197903737425804,
+        8
+      ],
+      "ready": true,
+      "rpm": 850,
+      "scale": 1,
+      "slipDegrees": 0,
+      "sound": false,
+      "speed": 0,
+      "started": false,
+      "tickMs": 8036,
+      "tireScrub": 0,
+      "triangles": 2734611,
+      "weather": 0,
+      "wetness": 0,
+      "yaw": 0
+    }
+  },
+  "complete": true
+}

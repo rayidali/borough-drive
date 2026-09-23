@@ -4,6 +4,9 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import assert from 'node:assert/strict';
 const out = path.resolve(process.argv[2] || 'renders/seventh-engine/browser-review');
+// Resume the independent settings/recovery checks after a completed driving
+// pass; retain the earlier report rather than rerunning its long route loop.
+const recoveryOnly = process.argv.includes('--recovery-only');
 const url = process.env.BOROUGH_REVIEW_URL || 'http://127.0.0.1:5173/seventh/?review=1';
 await fs.mkdir(out, {recursive:true});
 const tab = await (await fetch('http://127.0.0.1:9222/json/new?about:blank', {method:'PUT'})).json();
@@ -29,6 +32,7 @@ let commandSequence=0;
 async function command(value){const sequence=++commandSequence;await evaluate('window.seventhReviewCommand='+JSON.stringify({...value,sequence}));await until('window.seventhReviewAck==='+sequence,5000);await sleep(350);}
 const report={date:new Date().toISOString(),url,viewport:{width:1440,height:1000,deviceScaleFactor:1},conditions:'Local HTTP, Apple M1, unthrottled CPU/network; browser cache disabled for startup. Render counters from the actual engine; subsequent samples warmed.',errors:[],warnings:[],failedRequests:[],samples:[],checks:{},screenshots:[]};
 report.build=JSON.parse(await fs.readFile(new URL('../dist/seventh/build.json',import.meta.url),'utf8'));
+report.scope = recoveryOnly ? 'settings, focus, resize, postcard and recovery only' : 'full browser review';
 let faultPhase=false;
 report.recovery={errors:[],warnings:[],failedRequests:[],checks:{}};
 const log=()=>faultPhase?report.recovery:report;
@@ -44,6 +48,10 @@ try {
   await send('Page.enable');await send('Runtime.enable');await send('Network.enable');
   await send('Network.setCacheDisabled',{cacheDisabled:true});
   await send('Emulation.setDeviceMetricsOverride',{...report.viewport,mobile:false});
+  // An OS-unfocused automation window can defer engine frames during reload
+  // until the loader watchdog expires. Test focus loss explicitly below.
+  await send('Emulation.setFocusEmulationEnabled',{enabled:true});
+  await send('Page.bringToFront');
   await send('Page.navigate',{url});
   await until('window.seventhStats?.ready && document.getElementById("loading").hidden');
   report.startup=await evaluate('({readyMs:seventhReadyMs,resources:performance.getEntriesByType("resource").map(r=>({path:new URL(r.name).pathname,bytes:r.transferSize,durationMs:r.duration})),stats:seventhStats})');
@@ -53,6 +61,7 @@ try {
   // Normalize to golden hour/chase through actual controls, including saved settings.
   while((await stats()).weather!==0)await tap('t');
   while((await stats()).camera!==0)await tap('c');
+  if (!recoveryOnly) {
   for(let mood=0;mood<3;mood++){
     await tap('r');await sleep(5500);
     for(let view=0;view<4;view++){
@@ -116,6 +125,7 @@ try {
   await tap('Escape');const stopped=await stats();await hold('w',800);assert.equal((await stats()).paused,true);assert(Math.hypot((await stats()).position[0]-stopped.position[0],(await stats()).position[2]-stopped.position[2])<.1);await screenshot('pause');await tap('Escape');report.checks.pause=true;
   await tap('r');await sleep(500);assert(Math.abs((await stats()).speed)<.1);assert(Math.abs((await stats()).position[2]-8)<.1);report.checks.reset=true;
   await hold('a',600);await key('a',true);await hold('w',900);await key('a',false);assert((await stats()).yaw>.1);report.checks.steering=true;
+  }
   await tap('r');await tap('c');await tap('m');await sleep(2000);
   const saved=await stats();report.settingsBeforeReload=saved;
   await send('Page.reload');await until('window.seventhStats?.ready && document.getElementById("loading").hidden');
@@ -127,6 +137,10 @@ try {
   assert.equal(report.retinaCanvas.height,800);
   await send('Emulation.setDeviceMetricsOverride',{...report.viewport,mobile:false});
   report.checks.resize=true;
+  await send('Emulation.setFocusEmulationEnabled',{enabled:false});
+  await send('Page.bringToFront');
+  if ((await stats()).paused) await tap('Escape');
+  assert.equal((await stats()).paused,false,'Focus-loss test starts unpaused');
   const elsewhere=await send('Target.createTarget',{url:'about:blank'});
   await send('Target.activateTarget',{targetId:elsewhere.targetId});
   await until('document.visibilityState === "hidden"',5000);await sleep(600);
@@ -137,6 +151,7 @@ try {
   assert.equal((await stats()).paused,true,'Switching tabs safely pauses driving');
   await send('Target.closeTarget',{targetId:elsewhere.targetId});await tap('Escape');
   report.checks.focusLoss=true;
+  await send('Emulation.setFocusEmulationEnabled',{enabled:true});
   const downloads=path.join(out,'postcards');await fs.mkdir(downloads,{recursive:true});
   await send('Browser.setDownloadBehavior',{behavior:'allow',downloadPath:downloads});
   const beforeDownload=new Set(await fs.readdir(downloads));await tap('p');

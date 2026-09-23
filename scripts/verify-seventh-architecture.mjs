@@ -138,10 +138,16 @@ const eastById=new Map(schedule.elevations.map(e=>[e.buildingId,e]));
 for(const [id,address] of [[248142621,'109 East 7th Street'],[248142411,'116 East 7th Street']]){
   assert.equal(eastById.get(id).addressOverride,address,'Engine-only identity correction');
 }
-for(const [id,count] of [[248142633,6],[248142396,4],[248142411,3],[248142333,3],[248142334,3]]){
+// April 2026 browser views resolve the four-bay elevations at 116/118/120;
+// the earlier three-bay assertions encoded an archive-reading mistake.
+for(const [id,count] of [[248142633,6],[248142396,4],[248142411,4],[248142333,4],[248142334,4]]){
   const rows=new Map();
   for(const w of eastById.get(id).architecture.windows.filter(w=>w.bottom>=3.55))rows.set(w.bottom,(rows.get(w.bottom)||0)+1);
   assert([...rows.values()].every(n=>n===count),id+' per-floor opening count');
+}
+for(const id of [248142411,248142334]){
+  const a=effectiveArchitecture(eastById.get(id));
+  assert.equal(a.windows.filter(w=>w.bottom>=3&&w.bottom<3.55).length,4,id+' parlor row must survive the ground override');
 }
 assert.equal(new Set(eastById.get(248142624).architecture.windows.map(w=>w.bottom)).size,6,'McKinley six upper rows');
 assert.equal(eastById.get(248142618).architecture.windows.filter(w=>w.bottom>7&&w.bottom<8).length,5,'St Stanislaus five upper lancets');

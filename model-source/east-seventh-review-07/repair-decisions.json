@@ -1,0 +1,20 @@
+{
+  "basis": "Actual first-candidate 37 elevations and 52 ground views inspected; ordinary browser overlap resolves corner ownership. All final 89 frontage views and nine obliques recaptured and visually inspected after repairs.",
+  "repairs": [
+    "116/120 parlor rows were removed by replaceWindows threshold; moved into effective groundOpenings and added structural recurrence checks.",
+    "Yuca whole return reinspection: five uneven stacks, blank east strip, no Seventh escape.",
+    "109 Avenue A mapped parcel includes 130/Titis western section: correct paired-window rhythm, west fire escape, cream stone courses, 130 at local .825 and Titis to its right.",
+    "101 number board gets solid triangular backing; bronze silhouette and observed flag poles added.",
+    "97/97half solid arch infill no longer gets a false glass-style middle bar.",
+    "98 fixed yellow reveal no longer inherits a glazed door panel.",
+    "94 front fence color follows white stoop rails.",
+    "Moved new plinth material split out of legacy storefront kit into engine-only wrapper.",
+    "Performance sampling found 108 nested meshes bypassed the existing direct-child material batcher. Reparent only those static meshes to the existing batch input; site transform is identity, all model assets/vertices/materials and gate collider remain unchanged. Final package/render/performance checks pass; full behavior repeat is recorded separately."
+  ],
+  "limitations": [
+    "No calibrated multi-view acceptance.",
+    "Tiny unreadable/occluded numbers not invented.",
+    "Dimensions, thin relief, substitute fonts and concealed surfaces remain estimates."
+  ],
+  "finalPackageSha256": "746113ee606ebfb6b6b0e32861974ce2ae3445c25d7a6b509b011c7c6bd393fa"
+}

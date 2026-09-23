@@ -31,6 +31,26 @@ material('seventh pale church brick', (.67,.66,.60), .95)
 material('seventh rough church stone', (.38,.395,.36), .98)
 material('seventh slate roof', (.29,.34,.36), .85)
 material('seventh worn stair stone', (.40,.39,.35), .96)
+material('east7 scaffold blue', (.045,.20,.36), .76)
+material('east7 shed green', (.065,.21,.13), .90)
+material('east7 plywood', (.48,.25,.11), .97)
+material('east7 sage paint', (.34,.43,.34), .87)
+material('east7 navy paint', (.075,.13,.19), .87)
+material('east7 salmon trim', (.61,.35,.29), .88)
+material('east7 bronze', (.17,.19,.12), .69)
+
+_fidelity_photographed_shop = photographed_shop
+def photographed_shop(f,a,b,r):
+    """Engine-only color split for observed shop plinths; legacy kit is frozen."""
+    _fidelity_photographed_shop(f,a,b,r)
+    spec=r['design'];mat=spec.get('baseMaterial')
+    if not mat or b-a<.75:return
+    left=a+.16;usable=b-a-.32;base=spec.get('base',.40)
+    for kind,fraction in spec['panels']:
+        width=usable*fraction
+        if kind not in ['door','double-door']:
+            f.b(left+width/2,(base+.17)/2,spec.get('windowDepth',.035)+.13,width,max(.04,base-.17),.03,mat)
+        left+=width
 
 class FidelityProjectedFacade:
     def __init__(self,base,depth):self.base=base;self.depth=depth
@@ -113,6 +133,26 @@ def fidelity_opening(f,s,bottom,w,h,mat='seventh reflective glass',shape='rectan
     return shoulder
 
 def fidelity_window(f,r):
+    if r.get('angledBay'):
+        # The two white parlor oriels at 112 have glazed angled returns.
+        # Explicit opt-in: existing projected windows keep their old geometry.
+        s=r['at']*f.L;w=r['width']*f.L;projection=r['projection']
+        y=r['bottom'];h=r['height'];front_w=w*r.get('frontFraction',.72)
+        fidelity_opening(f,s,y,w,h,d=-.20)
+        front=FidelityProjectedFacade(f,projection)
+        clean={k:v for k,v in r.items() if k not in ['angledBay','projection','frontFraction']}
+        fidelity_window(front,{**clean,'width':front_w/f.L})
+        for side in [-1,1]:
+            aa=f.p(s+side*w/2,0,.02);bb=f.p(s+side*front_w/2,0,projection)
+            if side>0:aa,bb=bb,aa
+            length=math.hypot(bb[0]-aa[0],bb[2]-aa[2])
+            panel=Facade(aa[0],aa[2],(bb[0]-aa[0])/length,(bb[2]-aa[2])/length,length);panel.wall=r.get('frame','white frame')
+            fidelity_window(panel,{**clean,'at':.5,'width':.90,'columns':1,'recess':-.04,'hood':'none'})
+        for yy in [y-.08,y+h+.09]:
+            points=[f.p(s-w/2-.06,yy,0),f.p(s+w/2+.06,yy,0),f.p(s+front_w/2+.06,yy,projection+.09),f.p(s-front_w/2-.06,yy,projection+.09)]
+            face(points,r.get('trim','white frame'))
+            for a,b in zip(points,points[1:]+points[:1]):rod(a,b,.06,r.get('trim','white frame'),6)
+        return
     if r.get('projection'):
         projection=r['projection'];s=r['at']*f.L;w=r['width']*f.L
         y=r['bottom'];h=r['height'];mat=r.get('frame','black iron')
@@ -198,14 +238,29 @@ def fidelity_access(f,s,w,r):
                 for (y0,d0),(y1,d1) in zip(outline,outline[1:]+outline[:1]):
                     face([f.p(x-thickness/2,y0,d0),f.p(x+thickness/2,y0,d0),
                           f.p(x+thickness/2,y1,d1),f.p(x-thickness/2,y1,d1)],mat)
+        if r.get('brickLattice'):
+            # 98's brick/capped piers and pale diagonal infill are not iron
+            # balusters. Heights follow the explicit stair schedule.
+            for side in [-1,1]:
+                x=s+side*(w/2+.06)
+                for dd,yy in [(landing+run,.17),(landing,.17+rise)]:
+                    f.b(x,yy+.48,dd,.27,.96,.30,'seventh red facade brick')
+                    f.b(x,yy+.99,dd,.36,.12,.40,'seventh worn stair stone')
+                for j in range(count):
+                    d0=landing+run*(1-j/count);d1=landing+run*(1-(j+1)/count)
+                    y0=.28+rise*j/count;y1=.28+rise*(j+1)/count
+                    for offset in [.30,.74]:f.line((x,y0+offset,d0),(x,y1+offset,d1),.025,'seventh grey painted stone')
+                    f.line((x,y0+.30,d0),(x,y1+.74,d1),.018,'seventh grey painted stone')
+                    f.line((x,y0+.74,d0),(x,y1+.30,d1),.018,'seventh grey painted stone')
         if r.get('rails',True):
+            rail_mat=r.get('railMaterial','black iron')
             for side in [-1,1]:
                 x=s+side*w*.51
-                f.line((x,1.1,run+landing),(x,1.1+rise,landing),.025,'black iron')
-                f.line((x,1.1+rise,landing),(x,1.1+rise,.06),.025,'black iron')
+                f.line((x,1.1,run+landing),(x,1.1+rise,landing),.025,rail_mat)
+                f.line((x,1.1+rise,landing),(x,1.1+rise,.06),.025,rail_mat)
                 for j in range(count+1):
                     d=landing+run*(1-j/count);y=.18+rise*j/count
-                    f.line((x,y,d),(x,y+.92,d),.012,'black iron')
+                    f.line((x,y,d),(x,y+.92,d),.012,rail_mat)
     if r.get('ramp'):
         # Explicit start/end endpoints support lateral and outward ramps.
         ramp=r['ramp'];a=ramp['start'];b=ramp['end'];width=ramp['width']
@@ -222,37 +277,57 @@ def fidelity_access(f,s,w,r):
 def fidelity_door(f,r):
     s=r['at']*f.L;w=r['width']*f.L;bottom=r.get('bottom',.19);top=r['top']
     trim=r.get('trim','cream stone');mat=r.get('material','door enamel');d=-r.get('recess',.18)
-    shape=r.get('shape','rectangle');shoulder=fidelity_opening(f,s,bottom,w,top-bottom,r.get('openingMaterial','seventh reflective glass'),shape,d-.03)
+    shape=r.get('shape','rectangle');arched_leaves=r.get('archedLeaves',False)
+    shoulder=fidelity_opening(f,s,bottom,w,top-bottom,mat if arched_leaves else r.get('openingMaterial','seventh reflective glass'),shape,d-.03)
     arch_rise=top-shoulder;leaves=r.get('leaves',1);leaf_top=r.get('leafTop',min(shoulder,bottom+2.32))
+    if arched_leaves:leaf_top=shoulder
     parts=r.get('parts',[{'fraction':1/leaves} for j in range(leaves)])
     for j,part in enumerate(parts):
         x=s-w/2+w*(sum(p['fraction'] for p in parts[:j])+part['fraction']/2) if r.get('parts') else s-w/2+w*(j+.5)/leaves
         ww=w*part['fraction']-.018
-        f.b(x,(bottom+leaf_top)/2,d,ww,leaf_top-bottom,.075,mat)
-        for p in r.get('panels',[]):
+        part_mat=part.get('material',mat)
+        f.b(x,(bottom+leaf_top)/2,d,ww,leaf_top-bottom,.075,part_mat)
+        for p in part.get('panels',r.get('panels',[])):
             cy=bottom+p['y']*(leaf_top-bottom);hh=p['height']*(leaf_top-bottom);pw=ww*p.get('width',.72)
             f.b(x,cy,d+.045,pw,hh,.022,'seventh reflective glass' if p.get('glass') else r.get('panelMaterial',mat))
             fidelity_panel(f,x,cy,pw+.045,hh+.045,d+.07,mat,.038)
             if p.get('columns',1)>1:
                 for k in range(1,p['columns']):f.b(x-pw/2+pw*k/p['columns'],cy,d+.08,.028,hh,.025,mat)
+            for k in range(1,p.get('rows',1)):f.b(x,cy-hh/2+hh*k/p['rows'],d+.08,pw,.028,.025,mat)
+        if arched_leaves:
+            l=x-ww/2+.10;rr=x+ww/2-.10;low=bottom+.48
+            curve=[(l+(rr-l)*k/16,shoulder+arch_rise*fidelity_curve_height((l+(rr-l)*k/16-s)/(w/2),shape)-.13) for k in range(17)]
+            outline=[(l,low),(rr,low),*reversed(curve)]
+            verts=[Vector((xx,yy,0)) for xx,yy in outline]
+            for tri in tessellate_polygon([verts]):
+                vv=[verts[k] if isinstance(k,int) else k for k in tri]
+                face([f.p(v.x,v.y,d+.047) for v in vv],'seventh reflective glass')
+            for a,b in zip(outline,outline[1:]+outline[:1]):fidelity_stroke(f,(*a,d+.075),(*b,d+.075),.035,mat)
+        if r.get('crossPanels'):
+            cy=bottom+(leaf_top-bottom)*.66
+            f.b(x,cy,d+.09,.065,(leaf_top-bottom)*.36,.07,mat)
+            f.b(x,cy+.15,d+.09,ww*.55,.065,.07,mat)
+        if r.get('grille'):
+            diamond_grille(f,x-ww*.38,x+ww*.38,bottom+.40,leaf_top-.12,d+.11,mat)
         if not part.get('fixed'):
             side=-1 if part.get('handle')=='left' else 1 if part.get('handle')=='right' else 1 if leaves==1 or j%2==0 else -1
             hx=x+ww*.32*side
             f.line((hx,bottom+.92,d+.11),(hx,bottom+1.23,d+.11),.015,r.get('hardware','brass'))
     for xx in [s-w/2-.055,s+w/2+.055]:f.b(xx,(bottom+shoulder)/2,.025,.11,shoulder-bottom,.30,trim)
-    f.b(s,leaf_top,d+.075,w,.11,.10,mat)
+    if not arched_leaves:f.b(s,leaf_top,d+.075,w,.11,.10,mat)
     if shoulder>leaf_top+.08:
         if r.get('transomMaterial'):f.b(s,(leaf_top+shoulder)/2,d-.015,w,shoulder-leaf_top,.025,r['transomMaterial'])
         for j in range(leaves+1):f.b(s-w/2+j*w/leaves,(leaf_top+shoulder)/2,d+.045,.065,shoulder-leaf_top,.095,mat)
     if arch_rise:
+        arch_mat=r.get('archFrameMaterial',mat)
         if shape in ['pointed','ogee']:
-            fidelity_shaped_arc(f,s,shoulder,w*.5,arch_rise,d+.06,.055,mat,shape)
+            fidelity_shaped_arc(f,s,shoulder,w*.5,arch_rise,d+.06,.055,arch_mat,shape)
             fidelity_shaped_arc(f,s,shoulder,w*.5+.13,arch_rise+.13,.12,.095,trim,shape)
         else:
-            fidelity_arc(f,s,shoulder,w*.5,arch_rise,d+.06,.055,mat)
+            fidelity_arc(f,s,shoulder,w*.5,arch_rise,d+.06,.055,arch_mat)
             fidelity_arc(f,s,shoulder,w*.5+.13,arch_rise+.13,.12,.095,trim)
-        f.b(s,(top+shoulder)/2,d+.075,.065,arch_rise,.10,mat)
-        f.b(s,shoulder,d+.075,w,.09,.10,mat)
+        if r.get('archMullion',True):f.b(s,(top+shoulder)/2,d+.075,.065,arch_rise,.10,arch_mat)
+        if not arched_leaves and r.get('shoulderBar',True):f.b(s,shoulder,d+.075,w,.09,.10,arch_mat)
     else:f.b(s,top+.08,.09,w+.25,.16,.34,trim)
     if r.get('hood')=='pediment':
         for side in [-1,1]:f.line((s+side*(w/2+.22),top+.15,.17),(s,top+.55,.17),.07,trim)
@@ -273,7 +348,10 @@ def fidelity_door(f,r):
             f.line((s,shoulder,d+.10),(s+math.cos(a)*w*.47,shoulder+math.sin(a)*arch_rise*.93,d+.10),.009,'black iron')
     f.b(s,bottom,.10,w+.14,.06,.52,r.get('thresholdMaterial',trim))
     if r.get('label'):
-        sign_text(f,s,r.get('labelY',min(top-.12,leaf_top+.22)),w*.90,r['label'],r.get('labelMaterial','cream stone'),r.get('labelSize',.16),d+.13)
+        label_s=s+w*r.get('labelOffset',0);label_y=r.get('labelY',min(top-.12,leaf_top+.22));label_d=r.get('labelDepth',d+.13)
+        if r.get('labelPlate'):
+            plate=r['labelPlate'];f.b(label_s,label_y,label_d-.025,plate['width'],plate['height'],.035,plate.get('material','cream stone'))
+        sign_text(f,label_s,label_y,w*r.get('labelWidth',.90),r['label'],r.get('labelMaterial','cream stone'),r.get('labelSize',.16),label_d)
     fidelity_access(f,s,w+.28,r.get('access',{}))
 
 def fidelity_courses(f,top,mat,step=.44,bottom=.18,depth=.028):
@@ -536,6 +614,42 @@ def _observed_scaffold(f, spec):
         b=sc.get('to',1)*f.L if isinstance(sc.get('to',1),(int,float)) else sc['at'][1]*f.L
         levels=sc.get('levels',[.35,3.45,6.55,9.65,12.75])
         depth=sc.get('depth',.36)
+        if sc.get('datedShed'):
+            # April 2026 east-block sheds. Separate fascia, posts, braces and
+            # upper working decks; opt-in leaves the accepted 66 unchanged.
+            canopy=sc.get('canopyY',3.35);mat=sc.get('material','metal')
+            count=max(2,round((b-a)/1.8));posts=[a+(b-a)*j/count for j in range(count+1)]
+            high=max(levels[-1],canopy)
+            for x in posts:
+                f.line((x,.18,depth),(x,high,depth),.035,mat)
+                f.line((x,canopy,.06),(x,canopy,depth),.035,mat)
+                f.b(x,.18,depth,.20,.04,.20,'metal')
+            f.b((a+b)/2,canopy,depth/2,b-a,.14,depth,'seventh worn stair stone')
+            f.b((a+b)/2,canopy+.42,depth+.03,b-a,.76,.09,'east7 shed green')
+            for j,(x0,x1) in enumerate(zip(posts,posts[1:])):
+                if j%2==0:
+                    f.line((x0,.30,depth),(x1,canopy-.14,depth),.020,mat)
+                    f.line((x1,.30,depth),(x0,canopy-.14,depth),.020,mat)
+                f.b((x0+x1)/2,canopy-.12,depth*.5,.28,.045,.15,'opal lamp')
+                for y0,y1 in zip(levels,levels[1:]):
+                    if y0<canopy:continue
+                    f.line((x0,y0,depth),(x1,y1,depth),.020,mat)
+                    f.line((x1,y0,depth),(x0,y1,depth),.020,mat)
+                    for yy in [y0,y0+.95]:f.line((x0,yy,depth),(x1,yy,depth),.025,mat)
+                    f.b((x0+x1)/2,y0,depth*.5,x1-x0,.055,depth,'wood')
+            if sc.get('net'):
+                # Sparse dark mesh geometry avoids transparent overdraw.
+                for j in range(max(2,round((b-a)/.16))+1):
+                    x=a+(b-a)*j/max(2,round((b-a)/.16))
+                    f.b(x,(canopy+high)/2,depth+.07,.013,high-canopy,.012,'black iron')
+                for j in range(max(2,round((high-canopy)/.23))+1):
+                    yy=canopy+(high-canopy)*j/max(2,round((high-canopy)/.23))
+                    f.b((a+b)/2,yy,depth+.075,b-a,.011,.012,'black iron')
+                for x in posts:
+                    for yy in levels[1:]:f.b(x,yy,depth+.10,.08,.05,.025,'theater red')
+            if sc.get('board'):
+                observed_sign(f,a,b,{'at':.24,'width':.43,'y':canopy+.44,'height':.53,'depth':depth+.10,'material':'sign white','lines':[{'text':sc['board'],'material':'black iron','size':.12}]})
+            continue
         for x in [a,b]:
             f.line((x,.18,depth),(x,levels[-1],depth),.035,'black iron')
         for y in levels:f.line((a,y,depth),(b,y,depth),.028,'black iron')
@@ -702,7 +816,7 @@ def fidelity_elevation(b,f,r):
         elif shop.get('design'):photographed_shop(f,a,end,shop)
         elif r.get('legacyShops',False):storefront(f,a,end,shop['name'].upper(),shop.get('awning'),shop.get('fascia','window frame'),shop.get('letters','sign white'))
     for rail in r.get('rails',[]):
-        seventh_fence(f,rail['span'][0]*f.L,rail['span'][1]*f.L,rail.get('depth',1.10))
+        seventh_fence(f,rail['span'][0]*f.L,rail['span'][1]*f.L,rail.get('depth',1.10),rail.get('material','seventh worn iron'))
     for pier in r.get('piers',[]):
         s=pier['at']*f.L;y=(pier['bottom']+pier['top'])/2;hh=pier['top']-pier['bottom'];w=pier['width']*f.L;mat=pier['material']
         f.b(s,y,.06,w,hh,.16,mat)
@@ -726,6 +840,26 @@ def fidelity_elevation(b,f,r):
             x=s-w/2+w*j/max(2,round(w/.16))
             f.line((x,y,d),(x,y+height,d),.012,mat)
     for sign in r.get('signs',[]):observed_sign(f,0,f.L,sign)
+    for aw in r.get('awnings',[]):observed_awning(f,aw['span'][0]*f.L,aw['span'][1]*f.L,aw)
+    for blade in r.get('blades',[]):projecting_sign(f,0,f.L,blade)
+    # Small explicitly observed facade fixtures; every coordinate is authored
+    # in the record, without an automatic decoration/number-placement rule.
+    for item in r.get('detailBoxes',[]):
+        f.b(item['at']*f.L,item['y'],item.get('depth',.16),item['width'],item['height'],item.get('thickness',.08),item['material'])
+    for item in r.get('detailLines',[]):
+        a=item['from'];c=item['to'];f.line((a[0]*f.L,a[1],a[2]),(c[0]*f.L,c[1],c[2]),item.get('radius',.02),item['material'])
+    for item in r.get('detailFaces',[]):
+        face([f.p(v[0]*f.L,v[1],v[2]) for v in item['vertices']],item['material'])
+    for item in r.get('busts',[]):
+        # Small faceted bronze silhouette. Portrait likeness is not claimed.
+        s=item['at']*f.L;y=item['y'];d=item['depth'];mat='east7 bronze'
+        rod(f.p(s,y,d),f.p(s,y+.25,d),.25,mat,12,r2=.15)
+        rod(f.p(s,y+.25,d),f.p(s,y+.35,d),.085,mat,10)
+        for j in range(7):
+            t0=-math.pi/2+j*math.pi/7;t1=-math.pi/2+(j+1)*math.pi/7
+            for k in range(12):
+                angle_a=k*math.tau/12;angle_b=(k+1)*math.tau/12
+                face([f.p(s+math.cos(t)*math.cos(v)*.12,y+.48+math.sin(t)*.17,d+math.cos(t)*math.sin(v)*.12) for t,v in [(t0,angle_a),(t0,angle_b),(t1,angle_b),(t1,angle_a)]],mat)
     if r.get('cornice'):
         c=r['cornice'];fidelity_cornice(f,c.get('y',b['renderHeight']),c)
     for detail in r.get('ornaments',[]):
@@ -744,6 +878,8 @@ def fidelity_elevation(b,f,r):
         # avenue design over the entire corner parcel.
         photographed_shop(f,shop['span'][0]*f.L,shop['span'][1]*f.L,
                           {'design':shop['design'],'name':shop['name']})
+    for zone in r.get('surfaceZones',[]):
+        fidelity_clipped_surface(f,zone['span'][0]*f.L,zone['span'][1]*f.L,zone.get('bottom',.18),zone['top'],.025,.022,zone['material'],.015)
 
 _fidelity_previous_render=render_building
 _fidelity_previous_detail=add_seventh_detail

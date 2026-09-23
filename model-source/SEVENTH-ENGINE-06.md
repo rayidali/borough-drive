@@ -1,5 +1,7 @@
 # East Seventh, First Avenue–Avenue A — revision 06
 
+**Historical public-reference pass.** The later [revision 07](SEVENTH-ENGINE-07.md) records browser observations and refinements of this same block. Read the current handoff for the latest saved package and tests; the evidence below retains its original revision 06 boundary.
+
 September 21, 2026 local session (evidence timestamps continue into September 22 UTC). This implements a public-reference architectural pass on both sides of the requested block, using the user-endorsed First–Second revision 04 as the visual standard. It is a locally reviewable candidate, not a claim that every minute detail or current street condition matches a photograph. The published interface, west block, accepted First Avenue corner and original game remain preserved.
 
 Implementation/source/export/evidence save: `acf1d18fe36879faf74d1589e25c7330bbe4ef48` on `feature/east-seventh-fidelity-06`, local only. The final documentation checkpoint follows separately in Git history.

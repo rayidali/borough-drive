@@ -1,0 +1,6247 @@
+{
+  "checked": "2026-09-23T19:47:26.403Z",
+  "build": {
+    "schema": 1,
+    "builtAt": "2026-09-23T19:46:57.712Z",
+    "engine": "Godot 4.7.2",
+    "renderer": "Compatibility / WebGL 2",
+    "threaded": false,
+    "buildings": 182,
+    "sourceCommit": "c76dccebc143960498d21eeab8c55c2d0dbcc5ce",
+    "geographySha256": "fd61b108e80eab18d477686b677413ef565f1ab16edc26170751347e22651a5c",
+    "files": {
+      "DAMION-OFL.txt": {
+        "bytes": 4389,
+        "sha256": "4aeb831b7b6ab653dca84308e576613059c598696aa2dc83192ab6117b24a5fa"
+      },
+      "INTER-OFL.txt": {
+        "bytes": 4380,
+        "sha256": "262481e844521b326f5ecd053e59b98c8b2da78c8ee1bdbb6e8174305e54935a"
+      },
+      "InterVariable.woff2": {
+        "bytes": 352240,
+        "sha256": "693b77d4f32ee9b8bfc995589b5fad5e99adf2832738661f5402f9978429a8e3"
+      },
+      "LICENSE.txt": {
+        "bytes": 1097,
+        "sha256": "d698c1c978070d4305be75e60e904f6f54715f003fe248a23bf8b3ee0ca07134"
+      },
+      "credits.txt": {
+        "bytes": 3289,
+        "sha256": "4ae0affa1819eaf17d6409b32c3bbfc19ef36fde0d5aef5a3e1a90df296d4e2e"
+      },
+      "drivearound-logo.png": {
+        "bytes": 80463,
+        "sha256": "9156dec61cc0ab10adb5b471e7f80d77d4e79102c2a4069e09227f93462f5448"
+      },
+      "godot-notices.txt": {
+        "bytes": 87732,
+        "sha256": "96b99d808a955ca39a6a8db9b93b3c04d012d1d71109c9e1dd8af85f00eeeb98"
+      },
+      "index.audio.position.worklet.js": {
+        "bytes": 2973,
+        "sha256": "be33985bc7160d6bf9646f259cd86b259cd67b02ccb297ee5c44f8ac84327bc8"
+      },
+      "index.audio.worklet.js": {
+        "bytes": 7298,
+        "sha256": "5b476a9c9ce642c0ee4256436d1bc31d9c38f868aca0f9a8e2a57c18d2dec2a3"
+      },
+      "index.html": {
+        "bytes": 9845,
+        "sha256": "fb320bcb40fe2f06ecf48643ac9c6bde55b8ed329eb317fa5b54d5021ab8e601"
+      },
+      "index.js": {
+        "bytes": 279815,
+        "sha256": "33c94cb3175f3333b82e2a3be5e8e86f77986f0aa2042b1631f6367a4e5bb6ba"
+      },
+      "index.pck": {
+        "bytes": 88956804,
+        "sha256": "70b6abb704ba9f06cd3e5eeec927fe1784d7d549a3f1f2d8612169ade582882d",
+        "brotliBytes": 80320793
+      },
+      "index.png": {
+        "bytes": 21443,
+        "sha256": "3cb4495c0b98dfbe4b663cbf2b6836473572339beb66d902367893162a70be0e"
+      },
+      "index.wasm": {
+        "bytes": 39514754,
+        "sha256": "fc74679e3b97f76878947fcd4fbe1268cbfa6188182a2e33bbc3f5dc9bfa57d0",
+        "brotliBytes": 8182023
+      }
+    },
+    "sources": {
+      "engine/first-seventh/assets/audio/cornerlight.wav": "25e74f3f7d782323220af9ca8f41fe196ecf30355b77424b6bcd3c399cb9134e",
+      "engine/first-seventh/assets/audio/cornerlight.wav.import": "fd5f7ed95ed31620af2e488521190f1380ba88cc5c9c49f417556de5283777d1",
+      "engine/first-seventh/assets/audio/engine-coast.wav": "fc8fd78f33021d261377a51a0e53526648d12f052a06734c6f7bc0bd00aca740",
+      "engine/first-seventh/assets/audio/engine-coast.wav.import": "2a420089cb0f5e34318414d20678557e470d930372a7e7b3b7f9d7e4a317be3d",
+      "engine/first-seventh/assets/audio/engine-idle.wav": "b914dc2baf867b7115ebb10cbb830ab27f6da9559110a3cd71c8aa5c1f583550",
+      "engine/first-seventh/assets/audio/engine-idle.wav.import": "5a887ee72b701d3d67729c4531540daace46221a1e28f7b8c705d405c87df44c",
+      "engine/first-seventh/assets/audio/engine-load.wav": "6ab1a1203a4a15a5e7c4a3cbe3240dd9a7986fb4031b21d366991527357116b6",
+      "engine/first-seventh/assets/audio/engine-load.wav.import": "f11e99702f4ac029273cd6bfcb76e53ca8ca27e0714fb9371f85e249e367b7ac",
+      "engine/first-seventh/assets/audio/impact.wav": "60ac6a81a97c01eb363cec6f62c020c66970f31f0a175d870c270060820860dd",
+      "engine/first-seventh/assets/audio/impact.wav.import": "f0d61f82267eed97ea8e360d61e07612915a1d21885a1c55ec6ac295426302c3",
+      "engine/first-seventh/assets/audio/rain.wav": "371be06535d635590c9c5f44528f17806265de885e0daaaba7f4f41e802d9111",
+      "engine/first-seventh/assets/audio/rain.wav.import": "830b6262c52c97a8cf659dcae8d31b436daf47df4b3b5a827a8186f07f8e2ce5",
+      "engine/first-seventh/assets/audio/road.wav": "f1a25770ea0d98e8f9b6a594a9d1d2b5426089036ddc86730652e6859bfca42c",
+      "engine/first-seventh/assets/audio/road.wav.import": "a79ba0601825c5fc01b589e893a7a735786cc4fc736d3c6bec657d6f2f51e2bc",
+      "engine/first-seventh/assets/audio/tires.wav": "b66574c0f6934a85bdee5b0842667dda7250b98693807ef46f9d6e426fc179a2",
+      "engine/first-seventh/assets/audio/tires.wav.import": "6255e82a47207e8eabe22e509fec9e8cb6d82340c11d6c76713a157bb4ce345e",
+      "engine/first-seventh/assets/brand/drivearound-logo.png": "9156dec61cc0ab10adb5b471e7f80d77d4e79102c2a4069e09227f93462f5448",
+      "engine/first-seventh/assets/brand/drivearound-logo.png.import": "6adb8ca30681fbb1fc94657317fa6b433aca03305664fa51cc7770c7d2876645",
+      "engine/first-seventh/assets/credits.txt": "4ae0affa1819eaf17d6409b32c3bbfc19ef36fde0d5aef5a3e1a90df296d4e2e",
+      "engine/first-seventh/assets/fonts/INTER-OFL.txt": "262481e844521b326f5ecd053e59b98c8b2da78c8ee1bdbb6e8174305e54935a",
+      "engine/first-seventh/assets/fonts/InterVariable.ttf": "4989b125924991b90d05b2d16e0e388c48f7d5bb8b30539bbf9c755278d0ccaf",
+      "engine/first-seventh/assets/fonts/InterVariable.ttf.import": "608295b5dcece46082f83470307d9757145081e719109a4d4a7f37b494cd4e74",
+      "engine/first-seventh/assets/fonts/InterVariable.woff2": "693b77d4f32ee9b8bfc995589b5fad5e99adf2832738661f5402f9978429a8e3",
+      "engine/first-seventh/assets/fonts/InterVariable.woff2.import": "0568aa77832669aadd728e2dacdb6f59327433fa4710673fcc93f96490e82bbe",
+      "engine/first-seventh/assets/slice.json": "93c564dc1db84d176ea4cfb79229c6aba19e7ea42cd5efeef906fb6c3c6e43a9",
+      "engine/first-seventh/assets/surfaces/concrete_wall_006_diff_1k.jpg": "fea247dd085cd05d8deb335234c834764d622029da351f8bcc8913935316bacd",
+      "engine/first-seventh/assets/surfaces/concrete_wall_006_diff_1k.jpg.import": "86cb4a30d395f5d755478389def71c133918d1cb4fbe8cabf91665ab8e05ffde",
+      "engine/first-seventh/assets/surfaces/concrete_wall_006_nor_gl_1k.jpg": "4ff16bb96fc2df3ef71d22007151aff1d8bf7cb10a493d3f8e973213a99dd428",
+      "engine/first-seventh/assets/surfaces/concrete_wall_006_nor_gl_1k.jpg.import": "ce3fd08785570bec136acddbf9bf4ce69b6e1090475e54940c687c5d0e247bf2",
+      "engine/first-seventh/assets/surfaces/red_brick_03_diff_1k.jpg": "9c58254c099b2d211478f50a427fcdde622af24249ff2e94da41fb836f8c857f",
+      "engine/first-seventh/assets/surfaces/red_brick_03_diff_1k.jpg.import": "e77d7e5dca366fafc2e4572aec4b1b7f971628b64c5836825bf151a31c308f30",
+      "engine/first-seventh/assets/surfaces/red_brick_03_nor_gl_1k.jpg": "9bfd45e24720d851017c1e1678b70219c72239b2ac6b25e11d57d458bdab8503",
+      "engine/first-seventh/assets/surfaces/red_brick_03_nor_gl_1k.jpg.import": "e4851b33d07c7e9d0b829f7699d35822e74d3da2c50228781f2f3367746eaa3e",
+      "engine/first-seventh/assets/surfaces/white_bricks_diff_1k.jpg": "a1483d99ea1ca6e23adce0ba4ad1a1ba0e586e76cafd1979c826424916cb03c4",
+      "engine/first-seventh/assets/surfaces/white_bricks_diff_1k.jpg.import": "13d0a1946b85ea8e72e6412e822e66fdab92e6cd1c2f473c72a296fd7a994e9c",
+      "engine/first-seventh/assets/surfaces/white_bricks_nor_gl_1k.jpg": "e2159482d8dec6db0c617b5d8313d01ac5dca23c642354331c1c5b4664d1728e",
+      "engine/first-seventh/assets/surfaces/white_bricks_nor_gl_1k.jpg.import": "3c5854cb19adeb6fc8ed209db33178ef502d3e5bcaf49c2ff2f816557af062ee",
+      "engine/first-seventh/assets/west_seventh_streetscape.json": "f65c8d4e8e77cbe0202d1b4c9e6fdb3b8233a6d91778f541b09de988d5c4a88b",
+      "engine/first-seventh/export_presets.cfg": "de830db6e0808164dba6f22f4cfceee803f4d56d002c7e9bdd87b395609de38b",
+      "engine/first-seventh/project.godot": "71a99956d6b337e274d693ea40aadf5ee3ffbc595b21be5509426189fb952675",
+      "engine/first-seventh/scenes/main.tscn": "36b1ee7da0776608f1933cf39d31d5d928b160da1f474fcedac7a5f9f3e67e3a",
+      "engine/first-seventh/scripts/address_locator.gd": "67039770c035bcc663c9bd9d8f4bb35d6778a57264f68429e994572b551e2d2f",
+      "engine/first-seventh/scripts/cameras.gd": "41bee5dc1557b8220549bcfb6d7fb663c0dab996388cd61599e5158a7932f2fa",
+      "engine/first-seventh/scripts/car.gd": "af3cbe86cf9768161b76d46364a41726e0f277554bf6222cb5e1d846dd8b190d",
+      "engine/first-seventh/scripts/car_audio.gd": "21c2003f12e9afe16b0d08f6c7532b011ae67585aa0e0a116bf243bcc2b0af50",
+      "engine/first-seventh/scripts/east_seventh_detail.gd": "a58a13ee45fd7680297997977aecaea013ec48e0aaced55d125931b61428c61b",
+      "engine/first-seventh/scripts/export_credits.gd": "b6e415b08e93abdeb7ac41976a74210de5a6db00f221fb48fd3f1a94725f076b",
+      "engine/first-seventh/scripts/handling.gd": "f421fb6ba97f937db1b50bdb2488138997fb3a69882f69f9f7b3ce3d85e67518",
+      "engine/first-seventh/scripts/hud.gd": "4ced53732bf274b09c441f27db133ff0208acab704e3ebf59c24a9e7a912900e",
+      "engine/first-seventh/scripts/main.gd": "dd57720853fc260411c4817836e2381a6ad8f6b3382c2452511f3a6439a2dbcc",
+      "engine/first-seventh/scripts/minimap.gd": "fe97467d38921f80fbed32ff0b5fffd038ab2190d77a04a0c07a89337c41a83e",
+      "engine/first-seventh/scripts/shapes.gd": "d825a4be3f13bd833322e4ee1bc3477046994bd6ee434da2b07c87d60288fc15",
+      "engine/first-seventh/scripts/street_detail.gd": "f5c2b49a57dc75c4adc532a1df26883853902245b5fd7fdc4392e0c9b0ae4d73",
+      "engine/first-seventh/scripts/tire_effects.gd": "bcbfa5e84c38d4a2a7b3cf74a1544c5dbca451e63fed41d1afc1a96306415026",
+      "engine/first-seventh/scripts/weather.gd": "b9ae9e0d1771f69f0142ae49cfceae7b7672820d5711bf7551a7ebf62a985bd8",
+      "engine/first-seventh/scripts/world.gd": "39b4452706331c6c3c2d326355a9746221addfd567f06c3e22736ec6eb65fcba",
+      "engine/first-seventh/shaders/film.gdshader": "f1633072e86da2ee3c9f771009c69e8b2d5c8a9f829e2178e94fb6f4f63e0e42",
+      "engine/first-seventh/shaders/foliage.gdshader": "4dab411186d82b31b99c89036f100ede2c8aa1d8233076fe31f77aecd15c6214",
+      "engine/first-seventh/shaders/paint.gdshader": "70651010ecd19513690d2d5beb69cfc99685fc6ffbdcad1d97b8725ab77bd4f3",
+      "engine/first-seventh/shaders/road.gdshader": "86a6fc77ec8db974af7722cd6f8779a99c7cd7afa1b756b99cddf8e2e4b23ea1",
+      "engine/first-seventh/shaders/sidewalk.gdshader": "48b744cdc85df84b47ca63f906fdf5981004b43135b8659bf105012b340fbb12",
+      "engine/first-seventh/shaders/sky.gdshader": "b55915fc5d5e0df055eec96f1369c93235d529f8a322d19ed175f80de08f39a5",
+      "engine/first-seventh/shaders/tire_marks.gdshader": "6f5f96e7ff361bd8ac2e18bb9da3284e1fcfccb40994c3b40ae74a9048ee63c5",
+      "engine/first-seventh/tests/address_locator.gd": "830fa769510cf07de9cbf8ef44a2dc0545d7540661a1c8cc70a86562d9c7fb93",
+      "engine/first-seventh/tests/cameras.gd": "594d63915ee5123387a98742e2630bb24a5fd3c860751c6b73afa69063aed6b4",
+      "engine/first-seventh/tests/handling.gd": "a1aabddf6e9dcecdc97c942025c2b13fdd316d3302575c4481843864d039be7e",
+      "engine/first-seventh/web/shell.html": "60e9c60be19838cef65ce68dc36cf68876f8711f827fe17c5c896f08faba11f5",
+      "model-source/export_seventh_engine.py": "83444111332ce94162ec88681bd0ee0c56a3a4d879a6499b330fc98460a6dacd",
+      "model-source/seventh_street_kit.py": "ea631191c9200d76f2fb10810728d9a0caf4358d1dbff3d8559d62f2a9fabbf6",
+      "model-source/seventh_fidelity_kit.py": "f8ebe9846b1b0968a041484d7f9c59069dde507d3b1f296da8e4f2754d5396cb",
+      "model-source/build_neighborhood.py": "96582aa9e4b995573c31b83067879d45efd326c190478473f6cd4160f27f81be",
+      "model-source/build_intersection.py": "ff42784487c1eb8f036d400a37674c2fef4f02307119a9963a875a81555465b0",
+      "model-source/neighborhood_detail_kit.py": "6d4331d82f360a883565c0b2e0a21b44e21b159080494b788569edf6a6c8fc0f",
+      "model-source/storefront_detail_kit.py": "ab6d199c0a69e26a92b2ba208fc5f4522339e26192aee13a5b792583996422ce",
+      "model-source/neighborhood_landmarks.py": "7e8c48c9fc5f233d5eaa10b0bffe24f29b0f85e9cf76ca44007cd84e9a1baad3",
+      "model-source/first_seventh_kit.py": "0b8054b71913c3a8ec53cb83bf19886d973e3e650d2a9cdeddb653fc4c4ba20a",
+      "model-source/first_seventh_refinement.py": "5ea53dfd46a5aef6da13848413cbb1edff9de1fbc46848467f359c0c574d7d86",
+      "model-source/storefront-details.json": "8144907536fb8aeb9d37d48406b8e417b4caa01ac48006e9a7ed919b87c5f8fb",
+      "model-source/seventh-street-reference-02.json": "363260952d0c582078cb9fafd1cb7ef406cf6c355b8205d1c3c23cdaa73b3752",
+      "model-source/west-seventh-reference-04.json": "fc1cbdc2cc377e5efb785a98ae321cfa4ec93d9c82b889d15b3af1d26169a00f",
+      "model-source/west-seventh-observations-04.json": "b5c679b6a2603385e6dee1d1a8aa2392a0fa8b9c27d16d631637ba0d39bef70c",
+      "model-source/east-seventh-reference-06.json": "aa494d54ff6cd2b33d65c089808c8dc9568addce5c67db9deb986efcd9d00ba2",
+      "model-source/east-seventh-observations-06.json": "8a6ca017474bea086c22ca8ac2244fe85952096eeaaf384354c0687ce7b581a5",
+      "model-source/east-seventh-browser-07.json": "eb9bdb747ce1dcab1b0b13a61d8d12c80a8aa47b2d0a4a14dd9a21e22a28aa1c",
+      "model-source/make_seventh_audio.py": "859a0530f8d141a0b0f8403f201f428132edfbd1e0df4f4778ac84b337e4d0a3",
+      "scripts/export-seventh.mjs": "b245fc26a4b1a0c1e6c5b1b01ae8a86169e58f359287f41cdc5cb3b5c5088415"
+    }
+  },
+  "viewport": [
+    640,
+    640,
+    1
+  ],
+  "buildHashes": {
+    "sourceCommit": "c76dccebc143960498d21eeab8c55c2d0dbcc5ce",
+    "geographySha256": "fd61b108e80eab18d477686b677413ef565f1ab16edc26170751347e22651a5c",
+    "files": {
+      "DAMION-OFL.txt": "4aeb831b7b6ab653dca84308e576613059c598696aa2dc83192ab6117b24a5fa",
+      "INTER-OFL.txt": "262481e844521b326f5ecd053e59b98c8b2da78c8ee1bdbb6e8174305e54935a",
+      "InterVariable.woff2": "693b77d4f32ee9b8bfc995589b5fad5e99adf2832738661f5402f9978429a8e3",
+      "LICENSE.txt": "d698c1c978070d4305be75e60e904f6f54715f003fe248a23bf8b3ee0ca07134",
+      "credits.txt": "4ae0affa1819eaf17d6409b32c3bbfc19ef36fde0d5aef5a3e1a90df296d4e2e",
+      "drivearound-logo.png": "9156dec61cc0ab10adb5b471e7f80d77d4e79102c2a4069e09227f93462f5448",
+      "godot-notices.txt": "96b99d808a955ca39a6a8db9b93b3c04d012d1d71109c9e1dd8af85f00eeeb98",
+      "index.audio.position.worklet.js": "be33985bc7160d6bf9646f259cd86b259cd67b02ccb297ee5c44f8ac84327bc8",
+      "index.audio.worklet.js": "5b476a9c9ce642c0ee4256436d1bc31d9c38f868aca0f9a8e2a57c18d2dec2a3",
+      "index.html": "fb320bcb40fe2f06ecf48643ac9c6bde55b8ed329eb317fa5b54d5021ab8e601",
+      "index.js": "33c94cb3175f3333b82e2a3be5e8e86f77986f0aa2042b1631f6367a4e5bb6ba",
+      "index.pck": "70b6abb704ba9f06cd3e5eeec927fe1784d7d549a3f1f2d8612169ade582882d",
+      "index.png": "3cb4495c0b98dfbe4b663cbf2b6836473572339beb66d902367893162a70be0e",
+      "index.wasm": "fc74679e3b97f76878947fcd4fbe1268cbfa6188182a2e33bbc3f5dc9bfa57d0"
+    },
+    "sources": {
+      "engine/first-seventh/assets/audio/cornerlight.wav": "25e74f3f7d782323220af9ca8f41fe196ecf30355b77424b6bcd3c399cb9134e",
+      "engine/first-seventh/assets/audio/cornerlight.wav.import": "fd5f7ed95ed31620af2e488521190f1380ba88cc5c9c49f417556de5283777d1",
+      "engine/first-seventh/assets/audio/engine-coast.wav": "fc8fd78f33021d261377a51a0e53526648d12f052a06734c6f7bc0bd00aca740",
+      "engine/first-seventh/assets/audio/engine-coast.wav.import": "2a420089cb0f5e34318414d20678557e470d930372a7e7b3b7f9d7e4a317be3d",
+      "engine/first-seventh/assets/audio/engine-idle.wav": "b914dc2baf867b7115ebb10cbb830ab27f6da9559110a3cd71c8aa5c1f583550",
+      "engine/first-seventh/assets/audio/engine-idle.wav.import": "5a887ee72b701d3d67729c4531540daace46221a1e28f7b8c705d405c87df44c",
+      "engine/first-seventh/assets/audio/engine-load.wav": "6ab1a1203a4a15a5e7c4a3cbe3240dd9a7986fb4031b21d366991527357116b6",
+      "engine/first-seventh/assets/audio/engine-load.wav.import": "f11e99702f4ac029273cd6bfcb76e53ca8ca27e0714fb9371f85e249e367b7ac",
+      "engine/first-seventh/assets/audio/impact.wav": "60ac6a81a97c01eb363cec6f62c020c66970f31f0a175d870c270060820860dd",
+      "engine/first-seventh/assets/audio/impact.wav.import": "f0d61f82267eed97ea8e360d61e07612915a1d21885a1c55ec6ac295426302c3",
+      "engine/first-seventh/assets/audio/rain.wav": "371be06535d635590c9c5f44528f17806265de885e0daaaba7f4f41e802d9111",
+      "engine/first-seventh/assets/audio/rain.wav.import": "830b6262c52c97a8cf659dcae8d31b436daf47df4b3b5a827a8186f07f8e2ce5",
+      "engine/first-seventh/assets/audio/road.wav": "f1a25770ea0d98e8f9b6a594a9d1d2b5426089036ddc86730652e6859bfca42c",
+      "engine/first-seventh/assets/audio/road.wav.import": "a79ba0601825c5fc01b589e893a7a735786cc4fc736d3c6bec657d6f2f51e2bc",
+      "engine/first-seventh/assets/audio/tires.wav": "b66574c0f6934a85bdee5b0842667dda7250b98693807ef46f9d6e426fc179a2",
+      "engine/first-seventh/assets/audio/tires.wav.import": "6255e82a47207e8eabe22e509fec9e8cb6d82340c11d6c76713a157bb4ce345e",
+      "engine/first-seventh/assets/brand/drivearound-logo.png": "9156dec61cc0ab10adb5b471e7f80d77d4e79102c2a4069e09227f93462f5448",
+      "engine/first-seventh/assets/brand/drivearound-logo.png.import": "6adb8ca30681fbb1fc94657317fa6b433aca03305664fa51cc7770c7d2876645",
+      "engine/first-seventh/assets/credits.txt": "4ae0affa1819eaf17d6409b32c3bbfc19ef36fde0d5aef5a3e1a90df296d4e2e",
+      "engine/first-seventh/assets/fonts/INTER-OFL.txt": "262481e844521b326f5ecd053e59b98c8b2da78c8ee1bdbb6e8174305e54935a",
+      "engine/first-seventh/assets/fonts/InterVariable.ttf": "4989b125924991b90d05b2d16e0e388c48f7d5bb8b30539bbf9c755278d0ccaf",
+      "engine/first-seventh/assets/fonts/InterVariable.ttf.import": "608295b5dcece46082f83470307d9757145081e719109a4d4a7f37b494cd4e74",
+      "engine/first-seventh/assets/fonts/InterVariable.woff2": "693b77d4f32ee9b8bfc995589b5fad5e99adf2832738661f5402f9978429a8e3",
+      "engine/first-seventh/assets/fonts/InterVariable.woff2.import": "0568aa77832669aadd728e2dacdb6f59327433fa4710673fcc93f96490e82bbe",
+      "engine/first-seventh/assets/slice.json": "93c564dc1db84d176ea4cfb79229c6aba19e7ea42cd5efeef906fb6c3c6e43a9",
+      "engine/first-seventh/assets/surfaces/concrete_wall_006_diff_1k.jpg": "fea247dd085cd05d8deb335234c834764d622029da351f8bcc8913935316bacd",
+      "engine/first-seventh/assets/surfaces/concrete_wall_006_diff_1k.jpg.import": "86cb4a30d395f5d755478389def71c133918d1cb4fbe8cabf91665ab8e05ffde",
+      "engine/first-seventh/assets/surfaces/concrete_wall_006_nor_gl_1k.jpg": "4ff16bb96fc2df3ef71d22007151aff1d8bf7cb10a493d3f8e973213a99dd428",
+      "engine/first-seventh/assets/surfaces/concrete_wall_006_nor_gl_1k.jpg.import": "ce3fd08785570bec136acddbf9bf4ce69b6e1090475e54940c687c5d0e247bf2",
+      "engine/first-seventh/assets/surfaces/red_brick_03_diff_1k.jpg": "9c58254c099b2d211478f50a427fcdde622af24249ff2e94da41fb836f8c857f",
+      "engine/first-seventh/assets/surfaces/red_brick_03_diff_1k.jpg.import": "e77d7e5dca366fafc2e4572aec4b1b7f971628b64c5836825bf151a31c308f30",
+      "engine/first-seventh/assets/surfaces/red_brick_03_nor_gl_1k.jpg": "9bfd45e24720d851017c1e1678b70219c72239b2ac6b25e11d57d458bdab8503",
+      "engine/first-seventh/assets/surfaces/red_brick_03_nor_gl_1k.jpg.import": "e4851b33d07c7e9d0b829f7699d35822e74d3da2c50228781f2f3367746eaa3e",
+      "engine/first-seventh/assets/surfaces/white_bricks_diff_1k.jpg": "a1483d99ea1ca6e23adce0ba4ad1a1ba0e586e76cafd1979c826424916cb03c4",
+      "engine/first-seventh/assets/surfaces/white_bricks_diff_1k.jpg.import": "13d0a1946b85ea8e72e6412e822e66fdab92e6cd1c2f473c72a296fd7a994e9c",
+      "engine/first-seventh/assets/surfaces/white_bricks_nor_gl_1k.jpg": "e2159482d8dec6db0c617b5d8313d01ac5dca23c642354331c1c5b4664d1728e",
+      "engine/first-seventh/assets/surfaces/white_bricks_nor_gl_1k.jpg.import": "3c5854cb19adeb6fc8ed209db33178ef502d3e5bcaf49c2ff2f816557af062ee",
+      "engine/first-seventh/assets/west_seventh_streetscape.json": "f65c8d4e8e77cbe0202d1b4c9e6fdb3b8233a6d91778f541b09de988d5c4a88b",
+      "engine/first-seventh/export_presets.cfg": "de830db6e0808164dba6f22f4cfceee803f4d56d002c7e9bdd87b395609de38b",
+      "engine/first-seventh/project.godot": "71a99956d6b337e274d693ea40aadf5ee3ffbc595b21be5509426189fb952675",
+      "engine/first-seventh/scenes/main.tscn": "36b1ee7da0776608f1933cf39d31d5d928b160da1f474fcedac7a5f9f3e67e3a",
+      "engine/first-seventh/scripts/address_locator.gd": "67039770c035bcc663c9bd9d8f4bb35d6778a57264f68429e994572b551e2d2f",
+      "engine/first-seventh/scripts/cameras.gd": "41bee5dc1557b8220549bcfb6d7fb663c0dab996388cd61599e5158a7932f2fa",
+      "engine/first-seventh/scripts/car.gd": "af3cbe86cf9768161b76d46364a41726e0f277554bf6222cb5e1d846dd8b190d",
+      "engine/first-seventh/scripts/car_audio.gd": "21c2003f12e9afe16b0d08f6c7532b011ae67585aa0e0a116bf243bcc2b0af50",
+      "engine/first-seventh/scripts/east_seventh_detail.gd": "a58a13ee45fd7680297997977aecaea013ec48e0aaced55d125931b61428c61b",
+      "engine/first-seventh/scripts/export_credits.gd": "b6e415b08e93abdeb7ac41976a74210de5a6db00f221fb48fd3f1a94725f076b",
+      "engine/first-seventh/scripts/handling.gd": "f421fb6ba97f937db1b50bdb2488138997fb3a69882f69f9f7b3ce3d85e67518",
+      "engine/first-seventh/scripts/hud.gd": "4ced53732bf274b09c441f27db133ff0208acab704e3ebf59c24a9e7a912900e",
+      "engine/first-seventh/scripts/main.gd": "dd57720853fc260411c4817836e2381a6ad8f6b3382c2452511f3a6439a2dbcc",
+      "engine/first-seventh/scripts/minimap.gd": "fe97467d38921f80fbed32ff0b5fffd038ab2190d77a04a0c07a89337c41a83e",
+      "engine/first-seventh/scripts/shapes.gd": "d825a4be3f13bd833322e4ee1bc3477046994bd6ee434da2b07c87d60288fc15",
+      "engine/first-seventh/scripts/street_detail.gd": "f5c2b49a57dc75c4adc532a1df26883853902245b5fd7fdc4392e0c9b0ae4d73",
+      "engine/first-seventh/scripts/tire_effects.gd": "bcbfa5e84c38d4a2a7b3cf74a1544c5dbca451e63fed41d1afc1a96306415026",
+      "engine/first-seventh/scripts/weather.gd": "b9ae9e0d1771f69f0142ae49cfceae7b7672820d5711bf7551a7ebf62a985bd8",
+      "engine/first-seventh/scripts/world.gd": "39b4452706331c6c3c2d326355a9746221addfd567f06c3e22736ec6eb65fcba",
+      "engine/first-seventh/shaders/film.gdshader": "f1633072e86da2ee3c9f771009c69e8b2d5c8a9f829e2178e94fb6f4f63e0e42",
+      "engine/first-seventh/shaders/foliage.gdshader": "4dab411186d82b31b99c89036f100ede2c8aa1d8233076fe31f77aecd15c6214",
+      "engine/first-seventh/shaders/paint.gdshader": "70651010ecd19513690d2d5beb69cfc99685fc6ffbdcad1d97b8725ab77bd4f3",
+      "engine/first-seventh/shaders/road.gdshader": "86a6fc77ec8db974af7722cd6f8779a99c7cd7afa1b756b99cddf8e2e4b23ea1",
+      "engine/first-seventh/shaders/sidewalk.gdshader": "48b744cdc85df84b47ca63f906fdf5981004b43135b8659bf105012b340fbb12",
+      "engine/first-seventh/shaders/sky.gdshader": "b55915fc5d5e0df055eec96f1369c93235d529f8a322d19ed175f80de08f39a5",
+      "engine/first-seventh/shaders/tire_marks.gdshader": "6f5f96e7ff361bd8ac2e18bb9da3284e1fcfccb40994c3b40ae74a9048ee63c5",
+      "engine/first-seventh/tests/address_locator.gd": "830fa769510cf07de9cbf8ef44a2dc0545d7540661a1c8cc70a86562d9c7fb93",
+      "engine/first-seventh/tests/cameras.gd": "594d63915ee5123387a98742e2630bb24a5fd3c860751c6b73afa69063aed6b4",
+      "engine/first-seventh/tests/handling.gd": "a1aabddf6e9dcecdc97c942025c2b13fdd316d3302575c4481843864d039be7e",
+      "engine/first-seventh/web/shell.html": "60e9c60be19838cef65ce68dc36cf68876f8711f827fe17c5c896f08faba11f5",
+      "model-source/export_seventh_engine.py": "83444111332ce94162ec88681bd0ee0c56a3a4d879a6499b330fc98460a6dacd",
+      "model-source/seventh_street_kit.py": "ea631191c9200d76f2fb10810728d9a0caf4358d1dbff3d8559d62f2a9fabbf6",
+      "model-source/seventh_fidelity_kit.py": "f8ebe9846b1b0968a041484d7f9c59069dde507d3b1f296da8e4f2754d5396cb",
+      "model-source/build_neighborhood.py": "96582aa9e4b995573c31b83067879d45efd326c190478473f6cd4160f27f81be",
+      "model-source/build_intersection.py": "ff42784487c1eb8f036d400a37674c2fef4f02307119a9963a875a81555465b0",
+      "model-source/neighborhood_detail_kit.py": "6d4331d82f360a883565c0b2e0a21b44e21b159080494b788569edf6a6c8fc0f",
+      "model-source/storefront_detail_kit.py": "ab6d199c0a69e26a92b2ba208fc5f4522339e26192aee13a5b792583996422ce",
+      "model-source/neighborhood_landmarks.py": "7e8c48c9fc5f233d5eaa10b0bffe24f29b0f85e9cf76ca44007cd84e9a1baad3",
+      "model-source/first_seventh_kit.py": "0b8054b71913c3a8ec53cb83bf19886d973e3e650d2a9cdeddb653fc4c4ba20a",
+      "model-source/first_seventh_refinement.py": "5ea53dfd46a5aef6da13848413cbb1edff9de1fbc46848467f359c0c574d7d86",
+      "model-source/storefront-details.json": "8144907536fb8aeb9d37d48406b8e417b4caa01ac48006e9a7ed919b87c5f8fb",
+      "model-source/seventh-street-reference-02.json": "363260952d0c582078cb9fafd1cb7ef406cf6c355b8205d1c3c23cdaa73b3752",
+      "model-source/west-seventh-reference-04.json": "fc1cbdc2cc377e5efb785a98ae321cfa4ec93d9c82b889d15b3af1d26169a00f",
+      "model-source/west-seventh-observations-04.json": "b5c679b6a2603385e6dee1d1a8aa2392a0fa8b9c27d16d631637ba0d39bef70c",
+      "model-source/east-seventh-reference-06.json": "aa494d54ff6cd2b33d65c089808c8dc9568addce5c67db9deb986efcd9d00ba2",
+      "model-source/east-seventh-observations-06.json": "8a6ca017474bea086c22ca8ac2244fe85952096eeaaf384354c0687ce7b581a5",
+      "model-source/east-seventh-browser-07.json": "eb9bdb747ce1dcab1b0b13a61d8d12c80a8aa47b2d0a4a14dd9a21e22a28aa1c",
+      "model-source/make_seventh_audio.py": "859a0530f8d141a0b0f8403f201f428132edfbd1e0df4f4778ac84b337e4d0a3",
+      "scripts/export-seventh.mjs": "b245fc26a4b1a0c1e6c5b1b01ae8a86169e58f359287f41cdc5cb3b5c5088415"
+    }
+  },
+  "basis": "Actual engine captures from the supplied reference ledger. Recorded engine camera starts and source heading, pitch and horizontal FOV are reproduced. These captures retain source pose/date metadata and do not prove visual or surveyed accuracy.",
+  "acceptance": "Capture/report only; no automatic visual acceptance is performed.",
+  "referenceLedger": {
+    "path": "model-source/east-seventh-reference-06.json",
+    "schema": "east-seventh-reference-06",
+    "scope": {
+      "street": "East 7th Street",
+      "from": "First Avenue",
+      "to": "Avenue A",
+      "sides": [
+        "north",
+        "south"
+      ],
+      "cornerReturns": "Existing corner parcels facing this block only; First Avenue accepted corner geometry protected; no adjacent avenue parcel expansion.",
+      "datePolicy": "Prefer latest available inspected views; retain capture dates separately, mark older/mixed-date details and uncertain occupancy explicitly."
+    },
+    "scopedFrontages": 37,
+    "sourceReferenceRecords": 0,
+    "sourceReferencePoses": 0,
+    "usedReferencePoses": 0,
+    "excludedReferenceIds": []
+  },
+  "errors": [],
+  "warnings": [],
+  "failedRequests": [],
+  "views": [
+    {
+      "name": "frontage-248142707-elevation",
+      "buildingId": 248142707,
+      "address": "118 1st Avenue",
+      "span": 1,
+      "along": 0.5,
+      "projection": "orthographic whole elevation; not matched to a photograph",
+      "source": "model-source/east-seventh-reference-06.json",
+      "sha256": "4144f72ebdea0627b4e0cba33d607d1c8857728443ee1deffa6c96715ba6287a",
+      "stats": {
+        "address": "",
+        "addressId": 0,
+        "addressVisible": false,
+        "buildings": 182,
+        "camera": 0,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 0,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            25.2267780303955,
+            8.46599960327148,
+            0.441743850708008
+          ],
+          "target": [
+            -0.5,
+            1.13020956516266,
+            5.59999990463257
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 0,
+        "drawCalls": 172,
+        "fps": 56,
+        "frames": 282,
+        "gear": 1,
+        "handbrake": false,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -0.5,
+          -0.0197903737425804,
+          8
+        ],
+        "ready": true,
+        "rpm": 850,
+        "scale": 1,
+        "slipDegrees": 0,
+        "sound": false,
+        "speed": 0,
+        "started": true,
+        "tickMs": 14449,
+        "tireScrub": 0,
+        "triangles": 1616336,
+        "weather": 0,
+        "wetness": 0.237011171933049,
+        "yaw": 0
+      }
+    },
+    {
+      "name": "frontage-248142707-perspective-1",
+      "buildingId": 248142707,
+      "address": "118 1st Avenue",
+      "span": 0.45955836478936085,
+      "along": 0.22977918239468043,
+      "overlap": 0.2,
+      "projection": "perspective street subview; not matched to a photograph",
+      "source": "model-source/east-seventh-reference-06.json",
+      "sha256": "4e1770f51be974714ec369f1a1aaf2c8b86cbd7cd90fcf58d7351883c735e226",
+      "stats": {
+        "address": "",
+        "addressId": 0,
+        "addressVisible": false,
+        "buildings": 182,
+        "camera": 0,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 0,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            19.9337844848633,
+            2.09999990463257,
+            0.0604410171508789
+          ],
+          "target": [
+            -0.5,
+            1.13020956516266,
+            5.59999990463257
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 0,
+        "drawCalls": 211,
+        "fps": 48,
+        "frames": 326,
+        "gear": 1,
+        "handbrake": false,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -0.5,
+          -0.0197903737425804,
+          8
+        ],
+        "ready": true,
+        "rpm": 850,
+        "scale": 1,
+        "slipDegrees": 0,
+        "sound": false,
+        "speed": 0,
+        "started": true,
+        "tickMs": 15333,
+        "tireScrub": 0,
+        "triangles": 2903187,
+        "weather": 0,
+        "wetness": 0.1666879128921,
+        "yaw": 0
+      }
+    },
+    {
+      "name": "frontage-248142707-perspective-2",
+      "buildingId": 248142707,
+      "address": "118 1st Avenue",
+      "span": 0.45955836478936085,
+      "along": 0.5974258742261691,
+      "overlap": 0.2,
+      "projection": "perspective street subview; not matched to a photograph",
+      "source": "model-source/east-seventh-reference-06.json",
+      "sha256": "b9bf1a05db373f6611c3bf0a356610ceb974a940162f2076d54d6abb7561c0f6",
+      "stats": {
+        "address": "",
+        "addressId": 0,
+        "addressVisible": false,
+        "buildings": 182,
+        "camera": 0,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 0,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            27.1337623596191,
+            2.09999990463257,
+            0.0422258377075195
+          ],
+          "target": [
+            -0.5,
+            1.13020956516266,
+            5.59999990463257
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 0,
+        "drawCalls": 209,
+        "fps": 50,
+        "frames": 371,
+        "gear": 1,
+        "handbrake": false,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -0.5,
+          -0.0197903737425804,
+          8
+        ],
+        "ready": true,
+        "rpm": 850,
+        "scale": 1,
+        "slipDegrees": 0,
+        "sound": false,
+        "speed": 0,
+        "started": true,
+        "tickMs": 16085,
+        "tireScrub": 0,
+        "triangles": 2936008,
+        "weather": 0,
+        "wetness": 0.109881584234347,
+        "yaw": 0
+      }
+    },
+    {
+      "name": "frontage-248142707-perspective-3",
+      "buildingId": 248142707,
+      "address": "118 1st Avenue",
+      "span": 0.45955836478936085,
+      "along": 0.7702208176053196,
+      "overlap": 0.2,
+      "projection": "perspective street subview; not matched to a photograph",
+      "source": "model-source/east-seventh-reference-06.json",
+      "sha256": "1dab30571f303dc960df0e655889c6c4a8c0403f95b20f345db3284f7380430e",
+      "stats": {
+        "address": "",
+        "addressId": 0,
+        "addressVisible": false,
+        "buildings": 182,
+        "camera": 0,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 0,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            30.5177707672119,
+            2.09999990463257,
+            0.0336647033691406
+          ],
+          "target": [
+            -0.5,
+            1.13020956516266,
+            5.59999990463257
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 0,
+        "drawCalls": 204,
+        "fps": 51,
+        "frames": 424,
+        "gear": 1,
+        "handbrake": false,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -0.5,
+          -0.0197903737425804,
+          8
+        ],
+        "ready": true,
+        "rpm": 850,
+        "scale": 1,
+        "slipDegrees": 0,
+        "sound": false,
+        "speed": 0,
+        "started": true,
+        "tickMs": 17267,
+        "tireScrub": 0,
+        "triangles": 2899585,
+        "weather": 0,
+        "wetness": 0.0678852838909042,
+        "yaw": 0
+      }
+    },
+    {
+      "name": "frontage-248142715-elevation",
+      "buildingId": 248142715,
+      "address": "93 East 7th Street",
+      "span": 1,
+      "along": 0.5,
+      "projection": "orthographic whole elevation; not matched to a photograph",
+      "source": "model-source/east-seventh-reference-06.json",
+      "sha256": "2d880885c2b8c7c13be5493ee99eb16c6b824a03ef18486b4a234ef5f059e677",
+      "stats": {
+        "address": "",
+        "addressId": 0,
+        "addressVisible": false,
+        "buildings": 182,
+        "camera": 0,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 0,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            39.714729309082,
+            8.10900020599365,
+            0.413997650146484
+          ],
+          "target": [
+            -0.5,
+            1.13020956516266,
+            5.59999990463257
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 0,
+        "drawCalls": 157,
+        "fps": 52,
+        "frames": 470,
+        "gear": 1,
+        "handbrake": false,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -0.5,
+          -0.0197903737425804,
+          8
+        ],
+        "ready": true,
+        "rpm": 850,
+        "scale": 1,
+        "slipDegrees": 0,
+        "sound": false,
+        "speed": 0,
+        "started": true,
+        "tickMs": 18032,
+        "tireScrub": 0,
+        "triangles": 1669770,
+        "weather": 0,
+        "wetness": 0.0441607011344731,
+        "yaw": 0
+      }
+    },
+    {
+      "name": "frontage-248142715-perspective-1",
+      "buildingId": 248142715,
+      "address": "93 East 7th Street",
+      "span": 0.9548058561425843,
+      "along": 0.47740292807129214,
+      "overlap": 0.2,
+      "projection": "perspective street subview; not matched to a photograph",
+      "source": "model-source/east-seventh-reference-06.json",
+      "sha256": "ab4d83a1b4ef34af9a608be1facf6f45ff8ea596ba6f8ced1cbd515c322f64ec",
+      "stats": {
+        "address": "",
+        "addressId": 0,
+        "addressVisible": false,
+        "buildings": 182,
+        "camera": 0,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 0,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            39.5014762878418,
+            2.09999990463257,
+            0.0194416046142578
+          ],
+          "target": [
+            -0.5,
+            1.13020956516266,
+            5.59999990463257
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 0,
+        "drawCalls": 201,
+        "fps": 52,
+        "frames": 518,
+        "gear": 1,
+        "handbrake": false,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -0.5,
+          -0.0197903737425804,
+          8
+        ],
+        "ready": true,
+        "rpm": 850,
+        "scale": 1,
+        "slipDegrees": 0,
+        "sound": false,
+        "speed": 0,
+        "started": true,
+        "tickMs": 19100,
+        "tireScrub": 0,
+        "triangles": 2897702,
+        "weather": 0,
+        "wetness": 0.0284370046876442,
+        "yaw": 0
+      }
+    },
+    {
+      "name": "frontage-248142715-perspective-2",
+      "buildingId": 248142715,
+      "address": "93 East 7th Street",
+      "span": 0.9548058561425843,
+      "along": 0.5225970719287079,
+      "overlap": 0.2,
+      "projection": "perspective street subview; not matched to a photograph",
+      "source": "model-source/east-seventh-reference-06.json",
+      "sha256": "b906920a9851976ab3a7a3ab07263cd97526d77fcd52d07220c53171c8322a68",
+      "stats": {
+        "address": "",
+        "addressId": 0,
+        "addressVisible": false,
+        "buildings": 182,
+        "camera": 0,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 0,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            39.9274787902832,
+            2.09999990463257,
+            0.019169807434082
+          ],
+          "target": [
+            -0.5,
+            1.13020956516266,
+            5.59999990463257
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 0,
+        "drawCalls": 204,
+        "fps": 49,
+        "frames": 563,
+        "gear": 1,
+        "handbrake": false,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -0.5,
+          -0.0197903737425804,
+          8
+        ],
+        "ready": true,
+        "rpm": 850,
+        "scale": 1,
+        "slipDegrees": 0,
+        "sound": false,
+        "speed": 0,
+        "started": true,
+        "tickMs": 19899,
+        "tireScrub": 0,
+        "triangles": 2946770,
+        "weather": 0,
+        "wetness": 0.0187617322921548,
+        "yaw": 0
+      }
+    },
+    {
+      "name": "frontage-248142690-elevation",
+      "buildingId": 248142690,
+      "address": "95 East 7th Street",
+      "span": 1,
+      "along": 0.5,
+      "projection": "orthographic whole elevation; not matched to a photograph",
+      "source": "model-source/east-seventh-reference-06.json",
+      "sha256": "d8809a6f6e5a465e4a2cf5a90e77a115e83dafdd0bbca68b7760af7aa6681d03",
+      "stats": {
+        "address": "",
+        "addressId": 0,
+        "addressVisible": false,
+        "buildings": 182,
+        "camera": 0,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 0,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            48.1586875915527,
+            9.05249977111816,
+            0.412999153137207
+          ],
+          "target": [
+            -0.5,
+            1.13020956516266,
+            5.59999990463257
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 0,
+        "drawCalls": 153,
+        "fps": 52,
+        "frames": 606,
+        "gear": 1,
+        "handbrake": false,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -0.5,
+          -0.0197903737425804,
+          8
+        ],
+        "ready": true,
+        "rpm": 850,
+        "scale": 1,
+        "slipDegrees": 0,
+        "sound": false,
+        "speed": 0,
+        "started": true,
+        "tickMs": 20682,
+        "tireScrub": 0,
+        "triangles": 1607867,
+        "weather": 0,
+        "wetness": 0.012986356144581,
+        "yaw": 0
+      }
+    },
+    {
+      "name": "frontage-248142690-perspective-1",
+      "buildingId": 248142690,
+      "address": "95 East 7th Street",
+      "span": 1,
+      "along": 0.5,
+      "overlap": 0.2,
+      "projection": "perspective street subview; not matched to a photograph",
+      "source": "model-source/east-seventh-reference-06.json",
+      "sha256": "a6643c80329d58f45fd6d7c880841f52f76e9f26a2e42fe45e28d71ff4cad285",
+      "stats": {
+        "address": "",
+        "addressId": 0,
+        "addressVisible": false,
+        "buildings": 182,
+        "camera": 0,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 0,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            48.1596717834473,
+            2.09999990463257,
+            -1.43216562271118
+          ],
+          "target": [
+            -0.5,
+            1.13020956516266,
+            5.59999990463257
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 0,
+        "drawCalls": 189,
+        "fps": 56,
+        "frames": 648,
+        "gear": 1,
+        "handbrake": false,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -0.5,
+          -0.0197903737425804,
+          8
+        ],
+        "ready": true,
+        "rpm": 850,
+        "scale": 1,
+        "slipDegrees": 0,
+        "sound": false,
+        "speed": 0,
+        "started": true,
+        "tickMs": 21600,
+        "tireScrub": 0,
+        "triangles": 2702936,
+        "weather": 0,
+        "wetness": 0.00898664223740038,
+        "yaw": 0
+      }
+    },
+    {
+      "name": "frontage-248142701-elevation",
+      "buildingId": 248142701,
+      "address": "97 East 7th Street",
+      "span": 1,
+      "along": 0.5,
+      "projection": "orthographic whole elevation; not matched to a photograph",
+      "source": "model-source/east-seventh-reference-06.json",
+      "sha256": "288d763149ef2ca40f840a0df9d2ff49d6d5f2814f5fb54237f728dc8614535e",
+      "stats": {
+        "address": "",
+        "addressId": 0,
+        "addressVisible": false,
+        "buildings": 182,
+        "camera": 0,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 0,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            55.5761795043945,
+            9.0423002243042,
+            0.413498878479004
+          ],
+          "target": [
+            -0.5,
+            1.13020956516266,
+            5.59999990463257
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 0,
+        "drawCalls": 152,
+        "fps": 47,
+        "frames": 693,
+        "gear": 1,
+        "handbrake": false,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -0.5,
+          -0.0197903737425804,
+          8
+        ],
+        "ready": true,
+        "rpm": 850,
+        "scale": 1,
+        "slipDegrees": 0,
+        "sound": false,
+        "speed": 0,
+        "started": true,
+        "tickMs": 22349,
+        "tireScrub": 0,
+        "triangles": 1001446,
+        "weather": 0,
+        "wetness": 0.00592821572970423,
+        "yaw": 0
+      }
+    },
+    {
+      "name": "frontage-248142701-perspective-1",
+      "buildingId": 248142701,
+      "address": "97 East 7th Street",
+      "span": 1,
+      "along": 0.5,
+      "overlap": 0.2,
+      "projection": "perspective street subview; not matched to a photograph",
+      "source": "model-source/east-seventh-reference-06.json",
+      "sha256": "e6972ab167c1ea80638770699357cb124b454868e153e62a82a65407e709c37b",
+      "stats": {
+        "address": "",
+        "addressId": 0,
+        "addressVisible": false,
+        "buildings": 182,
+        "camera": 0,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 0,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            55.575366973877,
+            2.09999990463257,
+            -1.57317495346069
+          ],
+          "target": [
+            -0.5,
+            1.13020956516266,
+            5.59999990463257
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 0,
+        "drawCalls": 179,
+        "fps": 51,
+        "frames": 742,
+        "gear": 1,
+        "handbrake": false,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -0.5,
+          -0.0197903737425804,
+          8
+        ],
+        "ready": true,
+        "rpm": 850,
+        "scale": 1,
+        "slipDegrees": 0,
+        "sound": false,
+        "speed": 0,
+        "started": true,
+        "tickMs": 23536,
+        "tireScrub": 0,
+        "triangles": 2288102,
+        "weather": 0,
+        "wetness": 0.0037871406141571,
+        "yaw": 0
+      }
+    },
+    {
+      "name": "frontage-248142693-elevation",
+      "buildingId": 248142693,
+      "address": "97 1/2 East 7th Street",
+      "span": 1,
+      "along": 0.5,
+      "projection": "orthographic whole elevation; not matched to a photograph",
+      "source": "model-source/east-seventh-reference-06.json",
+      "sha256": "23aef58ee4ad51a71cc4d9eed1f3a2711b654d91bf12a1e1b29ad9ed55e39ab7",
+      "stats": {
+        "address": "",
+        "addressId": 0,
+        "addressVisible": false,
+        "buildings": 182,
+        "camera": 0,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 0,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            62.1357269287109,
+            9.01679992675781,
+            0.409997940063477
+          ],
+          "target": [
+            -0.5,
+            1.13020956516266,
+            5.59999990463257
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 0,
+        "drawCalls": 149,
+        "fps": 47,
+        "frames": 788,
+        "gear": 1,
+        "handbrake": false,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -0.5,
+          -0.0197903737425804,
+          8
+        ],
+        "ready": true,
+        "rpm": 850,
+        "scale": 1,
+        "slipDegrees": 0,
+        "sound": false,
+        "speed": 0,
+        "started": true,
+        "tickMs": 24366,
+        "tireScrub": 0,
+        "triangles": 981175,
+        "weather": 0,
+        "wetness": 0.00247986290642639,
+        "yaw": 0
+      }
+    },
+    {
+      "name": "frontage-248142693-perspective-1",
+      "buildingId": 248142693,
+      "address": "97 1/2 East 7th Street",
+      "span": 1,
+      "along": 0.5,
+      "overlap": 0.2,
+      "projection": "perspective street subview; not matched to a photograph",
+      "source": "model-source/east-seventh-reference-06.json",
+      "sha256": "cfaa9c49d73d54bd665643c72404ab7d26c4f2bd75b18475a34fe26ffcfdeed8",
+      "stats": {
+        "address": "",
+        "addressId": 0,
+        "addressVisible": false,
+        "buildings": 182,
+        "camera": 0,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 0,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            62.1333236694336,
+            2.09999990463257,
+            -3.06443786621094
+          ],
+          "target": [
+            -0.5,
+            1.13020956516266,
+            5.59999990463257
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 0,
+        "drawCalls": 176,
+        "fps": 47,
+        "frames": 819,
+        "gear": 1,
+        "handbrake": false,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -0.5,
+          -0.0197903737425804,
+          8
+        ],
+        "ready": true,
+        "rpm": 850,
+        "scale": 1,
+        "slipDegrees": 0,
+        "sound": false,
+        "speed": 0,
+        "started": true,
+        "tickMs": 24882,
+        "tireScrub": 0,
+        "triangles": 2281545,
+        "weather": 0,
+        "wetness": 0.00187337062005271,
+        "yaw": 0
+      }
+    },
+    {
+      "name": "frontage-248142697-elevation",
+      "buildingId": 248142697,
+      "address": "99 East 7th Street",
+      "span": 1,
+      "along": 0.5,
+      "projection": "orthographic whole elevation; not matched to a photograph",
+      "source": "model-source/east-seventh-reference-06.json",
+      "sha256": "ea6efb969e4936c29734331205d4ca580df639f84526c222382be85b6b9131d2",
+      "stats": {
+        "address": "",
+        "addressId": 0,
+        "addressVisible": false,
+        "buildings": 182,
+        "camera": 0,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 0,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            68.9394683837891,
+            9.15960025787354,
+            0.401487350463867
+          ],
+          "target": [
+            -0.5,
+            1.13020956516266,
+            5.59999990463257
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 0,
+        "drawCalls": 144,
+        "fps": 56,
+        "frames": 861,
+        "gear": 1,
+        "handbrake": false,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -0.5,
+          -0.0197903737425804,
+          8
+        ],
+        "ready": true,
+        "rpm": 850,
+        "scale": 1,
+        "slipDegrees": 0,
+        "sound": false,
+        "speed": 0,
+        "started": true,
+        "tickMs": 25845,
+        "tireScrub": 0,
+        "triangles": 903781,
+        "weather": 0,
+        "wetness": 0.00129650901457711,
+        "yaw": 0
+      }
+    },
+    {
+      "name": "frontage-248142697-perspective-1",
+      "buildingId": 248142697,
+      "address": "99 East 7th Street",
+      "span": 1,
+      "along": 0.5,
+      "overlap": 0.2,
+      "projection": "perspective street subview; not matched to a photograph",
+      "source": "model-source/east-seventh-reference-06.json",
+      "sha256": "25d7d04384b68d3d20e343dd49aec4cbac4bea630ca81d27b2feee81731fc4ae",
+      "stats": {
+        "address": "",
+        "addressId": 0,
+        "addressVisible": false,
+        "buildings": 182,
+        "camera": 0,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 0,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            68.9369201660156,
+            2.09999990463257,
+            -1.13005924224854
+          ],
+          "target": [
+            -0.5,
+            1.13020956516266,
+            5.59999990463257
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 0,
+        "drawCalls": 171,
+        "fps": 45,
+        "frames": 906,
+        "gear": 1,
+        "handbrake": false,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -0.5,
+          -0.0197903737425804,
+          8
+        ],
+        "ready": true,
+        "rpm": 850,
+        "scale": 1,
+        "slipDegrees": 0,
+        "sound": false,
+        "speed": 0,
+        "started": true,
+        "tickMs": 26616,
+        "tireScrub": 0,
+        "triangles": 2015922,
+        "weather": 0,
+        "wetness": 0.000848493613610593,
+        "yaw": 0
+      }
+    },
+    {
+      "name": "frontage-248142615-elevation",
+      "buildingId": 248142615,
+      "address": "101 East 7th Street",
+      "span": 1,
+      "along": 0.5,
+      "projection": "orthographic whole elevation; not matched to a photograph",
+      "source": "model-source/east-seventh-reference-06.json",
+      "sha256": "189d10fcf98173ea592ecbed642662fa28b457f6445e4aba14eafc216a5f36f3",
+      "stats": {
+        "address": "",
+        "addressId": 0,
+        "addressVisible": false,
+        "buildings": 182,
+        "camera": 0,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 0,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            75.9440078735352,
+            6.35970020294189,
+            -1.60801124572754
+          ],
+          "target": [
+            -0.5,
+            1.13020956516266,
+            5.59999990463257
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 0,
+        "drawCalls": 130,
+        "fps": 54,
+        "frames": 949,
+        "gear": 1,
+        "handbrake": false,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -0.5,
+          -0.0197903737425804,
+          8
+        ],
+        "ready": true,
+        "rpm": 850,
+        "scale": 1,
+        "slipDegrees": 0,
+        "sound": false,
+        "speed": 0,
+        "started": true,
+        "tickMs": 27399,
+        "tireScrub": 0,
+        "triangles": 916048,
+        "weather": 0,
+        "wetness": 0.000582587015994211,
+        "yaw": 0
+      }
+    },
+    {
+      "name": "frontage-248142615-perspective-1",
+      "buildingId": 248142615,
+      "address": "101 East 7th Street",
+      "span": 1,
+      "along": 0.5,
+      "overlap": 0.2,
+      "projection": "perspective street subview; not matched to a photograph",
+      "source": "model-source/east-seventh-reference-06.json",
+      "sha256": "fc86c028c50946a15a7f1ba0f5c39fe09fd892ee3e84f39baab79879ead993c5",
+      "stats": {
+        "address": "",
+        "addressId": 0,
+        "addressVisible": false,
+        "buildings": 182,
+        "camera": 0,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 0,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            75.9390563964844,
+            2.09999990463257,
+            -4.67895030975342
+          ],
+          "target": [
+            -0.5,
+            1.13020956516266,
+            5.59999990463257
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 0,
+        "drawCalls": 160,
+        "fps": 56,
+        "frames": 993,
+        "gear": 1,
+        "handbrake": false,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -0.5,
+          -0.0197903737425804,
+          8
+        ],
+        "ready": true,
+        "rpm": 850,
+        "scale": 1,
+        "slipDegrees": 0,
+        "sound": false,
+        "speed": 0,
+        "started": true,
+        "tickMs": 28199,
+        "tireScrub": 0,
+        "triangles": 1947783,
+        "weather": 0,
+        "wetness": 0.00039698978821034,
+        "yaw": 0
+      }
+    },
+    {
+      "name": "frontage-248142618-elevation",
+      "buildingId": 248142618,
+      "address": "107 East 7th Street",
+      "span": 1,
+      "along": 0.5,
+      "projection": "orthographic whole elevation; not matched to a photograph",
+      "source": "model-source/east-seventh-reference-06.json",
+      "sha256": "05dff95c32f4f7a000d25d3d1a5e66df00208d79a7bdf666cc33be2578ef50b0",
+      "stats": {
+        "address": "",
+        "addressId": 0,
+        "addressVisible": false,
+        "buildings": 182,
+        "camera": 0,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 0,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            88.2199249267578,
+            19.6350002288818,
+            -0.473000526428223
+          ],
+          "target": [
+            -0.5,
+            1.13020956516266,
+            5.59999990463257
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 0,
+        "drawCalls": 147,
+        "fps": 56,
+        "frames": 1036,
+        "gear": 1,
+        "handbrake": false,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -0.5,
+          -0.0197903737425804,
+          8
+        ],
+        "ready": true,
+        "rpm": 850,
+        "scale": 1,
+        "slipDegrees": 0,
+        "sound": false,
+        "speed": 0,
+        "started": true,
+        "tickMs": 28982,
+        "tireScrub": 0,
+        "triangles": 746866,
+        "weather": 0,
+        "wetness": 0.000272434592553159,
+        "yaw": 0
+      }
+    },
+    {
+      "name": "frontage-248142618-perspective-1",
+      "buildingId": 248142618,
+      "address": "107 East 7th Street",
+      "span": 0.571464854911423,
+      "along": 0.2857324274557115,
+      "overlap": 0.2,
+      "projection": "perspective street subview; not matched to a photograph",
+      "source": "model-source/east-seventh-reference-06.json",
+      "sha256": "92d0ba73dea3595a70ecdfe4a6d15579c1f71972db6f8fc4ec6a380e817fabd9",
+      "stats": {
+        "address": "",
+        "addressId": 0,
+        "addressVisible": false,
+        "buildings": 182,
+        "camera": 0,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 0,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            84.8452835083008,
+            2.09999990463257,
+            -0.86640739440918
+          ],
+          "target": [
+            -0.5,
+            1.13020956516266,
+            5.59999990463257
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 0,
+        "drawCalls": 153,
+        "fps": 56,
+        "frames": 1077,
+        "gear": 1,
+        "handbrake": false,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -0.5,
+          -0.0197903737425804,
+          8
+        ],
+        "ready": true,
+        "rpm": 850,
+        "scale": 1,
+        "slipDegrees": 0,
+        "sound": false,
+        "speed": 0,
+        "started": true,
+        "tickMs": 29748,
+        "tireScrub": 0,
+        "triangles": 1827366,
+        "weather": 0,
+        "wetness": 0.000188562696302149,
+        "yaw": 0
+      }
+    },
+    {
+      "name": "frontage-248142618-perspective-2",
+      "buildingId": 248142618,
+      "address": "107 East 7th Street",
+      "span": 0.571464854911423,
+      "along": 0.7142675725442885,
+      "overlap": 0.2,
+      "projection": "perspective street subview; not matched to a photograph",
+      "source": "model-source/east-seventh-reference-06.json",
+      "sha256": "296ca9465307fc6c751f4d983becc3e87f1ec49150bb33735df6e822e13cb632",
+      "stats": {
+        "address": "",
+        "addressId": 0,
+        "addressVisible": false,
+        "buildings": 182,
+        "camera": 0,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 0,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            91.5942764282227,
+            2.09999990463257,
+            -0.868979454040527
+          ],
+          "target": [
+            -0.5,
+            1.13020956516266,
+            5.59999990463257
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 0,
+        "drawCalls": 148,
+        "fps": 52,
+        "frames": 1119,
+        "gear": 1,
+        "handbrake": false,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -0.5,
+          -0.0197903737425804,
+          8
+        ],
+        "ready": true,
+        "rpm": 850,
+        "scale": 1,
+        "slipDegrees": 0,
+        "sound": false,
+        "speed": 0,
+        "started": true,
+        "tickMs": 30499,
+        "tireScrub": 0,
+        "triangles": 1813451,
+        "weather": 0,
+        "wetness": 0.000131555729190131,
+        "yaw": 0
+      }
+    },
+    {
+      "name": "frontage-248142621-elevation",
+      "buildingId": 248142621,
+      "address": "109 East 7th Street",
+      "span": 1,
+      "along": 0.5,
+      "projection": "orthographic whole elevation; not matched to a photograph",
+      "source": "model-source/east-seventh-reference-06.json",
+      "sha256": "ef3e2f566e4e17c137084e566c4b090aa8bbda74846d32cb22672ddc43e333b0",
+      "stats": {
+        "address": "",
+        "addressId": 0,
+        "addressVisible": false,
+        "buildings": 182,
+        "camera": 0,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 0,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            100.065811157227,
+            6.1710000038147,
+            -1.17000102996826
+          ],
+          "target": [
+            -0.5,
+            1.13020956516266,
+            5.59999990463257
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 0,
+        "drawCalls": 110,
+        "fps": 57,
+        "frames": 1163,
+        "gear": 1,
+        "handbrake": false,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -0.5,
+          -0.0197903737425804,
+          8
+        ],
+        "ready": true,
+        "rpm": 850,
+        "scale": 1,
+        "slipDegrees": 0,
+        "sound": false,
+        "speed": 0,
+        "started": true,
+        "tickMs": 31283,
+        "tireScrub": 0,
+        "triangles": 822279,
+        "weather": 0,
+        "wetness": 0.0000903669459116437,
+        "yaw": 0
+      }
+    },
+    {
+      "name": "frontage-248142621-perspective-1",
+      "buildingId": 248142621,
+      "address": "109 East 7th Street",
+      "span": 1,
+      "along": 0.5,
+      "overlap": 0.2,
+      "projection": "perspective street subview; not matched to a photograph",
+      "source": "model-source/east-seventh-reference-06.json",
+      "sha256": "6c31fa7f65905b574c2df873c8a51666763d323253715faefd556fc1716259cb",
+      "stats": {
+        "address": "",
+        "addressId": 0,
+        "addressVisible": false,
+        "buildings": 182,
+        "camera": 0,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 0,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            100.064918518066,
+            2.09999990463257,
+            -4.03346014022827
+          ],
+          "target": [
+            -0.5,
+            1.13020956516266,
+            5.59999990463257
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 0,
+        "drawCalls": 132,
+        "fps": 56,
+        "frames": 1205,
+        "gear": 1,
+        "handbrake": false,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -0.5,
+          -0.0197903737425804,
+          8
+        ],
+        "ready": true,
+        "rpm": 850,
+        "scale": 1,
+        "slipDegrees": 0,
+        "sound": false,
+        "speed": 0,
+        "started": true,
+        "tickMs": 32049,
+        "tireScrub": 0,
+        "triangles": 1643080,
+        "weather": 0,
+        "wetness": 0.0000625435152179356,
+        "yaw": 0
+      }
+    },
+    {
+      "name": "frontage-248142624-elevation",
+      "buildingId": 248142624,
+      "address": "111–115 East 7th Street",
+      "span": 1,
+      "along": 0.5,
+      "projection": "orthographic whole elevation; not matched to a photograph",
+      "source": "model-source/east-seventh-reference-06.json",
+      "sha256": "adf3b37090e068bee5820c23a6c662cdb390f0aa1300433697da9e3f92d5280c",
+      "stats": {
+        "address": "",
+        "addressId": 0,
+        "addressVisible": false,
+        "buildings": 182,
+        "camera": 0,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 0,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            112.673416137695,
+            11.6892004013062,
+            0.378999710083008
+          ],
+          "target": [
+            -0.5,
+            1.13020956516266,
+            5.59999990463257
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 0,
+        "drawCalls": 116,
+        "fps": 52,
+        "frames": 1258,
+        "gear": 1,
+        "handbrake": false,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -0.5,
+          -0.0197903737425804,
+          8
+        ],
+        "ready": true,
+        "rpm": 850,
+        "scale": 1,
+        "slipDegrees": 0,
+        "sound": false,
+        "speed": 0,
+        "started": true,
+        "tickMs": 33166,
+        "tireScrub": 0,
+        "triangles": 826168,
+        "weather": 0,
+        "wetness": 0.0000377825198547896,
+        "yaw": 0
+      }
+    },
+    {
+      "name": "frontage-248142624-perspective-1",
+      "buildingId": 248142624,
+      "address": "111–115 East 7th Street",
+      "span": 0.4789526901176095,
+      "along": 0.23947634505880475,
+      "overlap": 0.2,
+      "projection": "perspective street subview; not matched to a photograph",
+      "source": "model-source/east-seventh-reference-06.json",
+      "sha256": "517ecdd9549630f470fa1d7e368fdb934e2010555396f17936158b7af7e9302c",
+      "stats": {
+        "address": "",
+        "addressId": 0,
+        "addressVisible": false,
+        "buildings": 182,
+        "camera": 0,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 0,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            107.77783203125,
+            2.09999990463257,
+            -0.0146503448486328
+          ],
+          "target": [
+            -0.5,
+            1.13020956516266,
+            5.59999990463257
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 0,
+        "drawCalls": 128,
+        "fps": 52,
+        "frames": 1300,
+        "gear": 1,
+        "handbrake": false,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -0.5,
+          -0.0197903737425804,
+          8
+        ],
+        "ready": true,
+        "rpm": 850,
+        "scale": 1,
+        "slipDegrees": 0,
+        "sound": false,
+        "speed": 0,
+        "started": true,
+        "tickMs": 33950,
+        "tireScrub": 0,
+        "triangles": 1623004,
+        "weather": 0,
+        "wetness": 0.0000269873046685107,
+        "yaw": 0
+      }
+    },
+    {
+      "name": "frontage-248142624-perspective-2",
+      "buildingId": 248142624,
+      "address": "111–115 East 7th Street",
+      "span": 0.4789526901176095,
+      "along": 0.6226384971528923,
+      "overlap": 0.2,
+      "projection": "perspective street subview; not matched to a photograph",
+      "source": "model-source/east-seventh-reference-06.json",
+      "sha256": "68d59005b67e4e45ccca53016fabcfc4151fb35fb8984c0f6d6083e1747bd151",
+      "stats": {
+        "address": "",
+        "addressId": 0,
+        "addressVisible": false,
+        "buildings": 182,
+        "camera": 0,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 0,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            114.977828979492,
+            2.09999990463257,
+            -0.0161828994750977
+          ],
+          "target": [
+            -0.5,
+            1.13020956516266,
+            5.59999990463257
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 0,
+        "drawCalls": 122,
+        "fps": 49,
+        "frames": 1331,
+        "gear": 1,
+        "handbrake": false,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -0.5,
+          -0.0197903737425804,
+          8
+        ],
+        "ready": true,
+        "rpm": 850,
+        "scale": 1,
+        "slipDegrees": 0,
+        "sound": false,
+        "speed": 0,
+        "started": true,
+        "tickMs": 34466,
+        "tireScrub": 0,
+        "triangles": 1566598,
+        "weather": 0,
+        "wetness": 0.000020237929828028,
+        "yaw": 0
+      }
+    },
+    {
+      "name": "frontage-248142624-perspective-3",
+      "buildingId": 248142624,
+      "address": "111–115 East 7th Street",
+      "span": 0.4789526901176095,
+      "along": 0.7605236549411952,
+      "overlap": 0.2,
+      "projection": "perspective street subview; not matched to a photograph",
+      "source": "model-source/east-seventh-reference-06.json",
+      "sha256": "16f51f644756fa07ab19b9cdf40e2711f809fb821f0f26fbadfbc5d96ec52078",
+      "stats": {
+        "address": "",
+        "addressId": 0,
+        "addressVisible": false,
+        "buildings": 182,
+        "camera": 0,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 0,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            117.568832397461,
+            2.09999990463257,
+            -0.0167341232299805
+          ],
+          "target": [
+            -0.5,
+            1.13020956516266,
+            5.59999990463257
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 0,
+        "drawCalls": 119,
+        "fps": 57,
+        "frames": 1376,
+        "gear": 1,
+        "handbrake": false,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -0.5,
+          -0.0197903737425804,
+          8
+        ],
+        "ready": true,
+        "rpm": 850,
+        "scale": 1,
+        "slipDegrees": 0,
+        "sound": false,
+        "speed": 0,
+        "started": true,
+        "tickMs": 35265,
+        "tireScrub": 0,
+        "triangles": 1542077,
+        "weather": 0,
+        "wetness": 0.0000137820436205022,
+        "yaw": 0
+      }
+    },
+    {
+      "name": "frontage-248142633-elevation",
+      "buildingId": 248142633,
+      "address": "117–119 East 7th Street",
+      "span": 1,
+      "along": 0.5,
+      "projection": "orthographic whole elevation; not matched to a photograph",
+      "source": "model-source/east-seventh-reference-06.json",
+      "sha256": "14fe0c47270e324e200a956b2b6e791eff9a195b414127d710a3e05546a95a53",
+      "stats": {
+        "address": "",
+        "addressId": 0,
+        "addressVisible": false,
+        "buildings": 182,
+        "camera": 0,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 0,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            128.534362792969,
+            9.94499969482422,
+            0.370996475219727
+          ],
+          "target": [
+            -0.5,
+            1.13020956516266,
+            5.59999990463257
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 0,
+        "drawCalls": 103,
+        "fps": 56,
+        "frames": 1419,
+        "gear": 1,
+        "handbrake": false,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -0.5,
+          -0.0197903737425804,
+          8
+        ],
+        "ready": true,
+        "rpm": 850,
+        "scale": 1,
+        "slipDegrees": 0,
+        "sound": false,
+        "speed": 0,
+        "started": true,
+        "tickMs": 36049,
+        "tireScrub": 0,
+        "triangles": 855929,
+        "weather": 0,
+        "wetness": 0.00000946702358059882,
+        "yaw": 0
+      }
+    },
+    {
+      "name": "frontage-248142633-perspective-1",
+      "buildingId": 248142633,
+      "address": "117–119 East 7th Street",
+      "span": 0.6967022758941013,
+      "along": 0.34835113794705064,
+      "overlap": 0.2,
+      "projection": "perspective street subview; not matched to a photograph",
+      "source": "model-source/east-seventh-reference-06.json",
+      "sha256": "f160b1776b8de96c549d5555c32976b8b863567022b04a8edff60ae372aaba06",
+      "stats": {
+        "address": "",
+        "addressId": 0,
+        "addressVisible": false,
+        "buildings": 182,
+        "camera": 0,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 0,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            126.574996948242,
+            2.09999990463257,
+            -0.021876335144043
+          ],
+          "target": [
+            -0.5,
+            1.13020956516266,
+            5.59999990463257
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 0,
+        "drawCalls": 108,
+        "fps": 56,
+        "frames": 1461,
+        "gear": 1,
+        "handbrake": false,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -0.5,
+          -0.0197903737425804,
+          8
+        ],
+        "ready": true,
+        "rpm": 850,
+        "scale": 1,
+        "slipDegrees": 0,
+        "sound": false,
+        "speed": 0,
+        "started": true,
+        "tickMs": 36816,
+        "tireScrub": 0,
+        "triangles": 1519869,
+        "weather": 0,
+        "wetness": 0.00000654998367949741,
+        "yaw": 0
+      }
+    },
+    {
+      "name": "frontage-248142633-perspective-2",
+      "buildingId": 248142633,
+      "address": "117–119 East 7th Street",
+      "span": 0.6967022758941013,
+      "along": 0.6516488620529494,
+      "overlap": 0.2,
+      "projection": "perspective street subview; not matched to a photograph",
+      "source": "model-source/east-seventh-reference-06.json",
+      "sha256": "39781605bf48ab16222c6ff819fe1763a315040f4aafab0ae6bc21a6e7c2c590",
+      "stats": {
+        "address": "",
+        "addressId": 0,
+        "addressVisible": false,
+        "buildings": 182,
+        "camera": 0,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 0,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            130.49299621582,
+            2.09999990463257,
+            -0.0255155563354492
+          ],
+          "target": [
+            -0.5,
+            1.13020956516266,
+            5.59999990463257
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 0,
+        "drawCalls": 108,
+        "fps": 53,
+        "frames": 1504,
+        "gear": 1,
+        "handbrake": false,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -0.5,
+          -0.0197903737425804,
+          8
+        ],
+        "ready": true,
+        "rpm": 850,
+        "scale": 1,
+        "slipDegrees": 0,
+        "sound": false,
+        "speed": 0,
+        "started": true,
+        "tickMs": 37583,
+        "tireScrub": 0,
+        "triangles": 1510397,
+        "weather": 0,
+        "wetness": 0.00000453480715049173,
+        "yaw": 0
+      }
+    },
+    {
+      "name": "frontage-248142640-elevation",
+      "buildingId": 248142640,
+      "address": "121 East 7th Street",
+      "span": 1,
+      "along": 0.5,
+      "projection": "orthographic whole elevation; not matched to a photograph",
+      "source": "model-source/east-seventh-reference-06.json",
+      "sha256": "2664dc8c90f5cafb0f178bbb1de3f391aec5bef5490fe60ed299e84b77cb88d8",
+      "stats": {
+        "address": "",
+        "addressId": 0,
+        "addressVisible": false,
+        "buildings": 182,
+        "camera": 0,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 0,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            138.389770507812,
+            9.6899995803833,
+            0.361495018005371
+          ],
+          "target": [
+            -0.5,
+            1.13020956516266,
+            5.59999990463257
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 0,
+        "drawCalls": 101,
+        "fps": 57,
+        "frames": 1547,
+        "gear": 1,
+        "handbrake": false,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -0.5,
+          -0.0197903737425804,
+          8
+        ],
+        "ready": true,
+        "rpm": 850,
+        "scale": 1,
+        "slipDegrees": 0,
+        "sound": false,
+        "speed": 0,
+        "started": true,
+        "tickMs": 38349,
+        "tireScrub": 0,
+        "triangles": 763227,
+        "weather": 0,
+        "wetness": 0.00000313811580580128,
+        "yaw": 0
+      }
+    },
+    {
+      "name": "frontage-248142640-perspective-1",
+      "buildingId": 248142640,
+      "address": "121 East 7th Street",
+      "span": 1,
+      "along": 0.5,
+      "overlap": 0.2,
+      "projection": "perspective street subview; not matched to a photograph",
+      "source": "model-source/east-seventh-reference-06.json",
+      "sha256": "05b60cb96f8d84faa9ed3648bc6c5a081abd51b40f233eb2239213d6303b5fa7",
+      "stats": {
+        "address": "",
+        "addressId": 0,
+        "addressVisible": false,
+        "buildings": 182,
+        "camera": 0,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 0,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            138.387191772461,
+            2.09999990463257,
+            -2.14532089233398
+          ],
+          "target": [
+            -0.5,
+            1.13020956516266,
+            5.59999990463257
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 0,
+        "drawCalls": 102,
+        "fps": 57,
+        "frames": 1575,
+        "gear": 1,
+        "handbrake": false,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -0.5,
+          -0.0197903737425804,
+          8
+        ],
+        "ready": true,
+        "rpm": 850,
+        "scale": 1,
+        "slipDegrees": 0,
+        "sound": false,
+        "speed": 0,
+        "started": true,
+        "tickMs": 38882,
+        "tireScrub": 0,
+        "triangles": 1269324,
+        "weather": 0,
+        "wetness": 0.00000242950263139397,
+        "yaw": 0
+      }
+    },
+    {
+      "name": "frontage-248142645-elevation",
+      "buildingId": 248142645,
+      "address": "123 East 7th Street",
+      "span": 1,
+      "along": 0.5,
+      "projection": "orthographic whole elevation; not matched to a photograph",
+      "source": "model-source/east-seventh-reference-06.json",
+      "sha256": "9314bef0798a7f99c129d5fff63b3e03b31a8819db9223c653ed71a1522100a1",
+      "stats": {
+        "address": "",
+        "addressId": 0,
+        "addressVisible": false,
+        "buildings": 182,
+        "camera": 0,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 0,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            145.638153076172,
+            8.1294002532959,
+            0.357500076293945
+          ],
+          "target": [
+            -0.5,
+            1.13020956516266,
+            5.59999990463257
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 0,
+        "drawCalls": 95,
+        "fps": 55,
+        "frames": 1618,
+        "gear": 1,
+        "handbrake": false,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -0.5,
+          -0.0197903737425804,
+          8
+        ],
+        "ready": true,
+        "rpm": 850,
+        "scale": 1,
+        "slipDegrees": 0,
+        "sound": false,
+        "speed": 0,
+        "started": true,
+        "tickMs": 39666,
+        "tireScrub": 0,
+        "triangles": 749278,
+        "weather": 0,
+        "wetness": 0.00000166820893680305,
+        "yaw": 0
+      }
+    },
+    {
+      "name": "frontage-248142645-perspective-1",
+      "buildingId": 248142645,
+      "address": "123 East 7th Street",
+      "span": 1,
+      "along": 0.5,
+      "overlap": 0.2,
+      "projection": "perspective street subview; not matched to a photograph",
+      "source": "model-source/east-seventh-reference-06.json",
+      "sha256": "4aa088f4f8159b3c7e0da7300213e6853a10c436024e5ee71950228b8c6b7132",
+      "stats": {
+        "address": "",
+        "addressId": 0,
+        "addressVisible": false,
+        "buildings": 182,
+        "camera": 0,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 0,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            145.637954711914,
+            2.09999990463257,
+            -1.25914573669434
+          ],
+          "target": [
+            -0.5,
+            1.13020956516266,
+            5.59999990463257
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 0,
+        "drawCalls": 107,
+        "fps": 52,
+        "frames": 1654,
+        "gear": 1,
+        "handbrake": false,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -0.5,
+          -0.0197903737425804,
+          8
+        ],
+        "ready": true,
+        "rpm": 850,
+        "scale": 1,
+        "slipDegrees": 0,
+        "sound": false,
+        "speed": 0,
+        "started": true,
+        "tickMs": 40416,
+        "tireScrub": 0,
+        "triangles": 1292106,
+        "weather": 0,
+        "wetness": 0.00000120167757291721,
+        "yaw": 0
+      }
+    },
+    {
+      "name": "frontage-248142647-elevation",
+      "buildingId": 248142647,
+      "address": "125 East 7th Street",
+      "span": 1,
+      "along": 0.5,
+      "projection": "orthographic whole elevation; not matched to a photograph",
+      "source": "model-source/east-seventh-reference-06.json",
+      "sha256": "74075d02c1eb64fa2bb7be48d67d06c9d9bff2c8b631d5237a470bc70b2bb1d7",
+      "stats": {
+        "address": "",
+        "addressId": 0,
+        "addressVisible": false,
+        "buildings": 182,
+        "camera": 0,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 0,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            153.143661499023,
+            7.95599985122681,
+            0.353496551513672
+          ],
+          "target": [
+            -0.5,
+            1.13020956516266,
+            5.59999990463257
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 0,
+        "drawCalls": 98,
+        "fps": 56,
+        "frames": 1696,
+        "gear": 1,
+        "handbrake": false,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -0.5,
+          -0.0197903737425804,
+          8
+        ],
+        "ready": true,
+        "rpm": 850,
+        "scale": 1,
+        "slipDegrees": 0,
+        "sound": false,
+        "speed": 0,
+        "started": true,
+        "tickMs": 41216,
+        "tireScrub": 0,
+        "triangles": 720771,
+        "weather": 0,
+        "wetness": 8.31688387945352e-7,
+        "yaw": 0
+      }
+    },
+    {
+      "name": "frontage-248142647-perspective-1",
+      "buildingId": 248142647,
+      "address": "125 East 7th Street",
+      "span": 1,
+      "along": 0.5,
+      "overlap": 0.2,
+      "projection": "perspective street subview; not matched to a photograph",
+      "source": "model-source/east-seventh-reference-06.json",
+      "sha256": "61d7eb6efe3b1a0362b5a99261751a48a7a244e526b980972d43570f7f565b97",
+      "stats": {
+        "address": "",
+        "addressId": 0,
+        "addressVisible": false,
+        "buildings": 182,
+        "camera": 0,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 0,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            153.141693115234,
+            2.09999990463257,
+            -1.6915020942688
+          ],
+          "target": [
+            -0.5,
+            1.13020956516266,
+            5.59999990463257
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 0,
+        "drawCalls": 102,
+        "fps": 56,
+        "frames": 1727,
+        "gear": 1,
+        "handbrake": false,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -0.5,
+          -0.0197903737425804,
+          8
+        ],
+        "ready": true,
+        "rpm": 850,
+        "scale": 1,
+        "slipDegrees": 0,
+        "sound": false,
+        "speed": 0,
+        "started": true,
+        "tickMs": 41733,
+        "tireScrub": 0,
+        "triangles": 1193915,
+        "weather": 0,
+        "wetness": 6.18322296536128e-7,
+        "yaw": 0
+      }
+    },
+    {
+      "name": "frontage-248142650-elevation",
+      "buildingId": 248142650,
+      "address": "127 East 7th Street",
+      "span": 1,
+      "along": 0.5,
+      "projection": "orthographic whole elevation; not matched to a photograph",
+      "source": "model-source/east-seventh-reference-06.json",
+      "sha256": "de85de4ceccbb68ed8ff212473a2419b4d8d530c3625519974497e17fc573755",
+      "stats": {
+        "address": "",
+        "addressId": 0,
+        "addressVisible": false,
+        "buildings": 182,
+        "camera": 0,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 0,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            160.692306518555,
+            8.05290031433105,
+            0.3489990234375
+          ],
+          "target": [
+            -0.5,
+            1.13020956516266,
+            5.59999990463257
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 0,
+        "drawCalls": 92,
+        "fps": 49,
+        "frames": 1768,
+        "gear": 1,
+        "handbrake": false,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -0.5,
+          -0.0197903737425804,
+          8
+        ],
+        "ready": true,
+        "rpm": 850,
+        "scale": 1,
+        "slipDegrees": 0,
+        "sound": false,
+        "speed": 0,
+        "started": true,
+        "tickMs": 42499,
+        "tireScrub": 0,
+        "triangles": 748430,
+        "weather": 0,
+        "wetness": 4.27944638084902e-7,
+        "yaw": 0
+      }
+    },
+    {
+      "name": "frontage-248142650-perspective-1",
+      "buildingId": 248142650,
+      "address": "127 East 7th Street",
+      "span": 1,
+      "along": 0.5,
+      "overlap": 0.2,
+      "projection": "perspective street subview; not matched to a photograph",
+      "source": "model-source/east-seventh-reference-06.json",
+      "sha256": "59f9267f42a8abab3032d255fe1ca100c63de2e31d8c376e30f8aa3798203c2f",
+      "stats": {
+        "address": "",
+        "addressId": 0,
+        "addressVisible": false,
+        "buildings": 182,
+        "camera": 0,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 0,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            160.691909790039,
+            2.09999990463257,
+            -1.15864562988281
+          ],
+          "target": [
+            -0.5,
+            1.13020956516266,
+            5.59999990463257
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 0,
+        "drawCalls": 96,
+        "fps": 56,
+        "frames": 1811,
+        "gear": 1,
+        "handbrake": false,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -0.5,
+          -0.0197903737425804,
+          8
+        ],
+        "ready": true,
+        "rpm": 850,
+        "scale": 1,
+        "slipDegrees": 0,
+        "sound": false,
+        "speed": 0,
+        "started": true,
+        "tickMs": 43283,
+        "tireScrub": 0,
+        "triangles": 1127982,
+        "weather": 0,
+        "wetness": 2.93832488204238e-7,
+        "yaw": 0
+      }
+    },
+    {
+      "name": "frontage-248142653-elevation",
+      "buildingId": 248142653,
+      "address": "129 East 7th Street",
+      "span": 1,
+      "along": 0.5,
+      "projection": "orthographic whole elevation; not matched to a photograph",
+      "source": "model-source/east-seventh-reference-06.json",
+      "sha256": "038f42a30c3353631f4f039a946cddc438b911ab7082f4b213478baa8a28aa8d",
+      "stats": {
+        "address": "",
+        "addressId": 0,
+        "addressVisible": false,
+        "buildings": 182,
+        "camera": 0,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 0,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            168.410995483398,
+            8.05290031433105,
+            0.347999572753906
+          ],
+          "target": [
+            -0.5,
+            1.13020956516266,
+            5.59999990463257
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 0,
+        "drawCalls": 90,
+        "fps": 56,
+        "frames": 1855,
+        "gear": 1,
+        "handbrake": false,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -0.5,
+          -0.0197903737425804,
+          8
+        ],
+        "ready": true,
+        "rpm": 850,
+        "scale": 1,
+        "slipDegrees": 0,
+        "sound": false,
+        "speed": 0,
+        "started": true,
+        "tickMs": 44150,
+        "tireScrub": 0,
+        "triangles": 739179,
+        "weather": 0,
+        "wetness": 2.00205799891082e-7,
+        "yaw": 0
+      }
+    },
+    {
+      "name": "frontage-248142653-perspective-1",
+      "buildingId": 248142653,
+      "address": "129 East 7th Street",
+      "span": 1,
+      "along": 0.5,
+      "overlap": 0.2,
+      "projection": "perspective street subview; not matched to a photograph",
+      "source": "model-source/east-seventh-reference-06.json",
+      "sha256": "c1f635efb1b3ce10af0df3222f9fe1a4d1d2a734c4d1c478aa9df65da50d8dbe",
+      "stats": {
+        "address": "",
+        "addressId": 0,
+        "addressVisible": false,
+        "buildings": 182,
+        "camera": 0,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 0,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            168.410995483398,
+            2.09999990463257,
+            -1.37955904006958
+          ],
+          "target": [
+            -0.5,
+            1.13020956516266,
+            5.59999990463257
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 0,
+        "drawCalls": 93,
+        "fps": 56,
+        "frames": 1886,
+        "gear": 1,
+        "handbrake": false,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -0.5,
+          -0.0197903737425804,
+          8
+        ],
+        "ready": true,
+        "rpm": 850,
+        "scale": 1,
+        "slipDegrees": 0,
+        "sound": false,
+        "speed": 0,
+        "started": true,
+        "tickMs": 44666,
+        "tireScrub": 0,
+        "triangles": 1114651,
+        "weather": 0,
+        "wetness": 1.51249355681735e-7,
+        "yaw": 0
+      }
+    },
+    {
+      "name": "frontage-248142656-elevation",
+      "buildingId": 248142656,
+      "address": "131 East 7th Street",
+      "span": 1,
+      "along": 0.5,
+      "projection": "orthographic whole elevation; not matched to a photograph",
+      "source": "model-source/east-seventh-reference-06.json",
+      "sha256": "e0739bec8b6bfa659b9dd0ac6bfdfa1490ef9ccbe3a4a032adf6f075cd8905f1",
+      "stats": {
+        "address": "",
+        "addressId": 0,
+        "addressVisible": false,
+        "buildings": 182,
+        "camera": 0,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 0,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            177.56657409668,
+            7.71120023727417,
+            0.343497276306152
+          ],
+          "target": [
+            -0.5,
+            1.13020956516266,
+            5.59999990463257
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 0,
+        "drawCalls": 82,
+        "fps": 52,
+        "frames": 1929,
+        "gear": 1,
+        "handbrake": false,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -0.5,
+          -0.0197903737425804,
+          8
+        ],
+        "ready": true,
+        "rpm": 850,
+        "scale": 1,
+        "slipDegrees": 0,
+        "sound": false,
+        "speed": 0,
+        "started": true,
+        "tickMs": 45449,
+        "tireScrub": 0,
+        "triangles": 791105,
+        "weather": 0,
+        "wetness": 1.03322131381207e-7,
+        "yaw": 0
+      }
+    },
+    {
+      "name": "frontage-248142656-perspective-1",
+      "buildingId": 248142656,
+      "address": "131 East 7th Street",
+      "span": 0.8419083255378859,
+      "along": 0.42095416276894293,
+      "overlap": 0.2,
+      "projection": "perspective street subview; not matched to a photograph",
+      "source": "model-source/east-seventh-reference-06.json",
+      "sha256": "d5f6d67d069a7a3f181b6639d22bb34045d69951171112562532ca8f203368ee",
+      "stats": {
+        "address": "",
+        "addressId": 0,
+        "addressVisible": false,
+        "buildings": 182,
+        "camera": 0,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 0,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            176.721252441406,
+            2.09999990463257,
+            -0.0504837036132812
+          ],
+          "target": [
+            -0.5,
+            1.13020956516266,
+            5.59999990463257
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 0,
+        "drawCalls": 93,
+        "fps": 55,
+        "frames": 1971,
+        "gear": 1,
+        "handbrake": false,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -0.5,
+          -0.0197903737425804,
+          8
+        ],
+        "ready": true,
+        "rpm": 850,
+        "scale": 1,
+        "slipDegrees": 0,
+        "sound": false,
+        "speed": 0,
+        "started": true,
+        "tickMs": 46233,
+        "tireScrub": 0,
+        "triangles": 1185558,
+        "weather": 0,
+        "wetness": 7.02556264587669e-8,
+        "yaw": 0
+      }
+    },
+    {
+      "name": "frontage-248142656-perspective-2",
+      "buildingId": 248142656,
+      "address": "131 East 7th Street",
+      "span": 0.8419083255378859,
+      "along": 0.5790458372310571,
+      "overlap": 0.2,
+      "projection": "perspective street subview; not matched to a photograph",
+      "source": "model-source/east-seventh-reference-06.json",
+      "sha256": "267e7f5889c86e29111b7d1d132164e3280ea3d5b4bb3fe1b0d12974c3b8636d",
+      "stats": {
+        "address": "",
+        "addressId": 0,
+        "addressVisible": false,
+        "buildings": 182,
+        "camera": 0,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 0,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            178.411239624023,
+            2.09999990463257,
+            -0.0519065856933594
+          ],
+          "target": [
+            -0.5,
+            1.13020956516266,
+            5.59999990463257
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 0,
+        "drawCalls": 92,
+        "fps": 56,
+        "frames": 2016,
+        "gear": 1,
+        "handbrake": false,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -0.5,
+          -0.0197903737425804,
+          8
+        ],
+        "ready": true,
+        "rpm": 850,
+        "scale": 1,
+        "slipDegrees": 0,
+        "sound": false,
+        "speed": 0,
+        "started": true,
+        "tickMs": 47049,
+        "tireScrub": 0,
+        "triangles": 1169764,
+        "weather": 0,
+        "wetness": 4.82130319513137e-8,
+        "yaw": 0
+      }
+    },
+    {
+      "name": "frontage-248142714-elevation",
+      "buildingId": 248142714,
+      "address": "111 Avenue A",
+      "span": 1,
+      "along": 0.5,
+      "projection": "orthographic whole elevation; not matched to a photograph",
+      "source": "model-source/east-seventh-reference-06.json",
+      "sha256": "9d0147ce00948566d5dda11c1ce71c53a660328ff8c0d3a9b83e12ea37fb6ba9",
+      "stats": {
+        "address": "",
+        "addressId": 0,
+        "addressVisible": false,
+        "buildings": 182,
+        "camera": 0,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 0,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            193.604995727539,
+            7.66529989242554,
+            0.333498954772949
+          ],
+          "target": [
+            -0.5,
+            1.13020956516266,
+            5.59999990463257
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 0,
+        "drawCalls": 77,
+        "fps": 56,
+        "frames": 2058,
+        "gear": 1,
+        "handbrake": false,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -0.5,
+          -0.0197903737425804,
+          8
+        ],
+        "ready": true,
+        "rpm": 850,
+        "scale": 1,
+        "slipDegrees": 0,
+        "sound": false,
+        "speed": 0,
+        "started": true,
+        "tickMs": 47800,
+        "tireScrub": 0,
+        "triangles": 750774,
+        "weather": 0,
+        "wetness": 3.34443798811356e-8,
+        "yaw": 0
+      }
+    },
+    {
+      "name": "frontage-248142714-perspective-1",
+      "buildingId": 248142714,
+      "address": "111 Avenue A",
+      "span": 0.5000833472245374,
+      "along": 0.2500416736122687,
+      "overlap": 0.2,
+      "projection": "perspective street subview; not matched to a photograph",
+      "source": "model-source/east-seventh-reference-06.json",
+      "sha256": "d0ef78f8a08971f4b81d3286f2172f4e190f125ce440a93d2205085d1489c710",
+      "stats": {
+        "address": "",
+        "addressId": 0,
+        "addressVisible": false,
+        "buildings": 182,
+        "camera": 0,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 0,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            189.106307983398,
+            2.09999990463257,
+            -0.0589437484741211
+          ],
+          "target": [
+            -0.5,
+            1.13020956516266,
+            5.59999990463257
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 0,
+        "drawCalls": 85,
+        "fps": 52,
+        "frames": 2100,
+        "gear": 1,
+        "handbrake": false,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -0.5,
+          -0.0197903737425804,
+          8
+        ],
+        "ready": true,
+        "rpm": 850,
+        "scale": 1,
+        "slipDegrees": 0,
+        "sound": false,
+        "speed": 0,
+        "started": true,
+        "tickMs": 48582,
+        "tireScrub": 0,
+        "triangles": 1110753,
+        "weather": 0,
+        "wetness": 2.27410703657003e-8,
+        "yaw": 0
+      }
+    },
+    {
+      "name": "frontage-248142714-perspective-2",
+      "buildingId": 248142714,
+      "address": "111 Avenue A",
+      "span": 0.5000833472245374,
+      "along": 0.6501083513918986,
+      "overlap": 0.2,
+      "projection": "perspective street subview; not matched to a photograph",
+      "source": "model-source/east-seventh-reference-06.json",
+      "sha256": "a813921cedcd30b283787bf08b158a9499a665a461edfb347979502805033011",
+      "stats": {
+        "address": "",
+        "addressId": 0,
+        "addressVisible": false,
+        "buildings": 182,
+        "camera": 0,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 0,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            196.306304931641,
+            2.09999990463257,
+            -0.0625448226928711
+          ],
+          "target": [
+            -0.5,
+            1.13020956516266,
+            5.59999990463257
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 0,
+        "drawCalls": 84,
+        "fps": 56,
+        "frames": 2144,
+        "gear": 1,
+        "handbrake": false,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -0.5,
+          -0.0197903737425804,
+          8
+        ],
+        "ready": true,
+        "rpm": 850,
+        "scale": 1,
+        "slipDegrees": 0,
+        "sound": false,
+        "speed": 0,
+        "started": true,
+        "tickMs": 49383,
+        "tireScrub": 0,
+        "triangles": 1061365,
+        "weather": 0,
+        "wetness": 1.57487481086336e-8,
+        "yaw": 0
+      }
+    },
+    {
+      "name": "frontage-248142714-perspective-3",
+      "buildingId": 248142714,
+      "address": "111 Avenue A",
+      "span": 0.5000833472245374,
+      "along": 0.7499583263877313,
+      "overlap": 0.2,
+      "projection": "perspective street subview; not matched to a photograph",
+      "source": "model-source/east-seventh-reference-06.json",
+      "sha256": "93d650b3657c15d11f514acda24cdc6bd10d8352d9c8188025e43584c8a2626c",
+      "stats": {
+        "address": "",
+        "addressId": 0,
+        "addressVisible": false,
+        "buildings": 182,
+        "camera": 0,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 0,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            198.103302001953,
+            2.09999990463257,
+            -0.0634431838989258
+          ],
+          "target": [
+            -0.5,
+            1.13020956516266,
+            5.59999990463257
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 0,
+        "drawCalls": 84,
+        "fps": 57,
+        "frames": 2187,
+        "gear": 1,
+        "handbrake": false,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -0.5,
+          -0.0197903737425804,
+          8
+        ],
+        "ready": true,
+        "rpm": 850,
+        "scale": 1,
+        "slipDegrees": 0,
+        "sound": false,
+        "speed": 0,
+        "started": true,
+        "tickMs": 50149,
+        "tireScrub": 0,
+        "triangles": 1061365,
+        "weather": 0,
+        "wetness": 1.0831341442831e-8,
+        "yaw": 0
+      }
+    },
+    {
+      "name": "frontage-248142404-elevation",
+      "buildingId": 248142404,
+      "address": "116 1st Avenue",
+      "span": 1,
+      "along": 0.5,
+      "projection": "orthographic whole elevation; not matched to a photograph",
+      "source": "model-source/east-seventh-reference-06.json",
+      "sha256": "10d1153294285eb26d85085117af6ced869791acd6f5bdd7787f67e72ebfae46",
+      "stats": {
+        "address": "",
+        "addressId": 0,
+        "addressVisible": false,
+        "buildings": 182,
+        "camera": 0,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 0,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            26.5428447723389,
+            6.70650005340576,
+            0.486509323120117
+          ],
+          "target": [
+            -0.5,
+            1.13020956516266,
+            5.59999990463257
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 0,
+        "drawCalls": 80,
+        "fps": 57,
+        "frames": 2230,
+        "gear": 1,
+        "handbrake": false,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -0.5,
+          -0.0197903737425804,
+          8
+        ],
+        "ready": true,
+        "rpm": 850,
+        "scale": 1,
+        "slipDegrees": 0,
+        "sound": false,
+        "speed": 0,
+        "started": true,
+        "tickMs": 50916,
+        "tireScrub": 0,
+        "triangles": 1037652,
+        "weather": 0,
+        "wetness": 7.36495335783701e-9,
+        "yaw": 0
+      }
+    },
+    {
+      "name": "frontage-248142404-perspective-1",
+      "buildingId": 248142404,
+      "address": "116 1st Avenue",
+      "span": 0.43010752688172044,
+      "along": 0.21505376344086022,
+      "overlap": 0.2,
+      "projection": "perspective street subview; not matched to a photograph",
+      "source": "model-source/east-seventh-reference-06.json",
+      "sha256": "8373a39aacb7f60a04f4c6bfa974ef03fcaeef5df6909f6544037fe0451be80f",
+      "stats": {
+        "address": "",
+        "addressId": 0,
+        "addressVisible": false,
+        "buildings": 182,
+        "camera": 0,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 0,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            32.504753112793,
+            2.09999990463257,
+            0.890035629272461
+          ],
+          "target": [
+            -0.5,
+            1.13020956516266,
+            5.59999990463257
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 0,
+        "drawCalls": 78,
+        "fps": 53,
+        "frames": 2260,
+        "gear": 1,
+        "handbrake": false,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -0.5,
+          -0.0197903737425804,
+          8
+        ],
+        "ready": true,
+        "rpm": 850,
+        "scale": 1,
+        "slipDegrees": 0,
+        "sound": false,
+        "speed": 0,
+        "started": true,
+        "tickMs": 51483,
+        "tireScrub": 0,
+        "triangles": 1740522,
+        "weather": 0,
+        "wetness": 5.69501890770055e-9,
+        "yaw": 0
+      }
+    },
+    {
+      "name": "frontage-248142404-perspective-2",
+      "buildingId": 248142404,
+      "address": "116 1st Avenue",
+      "span": 0.43010752688172044,
+      "along": 0.5591397849462366,
+      "overlap": 0.2,
+      "projection": "perspective street subview; not matched to a photograph",
+      "source": "model-source/east-seventh-reference-06.json",
+      "sha256": "19f816b0e886de1f3f0419e7130a6b0eda11432f46c2d2dbce3f7ee316c3327a",
+      "stats": {
+        "address": "",
+        "addressId": 0,
+        "addressVisible": false,
+        "buildings": 182,
+        "camera": 0,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 0,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            25.3047618865967,
+            2.09999990463257,
+            0.879368782043457
+          ],
+          "target": [
+            -0.5,
+            1.13020956516266,
+            5.59999990463257
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 0,
+        "drawCalls": 86,
+        "fps": 56,
+        "frames": 2303,
+        "gear": 1,
+        "handbrake": false,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -0.5,
+          -0.0197903737425804,
+          8
+        ],
+        "ready": true,
+        "rpm": 850,
+        "scale": 1,
+        "slipDegrees": 0,
+        "sound": false,
+        "speed": 0,
+        "started": true,
+        "tickMs": 52267,
+        "tireScrub": 0,
+        "triangles": 1719138,
+        "weather": 0,
+        "wetness": 3.87242419127833e-9,
+        "yaw": 0
+      }
+    },
+    {
+      "name": "frontage-248142404-perspective-3",
+      "buildingId": 248142404,
+      "address": "116 1st Avenue",
+      "span": 0.43010752688172044,
+      "along": 0.7849462365591398,
+      "overlap": 0.2,
+      "projection": "perspective street subview; not matched to a photograph",
+      "source": "model-source/east-seventh-reference-06.json",
+      "sha256": "5e3bd5eb87c69cbe633b41a5f0c0f728a88b2594130111592729fb1b89fd96d7",
+      "stats": {
+        "address": "",
+        "addressId": 0,
+        "addressVisible": false,
+        "buildings": 182,
+        "camera": 0,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 0,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            20.5797672271729,
+            2.09999990463257,
+            0.872368812561035
+          ],
+          "target": [
+            -0.5,
+            1.13020956516266,
+            5.59999990463257
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 0,
+        "drawCalls": 85,
+        "fps": 56,
+        "frames": 2347,
+        "gear": 1,
+        "handbrake": false,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -0.5,
+          -0.0197903737425804,
+          8
+        ],
+        "ready": true,
+        "rpm": 850,
+        "scale": 1,
+        "slipDegrees": 0,
+        "sound": false,
+        "speed": 0,
+        "started": true,
+        "tickMs": 53067,
+        "tireScrub": 0,
+        "triangles": 1704427,
+        "weather": 0,
+        "wetness": 2.63312016346797e-9,
+        "yaw": 0
+      }
+    },
+    {
+      "name": "frontage-951679435-elevation",
+      "buildingId": 951679435,
+      "address": "92 East 7th Street",
+      "span": 1,
+      "along": 0.5,
+      "projection": "orthographic whole elevation; not matched to a photograph",
+      "source": "model-source/east-seventh-reference-06.json",
+      "sha256": "ba1daf61e22406f67ec45c8a4740564a603b147a0ef1a36d959d5189373be51e",
+      "stats": {
+        "address": "",
+        "addressId": 0,
+        "addressVisible": false,
+        "buildings": 182,
+        "camera": 0,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 0,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            40.3831558227539,
+            10.4805002212524,
+            0.50300121307373
+          ],
+          "target": [
+            -0.5,
+            1.13020956516266,
+            5.59999990463257
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 0,
+        "drawCalls": 71,
+        "fps": 47,
+        "frames": 2394,
+        "gear": 1,
+        "handbrake": false,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -0.5,
+          -0.0197903737425804,
+          8
+        ],
+        "ready": true,
+        "rpm": 850,
+        "scale": 1,
+        "slipDegrees": 0,
+        "sound": false,
+        "speed": 0,
+        "started": true,
+        "tickMs": 54251,
+        "tireScrub": 0,
+        "triangles": 1069696,
+        "weather": 0,
+        "wetness": 1.68113990287746e-9,
+        "yaw": 0
+      }
+    },
+    {
+      "name": "frontage-951679435-perspective-1",
+      "buildingId": 951679435,
+      "address": "92 East 7th Street",
+      "span": 1,
+      "along": 0.5,
+      "overlap": 0.2,
+      "projection": "perspective street subview; not matched to a photograph",
+      "source": "model-source/east-seventh-reference-06.json",
+      "sha256": "3dc0e8da7ad135e45d18ca0b4ef328d43217da5539d37ac14d0a6b32df067dd3",
+      "stats": {
+        "address": "",
+        "addressId": 0,
+        "addressVisible": false,
+        "buildings": 182,
+        "camera": 0,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 0,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            40.3824119567871,
+            2.09999990463257,
+            3.02320384979248
+          ],
+          "target": [
+            -0.5,
+            1.13020956516266,
+            5.59999990463257
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 0,
+        "drawCalls": 67,
+        "fps": 48,
+        "frames": 2471,
+        "gear": 1,
+        "handbrake": false,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -0.5,
+          -0.0197903737425804,
+          8
+        ],
+        "ready": true,
+        "rpm": 850,
+        "scale": 1,
+        "slipDegrees": 0,
+        "sound": false,
+        "speed": 0,
+        "started": true,
+        "tickMs": 55683,
+        "tireScrub": 0,
+        "triangles": 1630840,
+        "weather": 0,
+        "wetness": 8.11674466074044e-10,
+        "yaw": 0
+      }
+    },
+    {
+      "name": "frontage-248142390-elevation",
+      "buildingId": 248142390,
+      "address": "94 East 7th Street",
+      "span": 1,
+      "along": 0.5,
+      "projection": "orthographic whole elevation; not matched to a photograph",
+      "source": "model-source/east-seventh-reference-06.json",
+      "sha256": "76158d742ade6838dd4dd564f51d2ad4358eddffc7033d48b11f5ef4b3642430",
+      "stats": {
+        "address": "",
+        "addressId": 0,
+        "addressVisible": false,
+        "buildings": 182,
+        "camera": 0,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 0,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            46.9694404602051,
+            9.18000030517578,
+            0.497020721435547
+          ],
+          "target": [
+            -0.5,
+            1.13020956516266,
+            5.59999990463257
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 0,
+        "drawCalls": 65,
+        "fps": 51,
+        "frames": 2515,
+        "gear": 1,
+        "handbrake": false,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -0.5,
+          -0.0197903737425804,
+          8
+        ],
+        "ready": true,
+        "rpm": 850,
+        "scale": 1,
+        "slipDegrees": 0,
+        "sound": false,
+        "speed": 0,
+        "started": true,
+        "tickMs": 56650,
+        "tireScrub": 0,
+        "triangles": 1061414,
+        "weather": 0,
+        "wetness": 5.7073405947112e-10,
+        "yaw": 0
+      }
+    },
+    {
+      "name": "frontage-248142390-perspective-1",
+      "buildingId": 248142390,
+      "address": "94 East 7th Street",
+      "span": 1,
+      "along": 0.5,
+      "overlap": 0.2,
+      "projection": "perspective street subview; not matched to a photograph",
+      "source": "model-source/east-seventh-reference-06.json",
+      "sha256": "72c17dffa5490f64cb53e3c44da03f5bc88423f917d634084edaf4b46f318208",
+      "stats": {
+        "address": "",
+        "addressId": 0,
+        "addressVisible": false,
+        "buildings": 182,
+        "camera": 0,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 0,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            46.9756202697754,
+            2.09999990463257,
+            3.33943891525269
+          ],
+          "target": [
+            -0.5,
+            1.13020956516266,
+            5.59999990463257
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 0,
+        "drawCalls": 66,
+        "fps": 47,
+        "frames": 2558,
+        "gear": 1,
+        "handbrake": false,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -0.5,
+          -0.0197903737425804,
+          8
+        ],
+        "ready": true,
+        "rpm": 850,
+        "scale": 1,
+        "slipDegrees": 0,
+        "sound": false,
+        "speed": 0,
+        "started": true,
+        "tickMs": 57618,
+        "tireScrub": 0,
+        "triangles": 1669400,
+        "weather": 0,
+        "wetness": 3.82537755631457e-10,
+        "yaw": 0
+      }
+    },
+    {
+      "name": "frontage-248142393-elevation",
+      "buildingId": 248142393,
+      "address": "96 East 7th Street",
+      "span": 1,
+      "along": 0.5,
+      "projection": "orthographic whole elevation; not matched to a photograph",
+      "source": "model-source/east-seventh-reference-06.json",
+      "sha256": "da539c77b40974d36b992ef74abfbf5f82dcb71a64d6b25ed90e1aad757a73e1",
+      "stats": {
+        "address": "",
+        "addressId": 0,
+        "addressVisible": false,
+        "buildings": 182,
+        "camera": 0,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 0,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            54.0231781005859,
+            8.9862003326416,
+            0.490500450134277
+          ],
+          "target": [
+            -0.5,
+            1.13020956516266,
+            5.59999990463257
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 0,
+        "drawCalls": 62,
+        "fps": 44,
+        "frames": 2604,
+        "gear": 1,
+        "handbrake": false,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -0.5,
+          -0.0197903737425804,
+          8
+        ],
+        "ready": true,
+        "rpm": 850,
+        "scale": 1,
+        "slipDegrees": 0,
+        "sound": false,
+        "speed": 0,
+        "started": true,
+        "tickMs": 58567,
+        "tireScrub": 0,
+        "triangles": 646154,
+        "weather": 0,
+        "wetness": 2.50349854084194e-10,
+        "yaw": 0
+      }
+    },
+    {
+      "name": "frontage-248142393-perspective-1",
+      "buildingId": 248142393,
+      "address": "96 East 7th Street",
+      "span": 1,
+      "along": 0.5,
+      "overlap": 0.2,
+      "projection": "perspective street subview; not matched to a photograph",
+      "source": "model-source/east-seventh-reference-06.json",
+      "sha256": "fb3e756bdb393843e7cb1c46eb4c27bac19fc6b6b5e5ffb4977f2acfb52a193f",
+      "stats": {
+        "address": "",
+        "addressId": 0,
+        "addressVisible": false,
+        "buildings": 182,
+        "camera": 0,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 0,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            54.0229568481445,
+            2.09999990463257,
+            2.19893646240234
+          ],
+          "target": [
+            -0.5,
+            1.13020956516266,
+            5.59999990463257
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 0,
+        "drawCalls": 67,
+        "fps": 50,
+        "frames": 2647,
+        "gear": 1,
+        "handbrake": false,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -0.5,
+          -0.0197903737425804,
+          8
+        ],
+        "ready": true,
+        "rpm": 850,
+        "scale": 1,
+        "slipDegrees": 0,
+        "sound": false,
+        "speed": 0,
+        "started": true,
+        "tickMs": 59367,
+        "tireScrub": 0,
+        "triangles": 1076243,
+        "weather": 0,
+        "wetness": 1.67822581005292e-10,
+        "yaw": 0
+      }
+    },
+    {
+      "name": "frontage-248142396-elevation",
+      "buildingId": 248142396,
+      "address": "98 East 7th Street",
+      "span": 1,
+      "along": 0.5,
+      "projection": "orthographic whole elevation; not matched to a photograph",
+      "source": "model-source/east-seventh-reference-06.json",
+      "sha256": "bcf4cba0a9780af2e713bed25c458502bf998c1d2252db496b80a52e36f00053",
+      "stats": {
+        "address": "",
+        "addressId": 0,
+        "addressVisible": false,
+        "buildings": 182,
+        "camera": 0,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 0,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            61.7272300720215,
+            9.02700042724609,
+            0.48850154876709
+          ],
+          "target": [
+            -0.5,
+            1.13020956516266,
+            5.59999990463257
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 0,
+        "drawCalls": 61,
+        "fps": 54,
+        "frames": 2689,
+        "gear": 1,
+        "handbrake": false,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -0.5,
+          -0.0197903737425804,
+          8
+        ],
+        "ready": true,
+        "rpm": 850,
+        "scale": 1,
+        "slipDegrees": 0,
+        "sound": false,
+        "speed": 0,
+        "started": true,
+        "tickMs": 60216,
+        "tireScrub": 0,
+        "triangles": 477516,
+        "weather": 0,
+        "wetness": 1.15209475320866e-10,
+        "yaw": 0
+      }
+    },
+    {
+      "name": "frontage-248142396-perspective-1",
+      "buildingId": 248142396,
+      "address": "98 East 7th Street",
+      "span": 1,
+      "along": 0.5,
+      "overlap": 0.2,
+      "projection": "perspective street subview; not matched to a photograph",
+      "source": "model-source/east-seventh-reference-06.json",
+      "sha256": "03adb5e31f140c8394c5269a521561dee89bad9287a602bf875fbd58a92ec4ee",
+      "stats": {
+        "address": "",
+        "addressId": 0,
+        "addressVisible": false,
+        "buildings": 182,
+        "camera": 0,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 0,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            61.7282218933105,
+            2.09999990463257,
+            2.03439235687256
+          ],
+          "target": [
+            -0.5,
+            1.13020956516266,
+            5.59999990463257
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 0,
+        "drawCalls": 61,
+        "fps": 54,
+        "frames": 2719,
+        "gear": 1,
+        "handbrake": false,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -0.5,
+          -0.0197903737425804,
+          8
+        ],
+        "ready": true,
+        "rpm": 850,
+        "scale": 1,
+        "slipDegrees": 0,
+        "sound": false,
+        "speed": 0,
+        "started": true,
+        "tickMs": 60717,
+        "tireScrub": 0,
+        "triangles": 686785,
+        "weather": 0,
+        "wetness": 8.38988306481557e-11,
+        "yaw": 0
+      }
+    },
+    {
+      "name": "frontage-248142313-elevation",
+      "buildingId": 248142313,
+      "address": "100 East 7th Street",
+      "span": 1,
+      "along": 0.5,
+      "projection": "orthographic whole elevation; not matched to a photograph",
+      "source": "model-source/east-seventh-reference-06.json",
+      "sha256": "7609885a38b526aa497d7645cc3b5e0a8be21b517d55d82f9b104676053561e5",
+      "stats": {
+        "address": "",
+        "addressId": 0,
+        "addressVisible": false,
+        "buildings": 182,
+        "camera": 0,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 0,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            69.4444580078125,
+            9.2258996963501,
+            0.484500885009766
+          ],
+          "target": [
+            -0.5,
+            1.13020956516266,
+            5.59999990463257
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 0,
+        "drawCalls": 57,
+        "fps": 48,
+        "frames": 2773,
+        "gear": 1,
+        "handbrake": false,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -0.5,
+          -0.0197903737425804,
+          8
+        ],
+        "ready": true,
+        "rpm": 850,
+        "scale": 1,
+        "slipDegrees": 0,
+        "sound": false,
+        "speed": 0,
+        "started": true,
+        "tickMs": 61767,
+        "tireScrub": 0,
+        "triangles": 452508,
+        "weather": 0,
+        "wetness": 5.29969007765688e-11,
+        "yaw": 0
+      }
+    },
+    {
+      "name": "frontage-248142313-perspective-1",
+      "buildingId": 248142313,
+      "address": "100 East 7th Street",
+      "span": 1,
+      "along": 0.5,
+      "overlap": 0.2,
+      "projection": "perspective street subview; not matched to a photograph",
+      "source": "model-source/east-seventh-reference-06.json",
+      "sha256": "c889407480decf2334c9d8b07b14bae539ce167342b35c09ecbaecec079e6073",
+      "stats": {
+        "address": "",
+        "addressId": 0,
+        "addressVisible": false,
+        "buildings": 182,
+        "camera": 0,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 0,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            69.4451293945312,
+            2.09999990463257,
+            2.18528699874878
+          ],
+          "target": [
+            -0.5,
+            1.13020956516266,
+            5.59999990463257
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 0,
+        "drawCalls": 57,
+        "fps": 54,
+        "frames": 2816,
+        "gear": 1,
+        "handbrake": false,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -0.5,
+          -0.0197903737425804,
+          8
+        ],
+        "ready": true,
+        "rpm": 850,
+        "scale": 1,
+        "slipDegrees": 0,
+        "sound": false,
+        "speed": 0,
+        "started": true,
+        "tickMs": 62549,
+        "tireScrub": 0,
+        "triangles": 664135,
+        "weather": 0,
+        "wetness": 3.61151857914132e-11,
+        "yaw": 0
+      }
+    },
+    {
+      "name": "frontage-248142319-elevation",
+      "buildingId": 248142319,
+      "address": "102 East 7th Street",
+      "span": 1,
+      "along": 0.5,
+      "projection": "orthographic whole elevation; not matched to a photograph",
+      "source": "model-source/east-seventh-reference-06.json",
+      "sha256": "903e86c96d0cdaa119d28915156e385b926135ab76a028ec4fadaa5c803b1c92",
+      "stats": {
+        "address": "",
+        "addressId": 0,
+        "addressVisible": false,
+        "buildings": 182,
+        "camera": 0,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 0,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            77.1225357055664,
+            9.28709983825684,
+            0.478506088256836
+          ],
+          "target": [
+            -0.5,
+            1.13020956516266,
+            5.59999990463257
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 0,
+        "drawCalls": 57,
+        "fps": 56,
+        "frames": 2858,
+        "gear": 1,
+        "handbrake": false,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -0.5,
+          -0.0197903737425804,
+          8
+        ],
+        "ready": true,
+        "rpm": 850,
+        "scale": 1,
+        "slipDegrees": 0,
+        "sound": false,
+        "speed": 0,
+        "started": true,
+        "tickMs": 63317,
+        "tireScrub": 0,
+        "triangles": 436527,
+        "weather": 0,
+        "wetness": 2.49955406742676e-11,
+        "yaw": 0
+      }
+    },
+    {
+      "name": "frontage-248142319-perspective-1",
+      "buildingId": 248142319,
+      "address": "102 East 7th Street",
+      "span": 1,
+      "along": 0.5,
+      "overlap": 0.2,
+      "projection": "perspective street subview; not matched to a photograph",
+      "source": "model-source/east-seventh-reference-06.json",
+      "sha256": "d316f416834a3b04a0dee61ccc4df0b6450926f23c87cecb43e29159cd3cc135",
+      "stats": {
+        "address": "",
+        "addressId": 0,
+        "addressVisible": false,
+        "buildings": 182,
+        "camera": 0,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 0,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            77.124397277832,
+            2.09999990463257,
+            2.08176517486572
+          ],
+          "target": [
+            -0.5,
+            1.13020956516266,
+            5.59999990463257
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 0,
+        "drawCalls": 57,
+        "fps": 56,
+        "frames": 2888,
+        "gear": 1,
+        "handbrake": false,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -0.5,
+          -0.0197903737425804,
+          8
+        ],
+        "ready": true,
+        "rpm": 850,
+        "scale": 1,
+        "slipDegrees": 0,
+        "sound": false,
+        "speed": 0,
+        "started": true,
+        "tickMs": 63817,
+        "tireScrub": 0,
+        "triangles": 637802,
+        "weather": 0,
+        "wetness": 1.89555081327422e-11,
+        "yaw": 0
+      }
+    },
+    {
+      "name": "frontage-248142322-elevation",
+      "buildingId": 248142322,
+      "address": "104 East 7th Street",
+      "span": 1,
+      "along": 0.5,
+      "projection": "orthographic whole elevation; not matched to a photograph",
+      "source": "model-source/east-seventh-reference-06.json",
+      "sha256": "45f8323d281613d7ba212bc3d0f7e3242956643284ab5c84ae662964111d40c8",
+      "stats": {
+        "address": "",
+        "addressId": 0,
+        "addressVisible": false,
+        "buildings": 182,
+        "camera": 0,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 0,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            84.7923736572266,
+            9.27180004119873,
+            0.475001335144043
+          ],
+          "target": [
+            -0.5,
+            1.13020956516266,
+            5.59999990463257
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 0,
+        "drawCalls": 56,
+        "fps": 56,
+        "frames": 2932,
+        "gear": 1,
+        "handbrake": false,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -0.5,
+          -0.0197903737425804,
+          8
+        ],
+        "ready": true,
+        "rpm": 850,
+        "scale": 1,
+        "slipDegrees": 0,
+        "sound": false,
+        "speed": 0,
+        "started": true,
+        "tickMs": 64617,
+        "tireScrub": 0,
+        "triangles": 425905,
+        "weather": 0,
+        "wetness": 1.28891175676257e-11,
+        "yaw": 0
+      }
+    },
+    {
+      "name": "frontage-248142322-perspective-1",
+      "buildingId": 248142322,
+      "address": "104 East 7th Street",
+      "span": 1,
+      "along": 0.5,
+      "overlap": 0.2,
+      "projection": "perspective street subview; not matched to a photograph",
+      "source": "model-source/east-seventh-reference-06.json",
+      "sha256": "95af454437f53a28e7279c361a26e2efc2ecb86c9f8d1e110c733d60a82a9c6b",
+      "stats": {
+        "address": "",
+        "addressId": 0,
+        "addressVisible": false,
+        "buildings": 182,
+        "camera": 0,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 0,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            84.7919158935547,
+            2.09999990463257,
+            2.22933149337769
+          ],
+          "target": [
+            -0.5,
+            1.13020956516266,
+            5.59999990463257
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 0,
+        "drawCalls": 56,
+        "fps": 51,
+        "frames": 2975,
+        "gear": 1,
+        "handbrake": false,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -0.5,
+          -0.0197903737425804,
+          8
+        ],
+        "ready": true,
+        "rpm": 850,
+        "scale": 1,
+        "slipDegrees": 0,
+        "sound": false,
+        "speed": 0,
+        "started": true,
+        "tickMs": 65417,
+        "tireScrub": 0,
+        "triangles": 594116,
+        "weather": 0,
+        "wetness": 8.92107375910524e-12,
+        "yaw": 0
+      }
+    },
+    {
+      "name": "frontage-248142324-elevation",
+      "buildingId": 248142324,
+      "address": "106 East 7th Street",
+      "span": 1,
+      "along": 0.5,
+      "projection": "orthographic whole elevation; not matched to a photograph",
+      "source": "model-source/east-seventh-reference-06.json",
+      "sha256": "e8f92a39d5b9285214db47fc8ac70d4f12b34321fdf9fe1a7d7e3ce399e2e360",
+      "stats": {
+        "address": "",
+        "addressId": 0,
+        "addressVisible": false,
+        "buildings": 182,
+        "camera": 0,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 0,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            92.3900833129883,
+            8.86380004882812,
+            0.472004890441895
+          ],
+          "target": [
+            -0.5,
+            1.13020956516266,
+            5.59999990463257
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 0,
+        "drawCalls": 263,
+        "fps": 56,
+        "frames": 3017,
+        "gear": 1,
+        "handbrake": false,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -0.5,
+          -0.0197903737425804,
+          8
+        ],
+        "ready": true,
+        "rpm": 850,
+        "scale": 1,
+        "slipDegrees": 0,
+        "sound": false,
+        "speed": 0,
+        "started": true,
+        "tickMs": 66183,
+        "tireScrub": 0,
+        "triangles": 423272,
+        "weather": 0,
+        "wetness": 6.14561043105274e-12,
+        "yaw": 0
+      }
+    },
+    {
+      "name": "frontage-248142324-perspective-1",
+      "buildingId": 248142324,
+      "address": "106 East 7th Street",
+      "span": 1,
+      "along": 0.5,
+      "overlap": 0.2,
+      "projection": "perspective street subview; not matched to a photograph",
+      "source": "model-source/east-seventh-reference-06.json",
+      "sha256": "f21d2d38aba6df261ebe9650ad5adbdad4564024aa2ceffaef674263b013e7cf",
+      "stats": {
+        "address": "",
+        "addressId": 0,
+        "addressVisible": false,
+        "buildings": 182,
+        "camera": 0,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 0,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            92.3918533325195,
+            2.09999990463257,
+            2.16609764099121
+          ],
+          "target": [
+            -0.5,
+            1.13020956516266,
+            5.59999990463257
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 0,
+        "drawCalls": 111,
+        "fps": 56,
+        "frames": 3043,
+        "gear": 1,
+        "handbrake": false,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -0.5,
+          -0.0197903737425804,
+          8
+        ],
+        "ready": true,
+        "rpm": 850,
+        "scale": 1,
+        "slipDegrees": 0,
+        "sound": false,
+        "speed": 0,
+        "started": true,
+        "tickMs": 66700,
+        "tireScrub": 0,
+        "triangles": 609949,
+        "weather": 0,
+        "wetness": 4.7521506116484e-12,
+        "yaw": 0
+      }
+    },
+    {
+      "name": "frontage-248142328-elevation",
+      "buildingId": 248142328,
+      "address": "110 East 7th Street",
+      "span": 1,
+      "along": 0.5,
+      "projection": "orthographic whole elevation; not matched to a photograph",
+      "source": "model-source/east-seventh-reference-06.json",
+      "sha256": "65b75ad5bc9b63d62ec2f7af599b385aff21d0080d090b3610153ded4516e161",
+      "stats": {
+        "address": "",
+        "addressId": 0,
+        "addressVisible": false,
+        "buildings": 182,
+        "camera": 0,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 0,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            107.464630126953,
+            10.3020000457764,
+            0.458004951477051
+          ],
+          "target": [
+            -0.5,
+            1.13020956516266,
+            5.59999990463257
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 0,
+        "drawCalls": 290,
+        "fps": 50,
+        "frames": 3097,
+        "gear": 1,
+        "handbrake": false,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -0.5,
+          -0.0197903737425804,
+          8
+        ],
+        "ready": true,
+        "rpm": 850,
+        "scale": 1,
+        "slipDegrees": 0,
+        "sound": false,
+        "speed": 0,
+        "started": true,
+        "tickMs": 67767,
+        "tireScrub": 0,
+        "triangles": 490703,
+        "weather": 0,
+        "wetness": 2.9815315633622e-12,
+        "yaw": 0
+      }
+    },
+    {
+      "name": "frontage-248142328-perspective-1",
+      "buildingId": 248142328,
+      "address": "110 East 7th Street",
+      "span": 1,
+      "along": 0.5,
+      "overlap": 0.2,
+      "projection": "perspective street subview; not matched to a photograph",
+      "source": "model-source/east-seventh-reference-06.json",
+      "sha256": "ead89fcbba09b85db97ba25d32c04744e9c539462c3ba25844daa2424f62123d",
+      "stats": {
+        "address": "",
+        "addressId": 0,
+        "addressVisible": false,
+        "buildings": 182,
+        "camera": 0,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 0,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            107.466346740723,
+            2.09999990463257,
+            2.10715866088867
+          ],
+          "target": [
+            -0.5,
+            1.13020956516266,
+            5.59999990463257
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 0,
+        "drawCalls": 131,
+        "fps": 56,
+        "frames": 3128,
+        "gear": 1,
+        "handbrake": false,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -0.5,
+          -0.0197903737425804,
+          8
+        ],
+        "ready": true,
+        "rpm": 850,
+        "scale": 1,
+        "slipDegrees": 0,
+        "sound": false,
+        "speed": 0,
+        "started": true,
+        "tickMs": 68284,
+        "tireScrub": 0,
+        "triangles": 657383,
+        "weather": 0,
+        "wetness": 2.23522326052415e-12,
+        "yaw": 0
+      }
+    },
+    {
+      "name": "frontage-248142330-elevation",
+      "buildingId": 248142330,
+      "address": "112 East 7th Street",
+      "span": 1,
+      "along": 0.5,
+      "projection": "orthographic whole elevation; not matched to a photograph",
+      "source": "model-source/east-seventh-reference-06.json",
+      "sha256": "8b344646cb3eb6a09738edbed8bdfae716307b10f20e09ca298cf9a959394c02",
+      "stats": {
+        "address": "",
+        "addressId": 0,
+        "addressVisible": false,
+        "buildings": 182,
+        "camera": 0,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 0,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            115.223045349121,
+            9.26159954071045,
+            0.45250129699707
+          ],
+          "target": [
+            -0.5,
+            1.13020956516266,
+            5.59999990463257
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 0,
+        "drawCalls": 105,
+        "fps": 55,
+        "frames": 3168,
+        "gear": 1,
+        "handbrake": false,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -0.5,
+          -0.0197903737425804,
+          8
+        ],
+        "ready": true,
+        "rpm": 850,
+        "scale": 1,
+        "slipDegrees": 0,
+        "sound": false,
+        "speed": 0,
+        "started": true,
+        "tickMs": 69100,
+        "tireScrub": 0,
+        "triangles": 485254,
+        "weather": 0,
+        "wetness": 1.55334010038121e-12,
+        "yaw": 0
+      }
+    },
+    {
+      "name": "frontage-248142330-perspective-1",
+      "buildingId": 248142330,
+      "address": "112 East 7th Street",
+      "span": 1,
+      "along": 0.5,
+      "overlap": 0.2,
+      "projection": "perspective street subview; not matched to a photograph",
+      "source": "model-source/east-seventh-reference-06.json",
+      "sha256": "42e3ebd066b51f7e5c4532cb2c7770959280d347bad117e83aefe7fda23f344b",
+      "stats": {
+        "address": "",
+        "addressId": 0,
+        "addressVisible": false,
+        "buildings": 182,
+        "camera": 0,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 0,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            115.2236328125,
+            2.09999990463257,
+            1.97831296920776
+          ],
+          "target": [
+            -0.5,
+            1.13020956516266,
+            5.59999990463257
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 0,
+        "drawCalls": 54,
+        "fps": 55,
+        "frames": 3210,
+        "gear": 1,
+        "handbrake": false,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -0.5,
+          -0.0197903737425804,
+          8
+        ],
+        "ready": true,
+        "rpm": 850,
+        "scale": 1,
+        "slipDegrees": 0,
+        "sound": false,
+        "speed": 0,
+        "started": true,
+        "tickMs": 69883,
+        "tireScrub": 0,
+        "triangles": 646092,
+        "weather": 0,
+        "wetness": 1.07150186440846e-12,
+        "yaw": 0
+      }
+    },
+    {
+      "name": "frontage-248142332-elevation",
+      "buildingId": 248142332,
+      "address": "114 East 7th Street",
+      "span": 1,
+      "along": 0.5,
+      "projection": "orthographic whole elevation; not matched to a photograph",
+      "source": "model-source/east-seventh-reference-06.json",
+      "sha256": "87d816d0c6903f21df6de4ce52278a23393e18c503b13fb2f630a12d704db16a",
+      "stats": {
+        "address": "",
+        "addressId": 0,
+        "addressVisible": false,
+        "buildings": 182,
+        "camera": 0,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 0,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            122.775527954102,
+            10.8528003692627,
+            0.450000762939453
+          ],
+          "target": [
+            -0.5,
+            1.13020956516266,
+            5.59999990463257
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 0,
+        "drawCalls": 62,
+        "fps": 50,
+        "frames": 3251,
+        "gear": 1,
+        "handbrake": false,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -0.5,
+          -0.0197903737425804,
+          8
+        ],
+        "ready": true,
+        "rpm": 850,
+        "scale": 1,
+        "slipDegrees": 0,
+        "sound": false,
+        "speed": 0,
+        "started": true,
+        "tickMs": 70650,
+        "tireScrub": 0,
+        "triangles": 481934,
+        "weather": 0,
+        "wetness": 7.41913422364923e-13,
+        "yaw": 0
+      }
+    },
+    {
+      "name": "frontage-248142332-perspective-1",
+      "buildingId": 248142332,
+      "address": "114 East 7th Street",
+      "span": 1,
+      "along": 0.5,
+      "overlap": 0.2,
+      "projection": "perspective street subview; not matched to a photograph",
+      "source": "model-source/east-seventh-reference-06.json",
+      "sha256": "dc5bfa1febae6c44edde10923415eb6d807d8ac39ae895b780435950b56628df",
+      "stats": {
+        "address": "",
+        "addressId": 0,
+        "addressVisible": false,
+        "buildings": 182,
+        "camera": 0,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 0,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            122.776084899902,
+            2.09999990463257,
+            2.48352575302124
+          ],
+          "target": [
+            -0.5,
+            1.13020956516266,
+            5.59999990463257
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 0,
+        "drawCalls": 54,
+        "fps": 55,
+        "frames": 3293,
+        "gear": 1,
+        "handbrake": false,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -0.5,
+          -0.0197903737425804,
+          8
+        ],
+        "ready": true,
+        "rpm": 850,
+        "scale": 1,
+        "slipDegrees": 0,
+        "sound": false,
+        "speed": 0,
+        "started": true,
+        "tickMs": 71417,
+        "tireScrub": 0,
+        "triangles": 557211,
+        "weather": 0,
+        "wetness": 5.09407637168145e-13,
+        "yaw": 0
+      }
+    },
+    {
+      "name": "frontage-248142411-elevation",
+      "buildingId": 248142411,
+      "address": "116 East 7th Street",
+      "span": 1,
+      "along": 0.5,
+      "projection": "orthographic whole elevation; not matched to a photograph",
+      "source": "model-source/east-seventh-reference-06.json",
+      "sha256": "6a6dd45dc6d1a27a13bbb4aab2e8d8c079d2e4b9d735ea930ad1a00ba5a5636d",
+      "stats": {
+        "address": "",
+        "addressId": 0,
+        "addressVisible": false,
+        "buildings": 182,
+        "camera": 0,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 0,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            130.314880371094,
+            10.4040002822876,
+            0.447000503540039
+          ],
+          "target": [
+            -0.5,
+            1.13020956516266,
+            5.59999990463257
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 0,
+        "drawCalls": 60,
+        "fps": 55,
+        "frames": 3325,
+        "gear": 1,
+        "handbrake": false,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -0.5,
+          -0.0197903737425804,
+          8
+        ],
+        "ready": true,
+        "rpm": 850,
+        "scale": 1,
+        "slipDegrees": 0,
+        "sound": false,
+        "speed": 0,
+        "started": true,
+        "tickMs": 71950,
+        "tireScrub": 0,
+        "triangles": 474730,
+        "weather": 0,
+        "wetness": 3.81769321166384e-13,
+        "yaw": 0
+      }
+    },
+    {
+      "name": "frontage-248142411-perspective-1",
+      "buildingId": 248142411,
+      "address": "116 East 7th Street",
+      "span": 1,
+      "along": 0.5,
+      "overlap": 0.2,
+      "projection": "perspective street subview; not matched to a photograph",
+      "source": "model-source/east-seventh-reference-06.json",
+      "sha256": "aeb8b6abc3668b4cccc515258d7c1c3b032b125f7448f3c1684837eb332dd837",
+      "stats": {
+        "address": "",
+        "addressId": 0,
+        "addressVisible": false,
+        "buildings": 182,
+        "camera": 0,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 0,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            130.315673828125,
+            2.09999990463257,
+            1.99193572998047
+          ],
+          "target": [
+            -0.5,
+            1.13020956516266,
+            5.59999990463257
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 0,
+        "drawCalls": 58,
+        "fps": 56,
+        "frames": 3368,
+        "gear": 1,
+        "handbrake": false,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -0.5,
+          -0.0197903737425804,
+          8
+        ],
+        "ready": true,
+        "rpm": 850,
+        "scale": 1,
+        "slipDegrees": 0,
+        "sound": false,
+        "speed": 0,
+        "started": true,
+        "tickMs": 72734,
+        "tireScrub": 0,
+        "triangles": 675860,
+        "weather": 0,
+        "wetness": 2.60023350061187e-13,
+        "yaw": 0
+      }
+    },
+    {
+      "name": "frontage-248142333-elevation",
+      "buildingId": 248142333,
+      "address": "118 East 7th Street",
+      "span": 1,
+      "along": 0.5,
+      "projection": "orthographic whole elevation; not matched to a photograph",
+      "source": "model-source/east-seventh-reference-06.json",
+      "sha256": "17560c43ca7c127b6731dc41b4027263c6ac2f21bd0ffcbd68e5e7d79b09bff8",
+      "stats": {
+        "address": "",
+        "addressId": 0,
+        "addressVisible": false,
+        "buildings": 182,
+        "camera": 0,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 0,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            137.985809326172,
+            10.4040002822876,
+            0.444499969482422
+          ],
+          "target": [
+            -0.5,
+            1.13020956516266,
+            5.59999990463257
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 0,
+        "drawCalls": 61,
+        "fps": 53,
+        "frames": 3413,
+        "gear": 1,
+        "handbrake": false,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -0.5,
+          -0.0197903737425804,
+          8
+        ],
+        "ready": true,
+        "rpm": 850,
+        "scale": 1,
+        "slipDegrees": 0,
+        "sound": false,
+        "speed": 0,
+        "started": true,
+        "tickMs": 73534,
+        "tireScrub": 0,
+        "triangles": 463789,
+        "weather": 0,
+        "wetness": 1.76807263925439e-13,
+        "yaw": 0
+      }
+    },
+    {
+      "name": "frontage-248142333-perspective-1",
+      "buildingId": 248142333,
+      "address": "118 East 7th Street",
+      "span": 1,
+      "along": 0.5,
+      "overlap": 0.2,
+      "projection": "perspective street subview; not matched to a photograph",
+      "source": "model-source/east-seventh-reference-06.json",
+      "sha256": "d7a6e1f79aefc40a1aa548f2eb51e8c16c3cc637c310615a7e3f6640ba25901e",
+      "stats": {
+        "address": "",
+        "addressId": 0,
+        "addressVisible": false,
+        "buildings": 182,
+        "camera": 0,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 0,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            137.986038208008,
+            2.09999990463257,
+            2.23707675933838
+          ],
+          "target": [
+            -0.5,
+            1.13020956516266,
+            5.59999990463257
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 0,
+        "drawCalls": 57,
+        "fps": 55,
+        "frames": 3457,
+        "gear": 1,
+        "handbrake": false,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -0.5,
+          -0.0197903737425804,
+          8
+        ],
+        "ready": true,
+        "rpm": 850,
+        "scale": 1,
+        "slipDegrees": 0,
+        "sound": false,
+        "speed": 0,
+        "started": true,
+        "tickMs": 74351,
+        "tireScrub": 0,
+        "triangles": 665365,
+        "weather": 0,
+        "wetness": 1.20223082155675e-13,
+        "yaw": 0
+      }
+    },
+    {
+      "name": "frontage-248142334-elevation",
+      "buildingId": 248142334,
+      "address": "120 East 7th Street",
+      "span": 1,
+      "along": 0.5,
+      "projection": "orthographic whole elevation; not matched to a photograph",
+      "source": "model-source/east-seventh-reference-06.json",
+      "sha256": "91da6a1a5e9aae2a342f217f7c78f3bd3c2375cbbf3db3281b59c99684e139a0",
+      "stats": {
+        "address": "",
+        "addressId": 0,
+        "addressVisible": false,
+        "buildings": 182,
+        "camera": 0,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 0,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            145.523803710938,
+            10.5059995651245,
+            0.443499565124512
+          ],
+          "target": [
+            -0.5,
+            1.13020956516266,
+            5.59999990463257
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 0,
+        "drawCalls": 59,
+        "fps": 53,
+        "frames": 3498,
+        "gear": 1,
+        "handbrake": false,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -0.5,
+          -0.0197903737425804,
+          8
+        ],
+        "ready": true,
+        "rpm": 850,
+        "scale": 1,
+        "slipDegrees": 0,
+        "sound": false,
+        "speed": 0,
+        "started": true,
+        "tickMs": 75150,
+        "tireScrub": 0,
+        "triangles": 471986,
+        "weather": 0,
+        "wetness": 8.1747713086637e-14,
+        "yaw": 0
+      }
+    },
+    {
+      "name": "frontage-248142334-perspective-1",
+      "buildingId": 248142334,
+      "address": "120 East 7th Street",
+      "span": 1,
+      "along": 0.5,
+      "overlap": 0.2,
+      "projection": "perspective street subview; not matched to a photograph",
+      "source": "model-source/east-seventh-reference-06.json",
+      "sha256": "85fff04bb7f0d90e68a0f021579742eaa23fcd367df81f2405c737297b929f49",
+      "stats": {
+        "address": "",
+        "addressId": 0,
+        "addressVisible": false,
+        "buildings": 182,
+        "camera": 0,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 0,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            145.524032592773,
+            2.09999990463257,
+            2.23607635498047
+          ],
+          "target": [
+            -0.5,
+            1.13020956516266,
+            5.59999990463257
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 0,
+        "drawCalls": 57,
+        "fps": 53,
+        "frames": 3538,
+        "gear": 1,
+        "handbrake": false,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -0.5,
+          -0.0197903737425804,
+          8
+        ],
+        "ready": true,
+        "rpm": 850,
+        "scale": 1,
+        "slipDegrees": 0,
+        "sound": false,
+        "speed": 0,
+        "started": true,
+        "tickMs": 75950,
+        "tireScrub": 0,
+        "triangles": 658387,
+        "weather": 0,
+        "wetness": 5.61603569087801e-14,
+        "yaw": 0
+      }
+    },
+    {
+      "name": "frontage-248142335-elevation",
+      "buildingId": 248142335,
+      "address": "122 East 7th Street",
+      "span": 1,
+      "along": 0.5,
+      "projection": "orthographic whole elevation; not matched to a photograph",
+      "source": "model-source/east-seventh-reference-06.json",
+      "sha256": "df79fbfae1eb03f773a31ef6433f44a8ae73ab17d9396d353bfdbff7792d523a",
+      "stats": {
+        "address": "",
+        "addressId": 0,
+        "addressVisible": false,
+        "buildings": 182,
+        "camera": 0,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 0,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            153.084625244141,
+            9.6899995803833,
+            0.442001342773438
+          ],
+          "target": [
+            -0.5,
+            1.13020956516266,
+            5.59999990463257
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 0,
+        "drawCalls": 55,
+        "fps": 52,
+        "frames": 3580,
+        "gear": 1,
+        "handbrake": false,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -0.5,
+          -0.0197903737425804,
+          8
+        ],
+        "ready": true,
+        "rpm": 850,
+        "scale": 1,
+        "slipDegrees": 0,
+        "sound": false,
+        "speed": 0,
+        "started": true,
+        "tickMs": 76717,
+        "tireScrub": 0,
+        "triangles": 453609,
+        "weather": 0,
+        "wetness": 3.88875876014615e-14,
+        "yaw": 0
+      }
+    },
+    {
+      "name": "frontage-248142335-perspective-1",
+      "buildingId": 248142335,
+      "address": "122 East 7th Street",
+      "span": 1,
+      "along": 0.5,
+      "overlap": 0.2,
+      "projection": "perspective street subview; not matched to a photograph",
+      "source": "model-source/east-seventh-reference-06.json",
+      "sha256": "bd73004efc926d569056c0080320a0a509c91f056673b7b6bc030068db9dfc29",
+      "stats": {
+        "address": "",
+        "addressId": 0,
+        "addressVisible": false,
+        "buildings": 182,
+        "camera": 0,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 0,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            153.085098266602,
+            2.09999990463257,
+            2.18868255615234
+          ],
+          "target": [
+            -0.5,
+            1.13020956516266,
+            5.59999990463257
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 0,
+        "drawCalls": 55,
+        "fps": 52,
+        "frames": 3622,
+        "gear": 1,
+        "handbrake": false,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -0.5,
+          -0.0197903737425804,
+          8
+        ],
+        "ready": true,
+        "rpm": 850,
+        "scale": 1,
+        "slipDegrees": 0,
+        "sound": false,
+        "speed": 0,
+        "started": true,
+        "tickMs": 77500,
+        "tireScrub": 0,
+        "triangles": 667174,
+        "weather": 0,
+        "wetness": 2.64909020429493e-14,
+        "yaw": 0
+      }
+    },
+    {
+      "name": "frontage-248142336-elevation",
+      "buildingId": 248142336,
+      "address": "126 East 7th Street",
+      "span": 1,
+      "along": 0.5,
+      "projection": "orthographic whole elevation; not matched to a photograph",
+      "source": "model-source/east-seventh-reference-06.json",
+      "sha256": "a19d59087326545753743646d6fb5c59c6a920dff84c8de8a022d77041152314",
+      "stats": {
+        "address": "",
+        "addressId": 0,
+        "addressVisible": false,
+        "buildings": 182,
+        "camera": 0,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 0,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            160.897918701172,
+            9.18000030517578,
+            0.438502311706543
+          ],
+          "target": [
+            -0.5,
+            1.13020956516266,
+            5.59999990463257
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 0,
+        "drawCalls": 57,
+        "fps": 54,
+        "frames": 3665,
+        "gear": 1,
+        "handbrake": false,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -0.5,
+          -0.0197903737425804,
+          8
+        ],
+        "ready": true,
+        "rpm": 850,
+        "scale": 1,
+        "slipDegrees": 0,
+        "sound": false,
+        "speed": 0,
+        "started": true,
+        "tickMs": 78301,
+        "tireScrub": 0,
+        "triangles": 481684,
+        "weather": 0,
+        "wetness": 1.81969004550318e-14,
+        "yaw": 0
+      }
+    },
+    {
+      "name": "frontage-248142336-perspective-1",
+      "buildingId": 248142336,
+      "address": "126 East 7th Street",
+      "span": 1,
+      "along": 0.5,
+      "overlap": 0.2,
+      "projection": "perspective street subview; not matched to a photograph",
+      "source": "model-source/east-seventh-reference-06.json",
+      "sha256": "2a04d1bf5d17eb447b078ddb81107d8bd51cd7f4509f93b4f83b397338fac7f7",
+      "stats": {
+        "address": "",
+        "addressId": 0,
+        "addressVisible": false,
+        "buildings": 182,
+        "camera": 0,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 0,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            160.898727416992,
+            2.09999990463257,
+            1.74440050125122
+          ],
+          "target": [
+            -0.5,
+            1.13020956516266,
+            5.59999990463257
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 0,
+        "drawCalls": 54,
+        "fps": 53,
+        "frames": 3705,
+        "gear": 1,
+        "handbrake": false,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -0.5,
+          -0.0197903737425804,
+          8
+        ],
+        "ready": true,
+        "rpm": 850,
+        "scale": 1,
+        "slipDegrees": 0,
+        "sound": false,
+        "speed": 0,
+        "started": true,
+        "tickMs": 79083,
+        "tireScrub": 0,
+        "triangles": 664925,
+        "weather": 0,
+        "wetness": 1.24942342127115e-14,
+        "yaw": 0
+      }
+    },
+    {
+      "name": "frontage-248142337-elevation",
+      "buildingId": 248142337,
+      "address": "128 East 7th Street",
+      "span": 1,
+      "along": 0.5,
+      "projection": "orthographic whole elevation; not matched to a photograph",
+      "source": "model-source/east-seventh-reference-06.json",
+      "sha256": "43c4408ad03b07761a8481c348c3852af5068e0bee20ce66812cbbef4e55bad2",
+      "stats": {
+        "address": "",
+        "addressId": 0,
+        "addressVisible": false,
+        "buildings": 182,
+        "camera": 0,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 0,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            168.467544555664,
+            11.8115997314453,
+            0.43700122833252
+          ],
+          "target": [
+            -0.5,
+            1.13020956516266,
+            5.59999990463257
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 0,
+        "drawCalls": 59,
+        "fps": 53,
+        "frames": 3748,
+        "gear": 1,
+        "handbrake": false,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -0.5,
+          -0.0197903737425804,
+          8
+        ],
+        "ready": true,
+        "rpm": 850,
+        "scale": 1,
+        "slipDegrees": 0,
+        "sound": false,
+        "speed": 0,
+        "started": true,
+        "tickMs": 79867,
+        "tireScrub": 0,
+        "triangles": 510045,
+        "weather": 0,
+        "wetness": 8.57911940609698e-15,
+        "yaw": 0
+      }
+    },
+    {
+      "name": "frontage-248142337-perspective-1",
+      "buildingId": 248142337,
+      "address": "128 East 7th Street",
+      "span": 1,
+      "along": 0.5,
+      "overlap": 0.2,
+      "projection": "perspective street subview; not matched to a photograph",
+      "source": "model-source/east-seventh-reference-06.json",
+      "sha256": "5678bb6383af174501ebf602250df5948a2eb757a1b31d3260b0b386058d8e98",
+      "stats": {
+        "address": "",
+        "addressId": 0,
+        "addressVisible": false,
+        "buildings": 182,
+        "camera": 0,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 0,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            168.466903686523,
+            2.09999990463257,
+            2.67131662368774
+          ],
+          "target": [
+            -0.5,
+            1.13020956516266,
+            5.59999990463257
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 0,
+        "drawCalls": 52,
+        "fps": 54,
+        "frames": 3790,
+        "gear": 1,
+        "handbrake": false,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -0.5,
+          -0.0197903737425804,
+          8
+        ],
+        "ready": true,
+        "rpm": 850,
+        "scale": 1,
+        "slipDegrees": 0,
+        "sound": false,
+        "speed": 0,
+        "started": true,
+        "tickMs": 80650,
+        "tireScrub": 0,
+        "triangles": 617704,
+        "weather": 0,
+        "wetness": 5.84070924139556e-15,
+        "yaw": 0
+      }
+    },
+    {
+      "name": "frontage-248142407-elevation",
+      "buildingId": 248142407,
+      "address": "109 Avenue A",
+      "span": 1,
+      "along": 0.5,
+      "projection": "orthographic whole elevation; not matched to a photograph",
+      "source": "model-source/east-seventh-reference-06.json",
+      "sha256": "4042c8d935d642c0a67565350b1d8b85f61dc2fc43ec55f32eda744858810b60",
+      "stats": {
+        "address": "",
+        "addressId": 0,
+        "addressVisible": false,
+        "buildings": 182,
+        "camera": 0,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 0,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            187.258193969727,
+            14.4228000640869,
+            0.429001808166504
+          ],
+          "target": [
+            -0.5,
+            1.13020956516266,
+            5.59999990463257
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 0,
+        "drawCalls": 55,
+        "fps": 53,
+        "frames": 3834,
+        "gear": 1,
+        "handbrake": false,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -0.5,
+          -0.0197903737425804,
+          8
+        ],
+        "ready": true,
+        "rpm": 850,
+        "scale": 1,
+        "slipDegrees": 0,
+        "sound": false,
+        "speed": 0,
+        "started": true,
+        "tickMs": 81450,
+        "tireScrub": 0,
+        "triangles": 445671,
+        "weather": 0,
+        "wetness": 3.97148879172648e-15,
+        "yaw": 0
+      }
+    },
+    {
+      "name": "frontage-248142407-perspective-1",
+      "buildingId": 248142407,
+      "address": "109 Avenue A",
+      "span": 0.29487893581468494,
+      "along": 0.14743946790734247,
+      "overlap": 0.2,
+      "projection": "perspective street subview; not matched to a photograph",
+      "source": "model-source/east-seventh-reference-06.json",
+      "sha256": "c6e05ab817a8a1a2b9ae8133b3902038b5a46a60602ff312a7ef93dd833a9c53",
+      "stats": {
+        "address": "",
+        "addressId": 0,
+        "addressVisible": false,
+        "buildings": 182,
+        "camera": 0,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 0,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            198.018920898438,
+            2.09999990463257,
+            0.817348480224609
+          ],
+          "target": [
+            -0.5,
+            1.13020956516266,
+            5.59999990463257
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 0,
+        "drawCalls": 52,
+        "fps": 54,
+        "frames": 3876,
+        "gear": 1,
+        "handbrake": false,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -0.5,
+          -0.0197903737425804,
+          8
+        ],
+        "ready": true,
+        "rpm": 850,
+        "scale": 1,
+        "slipDegrees": 0,
+        "sound": false,
+        "speed": 0,
+        "started": true,
+        "tickMs": 82249,
+        "tireScrub": 0,
+        "triangles": 639249,
+        "weather": 0,
+        "wetness": 2.73543763237492e-15,
+        "yaw": 0
+      }
+    },
+    {
+      "name": "frontage-248142407-perspective-2",
+      "buildingId": 248142407,
+      "address": "109 Avenue A",
+      "span": 0.29487893581468494,
+      "along": 0.3833426165590904,
+      "overlap": 0.2,
+      "projection": "perspective street subview; not matched to a photograph",
+      "source": "model-source/east-seventh-reference-06.json",
+      "sha256": "0a04af443e77a6c61ffdb2994d2487ab8e2f5d9f19f41bedef6410127d602274",
+      "stats": {
+        "address": "",
+        "addressId": 0,
+        "addressVisible": false,
+        "buildings": 182,
+        "camera": 0,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 0,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            190.818923950195,
+            2.09999990463257,
+            0.82159423828125
+          ],
+          "target": [
+            -0.5,
+            1.13020956516266,
+            5.59999990463257
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 0,
+        "drawCalls": 50,
+        "fps": 54,
+        "frames": 3900,
+        "gear": 1,
+        "handbrake": false,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -0.5,
+          -0.0197903737425804,
+          8
+        ],
+        "ready": true,
+        "rpm": 850,
+        "scale": 1,
+        "slipDegrees": 0,
+        "sound": false,
+        "speed": 0,
+        "started": true,
+        "tickMs": 82767,
+        "tireScrub": 0,
+        "triangles": 661879,
+        "weather": 0,
+        "wetness": 2.13459180189863e-15,
+        "yaw": 0
+      }
+    },
+    {
+      "name": "frontage-248142407-perspective-3",
+      "buildingId": 248142407,
+      "address": "109 Avenue A",
+      "span": 0.29487893581468494,
+      "along": 0.6192457652108384,
+      "overlap": 0.2,
+      "projection": "perspective street subview; not matched to a photograph",
+      "source": "model-source/east-seventh-reference-06.json",
+      "sha256": "089174aebee886a8c0535659440a035ddcc82e4f27c5cdfc9c01a86e8190a21c",
+      "stats": {
+        "address": "",
+        "addressId": 0,
+        "addressVisible": false,
+        "buildings": 182,
+        "camera": 0,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 0,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            183.618927001953,
+            2.09999990463257,
+            0.825840950012207
+          ],
+          "target": [
+            -0.5,
+            1.13020956516266,
+            5.59999990463257
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 0,
+        "drawCalls": 52,
+        "fps": 50,
+        "frames": 3929,
+        "gear": 1,
+        "handbrake": false,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -0.5,
+          -0.0197903737425804,
+          8
+        ],
+        "ready": true,
+        "rpm": 850,
+        "scale": 1,
+        "slipDegrees": 0,
+        "sound": false,
+        "speed": 0,
+        "started": true,
+        "tickMs": 83300,
+        "tireScrub": 0,
+        "triangles": 691607,
+        "weather": 0,
+        "wetness": 1.6535493105375e-15,
+        "yaw": 0
+      }
+    },
+    {
+      "name": "frontage-248142407-perspective-4",
+      "buildingId": 248142407,
+      "address": "109 Avenue A",
+      "span": 0.29487893581468494,
+      "along": 0.8525605320926575,
+      "overlap": 0.2,
+      "projection": "perspective street subview; not matched to a photograph",
+      "source": "model-source/east-seventh-reference-06.json",
+      "sha256": "8337ed0b9976081934947cae5144ef9cf54609a6b87016821471b8cd3bc10397",
+      "stats": {
+        "address": "",
+        "addressId": 0,
+        "addressVisible": false,
+        "buildings": 182,
+        "camera": 0,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 0,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            176.497924804688,
+            2.09999990463257,
+            0.830039978027344
+          ],
+          "target": [
+            -0.5,
+            1.13020956516266,
+            5.59999990463257
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 0,
+        "drawCalls": 53,
+        "fps": 56,
+        "frames": 3972,
+        "gear": 1,
+        "handbrake": false,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -0.5,
+          -0.0197903737425804,
+          8
+        ],
+        "ready": true,
+        "rpm": 850,
+        "scale": 1,
+        "slipDegrees": 0,
+        "sound": false,
+        "speed": 0,
+        "started": true,
+        "tickMs": 84084,
+        "tireScrub": 0,
+        "triangles": 706535,
+        "weather": 0,
+        "wetness": 1.12435875198568e-15,
+        "yaw": 0
+      }
+    }
+  ],
+  "buildHashesAfter": {
+    "sourceCommit": "c76dccebc143960498d21eeab8c55c2d0dbcc5ce",
+    "geographySha256": "fd61b108e80eab18d477686b677413ef565f1ab16edc26170751347e22651a5c",
+    "files": {
+      "DAMION-OFL.txt": "4aeb831b7b6ab653dca84308e576613059c598696aa2dc83192ab6117b24a5fa",
+      "INTER-OFL.txt": "262481e844521b326f5ecd053e59b98c8b2da78c8ee1bdbb6e8174305e54935a",
+      "InterVariable.woff2": "693b77d4f32ee9b8bfc995589b5fad5e99adf2832738661f5402f9978429a8e3",
+      "LICENSE.txt": "d698c1c978070d4305be75e60e904f6f54715f003fe248a23bf8b3ee0ca07134",
+      "credits.txt": "4ae0affa1819eaf17d6409b32c3bbfc19ef36fde0d5aef5a3e1a90df296d4e2e",
+      "drivearound-logo.png": "9156dec61cc0ab10adb5b471e7f80d77d4e79102c2a4069e09227f93462f5448",
+      "godot-notices.txt": "96b99d808a955ca39a6a8db9b93b3c04d012d1d71109c9e1dd8af85f00eeeb98",
+      "index.audio.position.worklet.js": "be33985bc7160d6bf9646f259cd86b259cd67b02ccb297ee5c44f8ac84327bc8",
+      "index.audio.worklet.js": "5b476a9c9ce642c0ee4256436d1bc31d9c38f868aca0f9a8e2a57c18d2dec2a3",
+      "index.html": "fb320bcb40fe2f06ecf48643ac9c6bde55b8ed329eb317fa5b54d5021ab8e601",
+      "index.js": "33c94cb3175f3333b82e2a3be5e8e86f77986f0aa2042b1631f6367a4e5bb6ba",
+      "index.pck": "70b6abb704ba9f06cd3e5eeec927fe1784d7d549a3f1f2d8612169ade582882d",
+      "index.png": "3cb4495c0b98dfbe4b663cbf2b6836473572339beb66d902367893162a70be0e",
+      "index.wasm": "fc74679e3b97f76878947fcd4fbe1268cbfa6188182a2e33bbc3f5dc9bfa57d0"
+    },
+    "sources": {
+      "engine/first-seventh/assets/audio/cornerlight.wav": "25e74f3f7d782323220af9ca8f41fe196ecf30355b77424b6bcd3c399cb9134e",
+      "engine/first-seventh/assets/audio/cornerlight.wav.import": "fd5f7ed95ed31620af2e488521190f1380ba88cc5c9c49f417556de5283777d1",
+      "engine/first-seventh/assets/audio/engine-coast.wav": "fc8fd78f33021d261377a51a0e53526648d12f052a06734c6f7bc0bd00aca740",
+      "engine/first-seventh/assets/audio/engine-coast.wav.import": "2a420089cb0f5e34318414d20678557e470d930372a7e7b3b7f9d7e4a317be3d",
+      "engine/first-seventh/assets/audio/engine-idle.wav": "b914dc2baf867b7115ebb10cbb830ab27f6da9559110a3cd71c8aa5c1f583550",
+      "engine/first-seventh/assets/audio/engine-idle.wav.import": "5a887ee72b701d3d67729c4531540daace46221a1e28f7b8c705d405c87df44c",
+      "engine/first-seventh/assets/audio/engine-load.wav": "6ab1a1203a4a15a5e7c4a3cbe3240dd9a7986fb4031b21d366991527357116b6",
+      "engine/first-seventh/assets/audio/engine-load.wav.import": "f11e99702f4ac029273cd6bfcb76e53ca8ca27e0714fb9371f85e249e367b7ac",
+      "engine/first-seventh/assets/audio/impact.wav": "60ac6a81a97c01eb363cec6f62c020c66970f31f0a175d870c270060820860dd",
+      "engine/first-seventh/assets/audio/impact.wav.import": "f0d61f82267eed97ea8e360d61e07612915a1d21885a1c55ec6ac295426302c3",
+      "engine/first-seventh/assets/audio/rain.wav": "371be06535d635590c9c5f44528f17806265de885e0daaaba7f4f41e802d9111",
+      "engine/first-seventh/assets/audio/rain.wav.import": "830b6262c52c97a8cf659dcae8d31b436daf47df4b3b5a827a8186f07f8e2ce5",
+      "engine/first-seventh/assets/audio/road.wav": "f1a25770ea0d98e8f9b6a594a9d1d2b5426089036ddc86730652e6859bfca42c",
+      "engine/first-seventh/assets/audio/road.wav.import": "a79ba0601825c5fc01b589e893a7a735786cc4fc736d3c6bec657d6f2f51e2bc",
+      "engine/first-seventh/assets/audio/tires.wav": "b66574c0f6934a85bdee5b0842667dda7250b98693807ef46f9d6e426fc179a2",
+      "engine/first-seventh/assets/audio/tires.wav.import": "6255e82a47207e8eabe22e509fec9e8cb6d82340c11d6c76713a157bb4ce345e",
+      "engine/first-seventh/assets/brand/drivearound-logo.png": "9156dec61cc0ab10adb5b471e7f80d77d4e79102c2a4069e09227f93462f5448",
+      "engine/first-seventh/assets/brand/drivearound-logo.png.import": "6adb8ca30681fbb1fc94657317fa6b433aca03305664fa51cc7770c7d2876645",
+      "engine/first-seventh/assets/credits.txt": "4ae0affa1819eaf17d6409b32c3bbfc19ef36fde0d5aef5a3e1a90df296d4e2e",
+      "engine/first-seventh/assets/fonts/INTER-OFL.txt": "262481e844521b326f5ecd053e59b98c8b2da78c8ee1bdbb6e8174305e54935a",
+      "engine/first-seventh/assets/fonts/InterVariable.ttf": "4989b125924991b90d05b2d16e0e388c48f7d5bb8b30539bbf9c755278d0ccaf",
+      "engine/first-seventh/assets/fonts/InterVariable.ttf.import": "608295b5dcece46082f83470307d9757145081e719109a4d4a7f37b494cd4e74",
+      "engine/first-seventh/assets/fonts/InterVariable.woff2": "693b77d4f32ee9b8bfc995589b5fad5e99adf2832738661f5402f9978429a8e3",
+      "engine/first-seventh/assets/fonts/InterVariable.woff2.import": "0568aa77832669aadd728e2dacdb6f59327433fa4710673fcc93f96490e82bbe",
+      "engine/first-seventh/assets/slice.json": "93c564dc1db84d176ea4cfb79229c6aba19e7ea42cd5efeef906fb6c3c6e43a9",
+      "engine/first-seventh/assets/surfaces/concrete_wall_006_diff_1k.jpg": "fea247dd085cd05d8deb335234c834764d622029da351f8bcc8913935316bacd",
+      "engine/first-seventh/assets/surfaces/concrete_wall_006_diff_1k.jpg.import": "86cb4a30d395f5d755478389def71c133918d1cb4fbe8cabf91665ab8e05ffde",
+      "engine/first-seventh/assets/surfaces/concrete_wall_006_nor_gl_1k.jpg": "4ff16bb96fc2df3ef71d22007151aff1d8bf7cb10a493d3f8e973213a99dd428",
+      "engine/first-seventh/assets/surfaces/concrete_wall_006_nor_gl_1k.jpg.import": "ce3fd08785570bec136acddbf9bf4ce69b6e1090475e54940c687c5d0e247bf2",
+      "engine/first-seventh/assets/surfaces/red_brick_03_diff_1k.jpg": "9c58254c099b2d211478f50a427fcdde622af24249ff2e94da41fb836f8c857f",
+      "engine/first-seventh/assets/surfaces/red_brick_03_diff_1k.jpg.import": "e77d7e5dca366fafc2e4572aec4b1b7f971628b64c5836825bf151a31c308f30",
+      "engine/first-seventh/assets/surfaces/red_brick_03_nor_gl_1k.jpg": "9bfd45e24720d851017c1e1678b70219c72239b2ac6b25e11d57d458bdab8503",
+      "engine/first-seventh/assets/surfaces/red_brick_03_nor_gl_1k.jpg.import": "e4851b33d07c7e9d0b829f7699d35822e74d3da2c50228781f2f3367746eaa3e",
+      "engine/first-seventh/assets/surfaces/white_bricks_diff_1k.jpg": "a1483d99ea1ca6e23adce0ba4ad1a1ba0e586e76cafd1979c826424916cb03c4",
+      "engine/first-seventh/assets/surfaces/white_bricks_diff_1k.jpg.import": "13d0a1946b85ea8e72e6412e822e66fdab92e6cd1c2f473c72a296fd7a994e9c",
+      "engine/first-seventh/assets/surfaces/white_bricks_nor_gl_1k.jpg": "e2159482d8dec6db0c617b5d8313d01ac5dca23c642354331c1c5b4664d1728e",
+      "engine/first-seventh/assets/surfaces/white_bricks_nor_gl_1k.jpg.import": "3c5854cb19adeb6fc8ed209db33178ef502d3e5bcaf49c2ff2f816557af062ee",
+      "engine/first-seventh/assets/west_seventh_streetscape.json": "f65c8d4e8e77cbe0202d1b4c9e6fdb3b8233a6d91778f541b09de988d5c4a88b",
+      "engine/first-seventh/export_presets.cfg": "de830db6e0808164dba6f22f4cfceee803f4d56d002c7e9bdd87b395609de38b",
+      "engine/first-seventh/project.godot": "71a99956d6b337e274d693ea40aadf5ee3ffbc595b21be5509426189fb952675",
+      "engine/first-seventh/scenes/main.tscn": "36b1ee7da0776608f1933cf39d31d5d928b160da1f474fcedac7a5f9f3e67e3a",
+      "engine/first-seventh/scripts/address_locator.gd": "67039770c035bcc663c9bd9d8f4bb35d6778a57264f68429e994572b551e2d2f",
+      "engine/first-seventh/scripts/cameras.gd": "41bee5dc1557b8220549bcfb6d7fb663c0dab996388cd61599e5158a7932f2fa",
+      "engine/first-seventh/scripts/car.gd": "af3cbe86cf9768161b76d46364a41726e0f277554bf6222cb5e1d846dd8b190d",
+      "engine/first-seventh/scripts/car_audio.gd": "21c2003f12e9afe16b0d08f6c7532b011ae67585aa0e0a116bf243bcc2b0af50",
+      "engine/first-seventh/scripts/east_seventh_detail.gd": "a58a13ee45fd7680297997977aecaea013ec48e0aaced55d125931b61428c61b",
+      "engine/first-seventh/scripts/export_credits.gd": "b6e415b08e93abdeb7ac41976a74210de5a6db00f221fb48fd3f1a94725f076b",
+      "engine/first-seventh/scripts/handling.gd": "f421fb6ba97f937db1b50bdb2488138997fb3a69882f69f9f7b3ce3d85e67518",
+      "engine/first-seventh/scripts/hud.gd": "4ced53732bf274b09c441f27db133ff0208acab704e3ebf59c24a9e7a912900e",
+      "engine/first-seventh/scripts/main.gd": "dd57720853fc260411c4817836e2381a6ad8f6b3382c2452511f3a6439a2dbcc",
+      "engine/first-seventh/scripts/minimap.gd": "fe97467d38921f80fbed32ff0b5fffd038ab2190d77a04a0c07a89337c41a83e",
+      "engine/first-seventh/scripts/shapes.gd": "d825a4be3f13bd833322e4ee1bc3477046994bd6ee434da2b07c87d60288fc15",
+      "engine/first-seventh/scripts/street_detail.gd": "f5c2b49a57dc75c4adc532a1df26883853902245b5fd7fdc4392e0c9b0ae4d73",
+      "engine/first-seventh/scripts/tire_effects.gd": "bcbfa5e84c38d4a2a7b3cf74a1544c5dbca451e63fed41d1afc1a96306415026",
+      "engine/first-seventh/scripts/weather.gd": "b9ae9e0d1771f69f0142ae49cfceae7b7672820d5711bf7551a7ebf62a985bd8",
+      "engine/first-seventh/scripts/world.gd": "39b4452706331c6c3c2d326355a9746221addfd567f06c3e22736ec6eb65fcba",
+      "engine/first-seventh/shaders/film.gdshader": "f1633072e86da2ee3c9f771009c69e8b2d5c8a9f829e2178e94fb6f4f63e0e42",
+      "engine/first-seventh/shaders/foliage.gdshader": "4dab411186d82b31b99c89036f100ede2c8aa1d8233076fe31f77aecd15c6214",
+      "engine/first-seventh/shaders/paint.gdshader": "70651010ecd19513690d2d5beb69cfc99685fc6ffbdcad1d97b8725ab77bd4f3",
+      "engine/first-seventh/shaders/road.gdshader": "86a6fc77ec8db974af7722cd6f8779a99c7cd7afa1b756b99cddf8e2e4b23ea1",
+      "engine/first-seventh/shaders/sidewalk.gdshader": "48b744cdc85df84b47ca63f906fdf5981004b43135b8659bf105012b340fbb12",
+      "engine/first-seventh/shaders/sky.gdshader": "b55915fc5d5e0df055eec96f1369c93235d529f8a322d19ed175f80de08f39a5",
+      "engine/first-seventh/shaders/tire_marks.gdshader": "6f5f96e7ff361bd8ac2e18bb9da3284e1fcfccb40994c3b40ae74a9048ee63c5",
+      "engine/first-seventh/tests/address_locator.gd": "830fa769510cf07de9cbf8ef44a2dc0545d7540661a1c8cc70a86562d9c7fb93",
+      "engine/first-seventh/tests/cameras.gd": "594d63915ee5123387a98742e2630bb24a5fd3c860751c6b73afa69063aed6b4",
+      "engine/first-seventh/tests/handling.gd": "a1aabddf6e9dcecdc97c942025c2b13fdd316d3302575c4481843864d039be7e",
+      "engine/first-seventh/web/shell.html": "60e9c60be19838cef65ce68dc36cf68876f8711f827fe17c5c896f08faba11f5",
+      "model-source/export_seventh_engine.py": "83444111332ce94162ec88681bd0ee0c56a3a4d879a6499b330fc98460a6dacd",
+      "model-source/seventh_street_kit.py": "ea631191c9200d76f2fb10810728d9a0caf4358d1dbff3d8559d62f2a9fabbf6",
+      "model-source/seventh_fidelity_kit.py": "f8ebe9846b1b0968a041484d7f9c59069dde507d3b1f296da8e4f2754d5396cb",
+      "model-source/build_neighborhood.py": "96582aa9e4b995573c31b83067879d45efd326c190478473f6cd4160f27f81be",
+      "model-source/build_intersection.py": "ff42784487c1eb8f036d400a37674c2fef4f02307119a9963a875a81555465b0",
+      "model-source/neighborhood_detail_kit.py": "6d4331d82f360a883565c0b2e0a21b44e21b159080494b788569edf6a6c8fc0f",
+      "model-source/storefront_detail_kit.py": "ab6d199c0a69e26a92b2ba208fc5f4522339e26192aee13a5b792583996422ce",
+      "model-source/neighborhood_landmarks.py": "7e8c48c9fc5f233d5eaa10b0bffe24f29b0f85e9cf76ca44007cd84e9a1baad3",
+      "model-source/first_seventh_kit.py": "0b8054b71913c3a8ec53cb83bf19886d973e3e650d2a9cdeddb653fc4c4ba20a",
+      "model-source/first_seventh_refinement.py": "5ea53dfd46a5aef6da13848413cbb1edff9de1fbc46848467f359c0c574d7d86",
+      "model-source/storefront-details.json": "8144907536fb8aeb9d37d48406b8e417b4caa01ac48006e9a7ed919b87c5f8fb",
+      "model-source/seventh-street-reference-02.json": "363260952d0c582078cb9fafd1cb7ef406cf6c355b8205d1c3c23cdaa73b3752",
+      "model-source/west-seventh-reference-04.json": "fc1cbdc2cc377e5efb785a98ae321cfa4ec93d9c82b889d15b3af1d26169a00f",
+      "model-source/west-seventh-observations-04.json": "b5c679b6a2603385e6dee1d1a8aa2392a0fa8b9c27d16d631637ba0d39bef70c",
+      "model-source/east-seventh-reference-06.json": "aa494d54ff6cd2b33d65c089808c8dc9568addce5c67db9deb986efcd9d00ba2",
+      "model-source/east-seventh-observations-06.json": "8a6ca017474bea086c22ca8ac2244fe85952096eeaaf384354c0687ce7b581a5",
+      "model-source/east-seventh-browser-07.json": "eb9bdb747ce1dcab1b0b13a61d8d12c80a8aa47b2d0a4a14dd9a21e22a28aa1c",
+      "model-source/make_seventh_audio.py": "859a0530f8d141a0b0f8403f201f428132edfbd1e0df4f4778ac84b337e4d0a3",
+      "scripts/export-seventh.mjs": "b245fc26a4b1a0c1e6c5b1b01ae8a86169e58f359287f41cdc5cb3b5c5088415"
+    }
+  },
+  "completed": true
+}

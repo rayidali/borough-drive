@@ -1,0 +1,361 @@
+{
+  "method": "Raw per-channel mean absolute pixel difference at identical diagnostic poses. Foliage/time differ, so this is not calibrated photographic acceptance. All 89 architecture views were previously reviewed; all final captures have also been visually inspected.",
+  "views": [
+    {
+      "name": "frontage-248142313-elevation",
+      "meanAbsoluteRgbDifference": 0.11597574869791666
+    },
+    {
+      "name": "frontage-248142319-elevation",
+      "meanAbsoluteRgbDifference": 0.007740071614583333
+    },
+    {
+      "name": "frontage-248142322-elevation",
+      "meanAbsoluteRgbDifference": 0.07211507161458333
+    },
+    {
+      "name": "frontage-248142324-elevation",
+      "meanAbsoluteRgbDifference": 0.34793212890625
+    },
+    {
+      "name": "frontage-248142328-elevation",
+      "meanAbsoluteRgbDifference": 0.1849072265625
+    },
+    {
+      "name": "frontage-248142330-elevation",
+      "meanAbsoluteRgbDifference": 0.061011555989583334
+    },
+    {
+      "name": "frontage-248142332-elevation",
+      "meanAbsoluteRgbDifference": 0.07341471354166666
+    },
+    {
+      "name": "frontage-248142333-elevation",
+      "meanAbsoluteRgbDifference": 0.020501302083333336
+    },
+    {
+      "name": "frontage-248142334-elevation",
+      "meanAbsoluteRgbDifference": 0.011241048177083332
+    },
+    {
+      "name": "frontage-248142335-elevation",
+      "meanAbsoluteRgbDifference": 0.10813802083333333
+    },
+    {
+      "name": "frontage-248142336-elevation",
+      "meanAbsoluteRgbDifference": 0.0774658203125
+    },
+    {
+      "name": "frontage-248142337-elevation",
+      "meanAbsoluteRgbDifference": 0.059970703125
+    },
+    {
+      "name": "frontage-248142390-elevation",
+      "meanAbsoluteRgbDifference": 0.011043294270833332
+    },
+    {
+      "name": "frontage-248142393-elevation",
+      "meanAbsoluteRgbDifference": 0.11257893880208332
+    },
+    {
+      "name": "frontage-248142396-elevation",
+      "meanAbsoluteRgbDifference": 0.13405843098958334
+    },
+    {
+      "name": "frontage-248142404-elevation",
+      "meanAbsoluteRgbDifference": 0.0014599609374999999
+    },
+    {
+      "name": "frontage-248142407-elevation",
+      "meanAbsoluteRgbDifference": 0.028684895833333335
+    },
+    {
+      "name": "frontage-248142411-elevation",
+      "meanAbsoluteRgbDifference": 0.08156901041666666
+    },
+    {
+      "name": "frontage-248142615-elevation",
+      "meanAbsoluteRgbDifference": 0.39384114583333335
+    },
+    {
+      "name": "frontage-248142618-elevation",
+      "meanAbsoluteRgbDifference": 0.18781250000000002
+    },
+    {
+      "name": "frontage-248142621-elevation",
+      "meanAbsoluteRgbDifference": 0.027673339843750002
+    },
+    {
+      "name": "frontage-248142624-elevation",
+      "meanAbsoluteRgbDifference": 0.22806966145833332
+    },
+    {
+      "name": "frontage-248142633-elevation",
+      "meanAbsoluteRgbDifference": 0.0030875651041666666
+    },
+    {
+      "name": "frontage-248142640-elevation",
+      "meanAbsoluteRgbDifference": 0.08194661458333334
+    },
+    {
+      "name": "frontage-248142645-elevation",
+      "meanAbsoluteRgbDifference": 0.09228597005208333
+    },
+    {
+      "name": "frontage-248142647-elevation",
+      "meanAbsoluteRgbDifference": 0.13287516276041667
+    },
+    {
+      "name": "frontage-248142650-elevation",
+      "meanAbsoluteRgbDifference": 0.0050390625
+    },
+    {
+      "name": "frontage-248142653-elevation",
+      "meanAbsoluteRgbDifference": 0.038424479166666664
+    },
+    {
+      "name": "frontage-248142656-elevation",
+      "meanAbsoluteRgbDifference": 0.21940755208333332
+    },
+    {
+      "name": "frontage-248142690-elevation",
+      "meanAbsoluteRgbDifference": 0.55004150390625
+    },
+    {
+      "name": "frontage-248142693-elevation",
+      "meanAbsoluteRgbDifference": 0.13093343098958332
+    },
+    {
+      "name": "frontage-248142697-elevation",
+      "meanAbsoluteRgbDifference": 0.32309651692708335
+    },
+    {
+      "name": "frontage-248142701-elevation",
+      "meanAbsoluteRgbDifference": 0.43713785807291666
+    },
+    {
+      "name": "frontage-248142707-elevation",
+      "meanAbsoluteRgbDifference": 5.271016438802083
+    },
+    {
+      "name": "frontage-248142714-elevation",
+      "meanAbsoluteRgbDifference": 0.0035278320312500003
+    },
+    {
+      "name": "frontage-248142715-elevation",
+      "meanAbsoluteRgbDifference": 1.2518131510416666
+    },
+    {
+      "name": "frontage-951679435-elevation",
+      "meanAbsoluteRgbDifference": 0.0055908203125000005
+    },
+    {
+      "name": "frontage-248142313-perspective-1",
+      "meanAbsoluteRgbDifference": 0.0033097330729166667
+    },
+    {
+      "name": "frontage-248142319-perspective-1",
+      "meanAbsoluteRgbDifference": 0.005596516927083333
+    },
+    {
+      "name": "frontage-248142322-perspective-1",
+      "meanAbsoluteRgbDifference": 0.0043115234375
+    },
+    {
+      "name": "frontage-248142324-perspective-1",
+      "meanAbsoluteRgbDifference": 0.41386474609374996
+    },
+    {
+      "name": "frontage-248142328-perspective-1",
+      "meanAbsoluteRgbDifference": 0.03984456380208334
+    },
+    {
+      "name": "frontage-248142330-perspective-1",
+      "meanAbsoluteRgbDifference": 0.0033797200520833334
+    },
+    {
+      "name": "frontage-248142332-perspective-1",
+      "meanAbsoluteRgbDifference": 0.007036132812499999
+    },
+    {
+      "name": "frontage-248142333-perspective-1",
+      "meanAbsoluteRgbDifference": 0.00474365234375
+    },
+    {
+      "name": "frontage-248142334-perspective-1",
+      "meanAbsoluteRgbDifference": 0.0039208984375
+    },
+    {
+      "name": "frontage-248142335-perspective-1",
+      "meanAbsoluteRgbDifference": 0.004447428385416666
+    },
+    {
+      "name": "frontage-248142336-perspective-1",
+      "meanAbsoluteRgbDifference": 0.3896175130208333
+    },
+    {
+      "name": "frontage-248142337-perspective-1",
+      "meanAbsoluteRgbDifference": 0.0020751953125
+    },
+    {
+      "name": "frontage-248142390-perspective-1",
+      "meanAbsoluteRgbDifference": 0.0032649739583333333
+    },
+    {
+      "name": "frontage-248142393-perspective-1",
+      "meanAbsoluteRgbDifference": 0.0043115234375
+    },
+    {
+      "name": "frontage-248142396-perspective-1",
+      "meanAbsoluteRgbDifference": 0.17099202473958333
+    },
+    {
+      "name": "frontage-248142404-perspective-1",
+      "meanAbsoluteRgbDifference": 0.0014615885416666668
+    },
+    {
+      "name": "frontage-248142404-perspective-2",
+      "meanAbsoluteRgbDifference": 0.0013834635416666667
+    },
+    {
+      "name": "frontage-248142404-perspective-3",
+      "meanAbsoluteRgbDifference": 0.0015323893229166666
+    },
+    {
+      "name": "frontage-248142407-perspective-1",
+      "meanAbsoluteRgbDifference": 0.0070947265625
+    },
+    {
+      "name": "frontage-248142407-perspective-2",
+      "meanAbsoluteRgbDifference": 0.13964518229166667
+    },
+    {
+      "name": "frontage-248142407-perspective-3",
+      "meanAbsoluteRgbDifference": 0.27990397135416667
+    },
+    {
+      "name": "frontage-248142407-perspective-4",
+      "meanAbsoluteRgbDifference": 0.0053653971354166675
+    },
+    {
+      "name": "frontage-248142411-perspective-1",
+      "meanAbsoluteRgbDifference": 0.004263509114583334
+    },
+    {
+      "name": "frontage-248142615-perspective-1",
+      "meanAbsoluteRgbDifference": 0.48081136067708335
+    },
+    {
+      "name": "frontage-248142618-perspective-1",
+      "meanAbsoluteRgbDifference": 0.01298583984375
+    },
+    {
+      "name": "frontage-248142618-perspective-2",
+      "meanAbsoluteRgbDifference": 0.01320068359375
+    },
+    {
+      "name": "frontage-248142621-perspective-1",
+      "meanAbsoluteRgbDifference": 0.01694580078125
+    },
+    {
+      "name": "frontage-248142624-perspective-1",
+      "meanAbsoluteRgbDifference": 1.05598388671875
+    },
+    {
+      "name": "frontage-248142624-perspective-2",
+      "meanAbsoluteRgbDifference": 0.4175927734375
+    },
+    {
+      "name": "frontage-248142624-perspective-3",
+      "meanAbsoluteRgbDifference": 0.13597981770833334
+    },
+    {
+      "name": "frontage-248142633-perspective-1",
+      "meanAbsoluteRgbDifference": 0.0035319010416666667
+    },
+    {
+      "name": "frontage-248142633-perspective-2",
+      "meanAbsoluteRgbDifference": 0.0045458984375
+    },
+    {
+      "name": "frontage-248142640-perspective-1",
+      "meanAbsoluteRgbDifference": 0.003372395833333333
+    },
+    {
+      "name": "frontage-248142645-perspective-1",
+      "meanAbsoluteRgbDifference": 0.87188720703125
+    },
+    {
+      "name": "frontage-248142647-perspective-1",
+      "meanAbsoluteRgbDifference": 0.012093912760416667
+    },
+    {
+      "name": "frontage-248142650-perspective-1",
+      "meanAbsoluteRgbDifference": 0.0047705078125
+    },
+    {
+      "name": "frontage-248142653-perspective-1",
+      "meanAbsoluteRgbDifference": 0.005021158854166667
+    },
+    {
+      "name": "frontage-248142656-perspective-1",
+      "meanAbsoluteRgbDifference": 0.741494140625
+    },
+    {
+      "name": "frontage-248142656-perspective-2",
+      "meanAbsoluteRgbDifference": 0.66042724609375
+    },
+    {
+      "name": "frontage-248142690-perspective-1",
+      "meanAbsoluteRgbDifference": 0.32378011067708334
+    },
+    {
+      "name": "frontage-248142693-perspective-1",
+      "meanAbsoluteRgbDifference": 0.0374560546875
+    },
+    {
+      "name": "frontage-248142697-perspective-1",
+      "meanAbsoluteRgbDifference": 0.33147216796875
+    },
+    {
+      "name": "frontage-248142701-perspective-1",
+      "meanAbsoluteRgbDifference": 0.07336507161458333
+    },
+    {
+      "name": "frontage-248142707-perspective-1",
+      "meanAbsoluteRgbDifference": 3.1527832031250003
+    },
+    {
+      "name": "frontage-248142707-perspective-2",
+      "meanAbsoluteRgbDifference": 1.75462158203125
+    },
+    {
+      "name": "frontage-248142707-perspective-3",
+      "meanAbsoluteRgbDifference": 1.0433740234375
+    },
+    {
+      "name": "frontage-248142714-perspective-1",
+      "meanAbsoluteRgbDifference": 0.003705240885416667
+    },
+    {
+      "name": "frontage-248142714-perspective-2",
+      "meanAbsoluteRgbDifference": 0.0036246744791666665
+    },
+    {
+      "name": "frontage-248142714-perspective-3",
+      "meanAbsoluteRgbDifference": 0.0023014322916666665
+    },
+    {
+      "name": "frontage-248142715-perspective-1",
+      "meanAbsoluteRgbDifference": 0.4415771484375
+    },
+    {
+      "name": "frontage-248142715-perspective-2",
+      "meanAbsoluteRgbDifference": 0.31085042317708333
+    },
+    {
+      "name": "frontage-951679435-perspective-1",
+      "meanAbsoluteRgbDifference": 0.0048095703125
+    }
+  ]
+}

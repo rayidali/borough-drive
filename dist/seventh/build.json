@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "builtAt": "2026-09-22T03:03:29.727Z",
+  "builtAt": "2026-09-23T20:19:46.065Z",
   "engine": "Godot 4.7.2",
   "renderer": "Compatibility / WebGL 2",
   "threaded": false,
@@ -46,16 +46,16 @@
     },
     "index.html": {
       "bytes": 9845,
-      "sha256": "a3afa5856d5571860c867882bda4ebf1b6d8a30433cce33229a80334bfffcbef"
+      "sha256": "5c0b8974b5ff55d12278e009520dbcc1adbe3658d3d37182d9d66654f0b61a8a"
     },
     "index.js": {
       "bytes": 279815,
       "sha256": "33c94cb3175f3333b82e2a3be5e8e86f77986f0aa2042b1631f6367a4e5bb6ba"
     },
     "index.pck": {
-      "bytes": 88153136,
-      "sha256": "600c609cfb9bb17267e0668bcf9729c46ef0db2fd4f442758461688c0aa56432",
-      "brotliBytes": 79577055
+      "bytes": 89466244,
+      "sha256": "746113ee606ebfb6b6b0e32861974ce2ae3445c25d7a6b509b011c7c6bd393fa",
+      "brotliBytes": 80656781
     },
     "index.png": {
       "bytes": 21443,
@@ -92,7 +92,7 @@
     "engine/first-seventh/assets/fonts/InterVariable.ttf.import": "608295b5dcece46082f83470307d9757145081e719109a4d4a7f37b494cd4e74",
     "engine/first-seventh/assets/fonts/InterVariable.woff2": "693b77d4f32ee9b8bfc995589b5fad5e99adf2832738661f5402f9978429a8e3",
     "engine/first-seventh/assets/fonts/InterVariable.woff2.import": "0568aa77832669aadd728e2dacdb6f59327433fa4710673fcc93f96490e82bbe",
-    "engine/first-seventh/assets/slice.json": "78061680f0bc4ba64700b4433a69e079215b703a30b250d65c65db7ce89fd011",
+    "engine/first-seventh/assets/slice.json": "bed9d7c38f07a3388066c2f1822290fc5ff7740a0685836a5f8e904ef11fc857",
     "engine/first-seventh/assets/surfaces/concrete_wall_006_diff_1k.jpg": "fea247dd085cd05d8deb335234c834764d622029da351f8bcc8913935316bacd",
     "engine/first-seventh/assets/surfaces/concrete_wall_006_diff_1k.jpg.import": "86cb4a30d395f5d755478389def71c133918d1cb4fbe8cabf91665ab8e05ffde",
     "engine/first-seventh/assets/surfaces/concrete_wall_006_nor_gl_1k.jpg": "4ff16bb96fc2df3ef71d22007151aff1d8bf7cb10a493d3f8e973213a99dd428",
@@ -113,13 +113,14 @@
     "engine/first-seventh/scripts/cameras.gd": "41bee5dc1557b8220549bcfb6d7fb663c0dab996388cd61599e5158a7932f2fa",
     "engine/first-seventh/scripts/car.gd": "af3cbe86cf9768161b76d46364a41726e0f277554bf6222cb5e1d846dd8b190d",
     "engine/first-seventh/scripts/car_audio.gd": "21c2003f12e9afe16b0d08f6c7532b011ae67585aa0e0a116bf243bcc2b0af50",
+    "engine/first-seventh/scripts/east_seventh_detail.gd": "590ce47680ea2aafce44286a0ad05bff9c4125df0fb22f4b12e71e64527aab95",
     "engine/first-seventh/scripts/export_credits.gd": "b6e415b08e93abdeb7ac41976a74210de5a6db00f221fb48fd3f1a94725f076b",
     "engine/first-seventh/scripts/handling.gd": "f421fb6ba97f937db1b50bdb2488138997fb3a69882f69f9f7b3ce3d85e67518",
     "engine/first-seventh/scripts/hud.gd": "4ced53732bf274b09c441f27db133ff0208acab704e3ebf59c24a9e7a912900e",
     "engine/first-seventh/scripts/main.gd": "dd57720853fc260411c4817836e2381a6ad8f6b3382c2452511f3a6439a2dbcc",
     "engine/first-seventh/scripts/minimap.gd": "fe97467d38921f80fbed32ff0b5fffd038ab2190d77a04a0c07a89337c41a83e",
     "engine/first-seventh/scripts/shapes.gd": "d825a4be3f13bd833322e4ee1bc3477046994bd6ee434da2b07c87d60288fc15",
-    "engine/first-seventh/scripts/street_detail.gd": "8425d6c7fc91b3b97a520ef6bdf96cbcb693363ea5d9a50a2fc9f253d70ba1a9",
+    "engine/first-seventh/scripts/street_detail.gd": "f5c2b49a57dc75c4adc532a1df26883853902245b5fd7fdc4392e0c9b0ae4d73",
     "engine/first-seventh/scripts/tire_effects.gd": "bcbfa5e84c38d4a2a7b3cf74a1544c5dbca451e63fed41d1afc1a96306415026",
     "engine/first-seventh/scripts/weather.gd": "b9ae9e0d1771f69f0142ae49cfceae7b7672820d5711bf7551a7ebf62a985bd8",
     "engine/first-seventh/scripts/world.gd": "39b4452706331c6c3c2d326355a9746221addfd567f06c3e22736ec6eb65fcba",
@@ -135,8 +136,8 @@
     "engine/first-seventh/tests/handling.gd": "a1aabddf6e9dcecdc97c942025c2b13fdd316d3302575c4481843864d039be7e",
     "engine/first-seventh/web/shell.html": "60e9c60be19838cef65ce68dc36cf68876f8711f827fe17c5c896f08faba11f5",
     "model-source/export_seventh_engine.py": "83444111332ce94162ec88681bd0ee0c56a3a4d879a6499b330fc98460a6dacd",
-    "model-source/seventh_street_kit.py": "ea631191c9200d76f2fb10810728d9a0caf4358d1dbff3d8559d62f2a9fabbf6",
-    "model-source/seventh_fidelity_kit.py": "39c8c9302e8152c8daddac35737174f15385487c29649bd5b961e2ad2616ffb6",
+    "model-source/seventh_street_kit.py": "1d8db3bbc8dceab0ba23b558a06e57d75f7a2e1ccc3ba05ef4e3f470c7fbe0da",
+    "model-source/seventh_fidelity_kit.py": "29bc7a804fd639e546fefb6844d724bf60c2ee22270c6b2a57bc7d9c76d235e7",
     "model-source/build_neighborhood.py": "96582aa9e4b995573c31b83067879d45efd326c190478473f6cd4160f27f81be",
     "model-source/build_intersection.py": "ff42784487c1eb8f036d400a37674c2fef4f02307119a9963a875a81555465b0",
     "model-source/neighborhood_detail_kit.py": "6d4331d82f360a883565c0b2e0a21b44e21b159080494b788569edf6a6c8fc0f",
@@ -144,13 +145,14 @@
     "model-source/neighborhood_landmarks.py": "7e8c48c9fc5f233d5eaa10b0bffe24f29b0f85e9cf76ca44007cd84e9a1baad3",
     "model-source/first_seventh_kit.py": "0b8054b71913c3a8ec53cb83bf19886d973e3e650d2a9cdeddb653fc4c4ba20a",
     "model-source/first_seventh_refinement.py": "5ea53dfd46a5aef6da13848413cbb1edff9de1fbc46848467f359c0c574d7d86",
-    "model-source/storefront-details.json": "d1e7bf5e57578356fc40afa17fdeaf2bfbf941c31efe4d6d98ee21918b04c950",
+    "model-source/storefront-details.json": "272fe166d4f7192cbf26bc2232f1371133f534b50099691566c2b1e40e02b3f1",
     "model-source/seventh-street-reference-02.json": "363260952d0c582078cb9fafd1cb7ef406cf6c355b8205d1c3c23cdaa73b3752",
     "model-source/west-seventh-reference-04.json": "fc1cbdc2cc377e5efb785a98ae321cfa4ec93d9c82b889d15b3af1d26169a00f",
     "model-source/west-seventh-observations-04.json": "b5c679b6a2603385e6dee1d1a8aa2392a0fa8b9c27d16d631637ba0d39bef70c",
     "model-source/east-seventh-reference-06.json": "aa494d54ff6cd2b33d65c089808c8dc9568addce5c67db9deb986efcd9d00ba2",
     "model-source/east-seventh-observations-06.json": "8a6ca017474bea086c22ca8ac2244fe85952096eeaaf384354c0687ce7b581a5",
+    "model-source/east-seventh-browser-07.json": "eccbe6e7218852c0f90a897890c68df480b1e5c00bb9abe542fcd2fbd295bcb9",
     "model-source/make_seventh_audio.py": "859a0530f8d141a0b0f8403f201f428132edfbd1e0df4f4778ac84b337e4d0a3",
-    "scripts/export-seventh.mjs": "6be4727affe846728934aa1e6ffe53255da8b44c0b9bcec8e8c15dcc068837ec"
+    "scripts/export-seventh.mjs": "b245fc26a4b1a0c1e6c5b1b01ae8a86169e58f359287f41cdc5cb3b5c5088415"
   }
 }

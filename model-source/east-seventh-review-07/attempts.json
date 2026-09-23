@@ -1,0 +1,41 @@
+{
+  "recordedAt": "2026-09-23T20:16:59.850051+00:00",
+  "attempts": [
+    {
+      "phase": "initial sandboxed Blender startup",
+      "result": "exit 139; no finished export",
+      "resolution": "Desktop-context export used, then final successful Blender export."
+    },
+    {
+      "phase": "first architecture verification",
+      "result": "observation shape and outdated bay-count assertions exposed",
+      "resolution": "Restored structured observation/provenance; corrected 116/118/120 from three to four bays based on browser observations; added checks for parlor rows surviving ground overrides."
+    },
+    {
+      "phase": "legacy verification after shared helper edit",
+      "result": "Legacy recipe signature mismatch",
+      "resolution": "Restored original shared storefront helper byte-for-byte; engine-specific plinth split moved to Seventh adapter. Final npm run verify passes."
+    },
+    {
+      "phase": "two intermediate exports",
+      "result": "Failed at 101 after local bust-angle variable shadowed the building record",
+      "resolution": "Renamed loop values angle_a/angle_b. Final full export and browser build completed."
+    },
+    {
+      "phase": "native tests",
+      "result": "macOS certificate enumeration logs an environment error; address, handling and camera test failure arrays are empty",
+      "resolution": "Reported separately from game assertions; no claim of warning-free native startup."
+    },
+    {
+      "phase": "review-evidence script",
+      "result": "Initial preservation assertion expected a Python recipe in a JSON/runtime-only snapshot",
+      "resolution": "Verified that recipe directly against Git HEAD; retained independent baseline hash checks."
+    },
+    {
+      "phase": "post-batching full browser run",
+      "result": "Driving/braking/drift, six block routes, pause/reset/steering passed. Settings reload then hit the 45-second loading-progress watchdog and 120-second harness timeout. Engine eventually reported ready, document visible but OS focus false; no failed network request.",
+      "resolution": "Retain complete failed-run metadata. Harness now holds focus during ordinary work and disables it for the explicit focus-loss test. Repeat only independent settings/recovery checks on the same unchanged package. Focused repeat passed settings reload, Retina sizing, true tab-switch pause, postcards, missing-pack retry and graphics-context recovery with zero unexpected errors or failed requests."
+    }
+  ],
+  "finalState": "All scoped checks complete. Initial/intermediate failures remain recorded. Calibrated accuracy and sustained 60 FPS remain unestablished."
+}

@@ -1,0 +1,40 @@
+{
+  "checkedAt": "2026-09-23T20:28:41.826Z",
+  "rootIndexAbsent": true,
+  "checks": [
+    {
+      "route": "/",
+      "file": "dist/seventh/index.html",
+      "status": 200,
+      "sha256": "5c0b8974b5ff55d12278e009520dbcc1adbe3658d3d37182d9d66654f0b61a8a",
+      "matchesDisk": true
+    },
+    {
+      "route": "/seventh/",
+      "file": "dist/seventh/index.html",
+      "status": 200,
+      "sha256": "5c0b8974b5ff55d12278e009520dbcc1adbe3658d3d37182d9d66654f0b61a8a",
+      "matchesDisk": true
+    },
+    {
+      "route": "/index.html",
+      "file": "dist/legacy.html",
+      "status": 200,
+      "sha256": "ad8fa5a259fea000caa0a463ce636ce5004dad5641d4c9f324930acdaacbb908",
+      "matchesDisk": true
+    },
+    {
+      "route": "/seventh/build.json",
+      "file": "dist/seventh/build.json",
+      "status": 200,
+      "sha256": "ef23044b14e704145c7be88d4310e58b1c9c8d596e3c070474ee762218c1b459",
+      "matchesDisk": true
+    },
+    {
+      "route": "/seventh/index.pck",
+      "method": "HEAD",
+      "status": 200,
+      "bytes": 89466244
+    }
+  ]
+}

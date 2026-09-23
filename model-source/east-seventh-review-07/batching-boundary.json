@@ -1,0 +1,19 @@
+{
+  "beforePck": {
+    "bytes": 89466148,
+    "sha256": "362be9c886f79dfa61ed51087bc51029d21d71d75470edd70e46d3cff6eafbf1",
+    "brotliBytes": 80656563
+  },
+  "finalPck": {
+    "bytes": 89466244,
+    "sha256": "746113ee606ebfb6b6b0e32861974ce2ae3445c25d7a6b509b011c7c6bd393fa",
+    "brotliBytes": 80656781
+  },
+  "changedSourceFiles": [
+    "engine/first-seventh/scripts/east_seventh_detail.gd"
+  ],
+  "unchangedModelFiles": 182,
+  "unchangedOtherSourceHashes": 85,
+  "change": "Identity-transform static meshes from the 108 site enter the pre-existing global material batch. Original mesh vertices/materials and collision body are unchanged.",
+  "validationBoundary": "Native unit tests plus 17 address/four inspection-mode browser cases used the pre-batch package. Their source modules, all building assets and geographic/identity records remain byte-identical. Final package performance, frontage/oblique captures and driving plus focused settings/recovery checks are repeated after batching. The failed first settings reload and passing focused repeat remain separate reports."
+}

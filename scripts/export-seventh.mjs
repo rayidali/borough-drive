@@ -67,7 +67,7 @@ try{
     }
   }
   await sources(project);
-  for(const name of [...Object.keys(data.recipeHashes),'model-source/storefront-details.json','model-source/seventh-street-reference-02.json','model-source/west-seventh-reference-04.json','model-source/west-seventh-observations-04.json','model-source/east-seventh-reference-06.json','model-source/east-seventh-observations-06.json','model-source/make_seventh_audio.py','scripts/export-seventh.mjs']){
+  for(const name of [...Object.keys(data.recipeHashes),'model-source/storefront-details.json','model-source/seventh-street-reference-02.json','model-source/west-seventh-reference-04.json','model-source/west-seventh-observations-04.json','model-source/east-seventh-reference-06.json','model-source/east-seventh-observations-06.json','model-source/east-seventh-browser-07.json','model-source/make_seventh_audio.py','scripts/export-seventh.mjs']){
     manifest.sources[name]=createHash('sha256').update(await fs.readFile(path.join(root,name))).digest('hex');
   }
   await fs.writeFile(path.join(stage,'build.json'),JSON.stringify(manifest,null,2)+'\n');

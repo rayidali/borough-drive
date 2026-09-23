@@ -1,8 +1,8 @@
 # Borough Drive source, build and review adapter
 
-Read before implementation or technical review. These are verified source relationships as of September 21, 2026, not a new export/test run. Recheck the relevant consumer before a later edit. Commands below describe future authorized implementation; this documentation session runs none of the modeling/export jobs.
+Read before implementation or technical review. Source relationships were rechecked during the September 23 revision 07 pass. Commands describe the authorized build/review workflow; they do not assign another street or a background job. Use the current handoff for exact completed tests and package hashes.
 
-**Closing baseline:** architectural source remains `d4fbafe9a6af4497de81e2220d31c878f930612e`; interface/runtime is `b194dc6ca371b588b27f073bd6cf5be9df4fa9ca`, published with checkpoint `533570ed9ee458e7f5104c23e35d6b19447d7122`. Preserve the [interface pass](../../../INTERFACE-PASS-05.md): bundled Inter/logo assets and their exporter/license/hash entries, actual-viewport UI sizing, narrow-layout handling and existing input behavior. No new street is assigned; use the current handoff for subsequent source changes.
+**Protected baseline:** the published interface/runtime is `b194dc6ca371b588b27f073bd6cf5be9df4fa9ca`, with publication checkpoint `533570ed9ee458e7f5104c23e35d6b19447d7122`. The later east-block [revision 07](../../../SEVENTH-ENGINE-07.md) is local. Preserve the [interface contract](../../../INTERFACE-PASS-05.md), west block, accepted corner and audio. Use the current handoff for actual source/save/deployment state.
 
 ## Follow the real source chain
 
@@ -19,6 +19,16 @@ Read before implementation or technical review. These are verified source relati
 | Runtime presentation | [world.gd](../../../../engine/first-seventh/scripts/world.gd), [weather.gd](../../../../engine/first-seventh/scripts/weather.gd), [HUD](../../../../engine/first-seventh/scripts/hud.gd), [shell](../../../../engine/first-seventh/web/shell.html) | Preserve material semantics, camera inspection, address bounds, controls and browser behavior while adding detail. |
 
 Two concrete precedence checks: 63/Kinka (`241822202`) uses a right/east basement shop and distinct raised entry; 81/Abraço (`241822329`) uses the effective left/west residential door, not the old raw central-door record. Trace the final values before editing. A generic old business exterior may need suppression to avoid duplicate shop geometry.
+
+## Revision 07 source and review lessons
+
+- `architecture.observation` is an object with `sources` and `unknown`, not free text. Add dated facts without discarding earlier provenance or limits.
+- `replaceWindows` removes raw windows below 3.55 m. If a corrected parlor row starts at 3.15 m, put it in `groundOpenings`; a correct-looking raw schedule can still export a blank row. Verify the effective renderer and a full-elevation image.
+- Street View's displayed camera address is not the property identity. Check neighbors, facade boundaries and mapped face direction. Long corner parcels need overlapping views: the 109 Avenue A record also owns the Seventh 130 entrance/Titi’s section. Number placement belongs to a specific opening or plaque, not a universal header.
+- Existing fixed count assertions can encode a source-reading error. Change them only with recorded reinspection and an actual rendered comparison; the April views corrected 116/118/120 to four bays and Yuca to five uneven stacks.
+- The original `storefront_detail_kit.py` participates in legacy source signatures. Put engine-only extensions in `seventh_fidelity_kit.py` and prove protected GLB hashes unchanged instead of recompiling the original map to silence verification.
+- New door options (`labelPlate`, `labelOffset`, `labelDepth`, `archedLeaves`, fixed-part materials), angled oriels and dated sheds are opt-in. Keep defaults byte-identical for accepted work. Site 108 is separate runtime geometry in `east_seventh_detail.gd`; building counts cannot stand in for its review.
+- A browser observation ledger may be included in exported source hashes. Freeze observations before the release build and store subsequent rendered-review outcomes in a separate review directory so reporting does not silently stale the player.
 
 ## IDs, coordinates and material semantics
 
@@ -120,3 +130,7 @@ The effective ground layout can come from `seventhEngine.observedGroundCorrectio
 Opt-in pointed/ogee openings, church profiles, corbelled cornices, balcony geometry, solid awning valances and worn tread edges express observed differences. Their defaults preserve the accepted west/corner models. Compare all model hashes after a shared recipe change, not just assigned IDs. Unknown current 108-site conditions and generic street fixtures remain named gaps; a new full-block source ledger must not automatically mark them accepted.
 
 Partial rebuilds must take review-camera heights from the verified exported building records. A revision 06 check caught eight cached facades reverting to old source heights in `reviewFrontages` during `--only`; the exporter now uses the retained model heights and verification asserts equality. This affects review framing, not building geometry. Verify full and partial exports produce equivalent review records.
+
+For runtime street details, `world.batch_details()` currently consumes only direct `MeshInstance3D` children of `geometry`. A named identity-transform site group can accidentally bypass that path and add hundreds of draw calls. Move only its static meshes into the existing batch input (preserving transforms/materials), keep collision nodes intact, and measure the actual final package. Do not replace global batching with spatial buckets without evidence.
+
+A browser can be visible but OS-unfocused during automated reload. Revision 07 recorded a loading watchdog timeout followed by eventual engine readiness. The browser harness holds focus during ordinary work and disables that emulation for the explicit focus-loss check. Preserve failures, and use `node scripts/review-seventh.mjs OUT --recovery-only` to repeat independent settings/recovery checks after completed driving checks; report both result files and their exact package hashes.

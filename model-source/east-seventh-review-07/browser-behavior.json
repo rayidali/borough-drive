@@ -1,0 +1,236 @@
+{
+  "checkedAt": "2026-09-23T20:36:18.136121+00:00",
+  "packageSha256": "746113ee606ebfb6b6b0e32861974ce2ae3445c25d7a6b509b011c7c6bd393fa",
+  "scope": "Combined final-package driving and focused settings/recovery checks. The first final-package run timed out during settings reload after passing driving; its failure remains recorded.",
+  "drivingSource": "browser-behavior-batched-reload-timeout.json",
+  "recoverySource": "browser-recovery.json",
+  "checks": {
+    "camerasAndWeather": 12,
+    "reverse": true,
+    "brake": true,
+    "drift": {
+      "during": {
+        "address": "",
+        "addressId": 0,
+        "addressVisible": false,
+        "buildings": 182,
+        "camera": 0,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 0,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            -226.074768066406,
+            3.4809422492981,
+            5.50404834747314
+          ],
+          "target": [
+            -229.988052368164,
+            1.13094210624695,
+            -4.79375696182251
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 0,
+        "drawCalls": 305,
+        "fps": 53,
+        "frames": 3189,
+        "gear": 1,
+        "handbrake": true,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -229.315170288086,
+          -0.0190579816699028,
+          -4.46652173995972
+        ],
+        "ready": true,
+        "rpm": 4550.097924268,
+        "scale": 0.875,
+        "slipDegrees": 25.4775699556223,
+        "sound": false,
+        "speed": 12.4874353408813,
+        "started": true,
+        "tickMs": 75130,
+        "tireScrub": 0.85,
+        "triangles": 1388853,
+        "weather": 0,
+        "wetness": 0.0173982210061937,
+        "yaw": 0.598778665065765
+      },
+      "after": {
+        "address": "",
+        "addressId": 0,
+        "addressVisible": false,
+        "buildings": 182,
+        "camera": 0,
+        "cameraPose": {
+          "inspecting": false,
+          "mode": 0,
+          "pan": [
+            0,
+            0,
+            0
+          ],
+          "pitch": 0,
+          "position": [
+            -228.144638061523,
+            3.48094296455383,
+            -3.5539186000824
+          ],
+          "target": [
+            -233.997833251953,
+            1.13094305992126,
+            -12.6380233764648
+          ],
+          "yaw": 0,
+          "zoom": 1
+        },
+        "collisions": 0,
+        "drawCalls": 270,
+        "fps": 33,
+        "frames": 3230,
+        "gear": 1,
+        "handbrake": false,
+        "paused": false,
+        "persistent": true,
+        "position": [
+          -233.610092163086,
+          -0.0190563946962357,
+          -11.9092302322388
+        ],
+        "ready": true,
+        "rpm": 3362.49382470981,
+        "scale": 0.875,
+        "slipDegrees": -7.8210194626448,
+        "sound": false,
+        "speed": 9.45726108551025,
+        "started": true,
+        "tickMs": 76232,
+        "tireScrub": 0.0674286837042787,
+        "triangles": 793153,
+        "weather": 0,
+        "wetness": 0.0119462325390382,
+        "yaw": 0.35850715637207
+      },
+      "countersteerMs": 320,
+      "wallContacts": 0
+    },
+    "eastBlockRoutes": [
+      {
+        "weather": 0,
+        "direction": "east",
+        "start": [
+          16,
+          -0.0190104097127914,
+          0
+        ],
+        "end": [
+          211.703475952148,
+          -0.0190560519695282,
+          8.55445614433847e-06
+        ],
+        "contacts": 0
+      },
+      {
+        "weather": 0,
+        "direction": "west",
+        "start": [
+          203,
+          -0.0190104097127914,
+          0
+        ],
+        "end": [
+          2.10087037086487,
+          -0.0190594047307968,
+          8.78154787642416e-06
+        ],
+        "contacts": 0
+      },
+      {
+        "weather": 1,
+        "direction": "east",
+        "start": [
+          16,
+          -0.0190104097127914,
+          0
+        ],
+        "end": [
+          215.300338745117,
+          -0.0190579276531935,
+          8.71168231242336e-06
+        ],
+        "contacts": 0
+      },
+      {
+        "weather": 1,
+        "direction": "west",
+        "start": [
+          203,
+          -0.0190104097127914,
+          0
+        ],
+        "end": [
+          -1.89591705799103,
+          -0.0190595388412476,
+          8.95625271368772e-06
+        ],
+        "contacts": 0
+      },
+      {
+        "weather": 2,
+        "direction": "east",
+        "start": [
+          16,
+          -0.0190104097127914,
+          0
+        ],
+        "end": [
+          217.298858642578,
+          -0.0190562941133976,
+          8.79904109751806e-06
+        ],
+        "contacts": 0
+      },
+      {
+        "weather": 2,
+        "direction": "west",
+        "start": [
+          203,
+          -0.0190104097127914,
+          0
+        ],
+        "end": [
+          3.29983115196228,
+          -0.0190586075186729,
+          8.72914006322389e-06
+        ],
+        "contacts": 0
+      }
+    ],
+    "pause": true,
+    "reset": true,
+    "steering": true,
+    "settingsReload": true,
+    "resize": true,
+    "focusLoss": true,
+    "postcard": true,
+    "perspectiveShopCaptures": 18
+  },
+  "recovery": {
+    "missingPackRetry": true,
+    "contextLossRetry": true
+  },
+  "repeatHealthyErrors": [],
+  "repeatFailedRequests": [],
+  "earlierReloadFailure": [
+    "Error: Loading stopped making progress.\n    at http://127.0.0.1:5173/seventh/?review=1:97:47"
+  ],
+  "passedAfterFocusedRepeat": true
+}

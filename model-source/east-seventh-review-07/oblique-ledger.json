@@ -1,0 +1,160 @@
+{
+  "schema": "east07-authored-oblique-diagnostics",
+  "scope": "Entry, construction and 108 street-edge checks; authored camera poses, not calibrated source comparisons.",
+  "scopedFrontages": [],
+  "referenceViews": [
+    {
+      "id": "st-mary-stairs",
+      "engineCameraStart": {
+        "x": 133.5,
+        "z": -0.8,
+        "height": 3.5
+      },
+      "views": [
+        {
+          "heading": 64.69535336925183,
+          "pitch": -15.592272572427493,
+          "fov": 80
+        }
+      ],
+      "captureDate": null,
+      "basis": "Authored oblique diagnostic; not a source pose."
+    },
+    {
+      "id": "114-stoop",
+      "engineCameraStart": {
+        "x": 128,
+        "z": 2.5,
+        "height": 3.5
+      },
+      "views": [
+        {
+          "heading": 251.95576713333855,
+          "pitch": -17.435123292195577,
+          "fov": 80
+        }
+      ],
+      "captureDate": null,
+      "basis": "Authored oblique diagnostic; not a source pose."
+    },
+    {
+      "id": "church-oblique",
+      "engineCameraStart": {
+        "x": 78,
+        "z": 0,
+        "height": 3.5
+      },
+      "views": [
+        {
+          "heading": 76.48789327661125,
+          "pitch": 35.24047248402853,
+          "fov": 80
+        }
+      ],
+      "captureDate": null,
+      "basis": "Authored oblique diagnostic; not a source pose."
+    },
+    {
+      "id": "north-stoops",
+      "engineCameraStart": {
+        "x": 58,
+        "z": -1,
+        "height": 3.5
+      },
+      "views": [
+        {
+          "heading": 10.64191470707799,
+          "pitch": -13.342363797088236,
+          "fov": 80
+        }
+      ],
+      "captureDate": null,
+      "basis": "Authored oblique diagnostic; not a source pose."
+    },
+    {
+      "id": "108-gate-west",
+      "engineCameraStart": {
+        "x": 95,
+        "z": 1,
+        "height": 3.0
+      },
+      "views": [
+        {
+          "heading": 181.3183229294975,
+          "pitch": -7.692187768723351,
+          "fov": 80
+        }
+      ],
+      "captureDate": null,
+      "basis": "Authored final geometry diagnostic; not a source-matched pose."
+    },
+    {
+      "id": "108-gate-east",
+      "engineCameraStart": {
+        "x": 106,
+        "z": 1,
+        "height": 3.0
+      },
+      "views": [
+        {
+          "heading": 241.35250784513514,
+          "pitch": -7.353283793233194,
+          "fov": 80
+        }
+      ],
+      "captureDate": null,
+      "basis": "Authored final geometry diagnostic; not a source-matched pose."
+    },
+    {
+      "id": "yuca-return",
+      "engineCameraStart": {
+        "x": 181,
+        "z": 0,
+        "height": 3.0
+      },
+      "views": [
+        {
+          "heading": 82.2069658847135,
+          "pitch": 14.931417178137554,
+          "fov": 80
+        }
+      ],
+      "captureDate": null,
+      "basis": "Authored final geometry diagnostic; not a source-matched pose."
+    },
+    {
+      "id": "corner-130",
+      "engineCameraStart": {
+        "x": 195,
+        "z": 0,
+        "height": 3.0
+      },
+      "views": [
+        {
+          "heading": 270.97918056312153,
+          "pitch": -2.8531893699128625,
+          "fov": 80
+        }
+      ],
+      "captureDate": null,
+      "basis": "Authored final geometry diagnostic; not a source-matched pose."
+    },
+    {
+      "id": "south-oriels",
+      "engineCameraStart": {
+        "x": 118,
+        "z": 1,
+        "height": 3.0
+      },
+      "views": [
+        {
+          "heading": 229.63290875014098,
+          "pitch": -5.349175098285603,
+          "fov": 80
+        }
+      ],
+      "captureDate": null,
+      "basis": "Authored final geometry diagnostic; not a source-matched pose."
+    }
+  ]
+}

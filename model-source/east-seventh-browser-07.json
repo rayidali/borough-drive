@@ -1,0 +1,1266 @@
+{
+  "schema": "east-seventh-browser-review-v1",
+  "checkedAt": "2026-09-23T19:36:54.444479+00:00",
+  "baselineCommit": "f176aed",
+  "scope": {
+    "street": "East 7th Street",
+    "from": "First Avenue",
+    "to": "Avenue A",
+    "sides": [
+      "north",
+      "south"
+    ],
+    "cornerReturns": "Existing corner parcels facing this block only; First Avenue accepted corner geometry protected; no adjacent avenue parcel expansion.",
+    "datePolicy": "Prefer latest available inspected views; retain capture dates separately, mark older/mixed-date details and uncertain occupancy explicitly."
+  },
+  "mode": "browser-observed implementation; render review tracked separately in east-seventh-review-07",
+  "method": "Ordinary public Google Maps browser navigation; source pixels are not game textures or committed reference files. Factual observations distinguish visible details from dimensional estimates. No paid API calls.",
+  "frontages": [
+    {
+      "buildingId": 248142707,
+      "address": "118 1st Avenue",
+      "side": "north",
+      "protected": true,
+      "sourceViews": [
+        {
+          "url": "https://www.google.com/maps/@40.7268972,-73.98554,3a,90y,55.42h,122t/data=!3m7!1e1!3m5!1sTFgmQsr2y38bYtO6gkeQww!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-32%26panoid%3DTFgmQsr2y38bYtO6gkeQww%26yaw%3D55.421!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI2MDkyMS4wIKXMDSoASAFQAw%3D%3D",
+          "view": "full",
+          "captureDate": "2026-04",
+          "retrieved": "2026-09-23",
+          "provider": "Google Street View",
+          "inspected": true
+        }
+      ],
+      "observations": [
+        "Protected north First Avenue corner checked for continuity: tall red brick corner side with large blank wall, two vertical window stacks, low frontage to east with red 7th Street Burger awning/sign. Existing accepted corner is preserved; dated graffiti and movable crowd are not grounds to overwrite protected geometry."
+      ],
+      "status": "source-inspected; protected model retained",
+      "unresolved": [
+        "Protected accepted model retained by task constraint; source inspection is not a new fidelity acceptance."
+      ]
+    },
+    {
+      "buildingId": 248142715,
+      "address": "93 East 7th Street",
+      "side": "north",
+      "protected": false,
+      "sourceViews": [
+        {
+          "url": "https://www.google.com/maps/@40.7267918,-73.985319,3a,90y,10.88h,122t/data=!3m7!1e1!3m5!1swGzBFCUjzRmQplfVj96NMg!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-32%26panoid%3DwGzBFCUjzRmQplfVj96NMg%26yaw%3D10.883!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI2MDkyMS4wIKXMDSoASAFQAw%3D%3D",
+          "view": "full",
+          "captureDate": "2026-04",
+          "retrieved": "2026-09-23",
+          "provider": "Google Street View",
+          "inspected": true
+        },
+        {
+          "url": "https://www.google.com/maps/@40.7268487,-73.9854363,3a,55y,72.11h,93t/data=!3m7!1e1!3m5!1sPLo-D1FVIdNPLQswke8FRw!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-3%26panoid%3DPLo-D1FVIdNPLQswke8FRw%26yaw%3D72.114!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI2MDkyMS4wIKXMDSoASAFQAw%3D%3D",
+          "view": "ground close",
+          "captureDate": "2026-04",
+          "retrieved": "2026-09-23",
+          "provider": "Google Street View",
+          "inspected": true
+        }
+      ],
+      "observations": [
+        "Red five-story three-bay facade, dark red bracketed window hoods and dark cornice, four upper escape platforms. April 2026 truck blocks direct ground; adjacent oblique confirms green Mary O's shop on right. Separate narrow residential entrance remains between units.",
+        "West oblique clears truck: two dark green recessed entrances before Mary O’s, each showing a small 93 plate near upper door. Mary O’s green awning valance carries 93½ at left; preserve fractional shop identity within building 93. Lower door/panel detail partly hidden by pedestrians."
+      ],
+      "status": "source-inspected; explicit model schedule updated",
+      "unresolved": [
+        "Crowd still hides the lowest door panels and threshold; proportions remain estimates."
+      ],
+      "number": {
+        "text": "93; 93½",
+        "placement": "small number plaques on two dark green entrance doors; 93½ on left of Mary O’s awning"
+      },
+      "implementation": {
+        "effectiveGroundOverride": true,
+        "reviewRecord": "east-seventh-review-07/visual-review.json"
+      }
+    },
+    {
+      "buildingId": 248142690,
+      "address": "95 East 7th Street",
+      "side": "north",
+      "protected": false,
+      "sourceViews": [
+        {
+          "url": "https://www.google.com/maps/@40.7267492,-73.9852185,3a,90y,4.58h,122t/data=!3m7!1e1!3m5!1sD47boAUdi3yLzanSVUDt3g!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-32%26panoid%3DD47boAUdi3yLzanSVUDt3g%26yaw%3D4.579!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI2MDkyMS4wIKXMDSoASAFQAw%3D%3D",
+          "view": "full",
+          "captureDate": "2026-04",
+          "retrieved": "2026-09-23",
+          "provider": "Google Street View",
+          "inspected": true
+        }
+      ],
+      "observations": [
+        "95: pink-red brick with contrasting grey-green ornament, four bays across four upper rows. Center raised arched entry framed in grey stone with ornate pilasters/columns, dark glazed door, small gold 95 in dark arched transom. Broad paired ground windows flank it with black security grilles and pale stone surrounds. Fire escape centered; top cornice grey with central shell relief."
+      ],
+      "status": "source-inspected; explicit model schedule updated",
+      "unresolved": [
+        "Lower stair treads partly hidden by parked car; precise leaf split needs close view."
+      ],
+      "implementation": {
+        "effectiveGroundOverride": true,
+        "reviewRecord": "east-seventh-review-07/visual-review.json"
+      }
+    },
+    {
+      "buildingId": 248142701,
+      "address": "97 East 7th Street",
+      "side": "north",
+      "protected": false,
+      "sourceViews": [
+        {
+          "url": "https://www.google.com/maps/@40.7267492,-73.9852185,3a,90y,45.59h,122t/data=!3m7!1e1!3m5!1sD47boAUdi3yLzanSVUDt3g!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-32%26panoid%3DD47boAUdi3yLzanSVUDt3g%26yaw%3D45.585!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI2MDkyMS4wIKXMDSoASAFQAw%3D%3D",
+          "view": "full",
+          "captureDate": "2026-04",
+          "retrieved": "2026-09-23",
+          "provider": "Google Street View",
+          "inspected": true
+        },
+        {
+          "url": "https://www.google.com/maps/@40.7267492,-73.9852185,3a,55y,45.59h,93t/data=!3m7!1e1!3m5!1sD47boAUdi3yLzanSVUDt3g!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-3%26panoid%3DD47boAUdi3yLzanSVUDt3g%26yaw%3D45.585!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI2MDkyMS4wIKXMDSoASAFQAw%3D%3D",
+          "view": "ground close",
+          "captureDate": "2026-04",
+          "retrieved": "2026-09-23",
+          "provider": "Google Street View",
+          "inspected": true
+        }
+      ],
+      "observations": [
+        "97: orange-red brick and matching terracotta ornament. Center arched porch has orange blank arch infill above rectangular dark glazed door. Small light 97 plate mounted on mid door, NOT high fanlight text. Dark grey treads and black handrails. Large paired rectangular parlor windows, curled ground lintel relief and narrow lower fence; four upper bays with shell hoods on lowest upper row.",
+        "Close view confirms ONE dark single door leaf, narrow recessed glazing, light small 97 plate around middle height, plain orange arch infill above the rectangular door. Ground paired window frames dark, grey treads/black open rails; no round fanlight glazing."
+      ],
+      "status": "source-inspected; explicit model schedule updated",
+      "unresolved": [
+        "Basement partly behind parked car; dimensions and stair count remain estimates."
+      ],
+      "implementation": {
+        "effectiveGroundOverride": true,
+        "reviewRecord": "east-seventh-review-07/visual-review.json"
+      }
+    },
+    {
+      "buildingId": 248142693,
+      "address": "97 1/2 East 7th Street",
+      "side": "north",
+      "protected": false,
+      "sourceViews": [
+        {
+          "url": "https://www.google.com/maps/@40.7267087,-73.9851114,3a,90y,25.36h,122t/data=!3m7!1e1!3m5!1soyeLhrVd9Lhs6wxXPwONVw!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-32%26panoid%3DoyeLhrVd9Lhs6wxXPwONVw%26yaw%3D25.362!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI2MDkyMS4wIKXMDSoASAFQAw%3D%3D",
+          "view": "full",
+          "captureDate": "2026-04",
+          "retrieved": "2026-09-23",
+          "provider": "Google Street View",
+          "inspected": true
+        }
+      ],
+      "observations": [
+        "97½: narrow red/terracotta three-bay facade with rounded heads on lowest upper and penultimate upper rows, rectangular middle/top rows. Right raised entrance with projecting porch, two slender round columns, round arch under flat projecting cap. Gold 97½ centered on the solid terracotta arch infill immediately above dark glazed/grilled single door. Broad paired ground window at left, basement cleaner shop with blue CLEANERS hanging sign and green awning. Fire escape spans left two bays."
+      ],
+      "status": "source-inspected; explicit model schedule updated",
+      "unresolved": [
+        "Exact fractional glyph and sign microtype require closer view; lower shop blocked by car."
+      ],
+      "implementation": {
+        "effectiveGroundOverride": true,
+        "reviewRecord": "east-seventh-review-07/visual-review.json"
+      }
+    },
+    {
+      "buildingId": 248142697,
+      "address": "99 East 7th Street",
+      "side": "north",
+      "protected": false,
+      "sourceViews": [
+        {
+          "url": "https://www.google.com/maps/@40.7266714,-73.9850072,3a,90y,7.23h,122t/data=!3m7!1e1!3m5!1s0Qy50LzBil1AbaIMJRlpjA!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-32%26panoid%3D0Qy50LzBil1AbaIMJRlpjA%26yaw%3D7.231!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI2MDkyMS4wIKXMDSoASAFQAw%3D%3D",
+          "view": "full",
+          "captureDate": "2026-04",
+          "retrieved": "2026-09-23",
+          "provider": "Google Street View",
+          "inspected": true
+        }
+      ],
+      "observations": [
+        "99: five-story pale ivory facade with four upper bays; round heads on lowest and penultimate upper rows, rectangular middle/top rows. Grey-painted ornate central fire escape and dark cornice. Center raised portal with white arch and capitals, pink stone column shafts, deep shadow/recess and dark glazed single door. Large black 99 printed on a light rectangular panel in the upper door glass below the arch. Ground paired windows have shallow segmental arches; right has security grille. Pale steps with open black scroll rails and fenced areaways."
+      ],
+      "status": "source-inspected; explicit model schedule updated",
+      "unresolved": [
+        "Door leaf/sidelight boundary and exact step count require closer view; parked cars hide lower left areaway."
+      ],
+      "number": {
+        "text": "99",
+        "placement": "upper door glazing, below arched fanlight",
+        "color": "black",
+        "backing": "light rectangular panel"
+      },
+      "implementation": {
+        "effectiveGroundOverride": true,
+        "reviewRecord": "east-seventh-review-07/visual-review.json"
+      }
+    },
+    {
+      "buildingId": 248142615,
+      "address": "101 East 7th Street",
+      "side": "north",
+      "protected": false,
+      "sourceViews": [
+        {
+          "url": "https://www.google.com/maps/@40.7266714,-73.9850072,3a,90y,47.01h,122t/data=!3m7!1e1!3m5!1s0Qy50LzBil1AbaIMJRlpjA!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-32%26panoid%3D0Qy50LzBil1AbaIMJRlpjA%26yaw%3D47.013!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI2MDkyMS4wIKXMDSoASAFQAw%3D%3D",
+          "view": "full",
+          "captureDate": "2026-04",
+          "retrieved": "2026-09-23",
+          "provider": "Google Street View",
+          "inspected": true
+        }
+      ],
+      "observations": [
+        "101 rectory: three floors each three rectangular sash bays, cream painted brick/pale projecting hoods and sills, pale cornice with circular rosettes and rooftop cross. Three grilled tall lowest windows; street entrance below left window partly concealed by a gabled cream signboard. Sign reads 101 in triangular top and ST. STANISLAUS B.M. / RECTORY below in gold-brown. Tall spear/scroll iron fence, central white flagpole with US flag, dark bronze bust on reddish stone pedestal at right, planter pots. No street-facing raised centered door."
+      ],
+      "status": "source-inspected; explicit model schedule updated",
+      "unresolved": [
+        "Door behind signboard/rail not fully visible; bust sculpture detail and exact text punctuation are approximate."
+      ],
+      "number": {
+        "text": "101",
+        "placement": "center of triangular top of cream rectory signboard at left ground entrance"
+      },
+      "implementation": {
+        "effectiveGroundOverride": true,
+        "reviewRecord": "east-seventh-review-07/visual-review.json"
+      }
+    },
+    {
+      "buildingId": 248142618,
+      "address": "107 East 7th Street",
+      "side": "north",
+      "protected": false,
+      "sourceViews": [
+        {
+          "url": "https://www.google.com/maps/@40.7265853,-73.9847951,3a,90y,3.22h,122t/data=!3m7!1e1!3m5!1sdhKC2XG-k7pPr8XIyiIWeQ!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-32%26panoid%3DdhKC2XG-k7pPr8XIyiIWeQ%26yaw%3D3.222!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI2MDkyMS4wIKXMDSoASAFQAw%3D%3D",
+          "view": "full",
+          "captureDate": "2026-04",
+          "retrieved": "2026-09-23",
+          "provider": "Google Street View",
+          "inspected": true
+        }
+      ],
+      "observations": [
+        "St Stanislaus: pale cream brick Gothic facade, central tower with paired louver arches, five small arcade recesses below and pinnacles. Three dark brown double doors, each leaf has a raised cross and lower rectangular panel. Center black pointed transom reads R. C. / ST. STANISLAUS / CHURCH in three light lines, two side transoms dark vertically ribbed. Center entrance has paired pale columns/capitals under gabled projecting portal with cross. Narrow yellow-bordered lancets flank side doors. Black spear/scroll fence across shallow raised forecourt; center gate and planted pots. Large upper stained glass central pointed light plus two paired side lights, dark horizontal rails and ornamental band below."
+      ],
+      "status": "source-inspected; explicit model schedule updated",
+      "unresolved": [
+        "Tiny carved faces and stained glass scenes cannot be reproduced from this view at measured fidelity; tower top depth is estimated."
+      ],
+      "number": {
+        "text": null,
+        "placement": "No property-number digits legible on church portals; retain church inscription without inventing a 107 plate."
+      },
+      "implementation": {
+        "effectiveGroundOverride": true,
+        "reviewRecord": "east-seventh-review-07/visual-review.json"
+      }
+    },
+    {
+      "buildingId": 248142621,
+      "address": "109 East 7th Street",
+      "side": "north",
+      "protected": false,
+      "sourceViews": [
+        {
+          "url": "https://www.google.com/maps/@40.7265489,-73.9846988,3a,90y,18.81h,122t/data=!3m7!1e1!3m5!1s7FluIycSlFnMOPfjEShfDQ!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-32%26panoid%3D7FluIycSlFnMOPfjEShfDQ%26yaw%3D18.809!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI2MDkyMS4wIKXMDSoASAFQAw%3D%3D",
+          "view": "full",
+          "captureDate": "2026-04",
+          "retrieved": "2026-09-23",
+          "provider": "Google Street View",
+          "inspected": true
+        }
+      ],
+      "observations": [
+        "109: three floors of three rectangular sash windows, pale cream painted brick, deep pale lintels and sills, ornate bracketed cornice with cross above. Ground-level visible street facade has three tall grilled windows, no centered front door. Low recessed basement opening beneath central bay is partly visible. Black decorative spear/scroll areaway fence with perpendicular return at right; white flagpole with Polish flag near center-left, speed-bump/15 MPH pole in front. Church/neighbor gaps remain distinct."
+      ],
+      "status": "source-inspected; explicit model schedule updated",
+      "unresolved": [
+        "Basement/side entrance and lowest wall are occluded by parked car; do not add a numbered central door."
+      ],
+      "number": {
+        "text": null,
+        "placement": "No legible 109 number in the inspected frontal view."
+      },
+      "implementation": {
+        "effectiveGroundOverride": true,
+        "reviewRecord": "east-seventh-review-07/visual-review.json"
+      }
+    },
+    {
+      "buildingId": 248142624,
+      "address": "111–115 East 7th Street",
+      "side": "north",
+      "protected": false,
+      "sourceViews": [
+        {
+          "url": "https://www.google.com/maps/@40.7265044,-73.9845923,3a,90y,33.4h,122t/data=!3m7!1e1!3m5!1s6h8_UA7jRJ37XJV5nYgNcQ!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-32%26panoid%3D6h8_UA7jRJ37XJV5nYgNcQ%26yaw%3D33.4!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI2MDkyMS4wIKXMDSoASAFQAw%3D%3D",
+          "view": "full",
+          "captureDate": "2026-04",
+          "retrieved": "2026-09-23",
+          "provider": "Google Street View",
+          "inspected": true
+        },
+        {
+          "url": "https://www.google.com/maps/@40.7265044,-73.9845923,3a,55y,33.4h,93t/data=!3m7!1e1!3m5!1s6h8_UA7jRJ37XJV5nYgNcQ!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-3%26panoid%3D6h8_UA7jRJ37XJV5nYgNcQ%26yaw%3D33.4!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI2MDkyMS4wIKXMDSoASAFQAw%3D%3D",
+          "view": "ground close",
+          "captureDate": "2026-04",
+          "retrieved": "2026-09-23",
+          "provider": "Google Street View",
+          "inspected": true
+        },
+        {
+          "url": "https://www.google.com/maps/@40.7265044,-73.9845923,3a,30y,28h,95t/data=!3m7!1e1!3m5!1s6h8_UA7jRJ37XJV5nYgNcQ!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-5%26panoid%3D6h8_UA7jRJ37XJV5nYgNcQ%26yaw%3D28!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI2MDkyMS4wIKXMDSoASAFQAw%3D%3D",
+          "view": "number close",
+          "captureDate": "2026-04",
+          "retrieved": "2026-09-23",
+          "provider": "Google Street View",
+          "inspected": true
+        }
+      ],
+      "observations": [
+        "McKinley 111–115: broad red brick elevation with pale quoins, richly ornamented paired vertical window surrounds, long central upper balcony/cornice and two separate dark fire escapes. Ground painted white with arches: Ladybird at left has light frames and pink Eat Drink / Start a Revolution curved-transom lettering; central dark arched residential entrance has MCKINLEY in black block letters above the portal and a warm-colored fanlight. Right unit has white glazed paired doors and an arched lease panel; narrow far-right green entrance is distinct. Main entrance number appears faint on door glazing and requires a close view.",
+        "Closer entry view resolves large gold 111 in arched fanlight (map POI marker partly overlaps first digit), not a new invented 113–115 range plate. Main door is one broad gridded glazed leaf with fixed narrow RIGHT sidelight, dark green/black curved surround; MCKINLEY outside above remains separate. Worn small plaque on rectangular door header is illegible, not used as number evidence."
+      ],
+      "status": "source-inspected; explicit model schedule updated",
+      "unresolved": [
+        "Small weathered plaque above the main leaf remains unreadable; substitute lettering font."
+      ],
+      "number": {
+        "text": "111",
+        "placement": "large gold digits in arched fanlight; first digit partly overlapped by map POI marker"
+      },
+      "implementation": {
+        "effectiveGroundOverride": true,
+        "reviewRecord": "east-seventh-review-07/visual-review.json"
+      }
+    },
+    {
+      "buildingId": 248142633,
+      "address": "117–119 East 7th Street",
+      "side": "north",
+      "protected": false,
+      "sourceViews": [
+        {
+          "url": "https://www.google.com/maps/@40.7264077,-73.9843728,3a,90y,358.69h,122t/data=!3m7!1e1!3m5!1sra4NNrjpenwmcNH8FIk3MQ!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-32%26panoid%3Dra4NNrjpenwmcNH8FIk3MQ%26yaw%3D358.693!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI2MDkyMS4wIKXMDSoASAFQAw%3D%3D",
+          "view": "full",
+          "captureDate": "2026-04",
+          "retrieved": "2026-09-23",
+          "provider": "Google Street View",
+          "inspected": true
+        }
+      ],
+      "observations": [
+        "117–119: six-bay light buff brick elevation with central black fire escape, pale ornament panels below upper windows, arched heads on penultimate row, rectangular top row under dark cornice. Raised central narrow dark residential entrance has small gold 117 at top/right of doorway. Three or four visible pale steps with solid dark cheeks and rail. Left shop has yellow MME EBIKE REPAIR sign above white security grille; right broad shop shuttered with dark fascia. Leafless sidewalk tree toward west edge. Scaffold from 121 overlaps east shop edge."
+      ],
+      "status": "source-inspected; explicit model schedule updated",
+      "unresolved": [
+        "Exact door leaf split obscured by pole and recess shadow; lower storefronts partially obstructed."
+      ],
+      "number": {
+        "text": "117",
+        "placement": "small gold digits at upper right edge of residential entrance"
+      },
+      "implementation": {
+        "effectiveGroundOverride": true,
+        "reviewRecord": "east-seventh-review-07/visual-review.json"
+      }
+    },
+    {
+      "buildingId": 248142640,
+      "address": "121 East 7th Street",
+      "side": "north",
+      "protected": false,
+      "sourceViews": [
+        {
+          "url": "https://www.google.com/maps/@40.7263659,-73.9842834,3a,90y,5.04h,122t/data=!3m7!1e1!3m5!1splAp4E6uW7Ye2Vhlpt-F8Q!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-32%26panoid%3DplAp4E6uW7Ye2Vhlpt-F8Q%26yaw%3D5.04!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI2MDkyMS4wIKXMDSoASAFQAw%3D%3D",
+          "view": "full",
+          "captureDate": "2026-04",
+          "retrieved": "2026-09-23",
+          "provider": "Google Street View",
+          "inspected": true
+        }
+      ],
+      "observations": [
+        "121 former St Mary: rough grey stone facade with three round-arched upper windows; square center bell stage and hipped slate roof with cross. April 2026 condition has a full-width green sidewalk shed projecting over sidewalk with grey tubular posts/X braces, ribbed metal underside and work lights. Shed extends a short distance west across adjoining shop. White left board prominently reads 121 East 7th Street, Manhattan; small lower lines not fully legible. Ground stone arches/raised stair access remain but doors/windows are boarded dark and orange under construction; do not represent clean functioning church entrances."
+      ],
+      "status": "source-inspected; explicit model schedule updated",
+      "unresolved": [
+        "Ground boards and stair proportions partly hidden by truck/shed; construction is April 2026 dated condition, no later completion inferred."
+      ],
+      "number": {
+        "text": "121 East 7th Street",
+        "placement": "white construction board on left portion of green shed fascia"
+      },
+      "implementation": {
+        "effectiveGroundOverride": true,
+        "reviewRecord": "east-seventh-review-07/visual-review.json"
+      }
+    },
+    {
+      "buildingId": 248142645,
+      "address": "123 East 7th Street",
+      "side": "north",
+      "protected": false,
+      "sourceViews": [
+        {
+          "url": "https://www.google.com/maps/@40.7263659,-73.9842834,3a,90y,49.53h,122t/data=!3m7!1e1!3m5!1splAp4E6uW7Ye2Vhlpt-F8Q!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-32%26panoid%3DplAp4E6uW7Ye2Vhlpt-F8Q%26yaw%3D49.531!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI2MDkyMS4wIKXMDSoASAFQAw%3D%3D",
+          "view": "full",
+          "captureDate": "2026-04",
+          "retrieved": "2026-09-23",
+          "provider": "Google Street View",
+          "inspected": true
+        }
+      ],
+      "observations": [
+        "123: pale worn brick/paint, three rectangular sash bays per upper floor, dark brown lintel caps and pale cream fire escape. Ground has a left tattoo unit with ogee-headed glazing/door, CENTRAL wood residential door, and right Crepe Master unit with yellow/white striped awning. Residential 123 is centered above the rectangular wood door on its stone lintel; another small gold 123 sits high on tattoo-door glass. Two small dark lanterns flank residential portal. Cream/dark mortar/ornament bands near ground; tree trunk in front of left unit."
+      ],
+      "status": "source-inspected; explicit model schedule updated",
+      "unresolved": [
+        "Tree hides portions of upper sash and ornament; estimated horizontal fractions must be checked against facade edges."
+      ],
+      "number": {
+        "text": "123",
+        "placement": "stone lintel above central residential door; repeated on left shop door glazing"
+      },
+      "implementation": {
+        "effectiveGroundOverride": true,
+        "reviewRecord": "east-seventh-review-07/visual-review.json"
+      }
+    },
+    {
+      "buildingId": 248142647,
+      "address": "125 East 7th Street",
+      "side": "north",
+      "protected": false,
+      "sourceViews": [
+        {
+          "url": "https://www.google.com/maps/@40.7263208,-73.9841827,3a,90y,34.95h,122t/data=!3m7!1e1!3m5!1soc5mdx5ZMGzjnS86El8U2Q!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-32%26panoid%3Doc5mdx5ZMGzjnS86El8U2Q%26yaw%3D34.953!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI2MDkyMS4wIKXMDSoASAFQAw%3D%3D",
+          "view": "full",
+          "captureDate": "2026-04",
+          "retrieved": "2026-09-23",
+          "provider": "Google Street View",
+          "inspected": true
+        }
+      ],
+      "observations": [
+        "125: narrow pale cream weathered facade, dark brown lintels, three upper sash bays and pale fire escape centered over residential entrance. Ground restaurant at left has arched/ogee dark opening and RUFFIAN window lettering; central warm wood residential door with decorative dark grille in glass, 125 mounted on pale lintel above; right unit has grey rolling grille. Street tree overlaps center/left. At-grade entrance with a shallow threshold, not a tall stoop."
+      ],
+      "status": "source-inspected; explicit model schedule updated",
+      "unresolved": [
+        "Tree canopy obscures cornice and parts of upper facade; car obscures threshold."
+      ],
+      "number": {
+        "text": "125",
+        "placement": "centered on pale lintel immediately above central wood residential door"
+      },
+      "implementation": {
+        "effectiveGroundOverride": true,
+        "reviewRecord": "east-seventh-review-07/visual-review.json"
+      }
+    },
+    {
+      "buildingId": 248142650,
+      "address": "127 East 7th Street",
+      "side": "north",
+      "protected": false,
+      "sourceViews": [
+        {
+          "url": "https://www.google.com/maps/@40.726273,-73.9840746,3a,90y,16.64h,122t/data=!3m7!1e1!3m5!1sqyF6iu5456OQjQEG9K7ylQ!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-32%26panoid%3DqyF6iu5456OQjQEG9K7ylQ%26yaw%3D16.642!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI2MDkyMS4wIKXMDSoASAFQAw%3D%3D",
+          "view": "full",
+          "captureDate": "2026-04",
+          "retrieved": "2026-09-23",
+          "provider": "Google Street View",
+          "inspected": true
+        }
+      ],
+      "observations": [
+        "127: light grey three-bay facade, grey/green projecting lintels and dark grey fire escape. Ground left shuttered opening beside ornate bronze-colored grille/gate; central narrow dark residential door bears small gold 127 on a dark plaque near top of door glass; red right storefront has narrow left shop door, large right display, projecting red fascia and two white downlights. Red sidewalk chairs/table are movable context. Tree partly hides left bays/cornice."
+      ],
+      "status": "source-inspected; explicit model schedule updated",
+      "unresolved": [
+        "Shop name not legible; left grille may serve secondary access; tree hides upper facade."
+      ],
+      "number": {
+        "text": "127",
+        "placement": "small gold number on dark rectangular plaque near upper residential door glazing"
+      },
+      "implementation": {
+        "effectiveGroundOverride": true,
+        "reviewRecord": "east-seventh-review-07/visual-review.json"
+      }
+    },
+    {
+      "buildingId": 248142653,
+      "address": "129 East 7th Street",
+      "side": "north",
+      "protected": false,
+      "sourceViews": [
+        {
+          "url": "https://www.google.com/maps/@40.726273,-73.9840746,3a,90y,60.26h,122t/data=!3m7!1e1!3m5!1sqyF6iu5456OQjQEG9K7ylQ!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-32%26panoid%3DqyF6iu5456OQjQEG9K7ylQ%26yaw%3D60.262!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI2MDkyMS4wIKXMDSoASAFQAw%3D%3D",
+          "view": "full",
+          "captureDate": "2026-04",
+          "retrieved": "2026-09-23",
+          "provider": "Google Street View",
+          "inspected": true
+        }
+      ],
+      "observations": [
+        "129: four upper rows of three rectangular sash bays on red-purple painted brick, dark green hoods/cornice and dark centered fire escape. Ground brick is unpainted red: wide ogee double glazed entrance at LEFT in pale stone surround, small central grilled sash window and narrow separate dark rectangular door at RIGHT. Peter Jarema / FUNERAL HOME INC. black projecting fascia above center. 129 repeated on BOTH pale jambs beside left entrance at upper-middle door height; another small 129 on stone lintel above right door. Left main door includes pointed glazed head/transom and ornate metalwork, shallow step."
+      ],
+      "status": "source-inspected; explicit model schedule updated",
+      "unresolved": [
+        "Tiny funeral sign script and door ironwork contours approximated; right threshold partly hidden."
+      ],
+      "number": {
+        "text": "129",
+        "placement": "both stone jambs beside left ogee doorway; also lintel over separate right doorway"
+      },
+      "implementation": {
+        "effectiveGroundOverride": true,
+        "reviewRecord": "east-seventh-review-07/visual-review.json"
+      }
+    },
+    {
+      "buildingId": 248142656,
+      "address": "131 East 7th Street",
+      "side": "north",
+      "protected": false,
+      "sourceViews": [
+        {
+          "url": "https://www.google.com/maps/@40.7262271,-73.9839657,3a,90y,53.74h,122t/data=!3m7!1e1!3m5!1suY92kSe-o7NMC0t08_9-eA!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-32%26panoid%3DuY92kSe-o7NMC0t08_9-eA%26yaw%3D53.738!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI2MDkyMS4wIKXMDSoASAFQAw%3D%3D",
+          "view": "full",
+          "captureDate": "2026-04",
+          "retrieved": "2026-09-23",
+          "provider": "Google Street View",
+          "inspected": true
+        }
+      ],
+      "observations": [
+        "131: red brick, FIVE upper bays and four upper rows, flat pale stone lintels/sills, dark bracketed cornice and broad central fire escape. Ground residential entrance is CENTERED between two commercial units, not at far right. Dark framed door/sidelight beneath cream transom panel with small dark 131. Left coffee shop has black COFFEE sloping awning, white frames, two broad display bays/left-right partition and interior orange 787 Coffee lettering. Right shop has pale wood fascia with illuminated CLAM letters and pale green/light frames, tall glazed doors/windows. Tree in front near residential left; Citi Bike docks on curb eastward."
+      ],
+      "status": "source-inspected; explicit model schedule updated",
+      "unresolved": [
+        "Far corner extent and concealed hardware require additional source views."
+      ],
+      "number": {
+        "text": "131",
+        "placement": "small dark digits centered in pale rectangular transom over central residential entrance"
+      },
+      "implementation": {
+        "effectiveGroundOverride": true,
+        "reviewRecord": "east-seventh-review-07/visual-review.json"
+      }
+    },
+    {
+      "buildingId": 248142714,
+      "address": "111 Avenue A",
+      "side": "north",
+      "protected": false,
+      "sourceViews": [
+        {
+          "url": "https://www.google.com/maps/@40.7261481,-73.9837525,3a,90y,31.45h,122t/data=!3m7!1e1!3m5!1srBVH1hpOpYbs8BqJ1GcVVg!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-32%26panoid%3DrBVH1hpOpYbs8BqJ1GcVVg%26yaw%3D31.45!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI2MDkyMS4wIKXMDSoASAFQAw%3D%3D",
+          "view": "full",
+          "captureDate": "2026-04",
+          "retrieved": "2026-09-23",
+          "provider": "Google Street View",
+          "inspected": true
+        }
+      ],
+      "observations": [
+        "111 Avenue A Seventh return: four upper rows, irregular five-window pattern toward west/middle with broad blank brick at east corner, simple pale lintels and dark cornice; no fire escape on this return. Ground restaurant has pale cream wall with red low band and TWO red sloping awnings with dark scalloped valances above tall dark-framed window/door groups. Facade reads BISTRO LATINO; cursive outdoor-barrier lettering may be beverage branding, not a restaurant name. Official Yuca site still identifies 111 Avenue A. Existing geometry palette needs comparison; do not infer a tenant replacement. No Seventh property number visible on this restaurant return.",
+        "Whole-return reinspection resolves five uneven upper stacks and broad blank eastern strip; no Seventh-side escape. Replace the old eight-stack/two-escape template; preserve the separately rendered avenue face."
+      ],
+      "status": "source-inspected; explicit model schedule updated",
+      "unresolved": [
+        "Fine lettering, table/chair hardware and dimensional alignment remain estimates."
+      ],
+      "supportingSources": [
+        {
+          "url": "https://www.yucabarnyc.com/",
+          "retrieved": "2026-09-23",
+          "supports": "Yuca identity/address only"
+        }
+      ],
+      "implementation": {
+        "effectiveGroundOverride": false,
+        "reviewRecord": "east-seventh-review-07/visual-review.json"
+      }
+    },
+    {
+      "buildingId": 248142404,
+      "address": "116 1st Avenue",
+      "side": "south",
+      "protected": true,
+      "sourceViews": [
+        {
+          "url": "https://www.google.com/maps/@40.7268487,-73.9854363,3a,90y,236.64h,122t/data=!3m7!1e1!3m5!1sPLo-D1FVIdNPLQswke8FRw!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-32%26panoid%3DPLo-D1FVIdNPLQswke8FRw%26yaw%3D236.638!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI2MDkyMS4wIKXMDSoASAFQAw%3D%3D",
+          "view": "full",
+          "captureDate": "2026-04",
+          "retrieved": "2026-09-23",
+          "provider": "Google Street View",
+          "inspected": true
+        }
+      ],
+      "observations": [
+        "Protected south First Avenue corner checked: buff brick, paired red-brown fire escapes, Saifee hardware green frames/open merchandise bays, cream sign and dark sloping awnings. Preserve accepted corner geometry and its source history."
+      ],
+      "status": "source-inspected; protected model retained",
+      "unresolved": [
+        "Protected accepted model retained; shop merchandise is date-dependent and not fully transcribed."
+      ]
+    },
+    {
+      "buildingId": 951679435,
+      "address": "92 East 7th Street",
+      "side": "south",
+      "protected": false,
+      "sourceViews": [
+        {
+          "url": "https://www.google.com/maps/@40.7267918,-73.985319,3a,90y,226.28h,122t/data=!3m7!1e1!3m5!1swGzBFCUjzRmQplfVj96NMg!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-32%26panoid%3DwGzBFCUjzRmQplfVj96NMg%26yaw%3D226.282!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI2MDkyMS4wIKXMDSoASAFQAw%3D%3D",
+          "view": "full",
+          "captureDate": "2026-04",
+          "retrieved": "2026-09-23",
+          "provider": "Google Street View",
+          "inspected": true
+        }
+      ],
+      "observations": [
+        "92: modern narrow red-brick facade with pale vertical edge strips and pale floor bands; five upper rows of broad glazing in asymmetric left three/right two-light groups, black Juliet railings with oval/diamond motifs. No fire escape. Ground dark glazed left entry and larger dog-training storefront, burgundy sloping awning reads REVIVAL DOG TRAINING; white 92 on far-left awning valance and small gold 92 on header over left door. Small bare street tree near east side."
+      ],
+      "status": "source-inspected; explicit model schedule updated",
+      "unresolved": [
+        "Lower shop geometry partly hidden by parked car; interior not reconstructed."
+      ],
+      "number": {
+        "text": "92",
+        "placement": "white digits on left awning valance plus small gold digits on left door header"
+      },
+      "implementation": {
+        "effectiveGroundOverride": true,
+        "reviewRecord": "east-seventh-review-07/visual-review.json"
+      }
+    },
+    {
+      "buildingId": 248142390,
+      "address": "94 East 7th Street",
+      "side": "south",
+      "protected": false,
+      "sourceViews": [
+        {
+          "url": "https://www.google.com/maps/@40.7267492,-73.9852185,3a,90y,243.61h,122t/data=!3m7!1e1!3m5!1sD47boAUdi3yLzanSVUDt3g!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-32%26panoid%3DD47boAUdi3yLzanSVUDt3g%26yaw%3D243.608!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI2MDkyMS4wIKXMDSoASAFQAw%3D%3D",
+          "view": "full",
+          "captureDate": "2026-04",
+          "retrieved": "2026-09-23",
+          "provider": "Google Street View",
+          "inspected": true
+        }
+      ],
+      "observations": [
+        "94: pale weathered/rusticated stone facade with green cornice and dark green fire escape, decorative arches/bands and arched penultimate upper windows. Ground pale white-painted portal at LEFT with round arch, warm wood glazed double entrance, gold 94 mounted on stone centered just above arch crown. Raised grey stair flight, white decorative scroll rails and front gate; paired arched tall windows to right, lower yellow brick basement and black areaway fence. No storefront."
+      ],
+      "status": "source-inspected; explicit model schedule updated",
+      "unresolved": [
+        "Uppermost detail partly under Google UI/sun glare; exact stair count and ornamental rail curves are photo estimates."
+      ],
+      "number": {
+        "text": "94",
+        "placement": "gold raised digits centered on pale stone arch crown above door"
+      },
+      "implementation": {
+        "effectiveGroundOverride": true,
+        "reviewRecord": "east-seventh-review-07/visual-review.json"
+      }
+    },
+    {
+      "buildingId": 248142393,
+      "address": "96 East 7th Street",
+      "side": "south",
+      "protected": false,
+      "sourceViews": [
+        {
+          "url": "https://www.google.com/maps/@40.7267492,-73.9852185,3a,90y,199.63h,122t/data=!3m7!1e1!3m5!1sD47boAUdi3yLzanSVUDt3g!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-32%26panoid%3DD47boAUdi3yLzanSVUDt3g%26yaw%3D199.628!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI2MDkyMS4wIKXMDSoASAFQAw%3D%3D",
+          "view": "full",
+          "captureDate": "2026-04",
+          "retrieved": "2026-09-23",
+          "provider": "Google Street View",
+          "inspected": true
+        }
+      ],
+      "observations": [
+        "96 Trash & Vaudeville: four upper rows of FOUR sash bays, red brick, shallow ornate stone lintels, red bracketed cornice, NO fire escape. Ground black timber frame with two broad pink-backed display windows flanking a deep recessed central passage/door. Pink projecting fabric sign at left, neon logos within display glazing, black rails at shop edge and lower areaway. Central approach has shallow steps and patterned recess floor."
+      ],
+      "status": "source-inspected; explicit model schedule updated",
+      "unresolved": [
+        "Deep passage/residential split and numbering need closer view; neon lettering already has separate prior sources."
+      ],
+      "number": {
+        "text": null,
+        "placement": "No number legible in the deep entrance on inspected view; do not claim a confirmed 96 plate."
+      },
+      "implementation": {
+        "effectiveGroundOverride": true,
+        "reviewRecord": "east-seventh-review-07/visual-review.json"
+      }
+    },
+    {
+      "buildingId": 248142396,
+      "address": "98 East 7th Street",
+      "side": "south",
+      "protected": false,
+      "sourceViews": [
+        {
+          "url": "https://www.google.com/maps/@40.7267087,-73.9851114,3a,90y,215.7h,122t/data=!3m7!1e1!3m5!1soyeLhrVd9Lhs6wxXPwONVw!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-32%26panoid%3DoyeLhrVd9Lhs6wxXPwONVw%26yaw%3D215.701!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI2MDkyMS4wIKXMDSoASAFQAw%3D%3D",
+          "view": "full",
+          "captureDate": "2026-04",
+          "retrieved": "2026-09-23",
+          "provider": "Google Street View",
+          "inspected": true
+        },
+        {
+          "url": "https://www.google.com/maps/@40.7267087,-73.9851114,3a,55y,215.7h,93t/data=!3m7!1e1!3m5!1soyeLhrVd9Lhs6wxXPwONVw!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-3%26panoid%3DoyeLhrVd9Lhs6wxXPwONVw%26yaw%3D215.701!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI2MDkyMS4wIKXMDSoASAFQAw%3D%3D",
+          "view": "ground alternate",
+          "captureDate": "2026-04",
+          "retrieved": "2026-09-23",
+          "provider": "Google Street View",
+          "inspected": true
+        }
+      ],
+      "observations": [
+        "98: dark burgundy/red painted brick, FOUR upper bays/four rows and plain pale rectangular lintels, burgundy fire escape across middle two bays. Ground has FOUR tall narrow sash windows around a CENTER raised entry. Deep portal has reddish carved bracketed hood, yellow-cream inner reveals, dark wood single glazed leaf and pale rectangular transom. Grey stair flight with brick piers/cheeks capped grey and pale geometric lattice inserts; basement pale stone with four grilled openings, red fence. Number is tiny and not legible in full view.",
+        "Close view: single off-center brown leaf inside yellow deep reveal, pale rectangular transom, two oval caged portal lights. Roughly nine visible grey treads; brick stoop piers and grey caps enclose pale geometric lattice inserts. Tiny number/plaque remains unreadable, so no new numeral placement claim."
+      ],
+      "status": "source-inspected; explicit model schedule updated",
+      "unresolved": [
+        "Read number with a close view before locating it; microcarving and exact stair dimensions estimated."
+      ],
+      "implementation": {
+        "effectiveGroundOverride": true,
+        "reviewRecord": "east-seventh-review-07/visual-review.json"
+      }
+    },
+    {
+      "buildingId": 248142313,
+      "address": "100 East 7th Street",
+      "side": "south",
+      "protected": false,
+      "sourceViews": [
+        {
+          "url": "https://www.google.com/maps/@40.7266714,-73.9850072,3a,90y,226.89h,122t/data=!3m7!1e1!3m5!1s0Qy50LzBil1AbaIMJRlpjA!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-32%26panoid%3D0Qy50LzBil1AbaIMJRlpjA%26yaw%3D226.892!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI2MDkyMS4wIKXMDSoASAFQAw%3D%3D",
+          "view": "full",
+          "captureDate": "2026-04",
+          "retrieved": "2026-09-23",
+          "provider": "Google Street View",
+          "inspected": true
+        }
+      ],
+      "observations": [
+        "100: buff brick facade with pink/sandstone rectangular surrounds and ornate carved frieze bands. Four bays? Upper visible windows read four across with center pair behind black curved-belly fire escape. Ground two paired tall windows flank raised central RED double glazed doors. Door leaves have a grid of small glass panels, brass/light hardware and pale metal kick plates. Small white 100 at top of LEFT leaf beneath rectangular transom. Grey stoop with black decorative rails/ball posts; grey stone ground bands and carved apron panels beneath paired windows."
+      ],
+      "status": "source-inspected; explicit model schedule updated",
+      "unresolved": [
+        "Upper bay count and ornament rhythm require comparison with existing schedule; some areas tree-obscured."
+      ],
+      "number": {
+        "text": "100",
+        "placement": "small white digits at upper left leaf just below transom"
+      },
+      "implementation": {
+        "effectiveGroundOverride": true,
+        "reviewRecord": "east-seventh-review-07/visual-review.json"
+      }
+    },
+    {
+      "buildingId": 248142319,
+      "address": "102 East 7th Street",
+      "side": "south",
+      "protected": false,
+      "sourceViews": [
+        {
+          "url": "https://www.google.com/maps/@40.7266323,-73.9849098,3a,90y,234.94h,122t/data=!3m7!1e1!3m5!1sgQC4KWWmqxKJZwNzy6_BVg!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-32%26panoid%3DgQC4KWWmqxKJZwNzy6_BVg%26yaw%3D234.943!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI2MDkyMS4wIKXMDSoASAFQAw%3D%3D",
+          "view": "full",
+          "captureDate": "2026-04",
+          "retrieved": "2026-09-23",
+          "provider": "Google Street View",
+          "inspected": true
+        }
+      ],
+      "observations": [
+        "102: red brick facade with TWO broad upper glazed groups each split into narrow sidelights and center glazing, dark curved Juliet balcony rails on upper rows and straight lower rails. Ground mostly black: left broad glass shop display marked APT2F with small 102 E 7TH ST above; separate narrow dark door between display and right black slatted/shuttered unit under black sloping awning. Huge sidewalk tree west/left obscures facade."
+      ],
+      "status": "source-inspected; explicit model schedule updated",
+      "unresolved": [
+        "Residential number/uppermost profile behind tree need close or adjacent angle; curved balcony depth estimated."
+      ],
+      "number": {
+        "text": "102 E 7TH ST",
+        "placement": "small white shop-window lettering above APT2F near lower glass"
+      },
+      "implementation": {
+        "effectiveGroundOverride": true,
+        "reviewRecord": "east-seventh-review-07/visual-review.json"
+      }
+    },
+    {
+      "buildingId": 248142322,
+      "address": "104 East 7th Street",
+      "side": "south",
+      "protected": false,
+      "sourceViews": [
+        {
+          "url": "https://www.google.com/maps/@40.7266323,-73.9849098,3a,90y,191.25h,122t/data=!3m7!1e1!3m5!1sgQC4KWWmqxKJZwNzy6_BVg!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-32%26panoid%3DgQC4KWWmqxKJZwNzy6_BVg%26yaw%3D191.247!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI2MDkyMS4wIKXMDSoASAFQAw%3D%3D",
+          "view": "full",
+          "captureDate": "2026-04",
+          "retrieved": "2026-09-23",
+          "provider": "Google Street View",
+          "inspected": true
+        },
+        {
+          "url": "https://www.google.com/maps/@40.7265853,-73.9847951,3a,55y,248.63h,93t/data=!3m7!1e1!3m5!1sdhKC2XG-k7pPr8XIyiIWeQ!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-3%26panoid%3DdhKC2XG-k7pPr8XIyiIWeQ%26yaw%3D248.628!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI2MDkyMS4wIKXMDSoASAFQAw%3D%3D",
+          "view": "ground alternate",
+          "captureDate": "2026-04",
+          "retrieved": "2026-09-23",
+          "provider": "Google Street View",
+          "inspected": true
+        }
+      ],
+      "observations": [
+        "104: red brick three-bay upper facade (tree occludes portions), dark sash, tan lintels and central fire escape largely occluded by large sidewalk tree. Ground has raised parlor windows above basement units, Atelier Sucre low shop at LEFT with blue/yellow sign and white frame; right low unit painted bright turquoise with dark folding grille; narrow dark lower doorway centered in brown surround has glazed face. Upper residential access behind trunk is not fully resolved from this view.",
+        "Alternate ground view inspected; vehicle and tree still obscure parts of the entry. No additional legible number claim from this angle."
+      ],
+      "status": "source-inspected; explicit model schedule updated",
+      "unresolved": [
+        "Large tree blocks residential entry/number and upper detail; must inspect adjacent or closer view before changing placement."
+      ],
+      "implementation": {
+        "effectiveGroundOverride": true,
+        "reviewRecord": "east-seventh-review-07/visual-review.json"
+      }
+    },
+    {
+      "buildingId": 248142324,
+      "address": "106 East 7th Street",
+      "side": "south",
+      "protected": false,
+      "sourceViews": [
+        {
+          "url": "https://www.google.com/maps/@40.7265853,-73.9847951,3a,90y,211.08h,122t/data=!3m7!1e1!3m5!1sdhKC2XG-k7pPr8XIyiIWeQ!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-32%26panoid%3DdhKC2XG-k7pPr8XIyiIWeQ%26yaw%3D211.081!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI2MDkyMS4wIKXMDSoASAFQAw%3D%3D",
+          "view": "full",
+          "captureDate": "2026-04",
+          "retrieved": "2026-09-23",
+          "provider": "Google Street View",
+          "inspected": true
+        },
+        {
+          "url": "https://www.google.com/maps/@40.7266714,-73.9850072,3a,55y,144.06h,93t/data=!3m7!1e1!3m5!1s0Qy50LzBil1AbaIMJRlpjA!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-3%26panoid%3D0Qy50LzBil1AbaIMJRlpjA%26yaw%3D144.06!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI2MDkyMS4wIKXMDSoASAFQAw%3D%3D",
+          "view": "ground alternate",
+          "captureDate": "2026-04",
+          "retrieved": "2026-09-23",
+          "provider": "Google Street View",
+          "inspected": true
+        }
+      ],
+      "observations": [
+        "106: four upper rows of FOUR rectangular windows on red brick, light ornate lintels and sills, pale horizontal bands, small diamond stone ornaments between floor rows, dark bracketed cornice. No fire escape. April 2026 RV blocks direct ground view. Adjacent 104 oblique shows pale decorated ground facade and central narrow glazed entrance with light 106 above leaf, flanked ground windows.",
+        "Alternate ground view inspected; vehicle and tree still obscure parts of the entry. No additional legible number claim from this angle."
+      ],
+      "status": "source-inspected; explicit model schedule updated",
+      "unresolved": [
+        "RV obscures most ground; seek alternate view before large access changes."
+      ],
+      "number": {
+        "text": "106",
+        "placement": "light digits above central glazed entrance leaf, observed obliquely from 104 view"
+      },
+      "implementation": {
+        "effectiveGroundOverride": true,
+        "reviewRecord": "east-seventh-review-07/visual-review.json"
+      }
+    },
+    {
+      "buildingId": 248142328,
+      "address": "110 East 7th Street",
+      "side": "south",
+      "protected": false,
+      "sourceViews": [
+        {
+          "url": "https://www.google.com/maps/@40.7265044,-73.9845923,3a,90y,233.63h,122t/data=!3m7!1e1!3m5!1s6h8_UA7jRJ37XJV5nYgNcQ!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-32%26panoid%3D6h8_UA7jRJ37XJV5nYgNcQ%26yaw%3D233.631!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI2MDkyMS4wIKXMDSoASAFQAw%3D%3D",
+          "view": "full",
+          "captureDate": "2026-04",
+          "retrieved": "2026-09-23",
+          "provider": "Google Street View",
+          "inspected": true
+        }
+      ],
+      "observations": [
+        "110: six-story buff brick facade, four upper bays and five rows; arched penultimate row, pale rectangular lower surrounds and ornament bands, dark cornice and black central fire escape. Ground dark timber frontage with two separate shop units and narrow central residential entry. Small 110 on pale rectangular transom above center door. Both shops have short dark-grey awnings, clear glazing and brown lower panels. To west (image-right) 108 is an open vegetated site behind tall black iron fence, not a standing garage facade."
+      ],
+      "status": "source-inspected; explicit model schedule updated",
+      "unresolved": [
+        "Cars hide steps/threshold and shop lower panels; number needs close view for type/color confidence."
+      ],
+      "number": {
+        "text": "110",
+        "placement": "small digits on pale rectangular transom above narrow central entrance"
+      },
+      "implementation": {
+        "effectiveGroundOverride": true,
+        "reviewRecord": "east-seventh-review-07/visual-review.json"
+      }
+    },
+    {
+      "buildingId": 248142330,
+      "address": "112 East 7th Street",
+      "side": "south",
+      "protected": false,
+      "sourceViews": [
+        {
+          "url": "https://www.google.com/maps/@40.7265044,-73.9845923,3a,90y,191.6h,122t/data=!3m7!1e1!3m5!1s6h8_UA7jRJ37XJV5nYgNcQ!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-32%26panoid%3D6h8_UA7jRJ37XJV5nYgNcQ%26yaw%3D191.601!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI2MDkyMS4wIKXMDSoASAFQAw%3D%3D",
+          "view": "full",
+          "captureDate": "2026-04",
+          "retrieved": "2026-09-23",
+          "provider": "Google Street View",
+          "inspected": true
+        }
+      ],
+      "observations": [
+        "112: warm orange/buff brick, four upper bays/four rows, elaborate terracotta panels/shell ornaments, arched top windows, plain parapet with no projecting top cornice. Black middle fire escape. Ground central arched coral/terracotta raised entrance flanked by TWO projecting WHITE bay windows with narrow angled sidelights, cap cornices and flower boxes. Dark double glazed door with clear/gold 112 E 7th lettering at top of glass below fanlight. Coral stair/landing, black simple rails and front gate; basement dark."
+      ],
+      "status": "source-inspected; explicit model schedule updated",
+      "unresolved": [
+        "Exact bay projection, ornamental relief and number casing need close review; dimensions estimated."
+      ],
+      "number": {
+        "text": "112 E 7th",
+        "placement": "gold/light lettering across upper rectangular door glazing below rounded transom"
+      },
+      "implementation": {
+        "effectiveGroundOverride": true,
+        "reviewRecord": "east-seventh-review-07/visual-review.json"
+      }
+    },
+    {
+      "buildingId": 248142332,
+      "address": "114 East 7th Street",
+      "side": "south",
+      "protected": false,
+      "sourceViews": [
+        {
+          "url": "https://www.google.com/maps/@40.7264564,-73.9844773,3a,90y,211.13h,122t/data=!3m7!1e1!3m5!1s6X0OkAYBuC1t2o_36y-JIA!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-32%26panoid%3D6X0OkAYBuC1t2o_36y-JIA%26yaw%3D211.133!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI2MDkyMS4wIKXMDSoASAFQAw%3D%3D",
+          "view": "full",
+          "captureDate": "2026-04",
+          "retrieved": "2026-09-23",
+          "provider": "Google Street View",
+          "inspected": true
+        },
+        {
+          "url": "https://www.google.com/maps/@40.7264564,-73.9844773,3a,55y,211.13h,93t/data=!3m7!1e1!3m5!1s6X0OkAYBuC1t2o_36y-JIA!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-3%26panoid%3D6X0OkAYBuC1t2o_36y-JIA%26yaw%3D211.133!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI2MDkyMS4wIKXMDSoASAFQAw%3D%3D",
+          "view": "ground close",
+          "captureDate": "2026-04",
+          "retrieved": "2026-09-23",
+          "provider": "Google Street View",
+          "inspected": true
+        }
+      ],
+      "observations": [
+        "114: pale white/yellow painted upper facade with FOUR window bays per row, five upper rows, round-headed top row, black central fire escape and deep dark projecting cornice. Ground brownstone has broad paired round-cornered parlor windows either side of central tall rounded WOOD double doors, narrow long glazing and small lower panels. Raised grey stair flight between solid curved brownstone cheeks, dark scroll fence. Small 114 appears on center wood arched header, requires closer read.",
+        "Close view corrects provisional number location: 114 is on the central vertical wooden meeting stile. Both wooden leaves and their long glazing follow the rounded top; there is no separate rectangular-leaf/fanlight split. Grey treads and solid curved brownstone cheeks; two small pale wall lights flank portal."
+      ],
+      "status": "source-inspected; explicit model schedule updated",
+      "unresolved": [
+        "Number typography/precise mount unresolved; sunlight/vehicle hide some lower details."
+      ],
+      "number": {
+        "text": "114",
+        "placement": "small dark raised numerals on CENTER vertical wood stile near upper glass, below curved door head"
+      },
+      "implementation": {
+        "effectiveGroundOverride": true,
+        "reviewRecord": "east-seventh-review-07/visual-review.json"
+      }
+    },
+    {
+      "buildingId": 248142411,
+      "address": "116 East 7th Street",
+      "side": "south",
+      "protected": false,
+      "sourceViews": [
+        {
+          "url": "https://www.google.com/maps/@40.7264077,-73.9843728,3a,90y,227.25h,122t/data=!3m7!1e1!3m5!1sra4NNrjpenwmcNH8FIk3MQ!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-32%26panoid%3Dra4NNrjpenwmcNH8FIk3MQ%26yaw%3D227.245!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI2MDkyMS4wIKXMDSoASAFQAw%3D%3D",
+          "view": "full",
+          "captureDate": "2026-04",
+          "retrieved": "2026-09-23",
+          "provider": "Google Street View",
+          "inspected": true
+        }
+      ],
+      "observations": [
+        "116: red-painted brick with FOUR bays across five residential window rows (lower parlor + four above), grey shallow segmental hoods over rectangular windows, low corbelled parapet; NO fire escape. Lower commercial/basement level contains two independent units, not a raised central stoop. Left black shop front has multi-pane display on left and narrow door on right; small light 116 on solid black header over that left-unit door. Right unit has separate dark narrow door then display with neon in glass. Tall parlor row above has four rectangular sash, lower ground street rail around recessed approach."
+      ],
+      "status": "source-inspected; explicit model schedule updated",
+      "unresolved": [
+        "Right unit lettering and depth of lower approach obscured by vehicle; ground identities not independently verified."
+      ],
+      "number": {
+        "text": "116",
+        "placement": "light digits on black header over door on right side of LEFT ground shop"
+      },
+      "implementation": {
+        "effectiveGroundOverride": true,
+        "reviewRecord": "east-seventh-review-07/visual-review.json"
+      }
+    },
+    {
+      "buildingId": 248142333,
+      "address": "118 East 7th Street",
+      "side": "south",
+      "protected": false,
+      "sourceViews": [
+        {
+          "url": "https://www.google.com/maps/@40.7263659,-73.9842834,3a,90y,234.3h,122t/data=!3m7!1e1!3m5!1splAp4E6uW7Ye2Vhlpt-F8Q!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-32%26panoid%3DplAp4E6uW7Ye2Vhlpt-F8Q%26yaw%3D234.298!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI2MDkyMS4wIKXMDSoASAFQAw%3D%3D",
+          "view": "full",
+          "captureDate": "2026-04",
+          "retrieved": "2026-09-23",
+          "provider": "Google Street View",
+          "inspected": true
+        }
+      ],
+      "observations": [
+        "118: orange/red unpainted brick, FOUR bays across four upper rows, shallow grey segmental hoods, green central fire escape; low corbelled parapet. Parlor row below has wide paired curved-head window at left, narrow center opening under large curved hood and wide paired curved-head right window. Dark planters directly below all three, small lamps beside center. Street-level centered dark entrance recessed in brown stone basement, raised dark 118 on stone immediately above it. Wide lower barred windows flank entry, black railings/gates and tall planters."
+      ],
+      "status": "source-inspected; explicit model schedule updated",
+      "unresolved": [
+        "Recess floor grade and lower side doors partly obscured; ornamental profiles are estimates."
+      ],
+      "number": {
+        "text": "118",
+        "placement": "raised dark numerals on brown stone directly above center street-level door"
+      },
+      "implementation": {
+        "effectiveGroundOverride": true,
+        "reviewRecord": "east-seventh-review-07/visual-review.json"
+      }
+    },
+    {
+      "buildingId": 248142334,
+      "address": "120 East 7th Street",
+      "side": "south",
+      "protected": false,
+      "sourceViews": [
+        {
+          "url": "https://www.google.com/maps/@40.7263659,-73.9842834,3a,90y,189.98h,122t/data=!3m7!1e1!3m5!1splAp4E6uW7Ye2Vhlpt-F8Q!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-32%26panoid%3DplAp4E6uW7Ye2Vhlpt-F8Q%26yaw%3D189.98!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI2MDkyMS4wIKXMDSoASAFQAw%3D%3D",
+          "view": "full",
+          "captureDate": "2026-04",
+          "retrieved": "2026-09-23",
+          "provider": "Google Street View",
+          "inspected": true
+        }
+      ],
+      "observations": [
+        "120: brown painted brick, FOUR bays across five residential rows including low parlor; shallow dark green curved hoods and dark green sills, corbelled parapet, NO fire escape. Lowest parlor four windows have black grilles. Ground left shop is grey shuttered under black East VILLAGE / Beer & Bites fascia; center dark residential entrance has ornate grille and 120 set in dark lintel above; right Non-no Nail shop has pale sage fascia with gold lettering, 120 E 7TH ST small white text on left fascia edge and light framed glass/door. Bare tree toward west/left."
+      ],
+      "status": "source-inspected; explicit model schedule updated",
+      "unresolved": [
+        "Parked car hides entry leaf lower half and storefront bases; measured dimensions unavailable."
+      ],
+      "number": {
+        "text": "120",
+        "placement": "dark digits centered on residential lintel; 120 E 7TH ST repeated at left of nail-shop fascia"
+      },
+      "implementation": {
+        "effectiveGroundOverride": true,
+        "reviewRecord": "east-seventh-review-07/visual-review.json"
+      }
+    },
+    {
+      "buildingId": 248142335,
+      "address": "122 East 7th Street",
+      "side": "south",
+      "protected": false,
+      "sourceViews": [
+        {
+          "url": "https://www.google.com/maps/@40.7263208,-73.9841827,3a,90y,203.4h,122t/data=!3m7!1e1!3m5!1soc5mdx5ZMGzjnS86El8U2Q!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-32%26panoid%3Doc5mdx5ZMGzjnS86El8U2Q%26yaw%3D203.399!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI2MDkyMS4wIKXMDSoASAFQAw%3D%3D",
+          "view": "full",
+          "captureDate": "2026-04",
+          "retrieved": "2026-09-23",
+          "provider": "Google Street View",
+          "inspected": true
+        }
+      ],
+      "observations": [
+        "122: red brick four-bay/four-upper-row facade, shallow segmental brown hoods, low corbelled parapet and brown central fire escape. Ground dark navy shopfronts either side of central narrow residential door, projecting display bays with salmon-colored inset window frames, separate shop doors next to center entrance and dark awnings. Both shop windows read JONES STREET WINE BAR. Small pale 122 in rectangular glass transom above central residential door; this door sits behind tree trunk and has decorative dark surround. Bare street tree directly in front."
+      ],
+      "status": "source-inspected; explicit model schedule updated",
+      "unresolved": [
+        "Lower residential threshold/tree-obscured trim estimated; bar lettering is April 2026 observation."
+      ],
+      "number": {
+        "text": "122",
+        "placement": "small pale digits centered on glazed rectangular transom over center residential door"
+      },
+      "implementation": {
+        "effectiveGroundOverride": true,
+        "reviewRecord": "east-seventh-review-07/visual-review.json"
+      }
+    },
+    {
+      "buildingId": 248142336,
+      "address": "126 East 7th Street",
+      "side": "south",
+      "protected": false,
+      "sourceViews": [
+        {
+          "url": "https://www.google.com/maps/@40.726273,-73.9840746,3a,90y,221.02h,122t/data=!3m7!1e1!3m5!1sqyF6iu5456OQjQEG9K7ylQ!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-32%26panoid%3DqyF6iu5456OQjQEG9K7ylQ%26yaw%3D221.018!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI2MDkyMS4wIKXMDSoASAFQAw%3D%3D",
+          "view": "full",
+          "captureDate": "2026-04",
+          "retrieved": "2026-09-23",
+          "provider": "Google Street View",
+          "inspected": true
+        },
+        {
+          "url": "https://www.google.com/maps/@40.726273,-73.9840746,3a,90y,209h,117t/data=!3m7!1e1!3m5!1sqyF6iu5456OQjQEG9K7ylQ!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-27%26panoid%3DqyF6iu5456OQjQEG9K7ylQ%26yaw%3D209!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI2MDkyMS4wIKXMDSoASAFQAw%3D%3D",
+          "view": "adjacent 126/128 construction overlap",
+          "captureDate": "2026-04",
+          "retrieved": "2026-09-23",
+          "provider": "Google Street View",
+          "inspected": true
+        }
+      ],
+      "observations": [
+        "126: pale cream brick, FOUR rectangular sash bays across FOUR upper rows, flat lintels and low unadorned parapet. Black decorative curved-belly fire escape with scroll stair ends and roof escape landing. Ground GIANO shop occupies broad left portion under charcoal-grey fascia with white lettering/emblem, closed grey roller shutter. Separate narrow dark residential entrance at right, gold 126 on rectangular transom/header above leaf, small wall lamps. Neighbor 128 scaffold intrudes slightly at left edge."
+      ],
+      "status": "source-inspected; explicit model schedule updated",
+      "unresolved": [
+        "Vehicle hides thresholds and bottom of shutter; exact ornamental ironwork curves not measured."
+      ],
+      "number": {
+        "text": "126",
+        "placement": "small gold digits on header/transom over narrow right residential door"
+      },
+      "implementation": {
+        "effectiveGroundOverride": true,
+        "reviewRecord": "east-seventh-review-07/visual-review.json"
+      }
+    },
+    {
+      "buildingId": 248142337,
+      "address": "128 East 7th Street",
+      "side": "south",
+      "protected": false,
+      "sourceViews": [
+        {
+          "url": "https://www.google.com/maps/@40.726273,-73.9840746,3a,90y,175.9h,122t/data=!3m7!1e1!3m5!1sqyF6iu5456OQjQEG9K7ylQ!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-32%26panoid%3DqyF6iu5456OQjQEG9K7ylQ%26yaw%3D175.9!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI2MDkyMS4wIKXMDSoASAFQAw%3D%3D",
+          "view": "full",
+          "captureDate": "2026-04",
+          "retrieved": "2026-09-23",
+          "provider": "Google Street View",
+          "inspected": true
+        }
+      ],
+      "observations": [
+        "128: entire upper facade is under BLUE tubular scaffolding and fine dark safety net, with orange vertical ties and timber work decks at each level in April 2026. Ground sidewalk shed has silver/grey beams and posts, green mesh/plywood guard fascia, lights below and white board reading 128 EAST 7TH ST-NYC. PYLOS ground restaurant remains visible under shed: pale stone/white panels, brown slatted valance with gold PYLOS, dark timber/glazed entry and large right glass. Construction pedestrian rail/white-red barricade at curb. Upper masonry/window details behind net cannot be freshly certified."
+      ],
+      "status": "source-inspected; explicit model schedule updated",
+      "unresolved": [
+        "Upper architecture is scaffold-obscured; preserve existing evidence-backed geometry beneath dated construction. No completed work inferred."
+      ],
+      "number": {
+        "text": "128 EAST 7TH ST-NYC",
+        "placement": "large dark lettering on white construction board on front of sidewalk shed"
+      },
+      "implementation": {
+        "effectiveGroundOverride": true,
+        "reviewRecord": "east-seventh-review-07/visual-review.json"
+      }
+    },
+    {
+      "buildingId": 248142407,
+      "address": "109 Avenue A",
+      "side": "south",
+      "protected": false,
+      "sourceViews": [
+        {
+          "url": "https://www.google.com/maps/@40.7261877,-73.9838561,3a,90y,187.11h,122t/data=!3m7!1e1!3m5!1sgqOoo6pPv6uGGJ_COh_w4w!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-32%26panoid%3DgqOoo6pPv6uGGJ_COh_w4w%26yaw%3D187.108!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI2MDkyMS4wIKXMDSoASAFQAw%3D%3D",
+          "view": "full",
+          "captureDate": "2026-04",
+          "retrieved": "2026-09-23",
+          "provider": "Google Street View",
+          "inspected": true
+        },
+        {
+          "url": "https://www.google.com/maps/@40.7261877,-73.9838561,3a,90y,209h,117t/data=!3m7!1e1!3m5!1sgqOoo6pPv6uGGJ_COh_w4w!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-27%26panoid%3DgqOoo6pPv6uGGJ_COh_w4w%26yaw%3D209!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI2MDkyMS4wIKXMDSoASAFQAw%3D%3D",
+          "view": "130 entrance and western paired-window section",
+          "captureDate": "2026-04",
+          "retrieved": "2026-09-23",
+          "provider": "Google Street View",
+          "inspected": true
+        }
+      ],
+      "observations": [
+        "109 Avenue A/Seventh return spans distinct ground units. Miss Lily's has pink masonry lower panels, blue window surrounds, red/maroon sloping awnings and a black multicolored MUSIC VARIETY fascia; large second-floor black projecting glazing includes pilates lettering. Western entrance at 130 East 7th is a separate dark recessed portal beneath carved pale stone 130; vertical gold/light 130 on narrow door jamb also visible. Pale cream brick/stone upper facade, varied rectangular windows, broad black fire escape over western residential section. Street tree stands in front of western ground windows; restaurant has red outdoor seats.",
+        "Adjacent overlap resolves western sequence: Miss Lily’s corner return, separate lower window, carved 130 portal, then green Titi’s Empanadas unit at western end. Upper facade has paired windows and broad fire escape across western section; broad projecting first-floor bays belong to corner section. First-candidate uniform rhythm and far-west doorway were corrected after review."
+      ],
+      "status": "source-inspected; explicit model schedule updated",
+      "unresolved": [
+        "Full long frontage does not fit one perpendicular view; east avenue corner and west portal need overlap. Exact sign collage/pilates branding not fully transcribed."
+      ],
+      "number": {
+        "text": "130",
+        "placement": "carved stone over west-end residential portal and vertical digits on narrow entrance jamb"
+      },
+      "implementation": {
+        "effectiveGroundOverride": true,
+        "reviewRecord": "east-seventh-review-07/visual-review.json"
+      }
+    }
+  ],
+  "additionalEdges": [
+    {
+      "id": "east7-south-108-gap",
+      "runtimeIntervalX": [
+        96.2,
+        103.6
+      ],
+      "identity": "108 East 7th Street site between 106 and 110",
+      "state": "April 2026 browser-inspected gate, paving and planting modeled; hidden rear building not reconstructed",
+      "evidence": "Black iron pedestrian gate at left and wider paired gates with mid-height solid black strips; ivy on side fences, two small trees in paved setback. Modern buff-brick/blue-glass building is visible at rear; unseen depth and total height not established. Existing open frontage is not a garage facade.",
+      "sourceViews": [
+        {
+          "url": "https://www.google.com/maps/@40.7265489,-73.9846988,3a,65y,209h,90t/data=!3m7!1e1!3m5!1s7FluIycSlFnMOPfjEShfDQ!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D0%26panoid%3D7FluIycSlFnMOPfjEShfDQ%26yaw%3D209!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI2MDkyMS4wIKXMDSoASAFQAw%3D%3D",
+          "captureDate": "2026-04",
+          "retrieved": "2026-09-23",
+          "inspected": true
+        }
+      ]
+    },
+    {
+      "id": "east7-church-side-gaps",
+      "runtimeIntervalX": [
+        79,
+        80.3,
+        96.1,
+        96.9
+      ],
+      "identity": "Observed separation beside St Stanislaus and its rectories",
+      "state": "existing mapped separation retained; concealed side surfaces not accepted"
+    }
+  ],
+  "streetFeatures": {
+    "ownership": "east7-street-edge-06",
+    "state": "108 gate/garden and dated facade-attached sheds modeled; existing curb dressing retained elsewhere",
+    "unchangedGenericFeatures": [
+      "street tree placement",
+      "lamp/hydrant placement",
+      "curb furniture"
+    ],
+    "acceptance": "All frontage sources inspected; complete exact tree/lamp/hydrant/curb positions remain unresolved. No photographic street-feature acceptance claimed."
+  }
+}

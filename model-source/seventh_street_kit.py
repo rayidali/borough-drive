@@ -243,15 +243,15 @@ def seventh_plant(f,s,d,scale=1.0,seed=0):
             w=.13*scale;h=.19*scale
             face([f.p(*p),f.p(p[0]+w,p[1]+h*.42,p[2]-.03),f.p(p[0]+w*.7,p[1]+h,p[2]),f.p(p[0]-.025,p[1]+h*.65,p[2]+.02)],'seventh fresh leaves' if j%2 else 'seventh leaf tip')
 
-def seventh_fence(f,a,b,d=1.05):
+def seventh_fence(f,a,b,d=1.05,mat='seventh worn iron'):
     if b-a<.3:return
-    for yy in [.37,1.20]:f.line((a,yy,d),(b,yy,d),.020,'seventh worn iron')
+    for yy in [.37,1.20]:f.line((a,yy,d),(b,yy,d),.020,mat)
     for i in range(max(2,round((b-a)/.19))+1):
         x=a+(b-a)*i/max(2,round((b-a)/.19))
-        f.line((x,.19,d),(x,1.30,d),.012,'seventh worn iron')
+        f.line((x,.19,d),(x,1.30,d),.012,mat)
         # Small pyramidal finials and lower cross ties resolve close to the car.
-        f.b(x,1.32,d,.038,.065,.038,'seventh worn iron')
-    for x in [a,b]:f.b(x,.78,d,.055,1.22,.055,'seventh worn iron')
+        f.b(x,1.32,d,.038,.065,.038,mat)
+    for x in [a,b]:f.b(x,.78,d,.055,1.22,.055,mat)
 
 def add_seventh_detail(b,schedule):
     record=next((r for r in schedule.get('elevations',[]) if r['buildingId']==b['id']),None)

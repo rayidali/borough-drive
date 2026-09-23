@@ -1,0 +1,22 @@
+{
+  "documents": 13,
+  "relativeLinksChecked": 403,
+  "missing": [],
+  "scope": [
+    "AGENTS.md",
+    "CODEX-HANDOFF.md",
+    "CONTRIBUTING.md",
+    "README.md",
+    "SESSION-LOG.md",
+    "START-HERE.md",
+    "engine/first-seventh/README.md",
+    "model-source/NEIGHBORHOOD-NOTES.md",
+    "model-source/SEVENTH-ENGINE-06.md",
+    "model-source/SEVENTH-FIDELITY-BENCHMARK.md",
+    "model-source/skills/reconstruct-street/SKILL.md",
+    "model-source/skills/reconstruct-street/references/repository-adapter.md",
+    "model-source/SEVENTH-ENGINE-07.md"
+  ],
+  "skillValidator": "passed",
+  "whitespace": "git diff --check passed"
+}

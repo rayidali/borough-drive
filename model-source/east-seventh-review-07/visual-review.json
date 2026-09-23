@@ -1,0 +1,987 @@
+{
+  "checkedAt": "2026-09-23T20:28:37.902456+00:00",
+  "packageSha256": "746113ee606ebfb6b6b0e32861974ce2ae3445c25d7a6b509b011c7c6bd393fa",
+  "method": "All final 37 whole elevations, 52 overlapping ground views and nine obliques visually inspected after the static batching correction. Compared with source observations and prior repaired model views. Diagnostic game cameras are not calibrated source-matched cameras.",
+  "counts": {
+    "sourceInspectedFrontages": 37,
+    "elevations": 37,
+    "groundViews": 52,
+    "obliques": 9,
+    "calibratedMultiViewPasses": 0
+  },
+  "frontages": [
+    {
+      "buildingId": 248142707,
+      "address": "118 1st Avenue",
+      "protected": true,
+      "sourceInspected": true,
+      "finalGameViews": [
+        {
+          "path": "../../docs/images/east-seventh-07/frontage-248142707-elevation.png",
+          "sha256": "56b590e27b01c69e4d7be841c613850f7c7571db0a338a989dd9268c9dd001a1",
+          "visuallyInspected": true
+        },
+        {
+          "path": "../../docs/images/east-seventh-07/frontage-248142707-perspective-1.png",
+          "sha256": "856a7312566807a752de050d64a144f1abd1bddf1461decb8e6fdbbf04c2faea",
+          "visuallyInspected": true
+        },
+        {
+          "path": "../../docs/images/east-seventh-07/frontage-248142707-perspective-2.png",
+          "sha256": "14148b79dd331cbf4b422d4dee495985121d2468b75158f75a857f6a92049d25",
+          "visuallyInspected": true
+        },
+        {
+          "path": "../../docs/images/east-seventh-07/frontage-248142707-perspective-3.png",
+          "sha256": "12227c27aef20d35cfcb5fb77e35926291c31c3eb9841805658e49513589f603",
+          "visuallyInspected": true
+        }
+      ],
+      "review": "Checked whole opening rhythm, ground access, number placement, materials and obvious export errors. Protected records retained. Fine scale and concealed details retain source limits.",
+      "calibratedMultiViewPass": false,
+      "limits": [
+        "Protected accepted model retained by task constraint; source inspection is not a new fidelity acceptance."
+      ]
+    },
+    {
+      "buildingId": 248142715,
+      "address": "93 East 7th Street",
+      "protected": false,
+      "sourceInspected": true,
+      "finalGameViews": [
+        {
+          "path": "../../docs/images/east-seventh-07/frontage-248142715-elevation.png",
+          "sha256": "656672cd33ef2fd0f68b90b68128161411c1e9cbf186908050e6d292a56ae409",
+          "visuallyInspected": true
+        },
+        {
+          "path": "../../docs/images/east-seventh-07/frontage-248142715-perspective-1.png",
+          "sha256": "dd965d327c5d783d719fbda787c074fa1e64ba6b394a156a929602ec64ca1210",
+          "visuallyInspected": true
+        },
+        {
+          "path": "../../docs/images/east-seventh-07/frontage-248142715-perspective-2.png",
+          "sha256": "c8d7ad54fc73997c8adf2f6a4a1a83c93db3556a055fa9fe01097f21aa02d0a2",
+          "visuallyInspected": true
+        }
+      ],
+      "review": "Checked whole opening rhythm, ground access, number placement, materials and obvious export errors. Protected records retained. Fine scale and concealed details retain source limits.",
+      "calibratedMultiViewPass": false,
+      "limits": [
+        "Crowd still hides the lowest door panels and threshold; proportions remain estimates."
+      ]
+    },
+    {
+      "buildingId": 248142690,
+      "address": "95 East 7th Street",
+      "protected": false,
+      "sourceInspected": true,
+      "finalGameViews": [
+        {
+          "path": "../../docs/images/east-seventh-07/frontage-248142690-elevation.png",
+          "sha256": "0aa8cc79799ffa9b43c983a402194be0cfe596e763d1d6b59002b08726eed976",
+          "visuallyInspected": true
+        },
+        {
+          "path": "../../docs/images/east-seventh-07/frontage-248142690-perspective-1.png",
+          "sha256": "516d01dd2ba739a683b4ffabfc6c4228c410a762bd3a8fc4ff237d40601e76e1",
+          "visuallyInspected": true
+        }
+      ],
+      "review": "Checked whole opening rhythm, ground access, number placement, materials and obvious export errors. Protected records retained. Fine scale and concealed details retain source limits.",
+      "calibratedMultiViewPass": false,
+      "limits": [
+        "Lower stair treads partly hidden by parked car; precise leaf split needs close view."
+      ]
+    },
+    {
+      "buildingId": 248142701,
+      "address": "97 East 7th Street",
+      "protected": false,
+      "sourceInspected": true,
+      "finalGameViews": [
+        {
+          "path": "../../docs/images/east-seventh-07/frontage-248142701-elevation.png",
+          "sha256": "e936acfb7aa2afaa746ef15b561aa25b2971cfe89c4d3949d43a6426c17ddc18",
+          "visuallyInspected": true
+        },
+        {
+          "path": "../../docs/images/east-seventh-07/frontage-248142701-perspective-1.png",
+          "sha256": "1eb255a29e442a6ffd422cadcac94c6f1ad43daa986e090a322a98131c174904",
+          "visuallyInspected": true
+        }
+      ],
+      "review": "Checked whole opening rhythm, ground access, number placement, materials and obvious export errors. Protected records retained. Fine scale and concealed details retain source limits.",
+      "calibratedMultiViewPass": false,
+      "limits": [
+        "Basement partly behind parked car; dimensions and stair count remain estimates."
+      ]
+    },
+    {
+      "buildingId": 248142693,
+      "address": "97 1/2 East 7th Street",
+      "protected": false,
+      "sourceInspected": true,
+      "finalGameViews": [
+        {
+          "path": "../../docs/images/east-seventh-07/frontage-248142693-elevation.png",
+          "sha256": "c0a9f28258c7a2783abad5ec34829d009f9d5a763e53f819cff855b093131730",
+          "visuallyInspected": true
+        },
+        {
+          "path": "../../docs/images/east-seventh-07/frontage-248142693-perspective-1.png",
+          "sha256": "d9235c78ce8c3cd00c918769998a1e24fbd1d86bcb42495e96c6dbbd8bbb793d",
+          "visuallyInspected": true
+        }
+      ],
+      "review": "Checked whole opening rhythm, ground access, number placement, materials and obvious export errors. Protected records retained. Fine scale and concealed details retain source limits.",
+      "calibratedMultiViewPass": false,
+      "limits": [
+        "Exact fractional glyph and sign microtype require closer view; lower shop blocked by car."
+      ]
+    },
+    {
+      "buildingId": 248142697,
+      "address": "99 East 7th Street",
+      "protected": false,
+      "sourceInspected": true,
+      "finalGameViews": [
+        {
+          "path": "../../docs/images/east-seventh-07/frontage-248142697-elevation.png",
+          "sha256": "3b78c2e6b9104e2f1949749cc17a99616e460c7d086acbbf7f9a4175c5333277",
+          "visuallyInspected": true
+        },
+        {
+          "path": "../../docs/images/east-seventh-07/frontage-248142697-perspective-1.png",
+          "sha256": "1ab2c76d6090c84bf6a39cbe4e42d3a6fed96391ca06ced798c46351795ba335",
+          "visuallyInspected": true
+        }
+      ],
+      "review": "Checked whole opening rhythm, ground access, number placement, materials and obvious export errors. Protected records retained. Fine scale and concealed details retain source limits.",
+      "calibratedMultiViewPass": false,
+      "limits": [
+        "Door leaf/sidelight boundary and exact step count require closer view; parked cars hide lower left areaway."
+      ]
+    },
+    {
+      "buildingId": 248142615,
+      "address": "101 East 7th Street",
+      "protected": false,
+      "sourceInspected": true,
+      "finalGameViews": [
+        {
+          "path": "../../docs/images/east-seventh-07/frontage-248142615-elevation.png",
+          "sha256": "8cb3fc3c894198358ca2d0ec1cf6dd10806bd237f5259400a183dbcf267cd95d",
+          "visuallyInspected": true
+        },
+        {
+          "path": "../../docs/images/east-seventh-07/frontage-248142615-perspective-1.png",
+          "sha256": "816f982a009fd3d4108ecbdcc521deacc817730208b743f7f3c83843938992c7",
+          "visuallyInspected": true
+        }
+      ],
+      "review": "Checked whole opening rhythm, ground access, number placement, materials and obvious export errors. Protected records retained. Fine scale and concealed details retain source limits.",
+      "calibratedMultiViewPass": false,
+      "limits": [
+        "Door behind signboard/rail not fully visible; bust sculpture detail and exact text punctuation are approximate."
+      ]
+    },
+    {
+      "buildingId": 248142618,
+      "address": "107 East 7th Street",
+      "protected": false,
+      "sourceInspected": true,
+      "finalGameViews": [
+        {
+          "path": "../../docs/images/east-seventh-07/frontage-248142618-elevation.png",
+          "sha256": "0d876d2fe96d6abb84125aff9c83ef42e4569de399ad902fc83e068dc37d489a",
+          "visuallyInspected": true
+        },
+        {
+          "path": "../../docs/images/east-seventh-07/frontage-248142618-perspective-1.png",
+          "sha256": "64788fb289c1768cfdc4b84dab14ce43d674ffa7f698eaabd7a3bcc42a09f87f",
+          "visuallyInspected": true
+        },
+        {
+          "path": "../../docs/images/east-seventh-07/frontage-248142618-perspective-2.png",
+          "sha256": "248e4ef058dddd3a183d6262f60dee00a42b128ae5a32db621951cc253037ceb",
+          "visuallyInspected": true
+        }
+      ],
+      "review": "Checked whole opening rhythm, ground access, number placement, materials and obvious export errors. Protected records retained. Fine scale and concealed details retain source limits.",
+      "calibratedMultiViewPass": false,
+      "limits": [
+        "Tiny carved faces and stained glass scenes cannot be reproduced from this view at measured fidelity; tower top depth is estimated."
+      ]
+    },
+    {
+      "buildingId": 248142621,
+      "address": "109 East 7th Street",
+      "protected": false,
+      "sourceInspected": true,
+      "finalGameViews": [
+        {
+          "path": "../../docs/images/east-seventh-07/frontage-248142621-elevation.png",
+          "sha256": "76a8512a0aeead6be7a191ba914b0ef8e6399917fb3e63bec5734a264a6d9b71",
+          "visuallyInspected": true
+        },
+        {
+          "path": "../../docs/images/east-seventh-07/frontage-248142621-perspective-1.png",
+          "sha256": "5b290c55e1cc97ab9435541b09c9fda19a1f1fd70859450cffde88eefd27e8e7",
+          "visuallyInspected": true
+        }
+      ],
+      "review": "Checked whole opening rhythm, ground access, number placement, materials and obvious export errors. Protected records retained. Fine scale and concealed details retain source limits.",
+      "calibratedMultiViewPass": false,
+      "limits": [
+        "Basement/side entrance and lowest wall are occluded by parked car; do not add a numbered central door."
+      ]
+    },
+    {
+      "buildingId": 248142624,
+      "address": "111\u2013115 East 7th Street",
+      "protected": false,
+      "sourceInspected": true,
+      "finalGameViews": [
+        {
+          "path": "../../docs/images/east-seventh-07/frontage-248142624-elevation.png",
+          "sha256": "e1006f2fe8c6fc72edd440f9e5bb1f76ffd41f01e70ddded3d5a8ccc8e49ae23",
+          "visuallyInspected": true
+        },
+        {
+          "path": "../../docs/images/east-seventh-07/frontage-248142624-perspective-1.png",
+          "sha256": "1de1b84099f417f9dcb3240311ca01353cfebaa6b50775ec87f769db0235e1fd",
+          "visuallyInspected": true
+        },
+        {
+          "path": "../../docs/images/east-seventh-07/frontage-248142624-perspective-2.png",
+          "sha256": "9b95807946592a80fa713bc2a3fd0958bcaf48111d9bc9cd06e7497fe583222b",
+          "visuallyInspected": true
+        },
+        {
+          "path": "../../docs/images/east-seventh-07/frontage-248142624-perspective-3.png",
+          "sha256": "b2160d97fcc4193554f2dd14344c52003d2947f4d0e618c2e74872d4c3621ee4",
+          "visuallyInspected": true
+        }
+      ],
+      "review": "Checked whole opening rhythm, ground access, number placement, materials and obvious export errors. Protected records retained. Fine scale and concealed details retain source limits.",
+      "calibratedMultiViewPass": false,
+      "limits": [
+        "Small weathered plaque above the main leaf remains unreadable; substitute lettering font."
+      ]
+    },
+    {
+      "buildingId": 248142633,
+      "address": "117\u2013119 East 7th Street",
+      "protected": false,
+      "sourceInspected": true,
+      "finalGameViews": [
+        {
+          "path": "../../docs/images/east-seventh-07/frontage-248142633-elevation.png",
+          "sha256": "44df2cd6303c89263d01e57e6ad3f89e13cf0dec5f3043ad3b46b265d42be103",
+          "visuallyInspected": true
+        },
+        {
+          "path": "../../docs/images/east-seventh-07/frontage-248142633-perspective-1.png",
+          "sha256": "a9038db68e70cade6cf884231e7613d3b931f44a5fa0db2e4049364f45c9c180",
+          "visuallyInspected": true
+        },
+        {
+          "path": "../../docs/images/east-seventh-07/frontage-248142633-perspective-2.png",
+          "sha256": "95ac7c137cc0acb7b8c41f27f5fffd52f765a27fcac398d4624b312a699b1c67",
+          "visuallyInspected": true
+        }
+      ],
+      "review": "Checked whole opening rhythm, ground access, number placement, materials and obvious export errors. Protected records retained. Fine scale and concealed details retain source limits.",
+      "calibratedMultiViewPass": false,
+      "limits": [
+        "Exact door leaf split obscured by pole and recess shadow; lower storefronts partially obstructed."
+      ]
+    },
+    {
+      "buildingId": 248142640,
+      "address": "121 East 7th Street",
+      "protected": false,
+      "sourceInspected": true,
+      "finalGameViews": [
+        {
+          "path": "../../docs/images/east-seventh-07/frontage-248142640-elevation.png",
+          "sha256": "29fa846b6ee4448cd57e18d492b7e62f6ba99d6ea4ad2723fec072f0739a0502",
+          "visuallyInspected": true
+        },
+        {
+          "path": "../../docs/images/east-seventh-07/frontage-248142640-perspective-1.png",
+          "sha256": "d5e5c3e9676d069772ceda6577493609fa5c7c811615b29665ba78a61c0fb6f8",
+          "visuallyInspected": true
+        }
+      ],
+      "review": "Checked whole opening rhythm, ground access, number placement, materials and obvious export errors. Protected records retained. Fine scale and concealed details retain source limits.",
+      "calibratedMultiViewPass": false,
+      "limits": [
+        "Ground boards and stair proportions partly hidden by truck/shed; construction is April 2026 dated condition, no later completion inferred."
+      ]
+    },
+    {
+      "buildingId": 248142645,
+      "address": "123 East 7th Street",
+      "protected": false,
+      "sourceInspected": true,
+      "finalGameViews": [
+        {
+          "path": "../../docs/images/east-seventh-07/frontage-248142645-elevation.png",
+          "sha256": "b96160bb4ec52179982f7a85aa381211c0f0ddeebdbc9ff2374f24dc3472d61b",
+          "visuallyInspected": true
+        },
+        {
+          "path": "../../docs/images/east-seventh-07/frontage-248142645-perspective-1.png",
+          "sha256": "e38e27b72ff8570785d46f931a91dd9b74ec83732cce055a1fd703eb7da22e4a",
+          "visuallyInspected": true
+        }
+      ],
+      "review": "Checked whole opening rhythm, ground access, number placement, materials and obvious export errors. Protected records retained. Fine scale and concealed details retain source limits.",
+      "calibratedMultiViewPass": false,
+      "limits": [
+        "Tree hides portions of upper sash and ornament; estimated horizontal fractions must be checked against facade edges."
+      ]
+    },
+    {
+      "buildingId": 248142647,
+      "address": "125 East 7th Street",
+      "protected": false,
+      "sourceInspected": true,
+      "finalGameViews": [
+        {
+          "path": "../../docs/images/east-seventh-07/frontage-248142647-elevation.png",
+          "sha256": "1bf82efc6aa09d15acb53fc96440c5815b11524b828e18117f4fc84ea3b3979e",
+          "visuallyInspected": true
+        },
+        {
+          "path": "../../docs/images/east-seventh-07/frontage-248142647-perspective-1.png",
+          "sha256": "48097bc3759c035554dd8c80cc7ab25cb1c7ea94da4858ce024757d8f14dafc2",
+          "visuallyInspected": true
+        }
+      ],
+      "review": "Checked whole opening rhythm, ground access, number placement, materials and obvious export errors. Protected records retained. Fine scale and concealed details retain source limits.",
+      "calibratedMultiViewPass": false,
+      "limits": [
+        "Tree canopy obscures cornice and parts of upper facade; car obscures threshold."
+      ]
+    },
+    {
+      "buildingId": 248142650,
+      "address": "127 East 7th Street",
+      "protected": false,
+      "sourceInspected": true,
+      "finalGameViews": [
+        {
+          "path": "../../docs/images/east-seventh-07/frontage-248142650-elevation.png",
+          "sha256": "17a174543debac7dc8cf6895768b46f32bc871a545c0e89b30134729120394b9",
+          "visuallyInspected": true
+        },
+        {
+          "path": "../../docs/images/east-seventh-07/frontage-248142650-perspective-1.png",
+          "sha256": "19765f710f7eb2b5e80158ac5a6217725d8b8a467309e4ce23c3191f53f50858",
+          "visuallyInspected": true
+        }
+      ],
+      "review": "Checked whole opening rhythm, ground access, number placement, materials and obvious export errors. Protected records retained. Fine scale and concealed details retain source limits.",
+      "calibratedMultiViewPass": false,
+      "limits": [
+        "Shop name not legible; left grille may serve secondary access; tree hides upper facade."
+      ]
+    },
+    {
+      "buildingId": 248142653,
+      "address": "129 East 7th Street",
+      "protected": false,
+      "sourceInspected": true,
+      "finalGameViews": [
+        {
+          "path": "../../docs/images/east-seventh-07/frontage-248142653-elevation.png",
+          "sha256": "e2f3fe0e753cdb248d4e346deba7f92391323aed973151dcb6a4a09ebd08feaa",
+          "visuallyInspected": true
+        },
+        {
+          "path": "../../docs/images/east-seventh-07/frontage-248142653-perspective-1.png",
+          "sha256": "2a1c9501f2787f05cf098fee2337ea6c85b9fd944560213cbcc25d8762a1849c",
+          "visuallyInspected": true
+        }
+      ],
+      "review": "Checked whole opening rhythm, ground access, number placement, materials and obvious export errors. Protected records retained. Fine scale and concealed details retain source limits.",
+      "calibratedMultiViewPass": false,
+      "limits": [
+        "Tiny funeral sign script and door ironwork contours approximated; right threshold partly hidden."
+      ]
+    },
+    {
+      "buildingId": 248142656,
+      "address": "131 East 7th Street",
+      "protected": false,
+      "sourceInspected": true,
+      "finalGameViews": [
+        {
+          "path": "../../docs/images/east-seventh-07/frontage-248142656-elevation.png",
+          "sha256": "ab711239312308b196bbdfa00fdbf91392f419093d56afbdc971347d4cdddaaa",
+          "visuallyInspected": true
+        },
+        {
+          "path": "../../docs/images/east-seventh-07/frontage-248142656-perspective-1.png",
+          "sha256": "c2e800ac61d3bb298b17b4c8b314ca50fe58d6cec20313d5a0d927d058f085b5",
+          "visuallyInspected": true
+        },
+        {
+          "path": "../../docs/images/east-seventh-07/frontage-248142656-perspective-2.png",
+          "sha256": "ade362dec4e124ffd07e1bc10655692f817a098aac37548b14321b83a49eaf78",
+          "visuallyInspected": true
+        }
+      ],
+      "review": "Checked whole opening rhythm, ground access, number placement, materials and obvious export errors. Protected records retained. Fine scale and concealed details retain source limits.",
+      "calibratedMultiViewPass": false,
+      "limits": [
+        "Far corner extent and concealed hardware require additional source views."
+      ]
+    },
+    {
+      "buildingId": 248142714,
+      "address": "111 Avenue A",
+      "protected": false,
+      "sourceInspected": true,
+      "finalGameViews": [
+        {
+          "path": "../../docs/images/east-seventh-07/frontage-248142714-elevation.png",
+          "sha256": "1d2192ca155fd90aef697b27f0b52eb86e1527eba641876715edb7f181512400",
+          "visuallyInspected": true
+        },
+        {
+          "path": "../../docs/images/east-seventh-07/frontage-248142714-perspective-1.png",
+          "sha256": "f7d8605593167c6cc75842269e277dc90938f7e47bdf2363b0ad0e1a2d347ff4",
+          "visuallyInspected": true
+        },
+        {
+          "path": "../../docs/images/east-seventh-07/frontage-248142714-perspective-2.png",
+          "sha256": "4b7492b632ae048475743a0016beefc349499555ef97022a07f89349f124ec07",
+          "visuallyInspected": true
+        },
+        {
+          "path": "../../docs/images/east-seventh-07/frontage-248142714-perspective-3.png",
+          "sha256": "8e0e540728295d143ca175e6fd73091af28317765c82de1de93363b8eeb8392d",
+          "visuallyInspected": true
+        }
+      ],
+      "review": "Checked whole opening rhythm, ground access, number placement, materials and obvious export errors. Protected records retained. Fine scale and concealed details retain source limits.",
+      "calibratedMultiViewPass": false,
+      "limits": [
+        "Fine lettering, table/chair hardware and dimensional alignment remain estimates."
+      ]
+    },
+    {
+      "buildingId": 248142404,
+      "address": "116 1st Avenue",
+      "protected": true,
+      "sourceInspected": true,
+      "finalGameViews": [
+        {
+          "path": "../../docs/images/east-seventh-07/frontage-248142404-elevation.png",
+          "sha256": "25e70d65641e5c168a7d3e475c39c6a7c57e4ddd703ff9560d6ce7a7338f99b9",
+          "visuallyInspected": true
+        },
+        {
+          "path": "../../docs/images/east-seventh-07/frontage-248142404-perspective-1.png",
+          "sha256": "4572bd6002aa8f4cfce801868bdb815026d17d26a3714c8df22c92e254320675",
+          "visuallyInspected": true
+        },
+        {
+          "path": "../../docs/images/east-seventh-07/frontage-248142404-perspective-2.png",
+          "sha256": "f3d0134d199d693272c4d65ade35cc72ea94945e3126cdabb04820e4dd9890e4",
+          "visuallyInspected": true
+        },
+        {
+          "path": "../../docs/images/east-seventh-07/frontage-248142404-perspective-3.png",
+          "sha256": "5f67f7fb2d577ee26232a504091ee29da268b0f7f74d0299d2c944c441ce0286",
+          "visuallyInspected": true
+        }
+      ],
+      "review": "Checked whole opening rhythm, ground access, number placement, materials and obvious export errors. Protected records retained. Fine scale and concealed details retain source limits.",
+      "calibratedMultiViewPass": false,
+      "limits": [
+        "Protected accepted model retained; shop merchandise is date-dependent and not fully transcribed."
+      ]
+    },
+    {
+      "buildingId": 951679435,
+      "address": "92 East 7th Street",
+      "protected": false,
+      "sourceInspected": true,
+      "finalGameViews": [
+        {
+          "path": "../../docs/images/east-seventh-07/frontage-951679435-elevation.png",
+          "sha256": "5592c8760a33f459dd4bb6398458ebfa6d37bf17601388f72d1fd01c695e910d",
+          "visuallyInspected": true
+        },
+        {
+          "path": "../../docs/images/east-seventh-07/frontage-951679435-perspective-1.png",
+          "sha256": "6cdfb18409e362aa03fa21074e369cfd43600fdbf977e94d628648f4747d6825",
+          "visuallyInspected": true
+        }
+      ],
+      "review": "Checked whole opening rhythm, ground access, number placement, materials and obvious export errors. Protected records retained. Fine scale and concealed details retain source limits.",
+      "calibratedMultiViewPass": false,
+      "limits": [
+        "Lower shop geometry partly hidden by parked car; interior not reconstructed."
+      ]
+    },
+    {
+      "buildingId": 248142390,
+      "address": "94 East 7th Street",
+      "protected": false,
+      "sourceInspected": true,
+      "finalGameViews": [
+        {
+          "path": "../../docs/images/east-seventh-07/frontage-248142390-elevation.png",
+          "sha256": "af17d04b6cf82684ff9e16fa2157cb0cca5cb78f258fa700998673e0311e0fdf",
+          "visuallyInspected": true
+        },
+        {
+          "path": "../../docs/images/east-seventh-07/frontage-248142390-perspective-1.png",
+          "sha256": "51f9e33b3af74b552902496c0636a17f76bf72862fec9ebfe5a487ea242d1791",
+          "visuallyInspected": true
+        }
+      ],
+      "review": "Checked whole opening rhythm, ground access, number placement, materials and obvious export errors. Protected records retained. Fine scale and concealed details retain source limits.",
+      "calibratedMultiViewPass": false,
+      "limits": [
+        "Uppermost detail partly under Google UI/sun glare; exact stair count and ornamental rail curves are photo estimates."
+      ]
+    },
+    {
+      "buildingId": 248142393,
+      "address": "96 East 7th Street",
+      "protected": false,
+      "sourceInspected": true,
+      "finalGameViews": [
+        {
+          "path": "../../docs/images/east-seventh-07/frontage-248142393-elevation.png",
+          "sha256": "7ac611bf0c770519cc8cf4e044588e9de4a66aeccb109b990c2b3ca3888f466a",
+          "visuallyInspected": true
+        },
+        {
+          "path": "../../docs/images/east-seventh-07/frontage-248142393-perspective-1.png",
+          "sha256": "44fef4158a269439e27773903d96fb08110eba55e63c5d1ceed0331471cbe6ac",
+          "visuallyInspected": true
+        }
+      ],
+      "review": "Checked whole opening rhythm, ground access, number placement, materials and obvious export errors. Protected records retained. Fine scale and concealed details retain source limits.",
+      "calibratedMultiViewPass": false,
+      "limits": [
+        "Deep passage/residential split and numbering need closer view; neon lettering already has separate prior sources."
+      ]
+    },
+    {
+      "buildingId": 248142396,
+      "address": "98 East 7th Street",
+      "protected": false,
+      "sourceInspected": true,
+      "finalGameViews": [
+        {
+          "path": "../../docs/images/east-seventh-07/frontage-248142396-elevation.png",
+          "sha256": "9904c34b57af0ddba4f468083ee3ff4c8534ceb95e79bcd68100c2fd744842db",
+          "visuallyInspected": true
+        },
+        {
+          "path": "../../docs/images/east-seventh-07/frontage-248142396-perspective-1.png",
+          "sha256": "3a39782eadb23d674ef4bb43ae3629a82a91b0872595d764ad07c1bf1f667ba3",
+          "visuallyInspected": true
+        }
+      ],
+      "review": "Checked whole opening rhythm, ground access, number placement, materials and obvious export errors. Protected records retained. Fine scale and concealed details retain source limits.",
+      "calibratedMultiViewPass": false,
+      "limits": [
+        "Read number with a close view before locating it; microcarving and exact stair dimensions estimated."
+      ]
+    },
+    {
+      "buildingId": 248142313,
+      "address": "100 East 7th Street",
+      "protected": false,
+      "sourceInspected": true,
+      "finalGameViews": [
+        {
+          "path": "../../docs/images/east-seventh-07/frontage-248142313-elevation.png",
+          "sha256": "63a6016d547eb7eedd22394932b15fd9486be97cd636b03904d3df2d8dc1f451",
+          "visuallyInspected": true
+        },
+        {
+          "path": "../../docs/images/east-seventh-07/frontage-248142313-perspective-1.png",
+          "sha256": "7a589318305dae183d203745fd3af6081ec927aa0bff56a6859824e8aa6c05b0",
+          "visuallyInspected": true
+        }
+      ],
+      "review": "Checked whole opening rhythm, ground access, number placement, materials and obvious export errors. Protected records retained. Fine scale and concealed details retain source limits.",
+      "calibratedMultiViewPass": false,
+      "limits": [
+        "Upper bay count and ornament rhythm require comparison with existing schedule; some areas tree-obscured."
+      ]
+    },
+    {
+      "buildingId": 248142319,
+      "address": "102 East 7th Street",
+      "protected": false,
+      "sourceInspected": true,
+      "finalGameViews": [
+        {
+          "path": "../../docs/images/east-seventh-07/frontage-248142319-elevation.png",
+          "sha256": "3ae0fb9e55b6e7729c46670de8f09b121208778f82817aafebfb73c8c7f76ee4",
+          "visuallyInspected": true
+        },
+        {
+          "path": "../../docs/images/east-seventh-07/frontage-248142319-perspective-1.png",
+          "sha256": "c59aba8f5f09157bb56e06a7b455ff2b191c5982f2df39a2b4318d61a23058ba",
+          "visuallyInspected": true
+        }
+      ],
+      "review": "Checked whole opening rhythm, ground access, number placement, materials and obvious export errors. Protected records retained. Fine scale and concealed details retain source limits.",
+      "calibratedMultiViewPass": false,
+      "limits": [
+        "Residential number/uppermost profile behind tree need close or adjacent angle; curved balcony depth estimated."
+      ]
+    },
+    {
+      "buildingId": 248142322,
+      "address": "104 East 7th Street",
+      "protected": false,
+      "sourceInspected": true,
+      "finalGameViews": [
+        {
+          "path": "../../docs/images/east-seventh-07/frontage-248142322-elevation.png",
+          "sha256": "1ec4b43d898d3cc396394c1d829a07271f030727b0af3044a84261175869d78b",
+          "visuallyInspected": true
+        },
+        {
+          "path": "../../docs/images/east-seventh-07/frontage-248142322-perspective-1.png",
+          "sha256": "cf4ce9f33cf398052298e35ad264d06fd5c78050aaf4d75b171f1a20fcde31da",
+          "visuallyInspected": true
+        }
+      ],
+      "review": "Checked whole opening rhythm, ground access, number placement, materials and obvious export errors. Protected records retained. Fine scale and concealed details retain source limits.",
+      "calibratedMultiViewPass": false,
+      "limits": [
+        "Large tree blocks residential entry/number and upper detail; must inspect adjacent or closer view before changing placement."
+      ]
+    },
+    {
+      "buildingId": 248142324,
+      "address": "106 East 7th Street",
+      "protected": false,
+      "sourceInspected": true,
+      "finalGameViews": [
+        {
+          "path": "../../docs/images/east-seventh-07/frontage-248142324-elevation.png",
+          "sha256": "09c00790bd462067d9dacdc29e59e95621886b61ba3c78357d21417b1994069a",
+          "visuallyInspected": true
+        },
+        {
+          "path": "../../docs/images/east-seventh-07/frontage-248142324-perspective-1.png",
+          "sha256": "33e39829232647f0a5583a1faed37d6c532f32b4fe648437f0676f0b5da11547",
+          "visuallyInspected": true
+        }
+      ],
+      "review": "Checked whole opening rhythm, ground access, number placement, materials and obvious export errors. Protected records retained. Fine scale and concealed details retain source limits.",
+      "calibratedMultiViewPass": false,
+      "limits": [
+        "RV obscures most ground; seek alternate view before large access changes."
+      ]
+    },
+    {
+      "buildingId": 248142328,
+      "address": "110 East 7th Street",
+      "protected": false,
+      "sourceInspected": true,
+      "finalGameViews": [
+        {
+          "path": "../../docs/images/east-seventh-07/frontage-248142328-elevation.png",
+          "sha256": "e6660822923e752e692e06e39e91640f0e9440d186ce79ff915da1556b9bf1a7",
+          "visuallyInspected": true
+        },
+        {
+          "path": "../../docs/images/east-seventh-07/frontage-248142328-perspective-1.png",
+          "sha256": "27ba7246124e40530dd67a646187bc18c5a1f071a8a9e52b8f380151a7318bc6",
+          "visuallyInspected": true
+        }
+      ],
+      "review": "Checked whole opening rhythm, ground access, number placement, materials and obvious export errors. Protected records retained. Fine scale and concealed details retain source limits.",
+      "calibratedMultiViewPass": false,
+      "limits": [
+        "Cars hide steps/threshold and shop lower panels; number needs close view for type/color confidence."
+      ]
+    },
+    {
+      "buildingId": 248142330,
+      "address": "112 East 7th Street",
+      "protected": false,
+      "sourceInspected": true,
+      "finalGameViews": [
+        {
+          "path": "../../docs/images/east-seventh-07/frontage-248142330-elevation.png",
+          "sha256": "849dead4b7b1bda364ba3449499dc7424f5dc4f6724d8209671b5fd10689e460",
+          "visuallyInspected": true
+        },
+        {
+          "path": "../../docs/images/east-seventh-07/frontage-248142330-perspective-1.png",
+          "sha256": "18619c17b923e67d69abeed121d4b4cf620f30452d213541786670fd0029dfb1",
+          "visuallyInspected": true
+        }
+      ],
+      "review": "Checked whole opening rhythm, ground access, number placement, materials and obvious export errors. Protected records retained. Fine scale and concealed details retain source limits.",
+      "calibratedMultiViewPass": false,
+      "limits": [
+        "Exact bay projection, ornamental relief and number casing need close review; dimensions estimated."
+      ]
+    },
+    {
+      "buildingId": 248142332,
+      "address": "114 East 7th Street",
+      "protected": false,
+      "sourceInspected": true,
+      "finalGameViews": [
+        {
+          "path": "../../docs/images/east-seventh-07/frontage-248142332-elevation.png",
+          "sha256": "ce1093b57d3e543e5e3a1c7f471bc00633e1c6212b433a7bd50dea285614580a",
+          "visuallyInspected": true
+        },
+        {
+          "path": "../../docs/images/east-seventh-07/frontage-248142332-perspective-1.png",
+          "sha256": "96c79ce7159bbd6de189a2d1cb36b347b00ec3449e210a11031568be5ddfc10f",
+          "visuallyInspected": true
+        }
+      ],
+      "review": "Checked whole opening rhythm, ground access, number placement, materials and obvious export errors. Protected records retained. Fine scale and concealed details retain source limits.",
+      "calibratedMultiViewPass": false,
+      "limits": [
+        "Number typography/precise mount unresolved; sunlight/vehicle hide some lower details."
+      ]
+    },
+    {
+      "buildingId": 248142411,
+      "address": "116 East 7th Street",
+      "protected": false,
+      "sourceInspected": true,
+      "finalGameViews": [
+        {
+          "path": "../../docs/images/east-seventh-07/frontage-248142411-elevation.png",
+          "sha256": "440c2f9bf1eeb53018f9be23d6cbb63f07a733147c1860964570a7bb5fa32312",
+          "visuallyInspected": true
+        },
+        {
+          "path": "../../docs/images/east-seventh-07/frontage-248142411-perspective-1.png",
+          "sha256": "3fab4d5c612b7a1129cba2e06595e2522a1422024c72b1cbff7222150ffb851d",
+          "visuallyInspected": true
+        }
+      ],
+      "review": "Checked whole opening rhythm, ground access, number placement, materials and obvious export errors. Protected records retained. Fine scale and concealed details retain source limits.",
+      "calibratedMultiViewPass": false,
+      "limits": [
+        "Right unit lettering and depth of lower approach obscured by vehicle; ground identities not independently verified."
+      ]
+    },
+    {
+      "buildingId": 248142333,
+      "address": "118 East 7th Street",
+      "protected": false,
+      "sourceInspected": true,
+      "finalGameViews": [
+        {
+          "path": "../../docs/images/east-seventh-07/frontage-248142333-elevation.png",
+          "sha256": "3fa6bb1d0e159b05553bf48b0ac42504d0cf85d1ed6feffbc0297da1157d4fcf",
+          "visuallyInspected": true
+        },
+        {
+          "path": "../../docs/images/east-seventh-07/frontage-248142333-perspective-1.png",
+          "sha256": "9f85b57a397b7834e39ec1c39c4351424512be1546e8d136473c5df4e76397bc",
+          "visuallyInspected": true
+        }
+      ],
+      "review": "Checked whole opening rhythm, ground access, number placement, materials and obvious export errors. Protected records retained. Fine scale and concealed details retain source limits.",
+      "calibratedMultiViewPass": false,
+      "limits": [
+        "Recess floor grade and lower side doors partly obscured; ornamental profiles are estimates."
+      ]
+    },
+    {
+      "buildingId": 248142334,
+      "address": "120 East 7th Street",
+      "protected": false,
+      "sourceInspected": true,
+      "finalGameViews": [
+        {
+          "path": "../../docs/images/east-seventh-07/frontage-248142334-elevation.png",
+          "sha256": "11c0aa1126da99cb921e0a98c88443807d2eae72b2817fabf2acb58925ccecc0",
+          "visuallyInspected": true
+        },
+        {
+          "path": "../../docs/images/east-seventh-07/frontage-248142334-perspective-1.png",
+          "sha256": "cef5b7506483632760975f31179314a4cbe965483f7edf753bfd6287e15c716d",
+          "visuallyInspected": true
+        }
+      ],
+      "review": "Checked whole opening rhythm, ground access, number placement, materials and obvious export errors. Protected records retained. Fine scale and concealed details retain source limits.",
+      "calibratedMultiViewPass": false,
+      "limits": [
+        "Parked car hides entry leaf lower half and storefront bases; measured dimensions unavailable."
+      ]
+    },
+    {
+      "buildingId": 248142335,
+      "address": "122 East 7th Street",
+      "protected": false,
+      "sourceInspected": true,
+      "finalGameViews": [
+        {
+          "path": "../../docs/images/east-seventh-07/frontage-248142335-elevation.png",
+          "sha256": "dcad370348c39197c0e5a897d31b1103d59a28e4f9bb955aa569c02116df4752",
+          "visuallyInspected": true
+        },
+        {
+          "path": "../../docs/images/east-seventh-07/frontage-248142335-perspective-1.png",
+          "sha256": "29c339c8487501a2acd58e0f400a91fff15fc60b64a7fd04e1b179e691788d31",
+          "visuallyInspected": true
+        }
+      ],
+      "review": "Checked whole opening rhythm, ground access, number placement, materials and obvious export errors. Protected records retained. Fine scale and concealed details retain source limits.",
+      "calibratedMultiViewPass": false,
+      "limits": [
+        "Lower residential threshold/tree-obscured trim estimated; bar lettering is April 2026 observation."
+      ]
+    },
+    {
+      "buildingId": 248142336,
+      "address": "126 East 7th Street",
+      "protected": false,
+      "sourceInspected": true,
+      "finalGameViews": [
+        {
+          "path": "../../docs/images/east-seventh-07/frontage-248142336-elevation.png",
+          "sha256": "0e484ff55d7e685103f827f6f1251405c00f93012489ccde2e7151d1e2a1a2d9",
+          "visuallyInspected": true
+        },
+        {
+          "path": "../../docs/images/east-seventh-07/frontage-248142336-perspective-1.png",
+          "sha256": "7163e376deec02d399cb2979cb5ecebd8a3758ba8b196377cb1026852cb660f0",
+          "visuallyInspected": true
+        }
+      ],
+      "review": "Checked whole opening rhythm, ground access, number placement, materials and obvious export errors. Protected records retained. Fine scale and concealed details retain source limits.",
+      "calibratedMultiViewPass": false,
+      "limits": [
+        "Vehicle hides thresholds and bottom of shutter; exact ornamental ironwork curves not measured."
+      ]
+    },
+    {
+      "buildingId": 248142337,
+      "address": "128 East 7th Street",
+      "protected": false,
+      "sourceInspected": true,
+      "finalGameViews": [
+        {
+          "path": "../../docs/images/east-seventh-07/frontage-248142337-elevation.png",
+          "sha256": "fa92911fad25a0676d59bf069545cc46e79b2aef2e03cae75a10a6cd762cc17d",
+          "visuallyInspected": true
+        },
+        {
+          "path": "../../docs/images/east-seventh-07/frontage-248142337-perspective-1.png",
+          "sha256": "ac8b8e05c2f34cebf77f936a6130c368664ee164ce6548df09e96bc2e2f81eaf",
+          "visuallyInspected": true
+        }
+      ],
+      "review": "Checked whole opening rhythm, ground access, number placement, materials and obvious export errors. Protected records retained. Fine scale and concealed details retain source limits.",
+      "calibratedMultiViewPass": false,
+      "limits": [
+        "Upper architecture is scaffold-obscured; preserve existing evidence-backed geometry beneath dated construction. No completed work inferred."
+      ]
+    },
+    {
+      "buildingId": 248142407,
+      "address": "109 Avenue A",
+      "protected": false,
+      "sourceInspected": true,
+      "finalGameViews": [
+        {
+          "path": "../../docs/images/east-seventh-07/frontage-248142407-elevation.png",
+          "sha256": "7ae84f241c1703744dab1229ac307aed323f12074d4953fd03ecfd706d2a6ce0",
+          "visuallyInspected": true
+        },
+        {
+          "path": "../../docs/images/east-seventh-07/frontage-248142407-perspective-1.png",
+          "sha256": "4d92005592ab3f4a43e9f9fabcb23d9442a256ed8b961336e4184b7f8a72772f",
+          "visuallyInspected": true
+        },
+        {
+          "path": "../../docs/images/east-seventh-07/frontage-248142407-perspective-2.png",
+          "sha256": "c4867c15bb5a8523ed823377c91509276fcf4c6902ad031f052424b65448aa21",
+          "visuallyInspected": true
+        },
+        {
+          "path": "../../docs/images/east-seventh-07/frontage-248142407-perspective-3.png",
+          "sha256": "31383a5785551f3f08cfc766017137857bb35139fc863665d0412c0ff6d2c76d",
+          "visuallyInspected": true
+        },
+        {
+          "path": "../../docs/images/east-seventh-07/frontage-248142407-perspective-4.png",
+          "sha256": "be10e1abb6650fffc6d78f72de4ac9c63f1b3e2c52473c936c6b8477c4fde9ae",
+          "visuallyInspected": true
+        }
+      ],
+      "review": "Checked whole opening rhythm, ground access, number placement, materials and obvious export errors. Protected records retained. Fine scale and concealed details retain source limits.",
+      "calibratedMultiViewPass": false,
+      "limits": [
+        "Full long frontage does not fit one perpendicular view; east avenue corner and west portal need overlap. Exact sign collage/pilates branding not fully transcribed."
+      ]
+    }
+  ],
+  "additionalViews": [
+    {
+      "path": "../../docs/images/east-seventh-07/st-mary-stairs-0.png",
+      "sha256": "5b8b34c910dc24f58d94c375bdf2121e4e6b10cd0eea156fae5e5b44669a5dd9",
+      "visuallyInspected": true
+    },
+    {
+      "path": "../../docs/images/east-seventh-07/114-stoop-0.png",
+      "sha256": "133c8288d19410d039fe0e894b18d5dce2d580f1f203377bbeabc6af696e33da",
+      "visuallyInspected": true
+    },
+    {
+      "path": "../../docs/images/east-seventh-07/church-oblique-0.png",
+      "sha256": "89c648f539f04f4bcd9082e2adb885cf423120435a16a42934348f40b4f74dbc",
+      "visuallyInspected": true
+    },
+    {
+      "path": "../../docs/images/east-seventh-07/north-stoops-0.png",
+      "sha256": "2addb4818eb2d1746ed9966ed364a8a12fbcbf99af270db76fbc3117b15cb380",
+      "visuallyInspected": true
+    },
+    {
+      "path": "../../docs/images/east-seventh-07/108-gate-west-0.png",
+      "sha256": "d24ab51e132b3baaa6d06cfed73d11a5f58c482a55ab0e468e9c3b28819803bc",
+      "visuallyInspected": true
+    },
+    {
+      "path": "../../docs/images/east-seventh-07/108-gate-east-0.png",
+      "sha256": "cc47e1e2e13c87f7bf867a6cae893e50790b7fe576302e2cd89cc423a55a407d",
+      "visuallyInspected": true
+    },
+    {
+      "path": "../../docs/images/east-seventh-07/yuca-return-0.png",
+      "sha256": "49d45884ca3f597c4285048345c0334f01fd024d9359ea4a59ab34331bcae100",
+      "visuallyInspected": true
+    },
+    {
+      "path": "../../docs/images/east-seventh-07/corner-130-0.png",
+      "sha256": "90b044c767eed5a079251e3890d80f77d5537dfc7c8c23a72db46be1e79187c5",
+      "visuallyInspected": true
+    },
+    {
+      "path": "../../docs/images/east-seventh-07/south-oriels-0.png",
+      "sha256": "da118a29f37f6d09d9fc863188d4441656e31e3c9374c07af9216047346eaa1d",
+      "visuallyInspected": true
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "device": "Apple M1 / 8 GiB",
+  "browser": "Brave Chromium 153.0.8010.53",
+  "viewport": {
+    "width": 1440,
+    "height": 1000,
+    "deviceScaleFactor": 1
+  },
+  "method": "Same nine local routes, sample lengths and weather states; no simultaneous rendering/export during isolated performance runs. Short sessions, variable local conditions. Full behavioral suite is separate.",
+  "baselinePck": "600c609cfb9bb17267e0668bcf9729c46ef0db2fd4f442758461688c0aa56432",
+  "finalPck": "746113ee606ebfb6b6b0e32861974ce2ae3445c25d7a6b509b011c7c6bd393fa",
+  "baselineFpsRange": [
+    40.125786163522015,
+    53.92849929307211
+  ],
+  "finalFpsRange": [
+    37.67598651596272,
+    55.544728123172874
+  ],
+  "baselineMeanFps": 46.16522504387044,
+  "finalMeanFps": 46.641486425797254,
+  "meanChangePercent": 1.0316453163051298,
+  "baselineReadyMs": 8832.799999982119,
+  "finalReadyMs": 8965.300000011921,
+  "samples": [
+    {
+      "name": "weather-0-northbound",
+      "baselineFps": 43.247493611165716,
+      "beforeBatchingFps": 49.54237962594509,
+      "finalFps": 37.67598651596272,
+      "baselineDrawCalls": 471.01801801801804,
+      "beforeBatchingDrawCalls": 457.8888888888889,
+      "finalDrawCalls": 452.90526315789475,
+      "baselineScale": 0.875,
+      "finalScale": 0.875
+    },
+    {
+      "name": "weather-1-northbound",
+      "baselineFps": 51.60390516039052,
+      "beforeBatchingFps": 50.75111652456354,
+      "finalFps": 53.41130604288499,
+      "baselineDrawCalls": 459.12692307692305,
+      "beforeBatchingDrawCalls": 461.60546875,
+      "finalDrawCalls": 458.5353159851301,
+      "baselineScale": 0.875,
+      "finalScale": 1
+    },
+    {
+      "name": "weather-2-northbound",
+      "baselineFps": 53.92849929307211,
+      "beforeBatchingFps": 46.38860630722279,
+      "finalFps": 55.544728123172874,
+      "baselineDrawCalls": 462.0110294117647,
+      "beforeBatchingDrawCalls": 471.91063829787237,
+      "finalDrawCalls": 462.11785714285713,
+      "baselineScale": 1,
+      "finalScale": 1
+    },
+    {
+      "name": "weather-0-seventh-east",
+      "baselineFps": 40.125786163522015,
+      "beforeBatchingFps": 38.662088261477805,
+      "finalFps": 42.16349108789183,
+      "baselineDrawCalls": 590.1820987654321,
+      "beforeBatchingDrawCalls": 713.6225806451613,
+      "finalDrawCalls": 603.3126843657817,
+      "baselineScale": 0.75,
+      "finalScale": 0.75
+    },
+    {
+      "name": "weather-0-seventh-west",
+      "baselineFps": 46.38124362895005,
+      "beforeBatchingFps": 40.99597585513079,
+      "finalFps": 49.96186117467582,
+      "baselineDrawCalls": 602.3594594594595,
+      "beforeBatchingDrawCalls": 812.7121212121212,
+      "finalDrawCalls": 626.2625,
+      "baselineScale": 0.75,
+      "finalScale": 0.75
+    },
+    {
+      "name": "weather-1-seventh-east",
+      "baselineFps": 43.64443348539021,
+      "beforeBatchingFps": 42.70859123545432,
+      "finalFps": 48.946716232961585,
+      "baselineDrawCalls": 584.0314285714286,
+      "beforeBatchingDrawCalls": 710.6773255813954,
+      "finalDrawCalls": 595.2321428571429,
+      "baselineScale": 0.75,
+      "finalScale": 0.75
+    },
+    {
+      "name": "weather-1-seventh-west",
+      "baselineFps": 46.21423145100025,
+      "beforeBatchingFps": 43.08641975308642,
+      "finalFps": 48.044978277536416,
+      "baselineDrawCalls": 601.1788617886178,
+      "beforeBatchingDrawCalls": 813.4755043227666,
+      "finalDrawCalls": 626.290909090909,
+      "baselineScale": 0.75,
+      "finalScale": 0.75
+    },
+    {
+      "name": "weather-2-seventh-east",
+      "baselineFps": 45.77421344848859,
+      "beforeBatchingFps": 43.66590505204367,
+      "finalFps": 39.950980392156865,
+      "baselineDrawCalls": 586.1114130434783,
+      "beforeBatchingDrawCalls": 712.3901734104046,
+      "finalDrawCalls": 597.4472049689441,
+      "baselineScale": 0.75,
+      "finalScale": 0.75
+    },
+    {
+      "name": "weather-2-seventh-west",
+      "baselineFps": 44.56721915285451,
+      "beforeBatchingFps": 41.73517136714304,
+      "finalFps": 44.073329984932194,
+      "baselineDrawCalls": 600.5642458100559,
+      "beforeBatchingDrawCalls": 818.3880597014926,
+      "finalDrawCalls": 621.2549575070822,
+      "baselineScale": 0.75,
+      "finalScale": 0.75
+    }
+  ],
+  "limits": [
+    "The 60 FPS project target is not demonstrated in this session. Baseline itself was slower than the previous session.",
+    "The mean is descriptive, not a controlled statistically significant benchmark.",
+    "Reduced draw-call overhead does not establish sustained/mobile performance or a city-scale capacity."
+  ]
+}
