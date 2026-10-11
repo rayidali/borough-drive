@@ -45,6 +45,8 @@ Review manifests and actual game PNGs are retained under [first-stmarks-review-0
 
 ## Validation and package identity
 
+Local implementation/source/export commit: **`02833ce18410c771881dac55d4034022db9729b2`** on `feature/first-stmarks-08`; not pushed.
+
 Final PCK: **94,003,244 bytes**, SHA256 **`570ebb253734e69b6eca32002e53b6172ab71ca4f24cf1d8a489fb8ea0d672b8`**. Final model export: **203 buildings / 3,663,275 triangles**. The package manifest records 14 runtime files and 92 source hashes. Its `sourceCommit` remains the old geographic baseline `c76dcce…`; the actual implementation Git commit is recorded separately in the handoff.
 
 - `npm run verify` passes for the original game; [saved output](first-stmarks-review-08/legacy-verify.log).

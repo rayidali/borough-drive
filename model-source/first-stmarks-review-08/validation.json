@@ -45,5 +45,7 @@
   "markdownRelativeLinksChecked": 363,
   "syntax": "Four changed Python modules and three browser review JS files parsed; git diff --check passed.",
   "publication": "No fetch, push, CI or deployment requested/performed.",
-  "acceptance": "Local reviewed candidate; no user endorsement or calibrated photographic acceptance."
+  "acceptance": "Local reviewed candidate; no user endorsement or calibrated photographic acceptance.",
+  "implementationCommit": "02833ce18410c771881dac55d4034022db9729b2",
+  "branch": "feature/first-stmarks-08"
 }
