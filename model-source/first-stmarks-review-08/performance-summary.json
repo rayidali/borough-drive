@@ -1,0 +1,275 @@
+{
+  "results": {
+    "baseline-performance": {
+      "complete": true,
+      "samples": 9,
+      "renderFpsMin": 51.8243661100804,
+      "renderFpsMax": 60.0075009376172,
+      "renderFpsMean": 58.60590278874639,
+      "readyMs": 21303.29999998212,
+      "errors": 0,
+      "failedRequests": 0,
+      "samplesSummary": [
+        {
+          "name": "weather-0-northbound",
+          "renderFps": 55.629139072847686,
+          "rafFps": 55.403870299141076,
+          "seconds": 5.017699999999997,
+          "maxFrameGapMs": null,
+          "visibility": null
+        },
+        {
+          "name": "weather-1-northbound",
+          "renderFps": 59.99605289125716,
+          "rafFps": 59.923298178189064,
+          "seconds": 5.0064000000119195,
+          "maxFrameGapMs": null,
+          "visibility": null
+        },
+        {
+          "name": "weather-2-northbound",
+          "renderFps": 59.99605289125716,
+          "rafFps": 59.8551505355612,
+          "seconds": 5.012100000011924,
+          "maxFrameGapMs": null,
+          "visibility": null
+        },
+        {
+          "name": "weather-0-seventh-east",
+          "renderFps": 51.8243661100804,
+          "rafFps": 51.693783010898656,
+          "seconds": 8.008700000011915,
+          "maxFrameGapMs": null,
+          "visibility": null
+        },
+        {
+          "name": "weather-0-seventh-west",
+          "renderFps": 59.99250093738283,
+          "rafFps": 59.9632724955518,
+          "seconds": 8.00490000000596,
+          "maxFrameGapMs": null,
+          "visibility": null
+        },
+        {
+          "name": "weather-1-seventh-east",
+          "renderFps": 60.0075009376172,
+          "rafFps": 59.93781451739359,
+          "seconds": 8.008300000005955,
+          "maxFrameGapMs": null,
+          "visibility": null
+        },
+        {
+          "name": "weather-1-seventh-west",
+          "renderFps": 60.0075009376172,
+          "rafFps": 59.925093632825,
+          "seconds": 8.010000000017884,
+          "maxFrameGapMs": null,
+          "visibility": null
+        },
+        {
+          "name": "weather-2-seventh-east",
+          "renderFps": 59.99498997995992,
+          "rafFps": 59.94754589733983,
+          "seconds": 8.007,
+          "maxFrameGapMs": null,
+          "visibility": null
+        },
+        {
+          "name": "weather-2-seventh-west",
+          "renderFps": 60.005021340697965,
+          "rafFps": 59.96027631676147,
+          "seconds": 8.005300000023839,
+          "maxFrameGapMs": null,
+          "visibility": null
+        }
+      ]
+    },
+    "final-performance": {
+      "complete": true,
+      "samples": 9,
+      "renderFpsMin": 18.55857907320961,
+      "renderFpsMax": 60.00789577575997,
+      "renderFpsMean": 50.32921384909801,
+      "readyMs": 7629.5,
+      "errors": 0,
+      "failedRequests": 0,
+      "samplesSummary": [
+        {
+          "name": "weather-0-northbound",
+          "renderFps": 57.95314426633785,
+          "rafFps": 57.9073482427426,
+          "seconds": 5.008000000005959,
+          "maxFrameGapMs": null,
+          "visibility": null
+        },
+        {
+          "name": "weather-1-northbound",
+          "renderFps": 58.8235294117647,
+          "rafFps": 58.76356658850496,
+          "seconds": 5.0031000000178825,
+          "maxFrameGapMs": null,
+          "visibility": null
+        },
+        {
+          "name": "weather-2-northbound",
+          "renderFps": 60.00789577575997,
+          "rafFps": 59.96761748634292,
+          "seconds": 5.002700000017882,
+          "maxFrameGapMs": null,
+          "visibility": null
+        },
+        {
+          "name": "weather-0-seventh-east",
+          "renderFps": 58.57321652065081,
+          "rafFps": 58.54961736768275,
+          "seconds": 8.010299999994036,
+          "maxFrameGapMs": null,
+          "visibility": null
+        },
+        {
+          "name": "weather-0-seventh-west",
+          "renderFps": 59.770114942528735,
+          "rafFps": 60.04169215218358,
+          "seconds": 8.01109999999404,
+          "maxFrameGapMs": null,
+          "visibility": null
+        },
+        {
+          "name": "weather-1-seventh-east",
+          "renderFps": 59.88248531066383,
+          "rafFps": 59.898920571535534,
+          "seconds": 8.0135,
+          "maxFrameGapMs": null,
+          "visibility": null
+        },
+        {
+          "name": "weather-1-seventh-west",
+          "renderFps": 56.38636920813925,
+          "rafFps": 56.265984654731454,
+          "seconds": 8.0155,
+          "maxFrameGapMs": null,
+          "visibility": null
+        },
+        {
+          "name": "weather-2-seventh-east",
+          "renderFps": 18.55857907320961,
+          "rafFps": 18.340661883810544,
+          "seconds": 17.28400000001192,
+          "maxFrameGapMs": null,
+          "visibility": null
+        },
+        {
+          "name": "weather-2-seventh-west",
+          "renderFps": 23.007590132827325,
+          "rafFps": 24.119271672941718,
+          "seconds": 8.001900000011927,
+          "maxFrameGapMs": null,
+          "visibility": null
+        }
+      ]
+    },
+    "final-performance-focused": {
+      "complete": true,
+      "samples": 9,
+      "renderFpsMin": 56.79012345679013,
+      "renderFpsMax": 60.0075009376172,
+      "renderFpsMean": 58.96511550878648,
+      "readyMs": 7296.9000000059605,
+      "errors": 0,
+      "failedRequests": 0,
+      "samplesSummary": [
+        {
+          "name": "weather-0-northbound",
+          "renderFps": 59.39804664141918,
+          "rafFps": 59.55949954031257,
+          "seconds": 5.003400000000002,
+          "maxFrameGapMs": 66.60000000000036,
+          "visibility": [
+            "visible"
+          ]
+        },
+        {
+          "name": "weather-1-northbound",
+          "renderFps": 59.79869745411486,
+          "rafFps": 59.85395634644333,
+          "seconds": 5.01220000000596,
+          "maxFrameGapMs": 32.39999999999782,
+          "visibility": [
+            "visible"
+          ]
+        },
+        {
+          "name": "weather-2-northbound",
+          "renderFps": 59.79869745411486,
+          "rafFps": 59.73190562751339,
+          "seconds": 5.005700000005963,
+          "maxFrameGapMs": 33.5,
+          "visibility": [
+            "visible"
+          ]
+        },
+        {
+          "name": "weather-0-seventh-east",
+          "renderFps": 56.79012345679013,
+          "rafFps": 56.874289071471345,
+          "seconds": 8.00009999998808,
+          "maxFrameGapMs": 182.29999999999563,
+          "visibility": [
+            "visible"
+          ]
+        },
+        {
+          "name": "weather-0-seventh-west",
+          "renderFps": 57.02280912364946,
+          "rafFps": 59.321610550504566,
+          "seconds": 8.007199999999997,
+          "maxFrameGapMs": 50.700000000004366,
+          "visibility": [
+            "visible"
+          ]
+        },
+        {
+          "name": "weather-1-seventh-east",
+          "renderFps": 58.6740866198887,
+          "rafFps": 60.03569690081531,
+          "seconds": 8.01190000000596,
+          "maxFrameGapMs": 17.70000000001164,
+          "visibility": [
+            "visible"
+          ]
+        },
+        {
+          "name": "weather-1-seventh-west",
+          "renderFps": 60.0075009376172,
+          "rafFps": 60.028953674032095,
+          "seconds": 8.012800000011921,
+          "maxFrameGapMs": 17.70000000001164,
+          "visibility": [
+            "visible"
+          ]
+        },
+        {
+          "name": "weather-2-seventh-east",
+          "renderFps": 59.877239133157964,
+          "rafFps": 59.86676831935605,
+          "seconds": 8.001100000000006,
+          "maxFrameGapMs": 32.30000000000291,
+          "visibility": [
+            "visible"
+          ]
+        },
+        {
+          "name": "weather-2-seventh-west",
+          "renderFps": 59.318838758326,
+          "rafFps": 59.212991879986795,
+          "seconds": 8.005000000011918,
+          "maxFrameGapMs": 50.10000000000582,
+          "visibility": [
+            "visible"
+          ]
+        }
+      ]
+    }
+  },
+  "interpretation": "Initial final pass includes two long rain-sample pauses; cause not proven. Focused repeat with idle sleep prevented records visibility and maximum frame gap. Same Apple M1 / Brave Chromium 155 and nine baseline sample definitions; local short-run results, not sustained/device-wide or 60 FPS acceptance. Startup cache behavior differs despite cache-disabled network requests; no startup-speedup claim."
+}

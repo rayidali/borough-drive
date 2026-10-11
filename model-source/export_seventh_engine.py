@@ -27,13 +27,15 @@ args = parser.parse_args(sys.argv[sys.argv.index('--')+1:] if '--' in sys.argv e
 # Engine-only schedules reuse the original observed components while leaving the
 # accepted ten-block export and its source signatures byte-for-byte unchanged.
 schedule = json.loads((ROOT/'model-source/storefront-details.json').read_text()).get('seventhEngine', {})
+first_stmarks = json.loads((ROOT/'model-source/storefront-details.json').read_text()).get('firstStmarksEngine', {})
 def canonical_digest(value):
     return hashlib.sha256(json.dumps(value,sort_keys=True,separators=(',',':'),ensure_ascii=False).encode()).hexdigest()
 recipe_files=['model-source/export_seventh_engine.py','model-source/seventh_street_kit.py','model-source/seventh_fidelity_kit.py',
     'model-source/build_neighborhood.py','model-source/build_intersection.py',
     'model-source/neighborhood_detail_kit.py','model-source/storefront_detail_kit.py',
     'model-source/neighborhood_landmarks.py','model-source/first_seventh_kit.py',
-    'model-source/first_seventh_refinement.py']
+    'model-source/first_seventh_refinement.py','model-source/first_stmarks_kit.py',
+    'model-source/author_first_stmarks_08.py','model-source/author_stmarks_08.py']
 recipe_hashes={name:hashlib.sha256((ROOT/name).read_bytes()).hexdigest() for name in recipe_files}
 detail_source = ROOT/'model-source/seventh_street_kit.py'
 if detail_source.exists():
@@ -48,12 +50,17 @@ if detail_source.exists():
             building['seventhArchitecture']=record['architecture']
             if record['architecture'].get('wall'):
                 building['facadeSpec']['elevations']['East 7th Street']['wall']=record['architecture']['wall']
+first_stmarks_source=ROOT/'model-source/first_stmarks_kit.py'
+exec(compile(first_stmarks_source.read_text(),str(first_stmarks_source),'exec'),kit)
+kit['apply_first_stmarks_schedule'](data,first_stmarks)
 # A complete First/Second/Seventh/St Marks circuit plus the facing street walls.
 bounds = [-268, 121, 77, 283]
+confirmed_scope=json.loads((ROOT/'model-source/first-stmarks-scope-08.json').read_text())
+street_ids={f['buildingId'] for f in confirmed_scope['frontages']+confirmed_scope['cornerReturns']}
 selected = [b for b in data['buildings'] if not b['core'] and (
             (bounds[0] <= (b['box'][0]+b['box'][2])/2 <= bounds[2] and
              bounds[1] <= (b['box'][1]+b['box'][3])/2 <= bounds[3]) or
-            any(f['street']=='East 7th Street' for f in b['frontages']))]
+            any(f['street']=='East 7th Street' for f in b['frontages']) or b['id'] in street_ids)]
 records = []
 old_manifest = json.loads((OUT.parent/'slice.json').read_text())
 old_records = {b['id']:b for b in old_manifest['buildings']}
@@ -203,6 +210,11 @@ manifest = {'schema':1, 'sourceCommit':'c76dccebc143960498d21eeab8c55c2d0dbcc5ce
     'seventhFrontages':[b['id'] for b in selected if any(f['street']=='East 7th Street' for f in b['frontages'])],
     'detailRevision':schedule.get('revision','04'),
     'detailScheduleSha256':canonical_digest(schedule),
+    'firstStmarksScheduleSha256':canonical_digest(first_stmarks),
+    'firstStmarksRevision':first_stmarks.get('revision'),
+    'streetReviewFrontages':[{'faceId':r['faceId'],'id':r['buildingId'],
+        'address':r['address'],'height':exported_heights[r['buildingId']],
+        'frontage':r['sourceFace']} for r in first_stmarks.get('elevations',[])],
     'detailSourceSha256':hashlib.sha256((ROOT/'model-source/storefront-details.json').read_bytes()).hexdigest(),
     'recipeHashes':recipe_hashes,
     # Export only the explicit areaways recorded in revision 04.  The runtime
@@ -243,5 +255,16 @@ manifest = {'schema':1, 'sourceCommit':'c76dccebc143960498d21eeab8c55c2d0dbcc5ce
               'oneway':r['oneway']} for r in data['roads']
              if r['name'] in ['First Avenue','Second Avenue','Avenue A','East 7th Street','St. Marks Place']],
     'notes':'Seventh Street from Second Avenue through Avenue A with existing boundary context and the prior return circuit. Dated observation schedules plus authored surface/street detail; not a measured survey. Shared Poly Haven CC0 generic material maps are not scans of these buildings. Original game export is preserved.'}
+for record in first_stmarks.get('elevations',[]):
+    f=record['sourceFace']
+    for well in record['architecture'].get('observedGround',{}).get('basementAreaways',[]):
+        at=well.get('at',.5)
+        manifest['groundVoids'].append({'buildingId':record['buildingId'],'faceId':record['faceId'],
+            'address':record['address'],'worldWidth':well['width']*f['length'],'cutExtent':well['depth'],
+            'depthBelow':well.get('depthBelow',.48),'frontage':f,
+            'runtimeCenter':[f['x']+f['rx']*f['length']*at,f['z']+f['rz']*f['length']*at-228],
+            'runtimeNormal':[-f['rz'],f['rx']],
+            'basis':'Explicit dated St. Marks basement access; dimensions visually estimated.'})
+manifest['notes']='Confirmed First Avenue Seventh–St. Marks and St. Marks Second–Avenue A, plus preserved Seventh and prior context. Dated observations and authored estimates; no measured survey or calibrated acceptance. Original game export preserved.'
 (OUT.parent/'slice.json').write_text(json.dumps(manifest,separators=(',',':'))+'\n')
 print('ENGINE_EXPORT_COMPLETE',len(records),sum(r['triangles'] for r in records),flush=True)

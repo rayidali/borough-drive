@@ -1,0 +1,2617 @@
+{
+  "schema": 1,
+  "scope": "First Avenue East 7th–St. Marks; St. Marks Second Avenue–Avenue A, both sides and same-parcel returns",
+  "method": "Ordinary browser Street View, navigated and visually inspected by the root assistant; no paid API images.",
+  "datePolicy": "Imagery dates recorded per view: April 2026 First Avenue and September 2024 initial western St. Marks; inspected October 11, 2026. Not a verified October occupancy snapshot.",
+  "sourcePixels": "Temporary local previews only; not committed or game textures.",
+  "sources": {
+    "first-east-middle": {
+      "url": "https://www.google.com/maps/@40.7272388,-73.9855701,9a,82y,119h,108t/data=!3m7!1e1!3m5!1svsOKCEIK_bugFZsq-ShiwQ!2e0!6shttps:%2F%2Fstreetviewpixels-pa.clients6.google.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-18%26panoid%3DvsOKCEIK_bugFZsq-ShiwQ%26yaw%3D119!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI2MTAwNy4wIKXMDSoASAFQAw%3D%3D",
+      "panoramaId": "vsOKCEIK_bugFZsq-ShiwQ",
+      "captureDate": "2026-04",
+      "inspectionDate": "2026-10-11T17:00:20.703Z",
+      "cameraLabel": "121 1st Ave - Google Maps",
+      "provider": "Google Street View",
+      "use": "Architectural visual reference only; source pixels not redistributed."
+    },
+    "first-east-middle-detail": {
+      "url": "https://www.google.com/maps/@40.7272388,-73.9855701,9a,55y,119h,90t/data=!3m7!1e1!3m5!1svsOKCEIK_bugFZsq-ShiwQ!2e0!6shttps:%2F%2Fstreetviewpixels-pa.clients6.google.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D0%26panoid%3DvsOKCEIK_bugFZsq-ShiwQ%26yaw%3D119!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI2MTAwNy4wIKXMDSoASAFQAw%3D%3D",
+      "panoramaId": "vsOKCEIK_bugFZsq-ShiwQ",
+      "captureDate": "2026-04",
+      "inspectionDate": "2026-10-11T17:02:06.526Z",
+      "cameraLabel": "121 1st Ave - Google Maps",
+      "provider": "Google Street View",
+      "use": "Architectural visual reference only; source pixels not redistributed."
+    },
+    "first-east-north": {
+      "url": "https://www.google.com/maps/@40.7273998,-73.9854305,9a,82y,119h,106t/data=!3m7!1e1!3m5!1sJsDdmVtlQ5WKpPZvqT6hog!2e0!6shttps:%2F%2Fstreetviewpixels-pa.clients6.google.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-16%26panoid%3DJsDdmVtlQ5WKpPZvqT6hog%26yaw%3D119!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI2MTAwNy4wIKXMDSoASAFQAw%3D%3D",
+      "panoramaId": "JsDdmVtlQ5WKpPZvqT6hog",
+      "captureDate": "2026-04",
+      "inspectionDate": "2026-10-11T17:00:00.157Z",
+      "cameraLabel": "127 1st Ave - Google Maps",
+      "provider": "Google Street View",
+      "use": "Architectural visual reference only; source pixels not redistributed."
+    },
+    "first-east-north-detail": {
+      "url": "https://www.google.com/maps/@40.7273998,-73.9854305,9a,55y,119h,90t/data=!3m7!1e1!3m5!1sJsDdmVtlQ5WKpPZvqT6hog!2e0!6shttps:%2F%2Fstreetviewpixels-pa.clients6.google.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D0%26panoid%3DJsDdmVtlQ5WKpPZvqT6hog%26yaw%3D119!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI2MTAwNy4wIKXMDSoASAFQAw%3D%3D",
+      "panoramaId": "JsDdmVtlQ5WKpPZvqT6hog",
+      "captureDate": "2026-04",
+      "inspectionDate": "2026-10-11T17:01:43.551Z",
+      "cameraLabel": "127 1st Ave - Google Maps",
+      "provider": "Google Street View",
+      "use": "Architectural visual reference only; source pixels not redistributed."
+    },
+    "first-east-south": {
+      "url": "https://www.google.com/maps/@40.7270763,-73.9857022,9a,80y,119h,108t/data=!3m7!1e1!3m5!1sz1u8TJERb1cGz5f7YUVWjQ!2e0!6shttps:%2F%2Fstreetviewpixels-pa.clients6.google.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-18%26panoid%3Dz1u8TJERb1cGz5f7YUVWjQ%26yaw%3D119!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI2MTAwNy4wIKXMDSoASAFQAw%3D%3D",
+      "panoramaId": "z1u8TJERb1cGz5f7YUVWjQ",
+      "captureDate": "2026-04",
+      "inspectionDate": "2026-10-11T17:00:39.523Z",
+      "cameraLabel": "118 1st Ave - Google Maps",
+      "provider": "Google Street View",
+      "use": "Architectural visual reference only; source pixels not redistributed."
+    },
+    "first-west-middle": {
+      "url": "https://www.google.com/maps/@40.7272388,-73.9855701,9a,78y,299h,106t/data=!3m7!1e1!3m5!1svsOKCEIK_bugFZsq-ShiwQ!2e0!6shttps:%2F%2Fstreetviewpixels-pa.clients6.google.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-16%26panoid%3DvsOKCEIK_bugFZsq-ShiwQ%26yaw%3D299!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI2MTAwNy4wIKXMDSoASAFQAw%3D%3D",
+      "panoramaId": "vsOKCEIK_bugFZsq-ShiwQ",
+      "captureDate": "2026-04",
+      "inspectionDate": "2026-10-11T16:59:25.085Z",
+      "cameraLabel": "121 1st Ave - Google Maps",
+      "provider": "Google Street View",
+      "use": "Architectural visual reference only; source pixels not redistributed."
+    },
+    "first-west-middle-detail": {
+      "url": "https://www.google.com/maps/@40.7272388,-73.9855701,9a,58y,299h,90t/data=!3m7!1e1!3m5!1svsOKCEIK_bugFZsq-ShiwQ!2e0!6shttps:%2F%2Fstreetviewpixels-pa.clients6.google.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D0%26panoid%3DvsOKCEIK_bugFZsq-ShiwQ%26yaw%3D299!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI2MTAwNy4wIKXMDSoASAFQAw%3D%3D",
+      "panoramaId": "vsOKCEIK_bugFZsq-ShiwQ",
+      "captureDate": "2026-04",
+      "inspectionDate": "2026-10-11T17:01:29.485Z",
+      "cameraLabel": "121 1st Ave - Google Maps",
+      "provider": "Google Street View",
+      "use": "Architectural visual reference only; source pixels not redistributed."
+    },
+    "first-west-north": {
+      "url": "https://www.google.com/maps/@40.7273998,-73.9854305,9a,78y,299h,107t/data=!3m7!1e1!3m5!1sJsDdmVtlQ5WKpPZvqT6hog!2e0!6shttps:%2F%2Fstreetviewpixels-pa.clients6.google.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-17%26panoid%3DJsDdmVtlQ5WKpPZvqT6hog%26yaw%3D299!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI2MTAwNy4wIKXMDSoASAFQAw%3D%3D",
+      "panoramaId": "JsDdmVtlQ5WKpPZvqT6hog",
+      "captureDate": "2026-04",
+      "inspectionDate": "2026-10-11T16:59:38.270Z",
+      "cameraLabel": "127 1st Ave - Google Maps",
+      "provider": "Google Street View",
+      "use": "Architectural visual reference only; source pixels not redistributed."
+    },
+    "first-west-north-detail": {
+      "url": "https://www.google.com/maps/@40.7273998,-73.9854305,9a,55y,299h,90t/data=!3m7!1e1!3m5!1sJsDdmVtlQ5WKpPZvqT6hog!2e0!6shttps:%2F%2Fstreetviewpixels-pa.clients6.google.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D0%26panoid%3DJsDdmVtlQ5WKpPZvqT6hog%26yaw%3D299!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI2MTAwNy4wIKXMDSoASAFQAw%3D%3D",
+      "panoramaId": "JsDdmVtlQ5WKpPZvqT6hog",
+      "captureDate": "2026-04",
+      "inspectionDate": "2026-10-11T17:01:11.162Z",
+      "cameraLabel": "127 1st Ave - Google Maps",
+      "provider": "Google Street View",
+      "use": "Architectural visual reference only; source pixels not redistributed."
+    },
+    "first-west-south": {
+      "url": "https://www.google.com/maps/@40.7270763,-73.9857022,9a,80y,299h,107t/data=!3m7!1e1!3m5!1sz1u8TJERb1cGz5f7YUVWjQ!2e0!6shttps:%2F%2Fstreetviewpixels-pa.clients6.google.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-17%26panoid%3Dz1u8TJERb1cGz5f7YUVWjQ%26yaw%3D299!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI2MTAwNy4wIKXMDSoASAFQAw%3D%3D",
+      "panoramaId": "z1u8TJERb1cGz5f7YUVWjQ",
+      "captureDate": "2026-04",
+      "inspectionDate": "2026-10-11T16:58:30.351Z",
+      "cameraLabel": "118 1st Ave - Google Maps",
+      "provider": "Google Street View",
+      "use": "Architectural visual reference only; source pixels not redistributed."
+    },
+    "stmarks-north-200": {
+      "url": "https://www.google.com/maps/@40.7284732,-73.9873603,12a,90y,29h,118t/data=!3m7!1e1!3m5!1s5USwRiSORejRUoXuTQv-qQ!2e0!6shttps:%2F%2Fstreetviewpixels-pa.clients6.google.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-28%26panoid%3D5USwRiSORejRUoXuTQv-qQ%26yaw%3D29!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI2MTAwNy4wIKXMDSoASAFQAw%3D%3D",
+      "panoramaId": "5USwRiSORejRUoXuTQv-qQ",
+      "captureDate": "2024-09",
+      "inspectionDate": "2026-10-11T17:03:43.569Z",
+      "cameraLabel": "40 St Marks Pl - Google Maps",
+      "provider": "Google Street View",
+      "use": "Architectural visual reference only; source pixels not redistributed."
+    },
+    "stmarks-north-east45": {
+      "url": "https://www.google.com/maps/@40.7274013,-73.9848449,9a,85y,29h,115t/data=!3m7!1e1!3m5!1stqIS1CR7RahAaMmcz1bvsA!2e0!6shttps:%2F%2Fstreetviewpixels-pa.clients6.google.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-25%26panoid%3DtqIS1CR7RahAaMmcz1bvsA%26yaw%3D29!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI2MTAwNy4wIKXMDSoASAFQAw%3D%3D",
+      "panoramaId": "tqIS1CR7RahAaMmcz1bvsA",
+      "captureDate": "2024-09",
+      "inspectionDate": "2026-10-11T17:13:06.209Z",
+      "cameraLabel": "94 St Marks Pl - Google Maps",
+      "provider": "Google Street View",
+      "use": "Architectural visual reference only; source pixels not redistributed."
+    },
+    "stmarks-north-180": {
+      "url": "https://www.google.com/maps/@40.7283798,-73.9871399,12a,90y,29h,118t/data=!3m7!1e1!3m5!1sI17zVOZtGtKS0DIkvz9tkw!2e0!6shttps:%2F%2Fstreetviewpixels-pa.clients6.google.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-28%26panoid%3DI17zVOZtGtKS0DIkvz9tkw%26yaw%3D29!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI2MTAwNy4wIKXMDSoASAFQAw%3D%3D",
+      "panoramaId": "I17zVOZtGtKS0DIkvz9tkw",
+      "captureDate": "2024-09",
+      "inspectionDate": "2026-10-11T13:23:49.069932-04:00",
+      "cameraLabel": "41 St Marks Pl - Google Maps",
+      "provider": "Google Street View",
+      "use": "Ordinary browser architectural inspection. Temporary source pixels are not redistributed or game textures."
+    },
+    "stmarks-north-155": {
+      "url": "https://www.google.com/maps/@40.728292,-73.9869319,12a,90y,29h,118t/data=!3m7!1e1!3m5!1sZmOUqqIoq1LU__wSYbVuWQ!2e0!6shttps:%2F%2Fstreetviewpixels-pa.clients6.google.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-28%26panoid%3DZmOUqqIoq1LU__wSYbVuWQ%26yaw%3D29!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI2MTAwNy4wIKXMDSoASAFQAw%3D%3D",
+      "panoramaId": "ZmOUqqIoq1LU__wSYbVuWQ",
+      "captureDate": "2024-09",
+      "inspectionDate": "2026-10-11T13:23:49.070404-04:00",
+      "cameraLabel": "48 St Marks Pl - Google Maps",
+      "provider": "Google Street View",
+      "use": "Ordinary browser architectural inspection. Temporary source pixels are not redistributed or game textures."
+    },
+    "stmarks-north-130": {
+      "url": "https://www.google.com/maps/@40.7281623,-73.9866283,11a,90y,29h,115t/data=!3m7!1e1!3m5!1s3watQ9z0aW2S0WSH5nru_A!2e0!6shttps:%2F%2Fstreetviewpixels-pa.clients6.google.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-25%26panoid%3D3watQ9z0aW2S0WSH5nru_A%26yaw%3D29!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI2MTAwNy4wIKXMDSoASAFQAw%3D%3D",
+      "panoramaId": "3watQ9z0aW2S0WSH5nru_A",
+      "captureDate": "2024-09",
+      "inspectionDate": "2026-10-11T13:23:49.070651-04:00",
+      "cameraLabel": "55 St Marks Pl - Google Maps",
+      "provider": "Google Street View",
+      "use": "Ordinary browser architectural inspection. Temporary source pixels are not redistributed or game textures."
+    },
+    "stmarks-north-105": {
+      "url": "https://www.google.com/maps/@40.7280713,-73.9864145,11a,90y,29h,118t/data=!3m7!1e1!3m5!1skBMePboOFJgrnbyy3EXJQw!2e0!6shttps:%2F%2Fstreetviewpixels-pa.clients6.google.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-28%26panoid%3DkBMePboOFJgrnbyy3EXJQw%26yaw%3D29!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI2MTAwNy4wIKXMDSoASAFQAw%3D%3D",
+      "panoramaId": "kBMePboOFJgrnbyy3EXJQw",
+      "captureDate": "2024-09",
+      "inspectionDate": "2026-10-11T13:23:49.070856-04:00",
+      "cameraLabel": "62 St Marks Pl - Google Maps",
+      "provider": "Google Street View",
+      "use": "Ordinary browser architectural inspection. Temporary source pixels are not redistributed or game textures."
+    },
+    "stmarks-north-east70": {
+      "url": "https://www.google.com/maps/@40.7273193,-73.9846309,9a,90y,29h,116t/data=!3m7!1e1!3m5!1sjrVzkzDv-NssfMkElt4Yxg!2e0!6shttps:%2F%2Fstreetviewpixels-pa.clients6.google.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-26%26panoid%3DjrVzkzDv-NssfMkElt4Yxg%26yaw%3D29!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI2MTAwNy4wIKXMDSoASAFQAw%3D%3D",
+      "panoramaId": "jrVzkzDv-NssfMkElt4Yxg",
+      "captureDate": "2024-09",
+      "inspectionDate": "2026-10-11T13:23:49.071061-04:00",
+      "cameraLabel": "99 St Marks Pl - Google Maps",
+      "provider": "Google Street View",
+      "use": "Ordinary browser architectural inspection. Temporary source pixels are not redistributed or game textures."
+    },
+    "stmarks-north-80": {
+      "url": "https://www.google.com/maps/@40.7279416,-73.986108,11a,90y,29h,118t/data=!3m7!1e1!3m5!1spsXOVwfoR5-aS6LcNKUfGA!2e0!6shttps:%2F%2Fstreetviewpixels-pa.clients6.google.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-28%26panoid%3DpsXOVwfoR5-aS6LcNKUfGA%26yaw%3D29!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI2MTAwNy4wIKXMDSoASAFQAw%3D%3D",
+      "panoramaId": "psXOVwfoR5-aS6LcNKUfGA",
+      "captureDate": "2024-09",
+      "inspectionDate": "2026-10-11T13:28:42.930324-04:00",
+      "cameraLabel": "70 St Marks Pl - Google Maps",
+      "provider": "Google Street View",
+      "use": "Ordinary browser architectural inspection. Temporary source pixels are not redistributed or game textures."
+    },
+    "stmarks-north-55": {
+      "url": "https://www.google.com/maps/@40.7278385,-73.9858618,10a,90y,29h,114t/data=!3m7!1e1!3m5!1ssDtXtRDb7nSzWKS9S0DfTw!2e0!6shttps:%2F%2Fstreetviewpixels-pa.clients6.google.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-24%26panoid%3DsDtXtRDb7nSzWKS9S0DfTw%26yaw%3D29!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI2MTAwNy4wIKXMDSoASAFQAw%3D%3D",
+      "panoramaId": "sDtXtRDb7nSzWKS9S0DfTw",
+      "captureDate": "2024-09",
+      "inspectionDate": "2026-10-11T13:28:42.930766-04:00",
+      "cameraLabel": "75 St Marks Pl - Google Maps",
+      "provider": "Google Street View",
+      "use": "Ordinary browser architectural inspection. Temporary source pixels are not redistributed or game textures."
+    },
+    "stmarks-north-25": {
+      "url": "https://www.google.com/maps/@40.7276854,-73.9855205,9a,90y,29h,114t/data=!3m7!1e1!3m5!1spBFHbGvAsF4Uu5rvDm6cvw!2e0!6shttps:%2F%2Fstreetviewpixels-pa.clients6.google.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-24%26panoid%3DpBFHbGvAsF4Uu5rvDm6cvw%26yaw%3D29!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI2MTAwNy4wIKXMDSoASAFQAw%3D%3D",
+      "panoramaId": "pBFHbGvAsF4Uu5rvDm6cvw",
+      "captureDate": "2026-04",
+      "inspectionDate": "2026-10-11T13:29:14.663478-04:00",
+      "cameraLabel": "83 St Marks Pl - Google Maps",
+      "provider": "Google Street View",
+      "use": "Ordinary browser architectural inspection. Temporary source pixels are not redistributed or game textures."
+    },
+    "stmarks-north-east95": {
+      "url": "https://www.google.com/maps/@40.7271981,-73.984312,9a,90y,29h,117t/data=!3m7!1e1!3m5!1sfNJW8jOR8LysUMOMsqKg_Q!2e0!6shttps:%2F%2Fstreetviewpixels-pa.clients6.google.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-27%26panoid%3DfNJW8jOR8LysUMOMsqKg_Q%26yaw%3D29!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI2MTAwNy4wIKXMDSoASAFQAw%3D%3D",
+      "panoramaId": "fNJW8jOR8LysUMOMsqKg_Q",
+      "captureDate": "2024-09",
+      "inspectionDate": "2026-10-11T13:30:16.150331-04:00",
+      "cameraLabel": "103 St Marks Pl - Google Maps",
+      "provider": "Google Street View",
+      "use": "Ordinary browser architectural inspection. Temporary source pixels are not redistributed or game textures."
+    },
+    "stmarks-north-east120": {
+      "url": "https://www.google.com/maps/@40.7270765,-73.9840022,8a,90y,29h,116t/data=!3m7!1e1!3m5!1sc7dZ8Ro9-CH3Px7nB_v8Fg!2e0!6shttps:%2F%2Fstreetviewpixels-pa.clients6.google.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-26%26panoid%3Dc7dZ8Ro9-CH3Px7nB_v8Fg%26yaw%3D29!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI2MTAwNy4wIKXMDSoASAFQAw%3D%3D",
+      "panoramaId": "c7dZ8Ro9-CH3Px7nB_v8Fg",
+      "captureDate": "2024-09",
+      "inspectionDate": "2026-10-11T13:30:16.150913-04:00",
+      "cameraLabel": "109 St Marks Pl - Google Maps",
+      "provider": "Google Street View",
+      "use": "Ordinary browser architectural inspection. Temporary source pixels are not redistributed or game textures."
+    },
+    "stmarks-north-east145": {
+      "url": "https://www.google.com/maps/@40.7269871,-73.9837866,8a,90y,29h,116t/data=!3m7!1e1!3m5!1sF9_BY2wJGzn5cSPr4sL0XQ!2e0!6shttps:%2F%2Fstreetviewpixels-pa.clients6.google.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-26%26panoid%3DF9_BY2wJGzn5cSPr4sL0XQ%26yaw%3D29!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI2MTAwNy4wIKXMDSoASAFQAw%3D%3D",
+      "panoramaId": "F9_BY2wJGzn5cSPr4sL0XQ",
+      "captureDate": "2024-09",
+      "inspectionDate": "2026-10-11T13:31:11.166775-04:00",
+      "cameraLabel": "122 St Marks Pl - Google Maps",
+      "provider": "Google Street View",
+      "use": "Ordinary browser architectural inspection. Temporary source pixels are not redistributed or game textures."
+    },
+    "stmarks-north-east170": {
+      "url": "https://www.google.com/maps/@40.72685,-73.983514,7a,90y,29h,116t/data=!3m7!1e1!3m5!1sKwz_IFgSZaI9pZc0FkCfGw!2e0!6shttps:%2F%2Fstreetviewpixels-pa.clients6.google.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-26%26panoid%3DKwz_IFgSZaI9pZc0FkCfGw%26yaw%3D29!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI2MTAwNy4wIKXMDSoASAFQAw%3D%3D",
+      "panoramaId": "Kwz_IFgSZaI9pZc0FkCfGw",
+      "captureDate": "2026-04",
+      "inspectionDate": "2026-10-11T13:31:11.167409-04:00",
+      "cameraLabel": "130 St Marks Pl - Google Maps",
+      "provider": "Google Street View",
+      "use": "Ordinary browser architectural inspection. Temporary source pixels are not redistributed or game textures."
+    },
+    "stmarks-north-east185": {
+      "url": "https://www.google.com/maps/@40.726803,-73.9833868,7a,90y,54h,116t/data=!3m7!1e1!3m5!1scFlalO3wL7gp9r_KdNLG9g!2e0!6shttps:%2F%2Fstreetviewpixels-pa.clients6.google.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-26%26panoid%3DcFlalO3wL7gp9r_KdNLG9g%26yaw%3D54!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI2MTAwNy4wIKXMDSoASAFQAw%3D%3D",
+      "panoramaId": "cFlalO3wL7gp9r_KdNLG9g",
+      "captureDate": "2026-04",
+      "inspectionDate": "2026-10-11T13:32:16.581018-04:00",
+      "cameraLabel": "125 St Marks Pl - Google Maps",
+      "provider": "Google Street View",
+      "use": "Ordinary browser architectural inspection. Temporary source pixels are not redistributed or game textures."
+    },
+    "stmarks-south-east185": {
+      "url": "https://www.google.com/maps/@40.726803,-73.9833868,7a,90y,190h,115t/data=!3m7!1e1!3m5!1scFlalO3wL7gp9r_KdNLG9g!2e0!6shttps:%2F%2Fstreetviewpixels-pa.clients6.google.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-25%26panoid%3DcFlalO3wL7gp9r_KdNLG9g%26yaw%3D190!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI2MTAwNy4wIKXMDSoASAFQAw%3D%3D",
+      "panoramaId": "cFlalO3wL7gp9r_KdNLG9g",
+      "captureDate": "2026-04",
+      "inspectionDate": "2026-10-11T13:32:48.817337-04:00",
+      "cameraLabel": "125 St Marks Pl - Google Maps",
+      "provider": "Google Street View",
+      "use": "Ordinary browser architectural inspection. Temporary source pixels are not redistributed or game textures."
+    },
+    "stmarks-south-east170": {
+      "url": "https://www.google.com/maps/@40.72685,-73.983514,7a,90y,209h,116t/data=!3m7!1e1!3m5!1sKwz_IFgSZaI9pZc0FkCfGw!2e0!6shttps:%2F%2Fstreetviewpixels-pa.clients6.google.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-26%26panoid%3DKwz_IFgSZaI9pZc0FkCfGw%26yaw%3D209!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI2MTAwNy4wIKXMDSoASAFQAw%3D%3D",
+      "panoramaId": "Kwz_IFgSZaI9pZc0FkCfGw",
+      "captureDate": "2026-04",
+      "inspectionDate": "2026-10-11T13:33:14.918340-04:00",
+      "cameraLabel": "130 St Marks Pl - Google Maps",
+      "provider": "Google Street View",
+      "use": "Ordinary browser architectural inspection. Temporary source pixels are not redistributed or game textures."
+    },
+    "stmarks-south-east145": {
+      "url": "https://www.google.com/maps/@40.7269871,-73.9837866,8a,90y,209h,117t/data=!3m7!1e1!3m5!1sF9_BY2wJGzn5cSPr4sL0XQ!2e0!6shttps:%2F%2Fstreetviewpixels-pa.clients6.google.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-27%26panoid%3DF9_BY2wJGzn5cSPr4sL0XQ%26yaw%3D209!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI2MTAwNy4wIKXMDSoASAFQAw%3D%3D",
+      "panoramaId": "F9_BY2wJGzn5cSPr4sL0XQ",
+      "captureDate": "2024-09",
+      "inspectionDate": "2026-10-11T13:33:51.148912-04:00",
+      "cameraLabel": "122 St Marks Pl - Google Maps",
+      "provider": "Google Street View",
+      "use": "Ordinary browser architectural inspection. Temporary source pixels are not redistributed or game textures."
+    },
+    "stmarks-south-east120": {
+      "url": "https://www.google.com/maps/@40.7270765,-73.9840022,8a,90y,209h,116t/data=!3m7!1e1!3m5!1sc7dZ8Ro9-CH3Px7nB_v8Fg!2e0!6shttps:%2F%2Fstreetviewpixels-pa.clients6.google.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-26%26panoid%3Dc7dZ8Ro9-CH3Px7nB_v8Fg%26yaw%3D209!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI2MTAwNy4wIKXMDSoASAFQAw%3D%3D",
+      "panoramaId": "c7dZ8Ro9-CH3Px7nB_v8Fg",
+      "captureDate": "2024-09",
+      "inspectionDate": "2026-10-11T13:34:29.050330-04:00",
+      "cameraLabel": "109 St Marks Pl - Google Maps",
+      "provider": "Google Street View",
+      "use": "Ordinary browser architectural inspection. Temporary source pixels are not redistributed or game textures."
+    },
+    "stmarks-south-east95": {
+      "url": "https://www.google.com/maps/@40.7271981,-73.984312,9a,90y,209h,116t/data=!3m7!1e1!3m5!1sfNJW8jOR8LysUMOMsqKg_Q!2e0!6shttps:%2F%2Fstreetviewpixels-pa.clients6.google.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-26%26panoid%3DfNJW8jOR8LysUMOMsqKg_Q%26yaw%3D209!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI2MTAwNy4wIKXMDSoASAFQAw%3D%3D",
+      "panoramaId": "fNJW8jOR8LysUMOMsqKg_Q",
+      "captureDate": "2024-09",
+      "inspectionDate": "2026-10-11T13:35:12.594528-04:00",
+      "cameraLabel": "103 St Marks Pl - Google Maps",
+      "provider": "Google Street View",
+      "use": "Ordinary browser architectural inspection. Temporary source pixels are not redistributed or game textures."
+    },
+    "stmarks-south-east70": {
+      "url": "https://www.google.com/maps/@40.7273193,-73.9846309,9a,90y,209h,116t/data=!3m7!1e1!3m5!1sjrVzkzDv-NssfMkElt4Yxg!2e0!6shttps:%2F%2Fstreetviewpixels-pa.clients6.google.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-26%26panoid%3DjrVzkzDv-NssfMkElt4Yxg%26yaw%3D209!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI2MTAwNy4wIKXMDSoASAFQAw%3D%3D",
+      "panoramaId": "jrVzkzDv-NssfMkElt4Yxg",
+      "captureDate": "2024-09",
+      "inspectionDate": "2026-10-11T13:35:56.669057-04:00",
+      "cameraLabel": "99 St Marks Pl - Google Maps",
+      "provider": "Google Street View",
+      "use": "Ordinary browser architectural inspection. Temporary source pixels are not redistributed or game textures."
+    },
+    "stmarks-south-east45": {
+      "url": "https://www.google.com/maps/@40.7274013,-73.9848449,9a,90y,209h,116t/data=!3m7!1e1!3m5!1stqIS1CR7RahAaMmcz1bvsA!2e0!6shttps:%2F%2Fstreetviewpixels-pa.clients6.google.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-26%26panoid%3DtqIS1CR7RahAaMmcz1bvsA%26yaw%3D209!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI2MTAwNy4wIKXMDSoASAFQAw%3D%3D",
+      "panoramaId": "tqIS1CR7RahAaMmcz1bvsA",
+      "captureDate": "2024-09",
+      "inspectionDate": "2026-10-11T13:36:36.764455-04:00",
+      "cameraLabel": "94 St Marks Pl - Google Maps",
+      "provider": "Google Street View",
+      "use": "Ordinary browser architectural inspection. Temporary source pixels are not redistributed or game textures."
+    },
+    "stmarks-south-east20": {
+      "url": "https://www.google.com/maps/@40.7275196,-73.9851141,9a,90y,209h,114t/data=!3m7!1e1!3m5!1sfUZN49e-TfkTR-qG0r3J6g!2e0!6shttps:%2F%2Fstreetviewpixels-pa.clients6.google.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-24%26panoid%3DfUZN49e-TfkTR-qG0r3J6g%26yaw%3D209!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI2MTAwNy4wIKXMDSoASAFQAw%3D%3D",
+      "panoramaId": "fUZN49e-TfkTR-qG0r3J6g",
+      "captureDate": "2026-04",
+      "inspectionDate": "2026-10-11T13:37:08.448190-04:00",
+      "cameraLabel": "85 St Marks Pl - Google Maps",
+      "provider": "Google Street View",
+      "use": "Ordinary browser architectural inspection. Temporary source pixels are not redistributed or game textures."
+    },
+    "stmarks-south-25": {
+      "url": "https://www.google.com/maps/@40.7276854,-73.9855205,9a,90y,209h,114t/data=!3m7!1e1!3m5!1spBFHbGvAsF4Uu5rvDm6cvw!2e0!6shttps:%2F%2Fstreetviewpixels-pa.clients6.google.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-24%26panoid%3DpBFHbGvAsF4Uu5rvDm6cvw%26yaw%3D209!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI2MTAwNy4wIKXMDSoASAFQAw%3D%3D",
+      "panoramaId": "pBFHbGvAsF4Uu5rvDm6cvw",
+      "captureDate": "2026-04",
+      "inspectionDate": "2026-10-11T13:37:48.591979-04:00",
+      "cameraLabel": "83 St Marks Pl - Google Maps",
+      "provider": "Google Street View",
+      "use": "Ordinary browser architectural inspection. Temporary source pixels are not redistributed or game textures."
+    },
+    "stmarks-south-55": {
+      "url": "https://www.google.com/maps/@40.7278385,-73.9858618,10a,90y,209h,114t/data=!3m7!1e1!3m5!1ssDtXtRDb7nSzWKS9S0DfTw!2e0!6shttps:%2F%2Fstreetviewpixels-pa.clients6.google.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-24%26panoid%3DsDtXtRDb7nSzWKS9S0DfTw%26yaw%3D209!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI2MTAwNy4wIKXMDSoASAFQAw%3D%3D",
+      "panoramaId": "sDtXtRDb7nSzWKS9S0DfTw",
+      "captureDate": "2024-09",
+      "inspectionDate": "2026-10-11T13:38:25.463911-04:00",
+      "cameraLabel": "75 St Marks Pl - Google Maps",
+      "provider": "Google Street View",
+      "use": "Ordinary browser architectural inspection. Temporary source pixels are not redistributed or game textures."
+    },
+    "stmarks-south-80": {
+      "url": "https://www.google.com/maps/@40.7279416,-73.986108,11a,90y,209h,116t/data=!3m7!1e1!3m5!1spsXOVwfoR5-aS6LcNKUfGA!2e0!6shttps:%2F%2Fstreetviewpixels-pa.clients6.google.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-26%26panoid%3DpsXOVwfoR5-aS6LcNKUfGA%26yaw%3D209!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI2MTAwNy4wIKXMDSoASAFQAw%3D%3D",
+      "panoramaId": "psXOVwfoR5-aS6LcNKUfGA",
+      "captureDate": "2024-09",
+      "inspectionDate": "2026-10-11T13:39:11.381042-04:00",
+      "cameraLabel": "70 St Marks Pl - Google Maps",
+      "provider": "Google Street View",
+      "use": "Ordinary browser architectural inspection. Temporary source pixels are not redistributed or game textures."
+    },
+    "stmarks-south-105": {
+      "url": "https://www.google.com/maps/@40.7280713,-73.9864145,11a,90y,209h,116t/data=!3m7!1e1!3m5!1skBMePboOFJgrnbyy3EXJQw!2e0!6shttps:%2F%2Fstreetviewpixels-pa.clients6.google.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-26%26panoid%3DkBMePboOFJgrnbyy3EXJQw%26yaw%3D209!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI2MTAwNy4wIKXMDSoASAFQAw%3D%3D",
+      "panoramaId": "kBMePboOFJgrnbyy3EXJQw",
+      "captureDate": "2024-09",
+      "inspectionDate": "2026-10-11T13:39:56.962156-04:00",
+      "cameraLabel": "62 St Marks Pl - Google Maps",
+      "provider": "Google Street View",
+      "use": "Ordinary browser architectural inspection. Temporary source pixels are not redistributed or game textures."
+    },
+    "stmarks-south-130": {
+      "url": "https://www.google.com/maps/@40.7281623,-73.9866283,11a,90y,209h,116t/data=!3m7!1e1!3m5!1s3watQ9z0aW2S0WSH5nru_A!2e0!6shttps:%2F%2Fstreetviewpixels-pa.clients6.google.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-26%26panoid%3D3watQ9z0aW2S0WSH5nru_A%26yaw%3D209!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI2MTAwNy4wIKXMDSoASAFQAw%3D%3D",
+      "panoramaId": "3watQ9z0aW2S0WSH5nru_A",
+      "captureDate": "2024-09",
+      "inspectionDate": "2026-10-11T13:40:39.007418-04:00",
+      "cameraLabel": "55 St Marks Pl - Google Maps",
+      "provider": "Google Street View",
+      "use": "Ordinary browser architectural inspection. Temporary source pixels are not redistributed or game textures."
+    },
+    "stmarks-south-155": {
+      "url": "https://www.google.com/maps/@40.728292,-73.9869319,12a,90y,209h,116t/data=!3m7!1e1!3m5!1sZmOUqqIoq1LU__wSYbVuWQ!2e0!6shttps:%2F%2Fstreetviewpixels-pa.clients6.google.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-26%26panoid%3DZmOUqqIoq1LU__wSYbVuWQ%26yaw%3D209!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI2MTAwNy4wIKXMDSoASAFQAw%3D%3D",
+      "panoramaId": "ZmOUqqIoq1LU__wSYbVuWQ",
+      "captureDate": "2024-09",
+      "inspectionDate": "2026-10-11T13:41:24.121821-04:00",
+      "cameraLabel": "48 St Marks Pl - Google Maps",
+      "provider": "Google Street View",
+      "use": "Ordinary browser architectural inspection. Temporary source pixels are not redistributed or game textures."
+    },
+    "stmarks-south-180": {
+      "url": "https://www.google.com/maps/@40.7283798,-73.9871399,12a,90y,209h,116t/data=!3m7!1e1!3m5!1sI17zVOZtGtKS0DIkvz9tkw!2e0!6shttps:%2F%2Fstreetviewpixels-pa.clients6.google.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-26%26panoid%3DI17zVOZtGtKS0DIkvz9tkw%26yaw%3D209!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI2MTAwNy4wIKXMDSoASAFQAw%3D%3D",
+      "panoramaId": "I17zVOZtGtKS0DIkvz9tkw",
+      "captureDate": "2024-09",
+      "inspectionDate": "2026-10-11T13:42:08.776755-04:00",
+      "cameraLabel": "41 St Marks Pl - Google Maps",
+      "provider": "Google Street View",
+      "use": "Ordinary browser architectural inspection. Temporary source pixels are not redistributed or game textures."
+    },
+    "stmarks-south-200": {
+      "url": "https://www.google.com/maps/@40.7284732,-73.9873603,12a,90y,209h,115t/data=!3m7!1e1!3m5!1s5USwRiSORejRUoXuTQv-qQ!2e0!6shttps:%2F%2Fstreetviewpixels-pa.clients6.google.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-25%26panoid%3D5USwRiSORejRUoXuTQv-qQ%26yaw%3D209!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI2MTAwNy4wIKXMDSoASAFQAw%3D%3D",
+      "panoramaId": "5USwRiSORejRUoXuTQv-qQ",
+      "captureDate": "2024-09",
+      "inspectionDate": "2026-10-11T13:43:02.272260-04:00",
+      "cameraLabel": "40 St Marks Pl - Google Maps",
+      "provider": "Google Street View",
+      "use": "Ordinary browser architectural inspection. Temporary source pixels are not redistributed or game textures."
+    },
+    "stmarks-second-south-return": {
+      "url": "https://www.google.com/maps/@40.7285714,-73.9876076,12a,90y,164h,115t/data=!3m7!1e1!3m5!1sL7yR6fnySMR6vp1JQw2Fnw!2e0!6shttps:%2F%2Fstreetviewpixels-pa.clients6.google.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-25%26panoid%3DL7yR6fnySMR6vp1JQw2Fnw%26yaw%3D164!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI2MTAwNy4wIKXMDSoASAFQAw%3D%3D",
+      "panoramaId": "L7yR6fnySMR6vp1JQw2Fnw",
+      "captureDate": "2024-09",
+      "inspectionDate": "2026-10-11T13:43:49.263280-04:00",
+      "cameraLabel": "38 St Marks Pl - Google Maps",
+      "provider": "Google Street View",
+      "use": "Ordinary browser architectural inspection. Temporary source pixels are not redistributed or game textures."
+    },
+    "stmarks-second-north-return": {
+      "url": "https://www.google.com/maps/@40.7285714,-73.9876076,12a,90y,90h,117t/data=!3m7!1e1!3m5!1sL7yR6fnySMR6vp1JQw2Fnw!2e0!6shttps:%2F%2Fstreetviewpixels-pa.clients6.google.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-27%26panoid%3DL7yR6fnySMR6vp1JQw2Fnw%26yaw%3D90!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI2MTAwNy4wIKXMDSoASAFQAw%3D%3D",
+      "panoramaId": "L7yR6fnySMR6vp1JQw2Fnw",
+      "captureDate": "2024-09",
+      "inspectionDate": "2026-10-11T13:44:34.289426-04:00",
+      "cameraLabel": "38 St Marks Pl - Google Maps",
+      "provider": "Google Street View",
+      "use": "Ordinary browser architectural inspection. Temporary source pixels are not redistributed or game textures."
+    },
+    "stmarks-first-nw-avenue": {
+      "url": "https://www.google.com/maps/@40.7277249,-73.9851805,9a,90y,299h,116t/data=!3m7!1e1!3m5!1smEyT5g7yB7FDRPRKxdpwDg!2e0!6shttps:%2F%2Fstreetviewpixels-pa.clients6.google.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-26%26panoid%3DmEyT5g7yB7FDRPRKxdpwDg%26yaw%3D299!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI2MTAwNy4wIKXMDSoASAFQAw%3D%3D",
+      "panoramaId": "mEyT5g7yB7FDRPRKxdpwDg",
+      "captureDate": "2026-04",
+      "inspectionDate": "2026-10-11T13:46:41.405868-04:00",
+      "cameraLabel": "134 1st Ave - Google Maps",
+      "provider": "Google Street View",
+      "use": "Ordinary browser architectural inspection. Temporary source pixels are not redistributed or game textures."
+    },
+    "stmarks-first-ne-avenue": {
+      "url": "https://www.google.com/maps/@40.7277249,-73.9851805,9a,90y,119h,116t/data=!3m7!1e1!3m5!1smEyT5g7yB7FDRPRKxdpwDg!2e0!6shttps:%2F%2Fstreetviewpixels-pa.clients6.google.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-26%26panoid%3DmEyT5g7yB7FDRPRKxdpwDg%26yaw%3D119!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI2MTAwNy4wIKXMDSoASAFQAw%3D%3D",
+      "panoramaId": "mEyT5g7yB7FDRPRKxdpwDg",
+      "captureDate": "2026-04",
+      "inspectionDate": "2026-10-11T13:47:28.731358-04:00",
+      "cameraLabel": "134 1st Ave - Google Maps",
+      "provider": "Google Street View",
+      "use": "Ordinary browser architectural inspection. Temporary source pixels are not redistributed or game textures."
+    },
+    "stmarks-north-east20": {
+      "url": "https://www.google.com/maps/@40.7275196,-73.9851141,9a,90y,29h,116t/data=!3m7!1e1!3m5!1sfUZN49e-TfkTR-qG0r3J6g!2e0!6shttps:%2F%2Fstreetviewpixels-pa.clients6.google.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-26%26panoid%3DfUZN49e-TfkTR-qG0r3J6g%26yaw%3D29!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI2MTAwNy4wIKXMDSoASAFQAw%3D%3D",
+      "panoramaId": "fUZN49e-TfkTR-qG0r3J6g",
+      "captureDate": "2026-04",
+      "inspectionDate": "2026-10-11T13:48:15.822407-04:00",
+      "cameraLabel": "85 St Marks Pl - Google Maps",
+      "provider": "Google Street View",
+      "use": "Ordinary browser architectural inspection. Temporary source pixels are not redistributed or game textures."
+    },
+    "stmarks-a-north-return": {
+      "url": "https://www.google.com/maps/@40.7268266,-73.9829549,7a,90y,299h,116t/data=!3m7!1e1!3m5!1s5DY4-_s2GS6xTFfuWF99pg!2e0!6shttps:%2F%2Fstreetviewpixels-pa.clients6.google.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-26%26panoid%3D5DY4-_s2GS6xTFfuWF99pg%26yaw%3D299!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI2MTAwNy4wIKXMDSoASAFQAw%3D%3D",
+      "panoramaId": "5DY4-_s2GS6xTFfuWF99pg",
+      "captureDate": "2026-04",
+      "inspectionDate": "2026-10-11T13:49:34.705981-04:00",
+      "cameraLabel": "131 Avenue A - Google Maps",
+      "provider": "Google Street View",
+      "use": "Ordinary browser architectural inspection. Temporary source pixels are not redistributed or game textures."
+    },
+    "stmarks-a-south-return": {
+      "url": "https://www.google.com/maps/@40.726533,-73.9831652,7a,90y,315h,116t/data=!3m7!1e1!3m5!1slGaJ3hCabn7Gst6a4znDvQ!2e0!6shttps:%2F%2Fstreetviewpixels-pa.clients6.google.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-26%26panoid%3DlGaJ3hCabn7Gst6a4znDvQ%26yaw%3D315!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI2MTAwNy4wIKXMDSoASAFQAw%3D%3D",
+      "panoramaId": "lGaJ3hCabn7Gst6a4znDvQ",
+      "captureDate": "2026-04",
+      "inspectionDate": "2026-10-11T13:50:48.786894-04:00",
+      "cameraLabel": "125 Avenue A - Google Maps",
+      "provider": "Google Street View",
+      "use": "Ordinary browser architectural inspection. Temporary source pixels are not redistributed or game textures."
+    },
+    "stmarks-north-63-detail": {
+      "url": "https://www.google.com/maps/@40.7280254,-73.9863069,11a,85y,29h,119t/data=!3m7!1e1!3m5!1s4z_caZ12BeI253EuWJYOpg!2e0!6shttps:%2F%2Fstreetviewpixels-pa.clients6.google.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-29%26panoid%3D4z_caZ12BeI253EuWJYOpg%26yaw%3D29!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI2MTAwNy4wIKXMDSoASAFQAw%3D%3D",
+      "panoramaId": "4z_caZ12BeI253EuWJYOpg",
+      "captureDate": "2024-09",
+      "inspectionDate": "2026-10-11T13:51:45.459281-04:00",
+      "cameraLabel": "64 St Marks Pl - Google Maps",
+      "provider": "Google Street View",
+      "use": "Ordinary browser architectural inspection. Temporary source pixels are not redistributed or game textures."
+    },
+    "stmarks-north-101-detail": {
+      "url": "https://www.google.com/maps/@40.7272379,-73.9844165,9a,85y,29h,119t/data=!3m7!1e1!3m5!1sUbAbcbpea1j6wQRsncohkw!2e0!6shttps:%2F%2Fstreetviewpixels-pa.clients6.google.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-29%26panoid%3DUbAbcbpea1j6wQRsncohkw%26yaw%3D29!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI2MTAwNy4wIKXMDSoASAFQAw%3D%3D",
+      "panoramaId": "UbAbcbpea1j6wQRsncohkw",
+      "captureDate": "2024-09",
+      "inspectionDate": "2026-10-11T13:53:32.221406-04:00",
+      "cameraLabel": "101 St Marks Pl - Google Maps",
+      "provider": "Google Street View",
+      "use": "Ordinary browser architectural inspection. Temporary source pixels are not redistributed or game textures."
+    },
+    "stmarks-south-80-oblique": {
+      "url": "https://www.google.com/maps/@40.7276854,-73.9855205,9a,75y,249h,115t/data=!3m7!1e1!3m5!1spBFHbGvAsF4Uu5rvDm6cvw!2e0!6shttps:%2F%2Fstreetviewpixels-pa.clients6.google.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-25%26panoid%3DpBFHbGvAsF4Uu5rvDm6cvw%26yaw%3D249!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI2MTAwNy4wIKXMDSoASAFQAw%3D%3D",
+      "panoramaId": "pBFHbGvAsF4Uu5rvDm6cvw",
+      "captureDate": "2026-04",
+      "inspectionDate": "2026-10-11T13:54:41.199867-04:00",
+      "cameraLabel": "83 St Marks Pl - Google Maps",
+      "provider": "Google Street View",
+      "use": "Ordinary browser architectural inspection. Temporary source pixels are not redistributed or game textures."
+    },
+    "stmarks-north-99-oblique": {
+      "url": "https://www.google.com/maps/@40.7273193,-73.9846309,9a,90y,55h,117t/data=!3m7!1e1!3m5!1sjrVzkzDv-NssfMkElt4Yxg!2e0!6shttps:%2F%2Fstreetviewpixels-pa.clients6.google.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-27%26panoid%3DjrVzkzDv-NssfMkElt4Yxg%26yaw%3D55!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI2MTAwNy4wIKXMDSoASAFQAw%3D%3D",
+      "panoramaId": "jrVzkzDv-NssfMkElt4Yxg",
+      "captureDate": "2024-09",
+      "inspectionDate": "2026-10-11T13:56:35.388894-04:00",
+      "cameraLabel": "99 St Marks Pl - Google Maps",
+      "provider": "Google Street View",
+      "use": "Ordinary browser architectural inspection. Temporary source pixels are not redistributed or game textures."
+    },
+    "stmarks-south-80-west-oblique": {
+      "url": "https://www.google.com/maps/@40.7278385,-73.9858618,10a,80y,153h,117t/data=!3m7!1e1!3m5!1ssDtXtRDb7nSzWKS9S0DfTw!2e0!6shttps:%2F%2Fstreetviewpixels-pa.clients6.google.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-27%26panoid%3DsDtXtRDb7nSzWKS9S0DfTw%26yaw%3D153!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI2MTAwNy4wIKXMDSoASAFQAw%3D%3D",
+      "panoramaId": "sDtXtRDb7nSzWKS9S0DfTw",
+      "captureDate": "2024-09",
+      "inspectionDate": "2026-10-11T13:56:35.389352-04:00",
+      "cameraLabel": "75 St Marks Pl - Google Maps",
+      "provider": "Google Street View",
+      "use": "Ordinary browser architectural inspection. Temporary source pixels are not redistributed or game textures."
+    },
+    "first-grafton-detail": {
+      "url": "https://www.google.com/maps/@40.7273184,-73.9854997,9a,60y,119h,93t/data=!3m7!1e1!3m5!1sfoKDQUd-8XfWIDdrKj8ddw!2e0!6shttps:%2F%2Fstreetviewpixels-pa.clients6.google.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-3%26panoid%3DfoKDQUd-8XfWIDdrKj8ddw%26yaw%3D119!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI2MTAwNy4wIKXMDSoASAFQAw%3D%3D",
+      "panoramaId": "foKDQUd-8XfWIDdrKj8ddw",
+      "captureDate": "2026-04",
+      "inspectionDate": "2026-10-11T14:18:41.240157-04:00",
+      "cameraLabel": "126 1st Ave - Google Maps",
+      "provider": "Google Street View",
+      "use": "Ordinary browser architectural inspection. Temporary source pixels are not redistributed or game textures."
+    },
+    "stmarks-109-high-review": {
+      "url": "https://www.google.com/maps/@40.7270765,-73.9840022,8a,90y,29h,150t/data=!3m7!1e1!3m5!1sc7dZ8Ro9-CH3Px7nB_v8Fg!2e0!6shttps:%2F%2Fstreetviewpixels-pa.clients6.google.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-60%26panoid%3Dc7dZ8Ro9-CH3Px7nB_v8Fg%26yaw%3D29!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI2MTAwNy4wIKXMDSoASAFQAw%3D%3D",
+      "panoramaId": "c7dZ8Ro9-CH3Px7nB_v8Fg",
+      "captureDate": "2024-09",
+      "inspectionDate": "2026-10-11T15:03:31.419306-04:00",
+      "cameraLabel": "109 St Marks Pl - Google Maps",
+      "provider": "Google Street View",
+      "use": "Ordinary browser architectural inspection. Temporary source pixels are not redistributed or game textures."
+    }
+  },
+  "faces": [
+    {
+      "faceId": "241822212:0",
+      "buildingId": 241822212,
+      "frontageIndex": 0,
+      "address": "117 1st Avenue",
+      "street": "First Avenue",
+      "protectedCorner": false,
+      "state": "initial elevation/access inspection; adjacent detail review pending",
+      "sources": [
+        "first-west-south",
+        "first-west-middle"
+      ],
+      "observations": [
+        "Red-brown brick, three upper rows of three windows, flat parapet (no projecting bracket cornice). Mustard/cream checkerboard spandrel panels below each upper window, dark flat lintels, brown/red central escape.",
+        "Maroon storefront fascia has a repeated row of small cream/mustard circles between pale bands, not one central oval sign. Narrow shop entry at left, broad red-framed display center, separate dark residential entry at far right. Colorful red/orange cloth and small merchandise visible in display."
+      ],
+      "unknown": [
+        "Tiny storefront lettering and residential number unreadable; fine textile/artifact inventory not resolved."
+      ],
+      "observedUpperRows": 3,
+      "observedBays": 3
+    },
+    {
+      "faceId": "241822220:0",
+      "buildingId": 241822220,
+      "frontageIndex": 0,
+      "address": "129 1st Avenue",
+      "street": "First Avenue",
+      "protectedCorner": false,
+      "state": "initial elevation/access inspection; adjacent detail review pending",
+      "sources": [
+        "first-west-north",
+        "first-west-north-detail"
+      ],
+      "observations": [
+        "129 has four upper rows of four narrow rectangular sash windows, including a short lowest row just above the shed. Brown/buff weathered brick and pale flat lintels. Brown-red central fire escape zigzags across middle two bays. Flat pale coping. Green shed only at ground. Nail salon at left/center and AT&T at right have separate black/gold and black/white fascia; narrow residential entry separates shops.",
+        "Ground detail: left fascia clearly says NAILS, with smaller lower wording; do not print unsupported Lulu’s prefix. Green scaffold canopy and mesh guard run across ground, but no 129 project board is readable. Lowest upper-window row is distinctly shorter than three rows above."
+      ],
+      "unknown": [
+        "Small residential number plaque is too soft to transcribe confidently; lowest panes/shed obscure some detailing."
+      ],
+      "observedUpperRows": 4,
+      "observedBays": 4
+    },
+    {
+      "faceId": "241822226:1",
+      "buildingId": 241822226,
+      "frontageIndex": 1,
+      "address": "115 1st Avenue",
+      "street": "First Avenue",
+      "protectedCorner": true,
+      "state": "initial elevation/access inspection; adjacent detail review pending",
+      "sources": [
+        "first-west-south"
+      ],
+      "observations": [
+        "Accepted Tile Bar corner inspected as preservation context; blue striped awning, red brick and corner glazing."
+      ],
+      "unknown": [
+        "Protected model is not assigned a new facade edit."
+      ]
+    },
+    {
+      "faceId": "241822228:0",
+      "buildingId": 241822228,
+      "frontageIndex": 0,
+      "address": "125 1st Avenue",
+      "street": "First Avenue",
+      "protectedCorner": false,
+      "state": "initial elevation/access inspection; adjacent detail review pending",
+      "sources": [
+        "first-west-middle",
+        "first-west-north",
+        "first-west-north-detail"
+      ],
+      "observations": [
+        "125 is behind full-height black netting and scaffold; green shed with angled timber edge protection. Contractor board reads 125 1st Ave. Cream-painted lower framing, separate paired shop sections with small black nudibranch panels.",
+        "Projecting shed includes upward/inward angled timber guard supports at exposed side, separate from horizontal green fascia and metal scaffold."
+      ],
+      "unknown": [
+        "Upper window count, cornice and door-number placement obscured by netting/tree; exact ground doors need adjacent inspection."
+      ]
+    },
+    {
+      "faceId": "241822247:0",
+      "buildingId": 241822247,
+      "frontageIndex": 0,
+      "address": "121 1st Avenue",
+      "street": "First Avenue",
+      "protectedCorner": false,
+      "state": "initial elevation/access inspection; adjacent detail review pending",
+      "sources": [
+        "first-west-middle",
+        "first-west-middle-detail"
+      ],
+      "observations": [
+        "121 red-brick facade has three upper floors, each with three dark-framed rectangular sash windows. Lowest upper row has triangular pediment hoods; higher rows layered flat lintels. Deep bracketed dark stone cornice. Dark-teal COSMO'S LAUNDERAMA fascia over cream framing and transoms. Separate pale residential glazed leaf at far right. Small 121 is on right end of fascia.",
+        "Detail reinspection: upper sash has high transom and split lower panes; lowest row has solid layered triangular pediment hoods, other rows molded bracket lintels. Teal fascia includes SELF SERVICE / DROP OFF SERVICE subline, 121 at right; pale residential door to right of shop. Shop window carries several small colored posters/labels; unseen laundry interior is not inferred."
+      ],
+      "unknown": [
+        "Car hides shop thresholds and lower panels; full door-number text on transom unresolved."
+      ],
+      "observedUpperRows": 3,
+      "observedBays": 3
+    },
+    {
+      "faceId": "241822263:0",
+      "buildingId": 241822263,
+      "frontageIndex": 0,
+      "address": "127 1st Avenue",
+      "street": "First Avenue",
+      "protectedCorner": false,
+      "state": "initial elevation/access inspection; adjacent detail review pending",
+      "sources": [
+        "first-west-north",
+        "first-west-north-detail"
+      ],
+      "observations": [
+        "127 follows 125 under a continuous green shed and full-height dark safety net. Contractor board explicitly says 127 1st Ave. Cream masonry/frame storefront with dark transoms, narrow doors and a right-side closed shutter; brown fire escape behind mesh."
+      ],
+      "unknown": [
+        "Netting conceals reliable full upper count and cornice. Entry number and narrow-shop identity unreadable."
+      ]
+    },
+    {
+      "faceId": "241822288:0",
+      "buildingId": 241822288,
+      "frontageIndex": 0,
+      "address": "123 1st Avenue",
+      "street": "First Avenue",
+      "protectedCorner": false,
+      "state": "initial elevation/access inspection; adjacent detail review pending",
+      "sources": [
+        "first-west-middle",
+        "first-west-middle-detail"
+      ],
+      "observations": [
+        "123 is the matching red-brick three-by-three facade immediately north/right of 121, with pediment hoods on the lowest upper row, flat layered upper lintels and ornate bracket cornice. Ivory COMPTON'S fascia with red lettering and Sandwich Shop secondary line; small 123 in green oval at right. Broad shop glazing and narrow residential entrance on right.",
+        "Detail reinspection: same layered brownstone hoods as 121; lowest pediments are solid, not open triangular bars. Cream fascia COMPTON’S with Sandwich Shop subline; green oval 123 at far right. Tall narrow multi-row product display along right glazing; red metal bench in front."
+      ],
+      "unknown": [
+        "People/tree and adjacent shed obscure exact right-door panel division and threshold."
+      ],
+      "observedUpperRows": 3,
+      "observedBays": 3
+    },
+    {
+      "faceId": "241822295:0",
+      "buildingId": 241822295,
+      "frontageIndex": 0,
+      "address": "119 1st Avenue",
+      "street": "First Avenue",
+      "protectedCorner": false,
+      "state": "initial elevation/access inspection; adjacent detail review pending",
+      "sources": [
+        "first-west-south",
+        "first-west-middle",
+        "first-west-middle-detail"
+      ],
+      "observations": [
+        "119 is fully covered by metal scaffold and dark safety netting, with green sidewalk shed and angled green/timber edge protection. Contractor board explicitly says 119 1 AVE. Red/brown masonry and central fire escape show through mesh. Lower storefront has pale framing, boarded panes and a dark-blue door; a separate narrow dark entrance is at the right edge.",
+        "Projecting shed includes upward/inward angled timber guard supports at exposed side, separate from horizontal green fascia and metal scaffold."
+      ],
+      "unknown": [
+        "Mesh obscures reliable complete upper-opening counts and ornament; old tenant record is not current visible lettering."
+      ]
+    },
+    {
+      "faceId": "241822308:1",
+      "buildingId": 241822308,
+      "frontageIndex": 1,
+      "address": "131 1st Avenue",
+      "street": "First Avenue",
+      "protectedCorner": false,
+      "state": "initial elevation/access inspection; adjacent detail review pending",
+      "sources": [
+        "first-west-north",
+        "first-west-north-detail"
+      ],
+      "observations": [
+        "131 is a one-storey red/brown-brick corner volume adjoining taller 129, with flat coping and dark-framed ground openings covered by grey/silver graffiti-marked shutters."
+      ],
+      "unknown": [
+        "St. Marks return and exact avenue entry-number position still need inspection; old Tacos Domingo identity not asserted visible."
+      ],
+      "observedUpperRows": 0
+    },
+    {
+      "faceId": "248142642:0",
+      "buildingId": 248142642,
+      "frontageIndex": 0,
+      "address": "122 1st Avenue",
+      "street": "First Avenue",
+      "protectedCorner": false,
+      "state": "initial elevation/access inspection; adjacent detail review pending",
+      "sources": [
+        "first-east-middle",
+        "first-east-south",
+        "first-east-middle-detail"
+      ],
+      "observations": [
+        "122 has four upper rows of four windows on worn pale-painted brick, olive moulded lintels and ornate bracket cornice. Rust-brown central fire escape. Red ground-shop frames flank a narrow central black residential entry. Right storefront is closed/covered; no reliable MaLa lettering visible.",
+        "Close view distinguishes red left-shop window and door, central black metal residential door, and red right unit with left glazed leaf and fixed right pane; right fascia blank/illegible.",
+        "Ground detail separates left red display and narrow dark/red shop entry, central dark brown residential door, right red utility/restaurant unit with its narrow door on left and broad right pane. Do not add a MaLa sign absent from this view."
+      ],
+      "unknown": [
+        "Residential door number not legible in this view; precise commercial identity and surface lettering unresolved."
+      ],
+      "observedUpperRows": 4,
+      "observedBays": 4
+    },
+    {
+      "faceId": "248142646:0",
+      "buildingId": 248142646,
+      "frontageIndex": 0,
+      "address": "124 1st Avenue",
+      "street": "First Avenue",
+      "protectedCorner": false,
+      "state": "initial elevation/access inspection; adjacent detail review pending",
+      "sources": [
+        "first-east-middle",
+        "first-east-middle-detail"
+      ],
+      "observations": [
+        "124 has four upper rows of four windows on faded pink render, pale flat lintels/sills and stepped plain parapet. No fire escape on this face. Red awning with white EAST VILLAGE ORGANIC text over black-framed shop glazing; narrow separate doorway at right.",
+        "Detail view shows a recessed shop entrance at the right side of the glazing, and separate solid brown residential entry at the far right under the awning.",
+        "Awning spans full facade including far-right gray/brown residential door, not only the shop bay. White EAST VILLAGE ORGANIC lettering with green O; small white subline. Dark glass carries gold East Village Organic text; green bottles line low outside/window display ledge."
+      ],
+      "unknown": [
+        "Residential number is too faint to confirm; precise door leaf/sidelight division remains uncertain."
+      ],
+      "observedUpperRows": 4,
+      "observedBays": 4
+    },
+    {
+      "faceId": "248142648:0",
+      "buildingId": 248142648,
+      "frontageIndex": 0,
+      "address": "126 1st Avenue",
+      "street": "First Avenue",
+      "protectedCorner": false,
+      "state": "initial elevation/access inspection; adjacent detail review pending",
+      "sources": [
+        "first-east-north",
+        "first-east-middle",
+        "first-grafton-detail"
+      ],
+      "observations": [
+        "126 has four upper rows of three windows, plain red brick, flat roof parapet/coping and no avenue escape visible. White/olive pub front with tall divided panes and THE GRAFTON fascia; dark right entrance.",
+        "Close street-camera view confirms cream/white shop surround, olive dark fascia THE GRAFTON Public house, three tall display panes with wood Venetian blinds, dark shop door near right and separate very narrow pale-framed residential entrance at far right. Small ground number/wording not read."
+      ],
+      "unknown": [
+        "Trees obscure ground edges and some panes; mapped six-floor label disagrees with visible four upper rows."
+      ],
+      "observedUpperRows": 4,
+      "observedBays": 3
+    },
+    {
+      "faceId": "248142651:0",
+      "buildingId": 248142651,
+      "frontageIndex": 0,
+      "address": "128 1st Avenue",
+      "street": "First Avenue",
+      "protectedCorner": false,
+      "state": "initial elevation/access inspection; adjacent detail review pending",
+      "sources": [
+        "first-east-north",
+        "first-east-north-detail"
+      ],
+      "observations": [
+        "128 has four-by-four sash windows with substantial olive/dark moulded lintels/sills, red brick and ornate bracket cornice. Fire escape crosses central two bays. Black awning with small noreetuh script and white 128 on the right end; broad left display panes, entrance to their right and separate rightmost shuttered entry under smaller awning."
+      ],
+      "unknown": [
+        "Car hides sill/plinth/thresholds; fine script styling and partly concealed entry construction remain unmeasured."
+      ],
+      "observedUpperRows": 4,
+      "observedBays": 4
+    },
+    {
+      "faceId": "248142654:0",
+      "buildingId": 248142654,
+      "frontageIndex": 0,
+      "address": "130 1st Avenue",
+      "street": "First Avenue",
+      "protectedCorner": false,
+      "state": "initial elevation/access inspection; adjacent detail review pending",
+      "sources": [
+        "first-east-north",
+        "first-east-north-detail"
+      ],
+      "observations": [
+        "130 red-painted/brick facade has four upper rows of four windows, dark flat lintels, dark bracket cornice and middle fire escape. Ground left UTShOB RESTAURANT teal fascia; narrow central dark residential door with 130 visible on its upper panel; right pale KOLACHI shop with recessed entry left of display pane. White PAKISTANI STREET (ISH) FOOD lettering on right glass."
+      ],
+      "unknown": [
+        "Van blocks left-shop lower panels and threshold; fine sign styling and exact number font unmeasured."
+      ],
+      "observedUpperRows": 4,
+      "observedBays": 4
+    },
+    {
+      "faceId": "248142707:1",
+      "buildingId": 248142707,
+      "frontageIndex": 1,
+      "address": "118 1st Avenue",
+      "street": "First Avenue",
+      "protectedCorner": true,
+      "state": "initial elevation/access inspection; adjacent detail review pending",
+      "sources": [
+        "first-east-south"
+      ],
+      "observations": [
+        "Accepted long red-brick corner inspected; four upper rows and seven First Avenue bays, multiple independent shop units including Monkey Sushi, Hen House and E7 Deli."
+      ],
+      "unknown": [
+        "Protected model is not assigned a new facade edit."
+      ]
+    },
+    {
+      "faceId": "248142712:0",
+      "buildingId": 248142712,
+      "frontageIndex": 0,
+      "address": "132 1st Avenue",
+      "street": "First Avenue",
+      "protectedCorner": false,
+      "state": "initial elevation/access inspection; adjacent detail review pending",
+      "sources": [
+        "first-east-north"
+      ],
+      "observations": [
+        "132 corner has red brick, three windows per upper row and four upper rows. Elaborate dark lintels on higher rows; deep dark bracket cornice. Pale/olive striped awning and cream shop framing."
+      ],
+      "unknown": [
+        "Corner-return and ground details need closer view; no visible number placement transcribed."
+      ],
+      "observedUpperRows": 4,
+      "observedBays": 3
+    },
+    {
+      "faceId": "241822151:0",
+      "buildingId": 241822151,
+      "frontageIndex": 0,
+      "address": "45 Saint Marks Place",
+      "street": "St. Marks Place",
+      "protectedCorner": false,
+      "state": "initial elevation/access inspection; adjacent/detail review pending",
+      "sources": [
+        "stmarks-north-180",
+        "stmarks-north-155"
+      ],
+      "observations": [
+        "45 has red brick, three upper window stacks, pale simple lintels/sills, dark detailed bracket cornice and a narrow light horizontal band just below the highest row. Raised light-painted residential door surround visible from western view; iron-fenced planted frontage."
+      ],
+      "unknown": [
+        "Four rows appear including parlor; exact hidden lower access and upper row count need close verification under tree foliage."
+      ]
+    },
+    {
+      "faceId": "241822159:0",
+      "buildingId": 241822159,
+      "frontageIndex": 0,
+      "address": "43 Saint Marks Place",
+      "street": "St. Marks Place",
+      "protectedCorner": false,
+      "state": "initial elevation/access inspection; adjacent/detail review pending",
+      "sources": [
+        "stmarks-north-180"
+      ],
+      "observations": [
+        "43 is a taller narrow pale/white modernized facade between 41 and red 45. Two broad paired window stacks, flat surrounds, ribbed white spandrel/grille bands under upper windows, and simple flat parapet. Street-level glazing/entry with a separate narrow left door; low iron fence at pavement."
+      ],
+      "unknown": [
+        "Top and some upper levels hidden by foliage; exact floor count and shop lettering not fully visible."
+      ]
+    },
+    {
+      "faceId": "241822164:0",
+      "buildingId": 241822164,
+      "frontageIndex": 0,
+      "address": "132 2nd Avenue",
+      "street": "St. Marks Place",
+      "protectedCorner": false,
+      "state": "initial elevation/access inspection; corner-return review pending",
+      "sources": [
+        "stmarks-north-200",
+        "stmarks-second-north-return"
+      ],
+      "observations": [
+        "Broad ornate buff-brick corner facade with five upper rows. Projecting outer bays have paired tall windows with carved light surrounds and arched/pediment hoods; central mixed narrow and paired windows plus oval windows. Deep dark cornice and rusticated base. Fire escape occupies the right-center stack.",
+        "Ground facade has cream piers, green left and black right awnings, warm wood restaurant windows/doors, and a separate dark residential leaf in a light raised surround. Visible 37 1/2 is on the upper glass of that residential door.",
+        "Oblique confirms green cafe maud fascia on left unit with repeated round-headed ground openings, warm wood trim, tables and orange parasols; black fascia right unit separated by pale vertical entry bay."
+      ],
+      "unknown": [
+        "Mapped building address 132 Second Avenue differs from observed St. Marks entrance 37 1/2; preserve both identities.",
+        "Exact full bay schedule, oval-row placement, carvings and Second Avenue return require additional inspection."
+      ]
+    },
+    {
+      "faceId": "241822167:0",
+      "buildingId": 241822167,
+      "frontageIndex": 0,
+      "address": "70 Saint Marks Place",
+      "street": "St. Marks Place",
+      "protectedCorner": false,
+      "state": "initial elevation/access inspection; adjacent/detail review pending",
+      "sources": [
+        "stmarks-south-80"
+      ],
+      "observations": [
+        "Gray/taupe house with pale-framed three-bay upper windows, light metal fire escape on left/center, tall parlor openings. Low right/center brown door beneath parlor reached through planted iron forecourt; hanging basket/plants over lower access."
+      ],
+      "unknown": [
+        "Tree covers roof and top count; number and door leaves need adjacent view."
+      ]
+    },
+    {
+      "faceId": "241822173:0",
+      "buildingId": 241822173,
+      "frontageIndex": 0,
+      "address": "76 Saint Marks Place",
+      "street": "St. Marks Place",
+      "protectedCorner": false,
+      "state": "initial elevation/access inspection; adjacent/detail review pending",
+      "sources": [
+        "stmarks-south-55"
+      ],
+      "observations": [
+        "Narrow warm brown/red brick facade, four upper rows of four windows, round brick relieving arches on third row from bottom; flat lower lintels, small stepped parapet and dark central escape. Carved warm-stone ground portal centered between paired parlor windows, dark blue paneled door with 76 gold on transom. Straight central stoop with black rails and front areaway fence."
+      ],
+      "unknown": [
+        "Exact door panes/leaf count and concealed basement entrance unresolved."
+      ],
+      "observedUpperRows": 4,
+      "observedBays": 4
+    },
+    {
+      "faceId": "241822174:0",
+      "buildingId": 241822174,
+      "frontageIndex": 0,
+      "address": "55 Saint Marks Place",
+      "street": "St. Marks Place",
+      "protectedCorner": false,
+      "state": "initial elevation/access inspection; adjacent/detail review pending",
+      "sources": [
+        "stmarks-north-130"
+      ],
+      "observations": [
+        "55 is an ornate pale brownstone facade with four narrow upper sash positions, raised segmental hoods, bands and a heavily rusticated lower story. Central dark paired entry has a broad carved horizontal lintel on carved brackets; broad gridded parlor window each side. Short broad raised stoop with turned stone newels and dark iron handrails; separate lower basement access and perimeter rails."
+      ],
+      "unknown": [
+        "Uppermost rows and cornice hidden by leaves; exact leaf panels, inscription and basement doorway not fully resolved."
+      ]
+    },
+    {
+      "faceId": "241822181:0",
+      "buildingId": 241822181,
+      "frontageIndex": 0,
+      "address": "66 Saint Marks Place",
+      "street": "St. Marks Place",
+      "protectedCorner": false,
+      "state": "initial elevation/access inspection; adjacent/detail review pending",
+      "sources": [
+        "stmarks-south-80"
+      ],
+      "observations": [
+        "Pale yellow/buff brick with four upper rows of four windows, pale ornamented hoods and upper cornice. Ground pale carved stone, round-headed large central portal with flanking tall windows, raised entry/black iron balustrade. Small projecting ornamental iron balcony across central lower upper windows. No front fire escape seen."
+      ],
+      "unknown": [
+        "Full ground centered view, number and top ornaments pending."
+      ],
+      "observedUpperRows": 4,
+      "observedBays": 4
+    },
+    {
+      "faceId": "241822189:0",
+      "buildingId": 241822189,
+      "frontageIndex": 0,
+      "address": "51 Saint Marks Place",
+      "street": "St. Marks Place",
+      "protectedCorner": false,
+      "state": "initial elevation/access inspection; adjacent/detail review pending",
+      "sources": [
+        "stmarks-north-155",
+        "stmarks-north-130"
+      ],
+      "observations": [
+        "51 has a light stone/brownstone richly articulated front: arched upper openings, incised/moulded surrounds, horizontal bands and rusticated lower wall. It stands immediately east of pale 49 and west of plain brown 53."
+      ],
+      "unknown": [
+        "Only edge views available so far; full bay count, door/access and roof detail need centered view."
+      ]
+    },
+    {
+      "faceId": "241822190:0",
+      "buildingId": 241822190,
+      "frontageIndex": 0,
+      "address": "58 Saint Marks Place",
+      "street": "St. Marks Place",
+      "protectedCorner": false,
+      "state": "initial elevation/access inspection; adjacent/detail review pending",
+      "sources": [
+        "stmarks-south-130"
+      ],
+      "observations": [
+        "Pale blue-gray ornate stone/brick facade, black centered fire escape, stepped plain parapet; upper rows have carved/scroll surrounds and some arched heads. High parlor entry at left up straight stair/black rails; basement right vivid green vegan GRILL fascia and canopy over dark glass door/display; separate lower left unit partly cropped."
+      ],
+      "unknown": [
+        "Top count and full left basement Nail Lab lettering not readable."
+      ]
+    },
+    {
+      "faceId": "241822194:0",
+      "buildingId": 241822194,
+      "frontageIndex": 0,
+      "address": "64 Saint Marks Place",
+      "street": "St. Marks Place",
+      "protectedCorner": false,
+      "state": "initial elevation/access inspection; adjacent/detail review pending",
+      "sources": [
+        "stmarks-south-105"
+      ],
+      "observations": [
+        "Pale buff brick with flat pale lintels and brown rusticated ground; central black escape, upper four-window rhythm. Raised doorway and parlor windows over iron-fenced basement forecourt."
+      ],
+      "unknown": [
+        "Top rows and left entrance partly hidden by tree/UI; count and number surface need nearer inspection."
+      ]
+    },
+    {
+      "faceId": "241822214:0",
+      "buildingId": 241822214,
+      "frontageIndex": 0,
+      "address": "67 Saint Marks Place",
+      "street": "St. Marks Place",
+      "protectedCorner": false,
+      "state": "initial elevation/access inspection; adjacent/detail review pending",
+      "sources": [
+        "stmarks-north-80"
+      ],
+      "observations": [
+        "Pale sage facade, four upper rows of three openings, dark flat lintels, bracketed gray cornice; central black escape. Pale brick ground floor with left door and right barred window, narrow forecourt."
+      ],
+      "unknown": [
+        "Tree obscures central entry detail; number placement unreadable."
+      ],
+      "observedUpperRows": 4,
+      "observedBays": 3
+    },
+    {
+      "faceId": "241822217:0",
+      "buildingId": 241822217,
+      "frontageIndex": 0,
+      "address": "75 Saint Marks Place",
+      "street": "St. Marks Place",
+      "protectedCorner": false,
+      "state": "initial elevation/access inspection; adjacent/detail review pending",
+      "sources": [
+        "stmarks-north-55"
+      ],
+      "observations": [
+        "Red brick, four rows of three windows, ornate dark lintels and heavy bracket cornice; black escape on left/center two bays. Red left residential door with circular window; silver corrugated frontage and central glass shop; curved red awning reads COCKTAIL LOUNGE and number 75 on top."
+      ],
+      "unknown": [
+        "Fine awning wording at left unreadable."
+      ],
+      "observedUpperRows": 4,
+      "observedBays": 3
+    },
+    {
+      "faceId": "241822219:1",
+      "buildingId": 241822219,
+      "frontageIndex": 1,
+      "address": "83 Saint Marks Place",
+      "street": "St. Marks Place",
+      "protectedCorner": false,
+      "state": "initial elevation/access inspection; adjacent/detail review pending",
+      "sources": [
+        "stmarks-north-25"
+      ],
+      "observations": [
+        "Red/buff corner facade with four upper rows of two windows, flat dark lintels and simple dark projecting cornice; no escape on this face. Ground red-and-cream striped awning reads Stromboli and EST.1976 at right; broad shop glazing and glazed right corner door."
+      ],
+      "unknown": [
+        "First Avenue return not yet inspected; tiny address lettering uncertain."
+      ],
+      "observedUpperRows": 4,
+      "observedBays": 2
+    },
+    {
+      "faceId": "241822222:0",
+      "buildingId": 241822222,
+      "frontageIndex": 0,
+      "address": "80 Saint Marks Place",
+      "street": "St. Marks Place",
+      "protectedCorner": false,
+      "state": "initial elevation/access inspection; adjacent/detail review pending",
+      "sources": [
+        "stmarks-south-80-oblique",
+        "stmarks-south-80-west-oblique"
+      ],
+      "observations": [
+        "Tall pale/white facade set behind high brick terrace and rail, ornate heavy pale cornice with center crest. Tall rectangular upper openings, white fire escape and large colored painted mural across facade. Street level is blocked by dark green corrugated construction fence with graffiti; prior Theater 80 storefront cannot be assumed exposed in April 2026.",
+        "September 2024 opposite oblique shows earlier THEATRE 80 ST MARKS projecting sign and black curved 80 canopy over low entrance, white facade and high terrace. This predates April 2026 green street hoarding and is retained only as historical access evidence."
+      ],
+      "unknown": [
+        "Upper opening count partly obscured even across obliques; April hoarding conceals current street entry. Historical 2024 canopy not evidence it remains exposed in April."
+      ]
+    },
+    {
+      "faceId": "241822224:0",
+      "buildingId": 241822224,
+      "frontageIndex": 0,
+      "address": "41 Saint Marks Place",
+      "street": "St. Marks Place",
+      "protectedCorner": false,
+      "state": "initial elevation/access inspection; adjacent/detail review pending",
+      "sources": [
+        "stmarks-north-180"
+      ],
+      "observations": [
+        "41 warm beige/brown masonry with moulded pale lintels, dark bracket cornice and black central escape. Upper window groups vary, with a wider paired group at the right. Residential dark entry is raised on a prominent straight iron-railed stoop, toward the right of center; parlor windows flank it and a separate black-framed basement entrance/shop sits to the right of the stair."
+      ],
+      "unknown": [
+        "Upper opening groups partly obscured by tree/UI overlay; full row schedule and residential number placement need close/adjacent views."
+      ]
+    },
+    {
+      "faceId": "241822230:0",
+      "buildingId": 241822230,
+      "frontageIndex": 0,
+      "address": "71 Saint Marks Place",
+      "street": "St. Marks Place",
+      "protectedCorner": false,
+      "state": "initial elevation/access inspection; adjacent/detail review pending",
+      "sources": [
+        "stmarks-north-80",
+        "stmarks-north-55"
+      ],
+      "observations": [
+        "Plain brown facade with flat window recesses, small top coping and stepped parapet shoulders; tree/shed obscure lower facade."
+      ],
+      "unknown": [
+        "Opening count and exact entrance pending."
+      ]
+    },
+    {
+      "faceId": "241822234:0",
+      "buildingId": 241822234,
+      "frontageIndex": 0,
+      "address": "81 Saint Marks Place",
+      "street": "St. Marks Place",
+      "protectedCorner": false,
+      "state": "initial elevation/access inspection; adjacent/detail review pending",
+      "sources": [
+        "stmarks-north-25"
+      ],
+      "observations": [
+        "Warm red/buff brick, four upper rows of three windows, ornate dark lintels and cornice; black central fire escape. Dark charcoal ground storefront, yellow script sign E Ramen visible, glass double shop doors; narrow right residential door in dark band."
+      ],
+      "unknown": [
+        "Script spelling and number plaque require detail."
+      ],
+      "observedUpperRows": 4,
+      "observedBays": 3
+    },
+    {
+      "faceId": "241822236:0",
+      "buildingId": 241822236,
+      "frontageIndex": 0,
+      "address": "59 Saint Marks Place",
+      "street": "St. Marks Place",
+      "protectedCorner": false,
+      "state": "initial elevation/access inspection; adjacent/detail review pending",
+      "sources": [
+        "stmarks-north-105"
+      ],
+      "observations": [
+        "59 red-brick row house with three sash stacks, three upper rows above tall parlor windows, pale simple lintels/sills and light roof band/coping. Forecourt has a low black fence and dense shrubs; Ukrainian flag visible at lower row in September 2024."
+      ],
+      "unknown": [
+        "Entry and basement obscured by tree/planting; dated flag is a source observation, not a present-day claim."
+      ],
+      "observedUpperRows": 3,
+      "observedBays": 3
+    },
+    {
+      "faceId": "241822254:0",
+      "buildingId": 241822254,
+      "frontageIndex": 0,
+      "address": "47 Saint Marks Place",
+      "street": "St. Marks Place",
+      "protectedCorner": false,
+      "state": "initial elevation/access inspection; adjacent/detail review pending",
+      "sources": [
+        "stmarks-north-155"
+      ],
+      "observations": [
+        "47 pink/brownstone facade has four upper rows of four narrow sash windows with heavy moulded hoods and sills; dark green bracketed cornice. Rusticated ground has central round-arched iron/glazed entry flanked by two round-arched grille windows. 47 is on a rectangular wall panel left of the central opening. Tall black perimeter fence and separate lower areaway."
+      ],
+      "unknown": [
+        "Arched door leaf division and basement path partly hidden by front gate; tread/ornament dimensions are unmeasured."
+      ],
+      "observedUpperRows": 4,
+      "observedBays": 4
+    },
+    {
+      "faceId": "241822256:0",
+      "buildingId": 241822256,
+      "frontageIndex": 0,
+      "address": "50 Saint Marks Place",
+      "street": "St. Marks Place",
+      "protectedCorner": false,
+      "state": "initial elevation/access inspection; adjacent/detail review pending",
+      "sources": [
+        "stmarks-south-155"
+      ],
+      "observations": [
+        "Brownstone facade with three-window rhythm and flat molded hoods. Raised right entrance has pale/brown pilasters and broad horizontal entablature, black glazed door and paired lanterns; two tall parlor windows left and planted fenced forecourt."
+      ],
+      "unknown": [
+        "Top rows hidden by UI/tree, stair/number hidden by vehicle."
+      ]
+    },
+    {
+      "faceId": "241822265:0",
+      "buildingId": 241822265,
+      "frontageIndex": 0,
+      "address": "48 Saint Marks Place",
+      "street": "St. Marks Place",
+      "protectedCorner": false,
+      "state": "initial elevation/access inspection; adjacent/detail review pending",
+      "sources": [
+        "stmarks-south-155"
+      ],
+      "observations": [
+        "Warm brown brick upper face with dark-framed windows; ornate cream ground fascia explicitly JUBILEE MISSION CENTER. Large left three-lancet Gothic tracery window, tall right glazed black entrance within rectangular pale stone surround, wide gray straight stair and iron handrails/gate. Pale 48 on front stair/side panel. Dark red basement with barred window and black forecourt fence."
+      ],
+      "unknown": [
+        "Leaf cover obscures roof and exact upper rows/bays; adjacent view required."
+      ]
+    },
+    {
+      "faceId": "241822267:0",
+      "buildingId": 241822267,
+      "frontageIndex": 0,
+      "address": "73 Saint Marks Place",
+      "street": "St. Marks Place",
+      "protectedCorner": false,
+      "state": "initial elevation/access inspection; adjacent/detail review pending",
+      "sources": [
+        "stmarks-north-55"
+      ],
+      "observations": [
+        "Three upper rows of three windows above basement; worn white-painted brick with red patches, ornate green hoods and cornice with central pediment. Larger lowest-row windows; plain pink-brown basement band, low left entry and two barred basement windows behind iron fence. No fire escape visible on this face."
+      ],
+      "unknown": [
+        "Small blue number plaque above door unreadable at this scale."
+      ],
+      "observedUpperRows": 3,
+      "observedBays": 3
+    },
+    {
+      "faceId": "241822271:0",
+      "buildingId": 241822271,
+      "frontageIndex": 0,
+      "address": "77 Saint Marks Place",
+      "street": "St. Marks Place",
+      "protectedCorner": false,
+      "state": "initial elevation/access inspection; adjacent/detail review pending",
+      "sources": [
+        "stmarks-north-55"
+      ],
+      "observations": [
+        "Pink-brown facade with four rows of three openings, heavy cornice and central pediment; broad black escape. Pale-gold ILL PALAPA awning/canopy at right over elevated frontage, pale stone basement and low rectangular door left.",
+        "Reinspection of the saved September 2024 north-55 view: tan awning reads LA PALAPA, with dark lettering; the fire escape is pale gray metal."
+      ],
+      "unknown": [
+        "Shop wording partly cropped; entry number and full right edge pending."
+      ],
+      "observedUpperRows": 4,
+      "observedBays": 3
+    },
+    {
+      "faceId": "241822279:0",
+      "buildingId": 241822279,
+      "frontageIndex": 0,
+      "address": "65 Saint Marks Place",
+      "street": "St. Marks Place",
+      "protectedCorner": false,
+      "state": "initial elevation/access inspection; adjacent/detail review pending",
+      "sources": [
+        "stmarks-north-80",
+        "stmarks-north-63-detail"
+      ],
+      "observations": [
+        "Red brick, three-window upper rhythm, molded reddish window hoods and dark cornice; black central escape and diagonal stairs. Raised left entrance with pale stone stoop and ornate iron balustrades; basement opening below stoop.",
+        "Neighbor view reveals low right/central restaurant frontage under black awning reading 65 Jiang’s Kitchen and smaller Northern Chinese Food wording; raised residential stoop remains separately observed."
+      ],
+      "unknown": [
+        "Top row behind Maps panel; door number and lower-right access require closer view."
+      ]
+    },
+    {
+      "faceId": "241822280:0",
+      "buildingId": 241822280,
+      "frontageIndex": 0,
+      "address": "60 Saint Marks Place",
+      "street": "St. Marks Place",
+      "protectedCorner": false,
+      "state": "initial elevation/access inspection; adjacent/detail review pending",
+      "sources": [
+        "stmarks-south-105"
+      ],
+      "observations": [
+        "Red brick with ornate brownstone window surrounds and dark bracket cornice; black central escape. Tall parlor windows over dark brick basement band; low right dark residential door marked 60, barred low windows left. Ukraine flag in dated view."
+      ],
+      "unknown": [
+        "Upper opening count obscured by dense leaves; no raised main stoop visible."
+      ]
+    },
+    {
+      "faceId": "241822282:0",
+      "buildingId": 241822282,
+      "frontageIndex": 0,
+      "address": "63 Saint Marks Place",
+      "street": "St. Marks Place",
+      "protectedCorner": false,
+      "state": "initial elevation/access inspection; adjacent/detail review pending",
+      "sources": [
+        "stmarks-north-63-detail"
+      ],
+      "observations": [
+        "Red-brown brick face with grouped white windows: left pair and wider right multi-pane group, pale flat lintels/sills and some AC units. Low street-level right/center entrance behind black iron gate, planted forecourt and low stone door surround; brass/dark plaque on wall to left of door. No front escape seen."
+      ],
+      "unknown": [
+        "Tree hides highest row, cornice and exact right group count; doorway number not legible."
+      ]
+    },
+    {
+      "faceId": "241822284:0",
+      "buildingId": 241822284,
+      "frontageIndex": 0,
+      "address": "42 1/2 Saint Marks Place",
+      "street": "St. Marks Place",
+      "protectedCorner": false,
+      "state": "initial elevation/access inspection; adjacent/detail review pending",
+      "sources": [
+        "stmarks-south-180"
+      ],
+      "observations": [
+        "Narrow red-brick house with two upper window positions, pale flat stone lintels. Tall left parlor window with decorative grille and right raised round-headed black doorway with pale keyblock; small white 42½ plaque between them. Black steep straight steel stair and rail up right, brick low front wall, basement left glass door/window with white stone surround."
+      ],
+      "unknown": [
+        "Top count/cornice hidden by leaves; basement shop wording tiny."
+      ],
+      "observedBays": 2
+    },
+    {
+      "faceId": "241822286:0",
+      "buildingId": 241822286,
+      "frontageIndex": 0,
+      "address": "52 Saint Marks Place",
+      "street": "St. Marks Place",
+      "protectedCorner": false,
+      "state": "initial elevation/access inspection; adjacent/detail review pending",
+      "sources": [
+        "stmarks-south-130"
+      ],
+      "observations": [
+        "Plain red-brown brick, four-window rhythm, flat light lintels and simple coping; central black escape, broad tall parlor windows and forecourt."
+      ],
+      "unknown": [
+        "Top row/roof and ground doors are cropped at right; inspect adjacent view."
+      ]
+    },
+    {
+      "faceId": "241822290:1",
+      "buildingId": 241822290,
+      "frontageIndex": 1,
+      "address": "38 Saint Marks Place",
+      "street": "St. Marks Place",
+      "protectedCorner": false,
+      "state": "initial elevation/access inspection; adjacent/detail review pending",
+      "sources": [
+        "stmarks-south-200"
+      ],
+      "observations": [
+        "Broad low buff-brick corner facade. Large central pale-framed window composition across two rows, upper paired/split glazing over vertically ribbed metal spandrel, broad lower transparent panes; black ground/base panels. Narrow separate pale-framed windows and plain dark low door at left. Flat parapet, white roof billboard with abstract dark connected-square diagram."
+      ],
+      "unknown": [
+        "Tree obscures complete central grouping; far-right/Second Avenue return needs another view."
+      ]
+    },
+    {
+      "faceId": "241822291:0",
+      "buildingId": 241822291,
+      "frontageIndex": 0,
+      "address": "69 Saint Marks Place",
+      "street": "St. Marks Place",
+      "protectedCorner": false,
+      "state": "initial elevation/access inspection; adjacent/detail review pending",
+      "sources": [
+        "stmarks-north-80"
+      ],
+      "observations": [
+        "Full-height scaffold and dark netting, tall vertical orange scaffold lines; heavy projecting timber sidewalk shed. Contractor board explicitly reads 69 ST MARKS PL. Ground fence and painted low wall with St Marks lettering; arched masonry entrance partly visible behind supports."
+      ],
+      "unknown": [
+        "Architecture behind netting, upper rows and entry leaves unresolved; dated September 2024 condition."
+      ]
+    },
+    {
+      "faceId": "241822297:0",
+      "buildingId": 241822297,
+      "frontageIndex": 0,
+      "address": "39 Saint Marks Place",
+      "street": "St. Marks Place",
+      "protectedCorner": false,
+      "state": "initial elevation/access inspection; adjacent/detail review pending",
+      "sources": [
+        "stmarks-north-200",
+        "stmarks-north-180"
+      ],
+      "observations": [
+        "39 is the brown row-house mass immediately east of the ornate 37 1/2 corner. The main upper wall is set back behind a narrower projecting brick section; slate/dark mansard with dormers, tall rectangular windows, black escape and terrace railing."
+      ],
+      "unknown": [
+        "Two mapped collinear faces belong to one articulated property; exact opening allocation and entry/basement need closer view."
+      ]
+    },
+    {
+      "faceId": "241822297:1",
+      "buildingId": 241822297,
+      "frontageIndex": 1,
+      "address": "39 Saint Marks Place",
+      "street": "St. Marks Place",
+      "protectedCorner": false,
+      "state": "initial elevation/access inspection; adjacent/detail review pending",
+      "sources": [
+        "stmarks-north-200"
+      ],
+      "observations": [
+        "The short projecting face of 39 has paired windows with decorative diamond brick panels, a roof terrace rail and an exposed side wall beside the tall corner building. Lower entry/ironwork is partly obscured."
+      ],
+      "unknown": [
+        "Exact subdivision between the two mapped faces and the hidden basement remains unresolved."
+      ]
+    },
+    {
+      "faceId": "241822299:0",
+      "buildingId": 241822299,
+      "frontageIndex": 0,
+      "address": "49 Saint Marks Place",
+      "street": "St. Marks Place",
+      "protectedCorner": false,
+      "state": "initial elevation/access inspection; adjacent/detail review pending",
+      "sources": [
+        "stmarks-north-155"
+      ],
+      "observations": [
+        "49 pale pink/cream brick with green lintels and cornice. Three stacks; three upper rectangular rows above tall round-arched parlor windows. Low basement wall and black iron perimeter rail."
+      ],
+      "unknown": [
+        "Ground entry location cropped/occluded; basement panes and exact cornice need adjacent view."
+      ],
+      "observedUpperRows": 3,
+      "observedBays": 3
+    },
+    {
+      "faceId": "241822300:0",
+      "buildingId": 241822300,
+      "frontageIndex": 0,
+      "address": "42 Saint Marks Place",
+      "street": "St. Marks Place",
+      "protectedCorner": false,
+      "state": "initial elevation/access inspection; adjacent/detail review pending",
+      "sources": [
+        "stmarks-south-180"
+      ],
+      "observations": [
+        "Dark gray-blue stone facade, paired tall parlor windows, black fire escape at upper left. Ground optical shop has black fascia reading anthony aiden opticians, black/dark framed glass and copper/orange fascia trim."
+      ],
+      "unknown": [
+        "Full upper count and residential entrance cropped at right."
+      ]
+    },
+    {
+      "faceId": "241822301:0",
+      "buildingId": 241822301,
+      "frontageIndex": 0,
+      "address": "46 Saint Marks Place",
+      "street": "St. Marks Place",
+      "protectedCorner": false,
+      "state": "initial elevation/access inspection; adjacent/detail review pending",
+      "sources": [
+        "stmarks-south-155"
+      ],
+      "observations": [
+        "Brown/gray plaster or stone facade, three-window rhythm, light green-gray central two-bay fire escape; flat hoods, low plain parapet. Tall parlor windows with grille and planted forecourt, brick low wall/black fence."
+      ],
+      "unknown": [
+        "Entry door and number obscured by plantings; row count needs next view."
+      ]
+    },
+    {
+      "faceId": "241822303:0",
+      "buildingId": 241822303,
+      "frontageIndex": 0,
+      "address": "62 Saint Marks Place",
+      "street": "St. Marks Place",
+      "protectedCorner": false,
+      "state": "initial elevation/access inspection; adjacent/detail review pending",
+      "sources": [
+        "stmarks-south-105"
+      ],
+      "observations": [
+        "Red-brick religious facade with three upper window positions, two regular top rows and lower row combining two side windows with a very tall central round-headed gridded window extending down through parlor. Low parapet/simple coping. Two separate raised black double doors with gold crosses, round transoms and pale arch trim; right transom has 62 and small church wording. Independent straight stairs/metal rails flank central barred basement window; pale gray basement band.",
+        "Reinspection of the September 2024 south-105 view: tall central arched window has dense horizontal glazing bars; black double doors carry gold crosses, with the 62 lettering high on the right transom."
+      ],
+      "unknown": [
+        "Small church wording and fine leaded-glass detail unreadable."
+      ],
+      "observedUpperRows": 3,
+      "observedBays": 3
+    },
+    {
+      "faceId": "241822306:0",
+      "buildingId": 241822306,
+      "frontageIndex": 0,
+      "address": "44 Saint Marks Place",
+      "street": "St. Marks Place",
+      "protectedCorner": false,
+      "state": "initial elevation/access inspection; adjacent/detail review pending",
+      "sources": [
+        "stmarks-south-180"
+      ],
+      "observations": [
+        "Plain gray/brown face, three-window rhythm with shallow segmental lintels. Lower medical frontage has broad white Northwell Health fascia, barred dark glazing and pale left residential doorway; low fenced planted/stone forecourt."
+      ],
+      "unknown": [
+        "Top rows/cornice hidden by tree; entrance number unreadable."
+      ]
+    },
+    {
+      "faceId": "241822308:0",
+      "buildingId": 241822308,
+      "frontageIndex": 0,
+      "address": "131 1st Avenue",
+      "street": "St. Marks Place",
+      "protectedCorner": false,
+      "state": "initial elevation/access inspection; adjacent/detail review pending",
+      "sources": [
+        "stmarks-south-25"
+      ],
+      "observations": [
+        "Low one-story red-brick corner return, plain coping and broad dark-framed glazed units. Left unit has large graffiti-covered panes, middle unit has gray covered glass and narrow door on left, right active glass cafe with white COFFEE word on dark fascia. Exposed taller party wall behind carries large painted letters."
+      ],
+      "unknown": [
+        "Full cafe wording and current unit address not readable; rear-wall ownership needs footprint check."
+      ],
+      "observedUpperRows": 0
+    },
+    {
+      "faceId": "241822310:0",
+      "buildingId": 241822310,
+      "frontageIndex": 0,
+      "address": "40 1/2 Saint Marks Place",
+      "street": "St. Marks Place",
+      "protectedCorner": false,
+      "state": "initial elevation/access inspection; adjacent/detail review pending",
+      "sources": [
+        "stmarks-south-200"
+      ],
+      "observations": [
+        "Narrow low brown-brick front projection, one upper row of four narrow pale-framed windows above red shop. White PORTO RICO IMPORTING CO fascia, red sloping canopy reads COFFEE TEA; broad shop display left and red door right. Taller rear brick mass and black escape set back above low roof."
+      ],
+      "unknown": [
+        "Full back mass geometry and residential access need oblique; facade number unreadable."
+      ],
+      "observedUpperRows": 1,
+      "observedBays": 4
+    },
+    {
+      "faceId": "241822312:0",
+      "buildingId": 241822312,
+      "frontageIndex": 0,
+      "address": "61 Saint Marks Place",
+      "street": "St. Marks Place",
+      "protectedCorner": false,
+      "state": "initial elevation/access inspection; adjacent/detail review pending",
+      "sources": [
+        "stmarks-north-105"
+      ],
+      "observations": [
+        "61 red brick, three sash stacks across three upper rows, light flat lintels/sills and deep dark bracket cornice. Left ground entry is a light-painted double glazed door with diagonal diamond bars in a white pilaster surround and triangular pediment. Gold 61 appears above the doors in the dark transom. Two tall parlor windows to the right. Raised straight stoop with black railing and planted/fenced lower frontage."
+      ],
+      "unknown": [
+        "Lower basement details hidden by foliage; precise stair count and ornamental dimensions unmeasured."
+      ],
+      "observedUpperRows": 3,
+      "observedBays": 3
+    },
+    {
+      "faceId": "241822314:0",
+      "buildingId": 241822314,
+      "frontageIndex": 0,
+      "address": "57 Saint Marks Place",
+      "street": "St. Marks Place",
+      "protectedCorner": false,
+      "state": "initial elevation/access inspection; adjacent/detail review pending",
+      "sources": [
+        "stmarks-north-130",
+        "stmarks-north-105"
+      ],
+      "observations": [
+        "57 light-grey/cream institutional facade with three aligned tall pointed Gothic openings across two lower rows, rectangular sash rows above, and substantial dark roof cornice. Two orange/tan awnings shelter lower entry windows; raised front terrace and black railings, tree in front."
+      ],
+      "unknown": [
+        "Tree/angle obscures full lower door count and number support; do not claim current organizational identity from old records."
+      ]
+    },
+    {
+      "faceId": "241822320:0",
+      "buildingId": 241822320,
+      "frontageIndex": 0,
+      "address": "79 Saint Marks Place",
+      "street": "St. Marks Place",
+      "protectedCorner": false,
+      "state": "initial elevation/access inspection; adjacent/detail review pending",
+      "sources": [
+        "stmarks-north-25"
+      ],
+      "observations": [
+        "Modern gray flat-panel facade with paired pale-framed windows in single central group per row; simple parapet. Restaurant at ground with black sign and food pictures, glass entrance."
+      ],
+      "unknown": [
+        "Left edge and top partly cropped; full row count and lettering need neighboring view."
+      ]
+    },
+    {
+      "faceId": "241822323:0",
+      "buildingId": 241822323,
+      "frontageIndex": 0,
+      "address": "78 Saint Marks Place",
+      "street": "St. Marks Place",
+      "protectedCorner": false,
+      "state": "initial elevation/access inspection; adjacent/detail review pending",
+      "sources": [
+        "stmarks-south-55"
+      ],
+      "observations": [
+        "Worn white-painted brick revealing red patches, three-window upper rhythm, tall ground windows and metal forecourt fence; raised right entrance with pale molded surround."
+      ],
+      "unknown": [
+        "Roof/top row and number obscured by panel/tree; adjacent view needed."
+      ]
+    },
+    {
+      "faceId": "241822326:0",
+      "buildingId": 241822326,
+      "frontageIndex": 0,
+      "address": "74 Saint Marks Place",
+      "street": "St. Marks Place",
+      "protectedCorner": false,
+      "state": "initial elevation/access inspection; adjacent/detail review pending",
+      "sources": [
+        "stmarks-south-55"
+      ],
+      "observations": [
+        "Broad plain gray panel/concrete facade with narrow white-framed upper windows, simple stepped parapet, pale blank ground band and low basement-window strip behind long metal railing. No escape visible."
+      ],
+      "unknown": [
+        "Tree hides central opening rhythm and right-side entrance; full schedule needs neighboring view."
+      ]
+    },
+    {
+      "faceId": "241822332:0",
+      "buildingId": 241822332,
+      "frontageIndex": 0,
+      "address": "68 Saint Marks Place",
+      "street": "St. Marks Place",
+      "protectedCorner": false,
+      "state": "initial elevation/access inspection; adjacent/detail review pending",
+      "sources": [
+        "stmarks-south-80"
+      ],
+      "observations": [
+        "Plain pink/tan brownstone with three upper rows of three tall black-grid windows above parlor, small cornice partly behind leaves. Raised black right doorway with broad flat molded lintel, 68 black on left surround; two tall parlor windows left. Broad straight brown steps with ornamental iron rails and fenced planted basement forecourt, two barred basement windows. No fire escape."
+      ],
+      "unknown": [
+        "Leaf cover hides upper cornice details and some number/door carving."
+      ],
+      "observedUpperRows": 3,
+      "observedBays": 3
+    },
+    {
+      "faceId": "241822338:0",
+      "buildingId": 241822338,
+      "frontageIndex": 0,
+      "address": "53 Saint Marks Place",
+      "street": "St. Marks Place",
+      "protectedCorner": false,
+      "state": "initial elevation/access inspection; adjacent/detail review pending",
+      "sources": [
+        "stmarks-north-130"
+      ],
+      "observations": [
+        "53 is plain warm-brown masonry/render with three narrow sash stacks, pale flat lintels and sills, tiny individual iron guards on the row above the parlor. Large parlor windows, horizontally scored lower stone and fenced planted basement edge."
+      ],
+      "unknown": [
+        "Tree/overlay conceals roof/top rows and entry; exact floor count and number placement unresolved."
+      ]
+    },
+    {
+      "faceId": "241822341:0",
+      "buildingId": 241822341,
+      "frontageIndex": 0,
+      "address": "56 St. Marks Place",
+      "street": "St. Marks Place",
+      "protectedCorner": false,
+      "state": "initial elevation/access inspection; adjacent/detail review pending",
+      "sources": [
+        "stmarks-south-130"
+      ],
+      "observations": [
+        "Wide modern buff-brick apartment facade with four upper rows, pale/aluminum window frames, lower opaque vent panels, recessed central balcony stack and flat parapet. Base clad in alternating pale horizontal stone and dark narrow bands; broad center-right stairs rise to recessed glazed residential entry, tall narrow windows either side. Basement window strip and low steel forecourt rail."
+      ],
+      "unknown": [
+        "Dense tree hides central upper grouping and fine entrance number; dimensional schedule requires oblique."
+      ],
+      "observedUpperRows": 4
+    },
+    {
+      "faceId": "248142614:0",
+      "buildingId": 248142614,
+      "frontageIndex": 0,
+      "address": "100 Saint Marks Place",
+      "street": "St. Marks Place",
+      "protectedCorner": false,
+      "state": "initial elevation/access inspection; adjacent/detail review pending",
+      "sources": [
+        "stmarks-south-east70"
+      ],
+      "observations": [
+        "Red brick four upper rows of four windows with pale molded flat lintels, horizontal bands, dark heavy cornice and central black escape. Terracotta parlor band has central brown double-height wood/glass entry with 100 white on dark horizontal transom bar; paired parlor windows each side, left barred. Broad straight red steps with dark rails. Basement right DUMPLING MAN shop dark glass/red lettering and projecting dumpling face; left barred basement opening with pale blue open canopy frame."
+      ],
+      "unknown": [
+        "Exact small door leaf divisions and basement stair count need close review."
+      ],
+      "observedUpperRows": 4,
+      "observedBays": 4
+    },
+    {
+      "faceId": "248142616:0",
+      "buildingId": 248142616,
+      "frontageIndex": 0,
+      "address": "101 Saint Marks Place",
+      "street": "St. Marks Place",
+      "protectedCorner": false,
+      "state": "initial elevation/access inspection; adjacent/detail review pending",
+      "sources": [
+        "stmarks-north-101-detail"
+      ],
+      "observations": [
+        "Rich red brick with four upper rows and six-window rhythm, ornate red pediment/scroll hoods and spandrel relief; broad rust-brown fire escape covers left/center. Raised parlor band alternates red brick and pale stone, right-of-center tall brown entry with round glazed transom; single large parlor window to right and multiple left windows. Straight red/pale stair up from pavement. Basement Cafe Mogador occupies openings either side of stoop; green fascia, pale striped canopies, wood/glass enclosures and railings."
+      ],
+      "unknown": [
+        "Fine upper carvings, number placement and leftmost unit boundary need crop."
+      ],
+      "observedUpperRows": 4,
+      "observedBays": 6
+    },
+    {
+      "faceId": "248142617:0",
+      "buildingId": 248142617,
+      "frontageIndex": 0,
+      "address": "102 Saint Marks Place",
+      "street": "St. Marks Place",
+      "protectedCorner": false,
+      "state": "initial elevation/access inspection; adjacent/detail review pending",
+      "sources": [
+        "stmarks-south-east70"
+      ],
+      "observations": [
+        "Red-brick four-window rhythm and four upper rows, low segmental red lintels, dark bracketed cornice, black central escape. Dark lower storefront, right display window reads cakes in white; narrow dark door and other glass/shutter portions left."
+      ],
+      "unknown": [
+        "Left edge obscured; separate residential number and basement access not yet resolved."
+      ],
+      "observedUpperRows": 4,
+      "observedBays": 4
+    },
+    {
+      "faceId": "248142619:0",
+      "buildingId": 248142619,
+      "frontageIndex": 0,
+      "address": "103 Saint Marks Place",
+      "street": "St. Marks Place",
+      "protectedCorner": false,
+      "state": "initial elevation/access inspection; adjacent/detail review pending",
+      "sources": [
+        "stmarks-north-east95",
+        "stmarks-north-101-detail"
+      ],
+      "observations": [
+        "Red brick broad six-window rhythm, flat pale lintels and plain parapet; five upper rows above ground, first upper row and ground have white-painted wall. Black escape on left half. Black street-level entry/storefront below tree with FOR RENT board in September 2024; black iron fence.",
+        "Adjacent ground view confirms left basement unit blue/white Anjelly sign with 103 St.Marks Place at bottom, metal shutter below; raised residential access on right via black steel stair, FOR RENT board on forecourt railing."
+      ],
+      "unknown": [
+        "Tree obscures door leaves, number and tenant lettering; leftmost extent needs adjacent view."
+      ],
+      "observedUpperRows": 5,
+      "observedBays": 6
+    },
+    {
+      "faceId": "248142620:0",
+      "buildingId": 248142620,
+      "frontageIndex": 0,
+      "address": "107 Saint Marks Place",
+      "street": "St. Marks Place",
+      "protectedCorner": false,
+      "state": "initial elevation/access inspection; adjacent/detail review pending",
+      "sources": [
+        "stmarks-north-east95",
+        "stmarks-north-east120"
+      ],
+      "observations": [
+        "Broad flat brown brick apartment facade with paired/tripled modern window assemblies, five upper rows above barred low ground windows. Pale flush lintels, small vents/AC below side panes, plain high parapet; multiple black fire escape stacks."
+      ],
+      "unknown": [
+        "Full width, number and entry are outside these views."
+      ],
+      "observedUpperRows": 5
+    },
+    {
+      "faceId": "248142622:0",
+      "buildingId": 248142622,
+      "frontageIndex": 0,
+      "address": "109 Saint Marks Place",
+      "street": "St. Marks Place",
+      "protectedCorner": false,
+      "state": "initial elevation/access inspection; adjacent/detail review pending",
+      "sources": [
+        "stmarks-north-east120",
+        "stmarks-109-high-review"
+      ],
+      "observations": [
+        "Highly ornamented pale limestone/cream facade with rusticated edge quoins, arched windows and carved spandrels; black centered fire escape. Central tall black double door with gold 109 ST. MARKS in rectangular glass transom; narrow carved floral surround. Broad straight pale steps with central iron handrail divide two low wood-and-glass tea shop projections, each with sloping striped pale metal roof. Parlor paired windows flank door with projecting iron balconies.",
+        "High-angle reinspection resolves five upper rows of three windows: lowest and fourth have round heads; second, third and top are rectangular with carved caps. Tall rectangular black double entry carries gold 109 on its high transom, flanked by parlor windows and low projecting tea-shop bays; corner quoins and horizontal relief bands are conspicuous."
+      ],
+      "unknown": [
+        "Small carved motifs and tea-shop wording remain unresolved; dimensions estimated from facade proportions."
+      ],
+      "observedUpperRows": 5,
+      "observedBays": 3
+    },
+    {
+      "faceId": "248142623:0",
+      "buildingId": 248142623,
+      "frontageIndex": 0,
+      "address": "110 Saint Marks Place",
+      "street": "St. Marks Place",
+      "protectedCorner": false,
+      "state": "initial elevation/access inspection; adjacent/detail review pending",
+      "sources": [
+        "stmarks-south-east95"
+      ],
+      "observations": [
+        "Pale buff brick, five upper rows of six windows with ornate pediment hoods and carved spandrels, dark central two-bay escape and pale cornice. Ground white storefront framing with tall transoms and several narrow glass doors; narrow black entry at right edge beside gap. East party wall exposed with tall dark painted mural/tree-like mark."
+      ],
+      "unknown": [
+        "Left edge partly cropped; shop lettering and entry number uncertain."
+      ],
+      "observedUpperRows": 5,
+      "observedBays": 6
+    },
+    {
+      "faceId": "248142625:0",
+      "buildingId": 248142625,
+      "frontageIndex": 0,
+      "address": "111 Saint Marks Place",
+      "street": "St. Marks Place",
+      "protectedCorner": false,
+      "state": "initial elevation/access inspection; adjacent/detail review pending",
+      "sources": [
+        "stmarks-north-east120"
+      ],
+      "observations": [
+        "Red brick three-bay face with pale projecting hoods and heavy ornamented dark cornice/central pediment. Black escape centered on two bays; rusticated reddish ground, windows each side of central entrance."
+      ],
+      "unknown": [
+        "Number/door and top count partly clipped."
+      ]
+    },
+    {
+      "faceId": "248142627:0",
+      "buildingId": 248142627,
+      "frontageIndex": 0,
+      "address": "113 Saint Marks Place",
+      "street": "St. Marks Place",
+      "protectedCorner": false,
+      "state": "initial elevation/access inspection; adjacent/detail review pending",
+      "sources": [
+        "stmarks-north-east145"
+      ],
+      "observations": [
+        "Facade obscured by scaffold/netting and full-width green shed. Ground dark storefront beneath shed has CRIF DOGS white lettering and projecting hot-dog sign. Number 113 visible high on door/window area left of storefront."
+      ],
+      "unknown": [
+        "Upper architecture and precise entrance geometry hidden; construction dated September 2024."
+      ]
+    },
+    {
+      "faceId": "248142628:0",
+      "buildingId": 248142628,
+      "frontageIndex": 0,
+      "address": "114 Saint Marks Place",
+      "street": "St. Marks Place",
+      "protectedCorner": false,
+      "state": "initial elevation/access inspection; adjacent/detail review pending",
+      "sources": [
+        "stmarks-south-east120"
+      ],
+      "observations": [
+        "Weathered red/buff brick, three upper rows of three windows over tall parlor row, brown flat molded lintels and bracketed dark cornice; no escape on this face. Gray/tan scored lower wall, tall right entrance reached by straight brown steps and black iron rails, parlor windows to left; basement fence below."
+      ],
+      "unknown": [
+        "Number and door leaves require nearer view."
+      ],
+      "observedUpperRows": 3,
+      "observedBays": 3
+    },
+    {
+      "faceId": "248142630:0",
+      "buildingId": 248142630,
+      "frontageIndex": 0,
+      "address": "115 Saint Marks Place",
+      "street": "St. Marks Place",
+      "protectedCorner": false,
+      "state": "initial elevation/access inspection; adjacent/detail review pending",
+      "sources": [
+        "stmarks-north-east145"
+      ],
+      "observations": [
+        "Red brick with elaborate pale window surrounds and spandrel ornament, black escape and quoins. Ground broad gray sloping awning reads AUGERS WELL over two graffiti-covered roller shutters; narrow vertical separator and no open glazing in this dated view."
+      ],
+      "unknown": [
+        "Tree obscures upper row count and some entry; adjacent viewpoint required."
+      ]
+    },
+    {
+      "faceId": "248142631:0",
+      "buildingId": 248142631,
+      "frontageIndex": 0,
+      "address": "116 Saint Marks Place",
+      "street": "St. Marks Place",
+      "protectedCorner": false,
+      "state": "initial elevation/access inspection; adjacent/detail review pending",
+      "sources": [
+        "stmarks-south-east120"
+      ],
+      "observations": [
+        "Narrow red brick face, four upper rows of three openings, pale flat lintels with decorative band and ornate dark cornice; black central fire escape. Ground left warm wooden residential entrance with glass/transom; right dark pub frontage with red-framed opening group and small gold/dark fascia."
+      ],
+      "unknown": [
+        "Tiny business wording not legible; residential number surface unclear."
+      ],
+      "observedUpperRows": 4,
+      "observedBays": 3
+    },
+    {
+      "faceId": "248142634:0",
+      "buildingId": 248142634,
+      "frontageIndex": 0,
+      "address": "118 Saint Marks Place",
+      "street": "St. Marks Place",
+      "protectedCorner": false,
+      "state": "initial elevation/access inspection; adjacent/detail review pending",
+      "sources": [
+        "stmarks-south-east120"
+      ],
+      "observations": [
+        "Light gray/white facade, four upper rows of four windows with gray flat lintels/sills and black central escape. Ground cream-and-red ROMEO’S patterned frontage: far-left narrow dark residential door with arched transom, shop has left display then red door slightly left of center with 118 in red above it and ROMEO’S higher; broad right display with red framing."
+      ],
+      "unknown": [
+        "Cornice hidden by leaves; fine decorative red motifs not fully resolved."
+      ],
+      "observedUpperRows": 4,
+      "observedBays": 4
+    },
+    {
+      "faceId": "248142636:0",
+      "buildingId": 248142636,
+      "frontageIndex": 0,
+      "address": "119 Saint Marks Place",
+      "street": "St. Marks Place",
+      "protectedCorner": false,
+      "state": "initial elevation/access inspection; adjacent/detail review pending",
+      "sources": [
+        "stmarks-north-east170"
+      ],
+      "observations": [
+        "Red brick ornate pale window hoods, swags/spandrels and edge quoins; central black escape. Ground dark HANOI HOUSE fascia and broad glass with pale vertical divisions. No.119 appears in white at fascia right."
+      ],
+      "unknown": [
+        "Upper row count and full width partly cropped."
+      ]
+    },
+    {
+      "faceId": "248142638:0",
+      "buildingId": 248142638,
+      "frontageIndex": 0,
+      "address": "120 Saint Marks Place",
+      "street": "St. Marks Place",
+      "protectedCorner": false,
+      "state": "initial elevation/access inspection; adjacent/detail review pending",
+      "sources": [
+        "stmarks-south-east145"
+      ],
+      "observations": [
+        "Pale yellow painted brick, five upper rows of four windows, white flat lintels and plain coping; very broad black escape crosses central bays with diagonal stairs. Ground dark metal grille frontage partly hidden by temporary street barricades."
+      ],
+      "unknown": [
+        "Entry number and lower configuration require detail."
+      ],
+      "observedUpperRows": 5,
+      "observedBays": 4
+    },
+    {
+      "faceId": "248142641:0",
+      "buildingId": 248142641,
+      "frontageIndex": 0,
+      "address": "121 Saint Marks Place",
+      "street": "St. Marks Place",
+      "protectedCorner": false,
+      "state": "initial elevation/access inspection; adjacent/detail review pending",
+      "sources": [
+        "stmarks-north-east170"
+      ],
+      "observations": [
+        "Broad ivory brick symmetrical facade with five upper rows, seven-window rhythm as outer paired groups and three ornate center openings; elaborate central carved vertical trim, arched hoods at lowest upper row and pediments higher. Two black escape stacks at outer groups, heavy pale cornice. Ground two shop units separated by central black residential door up two steps: MOODY TONGUE dark green fascia and glass at right, left glass double-door unit with dark canopy."
+      ],
+      "unknown": [
+        "Tree obscures top-left; fine shop lettering and residential number unreadable."
+      ],
+      "observedUpperRows": 5,
+      "observedBays": 7
+    },
+    {
+      "faceId": "248142643:0",
+      "buildingId": 248142643,
+      "frontageIndex": 0,
+      "address": "122 Saint Marks Place",
+      "street": "St. Marks Place",
+      "protectedCorner": false,
+      "state": "initial elevation/access inspection; adjacent/detail review pending",
+      "sources": [
+        "stmarks-south-east145"
+      ],
+      "observations": [
+        "Red-brick ornate six-bay tenement, five upper rows and dark bracket cornice. Central two-bay black escape; outer groups have elaborate pale frames, scroll pediments and carved spandrels on lower two upper rows, simple key hoods above. Ground central dark glass residential door up broad four-step stair, narrow iron rails; dark left shop/striped awning and right closed gray shutter beneath HOLYLAND MARKET Fine Kosher Grocery fascia with 122 St.Marks Pl at lower left."
+      ],
+      "unknown": [
+        "Tree and vehicles obscure full shop dimensions and precise residential number surface."
+      ],
+      "observedUpperRows": 5,
+      "observedBays": 6
+    },
+    {
+      "faceId": "248142649:0",
+      "buildingId": 248142649,
+      "frontageIndex": 0,
+      "address": "126 Saint Marks Place",
+      "street": "St. Marks Place",
+      "protectedCorner": false,
+      "state": "initial elevation/access inspection; adjacent/detail review pending",
+      "sources": [
+        "stmarks-south-east145"
+      ],
+      "observations": [
+        "Red-brick facade paired with 122, five upper rows and six-window rhythm with ornate outer surrounds, rusticated edge piers and dark cornice; black central escape. Dark ground shop with broad pale-striped awning."
+      ],
+      "unknown": [
+        "Left edge and residential entry mostly cropped; exact ground subdivision needs adjacent view."
+      ],
+      "observedUpperRows": 5,
+      "observedBays": 6
+    },
+    {
+      "faceId": "248142652:0",
+      "buildingId": 248142652,
+      "frontageIndex": 0,
+      "address": "128 Saint Marks Place",
+      "street": "St. Marks Place",
+      "protectedCorner": false,
+      "state": "initial elevation/access inspection; adjacent/detail review pending",
+      "sources": [
+        "stmarks-south-east170"
+      ],
+      "observations": [
+        "Pink-brown scored stone facade, four upper rows of four windows, flat pale lintels and plain stepped parapet, central black escape. Darker brown ground with barred window each side of low central black residential entrance; pale pilasters and white triangular pediment; 128 displayed at upper door/transom. Black railing around narrow front areaway."
+      ],
+      "unknown": [
+        "Basement access floor and count of treads not visible."
+      ],
+      "observedUpperRows": 4,
+      "observedBays": 4
+    },
+    {
+      "faceId": "248142655:0",
+      "buildingId": 248142655,
+      "frontageIndex": 0,
+      "address": "130 Saint Marks Place",
+      "street": "St. Marks Place",
+      "protectedCorner": false,
+      "state": "initial elevation/access inspection; adjacent/detail review pending",
+      "sources": [
+        "stmarks-south-east170"
+      ],
+      "observations": [
+        "Red brick, four upper rows of four openings; pale flat lintels, stepped low parapet, black central two-bay escape. Ground left unit metal roll-down shutter, narrow central residential glazed door, right black restaurant storefront with dark awning reading Cafe Aperitif Dinner Cocktail Bar in gold; left door within shop and right planted low display."
+      ],
+      "unknown": [
+        "Small tenant name and residential number unclear; left edge partly glare."
+      ],
+      "observedUpperRows": 4,
+      "observedBays": 4
+    },
+    {
+      "faceId": "248142686:0",
+      "buildingId": 248142686,
+      "frontageIndex": 0,
+      "address": "87 Saint Marks Place",
+      "street": "St. Marks Place",
+      "protectedCorner": false,
+      "state": "initial elevation/access inspection; adjacent detail review pending",
+      "sources": [
+        "stmarks-north-east45",
+        "stmarks-north-east20"
+      ],
+      "observations": [
+        "Wide pale-painted row-house frontage left of 93; two adjoining three-bay rhythms, with dark sash frames, moulded light lintels, bracket cornice and triangular center pediment on the right section. Raised front railings and lower fenced basement access.",
+        "April 2026 overlapping view confirms white rowhouse lower left group has two tall parlor windows and raised right door up straight black-railed stoop, dark brown basement band and low basement access at left; separate next white facade continues right."
+      ],
+      "unknown": [
+        "Left edge obscured by tree and crop; map unifies the broader 87 parcel, so its exact entrance identities and whole extent need adjacent views."
+      ]
+    },
+    {
+      "faceId": "248142687:0",
+      "buildingId": 248142687,
+      "frontageIndex": 0,
+      "address": "92 Saint Marks Place",
+      "street": "St. Marks Place",
+      "protectedCorner": false,
+      "state": "initial elevation/access inspection; adjacent/detail review pending",
+      "sources": [
+        "stmarks-south-east45"
+      ],
+      "observations": [
+        "Coral/pink facade with four upper rows of three windows, heavy green-gray lintels and ornate cornice with elevated central block. No escape visible. Dark green-gray trim continues at tall ground openings."
+      ],
+      "unknown": [
+        "Ground entrance placement and number partly cropped."
+      ],
+      "observedUpperRows": 4,
+      "observedBays": 3
+    },
+    {
+      "faceId": "248142688:0",
+      "buildingId": 248142688,
+      "frontageIndex": 0,
+      "address": "93 Saint Marks Place",
+      "street": "St. Marks Place",
+      "protectedCorner": false,
+      "state": "initial elevation/access inspection; adjacent detail review pending",
+      "sources": [
+        "stmarks-north-east45"
+      ],
+      "observations": [
+        "93 red-brick house has three upper rows: lower two have three windows, top row has outer singles flanking a central paired group. White ornate lintels/cornice, continuous sill band below top row. Raised left dark double entry in a large white pilaster/entablature surround. Two tall parlor windows right of entry. High straight stoop with ornate iron rails, fenced basement areaway and bronze plaque between parlor windows."
+      ],
+      "unknown": [
+        "Door number not legible at this distance; exact tread count, basement leaf arrangement and plaque text need close view."
+      ]
+    },
+    {
+      "faceId": "248142689:0",
+      "buildingId": 248142689,
+      "frontageIndex": 0,
+      "address": "94 Saint Marks Place",
+      "street": "St. Marks Place",
+      "protectedCorner": false,
+      "state": "initial elevation/access inspection; adjacent/detail review pending",
+      "sources": [
+        "stmarks-south-east45"
+      ],
+      "observations": [
+        "Red brick four upper rows of four windows, black flat projecting hoods, small black diamond inserts between floors and heavy dark cornice; no escape. Bright red painted Fun City Tattoo ground facade: central dark arched double entrance, rectangular display each side and blue FUN CITY letters above right window, white painted slogans at base. Raised straight central steps and basement iron rail/graffiti below."
+      ],
+      "unknown": [
+        "Tiny lettering/address not legible; precise step count needs crop."
+      ],
+      "observedUpperRows": 4,
+      "observedBays": 4
+    },
+    {
+      "faceId": "248142691:0",
+      "buildingId": 248142691,
+      "frontageIndex": 0,
+      "address": "95 Saint Marks Place",
+      "street": "St. Marks Place",
+      "protectedCorner": false,
+      "state": "initial elevation/access inspection; adjacent detail review pending",
+      "sources": [
+        "stmarks-north-east45"
+      ],
+      "observations": [
+        "95 to the right has pale painted brick, plain stepped parapet, four upper-bay positions and a black fire escape across middle two. Three upper window rows above a tall lower/parlor row, with low entry near right-center and two shallow street steps; rectangular sash windows have shallow segmental tops/flat bands."
+      ],
+      "unknown": [
+        "Rightmost extent and lower access need adjacent view; do not infer complete row counts from cropped neighbor."
+      ]
+    },
+    {
+      "faceId": "248142692:0",
+      "buildingId": 248142692,
+      "frontageIndex": 0,
+      "address": "96 Saint Marks Place",
+      "street": "St. Marks Place",
+      "protectedCorner": false,
+      "state": "initial elevation/access inspection; adjacent/detail review pending",
+      "sources": [
+        "stmarks-south-east45",
+        "stmarks-south-east70"
+      ],
+      "observations": [
+        "Buff ornate brick matching 98, four upper rows of four windows and pale blue-gray central escape. Tall decorated parapet with central arched/pediment motif; lowest upper openings round-headed. Blue-gray arched central raised entrance, elaborate pilasters/caps and two large flanking windows. Basement right green PHYSICAL GRAFFITEA frontage and left orange XING FU TANG signage; separate descending access and broad central stoop."
+      ],
+      "unknown": [
+        "Exact small door number and fine stone carving remain unreadable."
+      ],
+      "observedUpperRows": 4,
+      "observedBays": 4
+    },
+    {
+      "faceId": "248142694:0",
+      "buildingId": 248142694,
+      "frontageIndex": 0,
+      "address": "97 Saint Marks Place",
+      "street": "St. Marks Place",
+      "protectedCorner": false,
+      "state": "initial elevation/access inspection; adjacent/detail review pending",
+      "sources": [
+        "stmarks-north-east45",
+        "stmarks-north-east70"
+      ],
+      "observations": [
+        "97 is olive-grey painted masonry between pale 95 and taller 99. Segmental stone window heads, black central fire escape and stepped plain parapet. Lower green-painted commercial glazing with cream inset panels; tree obscures the middle. Cecilia lettering is visible on the left lower green panel."
+      ],
+      "unknown": [
+        "Tree conceals exact complete upper rows and entry division; number support not legible."
+      ]
+    },
+    {
+      "faceId": "248142695:0",
+      "buildingId": 248142695,
+      "frontageIndex": 0,
+      "address": "98 Saint Marks Place",
+      "street": "St. Marks Place",
+      "protectedCorner": false,
+      "state": "initial elevation/access inspection; adjacent/detail review pending",
+      "sources": [
+        "stmarks-south-east70"
+      ],
+      "observations": [
+        "Buff/brown ornate brick with four upper rows of four windows, lowest upper row round arches, elaborate pale/ochre ornament and high stepped parapet pediment; pale blue-gray full-width lower stone band, large raised arched central entrance and two flanking arched-top window surrounds. Broad central stoop and two-sided basement rails; pale blue central fire escape."
+      ],
+      "unknown": [
+        "Door number not legible; paired neighboring 96 distinction must be retained."
+      ],
+      "observedUpperRows": 4,
+      "observedBays": 4
+    },
+    {
+      "faceId": "248142696:0",
+      "buildingId": 248142696,
+      "frontageIndex": 0,
+      "address": "99 1/2 Saint Marks Place",
+      "street": "St. Marks Place",
+      "protectedCorner": false,
+      "state": "initial elevation/access inspection; adjacent/detail review pending",
+      "sources": [
+        "stmarks-north-99-oblique",
+        "stmarks-north-east70"
+      ],
+      "observations": [
+        "The mapped narrow 99½ polygon is the right part of the same tall pale-buff elevation as 99, not the small low projection initially suspected. Right two bays continue five upper rows, segmental lintels and parapet. Basement colorful framed storefront to right of East Village Books, with dark recessed entry at right, lies below this part."
+      ],
+      "unknown": [
+        "Right shop lettering not readable; shared fire escape crosses mapped ownership boundary."
+      ],
+      "observedUpperRows": 5,
+      "observedBays": 2
+    },
+    {
+      "faceId": "248142698:0",
+      "buildingId": 248142698,
+      "frontageIndex": 0,
+      "address": "99 Saint Marks Place",
+      "street": "St. Marks Place",
+      "protectedCorner": false,
+      "state": "initial elevation/access inspection; adjacent/detail review pending",
+      "sources": [
+        "stmarks-north-east70",
+        "stmarks-north-99-oblique"
+      ],
+      "observations": [
+        "99 and mapped 99½ form one continuous pale buff tenement elevation across two mapped polygons, five upper rows above basement, six-window combined rhythm. Three pale segmental hoods/coping steps with broad central dark escape. 99 owns left approximately four bays and black low residential door carrying gold 99; yellow EAST VILLAGE BOOKS sign over basement shop toward right of its part."
+      ],
+      "unknown": [
+        "Physical facade continuous; exact internal ownership cut estimated from source footprints. Door leaf fine detail and minor lettering remain unreadable."
+      ],
+      "observedUpperRows": 5,
+      "observedBays": 4
+    },
+    {
+      "faceId": "248142706:0",
+      "buildingId": 248142706,
+      "frontageIndex": 0,
+      "address": "132 Saint Mark's Place",
+      "street": "St. Marks Place",
+      "protectedCorner": false,
+      "state": "initial elevation/access inspection; adjacent/detail review pending",
+      "sources": [
+        "stmarks-south-east185"
+      ],
+      "observations": [
+        "Broad red-brick corner, five upper rows, paired center windows and single end bays, pale keyblock/arched hoods and carved panels beneath a heavy dark cornice. Central black escape. Ground facade is densely painted/graffiti-covered, warm wood folding-window/door groups with narrow glass leaves, dark fascia similarly painted. Black metal residential entrance is set in a narrow red lower projection at far right, separated from next tall building by a visible narrow gap."
+      ],
+      "unknown": [
+        "Precise window schedule/number and Avenue A return need straight-on view."
+      ],
+      "observedUpperRows": 5
+    },
+    {
+      "faceId": "248142709:1",
+      "buildingId": 248142709,
+      "frontageIndex": 1,
+      "address": "131 Avenue A",
+      "street": "St. Marks Place",
+      "protectedCorner": false,
+      "state": "initial elevation/access inspection; adjacent/detail review pending",
+      "sources": [
+        "stmarks-north-east185"
+      ],
+      "observations": [
+        "Pale buff/ivory brick corner, five upper rows; seven opening positions with center triple ornamental group and outer paired groups. Carved pale pediments/spandrels, lower-row curved key hoods and large pale cornice; black escape on left outer windows. Ground dark bronze/brown framed commercial glazing split into units, white STARBUCKS on fascia at corner right and round blade logo; recessed glass corner entry."
+      ],
+      "unknown": [
+        "Avenue A return, exact entry number and left-unit identity need separate views."
+      ],
+      "observedUpperRows": 5,
+      "observedBays": 7
+    },
+    {
+      "faceId": "248142711:0",
+      "buildingId": 248142711,
+      "frontageIndex": 0,
+      "address": "134 1st Avenue",
+      "street": "St. Marks Place",
+      "protectedCorner": false,
+      "state": "initial elevation/access inspection; adjacent/detail review pending",
+      "sources": [
+        "stmarks-north-east20"
+      ],
+      "observations": [
+        "Narrow red-brick corner face, four upper rows of three windows, pale curved/molded hoods, rusticated edges and ornate cream cornice with low center pediment; no escape on this face. Dark ground fascia reads GOODNIGHT SONNY, striped olive/black awning and closed dark roller shutters; corner wraps restaurant frontage."
+      ],
+      "unknown": [
+        "Number not visible; closed shutter conceals entry layout."
+      ],
+      "observedUpperRows": 4,
+      "observedBays": 3
+    },
+    {
+      "faceId": "248142712:1",
+      "buildingId": 248142712,
+      "frontageIndex": 1,
+      "address": "132 1st Avenue",
+      "street": "St. Marks Place",
+      "protectedCorner": false,
+      "state": "initial elevation/access inspection; adjacent/detail review pending",
+      "sources": [
+        "stmarks-south-east20"
+      ],
+      "observations": [
+        "Red-brick long corner return, four upper rows with single left window and central paired windows; broad blind brick right section retains vertical pilaster/recess pattern. Heavy dark cornice with raised middle part, black escape over center pair. Ground taupe wall and black/cream striped awning, bank of white mullioned/shuttered windows plus glazed corner door; black accessible ramp/rail turns at corner. HVAC boxes at left."
+      ],
+      "unknown": [
+        "Far-left return entry partly cropped and address unreadable."
+      ],
+      "observedUpperRows": 4,
+      "observedBays": 3
+    },
+    {
+      "faceId": "248142717:0",
+      "buildingId": 248142717,
+      "frontageIndex": 0,
+      "address": "",
+      "street": "St. Marks Place",
+      "protectedCorner": false,
+      "state": "initial elevation/access inspection; adjacent/detail review pending",
+      "sources": [
+        "stmarks-south-east95"
+      ],
+      "observations": [
+        "Low red-brick combined property directly west of painted vacant-site edge, two upper rows over parlor; pale flat lintels, white window frames, plain shallow parapet. Raised dark door at left edge carries small gold number appearing 106; straight dark stoop, black forecourt rail. Front window groups mix singles and broad paired panes."
+      ],
+      "unknown": [
+        "Whole double-parcel width and confirmed 104/106 ownership require overlapping view; do not accept camera label 103 as facade identity."
+      ],
+      "observedUpperRows": 2
+    },
+    {
+      "faceId": "241822164:1",
+      "buildingId": 241822164,
+      "frontageIndex": 1,
+      "address": "132 2nd Avenue",
+      "street": "Second Avenue",
+      "protectedCorner": false,
+      "state": "initial elevation/access inspection; adjacent/detail review pending",
+      "sources": [
+        "stmarks-second-north-return"
+      ],
+      "observations": [
+        "Ornate buff-brick five-upper-row Second Avenue face of same corner, pale carved window surrounds, rusticated corner quoins and deep green bracket cornice wrapping St. Marks; central black escape. Cafe maud ground has dark green fascia, warm peach/cream wall and round-headed wood-framed openings, outdoor small tables and orange parasols."
+      ],
+      "unknown": [
+        "Oblique view does not resolve full window count; exact number and entrance leaves need straight-on detail."
+      ],
+      "observedUpperRows": 5
+    },
+    {
+      "faceId": "241822219:0",
+      "buildingId": 241822219,
+      "frontageIndex": 0,
+      "address": "83 Saint Marks Place",
+      "street": "First Avenue",
+      "protectedCorner": false,
+      "state": "initial elevation/access inspection; adjacent/detail review pending",
+      "sources": [
+        "stmarks-first-nw-avenue"
+      ],
+      "observations": [
+        "Long red brick avenue return with only central paired windows on four upper rows; matching window-shaped infilled recesses at left, large blank right wall and pale vertical graffiti. Small plain coping. Black central escape. Ground left Stromboli Pizza red fascia and glazed display/bar, center narrow dark residential door, right white CAMINO fascia and white-frame shop with outdoor stools."
+      ],
+      "unknown": [
+        "Fine number/tenant font detail not readable."
+      ],
+      "observedUpperRows": 4,
+      "observedBays": 2
+    },
+    {
+      "faceId": "241822226:0",
+      "buildingId": 241822226,
+      "frontageIndex": 0,
+      "address": "115 1st Avenue",
+      "street": "East 7th Street",
+      "protectedCorner": true,
+      "state": "needs-evidence",
+      "sources": [],
+      "observations": [],
+      "unknown": [
+        "Not yet inspected in this task."
+      ]
+    },
+    {
+      "faceId": "241822290:0",
+      "buildingId": 241822290,
+      "frontageIndex": 0,
+      "address": "38 Saint Marks Place",
+      "street": "Second Avenue",
+      "protectedCorner": false,
+      "state": "initial elevation/access inspection; adjacent/detail review pending",
+      "sources": [
+        "stmarks-second-south-return"
+      ],
+      "observations": [
+        "Short Second Avenue return of low buff-brick corner, black base; tall double-height gridded corner glass entrance and vertical metal framing, upper window group with ribbed spandrel matching St. Marks face. One narrow low corner-side window."
+      ],
+      "unknown": [
+        "Tree hides return edge; neighboring restaurant frontage must not be folded into this parcel."
+      ]
+    },
+    {
+      "faceId": "248142706:1",
+      "buildingId": 248142706,
+      "frontageIndex": 1,
+      "address": "132 Saint Mark's Place",
+      "street": "Avenue A",
+      "protectedCorner": false,
+      "state": "initial elevation/access inspection; adjacent/detail review pending",
+      "sources": [
+        "stmarks-a-south-return"
+      ],
+      "observations": [
+        "Narrow red corner return with five upper rows, left paired window plus two singles on each row, pale heavy keyblock/arched hoods and dark cornice; no fire escape on this face. Ground painted/graffiti-covered base with left folding wood-framed window group and narrow right wood/glass entrance; projecting dark bar sign at corner, visible BAR AL PASTOR lettering."
+      ],
+      "unknown": [
+        "Exact tiny entrance numbers not readable."
+      ],
+      "observedUpperRows": 5,
+      "observedBays": 4
+    },
+    {
+      "faceId": "248142707:0",
+      "buildingId": 248142707,
+      "frontageIndex": 0,
+      "address": "118 1st Avenue",
+      "street": "East 7th Street",
+      "protectedCorner": true,
+      "state": "needs-evidence",
+      "sources": [],
+      "observations": [],
+      "unknown": [
+        "Not yet inspected in this task."
+      ]
+    },
+    {
+      "faceId": "248142709:0",
+      "buildingId": 248142709,
+      "frontageIndex": 0,
+      "address": "131 Avenue A",
+      "street": "Avenue A",
+      "protectedCorner": false,
+      "state": "initial elevation/access inspection; adjacent/detail review pending",
+      "sources": [
+        "stmarks-a-north-return"
+      ],
+      "observations": [
+        "Broad pale/ivory avenue face with five upper rows, symmetrical outer paired and inner triple window groups, small oval windows between center and ornamented side groups on middle rows; centered black escape. Carved pale hoods, horizontal bands and swags continue around corner. Ground Starbucks left half dark-framed broad glazing; narrow central black residential entrance has gold 131 above door; right separate wood-front small shop/bar with purple fabric over one pane, and narrow far-right white-fascia storefront."
+      ],
+      "unknown": [
+        "Tree obscures exact center window/oval sequence and uppermost cornice; right shop lettering unreadable."
+      ],
+      "observedUpperRows": 5
+    },
+    {
+      "faceId": "248142711:1",
+      "buildingId": 248142711,
+      "frontageIndex": 1,
+      "address": "134 1st Avenue",
+      "street": "First Avenue",
+      "protectedCorner": false,
+      "state": "initial elevation/access inspection; adjacent/detail review pending",
+      "sources": [
+        "stmarks-first-ne-avenue"
+      ],
+      "observations": [
+        "Long red-brick corner face with four upper rows, nine aligned window positions (one bricked-up stack second from corner/right). Pale molded lintels, rusticated edge quoins and cream bracket cornice; two black escape stacks. Ground large dark restaurant with striped olive/brown awnings, dark folding-window/door divisions and sidewalk tables, planters and chairs; narrow residential doorway left of restaurant beneath curved dark lintel; far-left red/white VILLAGE CRAFT BEER & SMOKE frontage."
+      ],
+      "unknown": [
+        "Confirm unit ownership at northern edge against exact mapped length; entrance numeral unreadable."
+      ],
+      "observedUpperRows": 4,
+      "observedBays": 9
+    }
+  ],
+  "siteEdges": [
+    {
+      "id": "stmarks-108-site",
+      "sourceRangeX": [
+        93.489,
+        101.459
+      ],
+      "side": "south",
+      "sources": [
+        "stmarks-south-east95"
+      ],
+      "observations": [
+        "Open gap between low 104/106 property and tall 110, with low street wall: blue left panel painted giraffe, broad black shutter with PUNK IS NOT DEAD lettering, narrow right colorful painted gate/panel. No tall facade across this gap."
+      ],
+      "unknown": [
+        "Exact street number requires confirmation; working 108 follows neighboring sequence. Hidden rear extent unknown."
+      ],
+      "geometryState": "authored local geometry; final source-to-game review pending"
+    }
+  ],
+  "streetObservations": [
+    {
+      "id": "stmarks-second-intersection",
+      "sources": [
+        "stmarks-second-south-return"
+      ],
+      "observations": [
+        "Green St Marks Pl street blade on galvanized pole, yellow traffic/pedestrian signal and paired ONE WAY signs below; white crosswalk/turn arrows; curb tree pit, stickered utility cabinets, rounded mailbox and litter basket."
+      ],
+      "dimensions": "Position/size to be authored estimates from mapped intersection, not surveyed."
+    },
+    {
+      "id": "stmarks-a-intersection",
+      "sources": [
+        "stmarks-a-south-return",
+        "stmarks-a-north-return",
+        "stmarks-south-east185"
+      ],
+      "observations": [
+        "Zebra crosswalks at St. Marks/Avenue A, white bicycle marking on avenue, gray signal/lamp poles with yellow heads and pedestrian controls. Black hydrant and short protective bollards on southwest corner, stickered utility boxes, black litter bin. Rectangular iron-fenced tree pits along St. Marks."
+      ],
+      "dimensions": "Mapped placement plus authored visual estimates; no survey."
+    }
+  ]
+}

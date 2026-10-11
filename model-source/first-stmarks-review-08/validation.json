@@ -1,0 +1,49 @@
+{
+  "date": "2026-10-11",
+  "pck": {
+    "bytes": 94003244,
+    "sha256": "570ebb253734e69b6eca32002e53b6172ab71ca4f24cf1d8a489fb8ea0d672b8",
+    "brotliBytes": 84931395
+  },
+  "packageFiles": 14,
+  "sourceHashes": 92,
+  "originalVerification": "legacy-verify.log",
+  "packageVerification": "seventh-verify.log",
+  "nativeChecks": "handling/address/cameras, before final facade-only correction; same gameplay sources",
+  "browserFinalPackageChecks": {
+    "final-repairs-captures": {
+      "complete": true,
+      "pckMatchesFinal": true,
+      "errors": 0,
+      "failedResponses": 0
+    },
+    "final-routes-complete": {
+      "complete": true,
+      "pckMatchesFinal": true,
+      "errors": 0,
+      "failedResponses": 0
+    },
+    "final-obliques": {
+      "complete": true,
+      "pckMatchesFinal": true,
+      "errors": 0,
+      "failedResponses": 0
+    },
+    "final-driving-views": {
+      "complete": true,
+      "pckMatchesFinal": true,
+      "errors": 0,
+      "failedResponses": 0
+    },
+    "final-performance-focused": {
+      "complete": true,
+      "pckMatchesFinal": true,
+      "errors": 0,
+      "failedResponses": 0
+    }
+  },
+  "markdownRelativeLinksChecked": 363,
+  "syntax": "Four changed Python modules and three browser review JS files parsed; git diff --check passed.",
+  "publication": "No fetch, push, CI or deployment requested/performed.",
+  "acceptance": "Local reviewed candidate; no user endorsement or calibrated photographic acceptance."
+}

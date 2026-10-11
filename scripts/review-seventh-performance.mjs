@@ -49,7 +49,7 @@ on('Runtime.exceptionThrown',event=>report.errors.push(event.exceptionDetails));
 on('Runtime.consoleAPICalled',event=>{if(['error','warning'].includes(event.type))report[event.type==='error'?'errors':'warnings'].push(event.args.map(arg=>arg.value||arg.description||'').join(' '));});
 on('Network.responseReceived',event=>{if(event.response.status>=400)report.failedRequests.push([event.response.status,event.response.url]);});
 async function sample(name,seconds){
-  const value=await evaluate(`new Promise(resolve=>{const start=performance.now(),first=seventhStats.frames,firstTick=seventhStats.tickMs,times=[],counts=[];let last;function tick(t){if(last)times.push(t-last);last=t;counts.push({...seventhStats});if(t-start<${seconds*1000})requestAnimationFrame(tick);else{times.sort((a,b)=>a-b);resolve({name:${JSON.stringify(name)},seconds:(t-start)/1000,frames:seventhStats.frames-first,counterMs:seventhStats.tickMs-firstTick,rafFps:times.length*1000/(t-start),p95Ms:times[Math.floor(times.length*.95)],drawCalls:counts.reduce((sum,current)=>sum+current.drawCalls,0)/counts.length,triangles:counts.reduce((sum,current)=>sum+current.triangles,0)/counts.length,final:{...seventhStats}})}}requestAnimationFrame(tick)})`);
+  const value=await evaluate(`new Promise(resolve=>{const start=performance.now(),first=seventhStats.frames,firstTick=seventhStats.tickMs,times=[],counts=[],visibility=new Set();let last;function tick(t){visibility.add(document.visibilityState);if(last)times.push(t-last);last=t;counts.push({...seventhStats});if(t-start<${seconds*1000})requestAnimationFrame(tick);else{times.sort((a,b)=>a-b);resolve({name:${JSON.stringify(name)},seconds:(t-start)/1000,frames:seventhStats.frames-first,counterMs:seventhStats.tickMs-firstTick,rafFps:times.length*1000/(t-start),p95Ms:times[Math.floor(times.length*.95)],maxFrameGapMs:times.at(-1),visibility:[...visibility],drawCalls:counts.reduce((sum,current)=>sum+current.drawCalls,0)/counts.length,triangles:counts.reduce((sum,current)=>sum+current.triangles,0)/counts.length,final:{...seventhStats}})}}requestAnimationFrame(tick)})`);
   value.renderFps=value.frames*1000/value.counterMs;
   report.samples.push(value);console.log(JSON.stringify(value));
 }
@@ -65,7 +65,7 @@ try{
   await send('Page.navigate',{url});
   await until('window.seventhStats?.ready && document.getElementById("loading").hidden');
   report.startup=await evaluate('({readyMs:seventhReadyMs,resources:performance.getEntriesByType("resource").map(resource=>({path:new URL(resource.name).pathname,bytes:resource.transferSize,durationMs:resource.duration})),stats:seventhStats})');
-  assert.equal((await stats()).buildings,182);
+  assert.equal((await stats()).buildings,build.buildings);
   await tap('Enter');assert.equal((await stats()).started,true);
   while((await stats()).weather!==0)await tap('t');
   while((await stats()).camera!==0)await tap('c');

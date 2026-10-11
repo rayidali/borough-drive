@@ -55,7 +55,7 @@ try {
   await send('Page.navigate',{url});
   await until('window.seventhStats?.ready && document.getElementById("loading").hidden');
   report.startup=await evaluate('({readyMs:seventhReadyMs,resources:performance.getEntriesByType("resource").map(r=>({path:new URL(r.name).pathname,bytes:r.transferSize,durationMs:r.duration})),stats:seventhStats})');
-  assert.equal((await stats()).buildings,182);
+  assert.equal((await stats()).buildings,report.build.buildings);
   await screenshot('title');
   await tap('Enter');assert.equal((await stats()).started,true);
   // Normalize to golden hour/chase through actual controls, including saved settings.

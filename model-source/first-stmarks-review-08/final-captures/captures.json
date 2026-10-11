@@ -1,0 +1,2862 @@
+{
+  "date": "2026-10-11T19:08:33.140Z",
+  "scope": "Scheduled First Avenue / St. Marks faces only",
+  "build": {
+    "schema": 1,
+    "builtAt": "2026-10-11T19:06:20.802Z",
+    "engine": "Godot 4.7.2",
+    "renderer": "Compatibility / WebGL 2",
+    "threaded": false,
+    "buildings": 203,
+    "sourceCommit": "c76dccebc143960498d21eeab8c55c2d0dbcc5ce",
+    "geographySha256": "fd61b108e80eab18d477686b677413ef565f1ab16edc26170751347e22651a5c",
+    "files": {
+      "DAMION-OFL.txt": {
+        "bytes": 4389,
+        "sha256": "4aeb831b7b6ab653dca84308e576613059c598696aa2dc83192ab6117b24a5fa"
+      },
+      "INTER-OFL.txt": {
+        "bytes": 4380,
+        "sha256": "262481e844521b326f5ecd053e59b98c8b2da78c8ee1bdbb6e8174305e54935a"
+      },
+      "InterVariable.woff2": {
+        "bytes": 352240,
+        "sha256": "693b77d4f32ee9b8bfc995589b5fad5e99adf2832738661f5402f9978429a8e3"
+      },
+      "LICENSE.txt": {
+        "bytes": 1097,
+        "sha256": "d698c1c978070d4305be75e60e904f6f54715f003fe248a23bf8b3ee0ca07134"
+      },
+      "credits.txt": {
+        "bytes": 3289,
+        "sha256": "4ae0affa1819eaf17d6409b32c3bbfc19ef36fde0d5aef5a3e1a90df296d4e2e"
+      },
+      "drivearound-logo.png": {
+        "bytes": 80463,
+        "sha256": "9156dec61cc0ab10adb5b471e7f80d77d4e79102c2a4069e09227f93462f5448"
+      },
+      "godot-notices.txt": {
+        "bytes": 87732,
+        "sha256": "96b99d808a955ca39a6a8db9b93b3c04d012d1d71109c9e1dd8af85f00eeeb98"
+      },
+      "index.audio.position.worklet.js": {
+        "bytes": 2973,
+        "sha256": "be33985bc7160d6bf9646f259cd86b259cd67b02ccb297ee5c44f8ac84327bc8"
+      },
+      "index.audio.worklet.js": {
+        "bytes": 7298,
+        "sha256": "5b476a9c9ce642c0ee4256436d1bc31d9c38f868aca0f9a8e2a57c18d2dec2a3"
+      },
+      "index.html": {
+        "bytes": 9845,
+        "sha256": "2535e65652b029568bc5eb13e65cfcf8ebf7c5ca823aca0f3da1f9442313eda1"
+      },
+      "index.js": {
+        "bytes": 279815,
+        "sha256": "33c94cb3175f3333b82e2a3be5e8e86f77986f0aa2042b1631f6367a4e5bb6ba"
+      },
+      "index.pck": {
+        "bytes": 93950684,
+        "sha256": "b7eaa8a71cfe370e6f3d69a539e26a5425a1664fa49487e5e690f9506d054357",
+        "brotliBytes": 84874941
+      },
+      "index.png": {
+        "bytes": 21443,
+        "sha256": "3cb4495c0b98dfbe4b663cbf2b6836473572339beb66d902367893162a70be0e"
+      },
+      "index.wasm": {
+        "bytes": 39514754,
+        "sha256": "fc74679e3b97f76878947fcd4fbe1268cbfa6188182a2e33bbc3f5dc9bfa57d0",
+        "brotliBytes": 8182023
+      }
+    },
+    "sources": {
+      "engine/first-seventh/assets/audio/cornerlight.wav": "25e74f3f7d782323220af9ca8f41fe196ecf30355b77424b6bcd3c399cb9134e",
+      "engine/first-seventh/assets/audio/cornerlight.wav.import": "fd5f7ed95ed31620af2e488521190f1380ba88cc5c9c49f417556de5283777d1",
+      "engine/first-seventh/assets/audio/engine-coast.wav": "fc8fd78f33021d261377a51a0e53526648d12f052a06734c6f7bc0bd00aca740",
+      "engine/first-seventh/assets/audio/engine-coast.wav.import": "2a420089cb0f5e34318414d20678557e470d930372a7e7b3b7f9d7e4a317be3d",
+      "engine/first-seventh/assets/audio/engine-idle.wav": "b914dc2baf867b7115ebb10cbb830ab27f6da9559110a3cd71c8aa5c1f583550",
+      "engine/first-seventh/assets/audio/engine-idle.wav.import": "5a887ee72b701d3d67729c4531540daace46221a1e28f7b8c705d405c87df44c",
+      "engine/first-seventh/assets/audio/engine-load.wav": "6ab1a1203a4a15a5e7c4a3cbe3240dd9a7986fb4031b21d366991527357116b6",
+      "engine/first-seventh/assets/audio/engine-load.wav.import": "f11e99702f4ac029273cd6bfcb76e53ca8ca27e0714fb9371f85e249e367b7ac",
+      "engine/first-seventh/assets/audio/impact.wav": "60ac6a81a97c01eb363cec6f62c020c66970f31f0a175d870c270060820860dd",
+      "engine/first-seventh/assets/audio/impact.wav.import": "f0d61f82267eed97ea8e360d61e07612915a1d21885a1c55ec6ac295426302c3",
+      "engine/first-seventh/assets/audio/rain.wav": "371be06535d635590c9c5f44528f17806265de885e0daaaba7f4f41e802d9111",
+      "engine/first-seventh/assets/audio/rain.wav.import": "830b6262c52c97a8cf659dcae8d31b436daf47df4b3b5a827a8186f07f8e2ce5",
+      "engine/first-seventh/assets/audio/road.wav": "f1a25770ea0d98e8f9b6a594a9d1d2b5426089036ddc86730652e6859bfca42c",
+      "engine/first-seventh/assets/audio/road.wav.import": "a79ba0601825c5fc01b589e893a7a735786cc4fc736d3c6bec657d6f2f51e2bc",
+      "engine/first-seventh/assets/audio/tires.wav": "b66574c0f6934a85bdee5b0842667dda7250b98693807ef46f9d6e426fc179a2",
+      "engine/first-seventh/assets/audio/tires.wav.import": "6255e82a47207e8eabe22e509fec9e8cb6d82340c11d6c76713a157bb4ce345e",
+      "engine/first-seventh/assets/brand/drivearound-logo.png": "9156dec61cc0ab10adb5b471e7f80d77d4e79102c2a4069e09227f93462f5448",
+      "engine/first-seventh/assets/brand/drivearound-logo.png.import": "6adb8ca30681fbb1fc94657317fa6b433aca03305664fa51cc7770c7d2876645",
+      "engine/first-seventh/assets/credits.txt": "4ae0affa1819eaf17d6409b32c3bbfc19ef36fde0d5aef5a3e1a90df296d4e2e",
+      "engine/first-seventh/assets/fonts/INTER-OFL.txt": "262481e844521b326f5ecd053e59b98c8b2da78c8ee1bdbb6e8174305e54935a",
+      "engine/first-seventh/assets/fonts/InterVariable.ttf": "4989b125924991b90d05b2d16e0e388c48f7d5bb8b30539bbf9c755278d0ccaf",
+      "engine/first-seventh/assets/fonts/InterVariable.ttf.import": "608295b5dcece46082f83470307d9757145081e719109a4d4a7f37b494cd4e74",
+      "engine/first-seventh/assets/fonts/InterVariable.woff2": "693b77d4f32ee9b8bfc995589b5fad5e99adf2832738661f5402f9978429a8e3",
+      "engine/first-seventh/assets/fonts/InterVariable.woff2.import": "0568aa77832669aadd728e2dacdb6f59327433fa4710673fcc93f96490e82bbe",
+      "engine/first-seventh/assets/slice.json": "5305f7037c810972bcdb11bfceee8d1e5e8197f06648e7e4e5c019ccd0bafe27",
+      "engine/first-seventh/assets/surfaces/concrete_wall_006_diff_1k.jpg": "fea247dd085cd05d8deb335234c834764d622029da351f8bcc8913935316bacd",
+      "engine/first-seventh/assets/surfaces/concrete_wall_006_diff_1k.jpg.import": "86cb4a30d395f5d755478389def71c133918d1cb4fbe8cabf91665ab8e05ffde",
+      "engine/first-seventh/assets/surfaces/concrete_wall_006_nor_gl_1k.jpg": "4ff16bb96fc2df3ef71d22007151aff1d8bf7cb10a493d3f8e973213a99dd428",
+      "engine/first-seventh/assets/surfaces/concrete_wall_006_nor_gl_1k.jpg.import": "ce3fd08785570bec136acddbf9bf4ce69b6e1090475e54940c687c5d0e247bf2",
+      "engine/first-seventh/assets/surfaces/red_brick_03_diff_1k.jpg": "9c58254c099b2d211478f50a427fcdde622af24249ff2e94da41fb836f8c857f",
+      "engine/first-seventh/assets/surfaces/red_brick_03_diff_1k.jpg.import": "e77d7e5dca366fafc2e4572aec4b1b7f971628b64c5836825bf151a31c308f30",
+      "engine/first-seventh/assets/surfaces/red_brick_03_nor_gl_1k.jpg": "9bfd45e24720d851017c1e1678b70219c72239b2ac6b25e11d57d458bdab8503",
+      "engine/first-seventh/assets/surfaces/red_brick_03_nor_gl_1k.jpg.import": "e4851b33d07c7e9d0b829f7699d35822e74d3da2c50228781f2f3367746eaa3e",
+      "engine/first-seventh/assets/surfaces/white_bricks_diff_1k.jpg": "a1483d99ea1ca6e23adce0ba4ad1a1ba0e586e76cafd1979c826424916cb03c4",
+      "engine/first-seventh/assets/surfaces/white_bricks_diff_1k.jpg.import": "13d0a1946b85ea8e72e6412e822e66fdab92e6cd1c2f473c72a296fd7a994e9c",
+      "engine/first-seventh/assets/surfaces/white_bricks_nor_gl_1k.jpg": "e2159482d8dec6db0c617b5d8313d01ac5dca23c642354331c1c5b4664d1728e",
+      "engine/first-seventh/assets/surfaces/white_bricks_nor_gl_1k.jpg.import": "3c5854cb19adeb6fc8ed209db33178ef502d3e5bcaf49c2ff2f816557af062ee",
+      "engine/first-seventh/assets/west_seventh_streetscape.json": "f65c8d4e8e77cbe0202d1b4c9e6fdb3b8233a6d91778f541b09de988d5c4a88b",
+      "engine/first-seventh/export_presets.cfg": "de830db6e0808164dba6f22f4cfceee803f4d56d002c7e9bdd87b395609de38b",
+      "engine/first-seventh/project.godot": "71a99956d6b337e274d693ea40aadf5ee3ffbc595b21be5509426189fb952675",
+      "engine/first-seventh/scenes/main.tscn": "36b1ee7da0776608f1933cf39d31d5d928b160da1f474fcedac7a5f9f3e67e3a",
+      "engine/first-seventh/scripts/address_locator.gd": "67039770c035bcc663c9bd9d8f4bb35d6778a57264f68429e994572b551e2d2f",
+      "engine/first-seventh/scripts/cameras.gd": "41bee5dc1557b8220549bcfb6d7fb663c0dab996388cd61599e5158a7932f2fa",
+      "engine/first-seventh/scripts/car.gd": "af3cbe86cf9768161b76d46364a41726e0f277554bf6222cb5e1d846dd8b190d",
+      "engine/first-seventh/scripts/car_audio.gd": "21c2003f12e9afe16b0d08f6c7532b011ae67585aa0e0a116bf243bcc2b0af50",
+      "engine/first-seventh/scripts/east_seventh_detail.gd": "590ce47680ea2aafce44286a0ad05bff9c4125df0fb22f4b12e71e64527aab95",
+      "engine/first-seventh/scripts/export_credits.gd": "b6e415b08e93abdeb7ac41976a74210de5a6db00f221fb48fd3f1a94725f076b",
+      "engine/first-seventh/scripts/first_stmarks_detail.gd": "f950a461cfcc4004cb570b5bf14372fc5d89d6cdce8113b2b97b73aeaae407ad",
+      "engine/first-seventh/scripts/handling.gd": "f421fb6ba97f937db1b50bdb2488138997fb3a69882f69f9f7b3ce3d85e67518",
+      "engine/first-seventh/scripts/hud.gd": "4ced53732bf274b09c441f27db133ff0208acab704e3ebf59c24a9e7a912900e",
+      "engine/first-seventh/scripts/main.gd": "77b64b51fe7278836b03d603742e7cf02ff3fa7c26f08e2af4bab077b04304b3",
+      "engine/first-seventh/scripts/minimap.gd": "fe97467d38921f80fbed32ff0b5fffd038ab2190d77a04a0c07a89337c41a83e",
+      "engine/first-seventh/scripts/shapes.gd": "d825a4be3f13bd833322e4ee1bc3477046994bd6ee434da2b07c87d60288fc15",
+      "engine/first-seventh/scripts/street_detail.gd": "f5c2b49a57dc75c4adc532a1df26883853902245b5fd7fdc4392e0c9b0ae4d73",
+      "engine/first-seventh/scripts/tire_effects.gd": "bcbfa5e84c38d4a2a7b3cf74a1544c5dbca451e63fed41d1afc1a96306415026",
+      "engine/first-seventh/scripts/weather.gd": "b9ae9e0d1771f69f0142ae49cfceae7b7672820d5711bf7551a7ebf62a985bd8",
+      "engine/first-seventh/scripts/world.gd": "696118489da569f9286e507f3e1ae72753f96f8d84767d91f20b0b4af740f6f0",
+      "engine/first-seventh/shaders/film.gdshader": "f1633072e86da2ee3c9f771009c69e8b2d5c8a9f829e2178e94fb6f4f63e0e42",
+      "engine/first-seventh/shaders/foliage.gdshader": "4dab411186d82b31b99c89036f100ede2c8aa1d8233076fe31f77aecd15c6214",
+      "engine/first-seventh/shaders/paint.gdshader": "70651010ecd19513690d2d5beb69cfc99685fc6ffbdcad1d97b8725ab77bd4f3",
+      "engine/first-seventh/shaders/road.gdshader": "86a6fc77ec8db974af7722cd6f8779a99c7cd7afa1b756b99cddf8e2e4b23ea1",
+      "engine/first-seventh/shaders/sidewalk.gdshader": "48b744cdc85df84b47ca63f906fdf5981004b43135b8659bf105012b340fbb12",
+      "engine/first-seventh/shaders/sky.gdshader": "b55915fc5d5e0df055eec96f1369c93235d529f8a322d19ed175f80de08f39a5",
+      "engine/first-seventh/shaders/tire_marks.gdshader": "6f5f96e7ff361bd8ac2e18bb9da3284e1fcfccb40994c3b40ae74a9048ee63c5",
+      "engine/first-seventh/tests/address_locator.gd": "830fa769510cf07de9cbf8ef44a2dc0545d7540661a1c8cc70a86562d9c7fb93",
+      "engine/first-seventh/tests/cameras.gd": "594d63915ee5123387a98742e2630bb24a5fd3c860751c6b73afa69063aed6b4",
+      "engine/first-seventh/tests/handling.gd": "a1aabddf6e9dcecdc97c942025c2b13fdd316d3302575c4481843864d039be7e",
+      "engine/first-seventh/web/shell.html": "60e9c60be19838cef65ce68dc36cf68876f8711f827fe17c5c896f08faba11f5",
+      "model-source/export_seventh_engine.py": "07a60e17945aee1572236be76c47445ffa901d45d87f646399e2fa8d16d408bf",
+      "model-source/seventh_street_kit.py": "1d8db3bbc8dceab0ba23b558a06e57d75f7a2e1ccc3ba05ef4e3f470c7fbe0da",
+      "model-source/seventh_fidelity_kit.py": "29bc7a804fd639e546fefb6844d724bf60c2ee22270c6b2a57bc7d9c76d235e7",
+      "model-source/build_neighborhood.py": "96582aa9e4b995573c31b83067879d45efd326c190478473f6cd4160f27f81be",
+      "model-source/build_intersection.py": "ff42784487c1eb8f036d400a37674c2fef4f02307119a9963a875a81555465b0",
+      "model-source/neighborhood_detail_kit.py": "6d4331d82f360a883565c0b2e0a21b44e21b159080494b788569edf6a6c8fc0f",
+      "model-source/storefront_detail_kit.py": "ab6d199c0a69e26a92b2ba208fc5f4522339e26192aee13a5b792583996422ce",
+      "model-source/neighborhood_landmarks.py": "7e8c48c9fc5f233d5eaa10b0bffe24f29b0f85e9cf76ca44007cd84e9a1baad3",
+      "model-source/first_seventh_kit.py": "0b8054b71913c3a8ec53cb83bf19886d973e3e650d2a9cdeddb653fc4c4ba20a",
+      "model-source/first_seventh_refinement.py": "5ea53dfd46a5aef6da13848413cbb1edff9de1fbc46848467f359c0c574d7d86",
+      "model-source/first_stmarks_kit.py": "0280bdcfe19c40430b046d0ca0b72f49b3ea16f34434059b707d7ca97fda2c61",
+      "model-source/author_first_stmarks_08.py": "422b002eb2a2656d66b40141730d8822a560064526ec7cfd2018095b1cbc51ab",
+      "model-source/author_stmarks_08.py": "8125906da100600e76b0b3aabc0cff851fe9e194bb1ea43ff935bebc5ef002b8",
+      "model-source/storefront-details.json": "b5f39a9e25093011e9db74a3cc806a6fd393876e14dc0a54f12634f0409ca5a9",
+      "model-source/first-stmarks-scope-08.json": "66f96b66b495f39f66ce6b371de62fd81a7c9df41868cd936341b7f944583c72",
+      "model-source/first-stmarks-browser-08.json": "a85b98c01b584f653bb18ae4404ddb4ad6f257e7cdc2f83a6cc78b87923a916f",
+      "model-source/seventh-street-reference-02.json": "363260952d0c582078cb9fafd1cb7ef406cf6c355b8205d1c3c23cdaa73b3752",
+      "model-source/west-seventh-reference-04.json": "fc1cbdc2cc377e5efb785a98ae321cfa4ec93d9c82b889d15b3af1d26169a00f",
+      "model-source/west-seventh-observations-04.json": "b5c679b6a2603385e6dee1d1a8aa2392a0fa8b9c27d16d631637ba0d39bef70c",
+      "model-source/east-seventh-reference-06.json": "aa494d54ff6cd2b33d65c089808c8dc9568addce5c67db9deb986efcd9d00ba2",
+      "model-source/east-seventh-observations-06.json": "8a6ca017474bea086c22ca8ac2244fe85952096eeaaf384354c0687ce7b581a5",
+      "model-source/east-seventh-browser-07.json": "eccbe6e7218852c0f90a897890c68df480b1e5c00bb9abe542fcd2fbd295bcb9",
+      "model-source/make_seventh_audio.py": "859a0530f8d141a0b0f8403f201f428132edfbd1e0df4f4778ac84b337e4d0a3",
+      "scripts/export-seventh.mjs": "298a6203659ebd433c11c89ab7be5a858546f83643492742df1b83e64596a57a"
+    }
+  },
+  "viewport": [
+    800,
+    800,
+    1
+  ],
+  "acceptance": "Capture only; visual review must be recorded separately.",
+  "errors": [],
+  "warnings": [],
+  "failedRequests": [],
+  "views": [
+    {
+      "name": "241822151-0-elevation",
+      "faceId": "241822151:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "241822151:0"
+      },
+      "sha256": "7098116ad71b4fe650f9f331e71e11fda23a49696490f98cfd8b175b71140372"
+    },
+    {
+      "name": "241822151-0-ground-0",
+      "faceId": "241822151:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "241822151:0",
+        "close": true,
+        "along": 0.5,
+        "span": 1
+      },
+      "sha256": "c7aa84235e1c9525437f5ff9ac7c4a9fa3231a0c95db7666916e34b0d09030af"
+    },
+    {
+      "name": "241822159-0-elevation",
+      "faceId": "241822159:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "241822159:0"
+      },
+      "sha256": "4f06872c23993086c2fb8868a3497beeca363158534dcb0db2d910940e233acd"
+    },
+    {
+      "name": "241822159-0-ground-0",
+      "faceId": "241822159:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "241822159:0",
+        "close": true,
+        "along": 0.5,
+        "span": 1
+      },
+      "sha256": "bb2776c7b7d3127e194fc8c33471adae5c8ac2a680e033bbfa4f6b8b21bcbbd1"
+    },
+    {
+      "name": "241822164-0-elevation",
+      "faceId": "241822164:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "241822164:0"
+      },
+      "sha256": "4f045a69921d3ec8dd79d4b6813e63a1dc979c9880c5172865a4a41921edeacc"
+    },
+    {
+      "name": "241822164-0-ground-0",
+      "faceId": "241822164:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "241822164:0",
+        "close": true,
+        "along": 0.16666666666666666,
+        "span": 0.3333333333333333
+      },
+      "sha256": "51f2b807b0b461f777eca1668c4ad648a8cb9b0e661a6608e6a8d2c3207833c2"
+    },
+    {
+      "name": "241822164-0-ground-1",
+      "faceId": "241822164:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "241822164:0",
+        "close": true,
+        "along": 0.5,
+        "span": 0.3333333333333333
+      },
+      "sha256": "f188aaeacea71a37b0396a12181b2b97276626f694f70a2ccddfa2a976d49df8"
+    },
+    {
+      "name": "241822164-0-ground-2",
+      "faceId": "241822164:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "241822164:0",
+        "close": true,
+        "along": 0.8333333333333334,
+        "span": 0.3333333333333333
+      },
+      "sha256": "07f912e22b42ba0ace777cc6f9f028f75ee81921093878fa5ec3ed900d362750"
+    },
+    {
+      "name": "241822164-1-elevation",
+      "faceId": "241822164:1",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "241822164:1"
+      },
+      "sha256": "d8aee9a95dbf2588cf5f5798afb39bfd56a34ddb7a0b30b6137c41d4f8ab7253"
+    },
+    {
+      "name": "241822164-1-ground-0",
+      "faceId": "241822164:1",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "241822164:1",
+        "close": true,
+        "along": 0.25,
+        "span": 0.5
+      },
+      "sha256": "f50ad5147e352a54027d2245ec304a6ada3e2debb4970eac721ae0e66842a501"
+    },
+    {
+      "name": "241822164-1-ground-1",
+      "faceId": "241822164:1",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "241822164:1",
+        "close": true,
+        "along": 0.75,
+        "span": 0.5
+      },
+      "sha256": "8be02c533101e4e0341ec2ceaa3f0adc1f5e3f4f6ec5cf253501b03ffd51c1ad"
+    },
+    {
+      "name": "241822167-0-elevation",
+      "faceId": "241822167:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "241822167:0"
+      },
+      "sha256": "5908492de37b04c814b57d4748e32d59b1a977629501ea5e72d103aeef926144"
+    },
+    {
+      "name": "241822167-0-ground-0",
+      "faceId": "241822167:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "241822167:0",
+        "close": true,
+        "along": 0.5,
+        "span": 1
+      },
+      "sha256": "c1a7d355573de12dbe3157d397709f9ea58cb01b66c18b0074f11a4bc68a597a"
+    },
+    {
+      "name": "241822173-0-elevation",
+      "faceId": "241822173:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "241822173:0"
+      },
+      "sha256": "d2e7f396cd9fb6237d853252d8f9ed8a6a4f6bd56015c3078ec631d55357817e"
+    },
+    {
+      "name": "241822173-0-ground-0",
+      "faceId": "241822173:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "241822173:0",
+        "close": true,
+        "along": 0.5,
+        "span": 1
+      },
+      "sha256": "894ddf2f42498769ddb1f96fe1cba8724a0df751b0fcfcd55175d876c32067b1"
+    },
+    {
+      "name": "241822174-0-elevation",
+      "faceId": "241822174:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "241822174:0"
+      },
+      "sha256": "b68297568b03e3cbe5d62cccb5ea4596c6ab27ebb7788868341cf6df414855d7"
+    },
+    {
+      "name": "241822174-0-ground-0",
+      "faceId": "241822174:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "241822174:0",
+        "close": true,
+        "along": 0.5,
+        "span": 1
+      },
+      "sha256": "69307ef81160186ac01c0803fac3d4dea1a5745f534439f929dac8f624ef4fcc"
+    },
+    {
+      "name": "241822181-0-elevation",
+      "faceId": "241822181:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "241822181:0"
+      },
+      "sha256": "5280315a5516f9cd4688754430d10ef7d063389d06f2a4a05de1331d927a7277"
+    },
+    {
+      "name": "241822181-0-ground-0",
+      "faceId": "241822181:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "241822181:0",
+        "close": true,
+        "along": 0.5,
+        "span": 1
+      },
+      "sha256": "dd863f7f0c7febc1cf221e4d0ea9b058136d6728a3c77b4269038591591eb092"
+    },
+    {
+      "name": "241822189-0-elevation",
+      "faceId": "241822189:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "241822189:0"
+      },
+      "sha256": "ca119d7093befd8413abb80839f7933f838b3a39ab1521a47a2c526365028f83"
+    },
+    {
+      "name": "241822189-0-ground-0",
+      "faceId": "241822189:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "241822189:0",
+        "close": true,
+        "along": 0.5,
+        "span": 1
+      },
+      "sha256": "8bf30b54385438634d9d527987d388b0921a6a207f18192b1ffaad61069e663c"
+    },
+    {
+      "name": "241822190-0-elevation",
+      "faceId": "241822190:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "241822190:0"
+      },
+      "sha256": "3cac8d016a93ce39029e505e01f29d9b71533efc31af62887df7e010bbf9d24c"
+    },
+    {
+      "name": "241822190-0-ground-0",
+      "faceId": "241822190:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "241822190:0",
+        "close": true,
+        "along": 0.5,
+        "span": 1
+      },
+      "sha256": "65d630505355b6ce6459457a4637f579373e56be722f194d47a2eb8808331ee0"
+    },
+    {
+      "name": "241822194-0-elevation",
+      "faceId": "241822194:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "241822194:0"
+      },
+      "sha256": "36ff57e65ba5380162cef8f0fc13f8d8a53e0c484c3b1111b818c530b2f93e68"
+    },
+    {
+      "name": "241822194-0-ground-0",
+      "faceId": "241822194:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "241822194:0",
+        "close": true,
+        "along": 0.5,
+        "span": 1
+      },
+      "sha256": "9045ae1d8b49a7d981deb1e57c398823de9b394be00eddd11f0ca6d82d52cf7f"
+    },
+    {
+      "name": "241822212-0-elevation",
+      "faceId": "241822212:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "241822212:0"
+      },
+      "sha256": "38771cec39225658908f0db3e9966287829b251a7631aa9e3e51a369a82b93f2"
+    },
+    {
+      "name": "241822212-0-ground-0",
+      "faceId": "241822212:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "241822212:0",
+        "close": true,
+        "along": 0.5,
+        "span": 1
+      },
+      "sha256": "245e2df77aa91b110dfff29d454f31b1a0ee475773d91480982e1c9a6fbe1e81"
+    },
+    {
+      "name": "241822214-0-elevation",
+      "faceId": "241822214:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "241822214:0"
+      },
+      "sha256": "3c7ca75aab858fcc8dbbec8e7847b8afd6a43024492732b0d469701722134b10"
+    },
+    {
+      "name": "241822214-0-ground-0",
+      "faceId": "241822214:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "241822214:0",
+        "close": true,
+        "along": 0.5,
+        "span": 1
+      },
+      "sha256": "f70d3eb8e6e00d024cf8c777e9b874cb8e7b2d007324913d6a6d4c1c0971cc86"
+    },
+    {
+      "name": "241822217-0-elevation",
+      "faceId": "241822217:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "241822217:0"
+      },
+      "sha256": "23711a47e31dafad42f3d28e844a7783889d868c470bae3b7250a6edf9fd84a1"
+    },
+    {
+      "name": "241822217-0-ground-0",
+      "faceId": "241822217:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "241822217:0",
+        "close": true,
+        "along": 0.5,
+        "span": 1
+      },
+      "sha256": "95e6a14fd0343cd6b4230a9b39801b838107ee3b076f944506bdf9ce1903379c"
+    },
+    {
+      "name": "241822219-0-elevation",
+      "faceId": "241822219:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "241822219:0"
+      },
+      "sha256": "c7810a39c94b160906324bf9e2612619acba9b62db5a4f2c44490123ffeb281f"
+    },
+    {
+      "name": "241822219-0-ground-0",
+      "faceId": "241822219:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "241822219:0",
+        "close": true,
+        "along": 0.16666666666666666,
+        "span": 0.3333333333333333
+      },
+      "sha256": "078591d19e96478a3f7480d47a20548d31b61177ab141651290577b363aeea3d"
+    },
+    {
+      "name": "241822219-0-ground-1",
+      "faceId": "241822219:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "241822219:0",
+        "close": true,
+        "along": 0.5,
+        "span": 0.3333333333333333
+      },
+      "sha256": "570efcbb73247716812d35c9950e6c462ce858f1d4d01f7b324399d2acbfe5fe"
+    },
+    {
+      "name": "241822219-0-ground-2",
+      "faceId": "241822219:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "241822219:0",
+        "close": true,
+        "along": 0.8333333333333334,
+        "span": 0.3333333333333333
+      },
+      "sha256": "45584b41fff0e800e01f7154f4bfa943a0187dfa1babcb346adcceb4a1b5ae70"
+    },
+    {
+      "name": "241822219-1-elevation",
+      "faceId": "241822219:1",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "241822219:1"
+      },
+      "sha256": "eacd935c93e1a3ced8dc9b1c5e54d151d2c7167bae2d484436628bdcaf22bf49"
+    },
+    {
+      "name": "241822219-1-ground-0",
+      "faceId": "241822219:1",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "241822219:1",
+        "close": true,
+        "along": 0.5,
+        "span": 1
+      },
+      "sha256": "1799e567784930be4f4b25378b1623bf4dc6432860cbfb3cd32162493ed3c206"
+    },
+    {
+      "name": "241822220-0-elevation",
+      "faceId": "241822220:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "241822220:0"
+      },
+      "sha256": "dee1b68883d3b0cc41e49b71abbc75be900ffb5990c397b1e3100b0a1af001c5"
+    },
+    {
+      "name": "241822220-0-ground-0",
+      "faceId": "241822220:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "241822220:0",
+        "close": true,
+        "along": 0.5,
+        "span": 1
+      },
+      "sha256": "77a986c4ef82d31cf87300eb0b19674ade666fc3a66d120f7547389e5ad30c7e"
+    },
+    {
+      "name": "241822222-0-elevation",
+      "faceId": "241822222:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "241822222:0"
+      },
+      "sha256": "bd5166e2ff6acec3dd17479937a8dd226c2ac287528b13ae14fc0b39a73529c1"
+    },
+    {
+      "name": "241822222-0-ground-0",
+      "faceId": "241822222:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "241822222:0",
+        "close": true,
+        "along": 0.5,
+        "span": 1
+      },
+      "sha256": "5c4e5bab3b6bae9bd027304e3f3abbdf75c09f432024f9677c0a2d4082547fb2"
+    },
+    {
+      "name": "241822224-0-elevation",
+      "faceId": "241822224:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "241822224:0"
+      },
+      "sha256": "c8fc6d23ef2797c56054f9a468964f01a9894e07b298690489a2b11750946d1a"
+    },
+    {
+      "name": "241822224-0-ground-0",
+      "faceId": "241822224:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "241822224:0",
+        "close": true,
+        "along": 0.25,
+        "span": 0.5
+      },
+      "sha256": "2dbe02c20062f4ddd552a61778b9223afb9dd6a925c1cfaf4e805c6420972202"
+    },
+    {
+      "name": "241822224-0-ground-1",
+      "faceId": "241822224:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "241822224:0",
+        "close": true,
+        "along": 0.75,
+        "span": 0.5
+      },
+      "sha256": "9f0fed7cf937251bb5b07ee627e420e40c5604094c8fbd2a8e4382d6e6c47e56"
+    },
+    {
+      "name": "241822228-0-elevation",
+      "faceId": "241822228:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "241822228:0"
+      },
+      "sha256": "3d8db41112e4003946ceed83d140307bae435ae0f07e14b0b41c36757bf89b2d"
+    },
+    {
+      "name": "241822228-0-ground-0",
+      "faceId": "241822228:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "241822228:0",
+        "close": true,
+        "along": 0.5,
+        "span": 1
+      },
+      "sha256": "114d82562fc952757d3790ae17620f00fd2547da5211ade3805d3fd1d6e80178"
+    },
+    {
+      "name": "241822230-0-elevation",
+      "faceId": "241822230:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "241822230:0"
+      },
+      "sha256": "8634bb489248d3312c7dfd1f8940542defdbfda986b3f9c1932a9faaf18a6bd4"
+    },
+    {
+      "name": "241822230-0-ground-0",
+      "faceId": "241822230:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "241822230:0",
+        "close": true,
+        "along": 0.5,
+        "span": 1
+      },
+      "sha256": "8b61b4a6afb5e5bf1fbb20962906e613cb7356f054ad881ec9453dd4440d714a"
+    },
+    {
+      "name": "241822234-0-elevation",
+      "faceId": "241822234:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "241822234:0"
+      },
+      "sha256": "ce6fe68689247732dee1e4a8e1151041536805ef11163e50a420f2ff59cd6b6a"
+    },
+    {
+      "name": "241822234-0-ground-0",
+      "faceId": "241822234:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "241822234:0",
+        "close": true,
+        "along": 0.5,
+        "span": 1
+      },
+      "sha256": "e82b8d001852f042c1d3c89f5c4b11b589faafb0bd01359783053d85497f0fb5"
+    },
+    {
+      "name": "241822236-0-elevation",
+      "faceId": "241822236:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "241822236:0"
+      },
+      "sha256": "d31f6ecd0a350dfdeaf1cab8eef985fc749fc2500a7d717927aa681433b488e5"
+    },
+    {
+      "name": "241822236-0-ground-0",
+      "faceId": "241822236:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "241822236:0",
+        "close": true,
+        "along": 0.5,
+        "span": 1
+      },
+      "sha256": "82895e00106fb8fbe5aa31f17678aea73b2dc672d33aa0c63d87e0e823576b02"
+    },
+    {
+      "name": "241822247-0-elevation",
+      "faceId": "241822247:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "241822247:0"
+      },
+      "sha256": "1665523fd9caffd444f97c6aea6451bcf019860213e7317c8448689e1403e818"
+    },
+    {
+      "name": "241822247-0-ground-0",
+      "faceId": "241822247:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "241822247:0",
+        "close": true,
+        "along": 0.5,
+        "span": 1
+      },
+      "sha256": "ec4d7220bedc567e22f15863810c3a2a032d8424c3254c7dc138d0027bc3268d"
+    },
+    {
+      "name": "241822254-0-elevation",
+      "faceId": "241822254:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "241822254:0"
+      },
+      "sha256": "b857626479733c62c4f3a9f21fe284f9ebdcf0e19fef2bc7171be91c775246ec"
+    },
+    {
+      "name": "241822254-0-ground-0",
+      "faceId": "241822254:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "241822254:0",
+        "close": true,
+        "along": 0.5,
+        "span": 1
+      },
+      "sha256": "e71e7e5978962c9d318891d14d193a64756273779b92525d270be01df372512a"
+    },
+    {
+      "name": "241822256-0-elevation",
+      "faceId": "241822256:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "241822256:0"
+      },
+      "sha256": "016bb32552ac2e170125b226418c67888060191c667d847cb93f497cdce06214"
+    },
+    {
+      "name": "241822256-0-ground-0",
+      "faceId": "241822256:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "241822256:0",
+        "close": true,
+        "along": 0.5,
+        "span": 1
+      },
+      "sha256": "34e37f6ac6c865123e160a735ed2334ace2d8622a67f1517b952cebce3e02d2d"
+    },
+    {
+      "name": "241822263-0-elevation",
+      "faceId": "241822263:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "241822263:0"
+      },
+      "sha256": "9fc783b1403ecd012800803af382cb6093c34a98cc471b1b1b68da0806a39ae1"
+    },
+    {
+      "name": "241822263-0-ground-0",
+      "faceId": "241822263:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "241822263:0",
+        "close": true,
+        "along": 0.5,
+        "span": 1
+      },
+      "sha256": "8d59ccc4cf04cb3522b80a75be780067a41ae1cccdeefa7b8dcbecf1c60b6501"
+    },
+    {
+      "name": "241822265-0-elevation",
+      "faceId": "241822265:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "241822265:0"
+      },
+      "sha256": "0a39047169da51ca3e52bc47ccb5f6283fe6a588a2f9e37243b042cf3e0008bc"
+    },
+    {
+      "name": "241822265-0-ground-0",
+      "faceId": "241822265:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "241822265:0",
+        "close": true,
+        "along": 0.5,
+        "span": 1
+      },
+      "sha256": "fd4ed3b11ab65d5397e0f0fee41dce92fbad2f31869e1760bb261d483d8a9ae0"
+    },
+    {
+      "name": "241822267-0-elevation",
+      "faceId": "241822267:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "241822267:0"
+      },
+      "sha256": "5d739844382c01a646025c4944be505bc1b9a0fc99e0d3f822ea01091d37163e"
+    },
+    {
+      "name": "241822267-0-ground-0",
+      "faceId": "241822267:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "241822267:0",
+        "close": true,
+        "along": 0.5,
+        "span": 1
+      },
+      "sha256": "f216d03041ca61221f44c3b8ff15b68c3aa777adf2ad9ca160ff2c7ede3361ee"
+    },
+    {
+      "name": "241822271-0-elevation",
+      "faceId": "241822271:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "241822271:0"
+      },
+      "sha256": "10c8f9722aac6e5ff575cbd564d9cfdd1409cab51e6111adcf48ce679c292a81"
+    },
+    {
+      "name": "241822271-0-ground-0",
+      "faceId": "241822271:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "241822271:0",
+        "close": true,
+        "along": 0.5,
+        "span": 1
+      },
+      "sha256": "ec2f4dba53d78cc7671c513ce8d149689e7095d26227905a52d989fd3c7cc379"
+    },
+    {
+      "name": "241822279-0-elevation",
+      "faceId": "241822279:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "241822279:0"
+      },
+      "sha256": "7e76c2c70ee674af4f345915555c6abeb26cdcc96c2beece0c127d2958d8382d"
+    },
+    {
+      "name": "241822279-0-ground-0",
+      "faceId": "241822279:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "241822279:0",
+        "close": true,
+        "along": 0.5,
+        "span": 1
+      },
+      "sha256": "0f8d53d92b67831c03c01edff7929868d8b749d2e1f7d099c79ed0368bb985c4"
+    },
+    {
+      "name": "241822280-0-elevation",
+      "faceId": "241822280:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "241822280:0"
+      },
+      "sha256": "865f3d019eb9c0bc982562e57e52cc8b4f530519f101f0e08298241873f3d6c0"
+    },
+    {
+      "name": "241822280-0-ground-0",
+      "faceId": "241822280:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "241822280:0",
+        "close": true,
+        "along": 0.5,
+        "span": 1
+      },
+      "sha256": "dd9eae737b9f269e9bb3a7083bee2aaef10493663c1e819292763053d34eddd0"
+    },
+    {
+      "name": "241822282-0-elevation",
+      "faceId": "241822282:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "241822282:0"
+      },
+      "sha256": "56a430d7987d3d79392b49ee405a868ec80e14c88cb32f48a906c5290ee71b80"
+    },
+    {
+      "name": "241822282-0-ground-0",
+      "faceId": "241822282:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "241822282:0",
+        "close": true,
+        "along": 0.5,
+        "span": 1
+      },
+      "sha256": "811cb46155cba68477127dc53dc667b9058a24fc0565fa636e5fa962806976d0"
+    },
+    {
+      "name": "241822284-0-elevation",
+      "faceId": "241822284:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "241822284:0"
+      },
+      "sha256": "0634522820730e3a1a516a4fec0264141224bdc78766d9efc43e2379383c24c8"
+    },
+    {
+      "name": "241822284-0-ground-0",
+      "faceId": "241822284:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "241822284:0",
+        "close": true,
+        "along": 0.5,
+        "span": 1
+      },
+      "sha256": "1d2f86b4c59eb3899ef0227eef16739c7096c4c089ec51ba6375dd9b537234c6"
+    },
+    {
+      "name": "241822286-0-elevation",
+      "faceId": "241822286:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "241822286:0"
+      },
+      "sha256": "4d83697a44b3eb2e7ba96f8d45b73ec131502516f8b12faf6139f86609dbc0fb"
+    },
+    {
+      "name": "241822286-0-ground-0",
+      "faceId": "241822286:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "241822286:0",
+        "close": true,
+        "along": 0.5,
+        "span": 1
+      },
+      "sha256": "546a802d6eedcba7c69c9b6eb3c47ee1649fd05a23b42c28c5d4fbf21a77c888"
+    },
+    {
+      "name": "241822288-0-elevation",
+      "faceId": "241822288:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "241822288:0"
+      },
+      "sha256": "3456016f0649df6d15b21bbe6a57fbaee87417ccea351ca474bf098990bc1b77"
+    },
+    {
+      "name": "241822288-0-ground-0",
+      "faceId": "241822288:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "241822288:0",
+        "close": true,
+        "along": 0.5,
+        "span": 1
+      },
+      "sha256": "a404e128c69d954acc67712c79ac817f6d13e43f818b92361b95356582ad2d67"
+    },
+    {
+      "name": "241822290-0-elevation",
+      "faceId": "241822290:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "241822290:0"
+      },
+      "sha256": "3f931c53a19fdd3567f19626d4e066ed829aad8023d8031a366dcf05e6590232"
+    },
+    {
+      "name": "241822290-0-ground-0",
+      "faceId": "241822290:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "241822290:0",
+        "close": true,
+        "along": 0.25,
+        "span": 0.5
+      },
+      "sha256": "dcc41365d65b8f7287906eb2f5129a0ca1f61b3e377b54f792b118f36ca0f3f0"
+    },
+    {
+      "name": "241822290-0-ground-1",
+      "faceId": "241822290:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "241822290:0",
+        "close": true,
+        "along": 0.75,
+        "span": 0.5
+      },
+      "sha256": "86d5a744003c4dc81499718b32d1de3567e8464ca85a92a4d6e9686341cff967"
+    },
+    {
+      "name": "241822290-1-elevation",
+      "faceId": "241822290:1",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "241822290:1"
+      },
+      "sha256": "ac47e3cbb37eaed1e1eaa27a80bf2d28e2c51178bf5e44c263088b5efa6b1a6c"
+    },
+    {
+      "name": "241822290-1-ground-0",
+      "faceId": "241822290:1",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "241822290:1",
+        "close": true,
+        "along": 0.16666666666666666,
+        "span": 0.3333333333333333
+      },
+      "sha256": "a5c710e32b5db1a819a605cd4862fb1d53b29ec2751c27a373cab9ac906f8196"
+    },
+    {
+      "name": "241822290-1-ground-1",
+      "faceId": "241822290:1",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "241822290:1",
+        "close": true,
+        "along": 0.5,
+        "span": 0.3333333333333333
+      },
+      "sha256": "4d0aadd778b9c88d784dc138cd7cfed87e44d182c85a943ab40f90e9f2f680d9"
+    },
+    {
+      "name": "241822290-1-ground-2",
+      "faceId": "241822290:1",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "241822290:1",
+        "close": true,
+        "along": 0.8333333333333334,
+        "span": 0.3333333333333333
+      },
+      "sha256": "1cfe8d89fa0447f66a965cf0f48a586daab8f4759be48872bd96e29b3075e806"
+    },
+    {
+      "name": "241822291-0-elevation",
+      "faceId": "241822291:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "241822291:0"
+      },
+      "sha256": "86c43e7d1f4892c5a2a216a81e2cdf48a81840a35c510d65fc577e545aebb251"
+    },
+    {
+      "name": "241822291-0-ground-0",
+      "faceId": "241822291:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "241822291:0",
+        "close": true,
+        "along": 0.5,
+        "span": 1
+      },
+      "sha256": "bb4108d34cdc8913a2a78ba05c16b18aac4247f9f49b9a4c07af0443d9407350"
+    },
+    {
+      "name": "241822295-0-elevation",
+      "faceId": "241822295:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "241822295:0"
+      },
+      "sha256": "3fa61de0293ce9f55263602cd2c9305210d2ea6f79d254269f2969a75fa7f5ad"
+    },
+    {
+      "name": "241822295-0-ground-0",
+      "faceId": "241822295:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "241822295:0",
+        "close": true,
+        "along": 0.5,
+        "span": 1
+      },
+      "sha256": "b7dc3f3369618c840fe612d658b11731fa1f451cf93bb67ae906a81acf5e8dd4"
+    },
+    {
+      "name": "241822297-0-elevation",
+      "faceId": "241822297:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "241822297:0"
+      },
+      "sha256": "7d4fd893589de50525bddf60c7b62657c9dc0f69f880c3c9f6b4638fc93a9a16"
+    },
+    {
+      "name": "241822297-0-ground-0",
+      "faceId": "241822297:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "241822297:0",
+        "close": true,
+        "along": 0.5,
+        "span": 1
+      },
+      "sha256": "cd18d6dce0fade17481d1cfe8d7c51bd1c939227d73123196cf83f36778b910e"
+    },
+    {
+      "name": "241822297-1-elevation",
+      "faceId": "241822297:1",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "241822297:1"
+      },
+      "sha256": "6a60af8c6a6d3380c6e4c6b0b27eed08e9baf20e5bd82d7ff4608946d6f777d4"
+    },
+    {
+      "name": "241822297-1-ground-0",
+      "faceId": "241822297:1",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "241822297:1",
+        "close": true,
+        "along": 0.5,
+        "span": 1
+      },
+      "sha256": "0a0da8a5cb6ffa2f8754c196e08861c616ad175312f1ecb18ad199fb01f929c3"
+    },
+    {
+      "name": "241822299-0-elevation",
+      "faceId": "241822299:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "241822299:0"
+      },
+      "sha256": "06f413d562e9b0a4a9014df8e47349d30780d5a0ffcb2224e94c23e948bb309a"
+    },
+    {
+      "name": "241822299-0-ground-0",
+      "faceId": "241822299:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "241822299:0",
+        "close": true,
+        "along": 0.5,
+        "span": 1
+      },
+      "sha256": "03f62a08056fc9d6efb7e41fe58c27366e0ec73b7f4d538eb5ac374810113dad"
+    },
+    {
+      "name": "241822300-0-elevation",
+      "faceId": "241822300:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "241822300:0"
+      },
+      "sha256": "e781585013c7e229c852623f8ce24efcb68694ace1ec86ccc693c65d54dc21e6"
+    },
+    {
+      "name": "241822300-0-ground-0",
+      "faceId": "241822300:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "241822300:0",
+        "close": true,
+        "along": 0.5,
+        "span": 1
+      },
+      "sha256": "5a0dd4de44185cbb2444bd1585c4cacd3f83f11b9cc8ef391a2817ecdc103303"
+    },
+    {
+      "name": "241822301-0-elevation",
+      "faceId": "241822301:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "241822301:0"
+      },
+      "sha256": "0b869c39ae5baa24b99b61a4773e0a0b26d550fe2e8896380b6a4090ab712d1e"
+    },
+    {
+      "name": "241822301-0-ground-0",
+      "faceId": "241822301:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "241822301:0",
+        "close": true,
+        "along": 0.5,
+        "span": 1
+      },
+      "sha256": "803e5c48f71c79ff114ffee35ce273a43211487088e900e75c487d1654e43704"
+    },
+    {
+      "name": "241822303-0-elevation",
+      "faceId": "241822303:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "241822303:0"
+      },
+      "sha256": "67aea013ea269e7f5e39328ad332cf29688a66367e6ff608549a68a2f276f3cb"
+    },
+    {
+      "name": "241822303-0-ground-0",
+      "faceId": "241822303:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "241822303:0",
+        "close": true,
+        "along": 0.5,
+        "span": 1
+      },
+      "sha256": "fde6ba21099f006d51f8505dcdd500c3e1e7aca7199ac47bf6ab07a4372b8f07"
+    },
+    {
+      "name": "241822306-0-elevation",
+      "faceId": "241822306:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "241822306:0"
+      },
+      "sha256": "1f72ef3ad665ca404f9ef2a76e88ad8e26c5c4d1cf56cf9737a0ff2fb2a985d6"
+    },
+    {
+      "name": "241822306-0-ground-0",
+      "faceId": "241822306:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "241822306:0",
+        "close": true,
+        "along": 0.5,
+        "span": 1
+      },
+      "sha256": "183bb66786169e8a5b79091bad479703e4aec27bf854e88026714c4f0bf65068"
+    },
+    {
+      "name": "241822308-0-elevation",
+      "faceId": "241822308:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "241822308:0"
+      },
+      "sha256": "0508031e489e8f856b19d0dea242bd3318816b7597789dda77f97963a5338561"
+    },
+    {
+      "name": "241822308-0-ground-0",
+      "faceId": "241822308:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "241822308:0",
+        "close": true,
+        "along": 0.25,
+        "span": 0.5
+      },
+      "sha256": "0666d9cd123843350329d725955e94ab67b4795348743b7dbc3417a6dc33fc9b"
+    },
+    {
+      "name": "241822308-0-ground-1",
+      "faceId": "241822308:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "241822308:0",
+        "close": true,
+        "along": 0.75,
+        "span": 0.5
+      },
+      "sha256": "637ab358c43ed6d80bf0347d44e7f27356a427cfe197d9155d8a7f2cc8031e88"
+    },
+    {
+      "name": "241822308-1-elevation",
+      "faceId": "241822308:1",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "241822308:1"
+      },
+      "sha256": "d5413a7404765b47aa322e951649a539f394181a0a899ba56ecf46bf0d244b40"
+    },
+    {
+      "name": "241822308-1-ground-0",
+      "faceId": "241822308:1",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "241822308:1",
+        "close": true,
+        "along": 0.5,
+        "span": 1
+      },
+      "sha256": "23de76ea4083c55991a55673477bf503c244e6770194fbc8c40b9e51407fb5e7"
+    },
+    {
+      "name": "241822310-0-elevation",
+      "faceId": "241822310:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "241822310:0"
+      },
+      "sha256": "50cf4fe68bdcc62bc279221de650ae46d07449ee49200669e6dcb59b314d162b"
+    },
+    {
+      "name": "241822310-0-ground-0",
+      "faceId": "241822310:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "241822310:0",
+        "close": true,
+        "along": 0.5,
+        "span": 1
+      },
+      "sha256": "ba195010fb1b3fd984ca99185cbd02b8cb2131c7216ba335cab65ae4766b17b5"
+    },
+    {
+      "name": "241822312-0-elevation",
+      "faceId": "241822312:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "241822312:0"
+      },
+      "sha256": "822215ca686f1a54072d97ca1d0ad5fe65457d590ce9775ce96c57d0ecce107c"
+    },
+    {
+      "name": "241822312-0-ground-0",
+      "faceId": "241822312:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "241822312:0",
+        "close": true,
+        "along": 0.5,
+        "span": 1
+      },
+      "sha256": "5ae6c9bb89f48317ddbe06b723287ea22fd81c01848b05b533e833c7abaaf288"
+    },
+    {
+      "name": "241822314-0-elevation",
+      "faceId": "241822314:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "241822314:0"
+      },
+      "sha256": "ef7f6439188ad8cb97a092beafbdd0820b7e71ce9b637a9e4118be51d27e464e"
+    },
+    {
+      "name": "241822314-0-ground-0",
+      "faceId": "241822314:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "241822314:0",
+        "close": true,
+        "along": 0.5,
+        "span": 1
+      },
+      "sha256": "05584dc6780294c9a531a16b802fd581d11750a8eed692b6897be12d293a80ba"
+    },
+    {
+      "name": "241822320-0-elevation",
+      "faceId": "241822320:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "241822320:0"
+      },
+      "sha256": "7cbf92e3db2b49bb44a1b35b8dfff2553f58463dd816190931895fe3b2596c8e"
+    },
+    {
+      "name": "241822320-0-ground-0",
+      "faceId": "241822320:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "241822320:0",
+        "close": true,
+        "along": 0.5,
+        "span": 1
+      },
+      "sha256": "a00452c8ab6b2c5b2185e61949a9694e782f7c51fc1d6f90f0d076f85e1a25b1"
+    },
+    {
+      "name": "241822323-0-elevation",
+      "faceId": "241822323:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "241822323:0"
+      },
+      "sha256": "8350ca328492926ae7d487ebcf12aa47b0c64ec0a9dce2ab0e70051dfa5f6637"
+    },
+    {
+      "name": "241822323-0-ground-0",
+      "faceId": "241822323:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "241822323:0",
+        "close": true,
+        "along": 0.5,
+        "span": 1
+      },
+      "sha256": "55fcfef47cb718d7abec7d049bb5371c0b2d23ea9dc0041999cf0dc6da4fb612"
+    },
+    {
+      "name": "241822326-0-elevation",
+      "faceId": "241822326:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "241822326:0"
+      },
+      "sha256": "0cd2314b15fddfa2f5ebd3ff8fc7dc971c4d45d6fe3dd5a66c103759a61037f3"
+    },
+    {
+      "name": "241822326-0-ground-0",
+      "faceId": "241822326:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "241822326:0",
+        "close": true,
+        "along": 0.25,
+        "span": 0.5
+      },
+      "sha256": "20e79ac0fc1f21985bca180539ca684ca24697e84fbbf5f65677dd0799fcfab8"
+    },
+    {
+      "name": "241822326-0-ground-1",
+      "faceId": "241822326:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "241822326:0",
+        "close": true,
+        "along": 0.75,
+        "span": 0.5
+      },
+      "sha256": "b5c5d649d18773f2eed96eac85f29d3f1e1d362c63817db712b7ea8e134d3e8f"
+    },
+    {
+      "name": "241822332-0-elevation",
+      "faceId": "241822332:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "241822332:0"
+      },
+      "sha256": "a0caf979086863623b0b8ff49c3120c449387706053c7681cb20b0749c600f04"
+    },
+    {
+      "name": "241822332-0-ground-0",
+      "faceId": "241822332:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "241822332:0",
+        "close": true,
+        "along": 0.5,
+        "span": 1
+      },
+      "sha256": "dfb1625d866096b6650249db8b12103c75738dd67541cefe0c7ae575bbe02118"
+    },
+    {
+      "name": "241822338-0-elevation",
+      "faceId": "241822338:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "241822338:0"
+      },
+      "sha256": "c4aef23fe9b681bac59123935f22839fb51d5fb94b91369cfb58ae13ef765ca7"
+    },
+    {
+      "name": "241822338-0-ground-0",
+      "faceId": "241822338:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "241822338:0",
+        "close": true,
+        "along": 0.5,
+        "span": 1
+      },
+      "sha256": "9031bf004ed2384d49145d7a4438e1363036a49dadff60b8188bc601ad480dd5"
+    },
+    {
+      "name": "241822341-0-elevation",
+      "faceId": "241822341:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "241822341:0"
+      },
+      "sha256": "d1b122fbb80d98a698a5d5e77b38d3cc6e94a9d4ebd0e87e16529788077a3aff"
+    },
+    {
+      "name": "241822341-0-ground-0",
+      "faceId": "241822341:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "241822341:0",
+        "close": true,
+        "along": 0.25,
+        "span": 0.5
+      },
+      "sha256": "de8bcfdc92ec567c3013d0db90b4f4d3039adf629778c56ff2b8ed21b6935f3c"
+    },
+    {
+      "name": "241822341-0-ground-1",
+      "faceId": "241822341:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "241822341:0",
+        "close": true,
+        "along": 0.75,
+        "span": 0.5
+      },
+      "sha256": "20dc53f969ed8d50085aac8b915ab5d655c049510571c57e0919f4fcd4afeadb"
+    },
+    {
+      "name": "248142614-0-elevation",
+      "faceId": "248142614:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142614:0"
+      },
+      "sha256": "f6bd3cd108d0f134c716470421e8aa00a8b9fe4748eaa1e75e34e7a119b628f5"
+    },
+    {
+      "name": "248142614-0-ground-0",
+      "faceId": "248142614:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142614:0",
+        "close": true,
+        "along": 0.5,
+        "span": 1
+      },
+      "sha256": "06f0137ab925c690635ee71383405cdf6ec00b9bbe6a3f5a16aad38bd3333c3e"
+    },
+    {
+      "name": "248142616-0-elevation",
+      "faceId": "248142616:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142616:0"
+      },
+      "sha256": "ad4d3f6f762572ed11c1c3af4425e0bf32c329926a79068f0c5d8ead95f0ab6b"
+    },
+    {
+      "name": "248142616-0-ground-0",
+      "faceId": "248142616:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142616:0",
+        "close": true,
+        "along": 0.25,
+        "span": 0.5
+      },
+      "sha256": "0bf6085ada2dc287db0442f32c1e24dbc7f90cd8d9bcf4e39934ac70a6070e21"
+    },
+    {
+      "name": "248142616-0-ground-1",
+      "faceId": "248142616:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142616:0",
+        "close": true,
+        "along": 0.75,
+        "span": 0.5
+      },
+      "sha256": "e745d4055eadba0910514206e9da83cd0061919f75f575da7f59224947df1252"
+    },
+    {
+      "name": "248142617-0-elevation",
+      "faceId": "248142617:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142617:0"
+      },
+      "sha256": "65294f4dff79902654dc2b0c53aec2837379047c5f84218d0178f64c74fb29e0"
+    },
+    {
+      "name": "248142617-0-ground-0",
+      "faceId": "248142617:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142617:0",
+        "close": true,
+        "along": 0.25,
+        "span": 0.5
+      },
+      "sha256": "900f08310277170d282663e43c2b58f797e92f1b3f02604e760c13f8ec64b1ab"
+    },
+    {
+      "name": "248142617-0-ground-1",
+      "faceId": "248142617:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142617:0",
+        "close": true,
+        "along": 0.75,
+        "span": 0.5
+      },
+      "sha256": "bc06e1be789167db572ac590d24dd365639b493c61c019182e7852de58be79fe"
+    },
+    {
+      "name": "248142619-0-elevation",
+      "faceId": "248142619:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142619:0"
+      },
+      "sha256": "cc14301c67597ddf72ae7fb4cde09b6e293733644c3fb22868b36ee1e5f34701"
+    },
+    {
+      "name": "248142619-0-ground-0",
+      "faceId": "248142619:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142619:0",
+        "close": true,
+        "along": 0.25,
+        "span": 0.5
+      },
+      "sha256": "224f0568d889a6bc762c5e7727d6e83d46fcca5538e6a39be7855ead43e77275"
+    },
+    {
+      "name": "248142619-0-ground-1",
+      "faceId": "248142619:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142619:0",
+        "close": true,
+        "along": 0.75,
+        "span": 0.5
+      },
+      "sha256": "1bbaf14c348f631db80dbc73268e9fe4869172fcfd2c380c7d312222a4bd5d44"
+    },
+    {
+      "name": "248142620-0-elevation",
+      "faceId": "248142620:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142620:0"
+      },
+      "sha256": "ffde35620e142a19ab08a14441be79fc8321310a50e481d4bed5d4e316255644"
+    },
+    {
+      "name": "248142620-0-ground-0",
+      "faceId": "248142620:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142620:0",
+        "close": true,
+        "along": 0.16666666666666666,
+        "span": 0.3333333333333333
+      },
+      "sha256": "0a4fc27f53493e8e3c99acde364bcd2ab1d464a3a6bda921de5a897ecdd5a56d"
+    },
+    {
+      "name": "248142620-0-ground-1",
+      "faceId": "248142620:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142620:0",
+        "close": true,
+        "along": 0.5,
+        "span": 0.3333333333333333
+      },
+      "sha256": "4a5ea9742f64dcb6af19a6aaf5d0b1cc73c60d6b5ed71457d99b063e616880db"
+    },
+    {
+      "name": "248142620-0-ground-2",
+      "faceId": "248142620:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142620:0",
+        "close": true,
+        "along": 0.8333333333333334,
+        "span": 0.3333333333333333
+      },
+      "sha256": "c1484f31a54c6081dacc286c42adaf2f7892ce215d96f557017b7a0ae72d7dea"
+    },
+    {
+      "name": "248142622-0-elevation",
+      "faceId": "248142622:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142622:0"
+      },
+      "sha256": "f40f9b5dd9233c86827c57ad72e2f7e216eb37e37408b013ba7236b17780248a"
+    },
+    {
+      "name": "248142622-0-ground-0",
+      "faceId": "248142622:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142622:0",
+        "close": true,
+        "along": 0.5,
+        "span": 1
+      },
+      "sha256": "e6adecf4987f084de279377211b4693f01ef4096d57fe47d78a6ed7ba341470e"
+    },
+    {
+      "name": "248142623-0-elevation",
+      "faceId": "248142623:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142623:0"
+      },
+      "sha256": "f344227ee31dd1f8bec72cf68c34ecaa7021dd8d8aabe1f209735900fba52547"
+    },
+    {
+      "name": "248142623-0-ground-0",
+      "faceId": "248142623:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142623:0",
+        "close": true,
+        "along": 0.25,
+        "span": 0.5
+      },
+      "sha256": "a85802d55c5e5cca74c440f3b9a69dd6760a20bb1a47b7a74d17d0d32ab8dce2"
+    },
+    {
+      "name": "248142623-0-ground-1",
+      "faceId": "248142623:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142623:0",
+        "close": true,
+        "along": 0.75,
+        "span": 0.5
+      },
+      "sha256": "904389a905c8b3d50699272e32ba2b032c7e31ca74c9dcef1f9df90620087ce6"
+    },
+    {
+      "name": "248142625-0-elevation",
+      "faceId": "248142625:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142625:0"
+      },
+      "sha256": "e3399ec10df02cb62b6098e5f1eed61127ed6d1c335027a8baaaef48d7efc34f"
+    },
+    {
+      "name": "248142625-0-ground-0",
+      "faceId": "248142625:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142625:0",
+        "close": true,
+        "along": 0.5,
+        "span": 1
+      },
+      "sha256": "f0cb4b865b091f9bc471eed70ecfcdf37423a14c7394120a9794ebe1d717ea00"
+    },
+    {
+      "name": "248142627-0-elevation",
+      "faceId": "248142627:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142627:0"
+      },
+      "sha256": "24957f3ecfc55b1b04c7d83577d88b2f235d6660569fd8618f07f7ddce312870"
+    },
+    {
+      "name": "248142627-0-ground-0",
+      "faceId": "248142627:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142627:0",
+        "close": true,
+        "along": 0.5,
+        "span": 1
+      },
+      "sha256": "3dc814df2d3610e529d3f8958a20b56083b890a83278fb3cb3ffe8baddd0997a"
+    },
+    {
+      "name": "248142628-0-elevation",
+      "faceId": "248142628:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142628:0"
+      },
+      "sha256": "87f11b1605a69b78f508bf9031c338d17955819d2e036ad8f271e80fc968a23a"
+    },
+    {
+      "name": "248142628-0-ground-0",
+      "faceId": "248142628:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142628:0",
+        "close": true,
+        "along": 0.5,
+        "span": 1
+      },
+      "sha256": "df2c34952237bed41ab4bb62d4bdb8c03e061bb40b9f3d03819f41d24d5cf87c"
+    },
+    {
+      "name": "248142630-0-elevation",
+      "faceId": "248142630:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142630:0"
+      },
+      "sha256": "e33a23ccb5be22ed8f7ce3e03714fb8fdb9fce6f4236fd1c4eff42140d929f0e"
+    },
+    {
+      "name": "248142630-0-ground-0",
+      "faceId": "248142630:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142630:0",
+        "close": true,
+        "along": 0.25,
+        "span": 0.5
+      },
+      "sha256": "7f175d4fb9f7eb7bec820951cb0fbdf7f0f9a2294498d9e4d54c6368a5b2f8dc"
+    },
+    {
+      "name": "248142630-0-ground-1",
+      "faceId": "248142630:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142630:0",
+        "close": true,
+        "along": 0.75,
+        "span": 0.5
+      },
+      "sha256": "962e204cbe5bb71abe3fb41247facb7e379dd3fae5637fa0744fde7c12e216c8"
+    },
+    {
+      "name": "248142631-0-elevation",
+      "faceId": "248142631:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142631:0"
+      },
+      "sha256": "e476b227c1a831aac46df7077beec153f79d2a86f5d7f974add76038eb235beb"
+    },
+    {
+      "name": "248142631-0-ground-0",
+      "faceId": "248142631:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142631:0",
+        "close": true,
+        "along": 0.5,
+        "span": 1
+      },
+      "sha256": "61fe1b193367c6e713a9815a0307e21b56781f3501d1891c1c152e8bbabc1377"
+    },
+    {
+      "name": "248142634-0-elevation",
+      "faceId": "248142634:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142634:0"
+      },
+      "sha256": "2887a6706b1184067b0a985021e8eec629e62dfe701ae79edb24b0659a7592bf"
+    },
+    {
+      "name": "248142634-0-ground-0",
+      "faceId": "248142634:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142634:0",
+        "close": true,
+        "along": 0.5,
+        "span": 1
+      },
+      "sha256": "2e93f5698c818254ae7f239f3359387126ef8a46708358786bdbd9d5acfb3d34"
+    },
+    {
+      "name": "248142636-0-elevation",
+      "faceId": "248142636:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142636:0"
+      },
+      "sha256": "c80e537a61fdf9f9f677230b62521b856cd6c9fb46dc6f3e866b01370e98dbb1"
+    },
+    {
+      "name": "248142636-0-ground-0",
+      "faceId": "248142636:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142636:0",
+        "close": true,
+        "along": 0.25,
+        "span": 0.5
+      },
+      "sha256": "0c94c739c2676aab4f4e9af4059e66d5f864092d32a01ddff9808ebf41d8ce4f"
+    },
+    {
+      "name": "248142636-0-ground-1",
+      "faceId": "248142636:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142636:0",
+        "close": true,
+        "along": 0.75,
+        "span": 0.5
+      },
+      "sha256": "c3cc34f67f8bb28e66ed13ae391488bba35719926a65fd00073d2c74fa6ed8a2"
+    },
+    {
+      "name": "248142638-0-elevation",
+      "faceId": "248142638:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142638:0"
+      },
+      "sha256": "3164fbb85ee13a2a60182aa323b09abb0c67621a007a6677f1f8b6f7ee512ee5"
+    },
+    {
+      "name": "248142638-0-ground-0",
+      "faceId": "248142638:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142638:0",
+        "close": true,
+        "along": 0.25,
+        "span": 0.5
+      },
+      "sha256": "127d439d9882634c2113dd5bd59b5c3c08b2656bf7a0393ea30a5da13a621a03"
+    },
+    {
+      "name": "248142638-0-ground-1",
+      "faceId": "248142638:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142638:0",
+        "close": true,
+        "along": 0.75,
+        "span": 0.5
+      },
+      "sha256": "a72553e5f3bd1ce69ca03f3b9298630711a2c47500ef3a84ffa0361121661df0"
+    },
+    {
+      "name": "248142641-0-elevation",
+      "faceId": "248142641:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142641:0"
+      },
+      "sha256": "19806e0fe42cfae1b6064d1c0f7aaefe6cd82cabe66426b725c8f7be581b6c50"
+    },
+    {
+      "name": "248142641-0-ground-0",
+      "faceId": "248142641:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142641:0",
+        "close": true,
+        "along": 0.16666666666666666,
+        "span": 0.3333333333333333
+      },
+      "sha256": "8fdcb6be19cf282227028a36bcd13f7dae9437ea5d0680ab8a723851dfaca788"
+    },
+    {
+      "name": "248142641-0-ground-1",
+      "faceId": "248142641:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142641:0",
+        "close": true,
+        "along": 0.5,
+        "span": 0.3333333333333333
+      },
+      "sha256": "c048cc0e442052115c51757fb4d045c0edb9aecdef0d9ff28a623dc0fda2a705"
+    },
+    {
+      "name": "248142641-0-ground-2",
+      "faceId": "248142641:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142641:0",
+        "close": true,
+        "along": 0.8333333333333334,
+        "span": 0.3333333333333333
+      },
+      "sha256": "ff605bed6d96eca2f0c381661b119c19f07408464d025617b23422c2896c59b0"
+    },
+    {
+      "name": "248142642-0-elevation",
+      "faceId": "248142642:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142642:0"
+      },
+      "sha256": "a5a175376d428455ec6939e279d241b02f0ec993fc136c304488c8170ef02880"
+    },
+    {
+      "name": "248142642-0-ground-0",
+      "faceId": "248142642:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142642:0",
+        "close": true,
+        "along": 0.5,
+        "span": 1
+      },
+      "sha256": "2a8fe4f20f01a107a6a3c1dfb16965c5eb08bbe17157d944ec848baaf53d2769"
+    },
+    {
+      "name": "248142643-0-elevation",
+      "faceId": "248142643:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142643:0"
+      },
+      "sha256": "1c1d00d6669d60e6f7a1b9e65480e1245a5697241ea26c81f906169a335b5fb6"
+    },
+    {
+      "name": "248142643-0-ground-0",
+      "faceId": "248142643:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142643:0",
+        "close": true,
+        "along": 0.25,
+        "span": 0.5
+      },
+      "sha256": "34b414e06dd0b37927ed657603f9b24a97c991fa5da6e6f430a118a29c2a4d75"
+    },
+    {
+      "name": "248142643-0-ground-1",
+      "faceId": "248142643:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142643:0",
+        "close": true,
+        "along": 0.75,
+        "span": 0.5
+      },
+      "sha256": "41a4178fd0919728365d87a5f5264394b5c3fc80edbc0af88bf8bd1d213f8614"
+    },
+    {
+      "name": "248142646-0-elevation",
+      "faceId": "248142646:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142646:0"
+      },
+      "sha256": "15f1378c63ed498eb4343e47cfa0f085b4d6d995cb1bcfd7b0d6c3eb9c8b9b2e"
+    },
+    {
+      "name": "248142646-0-ground-0",
+      "faceId": "248142646:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142646:0",
+        "close": true,
+        "along": 0.5,
+        "span": 1
+      },
+      "sha256": "1fe20a63a1e1fec8c59843a39f154f8d1cac2e1157e07f715296f08434b82590"
+    },
+    {
+      "name": "248142648-0-elevation",
+      "faceId": "248142648:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142648:0"
+      },
+      "sha256": "3ac5cfcd704f2e91b01d0133a88cdbf6351db1724d24db4fa2c88b6efa98a748"
+    },
+    {
+      "name": "248142648-0-ground-0",
+      "faceId": "248142648:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142648:0",
+        "close": true,
+        "along": 0.5,
+        "span": 1
+      },
+      "sha256": "835e9a9818812387d0efb8d472fec6ec870e42d88f3a93b1404c78cfe4fec559"
+    },
+    {
+      "name": "248142649-0-elevation",
+      "faceId": "248142649:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142649:0"
+      },
+      "sha256": "815dec286ef7c860b69e21886c5c6b7f666997587a967d4214482b6d2d99b558"
+    },
+    {
+      "name": "248142649-0-ground-0",
+      "faceId": "248142649:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142649:0",
+        "close": true,
+        "along": 0.25,
+        "span": 0.5
+      },
+      "sha256": "2618ee3ed14b05fa65518ef6f97c3f720dd754f322410e5f393620b62512f05f"
+    },
+    {
+      "name": "248142649-0-ground-1",
+      "faceId": "248142649:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142649:0",
+        "close": true,
+        "along": 0.75,
+        "span": 0.5
+      },
+      "sha256": "e599008f616f8ba0f4525c1fcf92ac6fd06f5bc3610c0c1f6693fb9a81013544"
+    },
+    {
+      "name": "248142651-0-elevation",
+      "faceId": "248142651:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142651:0"
+      },
+      "sha256": "cce716ee4fc5fbd496065476b91e76240a2038718df807b476b264ab9405b602"
+    },
+    {
+      "name": "248142651-0-ground-0",
+      "faceId": "248142651:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142651:0",
+        "close": true,
+        "along": 0.5,
+        "span": 1
+      },
+      "sha256": "3f84968477c06c4efd003185a2dddae32a73ea1bf23cf109f80c1b0c04e48695"
+    },
+    {
+      "name": "248142652-0-elevation",
+      "faceId": "248142652:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142652:0"
+      },
+      "sha256": "94fb38673a2dc70ab5e169ddbfd0e906efe3d5cc72f5fc08381ccef9b47d2779"
+    },
+    {
+      "name": "248142652-0-ground-0",
+      "faceId": "248142652:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142652:0",
+        "close": true,
+        "along": 0.25,
+        "span": 0.5
+      },
+      "sha256": "60c2aba9b8b2be879076d1dbe986e65f22dfa0784dbb2468a2c5fb4fe9034d20"
+    },
+    {
+      "name": "248142652-0-ground-1",
+      "faceId": "248142652:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142652:0",
+        "close": true,
+        "along": 0.75,
+        "span": 0.5
+      },
+      "sha256": "367eba194ca0c822276e97e29170cecbdfc74fbcad0580f1489137d1f8aee09e"
+    },
+    {
+      "name": "248142654-0-elevation",
+      "faceId": "248142654:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142654:0"
+      },
+      "sha256": "61dc8e8afdd32365778384165bedec13714d8ce4ba0044c486f8f93741601bc4"
+    },
+    {
+      "name": "248142654-0-ground-0",
+      "faceId": "248142654:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142654:0",
+        "close": true,
+        "along": 0.25,
+        "span": 0.5
+      },
+      "sha256": "67a962a553f32f9fd5f8c4ad2ec2b9076b7ae1d447fe17149b4ce2933803dbf3"
+    },
+    {
+      "name": "248142654-0-ground-1",
+      "faceId": "248142654:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142654:0",
+        "close": true,
+        "along": 0.75,
+        "span": 0.5
+      },
+      "sha256": "e6b1203f06690f57e00d713d94f1602bc5977944258b285c9dfa89ee8f1de978"
+    },
+    {
+      "name": "248142655-0-elevation",
+      "faceId": "248142655:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142655:0"
+      },
+      "sha256": "ab0114d0cf8ff851a7cbe0ef0647497785f804361e11072641ee906c82c6e38b"
+    },
+    {
+      "name": "248142655-0-ground-0",
+      "faceId": "248142655:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142655:0",
+        "close": true,
+        "along": 0.25,
+        "span": 0.5
+      },
+      "sha256": "cc61dbe83af32f204e2e467dc1d799e0ca56c428efbecb540ae1bf68a6365a8d"
+    },
+    {
+      "name": "248142655-0-ground-1",
+      "faceId": "248142655:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142655:0",
+        "close": true,
+        "along": 0.75,
+        "span": 0.5
+      },
+      "sha256": "845e11b7ed1c154348750a9a12155c8b5941b6a93b57bf07a6d6df3d4490951d"
+    },
+    {
+      "name": "248142686-0-elevation",
+      "faceId": "248142686:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142686:0"
+      },
+      "sha256": "f757c9c7ded720618897949537201ffee4e2b0b3735a4c34e3e68a80c25b63a7"
+    },
+    {
+      "name": "248142686-0-ground-0",
+      "faceId": "248142686:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142686:0",
+        "close": true,
+        "along": 0.16666666666666666,
+        "span": 0.3333333333333333
+      },
+      "sha256": "6b515cb0957da39e97004d91df97021593746ae363bc70552fda2472678b016c"
+    },
+    {
+      "name": "248142686-0-ground-1",
+      "faceId": "248142686:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142686:0",
+        "close": true,
+        "along": 0.5,
+        "span": 0.3333333333333333
+      },
+      "sha256": "8ca4be9586c330eb6538f8f1f161c0d64c9aa3891e81a3288d57a8c041ddd7f6"
+    },
+    {
+      "name": "248142686-0-ground-2",
+      "faceId": "248142686:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142686:0",
+        "close": true,
+        "along": 0.8333333333333334,
+        "span": 0.3333333333333333
+      },
+      "sha256": "ab01babcaa956f3db34f7efb33ad38aa9067bdcf83ff72496719f076380c1bc6"
+    },
+    {
+      "name": "248142687-0-elevation",
+      "faceId": "248142687:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142687:0"
+      },
+      "sha256": "4205c34422dd9a42631da213f63829f3f27e9552b1bfbf68ca7cec917a8b9e6b"
+    },
+    {
+      "name": "248142687-0-ground-0",
+      "faceId": "248142687:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142687:0",
+        "close": true,
+        "along": 0.5,
+        "span": 1
+      },
+      "sha256": "420f5499b8d7a227f020ee2158acc53850fc2fd85ce2f083272a13358b4e16ad"
+    },
+    {
+      "name": "248142688-0-elevation",
+      "faceId": "248142688:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142688:0"
+      },
+      "sha256": "df84d204c9a68beeb6f4eaf255b7069fc727fe11f56c3e48b4977b111caf4732"
+    },
+    {
+      "name": "248142688-0-ground-0",
+      "faceId": "248142688:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142688:0",
+        "close": true,
+        "along": 0.25,
+        "span": 0.5
+      },
+      "sha256": "cba179dfeffc647267d8ec4aabe551ab973d2c9d6f220f30551e879607639b9b"
+    },
+    {
+      "name": "248142688-0-ground-1",
+      "faceId": "248142688:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142688:0",
+        "close": true,
+        "along": 0.75,
+        "span": 0.5
+      },
+      "sha256": "b5d7e2cc63f2e128fb98149bb87eadd2b69dcec6765448cd14471a5793d50936"
+    },
+    {
+      "name": "248142689-0-elevation",
+      "faceId": "248142689:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142689:0"
+      },
+      "sha256": "d7137139685c6e11bd3f3c17b32fbeda704bde7e17fd3d741f5e8afadecb9a19"
+    },
+    {
+      "name": "248142689-0-ground-0",
+      "faceId": "248142689:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142689:0",
+        "close": true,
+        "along": 0.5,
+        "span": 1
+      },
+      "sha256": "95a05a093b761625bf7fb2bd6c3f11c8a077ed15b9d864b47ad5c1f41c58076c"
+    },
+    {
+      "name": "248142691-0-elevation",
+      "faceId": "248142691:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142691:0"
+      },
+      "sha256": "e0313ef401636d40e0be7e019ac9b86dfcd2cc552de9c73417e4b1c63cad5d90"
+    },
+    {
+      "name": "248142691-0-ground-0",
+      "faceId": "248142691:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142691:0",
+        "close": true,
+        "along": 0.25,
+        "span": 0.5
+      },
+      "sha256": "0cb05bc3dfc23a107bacb04aea2241272beba33ea7387e1c031a11df95a8cbbb"
+    },
+    {
+      "name": "248142691-0-ground-1",
+      "faceId": "248142691:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142691:0",
+        "close": true,
+        "along": 0.75,
+        "span": 0.5
+      },
+      "sha256": "6a12b8ae89d7dfc3a9af7ca02f3171875912ad846b84c2034f81ca770b81f5bc"
+    },
+    {
+      "name": "248142692-0-elevation",
+      "faceId": "248142692:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142692:0"
+      },
+      "sha256": "0b5f62999cb62694e2595a955833ec9e0d32c2c9eb4f40b8ab56581cbf537be8"
+    },
+    {
+      "name": "248142692-0-ground-0",
+      "faceId": "248142692:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142692:0",
+        "close": true,
+        "along": 0.5,
+        "span": 1
+      },
+      "sha256": "29f0e02e445d283b28bd2fbb7971d6b5b971fed1ef9b4bacd65421d75fa40c18"
+    },
+    {
+      "name": "248142694-0-elevation",
+      "faceId": "248142694:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142694:0"
+      },
+      "sha256": "38a20ff4ea699653d8ce274379a5121b00a854dfb614c5c9f60174426ac97b07"
+    },
+    {
+      "name": "248142694-0-ground-0",
+      "faceId": "248142694:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142694:0",
+        "close": true,
+        "along": 0.25,
+        "span": 0.5
+      },
+      "sha256": "a8008e9b09b0bd0e0877430f21516909a99a26d1d097e5a0ad1f016bd41c5ee7"
+    },
+    {
+      "name": "248142694-0-ground-1",
+      "faceId": "248142694:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142694:0",
+        "close": true,
+        "along": 0.75,
+        "span": 0.5
+      },
+      "sha256": "03f8d1a78bd8fe55bb4635960dad876a576b2c2e9f61dc4a946760c49b7eb332"
+    },
+    {
+      "name": "248142695-0-elevation",
+      "faceId": "248142695:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142695:0"
+      },
+      "sha256": "48347714e5d2756c71c90b561e973f5a0066627b8b5b7b05a21fe11e4df4579f"
+    },
+    {
+      "name": "248142695-0-ground-0",
+      "faceId": "248142695:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142695:0",
+        "close": true,
+        "along": 0.5,
+        "span": 1
+      },
+      "sha256": "058d92c21b329487cfe85f122259110b842cac96100634f0981196d44c0b1685"
+    },
+    {
+      "name": "248142696-0-elevation",
+      "faceId": "248142696:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142696:0"
+      },
+      "sha256": "87af550b8acec5245492f9f1f28704b3e75165e5eb433adf6d59d6b195943d06"
+    },
+    {
+      "name": "248142696-0-ground-0",
+      "faceId": "248142696:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142696:0",
+        "close": true,
+        "along": 0.5,
+        "span": 1
+      },
+      "sha256": "3aea3dc35fd6d800e300371f34cb727901c795f81e4ed8a4fd75e0ddc9ebabba"
+    },
+    {
+      "name": "248142698-0-elevation",
+      "faceId": "248142698:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142698:0"
+      },
+      "sha256": "f4b3ab11052876d0851b960caba7870aa69ab8261ef42756b7e546b7f83b9ad6"
+    },
+    {
+      "name": "248142698-0-ground-0",
+      "faceId": "248142698:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142698:0",
+        "close": true,
+        "along": 0.5,
+        "span": 1
+      },
+      "sha256": "251db2dbcb50ceeda148827d5fb932263a530913d7f244e46f7f19ca301250c2"
+    },
+    {
+      "name": "248142706-0-elevation",
+      "faceId": "248142706:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142706:0"
+      },
+      "sha256": "39b7583c4d6ed6b2113a1e6b60fe55cd31f52009437146c212d1c2dcb344430d"
+    },
+    {
+      "name": "248142706-0-ground-0",
+      "faceId": "248142706:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142706:0",
+        "close": true,
+        "along": 0.16666666666666666,
+        "span": 0.3333333333333333
+      },
+      "sha256": "30cc594eaecaecdbcb93e3f5e13b50c353bb1d7b919d4c403580f1770b6e76e9"
+    },
+    {
+      "name": "248142706-0-ground-1",
+      "faceId": "248142706:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142706:0",
+        "close": true,
+        "along": 0.5,
+        "span": 0.3333333333333333
+      },
+      "sha256": "a87f8172d0644fe5087801d3c028adeff2305d63b6b6eccff6df5c7502195496"
+    },
+    {
+      "name": "248142706-0-ground-2",
+      "faceId": "248142706:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142706:0",
+        "close": true,
+        "along": 0.8333333333333334,
+        "span": 0.3333333333333333
+      },
+      "sha256": "8fe73395ba12d641a9db55b0432c44d15e26a442e9876d4d30e0631c7cdeb35d"
+    },
+    {
+      "name": "248142706-1-elevation",
+      "faceId": "248142706:1",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142706:1"
+      },
+      "sha256": "3c8d957faa6057141e84767af04f619c480bed2b9ec096b66ee6e9de4ce6381e"
+    },
+    {
+      "name": "248142706-1-ground-0",
+      "faceId": "248142706:1",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142706:1",
+        "close": true,
+        "along": 0.25,
+        "span": 0.5
+      },
+      "sha256": "d3770676fa32a475eabb849807ed14eece6fd39b012df40bd41ccf11fef7b098"
+    },
+    {
+      "name": "248142706-1-ground-1",
+      "faceId": "248142706:1",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142706:1",
+        "close": true,
+        "along": 0.75,
+        "span": 0.5
+      },
+      "sha256": "b6c150059f19a13a0e056fc254d641b0ab85e888725449b9948670d3f2a5697e"
+    },
+    {
+      "name": "248142709-0-elevation",
+      "faceId": "248142709:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142709:0"
+      },
+      "sha256": "15c456ed3b1dbfd668c4a42000b9a00817d84900dc7e43ef0f7f81a334981c84"
+    },
+    {
+      "name": "248142709-0-ground-0",
+      "faceId": "248142709:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142709:0",
+        "close": true,
+        "along": 0.16666666666666666,
+        "span": 0.3333333333333333
+      },
+      "sha256": "e80bcb0f3be0c8ab8aaf805730c7e6f1e601f07aee1042e6b38414b5668d0b39"
+    },
+    {
+      "name": "248142709-0-ground-1",
+      "faceId": "248142709:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142709:0",
+        "close": true,
+        "along": 0.5,
+        "span": 0.3333333333333333
+      },
+      "sha256": "54ad8e0ad8b6db705019bba2fa2609651dcc2b28d5521b47004e84d561e5dc52"
+    },
+    {
+      "name": "248142709-0-ground-2",
+      "faceId": "248142709:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142709:0",
+        "close": true,
+        "along": 0.8333333333333334,
+        "span": 0.3333333333333333
+      },
+      "sha256": "218e5e38b34a1c0b08eb29261742bddbdb2f7c7e7497417bac0170e1edb87093"
+    },
+    {
+      "name": "248142709-1-elevation",
+      "faceId": "248142709:1",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142709:1"
+      },
+      "sha256": "fca75b305d88343adc149143c66e9da59f854ad4e6cccdabd5afa09ec85bc56b"
+    },
+    {
+      "name": "248142709-1-ground-0",
+      "faceId": "248142709:1",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142709:1",
+        "close": true,
+        "along": 0.16666666666666666,
+        "span": 0.3333333333333333
+      },
+      "sha256": "7a5322103f3a5b5cac93107b15bd06ce9ca64937f1c2d3b0bd3722e061dadee1"
+    },
+    {
+      "name": "248142709-1-ground-1",
+      "faceId": "248142709:1",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142709:1",
+        "close": true,
+        "along": 0.5,
+        "span": 0.3333333333333333
+      },
+      "sha256": "68748ce038d180ffa07f2338b92f9b9901a874edbde97d51ad7539dc149e9cac"
+    },
+    {
+      "name": "248142709-1-ground-2",
+      "faceId": "248142709:1",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142709:1",
+        "close": true,
+        "along": 0.8333333333333334,
+        "span": 0.3333333333333333
+      },
+      "sha256": "3372a36e33dff8014a9ba89e300f6abbfadf9a78581a67b179f46636f9f3b5ec"
+    },
+    {
+      "name": "248142711-0-elevation",
+      "faceId": "248142711:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142711:0"
+      },
+      "sha256": "de0c189c5e7f8cd470a1e8fc5e94cc0954f8e607d3dbc72735ab18156084dfca"
+    },
+    {
+      "name": "248142711-0-ground-0",
+      "faceId": "248142711:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142711:0",
+        "close": true,
+        "along": 0.5,
+        "span": 1
+      },
+      "sha256": "8388cce89c6e65ec889177a52ccad147126a5aa2528d0d88b2905de9405ea756"
+    },
+    {
+      "name": "248142711-1-elevation",
+      "faceId": "248142711:1",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142711:1"
+      },
+      "sha256": "809070c58177ba63bb000f24beecc45fc16b8bb1503b91764cfa6e29646a08c9"
+    },
+    {
+      "name": "248142711-1-ground-0",
+      "faceId": "248142711:1",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142711:1",
+        "close": true,
+        "along": 0.16666666666666666,
+        "span": 0.3333333333333333
+      },
+      "sha256": "80d0f7cb37369c7168cc23ac3efabd92e66ffedd7decbd13b051230120cc6af8"
+    },
+    {
+      "name": "248142711-1-ground-1",
+      "faceId": "248142711:1",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142711:1",
+        "close": true,
+        "along": 0.5,
+        "span": 0.3333333333333333
+      },
+      "sha256": "d5f7bb26414cdb1e391a040a1f0ac7591323ea0eb47b31d42a7744c3ec7802f2"
+    },
+    {
+      "name": "248142711-1-ground-2",
+      "faceId": "248142711:1",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142711:1",
+        "close": true,
+        "along": 0.8333333333333334,
+        "span": 0.3333333333333333
+      },
+      "sha256": "e990a1e122fc693c3d694c777dddbae4f44adf000cdc5e3dd0560f05754997f7"
+    },
+    {
+      "name": "248142712-0-elevation",
+      "faceId": "248142712:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142712:0"
+      },
+      "sha256": "21d70dcceb3caf57d05f462053315635dac7daa4210453e56036207b02592a01"
+    },
+    {
+      "name": "248142712-0-ground-0",
+      "faceId": "248142712:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142712:0",
+        "close": true,
+        "along": 0.5,
+        "span": 1
+      },
+      "sha256": "a22a3c532d58f3555e7f4128276d5e9018051148060f5e0b47b35b8e80aa4d2a"
+    },
+    {
+      "name": "248142712-1-elevation",
+      "faceId": "248142712:1",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142712:1"
+      },
+      "sha256": "037d9354c8160a1df347586d7717071cab1611ea92551cf42e782a4b32da8e64"
+    },
+    {
+      "name": "248142712-1-ground-0",
+      "faceId": "248142712:1",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142712:1",
+        "close": true,
+        "along": 0.16666666666666666,
+        "span": 0.3333333333333333
+      },
+      "sha256": "343ec6d3d9a3d31cbc7da01d2774148db78b2e4384324027b5b224bd239907b4"
+    },
+    {
+      "name": "248142712-1-ground-1",
+      "faceId": "248142712:1",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142712:1",
+        "close": true,
+        "along": 0.5,
+        "span": 0.3333333333333333
+      },
+      "sha256": "eaa5ceda31b2dca17893715dd88fecbc6dec26e29edaff30930d4e0b9da060c1"
+    },
+    {
+      "name": "248142712-1-ground-2",
+      "faceId": "248142712:1",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142712:1",
+        "close": true,
+        "along": 0.8333333333333334,
+        "span": 0.3333333333333333
+      },
+      "sha256": "23802470c06c412839ca1e406be0930137e85baef61d941a3249891926cee164"
+    },
+    {
+      "name": "248142717-0-elevation",
+      "faceId": "248142717:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142717:0"
+      },
+      "sha256": "9ed037f75c38f4736b640440d7a41198cd428fde3e5d672cbe72f0bc1b294a9d"
+    },
+    {
+      "name": "248142717-0-ground-0",
+      "faceId": "248142717:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142717:0",
+        "close": true,
+        "along": 0.25,
+        "span": 0.5
+      },
+      "sha256": "0c94b43764d2da4e6128645a43d1590c98d7aa83cd44cf33489c46a057d9491d"
+    },
+    {
+      "name": "248142717-0-ground-1",
+      "faceId": "248142717:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142717:0",
+        "close": true,
+        "along": 0.75,
+        "span": 0.5
+      },
+      "sha256": "470739e072f71a1de00bfbeea5d4f8a400d1a7423b323fbca28c3c450105ea52"
+    }
+  ],
+  "complete": true
+}

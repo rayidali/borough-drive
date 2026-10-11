@@ -181,12 +181,10 @@ func build_streets():
 	var joint = S.material(Color("989587"))
 	for x in [0.0,-229.0,214.0]:
 		for z in range(-119,63,3):
-			if x==214.0 and z < -37: continue
 			if abs(z)<8 or abs(z+77.9)<8: continue
 			for side in [-1,1]:
 				S.box(geometry,Vector3(x+side*12.7,.147,z),Vector3(3.65,.006,.026),joint)
 		for z in range(-112,56,6):
-			if x==214.0 and z < -37: continue
 			if abs(z)<12 or abs(z+77.9)<12: continue
 			for line_x in [-3.45,3.45]:
 				S.box(geometry,Vector3(x+line_x,.005,z),Vector3(.085,.012,2.4),road_paint)
@@ -197,12 +195,11 @@ func build_streets():
 			if x==214.0: continue
 			S.box(geometry,Vector3(x-9.25,.003,(interval[0]+interval[1])/2),Vector3(2.35,.008,interval[1]-interval[0]),cycle)
 	for z in [0.0,-77.9]:
-		for x in range(-298,286 if z==0.0 else 75,12):
+		for x in range(-298,286 if z==0.0 else 231,12):
 			if abs(x)<17 or abs(x+229)<17 or abs(x-214)<17: continue
 			# Directional lane markers on the existing one-way cross streets.
 			S.box(geometry,Vector3(x,.006,z+2.0),Vector3(4.0,.012,.085),road_paint)
 		for x in [0.0,-229.0,214.0]:
-			if x==214.0 and z!=0.0: continue
 			for side in [-1,1]:
 				for mark in range(-7,8):
 					S.box(geometry,Vector3(x+mark*1.12,.008,z+side*7.2),Vector3(.53,.015,2.6),road_paint)
@@ -211,14 +208,14 @@ func build_streets():
 	# Visible terminal barriers and solid limits make the small map deliberate.
 	var barrier = S.material(Color("8faaa0"))
 	for x in [0.0,-229.0,214.0]:
-		for z in ([-38.0,57.0] if x==214.0 else [-119.0,57.0]):
+		for z in [-119.0,57.0]:
 			S.solid_box(self,Vector3(x,1.0,z),Vector3(21.5,2.0,.4),null)
 			for sx in range(-9,10,3):
 				S.box(geometry,Vector3(x+sx,.65,z),Vector3(2.5,.23,.20),barrier)
 				for dx in [-.95,.95]: S.box(geometry,Vector3(x+sx+dx,.34,z),Vector3(.11,.70,.32),metal)
 			boundary_sign(Vector3(x,1.40,z),"SLOW STREETS",PI if z<0 else 0.0)
 	for z in [0.0,-77.9]:
-		for x in ([-306.0,289.0] if z==0.0 else [-269.0,77.0]):
+		for x in ([-306.0,289.0] if z==0.0 else [-269.0,239.0]):
 			S.solid_box(self,Vector3(x,1.0,z),Vector3(.4,2.0,9.9),null)
 			for sz in [-3.0,0.0,3.0]:
 				S.box(geometry,Vector3(x,.65,z+sz),Vector3(.20,.23,2.5),barrier)
@@ -226,8 +223,8 @@ func build_streets():
 	# World limits also catch attempts to drive around the visible road ends.
 	for x in [-317,300]: S.solid_box(self,Vector3(x,10,-31),Vector3(1,30,190),null)
 	for z in [-130,67]: S.solid_box(self,Vector3(-8,10,z),Vector3(620,30,1),null)
-	S.solid_box(self,Vector3(190,10,-48),Vector3(225,30,1),null)
-	S.solid_box(self,Vector3(81,10,-90),Vector3(1,30,84),null)
+	# St. Marks now connects to Avenue A; its short eastern context ends here.
+	S.solid_box(self,Vector3(245,10,-100),Vector3(1,30,62),null)
 
 func boundary_sign(p: Vector3, text: String, angle: float):
 	var label = Label3D.new()
@@ -296,25 +293,21 @@ func build_props():
 				S.cylinder(geometry,Vector3(px,3.9,z),.095,7.8,metal)
 				S.box(geometry,Vector3(px-side*.7,7.8,z),Vector3(1.5,.085,.085),metal)
 				S.box(geometry,Vector3(px-side*1.4,7.69,z),Vector3(.48,.12,.25),bulb)
-	for z in [-77.9]:
-		for side in [-1,1]:
-			for x in [-204.0,-154.0,-107.0,-63.0,55.0]:
-				var p = Vector3(x,0,z+side*7.3)
-				details.tree(geometry,p,.83)
+	preload("res://scripts/first_stmarks_detail.gd").new().dress(geometry,details)
 	var manhole = S.material(Color("555965"),.60)
 	for p in [Vector3(-4,.008,1),Vector3(3,.008,-28),Vector3(-36,.008,-1),Vector3(-145,.008,-78),Vector3(-229,.008,-32)]:
 		S.cylinder(geometry,p,.47,.02,manhole,24)
 		for i in range(-2,3): S.box(geometry,p+Vector3(0,.015,i*.115),Vector3(.63,.008,.021),metal)
 	var sign_green = S.material(Color("517774"))
 	var signal_black = S.material(Color("39494b"))
+	var stmarks_signal_yellow = S.material(Color("c9a443"))
 	for x in [0.0,-229.0,214.0]:
 		for z in [0.0,-77.9]:
-			if x==214.0 and z!=0.0: continue
 			for side in [-1,1]:
 				var p = Vector3(x+side*12.0,0,z+side*6.5)
 				S.cylinder(geometry,p+Vector3(0,3.2,0),.11,6.4,metal)
 				S.box(geometry,p+Vector3(-side*2.8,6.3,0),Vector3(5.7,.10,.10),metal)
-				S.box(geometry,p+Vector3(-side*5.4,5.85,0),Vector3(.34,.85,.30),signal_black)
+				S.box(geometry,p+Vector3(-side*5.4,5.85,0),Vector3(.34,.85,.30),signal_black if z==0.0 else stmarks_signal_yellow)
 				S.box(geometry,p+Vector3(0,4.3,0),Vector3(1.5,.26,.09),sign_green)
 				S.box(geometry,p+Vector3(-side*5.4,5.65,-side*.17),Vector3(.18,.17,.035),S.material(Color("b9d491"),.6,1))
 	# Benches and restrained parking provide depth without masking the corner shops.

@@ -213,6 +213,8 @@ func _process(dt):
 					car.reset_physics_interpolation()
 				elif command.get("type") == "frontage":
 					show_review_frontage(int(command.id),bool(command.get("close",false)),float(command.get("along",.5)),float(command.get("span",1.0)))
+				elif command.get("type") == "streetFrontage":
+					show_street_review_frontage(str(command.faceId),bool(command.get("close",false)),float(command.get("along",.5)),float(command.get("span",1.0)))
 				elif command.get("type") == "reference":
 					show_reference_camera(command)
 				JavaScriptBridge.eval("window.seventhReviewAck="+str(int(command.get("sequence",0))))
@@ -344,6 +346,16 @@ func show_review_frontage(id: int, close: bool, along = .5, span = 1.0):
 	var record = null
 	for entry in world.data.reviewFrontages:
 		if int(entry.id)==id: record=entry;break
+	_show_review_record(record,close,along,span)
+
+func show_street_review_frontage(face_id: String, close: bool, along = .5, span = 1.0):
+	# Exact face ownership is necessary for multi-frontage avenue corners.
+	var record = null
+	for entry in world.data.get("streetReviewFrontages",[]):
+		if str(entry.faceId)==face_id: record=entry;break
+	_show_review_record(record,close,along,span)
+
+func _show_review_record(record, close: bool, along: float, span: float):
 	if record == null: return
 	car.stop_car()
 	car.enabled = false

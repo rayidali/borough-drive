@@ -10,6 +10,62 @@ git log --oneline -- CODEX-HANDOFF.md SESSION-LOG.md
 
 Checkpoint notes describe observed state, not a live monitor. Recheck local files, remote branches and deployment status when resuming. Keep necessary artifacts in the repository and record reproducible commands; temporary directories and old tool/process IDs are not durable checkpoints. Store no tokens, passwords or authentication cookies here.
 
+## 2026-10-11 — 06 — complete First / St. Marks candidate reviewed locally
+
+**Objective/decision:** The confirmed full First Avenue Seventh–St. Marks and St. Marks Second–Avenue A extent is implemented, including both sides, returns and street details. Ready for local user review; no publication or paid API job requested.
+**Source/save:** `feature/first-stmarks-08`, baseline `d4e147e1bc559b9ef76429c8c74887048ceb45ac`; final local save being recorded. No fetch, push, new CI/deployment or live recheck. Final PCK SHA256 `570ebb253734e69b6eca32002e53b6172ab71ca4f24cf1d8a489fb8ea0d672b8`, 94,003,244 bytes; `build.json.sourceCommit` remains the old geographic baseline, not this implementation commit.
+**Changes:** 102 editable exact faces on 93 buildings, all 182 prior objects retained plus 21 additions = 203. Separate engine-only authoring/adapter, exceptional masses, access/shop/window/number details, corner returns, observed street/site geometry and bounded route extension. [Full report](model-source/SEVENTH-ENGINE-08.md).
+**Evidence/review:** 55 browser view locators; April 2026/September 2024 imagery with explicit unknowns. All 102 draft elevations, 147 complete-candidate ground crops, 21 latest repair ground crops/14 elevations, additional 109 elevation, eleven perspectives plus two wider roof views, three mid-street player views and six traversal-end views actually inspected. Package boundaries and repairs are retained in the review record; no 1:1 acceptance claimed.
+**Validation:** Original/package checks and native handling/address/cameras pass. All 18 complete-route keyboard traversals pass across three weather modes, zero contacts/errors/failed responses. Opening audit: 1,847 rectangles, zero overlaps/bounds issues. Preservation: 110 original protected/out-of-scope GLBs, every old schedule namespace, original game/core/UI/audio/credits/routing and both private screenshots unchanged. Screenshots remain untracked.
+**Performance/limits:** Baseline mean 58.61 FPS; initial final mean 50.33 with two long rain pauses; focused repeat 58.97 (56.79–60.01), all samples visible, max gap 182.3 ms. Initial pause cause is unproven; both runs retained. No sustained 60 FPS guarantee, measured geometry or calibrated acceptance. Frozen schedule/inventory status strings describe authoring-time state.
+**Next:** Review locally via `npm run dev` at the root route; drive north from First & Seventh to St. Marks. Follow the next user direction; no further street, publication or UI/audio task is queued.
+
+## 2026-10-11 — 05 — full First / St. Marks draft exported
+
+- Objective: confirmed full First Avenue Seventh–St. Marks and both St. Marks blocks through Avenue A, including returns and street details; local implementation only.
+- Source: `feature/first-stmarks-08` from `d4e147e1bc559b9ef76429c8c74887048ceb45ac`; all task changes remain uncommitted; no push or deployment.
+- Progress: 102 editable face schedules, 203-building model export, bounded eastern road/collision extension, painted gap and observed curb fixtures. Existing Seventh remains a separate unchanged schedule. Full browser captures/review underway.
+- Checks: full export/build succeeds; package verification passes 14 files / 90 source hashes, 203 buildings, 82 Seventh and 102 new editable faces. Eight opening intersections found by audit and corrected in the authoring source, awaiting regeneration/export. Counts and successful export do not establish visual acceptance.
+- Pending: complete actual render review, apply accumulated repairs, re-export, verify protection and new route traversals/performance, refresh documentation and save locally. Both private screenshots remain untracked; no publication or paid imagery job requested.
+
+## 2026-10-11-04 — First Avenue candidate exported; evidence repairs underway
+
+**Objective/authorization:** Continue full confirmed First Avenue/St. Marks scope locally. No publication or paid API work.
+**Source/save:** Baseline `d4e147e1` / architecture `098f1cc`; branch `feature/first-stmarks-08`. All task work remains uncommitted. No fetch, push or deployment.
+**Changes:** 14 First Avenue buildings / 16 faces have an explicit engine-only schedule and exact-face render adapter, plus export metadata and a review-only camera selector. First unit exported and browser-built. All 16 elevations/overlapping ground views captured. Reviewed initial images exposed source discrepancies in 117 coping/circle fascia, 121–123 hood/sash anatomy, scaffold timber/mesh, shop displays and lettering; source-backed corrections are exporting/building. St. Marks architecture and street expansion remain pending.
+**Actual checks:** Original `npm run verify` and `npm run seventh:verify` passed initial unit. All 168 other model hashes, old JSON schedule namespaces and both private screenshots matched baseline. Nine baseline performance samples completed at mean 58.61 FPS (51.82–60.01), startup 21.303 seconds; new-version performance pending. Structural passes/captures do not imply visual acceptance.
+**Next:** Complete First Avenue repair captures/review, all St. Marks units/site/street details, bounded collision/coverage adaptation, then full package review and preservation/behavior/performance checks. Keep source photos temporary and both private screenshots untracked.
+
+## 2026-10-11-03 — Initial reference coverage and adapter preparation
+
+**Objective:** Implement the confirmed First Avenue Seventh–St. Marks and St. Marks Second–Avenue A scope locally; no publication, paid API job or UI/audio change.
+**Baseline/local state:** `feature/first-stmarks-08` from `d4e147e1`; gameplay source `098f1cc`, unchanged revision 07 PCK `746113ee…393fa`. Documentation, inventory, baseline hashes and new source ledger remain uncommitted. No model/runtime changes yet at this milestone.
+**Evidence:** 104 of 106 mapped faces now have initial elevation/access observations in [the browser ledger](model-source/first-stmarks-browser-08.json), with 53 inspected-view locators. Two uninspected supplemental faces are protected Seventh returns. This is not complete per-feature inspection or rendered acceptance. Sources mix April 2026 and September 2024; old contributor panoramas are excluded from current-condition claims. Adjacent inspection corrected 99½ as part of the tall shared 99 facade and identified the low painted site edge west of 110. Some tree-obscured counts and entrances still require targeted follow-up.
+**Checks:** Source-face ownership compared to mapped geometry; private/source photos remain outside tracked assets. No new build, gameplay, performance or live check yet. Browser captures work at 1000×800 after larger western-panorama captures stalled.
+**Next:** First Avenue adapter/schedules and bounded model export, then remaining St. Marks detail resolution and implementation; final full-scope export, rendered review and preservation/gameplay/performance checks. Publishing remains unrequested.
+
+## 2026-10-11-02 — Full bounds confirmed; reference pass started
+
+**User objective and decisions:** The user answered “Yes, those full bounds”: First Avenue Seventh–St. Marks and both sides of St. Marks Second–Avenue A. Implement locally with complete property, same-parcel return and street-detail coverage; preserve accepted Seventh/core/corner, original game and UI/audio. No publication or paid API job.
+**Gameplay/source baseline:** Branch `feature/first-stmarks-08` created from `d4e147e1bc559b9ef76429c8c74887048ceb45ac`; architecture/export `098f1cc`. PCK `746113ee606ebfb6b6b0e32861974ce2ae3445c25d7a6b509b011c7c6bd393fa` unchanged.
+**Local changes:** Confirmed scope packet/JSON and checkpoint documentation. [Baseline hashes](model-source/first-stmarks-review-08/baseline.json) freeze 1,145 tracked non-Markdown files, 182 models and both private screenshots. All new work is uncommitted.
+**Reference state:** Ordinary Street View opens in an isolated browser; initial First Avenue images are dated April 2026. Per-property observations and complete inspection remain in progress. Temporary source screenshots are not distributable game assets.
+**Remote/deployment state:** No fetch, push or deployment; September live evidence is historical.
+**Validation:** Scope IDs and source/package hashes established. No model rebuild or new gameplay/performance review yet. The sandbox initially prevented branch creation/browser startup; scoped escalation succeeded. No automatic approval rejection remains.
+**Unresolved issues:** Complete source/features inventory, identity of empty-address `248142717`, source occlusions and bounded adaptation of Seventh-specific export/render/review assumptions.
+**Next action:** Complete observations, implement all assigned faces/street details, export and inspect the actual game, run relevant preservation/runtime/performance checks and save a durable reviewable result.
+
+## 2026-10-11-01 — First Avenue / St. Marks scope prepared
+
+**User objective and decisions:** Resume reconstruction with First Avenue and the street above Seventh. The map identifies that street as St. Marks Place. Exact endpoints are unspecified; a question is pending for First Avenue Seventh–St. Marks plus St. Marks Second–Avenue A, with west-only/east-only alternatives. This new request supersedes the prior session close within its eventual bounds.
+**Completed work:** Read current checkpoint, entry instructions, neighborhood notes and reconstruction skill/references. Prepared [scope packet](model-source/FIRST-STMARKS-SCOPE-08.md) and [inventory](model-source/first-stmarks-scope-08.json): 98 primary mapped faces, 95 unique buildings, eight supplemental same-parcel returns. Identified 21 eastern St. Marks buildings missing from the current Godot slice and protected First & Seventh overlap. Inventory is a local-geography bootstrap, not new visual inspection or full physical-feature coverage.
+**Gameplay/source baseline:** Checkout `main` at `d4e147e1bc559b9ef76429c8c74887048ceb45ac`; architecture/export `098f1cc89b41c2067fe1577ddb62df5a3b3c6002`. Re-read PCK SHA256 `746113ee606ebfb6b6b0e32861974ce2ae3445c25d7a6b509b011c7c6bd393fa`.
+**Local changes:** Scope packet/inventory and checkpoint documentation only, uncommitted. Both private screenshots remain local/untracked and untouched. No model, source schedule, runtime, interface or audio change.
+**Remote/deployment state:** Cached origin matches local HEAD; not fetched or pushed. No deployment or live/CI recheck. September publication evidence remains the last independently verified state.
+**Validation:** Parsed local geography, retained building/face keys and compared candidate IDs to the 182-building slice. Computed source/package hashes. Inventory uniqueness, exact source-face equality, slice membership, new Markdown links and `git diff --check` pass. No new source acquisition, export, gameplay/performance or photographic review.
+**Unresolved issues:** Geographic endpoints and final corner extent; physical site/access/fixture inventory; dated facade evidence; new-street adapter implementation. Empty-address record `248142717` needs identity confirmation if eastern St. Marks is included.
+**Next action:** Receive the endpoint clarification, freeze assigned scope and begin the complete browser-reference pass. Preserve accepted Seventh/core/corner, original game, UI/audio and private screenshots. No publication or paid API work is implied.
+
 ## 2026-09-23-06 — Session closed; Markdown and resume state reconciled
 
 **Recorded:** 2026-09-23T17:32:39.206364-04:00.

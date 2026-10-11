@@ -1,5 +1,7 @@
 # Working on Borough Drive
 
+**October 11 implementation:** the user confirmed the full bounds: First Avenue from East 7th to St. Marks Place, plus both sides of St. Marks from Second Avenue to Avenue A. Read the current handoff and `model-source/FIRST-STMARKS-SCOPE-08.md`. The full assigned property/street pass is implemented as local revision 08; read `model-source/SEVENTH-ENGINE-08.md` for actual review and limitations, and the handoff for exact save state. Use the preferred ordinary browser Street View method for subsequent authorized refinements. No further street is queued. Same-parcel corner returns are included; preserve accepted Seventh/core/corner, original game, UI/audio and both private screenshots. No publication or paid API job is requested. This direction supersedes the September session close and the earlier endpoint clarification.
+
 **September 23 session close:** this follow-up is documentation only. Revision 07 is published; the user is closing the session. Read the current handoff before starting a later task. No next street, source-acquisition job, UI/audio change or autonomous pipeline is queued. Both private screenshots stay local/untracked. The closing documentation is saved/pushed under the preceding publication request; use Git history for its commit.
 
 Read `CODEX-HANDOFF.md`, the latest entry in `SESSION-LOG.md`, `START-HERE.md`, and `model-source/NEIGHBORHOOD-NOTES.md` before substantial work.

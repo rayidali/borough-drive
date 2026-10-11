@@ -17,7 +17,7 @@ const wasm=await fs.readFile(path.join(root,'dist/seventh/index.wasm'));assert.e
 const pack=await fs.readFile(path.join(root,'dist/seventh/index.pck'));assert.equal(pack.subarray(0,4).toString(),'GDPC','PCK magic');
 assert(pack.length<100*1024*1024,'Keep the required pack below the repository file-size limit');
 const slice=JSON.parse(await fs.readFile(path.join(root,'engine/first-seventh/assets/slice.json'),'utf8'));
-assert.equal(slice.buildings.length,182);assert.equal(new Set(slice.buildings.map(x=>x.id)).size,182);
+assert.equal(slice.buildings.length,203);assert.equal(new Set(slice.buildings.map(x=>x.id)).size,203);
 const geography=JSON.parse(await fs.readFile(path.join(root,'dist/reconstruction/neighborhood.json'),'utf8'));
 const expectedSeventh=geography.buildings.filter(b=>b.frontages.some(f=>f.street==='East 7th Street')).map(b=>b.id).sort((a,b)=>a-b);
 assert.equal(expectedSeventh.length,82);
@@ -28,6 +28,21 @@ for(const frontage of slice.reviewFrontages){
     'Review height must match the actual exported model, including cached partial rebuilds: '+frontage.id);
 }
 const details=JSON.parse(await fs.readFile(path.join(root,'model-source/storefront-details.json'),'utf8'));
+const scope=JSON.parse(await fs.readFile(path.join(root,'model-source/first-stmarks-scope-08.json'),'utf8'));
+const street=details.firstStmarksEngine;
+const expectedFaces=[...scope.frontages,...scope.cornerReturns].filter(f=>!f.protectedCorner).map(f=>f.faceId).sort();
+assert.deepEqual(street.elevations.map(r=>r.faceId).sort(),expectedFaces,'Every editable confirmed face has a schedule');
+assert.deepEqual(slice.streetReviewFrontages.map(r=>r.faceId).sort(),expectedFaces,'Every scheduled face can be reviewed');
+const base=geography.buildings.filter(b=>!b.core&&((b.box[0]+b.box[2])/2>=-268&&(b.box[0]+b.box[2])/2<=77&&(b.box[1]+b.box[3])/2>=121&&(b.box[1]+b.box[3])/2<=283||b.frontages.some(f=>f.street==='East 7th Street'))).map(b=>b.id);
+const expectedIds=[...new Set([...base,...scope.frontages.map(f=>f.buildingId),...scope.cornerReturns.map(f=>f.buildingId)])].sort((a,b)=>a-b);
+assert.deepEqual(slice.buildings.map(b=>b.id).sort((a,b)=>a-b),expectedIds,'Bounded expansion preserves the entire previous slice');
+for(const r of street.elevations){
+ const b=geography.buildings.find(b=>b.id===r.buildingId);
+ assert.deepEqual(r.sourceFace,b.frontages[r.frontageIndex],'Stable mapped frontage '+r.faceId);
+ assert(r.architecture.observation.sources.length,'Dated source required '+r.faceId);
+ assert(![241822226,241829631,248142331,248142404,248142707].includes(r.buildingId));
+ assert.notEqual(r.sourceFace.street,'East 7th Street');
+}
 const schedule=details.seventhEngine;
 assert.deepEqual(schedule.elevations.map(b=>b.buildingId).sort((a,b)=>a-b),expectedSeventh);
 assert.equal(digest(await fs.readFile(path.join(root,'model-source/storefront-details.json'))),slice.detailSourceSha256);
@@ -55,5 +70,5 @@ assert.equal(slice.sourceSha256,build.geographySha256);
 const html=await fs.readFile(path.join(root,'dist/seventh/index.html'),'utf8');assert(!html.includes('$GODOT_'),'Unexpanded shell placeholders');
 assert(html.includes('"canvasResizePolicy":0'),'CSS-pixel rendering');assert(html.includes('const threaded = false'),'No GPU server or cross-origin threads required');
 assert(!/<script[^>]+src=["']https?:/.test(html),'Runtime scripts must be local');
-console.log(`Verified Seventh: ${Object.keys(build.files).length} package files, ${Object.keys(build.sources).length} source hashes, 182 buildings, all 82 Seventh frontages and original geography.`);
+console.log(`Verified slice: ${Object.keys(build.files).length} package files, ${Object.keys(build.sources).length} source hashes, 203 buildings, all 82 Seventh frontages, 102 First/St. Marks faces and original geography.`);
 await import('./verify-seventh-architecture.mjs');

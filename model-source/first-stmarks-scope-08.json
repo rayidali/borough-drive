@@ -1,0 +1,3711 @@
+{
+  "schema": 1,
+  "recorded": "2026-10-11T11:50:11.156428-04:00",
+  "task": "First Avenue and the street north of Seventh",
+  "mode": "implement",
+  "status": "full geographic bounds confirmed; reference pass starting",
+  "request": "i think we can resume this project by cointinuing with 1st ave and the street above 7th street",
+  "baseline": {
+    "branch": "main",
+    "head": "d4e147e1bc559b9ef76429c8c74887048ceb45ac",
+    "architectureCommit": "098f1cc89b41c2067fe1577ddb62df5a3b3c6002",
+    "pckSha256": "746113ee606ebfb6b6b0e32861974ce2ae3445c25d7a6b509b011c7c6bd393fa",
+    "sourceHashes": {
+      "dist/reconstruction/neighborhood.json": "fd61b108e80eab18d477686b677413ef565f1ab16edc26170751347e22651a5c",
+      "engine/first-seventh/assets/slice.json": "bed9d7c38f07a3388066c2f1822290fc5ff7740a0685836a5f8e904ef11fc857",
+      "model-source/digital-twin-coverage.json": "7d6d4a647663aaaf3e13c786e4c913f74bff36ab967c665839825208a22ef9e0"
+    },
+    "workBranch": "feature/first-stmarks-08"
+  },
+  "selectionRule": "For each proposed segment, select every existing mapped frontage with exact street name and midpoint strictly inside the stated source-coordinate interval. Retain geometric subfaces and stable buildingId:frontageIndex keys. List other street faces on each selected parcel separately as provisional returns. Source x runs east and z runs south; runtime z = source z - 228. No source geometry modified.",
+  "limits": [
+    "Mapped coverage is provisional; it does not prove all physical properties, sites, entrances, businesses or fixtures are inventoried.",
+    "Existing names and facade evidence are historical repository records, not October occupancy verification or new visual inspection.",
+    "Accepted First & Seventh models remain protected even when their avenue face lies within the proposed segment.",
+    "No new visual source inspection, acquisition, modeling, export, gameplay test, push or deployment performed.",
+    "Corner returns stop at the same parcel boundary; protected Seventh faces remain unchanged."
+  ],
+  "datePolicy": "Prefer latest available ordinary browser Street View after bounds are settled; record imagery month/year separately from inspection date and label mixed-date supplements. No present-day occupancy assertion from historical map records.",
+  "segments": [
+    {
+      "id": "first-7-stmarks",
+      "street": "First Avenue",
+      "from": "East 7th Street",
+      "to": "St. Marks Place",
+      "sourceAxis": "z",
+      "sourceInterval": [
+        150.1,
+        228
+      ],
+      "sides": [
+        "west",
+        "east"
+      ],
+      "mappedFaces": 16,
+      "uniqueBuildings": 16,
+      "missingSliceBuildingIds": []
+    },
+    {
+      "id": "stmarks-second-first",
+      "street": "St. Marks Place",
+      "from": "Second Avenue",
+      "to": "First Avenue",
+      "sourceAxis": "x",
+      "sourceInterval": [
+        -229,
+        0
+      ],
+      "sides": [
+        "north",
+        "south"
+      ],
+      "mappedFaces": 47,
+      "uniqueBuildings": 46,
+      "missingSliceBuildingIds": []
+    },
+    {
+      "id": "stmarks-first-a",
+      "street": "St. Marks Place",
+      "from": "First Avenue",
+      "to": "Avenue A",
+      "sourceAxis": "x",
+      "sourceInterval": [
+        0,
+        214
+      ],
+      "sides": [
+        "north",
+        "south"
+      ],
+      "mappedFaces": 35,
+      "uniqueBuildings": 35,
+      "missingSliceBuildingIds": [
+        248142616,
+        248142619,
+        248142620,
+        248142622,
+        248142623,
+        248142625,
+        248142627,
+        248142628,
+        248142630,
+        248142631,
+        248142634,
+        248142636,
+        248142638,
+        248142641,
+        248142643,
+        248142649,
+        248142652,
+        248142655,
+        248142706,
+        248142709,
+        248142717
+      ]
+    }
+  ],
+  "summary": {
+    "primaryFaces": 98,
+    "uniqueBuildings": 95,
+    "alreadyInSlice": 74,
+    "missingFromSlice": 21,
+    "supplementalReturnFaces": 8,
+    "protectedPrimaryFaces": 2
+  },
+  "frontages": [
+    {
+      "faceId": "241822212:0",
+      "buildingId": 241822212,
+      "frontageIndex": 0,
+      "address": "117 1st Avenue",
+      "street": "First Avenue",
+      "owner": "first-7-stmarks",
+      "role": "assigned frontage; preserve if protectedCorner",
+      "side": "west",
+      "sourceFace": {
+        "x": -14.659,
+        "z": 213.441,
+        "rx": -0.007499789071398496,
+        "rz": -0.9999718761864678,
+        "length": 6.0,
+        "street": "First Avenue"
+      },
+      "runtimeStart": [
+        -14.659,
+        -14.558999999999997
+      ],
+      "inCurrentSlice": true,
+      "currentModelSha256": "4ffe64c78c92a2b3d6f92fedc52ffaacde09ce05c708ee16528d154b14bcb81a",
+      "protectedCorner": false,
+      "existingBusinessRecords": [
+        {
+          "id": "osm-node-12542984183",
+          "name": "Dö Kham",
+          "frontageIndex": 0
+        }
+      ],
+      "evidenceState": "needs-evidence",
+      "geometryState": "existing baseline; no edits",
+      "reviewState": "not reviewed in this task",
+      "identityIssue": null
+    },
+    {
+      "faceId": "241822220:0",
+      "buildingId": 241822220,
+      "frontageIndex": 0,
+      "address": "129 1st Avenue",
+      "street": "First Avenue",
+      "owner": "first-7-stmarks",
+      "role": "assigned frontage; preserve if protectedCorner",
+      "side": "west",
+      "sourceFace": {
+        "x": -14.923,
+        "z": 174.917,
+        "rx": -0.007235887576544319,
+        "rz": -0.9999738206228099,
+        "length": 7.739,
+        "street": "First Avenue"
+      },
+      "runtimeStart": [
+        -14.923,
+        -53.083
+      ],
+      "inCurrentSlice": true,
+      "currentModelSha256": "3c5a4147af4803e7f6837ae5706babd2da211e6a492ea23857afae0bd39e6292",
+      "protectedCorner": false,
+      "existingBusinessRecords": [
+        {
+          "id": "osm-node-10270502716",
+          "name": "Lulu's Nails",
+          "frontageIndex": 0
+        },
+        {
+          "id": "osm-node-10270502722",
+          "name": "AT&T",
+          "frontageIndex": 0
+        }
+      ],
+      "evidenceState": "needs-evidence",
+      "geometryState": "existing baseline; no edits",
+      "reviewState": "not reviewed in this task",
+      "identityIssue": null
+    },
+    {
+      "faceId": "241822226:1",
+      "buildingId": 241822226,
+      "frontageIndex": 1,
+      "address": "115 1st Avenue",
+      "street": "First Avenue",
+      "owner": "first-7-stmarks",
+      "role": "assigned frontage; preserve if protectedCorner",
+      "side": "west",
+      "sourceFace": {
+        "x": -14.622,
+        "z": 218.82,
+        "rx": -0.006878439245307335,
+        "rz": -0.9999763432569535,
+        "length": 5.379,
+        "street": "First Avenue"
+      },
+      "runtimeStart": [
+        -14.622,
+        -9.180000000000007
+      ],
+      "inCurrentSlice": true,
+      "currentModelSha256": "6a180f2dbcc3c54b9d2583bb5bb4d0fddde956086d845fddeaed1b05b735213c",
+      "protectedCorner": true,
+      "existingBusinessRecords": [
+        {
+          "id": "osm-node-12324923077",
+          "name": "Tile Bar",
+          "frontageIndex": 1
+        }
+      ],
+      "evidenceState": "needs-evidence",
+      "geometryState": "existing baseline; no edits",
+      "reviewState": "not reviewed in this task",
+      "identityIssue": null
+    },
+    {
+      "faceId": "241822228:0",
+      "buildingId": 241822228,
+      "frontageIndex": 0,
+      "address": "125 1st Avenue",
+      "street": "First Avenue",
+      "owner": "first-7-stmarks",
+      "role": "assigned frontage; preserve if protectedCorner",
+      "side": "west",
+      "sourceFace": {
+        "x": -14.398,
+        "z": 189.018,
+        "rx": -0.006277340221630846,
+        "rz": -0.9999802973057728,
+        "length": 6.372,
+        "street": "First Avenue"
+      },
+      "runtimeStart": [
+        -14.398,
+        -38.982
+      ],
+      "inCurrentSlice": true,
+      "currentModelSha256": "055306a124b5e9b7b5e424a5455d7f1028e349005239f9ed94b6ab72f2af28ee",
+      "protectedCorner": false,
+      "existingBusinessRecords": [
+        {
+          "id": "osm-node-10270502710",
+          "name": "Nudibranch",
+          "frontageIndex": 0
+        }
+      ],
+      "evidenceState": "needs-evidence",
+      "geometryState": "existing baseline; no edits",
+      "reviewState": "not reviewed in this task",
+      "identityIssue": null
+    },
+    {
+      "faceId": "241822247:0",
+      "buildingId": 241822247,
+      "frontageIndex": 0,
+      "address": "121 1st Avenue",
+      "street": "First Avenue",
+      "owner": "first-7-stmarks",
+      "role": "assigned frontage; preserve if protectedCorner",
+      "side": "west",
+      "sourceFace": {
+        "x": -14.303,
+        "z": 201.219,
+        "rx": -0.006744376955695647,
+        "rz": -0.9999772564311048,
+        "length": 6.079,
+        "street": "First Avenue"
+      },
+      "runtimeStart": [
+        -14.303,
+        -26.781000000000006
+      ],
+      "inCurrentSlice": true,
+      "currentModelSha256": "a870ff944003ca25c542b66109935b56464148e6249bf4e9bddc4e55919fe707",
+      "protectedCorner": false,
+      "existingBusinessRecords": [
+        {
+          "id": "osm-node-6332155985",
+          "name": "Cosmo's Launderama",
+          "frontageIndex": 0
+        }
+      ],
+      "evidenceState": "needs-evidence",
+      "geometryState": "existing baseline; no edits",
+      "reviewState": "not reviewed in this task",
+      "identityIssue": null
+    },
+    {
+      "faceId": "241822263:0",
+      "buildingId": 241822263,
+      "frontageIndex": 0,
+      "address": "127 1st Avenue",
+      "street": "First Avenue",
+      "owner": "first-7-stmarks",
+      "role": "assigned frontage; preserve if protectedCorner",
+      "side": "west",
+      "sourceFace": {
+        "x": -14.438,
+        "z": 182.646,
+        "rx": -0.008145579250814215,
+        "rz": -0.9999668242190181,
+        "length": 7.734,
+        "street": "First Avenue"
+      },
+      "runtimeStart": [
+        -14.438,
+        -45.35400000000001
+      ],
+      "inCurrentSlice": true,
+      "currentModelSha256": "7ab7b9b7e030ee4afd9ecb61f92c2ed9922161d8082969f1f317ddec7e371fd4",
+      "protectedCorner": false,
+      "existingBusinessRecords": [],
+      "evidenceState": "needs-evidence",
+      "geometryState": "existing baseline; no edits",
+      "reviewState": "not reviewed in this task",
+      "identityIssue": null
+    },
+    {
+      "faceId": "241822288:0",
+      "buildingId": 241822288,
+      "frontageIndex": 0,
+      "address": "123 1st Avenue",
+      "street": "First Avenue",
+      "owner": "first-7-stmarks",
+      "role": "assigned frontage; preserve if protectedCorner",
+      "side": "west",
+      "sourceFace": {
+        "x": -14.344,
+        "z": 195.14,
+        "rx": -0.008820303727488186,
+        "rz": -0.9999611003644866,
+        "length": 6.122,
+        "street": "First Avenue"
+      },
+      "runtimeStart": [
+        -14.344,
+        -32.860000000000014
+      ],
+      "inCurrentSlice": true,
+      "currentModelSha256": "e49d5712bfce9882303edf4084f30209c9cda6a0b2899a2c2d1772d3c7377737",
+      "protectedCorner": false,
+      "existingBusinessRecords": [],
+      "evidenceState": "needs-evidence",
+      "geometryState": "existing baseline; no edits",
+      "reviewState": "not reviewed in this task",
+      "identityIssue": null
+    },
+    {
+      "faceId": "241822295:0",
+      "buildingId": 241822295,
+      "frontageIndex": 0,
+      "address": "119 1st Avenue",
+      "street": "First Avenue",
+      "owner": "first-7-stmarks",
+      "role": "assigned frontage; preserve if protectedCorner",
+      "side": "west",
+      "sourceFace": {
+        "x": -14.704,
+        "z": 207.441,
+        "rx": -0.006592556524101372,
+        "rz": -0.999978268863117,
+        "length": 6.219,
+        "street": "First Avenue"
+      },
+      "runtimeStart": [
+        -14.704,
+        -20.558999999999997
+      ],
+      "inCurrentSlice": true,
+      "currentModelSha256": "0ba219a6fd6b1e02dad332498a37cf6b082d69baf31822972cd37159a2e651d4",
+      "protectedCorner": false,
+      "existingBusinessRecords": [
+        {
+          "id": "osm-node-4492691093",
+          "name": "Ariari",
+          "frontageIndex": 0
+        }
+      ],
+      "evidenceState": "needs-evidence",
+      "geometryState": "existing baseline; no edits",
+      "reviewState": "not reviewed in this task",
+      "identityIssue": null
+    },
+    {
+      "faceId": "241822308:1",
+      "buildingId": 241822308,
+      "frontageIndex": 1,
+      "address": "131 1st Avenue",
+      "street": "First Avenue",
+      "owner": "first-7-stmarks",
+      "role": "assigned frontage; preserve if protectedCorner",
+      "side": "west",
+      "sourceFace": {
+        "x": -14.557,
+        "z": 167.173,
+        "rx": -0.007780856402635074,
+        "rz": -0.9999697286786443,
+        "length": 7.711,
+        "street": "First Avenue"
+      },
+      "runtimeStart": [
+        -14.557,
+        -60.827
+      ],
+      "inCurrentSlice": true,
+      "currentModelSha256": "3632ad8f5025a2f887252c42468a6c339e419d7ff5232a3594979cd6e4a8d5b1",
+      "protectedCorner": false,
+      "existingBusinessRecords": [
+        {
+          "id": "osm-node-10270502721",
+          "name": "Tacos Domingo",
+          "frontageIndex": 1
+        }
+      ],
+      "evidenceState": "needs-evidence",
+      "geometryState": "existing baseline; no edits",
+      "reviewState": "not reviewed in this task",
+      "identityIssue": null
+    },
+    {
+      "faceId": "248142642:0",
+      "buildingId": 248142642,
+      "frontageIndex": 0,
+      "address": "122 1st Avenue",
+      "street": "First Avenue",
+      "owner": "first-7-stmarks",
+      "role": "assigned frontage; preserve if protectedCorner",
+      "side": "east",
+      "sourceFace": {
+        "x": 15.384,
+        "z": 196.786,
+        "rx": 0.0013618399464735535,
+        "rz": 0.9999990726955501,
+        "length": 7.343,
+        "street": "First Avenue"
+      },
+      "runtimeStart": [
+        15.384,
+        -31.214
+      ],
+      "inCurrentSlice": true,
+      "currentModelSha256": "d2f52be1144c762f5524dfd5a9832d54674b327e7af3c6c6a722259c7755b830",
+      "protectedCorner": false,
+      "existingBusinessRecords": [
+        {
+          "id": "osm-node-7254235917",
+          "name": "MaLa Project",
+          "frontageIndex": 0
+        }
+      ],
+      "evidenceState": "needs-evidence",
+      "geometryState": "existing baseline; no edits",
+      "reviewState": "not reviewed in this task",
+      "identityIssue": null
+    },
+    {
+      "faceId": "248142646:0",
+      "buildingId": 248142646,
+      "frontageIndex": 0,
+      "address": "124 1st Avenue",
+      "street": "First Avenue",
+      "owner": "first-7-stmarks",
+      "role": "assigned frontage; preserve if protectedCorner",
+      "side": "east",
+      "sourceFace": {
+        "x": 15.363,
+        "z": 189.18,
+        "rx": 0.002760967651716191,
+        "rz": 0.9999961885215494,
+        "length": 7.606,
+        "street": "First Avenue"
+      },
+      "runtimeStart": [
+        15.363,
+        -38.81999999999999
+      ],
+      "inCurrentSlice": true,
+      "currentModelSha256": "772e54590832efce4d7ef0542de63b49ddaa706d9d3c1988dbf0444248b9e6d8",
+      "protectedCorner": false,
+      "existingBusinessRecords": [
+        {
+          "id": "osm-node-2549928858",
+          "name": "East Village Organic",
+          "frontageIndex": 0
+        }
+      ],
+      "evidenceState": "needs-evidence",
+      "geometryState": "existing baseline; no edits",
+      "reviewState": "not reviewed in this task",
+      "identityIssue": null
+    },
+    {
+      "faceId": "248142648:0",
+      "buildingId": 248142648,
+      "frontageIndex": 0,
+      "address": "126 1st Avenue",
+      "street": "First Avenue",
+      "owner": "first-7-stmarks",
+      "role": "assigned frontage; preserve if protectedCorner",
+      "side": "east",
+      "sourceFace": {
+        "x": 15.352,
+        "z": 181.697,
+        "rx": 0.0014699970753828807,
+        "rz": 0.9999989195537154,
+        "length": 7.483,
+        "street": "First Avenue"
+      },
+      "runtimeStart": [
+        15.352,
+        -46.303
+      ],
+      "inCurrentSlice": true,
+      "currentModelSha256": "24a9b76ebe5e460983dd4a22e4f80c4d8a06024e96fb8082631f0bd01d7fc58b",
+      "protectedCorner": false,
+      "existingBusinessRecords": [
+        {
+          "id": "osm-node-9330247867",
+          "name": "The Grafton",
+          "frontageIndex": 0
+        }
+      ],
+      "evidenceState": "needs-evidence",
+      "geometryState": "existing baseline; no edits",
+      "reviewState": "not reviewed in this task",
+      "identityIssue": null
+    },
+    {
+      "faceId": "248142651:0",
+      "buildingId": 248142651,
+      "frontageIndex": 0,
+      "address": "128 1st Avenue",
+      "street": "First Avenue",
+      "owner": "first-7-stmarks",
+      "role": "assigned frontage; preserve if protectedCorner",
+      "side": "east",
+      "sourceFace": {
+        "x": 15.344,
+        "z": 173.817,
+        "rx": 0.0010152279032041949,
+        "rz": 0.9999994846560194,
+        "length": 7.88,
+        "street": "First Avenue"
+      },
+      "runtimeStart": [
+        15.344,
+        -54.18299999999999
+      ],
+      "inCurrentSlice": true,
+      "currentModelSha256": "90ead28523bc9af5ed7b84c765742a30c8c230e68c7eb66f1225e14367b0e9a2",
+      "protectedCorner": false,
+      "existingBusinessRecords": [
+        {
+          "id": "osm-node-7794379162",
+          "name": "noreetuh",
+          "frontageIndex": 0
+        }
+      ],
+      "evidenceState": "needs-evidence",
+      "geometryState": "existing baseline; no edits",
+      "reviewState": "not reviewed in this task",
+      "identityIssue": null
+    },
+    {
+      "faceId": "248142654:0",
+      "buildingId": 248142654,
+      "frontageIndex": 0,
+      "address": "130 1st Avenue",
+      "street": "First Avenue",
+      "owner": "first-7-stmarks",
+      "role": "assigned frontage; preserve if protectedCorner",
+      "side": "east",
+      "sourceFace": {
+        "x": 15.329,
+        "z": 165.737,
+        "rx": 0.0018564324446059205,
+        "rz": 0.9999982768278046,
+        "length": 8.08,
+        "street": "First Avenue"
+      },
+      "runtimeStart": [
+        15.329,
+        -62.263000000000005
+      ],
+      "inCurrentSlice": true,
+      "currentModelSha256": "9f61cca93670078da9855df0caf88e59aff9fccedf1e2c78dec0d1a268bb2e25",
+      "protectedCorner": false,
+      "existingBusinessRecords": [
+        {
+          "id": "osm-node-2549928994",
+          "name": "Utshob Restaurant",
+          "frontageIndex": 0
+        },
+        {
+          "id": "osm-node-12542895737",
+          "name": "Kolachi",
+          "frontageIndex": 0
+        }
+      ],
+      "evidenceState": "needs-evidence",
+      "geometryState": "existing baseline; no edits",
+      "reviewState": "not reviewed in this task",
+      "identityIssue": null
+    },
+    {
+      "faceId": "248142707:1",
+      "buildingId": 248142707,
+      "frontageIndex": 1,
+      "address": "118 1st Avenue",
+      "street": "First Avenue",
+      "owner": "first-7-stmarks",
+      "role": "assigned frontage; preserve if protectedCorner",
+      "side": "east",
+      "sourceFace": {
+        "x": 15.394,
+        "z": 204.129,
+        "rx": 0.0011744739387638706,
+        "rz": 0.9999993103052458,
+        "length": 15.326,
+        "street": "First Avenue"
+      },
+      "runtimeStart": [
+        15.394,
+        -23.87100000000001
+      ],
+      "inCurrentSlice": true,
+      "currentModelSha256": "4f9b80fb8e3794afd5e4cff045f1724da6e23e899b34afa5ca0edf5e2a0d8840",
+      "protectedCorner": true,
+      "existingBusinessRecords": [
+        {
+          "id": "osm-node-2549928447",
+          "name": "E7 Deli & Cafe",
+          "frontageIndex": 1
+        },
+        {
+          "id": "osm-node-2549928762",
+          "name": "Hen House NYC",
+          "frontageIndex": 1
+        },
+        {
+          "id": "osm-node-6109307685",
+          "name": "Monkey Sushi",
+          "frontageIndex": 1
+        }
+      ],
+      "evidenceState": "needs-evidence",
+      "geometryState": "existing baseline; no edits",
+      "reviewState": "not reviewed in this task",
+      "identityIssue": null
+    },
+    {
+      "faceId": "248142712:0",
+      "buildingId": 248142712,
+      "frontageIndex": 0,
+      "address": "132 1st Avenue",
+      "street": "First Avenue",
+      "owner": "first-7-stmarks",
+      "role": "assigned frontage; preserve if protectedCorner",
+      "side": "east",
+      "sourceFace": {
+        "x": 15.323,
+        "z": 159.372,
+        "rx": 0.00094265472650524,
+        "rz": 0.9999995557009346,
+        "length": 6.365,
+        "street": "First Avenue"
+      },
+      "runtimeStart": [
+        15.323,
+        -68.62799999999999
+      ],
+      "inCurrentSlice": true,
+      "currentModelSha256": "0d17b3077c02a3ff210289855d8f58530c551d298479703d8c5dfe8d962647f4",
+      "protectedCorner": false,
+      "existingBusinessRecords": [
+        {
+          "id": "osm-node-11748179933",
+          "name": "The Lions",
+          "frontageIndex": 0
+        }
+      ],
+      "evidenceState": "needs-evidence",
+      "geometryState": "existing baseline; no edits",
+      "reviewState": "not reviewed in this task",
+      "identityIssue": null
+    },
+    {
+      "faceId": "241822151:0",
+      "buildingId": 241822151,
+      "frontageIndex": 0,
+      "address": "45 Saint Marks Place",
+      "street": "St. Marks Place",
+      "owner": "stmarks-second-first",
+      "role": "assigned frontage; preserve if protectedCorner",
+      "side": "north",
+      "sourceFace": {
+        "x": -167.358,
+        "z": 138.943,
+        "rx": 0.9999994745696988,
+        "rz": -0.0010251147868487142,
+        "length": 7.804,
+        "street": "St. Marks Place"
+      },
+      "runtimeStart": [
+        -167.358,
+        -89.05699999999999
+      ],
+      "inCurrentSlice": true,
+      "currentModelSha256": "b4e5a2c3f874682348010f080d69819a85a290d8e0c00f5b84f00d0807cf5677",
+      "protectedCorner": false,
+      "existingBusinessRecords": [],
+      "evidenceState": "needs-evidence",
+      "geometryState": "existing baseline; no edits",
+      "reviewState": "not reviewed in this task",
+      "identityIssue": null
+    },
+    {
+      "faceId": "241822159:0",
+      "buildingId": 241822159,
+      "frontageIndex": 0,
+      "address": "43 Saint Marks Place",
+      "street": "St. Marks Place",
+      "owner": "stmarks-second-first",
+      "role": "assigned frontage; preserve if protectedCorner",
+      "side": "north",
+      "sourceFace": {
+        "x": -174.727,
+        "z": 138.952,
+        "rx": 0.9999992541741628,
+        "rz": -0.0012213316986773777,
+        "length": 7.369,
+        "street": "St. Marks Place"
+      },
+      "runtimeStart": [
+        -174.727,
+        -89.048
+      ],
+      "inCurrentSlice": true,
+      "currentModelSha256": "1954613d3e991753378682989c8d4f7e6e127f7f2656213ac1751be807713903",
+      "protectedCorner": false,
+      "existingBusinessRecords": [
+        {
+          "id": "osm-node-10270699212",
+          "name": "An Kang",
+          "frontageIndex": 0
+        }
+      ],
+      "evidenceState": "needs-evidence",
+      "geometryState": "existing baseline; no edits",
+      "reviewState": "not reviewed in this task",
+      "identityIssue": null
+    },
+    {
+      "faceId": "241822164:0",
+      "buildingId": 241822164,
+      "frontageIndex": 0,
+      "address": "132 2nd Avenue",
+      "street": "St. Marks Place",
+      "owner": "stmarks-second-first",
+      "role": "assigned frontage; preserve if protectedCorner",
+      "side": "north",
+      "sourceFace": {
+        "x": -212.937,
+        "z": 140.47,
+        "rx": 0.9999990220528291,
+        "rz": -0.0013985325829247869,
+        "length": 20.736,
+        "street": "St. Marks Place"
+      },
+      "runtimeStart": [
+        -212.937,
+        -87.53
+      ],
+      "inCurrentSlice": true,
+      "currentModelSha256": "d321b237d2ac5d9fe1e0499aca5879983970798e91274e67a6dd281231e037da",
+      "protectedCorner": false,
+      "existingBusinessRecords": [],
+      "evidenceState": "needs-evidence",
+      "geometryState": "existing baseline; no edits",
+      "reviewState": "not reviewed in this task",
+      "identityIssue": null
+    },
+    {
+      "faceId": "241822167:0",
+      "buildingId": 241822167,
+      "frontageIndex": 0,
+      "address": "70 Saint Marks Place",
+      "street": "St. Marks Place",
+      "owner": "stmarks-second-first",
+      "role": "assigned frontage; preserve if protectedCorner",
+      "side": "south",
+      "sourceFace": {
+        "x": -68.089,
+        "z": 161.671,
+        "rx": -0.9999951651857921,
+        "rz": 0.003109598855203409,
+        "length": 7.718,
+        "street": "St. Marks Place"
+      },
+      "runtimeStart": [
+        -68.089,
+        -66.32900000000001
+      ],
+      "inCurrentSlice": true,
+      "currentModelSha256": "4b5ba5c998337589f92f56f264fcae729a59ffb9508577c307e4461b5d538ff3",
+      "protectedCorner": false,
+      "existingBusinessRecords": [],
+      "evidenceState": "needs-evidence",
+      "geometryState": "existing baseline; no edits",
+      "reviewState": "not reviewed in this task",
+      "identityIssue": null
+    },
+    {
+      "faceId": "241822173:0",
+      "buildingId": 241822173,
+      "frontageIndex": 0,
+      "address": "76 Saint Marks Place",
+      "street": "St. Marks Place",
+      "owner": "stmarks-second-first",
+      "role": "assigned frontage; preserve if protectedCorner",
+      "side": "south",
+      "sourceFace": {
+        "x": -45.328,
+        "z": 161.725,
+        "rx": -0.9999828966142191,
+        "rz": 0.005848630526523568,
+        "length": 7.523,
+        "street": "St. Marks Place"
+      },
+      "runtimeStart": [
+        -45.328,
+        -66.275
+      ],
+      "inCurrentSlice": true,
+      "currentModelSha256": "0494c862f3c771e4b0e3c3f0d6be148a367d8c33d681221badf0d0974155e0a0",
+      "protectedCorner": false,
+      "existingBusinessRecords": [],
+      "evidenceState": "needs-evidence",
+      "geometryState": "existing baseline; no edits",
+      "reviewState": "not reviewed in this task",
+      "identityIssue": null
+    },
+    {
+      "faceId": "241822174:0",
+      "buildingId": 241822174,
+      "frontageIndex": 0,
+      "address": "55 Saint Marks Place",
+      "street": "St. Marks Place",
+      "owner": "stmarks-second-first",
+      "role": "assigned frontage; preserve if protectedCorner",
+      "side": "north",
+      "sourceFace": {
+        "x": -129.411,
+        "z": 138.897,
+        "rx": 0.9999998706720334,
+        "rz": -0.0005085822609890418,
+        "length": 7.865,
+        "street": "St. Marks Place"
+      },
+      "runtimeStart": [
+        -129.411,
+        -89.10300000000001
+      ],
+      "inCurrentSlice": true,
+      "currentModelSha256": "62c804e3c960c4b2e27043d33aeed9d42e9958a1d9148e8fe9ae9a90d14593c9",
+      "protectedCorner": false,
+      "existingBusinessRecords": [],
+      "evidenceState": "needs-evidence",
+      "geometryState": "existing baseline; no edits",
+      "reviewState": "not reviewed in this task",
+      "identityIssue": null
+    },
+    {
+      "faceId": "241822181:0",
+      "buildingId": 241822181,
+      "frontageIndex": 0,
+      "address": "66 Saint Marks Place",
+      "street": "St. Marks Place",
+      "owner": "stmarks-second-first",
+      "role": "assigned frontage; preserve if protectedCorner",
+      "side": "south",
+      "sourceFace": {
+        "x": -83.518,
+        "z": 161.716,
+        "rx": -0.999990445393425,
+        "rz": 0.004371398158427619,
+        "length": 7.549,
+        "street": "St. Marks Place"
+      },
+      "runtimeStart": [
+        -83.518,
+        -66.28399999999999
+      ],
+      "inCurrentSlice": true,
+      "currentModelSha256": "053294fd9c502dd231001f6c2a4c549ee877f04649f973c164d5017db5e2b073",
+      "protectedCorner": false,
+      "existingBusinessRecords": [],
+      "evidenceState": "needs-evidence",
+      "geometryState": "existing baseline; no edits",
+      "reviewState": "not reviewed in this task",
+      "identityIssue": null
+    },
+    {
+      "faceId": "241822189:0",
+      "buildingId": 241822189,
+      "frontageIndex": 0,
+      "address": "51 Saint Marks Place",
+      "street": "St. Marks Place",
+      "owner": "stmarks-second-first",
+      "role": "assigned frontage; preserve if protectedCorner",
+      "side": "north",
+      "sourceFace": {
+        "x": -144.388,
+        "z": 138.921,
+        "rx": 0.9999982540596543,
+        "rz": -0.0018686566413263091,
+        "length": 7.492,
+        "street": "St. Marks Place"
+      },
+      "runtimeStart": [
+        -144.388,
+        -89.07900000000001
+      ],
+      "inCurrentSlice": true,
+      "currentModelSha256": "080a99e202bb7bac4ee12569ea6ebef22207f6ef1f33a87aaac0139c747e94d5",
+      "protectedCorner": false,
+      "existingBusinessRecords": [],
+      "evidenceState": "needs-evidence",
+      "geometryState": "existing baseline; no edits",
+      "reviewState": "not reviewed in this task",
+      "identityIssue": null
+    },
+    {
+      "faceId": "241822190:0",
+      "buildingId": 241822190,
+      "frontageIndex": 0,
+      "address": "58 Saint Marks Place",
+      "street": "St. Marks Place",
+      "owner": "stmarks-second-first",
+      "role": "assigned frontage; preserve if protectedCorner",
+      "side": "south",
+      "sourceFace": {
+        "x": -114.051,
+        "z": 161.868,
+        "rx": -0.9999996552721537,
+        "rz": 0.0008303346155041725,
+        "length": 7.226,
+        "street": "St. Marks Place"
+      },
+      "runtimeStart": [
+        -114.051,
+        -66.132
+      ],
+      "inCurrentSlice": true,
+      "currentModelSha256": "d5acef7f8bd753d2ff88c0ecd89c025151f6a3b359f7f13e4d9df8ad1a9596ff",
+      "protectedCorner": false,
+      "existingBusinessRecords": [
+        {
+          "id": "osm-node-10270699214",
+          "name": "Nail Lab",
+          "frontageIndex": 0
+        },
+        {
+          "id": "osm-node-10270699215",
+          "name": "Vegan Grill",
+          "frontageIndex": 0
+        }
+      ],
+      "evidenceState": "needs-evidence",
+      "geometryState": "existing baseline; no edits",
+      "reviewState": "not reviewed in this task",
+      "identityIssue": null
+    },
+    {
+      "faceId": "241822194:0",
+      "buildingId": 241822194,
+      "frontageIndex": 0,
+      "address": "64 Saint Marks Place",
+      "street": "St. Marks Place",
+      "owner": "stmarks-second-first",
+      "role": "assigned frontage; preserve if protectedCorner",
+      "side": "south",
+      "sourceFace": {
+        "x": -91.067,
+        "z": 161.749,
+        "rx": -0.9999985909542238,
+        "rz": 0.0016787166428732072,
+        "length": 7.744,
+        "street": "St. Marks Place"
+      },
+      "runtimeStart": [
+        -91.067,
+        -66.251
+      ],
+      "inCurrentSlice": true,
+      "currentModelSha256": "2cfc32fca906ea92f683f34d7f13b960d3c8e39d450dd6e799d14b4bebaae075",
+      "protectedCorner": false,
+      "existingBusinessRecords": [],
+      "evidenceState": "needs-evidence",
+      "geometryState": "existing baseline; no edits",
+      "reviewState": "not reviewed in this task",
+      "identityIssue": null
+    },
+    {
+      "faceId": "241822214:0",
+      "buildingId": 241822214,
+      "frontageIndex": 0,
+      "address": "67 Saint Marks Place",
+      "street": "St. Marks Place",
+      "owner": "stmarks-second-first",
+      "role": "assigned frontage; preserve if protectedCorner",
+      "side": "north",
+      "sourceFace": {
+        "x": -83.511,
+        "z": 138.849,
+        "rx": 0.9999990468415126,
+        "rz": -0.001380694052372577,
+        "length": 7.967,
+        "street": "St. Marks Place"
+      },
+      "runtimeStart": [
+        -83.511,
+        -89.15100000000001
+      ],
+      "inCurrentSlice": true,
+      "currentModelSha256": "56b86f6039884542f1c3c0528eb27793cb627c355e1dd0ac4bff0af9c0358da7",
+      "protectedCorner": false,
+      "existingBusinessRecords": [],
+      "evidenceState": "needs-evidence",
+      "geometryState": "existing baseline; no edits",
+      "reviewState": "not reviewed in this task",
+      "identityIssue": null
+    },
+    {
+      "faceId": "241822217:0",
+      "buildingId": 241822217,
+      "frontageIndex": 0,
+      "address": "75 Saint Marks Place",
+      "street": "St. Marks Place",
+      "owner": "stmarks-second-first",
+      "role": "assigned frontage; preserve if protectedCorner",
+      "side": "north",
+      "sourceFace": {
+        "x": -52.839,
+        "z": 138.81,
+        "rx": 0.999999780478901,
+        "rz": -0.0006626025579631537,
+        "length": 7.546,
+        "street": "St. Marks Place"
+      },
+      "runtimeStart": [
+        -52.839,
+        -89.19
+      ],
+      "inCurrentSlice": true,
+      "currentModelSha256": "646ed0597272196629c6865c42b012f3edb86756ad07c581598181659744013b",
+      "protectedCorner": false,
+      "existingBusinessRecords": [
+        {
+          "id": "osm-node-10270699211",
+          "name": "Holiday Cocktail Lounge",
+          "frontageIndex": 0
+        }
+      ],
+      "evidenceState": "needs-evidence",
+      "geometryState": "existing baseline; no edits",
+      "reviewState": "not reviewed in this task",
+      "identityIssue": null
+    },
+    {
+      "faceId": "241822219:1",
+      "buildingId": 241822219,
+      "frontageIndex": 1,
+      "address": "83 Saint Marks Place",
+      "street": "St. Marks Place",
+      "owner": "stmarks-second-first",
+      "role": "assigned frontage; preserve if protectedCorner",
+      "side": "north",
+      "sourceFace": {
+        "x": -22.261,
+        "z": 138.773,
+        "rx": 0.9999985477733772,
+        "rz": -0.0017042450342237981,
+        "length": 7.628,
+        "street": "St. Marks Place"
+      },
+      "runtimeStart": [
+        -22.261,
+        -89.227
+      ],
+      "inCurrentSlice": true,
+      "currentModelSha256": "4db49781f317eab48cc3a89ea53bb7585adb8718e68d0244baad3be16fa6e9d5",
+      "protectedCorner": false,
+      "existingBusinessRecords": [
+        {
+          "id": "osm-node-1379410005",
+          "name": "Stromboli Pizza",
+          "frontageIndex": 1
+        }
+      ],
+      "evidenceState": "needs-evidence",
+      "geometryState": "existing baseline; no edits",
+      "reviewState": "not reviewed in this task",
+      "identityIssue": null
+    },
+    {
+      "faceId": "241822222:0",
+      "buildingId": 241822222,
+      "frontageIndex": 0,
+      "address": "80 Saint Marks Place",
+      "street": "St. Marks Place",
+      "owner": "stmarks-second-first",
+      "role": "assigned frontage; preserve if protectedCorner",
+      "side": "south",
+      "sourceFace": {
+        "x": -30.145,
+        "z": 161.498,
+        "rx": -0.9999858385664543,
+        "rz": 0.005321904409616635,
+        "length": 7.516,
+        "street": "St. Marks Place"
+      },
+      "runtimeStart": [
+        -30.145,
+        -66.50200000000001
+      ],
+      "inCurrentSlice": true,
+      "currentModelSha256": "8036502de6c8b3dc4bb319d7db30848fe3fc27ac942b729a0a27576b6fea8a79",
+      "protectedCorner": false,
+      "existingBusinessRecords": [
+        {
+          "id": "osm-node-5576457143",
+          "name": "William Barnacle Tavern",
+          "frontageIndex": 0
+        }
+      ],
+      "evidenceState": "needs-evidence",
+      "geometryState": "existing baseline; no edits",
+      "reviewState": "not reviewed in this task",
+      "identityIssue": null
+    },
+    {
+      "faceId": "241822224:0",
+      "buildingId": 241822224,
+      "frontageIndex": 0,
+      "address": "41 Saint Marks Place",
+      "street": "St. Marks Place",
+      "owner": "stmarks-second-first",
+      "role": "assigned frontage; preserve if protectedCorner",
+      "side": "north",
+      "sourceFace": {
+        "x": -183.292,
+        "z": 138.964,
+        "rx": 0.9999990185297896,
+        "rz": -0.0014010494130015099,
+        "length": 8.565,
+        "street": "St. Marks Place"
+      },
+      "runtimeStart": [
+        -183.292,
+        -89.036
+      ],
+      "inCurrentSlice": true,
+      "currentModelSha256": "d073c621ead3c7f52dbb27d048ce7c1e288c9bc3bc181b0c7ad43de2d00be6a2",
+      "protectedCorner": false,
+      "existingBusinessRecords": [
+        {
+          "id": "osm-node-4768971123",
+          "name": "Marylou",
+          "frontageIndex": 0
+        }
+      ],
+      "evidenceState": "needs-evidence",
+      "geometryState": "existing baseline; no edits",
+      "reviewState": "not reviewed in this task",
+      "identityIssue": null
+    },
+    {
+      "faceId": "241822230:0",
+      "buildingId": 241822230,
+      "frontageIndex": 0,
+      "address": "71 Saint Marks Place",
+      "street": "St. Marks Place",
+      "owner": "stmarks-second-first",
+      "role": "assigned frontage; preserve if protectedCorner",
+      "side": "north",
+      "sourceFace": {
+        "x": -68.263,
+        "z": 138.827,
+        "rx": 0.9999991747912729,
+        "rz": -0.0012846854763493868,
+        "length": 7.784,
+        "street": "St. Marks Place"
+      },
+      "runtimeStart": [
+        -68.263,
+        -89.173
+      ],
+      "inCurrentSlice": true,
+      "currentModelSha256": "e3a779ed5694dd4f6053eccd479e97a69fa94330413736fe509cfb74d013f4b1",
+      "protectedCorner": false,
+      "existingBusinessRecords": [],
+      "evidenceState": "needs-evidence",
+      "geometryState": "existing baseline; no edits",
+      "reviewState": "not reviewed in this task",
+      "identityIssue": null
+    },
+    {
+      "faceId": "241822234:0",
+      "buildingId": 241822234,
+      "frontageIndex": 0,
+      "address": "81 Saint Marks Place",
+      "street": "St. Marks Place",
+      "owner": "stmarks-second-first",
+      "role": "assigned frontage; preserve if protectedCorner",
+      "side": "north",
+      "sourceFace": {
+        "x": -29.97,
+        "z": 138.779,
+        "rx": 0.9999996971160806,
+        "rz": -0.0007783108292510976,
+        "length": 7.709,
+        "street": "St. Marks Place"
+      },
+      "runtimeStart": [
+        -29.97,
+        -89.221
+      ],
+      "inCurrentSlice": true,
+      "currentModelSha256": "ff2dba17921f8810bbc37fb0642ce53dd10190a686dd320304b8d4cb1d43d20c",
+      "protectedCorner": false,
+      "existingBusinessRecords": [
+        {
+          "id": "osm-node-8530330752",
+          "name": "Electric Burrito",
+          "frontageIndex": 0
+        },
+        {
+          "id": "osm-node-10270699210",
+          "name": "Little Kirin",
+          "frontageIndex": 0
+        }
+      ],
+      "evidenceState": "needs-evidence",
+      "geometryState": "existing baseline; no edits",
+      "reviewState": "not reviewed in this task",
+      "identityIssue": null
+    },
+    {
+      "faceId": "241822236:0",
+      "buildingId": 241822236,
+      "frontageIndex": 0,
+      "address": "59 Saint Marks Place",
+      "street": "St. Marks Place",
+      "owner": "stmarks-second-first",
+      "role": "assigned frontage; preserve if protectedCorner",
+      "side": "north",
+      "sourceFace": {
+        "x": -113.898,
+        "z": 138.882,
+        "rx": 0.9999994517698652,
+        "rz": -0.0010471198447864786,
+        "length": 7.64,
+        "street": "St. Marks Place"
+      },
+      "runtimeStart": [
+        -113.898,
+        -89.118
+      ],
+      "inCurrentSlice": true,
+      "currentModelSha256": "2cb74eb39af4f60ec52b70a8a01671bacc308d2c0f64cbee046d936cf737c1b8",
+      "protectedCorner": false,
+      "existingBusinessRecords": [],
+      "evidenceState": "needs-evidence",
+      "geometryState": "existing baseline; no edits",
+      "reviewState": "not reviewed in this task",
+      "identityIssue": null
+    },
+    {
+      "faceId": "241822254:0",
+      "buildingId": 241822254,
+      "frontageIndex": 0,
+      "address": "47 Saint Marks Place",
+      "street": "St. Marks Place",
+      "owner": "stmarks-second-first",
+      "role": "assigned frontage; preserve if protectedCorner",
+      "side": "north",
+      "sourceFace": {
+        "x": -159.554,
+        "z": 138.935,
+        "rx": 0.9999996678909866,
+        "rz": -0.0008149956543529138,
+        "length": 7.362,
+        "street": "St. Marks Place"
+      },
+      "runtimeStart": [
+        -159.554,
+        -89.065
+      ],
+      "inCurrentSlice": true,
+      "currentModelSha256": "4725d024f954ffc0f449e7bcfdf6c34eb13e474c049ec1e2f1286bbab9b5c67a",
+      "protectedCorner": false,
+      "existingBusinessRecords": [],
+      "evidenceState": "needs-evidence",
+      "geometryState": "existing baseline; no edits",
+      "reviewState": "not reviewed in this task",
+      "identityIssue": null
+    },
+    {
+      "faceId": "241822256:0",
+      "buildingId": 241822256,
+      "frontageIndex": 0,
+      "address": "50 Saint Marks Place",
+      "street": "St. Marks Place",
+      "owner": "stmarks-second-first",
+      "role": "assigned frontage; preserve if protectedCorner",
+      "side": "south",
+      "sourceFace": {
+        "x": -144.329,
+        "z": 161.713,
+        "rx": -0.9999914822508823,
+        "rz": 0.0041273993850172806,
+        "length": 7.753,
+        "street": "St. Marks Place"
+      },
+      "runtimeStart": [
+        -144.329,
+        -66.287
+      ],
+      "inCurrentSlice": true,
+      "currentModelSha256": "bcca157ec3f19e411f163b940c947bdb1d05a9498b25275e7b6b92f17a184d24",
+      "protectedCorner": false,
+      "existingBusinessRecords": [],
+      "evidenceState": "needs-evidence",
+      "geometryState": "existing baseline; no edits",
+      "reviewState": "not reviewed in this task",
+      "identityIssue": null
+    },
+    {
+      "faceId": "241822265:0",
+      "buildingId": 241822265,
+      "frontageIndex": 0,
+      "address": "48 Saint Marks Place",
+      "street": "St. Marks Place",
+      "owner": "stmarks-second-first",
+      "role": "assigned frontage; preserve if protectedCorner",
+      "side": "south",
+      "sourceFace": {
+        "x": -152.082,
+        "z": 161.745,
+        "rx": -0.9999915867474773,
+        "rz": 0.004102003688745221,
+        "length": 7.801,
+        "street": "St. Marks Place"
+      },
+      "runtimeStart": [
+        -152.082,
+        -66.255
+      ],
+      "inCurrentSlice": true,
+      "currentModelSha256": "f194f644ff9d1f43e81b9d912129bc90278a1bb684554e35bc28c99232206b44",
+      "protectedCorner": false,
+      "existingBusinessRecords": [],
+      "evidenceState": "needs-evidence",
+      "geometryState": "existing baseline; no edits",
+      "reviewState": "not reviewed in this task",
+      "identityIssue": null
+    },
+    {
+      "faceId": "241822267:0",
+      "buildingId": 241822267,
+      "frontageIndex": 0,
+      "address": "73 Saint Marks Place",
+      "street": "St. Marks Place",
+      "owner": "stmarks-second-first",
+      "role": "assigned frontage; preserve if protectedCorner",
+      "side": "north",
+      "sourceFace": {
+        "x": -60.479,
+        "z": 138.817,
+        "rx": 0.999999580261222,
+        "rz": -0.000916229981915387,
+        "length": 7.64,
+        "street": "St. Marks Place"
+      },
+      "runtimeStart": [
+        -60.479,
+        -89.18299999999999
+      ],
+      "inCurrentSlice": true,
+      "currentModelSha256": "7b84d4af6c3b7dfe08cf1f3894bcc6f1f5139fc9d6d418f6748608beb9af2b56",
+      "protectedCorner": false,
+      "existingBusinessRecords": [],
+      "evidenceState": "needs-evidence",
+      "geometryState": "existing baseline; no edits",
+      "reviewState": "not reviewed in this task",
+      "identityIssue": null
+    },
+    {
+      "faceId": "241822271:0",
+      "buildingId": 241822271,
+      "frontageIndex": 0,
+      "address": "77 Saint Marks Place",
+      "street": "St. Marks Place",
+      "owner": "stmarks-second-first",
+      "role": "assigned frontage; preserve if protectedCorner",
+      "side": "north",
+      "sourceFace": {
+        "x": -45.293,
+        "z": 138.805,
+        "rx": 0.999997118071267,
+        "rz": -0.0024008017744957706,
+        "length": 7.914,
+        "street": "St. Marks Place"
+      },
+      "runtimeStart": [
+        -45.293,
+        -89.195
+      ],
+      "inCurrentSlice": true,
+      "currentModelSha256": "9d056d96c9400b72b05a3c082fb09200cb63f07470bde61092e2fe1fa64ca21a",
+      "protectedCorner": false,
+      "existingBusinessRecords": [
+        {
+          "id": "osm-node-8816873617",
+          "name": "La Palapa Cocina Mexicana",
+          "frontageIndex": 0
+        }
+      ],
+      "evidenceState": "needs-evidence",
+      "geometryState": "existing baseline; no edits",
+      "reviewState": "not reviewed in this task",
+      "identityIssue": null
+    },
+    {
+      "faceId": "241822279:0",
+      "buildingId": 241822279,
+      "frontageIndex": 0,
+      "address": "65 Saint Marks Place",
+      "street": "St. Marks Place",
+      "owner": "stmarks-second-first",
+      "role": "assigned frontage; preserve if protectedCorner",
+      "side": "north",
+      "sourceFace": {
+        "x": -90.73,
+        "z": 138.851,
+        "rx": 0.9999999616225701,
+        "rz": -0.0002770466717349616,
+        "length": 7.219,
+        "street": "St. Marks Place"
+      },
+      "runtimeStart": [
+        -90.73,
+        -89.149
+      ],
+      "inCurrentSlice": true,
+      "currentModelSha256": "bf840332f93bd7e3f993a32da6df562a3a44163cd806a83ec4741a3cbbec3c29",
+      "protectedCorner": false,
+      "existingBusinessRecords": [
+        {
+          "id": "osm-node-10270699213",
+          "name": "Jiang's Kitchen",
+          "frontageIndex": 0
+        }
+      ],
+      "evidenceState": "needs-evidence",
+      "geometryState": "existing baseline; no edits",
+      "reviewState": "not reviewed in this task",
+      "identityIssue": null
+    },
+    {
+      "faceId": "241822280:0",
+      "buildingId": 241822280,
+      "frontageIndex": 0,
+      "address": "60 Saint Marks Place",
+      "street": "St. Marks Place",
+      "owner": "stmarks-second-first",
+      "role": "assigned frontage; preserve if protectedCorner",
+      "side": "south",
+      "sourceFace": {
+        "x": -106.389,
+        "z": 161.811,
+        "rx": -0.9999723294753083,
+        "rz": 0.007439105035249345,
+        "length": 7.662,
+        "street": "St. Marks Place"
+      },
+      "runtimeStart": [
+        -106.389,
+        -66.189
+      ],
+      "inCurrentSlice": true,
+      "currentModelSha256": "dbf7f2e587a4b5059f24c8e5e5f49e1c770755aeed740f153ae47d9a2f26ed29",
+      "protectedCorner": false,
+      "existingBusinessRecords": [],
+      "evidenceState": "needs-evidence",
+      "geometryState": "existing baseline; no edits",
+      "reviewState": "not reviewed in this task",
+      "identityIssue": null
+    },
+    {
+      "faceId": "241822282:0",
+      "buildingId": 241822282,
+      "frontageIndex": 0,
+      "address": "63 Saint Marks Place",
+      "street": "St. Marks Place",
+      "owner": "stmarks-second-first",
+      "role": "assigned frontage; preserve if protectedCorner",
+      "side": "north",
+      "sourceFace": {
+        "x": -98.718,
+        "z": 138.86,
+        "rx": 0.9999993652853868,
+        "rz": -0.0011266893199277709,
+        "length": 7.988,
+        "street": "St. Marks Place"
+      },
+      "runtimeStart": [
+        -98.718,
+        -89.13999999999999
+      ],
+      "inCurrentSlice": true,
+      "currentModelSha256": "8c7f87a7b32e5a8e0c1cff8950cfeae4c8a783ee4225281b0d0c4e9a95b3324a",
+      "protectedCorner": false,
+      "existingBusinessRecords": [],
+      "evidenceState": "needs-evidence",
+      "geometryState": "existing baseline; no edits",
+      "reviewState": "not reviewed in this task",
+      "identityIssue": null
+    },
+    {
+      "faceId": "241822284:0",
+      "buildingId": 241822284,
+      "frontageIndex": 0,
+      "address": "42 1/2 Saint Marks Place",
+      "street": "St. Marks Place",
+      "owner": "stmarks-second-first",
+      "role": "assigned frontage; preserve if protectedCorner",
+      "side": "south",
+      "sourceFace": {
+        "x": -174.844,
+        "z": 161.499,
+        "rx": -0.9999954470681198,
+        "rz": 0.003017588943374154,
+        "length": 5.965,
+        "street": "St. Marks Place"
+      },
+      "runtimeStart": [
+        -174.844,
+        -66.501
+      ],
+      "inCurrentSlice": true,
+      "currentModelSha256": "12fe5ca79f85c470b9c99c14fd144311ead2c0f88fa2f2f4f2876f01b8142099",
+      "protectedCorner": false,
+      "existingBusinessRecords": [],
+      "evidenceState": "needs-evidence",
+      "geometryState": "existing baseline; no edits",
+      "reviewState": "not reviewed in this task",
+      "identityIssue": null
+    },
+    {
+      "faceId": "241822286:0",
+      "buildingId": 241822286,
+      "frontageIndex": 0,
+      "address": "52 Saint Marks Place",
+      "street": "St. Marks Place",
+      "owner": "stmarks-second-first",
+      "role": "assigned frontage; preserve if protectedCorner",
+      "side": "south",
+      "sourceFace": {
+        "x": -136.674,
+        "z": 161.94,
+        "rx": -0.9999895204101238,
+        "rz": 0.004578107680098235,
+        "length": 7.645,
+        "street": "St. Marks Place"
+      },
+      "runtimeStart": [
+        -136.674,
+        -66.06
+      ],
+      "inCurrentSlice": true,
+      "currentModelSha256": "cd789606ce55c3df4a55b56c9f57e2fff7d8485daa90682f8a7eb36558776822",
+      "protectedCorner": false,
+      "existingBusinessRecords": [],
+      "evidenceState": "needs-evidence",
+      "geometryState": "existing baseline; no edits",
+      "reviewState": "not reviewed in this task",
+      "identityIssue": null
+    },
+    {
+      "faceId": "241822290:1",
+      "buildingId": 241822290,
+      "frontageIndex": 1,
+      "address": "38 Saint Marks Place",
+      "street": "St. Marks Place",
+      "owner": "stmarks-second-first",
+      "role": "assigned frontage; preserve if protectedCorner",
+      "side": "south",
+      "sourceFace": {
+        "x": -192.306,
+        "z": 159.414,
+        "rx": -0.9999913981637254,
+        "rz": 0.004147722092613314,
+        "length": 20.493,
+        "street": "St. Marks Place"
+      },
+      "runtimeStart": [
+        -192.306,
+        -68.58600000000001
+      ],
+      "inCurrentSlice": true,
+      "currentModelSha256": "6eda88a57219c9e39e7c7431105f1c12520b133a250491c00f1c0fa42194326e",
+      "protectedCorner": false,
+      "existingBusinessRecords": [],
+      "evidenceState": "needs-evidence",
+      "geometryState": "existing baseline; no edits",
+      "reviewState": "not reviewed in this task",
+      "identityIssue": null
+    },
+    {
+      "faceId": "241822291:0",
+      "buildingId": 241822291,
+      "frontageIndex": 0,
+      "address": "69 Saint Marks Place",
+      "street": "St. Marks Place",
+      "owner": "stmarks-second-first",
+      "role": "assigned frontage; preserve if protectedCorner",
+      "side": "north",
+      "sourceFace": {
+        "x": -75.544,
+        "z": 138.838,
+        "rx": 0.9999988587716043,
+        "rz": -0.001510779761912284,
+        "length": 7.281,
+        "street": "St. Marks Place"
+      },
+      "runtimeStart": [
+        -75.544,
+        -89.162
+      ],
+      "inCurrentSlice": true,
+      "currentModelSha256": "60e034fc474508322ce739d3737bf0bb51ae007edf576b30e4504149ee987195",
+      "protectedCorner": false,
+      "existingBusinessRecords": [],
+      "evidenceState": "needs-evidence",
+      "geometryState": "existing baseline; no edits",
+      "reviewState": "not reviewed in this task",
+      "identityIssue": null
+    },
+    {
+      "faceId": "241822297:0",
+      "buildingId": 241822297,
+      "frontageIndex": 0,
+      "address": "39 Saint Marks Place",
+      "street": "St. Marks Place",
+      "owner": "stmarks-second-first",
+      "role": "assigned frontage; preserve if protectedCorner",
+      "side": "north",
+      "sourceFace": {
+        "x": -189.398,
+        "z": 138.971,
+        "rx": 0.9999993428688473,
+        "rz": -0.0011464126105612414,
+        "length": 6.106,
+        "street": "St. Marks Place"
+      },
+      "runtimeStart": [
+        -189.398,
+        -89.029
+      ],
+      "inCurrentSlice": true,
+      "currentModelSha256": "206c4977983673b7e4d7c7d464dc452a0d91795b6db33bdf064219fb371ce96d",
+      "protectedCorner": false,
+      "existingBusinessRecords": [],
+      "evidenceState": "needs-evidence",
+      "geometryState": "existing baseline; no edits",
+      "reviewState": "not reviewed in this task",
+      "identityIssue": null
+    },
+    {
+      "faceId": "241822297:1",
+      "buildingId": 241822297,
+      "frontageIndex": 1,
+      "address": "39 Saint Marks Place",
+      "street": "St. Marks Place",
+      "owner": "stmarks-second-first",
+      "role": "assigned frontage; preserve if protectedCorner",
+      "side": "north",
+      "sourceFace": {
+        "x": -192.201,
+        "z": 140.441,
+        "rx": 0.999997713897585,
+        "rz": -0.002138270236416883,
+        "length": 2.806,
+        "street": "St. Marks Place"
+      },
+      "runtimeStart": [
+        -192.201,
+        -87.559
+      ],
+      "inCurrentSlice": true,
+      "currentModelSha256": "206c4977983673b7e4d7c7d464dc452a0d91795b6db33bdf064219fb371ce96d",
+      "protectedCorner": false,
+      "existingBusinessRecords": [],
+      "evidenceState": "needs-evidence",
+      "geometryState": "existing baseline; no edits",
+      "reviewState": "not reviewed in this task",
+      "identityIssue": null
+    },
+    {
+      "faceId": "241822299:0",
+      "buildingId": 241822299,
+      "frontageIndex": 0,
+      "address": "49 Saint Marks Place",
+      "street": "St. Marks Place",
+      "owner": "stmarks-second-first",
+      "role": "assigned frontage; preserve if protectedCorner",
+      "side": "north",
+      "sourceFace": {
+        "x": -152.192,
+        "z": 138.929,
+        "rx": 0.9999994745696988,
+        "rz": -0.0010251147868487142,
+        "length": 7.804,
+        "street": "St. Marks Place"
+      },
+      "runtimeStart": [
+        -152.192,
+        -89.071
+      ],
+      "inCurrentSlice": true,
+      "currentModelSha256": "811a57dda7c7b920f19f41695f01a13274d3cee06f5bb60061c9c622cc6827ad",
+      "protectedCorner": false,
+      "existingBusinessRecords": [],
+      "evidenceState": "needs-evidence",
+      "geometryState": "existing baseline; no edits",
+      "reviewState": "not reviewed in this task",
+      "identityIssue": null
+    },
+    {
+      "faceId": "241822300:0",
+      "buildingId": 241822300,
+      "frontageIndex": 0,
+      "address": "42 Saint Marks Place",
+      "street": "St. Marks Place",
+      "owner": "stmarks-second-first",
+      "role": "assigned frontage; preserve if protectedCorner",
+      "side": "south",
+      "sourceFace": {
+        "x": -180.809,
+        "z": 161.517,
+        "rx": -0.999987308406263,
+        "rz": 0.005038157043741833,
+        "length": 5.756,
+        "street": "St. Marks Place"
+      },
+      "runtimeStart": [
+        -180.809,
+        -66.483
+      ],
+      "inCurrentSlice": true,
+      "currentModelSha256": "c7391f91dbaee5344462362415e2bef1e8b65653689fbe0cccaf0677599b7039",
+      "protectedCorner": false,
+      "existingBusinessRecords": [
+        {
+          "id": "osm-node-10270699209",
+          "name": "Anthony Aiden Opticians",
+          "frontageIndex": 0
+        }
+      ],
+      "evidenceState": "needs-evidence",
+      "geometryState": "existing baseline; no edits",
+      "reviewState": "not reviewed in this task",
+      "identityIssue": null
+    },
+    {
+      "faceId": "241822301:0",
+      "buildingId": 241822301,
+      "frontageIndex": 0,
+      "address": "46 Saint Marks Place",
+      "street": "St. Marks Place",
+      "owner": "stmarks-second-first",
+      "role": "assigned frontage; preserve if protectedCorner",
+      "side": "south",
+      "sourceFace": {
+        "x": -159.883,
+        "z": 161.777,
+        "rx": -0.9999909088536756,
+        "rz": 0.004264060271591463,
+        "length": 7.27,
+        "street": "St. Marks Place"
+      },
+      "runtimeStart": [
+        -159.883,
+        -66.22300000000001
+      ],
+      "inCurrentSlice": true,
+      "currentModelSha256": "6a2ce7d8cbda6c183a72fba397e99fbcef7b9571ec96fa0c49117271ffc1e903",
+      "protectedCorner": false,
+      "existingBusinessRecords": [],
+      "evidenceState": "needs-evidence",
+      "geometryState": "existing baseline; no edits",
+      "reviewState": "not reviewed in this task",
+      "identityIssue": null
+    },
+    {
+      "faceId": "241822303:0",
+      "buildingId": 241822303,
+      "frontageIndex": 0,
+      "address": "62 Saint Marks Place",
+      "street": "St. Marks Place",
+      "owner": "stmarks-second-first",
+      "role": "assigned frontage; preserve if protectedCorner",
+      "side": "south",
+      "sourceFace": {
+        "x": -98.811,
+        "z": 161.762,
+        "rx": -0.9999790955211852,
+        "rz": 0.0064659508683748675,
+        "length": 7.578,
+        "street": "St. Marks Place"
+      },
+      "runtimeStart": [
+        -98.811,
+        -66.238
+      ],
+      "inCurrentSlice": true,
+      "currentModelSha256": "c7bb3da506148651ec0ad5b7613bf154b63ea3978ad349efa3dd4728746cd90f",
+      "protectedCorner": false,
+      "existingBusinessRecords": [],
+      "evidenceState": "needs-evidence",
+      "geometryState": "existing baseline; no edits",
+      "reviewState": "not reviewed in this task",
+      "identityIssue": null
+    },
+    {
+      "faceId": "241822306:0",
+      "buildingId": 241822306,
+      "frontageIndex": 0,
+      "address": "44 Saint Marks Place",
+      "street": "St. Marks Place",
+      "owner": "stmarks-second-first",
+      "role": "assigned frontage; preserve if protectedCorner",
+      "side": "south",
+      "sourceFace": {
+        "x": -167.153,
+        "z": 161.808,
+        "rx": -0.999991864198419,
+        "rz": 0.004033799322076368,
+        "length": 7.685,
+        "street": "St. Marks Place"
+      },
+      "runtimeStart": [
+        -167.153,
+        -66.19200000000001
+      ],
+      "inCurrentSlice": true,
+      "currentModelSha256": "c1fc509d34dfe9a91e8f12e19ff13ee7c3b6c1b2f644336e81f9a81d2eb1f398",
+      "protectedCorner": false,
+      "existingBusinessRecords": [],
+      "evidenceState": "needs-evidence",
+      "geometryState": "existing baseline; no edits",
+      "reviewState": "not reviewed in this task",
+      "identityIssue": null
+    },
+    {
+      "faceId": "241822308:0",
+      "buildingId": 241822308,
+      "frontageIndex": 0,
+      "address": "131 1st Avenue",
+      "street": "St. Marks Place",
+      "owner": "stmarks-second-first",
+      "role": "assigned frontage; preserve if protectedCorner",
+      "side": "south",
+      "sourceFace": {
+        "x": -14.617,
+        "z": 159.462,
+        "rx": -0.9999901439285261,
+        "rz": 0.004439824974653184,
+        "length": 15.541,
+        "street": "St. Marks Place"
+      },
+      "runtimeStart": [
+        -14.617,
+        -68.53800000000001
+      ],
+      "inCurrentSlice": true,
+      "currentModelSha256": "3632ad8f5025a2f887252c42468a6c339e419d7ff5232a3594979cd6e4a8d5b1",
+      "protectedCorner": false,
+      "existingBusinessRecords": [],
+      "evidenceState": "needs-evidence",
+      "geometryState": "existing baseline; no edits",
+      "reviewState": "not reviewed in this task",
+      "identityIssue": null
+    },
+    {
+      "faceId": "241822310:0",
+      "buildingId": 241822310,
+      "frontageIndex": 0,
+      "address": "40 1/2 Saint Marks Place",
+      "street": "St. Marks Place",
+      "owner": "stmarks-second-first",
+      "role": "assigned frontage; preserve if protectedCorner",
+      "side": "south",
+      "sourceFace": {
+        "x": -186.565,
+        "z": 161.546,
+        "rx": -0.9999896984168871,
+        "rz": 0.004539059385274003,
+        "length": 5.728,
+        "street": "St. Marks Place"
+      },
+      "runtimeStart": [
+        -186.565,
+        -66.45400000000001
+      ],
+      "inCurrentSlice": true,
+      "currentModelSha256": "8538d2b0d6a013097878e2c707b6ff3e1cbcc49942bd4b99fd78759d8e940dfb",
+      "protectedCorner": false,
+      "existingBusinessRecords": [
+        {
+          "id": "osm-node-2494064597",
+          "name": "PORTO RICO IMPORTING CO.",
+          "frontageIndex": 0
+        }
+      ],
+      "evidenceState": "needs-evidence",
+      "geometryState": "existing baseline; no edits",
+      "reviewState": "not reviewed in this task",
+      "identityIssue": null
+    },
+    {
+      "faceId": "241822312:0",
+      "buildingId": 241822312,
+      "frontageIndex": 0,
+      "address": "61 Saint Marks Place",
+      "street": "St. Marks Place",
+      "owner": "stmarks-second-first",
+      "role": "assigned frontage; preserve if protectedCorner",
+      "side": "north",
+      "sourceFace": {
+        "x": -106.258,
+        "z": 138.874,
+        "rx": 0.9999982762183193,
+        "rz": -0.0018567607250713617,
+        "length": 7.54,
+        "street": "St. Marks Place"
+      },
+      "runtimeStart": [
+        -106.258,
+        -89.126
+      ],
+      "inCurrentSlice": true,
+      "currentModelSha256": "444f96c226d648bd5a94b162eb2e8e5c91031d8946e2c7a7402da1a2c021d8a2",
+      "protectedCorner": false,
+      "existingBusinessRecords": [],
+      "evidenceState": "needs-evidence",
+      "geometryState": "existing baseline; no edits",
+      "reviewState": "not reviewed in this task",
+      "identityIssue": null
+    },
+    {
+      "faceId": "241822314:0",
+      "buildingId": 241822314,
+      "frontageIndex": 0,
+      "address": "57 Saint Marks Place",
+      "street": "St. Marks Place",
+      "owner": "stmarks-second-first",
+      "role": "assigned frontage; preserve if protectedCorner",
+      "side": "north",
+      "sourceFace": {
+        "x": -121.546,
+        "z": 138.893,
+        "rx": 0.9999989656704261,
+        "rz": -0.0014382830311676716,
+        "length": 7.648,
+        "street": "St. Marks Place"
+      },
+      "runtimeStart": [
+        -121.546,
+        -89.107
+      ],
+      "inCurrentSlice": true,
+      "currentModelSha256": "0c53672937b03a529d4fd8f973283de8ab2a7ecfff2e898cbb3b42b219312594",
+      "protectedCorner": false,
+      "existingBusinessRecords": [],
+      "evidenceState": "needs-evidence",
+      "geometryState": "existing baseline; no edits",
+      "reviewState": "not reviewed in this task",
+      "identityIssue": null
+    },
+    {
+      "faceId": "241822320:0",
+      "buildingId": 241822320,
+      "frontageIndex": 0,
+      "address": "79 Saint Marks Place",
+      "street": "St. Marks Place",
+      "owner": "stmarks-second-first",
+      "role": "assigned frontage; preserve if protectedCorner",
+      "side": "north",
+      "sourceFace": {
+        "x": -37.379,
+        "z": 138.786,
+        "rx": 0.9999995536797373,
+        "rz": -0.0009447964469919239,
+        "length": 7.409,
+        "street": "St. Marks Place"
+      },
+      "runtimeStart": [
+        -37.379,
+        -89.214
+      ],
+      "inCurrentSlice": true,
+      "currentModelSha256": "408765905f30ebd2d5bb2c9d8301e342e35cfd0a17ed648aecad9afa22af013d",
+      "protectedCorner": false,
+      "existingBusinessRecords": [
+        {
+          "id": "osm-node-5756089922",
+          "name": "Taqueria St. Marks Place",
+          "frontageIndex": 0
+        }
+      ],
+      "evidenceState": "needs-evidence",
+      "geometryState": "existing baseline; no edits",
+      "reviewState": "not reviewed in this task",
+      "identityIssue": null
+    },
+    {
+      "faceId": "241822323:0",
+      "buildingId": 241822323,
+      "frontageIndex": 0,
+      "address": "78 Saint Marks Place",
+      "street": "St. Marks Place",
+      "owner": "stmarks-second-first",
+      "role": "assigned frontage; preserve if protectedCorner",
+      "side": "south",
+      "sourceFace": {
+        "x": -37.661,
+        "z": 161.538,
+        "rx": -0.9999951057591908,
+        "rz": 0.0031286510934977825,
+        "length": 7.671,
+        "street": "St. Marks Place"
+      },
+      "runtimeStart": [
+        -37.661,
+        -66.46199999999999
+      ],
+      "inCurrentSlice": true,
+      "currentModelSha256": "3c2cb0504e129bd0f26a316a0de329f8fa80799b69250e3f1eb5d6130223187a",
+      "protectedCorner": false,
+      "existingBusinessRecords": [],
+      "evidenceState": "needs-evidence",
+      "geometryState": "existing baseline; no edits",
+      "reviewState": "not reviewed in this task",
+      "identityIssue": null
+    },
+    {
+      "faceId": "241822326:0",
+      "buildingId": 241822326,
+      "frontageIndex": 0,
+      "address": "74 Saint Marks Place",
+      "street": "St. Marks Place",
+      "owner": "stmarks-second-first",
+      "role": "assigned frontage; preserve if protectedCorner",
+      "side": "south",
+      "sourceFace": {
+        "x": -52.851,
+        "z": 161.578,
+        "rx": -0.9999813762200949,
+        "rz": 0.00610304948080182,
+        "length": 15.238,
+        "street": "St. Marks Place"
+      },
+      "runtimeStart": [
+        -52.851,
+        -66.422
+      ],
+      "inCurrentSlice": true,
+      "currentModelSha256": "6424830f0135f1707fa11a17f24139370559a4a50e954bacc1260d0d3d05b8f7",
+      "protectedCorner": false,
+      "existingBusinessRecords": [],
+      "evidenceState": "needs-evidence",
+      "geometryState": "existing baseline; no edits",
+      "reviewState": "not reviewed in this task",
+      "identityIssue": null
+    },
+    {
+      "faceId": "241822332:0",
+      "buildingId": 241822332,
+      "frontageIndex": 0,
+      "address": "68 Saint Marks Place",
+      "street": "St. Marks Place",
+      "owner": "stmarks-second-first",
+      "role": "assigned frontage; preserve if protectedCorner",
+      "side": "south",
+      "sourceFace": {
+        "x": -75.807,
+        "z": 161.695,
+        "rx": -0.9999962916153756,
+        "rz": 0.0027233720819527813,
+        "length": 7.711,
+        "street": "St. Marks Place"
+      },
+      "runtimeStart": [
+        -75.807,
+        -66.305
+      ],
+      "inCurrentSlice": true,
+      "currentModelSha256": "8f6c24a8386e91bd8dfbad5260825bec9d1ae290c4201dd38cabfa588d65fc9a",
+      "protectedCorner": false,
+      "existingBusinessRecords": [],
+      "evidenceState": "needs-evidence",
+      "geometryState": "existing baseline; no edits",
+      "reviewState": "not reviewed in this task",
+      "identityIssue": null
+    },
+    {
+      "faceId": "241822338:0",
+      "buildingId": 241822338,
+      "frontageIndex": 0,
+      "address": "53 Saint Marks Place",
+      "street": "St. Marks Place",
+      "owner": "stmarks-second-first",
+      "role": "assigned frontage; preserve if protectedCorner",
+      "side": "north",
+      "sourceFace": {
+        "x": -136.896,
+        "z": 138.907,
+        "rx": 0.999999107546055,
+        "rz": -0.001336004151700721,
+        "length": 7.485,
+        "street": "St. Marks Place"
+      },
+      "runtimeStart": [
+        -136.896,
+        -89.09299999999999
+      ],
+      "inCurrentSlice": true,
+      "currentModelSha256": "f12d5e443e314f3c5cfdb7007ba812af3c11fab3e2495b917e54aec23966c1c7",
+      "protectedCorner": false,
+      "existingBusinessRecords": [],
+      "evidenceState": "needs-evidence",
+      "geometryState": "existing baseline; no edits",
+      "reviewState": "not reviewed in this task",
+      "identityIssue": null
+    },
+    {
+      "faceId": "241822341:0",
+      "buildingId": 241822341,
+      "frontageIndex": 0,
+      "address": "56 St. Marks Place",
+      "street": "St. Marks Place",
+      "owner": "stmarks-second-first",
+      "role": "assigned frontage; preserve if protectedCorner",
+      "side": "south",
+      "sourceFace": {
+        "x": -121.277,
+        "z": 161.874,
+        "rx": -0.9999908128740367,
+        "rz": 0.004286509946722666,
+        "length": 15.397,
+        "street": "St. Marks Place"
+      },
+      "runtimeStart": [
+        -121.277,
+        -66.126
+      ],
+      "inCurrentSlice": true,
+      "currentModelSha256": "d28092e4058f0a10ec949b59ae03ca9f95bf3032d08c0c1d8b053a2b8ae7ba9e",
+      "protectedCorner": false,
+      "existingBusinessRecords": [],
+      "evidenceState": "needs-evidence",
+      "geometryState": "existing baseline; no edits",
+      "reviewState": "not reviewed in this task",
+      "identityIssue": null
+    },
+    {
+      "faceId": "248142614:0",
+      "buildingId": 248142614,
+      "frontageIndex": 0,
+      "address": "100 Saint Marks Place",
+      "street": "St. Marks Place",
+      "owner": "stmarks-first-a",
+      "role": "assigned frontage; preserve if protectedCorner",
+      "side": "south",
+      "sourceFace": {
+        "x": 69.662,
+        "z": 159.279,
+        "rx": -0.9999968443219277,
+        "rz": 0.00251223927728285,
+        "length": 7.961,
+        "street": "St. Marks Place"
+      },
+      "runtimeStart": [
+        69.662,
+        -68.721
+      ],
+      "inCurrentSlice": true,
+      "currentModelSha256": "7f8a4af7cb66e593faf9321383001b81c978e09ba7d9b719010a57ed65bbd4e3",
+      "protectedCorner": false,
+      "existingBusinessRecords": [
+        {
+          "id": "osm-node-6568734704",
+          "name": "Dumpling Man",
+          "frontageIndex": 0
+        }
+      ],
+      "evidenceState": "needs-evidence",
+      "geometryState": "existing baseline; no edits",
+      "reviewState": "not reviewed in this task",
+      "identityIssue": null
+    },
+    {
+      "faceId": "248142616:0",
+      "buildingId": 248142616,
+      "frontageIndex": 0,
+      "address": "101 Saint Marks Place",
+      "street": "St. Marks Place",
+      "owner": "stmarks-first-a",
+      "role": "assigned frontage; preserve if protectedCorner",
+      "side": "north",
+      "sourceFace": {
+        "x": 76.64,
+        "z": 140.93,
+        "rx": 1.0,
+        "rz": 0.0,
+        "length": 11.178,
+        "street": "St. Marks Place"
+      },
+      "runtimeStart": [
+        76.64,
+        -87.07
+      ],
+      "inCurrentSlice": false,
+      "currentModelSha256": null,
+      "protectedCorner": false,
+      "existingBusinessRecords": [
+        {
+          "id": "osm-node-4551157295",
+          "name": "Cafe Mogador",
+          "frontageIndex": 0
+        }
+      ],
+      "evidenceState": "needs-evidence",
+      "geometryState": "legacy geography only; absent from Godot slice",
+      "reviewState": "not reviewed in this task",
+      "identityIssue": null
+    },
+    {
+      "faceId": "248142617:0",
+      "buildingId": 248142617,
+      "frontageIndex": 0,
+      "address": "102 Saint Marks Place",
+      "street": "St. Marks Place",
+      "owner": "stmarks-first-a",
+      "role": "assigned frontage; preserve if protectedCorner",
+      "side": "south",
+      "sourceFace": {
+        "x": 77.861,
+        "z": 159.268,
+        "rx": -0.9999991000196742,
+        "rz": 0.0013416258202478472,
+        "length": 8.199,
+        "street": "St. Marks Place"
+      },
+      "runtimeStart": [
+        77.861,
+        -68.732
+      ],
+      "inCurrentSlice": true,
+      "currentModelSha256": "49e503217a9e4f0efd7c2cecfcca55245e190071480c4f2ccd76732831b24328",
+      "protectedCorner": false,
+      "existingBusinessRecords": [
+        {
+          "id": "osm-node-13357755804",
+          "name": "Cakes by Klein",
+          "frontageIndex": 0
+        },
+        {
+          "id": "osm-node-13809236569",
+          "name": "Kyuubi Omakase",
+          "frontageIndex": 0
+        }
+      ],
+      "evidenceState": "needs-evidence",
+      "geometryState": "existing baseline; no edits",
+      "reviewState": "not reviewed in this task",
+      "identityIssue": null
+    },
+    {
+      "faceId": "248142619:0",
+      "buildingId": 248142619,
+      "frontageIndex": 0,
+      "address": "103 Saint Marks Place",
+      "street": "St. Marks Place",
+      "owner": "stmarks-first-a",
+      "role": "assigned frontage; preserve if protectedCorner",
+      "side": "north",
+      "sourceFace": {
+        "x": 87.818,
+        "z": 140.93,
+        "rx": 0.9999997023640796,
+        "rz": 0.000771538561617046,
+        "length": 11.665,
+        "street": "St. Marks Place"
+      },
+      "runtimeStart": [
+        87.818,
+        -87.07
+      ],
+      "inCurrentSlice": false,
+      "currentModelSha256": null,
+      "protectedCorner": false,
+      "existingBusinessRecords": [
+        {
+          "id": "osm-node-11098842088",
+          "name": "Ănjelly",
+          "frontageIndex": 0
+        }
+      ],
+      "evidenceState": "needs-evidence",
+      "geometryState": "legacy geography only; absent from Godot slice",
+      "reviewState": "not reviewed in this task",
+      "identityIssue": null
+    },
+    {
+      "faceId": "248142620:0",
+      "buildingId": 248142620,
+      "frontageIndex": 0,
+      "address": "107 Saint Marks Place",
+      "street": "St. Marks Place",
+      "owner": "stmarks-first-a",
+      "role": "assigned frontage; preserve if protectedCorner",
+      "side": "north",
+      "sourceFace": {
+        "x": 99.483,
+        "z": 140.939,
+        "rx": 0.9999999961745055,
+        "rz": -8.746993187536145e-05,
+        "length": 22.865,
+        "street": "St. Marks Place"
+      },
+      "runtimeStart": [
+        99.483,
+        -87.061
+      ],
+      "inCurrentSlice": false,
+      "currentModelSha256": null,
+      "protectedCorner": false,
+      "existingBusinessRecords": [],
+      "evidenceState": "needs-evidence",
+      "geometryState": "legacy geography only; absent from Godot slice",
+      "reviewState": "not reviewed in this task",
+      "identityIssue": null
+    },
+    {
+      "faceId": "248142622:0",
+      "buildingId": 248142622,
+      "frontageIndex": 0,
+      "address": "109 Saint Marks Place",
+      "street": "St. Marks Place",
+      "owner": "stmarks-first-a",
+      "role": "assigned frontage; preserve if protectedCorner",
+      "side": "north",
+      "sourceFace": {
+        "x": 122.348,
+        "z": 140.937,
+        "rx": 0.9999999914024167,
+        "rz": 0.00013113034243099542,
+        "length": 7.626,
+        "street": "St. Marks Place"
+      },
+      "runtimeStart": [
+        122.348,
+        -87.06299999999999
+      ],
+      "inCurrentSlice": false,
+      "currentModelSha256": null,
+      "protectedCorner": false,
+      "existingBusinessRecords": [
+        {
+          "id": "osm-node-2287620130",
+          "name": "Mokyo",
+          "frontageIndex": 0
+        }
+      ],
+      "evidenceState": "needs-evidence",
+      "geometryState": "legacy geography only; absent from Godot slice",
+      "reviewState": "not reviewed in this task",
+      "identityIssue": null
+    },
+    {
+      "faceId": "248142623:0",
+      "buildingId": 248142623,
+      "frontageIndex": 0,
+      "address": "110 Saint Marks Place",
+      "street": "St. Marks Place",
+      "owner": "stmarks-first-a",
+      "role": "assigned frontage; preserve if protectedCorner",
+      "side": "south",
+      "sourceFace": {
+        "x": 112.798,
+        "z": 159.52,
+        "rx": -0.9999999373593587,
+        "rz": 0.0003539509556170349,
+        "length": 11.301,
+        "street": "St. Marks Place"
+      },
+      "runtimeStart": [
+        112.798,
+        -68.47999999999999
+      ],
+      "inCurrentSlice": false,
+      "currentModelSha256": null,
+      "protectedCorner": false,
+      "existingBusinessRecords": [],
+      "evidenceState": "needs-evidence",
+      "geometryState": "legacy geography only; absent from Godot slice",
+      "reviewState": "not reviewed in this task",
+      "identityIssue": null
+    },
+    {
+      "faceId": "248142625:0",
+      "buildingId": 248142625,
+      "frontageIndex": 0,
+      "address": "111 Saint Marks Place",
+      "street": "St. Marks Place",
+      "owner": "stmarks-first-a",
+      "role": "assigned frontage; preserve if protectedCorner",
+      "side": "north",
+      "sourceFace": {
+        "x": 129.974,
+        "z": 140.938,
+        "rx": 0.9999996859738547,
+        "rz": 0.0007924974396834444,
+        "length": 7.571,
+        "street": "St. Marks Place"
+      },
+      "runtimeStart": [
+        129.974,
+        -87.06200000000001
+      ],
+      "inCurrentSlice": false,
+      "currentModelSha256": null,
+      "protectedCorner": false,
+      "existingBusinessRecords": [],
+      "evidenceState": "needs-evidence",
+      "geometryState": "legacy geography only; absent from Godot slice",
+      "reviewState": "not reviewed in this task",
+      "identityIssue": null
+    },
+    {
+      "faceId": "248142627:0",
+      "buildingId": 248142627,
+      "frontageIndex": 0,
+      "address": "113 Saint Marks Place",
+      "street": "St. Marks Place",
+      "owner": "stmarks-first-a",
+      "role": "assigned frontage; preserve if protectedCorner",
+      "side": "north",
+      "sourceFace": {
+        "x": 137.545,
+        "z": 140.944,
+        "rx": 0.9999999640910183,
+        "rz": 0.00026798873485080806,
+        "length": 7.463,
+        "street": "St. Marks Place"
+      },
+      "runtimeStart": [
+        137.545,
+        -87.05600000000001
+      ],
+      "inCurrentSlice": false,
+      "currentModelSha256": null,
+      "protectedCorner": false,
+      "existingBusinessRecords": [
+        {
+          "id": "osm-node-4146358992",
+          "name": "Please Don't Tell",
+          "frontageIndex": 0
+        },
+        {
+          "id": "osm-node-9155415177",
+          "name": "Crif Dogs",
+          "frontageIndex": 0
+        }
+      ],
+      "evidenceState": "needs-evidence",
+      "geometryState": "legacy geography only; absent from Godot slice",
+      "reviewState": "not reviewed in this task",
+      "identityIssue": null
+    },
+    {
+      "faceId": "248142628:0",
+      "buildingId": 248142628,
+      "frontageIndex": 0,
+      "address": "114 Saint Marks Place",
+      "street": "St. Marks Place",
+      "owner": "stmarks-first-a",
+      "role": "assigned frontage; preserve if protectedCorner",
+      "side": "south",
+      "sourceFace": {
+        "x": 118.924,
+        "z": 159.514,
+        "rx": -0.9999995203568929,
+        "rz": 0.0009794314597031636,
+        "length": 6.126,
+        "street": "St. Marks Place"
+      },
+      "runtimeStart": [
+        118.924,
+        -68.48599999999999
+      ],
+      "inCurrentSlice": false,
+      "currentModelSha256": null,
+      "protectedCorner": false,
+      "existingBusinessRecords": [],
+      "evidenceState": "needs-evidence",
+      "geometryState": "legacy geography only; absent from Godot slice",
+      "reviewState": "not reviewed in this task",
+      "identityIssue": null
+    },
+    {
+      "faceId": "248142630:0",
+      "buildingId": 248142630,
+      "frontageIndex": 0,
+      "address": "115 Saint Marks Place",
+      "street": "St. Marks Place",
+      "owner": "stmarks-first-a",
+      "role": "assigned frontage; preserve if protectedCorner",
+      "side": "north",
+      "sourceFace": {
+        "x": 145.008,
+        "z": 140.946,
+        "rx": 0.999999938615033,
+        "rz": -0.0003503854024571488,
+        "length": 11.416,
+        "street": "St. Marks Place"
+      },
+      "runtimeStart": [
+        145.008,
+        -87.054
+      ],
+      "inCurrentSlice": false,
+      "currentModelSha256": null,
+      "protectedCorner": false,
+      "existingBusinessRecords": [
+        {
+          "id": "osm-node-9289282803",
+          "name": "Augers Well",
+          "frontageIndex": 0
+        }
+      ],
+      "evidenceState": "needs-evidence",
+      "geometryState": "legacy geography only; absent from Godot slice",
+      "reviewState": "not reviewed in this task",
+      "identityIssue": null
+    },
+    {
+      "faceId": "248142631:0",
+      "buildingId": 248142631,
+      "frontageIndex": 0,
+      "address": "116 Saint Marks Place",
+      "street": "St. Marks Place",
+      "owner": "stmarks-first-a",
+      "role": "assigned frontage; preserve if protectedCorner",
+      "side": "south",
+      "sourceFace": {
+        "x": 124.751,
+        "z": 159.509,
+        "rx": -0.9999996318542959,
+        "rz": 0.0008580741649726025,
+        "length": 5.827,
+        "street": "St. Marks Place"
+      },
+      "runtimeStart": [
+        124.751,
+        -68.49100000000001
+      ],
+      "inCurrentSlice": false,
+      "currentModelSha256": null,
+      "protectedCorner": false,
+      "existingBusinessRecords": [
+        {
+          "id": "osm-node-12720704231",
+          "name": "Craft + Carry Saint Marks",
+          "frontageIndex": 0
+        }
+      ],
+      "evidenceState": "needs-evidence",
+      "geometryState": "legacy geography only; absent from Godot slice",
+      "reviewState": "not reviewed in this task",
+      "identityIssue": null
+    },
+    {
+      "faceId": "248142634:0",
+      "buildingId": 248142634,
+      "frontageIndex": 0,
+      "address": "118 Saint Marks Place",
+      "street": "St. Marks Place",
+      "owner": "stmarks-first-a",
+      "role": "assigned frontage; preserve if protectedCorner",
+      "side": "south",
+      "sourceFace": {
+        "x": 132.527,
+        "z": 159.503,
+        "rx": -0.9999997023130426,
+        "rz": 0.0007716047085749095,
+        "length": 7.776,
+        "street": "St. Marks Place"
+      },
+      "runtimeStart": [
+        132.527,
+        -68.49700000000001
+      ],
+      "inCurrentSlice": false,
+      "currentModelSha256": null,
+      "protectedCorner": false,
+      "existingBusinessRecords": [
+        {
+          "id": "osm-node-12720658654",
+          "name": "Romeos",
+          "frontageIndex": 0
+        }
+      ],
+      "evidenceState": "needs-evidence",
+      "geometryState": "legacy geography only; absent from Godot slice",
+      "reviewState": "not reviewed in this task",
+      "identityIssue": null
+    },
+    {
+      "faceId": "248142636:0",
+      "buildingId": 248142636,
+      "frontageIndex": 0,
+      "address": "119 Saint Marks Place",
+      "street": "St. Marks Place",
+      "owner": "stmarks-first-a",
+      "role": "assigned frontage; preserve if protectedCorner",
+      "side": "north",
+      "sourceFace": {
+        "x": 156.424,
+        "z": 140.942,
+        "rx": 0.9999999400518773,
+        "rz": -0.0003462603670556277,
+        "length": 11.552,
+        "street": "St. Marks Place"
+      },
+      "runtimeStart": [
+        156.424,
+        -87.05799999999999
+      ],
+      "inCurrentSlice": false,
+      "currentModelSha256": null,
+      "protectedCorner": false,
+      "existingBusinessRecords": [
+        {
+          "id": "osm-node-5193382596",
+          "name": "Hanoi House",
+          "frontageIndex": 0
+        }
+      ],
+      "evidenceState": "needs-evidence",
+      "geometryState": "legacy geography only; absent from Godot slice",
+      "reviewState": "not reviewed in this task",
+      "identityIssue": null
+    },
+    {
+      "faceId": "248142638:0",
+      "buildingId": 248142638,
+      "frontageIndex": 0,
+      "address": "120 Saint Marks Place",
+      "street": "St. Marks Place",
+      "owner": "stmarks-first-a",
+      "role": "assigned frontage; preserve if protectedCorner",
+      "side": "south",
+      "sourceFace": {
+        "x": 140.54,
+        "z": 159.505,
+        "rx": -0.9999999688513169,
+        "rz": -0.00024959440131189095,
+        "length": 8.013,
+        "street": "St. Marks Place"
+      },
+      "runtimeStart": [
+        140.54,
+        -68.495
+      ],
+      "inCurrentSlice": false,
+      "currentModelSha256": null,
+      "protectedCorner": false,
+      "existingBusinessRecords": [],
+      "evidenceState": "needs-evidence",
+      "geometryState": "legacy geography only; absent from Godot slice",
+      "reviewState": "not reviewed in this task",
+      "identityIssue": null
+    },
+    {
+      "faceId": "248142641:0",
+      "buildingId": 248142641,
+      "frontageIndex": 0,
+      "address": "121 Saint Marks Place",
+      "street": "St. Marks Place",
+      "owner": "stmarks-first-a",
+      "role": "assigned frontage; preserve if protectedCorner",
+      "side": "north",
+      "sourceFace": {
+        "x": 167.976,
+        "z": 140.938,
+        "rx": 0.9999997254952998,
+        "rz": 0.0007409516347360579,
+        "length": 17.545,
+        "street": "St. Marks Place"
+      },
+      "runtimeStart": [
+        167.976,
+        -87.06200000000001
+      ],
+      "inCurrentSlice": false,
+      "currentModelSha256": null,
+      "protectedCorner": false,
+      "existingBusinessRecords": [
+        {
+          "id": "osm-node-5603575358",
+          "name": "Pizza Studio Tamaki",
+          "frontageIndex": 0
+        }
+      ],
+      "evidenceState": "needs-evidence",
+      "geometryState": "legacy geography only; absent from Godot slice",
+      "reviewState": "not reviewed in this task",
+      "identityIssue": null
+    },
+    {
+      "faceId": "248142643:0",
+      "buildingId": 248142643,
+      "frontageIndex": 0,
+      "address": "122 Saint Marks Place",
+      "street": "St. Marks Place",
+      "owner": "stmarks-first-a",
+      "role": "assigned frontage; preserve if protectedCorner",
+      "side": "south",
+      "sourceFace": {
+        "x": 152.23,
+        "z": 159.488,
+        "rx": -0.999998942602849,
+        "rz": 0.001454232850662476,
+        "length": 11.69,
+        "street": "St. Marks Place"
+      },
+      "runtimeStart": [
+        152.23,
+        -68.512
+      ],
+      "inCurrentSlice": false,
+      "currentModelSha256": null,
+      "protectedCorner": false,
+      "existingBusinessRecords": [],
+      "evidenceState": "needs-evidence",
+      "geometryState": "legacy geography only; absent from Godot slice",
+      "reviewState": "not reviewed in this task",
+      "identityIssue": null
+    },
+    {
+      "faceId": "248142649:0",
+      "buildingId": 248142649,
+      "frontageIndex": 0,
+      "address": "126 Saint Marks Place",
+      "street": "St. Marks Place",
+      "owner": "stmarks-first-a",
+      "role": "assigned frontage; preserve if protectedCorner",
+      "side": "south",
+      "sourceFace": {
+        "x": 163.977,
+        "z": 159.49,
+        "rx": -0.9999999855064075,
+        "rz": -0.00017025623316781836,
+        "length": 11.747,
+        "street": "St. Marks Place"
+      },
+      "runtimeStart": [
+        163.977,
+        -68.50999999999999
+      ],
+      "inCurrentSlice": false,
+      "currentModelSha256": null,
+      "protectedCorner": false,
+      "existingBusinessRecords": [],
+      "evidenceState": "needs-evidence",
+      "geometryState": "legacy geography only; absent from Godot slice",
+      "reviewState": "not reviewed in this task",
+      "identityIssue": null
+    },
+    {
+      "faceId": "248142652:0",
+      "buildingId": 248142652,
+      "frontageIndex": 0,
+      "address": "128 Saint Marks Place",
+      "street": "St. Marks Place",
+      "owner": "stmarks-first-a",
+      "role": "assigned frontage; preserve if protectedCorner",
+      "side": "south",
+      "sourceFace": {
+        "x": 172.128,
+        "z": 159.48,
+        "rx": -0.9999992474285687,
+        "rz": 0.0012268424088216214,
+        "length": 8.151,
+        "street": "St. Marks Place"
+      },
+      "runtimeStart": [
+        172.128,
+        -68.52000000000001
+      ],
+      "inCurrentSlice": false,
+      "currentModelSha256": null,
+      "protectedCorner": false,
+      "existingBusinessRecords": [],
+      "evidenceState": "needs-evidence",
+      "geometryState": "legacy geography only; absent from Godot slice",
+      "reviewState": "not reviewed in this task",
+      "identityIssue": null
+    },
+    {
+      "faceId": "248142655:0",
+      "buildingId": 248142655,
+      "frontageIndex": 0,
+      "address": "130 Saint Marks Place",
+      "street": "St. Marks Place",
+      "owner": "stmarks-first-a",
+      "role": "assigned frontage; preserve if protectedCorner",
+      "side": "south",
+      "sourceFace": {
+        "x": 181.236,
+        "z": 159.472,
+        "rx": -0.9999996142519998,
+        "rz": 0.0008783483656123573,
+        "length": 9.108,
+        "street": "St. Marks Place"
+      },
+      "runtimeStart": [
+        181.236,
+        -68.52799999999999
+      ],
+      "inCurrentSlice": false,
+      "currentModelSha256": null,
+      "protectedCorner": false,
+      "existingBusinessRecords": [
+        {
+          "id": "osm-node-10830817799",
+          "name": "Sushi Mumi",
+          "frontageIndex": 0
+        }
+      ],
+      "evidenceState": "needs-evidence",
+      "geometryState": "legacy geography only; absent from Godot slice",
+      "reviewState": "not reviewed in this task",
+      "identityIssue": null
+    },
+    {
+      "faceId": "248142686:0",
+      "buildingId": 248142686,
+      "frontageIndex": 0,
+      "address": "87 Saint Marks Place",
+      "street": "St. Marks Place",
+      "owner": "stmarks-first-a",
+      "role": "assigned frontage; preserve if protectedCorner",
+      "side": "north",
+      "sourceFace": {
+        "x": 21.53,
+        "z": 139.133,
+        "rx": 0.9999999763936102,
+        "rz": 0.00021728501849992496,
+        "length": 18.409,
+        "street": "St. Marks Place"
+      },
+      "runtimeStart": [
+        21.53,
+        -88.86699999999999
+      ],
+      "inCurrentSlice": true,
+      "currentModelSha256": "79ffd634874c321dcf2d8c9fe43fc8e53de94ea853809d0fad9fd14a9d0d7f02",
+      "protectedCorner": false,
+      "existingBusinessRecords": [],
+      "evidenceState": "needs-evidence",
+      "geometryState": "existing baseline; no edits",
+      "reviewState": "not reviewed in this task",
+      "identityIssue": null
+    },
+    {
+      "faceId": "248142687:0",
+      "buildingId": 248142687,
+      "frontageIndex": 0,
+      "address": "92 Saint Marks Place",
+      "street": "St. Marks Place",
+      "owner": "stmarks-first-a",
+      "role": "assigned frontage; preserve if protectedCorner",
+      "side": "south",
+      "sourceFace": {
+        "x": 38.641,
+        "z": 159.334,
+        "rx": -0.9999976861804839,
+        "rz": 0.0021511935474088487,
+        "length": 6.508,
+        "street": "St. Marks Place"
+      },
+      "runtimeStart": [
+        38.641,
+        -68.666
+      ],
+      "inCurrentSlice": true,
+      "currentModelSha256": "8518e19f08170b37481c236a06c2eeb8a321616c870910791d83b958ca74e175",
+      "protectedCorner": false,
+      "existingBusinessRecords": [],
+      "evidenceState": "needs-evidence",
+      "geometryState": "existing baseline; no edits",
+      "reviewState": "not reviewed in this task",
+      "identityIssue": null
+    },
+    {
+      "faceId": "248142688:0",
+      "buildingId": 248142688,
+      "frontageIndex": 0,
+      "address": "93 Saint Marks Place",
+      "street": "St. Marks Place",
+      "owner": "stmarks-first-a",
+      "role": "assigned frontage; preserve if protectedCorner",
+      "side": "north",
+      "sourceFace": {
+        "x": 39.932,
+        "z": 138.517,
+        "rx": 0.9999999322186166,
+        "rz": 0.0003681884875638409,
+        "length": 8.148,
+        "street": "St. Marks Place"
+      },
+      "runtimeStart": [
+        39.932,
+        -89.483
+      ],
+      "inCurrentSlice": true,
+      "currentModelSha256": "28f5cb435410404273724ba629138adbabfe4bc3f3f860ff603af7b90cf67c90",
+      "protectedCorner": false,
+      "existingBusinessRecords": [],
+      "evidenceState": "needs-evidence",
+      "geometryState": "existing baseline; no edits",
+      "reviewState": "not reviewed in this task",
+      "identityIssue": null
+    },
+    {
+      "faceId": "248142689:0",
+      "buildingId": 248142689,
+      "frontageIndex": 0,
+      "address": "94 Saint Marks Place",
+      "street": "St. Marks Place",
+      "owner": "stmarks-first-a",
+      "role": "assigned frontage; preserve if protectedCorner",
+      "side": "south",
+      "sourceFace": {
+        "x": 46.113,
+        "z": 159.319,
+        "rx": -0.9999979849887122,
+        "rz": 0.0020074906015585463,
+        "length": 7.472,
+        "street": "St. Marks Place"
+      },
+      "runtimeStart": [
+        46.113,
+        -68.68100000000001
+      ],
+      "inCurrentSlice": true,
+      "currentModelSha256": "d412cfafeb2bbbd014c09528bcb72574ded276fc4ddd8bb585783e19b0797f77",
+      "protectedCorner": false,
+      "existingBusinessRecords": [
+        {
+          "id": "osm-node-7112935815",
+          "name": "Fun City Tattoo",
+          "frontageIndex": 0
+        }
+      ],
+      "evidenceState": "needs-evidence",
+      "geometryState": "existing baseline; no edits",
+      "reviewState": "not reviewed in this task",
+      "identityIssue": null
+    },
+    {
+      "faceId": "248142691:0",
+      "buildingId": 248142691,
+      "frontageIndex": 0,
+      "address": "95 Saint Marks Place",
+      "street": "St. Marks Place",
+      "owner": "stmarks-first-a",
+      "role": "assigned frontage; preserve if protectedCorner",
+      "side": "north",
+      "sourceFace": {
+        "x": 48.08,
+        "z": 138.52,
+        "rx": 0.9999999931168851,
+        "rz": -0.00011732957797977937,
+        "length": 8.523,
+        "street": "St. Marks Place"
+      },
+      "runtimeStart": [
+        48.08,
+        -89.47999999999999
+      ],
+      "inCurrentSlice": true,
+      "currentModelSha256": "699c60b02255eb290b1580afb219910ed81dfa57e5f47ef1c84d1fbb13273386",
+      "protectedCorner": false,
+      "existingBusinessRecords": [],
+      "evidenceState": "needs-evidence",
+      "geometryState": "existing baseline; no edits",
+      "reviewState": "not reviewed in this task",
+      "identityIssue": null
+    },
+    {
+      "faceId": "248142692:0",
+      "buildingId": 248142692,
+      "frontageIndex": 0,
+      "address": "96 Saint Marks Place",
+      "street": "St. Marks Place",
+      "owner": "stmarks-first-a",
+      "role": "assigned frontage; preserve if protectedCorner",
+      "side": "south",
+      "sourceFace": {
+        "x": 54.012,
+        "z": 159.308,
+        "rx": -0.9999990303600168,
+        "rz": 0.0013925799891069584,
+        "length": 7.899,
+        "street": "St. Marks Place"
+      },
+      "runtimeStart": [
+        54.012,
+        -68.69200000000001
+      ],
+      "inCurrentSlice": true,
+      "currentModelSha256": "c0cbed83c982ba1a0997219a2231f88d1faf21e6cb1ef1671a9299a29917456d",
+      "protectedCorner": false,
+      "existingBusinessRecords": [
+        {
+          "id": "osm-node-4551160604",
+          "name": "Physical Graffitea",
+          "frontageIndex": 0
+        }
+      ],
+      "evidenceState": "needs-evidence",
+      "geometryState": "existing baseline; no edits",
+      "reviewState": "not reviewed in this task",
+      "identityIssue": null
+    },
+    {
+      "faceId": "248142694:0",
+      "buildingId": 248142694,
+      "frontageIndex": 0,
+      "address": "97 Saint Marks Place",
+      "street": "St. Marks Place",
+      "owner": "stmarks-first-a",
+      "role": "assigned frontage; preserve if protectedCorner",
+      "side": "north",
+      "sourceFace": {
+        "x": 56.603,
+        "z": 138.519,
+        "rx": 0.9999995649089495,
+        "rz": 0.000932835415024831,
+        "length": 8.576,
+        "street": "St. Marks Place"
+      },
+      "runtimeStart": [
+        56.603,
+        -89.481
+      ],
+      "inCurrentSlice": true,
+      "currentModelSha256": "4fbc8b4cd6d43ef5af52b0e0fe95bebd51bd9cccd6f61f61cda01c519e048a4b",
+      "protectedCorner": false,
+      "existingBusinessRecords": [
+        {
+          "id": "osm-node-12327465356",
+          "name": "Cecilia",
+          "frontageIndex": 0
+        }
+      ],
+      "evidenceState": "needs-evidence",
+      "geometryState": "existing baseline; no edits",
+      "reviewState": "not reviewed in this task",
+      "identityIssue": null
+    },
+    {
+      "faceId": "248142695:0",
+      "buildingId": 248142695,
+      "frontageIndex": 0,
+      "address": "98 Saint Marks Place",
+      "street": "St. Marks Place",
+      "owner": "stmarks-first-a",
+      "role": "assigned frontage; preserve if protectedCorner",
+      "side": "south",
+      "sourceFace": {
+        "x": 61.701,
+        "z": 159.299,
+        "rx": -0.999999314961697,
+        "rz": 0.0011705025145846539,
+        "length": 7.689,
+        "street": "St. Marks Place"
+      },
+      "runtimeStart": [
+        61.701,
+        -68.701
+      ],
+      "inCurrentSlice": true,
+      "currentModelSha256": "bd97a12e47989312496e4f128f63f583fa2520e755ef3ca1c5b3df0db90d6d55",
+      "protectedCorner": false,
+      "existingBusinessRecords": [],
+      "evidenceState": "needs-evidence",
+      "geometryState": "existing baseline; no edits",
+      "reviewState": "not reviewed in this task",
+      "identityIssue": null
+    },
+    {
+      "faceId": "248142696:0",
+      "buildingId": 248142696,
+      "frontageIndex": 0,
+      "address": "99 1/2 Saint Marks Place",
+      "street": "St. Marks Place",
+      "owner": "stmarks-first-a",
+      "role": "assigned frontage; preserve if protectedCorner",
+      "side": "north",
+      "sourceFace": {
+        "x": 72.511,
+        "z": 140.933,
+        "rx": 0.9999997360494471,
+        "rz": -0.0007265679845323905,
+        "length": 4.129,
+        "street": "St. Marks Place"
+      },
+      "runtimeStart": [
+        72.511,
+        -87.06700000000001
+      ],
+      "inCurrentSlice": true,
+      "currentModelSha256": "a6159b9b7d6a4fe3a5b2c3fb2735779317a528f072d0c060a1b3383f4e17aaaa",
+      "protectedCorner": false,
+      "existingBusinessRecords": [],
+      "evidenceState": "needs-evidence",
+      "geometryState": "existing baseline; no edits",
+      "reviewState": "not reviewed in this task",
+      "identityIssue": null
+    },
+    {
+      "faceId": "248142698:0",
+      "buildingId": 248142698,
+      "frontageIndex": 0,
+      "address": "99 Saint Marks Place",
+      "street": "St. Marks Place",
+      "owner": "stmarks-first-a",
+      "role": "assigned frontage; preserve if protectedCorner",
+      "side": "north",
+      "sourceFace": {
+        "x": 65.184,
+        "z": 140.931,
+        "rx": 0.9999999627455987,
+        "rz": 0.0002729630033400199,
+        "length": 7.327,
+        "street": "St. Marks Place"
+      },
+      "runtimeStart": [
+        65.184,
+        -87.06899999999999
+      ],
+      "inCurrentSlice": true,
+      "currentModelSha256": "9bd6bb3f7df1a9285ec2c99f9003e9b7f1919de0643d770da84cce6b1a3c6f4b",
+      "protectedCorner": false,
+      "existingBusinessRecords": [
+        {
+          "id": "osm-node-12327472114",
+          "name": "East Village Books",
+          "frontageIndex": 0
+        }
+      ],
+      "evidenceState": "needs-evidence",
+      "geometryState": "existing baseline; no edits",
+      "reviewState": "not reviewed in this task",
+      "identityIssue": null
+    },
+    {
+      "faceId": "248142706:0",
+      "buildingId": 248142706,
+      "frontageIndex": 0,
+      "address": "132 Saint Mark's Place",
+      "street": "St. Marks Place",
+      "owner": "stmarks-first-a",
+      "role": "assigned frontage; preserve if protectedCorner",
+      "side": "south",
+      "sourceFace": {
+        "x": 202.358,
+        "z": 158.974,
+        "rx": -0.9999997276439512,
+        "rz": 0.0007380460850348107,
+        "length": 18.969,
+        "street": "St. Marks Place"
+      },
+      "runtimeStart": [
+        202.358,
+        -69.02600000000001
+      ],
+      "inCurrentSlice": false,
+      "currentModelSha256": null,
+      "protectedCorner": false,
+      "existingBusinessRecords": [
+        {
+          "id": "osm-node-4711118291",
+          "name": "Empellón Al pastor",
+          "frontageIndex": 0
+        }
+      ],
+      "evidenceState": "needs-evidence",
+      "geometryState": "legacy geography only; absent from Godot slice",
+      "reviewState": "not reviewed in this task",
+      "identityIssue": null
+    },
+    {
+      "faceId": "248142709:1",
+      "buildingId": 248142709,
+      "frontageIndex": 1,
+      "address": "131 Avenue A",
+      "street": "St. Marks Place",
+      "owner": "stmarks-first-a",
+      "role": "assigned frontage; preserve if protectedCorner",
+      "side": "north",
+      "sourceFace": {
+        "x": 185.521,
+        "z": 140.951,
+        "rx": 0.9999999558272205,
+        "rz": -0.00029722980496561373,
+        "length": 16.822,
+        "street": "St. Marks Place"
+      },
+      "runtimeStart": [
+        185.521,
+        -87.049
+      ],
+      "inCurrentSlice": false,
+      "currentModelSha256": null,
+      "protectedCorner": false,
+      "existingBusinessRecords": [
+        {
+          "id": "osm-node-5603563258",
+          "name": "Starbucks",
+          "frontageIndex": 1
+        }
+      ],
+      "evidenceState": "needs-evidence",
+      "geometryState": "legacy geography only; absent from Godot slice",
+      "reviewState": "not reviewed in this task",
+      "identityIssue": null
+    },
+    {
+      "faceId": "248142711:0",
+      "buildingId": 248142711,
+      "frontageIndex": 0,
+      "address": "134 1st Avenue",
+      "street": "St. Marks Place",
+      "owner": "stmarks-first-a",
+      "role": "assigned frontage; preserve if protectedCorner",
+      "side": "north",
+      "sourceFace": {
+        "x": 14.752,
+        "z": 141.717,
+        "rx": 0.9999999565559541,
+        "rz": -0.0002947678574976357,
+        "length": 6.785,
+        "street": "St. Marks Place"
+      },
+      "runtimeStart": [
+        14.752,
+        -86.28299999999999
+      ],
+      "inCurrentSlice": true,
+      "currentModelSha256": "5fbf877846a1b4a6ad57e9f51a0ce49ba3a67428240a90983dcf8e56bba2aca3",
+      "protectedCorner": false,
+      "existingBusinessRecords": [],
+      "evidenceState": "needs-evidence",
+      "geometryState": "existing baseline; no edits",
+      "reviewState": "not reviewed in this task",
+      "identityIssue": null
+    },
+    {
+      "faceId": "248142712:1",
+      "buildingId": 248142712,
+      "frontageIndex": 1,
+      "address": "132 1st Avenue",
+      "street": "St. Marks Place",
+      "owner": "stmarks-first-a",
+      "role": "assigned frontage; preserve if protectedCorner",
+      "side": "south",
+      "sourceFace": {
+        "x": 32.133,
+        "z": 159.348,
+        "rx": -0.9999989808070826,
+        "rz": 0.0014277201391654306,
+        "length": 16.81,
+        "street": "St. Marks Place"
+      },
+      "runtimeStart": [
+        32.133,
+        -68.65199999999999
+      ],
+      "inCurrentSlice": true,
+      "currentModelSha256": "0d17b3077c02a3ff210289855d8f58530c551d298479703d8c5dfe8d962647f4",
+      "protectedCorner": false,
+      "existingBusinessRecords": [],
+      "evidenceState": "needs-evidence",
+      "geometryState": "existing baseline; no edits",
+      "reviewState": "not reviewed in this task",
+      "identityIssue": null
+    },
+    {
+      "faceId": "248142717:0",
+      "buildingId": 248142717,
+      "frontageIndex": 0,
+      "address": "",
+      "street": "St. Marks Place",
+      "owner": "stmarks-first-a",
+      "role": "assigned frontage; preserve if protectedCorner",
+      "side": "south",
+      "sourceFace": {
+        "x": 93.489,
+        "z": 159.252,
+        "rx": -0.9999994759136807,
+        "rz": 0.001023802893179551,
+        "length": 15.628,
+        "street": "St. Marks Place"
+      },
+      "runtimeStart": [
+        93.489,
+        -68.74799999999999
+      ],
+      "inCurrentSlice": false,
+      "currentModelSha256": null,
+      "protectedCorner": false,
+      "existingBusinessRecords": [],
+      "evidenceState": "needs-evidence",
+      "geometryState": "legacy geography only; absent from Godot slice",
+      "reviewState": "not reviewed in this task",
+      "identityIssue": "address absent in local map; identify from references"
+    }
+  ],
+  "cornerReturns": [
+    {
+      "faceId": "241822164:1",
+      "buildingId": 241822164,
+      "frontageIndex": 1,
+      "address": "132 2nd Avenue",
+      "street": "Second Avenue",
+      "owner": "stmarks-second-first",
+      "role": "same-parcel corner return; preserve if protectedCorner",
+      "side": "unverified",
+      "sourceFace": {
+        "x": -212.955,
+        "z": 128.061,
+        "rx": 0.001450558551286142,
+        "rz": 0.9999989479393913,
+        "length": 12.409,
+        "street": "Second Avenue"
+      },
+      "runtimeStart": [
+        -212.955,
+        -99.939
+      ],
+      "inCurrentSlice": true,
+      "currentModelSha256": "d321b237d2ac5d9fe1e0499aca5879983970798e91274e67a6dd281231e037da",
+      "protectedCorner": false,
+      "existingBusinessRecords": [
+        {
+          "id": "osm-node-12988563701",
+          "name": "Café Maud",
+          "frontageIndex": 1
+        }
+      ],
+      "evidenceState": "needs-evidence",
+      "geometryState": "existing baseline; no edits",
+      "reviewState": "not reviewed in this task",
+      "identityIssue": null
+    },
+    {
+      "faceId": "241822219:0",
+      "buildingId": 241822219,
+      "frontageIndex": 0,
+      "address": "83 Saint Marks Place",
+      "street": "First Avenue",
+      "owner": "stmarks-second-first",
+      "role": "same-parcel corner return; preserve if protectedCorner",
+      "side": "west",
+      "sourceFace": {
+        "x": -14.617933830108148,
+        "z": 138.7599665726817,
+        "rx": -0.002218695014533679,
+        "rz": -0.9999975386931872,
+        "length": 17.157001035902233,
+        "street": "First Avenue"
+      },
+      "runtimeStart": [
+        -14.617933830108148,
+        -89.24003342731831
+      ],
+      "inCurrentSlice": true,
+      "currentModelSha256": "4db49781f317eab48cc3a89ea53bb7585adb8718e68d0244baad3be16fa6e9d5",
+      "protectedCorner": false,
+      "existingBusinessRecords": [],
+      "evidenceState": "needs-evidence",
+      "geometryState": "existing baseline; no edits",
+      "reviewState": "not reviewed in this task",
+      "identityIssue": null
+    },
+    {
+      "faceId": "241822226:0",
+      "buildingId": 241822226,
+      "frontageIndex": 0,
+      "address": "115 1st Avenue",
+      "street": "East 7th Street",
+      "owner": "first-7-stmarks",
+      "role": "same-parcel corner return; preserve if protectedCorner",
+      "side": "unverified",
+      "sourceFace": {
+        "x": -29.705,
+        "z": 218.878,
+        "rx": 0.9999926065742973,
+        "rz": -0.0038453604177751096,
+        "length": 15.083,
+        "street": "East 7th Street"
+      },
+      "runtimeStart": [
+        -29.705,
+        -9.122000000000014
+      ],
+      "inCurrentSlice": true,
+      "currentModelSha256": "6a180f2dbcc3c54b9d2583bb5bb4d0fddde956086d845fddeaed1b05b735213c",
+      "protectedCorner": true,
+      "existingBusinessRecords": [],
+      "evidenceState": "needs-evidence",
+      "geometryState": "existing baseline; no edits",
+      "reviewState": "not reviewed in this task",
+      "identityIssue": null
+    },
+    {
+      "faceId": "241822290:0",
+      "buildingId": 241822290,
+      "frontageIndex": 0,
+      "address": "38 Saint Marks Place",
+      "street": "Second Avenue",
+      "owner": "stmarks-second-first",
+      "role": "same-parcel corner return; preserve if protectedCorner",
+      "side": "unverified",
+      "sourceFace": {
+        "x": -212.799,
+        "z": 159.499,
+        "rx": 0.007199370368044605,
+        "rz": 0.9999740841973375,
+        "length": 10.834,
+        "street": "Second Avenue"
+      },
+      "runtimeStart": [
+        -212.799,
+        -68.501
+      ],
+      "inCurrentSlice": true,
+      "currentModelSha256": "6eda88a57219c9e39e7c7431105f1c12520b133a250491c00f1c0fa42194326e",
+      "protectedCorner": false,
+      "existingBusinessRecords": [],
+      "evidenceState": "needs-evidence",
+      "geometryState": "existing baseline; no edits",
+      "reviewState": "not reviewed in this task",
+      "identityIssue": null
+    },
+    {
+      "faceId": "248142706:1",
+      "buildingId": 248142706,
+      "frontageIndex": 1,
+      "address": "132 Saint Mark's Place",
+      "street": "Avenue A",
+      "owner": "stmarks-first-a",
+      "role": "same-parcel corner return; preserve if protectedCorner",
+      "side": "unverified",
+      "sourceFace": {
+        "x": 202.394,
+        "z": 167.093,
+        "rx": -0.004434000013776545,
+        "rz": -0.9999901697736222,
+        "length": 8.119,
+        "street": "Avenue A"
+      },
+      "runtimeStart": [
+        202.394,
+        -60.90700000000001
+      ],
+      "inCurrentSlice": false,
+      "currentModelSha256": null,
+      "protectedCorner": false,
+      "existingBusinessRecords": [],
+      "evidenceState": "needs-evidence",
+      "geometryState": "legacy geography only; absent from Godot slice",
+      "reviewState": "not reviewed in this task",
+      "identityIssue": null
+    },
+    {
+      "faceId": "248142707:0",
+      "buildingId": 248142707,
+      "frontageIndex": 0,
+      "address": "118 1st Avenue",
+      "street": "East 7th Street",
+      "owner": "first-7-stmarks",
+      "role": "same-parcel corner return; preserve if protectedCorner",
+      "side": "unverified",
+      "sourceFace": {
+        "x": 15.412029208856282,
+        "z": 219.466545464283,
+        "rx": 0.9999967998213825,
+        "rz": -0.002529890707918786,
+        "length": 19.584019549127696,
+        "street": "East 7th Street"
+      },
+      "runtimeStart": [
+        15.412029208856282,
+        -8.533454535716999
+      ],
+      "inCurrentSlice": true,
+      "currentModelSha256": "4f9b80fb8e3794afd5e4cff045f1724da6e23e899b34afa5ca0edf5e2a0d8840",
+      "protectedCorner": true,
+      "existingBusinessRecords": [
+        {
+          "id": "osm-node-9708208979",
+          "name": "7th Street Burger",
+          "frontageIndex": 0
+        }
+      ],
+      "evidenceState": "needs-evidence",
+      "geometryState": "existing baseline; no edits",
+      "reviewState": "not reviewed in this task",
+      "identityIssue": null
+    },
+    {
+      "faceId": "248142709:0",
+      "buildingId": 248142709,
+      "frontageIndex": 0,
+      "address": "131 Avenue A",
+      "street": "Avenue A",
+      "owner": "stmarks-first-a",
+      "role": "same-parcel corner return; preserve if protectedCorner",
+      "side": "unverified",
+      "sourceFace": {
+        "x": 202.343,
+        "z": 140.946,
+        "rx": -0.0031568676478277605,
+        "rz": -0.9999950170809123,
+        "length": 21.857,
+        "street": "Avenue A"
+      },
+      "runtimeStart": [
+        202.343,
+        -87.054
+      ],
+      "inCurrentSlice": false,
+      "currentModelSha256": null,
+      "protectedCorner": false,
+      "existingBusinessRecords": [
+        {
+          "id": "osm-node-2549928453",
+          "name": "Tabetomo",
+          "frontageIndex": 0
+        },
+        {
+          "id": "osm-node-12327505161",
+          "name": "No Fork",
+          "frontageIndex": 0
+        },
+        {
+          "id": "osm-node-12327530510",
+          "name": "$1.50 Fresh Pizza & Hot Dog",
+          "frontageIndex": 0
+        }
+      ],
+      "evidenceState": "needs-evidence",
+      "geometryState": "legacy geography only; absent from Godot slice",
+      "reviewState": "not reviewed in this task",
+      "identityIssue": null
+    },
+    {
+      "faceId": "248142711:1",
+      "buildingId": 248142711,
+      "frontageIndex": 1,
+      "address": "134 1st Avenue",
+      "street": "First Avenue",
+      "owner": "stmarks-first-a",
+      "role": "same-parcel corner return; preserve if protectedCorner",
+      "side": "east",
+      "sourceFace": {
+        "x": 14.681,
+        "z": 118.485,
+        "rx": 0.003056115204670375,
+        "rz": 0.9999953300690237,
+        "length": 23.232,
+        "street": "First Avenue"
+      },
+      "runtimeStart": [
+        14.681,
+        -109.515
+      ],
+      "inCurrentSlice": true,
+      "currentModelSha256": "5fbf877846a1b4a6ad57e9f51a0ce49ba3a67428240a90983dcf8e56bba2aca3",
+      "protectedCorner": false,
+      "existingBusinessRecords": [
+        {
+          "id": "osm-node-10270363605",
+          "name": "Goodnight Sunny",
+          "frontageIndex": 1
+        },
+        {
+          "id": "osm-node-10270502711",
+          "name": "Village Craft Beer & Smoke",
+          "frontageIndex": 1
+        }
+      ],
+      "evidenceState": "needs-evidence",
+      "geometryState": "existing baseline; no edits",
+      "reviewState": "not reviewed in this task",
+      "identityIssue": null
+    }
+  ],
+  "streetReviewUnits": [
+    {
+      "id": "first-7-stmarks:street",
+      "owner": "first-7-stmarks",
+      "state": "needs-evidence",
+      "features": [
+        "both sidewalk edges and access joins",
+        "curb and road markings",
+        "tree pits and planting",
+        "fixed furniture and utilities",
+        "dated construction and dining structures"
+      ],
+      "fixtureInventoryComplete": false
+    },
+    {
+      "id": "stmarks-second-first:street",
+      "owner": "stmarks-second-first",
+      "state": "needs-evidence",
+      "features": [
+        "both sidewalk edges and access joins",
+        "curb and road markings",
+        "tree pits and planting",
+        "fixed furniture and utilities",
+        "dated construction and dining structures"
+      ],
+      "fixtureInventoryComplete": false
+    },
+    {
+      "id": "stmarks-first-a:street",
+      "owner": "stmarks-first-a",
+      "state": "needs-evidence",
+      "features": [
+        "both sidewalk edges and access joins",
+        "curb and road markings",
+        "tree pits and planting",
+        "fixed furniture and utilities",
+        "dated construction and dining structures"
+      ],
+      "fixtureInventoryComplete": false
+    }
+  ],
+  "intersectionReviewUnits": [
+    {
+      "id": "first-seventh-protected",
+      "state": "needs-evidence",
+      "extent": "included intersection street details; accepted Seventh corner preserved",
+      "fixtureInventoryComplete": false
+    },
+    {
+      "id": "second-stmarks",
+      "state": "needs-evidence",
+      "extent": "included intersection street details; accepted Seventh corner preserved",
+      "fixtureInventoryComplete": false
+    },
+    {
+      "id": "first-stmarks",
+      "state": "needs-evidence",
+      "extent": "included intersection street details; accepted Seventh corner preserved",
+      "fixtureInventoryComplete": false
+    },
+    {
+      "id": "avenue-a-stmarks",
+      "state": "needs-evidence",
+      "extent": "included intersection street details; accepted Seventh corner preserved",
+      "fixtureInventoryComplete": false
+    }
+  ],
+  "confirmedAt": "2026-10-11T12:57:22.218428-04:00",
+  "confirmation": "Yes, those full bounds"
+}
