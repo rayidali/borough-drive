@@ -277,6 +277,7 @@
     "seventhEngine"
   ],
   "changedTrackedNonMarkdown": [
+    ".gitattributes",
     "dist/seventh/build.json",
     "dist/seventh/credits.txt",
     "dist/seventh/index.html",
@@ -292,7 +293,7 @@
   ],
   "privateScreenshotsMatch": true,
   "privateScreenshotsUntracked": true,
-  "fullProtectedTrackedHashCount": 1828,
+  "fullProtectedTrackedHashCount": 1827,
   "checks": [
     "Exact SHA256 of all 203 exported building GLBs versus baseline.",
     "Changed model IDs equal the 51 building IDs owned by the 80 business records.",

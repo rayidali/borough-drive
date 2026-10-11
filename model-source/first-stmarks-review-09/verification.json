@@ -7,7 +7,9 @@
     "python/js syntax": "Passed: author_storefront_09.py, storefront_individual_kit.py, first_stmarks_kit.py, export_seventh_engine.py, fonts/storefront-09/instantiate.py, review-storefronts-09.mjs, review-first-stmarks-routes.mjs, export-seventh.mjs.",
     "skill quick_validate.py": "Skill is valid!",
     "documentation links": "427 relative links resolve",
-    "reviewed image presence": "341 images retained across explicitly identified stages"
+    "reviewed image presence": "341 images retained across explicitly identified stages",
+    "whitespace": "Authored files pass. Eight original upstream OFL notice copies retain supplied trailing spaces; third-party notice bytes are intentionally preserved, including Libre Baskerville CRLF. .gitattributes prevents line-ending normalization from breaking package/source hashes on checkout.",
+    "staged artifact identity": "All 18 runtime blobs and 108 source blobs read from the Git index match the tested build hashes; includes preserved upstream OFL notice bytes."
   },
   "routes": "final-routes-complete/routes.json",
   "preservation": "preservation.json",
