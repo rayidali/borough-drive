@@ -20,6 +20,19 @@ estimated details and architectural observations, not a current field survey.
 Some modeled sign lettering derives from Damion Regular, Copyright 2014
 The Damion Project Authors, SIL Open Font License 1.1. See DAMION-OFL.txt.
 
+Revision 09 individual storefront lettering also uses Barlow Condensed,
+Bebas Neue, and static derivatives of Libre Baskerville and Montserrat,
+renamed Borough Store Serif and Borough Store Sans. All are SIL OFL 1.1.
+Original authors, license terms and reserved-name notices are retained in
+BARLOWCONDENSED-OFL.txt, BEBASNEUE-OFL.txt, LIBREBASKERVILLE-OFL.txt and
+MONTSERRAT-OFL.txt. Sources and reproducible static-font recipe are in
+model-source/fonts/storefront-09/. Font choices approximate observed signs;
+they are not assertions of the businesses' original typeface identities.
+
+Revision 09 storefront materials and graphics are authored geometry and
+procedural surfaces based on dated browser observations, not photo textures.
+Evidence locators and uncertainties: model-source/storefront-observations-09.json.
+
 Seventh Street revision 02 uses Borough Drive's existing source geometry plus
 dated architectural and storefront photo observations. Sources and limits:
 model-source/seventh-street-reference-02.json and storefront-details.json in

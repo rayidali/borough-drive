@@ -1,0 +1,1874 @@
+{
+  "recorded": "2026-10-11T23:26:48.272345+00:00",
+  "scope": "All 80 business/return/architectural packets on 57 First Avenue / St. Marks faces, 51 buildings; protected Seventh retained.",
+  "sourceLedger": "../storefront-observations-09.json",
+  "sourcePixels": "Not distributed or used as game textures. Source locators and transcribed observations are durable.",
+  "stages": [
+    {
+      "folder": "final-businesses",
+      "pckSha256": "588646c3a39e288b7153980b292eeeebbcd90ae812b6a2955d17814b0542ff83",
+      "captured": 279,
+      "actuallyInspected": 279,
+      "front": 93,
+      "left": 93,
+      "right": 93
+    },
+    {
+      "folder": "detail-fixes",
+      "pckSha256": "8da68329347228060231d47f46e80c9d6233b6afb0469fd43611bdc83204b1d0",
+      "captured": 30,
+      "actuallyInspected": 30,
+      "front": 10,
+      "left": 10,
+      "right": 10,
+      "faces": [
+        "241822217:0",
+        "248142627:0",
+        "248142646:0",
+        "248142696:0",
+        "248142698:0",
+        "248142706:0",
+        "248142706:1"
+      ]
+    }
+  ],
+  "notes": [
+    "Inspected all 93 frontal and 186 oblique crops in the complete candidate. Wide storefronts use overlapping crops; a contact-sheet seam is not duplicated model text.",
+    "Final seven-face repairs were separately captured and all 30 front/left/right crops inspected: Organic ledge no longer masks bottles; 75 canopy number follows the curved roof; Books has left entry, yellow/red right-side sign and crowded right window; SOCKS has rose fascia; Crif has separate word/star layout; both Bar Al Pastor faces have distinct outlined/filled lower paint panels.",
+    "Canvas winding and two-sided cloth, chair/table spacing, missing glyph fallback, retired duplicate signage and individual entrance/sign silhouettes were repaired before the complete-candidate set.",
+    "The final full candidate and seven-face repair captures have different PCK identities. The later geometry edits target those seven faces; the full set is not relabeled as one final-package capture.",
+    "Game views establish authored composition and rendering, not a calibrated camera/photo fit. Procedural material grain/weave, selected licensed fonts, tiny posters, product inventory, painted tags and interior depth remain approximations.",
+    "The April 2026/September 2024 reference dates do not establish October 2026 occupancy. Blank/unreadable signs and occluded detail remain explicit unknowns."
+  ],
+  "businesses": [
+    {
+      "businessId": "241822212:0:0",
+      "faceId": "241822212:0",
+      "displayName": "Unnamed/partly unreadable unit",
+      "identity": "Maroon display front with mustard circle frieze, narrow left door and red/orange textiles.",
+      "sourceIds": [
+        "first-west-south-detail",
+        "08:first-west-middle"
+      ],
+      "state": "render-reviewed-with-detail-limits; user acceptance pending",
+      "inspectedFullCandidate": [
+        "final-businesses/241822212-0-0-0-front.png",
+        "final-businesses/241822212-0-0-0-left.png",
+        "final-businesses/241822212-0-0-0-right.png"
+      ],
+      "inspectedFinalRepairs": [],
+      "remainingSourceLimits": [
+        "Tiny storefront lettering and residential number unreadable; fine textile/artifact inventory not resolved.",
+        "Exact finish, fine product inventory and font identity are not measured."
+      ],
+      "fontStatus": "Licensed visual substitute; exact original letterform is not certified."
+    },
+    {
+      "businessId": "241822295:0:0",
+      "faceId": "241822295:0",
+      "displayName": "Unnamed/partly unreadable unit",
+      "identity": "Scaffold-obscured pale metal glazing, taped paperwork and plywood perimeter.",
+      "sourceIds": [
+        "first-west-south-detail",
+        "08:first-west-middle",
+        "first-west-middle-detail-detail"
+      ],
+      "state": "render-reviewed-with-detail-limits; user acceptance pending",
+      "inspectedFullCandidate": [
+        "final-businesses/241822295-0-0-0-front.png",
+        "final-businesses/241822295-0-0-0-left.png",
+        "final-businesses/241822295-0-0-0-right.png"
+      ],
+      "inspectedFinalRepairs": [],
+      "remainingSourceLimits": [
+        "Mesh obscures reliable complete upper-opening counts and ornament; old tenant record is not current visible lettering.",
+        "Exact finish, fine product inventory and font identity are not measured."
+      ],
+      "fontStatus": "Licensed visual substitute; exact original letterform is not certified."
+    },
+    {
+      "businessId": "241822247:0:0",
+      "faceId": "241822247:0",
+      "displayName": "COSMO'S LAUNDERAMA",
+      "identity": "Teal laundry fascia, pale aluminum framing, multi-pane transoms and taped window notices.",
+      "sourceIds": [
+        "08:first-west-middle",
+        "first-west-middle-detail-detail"
+      ],
+      "state": "render-reviewed-with-detail-limits; user acceptance pending",
+      "inspectedFullCandidate": [
+        "final-businesses/241822247-0-0-0-front.png",
+        "final-businesses/241822247-0-0-0-left.png",
+        "final-businesses/241822247-0-0-0-right.png"
+      ],
+      "inspectedFinalRepairs": [],
+      "remainingSourceLimits": [
+        "Car hides shop thresholds and lower panels; full door-number text on transom unresolved.",
+        "Exact finish, fine product inventory and font identity are not measured."
+      ],
+      "fontStatus": "Licensed visual substitute; exact original letterform is not certified."
+    },
+    {
+      "businessId": "241822288:0:0",
+      "faceId": "241822288:0",
+      "displayName": "COMPTON'S",
+      "identity": "Cream fascia with broad red COMPTON\u2019S lettering, scripted subline, bright stacked product panel and red bench.",
+      "sourceIds": [
+        "08:first-west-middle",
+        "first-west-middle-detail-detail"
+      ],
+      "state": "render-reviewed-with-detail-limits; user acceptance pending",
+      "inspectedFullCandidate": [
+        "final-businesses/241822288-0-0-0-front.png",
+        "final-businesses/241822288-0-0-0-left.png",
+        "final-businesses/241822288-0-0-0-right.png"
+      ],
+      "inspectedFinalRepairs": [],
+      "remainingSourceLimits": [
+        "People/tree and adjacent shed obscure exact right-door panel division and threshold.",
+        "Exact finish, fine product inventory and font identity are not measured."
+      ],
+      "fontStatus": "Licensed visual substitute; exact original letterform is not certified."
+    },
+    {
+      "businessId": "241822228:0:0",
+      "faceId": "241822228:0",
+      "displayName": "nudibranch",
+      "identity": "Nudibranch pale framed multiple glass leaves under dated shed, understated dark transom lettering.",
+      "sourceIds": [
+        "08:first-west-middle",
+        "08:first-west-north",
+        "first-west-north-detail-detail"
+      ],
+      "state": "render-reviewed-with-detail-limits; user acceptance pending",
+      "inspectedFullCandidate": [
+        "final-businesses/241822228-0-0-0-front.png",
+        "final-businesses/241822228-0-0-0-left.png",
+        "final-businesses/241822228-0-0-0-right.png"
+      ],
+      "inspectedFinalRepairs": [],
+      "remainingSourceLimits": [
+        "Upper window count, cornice and door-number placement obscured by netting/tree; exact ground doors need adjacent inspection.",
+        "Exact finish, fine product inventory and font identity are not measured."
+      ],
+      "fontStatus": "Licensed visual substitute; exact original letterform is not certified."
+    },
+    {
+      "businessId": "241822263:0:0",
+      "faceId": "241822263:0",
+      "displayName": "Unnamed/partly unreadable unit",
+      "identity": "Cream storefront and dark transoms beneath the construction shed; lower details partly hidden.",
+      "sourceIds": [
+        "08:first-west-north",
+        "first-west-north-detail-detail"
+      ],
+      "state": "render-reviewed-with-detail-limits; user acceptance pending",
+      "inspectedFullCandidate": [
+        "final-businesses/241822263-0-0-0-front.png",
+        "final-businesses/241822263-0-0-0-left.png",
+        "final-businesses/241822263-0-0-0-right.png"
+      ],
+      "inspectedFinalRepairs": [],
+      "remainingSourceLimits": [
+        "Netting conceals reliable full upper count and cornice. Entry number and narrow-shop identity unreadable.",
+        "Exact finish, fine product inventory and font identity are not measured."
+      ],
+      "fontStatus": "Licensed visual substitute; exact original letterform is not certified."
+    },
+    {
+      "businessId": "241822220:0:0",
+      "faceId": "241822220:0",
+      "displayName": "LULU'S NAILS",
+      "identity": "Nail shop dark fascia with tall narrow cream lettering and horizontal interior/display slats.",
+      "sourceIds": [
+        "08:first-west-north",
+        "first-west-north-detail-detail"
+      ],
+      "state": "render-reviewed-with-detail-limits; user acceptance pending",
+      "inspectedFullCandidate": [
+        "final-businesses/241822220-0-0-0-front.png",
+        "final-businesses/241822220-0-0-0-left.png",
+        "final-businesses/241822220-0-0-0-right.png"
+      ],
+      "inspectedFinalRepairs": [],
+      "remainingSourceLimits": [
+        "Small residential number plaque is too soft to transcribe confidently; lowest panes/shed obscure some detailing.",
+        "Exact finish, fine product inventory and font identity are not measured."
+      ],
+      "fontStatus": "Licensed visual substitute; exact original letterform is not certified."
+    },
+    {
+      "businessId": "241822220:0:1",
+      "faceId": "241822220:0",
+      "displayName": "AT&T",
+      "identity": "AT&T dark metal entry/display with blue promotional panel and blue pavement board.",
+      "sourceIds": [
+        "08:first-west-north",
+        "first-west-north-detail-detail"
+      ],
+      "state": "render-reviewed-with-detail-limits; user acceptance pending",
+      "inspectedFullCandidate": [
+        "final-businesses/241822220-0-1-0-front.png",
+        "final-businesses/241822220-0-1-0-left.png",
+        "final-businesses/241822220-0-1-0-right.png"
+      ],
+      "inspectedFinalRepairs": [],
+      "remainingSourceLimits": [
+        "Small residential number plaque is too soft to transcribe confidently; lowest panes/shed obscure some detailing.",
+        "Exact finish, fine product inventory and font identity are not measured."
+      ],
+      "fontStatus": "Licensed visual substitute; exact original letterform is not certified."
+    },
+    {
+      "businessId": "241822308:0:0",
+      "faceId": "241822308:0",
+      "displayName": "Unnamed/partly unreadable unit",
+      "identity": "Vacant dark-framed broad pane with layered pale outlined graffiti and low tags.",
+      "sourceIds": [
+        "stmarks-south-25-detail"
+      ],
+      "state": "render-reviewed-with-detail-limits; user acceptance pending",
+      "inspectedFullCandidate": [
+        "final-businesses/241822308-0-0-0-front.png",
+        "final-businesses/241822308-0-0-0-left.png",
+        "final-businesses/241822308-0-0-0-right.png"
+      ],
+      "inspectedFinalRepairs": [],
+      "remainingSourceLimits": [
+        "Full cafe wording and current unit address not readable; rear-wall ownership needs footprint check.",
+        "Exact finish, fine product inventory and font identity are not measured."
+      ],
+      "fontStatus": "Licensed visual substitute; exact original letterform is not certified."
+    },
+    {
+      "businessId": "241822308:0:1",
+      "faceId": "241822308:0",
+      "displayName": "Unnamed/partly unreadable unit",
+      "identity": "Narrow left door and a broad paper-covered pale-gray window.",
+      "sourceIds": [
+        "stmarks-south-25-detail"
+      ],
+      "state": "render-reviewed-with-detail-limits; user acceptance pending",
+      "inspectedFullCandidate": [
+        "final-businesses/241822308-0-1-0-front.png",
+        "final-businesses/241822308-0-1-0-left.png",
+        "final-businesses/241822308-0-1-0-right.png"
+      ],
+      "inspectedFinalRepairs": [],
+      "remainingSourceLimits": [
+        "Full cafe wording and current unit address not readable; rear-wall ownership needs footprint check.",
+        "Exact finish, fine product inventory and font identity are not measured."
+      ],
+      "fontStatus": "Licensed visual substitute; exact original letterform is not certified."
+    },
+    {
+      "businessId": "241822308:0:2",
+      "faceId": "241822308:0",
+      "displayName": "COFFEE",
+      "identity": "Small active coffee unit with fine dark glazing and a pale logo panel.",
+      "sourceIds": [
+        "stmarks-south-25-detail"
+      ],
+      "state": "render-reviewed-with-detail-limits; user acceptance pending",
+      "inspectedFullCandidate": [
+        "final-businesses/241822308-0-2-0-front.png",
+        "final-businesses/241822308-0-2-0-left.png",
+        "final-businesses/241822308-0-2-0-right.png"
+      ],
+      "inspectedFinalRepairs": [],
+      "remainingSourceLimits": [
+        "Full cafe wording and current unit address not readable; rear-wall ownership needs footprint check.",
+        "Exact finish, fine product inventory and font identity are not measured."
+      ],
+      "fontStatus": "Licensed visual substitute; exact original letterform is not certified."
+    },
+    {
+      "businessId": "248142642:0:0",
+      "faceId": "248142642:0",
+      "displayName": "Unnamed/partly unreadable unit",
+      "identity": "Red-painted individual unit with broad dark pane and a separate narrow left entry; no unsupported MaLa sign.",
+      "sourceIds": [
+        "08:first-east-middle",
+        "first-east-south-detail",
+        "first-east-middle-detail-detail"
+      ],
+      "state": "render-reviewed-with-detail-limits; user acceptance pending",
+      "inspectedFullCandidate": [
+        "final-businesses/248142642-0-0-0-front.png",
+        "final-businesses/248142642-0-0-0-left.png",
+        "final-businesses/248142642-0-0-0-right.png"
+      ],
+      "inspectedFinalRepairs": [],
+      "remainingSourceLimits": [
+        "Residential door number not legible in this view; precise commercial identity and surface lettering unresolved.",
+        "Exact finish, fine product inventory and font identity are not measured."
+      ],
+      "fontStatus": "Licensed visual substitute; exact original letterform is not certified."
+    },
+    {
+      "businessId": "248142642:0:1",
+      "faceId": "248142642:0",
+      "displayName": "Unnamed/partly unreadable unit",
+      "identity": "Red-painted individual unit with broad dark pane and a separate narrow left entry; no unsupported MaLa sign.",
+      "sourceIds": [
+        "08:first-east-middle",
+        "first-east-south-detail",
+        "first-east-middle-detail-detail"
+      ],
+      "state": "render-reviewed-with-detail-limits; user acceptance pending",
+      "inspectedFullCandidate": [
+        "final-businesses/248142642-0-1-0-front.png",
+        "final-businesses/248142642-0-1-0-left.png",
+        "final-businesses/248142642-0-1-0-right.png"
+      ],
+      "inspectedFinalRepairs": [],
+      "remainingSourceLimits": [
+        "Residential door number not legible in this view; precise commercial identity and surface lettering unresolved.",
+        "Exact finish, fine product inventory and font identity are not measured."
+      ],
+      "fontStatus": "Licensed visual substitute; exact original letterform is not certified."
+    },
+    {
+      "businessId": "248142646:0:0",
+      "faceId": "248142646:0",
+      "displayName": "Unnamed/partly unreadable unit",
+      "identity": "Full-width maroon organic-grocery canopy, gold window script, bottle-lined ledge and plain timber bench.",
+      "sourceIds": [
+        "08:first-east-middle",
+        "first-east-middle-detail-detail"
+      ],
+      "state": "render-reviewed-with-detail-limits; user acceptance pending",
+      "inspectedFullCandidate": [
+        "final-businesses/248142646-0-0-0-front.png",
+        "final-businesses/248142646-0-0-0-left.png",
+        "final-businesses/248142646-0-0-0-right.png"
+      ],
+      "inspectedFinalRepairs": [
+        "detail-fixes/248142646-0-0-0-front.png",
+        "detail-fixes/248142646-0-0-0-left.png",
+        "detail-fixes/248142646-0-0-0-right.png"
+      ],
+      "remainingSourceLimits": [
+        "Residential number is too faint to confirm; precise door leaf/sidelight division remains uncertain.",
+        "Exact finish, fine product inventory and font identity are not measured."
+      ],
+      "fontStatus": "Licensed visual substitute; exact original letterform is not certified."
+    },
+    {
+      "businessId": "248142648:0:0",
+      "faceId": "248142648:0",
+      "displayName": "THE GRAFTON",
+      "identity": "Grafton cream paneled pub surround, olive fascia, serif name and three timber Venetian blinds.",
+      "sourceIds": [
+        "08:first-east-north",
+        "08:first-east-middle",
+        "08:first-grafton-detail"
+      ],
+      "state": "render-reviewed-with-detail-limits; user acceptance pending",
+      "inspectedFullCandidate": [
+        "final-businesses/248142648-0-0-0-front.png",
+        "final-businesses/248142648-0-0-0-left.png",
+        "final-businesses/248142648-0-0-0-right.png"
+      ],
+      "inspectedFinalRepairs": [],
+      "remainingSourceLimits": [
+        "Trees obscure ground edges and some panes; mapped six-floor label disagrees with visible four upper rows.",
+        "Exact finish, fine product inventory and font identity are not measured."
+      ],
+      "fontStatus": "Licensed visual substitute; exact original letterform is not certified."
+    },
+    {
+      "businessId": "248142651:0:0",
+      "faceId": "248142651:0",
+      "displayName": "Unnamed/partly unreadable unit",
+      "identity": "Noreetuh black fold-out canopy, small cursive text, fine pale glass rails and painted leafy lower panel.",
+      "sourceIds": [
+        "08:first-east-north",
+        "first-east-north-detail-detail"
+      ],
+      "state": "render-reviewed-with-detail-limits; user acceptance pending",
+      "inspectedFullCandidate": [
+        "final-businesses/248142651-0-0-0-front.png",
+        "final-businesses/248142651-0-0-0-left.png",
+        "final-businesses/248142651-0-0-0-right.png"
+      ],
+      "inspectedFinalRepairs": [],
+      "remainingSourceLimits": [
+        "Car hides sill/plinth/thresholds; fine script styling and partly concealed entry construction remain unmeasured.",
+        "Exact finish, fine product inventory and font identity are not measured."
+      ],
+      "fontStatus": "Licensed visual substitute; exact original letterform is not certified."
+    },
+    {
+      "businessId": "248142654:0:0",
+      "faceId": "248142654:0",
+      "displayName": "UTSHOB",
+      "identity": "Utshob teal sign and compact glazed doorway with blue covered window.",
+      "sourceIds": [
+        "08:first-east-north",
+        "first-east-north-detail-detail"
+      ],
+      "state": "render-reviewed-with-detail-limits; user acceptance pending",
+      "inspectedFullCandidate": [
+        "final-businesses/248142654-0-0-0-front.png",
+        "final-businesses/248142654-0-0-0-left.png",
+        "final-businesses/248142654-0-0-0-right.png"
+      ],
+      "inspectedFinalRepairs": [],
+      "remainingSourceLimits": [
+        "Van blocks left-shop lower panels and threshold; fine sign styling and exact number font unmeasured.",
+        "Exact finish, fine product inventory and font identity are not measured."
+      ],
+      "fontStatus": "Licensed visual substitute; exact original letterform is not certified."
+    },
+    {
+      "businessId": "248142654:0:1",
+      "faceId": "248142654:0",
+      "displayName": "KOLACHI",
+      "identity": "Kolachi white surround, recessed left entrance and stacked white lettering on the broad dark right pane.",
+      "sourceIds": [
+        "08:first-east-north",
+        "first-east-north-detail-detail"
+      ],
+      "state": "render-reviewed-with-detail-limits; user acceptance pending",
+      "inspectedFullCandidate": [
+        "final-businesses/248142654-0-1-0-front.png",
+        "final-businesses/248142654-0-1-0-left.png",
+        "final-businesses/248142654-0-1-0-right.png"
+      ],
+      "inspectedFinalRepairs": [],
+      "remainingSourceLimits": [
+        "Van blocks left-shop lower panels and threshold; fine sign styling and exact number font unmeasured.",
+        "Exact finish, fine product inventory and font identity are not measured."
+      ],
+      "fontStatus": "Licensed visual substitute; exact original letterform is not certified."
+    },
+    {
+      "businessId": "241822164:0:0",
+      "faceId": "241822164:0",
+      "displayName": "Unnamed/partly unreadable unit",
+      "identity": "Cafe Maud: peach wall, round-headed honey timber openings, green restrained fascia, bistro chairs and orange parasols.",
+      "sourceIds": [
+        "stmarks-north-200-detail",
+        "stmarks-second-north-return-detail"
+      ],
+      "state": "render-reviewed-with-detail-limits; user acceptance pending",
+      "inspectedFullCandidate": [
+        "final-businesses/241822164-0-0-0-front.png",
+        "final-businesses/241822164-0-0-0-left.png",
+        "final-businesses/241822164-0-0-0-right.png"
+      ],
+      "inspectedFinalRepairs": [],
+      "remainingSourceLimits": [
+        "Mapped building address 132 Second Avenue differs from observed St. Marks entrance 37 1/2; preserve both identities.",
+        "Exact full bay schedule, oval-row placement, carvings and Second Avenue return require additional inspection.",
+        "Exact finish, fine product inventory and font identity are not measured."
+      ],
+      "fontStatus": "Licensed visual substitute; exact original letterform is not certified."
+    },
+    {
+      "businessId": "241822164:1:0",
+      "faceId": "241822164:1",
+      "displayName": "CAFE MAUD",
+      "identity": "Cafe Maud: peach wall, round-headed honey timber openings, green restrained fascia, bistro chairs and orange parasols.",
+      "sourceIds": [
+        "stmarks-second-north-return-detail"
+      ],
+      "state": "render-reviewed-with-detail-limits; user acceptance pending",
+      "inspectedFullCandidate": [
+        "final-businesses/241822164-1-0-0-front.png",
+        "final-businesses/241822164-1-0-0-left.png",
+        "final-businesses/241822164-1-0-0-right.png",
+        "final-businesses/241822164-1-0-1-front.png",
+        "final-businesses/241822164-1-0-1-left.png",
+        "final-businesses/241822164-1-0-1-right.png"
+      ],
+      "inspectedFinalRepairs": [],
+      "remainingSourceLimits": [
+        "Oblique view does not resolve full window count; exact number and entrance leaves need straight-on detail.",
+        "Exact finish, fine product inventory and font identity are not measured."
+      ],
+      "fontStatus": "Licensed visual substitute; exact original letterform is not certified."
+    },
+    {
+      "businessId": "241822164:0:1",
+      "faceId": "241822164:0",
+      "displayName": "Unnamed/partly unreadable unit",
+      "identity": "Separate black-fascia bar: warm wood rectangular opening bank and transoms, gray plinth, two small round tables and a folded pale umbrella.",
+      "sourceIds": [
+        "stmarks-north-200-detail",
+        "stmarks-second-north-return-detail"
+      ],
+      "state": "render-reviewed-with-detail-limits; user acceptance pending",
+      "inspectedFullCandidate": [
+        "final-businesses/241822164-0-1-0-front.png",
+        "final-businesses/241822164-0-1-0-left.png",
+        "final-businesses/241822164-0-1-0-right.png",
+        "final-businesses/241822164-0-1-1-front.png",
+        "final-businesses/241822164-0-1-1-left.png",
+        "final-businesses/241822164-0-1-1-right.png"
+      ],
+      "inspectedFinalRepairs": [],
+      "remainingSourceLimits": [
+        "Mapped building address 132 Second Avenue differs from observed St. Marks entrance 37 1/2; preserve both identities.",
+        "Exact full bay schedule, oval-row placement, carvings and Second Avenue return require additional inspection.",
+        "Exact finish, fine product inventory and font identity are not measured."
+      ],
+      "fontStatus": "Licensed visual substitute; exact original letterform is not certified."
+    },
+    {
+      "businessId": "241822224:0:0",
+      "faceId": "241822224:0",
+      "displayName": "Unnamed/partly unreadable unit",
+      "identity": "41 basement unit beside the raised stoop: dark-framed glass, independent low entry and visible shutter/trellis.",
+      "sourceIds": [
+        "stmarks-north-180-detail"
+      ],
+      "state": "render-reviewed-with-detail-limits; user acceptance pending",
+      "inspectedFullCandidate": [
+        "final-businesses/241822224-0-0-0-front.png",
+        "final-businesses/241822224-0-0-0-left.png",
+        "final-businesses/241822224-0-0-0-right.png"
+      ],
+      "inspectedFinalRepairs": [],
+      "remainingSourceLimits": [
+        "Upper opening groups partly obscured by tree/UI overlay; full row schedule and residential number placement need close/adjacent views.",
+        "Exact finish, fine product inventory and font identity are not measured."
+      ],
+      "fontStatus": "Licensed visual substitute; exact original letterform is not certified."
+    },
+    {
+      "businessId": "241822224:0:1",
+      "faceId": "241822224:0",
+      "displayName": "Unnamed/partly unreadable unit",
+      "identity": "41 basement unit beside the raised stoop: dark-framed glass, independent low entry and visible shutter/trellis.",
+      "sourceIds": [
+        "stmarks-north-180-detail"
+      ],
+      "state": "render-reviewed-with-detail-limits; user acceptance pending",
+      "inspectedFullCandidate": [
+        "final-businesses/241822224-0-1-0-front.png",
+        "final-businesses/241822224-0-1-0-left.png",
+        "final-businesses/241822224-0-1-0-right.png"
+      ],
+      "inspectedFinalRepairs": [],
+      "remainingSourceLimits": [
+        "Upper opening groups partly obscured by tree/UI overlay; full row schedule and residential number placement need close/adjacent views.",
+        "Exact finish, fine product inventory and font identity are not measured."
+      ],
+      "fontStatus": "Licensed visual substitute; exact original letterform is not certified."
+    },
+    {
+      "businessId": "241822284:0:0",
+      "faceId": "241822284:0",
+      "displayName": "Unnamed/partly unreadable unit",
+      "identity": "42\u00bd lower glass entry: pale surround, metal gate and small white window lettering.",
+      "sourceIds": [
+        "stmarks-south-180-detail"
+      ],
+      "state": "render-reviewed-with-detail-limits; user acceptance pending",
+      "inspectedFullCandidate": [
+        "final-businesses/241822284-0-0-0-front.png",
+        "final-businesses/241822284-0-0-0-left.png",
+        "final-businesses/241822284-0-0-0-right.png"
+      ],
+      "inspectedFinalRepairs": [],
+      "remainingSourceLimits": [
+        "Top count/cornice hidden by leaves; basement shop wording tiny.",
+        "Exact finish, fine product inventory and font identity are not measured."
+      ],
+      "fontStatus": "Licensed visual substitute; exact original letterform is not certified."
+    },
+    {
+      "businessId": "241822300:0:0",
+      "faceId": "241822300:0",
+      "displayName": "anthony AIDEN opticians",
+      "identity": "Anthony Aiden optical shop: black/timber framing, arched sign silhouette, fine mixed-case lettering and eyewear displays.",
+      "sourceIds": [
+        "stmarks-south-180-detail"
+      ],
+      "state": "render-reviewed-with-detail-limits; user acceptance pending",
+      "inspectedFullCandidate": [
+        "final-businesses/241822300-0-0-0-front.png",
+        "final-businesses/241822300-0-0-0-left.png",
+        "final-businesses/241822300-0-0-0-right.png"
+      ],
+      "inspectedFinalRepairs": [],
+      "remainingSourceLimits": [
+        "Full upper count and residential entrance cropped at right.",
+        "Exact finish, fine product inventory and font identity are not measured."
+      ],
+      "fontStatus": "Licensed visual substitute; exact original letterform is not certified."
+    },
+    {
+      "businessId": "241822306:0:0",
+      "faceId": "241822306:0",
+      "displayName": "Northwell Health",
+      "identity": "Northwell Health: wide white medical fascia with blue words, barred glazing and two pale posted notices.",
+      "sourceIds": [
+        "stmarks-south-180-detail"
+      ],
+      "state": "render-reviewed-with-detail-limits; user acceptance pending",
+      "inspectedFullCandidate": [
+        "final-businesses/241822306-0-0-0-front.png",
+        "final-businesses/241822306-0-0-0-left.png",
+        "final-businesses/241822306-0-0-0-right.png"
+      ],
+      "inspectedFinalRepairs": [],
+      "remainingSourceLimits": [
+        "Top rows/cornice hidden by tree; entrance number unreadable.",
+        "Exact finish, fine product inventory and font identity are not measured."
+      ],
+      "fontStatus": "Licensed visual substitute; exact original letterform is not certified."
+    },
+    {
+      "businessId": "241822310:0:0",
+      "faceId": "241822310:0",
+      "displayName": "PORTO RICO IMPORTING CO.",
+      "identity": "Porto Rico: red enamel doorway/display, cream serif fascia, red fabric canopy, bags and coffee tins visible behind glass.",
+      "sourceIds": [
+        "stmarks-south-200-detail"
+      ],
+      "state": "render-reviewed-with-detail-limits; user acceptance pending",
+      "inspectedFullCandidate": [
+        "final-businesses/241822310-0-0-0-front.png",
+        "final-businesses/241822310-0-0-0-left.png",
+        "final-businesses/241822310-0-0-0-right.png"
+      ],
+      "inspectedFinalRepairs": [],
+      "remainingSourceLimits": [
+        "Full back mass geometry and residential access need oblique; facade number unreadable.",
+        "Exact finish, fine product inventory and font identity are not measured."
+      ],
+      "fontStatus": "Licensed visual substitute; exact original letterform is not certified."
+    },
+    {
+      "businessId": "241822190:0:0",
+      "faceId": "241822190:0",
+      "displayName": "VEGAN GRILL",
+      "identity": "Vegan Grill: vivid green italic vegan / thin GRILL fascia, small green canopy and picture menu beside descending entry.",
+      "sourceIds": [
+        "stmarks-south-130-detail"
+      ],
+      "state": "render-reviewed-with-detail-limits; user acceptance pending",
+      "inspectedFullCandidate": [
+        "final-businesses/241822190-0-0-0-front.png",
+        "final-businesses/241822190-0-0-0-left.png",
+        "final-businesses/241822190-0-0-0-right.png"
+      ],
+      "inspectedFinalRepairs": [],
+      "remainingSourceLimits": [
+        "Top count and full left basement Nail Lab lettering not readable.",
+        "Exact finish, fine product inventory and font identity are not measured."
+      ],
+      "fontStatus": "Licensed visual substitute; exact original letterform is not certified."
+    },
+    {
+      "businessId": "241822190:0:1",
+      "faceId": "241822190:0",
+      "displayName": "Unnamed/partly unreadable unit",
+      "identity": "Separate low unit beneath the left stoop, dark barred access, details partly obscured.",
+      "sourceIds": [
+        "stmarks-south-130-detail"
+      ],
+      "state": "render-reviewed-with-detail-limits; user acceptance pending",
+      "inspectedFullCandidate": [
+        "final-businesses/241822190-0-1-0-front.png",
+        "final-businesses/241822190-0-1-0-left.png",
+        "final-businesses/241822190-0-1-0-right.png"
+      ],
+      "inspectedFinalRepairs": [],
+      "remainingSourceLimits": [
+        "Top count and full left basement Nail Lab lettering not readable.",
+        "Exact finish, fine product inventory and font identity are not measured."
+      ],
+      "fontStatus": "Licensed visual substitute; exact original letterform is not certified."
+    },
+    {
+      "businessId": "241822279:0:0",
+      "faceId": "241822279:0",
+      "displayName": "JIANG'S KITCHEN",
+      "identity": "Jiang\u2019s Kitchen: compact below-grade restaurant under black canopy, white name and smaller cuisine line, visible menu notices.",
+      "sourceIds": [
+        "stmarks-north-80-detail",
+        "08:stmarks-north-63-detail"
+      ],
+      "state": "render-reviewed-with-detail-limits; user acceptance pending",
+      "inspectedFullCandidate": [
+        "final-businesses/241822279-0-0-0-front.png",
+        "final-businesses/241822279-0-0-0-left.png",
+        "final-businesses/241822279-0-0-0-right.png"
+      ],
+      "inspectedFinalRepairs": [],
+      "remainingSourceLimits": [
+        "Top row behind Maps panel; door number and lower-right access require closer view.",
+        "Exact finish, fine product inventory and font identity are not measured."
+      ],
+      "fontStatus": "Licensed visual substitute; exact original letterform is not certified."
+    },
+    {
+      "businessId": "241822217:0:0",
+      "faceId": "241822217:0",
+      "displayName": "Unnamed/partly unreadable unit",
+      "identity": "75 Cocktail Lounge: corrugated stainless-steel walls around narrow glass door, rounded burgundy canopy and white condensed lettering.",
+      "sourceIds": [
+        "stmarks-north-55-detail"
+      ],
+      "state": "render-reviewed-with-detail-limits; user acceptance pending",
+      "inspectedFullCandidate": [
+        "final-businesses/241822217-0-0-0-front.png",
+        "final-businesses/241822217-0-0-0-left.png",
+        "final-businesses/241822217-0-0-0-right.png"
+      ],
+      "inspectedFinalRepairs": [
+        "detail-fixes/241822217-0-0-0-front.png",
+        "detail-fixes/241822217-0-0-0-left.png",
+        "detail-fixes/241822217-0-0-0-right.png"
+      ],
+      "remainingSourceLimits": [
+        "Fine awning wording at left unreadable.",
+        "Exact finish, fine product inventory and font identity are not measured."
+      ],
+      "fontStatus": "Licensed visual substitute; exact original letterform is not certified."
+    },
+    {
+      "businessId": "241822271:0:0",
+      "faceId": "241822271:0",
+      "displayName": "Unnamed/partly unreadable unit",
+      "identity": "La Palapa basement/entry edge: dark metal and pale painted surrounds beneath the separate tan restaurant canopy.",
+      "sourceIds": [
+        "stmarks-north-55-detail"
+      ],
+      "state": "render-reviewed-with-detail-limits; user acceptance pending",
+      "inspectedFullCandidate": [
+        "final-businesses/241822271-0-0-0-front.png",
+        "final-businesses/241822271-0-0-0-left.png",
+        "final-businesses/241822271-0-0-0-right.png"
+      ],
+      "inspectedFinalRepairs": [],
+      "remainingSourceLimits": [
+        "Shop wording partly cropped; entry number and full right edge pending.",
+        "Exact finish, fine product inventory and font identity are not measured."
+      ],
+      "fontStatus": "Licensed visual substitute; exact original letterform is not certified."
+    },
+    {
+      "businessId": "241822320:0:0",
+      "faceId": "241822320:0",
+      "displayName": "Unnamed/partly unreadable unit",
+      "identity": "Narrow dark restaurant front: glass entrance and food photograph/menu panels in the fascia.",
+      "sourceIds": [
+        "stmarks-north-25-detail"
+      ],
+      "state": "render-reviewed-with-detail-limits; user acceptance pending",
+      "inspectedFullCandidate": [
+        "final-businesses/241822320-0-0-0-front.png",
+        "final-businesses/241822320-0-0-0-left.png",
+        "final-businesses/241822320-0-0-0-right.png"
+      ],
+      "inspectedFinalRepairs": [],
+      "remainingSourceLimits": [
+        "Left edge and top partly cropped; full row count and lettering need neighboring view.",
+        "Exact finish, fine product inventory and font identity are not measured."
+      ],
+      "fontStatus": "Licensed visual substitute; exact original letterform is not certified."
+    },
+    {
+      "businessId": "241822234:0:0",
+      "faceId": "241822234:0",
+      "displayName": "RAMEN",
+      "identity": "E Ramen: black square fascia with large yellow script, dark double glass doors and a picture-menu A-frame.",
+      "sourceIds": [
+        "stmarks-north-25-detail"
+      ],
+      "state": "render-reviewed-with-detail-limits; user acceptance pending",
+      "inspectedFullCandidate": [
+        "final-businesses/241822234-0-0-0-front.png",
+        "final-businesses/241822234-0-0-0-left.png",
+        "final-businesses/241822234-0-0-0-right.png"
+      ],
+      "inspectedFinalRepairs": [],
+      "remainingSourceLimits": [
+        "Script spelling and number plaque require detail.",
+        "Exact finish, fine product inventory and font identity are not measured."
+      ],
+      "fontStatus": "Licensed visual substitute; exact original letterform is not certified."
+    },
+    {
+      "businessId": "241822219:0:0",
+      "faceId": "241822219:0",
+      "displayName": "STROMBOLI",
+      "identity": "Stromboli avenue return: deep red fascia and shallow valance, open counter with red high stools.",
+      "sourceIds": [
+        "stmarks-first-nw-avenue-detail"
+      ],
+      "state": "render-reviewed-with-detail-limits; user acceptance pending",
+      "inspectedFullCandidate": [
+        "final-businesses/241822219-0-0-0-front.png",
+        "final-businesses/241822219-0-0-0-left.png",
+        "final-businesses/241822219-0-0-0-right.png"
+      ],
+      "inspectedFinalRepairs": [],
+      "remainingSourceLimits": [
+        "Fine number/tenant font detail not readable.",
+        "Exact finish, fine product inventory and font identity are not measured."
+      ],
+      "fontStatus": "Licensed visual substitute; exact original letterform is not certified."
+    },
+    {
+      "businessId": "241822219:0:1",
+      "faceId": "241822219:0",
+      "displayName": "CAMINO",
+      "identity": "Camino: white fascia with spaced black letters, open tall timber/glass leaves and narrow sidewalk counter seating.",
+      "sourceIds": [
+        "stmarks-first-nw-avenue-detail"
+      ],
+      "state": "render-reviewed-with-detail-limits; user acceptance pending",
+      "inspectedFullCandidate": [
+        "final-businesses/241822219-0-1-0-front.png",
+        "final-businesses/241822219-0-1-0-left.png",
+        "final-businesses/241822219-0-1-0-right.png",
+        "final-businesses/241822219-0-1-1-front.png",
+        "final-businesses/241822219-0-1-1-left.png",
+        "final-businesses/241822219-0-1-1-right.png"
+      ],
+      "inspectedFinalRepairs": [],
+      "remainingSourceLimits": [
+        "Fine number/tenant font detail not readable.",
+        "Exact finish, fine product inventory and font identity are not measured."
+      ],
+      "fontStatus": "Licensed visual substitute; exact original letterform is not certified."
+    },
+    {
+      "businessId": "241822219:1:0",
+      "faceId": "241822219:1",
+      "displayName": "STROMBOLI",
+      "identity": "Stromboli street face: burgundy-and-cream horizontal awning, serif valance lettering, open glass wall and small interior tables.",
+      "sourceIds": [
+        "stmarks-north-25-detail"
+      ],
+      "state": "render-reviewed-with-detail-limits; user acceptance pending",
+      "inspectedFullCandidate": [
+        "final-businesses/241822219-1-0-0-front.png",
+        "final-businesses/241822219-1-0-0-left.png",
+        "final-businesses/241822219-1-0-0-right.png"
+      ],
+      "inspectedFinalRepairs": [],
+      "remainingSourceLimits": [
+        "First Avenue return not yet inspected; tiny address lettering uncertain.",
+        "Exact finish, fine product inventory and font identity are not measured."
+      ],
+      "fontStatus": "Licensed visual substitute; exact original letterform is not certified."
+    },
+    {
+      "businessId": "248142711:1:0",
+      "faceId": "248142711:1",
+      "displayName": "BEER   SMOKE",
+      "identity": "Narrow craft beer and smoke unit: red/white fascia, small projecting sign, glazed entry and product notices.",
+      "sourceIds": [
+        "stmarks-first-ne-avenue-detail"
+      ],
+      "state": "render-reviewed-with-detail-limits; user acceptance pending",
+      "inspectedFullCandidate": [
+        "final-businesses/248142711-1-0-0-front.png",
+        "final-businesses/248142711-1-0-0-left.png",
+        "final-businesses/248142711-1-0-0-right.png"
+      ],
+      "inspectedFinalRepairs": [],
+      "remainingSourceLimits": [
+        "Confirm unit ownership at northern edge against exact mapped length; entrance numeral unreadable.",
+        "Exact finish, fine product inventory and font identity are not measured."
+      ],
+      "fontStatus": "Licensed visual substitute; exact original letterform is not certified."
+    },
+    {
+      "businessId": "248142711:1:1",
+      "faceId": "248142711:1",
+      "displayName": "GOODNIGHT SONNY",
+      "identity": "Goodnight Sonny: dark olive enamel, folded glass divisions, fine gold-striped dark canvas and source-specific outdoor seating.",
+      "sourceIds": [
+        "stmarks-first-ne-avenue-detail"
+      ],
+      "state": "render-reviewed-with-detail-limits; user acceptance pending",
+      "inspectedFullCandidate": [
+        "final-businesses/248142711-1-1-0-front.png",
+        "final-businesses/248142711-1-1-0-left.png",
+        "final-businesses/248142711-1-1-0-right.png",
+        "final-businesses/248142711-1-1-1-front.png",
+        "final-businesses/248142711-1-1-1-left.png",
+        "final-businesses/248142711-1-1-1-right.png"
+      ],
+      "inspectedFinalRepairs": [],
+      "remainingSourceLimits": [
+        "Confirm unit ownership at northern edge against exact mapped length; entrance numeral unreadable.",
+        "Exact finish, fine product inventory and font identity are not measured."
+      ],
+      "fontStatus": "Licensed visual substitute; exact original letterform is not certified."
+    },
+    {
+      "businessId": "248142711:0:0",
+      "faceId": "248142711:0",
+      "displayName": "Unnamed/partly unreadable unit",
+      "identity": "Goodnight Sonny: dark olive enamel, folded glass divisions, fine gold-striped dark canvas and source-specific outdoor seating.",
+      "sourceIds": [
+        "stmarks-north-east20-detail"
+      ],
+      "state": "render-reviewed-with-detail-limits; user acceptance pending",
+      "inspectedFullCandidate": [
+        "final-businesses/248142711-0-0-0-front.png",
+        "final-businesses/248142711-0-0-0-left.png",
+        "final-businesses/248142711-0-0-0-right.png"
+      ],
+      "inspectedFinalRepairs": [],
+      "remainingSourceLimits": [
+        "Number not visible; closed shutter conceals entry layout.",
+        "Exact finish, fine product inventory and font identity are not measured."
+      ],
+      "fontStatus": "Licensed visual substitute; exact original letterform is not certified."
+    },
+    {
+      "businessId": "248142712:0:0",
+      "faceId": "248142712:0",
+      "displayName": "Unnamed/partly unreadable unit",
+      "identity": "Cream corner cafe: narrow divided-light leaves, pale solid side shutters, black/cream striped retractable canopy and warm hanging globes.",
+      "sourceIds": [
+        "08:first-east-north"
+      ],
+      "state": "render-reviewed-with-detail-limits; user acceptance pending",
+      "inspectedFullCandidate": [
+        "final-businesses/248142712-0-0-0-front.png",
+        "final-businesses/248142712-0-0-0-left.png",
+        "final-businesses/248142712-0-0-0-right.png"
+      ],
+      "inspectedFinalRepairs": [],
+      "remainingSourceLimits": [
+        "Corner-return and ground details need closer view; no visible number placement transcribed.",
+        "Exact finish, fine product inventory and font identity are not measured."
+      ],
+      "fontStatus": "Licensed visual substitute; exact original letterform is not certified."
+    },
+    {
+      "businessId": "248142712:1:0",
+      "faceId": "248142712:1",
+      "displayName": "Unnamed/partly unreadable unit",
+      "identity": "Cream corner cafe: narrow divided-light leaves, pale solid side shutters, black/cream striped retractable canopy and warm hanging globes.",
+      "sourceIds": [
+        "stmarks-south-east20-detail"
+      ],
+      "state": "render-reviewed-with-detail-limits; user acceptance pending",
+      "inspectedFullCandidate": [
+        "final-businesses/248142712-1-0-0-front.png",
+        "final-businesses/248142712-1-0-0-left.png",
+        "final-businesses/248142712-1-0-0-right.png"
+      ],
+      "inspectedFinalRepairs": [],
+      "remainingSourceLimits": [
+        "Far-left return entry partly cropped and address unreadable.",
+        "Exact finish, fine product inventory and font identity are not measured."
+      ],
+      "fontStatus": "Licensed visual substitute; exact original letterform is not certified."
+    },
+    {
+      "businessId": "248142712:1:1",
+      "faceId": "248142712:1",
+      "displayName": "Unnamed/partly unreadable unit",
+      "identity": "Cream corner cafe: narrow divided-light leaves, pale solid side shutters, black/cream striped retractable canopy and warm hanging globes.",
+      "sourceIds": [
+        "stmarks-south-east20-detail"
+      ],
+      "state": "render-reviewed-with-detail-limits; user acceptance pending",
+      "inspectedFullCandidate": [
+        "final-businesses/248142712-1-1-0-front.png",
+        "final-businesses/248142712-1-1-0-left.png",
+        "final-businesses/248142712-1-1-0-right.png",
+        "final-businesses/248142712-1-1-1-front.png",
+        "final-businesses/248142712-1-1-1-left.png",
+        "final-businesses/248142712-1-1-1-right.png"
+      ],
+      "inspectedFinalRepairs": [],
+      "remainingSourceLimits": [
+        "Far-left return entry partly cropped and address unreadable.",
+        "Exact finish, fine product inventory and font identity are not measured."
+      ],
+      "fontStatus": "Licensed visual substitute; exact original letterform is not certified."
+    },
+    {
+      "businessId": "248142694:0:0",
+      "faceId": "248142694:0",
+      "displayName": "CECILIA",
+      "identity": "Cecilia: dark green lower wall, cream inset display surround and small gold serif lettering on the left panel.",
+      "sourceIds": [
+        "stmarks-north-east45-detail",
+        "stmarks-north-east70-detail"
+      ],
+      "state": "render-reviewed-with-detail-limits; user acceptance pending",
+      "inspectedFullCandidate": [
+        "final-businesses/248142694-0-0-0-front.png",
+        "final-businesses/248142694-0-0-0-left.png",
+        "final-businesses/248142694-0-0-0-right.png"
+      ],
+      "inspectedFinalRepairs": [],
+      "remainingSourceLimits": [
+        "Tree conceals exact complete upper rows and entry division; number support not legible.",
+        "Exact finish, fine product inventory and font identity are not measured."
+      ],
+      "fontStatus": "Licensed visual substitute; exact original letterform is not certified."
+    },
+    {
+      "businessId": "248142698:0:0",
+      "faceId": "248142698:0",
+      "displayName": "EAST VILLAGE BOOKS",
+      "identity": "East Village Books lower entry with yellow/red signs and crowded visible books.",
+      "sourceIds": [
+        "stmarks-north-east70-detail",
+        "08:stmarks-north-99-oblique"
+      ],
+      "state": "render-reviewed-with-detail-limits; user acceptance pending",
+      "inspectedFullCandidate": [
+        "final-businesses/248142698-0-0-0-front.png",
+        "final-businesses/248142698-0-0-0-left.png",
+        "final-businesses/248142698-0-0-0-right.png"
+      ],
+      "inspectedFinalRepairs": [
+        "detail-fixes/248142698-0-0-0-front.png",
+        "detail-fixes/248142698-0-0-0-left.png",
+        "detail-fixes/248142698-0-0-0-right.png"
+      ],
+      "remainingSourceLimits": [
+        "Physical facade continuous; exact internal ownership cut estimated from source footprints. Door leaf fine detail and minor lettering remain unreadable.",
+        "Exact finish, fine product inventory and font identity are not measured."
+      ],
+      "fontStatus": "Licensed visual substitute; exact original letterform is not certified."
+    },
+    {
+      "businessId": "248142696:0:0",
+      "faceId": "248142696:0",
+      "displayName": "Unnamed/partly unreadable unit",
+      "identity": "Colorfully framed basement unit adjoining the bookshop, with dark glass and a recessed right door.",
+      "sourceIds": [
+        "08:stmarks-north-99-oblique",
+        "stmarks-north-east70-detail"
+      ],
+      "state": "render-reviewed-with-detail-limits; user acceptance pending",
+      "inspectedFullCandidate": [
+        "final-businesses/248142696-0-0-0-front.png",
+        "final-businesses/248142696-0-0-0-left.png",
+        "final-businesses/248142696-0-0-0-right.png"
+      ],
+      "inspectedFinalRepairs": [
+        "detail-fixes/248142696-0-0-0-front.png",
+        "detail-fixes/248142696-0-0-0-left.png",
+        "detail-fixes/248142696-0-0-0-right.png"
+      ],
+      "remainingSourceLimits": [
+        "Right shop lettering not readable; shared fire escape crosses mapped ownership boundary.",
+        "Exact finish, fine product inventory and font identity are not measured."
+      ],
+      "fontStatus": "Licensed visual substitute; exact original letterform is not certified."
+    },
+    {
+      "businessId": "248142692:0:0",
+      "faceId": "248142692:0",
+      "displayName": "XING FU TANG",
+      "identity": "Xing Fu Tang: compact orange basement sign and glass counter front.",
+      "sourceIds": [
+        "stmarks-south-east45-detail",
+        "stmarks-south-east70-detail"
+      ],
+      "state": "render-reviewed-with-detail-limits; user acceptance pending",
+      "inspectedFullCandidate": [
+        "final-businesses/248142692-0-0-0-front.png",
+        "final-businesses/248142692-0-0-0-left.png",
+        "final-businesses/248142692-0-0-0-right.png"
+      ],
+      "inspectedFinalRepairs": [],
+      "remainingSourceLimits": [
+        "Exact small door number and fine stone carving remain unreadable.",
+        "Exact finish, fine product inventory and font identity are not measured."
+      ],
+      "fontStatus": "Licensed visual substitute; exact original letterform is not certified."
+    },
+    {
+      "businessId": "248142692:0:1",
+      "faceId": "248142692:0",
+      "displayName": "Physical GraffiTea",
+      "identity": "Physical GraffiTea: weathered green lower front, decorative warm lettering and fine dark security grille.",
+      "sourceIds": [
+        "stmarks-south-east45-detail",
+        "stmarks-south-east70-detail"
+      ],
+      "state": "render-reviewed-with-detail-limits; user acceptance pending",
+      "inspectedFullCandidate": [
+        "final-businesses/248142692-0-1-0-front.png",
+        "final-businesses/248142692-0-1-0-left.png",
+        "final-businesses/248142692-0-1-0-right.png"
+      ],
+      "inspectedFinalRepairs": [],
+      "remainingSourceLimits": [
+        "Exact small door number and fine stone carving remain unreadable.",
+        "Exact finish, fine product inventory and font identity are not measured."
+      ],
+      "fontStatus": "Licensed visual substitute; exact original letterform is not certified."
+    },
+    {
+      "businessId": "248142695:0:0",
+      "faceId": "248142695:0",
+      "displayName": "Unnamed/partly unreadable unit",
+      "identity": "98 pale blue-gray basement access with fine iron rails and closed/recessed glazing; no invented tenant.",
+      "sourceIds": [
+        "stmarks-south-east70-detail"
+      ],
+      "state": "render-reviewed-with-detail-limits; user acceptance pending",
+      "inspectedFullCandidate": [
+        "final-businesses/248142695-0-0-0-front.png",
+        "final-businesses/248142695-0-0-0-left.png",
+        "final-businesses/248142695-0-0-0-right.png"
+      ],
+      "inspectedFinalRepairs": [],
+      "remainingSourceLimits": [
+        "Door number not legible; paired neighboring 96 distinction must be retained.",
+        "Exact finish, fine product inventory and font identity are not measured."
+      ],
+      "fontStatus": "Licensed visual substitute; exact original letterform is not certified."
+    },
+    {
+      "businessId": "248142695:0:1",
+      "faceId": "248142695:0",
+      "displayName": "Unnamed/partly unreadable unit",
+      "identity": "98 pale blue-gray basement access with fine iron rails and closed/recessed glazing; no invented tenant.",
+      "sourceIds": [
+        "stmarks-south-east70-detail"
+      ],
+      "state": "render-reviewed-with-detail-limits; user acceptance pending",
+      "inspectedFullCandidate": [
+        "final-businesses/248142695-0-1-0-front.png",
+        "final-businesses/248142695-0-1-0-left.png",
+        "final-businesses/248142695-0-1-0-right.png"
+      ],
+      "inspectedFinalRepairs": [],
+      "remainingSourceLimits": [
+        "Door number not legible; paired neighboring 96 distinction must be retained.",
+        "Exact finish, fine product inventory and font identity are not measured."
+      ],
+      "fontStatus": "Licensed visual substitute; exact original letterform is not certified."
+    },
+    {
+      "businessId": "248142614:0:0",
+      "faceId": "248142614:0",
+      "displayName": "Unnamed/partly unreadable unit",
+      "identity": "100 left basement: metal grille and a pale blue open canopy frame, separate from Dumpling Man.",
+      "sourceIds": [
+        "stmarks-south-east70-detail"
+      ],
+      "state": "render-reviewed-with-detail-limits; user acceptance pending",
+      "inspectedFullCandidate": [
+        "final-businesses/248142614-0-0-0-front.png",
+        "final-businesses/248142614-0-0-0-left.png",
+        "final-businesses/248142614-0-0-0-right.png"
+      ],
+      "inspectedFinalRepairs": [],
+      "remainingSourceLimits": [
+        "Exact small door leaf divisions and basement stair count need close review.",
+        "Exact finish, fine product inventory and font identity are not measured."
+      ],
+      "fontStatus": "Licensed visual substitute; exact original letterform is not certified."
+    },
+    {
+      "businessId": "248142614:0:1",
+      "faceId": "248142614:0",
+      "displayName": "DUMPLING MAN",
+      "identity": "Dumpling Man: gray lower surround, red script name, projecting dumpling face, dense notices and a menu stand.",
+      "sourceIds": [
+        "stmarks-south-east70-detail"
+      ],
+      "state": "render-reviewed-with-detail-limits; user acceptance pending",
+      "inspectedFullCandidate": [
+        "final-businesses/248142614-0-1-0-front.png",
+        "final-businesses/248142614-0-1-0-left.png",
+        "final-businesses/248142614-0-1-0-right.png"
+      ],
+      "inspectedFinalRepairs": [],
+      "remainingSourceLimits": [
+        "Exact small door leaf divisions and basement stair count need close review.",
+        "Exact finish, fine product inventory and font identity are not measured."
+      ],
+      "fontStatus": "Licensed visual substitute; exact original letterform is not certified."
+    },
+    {
+      "businessId": "248142617:0:0",
+      "faceId": "248142617:0",
+      "displayName": "Unnamed/partly unreadable unit",
+      "identity": "Cakes shop: slender black divisions, warm illuminated shelves, white cakes lettering on the right display.",
+      "sourceIds": [
+        "stmarks-south-east70-detail"
+      ],
+      "state": "render-reviewed-with-detail-limits; user acceptance pending",
+      "inspectedFullCandidate": [
+        "final-businesses/248142617-0-0-0-front.png",
+        "final-businesses/248142617-0-0-0-left.png",
+        "final-businesses/248142617-0-0-0-right.png"
+      ],
+      "inspectedFinalRepairs": [],
+      "remainingSourceLimits": [
+        "Left edge obscured; separate residential number and basement access not yet resolved.",
+        "Exact finish, fine product inventory and font identity are not measured."
+      ],
+      "fontStatus": "Licensed visual substitute; exact original letterform is not certified."
+    },
+    {
+      "businessId": "248142616:0:0",
+      "faceId": "248142616:0",
+      "displayName": "CAFE MOGADOR",
+      "identity": "Cafe Mogador: green fascia, striped pale/olive fabric, timber lower glazing, menu layers and planted street edge.",
+      "sourceIds": [
+        "08:stmarks-north-101-detail"
+      ],
+      "state": "render-reviewed-with-detail-limits; user acceptance pending",
+      "inspectedFullCandidate": [
+        "final-businesses/248142616-0-0-0-front.png",
+        "final-businesses/248142616-0-0-0-left.png",
+        "final-businesses/248142616-0-0-0-right.png"
+      ],
+      "inspectedFinalRepairs": [],
+      "remainingSourceLimits": [
+        "Fine upper carvings, number placement and leftmost unit boundary need crop.",
+        "Exact finish, fine product inventory and font identity are not measured."
+      ],
+      "fontStatus": "Licensed visual substitute; exact original letterform is not certified."
+    },
+    {
+      "businessId": "248142616:0:1",
+      "faceId": "248142616:0",
+      "displayName": "Unnamed/partly unreadable unit",
+      "identity": "Cafe Mogador: green fascia, striped pale/olive fabric, timber lower glazing, menu layers and planted street edge.",
+      "sourceIds": [
+        "08:stmarks-north-101-detail"
+      ],
+      "state": "render-reviewed-with-detail-limits; user acceptance pending",
+      "inspectedFullCandidate": [
+        "final-businesses/248142616-0-1-0-front.png",
+        "final-businesses/248142616-0-1-0-left.png",
+        "final-businesses/248142616-0-1-0-right.png"
+      ],
+      "inspectedFinalRepairs": [],
+      "remainingSourceLimits": [
+        "Fine upper carvings, number placement and leftmost unit boundary need crop.",
+        "Exact finish, fine product inventory and font identity are not measured."
+      ],
+      "fontStatus": "Licensed visual substitute; exact original letterform is not certified."
+    },
+    {
+      "businessId": "248142619:0:0",
+      "faceId": "248142619:0",
+      "displayName": "ANJELLY   103",
+      "identity": "Anjelly basement: pale blue sign with blue letterforms above a dated closed metal shutter.",
+      "sourceIds": [
+        "stmarks-north-east95-detail",
+        "08:stmarks-north-101-detail"
+      ],
+      "state": "render-reviewed-with-detail-limits; user acceptance pending",
+      "inspectedFullCandidate": [
+        "final-businesses/248142619-0-0-0-front.png",
+        "final-businesses/248142619-0-0-0-left.png",
+        "final-businesses/248142619-0-0-0-right.png"
+      ],
+      "inspectedFinalRepairs": [],
+      "remainingSourceLimits": [
+        "Tree obscures door leaves, number and tenant lettering; leftmost extent needs adjacent view.",
+        "Exact finish, fine product inventory and font identity are not measured."
+      ],
+      "fontStatus": "Licensed visual substitute; exact original letterform is not certified."
+    },
+    {
+      "businessId": "248142622:0:0",
+      "faceId": "248142622:0",
+      "displayName": "Unnamed/partly unreadable unit",
+      "identity": "109 projecting timber shop bay with scalloped striped canvas, trellis lattice, window planting and little notices.",
+      "sourceIds": [
+        "stmarks-north-east120-detail",
+        "08:stmarks-109-high-review"
+      ],
+      "state": "render-reviewed-with-detail-limits; user acceptance pending",
+      "inspectedFullCandidate": [
+        "final-businesses/248142622-0-0-0-front.png",
+        "final-businesses/248142622-0-0-0-left.png",
+        "final-businesses/248142622-0-0-0-right.png"
+      ],
+      "inspectedFinalRepairs": [],
+      "remainingSourceLimits": [
+        "Small carved motifs and tea-shop wording remain unresolved; dimensions estimated from facade proportions.",
+        "Exact finish, fine product inventory and font identity are not measured."
+      ],
+      "fontStatus": "Licensed visual substitute; exact original letterform is not certified."
+    },
+    {
+      "businessId": "248142622:0:1",
+      "faceId": "248142622:0",
+      "displayName": "Unnamed/partly unreadable unit",
+      "identity": "109 projecting timber shop bay with scalloped striped canvas, trellis lattice, window planting and little notices.",
+      "sourceIds": [
+        "stmarks-north-east120-detail",
+        "08:stmarks-109-high-review"
+      ],
+      "state": "render-reviewed-with-detail-limits; user acceptance pending",
+      "inspectedFullCandidate": [
+        "final-businesses/248142622-0-1-0-front.png",
+        "final-businesses/248142622-0-1-0-left.png",
+        "final-businesses/248142622-0-1-0-right.png"
+      ],
+      "inspectedFinalRepairs": [],
+      "remainingSourceLimits": [
+        "Small carved motifs and tea-shop wording remain unresolved; dimensions estimated from facade proportions.",
+        "Exact finish, fine product inventory and font identity are not measured."
+      ],
+      "fontStatus": "Licensed visual substitute; exact original letterform is not certified."
+    },
+    {
+      "businessId": "248142623:0:0",
+      "faceId": "248142623:0",
+      "displayName": "Unnamed/partly unreadable unit",
+      "identity": "110 broad pale-framed glazed frontage beside the painted site edge, posted blue/pale notices and shallow metal canopy.",
+      "sourceIds": [
+        "stmarks-south-east95-detail"
+      ],
+      "state": "render-reviewed-with-detail-limits; user acceptance pending",
+      "inspectedFullCandidate": [
+        "final-businesses/248142623-0-0-0-front.png",
+        "final-businesses/248142623-0-0-0-left.png",
+        "final-businesses/248142623-0-0-0-right.png",
+        "final-businesses/248142623-0-0-1-front.png",
+        "final-businesses/248142623-0-0-1-left.png",
+        "final-businesses/248142623-0-0-1-right.png"
+      ],
+      "inspectedFinalRepairs": [],
+      "remainingSourceLimits": [
+        "Left edge partly cropped; shop lettering and entry number uncertain.",
+        "Exact finish, fine product inventory and font identity are not measured."
+      ],
+      "fontStatus": "Licensed visual substitute; exact original letterform is not certified."
+    },
+    {
+      "businessId": "248142627:0:0",
+      "faceId": "248142627:0",
+      "displayName": "CRIF DOGS",
+      "identity": "Crif Dogs: basement dark timber/glass, bold slanted cream lettering with a star divider and red open light.",
+      "sourceIds": [
+        "stmarks-north-east145-detail"
+      ],
+      "state": "render-reviewed-with-detail-limits; user acceptance pending",
+      "inspectedFullCandidate": [
+        "final-businesses/248142627-0-0-0-front.png",
+        "final-businesses/248142627-0-0-0-left.png",
+        "final-businesses/248142627-0-0-0-right.png"
+      ],
+      "inspectedFinalRepairs": [
+        "detail-fixes/248142627-0-0-0-front.png",
+        "detail-fixes/248142627-0-0-0-left.png",
+        "detail-fixes/248142627-0-0-0-right.png"
+      ],
+      "remainingSourceLimits": [
+        "Upper architecture and precise entrance geometry hidden; construction dated September 2024.",
+        "Exact finish, fine product inventory and font identity are not measured."
+      ],
+      "fontStatus": "Licensed visual substitute; exact original letterform is not certified."
+    },
+    {
+      "businessId": "248142631:0:0",
+      "faceId": "248142631:0",
+      "displayName": "Unnamed/partly unreadable unit",
+      "identity": "116 warm timber entry with red-framed low window bank and weathered decorative header.",
+      "sourceIds": [
+        "stmarks-south-east120-detail"
+      ],
+      "state": "render-reviewed-with-detail-limits; user acceptance pending",
+      "inspectedFullCandidate": [
+        "final-businesses/248142631-0-0-0-front.png",
+        "final-businesses/248142631-0-0-0-left.png",
+        "final-businesses/248142631-0-0-0-right.png"
+      ],
+      "inspectedFinalRepairs": [],
+      "remainingSourceLimits": [
+        "Tiny business wording not legible; residential number surface unclear.",
+        "Exact finish, fine product inventory and font identity are not measured."
+      ],
+      "fontStatus": "Licensed visual substitute; exact original letterform is not certified."
+    },
+    {
+      "businessId": "248142634:0:0",
+      "faceId": "248142634:0",
+      "displayName": "ROMEO'S",
+      "identity": "Romeo\u2019s: cream facade, red classical line illustrations and cats/hearts, red door, white divided windows and green closed parasols.",
+      "sourceIds": [
+        "stmarks-south-east120-detail"
+      ],
+      "state": "render-reviewed-with-detail-limits; user acceptance pending",
+      "inspectedFullCandidate": [
+        "final-businesses/248142634-0-0-0-front.png",
+        "final-businesses/248142634-0-0-0-left.png",
+        "final-businesses/248142634-0-0-0-right.png"
+      ],
+      "inspectedFinalRepairs": [],
+      "remainingSourceLimits": [
+        "Cornice hidden by leaves; fine decorative red motifs not fully resolved.",
+        "Exact finish, fine product inventory and font identity are not measured."
+      ],
+      "fontStatus": "Licensed visual substitute; exact original letterform is not certified."
+    },
+    {
+      "businessId": "248142636:0:0",
+      "faceId": "248142636:0",
+      "displayName": "HANOI HOUSE",
+      "identity": "Hanoi House: weathered timber glazing, black valance with small No.119, leafy planters, warm interior pendants and slim outdoor tables.",
+      "sourceIds": [
+        "stmarks-north-east170-detail"
+      ],
+      "state": "render-reviewed-with-detail-limits; user acceptance pending",
+      "inspectedFullCandidate": [
+        "final-businesses/248142636-0-0-0-front.png",
+        "final-businesses/248142636-0-0-0-left.png",
+        "final-businesses/248142636-0-0-0-right.png",
+        "final-businesses/248142636-0-0-1-front.png",
+        "final-businesses/248142636-0-0-1-left.png",
+        "final-businesses/248142636-0-0-1-right.png"
+      ],
+      "inspectedFinalRepairs": [],
+      "remainingSourceLimits": [
+        "Upper row count and full width partly cropped.",
+        "Exact finish, fine product inventory and font identity are not measured."
+      ],
+      "fontStatus": "Licensed visual substitute; exact original letterform is not certified."
+    },
+    {
+      "businessId": "248142641:0:0",
+      "faceId": "248142641:0",
+      "displayName": "Unnamed/partly unreadable unit",
+      "identity": "121 left dark metal room with paired broad glass leaves, shallow canopy and hanging pale blade.",
+      "sourceIds": [
+        "stmarks-north-east170-detail"
+      ],
+      "state": "render-reviewed-with-detail-limits; user acceptance pending",
+      "inspectedFullCandidate": [
+        "final-businesses/248142641-0-0-0-front.png",
+        "final-businesses/248142641-0-0-0-left.png",
+        "final-businesses/248142641-0-0-0-right.png"
+      ],
+      "inspectedFinalRepairs": [],
+      "remainingSourceLimits": [
+        "Tree obscures top-left; fine shop lettering and residential number unreadable.",
+        "Exact finish, fine product inventory and font identity are not measured."
+      ],
+      "fontStatus": "Licensed visual substitute; exact original letterform is not certified."
+    },
+    {
+      "businessId": "248142641:0:1",
+      "faceId": "248142641:0",
+      "displayName": "MOODY TONGUE",
+      "identity": "Moody Tongue: sculpted dark lettering over dark tiled piers and glazed lower opening.",
+      "sourceIds": [
+        "stmarks-north-east170-detail"
+      ],
+      "state": "render-reviewed-with-detail-limits; user acceptance pending",
+      "inspectedFullCandidate": [
+        "final-businesses/248142641-0-1-0-front.png",
+        "final-businesses/248142641-0-1-0-left.png",
+        "final-businesses/248142641-0-1-0-right.png"
+      ],
+      "inspectedFinalRepairs": [],
+      "remainingSourceLimits": [
+        "Tree obscures top-left; fine shop lettering and residential number unreadable.",
+        "Exact finish, fine product inventory and font identity are not measured."
+      ],
+      "fontStatus": "Licensed visual substitute; exact original letterform is not certified."
+    },
+    {
+      "businessId": "248142643:0:0",
+      "faceId": "248142643:0",
+      "displayName": "Unnamed/partly unreadable unit",
+      "identity": "122 left dark bar with broad pale-striped canopy and open glazing.",
+      "sourceIds": [
+        "stmarks-south-east145-detail"
+      ],
+      "state": "render-reviewed-with-detail-limits; user acceptance pending",
+      "inspectedFullCandidate": [
+        "final-businesses/248142643-0-0-0-front.png",
+        "final-businesses/248142643-0-0-0-left.png",
+        "final-businesses/248142643-0-0-0-right.png"
+      ],
+      "inspectedFinalRepairs": [],
+      "remainingSourceLimits": [
+        "Tree and vehicles obscure full shop dimensions and precise residential number surface.",
+        "Exact finish, fine product inventory and font identity are not measured."
+      ],
+      "fontStatus": "Licensed visual substitute; exact original letterform is not certified."
+    },
+    {
+      "businessId": "248142643:0:1",
+      "faceId": "248142643:0",
+      "displayName": "HOLY LAND MARKET",
+      "identity": "Holyland Market: slate fascia with pale serif title and smaller grocery line above closed gray roller shutters.",
+      "sourceIds": [
+        "stmarks-south-east145-detail"
+      ],
+      "state": "render-reviewed-with-detail-limits; user acceptance pending",
+      "inspectedFullCandidate": [
+        "final-businesses/248142643-0-1-0-front.png",
+        "final-businesses/248142643-0-1-0-left.png",
+        "final-businesses/248142643-0-1-0-right.png"
+      ],
+      "inspectedFinalRepairs": [],
+      "remainingSourceLimits": [
+        "Tree and vehicles obscure full shop dimensions and precise residential number surface.",
+        "Exact finish, fine product inventory and font identity are not measured."
+      ],
+      "fontStatus": "Licensed visual substitute; exact original letterform is not certified."
+    },
+    {
+      "businessId": "248142649:0:0",
+      "faceId": "248142649:0",
+      "displayName": "Unnamed/partly unreadable unit",
+      "identity": "126 dark restaurant glazing with pale retractable striped canopy and individually framed doors.",
+      "sourceIds": [
+        "stmarks-south-east145-detail"
+      ],
+      "state": "render-reviewed-with-detail-limits; user acceptance pending",
+      "inspectedFullCandidate": [
+        "final-businesses/248142649-0-0-0-front.png",
+        "final-businesses/248142649-0-0-0-left.png",
+        "final-businesses/248142649-0-0-0-right.png"
+      ],
+      "inspectedFinalRepairs": [],
+      "remainingSourceLimits": [
+        "Left edge and residential entry mostly cropped; exact ground subdivision needs adjacent view.",
+        "Exact finish, fine product inventory and font identity are not measured."
+      ],
+      "fontStatus": "Licensed visual substitute; exact original letterform is not certified."
+    },
+    {
+      "businessId": "248142649:0:1",
+      "faceId": "248142649:0",
+      "displayName": "Unnamed/partly unreadable unit",
+      "identity": "126 dark restaurant glazing with pale retractable striped canopy and individually framed doors.",
+      "sourceIds": [
+        "stmarks-south-east145-detail"
+      ],
+      "state": "render-reviewed-with-detail-limits; user acceptance pending",
+      "inspectedFullCandidate": [
+        "final-businesses/248142649-0-1-0-front.png",
+        "final-businesses/248142649-0-1-0-left.png",
+        "final-businesses/248142649-0-1-0-right.png"
+      ],
+      "inspectedFinalRepairs": [],
+      "remainingSourceLimits": [
+        "Left edge and residential entry mostly cropped; exact ground subdivision needs adjacent view.",
+        "Exact finish, fine product inventory and font identity are not measured."
+      ],
+      "fontStatus": "Licensed visual substitute; exact original letterform is not certified."
+    },
+    {
+      "businessId": "248142655:0:0",
+      "faceId": "248142655:0",
+      "displayName": "Unnamed/partly unreadable unit",
+      "identity": "Cafe Aperitif: black and gold scalloped canopy, open right display/flower box, narrow glass left door and blue bistro chairs.",
+      "sourceIds": [
+        "stmarks-south-east170-detail"
+      ],
+      "state": "render-reviewed-with-detail-limits; user acceptance pending",
+      "inspectedFullCandidate": [
+        "final-businesses/248142655-0-0-0-front.png",
+        "final-businesses/248142655-0-0-0-left.png",
+        "final-businesses/248142655-0-0-0-right.png"
+      ],
+      "inspectedFinalRepairs": [],
+      "remainingSourceLimits": [
+        "Small tenant name and residential number unclear; left edge partly glare.",
+        "Exact finish, fine product inventory and font identity are not measured."
+      ],
+      "fontStatus": "Licensed visual substitute; exact original letterform is not certified."
+    },
+    {
+      "businessId": "248142709:0:0",
+      "faceId": "248142709:0",
+      "displayName": "STARBUCKS",
+      "identity": "Starbucks: bronze/dark glazing, pale stone piers, low cream panels and spaced light fascia letters.",
+      "sourceIds": [
+        "stmarks-a-north-return-detail"
+      ],
+      "state": "render-reviewed-with-detail-limits; user acceptance pending",
+      "inspectedFullCandidate": [
+        "final-businesses/248142709-0-0-0-front.png",
+        "final-businesses/248142709-0-0-0-left.png",
+        "final-businesses/248142709-0-0-0-right.png"
+      ],
+      "inspectedFinalRepairs": [],
+      "remainingSourceLimits": [
+        "Tree obscures exact center window/oval sequence and uppermost cornice; right shop lettering unreadable.",
+        "Exact finish, fine product inventory and font identity are not measured."
+      ],
+      "fontStatus": "Licensed visual substitute; exact original letterform is not certified."
+    },
+    {
+      "businessId": "248142709:0:1",
+      "faceId": "248142709:0",
+      "displayName": "Unnamed/partly unreadable unit",
+      "identity": "Independent dark timber shop with small panes and purple cloth over one window.",
+      "sourceIds": [
+        "stmarks-a-north-return-detail"
+      ],
+      "state": "render-reviewed-with-detail-limits; user acceptance pending",
+      "inspectedFullCandidate": [
+        "final-businesses/248142709-0-1-0-front.png",
+        "final-businesses/248142709-0-1-0-left.png",
+        "final-businesses/248142709-0-1-0-right.png",
+        "final-businesses/248142709-0-1-1-front.png",
+        "final-businesses/248142709-0-1-1-left.png",
+        "final-businesses/248142709-0-1-1-right.png"
+      ],
+      "inspectedFinalRepairs": [],
+      "remainingSourceLimits": [
+        "Tree obscures exact center window/oval sequence and uppermost cornice; right shop lettering unreadable.",
+        "Exact finish, fine product inventory and font identity are not measured."
+      ],
+      "fontStatus": "Licensed visual substitute; exact original letterform is not certified."
+    },
+    {
+      "businessId": "248142709:0:2",
+      "faceId": "248142709:0",
+      "displayName": "Unnamed/partly unreadable unit",
+      "identity": "Separate corner unit with fine dark mullions, pale posted/covered pane and small notices.",
+      "sourceIds": [
+        "stmarks-a-north-return-detail"
+      ],
+      "state": "render-reviewed-with-detail-limits; user acceptance pending",
+      "inspectedFullCandidate": [
+        "final-businesses/248142709-0-2-0-front.png",
+        "final-businesses/248142709-0-2-0-left.png",
+        "final-businesses/248142709-0-2-0-right.png"
+      ],
+      "inspectedFinalRepairs": [],
+      "remainingSourceLimits": [
+        "Tree obscures exact center window/oval sequence and uppermost cornice; right shop lettering unreadable.",
+        "Exact finish, fine product inventory and font identity are not measured."
+      ],
+      "fontStatus": "Licensed visual substitute; exact original letterform is not certified."
+    },
+    {
+      "businessId": "248142709:1:0",
+      "faceId": "248142709:1",
+      "displayName": "Unnamed/partly unreadable unit",
+      "identity": "Separate corner unit with fine dark mullions, pale posted/covered pane and small notices.",
+      "sourceIds": [
+        "stmarks-north-east185-detail"
+      ],
+      "state": "render-reviewed-with-detail-limits; user acceptance pending",
+      "inspectedFullCandidate": [
+        "final-businesses/248142709-1-0-0-front.png",
+        "final-businesses/248142709-1-0-0-left.png",
+        "final-businesses/248142709-1-0-0-right.png"
+      ],
+      "inspectedFinalRepairs": [],
+      "remainingSourceLimits": [
+        "Avenue A return, exact entry number and left-unit identity need separate views.",
+        "Exact finish, fine product inventory and font identity are not measured."
+      ],
+      "fontStatus": "Licensed visual substitute; exact original letterform is not certified."
+    },
+    {
+      "businessId": "248142709:1:1",
+      "faceId": "248142709:1",
+      "displayName": "STARBUCKS",
+      "identity": "Starbucks: bronze/dark glazing, pale stone piers, low cream panels and spaced light fascia letters.",
+      "sourceIds": [
+        "stmarks-north-east185-detail"
+      ],
+      "state": "render-reviewed-with-detail-limits; user acceptance pending",
+      "inspectedFullCandidate": [
+        "final-businesses/248142709-1-1-0-front.png",
+        "final-businesses/248142709-1-1-0-left.png",
+        "final-businesses/248142709-1-1-0-right.png",
+        "final-businesses/248142709-1-1-1-front.png",
+        "final-businesses/248142709-1-1-1-left.png",
+        "final-businesses/248142709-1-1-1-right.png"
+      ],
+      "inspectedFinalRepairs": [],
+      "remainingSourceLimits": [
+        "Avenue A return, exact entry number and left-unit identity need separate views.",
+        "Exact finish, fine product inventory and font identity are not measured."
+      ],
+      "fontStatus": "Licensed visual substitute; exact original letterform is not certified."
+    },
+    {
+      "businessId": "248142706:0:0",
+      "faceId": "248142706:0",
+      "displayName": "Unnamed/partly unreadable unit",
+      "identity": "Bar Al Pastor: warm honey timber folding leaves, heavily layered painted base/fascia, narrow glass entry and corner blade.",
+      "sourceIds": [
+        "stmarks-south-east185-detail"
+      ],
+      "state": "render-reviewed-with-detail-limits; user acceptance pending",
+      "inspectedFullCandidate": [
+        "final-businesses/248142706-0-0-0-front.png",
+        "final-businesses/248142706-0-0-0-left.png",
+        "final-businesses/248142706-0-0-0-right.png",
+        "final-businesses/248142706-0-0-1-front.png",
+        "final-businesses/248142706-0-0-1-left.png",
+        "final-businesses/248142706-0-0-1-right.png",
+        "final-businesses/248142706-0-0-2-front.png",
+        "final-businesses/248142706-0-0-2-left.png",
+        "final-businesses/248142706-0-0-2-right.png"
+      ],
+      "inspectedFinalRepairs": [
+        "detail-fixes/248142706-0-0-0-front.png",
+        "detail-fixes/248142706-0-0-0-left.png",
+        "detail-fixes/248142706-0-0-0-right.png",
+        "detail-fixes/248142706-0-0-1-front.png",
+        "detail-fixes/248142706-0-0-1-left.png",
+        "detail-fixes/248142706-0-0-1-right.png",
+        "detail-fixes/248142706-0-0-2-front.png",
+        "detail-fixes/248142706-0-0-2-left.png",
+        "detail-fixes/248142706-0-0-2-right.png"
+      ],
+      "remainingSourceLimits": [
+        "Precise window schedule/number and Avenue A return need straight-on view.",
+        "Exact finish, fine product inventory and font identity are not measured."
+      ],
+      "fontStatus": "Licensed visual substitute; exact original letterform is not certified."
+    },
+    {
+      "businessId": "248142706:1:0",
+      "faceId": "248142706:1",
+      "displayName": "Unnamed/partly unreadable unit",
+      "identity": "Bar Al Pastor: warm honey timber folding leaves, heavily layered painted base/fascia, narrow glass entry and corner blade.",
+      "sourceIds": [
+        "stmarks-a-south-return-detail"
+      ],
+      "state": "render-reviewed-with-detail-limits; user acceptance pending",
+      "inspectedFullCandidate": [
+        "final-businesses/248142706-1-0-0-front.png",
+        "final-businesses/248142706-1-0-0-left.png",
+        "final-businesses/248142706-1-0-0-right.png",
+        "final-businesses/248142706-1-0-1-front.png",
+        "final-businesses/248142706-1-0-1-left.png",
+        "final-businesses/248142706-1-0-1-right.png"
+      ],
+      "inspectedFinalRepairs": [
+        "detail-fixes/248142706-1-0-0-front.png",
+        "detail-fixes/248142706-1-0-0-left.png",
+        "detail-fixes/248142706-1-0-0-right.png",
+        "detail-fixes/248142706-1-0-1-front.png",
+        "detail-fixes/248142706-1-0-1-left.png",
+        "detail-fixes/248142706-1-0-1-right.png"
+      ],
+      "remainingSourceLimits": [
+        "Exact tiny entrance numbers not readable.",
+        "Exact finish, fine product inventory and font identity are not measured."
+      ],
+      "fontStatus": "Licensed visual substitute; exact original letterform is not certified."
+    },
+    {
+      "businessId": "248142689:0:architecture",
+      "faceId": "248142689:0",
+      "displayName": "Fun City Tattoo",
+      "identity": "Bright red painted frontage with distinct cream, yellow and blue display lettering, central arched entrance and black stair rails.",
+      "sourceIds": [
+        "stmarks-south-east45-detail"
+      ],
+      "state": "render-reviewed-with-detail-limits; user acceptance pending",
+      "inspectedFullCandidate": [
+        "final-businesses/248142689-0-architecture-0-front.png",
+        "final-businesses/248142689-0-architecture-0-left.png",
+        "final-businesses/248142689-0-architecture-0-right.png"
+      ],
+      "inspectedFinalRepairs": [],
+      "remainingSourceLimits": [
+        "Fine dimensions, graphic curves and font substitutions are authored estimates."
+      ],
+      "fontStatus": "Licensed visual substitute; exact original letterform is not certified."
+    },
+    {
+      "businessId": "248142630:0:architecture",
+      "faceId": "248142630:0",
+      "displayName": "Augurs Well",
+      "identity": "Gray canvas valance with outlined narrow letters, silver closed shutters painted with large eyes and tags, vertical center menu and stacked metal chairs.",
+      "sourceIds": [
+        "stmarks-north-east145-detail"
+      ],
+      "state": "render-reviewed-with-detail-limits; user acceptance pending",
+      "inspectedFullCandidate": [
+        "final-businesses/248142630-0-architecture-0-front.png",
+        "final-businesses/248142630-0-architecture-0-left.png",
+        "final-businesses/248142630-0-architecture-0-right.png",
+        "final-businesses/248142630-0-architecture-1-front.png",
+        "final-businesses/248142630-0-architecture-1-left.png",
+        "final-businesses/248142630-0-architecture-1-right.png"
+      ],
+      "inspectedFinalRepairs": [],
+      "remainingSourceLimits": [
+        "Fine dimensions, graphic curves and font substitutions are authored estimates."
+      ],
+      "fontStatus": "Licensed visual substitute; exact original letterform is not certified."
+    },
+    {
+      "businessId": "241822271:0:1",
+      "faceId": "241822271:0",
+      "displayName": "LA PALAPA street enclosure",
+      "identity": "La Palapa projecting street enclosure: four warm timber glazed leaves with small panes and pale fabric sides below the tan canopy.",
+      "sourceIds": [
+        "stmarks-north-55-detail"
+      ],
+      "state": "render-reviewed-with-detail-limits; user acceptance pending",
+      "inspectedFullCandidate": [
+        "final-businesses/241822271-0-1-0-front.png",
+        "final-businesses/241822271-0-1-0-left.png",
+        "final-businesses/241822271-0-1-0-right.png"
+      ],
+      "inspectedFinalRepairs": [],
+      "remainingSourceLimits": [
+        "Shop wording partly cropped; entry number and full right edge pending.",
+        "Exact finish, fine product inventory and font identity are not measured."
+      ],
+      "fontStatus": "Licensed visual substitute; exact original letterform is not certified."
+    }
+  ],
+  "acceptance": "Local revised candidate; no user endorsement, calibrated 1:1 pass or numerical 100x claim.",
+  "approachReview": {
+    "pckSha256": "8da68329347228060231d47f46e80c9d6233b6afb0469fd43611bdc83204b1d0",
+    "inspectedImages": [
+      "final-routes-complete/stmarks-east-0.png",
+      "final-routes-complete/stmarks-west-0.png",
+      "final-routes-complete/first-north-0.png",
+      "final-routes-complete/first-south-0.png",
+      "final-routes-complete/avenue-a-north-0.png",
+      "final-routes-complete/seventh-preserved-east-0.png",
+      "final-routes-complete/stmarks-east-1.png",
+      "final-routes-complete/stmarks-west-1.png",
+      "final-routes-complete/first-north-1.png",
+      "final-routes-complete/first-south-1.png",
+      "final-routes-complete/avenue-a-north-1.png",
+      "final-routes-complete/seventh-preserved-east-1.png",
+      "final-routes-complete/stmarks-east-2.png",
+      "final-routes-complete/stmarks-west-2.png",
+      "final-routes-complete/first-north-2.png",
+      "final-routes-complete/first-south-2.png",
+      "final-routes-complete/avenue-a-north-2.png",
+      "final-routes-complete/seventh-preserved-east-2.png",
+      "final-routes-complete/driving-first-north.png",
+      "final-routes-complete/driving-stmarks-west-block.png",
+      "final-routes-complete/driving-stmarks-east-block.png",
+      "final-routes-complete/second-north-corner.png",
+      "final-routes-complete/second-south-corner.png",
+      "final-routes-complete/39-mansard.png",
+      "final-routes-complete/40half-setback.png",
+      "final-routes-complete/62-chapel.png",
+      "final-routes-complete/first-stmarks-intersection.png",
+      "final-routes-complete/101-stoop.png",
+      "final-routes-complete/109-entry.png",
+      "final-routes-complete/painted-gap.png",
+      "final-routes-complete/avenue-a-north-corner.png",
+      "final-routes-complete/avenue-a-south-corner.png"
+    ],
+    "count": 32,
+    "breakdown": "18 stopped traversal-end captures in three weather modes, three mid-street player views, eleven perspective views.",
+    "findings": "Shop-specific awnings/signs/furniture remain visible in street context; no new obstruction diagnosed. Broad views do not resolve tiny lettering or certify roof/full-elevation photographic accuracy.",
+    "captureMethod": "Measured normal-key traversal first, then reset velocity at the measured endpoint for the capture. Review pose commands can display the existing transient reset toast; it is not the pictured location label."
+  }
+}

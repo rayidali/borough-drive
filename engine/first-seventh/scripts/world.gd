@@ -6,6 +6,8 @@ var data: Dictionary
 var paint = ShaderMaterial.new()
 var glow = ShaderMaterial.new()
 var glass: StandardMaterial3D
+var storefront_paint = ShaderMaterial.new()
+var storefront_glass: StandardMaterial3D
 var asphalt = ShaderMaterial.new()
 var geometry: Node3D
 var street_lights: Array[MeshInstance3D] = []
@@ -29,6 +31,11 @@ func _ready():
 	glass.vertex_color_use_as_albedo = true
 	glass.transparency = BaseMaterial3D.TRANSPARENCY_ALPHA
 	glass.cull_mode = BaseMaterial3D.CULL_DISABLED
+	storefront_paint.shader = preload("res://shaders/storefront.gdshader")
+	storefront_glass = S.material(Color(.92,.95,.92,.18),.20)
+	storefront_glass.vertex_color_use_as_albedo = true
+	storefront_glass.transparency = BaseMaterial3D.TRANSPARENCY_ALPHA
+	storefront_glass.cull_mode = BaseMaterial3D.CULL_DISABLED
 	asphalt.shader = preload("res://shaders/road.gdshader")
 	sidewalk = ShaderMaterial.new()
 	sidewalk.shader = preload("res://shaders/sidewalk.gdshader")
@@ -74,8 +81,10 @@ func apply_materials(node: Node):
 			var original = node.get_active_material(i)
 			var material_name = original.resource_name.to_lower() if original else ""
 			var chosen: Material = glass if "glass" in material_name else glow if "illuminated" in material_name else paint
+			if "storefront09" in material_name:
+				chosen = storefront_glass if "glass" in material_name else storefront_paint
 			node.set_surface_override_material(i,chosen)
-			if chosen == glass: node.cast_shadow = GeometryInstance3D.SHADOW_CASTING_SETTING_OFF
+			if chosen == glass or chosen == storefront_glass: node.cast_shadow = GeometryInstance3D.SHADOW_CASTING_SETTING_OFF
 		node.lod_bias = .7
 	for child in node.get_children(): apply_materials(child)
 
@@ -527,6 +536,7 @@ func batch_details():
 		for item in entry.items: item.free()
 
 func set_weather(dusk: float, wet: float, reflection: Color):
+	storefront_paint.set_shader_parameter("wetness",wet)
 	paint.set_shader_parameter("dusk",dusk)
 	paint.set_shader_parameter("window_sky",Color("719ab2").lerp(reflection,.35+wet*.3))
 	glow.set_shader_parameter("dusk",dusk)

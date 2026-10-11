@@ -35,7 +35,10 @@ recipe_files=['model-source/export_seventh_engine.py','model-source/seventh_stre
     'model-source/neighborhood_detail_kit.py','model-source/storefront_detail_kit.py',
     'model-source/neighborhood_landmarks.py','model-source/first_seventh_kit.py',
     'model-source/first_seventh_refinement.py','model-source/first_stmarks_kit.py',
-    'model-source/author_first_stmarks_08.py','model-source/author_stmarks_08.py']
+    'model-source/author_first_stmarks_08.py','model-source/author_stmarks_08.py',
+    'model-source/storefront_individual_kit.py','model-source/author_storefront_09.py',
+    'model-source/storefront-observations-09.json']
+recipe_files += sorted(str(p.relative_to(ROOT)) for p in (ROOT/'model-source/fonts/storefront-09').glob('*') if p.is_file())
 recipe_hashes={name:hashlib.sha256((ROOT/name).read_bytes()).hexdigest() for name in recipe_files}
 detail_source = ROOT/'model-source/seventh_street_kit.py'
 if detail_source.exists():
@@ -53,6 +56,8 @@ if detail_source.exists():
 first_stmarks_source=ROOT/'model-source/first_stmarks_kit.py'
 exec(compile(first_stmarks_source.read_text(),str(first_stmarks_source),'exec'),kit)
 kit['apply_first_stmarks_schedule'](data,first_stmarks)
+individual_source=ROOT/'model-source/storefront_individual_kit.py'
+exec(compile(individual_source.read_text(),str(individual_source),'exec'),kit)
 # A complete First/Second/Seventh/St Marks circuit plus the facing street walls.
 bounds = [-268, 121, 77, 283]
 confirmed_scope=json.loads((ROOT/'model-source/first-stmarks-scope-08.json').read_text())
@@ -93,7 +98,9 @@ def plain_material(name, alpha=1.0, emission=False):
 
 materials = {'paint': plain_material('Lofi / painted surfaces'),
              'glass': plain_material('Lofi / glass', .30),
-             'light': plain_material('Lofi / illuminated details', emission=True)}
+             'light': plain_material('Lofi / illuminated details', emission=True),
+             'shop09': plain_material('Storefront09 / authored surfaces'),
+             'shopglass09': plain_material('Storefront09 / clear glass', .18)}
 
 for index, building in enumerate(selected):
     input_digest=canonical_digest({'recipes':recipe_hashes,'building':building})
@@ -135,11 +142,13 @@ for index, building in enumerate(selected):
         transmission = bs.inputs['Transmission Weight'].default_value if bs else 0
         emissive = bs and bs.inputs['Emission Strength'].default_value > 0
         kind = 'glass' if transmission > .1 or alpha < .9 or name in ('glass','shop glass','store glass') else 'light' if emissive else 'paint'
+        if mat.get('storefront09Surface') is not None:kind='shop09'
+        elif mat.get('storefront09Glass'):kind='shopglass09'
         mesh = obj.data
         # Material class uses the otherwise unused vertex alpha byte. World-
         # aligned surface coordinates avoid UV/tangent arrays on millions of
         # small architectural vertices, materially reducing browser download.
-        surface = 0.0
+        surface = float(mat.get('storefront09Surface',0))
         if kind == 'paint':
             if name=='seventh reflective glass':
                 surface = 6.0
@@ -154,10 +163,10 @@ for index, building in enumerate(selected):
         if colors is None:
             colors = mesh.color_attributes.new(name='Color', type='FLOAT_COLOR', domain='CORNER')
             colors.data.foreach_set('color', [*rgb,1.0]*len(mesh.loops))
-        if kind!='glass':
+        if kind not in ('glass','shopglass09'):
             values=[0.0]*(len(colors.data)*4)
             colors.data.foreach_get('color',values)
-            for i in range(3,len(values),4): values[i]=surface/8.0
+            for i in range(3,len(values),4): values[i]=surface/(16.0 if kind=='shop09' else 8.0)
             colors.data.foreach_set('color',values)
         mesh.materials.clear()
         mesh.materials.append(materials[kind])
@@ -186,7 +195,7 @@ for index, building in enumerate(selected):
     for mesh in gltf['meshes']:
         for primitive in mesh['primitives']:
             material_name=gltf['materials'][primitive['material']]['name']
-            if 'painted' in material_name or 'illuminated' in material_name:
+            if 'painted' in material_name or 'illuminated' in material_name or 'authored surfaces' in material_name:
                 colors=gltf['accessors'][primitive['attributes']['COLOR_0']]
                 if colors['type']!='VEC4':
                     raise ValueError('GLB dropped the surface semantic alpha channel: '+str(building['id']))

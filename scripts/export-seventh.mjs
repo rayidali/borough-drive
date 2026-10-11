@@ -35,6 +35,9 @@ try{
   await fs.copyFile(path.join(project,'assets/credits.txt'),path.join(stage,'credits.txt'));
   await fs.copyFile(path.join(root,'LICENSE'),path.join(stage,'LICENSE.txt'));
   await fs.copyFile(path.join(root,'model-source/fonts/OFL.txt'),path.join(stage,'DAMION-OFL.txt'));
+  for(const family of ['bebasneue','librebaskerville','barlowcondensed','montserrat']){
+    await fs.copyFile(path.join(root,'model-source/fonts/storefront-09',family+'-OFL.txt'),path.join(stage,family.toUpperCase()+'-OFL.txt'));
+  }
   // Keep the shell's identity/font assets local and in the verified package.
   for(const [source,name] of [
     ['assets/brand/drivearound-logo.png','drivearound-logo.png'],

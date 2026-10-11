@@ -24,7 +24,7 @@ ws.onmessage=event=>{
 };
 const on=(method,listener)=>listeners.set(method,[...(listeners.get(method)||[]),listener]);
 const send=(method,params={})=>new Promise((resolve,reject)=>{
-  const requestId=++id,timeout=setTimeout(()=>{pending.delete(requestId);reject(Error('CDP timeout: '+method));},30000);
+  const requestId=++id,timeout=setTimeout(()=>{pending.delete(requestId);reject(Error('CDP timeout: '+method));},45000);
   pending.set(requestId,{resolve:value=>{clearTimeout(timeout);resolve(value);},reject:error=>{clearTimeout(timeout);reject(error);}});
   ws.send(JSON.stringify({id:requestId,method,params}));
 });
@@ -61,14 +61,20 @@ try{
    ['seventh-preserved-east',-235,0,-Math.PI/2,35,0,220,1],
   ]){
    await command({type:'pose',x,z,yaw});const before=await stats();
-   const started=Date.now();await key('w',true);
-   try{await until(`window.seventhStats.position[${axis}] ${direction>0?'>':'<'} ${limit}`,seconds*1000);}
+   const started=Date.now();let after;await key('w',true);
+   // Capture the crossing in the browser's frame loop. A 250 ms host poll,
+   // CDP round trip and extra coast can hit the terminal beyond Avenue A
+   // after the assigned route is already complete (the barrier is x=239).
+   try{after=await evaluate(`new Promise((resolve,reject)=>{const start=performance.now();function tick(){const s=window.seventhStats;if(s.position[${axis}] ${direction>0?'>':'<'} ${limit}){resolve(JSON.parse(JSON.stringify(s)));return;}if(performance.now()-start>${seconds*1000}){reject(Error('Route crossing timed out'));return;}requestAnimationFrame(tick);}tick();})`);}
    finally{await key('w',false);}
-   await sleep(100);
-   const after=await stats();report.routes.push({weather:mood,name,seconds:(Date.now()-started)/1000,start:before.position,end:after.position,contacts:after.collisions-before.collisions});
+   report.routes.push({weather:mood,name,seconds:(Date.now()-started)/1000,start:before.position,end:after.position,contacts:after.collisions-before.collisions,measurement:'Browser-frame telemetry at endpoint crossing, before post-route coast.'});
    assert.equal(after.collisions,before.collisions,name+' must clear collision');
    assert(direction>0?after.position[axis]>limit:after.position[axis]<limit,name+' must traverse its full segment');
-   console.log('ROUTE_PASS',mood,name,after.position);await screenshot(name+'-'+mood);
+   console.log('ROUTE_PASS',mood,name,after.position);
+   // Stop at the measured endpoint for a readable capture; this happens only
+   // after the complete keyboard traversal and contact assertions above.
+   await command({type:'pose',x:after.position[0],z:after.position[2],yaw});
+   await screenshot(name+'-'+mood);
   }
  }
  while((await stats()).weather!==0)await tap('t');

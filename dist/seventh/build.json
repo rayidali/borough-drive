@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "builtAt": "2026-10-11T19:28:57.781Z",
+  "builtAt": "2026-10-11T23:07:00.496Z",
   "engine": "Godot 4.7.2",
   "renderer": "Compatibility / WebGL 2",
   "threaded": false,
@@ -8,6 +8,14 @@
   "sourceCommit": "c76dccebc143960498d21eeab8c55c2d0dbcc5ce",
   "geographySha256": "fd61b108e80eab18d477686b677413ef565f1ab16edc26170751347e22651a5c",
   "files": {
+    "BARLOWCONDENSED-OFL.txt": {
+      "bytes": 4377,
+      "sha256": "186d750eb496a4c17a76385f82be6aea2ac1cf2de074a811d63786cf374ea73f"
+    },
+    "BEBASNEUE-OFL.txt": {
+      "bytes": 4337,
+      "sha256": "72082f6cb4d04be2ecf7cc7d9e1e7d73787f0af8a5a278a47cade70c16b78341"
+    },
     "DAMION-OFL.txt": {
       "bytes": 4389,
       "sha256": "4aeb831b7b6ab653dca84308e576613059c598696aa2dc83192ab6117b24a5fa"
@@ -20,13 +28,21 @@
       "bytes": 352240,
       "sha256": "693b77d4f32ee9b8bfc995589b5fad5e99adf2832738661f5402f9978429a8e3"
     },
+    "LIBREBASKERVILLE-OFL.txt": {
+      "bytes": 4542,
+      "sha256": "3624eddd4c8f8a908130a417ae7cd089c9da69899c4e0ca1a5217d0a6fae16fd"
+    },
     "LICENSE.txt": {
       "bytes": 1097,
       "sha256": "d698c1c978070d4305be75e60e904f6f54715f003fe248a23bf8b3ee0ca07134"
     },
+    "MONTSERRAT-OFL.txt": {
+      "bytes": 4400,
+      "sha256": "8b7141c03fa4f8d44e6345d5d4931709290f0f67875e452e95ac1fd3a027802e"
+    },
     "credits.txt": {
-      "bytes": 3289,
-      "sha256": "4ae0affa1819eaf17d6409b32c3bbfc19ef36fde0d5aef5a3e1a90df296d4e2e"
+      "bytes": 4107,
+      "sha256": "27b3349ab601fcfb88ec34c62ba480c01e97337dee1f0996d34496fbb0fda888"
     },
     "drivearound-logo.png": {
       "bytes": 80463,
@@ -45,17 +61,17 @@
       "sha256": "5b476a9c9ce642c0ee4256436d1bc31d9c38f868aca0f9a8e2a57c18d2dec2a3"
     },
     "index.html": {
-      "bytes": 9845,
-      "sha256": "badc64c73c61b086007a39e566b558d7851a0c949ad4e3ed60996a7d3a8608c8"
+      "bytes": 9846,
+      "sha256": "555e281877693244f97d947aafc811de11cff83693cd7247b47344e4094c095d"
     },
     "index.js": {
       "bytes": 279815,
       "sha256": "33c94cb3175f3333b82e2a3be5e8e86f77986f0aa2042b1631f6367a4e5bb6ba"
     },
     "index.pck": {
-      "bytes": 94003244,
-      "sha256": "570ebb253734e69b6eca32002e53b6172ab71ca4f24cf1d8a489fb8ea0d672b8",
-      "brotliBytes": 84931395
+      "bytes": 102660112,
+      "sha256": "8da68329347228060231d47f46e80c9d6233b6afb0469fd43611bdc83204b1d0",
+      "brotliBytes": 93348640
     },
     "index.png": {
       "bytes": 21443,
@@ -86,13 +102,13 @@
     "engine/first-seventh/assets/audio/tires.wav.import": "6255e82a47207e8eabe22e509fec9e8cb6d82340c11d6c76713a157bb4ce345e",
     "engine/first-seventh/assets/brand/drivearound-logo.png": "9156dec61cc0ab10adb5b471e7f80d77d4e79102c2a4069e09227f93462f5448",
     "engine/first-seventh/assets/brand/drivearound-logo.png.import": "6adb8ca30681fbb1fc94657317fa6b433aca03305664fa51cc7770c7d2876645",
-    "engine/first-seventh/assets/credits.txt": "4ae0affa1819eaf17d6409b32c3bbfc19ef36fde0d5aef5a3e1a90df296d4e2e",
+    "engine/first-seventh/assets/credits.txt": "27b3349ab601fcfb88ec34c62ba480c01e97337dee1f0996d34496fbb0fda888",
     "engine/first-seventh/assets/fonts/INTER-OFL.txt": "262481e844521b326f5ecd053e59b98c8b2da78c8ee1bdbb6e8174305e54935a",
     "engine/first-seventh/assets/fonts/InterVariable.ttf": "4989b125924991b90d05b2d16e0e388c48f7d5bb8b30539bbf9c755278d0ccaf",
     "engine/first-seventh/assets/fonts/InterVariable.ttf.import": "608295b5dcece46082f83470307d9757145081e719109a4d4a7f37b494cd4e74",
     "engine/first-seventh/assets/fonts/InterVariable.woff2": "693b77d4f32ee9b8bfc995589b5fad5e99adf2832738661f5402f9978429a8e3",
     "engine/first-seventh/assets/fonts/InterVariable.woff2.import": "0568aa77832669aadd728e2dacdb6f59327433fa4710673fcc93f96490e82bbe",
-    "engine/first-seventh/assets/slice.json": "3afd3f9bd1a22d90d01792c4c2a1af43e1767e4326e16e4ad1aaeb9abfebbb16",
+    "engine/first-seventh/assets/slice.json": "ff9724686ac06c285e7d961d6ac2f72f81029393f95ef41e4c2706f9c3f7eeff",
     "engine/first-seventh/assets/surfaces/concrete_wall_006_diff_1k.jpg": "fea247dd085cd05d8deb335234c834764d622029da351f8bcc8913935316bacd",
     "engine/first-seventh/assets/surfaces/concrete_wall_006_diff_1k.jpg.import": "86cb4a30d395f5d755478389def71c133918d1cb4fbe8cabf91665ab8e05ffde",
     "engine/first-seventh/assets/surfaces/concrete_wall_006_nor_gl_1k.jpg": "4ff16bb96fc2df3ef71d22007151aff1d8bf7cb10a493d3f8e973213a99dd428",
@@ -124,19 +140,20 @@
     "engine/first-seventh/scripts/street_detail.gd": "f5c2b49a57dc75c4adc532a1df26883853902245b5fd7fdc4392e0c9b0ae4d73",
     "engine/first-seventh/scripts/tire_effects.gd": "bcbfa5e84c38d4a2a7b3cf74a1544c5dbca451e63fed41d1afc1a96306415026",
     "engine/first-seventh/scripts/weather.gd": "b9ae9e0d1771f69f0142ae49cfceae7b7672820d5711bf7551a7ebf62a985bd8",
-    "engine/first-seventh/scripts/world.gd": "696118489da569f9286e507f3e1ae72753f96f8d84767d91f20b0b4af740f6f0",
+    "engine/first-seventh/scripts/world.gd": "721223af545f01ec742ff59064dec699471a8471d2c726ae7ff9c24d6f599bc7",
     "engine/first-seventh/shaders/film.gdshader": "f1633072e86da2ee3c9f771009c69e8b2d5c8a9f829e2178e94fb6f4f63e0e42",
     "engine/first-seventh/shaders/foliage.gdshader": "4dab411186d82b31b99c89036f100ede2c8aa1d8233076fe31f77aecd15c6214",
     "engine/first-seventh/shaders/paint.gdshader": "70651010ecd19513690d2d5beb69cfc99685fc6ffbdcad1d97b8725ab77bd4f3",
     "engine/first-seventh/shaders/road.gdshader": "86a6fc77ec8db974af7722cd6f8779a99c7cd7afa1b756b99cddf8e2e4b23ea1",
     "engine/first-seventh/shaders/sidewalk.gdshader": "48b744cdc85df84b47ca63f906fdf5981004b43135b8659bf105012b340fbb12",
     "engine/first-seventh/shaders/sky.gdshader": "b55915fc5d5e0df055eec96f1369c93235d529f8a322d19ed175f80de08f39a5",
+    "engine/first-seventh/shaders/storefront.gdshader": "e2f301ddcad691c9aacdfd300f9382254e34fd17e72ea4025ee515a97104b469",
     "engine/first-seventh/shaders/tire_marks.gdshader": "6f5f96e7ff361bd8ac2e18bb9da3284e1fcfccb40994c3b40ae74a9048ee63c5",
     "engine/first-seventh/tests/address_locator.gd": "830fa769510cf07de9cbf8ef44a2dc0545d7540661a1c8cc70a86562d9c7fb93",
     "engine/first-seventh/tests/cameras.gd": "594d63915ee5123387a98742e2630bb24a5fd3c860751c6b73afa69063aed6b4",
     "engine/first-seventh/tests/handling.gd": "a1aabddf6e9dcecdc97c942025c2b13fdd316d3302575c4481843864d039be7e",
     "engine/first-seventh/web/shell.html": "60e9c60be19838cef65ce68dc36cf68876f8711f827fe17c5c896f08faba11f5",
-    "model-source/export_seventh_engine.py": "07a60e17945aee1572236be76c47445ffa901d45d87f646399e2fa8d16d408bf",
+    "model-source/export_seventh_engine.py": "29029f9f313d876cf30eb0b55a314c754e72d96e0ec145b4b2c90df641daa964",
     "model-source/seventh_street_kit.py": "1d8db3bbc8dceab0ba23b558a06e57d75f7a2e1ccc3ba05ef4e3f470c7fbe0da",
     "model-source/seventh_fidelity_kit.py": "29bc7a804fd639e546fefb6844d724bf60c2ee22270c6b2a57bc7d9c76d235e7",
     "model-source/build_neighborhood.py": "96582aa9e4b995573c31b83067879d45efd326c190478473f6cd4160f27f81be",
@@ -146,10 +163,25 @@
     "model-source/neighborhood_landmarks.py": "7e8c48c9fc5f233d5eaa10b0bffe24f29b0f85e9cf76ca44007cd84e9a1baad3",
     "model-source/first_seventh_kit.py": "0b8054b71913c3a8ec53cb83bf19886d973e3e650d2a9cdeddb653fc4c4ba20a",
     "model-source/first_seventh_refinement.py": "5ea53dfd46a5aef6da13848413cbb1edff9de1fbc46848467f359c0c574d7d86",
-    "model-source/first_stmarks_kit.py": "34f31a716b391df69da041d8692f6a253bd0eb4adb895f0320474499fae7eb4c",
+    "model-source/first_stmarks_kit.py": "0d7f5c16944a1cd2c3be0677d4ae0ed9077c1bfd97a250208f494ea7a328f228",
     "model-source/author_first_stmarks_08.py": "422b002eb2a2656d66b40141730d8822a560064526ec7cfd2018095b1cbc51ab",
     "model-source/author_stmarks_08.py": "708e5eab9349bd87fd8fb201882ad3de162b2e8a87f60a39939696fdc18bab55",
-    "model-source/storefront-details.json": "57aa80fa07d8a23c3c54a82b5a45672857eaddfc946feb3bcedc8aff2ba2ed32",
+    "model-source/storefront_individual_kit.py": "f0700e2914398bb01060787dc30d78ec0a2a0c2b14845ba49cfabef5bcb86a8c",
+    "model-source/author_storefront_09.py": "14efe8c1acecb6b585a9862597b1479836eab56861d4c1b539b44708d1abf4f5",
+    "model-source/storefront-observations-09.json": "3eba89f438a72f0d82641ef4ce6c0cd97a4229485c68098f5a96402ed3697ae2",
+    "model-source/fonts/storefront-09/BarlowCondensed-SemiBold.ttf": "7b619d14bc2327509a9ef32b0890f709626f7ecc9ff61191c2a4314c5499d2d9",
+    "model-source/fonts/storefront-09/BebasNeue-Regular.ttf": "08e4623805102d819f58601e46e345648846075e363b2ceb23313c2d1c83ec73",
+    "model-source/fonts/storefront-09/BoroughStoreSans.ttf": "df21469bc8eacf42342d5f711ecf6e270d8685feaf3186c3a999f60d0446032e",
+    "model-source/fonts/storefront-09/BoroughStoreSerif.ttf": "181a84b6071b1b852c9101961bff8a00f99346188f7e82aaa935052a9f17b6e4",
+    "model-source/fonts/storefront-09/LibreBaskerville-Variable.ttf": "05a95421961341c5b2556285e8415df9db27dab4f4abe22b446b3c6a8b916c5d",
+    "model-source/fonts/storefront-09/Montserrat-Variable.ttf": "0f7b311b2f3279e4eef9b2f968bcdbab6e28f4daeb1f049f4f278a902bcd82f7",
+    "model-source/fonts/storefront-09/barlowcondensed-OFL.txt": "186d750eb496a4c17a76385f82be6aea2ac1cf2de074a811d63786cf374ea73f",
+    "model-source/fonts/storefront-09/bebasneue-OFL.txt": "72082f6cb4d04be2ecf7cc7d9e1e7d73787f0af8a5a278a47cade70c16b78341",
+    "model-source/fonts/storefront-09/instantiate.py": "761d027c55db230545b9897335e46b251213bbe92cd09b5a2945f84420fccf68",
+    "model-source/fonts/storefront-09/librebaskerville-OFL.txt": "3624eddd4c8f8a908130a417ae7cd089c9da69899c4e0ca1a5217d0a6fae16fd",
+    "model-source/fonts/storefront-09/montserrat-OFL.txt": "8b7141c03fa4f8d44e6345d5d4931709290f0f67875e452e95ac1fd3a027802e",
+    "model-source/fonts/storefront-09/sources.json": "4673bb38359bd6c93f020bbc9e1e19b8824ca85ffe51b85a434e334089298780",
+    "model-source/storefront-details.json": "63124b2ebb84b02390fd125132f1b29aa2099b4ba657f9757c0136438525d2f5",
     "model-source/first-stmarks-scope-08.json": "66f96b66b495f39f66ce6b371de62fd81a7c9df41868cd936341b7f944583c72",
     "model-source/first-stmarks-browser-08.json": "a85b98c01b584f653bb18ae4404ddb4ad6f257e7cdc2f83a6cc78b87923a916f",
     "model-source/seventh-street-reference-02.json": "363260952d0c582078cb9fafd1cb7ef406cf6c355b8205d1c3c23cdaa73b3752",
@@ -159,6 +191,6 @@
     "model-source/east-seventh-observations-06.json": "8a6ca017474bea086c22ca8ac2244fe85952096eeaaf384354c0687ce7b581a5",
     "model-source/east-seventh-browser-07.json": "eccbe6e7218852c0f90a897890c68df480b1e5c00bb9abe542fcd2fbd295bcb9",
     "model-source/make_seventh_audio.py": "859a0530f8d141a0b0f8403f201f428132edfbd1e0df4f4778ac84b337e4d0a3",
-    "scripts/export-seventh.mjs": "298a6203659ebd433c11c89ab7be5a858546f83643492742df1b83e64596a57a"
+    "scripts/export-seventh.mjs": "122a40d8fa25d006cee5b12bbc5f54c86b073ce04c6bc4b0fe51280d37007858"
   }
 }

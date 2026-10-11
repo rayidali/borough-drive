@@ -1,0 +1,56 @@
+[
+  {
+    "file": "model-source/fonts/storefront-09/BebasNeue-Regular.ttf",
+    "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/bebasneue/BebasNeue-Regular.ttf",
+    "license": "SIL Open Font License 1.1"
+  },
+  {
+    "file": "model-source/fonts/storefront-09/bebasneue-OFL.txt",
+    "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/bebasneue/OFL.txt",
+    "license": "SIL Open Font License 1.1"
+  },
+  {
+    "file": "model-source/fonts/storefront-09/LibreBaskerville-Variable.ttf",
+    "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/librebaskerville/LibreBaskerville%5Bwght%5D.ttf",
+    "license": "SIL Open Font License 1.1"
+  },
+  {
+    "file": "model-source/fonts/storefront-09/librebaskerville-OFL.txt",
+    "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/librebaskerville/OFL.txt",
+    "license": "SIL Open Font License 1.1"
+  },
+  {
+    "file": "model-source/fonts/storefront-09/BarlowCondensed-SemiBold.ttf",
+    "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/barlowcondensed/BarlowCondensed-SemiBold.ttf",
+    "license": "SIL Open Font License 1.1"
+  },
+  {
+    "file": "model-source/fonts/storefront-09/barlowcondensed-OFL.txt",
+    "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/barlowcondensed/OFL.txt",
+    "license": "SIL Open Font License 1.1"
+  },
+  {
+    "file": "model-source/fonts/storefront-09/Montserrat-Variable.ttf",
+    "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/montserrat/Montserrat%5Bwght%5D.ttf",
+    "license": "SIL Open Font License 1.1"
+  },
+  {
+    "file": "model-source/fonts/storefront-09/montserrat-OFL.txt",
+    "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/montserrat/OFL.txt",
+    "license": "SIL Open Font License 1.1"
+  },
+  {
+    "file": "model-source/fonts/storefront-09/BoroughStoreSans.ttf",
+    "derivedFrom": "Montserrat-Variable.ttf",
+    "weight": 700,
+    "recipe": "instantiate.py",
+    "license": "SIL Open Font License 1.1; renamed derivative"
+  },
+  {
+    "file": "model-source/fonts/storefront-09/BoroughStoreSerif.ttf",
+    "derivedFrom": "LibreBaskerville-Variable.ttf",
+    "weight": 400,
+    "recipe": "instantiate.py",
+    "license": "SIL Open Font License 1.1; renamed derivative"
+  }
+]

@@ -204,6 +204,8 @@ def render_building(b):
             f.b((left+right)/2,(low+top)/2,.07,right-left,top-low,.09,shutter.get('material','metal'))
             for j in range(int((top-low)/.095)):
                 f.b((left+right)/2,low+j*.095,.126,right-left,.018,.015,'sill patina')
+        if architecture.get('storefront09'):
+            shop09_face(f,architecture['storefront09'])
 
 def _street_clip_polygon(polygon,axis,boundary,greater):
     result=[]

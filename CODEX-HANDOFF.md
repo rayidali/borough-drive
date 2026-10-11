@@ -1,6 +1,19 @@
 # Borough Drive: continuation context
 
-## Current checkpoint — October 11, 2026: storefront individuality feedback saved in AI guidance
+## Current checkpoint — October 11, 2026: storefront revision 09 ready for local review
+
+The user explicitly requested **“okay so revise it now”** after the instruction-only update. The actual storefront revision covers all businesses within today's First Avenue Seventh–St. Marks and St. Marks Second–Avenue A work. Tile Bar informed individuality without altering the protected corner. [Revision 09 report](model-source/SEVENTH-ENGINE-09.md).
+
+- **Baseline/local:** `feature/first-stmarks-08`, instruction commit `23c63d8`; gameplay/source/export baseline `02833ce18410c771881dac55d4034022db9729b2`. Revision 09 implementation/export/evidence are saved in the local commit containing `model-source/SEVENTH-ENGINE-09.md`; use Git history for its exact hash. No push or publication.
+- **Implementation:** 80 individual business/return/architectural packets on 57 faces / 51 buildings. Distinct signs/fonts, entrance geometry, material patterns, canopy construction, displays, fittings and furniture. All 203 buildings retained; 152 other models are byte-identical. Exact lettering/artwork, tiny inventory/interiors and calibrated 1:1 acceptance remain open.
+- **Actual review:** all 279 complete-candidate front/left/right business crops inspected; final seven-face repairs' 30 replacement views inspected. [Per-business views and package boundaries](model-source/first-stmarks-review-09/visual-review.json). Dated source ledger retains 108 locators, including 53 fresh detail captures; April 2026/September 2024 imagery is not October occupancy verification.
+- **Final package:** 4,035,769 triangles; PCK 102,660,112 bytes, SHA256 `8da68329347228060231d47f46e80c9d6233b6afb0469fd43611bdc83204b1d0`. 18 runtime files / 108 source hashes. `build.json.sourceCommit` remains the geographic baseline, not the current gameplay commit.
+- **Checks:** final original/package verification, syntax and skill validation pass. All 18 final keyboard routes pass in three weather settings with zero route contacts/errors/failed responses. A preceding trial sampled after the endpoint and hit the unchanged terminal barrier; that harness timing error is corrected, and both reports retained. [Final routes](model-source/first-stmarks-review-09/final-routes-complete/routes.json). All 32 final endpoint/player/perspective images were also inspected.
+- **Protection:** all older schedule namespaces, original game/core, UI/audio/controls/routing and both private screenshots match baseline. Screenshots remain local/untracked. [Audit](model-source/first-stmarks-review-09/preservation.json).
+- **Performance:** unchanged baseline mean 59.93 FPS; initial revised mean 57.83 including a 1,433.4 ms first-drive pause. The same-package repeat averaged 60.00 FPS (59.98–60.01), max frame gap 17.8 ms; pause cause unproven. [Full results and limits](model-source/first-stmarks-review-09/performance-summary.json). This is one machine and standard short First/Seventh samples, not a full St. Marks benchmark.
+- **State/next:** review locally with `npm run dev` at the root route; follow the user’s next bounded refinement or publication direction. No fetch, push, CI/deployment or live recheck. September revision 07 remains the last recorded production architecture. No further street, paid job or UI/audio work is queued.
+
+## Previous checkpoint — October 11, 2026: storefront individuality feedback saved in AI guidance
 
 The user reviewed the local First Avenue / St. Marks result: **the overall scene is liked, but businesses still feel like cookie-cutter shop blocks and need substantially more faithful detail.** They request a **“100×” increase in textures, details, fonts, styles and elements**, naming **Tile Bar** as the reference for storefront individuality. This is not acceptance of the current shops' detail. The requested follow-up is to incorporate the feedback into the skill and project instructions.
 

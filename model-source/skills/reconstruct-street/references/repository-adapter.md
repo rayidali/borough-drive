@@ -2,11 +2,26 @@
 
 Read before implementation or technical review. The source chain below includes historical Seventh assumptions; October 11's bounded adapter is identified separately. Commands describe the authorized build/review workflow; they do not assign another street or a background job. Use the current handoff for exact completed tests and package hashes.
 
-**Current local baseline:** First Avenue / St. Marks [revision 08](../../../SEVENTH-ENGINE-08.md), source `02833ce18410c771881dac55d4034022db9729b2`, contains 203 buildings and 102 new exact editable faces while preserving 82 Seventh review faces. The user likes the overall result but requests much stronger individual storefront detail; apply [the October 11 standard](storefront-individuality.md). Revision 08 remains local. East-block [revision 07](../../../SEVENTH-ENGINE-07.md), source `098f1cc89b41c2067fe1577ddb62df5a3b3c6002`, is the last recorded published architecture. Preserve the [interface contract](../../../INTERFACE-PASS-05.md), accepted Seventh/core/corner and audio unless the active assignment explicitly includes a change. The instruction update performs no build; use the current handoff for save/deployment state.
+**Current local baseline:** [revision 09](../../../SEVENTH-ENGINE-09.md) revises 80 business/return packets on 57 First Avenue / St. Marks faces in 51 buildings. It builds on revision 08 source `02833ce18410c771881dac55d4034022db9729b2`; all 203 buildings, 102 assigned faces and 82 Seventh review faces remain. Apply [the October 11 standard](storefront-individuality.md); the revised candidate is not user acceptance or a calibrated match. East-block [revision 07](../../../SEVENTH-ENGINE-07.md), source `098f1cc89b41c2067fe1577ddb62df5a3b3c6002`, remains the last recorded published architecture. Preserve the [interface contract](../../../INTERFACE-PASS-05.md), accepted Seventh/core/corner and audio. Read the current handoff for exact save/deployment state.
 
 For First Avenue / St. Marks, trace `storefront-details.json.firstStmarksEngine` through [author_stmarks_08.py](../../../author_stmarks_08.py), [author_first_stmarks_08.py](../../../author_first_stmarks_08.py) and [first_stmarks_kit.py](../../../first_stmarks_kit.py), which applies after the Seventh adapter. Use exact building/face ownership, not a Seventh-only dispatch. Bounded street dressing lives in [first_stmarks_detail.gd](../../../../engine/first-seventh/scripts/first_stmarks_detail.gd); the [engine README](../../../../engine/first-seventh/README.md) documents its review harnesses and rebuild sequence. Existing generic component output is a refinement baseline, not proof of storefront fidelity. For a future texture/sign/material extension, trace what survives export, import and runtime material handling before authoring assets; test one representative shop in the served game before propagating it. Keep new options bounded so protected models remain unchanged.
 
 ## Follow the real source chain
+
+### Revision 09 storefront authoring
+
+Run [author_storefront_09.py](../../../author_storefront_09.py) to regenerate the current schedule. It runs the revision 08 authors first, then applies all 80 business packets. **Running `author_stmarks_08.py` alone resets the revision 09 additions.** The opt-in [storefront_individual_kit.py](../../../storefront_individual_kit.py) consumes `storefront09` / `detail09`; old storefronts keep their earlier path. The [observation ledger](../../../storefront-observations-09.json) contains dated sources, individual compositions and explicit unknowns. Its authoring-time `pending` strings are frozen inputs; actual review lives in [visual-review.json](../../../first-stmarks-review-09/visual-review.json).
+
+New material groups select [storefront.gdshader](../../../../engine/first-seventh/shaders/storefront.gdshader) in `world.gd`. Vertex alpha encodes material class, not opacity. Keep class boundaries and source/export/runtime selection aligned. New fonts and renamed static derivatives live under `model-source/fonts/storefront-09/`; `instantiate.py` reproduces derivatives, `sources.json` records provenance, and the export includes all four OFL notices. Font substitutions remain explicit.
+
+Execution lessons from the actual rendered repairs:
+
+- Inspect both sides of thin canopies; winding/culling can erase a valid exported roof. Place letters tangent to a curved canopy, and test glyph availability before relying on decorative characters.
+- Furniture clearance uses world metres independently of frontage fractions. A narrow shop must not compress chairs into its table.
+- Replace superseded sign/window layers deliberately; adding a second sign can leave the old overlay visible.
+- Use `review-storefronts-09.mjs` for complete front/left/right business crops. Overlapping contact-sheet crops can look like duplicated text: inspect the individual PNG before editing geometry.
+- Keep capture hashes and reviewed-image lists for each package stage. Recapture changed faces after repairs; do not relabel earlier images as the latest PCK. Preserve unsuccessful test trials and explain diagnosed harness errors.
+- Shared recipe/font/ledger hash changes require a full model export. Keep the package below the existing 100 MiB PCK limit by controlling glyph tessellation, then inspect readability; increasing mesh count does not establish fidelity.
 
 | Responsibility | Source / consumer | Practical rule |
 | --- | --- | --- |
