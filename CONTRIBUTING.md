@@ -2,6 +2,8 @@
 
 Help make these ten East Village blocks more recognizable, comfortable to explore, and reliable to run. Small changes with clear evidence are the easiest to review.
 
+**Current storefront direction, October 11:** the user likes the overall local First Avenue / St. Marks revision 08 but finds businesses too generic and requests a major increase in individual detail. Use the [reconstruction skill](model-source/skills/reconstruct-street/SKILL.md) and [storefront individuality standard](model-source/skills/reconstruct-street/references/storefront-individuality.md), with Tile Bar as the named reference for attention to real business differences. Each shop needs its own observed textures/materials, lettering, awning/shade, seating, displays and fittings, reviewed in readable game closeups and obliques. Historical visual endorsements below do not establish acceptance under this stronger standard. Revision 08 remains local; the instruction update changes no game assets. Use the current handoff for authorized work and publication state.
+
 ## Start locally
 
 1. Fork the repository and clone your fork.

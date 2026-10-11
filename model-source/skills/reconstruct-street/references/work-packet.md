@@ -4,6 +4,8 @@ Copy the template below into a durable, task-specific Markdown file under `model
 
 For the current baseline and user-endorsed examples, read the [skill entry point](../SKILL.md) and current handoff; this reusable template does not assign a task at session close.
 
+Every packet involving shops must carry the October 11 [storefront individuality requirements](storefront-individuality.md). A small packet may cover one facade, but each business within it needs its own identity summary, detail rows and review outcome. Do not compress these into a business-name list or a shared style preset. Worker/reviewer roles can be separate passes by one agent; delegation follows the active session's authorization.
+
 The coordinator inventories the whole requested street first. Each worker receives only its unit, relevant source records/component interfaces and the images it must actually inspect. A corner with multiple faces needs separate face IDs and shared-feature ownership. Workers proposing edits to shared JSON return per-record patches for serial integration; do not let independent workers rewrite the whole file.
 
 ## Scope bootstrap when there is no ready facade packet
@@ -28,7 +30,7 @@ The output is a planning draft with the next inventory/evidence action, not an e
 - Protected records/assets: <IDs and paths; baseline hashes>
 - Allowed files AND records: <exact patch scope>
 - Outputs: <observation, proposal/source, captures, review, checkpoint paths>
-- Budget/time/repair limit: <user limit or no paid calls; one focused repair default>
+- Budget/time/repair limit: <actual user limits; actionable repair/review cycles, no fixed count as a completion rule>
 - Publication: <actual instruction; normally not part of a facade packet>
 
 ## Evidence
@@ -53,6 +55,25 @@ The output is a planning draft with the next inventory/evidence action, not an e
 Include floor-by-floor openings; door/access; every shop/sign; material zones,
 ornament and ironwork; roof/returns; street/site/temporary features. Explicitly
 mark occluded and not-applicable categories. Record exact lettering separately.
+
+## Individual business detail — repeat for every shop in the unit
+- Business/face/unit bounds and date: <exact identity; residential access separate>
+- Identity summary: <observed features that distinguish this shop from neighbors>
+- Evidence sufficiency: <readable front, oblique, sign/material/seating details; gaps>
+- Shade/canopy anatomy: <type/profile, fabric/pattern, valance, supports, projection>
+- Lettering and graphics: <text, letterforms/spacing/layout, mounts, depth/light; approximations>
+- Materials/textures: <zones, pattern scale/orientation, finish, observed wear; source/asset provenance>
+- Seating/street edge: <furniture shapes/materials, layout, enclosure/planting, entry clearance; dated state>
+- Glazing/display layers: <divisions, vinyl, visible displays/interior depth; hidden areas unknown>
+- Small fittings: <observed hardware, menus/notices, lights, services, thresholds>
+- Component fit: <supported individual features; custom geometry/graphics needed>
+- Texture/material export path: <what the served engine carries; verification plan>
+- Neighbor comparison: <observed similarities/differences; prevent unexplained template repetition>
+- Final-game comparisons: <readable storefront/detail crops, obliques, approach; source and package hashes>
+- Detail outcome: <needs-evidence | needs-component | needs-repair | needs-review | reviewed-candidate>
+
+Each applicable item above needs feature rows linking source observations to the
+effective implementation and actual review. Do not fill unknowns with defaults.
 
 ## Bounded proposal
 - Current discrepancy: <source vs rendered result>
@@ -94,10 +115,13 @@ The checklist in [quality-standard.md](quality-standard.md) supplies the categor
 
 - Critical omissions/wrong counts/types/identities: <explicit list or none observed>
 - Proportion/depth/material/small-detail findings: <with image locations>
+- Per-business individuality: <identity summary vs actual result; defining omissions>
+- Letterforms/textures/shade/seating/displays: <source-to-game findings for each business>
+- Unexplained template repetition: <neighbor comparison; exact component/record repair>
 - Camera comparability: <diagnostic only or calibrated evidence + second view>
 - Runtime/preservation/performance evidence: <actual checks and limits>
 - Decision and remaining scope: <recommendation; no invented user acceptance>
-- One bounded repair request: <prioritized exact records/features, or none>
+- Bounded repair request: <prioritized exact records/features; repeat review after actionable repair>
 - Next action/checkpoint: <durable path>
 ```
 
@@ -105,7 +129,7 @@ The checklist in [quality-standard.md](quality-standard.md) supplies the categor
 
 Keep separate evidence, geometry, visual-review and user-acceptance fields. `needs-evidence` is useful saved progress, not failure to keep working on independent units. A model that cannot see images must not pass the visual gate. A capture script cannot be its own visual reviewer. The number of reviewed records is not a percentage of architectural accuracy.
 
-After the proposed one repair, return a persistent ambiguity to a focused reviewer/evidence task. Record what was tried so the next session does not repeat it. Before merging, recheck source hashes and inspect actual changed records; file-level patch checks alone cannot enforce ownership inside a shared JSON file.
+Continue actionable repairs within the authorized scope and budget; do not stop at one repair while known fixable omissions remain. Isolate a persistent evidence/component ambiguity with its next action and continue independent work. Record what was tried so the next session does not repeat it. Before merging, recheck source hashes and inspect actual changed records; file-level patch checks alone cannot enforce ownership inside a shared JSON file.
 
 At a milestone, update the street inventory and project checkpoint. Record source/gameplay commit, local edits, tests actually run, unresolveds, push and deployment separately. Save all needed metadata and permitted evidence outside temporary folders. If source-image storage is restricted, retain a permitted durable locator and observation; do not pretend a deleted preview can be inspected offline.
 

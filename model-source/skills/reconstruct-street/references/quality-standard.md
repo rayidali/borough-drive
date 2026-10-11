@@ -2,20 +2,23 @@
 
 Read when observing, modeling or reviewing a facade. This standard transfers the method and level of attention, not Seventh Street's shop names, colors or dimensions.
 
-## Fixed reference and honest acceptance
+**October 11 update:** the user finds revision 08's storefronts too generic and asks for a major increase in individual business detail, naming Tile Bar as the reference. The [storefront individuality requirements](storefront-individuality.md) now govern business-level observation, implementation and review alongside this architectural checklist. Historic Seventh endorsements and revision 08 coverage do not establish that these stronger requirements are met.
+
+## Historical references and honest acceptance
 
 The September 21 user endorses Seventh revision 04 as the desired architectural direction. Reference geometry/gameplay is `d4fbafe9a6af4497de81e2220d31c878f930612e`; subsequent routing fix is `bfbc8d764f838708f753a53de9b7f054101b45f0`. The historical revision 04 PCK SHA256 is `15b96df07f67a66862794ed1bff06f8f0a48a3d95644a82b368577134b8a81fe`. The later historical [interface pass 05](../../../INTERFACE-PASS-05.md), source `b194dc6ca371b588b27f073bd6cf5be9df4fa9ca`, preserves those models and has PCK SHA256 `e091db30994a4fbe2d42cec5d190b727d17de8959dadc52df744153da8d48131`. The current published [east-block revision 07](../../../SEVENTH-ENGINE-07.md), source `098f1cc`, has PCK SHA256 `746113ee606ebfb6b6b0e32861974ce2ae3445c25d7a6b509b011c7c6bd393fa`. The user endorsed its browser-reference result on September 23. Use the current checkpoint and manifest when comparing the shipped game; the older hashes identify historical tests.
 
 The [revision 04 report](../../../SEVENTH-ENGINE-04.md), [coverage ledger](../../../west-seventh-coverage-04.json) and [capture manifest](../../../engine-review-2026-09-15-04/visual-captures.json) are the evidence index. Forty-one inspected source images and 39 reviewed elevations do not imply 39 exact replicas. No calibrated multi-view pass is recorded. Some captures are diagnostic poses, not matched photographs; not every captured perspective was inspected.
 
-Two review levels must remain distinct:
+These review outcomes must remain distinct:
 
 | Level | What may be claimed | Required record |
 | --- | --- | --- |
 | Seventh visual-standard candidate | Individually reconstructed, source-guided, reviewed to the endorsed visual direction, with listed limits | Per-feature review, game views, preservation/runtime results, explicit mismatches and reviewer recommendation; user acceptance only if actually given |
+| October 11 storefront-detail candidate | Every assigned business reviewed against its own observed design under the stronger individuality requirement | Business identity summaries, material/lettering/shade/seating/display detail comparisons, neighboring-storefront checks and explicit missing features; no automatic pass for prior versions |
 | Stricter photographic acceptance | Passed the project's specified photo-comparison gates for named views/features | Calibrated independent views, zero known count/type/identity errors, recorded measurements and reviewer decision under agreed criteria; see the benchmark |
 
-Do not describe a candidate with an unresolved required detail as “all minute details complete.” A good overall scene can be useful and user-endorsed while finer accuracy remains open. Neither level establishes surveyed world dimensions.
+Do not describe a candidate with an unresolved required detail as “all minute details complete.” A good overall scene can be useful and user-endorsed while finer accuracy remains open. None of these review outcomes establishes surveyed world dimensions.
 
 ## Visual grammar to preserve
 
@@ -51,6 +54,7 @@ Each row needs evidence, model location, actual review and remaining uncertainty
 | Access and basement | At grade/raised/sunken; visible tread count, direction, landing and threshold; separate stair down; areaway opening, retaining wall, gate, handrail/rail returns and safe pavement edge | Obsolete stoop, invented ramp, stairs into solid wall, basement storefront accidentally sealed by pavement, render hole without protective collision |
 | Shop divisions | Unit boundaries and residential separation; stall riser/panels, framing sequence, glazing, recess, bay angles, transom, shutters, awning profile/valance/supports, entry path | One huge glass strip for several shops, backing plane in front of deep glazing, hidden entrance, business evidence mistaken for physical dimensions |
 | Lettering and signs | Exact legible words, case, accents, fractions and line breaks; sign mounting, projection, orientation, scale, supports, border, illumination and neighboring layers | Correct name in wrong place/font; reversed face; awning hiding sign; z-fighting; generated guesses at illegible letters |
+| Storefront individuality | Each business's observed shade construction, letterforms/spacing, texture scale/finish, furniture anatomy/layout, window displays and small fittings; see [full detail requirements](storefront-individuality.md) | Repeated shop box with swapped name/color, universal font, one patio/awning preset, generic dark glazing, random props or extra polygons presented as fidelity |
 | Wall/ornament | Material zones and transitions; brick bond and mortar scale; tile size/grout; stone base, rustication, courses, lintels, pilasters, capitals, brackets, cornice layers, relief silhouette and depth | Texture stretched across stories, arbitrary weather noise, missing cornice depth, generic arches substituted for unique profiles |
 | Fire escapes and services | Side/bay alignment, platform levels and width, grating/open spaces, railing topology, stair direction, drop ladder, wall brackets; standpipes, vents, lights and visible cables | Solid slabs replacing open grating, floating stairs, escape blocking the modeled door, unexplained extra ladders |
 | Pavement/street edge | Curb and grade continuity, pavers/slabs/seams, tree pit position, rail/fence, fixed bench/bike rack, hydrant, poles/signs, drain/utility covers, bollards and curb ramps | Evenly spaced decorative clutter, duplicated corner fixture ownership, impossible access or collision path |
@@ -76,3 +80,5 @@ A reusable component may encode geometry mechanics, but its floor count, opening
 6. **Independent review and final bytes:** compare the final package against sources and this checklist, not just the worker's description. Record who/what reviewed which views, failures, unresolveds and exact hashes. If a later cosmetic change follows performance testing, retain the tested hash and qualify applicability; do not relabel old tests.
 
 Use the [repository adapter](repository-adapter.md) for actual checks. Separate visual acceptance, runtime correctness and performance. The [strict benchmark](../../../SEVENTH-FIDELITY-BENCHMARK.md) retains the complete photographic target; this guide does not certify the existing build or authorize new work.
+
+**Storefront gate for every business:** apply the [business-scale review](storefront-individuality.md#review-at-business-scale-before-repeating-the-approach) in addition to the six gates above. Review readable storefront/material/lettering crops, depth and neighboring differences in the final game. A known generic substitution or omitted defining feature leaves the shop at `needs-repair`; missing evidence stays `needs-evidence`. Do not average these failures into a successful block score or close them using an export, source count or driving result.

@@ -10,6 +10,19 @@ git log --oneline -- CODEX-HANDOFF.md SESSION-LOG.md
 
 Checkpoint notes describe observed state, not a live monitor. Recheck local files, remote branches and deployment status when resuming. Keep necessary artifacts in the repository and record reproducible commands; temporary directories and old tool/process IDs are not durable checkpoints. Store no tokens, passwords or authentication cookies here.
 
+## 2026-10-11 — 07 — storefront individuality requirement incorporated into AI instructions
+
+**Recorded:** 2026-10-11T17:20:29-04:00 (America/New_York).
+**User objective and decisions:** The user likes the overall local result but finds businesses too generic and insufficiently like the originals. They request incorporating a “100×” qualitative increase in textures, fonts/letterforms, styles, awnings/shades, outdoor seating and small elements into skills and project guidance, with Tile Bar as the individuality reference. This is an instruction update, not a new storefront implementation or publication.
+**Completed work:** Updated the [reconstruction skill](model-source/skills/reconstruct-street/SKILL.md), added [storefront individuality requirements](model-source/skills/reconstruct-street/references/storefront-individuality.md), expanded per-business work/review packets and quality gates, refreshed current adapter guidance and linked the requirement from AGENTS, handoff/start/README, neighborhood notes, scope/report, benchmark and workflow. Known defining omissions and generic substitutions prevent a storefront-detail pass. Preserve historical endorsements without treating them as acceptance under the stronger requirement.
+**Gameplay/source baseline:** `feature/first-stmarks-08`; starting documentation HEAD `6c4d1af`; gameplay/source/export unchanged at **`02833ce18410c771881dac55d4034022db9729b2`**. PCK SHA256 `570ebb253734e69b6eca32002e53b6172ab71ca4f24cf1d8a489fb8ea0d672b8`, 94,003,244 bytes.
+**Local changes:** Markdown-only instruction/checkpoint changes, saved in a separate local documentation commit identified through Git history. Both private screenshots remain unchanged and untracked. No runtime/model, observation ledger or generated schedule edits; no pending build.
+**Remote state:** No fetch or push. The feature branch and revision 08 remain local.
+**Deployment state:** No new deployment, CI run or live recheck. September revision 07 remains the last recorded production architecture.
+**Validation:** Skill validator and whitespace checks pass; all 472 relative links across 16 changed Markdown files resolve. Only Markdown changes; the PCK hash/size and both private screenshot hashes match the saved baseline, with screenshots still untracked. Prior game/visual/performance evidence is unchanged and is not rerun or relabeled as validation of the stronger detail target.
+**Unresolved issues:** The actual storefront fidelity gap remains; instructions alone do not improve the game. No fresh Tile Bar observation, calibrated acceptance or measured “100×” improvement is claimed. Historical visual endorsement is distinct from this new quality requirement.
+**Next action:** On the next assigned storefront refinement, use the new business-level detail packet and source-to-game gates, beginning with a representative in-scope storefront before applying the method to all assigned businesses. Follow current bounds/protection; no new street, rebuild, paid job, UI/audio task or publication starts automatically.
+
 ## 2026-10-11 — 06 — complete First / St. Marks candidate reviewed locally
 
 **Objective/decision:** The confirmed full First Avenue Seventh–St. Marks and St. Marks Second–Avenue A extent is implemented, including both sides, returns and street details. Ready for local user review; no publication or paid API job requested.

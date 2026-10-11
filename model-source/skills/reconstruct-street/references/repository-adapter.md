@@ -1,8 +1,10 @@
 # Borough Drive source, build and review adapter
 
-Read before implementation or technical review. Source relationships were rechecked during the September 23 revision 07 pass. Commands describe the authorized build/review workflow; they do not assign another street or a background job. Use the current handoff for exact completed tests and package hashes.
+Read before implementation or technical review. The source chain below includes historical Seventh assumptions; October 11's bounded adapter is identified separately. Commands describe the authorized build/review workflow; they do not assign another street or a background job. Use the current handoff for exact completed tests and package hashes.
 
-**Protected baseline:** east-block [revision 07](../../../SEVENTH-ENGINE-07.md), source `098f1cc89b41c2067fe1577ddb62df5a3b3c6002`, is user-endorsed and published through guidance release `4b999cd` and checkpoint `78aa716`. The current session is closed; the commands below apply only to a later assigned task. It preserves the [interface contract](../../../INTERFACE-PASS-05.md), west block, accepted corner and audio. Use the current handoff for actual source/save/deployment state; the earlier interface-only publication is historical.
+**Current local baseline:** First Avenue / St. Marks [revision 08](../../../SEVENTH-ENGINE-08.md), source `02833ce18410c771881dac55d4034022db9729b2`, contains 203 buildings and 102 new exact editable faces while preserving 82 Seventh review faces. The user likes the overall result but requests much stronger individual storefront detail; apply [the October 11 standard](storefront-individuality.md). Revision 08 remains local. East-block [revision 07](../../../SEVENTH-ENGINE-07.md), source `098f1cc89b41c2067fe1577ddb62df5a3b3c6002`, is the last recorded published architecture. Preserve the [interface contract](../../../INTERFACE-PASS-05.md), accepted Seventh/core/corner and audio unless the active assignment explicitly includes a change. The instruction update performs no build; use the current handoff for save/deployment state.
+
+For First Avenue / St. Marks, trace `storefront-details.json.firstStmarksEngine` through [author_stmarks_08.py](../../../author_stmarks_08.py), [author_first_stmarks_08.py](../../../author_first_stmarks_08.py) and [first_stmarks_kit.py](../../../first_stmarks_kit.py), which applies after the Seventh adapter. Use exact building/face ownership, not a Seventh-only dispatch. Bounded street dressing lives in [first_stmarks_detail.gd](../../../../engine/first-seventh/scripts/first_stmarks_detail.gd); the [engine README](../../../../engine/first-seventh/README.md) documents its review harnesses and rebuild sequence. Existing generic component output is a refinement baseline, not proof of storefront fidelity. For a future texture/sign/material extension, trace what survives export, import and runtime material handling before authoring assets; test one representative shop in the served game before propagating it. Keep new options bounded so protected models remain unchanged.
 
 ## Follow the real source chain
 
@@ -44,9 +46,9 @@ The exporter retains material categories through vertex colors, including a sema
 
 This repository does **not** yet contain a generic automatic street-production pipeline. The old [block workflow](../../../BLOCK-WORKFLOW.md) is an offline inventory/packet proposal, not an engine dispatcher. Its historic price/model examples are not current costs or a tested cheaper-model result.
 
-For the newly authorized street, prepare an adapter plan with its exact IDs/faces and inspect these coupled assumptions before building:
+For a newly authorized street, prepare an adapter plan with its exact IDs/faces and inspect these coupled assumptions before building. This table records the **historical pre-revision-08 Seventh behavior**; the current 203-building/102-new-face adapter above already changes some assumptions. Read actual consumers and assertions before adapting further:
 
-| Assumption to review | Current Seventh behavior |
+| Assumption to review | Historical Seventh behavior |
 | --- | --- |
 | Export selection | Hardcoded circuit bounds plus every literal `East 7th Street` frontage |
 | Schedule/render dispatch | Seventh-named namespace and literal street selection; some per-building exceptions |
