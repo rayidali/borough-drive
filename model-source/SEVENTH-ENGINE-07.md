@@ -1,5 +1,7 @@
 # East Seventh revision 07 — browser reference refinement
 
+**October 11 continuation:** [First Avenue / St. Marks revision 09](SEVENTH-ENGINE-09.md) is user-endorsed for publication. It preserves this dated Seventh/interface work; the results and package hashes below remain historical. Read the [current handoff](../CODEX-HANDOFF.md) for the verified release and next authorized action.
+
 September 23, 2026. **Implemented, reviewed, user-endorsed and published September 23.** Scope is both sides of East 7th Street from First Avenue to Avenue A: 35 editable frontage records, two protected First Avenue corner records and the 108 street edge. The user explicitly requested ordinary browser Street View observation and address numbers in their observed positions. The user subsequently requested publication to main/production and endorsed browser Street View inspection as the preferred reference method. Release `4b999cd` passed both CI jobs and Vercel production; live routes and the full PCK match the reviewed files. [Publication evidence](east-seventh-review-07/publication.json) records those exact checks. The later documentation checkpoint `78aa716` also passed both CI jobs and Vercel. The [closing handoff](../CODEX-HANDOFF.md) records the current saved state; no new street or refinement is queued.
 
 ![East 7th between First Avenue and Avenue A in the final game](../docs/images/east-seventh-07/east-block-0-east.png)

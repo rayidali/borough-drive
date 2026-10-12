@@ -1,5 +1,7 @@
 # West Seventh streetscape anchors — September 15, 2026
 
+**October 11 continuation:** [First Avenue / St. Marks revision 09](SEVENTH-ENGINE-09.md) is user-endorsed for publication. It preserves this dated Seventh/interface work; the results and package hashes below remain historical. Read the [current handoff](../CODEX-HANDOFF.md) for the verified release and next authorized action.
+
 The bounded First–Second East 7th pass uses the dated view metadata in [`west-seventh-reference-04.json`](west-seventh-reference-04.json) and the runtime ledger in [`west_seventh_streetscape.json`](../engine/first-seventh/assets/west_seventh_streetscape.json). It does not claim a survey, current municipal inventory, or 1:1 acceptance.
 
 Each tree record stores its image `pixelU`, image heading/pitch/FOV, the exact `engineCameraStart` copied from the reference record, the curb depth assumption (7.25 m) and the inferred ground-frame X. The projection uses the actual `cameraStart.z`; source image pitch is only image metadata. Runtime north curb is `z=-7.25` and south curb is `z=+7.25`.

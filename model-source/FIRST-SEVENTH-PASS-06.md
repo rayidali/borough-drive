@@ -1,6 +1,6 @@
 # First Avenue / East 7th Street — study 06
 
-**September 23 resume note:** this is a historical report. [Revision 07](SEVENTH-ENGINE-07.md) is now published and user-endorsed; the [current handoff](../CODEX-HANDOFF.md) governs the next session. Older routes, local-only status, source access and pause instructions below describe their original date. No task is queued at session close.
+**October 11 continuation:** this is a historical report. The user endorsed [First Avenue / St. Marks revision 09](SEVENTH-ENGINE-09.md) and requested publication to `main`. Read the [current handoff](../CODEX-HANDOFF.md) for verified release state. Earlier dates, counts, source limitations, route descriptions and pause instructions below remain history; no further street or pipeline is assigned.
 
 Study authored September 8, 2026 and **accepted by the user on September 9 as the minimum completion standard** for future blocks. Use the most recent accessible view and preserve or exceed this detail and presentation. [Performance pass 07](PERFORMANCE-PASS-07.md) retains these models while optimizing speed. The [handoff](../CODEX-HANDOFF.md) records exact source/push/deployment states. Continuation update, September 12: passes 08/09 are published and the automatic block process is being brainstormed. The user has requested no new implementation yet.
 

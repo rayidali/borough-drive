@@ -1,6 +1,19 @@
 # Borough Drive: continuation context
 
-## Current checkpoint — October 11, 2026: storefront revision 09 ready for local review
+## Current checkpoint — October 11, 2026: approved revision 09 publication underway
+
+The user endorsed the result — **“yes this is great”** — and explicitly requested **pushing it to `main` and updating all project Markdown and related instructions**. This authorizes publication of the reviewed First Avenue / St. Marks work, superseding the prior local-only state. No further street, paid job, UI/audio change or pipeline is assigned.
+
+- **Exact reviewed source:** revision 08 implementation `02833ce18410c771881dac55d4034022db9729b2`; revision 09 implementation `0de4b54dc9d0e711f11962688f0e6fca3aa01c50`; exact-byte/license checkpoint `f511958`. Publication branch is now `main`, fast-forwarded from the feature branch after fetching origin. Fetched remote baseline was `d4e147e1bc559b9ef76429c8c74887048ceb45ac`, with no divergence.
+- **Scope/result:** 203 buildings, 102 First/St. Marks faces and protected 82 Seventh faces. Revision 09 individually revises 80 business/return records on 57 faces / 51 buildings; 152 models match revision 08. The user endorsement is a working visual reference, not calibrated 1:1 acceptance. [Implementation/review](model-source/SEVENTH-ENGINE-09.md).
+- **Package:** 18 runtime files / 108 source hashes. PCK **102,660,112 bytes**, SHA256 **`8da68329347228060231d47f46e80c9d6233b6afb0469fd43611bdc83204b1d0`**. Package/model bytes remain unchanged during publication. `build.json.sourceCommit` is the older geographic baseline; record release Git identities separately.
+- **Preparation:** current project entry points, reconstruction skill, source/quality/packet references, historical-report pointers and font credits refreshed. Dated observations and old results remain historical; both private screenshots stay local/untracked. Original game, routing, protected models, interface and audio remain preserved.
+- **Checks:** publication-time `npm run verify` and `npm run seventh:verify` pass. The earlier reviewed package's visual, 18-route, preservation and performance evidence remains applicable; no new model/export is needed. [Release evidence](model-source/publication-review-2026-10-11.json) separates local tests from remote/live checks.
+- **Remote/deployment:** publication push, CI, Vercel and live byte verification are pending. Do not describe preparation or local merge as a verified deployment.
+- **Next:** save and push release documentation/work to `origin/main`, verify both Node jobs and Vercel, compare live root/Seventh/legacy routes and full PCK, then save the actual publication checkpoint. No additional implementation is queued.
+
+
+## Previous checkpoint — October 11, 2026: storefront revision 09 ready for local review
 
 The user explicitly requested **“okay so revise it now”** after the instruction-only update. The actual storefront revision covers all businesses within today's First Avenue Seventh–St. Marks and St. Marks Second–Avenue A work. Tile Bar informed individuality without altering the protected corner. [Revision 09 report](model-source/SEVENTH-ENGINE-09.md).
 

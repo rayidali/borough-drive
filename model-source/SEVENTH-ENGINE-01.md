@@ -1,6 +1,6 @@
 # Seventh, slowly. — browser engine study 01
 
-**September 23 resume note:** this is a historical report. [Revision 07](SEVENTH-ENGINE-07.md) is now published and user-endorsed; the [current handoff](../CODEX-HANDOFF.md) governs the next session. Older routes, local-only status, source access and pause instructions below describe their original date. No task is queued at session close.
+**October 11 continuation:** this is a historical report. The user endorsed [First Avenue / St. Marks revision 09](SEVENTH-ENGINE-09.md) and requested publication to `main`. Read the [current handoff](../CODEX-HANDOFF.md) for verified release state. Earlier dates, counts, source limitations, route descriptions and pause instructions below remain history; no further street or pipeline is assigned.
 
 September 14, 2026. The user asked for a faster, aesthetic lofi browser driving game with several viewpoints and weather, beginning around First & Seventh. After discussing Unreal Pixel Streaming, they deferred obtaining a GPU machine and authorized proceeding with available tools. The delivered local slice uses **Godot 4.7.2 Compatibility / WebGL 2**, with the game running on each player's device.
 

@@ -13,6 +13,12 @@ The root [MIT License](LICENSE) covers original Borough Drive code, documentatio
 | Three.js r180 and bundled addons | MIT; [included license](dist/vendor/THREE-LICENSE.txt) |
 | Draco decoder | Apache 2.0; [included license](dist/vendor/draco/LICENSE) |
 | Damion Regular, used for some script sign meshes | Copyright 2014 The Damion Project Authors; SIL Open Font License 1.1; [included license](model-source/fonts/OFL.txt), [source](https://github.com/google/fonts/tree/main/ofl/damion). A typeface approximation, not original business artwork. |
+| Barlow Condensed SemiBold storefront lettering | SIL Open Font License 1.1; [original notice](model-source/fonts/storefront-09/barlowcondensed-OFL.txt) |
+| Bebas Neue Regular storefront lettering | SIL Open Font License 1.1; [original notice](model-source/fonts/storefront-09/bebasneue-OFL.txt) |
+| Libre Baskerville storefront lettering / renamed BoroughStoreSerif static derivative | SIL Open Font License 1.1; [original notice](model-source/fonts/storefront-09/librebaskerville-OFL.txt) |
+| Montserrat storefront lettering / renamed BoroughStoreSans static derivative | SIL Open Font License 1.1; [original notice](model-source/fonts/storefront-09/montserrat-OFL.txt) |
+
+Revision 09's [font provenance](model-source/fonts/storefront-09/sources.json) records original files, sources and renamed derivatives; [instantiate.py](model-source/fonts/storefront-09/instantiate.py) reproduces static derivatives. All four OFL notices are included in `dist/seventh/`; upstream notice whitespace and line endings are preserved. These fonts approximate observed lettering and do not license original shop logos/artwork. The [dated business observations](model-source/storefront-observations-09.json) contain source locators and transcriptions, not redistributed Street View pixels. Review PNGs are authored game captures.
 
 Performance pass 07 (September 9, 2026) preserves the accepted revision 06 models and all existing photographic provenance. `dist/reconstruction/street-materials.glb` contains seven original core material definitions and four byte-identical embedded Poly Haven images, extracted by `scripts/prepare-street-materials.mjs`; it adds no new imagery or license. Performance-review PNGs are unedited game captures and retain the same model/material credits. See [the report](model-source/PERFORMANCE-PASS-07.md) and [current publication state](CODEX-HANDOFF.md).
 

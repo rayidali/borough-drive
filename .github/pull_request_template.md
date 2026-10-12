@@ -1,6 +1,6 @@
 ## Change
 
-For a continuation of the owner’s session, read the current `CODEX-HANDOFF.md` and latest `SESSION-LOG.md` entry. Revision 07 is published and the September 23 session is closed. Follow the next bounded user request; a historical backlog or offline packet does not assign work.
+For a continuation of the owner’s session, read the current `CODEX-HANDOFF.md` and latest `SESSION-LOG.md` entry. Revision 09 is user-endorsed for publication; the handoff records the exact saved, pushed and verified deployment state. Follow the next bounded user request; a historical backlog or offline packet does not assign work.
 
 Describe the problem and the resulting behavior. Link related issues.
 

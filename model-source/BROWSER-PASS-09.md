@@ -1,6 +1,6 @@
 # Browser presentation and performance — pass 09
 
-**September 23 resume note:** this is a historical report. [Revision 07](SEVENTH-ENGINE-07.md) is now published and user-endorsed; the [current handoff](../CODEX-HANDOFF.md) governs the next session. Older routes, local-only status, source access and pause instructions below describe their original date. No task is queued at session close.
+**October 11 continuation:** this is a historical report. The user endorsed [First Avenue / St. Marks revision 09](SEVENTH-ENGINE-09.md) and requested publication to `main`. Read the [current handoff](../CODEX-HANDOFF.md) for verified release state. Earlier dates, counts, source limitations, route descriptions and pause instructions below remain history; no further street or pipeline is assigned.
 
 September 10, 2026. The user chose smooth browser exploration, deferred Unreal, and requested further First & 7th improvement followed by a cheaper block workflow. This pass retains all model assets from [corner pass 08](FIRST-SEVENTH-PASS-08.md). Published September 10: [live smoke evidence](browser-review-09/live-smoke.json) and the [handoff](../CODEX-HANDOFF.md) record the exact source and deployment state. It is not a PS5-quality or universal 60 FPS claim.
 

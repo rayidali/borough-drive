@@ -1,5 +1,7 @@
 # Rendering and driving direction — September 10, 2026
 
+**October 11 continuation:** [First Avenue / St. Marks revision 09](SEVENTH-ENGINE-09.md) is now the user-endorsed working storefront reference and has explicit publication authorization. See the [current handoff](../CODEX-HANDOFF.md) for release verification. This does not assign an engine migration, GPU service or another street.
+
 **Historical assessment, superseded:** later September 10 the user chose browser-first play; September 14 authorized the [Godot browser slice](../engine/first-seventh/README.md), now published with [interface pass 05](INTERFACE-PASS-05.md) and the user-endorsed [east-block revision 07](SEVENTH-ENGINE-07.md). Seventh is live at the branded root, while the original Three.js game remains at `/index.html`. The September 12 pause and Unreal recommendation below are history, not current implementation instructions. Follow the [closing handoff](../CODEX-HANDOFF.md); no engine migration or new reconstruction job is assigned.
 
 

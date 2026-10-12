@@ -12,3 +12,5 @@ Unmodified release files:
 | INTER-OFL.txt | LICENSE.txt | `262481e844521b326f5ecd053e59b98c8b2da78c8ee1bdbb6e8174305e54935a` |
 
 Godot uses the TTF; the HTML shell uses the WOFF2 copied by the exporter. No external font request is required during play. Keep the included license with both formats.
+
+Revision 09 storefront sign fonts are separate from this unchanged interface font: [provenance and derivative records](../../../../model-source/fonts/storefront-09/sources.json), [reproduction recipe](../../../../model-source/fonts/storefront-09/instantiate.py) and [all font notices](../../../../THIRD-PARTY-NOTICES.md).

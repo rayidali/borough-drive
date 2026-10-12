@@ -10,6 +10,15 @@ git log --oneline -- CODEX-HANDOFF.md SESSION-LOG.md
 
 Checkpoint notes describe observed state, not a live monitor. Recheck local files, remote branches and deployment status when resuming. Keep necessary artifacts in the repository and record reproducible commands; temporary directories and old tool/process IDs are not durable checkpoints. Store no tokens, passwords or authentication cookies here.
 
+## 2026-10-11 — 11 — user-endorsed revision 09 publication started
+
+**Recorded:** 2026-10-11T20:15:23.316096-04:00.
+**Objective/authorization:** User endorsed revision 09 (“yes this is great”) and explicitly requested pushing to `main` and updating all Markdown and related project instructions. This supersedes local-only status for the completed work; no new street, paid job, UI/audio change or pipeline is assigned.
+**Source/local:** Reviewed revision 09 `0de4b54dc9d0e711f11962688f0e6fca3aa01c50`, exact-byte checkpoint `f511958`, on top of revision 08 `02833ce18410c771881dac55d4034022db9729b2`. Fetched `origin/main` at `d4e147e1bc559b9ef76429c8c74887048ceb45ac`, no divergence; local `main` fast-forwarded to the feature branch. Documentation/skill/credit refresh underway. Both private screenshots preserved and untracked.
+**Checks:** Local original-game and Seventh package verification pass. Reviewed package unchanged: SHA256 `8da68329347228060231d47f46e80c9d6233b6afb0469fd43611bdc83204b1d0`, 102,660,112 bytes, 18 runtime files / 108 source hashes. Existing actual business/route/performance review remains dated evidence, not a new run or calibrated certification.
+**Remote/deployment:** Push, CI, Vercel and live verification pending; [release record](model-source/publication-review-2026-10-11.json) will retain actual results.
+**Next:** Finish documentation validation, push main, verify remote jobs/deployment and complete live package/route identity, then record the published checkpoint.
+
 ## 2026-10-11 — 10 — actual storefront revision 09 completed locally
 
 **Objective/decision:** User explicitly said “okay so revise it now” after the instruction-only update. Revise all assigned First Avenue Seventh–St. Marks / St. Marks Second–Avenue A businesses, with Tile Bar as the individuality reference. No publication, new geography, paid job or UI/audio change.

@@ -1,6 +1,6 @@
 # First Avenue and St. Marks Place — confirmed scope, October 11, 2026
 
-**Latest review:** the full bounded revision 08 is implemented locally. The user likes the overall result but requests substantially richer, more individual storefront detail, naming Tile Bar as the reference. The [storefront standard](skills/reconstruct-street/references/storefront-individuality.md) captures this feedback; this instruction-update follow-up leaves the export unchanged. Read the [current handoff](../CODEX-HANDOFF.md) before treating the original implementation authorization below as unfinished work. The geographic bounds remain resolved.
+**Latest review, October 11:** the complete bounded revision 08 was refined into [revision 09](SEVENTH-ENGINE-09.md), with 80 individual business/return records on 57 faces / 51 buildings. The user endorsed the revised result and requested publication to `main` plus documentation upkeep. The [storefront standard](skills/reconstruct-street/references/storefront-individuality.md) remains in force; endorsement is not calibrated 1:1 acceptance. Read the [current handoff](../CODEX-HANDOFF.md) for verified release state. The bounds below remain resolved and do not queue more modeling.
 
 The user wants to resume reconstruction with First Avenue and the street immediately north of Seventh, **St. Marks Place**, and answered **“Yes, those full bounds”** to the complete extent below. Implementation is authorized. The September close and earlier endpoint question are superseded.
 

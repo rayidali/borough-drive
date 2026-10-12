@@ -119,3 +119,7 @@ The depth-based ambient pass extends the vendored Three.js SSAO kernel and blur;
 ## Documentation continuation — September 12, 2026
 
 Corner pass 08 and browser pass 09 were published September 10; this documentation refresh adds no assets or photographic observations. The future process for automatic reference acquisition and block reconstruction is still under discussion. Prior source dates, uncertainty and all credits above remain unchanged. Current source/publication and continuation scope are recorded in the [repository handoff](https://github.com/rayidali/borough-drive/blob/main/CODEX-HANDOFF.md).
+
+## October 11 separate Godot storefront revision
+
+The original ten-block asset credits above remain unchanged. The separately exported First Avenue / St. Marks revision 09 adds four licensed sign-font families and renamed static derivatives, with full OFL notices in `dist/seventh/`. See the [repository font provenance](https://github.com/rayidali/borough-drive/blob/main/model-source/fonts/storefront-09/sources.json) and [third-party notices](https://github.com/rayidali/borough-drive/blob/main/THIRD-PARTY-NOTICES.md). New surface microstructure is authored procedurally; Street View source pixels are not game textures or distributed references. The user endorsed revision 09 and requested publication; the [handoff](https://github.com/rayidali/borough-drive/blob/main/CODEX-HANDOFF.md) records verified release state.

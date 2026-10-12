@@ -2,7 +2,7 @@
 
 Copy the template below into a durable, task-specific Markdown file under `model-source/` when a future task is authorized. Fill it with the actual unit and baseline; this template is not an implemented queue, JSON schema or automatic runner. Do not append it to the legacy planner's JSON expecting compatibility.
 
-For the current baseline and user-endorsed examples, read the [skill entry point](../SKILL.md) and current handoff; this reusable template does not assign a task at session close.
+For the current baseline and user-endorsed examples, read the [skill entry point](../SKILL.md) and current handoff; revision 09 is the current endorsed storefront example, while this reusable template does not assign a new task or start a pipeline.
 
 Every packet involving shops must carry the October 11 [storefront individuality requirements](storefront-individuality.md). A small packet may cover one facade, but each business within it needs its own identity summary, detail rows and review outcome. Do not compress these into a business-name list or a shared style preset. Worker/reviewer roles can be separate passes by one agent; delegation follows the active session's authorization.
 
