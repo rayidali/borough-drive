@@ -5,7 +5,8 @@
     "implementation08": "02833ce18410c771881dac55d4034022db9729b2",
     "implementation09": "0de4b54dc9d0e711f11962688f0e6fca3aa01c50",
     "reviewedHead": "f511958091008000eb7c69fd5f03da70f0998c1d",
-    "fetchedMain": "d4e147e1bc559b9ef76429c8c74887048ceb45ac"
+    "fetchedMain": "d4e147e1bc559b9ef76429c8c74887048ceb45ac",
+    "releaseCommit": "3457a29739ecd99f4c13bdde2efdb07cea30816f"
   },
   "package": {
     "pck": {
@@ -24,20 +25,98 @@
     "modelsAndRuntime": "Unchanged from reviewed f511958 checkpoint; only documentation/attribution and review status updated.",
     "markdown": {
       "filesAudited": 44,
-      "relativeLinks": 939,
+      "filesUpdated": 44,
+      "relativeLinks": 950,
       "brokenLinks": 0
-    }
+    },
+    "skillValidator": "passed"
   },
   "push": {
-    "state": "pending"
+    "state": "complete",
+    "from": "d4e147e1bc559b9ef76429c8c74887048ceb45ac",
+    "to": "3457a29739ecd99f4c13bdde2efdb07cea30816f",
+    "branch": "main",
+    "force": false,
+    "checkedAt": "2026-10-12T00:30:30.795598+00:00"
   },
   "ci": {
-    "state": "pending"
+    "state": "success",
+    "commit": "3457a29739ecd99f4c13bdde2efdb07cea30816f",
+    "runId": 38188142108,
+    "url": "https://github.com/rayidali/borough-drive/actions/runs/38188142108",
+    "jobs": [
+      {
+        "name": "Node.js 22",
+        "id": 114614870793,
+        "conclusion": "success"
+      },
+      {
+        "name": "Node.js 24",
+        "id": 114614870554,
+        "conclusion": "success"
+      }
+    ]
   },
   "deployment": {
-    "state": "pending"
+    "state": "success",
+    "commit": "3457a29739ecd99f4c13bdde2efdb07cea30816f",
+    "provider": "Vercel",
+    "target": "production",
+    "id": "32rnjco8ygpLNDp5oAPw2BSYZJ2Y",
+    "url": "https://vercel.com/rayidalis-projects/borough-drive/32rnjco8ygpLNDp5oAPw2BSYZJ2Y",
+    "site": "https://www.drivearound.nyc/",
+    "evidence": "GitHub Vercel commit status plus complete live route/file hashes."
   },
   "live": {
-    "state": "pending"
-  }
+    "state": "verified",
+    "report": "publication-review-09/live.json",
+    "checks": 31,
+    "matches": 31,
+    "hosts": [
+      "https://www.drivearound.nyc",
+      "https://drivearound.nyc",
+      "https://borough-drive.vercel.app"
+    ],
+    "runtimeFiles": 18,
+    "fullPckBytes": 102660112,
+    "fullPckSha256": "8da68329347228060231d47f46e80c9d6233b6afb0469fd43611bdc83204b1d0",
+    "browser": {
+      "report": "publication-review-09/browser/smoke.json",
+      "checks": {
+        "start": true,
+        "fourCameras": true,
+        "threeWeatherModes": true,
+        "keyboardDrive": {
+          "before": [
+            -0.5,
+            -0.0198763031512499,
+            8
+          ],
+          "after": [
+            -0.5,
+            -0.019058208912611,
+            -10.5170364379883
+          ],
+          "contacts": 0
+        },
+        "pauseResume": true
+      },
+      "errors": 0,
+      "warnings": 0,
+      "failedRequests": 0,
+      "inspectedImages": [
+        "launch.png",
+        "first-avenue-drive.png",
+        "stmarks-east.png",
+        "maud-corner.png"
+      ]
+    }
+  },
+  "completedAt": "2026-10-11T20:38:30.691476-04:00",
+  "verificationNotes": [
+    "An initial Python HTTPS attempt failed because its local CA store was not configured. Repeated with the system CA bundle, retaining certificate verification; all 31 full-response hashes matched.",
+    "Browser smoke used review telemetry on the production root, with normal Enter/W/C/T/Escape input. Pose commands only placed the camera/car for the St. Marks/Maud screenshots.",
+    "All four saved production images were inspected. This is publication smoke evidence, not a repeat of the calibrated/whole-street review or a production performance benchmark.",
+    "This publication checkpoint changes documentation and review evidence only; the release runtime bytes remain unchanged. Use Git history for its own save/push identity."
+  ]
 }

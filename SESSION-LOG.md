@@ -10,6 +10,17 @@ git log --oneline -- CODEX-HANDOFF.md SESSION-LOG.md
 
 Checkpoint notes describe observed state, not a live monitor. Recheck local files, remote branches and deployment status when resuming. Keep necessary artifacts in the repository and record reproducible commands; temporary directories and old tool/process IDs are not durable checkpoints. Store no tokens, passwords or authentication cookies here.
 
+## 2026-10-11 — 12 — revision 09 published; CI, production and live bytes verified
+
+**Recorded:** 2026-10-11T20:38:30.691476-04:00.
+**Objective/decision:** User endorsed the actual First Avenue / St. Marks storefront revision and requested pushing it to `main` and updating all Markdown/instructions. Completed within that publication scope; no extra street, paid job or UI/audio work.
+**Exact source/push:** Reviewed implementation `0de4b54dc9d0e711f11962688f0e6fca3aa01c50`, exact-byte checkpoint `f511958`, on top of revision 08 `02833ce18410c771881dac55d4034022db9729b2`. Release **`3457a29739ecd99f4c13bdde2efdb07cea30816f`** pushed from `d4e147e1bc559b9ef76429c8c74887048ceb45ac` to `origin/main`, no conflict or force. This following documentation/evidence checkpoint keeps the same runtime; identify its own commit through Git history.
+**Remote/deployment:** [Both Node.js 22/24 jobs](https://github.com/rayidali/borough-drive/actions/runs/38188142108) pass for the release. [Vercel production](https://vercel.com/rayidalis-projects/borough-drive/32rnjco8ygpLNDp5oAPw2BSYZJ2Y) succeeds. Live site: [DriveAround.nyc](https://www.drivearound.nyc/).
+**Live verification:** All 31 complete HTTPS hash comparisons pass: root, Seventh, legacy and manifest on canonical/apex/Vercel hosts, all 18 runtime files and refreshed credits. Full PCK SHA256 `8da68329347228060231d47f46e80c9d6233b6afb0469fd43611bdc83204b1d0`, 102,660,112 bytes. Browser smoke passes launch, driving, four cameras, three weather states and pause, zero errors/warnings/failed responses; four screenshots inspected. [Actual results and reproducible checks](model-source/publication-review-2026-10-11.json). An initial local Python CA-store failure was resolved by using the system trust bundle, with certificate verification retained.
+**Documentation/protection:** All 44 tracked Markdown files refreshed/audited, including portable skill/quality/packet guidance, publication entry points, historical report pointers and font credits. User endorsement recorded separately from calibrated fidelity. Private screenshots unchanged and untracked; original game, protected models, UI/audio/controls/routing and all reviewed runtime bytes preserved.
+**Checks/limits:** Publication-time original/package checks, skill validation, links and authored whitespace pass. Existing visual/route/performance evidence remains dated and scoped. Exact fine artwork/fonts/interiors and calibrated photographic acceptance remain limitations, not new assigned work. This checkpoint itself only saves publication evidence and documentation.
+**Next:** Follow the user's next bounded task; no next street, paid job, automatic pipeline or product/audio change is queued.
+
 ## 2026-10-11 — 11 — user-endorsed revision 09 publication started
 
 **Recorded:** 2026-10-11T20:15:23.316096-04:00.

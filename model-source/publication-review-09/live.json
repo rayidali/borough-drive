@@ -1,0 +1,535 @@
+{
+  "recorded": "2026-10-12T00:33:13.929467+00:00",
+  "commit": "3457a29739ecd99f4c13bdde2efdb07cea30816f",
+  "method": "HTTPS GET with streaming SHA256 of complete decoded response; all 18 runtime files, 12 route/manifest checks across canonical/apex/Vercel hosts, and refreshed credits.",
+  "checks": [
+    {
+      "url": "https://www.drivearound.nyc/",
+      "finalUrl": "https://www.drivearound.nyc/",
+      "local": "dist/seventh/index.html",
+      "status": 200,
+      "bytes": 9846,
+      "sha256": "555e281877693244f97d947aafc811de11cff83693cd7247b47344e4094c095d",
+      "expectedSha256": "555e281877693244f97d947aafc811de11cff83693cd7247b47344e4094c095d",
+      "matches": true,
+      "headers": {
+        "content-type": "text/html; charset=utf-8",
+        "content-length": "9846",
+        "etag": "\"8813860cd29591c71adfbc3b129467ce\"",
+        "last-modified": "Mon, 12 Oct 2026 00:31:25 GMT",
+        "x-vercel-cache": "HIT"
+      }
+    },
+    {
+      "url": "https://www.drivearound.nyc/seventh/",
+      "finalUrl": "https://www.drivearound.nyc/seventh/",
+      "local": "dist/seventh/index.html",
+      "status": 200,
+      "bytes": 9846,
+      "sha256": "555e281877693244f97d947aafc811de11cff83693cd7247b47344e4094c095d",
+      "expectedSha256": "555e281877693244f97d947aafc811de11cff83693cd7247b47344e4094c095d",
+      "matches": true,
+      "headers": {
+        "content-type": "text/html; charset=utf-8",
+        "content-length": "9846",
+        "etag": "\"8813860cd29591c71adfbc3b129467ce\"",
+        "last-modified": "Mon, 12 Oct 2026 00:33:14 GMT",
+        "x-vercel-cache": "MISS"
+      }
+    },
+    {
+      "url": "https://www.drivearound.nyc/index.html",
+      "finalUrl": "https://www.drivearound.nyc/index.html",
+      "local": "dist/legacy.html",
+      "status": 200,
+      "bytes": 11540,
+      "sha256": "ad8fa5a259fea000caa0a463ce636ce5004dad5641d4c9f324930acdaacbb908",
+      "expectedSha256": "ad8fa5a259fea000caa0a463ce636ce5004dad5641d4c9f324930acdaacbb908",
+      "matches": true,
+      "headers": {
+        "content-type": "text/html; charset=utf-8",
+        "content-length": "11540",
+        "etag": "\"692220c7cd6fc7499355dbc7979aaca0\"",
+        "last-modified": "Mon, 12 Oct 2026 00:33:14 GMT",
+        "x-vercel-cache": "MISS"
+      }
+    },
+    {
+      "url": "https://www.drivearound.nyc/seventh/build.json",
+      "finalUrl": "https://www.drivearound.nyc/seventh/build.json",
+      "local": "dist/seventh/build.json",
+      "status": 200,
+      "bytes": 16180,
+      "sha256": "d489230130472e349e409ef49a539b803a91ae6e0bcbb2e6c93e25bda005c076",
+      "expectedSha256": "d489230130472e349e409ef49a539b803a91ae6e0bcbb2e6c93e25bda005c076",
+      "matches": true,
+      "headers": {
+        "content-type": "application/json; charset=utf-8",
+        "content-length": "16180",
+        "etag": "\"2f2a630e1747d7b404fa4bed5f5e271f\"",
+        "last-modified": "Mon, 12 Oct 2026 00:33:14 GMT",
+        "x-vercel-cache": "MISS"
+      }
+    },
+    {
+      "url": "https://drivearound.nyc/",
+      "finalUrl": "https://www.drivearound.nyc/",
+      "local": "dist/seventh/index.html",
+      "status": 200,
+      "bytes": 9846,
+      "sha256": "555e281877693244f97d947aafc811de11cff83693cd7247b47344e4094c095d",
+      "expectedSha256": "555e281877693244f97d947aafc811de11cff83693cd7247b47344e4094c095d",
+      "matches": true,
+      "headers": {
+        "content-type": "text/html; charset=utf-8",
+        "content-length": "9846",
+        "etag": "\"8813860cd29591c71adfbc3b129467ce\"",
+        "last-modified": "Mon, 12 Oct 2026 00:31:25 GMT",
+        "x-vercel-cache": "HIT"
+      }
+    },
+    {
+      "url": "https://drivearound.nyc/seventh/",
+      "finalUrl": "https://www.drivearound.nyc/seventh/",
+      "local": "dist/seventh/index.html",
+      "status": 200,
+      "bytes": 9846,
+      "sha256": "555e281877693244f97d947aafc811de11cff83693cd7247b47344e4094c095d",
+      "expectedSha256": "555e281877693244f97d947aafc811de11cff83693cd7247b47344e4094c095d",
+      "matches": true,
+      "headers": {
+        "content-type": "text/html; charset=utf-8",
+        "content-length": "9846",
+        "etag": "\"8813860cd29591c71adfbc3b129467ce\"",
+        "last-modified": "Mon, 12 Oct 2026 00:33:14 GMT",
+        "x-vercel-cache": "HIT"
+      }
+    },
+    {
+      "url": "https://drivearound.nyc/index.html",
+      "finalUrl": "https://www.drivearound.nyc/index.html",
+      "local": "dist/legacy.html",
+      "status": 200,
+      "bytes": 11540,
+      "sha256": "ad8fa5a259fea000caa0a463ce636ce5004dad5641d4c9f324930acdaacbb908",
+      "expectedSha256": "ad8fa5a259fea000caa0a463ce636ce5004dad5641d4c9f324930acdaacbb908",
+      "matches": true,
+      "headers": {
+        "content-type": "text/html; charset=utf-8",
+        "content-length": "11540",
+        "etag": "\"692220c7cd6fc7499355dbc7979aaca0\"",
+        "last-modified": "Mon, 12 Oct 2026 00:33:14 GMT",
+        "x-vercel-cache": "HIT"
+      }
+    },
+    {
+      "url": "https://drivearound.nyc/seventh/build.json",
+      "finalUrl": "https://www.drivearound.nyc/seventh/build.json",
+      "local": "dist/seventh/build.json",
+      "status": 200,
+      "bytes": 16180,
+      "sha256": "d489230130472e349e409ef49a539b803a91ae6e0bcbb2e6c93e25bda005c076",
+      "expectedSha256": "d489230130472e349e409ef49a539b803a91ae6e0bcbb2e6c93e25bda005c076",
+      "matches": true,
+      "headers": {
+        "content-type": "application/json; charset=utf-8",
+        "content-length": "16180",
+        "etag": "\"2f2a630e1747d7b404fa4bed5f5e271f\"",
+        "last-modified": "Mon, 12 Oct 2026 00:33:14 GMT",
+        "x-vercel-cache": "HIT"
+      }
+    },
+    {
+      "url": "https://borough-drive.vercel.app/",
+      "finalUrl": "https://borough-drive.vercel.app/",
+      "local": "dist/seventh/index.html",
+      "status": 200,
+      "bytes": 9846,
+      "sha256": "555e281877693244f97d947aafc811de11cff83693cd7247b47344e4094c095d",
+      "expectedSha256": "555e281877693244f97d947aafc811de11cff83693cd7247b47344e4094c095d",
+      "matches": true,
+      "headers": {
+        "content-type": "text/html; charset=utf-8",
+        "content-length": "9846",
+        "etag": "\"8813860cd29591c71adfbc3b129467ce\"",
+        "last-modified": "Mon, 12 Oct 2026 00:31:25 GMT",
+        "x-vercel-cache": "HIT"
+      }
+    },
+    {
+      "url": "https://borough-drive.vercel.app/seventh/",
+      "finalUrl": "https://borough-drive.vercel.app/seventh/",
+      "local": "dist/seventh/index.html",
+      "status": 200,
+      "bytes": 9846,
+      "sha256": "555e281877693244f97d947aafc811de11cff83693cd7247b47344e4094c095d",
+      "expectedSha256": "555e281877693244f97d947aafc811de11cff83693cd7247b47344e4094c095d",
+      "matches": true,
+      "headers": {
+        "content-type": "text/html; charset=utf-8",
+        "content-length": "9846",
+        "etag": "\"8813860cd29591c71adfbc3b129467ce\"",
+        "last-modified": "Mon, 12 Oct 2026 00:33:14 GMT",
+        "x-vercel-cache": "HIT"
+      }
+    },
+    {
+      "url": "https://borough-drive.vercel.app/index.html",
+      "finalUrl": "https://borough-drive.vercel.app/index.html",
+      "local": "dist/legacy.html",
+      "status": 200,
+      "bytes": 11540,
+      "sha256": "ad8fa5a259fea000caa0a463ce636ce5004dad5641d4c9f324930acdaacbb908",
+      "expectedSha256": "ad8fa5a259fea000caa0a463ce636ce5004dad5641d4c9f324930acdaacbb908",
+      "matches": true,
+      "headers": {
+        "content-type": "text/html; charset=utf-8",
+        "content-length": "11540",
+        "etag": "\"692220c7cd6fc7499355dbc7979aaca0\"",
+        "last-modified": "Mon, 12 Oct 2026 00:33:14 GMT",
+        "x-vercel-cache": "HIT"
+      }
+    },
+    {
+      "url": "https://borough-drive.vercel.app/seventh/build.json",
+      "finalUrl": "https://borough-drive.vercel.app/seventh/build.json",
+      "local": "dist/seventh/build.json",
+      "status": 200,
+      "bytes": 16180,
+      "sha256": "d489230130472e349e409ef49a539b803a91ae6e0bcbb2e6c93e25bda005c076",
+      "expectedSha256": "d489230130472e349e409ef49a539b803a91ae6e0bcbb2e6c93e25bda005c076",
+      "matches": true,
+      "headers": {
+        "content-type": "application/json; charset=utf-8",
+        "content-length": "16180",
+        "etag": "\"2f2a630e1747d7b404fa4bed5f5e271f\"",
+        "last-modified": "Mon, 12 Oct 2026 00:33:14 GMT",
+        "x-vercel-cache": "HIT"
+      }
+    },
+    {
+      "url": "https://www.drivearound.nyc/seventh/BARLOWCONDENSED-OFL.txt",
+      "finalUrl": "https://www.drivearound.nyc/seventh/BARLOWCONDENSED-OFL.txt",
+      "local": "dist/seventh/BARLOWCONDENSED-OFL.txt",
+      "status": 200,
+      "bytes": 4377,
+      "sha256": "186d750eb496a4c17a76385f82be6aea2ac1cf2de074a811d63786cf374ea73f",
+      "expectedSha256": "186d750eb496a4c17a76385f82be6aea2ac1cf2de074a811d63786cf374ea73f",
+      "matches": true,
+      "headers": {
+        "content-type": "text/plain; charset=utf-8",
+        "content-length": "4377",
+        "etag": "\"46cbde1f44ff31807ec209f1b72acad2\"",
+        "last-modified": "Mon, 12 Oct 2026 00:33:15 GMT",
+        "x-vercel-cache": "MISS"
+      }
+    },
+    {
+      "url": "https://www.drivearound.nyc/seventh/BEBASNEUE-OFL.txt",
+      "finalUrl": "https://www.drivearound.nyc/seventh/BEBASNEUE-OFL.txt",
+      "local": "dist/seventh/BEBASNEUE-OFL.txt",
+      "status": 200,
+      "bytes": 4337,
+      "sha256": "72082f6cb4d04be2ecf7cc7d9e1e7d73787f0af8a5a278a47cade70c16b78341",
+      "expectedSha256": "72082f6cb4d04be2ecf7cc7d9e1e7d73787f0af8a5a278a47cade70c16b78341",
+      "matches": true,
+      "headers": {
+        "content-type": "text/plain; charset=utf-8",
+        "content-length": "4337",
+        "etag": "\"58d71c1277650b56ed3aa6162f88c1de\"",
+        "last-modified": "Mon, 12 Oct 2026 00:33:15 GMT",
+        "x-vercel-cache": "MISS"
+      }
+    },
+    {
+      "url": "https://www.drivearound.nyc/seventh/DAMION-OFL.txt",
+      "finalUrl": "https://www.drivearound.nyc/seventh/DAMION-OFL.txt",
+      "local": "dist/seventh/DAMION-OFL.txt",
+      "status": 200,
+      "bytes": 4389,
+      "sha256": "4aeb831b7b6ab653dca84308e576613059c598696aa2dc83192ab6117b24a5fa",
+      "expectedSha256": "4aeb831b7b6ab653dca84308e576613059c598696aa2dc83192ab6117b24a5fa",
+      "matches": true,
+      "headers": {
+        "content-type": "text/plain; charset=utf-8",
+        "content-length": "4389",
+        "etag": "\"d5cef045be26b3079b68a89017d4d9af\"",
+        "last-modified": "Mon, 12 Oct 2026 00:33:15 GMT",
+        "x-vercel-cache": "MISS"
+      }
+    },
+    {
+      "url": "https://www.drivearound.nyc/seventh/INTER-OFL.txt",
+      "finalUrl": "https://www.drivearound.nyc/seventh/INTER-OFL.txt",
+      "local": "dist/seventh/INTER-OFL.txt",
+      "status": 200,
+      "bytes": 4380,
+      "sha256": "262481e844521b326f5ecd053e59b98c8b2da78c8ee1bdbb6e8174305e54935a",
+      "expectedSha256": "262481e844521b326f5ecd053e59b98c8b2da78c8ee1bdbb6e8174305e54935a",
+      "matches": true,
+      "headers": {
+        "content-type": "text/plain; charset=utf-8",
+        "content-length": "4380",
+        "etag": "\"082d8cc7db39783f598b7eda8c911f9d\"",
+        "last-modified": "Mon, 12 Oct 2026 00:33:15 GMT",
+        "x-vercel-cache": "MISS"
+      }
+    },
+    {
+      "url": "https://www.drivearound.nyc/seventh/InterVariable.woff2",
+      "finalUrl": "https://www.drivearound.nyc/seventh/InterVariable.woff2",
+      "local": "dist/seventh/InterVariable.woff2",
+      "status": 200,
+      "bytes": 352240,
+      "sha256": "693b77d4f32ee9b8bfc995589b5fad5e99adf2832738661f5402f9978429a8e3",
+      "expectedSha256": "693b77d4f32ee9b8bfc995589b5fad5e99adf2832738661f5402f9978429a8e3",
+      "matches": true,
+      "headers": {
+        "content-type": "font/woff2",
+        "content-length": "352240",
+        "etag": "\"2bf3d951bf9d6109437ea0874bbf12fb\"",
+        "last-modified": "Mon, 12 Oct 2026 00:31:26 GMT",
+        "x-vercel-cache": "HIT"
+      }
+    },
+    {
+      "url": "https://www.drivearound.nyc/seventh/LIBREBASKERVILLE-OFL.txt",
+      "finalUrl": "https://www.drivearound.nyc/seventh/LIBREBASKERVILLE-OFL.txt",
+      "local": "dist/seventh/LIBREBASKERVILLE-OFL.txt",
+      "status": 200,
+      "bytes": 4542,
+      "sha256": "3624eddd4c8f8a908130a417ae7cd089c9da69899c4e0ca1a5217d0a6fae16fd",
+      "expectedSha256": "3624eddd4c8f8a908130a417ae7cd089c9da69899c4e0ca1a5217d0a6fae16fd",
+      "matches": true,
+      "headers": {
+        "content-type": "text/plain; charset=utf-8",
+        "content-length": "4542",
+        "etag": "\"585261c25563d76996884860f128bcf1\"",
+        "last-modified": "Mon, 12 Oct 2026 00:33:15 GMT",
+        "x-vercel-cache": "MISS"
+      }
+    },
+    {
+      "url": "https://www.drivearound.nyc/seventh/LICENSE.txt",
+      "finalUrl": "https://www.drivearound.nyc/seventh/LICENSE.txt",
+      "local": "dist/seventh/LICENSE.txt",
+      "status": 200,
+      "bytes": 1097,
+      "sha256": "d698c1c978070d4305be75e60e904f6f54715f003fe248a23bf8b3ee0ca07134",
+      "expectedSha256": "d698c1c978070d4305be75e60e904f6f54715f003fe248a23bf8b3ee0ca07134",
+      "matches": true,
+      "headers": {
+        "content-type": "text/plain; charset=utf-8",
+        "content-length": "1097",
+        "etag": "\"fb7a601f38fc61124577b165c253335d\"",
+        "last-modified": "Mon, 12 Oct 2026 00:33:15 GMT",
+        "x-vercel-cache": "MISS"
+      }
+    },
+    {
+      "url": "https://www.drivearound.nyc/seventh/MONTSERRAT-OFL.txt",
+      "finalUrl": "https://www.drivearound.nyc/seventh/MONTSERRAT-OFL.txt",
+      "local": "dist/seventh/MONTSERRAT-OFL.txt",
+      "status": 200,
+      "bytes": 4400,
+      "sha256": "8b7141c03fa4f8d44e6345d5d4931709290f0f67875e452e95ac1fd3a027802e",
+      "expectedSha256": "8b7141c03fa4f8d44e6345d5d4931709290f0f67875e452e95ac1fd3a027802e",
+      "matches": true,
+      "headers": {
+        "content-type": "text/plain; charset=utf-8",
+        "content-length": "4400",
+        "etag": "\"2fdec60339ef243dcaca42a0c7bce717\"",
+        "last-modified": "Mon, 12 Oct 2026 00:33:15 GMT",
+        "x-vercel-cache": "MISS"
+      }
+    },
+    {
+      "url": "https://www.drivearound.nyc/seventh/credits.txt",
+      "finalUrl": "https://www.drivearound.nyc/seventh/credits.txt",
+      "local": "dist/seventh/credits.txt",
+      "status": 200,
+      "bytes": 4107,
+      "sha256": "27b3349ab601fcfb88ec34c62ba480c01e97337dee1f0996d34496fbb0fda888",
+      "expectedSha256": "27b3349ab601fcfb88ec34c62ba480c01e97337dee1f0996d34496fbb0fda888",
+      "matches": true,
+      "headers": {
+        "content-type": "text/plain; charset=utf-8",
+        "content-length": "4107",
+        "etag": "\"28b3b6e8167b64a6652bc21d14a7f9dd\"",
+        "last-modified": "Mon, 12 Oct 2026 00:33:15 GMT",
+        "x-vercel-cache": "MISS"
+      }
+    },
+    {
+      "url": "https://www.drivearound.nyc/seventh/drivearound-logo.png",
+      "finalUrl": "https://www.drivearound.nyc/seventh/drivearound-logo.png",
+      "local": "dist/seventh/drivearound-logo.png",
+      "status": 200,
+      "bytes": 80463,
+      "sha256": "9156dec61cc0ab10adb5b471e7f80d77d4e79102c2a4069e09227f93462f5448",
+      "expectedSha256": "9156dec61cc0ab10adb5b471e7f80d77d4e79102c2a4069e09227f93462f5448",
+      "matches": true,
+      "headers": {
+        "content-type": "image/png",
+        "content-length": "80463",
+        "etag": "\"3e16015542ddc9beac1604710d06f681\"",
+        "last-modified": "Mon, 12 Oct 2026 00:31:26 GMT",
+        "x-vercel-cache": "HIT"
+      }
+    },
+    {
+      "url": "https://www.drivearound.nyc/seventh/godot-notices.txt",
+      "finalUrl": "https://www.drivearound.nyc/seventh/godot-notices.txt",
+      "local": "dist/seventh/godot-notices.txt",
+      "status": 200,
+      "bytes": 87732,
+      "sha256": "96b99d808a955ca39a6a8db9b93b3c04d012d1d71109c9e1dd8af85f00eeeb98",
+      "expectedSha256": "96b99d808a955ca39a6a8db9b93b3c04d012d1d71109c9e1dd8af85f00eeeb98",
+      "matches": true,
+      "headers": {
+        "content-type": "text/plain; charset=utf-8",
+        "content-length": "87732",
+        "etag": "\"0d8494cb3f436c46c464b97a69944868\"",
+        "last-modified": "Mon, 12 Oct 2026 00:33:15 GMT",
+        "x-vercel-cache": "MISS"
+      }
+    },
+    {
+      "url": "https://www.drivearound.nyc/seventh/index.audio.position.worklet.js",
+      "finalUrl": "https://www.drivearound.nyc/seventh/index.audio.position.worklet.js",
+      "local": "dist/seventh/index.audio.position.worklet.js",
+      "status": 200,
+      "bytes": 2973,
+      "sha256": "be33985bc7160d6bf9646f259cd86b259cd67b02ccb297ee5c44f8ac84327bc8",
+      "expectedSha256": "be33985bc7160d6bf9646f259cd86b259cd67b02ccb297ee5c44f8ac84327bc8",
+      "matches": true,
+      "headers": {
+        "content-type": "application/javascript; charset=utf-8",
+        "content-length": "2973",
+        "etag": "\"8a7370a54ea5758d957875cbeb24416c\"",
+        "last-modified": "Mon, 12 Oct 2026 00:31:34 GMT",
+        "x-vercel-cache": "HIT"
+      }
+    },
+    {
+      "url": "https://www.drivearound.nyc/seventh/index.audio.worklet.js",
+      "finalUrl": "https://www.drivearound.nyc/seventh/index.audio.worklet.js",
+      "local": "dist/seventh/index.audio.worklet.js",
+      "status": 200,
+      "bytes": 7298,
+      "sha256": "5b476a9c9ce642c0ee4256436d1bc31d9c38f868aca0f9a8e2a57c18d2dec2a3",
+      "expectedSha256": "5b476a9c9ce642c0ee4256436d1bc31d9c38f868aca0f9a8e2a57c18d2dec2a3",
+      "matches": true,
+      "headers": {
+        "content-type": "application/javascript; charset=utf-8",
+        "content-length": "7298",
+        "etag": "\"c55ea38b7dbd5eb296a8353e7e360ae9\"",
+        "last-modified": "Mon, 12 Oct 2026 00:31:34 GMT",
+        "x-vercel-cache": "HIT"
+      }
+    },
+    {
+      "url": "https://www.drivearound.nyc/seventh/index.html",
+      "finalUrl": "https://www.drivearound.nyc/seventh/index.html",
+      "local": "dist/seventh/index.html",
+      "status": 200,
+      "bytes": 9846,
+      "sha256": "555e281877693244f97d947aafc811de11cff83693cd7247b47344e4094c095d",
+      "expectedSha256": "555e281877693244f97d947aafc811de11cff83693cd7247b47344e4094c095d",
+      "matches": true,
+      "headers": {
+        "content-type": "text/html; charset=utf-8",
+        "content-length": "9846",
+        "etag": "\"8813860cd29591c71adfbc3b129467ce\"",
+        "last-modified": "Mon, 12 Oct 2026 00:31:25 GMT",
+        "x-vercel-cache": "HIT"
+      }
+    },
+    {
+      "url": "https://www.drivearound.nyc/seventh/index.js",
+      "finalUrl": "https://www.drivearound.nyc/seventh/index.js",
+      "local": "dist/seventh/index.js",
+      "status": 200,
+      "bytes": 279815,
+      "sha256": "33c94cb3175f3333b82e2a3be5e8e86f77986f0aa2042b1631f6367a4e5bb6ba",
+      "expectedSha256": "33c94cb3175f3333b82e2a3be5e8e86f77986f0aa2042b1631f6367a4e5bb6ba",
+      "matches": true,
+      "headers": {
+        "content-type": "application/javascript; charset=utf-8",
+        "content-length": "279815",
+        "etag": "\"304c6a520d2dbc82062dc50ef6a695bf\"",
+        "last-modified": "Mon, 12 Oct 2026 00:31:26 GMT",
+        "x-vercel-cache": "HIT"
+      }
+    },
+    {
+      "url": "https://www.drivearound.nyc/seventh/index.pck",
+      "finalUrl": "https://www.drivearound.nyc/seventh/index.pck",
+      "local": "dist/seventh/index.pck",
+      "status": 200,
+      "bytes": 102660112,
+      "sha256": "8da68329347228060231d47f46e80c9d6233b6afb0469fd43611bdc83204b1d0",
+      "expectedSha256": "8da68329347228060231d47f46e80c9d6233b6afb0469fd43611bdc83204b1d0",
+      "matches": true,
+      "headers": {
+        "content-type": "application/octet-stream",
+        "content-length": "102660112",
+        "etag": "\"df9989551cbbd9bd6aaa69d0229278f2\"",
+        "last-modified": "Mon, 12 Oct 2026 00:31:27 GMT",
+        "x-vercel-cache": "HIT"
+      }
+    },
+    {
+      "url": "https://www.drivearound.nyc/seventh/index.png",
+      "finalUrl": "https://www.drivearound.nyc/seventh/index.png",
+      "local": "dist/seventh/index.png",
+      "status": 200,
+      "bytes": 21443,
+      "sha256": "3cb4495c0b98dfbe4b663cbf2b6836473572339beb66d902367893162a70be0e",
+      "expectedSha256": "3cb4495c0b98dfbe4b663cbf2b6836473572339beb66d902367893162a70be0e",
+      "matches": true,
+      "headers": {
+        "content-type": "image/png",
+        "content-length": "21443",
+        "etag": "\"7e41bf3051b18e392a4bb6c0cc45cd7c\"",
+        "last-modified": "Mon, 12 Oct 2026 00:33:16 GMT",
+        "x-vercel-cache": "MISS"
+      }
+    },
+    {
+      "url": "https://www.drivearound.nyc/seventh/index.wasm",
+      "finalUrl": "https://www.drivearound.nyc/seventh/index.wasm",
+      "local": "dist/seventh/index.wasm",
+      "status": 200,
+      "bytes": 39514754,
+      "sha256": "fc74679e3b97f76878947fcd4fbe1268cbfa6188182a2e33bbc3f5dc9bfa57d0",
+      "expectedSha256": "fc74679e3b97f76878947fcd4fbe1268cbfa6188182a2e33bbc3f5dc9bfa57d0",
+      "matches": true,
+      "headers": {
+        "content-type": "application/wasm",
+        "content-length": "39514754",
+        "etag": "\"83e2f97ab834d857572e3da40d56e70d\"",
+        "last-modified": "Mon, 12 Oct 2026 00:31:27 GMT",
+        "x-vercel-cache": "HIT"
+      }
+    },
+    {
+      "url": "https://www.drivearound.nyc/reconstruction/ASSET-CREDITS.md",
+      "finalUrl": "https://www.drivearound.nyc/reconstruction/ASSET-CREDITS.md",
+      "local": "dist/reconstruction/ASSET-CREDITS.md",
+      "status": 200,
+      "bytes": 17844,
+      "sha256": "84eba40f1f4d63b18012bb7532f6775d464c7d8ff20d5bae5b498dcd7e955299",
+      "expectedSha256": "84eba40f1f4d63b18012bb7532f6775d464c7d8ff20d5bae5b498dcd7e955299",
+      "matches": true,
+      "headers": {
+        "content-type": "text/markdown; charset=utf-8",
+        "content-length": "17844",
+        "etag": "\"f658a58fa47e525e1284280c9f949be5\"",
+        "last-modified": "Mon, 12 Oct 2026 00:33:16 GMT",
+        "x-vercel-cache": "MISS"
+      }
+    }
+  ],
+  "complete": true
+}
