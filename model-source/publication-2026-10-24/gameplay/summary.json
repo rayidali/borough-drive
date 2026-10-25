@@ -1,0 +1,24 @@
+{
+  "date": "2026-10-25T02:25:45.969631+00:00",
+  "url": "https://www.drivearound.nyc/seventh/?review=1",
+  "pack": {
+    "bytes": 8178208,
+    "sha256": "b0100bd00b509f41afce60e8648e42c6892664b73c4757fc8ba49300f2d2b9ab",
+    "brotliBytes": 7449476
+  },
+  "complete": true,
+  "routes": 8,
+  "boundaries": 8,
+  "cameras": 4,
+  "residentOwners": 295,
+  "errors": [],
+  "warnings": [],
+  "failedRequests": [],
+  "inspectedImages": [
+    "first-north.jpg",
+    "ninth-east.jpg",
+    "reset-seventh.jpg"
+  ],
+  "visualFinding": "Three representative production game images visibly show expected Ninth and preserved Seventh geometry/interface. Boundary fog/barricades remain; this is a deployment smoke review, not a repeated per-business photographic audit.",
+  "performanceLimit": "One production-browser route pass; no fresh cold/warm distribution, paired benchmark or mobile/capacity claim. Original October 15 performance limits remain."
+}

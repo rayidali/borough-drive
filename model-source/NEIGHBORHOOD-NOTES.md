@@ -1,4 +1,6 @@
-# East Village neighborhood — continuation notes, October 23, 2026
+# East Village neighborhood — continuation notes, October 24, 2026
+
+**October 24 current checkpoint:** both Ninth blocks and the complete 295-model runtime/source/evidence are pushed to `main`; final CI, deployment and live-file/cache verification pass. **Tenth Second–First, both sides, is now assigned.** Its initial inventory separates 29 editable faces on 27 new buildings from six protected Tenth faces on four accepted core buildings. Original core reuse requires a separate adapter because the current Godot export excludes core buildings. [Current handoff](../CODEX-HANDOFF.md) · [Publication record](publication-2026-10-24/README.md). Earlier dated statements below remain historical evidence, not current pauses.
 
 **Current close before editor/terminal restart:** the new-laptop migration is complete, including Blender/Godot, Node/Python libraries, GitHub authentication and visibly working browser Street View. Fresh-shell Homebrew Node 22 and project-local Node 24 are both verified. [Restart instructions](../START-HERE.md#after-restarting-vs-code-or-terminal) and the [latest handoff](../CODEX-HANDOFF.md) preserve exact tool paths, checks, recovery archives and next action. All 295 models remain local/uncommitted; GitHub/live remain the earlier 203-model revision. No new block or publication was performed. Tenth Second–First is still proposed and begins with protected-core ownership preparation when assigned. Keep the dated observations and performance limits below unchanged.
 

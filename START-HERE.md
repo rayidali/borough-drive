@@ -1,5 +1,7 @@
 # Run DriveAround.nyc locally
 
+**October 24 current state:** the 295-model expansion and review evidence are pushed to `main`; final CI, deployment and live-file/cache verification pass. Follow the [current handoff](CODEX-HANDOFF.md) for exact CI/live state and the assigned Tenth block. Existing tools, login and cached models remain ready; the restart commands below still apply. Earlier October 23 publication statements describe that dated checkpoint.
+
 ## After restarting VS Code or Terminal
 
 **October 23 close:** the project was transferred to this new laptop, its tools and Street View access were restored/tested, and the user is restarting VS Code before returning. Saved work and installed tools persist; terminal-launched preview/browser processes may need restarting. The **295-model expansion is local/uncommitted**; GitHub/live still have the earlier **203-model revision 09**, as checked during restoration. Read [CODEX-HANDOFF.md](CODEX-HANDOFF.md) first. No reinstall, new GitHub login, new model build or publication is needed just to resume.

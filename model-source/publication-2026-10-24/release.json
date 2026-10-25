@@ -1,0 +1,32 @@
+{
+  "release": "888f5b8",
+  "runtimeSourceRelease": "de27f5a212d49688a4a74519ac208a628925e777",
+  "checks": [
+    {
+      "name": "Node.js 22",
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/rayidali/borough-drive/actions/runs/40154754104/job/121053625633",
+      "completedAt": "2026-10-25T02:34:12Z"
+    },
+    {
+      "name": "Node.js 24",
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/rayidali/borough-drive/actions/runs/40154754104/job/121053625421",
+      "completedAt": "2026-10-25T02:34:10Z"
+    }
+  ],
+  "vercel": {
+    "state": "success",
+    "url": "https://vercel.com/rayidalis-projects/borough-drive/Exqb762rf4qaLvD7beyc1We51F1X"
+  },
+  "evidenceCommits": [
+    "a0e9cda69f7b0d726d9510ce8d0cb1df1ff7204e",
+    "682431b",
+    "3d7290e"
+  ],
+  "hostedReport": "hosting.json",
+  "browserReport": "gameplay/summary.json",
+  "limits": "Release checks identify implementation 888f5b8; later checkpoint-only commits have their own GitHub status. Historical photographic and performance limitations remain."
+}
