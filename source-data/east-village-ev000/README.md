@@ -1,5 +1,9 @@
 # EV-000 public geography snapshot
 
+<!-- current-project-status -->
+> **Current status:** The [project handoff](../../CODEX-HANDOFF.md) governs current scope, publication and next work. This file retains its dated observations, evidence or specialist instructions. See [browser scaling](../../docs/BROWSER-SCALING.md) for the current loading/rendering work; older model counts and paused states describe their original checkpoints.
+<!-- /current-project-status -->
+
 Retrieved October 12, 2026 for the authorized East Village boundary/topology inventory. These selected public municipal records are planning inputs; no photographs, property-owner records, financial records, credentials or paid endpoints are included. The initial bounding box includes surrounding context so the exact project polygon can clip whole source features. It is not the authoring boundary.
 
 | Source | Publisher and original service | Saved features before project clipping |

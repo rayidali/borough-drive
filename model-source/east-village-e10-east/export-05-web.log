@@ -1,0 +1,12 @@
+
+> drivearound-nyc@0.4.0 seventh:build
+> node scripts/export-seventh.mjs
+
+file:///Users/rayidali/Desktop/borough-drive/scripts/export-seventh.mjs:24
+  if(actual!==expected)throw Error('Re-export the Blender models after editing '+name);
+                             ^
+
+Error: Re-export the Blender models after editing model-source/author_e10_east.py
+    at file:///Users/rayidali/Desktop/borough-drive/scripts/export-seventh.mjs:24:30
+
+Node.js v22.23.4

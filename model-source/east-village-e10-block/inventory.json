@@ -1,0 +1,5192 @@
+{
+  "schema": 1,
+  "id": "01-E10-21",
+  "recorded": "2026-10-25T02:24:50.340839+00:00",
+  "mode": "authorized implementation; ownership preparation",
+  "scope": {
+    "street": "East Tenth Street",
+    "from": "Second Avenue",
+    "to": "First Avenue",
+    "sides": "both",
+    "primaryFaces": 27,
+    "cornerReturns": 2,
+    "editableFaces": 29,
+    "newBuildingOwners": 27,
+    "protectedTenthFaces": 6,
+    "sourceStatus": "Mapped identities/geometry only; no fresh photographic observation yet.",
+    "publication": "Existing 295-model release authorized; new Tenth result stays local pending review/publication direction."
+  },
+  "faces": [
+    {
+      "faceId": "247851894:0",
+      "buildingId": 247851894,
+      "frontageIndex": 0,
+      "mappedAddress": "205 East 10th Street",
+      "sourceFace": {
+        "x": -181.318,
+        "z": -9.199,
+        "rx": 0.9999998281037332,
+        "rz": -0.0005863382164197271,
+        "length": 13.644,
+        "street": "East 10th Street"
+      },
+      "sourceFootprint": [
+        [
+          -174.453,
+          -34.261
+        ],
+        [
+          -169.842,
+          -34.266
+        ],
+        [
+          -169.772,
+          -17.58
+        ],
+        [
+          -167.707,
+          -17.582
+        ],
+        [
+          -167.707,
+          -16.105
+        ],
+        [
+          -167.674,
+          -9.207
+        ],
+        [
+          -181.318,
+          -9.199
+        ],
+        [
+          -181.345,
+          -16.329
+        ],
+        [
+          -180.189,
+          -16.335
+        ],
+        [
+          -180.228,
+          -26.299
+        ],
+        [
+          -182.986,
+          -26.294
+        ],
+        [
+          -183.019,
+          -32.95
+        ],
+        [
+          -180.826,
+          -32.947
+        ],
+        [
+          -180.872,
+          -43.582
+        ],
+        [
+          -174.495,
+          -43.588
+        ],
+        [
+          -174.488,
+          -41.388
+        ]
+      ],
+      "mappedHeight": 19.43,
+      "side": "north",
+      "role": "assigned-primary",
+      "state": "needs-evidence",
+      "businesses": [],
+      "referenceRoadViewpoint": {
+        "lat": 40.7295502,
+        "lon": -73.986244,
+        "heading": 29.0,
+        "locator": "https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=40.7295502,-73.9862440&heading=29.0&pitch=12&fov=85",
+        "state": "Candidate locator from mapped facade; not opened or inspected"
+      }
+    },
+    {
+      "faceId": "247851895:0",
+      "buildingId": 247851895,
+      "frontageIndex": 0,
+      "mappedAddress": "209 East 10th Street",
+      "sourceFace": {
+        "x": -167.674,
+        "z": -9.207,
+        "rx": 0.9999995997713813,
+        "rz": -0.000894682668507072,
+        "length": 7.824,
+        "street": "East 10th Street"
+      },
+      "sourceFootprint": [
+        [
+          -159.946,
+          -30.356
+        ],
+        [
+          -160.435,
+          -30.351
+        ],
+        [
+          -160.419,
+          -27.736
+        ],
+        [
+          -162.057,
+          -27.73
+        ],
+        [
+          -162.04,
+          -23.689
+        ],
+        [
+          -160.736,
+          -23.688
+        ],
+        [
+          -160.708,
+          -17.806
+        ],
+        [
+          -159.883,
+          -16.112
+        ],
+        [
+          -159.877,
+          -14.714
+        ],
+        [
+          -159.85,
+          -9.214
+        ],
+        [
+          -167.674,
+          -9.207
+        ],
+        [
+          -167.707,
+          -16.105
+        ],
+        [
+          -166.759,
+          -17.803
+        ],
+        [
+          -166.787,
+          -23.686
+        ],
+        [
+          -165.734,
+          -23.685
+        ],
+        [
+          -165.752,
+          -27.726
+        ],
+        [
+          -167.382,
+          -27.724
+        ],
+        [
+          -167.414,
+          -34.864
+        ],
+        [
+          -159.964,
+          -34.867
+        ],
+        [
+          -159.951,
+          -30.99
+        ]
+      ],
+      "mappedHeight": 17.36,
+      "side": "north",
+      "role": "assigned-primary",
+      "state": "needs-evidence",
+      "businesses": [],
+      "referenceRoadViewpoint": {
+        "lat": 40.7295034,
+        "lon": -73.9861328,
+        "heading": 29.0,
+        "locator": "https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=40.7295034,-73.9861328&heading=29.0&pitch=12&fov=85",
+        "state": "Candidate locator from mapped facade; not opened or inspected"
+      }
+    },
+    {
+      "faceId": "247851896:0",
+      "buildingId": 247851896,
+      "frontageIndex": 0,
+      "mappedAddress": "211 East 10th Street",
+      "sourceFace": {
+        "x": -159.85,
+        "z": -9.214,
+        "rx": 0.9999987468782475,
+        "rz": -0.0015831114726305342,
+        "length": 7.58,
+        "street": "East 10th Street"
+      },
+      "sourceFootprint": [
+        [
+          -152.357,
+          -28.373
+        ],
+        [
+          -154.163,
+          -28.374
+        ],
+        [
+          -154.147,
+          -24.129
+        ],
+        [
+          -152.334,
+          -24.131
+        ],
+        [
+          -152.32,
+          -18.725
+        ],
+        [
+          -153.516,
+          -18.723
+        ],
+        [
+          -153.506,
+          -15.633
+        ],
+        [
+          -152.299,
+          -14.712
+        ],
+        [
+          -152.27,
+          -9.226
+        ],
+        [
+          -159.85,
+          -9.214
+        ],
+        [
+          -159.877,
+          -14.714
+        ],
+        [
+          -158.899,
+          -15.627
+        ],
+        [
+          -158.916,
+          -18.713
+        ],
+        [
+          -160.016,
+          -18.713
+        ],
+        [
+          -160.042,
+          -24.124
+        ],
+        [
+          -156.87,
+          -24.13
+        ],
+        [
+          -156.874,
+          -26.446
+        ],
+        [
+          -158.959,
+          -26.446
+        ],
+        [
+          -158.974,
+          -30.985
+        ],
+        [
+          -159.951,
+          -30.99
+        ],
+        [
+          -159.964,
+          -34.867
+        ],
+        [
+          -152.384,
+          -34.879
+        ],
+        [
+          -152.385,
+          -33.961
+        ]
+      ],
+      "mappedHeight": 21.88,
+      "side": "north",
+      "role": "assigned-primary",
+      "state": "needs-evidence",
+      "businesses": [],
+      "referenceRoadViewpoint": {
+        "lat": 40.7294698,
+        "lon": -73.9860529,
+        "heading": 29.0,
+        "locator": "https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=40.7294698,-73.9860529&heading=29.0&pitch=12&fov=85",
+        "state": "Candidate locator from mapped facade; not opened or inspected"
+      }
+    },
+    {
+      "faceId": "247851897:0",
+      "buildingId": 247851897,
+      "frontageIndex": 0,
+      "mappedAddress": "213 East 10th Street",
+      "sourceFace": {
+        "x": -152.27,
+        "z": -9.226,
+        "rx": 0.9999999213896393,
+        "rz": -0.00039651067461898685,
+        "length": 7.566,
+        "street": "East 10th Street"
+      },
+      "sourceFootprint": [
+        [
+          -144.784,
+          -28.38
+        ],
+        [
+          -145.658,
+          -27.384
+        ],
+        [
+          -145.645,
+          -24.322
+        ],
+        [
+          -146.657,
+          -24.32
+        ],
+        [
+          -146.645,
+          -20.722
+        ],
+        [
+          -145.627,
+          -20.715
+        ],
+        [
+          -145.618,
+          -17.243
+        ],
+        [
+          -144.732,
+          -16.588
+        ],
+        [
+          -144.704,
+          -9.229
+        ],
+        [
+          -152.27,
+          -9.226
+        ],
+        [
+          -152.299,
+          -14.712
+        ],
+        [
+          -152.305,
+          -16.581
+        ],
+        [
+          -151.663,
+          -17.231
+        ],
+        [
+          -151.678,
+          -20.713
+        ],
+        [
+          -150.455,
+          -20.718
+        ],
+        [
+          -150.467,
+          -24.315
+        ],
+        [
+          -151.69,
+          -24.31
+        ],
+        [
+          -151.704,
+          -27.372
+        ],
+        [
+          -152.357,
+          -28.373
+        ],
+        [
+          -152.385,
+          -33.961
+        ],
+        [
+          -144.812,
+          -33.969
+        ]
+      ],
+      "mappedHeight": 17.47,
+      "side": "north",
+      "role": "assigned-primary",
+      "state": "needs-evidence",
+      "businesses": [],
+      "referenceRoadViewpoint": {
+        "lat": 40.7294369,
+        "lon": -73.9859745,
+        "heading": 29.1,
+        "locator": "https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=40.7294369,-73.9859745&heading=29.1&pitch=12&fov=85",
+        "state": "Candidate locator from mapped facade; not opened or inspected"
+      }
+    },
+    {
+      "faceId": "247851898:0",
+      "buildingId": 247851898,
+      "frontageIndex": 0,
+      "mappedAddress": "215 East 10th Street",
+      "sourceFace": {
+        "x": -144.704,
+        "z": -9.229,
+        "rx": 0.9999991235433027,
+        "rz": -0.0013239760671831845,
+        "length": 7.553,
+        "street": "East 10th Street"
+      },
+      "sourceFootprint": [
+        [
+          -137.238,
+          -28.385
+        ],
+        [
+          -138.171,
+          -26.937
+        ],
+        [
+          -138.162,
+          -24.369
+        ],
+        [
+          -139.221,
+          -24.366
+        ],
+        [
+          -139.206,
+          -20.744
+        ],
+        [
+          -138.146,
+          -20.748
+        ],
+        [
+          -138.128,
+          -17.522
+        ],
+        [
+          -137.186,
+          -16.556
+        ],
+        [
+          -137.18,
+          -15.018
+        ],
+        [
+          -137.151,
+          -9.239
+        ],
+        [
+          -144.704,
+          -9.229
+        ],
+        [
+          -144.732,
+          -16.588
+        ],
+        [
+          -143.752,
+          -17.516
+        ],
+        [
+          -143.77,
+          -20.741
+        ],
+        [
+          -143.199,
+          -20.74
+        ],
+        [
+          -143.208,
+          -24.365
+        ],
+        [
+          -143.785,
+          -24.363
+        ],
+        [
+          -143.794,
+          -26.931
+        ],
+        [
+          -144.784,
+          -28.38
+        ],
+        [
+          -144.812,
+          -33.969
+        ],
+        [
+          -137.267,
+          -33.974
+        ]
+      ],
+      "mappedHeight": 20.78,
+      "side": "north",
+      "role": "assigned-primary",
+      "state": "needs-evidence",
+      "businesses": [],
+      "referenceRoadViewpoint": {
+        "lat": 40.7294039,
+        "lon": -73.985896,
+        "heading": 29.0,
+        "locator": "https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=40.7294039,-73.9858960&heading=29.0&pitch=12&fov=85",
+        "state": "Candidate locator from mapped facade; not opened or inspected"
+      }
+    },
+    {
+      "faceId": "247851899:0",
+      "buildingId": 247851899,
+      "frontageIndex": 0,
+      "mappedAddress": "217 East 10th Street",
+      "sourceFace": {
+        "x": -137.151,
+        "z": -9.239,
+        "rx": 0.999999118649191,
+        "rz": -0.00132766744377213,
+        "length": 7.532,
+        "street": "East 10th Street"
+      },
+      "sourceFootprint": [
+        [
+          -129.698,
+          -28.4
+        ],
+        [
+          -130.502,
+          -26.947
+        ],
+        [
+          -130.5,
+          -24.668
+        ],
+        [
+          -131.75,
+          -24.661
+        ],
+        [
+          -131.738,
+          -21.827
+        ],
+        [
+          -130.482,
+          -21.825
+        ],
+        [
+          -130.458,
+          -16.348
+        ],
+        [
+          -129.635,
+          -15.023
+        ],
+        [
+          -129.619,
+          -9.249
+        ],
+        [
+          -137.151,
+          -9.239
+        ],
+        [
+          -137.18,
+          -15.018
+        ],
+        [
+          -136.15,
+          -16.342
+        ],
+        [
+          -136.179,
+          -21.829
+        ],
+        [
+          -135.215,
+          -21.83
+        ],
+        [
+          -135.227,
+          -24.664
+        ],
+        [
+          -136.191,
+          -24.662
+        ],
+        [
+          -136.194,
+          -26.941
+        ],
+        [
+          -137.238,
+          -28.385
+        ],
+        [
+          -137.267,
+          -33.974
+        ],
+        [
+          -137.266,
+          -34.649
+        ],
+        [
+          -129.726,
+          -34.664
+        ],
+        [
+          -129.719,
+          -33.471
+        ]
+      ],
+      "mappedHeight": 18.26,
+      "side": "north",
+      "role": "assigned-primary",
+      "state": "needs-evidence",
+      "businesses": [],
+      "referenceRoadViewpoint": {
+        "lat": 40.729371,
+        "lon": -73.9858178,
+        "heading": 29.0,
+        "locator": "https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=40.7293710,-73.9858178&heading=29.0&pitch=12&fov=85",
+        "state": "Candidate locator from mapped facade; not opened or inspected"
+      }
+    },
+    {
+      "faceId": "247851900:0",
+      "buildingId": 247851900,
+      "frontageIndex": 0,
+      "mappedAddress": "219 East 10th Street",
+      "sourceFace": {
+        "x": -129.619,
+        "z": -9.249,
+        "rx": 0.999999149635264,
+        "rz": -0.0013041199134523238,
+        "length": 7.668,
+        "street": "East 10th Street"
+      },
+      "sourceFootprint": [
+        [
+          -122.032,
+          -27.581
+        ],
+        [
+          -122.867,
+          -26.582
+        ],
+        [
+          -122.85,
+          -23.063
+        ],
+        [
+          -124.161,
+          -23.06
+        ],
+        [
+          -124.148,
+          -19.946
+        ],
+        [
+          -122.837,
+          -19.949
+        ],
+        [
+          -122.822,
+          -16.417
+        ],
+        [
+          -121.975,
+          -15.448
+        ],
+        [
+          -121.951,
+          -9.259
+        ],
+        [
+          -129.619,
+          -9.249
+        ],
+        [
+          -129.635,
+          -15.023
+        ],
+        [
+          -129.636,
+          -15.443
+        ],
+        [
+          -128.446,
+          -16.41
+        ],
+        [
+          -128.461,
+          -19.943
+        ],
+        [
+          -127.265,
+          -19.945
+        ],
+        [
+          -127.278,
+          -23.059
+        ],
+        [
+          -128.474,
+          -23.056
+        ],
+        [
+          -128.491,
+          -26.575
+        ],
+        [
+          -129.693,
+          -27.575
+        ],
+        [
+          -129.698,
+          -28.4
+        ],
+        [
+          -129.719,
+          -33.471
+        ],
+        [
+          -122.051,
+          -33.481
+        ]
+      ],
+      "mappedHeight": 20.16,
+      "side": "north",
+      "role": "assigned-primary",
+      "state": "needs-evidence",
+      "businesses": [],
+      "referenceRoadViewpoint": {
+        "lat": 40.7293379,
+        "lon": -73.985739,
+        "heading": 29.0,
+        "locator": "https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=40.7293379,-73.9857390&heading=29.0&pitch=12&fov=85",
+        "state": "Candidate locator from mapped facade; not opened or inspected"
+      }
+    },
+    {
+      "faceId": "247851901:0",
+      "buildingId": 247851901,
+      "frontageIndex": 0,
+      "mappedAddress": "221 East 10th Street",
+      "sourceFace": {
+        "x": -121.951,
+        "z": -9.259,
+        "rx": 0.9999995803710797,
+        "rz": -0.0009161100723200156,
+        "length": 7.641,
+        "street": "East 10th Street"
+      },
+      "sourceFootprint": [
+        [
+          -114.392,
+          -27.588
+        ],
+        [
+          -115.348,
+          -26.114
+        ],
+        [
+          -115.332,
+          -23.065
+        ],
+        [
+          -116.148,
+          -23.057
+        ],
+        [
+          -116.139,
+          -19.777
+        ],
+        [
+          -115.317,
+          -19.775
+        ],
+        [
+          -115.308,
+          -17.067
+        ],
+        [
+          -114.343,
+          -15.973
+        ],
+        [
+          -114.34,
+          -15.708
+        ],
+        [
+          -114.31,
+          -9.266
+        ],
+        [
+          -121.951,
+          -9.259
+        ],
+        [
+          -121.975,
+          -15.448
+        ],
+        [
+          -121.976,
+          -15.97
+        ],
+        [
+          -120.844,
+          -17.059
+        ],
+        [
+          -120.86,
+          -19.762
+        ],
+        [
+          -119.848,
+          -19.765
+        ],
+        [
+          -119.863,
+          -23.055
+        ],
+        [
+          -120.876,
+          -23.053
+        ],
+        [
+          -120.884,
+          -26.105
+        ],
+        [
+          -122.032,
+          -27.581
+        ],
+        [
+          -122.051,
+          -33.481
+        ],
+        [
+          -114.417,
+          -33.484
+        ]
+      ],
+      "mappedHeight": 21.06,
+      "side": "north",
+      "role": "assigned-primary",
+      "state": "needs-evidence",
+      "businesses": [],
+      "referenceRoadViewpoint": {
+        "lat": 40.7293046,
+        "lon": -73.9856597,
+        "heading": 29.0,
+        "locator": "https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=40.7293046,-73.9856597&heading=29.0&pitch=12&fov=85",
+        "state": "Candidate locator from mapped facade; not opened or inspected"
+      }
+    },
+    {
+      "faceId": "247851902:0",
+      "buildingId": 247851902,
+      "frontageIndex": 0,
+      "mappedAddress": "223 East 10th Street",
+      "sourceFace": {
+        "x": -114.31,
+        "z": -9.266,
+        "rx": 0.9999999227838484,
+        "rz": -0.000392978748801632,
+        "length": 7.634,
+        "street": "East 10th Street"
+      },
+      "sourceFootprint": [
+        [
+          -106.758,
+          -27.591
+        ],
+        [
+          -107.678,
+          -26.277
+        ],
+        [
+          -107.659,
+          -23.205
+        ],
+        [
+          -109.086,
+          -23.202
+        ],
+        [
+          -109.07,
+          -19.822
+        ],
+        [
+          -107.643,
+          -19.826
+        ],
+        [
+          -107.631,
+          -16.853
+        ],
+        [
+          -106.699,
+          -15.715
+        ],
+        [
+          -106.676,
+          -9.269
+        ],
+        [
+          -114.31,
+          -9.266
+        ],
+        [
+          -114.34,
+          -15.708
+        ],
+        [
+          -113.275,
+          -16.848
+        ],
+        [
+          -113.287,
+          -19.821
+        ],
+        [
+          -112.024,
+          -19.823
+        ],
+        [
+          -112.04,
+          -23.202
+        ],
+        [
+          -113.298,
+          -23.19
+        ],
+        [
+          -113.309,
+          -26.266
+        ],
+        [
+          -114.392,
+          -27.588
+        ],
+        [
+          -114.417,
+          -33.484
+        ],
+        [
+          -106.777,
+          -33.491
+        ],
+        [
+          -106.758,
+          -28.024
+        ]
+      ],
+      "mappedHeight": 19.79,
+      "side": "north",
+      "role": "assigned-primary",
+      "state": "needs-evidence",
+      "businesses": [],
+      "referenceRoadViewpoint": {
+        "lat": 40.7292713,
+        "lon": -73.9855806,
+        "heading": 29.1,
+        "locator": "https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=40.7292713,-73.9855806&heading=29.1&pitch=12&fov=85",
+        "state": "Candidate locator from mapped facade; not opened or inspected"
+      }
+    },
+    {
+      "faceId": "247851903:0",
+      "buildingId": 247851903,
+      "frontageIndex": 0,
+      "mappedAddress": "225 East 10th Street",
+      "sourceFace": {
+        "x": -106.676,
+        "z": -9.269,
+        "rx": 0.999999149635264,
+        "rz": -0.0013041199134523251,
+        "length": 15.336,
+        "street": "East 10th Street"
+      },
+      "sourceFootprint": [
+        [
+          -91.34,
+          -9.289
+        ],
+        [
+          -106.676,
+          -9.269
+        ],
+        [
+          -106.699,
+          -15.715
+        ],
+        [
+          -106.758,
+          -27.591
+        ],
+        [
+          -106.758,
+          -28.024
+        ],
+        [
+          -102.566,
+          -28.037
+        ],
+        [
+          -102.569,
+          -29.551
+        ],
+        [
+          -95.287,
+          -29.563
+        ],
+        [
+          -95.273,
+          -27.125
+        ],
+        [
+          -91.423,
+          -27.126
+        ],
+        [
+          -91.37,
+          -16.112
+        ]
+      ],
+      "mappedHeight": 15.95,
+      "side": "north",
+      "role": "assigned-primary",
+      "state": "needs-evidence",
+      "businesses": [],
+      "referenceRoadViewpoint": {
+        "lat": 40.7292212,
+        "lon": -73.9854615,
+        "heading": 29.0,
+        "locator": "https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=40.7292212,-73.9854615&heading=29.0&pitch=12&fov=85",
+        "state": "Candidate locator from mapped facade; not opened or inspected"
+      }
+    },
+    {
+      "faceId": "247851904:0",
+      "buildingId": 247851904,
+      "frontageIndex": 0,
+      "mappedAddress": "229 East 10th Street",
+      "sourceFace": {
+        "x": -91.34,
+        "z": -9.289,
+        "rx": 0.9999996721796757,
+        "rz": -0.0008097163337487563,
+        "length": 7.41,
+        "street": "East 10th Street"
+      },
+      "sourceFootprint": [
+        [
+          -84.017,
+          -28.442
+        ],
+        [
+          -84.867,
+          -27.383
+        ],
+        [
+          -84.853,
+          -24.615
+        ],
+        [
+          -86.136,
+          -24.614
+        ],
+        [
+          -86.116,
+          -20.256
+        ],
+        [
+          -84.833,
+          -20.257
+        ],
+        [
+          -84.82,
+          -17.092
+        ],
+        [
+          -83.96,
+          -16.118
+        ],
+        [
+          -83.93,
+          -9.295
+        ],
+        [
+          -91.34,
+          -9.289
+        ],
+        [
+          -91.37,
+          -16.112
+        ],
+        [
+          -90.464,
+          -17.087
+        ],
+        [
+          -90.486,
+          -22.247
+        ],
+        [
+          -89.202,
+          -22.247
+        ],
+        [
+          -89.213,
+          -24.61
+        ],
+        [
+          -90.497,
+          -24.61
+        ],
+        [
+          -90.511,
+          -27.378
+        ],
+        [
+          -91.427,
+          -28.436
+        ],
+        [
+          -91.448,
+          -34.984
+        ],
+        [
+          -84.039,
+          -34.99
+        ],
+        [
+          -84.041,
+          -34.734
+        ]
+      ],
+      "mappedHeight": 17.61,
+      "side": "north",
+      "role": "assigned-primary",
+      "state": "needs-evidence",
+      "businesses": [],
+      "referenceRoadViewpoint": {
+        "lat": 40.7291717,
+        "lon": -73.9853436,
+        "heading": 29.0,
+        "locator": "https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=40.7291717,-73.9853436&heading=29.0&pitch=12&fov=85",
+        "state": "Candidate locator from mapped facade; not opened or inspected"
+      }
+    },
+    {
+      "faceId": "247851906:0",
+      "buildingId": 247851906,
+      "frontageIndex": 0,
+      "mappedAddress": "231 East 10th Street",
+      "sourceFace": {
+        "x": -83.93,
+        "z": -9.295,
+        "rx": 0.999999354176392,
+        "rz": -0.001136506400756138,
+        "length": 7.919,
+        "street": "East 10th Street"
+      },
+      "sourceFootprint": [
+        [
+          -76.093,
+          -27.817
+        ],
+        [
+          -77.154,
+          -26.845
+        ],
+        [
+          -77.146,
+          -23.652
+        ],
+        [
+          -77.98,
+          -23.66
+        ],
+        [
+          -77.962,
+          -20.728
+        ],
+        [
+          -77.133,
+          -20.73
+        ],
+        [
+          -77.118,
+          -17.44
+        ],
+        [
+          -76.042,
+          -16.598
+        ],
+        [
+          -76.011,
+          -9.304
+        ],
+        [
+          -83.93,
+          -9.295
+        ],
+        [
+          -83.96,
+          -16.118
+        ],
+        [
+          -83.969,
+          -16.585
+        ],
+        [
+          -82.938,
+          -17.439
+        ],
+        [
+          -82.953,
+          -20.729
+        ],
+        [
+          -82.159,
+          -20.725
+        ],
+        [
+          -82.172,
+          -23.647
+        ],
+        [
+          -82.966,
+          -23.651
+        ],
+        [
+          -82.982,
+          -26.84
+        ],
+        [
+          -84.012,
+          -27.808
+        ],
+        [
+          -84.017,
+          -28.442
+        ],
+        [
+          -84.041,
+          -34.734
+        ],
+        [
+          -76.122,
+          -34.743
+        ],
+        [
+          -76.092,
+          -28.353
+        ]
+      ],
+      "mappedHeight": 17.84,
+      "side": "north",
+      "role": "assigned-primary",
+      "state": "needs-evidence",
+      "businesses": [],
+      "referenceRoadViewpoint": {
+        "lat": 40.7291383,
+        "lon": -73.9852641,
+        "heading": 29.0,
+        "locator": "https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=40.7291383,-73.9852641&heading=29.0&pitch=12&fov=85",
+        "state": "Candidate locator from mapped facade; not opened or inspected"
+      }
+    },
+    {
+      "faceId": "247851908:0",
+      "buildingId": 247851908,
+      "frontageIndex": 0,
+      "mappedAddress": "233-235 East 10th Street",
+      "sourceFace": {
+        "x": -76.011,
+        "z": -9.304,
+        "rx": 0.999999149746151,
+        "rz": -0.0013040348826317142,
+        "length": 15.337,
+        "street": "East 10th Street"
+      },
+      "sourceFootprint": [
+        [
+          -60.674,
+          -9.324
+        ],
+        [
+          -76.011,
+          -9.304
+        ],
+        [
+          -76.042,
+          -16.598
+        ],
+        [
+          -76.093,
+          -27.817
+        ],
+        [
+          -76.092,
+          -28.353
+        ],
+        [
+          -71.643,
+          -28.355
+        ],
+        [
+          -71.657,
+          -31.175
+        ],
+        [
+          -68.568,
+          -31.174
+        ],
+        [
+          -68.586,
+          -33.672
+        ],
+        [
+          -64.545,
+          -33.678
+        ],
+        [
+          -64.514,
+          -26.817
+        ],
+        [
+          -60.744,
+          -26.825
+        ],
+        [
+          -60.724,
+          -21.651
+        ],
+        [
+          -60.72,
+          -19.96
+        ],
+        [
+          -60.695,
+          -14.204
+        ]
+      ],
+      "mappedHeight": 16.18,
+      "side": "north",
+      "role": "assigned-primary",
+      "state": "needs-evidence",
+      "businesses": [],
+      "referenceRoadViewpoint": {
+        "lat": 40.7290876,
+        "lon": -73.9851436,
+        "heading": 29.0,
+        "locator": "https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=40.7290876,-73.9851436&heading=29.0&pitch=12&fov=85",
+        "state": "Candidate locator from mapped facade; not opened or inspected"
+      }
+    },
+    {
+      "faceId": "247851911:0",
+      "buildingId": 247851911,
+      "frontageIndex": 0,
+      "mappedAddress": "237 East 10th Street",
+      "sourceFace": {
+        "x": -60.674,
+        "z": -9.324,
+        "rx": 0.9999999628166804,
+        "rz": -0.00027270247145269014,
+        "length": 7.334,
+        "street": "East 10th Street"
+      },
+      "sourceFootprint": [
+        [
+          -53.422,
+          -28.221
+        ],
+        [
+          -54.746,
+          -28.224
+        ],
+        [
+          -54.724,
+          -22.3
+        ],
+        [
+          -53.393,
+          -22.302
+        ],
+        [
+          -53.385,
+          -19.249
+        ],
+        [
+          -54.617,
+          -18.705
+        ],
+        [
+          -54.598,
+          -15.251
+        ],
+        [
+          -53.362,
+          -14.244
+        ],
+        [
+          -53.349,
+          -12.519
+        ],
+        [
+          -53.34,
+          -9.326
+        ],
+        [
+          -60.674,
+          -9.324
+        ],
+        [
+          -60.695,
+          -14.204
+        ],
+        [
+          -59.571,
+          -15.185
+        ],
+        [
+          -59.592,
+          -19.059
+        ],
+        [
+          -60.72,
+          -19.96
+        ],
+        [
+          -60.724,
+          -21.651
+        ],
+        [
+          -59.607,
+          -22.298
+        ],
+        [
+          -59.652,
+          -33.8
+        ],
+        [
+          -53.443,
+          -33.814
+        ],
+        [
+          -53.427,
+          -28.855
+        ]
+      ],
+      "mappedHeight": 23.1,
+      "side": "north",
+      "role": "assigned-primary",
+      "state": "needs-evidence",
+      "businesses": [],
+      "referenceRoadViewpoint": {
+        "lat": 40.7290383,
+        "lon": -73.9850262,
+        "heading": 29.1,
+        "locator": "https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=40.7290383,-73.9850262&heading=29.1&pitch=12&fov=85",
+        "state": "Candidate locator from mapped facade; not opened or inspected"
+      }
+    },
+    {
+      "faceId": "247851935:0",
+      "buildingId": 247851935,
+      "frontageIndex": 0,
+      "mappedAddress": "160 2nd Avenue",
+      "sourceFace": {
+        "x": -213.864,
+        "z": -8.882,
+        "rx": 0.9999993211998369,
+        "rz": -0.0011651608752692407,
+        "length": 30.897,
+        "street": "East 10th Street"
+      },
+      "sourceFootprint": [
+        [
+          -205.388,
+          -16.97
+        ],
+        [
+          -205.385,
+          -16.183
+        ],
+        [
+          -196.955,
+          -16.195
+        ],
+        [
+          -195.031,
+          -14.973
+        ],
+        [
+          -191.858,
+          -14.979
+        ],
+        [
+          -191.862,
+          -16.2
+        ],
+        [
+          -186.496,
+          -16.203
+        ],
+        [
+          -185.957,
+          -16.987
+        ],
+        [
+          -183.003,
+          -16.986
+        ],
+        [
+          -182.967,
+          -8.918
+        ],
+        [
+          -213.864,
+          -8.882
+        ],
+        [
+          -213.905,
+          -16.96
+        ],
+        [
+          -210.809,
+          -16.962
+        ]
+      ],
+      "mappedHeight": 18.15,
+      "side": "north",
+      "role": "assigned-primary",
+      "state": "needs-evidence",
+      "businesses": [
+        {
+          "id": "osm-node-2572216591",
+          "osmId": 2572216591,
+          "name": "Marinara",
+          "category": "fast_food",
+          "mappedAddress": "160 2nd Avenue",
+          "point": [
+            -210.037,
+            -12.641
+          ],
+          "sources": [
+            {
+              "publisher": "OpenStreetMap contributors",
+              "url": "https://www.openstreetmap.org/node/2572216591",
+              "snapshot": "2026-09-05T17:07:06Z"
+            },
+            {
+              "publisher": "NYC DOHMH",
+              "url": "https://data.cityofnewyork.us/resource/43nn-pn8j.json?camis=50114726",
+              "inspectionDate": "2025-03-05",
+              "name": "MARINARA PIZZA",
+              "address": "160 2 AVENUE",
+              "bin": "1006433"
+            }
+          ],
+          "buildingId": 247851935,
+          "buildingMatch": "address",
+          "renderName": false,
+          "status": "mapped identity; independent occupancy unresolved",
+          "frontageIndex": 1,
+          "street": "Second Avenue",
+          "along": 4.339,
+          "frontageDistance": 3.846,
+          "appearance": "Sign lettering, exact shop partition and interior are estimates unless an individual facade profile is supplied."
+        },
+        {
+          "id": "osm-node-5403602691",
+          "osmId": 5403602691,
+          "name": "Matcha House",
+          "category": "cafe",
+          "mappedAddress": "203 East 10th Street",
+          "point": [
+            -186.946,
+            -10.641
+          ],
+          "sources": [
+            {
+              "publisher": "OpenStreetMap contributors",
+              "url": "https://www.openstreetmap.org/node/5403602691",
+              "snapshot": "2026-09-05T17:07:06Z"
+            },
+            {
+              "publisher": "NYC DOHMH",
+              "url": "https://data.cityofnewyork.us/resource/43nn-pn8j.json?camis=50168685",
+              "inspectionDate": "2025-08-25",
+              "name": "MATCHA HOUSE",
+              "address": "203 EAST   10 STREET",
+              "bin": "1006433"
+            },
+            {
+              "publisher": "Business website",
+              "url": "https://www.matchahousenyc.com/",
+              "checked": "2026-09-06",
+              "address": "203 East 10th Street"
+            }
+          ],
+          "buildingId": 247851935,
+          "buildingMatch": "address",
+          "renderName": true,
+          "status": "website lists this address",
+          "frontageIndex": 0,
+          "street": "East 10th Street",
+          "along": 26.92,
+          "frontageDistance": 1.728,
+          "appearance": "Sign lettering, exact shop partition and interior are estimates unless an individual facade profile is supplied.",
+          "unit": [
+            20.92,
+            30.777
+          ],
+          "unitBasis": "Point order on the selected street frontage, with a bounded envelope for long unpartitioned elevations; dividing walls and unit widths estimated. Unsupported stretches remain unnamed."
+        }
+      ],
+      "referenceRoadViewpoint": {
+        "lat": 40.7296523,
+        "lon": -73.9864935,
+        "heading": 29.0,
+        "locator": "https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=40.7296523,-73.9864935&heading=29.0&pitch=12&fov=85",
+        "state": "Candidate locator from mapped facade; not opened or inspected"
+      }
+    },
+    {
+      "faceId": "247852656:0",
+      "buildingId": 247852656,
+      "frontageIndex": 0,
+      "mappedAddress": "206 East 10th Street",
+      "sourceFace": {
+        "x": -167.475,
+        "z": 9.394,
+        "rx": -0.9999954649520868,
+        "rz": 0.0030116565640418164,
+        "length": 7.969,
+        "street": "East 10th Street"
+      },
+      "sourceFootprint": [
+        [
+          -167.451,
+          16.208
+        ],
+        [
+          -168.392,
+          17.24
+        ],
+        [
+          -168.378,
+          20.06
+        ],
+        [
+          -169.662,
+          20.061
+        ],
+        [
+          -169.646,
+          23.491
+        ],
+        [
+          -168.375,
+          23.485
+        ],
+        [
+          -168.364,
+          26.612
+        ],
+        [
+          -167.422,
+          27.387
+        ],
+        [
+          -167.411,
+          33.673
+        ],
+        [
+          -175.385,
+          33.688
+        ],
+        [
+          -175.399,
+          29.289
+        ],
+        [
+          -175.403,
+          27.406
+        ],
+        [
+          -174.485,
+          26.628
+        ],
+        [
+          -174.496,
+          23.5
+        ],
+        [
+          -173.66,
+          23.494
+        ],
+        [
+          -173.67,
+          20.073
+        ],
+        [
+          -174.506,
+          20.08
+        ],
+        [
+          -174.513,
+          17.256
+        ],
+        [
+          -175.425,
+          16.222
+        ],
+        [
+          -175.444,
+          9.418
+        ],
+        [
+          -167.475,
+          9.394
+        ]
+      ],
+      "mappedHeight": 20.62,
+      "side": "south",
+      "role": "assigned-primary",
+      "state": "needs-evidence",
+      "businesses": [],
+      "referenceRoadViewpoint": {
+        "lat": 40.7295166,
+        "lon": -73.9862279,
+        "heading": 208.9,
+        "locator": "https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=40.7295166,-73.9862279&heading=208.9&pitch=12&fov=85",
+        "state": "Candidate locator from mapped facade; not opened or inspected"
+      }
+    },
+    {
+      "faceId": "247852658:0",
+      "buildingId": 247852658,
+      "frontageIndex": 0,
+      "mappedAddress": "208 East 10th Street",
+      "sourceFace": {
+        "x": -159.86,
+        "z": 9.376,
+        "rx": -0.9999972063410952,
+        "rz": 0.0023637491417124678,
+        "length": 7.615,
+        "street": "East 10th Street"
+      },
+      "sourceFootprint": [
+        [
+          -159.823,
+          24.614
+        ],
+        [
+          -167.438,
+          24.632
+        ],
+        [
+          -167.451,
+          16.208
+        ],
+        [
+          -167.475,
+          9.394
+        ],
+        [
+          -159.86,
+          9.376
+        ]
+      ],
+      "mappedHeight": 17.59,
+      "side": "south",
+      "role": "assigned-primary",
+      "state": "needs-evidence",
+      "businesses": [],
+      "referenceRoadViewpoint": {
+        "lat": 40.7294827,
+        "lon": -73.986147,
+        "heading": 208.9,
+        "locator": "https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=40.7294827,-73.9861470&heading=208.9&pitch=12&fov=85",
+        "state": "Candidate locator from mapped facade; not opened or inspected"
+      }
+    },
+    {
+      "faceId": "247852659:0",
+      "buildingId": 247852659,
+      "frontageIndex": 0,
+      "mappedAddress": "210 East 10th Street",
+      "sourceFace": {
+        "x": -152.17,
+        "z": 9.353,
+        "rx": -0.9999955272967704,
+        "rz": 0.002990883891784828,
+        "length": 7.69,
+        "street": "East 10th Street"
+      },
+      "sourceFootprint": [
+        [
+          -152.134,
+          24.606
+        ],
+        [
+          -155.002,
+          24.621
+        ],
+        [
+          -154.993,
+          27.189
+        ],
+        [
+          -154.205,
+          27.184
+        ],
+        [
+          -153.486,
+          27.956
+        ],
+        [
+          -153.471,
+          33.068
+        ],
+        [
+          -154.192,
+          33.838
+        ],
+        [
+          -159.797,
+          33.86
+        ],
+        [
+          -159.823,
+          24.614
+        ],
+        [
+          -159.86,
+          9.376
+        ],
+        [
+          -152.17,
+          9.353
+        ],
+        [
+          -152.15,
+          15.724
+        ],
+        [
+          -152.135,
+          23.511
+        ]
+      ],
+      "mappedHeight": 17.26,
+      "side": "south",
+      "role": "assigned-primary",
+      "state": "needs-evidence",
+      "businesses": [],
+      "referenceRoadViewpoint": {
+        "lat": 40.7294495,
+        "lon": -73.9860677,
+        "heading": 208.9,
+        "locator": "https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=40.7294495,-73.9860677&heading=208.9&pitch=12&fov=85",
+        "state": "Candidate locator from mapped facade; not opened or inspected"
+      }
+    },
+    {
+      "faceId": "247852660:0",
+      "buildingId": 247852660,
+      "frontageIndex": 0,
+      "mappedAddress": "212 East 10th Street",
+      "sourceFace": {
+        "x": -144.69,
+        "z": 9.334,
+        "rx": -0.9999967739439477,
+        "rz": 0.002540098757344273,
+        "length": 7.48,
+        "street": "East 10th Street"
+      },
+      "sourceFootprint": [
+        [
+          -144.63,
+          32.877
+        ],
+        [
+          -152.109,
+          32.896
+        ],
+        [
+          -152.129,
+          27.723
+        ],
+        [
+          -152.134,
+          24.606
+        ],
+        [
+          -152.135,
+          23.511
+        ],
+        [
+          -152.15,
+          15.724
+        ],
+        [
+          -152.17,
+          9.353
+        ],
+        [
+          -144.69,
+          9.334
+        ],
+        [
+          -144.683,
+          12.247
+        ],
+        [
+          -144.676,
+          15.21
+        ],
+        [
+          -144.653,
+          23.999
+        ],
+        [
+          -144.642,
+          27.7
+        ]
+      ],
+      "mappedHeight": 21.34,
+      "side": "south",
+      "role": "assigned-primary",
+      "state": "needs-evidence",
+      "businesses": [
+        {
+          "id": "osm-node-5978792125",
+          "osmId": 5978792125,
+          "name": "Madame Vo",
+          "category": "restaurant",
+          "mappedAddress": "",
+          "point": [
+            -148.409,
+            10.561
+          ],
+          "sources": [
+            {
+              "publisher": "OpenStreetMap contributors",
+              "url": "https://www.openstreetmap.org/node/5978792125",
+              "snapshot": "2026-09-05T17:07:06Z"
+            },
+            {
+              "publisher": "NYC DOHMH",
+              "url": "https://data.cityofnewyork.us/resource/43nn-pn8j.json?camis=50058630",
+              "inspectionDate": "2026-05-28",
+              "name": "MADAME VO'S",
+              "address": "212 EAST   10 STREET",
+              "bin": "1006408"
+            },
+            {
+              "publisher": "Business website",
+              "url": "https://www.madamevo.com",
+              "checked": "2026-09-06",
+              "address": "212 East 10th Street"
+            }
+          ],
+          "buildingId": 247852660,
+          "buildingMatch": "mapped point in footprint",
+          "renderName": true,
+          "status": "website lists this address",
+          "frontageIndex": 0,
+          "street": "East 10th Street",
+          "along": 3.722,
+          "frontageDistance": 1.218,
+          "appearance": "Sign lettering, exact shop partition and interior are estimates unless an individual facade profile is supplied.",
+          "unit": [
+            0.12,
+            7.36
+          ],
+          "unitBasis": "Point order on the selected street frontage, with a bounded envelope for long unpartitioned elevations; dividing walls and unit widths estimated. Unsupported stretches remain unnamed."
+        }
+      ],
+      "referenceRoadViewpoint": {
+        "lat": 40.7294165,
+        "lon": -73.9859889,
+        "heading": 208.9,
+        "locator": "https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=40.7294165,-73.9859889&heading=208.9&pitch=12&fov=85",
+        "state": "Candidate locator from mapped facade; not opened or inspected"
+      }
+    },
+    {
+      "faceId": "247852662:0",
+      "buildingId": 247852662,
+      "frontageIndex": 0,
+      "mappedAddress": "214 East 10th Street",
+      "sourceFace": {
+        "x": -137.231,
+        "z": 9.313,
+        "rx": -0.9999960368108735,
+        "rz": 0.0028153796451303595,
+        "length": 7.459,
+        "street": "East 10th Street"
+      },
+      "sourceFootprint": [
+        [
+          -137.216,
+          15.189
+        ],
+        [
+          -138.075,
+          16.597
+        ],
+        [
+          -138.058,
+          19.734
+        ],
+        [
+          -139.118,
+          19.737
+        ],
+        [
+          -139.107,
+          23.297
+        ],
+        [
+          -138.047,
+          23.294
+        ],
+        [
+          -138.04,
+          26.589
+        ],
+        [
+          -137.177,
+          27.688
+        ],
+        [
+          -137.167,
+          33.122
+        ],
+        [
+          -137.164,
+          33.527
+        ],
+        [
+          -144.629,
+          33.539
+        ],
+        [
+          -144.63,
+          32.877
+        ],
+        [
+          -144.642,
+          27.7
+        ],
+        [
+          -143.678,
+          26.603
+        ],
+        [
+          -143.687,
+          24.175
+        ],
+        [
+          -143.014,
+          23.215
+        ],
+        [
+          -143.022,
+          19.781
+        ],
+        [
+          -143.698,
+          18.756
+        ],
+        [
+          -143.7,
+          16.617
+        ],
+        [
+          -144.676,
+          15.21
+        ],
+        [
+          -144.683,
+          12.247
+        ],
+        [
+          -144.69,
+          9.334
+        ],
+        [
+          -137.231,
+          9.313
+        ]
+      ],
+      "mappedHeight": 20.01,
+      "side": "south",
+      "role": "assigned-primary",
+      "state": "needs-evidence",
+      "businesses": [
+        {
+          "id": "osm-node-6532478322",
+          "osmId": 6532478322,
+          "name": "Ando",
+          "category": "pastry",
+          "mappedAddress": "214 East 10th Street",
+          "point": [
+            -139.252,
+            10.539
+          ],
+          "sources": [
+            {
+              "publisher": "OpenStreetMap contributors",
+              "url": "https://www.openstreetmap.org/node/6532478322",
+              "snapshot": "2026-09-05T17:07:06Z"
+            },
+            {
+              "publisher": "NYC DOHMH",
+              "url": "https://data.cityofnewyork.us/resource/43nn-pn8j.json?camis=50123613",
+              "inspectionDate": "2025-04-02",
+              "name": "ANDO PATISSERIE",
+              "address": "214 EAST   10 STREET",
+              "bin": "1006409"
+            },
+            {
+              "publisher": "Business website",
+              "url": "https://www.andopatisserie-official.com",
+              "checked": "2026-09-06",
+              "address": "214 East 10th Street"
+            }
+          ],
+          "buildingId": 247852662,
+          "buildingMatch": "address",
+          "renderName": true,
+          "status": "website lists this address",
+          "frontageIndex": 0,
+          "street": "East 10th Street",
+          "along": 2.024,
+          "frontageDistance": 1.22,
+          "appearance": "Sign lettering, exact shop partition and interior are estimates unless an individual facade profile is supplied.",
+          "unit": [
+            0.12,
+            7.339
+          ],
+          "unitBasis": "Point order on the selected street frontage, with a bounded envelope for long unpartitioned elevations; dividing walls and unit widths estimated. Unsupported stretches remain unnamed."
+        }
+      ],
+      "referenceRoadViewpoint": {
+        "lat": 40.7293841,
+        "lon": -73.9859114,
+        "heading": 208.9,
+        "locator": "https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=40.7293841,-73.9859114&heading=208.9&pitch=12&fov=85",
+        "state": "Candidate locator from mapped facade; not opened or inspected"
+      }
+    },
+    {
+      "faceId": "247852663:0",
+      "buildingId": 247852663,
+      "frontageIndex": 0,
+      "mappedAddress": "220 East 10th Street",
+      "sourceFace": {
+        "x": -114.371,
+        "z": 9.249,
+        "rx": -0.9999952203791684,
+        "rz": 0.0030917986380858365,
+        "length": 7.439,
+        "street": "East 10th Street"
+      },
+      "sourceFootprint": [
+        [
+          -114.356,
+          15.126
+        ],
+        [
+          -115.31,
+          16.535
+        ],
+        [
+          -115.306,
+          19.666
+        ],
+        [
+          -116.054,
+          19.675
+        ],
+        [
+          -116.044,
+          23.235
+        ],
+        [
+          -115.29,
+          23.237
+        ],
+        [
+          -115.282,
+          26.531
+        ],
+        [
+          -114.324,
+          27.629
+        ],
+        [
+          -114.317,
+          28.058
+        ],
+        [
+          -114.304,
+          33.464
+        ],
+        [
+          -121.743,
+          33.486
+        ],
+        [
+          -121.746,
+          33.081
+        ],
+        [
+          -121.756,
+          27.647
+        ],
+        [
+          -120.778,
+          26.543
+        ],
+        [
+          -120.785,
+          23.248
+        ],
+        [
+          -119.698,
+          23.242
+        ],
+        [
+          -119.709,
+          19.682
+        ],
+        [
+          -120.789,
+          19.684
+        ],
+        [
+          -120.8,
+          16.556
+        ],
+        [
+          -121.795,
+          15.148
+        ],
+        [
+          -121.81,
+          9.272
+        ],
+        [
+          -114.371,
+          9.249
+        ]
+      ],
+      "mappedHeight": 19.89,
+      "side": "south",
+      "role": "assigned-primary",
+      "state": "needs-evidence",
+      "businesses": [],
+      "referenceRoadViewpoint": {
+        "lat": 40.7292848,
+        "lon": -73.9856742,
+        "heading": 208.9,
+        "locator": "https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=40.7292848,-73.9856742&heading=208.9&pitch=12&fov=85",
+        "state": "Candidate locator from mapped facade; not opened or inspected"
+      }
+    },
+    {
+      "faceId": "247852664:0",
+      "buildingId": 247852664,
+      "frontageIndex": 0,
+      "mappedAddress": "222 East 10th Street",
+      "sourceFace": {
+        "x": -106.45,
+        "z": 9.226,
+        "rx": -0.9999957843659513,
+        "rz": 0.002903661537737229,
+        "length": 7.921,
+        "street": "East 10th Street"
+      },
+      "sourceFootprint": [
+        [
+          -106.428,
+          15.583
+        ],
+        [
+          -107.835,
+          15.588
+        ],
+        [
+          -107.829,
+          19.712
+        ],
+        [
+          -106.423,
+          19.707
+        ],
+        [
+          -106.405,
+          26.995
+        ],
+        [
+          -106.403,
+          28.039
+        ],
+        [
+          -114.317,
+          28.058
+        ],
+        [
+          -114.324,
+          27.629
+        ],
+        [
+          -114.356,
+          15.126
+        ],
+        [
+          -114.371,
+          9.249
+        ],
+        [
+          -106.45,
+          9.226
+        ]
+      ],
+      "mappedHeight": 16.57,
+      "side": "south",
+      "role": "assigned-primary",
+      "state": "needs-evidence",
+      "businesses": [],
+      "referenceRoadViewpoint": {
+        "lat": 40.7292514,
+        "lon": -73.9855945,
+        "heading": 208.9,
+        "locator": "https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=40.7292514,-73.9855945&heading=208.9&pitch=12&fov=85",
+        "state": "Candidate locator from mapped facade; not opened or inspected"
+      }
+    },
+    {
+      "faceId": "247852665:0",
+      "buildingId": 247852665,
+      "frontageIndex": 0,
+      "mappedAddress": "224 East 10th Street",
+      "sourceFace": {
+        "x": -99.181,
+        "z": 9.209,
+        "rx": -0.9999972652556872,
+        "rz": 0.0023386921872813188,
+        "length": 7.269,
+        "street": "East 10th Street"
+      },
+      "sourceFootprint": [
+        [
+          -99.165,
+          15.557
+        ],
+        [
+          -99.977,
+          16.301
+        ],
+        [
+          -99.982,
+          19.832
+        ],
+        [
+          -99.952,
+          25.789
+        ],
+        [
+          -99.129,
+          26.974
+        ],
+        [
+          -99.118,
+          32.687
+        ],
+        [
+          -106.388,
+          32.718
+        ],
+        [
+          -106.403,
+          28.039
+        ],
+        [
+          -106.405,
+          26.995
+        ],
+        [
+          -105.447,
+          25.801
+        ],
+        [
+          -105.452,
+          22.53
+        ],
+        [
+          -104.032,
+          22.53
+        ],
+        [
+          -104.036,
+          19.59
+        ],
+        [
+          -105.463,
+          19.593
+        ],
+        [
+          -105.472,
+          16.313
+        ],
+        [
+          -106.428,
+          15.583
+        ],
+        [
+          -106.45,
+          9.226
+        ],
+        [
+          -99.181,
+          9.209
+        ]
+      ],
+      "mappedHeight": 20.54,
+      "side": "south",
+      "role": "assigned-primary",
+      "state": "needs-evidence",
+      "businesses": [
+        {
+          "id": "osm-node-7078534437",
+          "osmId": 7078534437,
+          "name": "Hard to Explain",
+          "category": "bar",
+          "mappedAddress": "224 East 10th Street",
+          "point": [
+            -101.338,
+            10.434
+          ],
+          "sources": [
+            {
+              "publisher": "OpenStreetMap contributors",
+              "url": "https://www.openstreetmap.org/node/7078534437",
+              "snapshot": "2026-09-05T17:07:06Z"
+            },
+            {
+              "publisher": "NYC DOHMH",
+              "url": "https://data.cityofnewyork.us/resource/43nn-pn8j.json?camis=50121714",
+              "inspectionDate": "2026-06-02",
+              "name": "HARD TO EXPLAIN",
+              "address": "224 EAST   10 STREET",
+              "bin": "1006413"
+            },
+            {
+              "publisher": "Business website",
+              "url": "https://hardtoexplain.co/",
+              "checked": "2026-09-06",
+              "address": "224 East 10th Street"
+            }
+          ],
+          "buildingId": 247852665,
+          "buildingMatch": "address",
+          "renderName": true,
+          "status": "website lists this address",
+          "frontageIndex": 0,
+          "street": "East 10th Street",
+          "along": 2.16,
+          "frontageDistance": 1.22,
+          "appearance": "Sign lettering, exact shop partition and interior are estimates unless an individual facade profile is supplied.",
+          "unit": [
+            0.12,
+            7.149
+          ],
+          "unitBasis": "Point order on the selected street frontage, with a bounded envelope for long unpartitioned elevations; dividing walls and unit widths estimated. Unsupported stretches remain unnamed."
+        }
+      ],
+      "referenceRoadViewpoint": {
+        "lat": 40.7292184,
+        "lon": -73.9855156,
+        "heading": 208.9,
+        "locator": "https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=40.7292184,-73.9855156&heading=208.9&pitch=12&fov=85",
+        "state": "Candidate locator from mapped facade; not opened or inspected"
+      }
+    },
+    {
+      "faceId": "247852667:0",
+      "buildingId": 247852667,
+      "frontageIndex": 0,
+      "mappedAddress": "226 East 10th Street",
+      "sourceFace": {
+        "x": -91.458,
+        "z": 9.195,
+        "rx": -0.9999983569418436,
+        "rz": 0.0018127640809510758,
+        "length": 7.723,
+        "street": "East 10th Street"
+      },
+      "sourceFootprint": [
+        [
+          -91.415,
+          25.882
+        ],
+        [
+          -99.133,
+          25.907
+        ],
+        [
+          -99.165,
+          15.557
+        ],
+        [
+          -99.181,
+          9.209
+        ],
+        [
+          -91.458,
+          9.195
+        ]
+      ],
+      "mappedHeight": 15.85,
+      "side": "south",
+      "role": "assigned-primary",
+      "state": "needs-evidence",
+      "businesses": [],
+      "referenceRoadViewpoint": {
+        "lat": 40.7291858,
+        "lon": -73.9854378,
+        "heading": 209.0,
+        "locator": "https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=40.7291858,-73.9854378&heading=209.0&pitch=12&fov=85",
+        "state": "Candidate locator from mapped facade; not opened or inspected"
+      }
+    },
+    {
+      "faceId": "247852668:0",
+      "buildingId": 247852668,
+      "frontageIndex": 0,
+      "mappedAddress": "228 East 10th Street",
+      "sourceFace": {
+        "x": -83.454,
+        "z": 9.164,
+        "rx": -0.9999924997740662,
+        "rz": 0.00387303441941487,
+        "length": 8.004,
+        "street": "East 10th Street"
+      },
+      "sourceFootprint": [
+        [
+          -83.389,
+          33.494
+        ],
+        [
+          -88.94,
+          33.511
+        ],
+        [
+          -88.957,
+          27.318
+        ],
+        [
+          -88.964,
+          25.882
+        ],
+        [
+          -91.415,
+          25.882
+        ],
+        [
+          -91.458,
+          9.195
+        ],
+        [
+          -83.454,
+          9.164
+        ],
+        [
+          -83.454,
+          10.361
+        ],
+        [
+          -83.407,
+          27.301
+        ]
+      ],
+      "mappedHeight": 16.81,
+      "side": "south",
+      "role": "assigned-primary",
+      "state": "needs-evidence",
+      "businesses": [],
+      "referenceRoadViewpoint": {
+        "lat": 40.7291517,
+        "lon": -73.9853564,
+        "heading": 208.9,
+        "locator": "https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=40.7291517,-73.9853564&heading=208.9&pitch=12&fov=85",
+        "state": "Candidate locator from mapped facade; not opened or inspected"
+      }
+    },
+    {
+      "faceId": "247852693:1",
+      "buildingId": 247852693,
+      "frontageIndex": 1,
+      "mappedAddress": "204 East 10th Street",
+      "sourceFace": {
+        "x": -175.44402360900966,
+        "z": 9.409480441785618,
+        "rx": -0.9999961603742643,
+        "rz": 0.0027711435777594017,
+        "length": 37.71706163091832,
+        "street": "East 10th Street"
+      },
+      "sourceFootprint": [
+        [
+          -187.871,
+          29.32
+        ],
+        [
+          -187.881,
+          26.422
+        ],
+        [
+          -188.709,
+          25.175
+        ],
+        [
+          -203.234,
+          25.215
+        ],
+        [
+          -204.201,
+          26.096
+        ],
+        [
+          -204.196,
+          29.367
+        ],
+        [
+          -213.11,
+          29.395
+        ],
+        [
+          -213.161,
+          9.514
+        ],
+        [
+          -197.644,
+          9.471
+        ],
+        [
+          -193.779,
+          9.462
+        ],
+        [
+          -178.257,
+          9.428
+        ],
+        [
+          -175.444,
+          9.418
+        ],
+        [
+          -175.425,
+          16.222
+        ],
+        [
+          -175.405,
+          23.828
+        ],
+        [
+          -178.203,
+          23.829
+        ],
+        [
+          -178.964,
+          23.832
+        ],
+        [
+          -178.953,
+          29.303
+        ]
+      ],
+      "mappedHeight": 20.42,
+      "side": "south",
+      "role": "assigned-primary",
+      "state": "needs-evidence",
+      "businesses": [
+        {
+          "id": "osm-node-2547141627",
+          "osmId": 2547141627,
+          "name": "Prince Tea House",
+          "category": "cafe",
+          "mappedAddress": "204 East 10th Street",
+          "point": [
+            -182.253,
+            10.644
+          ],
+          "sources": [
+            {
+              "publisher": "OpenStreetMap contributors",
+              "url": "https://www.openstreetmap.org/node/2547141627",
+              "snapshot": "2026-09-05T17:07:06Z"
+            },
+            {
+              "publisher": "NYC DOHMH",
+              "url": "https://data.cityofnewyork.us/resource/43nn-pn8j.json?camis=50105367",
+              "inspectionDate": "2025-12-03",
+              "name": "PRINCE TEA HOUSE",
+              "address": "204 EAST   10 STREET",
+              "bin": "1006404"
+            }
+          ],
+          "buildingId": 247852693,
+          "buildingMatch": "address",
+          "renderName": true,
+          "status": "dated city occupancy record",
+          "frontageIndex": 1,
+          "street": "East 10th Street",
+          "along": 6.812,
+          "frontageDistance": 1.216,
+          "appearance": "Sign lettering, exact shop partition and interior are estimates unless an individual facade profile is supplied.",
+          "unit": [
+            0.812,
+            12.812
+          ],
+          "unitBasis": "Point order on the selected street frontage, with a bounded envelope for long unpartitioned elevations; dividing walls and unit widths estimated. Unsupported stretches remain unnamed."
+        },
+        {
+          "id": "osm-node-2572216588",
+          "osmId": 2572216588,
+          "name": "Chase",
+          "category": "bank",
+          "mappedAddress": "156 2nd Avenue",
+          "point": [
+            -212.063,
+            14.266
+          ],
+          "sources": [
+            {
+              "publisher": "OpenStreetMap contributors",
+              "url": "https://www.openstreetmap.org/node/2572216588",
+              "snapshot": "2026-09-05T17:07:06Z"
+            }
+          ],
+          "buildingId": 247852693,
+          "buildingMatch": "address",
+          "renderName": false,
+          "status": "mapped identity; independent occupancy unresolved",
+          "frontageIndex": 0,
+          "street": "Second Avenue",
+          "along": 4.755,
+          "frontageDistance": 1.086,
+          "appearance": "Sign lettering, exact shop partition and interior are estimates unless an individual facade profile is supplied."
+        },
+        {
+          "id": "osm-node-7078534433",
+          "osmId": 7078534433,
+          "name": "United Shipping and Packaging",
+          "category": "shipping",
+          "mappedAddress": "200 East 10th Street",
+          "point": [
+            -189.122,
+            10.668
+          ],
+          "sources": [
+            {
+              "publisher": "OpenStreetMap contributors",
+              "url": "https://www.openstreetmap.org/node/7078534433",
+              "snapshot": "2026-09-05T17:07:06Z"
+            }
+          ],
+          "buildingId": 247852693,
+          "buildingMatch": "address",
+          "renderName": false,
+          "status": "mapped identity; independent occupancy unresolved",
+          "frontageIndex": 1,
+          "street": "East 10th Street",
+          "along": 13.681,
+          "frontageDistance": 1.221,
+          "appearance": "Sign lettering, exact shop partition and interior are estimates unless an individual facade profile is supplied."
+        }
+      ],
+      "referenceRoadViewpoint": {
+        "lat": 40.7296159,
+        "lon": -73.9864649,
+        "heading": 208.9,
+        "locator": "https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=40.7296159,-73.9864649&heading=208.9&pitch=12&fov=85",
+        "state": "Candidate locator from mapped facade; not opened or inspected"
+      }
+    },
+    {
+      "faceId": "247852694:0",
+      "buildingId": 247852694,
+      "frontageIndex": 0,
+      "mappedAddress": "216 East 10th Street",
+      "sourceFace": {
+        "x": -121.81,
+        "z": 9.272,
+        "rx": -0.9999964656436006,
+        "rz": 0.00265870274893898,
+        "length": 15.421,
+        "street": "East 10th Street"
+      },
+      "sourceFootprint": [
+        [
+          -121.788,
+          15.908
+        ],
+        [
+          -125.809,
+          15.915
+        ],
+        [
+          -125.794,
+          20.455
+        ],
+        [
+          -125.79,
+          22.719
+        ],
+        [
+          -125.78,
+          26.0
+        ],
+        [
+          -121.764,
+          25.983
+        ],
+        [
+          -121.756,
+          27.647
+        ],
+        [
+          -121.746,
+          33.081
+        ],
+        [
+          -137.167,
+          33.122
+        ],
+        [
+          -137.177,
+          27.688
+        ],
+        [
+          -137.185,
+          26.024
+        ],
+        [
+          -133.117,
+          26.016
+        ],
+        [
+          -133.15,
+          16.584
+        ],
+        [
+          -137.213,
+          16.601
+        ],
+        [
+          -137.216,
+          15.189
+        ],
+        [
+          -137.231,
+          9.313
+        ],
+        [
+          -121.81,
+          9.272
+        ],
+        [
+          -121.795,
+          15.148
+        ]
+      ],
+      "mappedHeight": 19.32,
+      "side": "south",
+      "role": "assigned-primary",
+      "state": "needs-evidence",
+      "businesses": [
+        {
+          "id": "osm-node-7078534435",
+          "osmId": 7078534435,
+          "name": "Shabu-Tatsu",
+          "category": "restaurant",
+          "mappedAddress": "216 East 10th Street",
+          "point": [
+            -133.945,
+            10.518
+          ],
+          "sources": [
+            {
+              "publisher": "OpenStreetMap contributors",
+              "url": "https://www.openstreetmap.org/node/7078534435",
+              "snapshot": "2026-09-05T17:07:06Z"
+            },
+            {
+              "publisher": "NYC DOHMH",
+              "url": "https://data.cityofnewyork.us/resource/43nn-pn8j.json?camis=40393712",
+              "inspectionDate": "2026-06-09",
+              "name": "SHABU TATSU",
+              "address": "216 EAST   10 STREET",
+              "bin": "1006410"
+            }
+          ],
+          "buildingId": 247852694,
+          "buildingMatch": "address",
+          "renderName": true,
+          "status": "dated city occupancy record",
+          "frontageIndex": 0,
+          "street": "East 10th Street",
+          "along": 12.138,
+          "frontageDistance": 1.214,
+          "appearance": "Sign lettering, exact shop partition and interior are estimates unless an individual facade profile is supplied.",
+          "unit": [
+            6.138,
+            15.301
+          ],
+          "unitBasis": "Point order on the selected street frontage, with a bounded envelope for long unpartitioned elevations; dividing walls and unit widths estimated. Unsupported stretches remain unnamed."
+        },
+        {
+          "id": "osm-node-7078534436",
+          "osmId": 7078534436,
+          "name": "Rai Rai Ken",
+          "category": "restaurant",
+          "mappedAddress": "218 East 10th Street",
+          "point": [
+            -124.992,
+            10.493
+          ],
+          "sources": [
+            {
+              "publisher": "OpenStreetMap contributors",
+              "url": "https://www.openstreetmap.org/node/7078534436",
+              "snapshot": "2026-09-05T17:07:06Z"
+            }
+          ],
+          "buildingId": 247852694,
+          "buildingMatch": "address",
+          "renderName": false,
+          "status": "mapped identity; independent occupancy unresolved",
+          "frontageIndex": 0,
+          "street": "East 10th Street",
+          "along": 3.185,
+          "frontageDistance": 1.213,
+          "appearance": "Sign lettering, exact shop partition and interior are estimates unless an individual facade profile is supplied."
+        }
+      ],
+      "referenceRoadViewpoint": {
+        "lat": 40.7293344,
+        "lon": -73.9857927,
+        "heading": 208.9,
+        "locator": "https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=40.7293344,-73.9857927&heading=208.9&pitch=12&fov=85",
+        "state": "Candidate locator from mapped facade; not opened or inspected"
+      }
+    },
+    {
+      "faceId": "247851935:1",
+      "buildingId": 247851935,
+      "frontageIndex": 1,
+      "mappedAddress": "160 2nd Avenue",
+      "sourceFace": {
+        "x": -213.905,
+        "z": -16.96,
+        "rx": 0.005075448367539637,
+        "rz": 0.9999871198289848,
+        "length": 8.078,
+        "street": "Second Avenue"
+      },
+      "sourceFootprint": [
+        [
+          -205.388,
+          -16.97
+        ],
+        [
+          -205.385,
+          -16.183
+        ],
+        [
+          -196.955,
+          -16.195
+        ],
+        [
+          -195.031,
+          -14.973
+        ],
+        [
+          -191.858,
+          -14.979
+        ],
+        [
+          -191.862,
+          -16.2
+        ],
+        [
+          -186.496,
+          -16.203
+        ],
+        [
+          -185.957,
+          -16.987
+        ],
+        [
+          -183.003,
+          -16.986
+        ],
+        [
+          -182.967,
+          -8.918
+        ],
+        [
+          -213.864,
+          -8.882
+        ],
+        [
+          -213.905,
+          -16.96
+        ],
+        [
+          -210.809,
+          -16.962
+        ]
+      ],
+      "mappedHeight": 18.15,
+      "side": "corner",
+      "role": "same-building-corner-return",
+      "state": "needs-evidence",
+      "businesses": [
+        {
+          "id": "osm-node-2572216591",
+          "osmId": 2572216591,
+          "name": "Marinara",
+          "category": "fast_food",
+          "mappedAddress": "160 2nd Avenue",
+          "point": [
+            -210.037,
+            -12.641
+          ],
+          "sources": [
+            {
+              "publisher": "OpenStreetMap contributors",
+              "url": "https://www.openstreetmap.org/node/2572216591",
+              "snapshot": "2026-09-05T17:07:06Z"
+            },
+            {
+              "publisher": "NYC DOHMH",
+              "url": "https://data.cityofnewyork.us/resource/43nn-pn8j.json?camis=50114726",
+              "inspectionDate": "2025-03-05",
+              "name": "MARINARA PIZZA",
+              "address": "160 2 AVENUE",
+              "bin": "1006433"
+            }
+          ],
+          "buildingId": 247851935,
+          "buildingMatch": "address",
+          "renderName": false,
+          "status": "mapped identity; independent occupancy unresolved",
+          "frontageIndex": 1,
+          "street": "Second Avenue",
+          "along": 4.339,
+          "frontageDistance": 3.846,
+          "appearance": "Sign lettering, exact shop partition and interior are estimates unless an individual facade profile is supplied."
+        },
+        {
+          "id": "osm-node-5403602691",
+          "osmId": 5403602691,
+          "name": "Matcha House",
+          "category": "cafe",
+          "mappedAddress": "203 East 10th Street",
+          "point": [
+            -186.946,
+            -10.641
+          ],
+          "sources": [
+            {
+              "publisher": "OpenStreetMap contributors",
+              "url": "https://www.openstreetmap.org/node/5403602691",
+              "snapshot": "2026-09-05T17:07:06Z"
+            },
+            {
+              "publisher": "NYC DOHMH",
+              "url": "https://data.cityofnewyork.us/resource/43nn-pn8j.json?camis=50168685",
+              "inspectionDate": "2025-08-25",
+              "name": "MATCHA HOUSE",
+              "address": "203 EAST   10 STREET",
+              "bin": "1006433"
+            },
+            {
+              "publisher": "Business website",
+              "url": "https://www.matchahousenyc.com/",
+              "checked": "2026-09-06",
+              "address": "203 East 10th Street"
+            }
+          ],
+          "buildingId": 247851935,
+          "buildingMatch": "address",
+          "renderName": true,
+          "status": "website lists this address",
+          "frontageIndex": 0,
+          "street": "East 10th Street",
+          "along": 26.92,
+          "frontageDistance": 1.728,
+          "appearance": "Sign lettering, exact shop partition and interior are estimates unless an individual facade profile is supplied.",
+          "unit": [
+            20.92,
+            30.777
+          ],
+          "unitBasis": "Point order on the selected street frontage, with a bounded envelope for long unpartitioned elevations; dividing walls and unit widths estimated. Unsupported stretches remain unnamed."
+        }
+      ],
+      "referenceRoadViewpoint": {
+        "lat": 40.7298488,
+        "lon": -73.9866678,
+        "heading": 118.8,
+        "locator": "https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=40.7298488,-73.9866678&heading=118.8&pitch=12&fov=85",
+        "state": "Candidate locator from mapped facade; not opened or inspected"
+      }
+    },
+    {
+      "faceId": "247852693:0",
+      "buildingId": 247852693,
+      "frontageIndex": 0,
+      "mappedAddress": "204 East 10th Street",
+      "sourceFace": {
+        "x": -213.161,
+        "z": 9.514,
+        "rx": 0.002565254876320651,
+        "rz": 0.9999967097282969,
+        "length": 19.881,
+        "street": "Second Avenue"
+      },
+      "sourceFootprint": [
+        [
+          -187.871,
+          29.32
+        ],
+        [
+          -187.881,
+          26.422
+        ],
+        [
+          -188.709,
+          25.175
+        ],
+        [
+          -203.234,
+          25.215
+        ],
+        [
+          -204.201,
+          26.096
+        ],
+        [
+          -204.196,
+          29.367
+        ],
+        [
+          -213.11,
+          29.395
+        ],
+        [
+          -213.161,
+          9.514
+        ],
+        [
+          -197.644,
+          9.471
+        ],
+        [
+          -193.779,
+          9.462
+        ],
+        [
+          -178.257,
+          9.428
+        ],
+        [
+          -175.444,
+          9.418
+        ],
+        [
+          -175.425,
+          16.222
+        ],
+        [
+          -175.405,
+          23.828
+        ],
+        [
+          -178.203,
+          23.829
+        ],
+        [
+          -178.964,
+          23.832
+        ],
+        [
+          -178.953,
+          29.303
+        ]
+      ],
+      "mappedHeight": 20.42,
+      "side": "corner",
+      "role": "same-building-corner-return",
+      "state": "needs-evidence",
+      "businesses": [
+        {
+          "id": "osm-node-2547141627",
+          "osmId": 2547141627,
+          "name": "Prince Tea House",
+          "category": "cafe",
+          "mappedAddress": "204 East 10th Street",
+          "point": [
+            -182.253,
+            10.644
+          ],
+          "sources": [
+            {
+              "publisher": "OpenStreetMap contributors",
+              "url": "https://www.openstreetmap.org/node/2547141627",
+              "snapshot": "2026-09-05T17:07:06Z"
+            },
+            {
+              "publisher": "NYC DOHMH",
+              "url": "https://data.cityofnewyork.us/resource/43nn-pn8j.json?camis=50105367",
+              "inspectionDate": "2025-12-03",
+              "name": "PRINCE TEA HOUSE",
+              "address": "204 EAST   10 STREET",
+              "bin": "1006404"
+            }
+          ],
+          "buildingId": 247852693,
+          "buildingMatch": "address",
+          "renderName": true,
+          "status": "dated city occupancy record",
+          "frontageIndex": 1,
+          "street": "East 10th Street",
+          "along": 6.812,
+          "frontageDistance": 1.216,
+          "appearance": "Sign lettering, exact shop partition and interior are estimates unless an individual facade profile is supplied.",
+          "unit": [
+            0.812,
+            12.812
+          ],
+          "unitBasis": "Point order on the selected street frontage, with a bounded envelope for long unpartitioned elevations; dividing walls and unit widths estimated. Unsupported stretches remain unnamed."
+        },
+        {
+          "id": "osm-node-2572216588",
+          "osmId": 2572216588,
+          "name": "Chase",
+          "category": "bank",
+          "mappedAddress": "156 2nd Avenue",
+          "point": [
+            -212.063,
+            14.266
+          ],
+          "sources": [
+            {
+              "publisher": "OpenStreetMap contributors",
+              "url": "https://www.openstreetmap.org/node/2572216588",
+              "snapshot": "2026-09-05T17:07:06Z"
+            }
+          ],
+          "buildingId": 247852693,
+          "buildingMatch": "address",
+          "renderName": false,
+          "status": "mapped identity; independent occupancy unresolved",
+          "frontageIndex": 0,
+          "street": "Second Avenue",
+          "along": 4.755,
+          "frontageDistance": 1.086,
+          "appearance": "Sign lettering, exact shop partition and interior are estimates unless an individual facade profile is supplied."
+        },
+        {
+          "id": "osm-node-7078534433",
+          "osmId": 7078534433,
+          "name": "United Shipping and Packaging",
+          "category": "shipping",
+          "mappedAddress": "200 East 10th Street",
+          "point": [
+            -189.122,
+            10.668
+          ],
+          "sources": [
+            {
+              "publisher": "OpenStreetMap contributors",
+              "url": "https://www.openstreetmap.org/node/7078534433",
+              "snapshot": "2026-09-05T17:07:06Z"
+            }
+          ],
+          "buildingId": 247852693,
+          "buildingMatch": "address",
+          "renderName": false,
+          "status": "mapped identity; independent occupancy unresolved",
+          "frontageIndex": 1,
+          "street": "East 10th Street",
+          "along": 13.681,
+          "frontageDistance": 1.221,
+          "appearance": "Sign lettering, exact shop partition and interior are estimates unless an individual facade profile is supplied."
+        }
+      ],
+      "referenceRoadViewpoint": {
+        "lat": 40.7295915,
+        "lon": -73.9868464,
+        "heading": 118.9,
+        "locator": "https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=40.7295915,-73.9868464&heading=118.9&pitch=12&fov=85",
+        "state": "Candidate locator from mapped facade; not opened or inspected"
+      }
+    }
+  ],
+  "preservedFaces": [
+    {
+      "faceId": "247851912:0",
+      "buildingId": 247851912,
+      "frontageIndex": 0,
+      "mappedAddress": "239 East 10th Street",
+      "sourceFace": {
+        "x": -53.349,
+        "z": -12.519,
+        "rx": 0.9999997907510623,
+        "rz": -0.0006469140838082957,
+        "length": 7.729,
+        "street": "East 10th Street"
+      },
+      "sourceFootprint": [
+        [
+          -45.62,
+          -12.524
+        ],
+        [
+          -53.349,
+          -12.519
+        ],
+        [
+          -53.362,
+          -14.244
+        ],
+        [
+          -53.385,
+          -19.249
+        ],
+        [
+          -53.393,
+          -22.302
+        ],
+        [
+          -53.422,
+          -28.221
+        ],
+        [
+          -53.427,
+          -28.855
+        ],
+        [
+          -45.691,
+          -28.864
+        ],
+        [
+          -45.674,
+          -24.39
+        ],
+        [
+          -45.642,
+          -16.868
+        ]
+      ],
+      "mappedHeight": 17.5,
+      "side": "north",
+      "role": "protected-core",
+      "state": "preserve accepted geometry; runtime adapter pending",
+      "businesses": []
+    },
+    {
+      "faceId": "247851944:1",
+      "buildingId": 247851944,
+      "frontageIndex": 1,
+      "mappedAddress": "163 1st Avenue",
+      "sourceFace": {
+        "x": -45.604,
+        "z": -9.527,
+        "rx": 0.9999995402865165,
+        "rz": -0.0009588674338152657,
+        "length": 30.244,
+        "street": "East 10th Street"
+      },
+      "sourceFootprint": [
+        [
+          -15.393,
+          -17.652
+        ],
+        [
+          -15.36,
+          -9.556
+        ],
+        [
+          -45.604,
+          -9.527
+        ],
+        [
+          -45.62,
+          -12.524
+        ],
+        [
+          -45.642,
+          -16.868
+        ],
+        [
+          -31.671,
+          -16.879
+        ],
+        [
+          -31.679,
+          -17.639
+        ]
+      ],
+      "mappedHeight": 10.6,
+      "side": "north",
+      "role": "protected-core",
+      "state": "preserve accepted geometry; runtime adapter pending",
+      "businesses": [
+        {
+          "id": "osm-node-2547121461",
+          "osmId": 2547121461,
+          "name": "Hags",
+          "category": "restaurant",
+          "mappedAddress": "163 1st Avenue",
+          "point": [
+            -16.409,
+            -15.66
+          ],
+          "sources": [
+            {
+              "publisher": "OpenStreetMap contributors",
+              "url": "https://www.openstreetmap.org/node/2547121461",
+              "snapshot": "2026-09-05T17:07:06Z"
+            },
+            {
+              "publisher": "NYC DOHMH",
+              "url": "https://data.cityofnewyork.us/resource/43nn-pn8j.json?camis=50130364",
+              "inspectionDate": "2026-02-26",
+              "name": "HAGS",
+              "address": "163 1 AVENUE",
+              "bin": "1006455"
+            }
+          ],
+          "buildingId": 247851944,
+          "buildingMatch": "address",
+          "renderName": true,
+          "status": "dated city occupancy record",
+          "frontageIndex": 0,
+          "street": "First Avenue",
+          "along": 6.108,
+          "frontageDistance": 1.024,
+          "appearance": "Sign lettering, exact shop partition and interior are estimates unless an individual facade profile is supplied.",
+          "unit": [
+            4.125,
+            7.976
+          ],
+          "unitBasis": "Point order on the selected street frontage, with a bounded envelope for long unpartitioned elevations; dividing walls and unit widths estimated. Unsupported stretches remain unnamed."
+        },
+        {
+          "id": "osm-node-2547121512",
+          "osmId": 2547121512,
+          "name": "Not As Bitter",
+          "category": "cafe",
+          "mappedAddress": "241 East 10th Street",
+          "point": [
+            -33.219,
+            -10.567
+          ],
+          "sources": [
+            {
+              "publisher": "OpenStreetMap contributors",
+              "url": "https://www.openstreetmap.org/node/2547121512",
+              "snapshot": "2026-09-05T17:07:06Z"
+            },
+            {
+              "publisher": "NYC DOHMH",
+              "url": "https://data.cityofnewyork.us/resource/43nn-pn8j.json?camis=50147893",
+              "inspectionDate": "2026-01-15",
+              "name": "NOT AS BITTER",
+              "address": "241 EAST   10 STREET",
+              "bin": "1006455"
+            },
+            {
+              "publisher": "Business website",
+              "url": "https://www.notasbitter.com",
+              "checked": "2026-09-06",
+              "address": "241 East 10th Street"
+            }
+          ],
+          "buildingId": 247851944,
+          "buildingMatch": "address",
+          "renderName": true,
+          "status": "website lists this address",
+          "frontageIndex": 1,
+          "street": "East 10th Street",
+          "along": 12.386,
+          "frontageDistance": 1.028,
+          "appearance": "Sign lettering, exact shop partition and interior are estimates unless an individual facade profile is supplied.",
+          "unit": [
+            9.91,
+            18.386
+          ],
+          "unitBasis": "Point order on the selected street frontage, with a bounded envelope for long unpartitioned elevations; dividing walls and unit widths estimated. Unsupported stretches remain unnamed."
+        },
+        {
+          "id": "osm-node-3574687793",
+          "osmId": 3574687793,
+          "name": "Gelatoville Gelataria",
+          "category": "ice_cream",
+          "mappedAddress": "163 1st Avenue",
+          "point": [
+            -16.395,
+            -11.694
+          ],
+          "sources": [
+            {
+              "publisher": "OpenStreetMap contributors",
+              "url": "https://www.openstreetmap.org/node/3574687793",
+              "snapshot": "2026-09-05T17:07:06Z"
+            },
+            {
+              "publisher": "NYC DOHMH",
+              "url": "https://data.cityofnewyork.us/resource/43nn-pn8j.json?camis=50132751",
+              "inspectionDate": "2026-04-28",
+              "name": "GELATOVILLE",
+              "address": "163 1 AVENUE",
+              "bin": "1006455"
+            }
+          ],
+          "buildingId": 247851944,
+          "buildingMatch": "address",
+          "renderName": true,
+          "status": "dated city occupancy record",
+          "frontageIndex": 0,
+          "street": "First Avenue",
+          "along": 2.142,
+          "frontageDistance": 1.026,
+          "appearance": "Sign lettering, exact shop partition and interior are estimates unless an individual facade profile is supplied.",
+          "unit": [
+            0.12,
+            4.125
+          ],
+          "unitBasis": "Point order on the selected street frontage, with a bounded envelope for long unpartitioned elevations; dividing walls and unit widths estimated. Unsupported stretches remain unnamed."
+        },
+        {
+          "id": "osm-node-12552066544",
+          "osmId": 12552066544,
+          "name": "To Eat Sushi",
+          "category": "restaurant",
+          "mappedAddress": "241 East 10th Street",
+          "point": [
+            -38.17,
+            -10.565
+          ],
+          "sources": [
+            {
+              "publisher": "OpenStreetMap contributors",
+              "url": "https://www.openstreetmap.org/node/12552066544",
+              "snapshot": "2026-09-05T17:07:06Z"
+            },
+            {
+              "publisher": "Business website",
+              "url": "https://www.toeatsushi.com",
+              "checked": "2026-09-06",
+              "address": "241 East 10th Street"
+            }
+          ],
+          "buildingId": 247851944,
+          "buildingMatch": "address",
+          "renderName": true,
+          "status": "website lists this address",
+          "frontageIndex": 1,
+          "street": "East 10th Street",
+          "along": 7.435,
+          "frontageDistance": 1.031,
+          "appearance": "Sign lettering, exact shop partition and interior are estimates unless an individual facade profile is supplied.",
+          "unit": [
+            0.12,
+            9.91
+          ],
+          "unitBasis": "Point order on the selected street frontage, with a bounded envelope for long unpartitioned elevations; dividing walls and unit widths estimated. Unsupported stretches remain unnamed."
+        }
+      ]
+    },
+    {
+      "faceId": "247852692:0",
+      "buildingId": 247852692,
+      "frontageIndex": 0,
+      "mappedAddress": "242 East 10th Street",
+      "sourceFace": {
+        "x": -15.378,
+        "z": 8.986,
+        "rx": -0.9999971731584943,
+        "rz": 0.002377745785448678,
+        "length": 19.346,
+        "street": "East 10th Street"
+      },
+      "sourceFootprint": [
+        [
+          -20.911,
+          23.233
+        ],
+        [
+          -20.923,
+          19.826
+        ],
+        [
+          -22.379,
+          19.133
+        ],
+        [
+          -24.785,
+          19.147
+        ],
+        [
+          -28.101,
+          19.156
+        ],
+        [
+          -29.052,
+          20.933
+        ],
+        [
+          -29.043,
+          23.259
+        ],
+        [
+          -33.398,
+          23.273
+        ],
+        [
+          -34.681,
+          23.274
+        ],
+        [
+          -37.243,
+          23.284
+        ],
+        [
+          -37.263,
+          18.735
+        ],
+        [
+          -37.263,
+          17.92
+        ],
+        [
+          -37.267,
+          15.273
+        ],
+        [
+          -37.286,
+          9.043
+        ],
+        [
+          -34.724,
+          9.032
+        ],
+        [
+          -15.378,
+          8.986
+        ],
+        [
+          -15.34,
+          23.218
+        ]
+      ],
+      "mappedHeight": 18.8,
+      "side": "south",
+      "role": "protected-core",
+      "state": "preserve accepted geometry; runtime adapter pending",
+      "businesses": [
+        {
+          "id": "osm-node-7078542076",
+          "osmId": 7078542076,
+          "name": "Apollo Bagels",
+          "category": "fast_food",
+          "mappedAddress": "242 East 10th Street",
+          "point": [
+            -31.318,
+            10.246
+          ],
+          "sources": [
+            {
+              "publisher": "OpenStreetMap contributors",
+              "url": "https://www.openstreetmap.org/node/7078542076",
+              "snapshot": "2026-09-05T17:07:06Z"
+            },
+            {
+              "publisher": "NYC DOHMH",
+              "url": "https://data.cityofnewyork.us/resource/43nn-pn8j.json?camis=50146990",
+              "inspectionDate": "2026-04-23",
+              "name": "APOLLO BAGELS",
+              "address": "242 EAST   10 STREET",
+              "bin": "1006417"
+            }
+          ],
+          "buildingId": 247852692,
+          "buildingMatch": "address",
+          "renderName": true,
+          "status": "dated city occupancy record",
+          "frontageIndex": 0,
+          "street": "East 10th Street",
+          "along": 15.943,
+          "frontageDistance": 1.222,
+          "appearance": "Sign lettering, exact shop partition and interior are estimates unless an individual facade profile is supplied.",
+          "unit": [
+            9.943,
+            19.226
+          ],
+          "unitBasis": "Point order on the selected street frontage, with a bounded envelope for long unpartitioned elevations; dividing walls and unit widths estimated. Unsupported stretches remain unnamed."
+        },
+        {
+          "id": "osm-node-7078615623",
+          "osmId": 7078615623,
+          "name": "Eye & Health",
+          "category": "optician",
+          "mappedAddress": "159 1st Avenue",
+          "point": [
+            -16.585,
+            14.383
+          ],
+          "sources": [
+            {
+              "publisher": "OpenStreetMap contributors",
+              "url": "https://www.openstreetmap.org/node/7078615623",
+              "snapshot": "2026-09-05T17:07:06Z"
+            },
+            {
+              "publisher": "Business website",
+              "url": "https://www.eyeandhealth.com/",
+              "checked": "2026-09-06",
+              "address": "159 First Avenue"
+            }
+          ],
+          "buildingId": 247852692,
+          "buildingMatch": "address",
+          "renderName": true,
+          "status": "website lists this address",
+          "frontageIndex": 1,
+          "street": "First Avenue",
+          "along": 8.838,
+          "frontageDistance": 1.221,
+          "appearance": "Sign lettering, exact shop partition and interior are estimates unless an individual facade profile is supplied.",
+          "unit": [
+            0.12,
+            14.112
+          ],
+          "unitBasis": "Point order on the selected street frontage, with a bounded envelope for long unpartitioned elevations; dividing walls and unit widths estimated. Unsupported stretches remain unnamed."
+        },
+        {
+          "id": "osm-node-10281524809",
+          "osmId": 10281524809,
+          "name": "Stickett Inn",
+          "category": "bar",
+          "mappedAddress": "157 1st Avenue",
+          "point": [
+            -16.565,
+            20.511
+          ],
+          "sources": [
+            {
+              "publisher": "OpenStreetMap contributors",
+              "url": "https://www.openstreetmap.org/node/10281524809",
+              "snapshot": "2026-09-05T17:07:06Z"
+            },
+            {
+              "publisher": "NYC DOHMH",
+              "url": "https://data.cityofnewyork.us/resource/43nn-pn8j.json?camis=50110458",
+              "inspectionDate": "1900-01-01",
+              "name": "STICKETT INN",
+              "address": "159 1 AVENUE",
+              "bin": "1006417"
+            }
+          ],
+          "buildingId": 247852692,
+          "buildingMatch": "address",
+          "renderName": false,
+          "status": "mapped identity; independent occupancy unresolved",
+          "frontageIndex": 1,
+          "street": "First Avenue",
+          "along": 2.71,
+          "frontageDistance": 1.218,
+          "appearance": "Sign lettering, exact shop partition and interior are estimates unless an individual facade profile is supplied."
+        }
+      ]
+    },
+    {
+      "faceId": "247852695:1",
+      "buildingId": 247852695,
+      "frontageIndex": 1,
+      "mappedAddress": "155 1st Avenue",
+      "sourceFace": {
+        "x": -77.735,
+        "z": 10.352,
+        "rx": -0.9999987617337859,
+        "rz": 0.0015736997474391366,
+        "length": 5.719,
+        "street": "East 10th Street"
+      },
+      "sourceFootprint": [
+        [
+          -37.243,
+          23.284
+        ],
+        [
+          -34.681,
+          23.274
+        ],
+        [
+          -33.398,
+          23.273
+        ],
+        [
+          -29.043,
+          23.259
+        ],
+        [
+          -26.727,
+          23.258
+        ],
+        [
+          -20.911,
+          23.233
+        ],
+        [
+          -15.34,
+          23.218
+        ],
+        [
+          -15.335,
+          25.623
+        ],
+        [
+          -15.306,
+          34.892
+        ],
+        [
+          -15.306,
+          37.287
+        ],
+        [
+          -26.686,
+          37.322
+        ],
+        [
+          -34.906,
+          37.346
+        ],
+        [
+          -45.598,
+          37.369
+        ],
+        [
+          -53.208,
+          37.397
+        ],
+        [
+          -76.046,
+          37.448
+        ],
+        [
+          -83.377,
+          37.474
+        ],
+        [
+          -83.389,
+          33.494
+        ],
+        [
+          -83.407,
+          27.301
+        ],
+        [
+          -83.454,
+          10.361
+        ],
+        [
+          -77.735,
+          10.352
+        ],
+        [
+          -77.735,
+          9.155
+        ],
+        [
+          -49.243,
+          9.081
+        ],
+        [
+          -48.482,
+          9.078
+        ],
+        [
+          -43.264,
+          9.055
+        ],
+        [
+          -38.047,
+          9.045
+        ],
+        [
+          -37.286,
+          9.043
+        ],
+        [
+          -37.267,
+          15.273
+        ],
+        [
+          -37.263,
+          17.92
+        ],
+        [
+          -37.263,
+          18.735
+        ]
+      ],
+      "mappedHeight": 51.5,
+      "side": "south",
+      "role": "protected-core",
+      "state": "preserve accepted geometry; runtime adapter pending",
+      "businesses": [
+        {
+          "id": "osm-node-12720698856",
+          "osmId": 12720698856,
+          "name": "Apollo Bagels",
+          "category": "restaurant",
+          "mappedAddress": "242 East 10th Street",
+          "point": [
+            -44.399,
+            11.89
+          ],
+          "sources": [
+            {
+              "publisher": "OpenStreetMap contributors",
+              "url": "https://www.openstreetmap.org/node/12720698856",
+              "snapshot": "2026-09-05T17:07:06Z"
+            },
+            {
+              "publisher": "NYC DOHMH",
+              "url": "https://data.cityofnewyork.us/resource/43nn-pn8j.json?camis=50146990",
+              "inspectionDate": "2026-04-23",
+              "name": "APOLLO BAGELS",
+              "address": "242 EAST   10 STREET",
+              "bin": "1006417"
+            }
+          ],
+          "buildingId": 247852695,
+          "buildingMatch": "address",
+          "renderName": true,
+          "status": "dated city occupancy record",
+          "frontageIndex": 3,
+          "street": "East 10th Street",
+          "along": 6.364,
+          "frontageDistance": 2.83,
+          "appearance": "Sign lettering, exact shop partition and interior are estimates unless an individual facade profile is supplied.",
+          "unit": [
+            0.12,
+            10.315
+          ],
+          "unitBasis": "Point order on the selected street frontage, with a bounded envelope for long unpartitioned elevations; dividing walls and unit widths estimated. Unsupported stretches remain unnamed."
+        }
+      ]
+    },
+    {
+      "faceId": "247852695:2",
+      "buildingId": 247852695,
+      "frontageIndex": 2,
+      "mappedAddress": "155 1st Avenue",
+      "sourceFace": {
+        "x": -49.243,
+        "z": 9.081,
+        "rx": -0.9999966272404918,
+        "rz": 0.002597211512557779,
+        "length": 28.492,
+        "street": "East 10th Street"
+      },
+      "sourceFootprint": [
+        [
+          -37.243,
+          23.284
+        ],
+        [
+          -34.681,
+          23.274
+        ],
+        [
+          -33.398,
+          23.273
+        ],
+        [
+          -29.043,
+          23.259
+        ],
+        [
+          -26.727,
+          23.258
+        ],
+        [
+          -20.911,
+          23.233
+        ],
+        [
+          -15.34,
+          23.218
+        ],
+        [
+          -15.335,
+          25.623
+        ],
+        [
+          -15.306,
+          34.892
+        ],
+        [
+          -15.306,
+          37.287
+        ],
+        [
+          -26.686,
+          37.322
+        ],
+        [
+          -34.906,
+          37.346
+        ],
+        [
+          -45.598,
+          37.369
+        ],
+        [
+          -53.208,
+          37.397
+        ],
+        [
+          -76.046,
+          37.448
+        ],
+        [
+          -83.377,
+          37.474
+        ],
+        [
+          -83.389,
+          33.494
+        ],
+        [
+          -83.407,
+          27.301
+        ],
+        [
+          -83.454,
+          10.361
+        ],
+        [
+          -77.735,
+          10.352
+        ],
+        [
+          -77.735,
+          9.155
+        ],
+        [
+          -49.243,
+          9.081
+        ],
+        [
+          -48.482,
+          9.078
+        ],
+        [
+          -43.264,
+          9.055
+        ],
+        [
+          -38.047,
+          9.045
+        ],
+        [
+          -37.286,
+          9.043
+        ],
+        [
+          -37.267,
+          15.273
+        ],
+        [
+          -37.263,
+          17.92
+        ],
+        [
+          -37.263,
+          18.735
+        ]
+      ],
+      "mappedHeight": 51.5,
+      "side": "south",
+      "role": "protected-core",
+      "state": "preserve accepted geometry; runtime adapter pending",
+      "businesses": [
+        {
+          "id": "osm-node-12720698856",
+          "osmId": 12720698856,
+          "name": "Apollo Bagels",
+          "category": "restaurant",
+          "mappedAddress": "242 East 10th Street",
+          "point": [
+            -44.399,
+            11.89
+          ],
+          "sources": [
+            {
+              "publisher": "OpenStreetMap contributors",
+              "url": "https://www.openstreetmap.org/node/12720698856",
+              "snapshot": "2026-09-05T17:07:06Z"
+            },
+            {
+              "publisher": "NYC DOHMH",
+              "url": "https://data.cityofnewyork.us/resource/43nn-pn8j.json?camis=50146990",
+              "inspectionDate": "2026-04-23",
+              "name": "APOLLO BAGELS",
+              "address": "242 EAST   10 STREET",
+              "bin": "1006417"
+            }
+          ],
+          "buildingId": 247852695,
+          "buildingMatch": "address",
+          "renderName": true,
+          "status": "dated city occupancy record",
+          "frontageIndex": 3,
+          "street": "East 10th Street",
+          "along": 6.364,
+          "frontageDistance": 2.83,
+          "appearance": "Sign lettering, exact shop partition and interior are estimates unless an individual facade profile is supplied.",
+          "unit": [
+            0.12,
+            10.315
+          ],
+          "unitBasis": "Point order on the selected street frontage, with a bounded envelope for long unpartitioned elevations; dividing walls and unit widths estimated. Unsupported stretches remain unnamed."
+        }
+      ]
+    },
+    {
+      "faceId": "247852695:3",
+      "buildingId": 247852695,
+      "frontageIndex": 3,
+      "mappedAddress": "155 1st Avenue",
+      "sourceFace": {
+        "x": -38.04705728110636,
+        "z": 9.032004660303842,
+        "rx": -0.9999902857069978,
+        "rz": 0.004407776268926917,
+        "length": 10.434993398296104,
+        "street": "East 10th Street"
+      },
+      "sourceFootprint": [
+        [
+          -37.243,
+          23.284
+        ],
+        [
+          -34.681,
+          23.274
+        ],
+        [
+          -33.398,
+          23.273
+        ],
+        [
+          -29.043,
+          23.259
+        ],
+        [
+          -26.727,
+          23.258
+        ],
+        [
+          -20.911,
+          23.233
+        ],
+        [
+          -15.34,
+          23.218
+        ],
+        [
+          -15.335,
+          25.623
+        ],
+        [
+          -15.306,
+          34.892
+        ],
+        [
+          -15.306,
+          37.287
+        ],
+        [
+          -26.686,
+          37.322
+        ],
+        [
+          -34.906,
+          37.346
+        ],
+        [
+          -45.598,
+          37.369
+        ],
+        [
+          -53.208,
+          37.397
+        ],
+        [
+          -76.046,
+          37.448
+        ],
+        [
+          -83.377,
+          37.474
+        ],
+        [
+          -83.389,
+          33.494
+        ],
+        [
+          -83.407,
+          27.301
+        ],
+        [
+          -83.454,
+          10.361
+        ],
+        [
+          -77.735,
+          10.352
+        ],
+        [
+          -77.735,
+          9.155
+        ],
+        [
+          -49.243,
+          9.081
+        ],
+        [
+          -48.482,
+          9.078
+        ],
+        [
+          -43.264,
+          9.055
+        ],
+        [
+          -38.047,
+          9.045
+        ],
+        [
+          -37.286,
+          9.043
+        ],
+        [
+          -37.267,
+          15.273
+        ],
+        [
+          -37.263,
+          17.92
+        ],
+        [
+          -37.263,
+          18.735
+        ]
+      ],
+      "mappedHeight": 51.5,
+      "side": "south",
+      "role": "protected-core",
+      "state": "preserve accepted geometry; runtime adapter pending",
+      "businesses": [
+        {
+          "id": "osm-node-12720698856",
+          "osmId": 12720698856,
+          "name": "Apollo Bagels",
+          "category": "restaurant",
+          "mappedAddress": "242 East 10th Street",
+          "point": [
+            -44.399,
+            11.89
+          ],
+          "sources": [
+            {
+              "publisher": "OpenStreetMap contributors",
+              "url": "https://www.openstreetmap.org/node/12720698856",
+              "snapshot": "2026-09-05T17:07:06Z"
+            },
+            {
+              "publisher": "NYC DOHMH",
+              "url": "https://data.cityofnewyork.us/resource/43nn-pn8j.json?camis=50146990",
+              "inspectionDate": "2026-04-23",
+              "name": "APOLLO BAGELS",
+              "address": "242 EAST   10 STREET",
+              "bin": "1006417"
+            }
+          ],
+          "buildingId": 247852695,
+          "buildingMatch": "address",
+          "renderName": true,
+          "status": "dated city occupancy record",
+          "frontageIndex": 3,
+          "street": "East 10th Street",
+          "along": 6.364,
+          "frontageDistance": 2.83,
+          "appearance": "Sign lettering, exact shop partition and interior are estimates unless an individual facade profile is supplied.",
+          "unit": [
+            0.12,
+            10.315
+          ],
+          "unitBasis": "Point order on the selected street frontage, with a bounded envelope for long unpartitioned elevations; dividing walls and unit widths estimated. Unsupported stretches remain unnamed."
+        }
+      ]
+    }
+  ],
+  "massAndRoofOwners": [
+    247851894,
+    247851895,
+    247851896,
+    247851897,
+    247851898,
+    247851899,
+    247851900,
+    247851901,
+    247851902,
+    247851903,
+    247851904,
+    247851906,
+    247851908,
+    247851911,
+    247851935,
+    247852656,
+    247852658,
+    247852659,
+    247852660,
+    247852662,
+    247852663,
+    247852664,
+    247852665,
+    247852667,
+    247852668,
+    247852693,
+    247852694
+  ],
+  "protectedCore": {
+    "source": "dist/reconstruction/first-and-10th.glb",
+    "sha256": "405e247602a2117f5f1e7b938921ec584fbd0e3ff9e9008209361f215b65f167",
+    "allBuildingIds": [
+      247851882,
+      247851883,
+      247851884,
+      247851885,
+      247851912,
+      247851944,
+      247852655,
+      247852692,
+      247852695,
+      247852701,
+      248142860,
+      248142861,
+      248142862,
+      248142864,
+      248142866,
+      248142868,
+      248142883,
+      248142884,
+      248142885,
+      248142886,
+      248142889,
+      248142962,
+      248142976
+    ],
+    "currentGodotCoreBuildingCount": 0,
+    "ownership": "Retain every accepted core face and mass. Import/adapt existing authored geometry separately; never regenerate these buildings with the ordinary new-facade recipe. Exact source-node/mesh and shared-detail ownership must be proven before integration.",
+    "sourceNodeGroups": {
+      "163 First Avenue · northwest · photograph-based": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        523,
+        524,
+        525,
+        526,
+        527,
+        528
+      ],
+      "159–161 First Avenue · southwest · photograph-based": [
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        529,
+        530,
+        531,
+        532,
+        533,
+        534,
+        535
+      ],
+      "164 First Avenue · northeast · photograph-based": [
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        536,
+        537
+      ],
+      "162 First Avenue · southeast · photograph-based": [
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108
+      ],
+      "Theater and tower · footprint subdivision estimated from references": [
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119,
+        120,
+        121,
+        122,
+        123,
+        124,
+        125,
+        126
+      ],
+      "165 1st Avenue · adjacent facade reference": [
+        127,
+        128,
+        129,
+        130,
+        131,
+        132,
+        133,
+        134,
+        135,
+        136,
+        137,
+        138,
+        139,
+        140,
+        141,
+        142,
+        143,
+        144,
+        145,
+        146,
+        147,
+        148,
+        149,
+        150,
+        151,
+        152,
+        153,
+        154,
+        552,
+        553
+      ],
+      "167 1st Avenue · adjacent facade reference": [
+        155,
+        156,
+        157,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        164,
+        165,
+        166,
+        167,
+        168,
+        169,
+        170,
+        171,
+        172,
+        173
+      ],
+      "169 1st Avenue · adjacent facade reference": [
+        174,
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        182,
+        183,
+        184,
+        185,
+        186,
+        187
+      ],
+      "171 1st Avenue · adjacent facade reference": [
+        188,
+        189,
+        190,
+        191,
+        192,
+        193,
+        194,
+        195,
+        196,
+        197,
+        198,
+        199,
+        200,
+        201,
+        202,
+        203,
+        204,
+        205,
+        206,
+        207,
+        208,
+        209,
+        210,
+        211,
+        554
+      ],
+      "166 1st Avenue · adjacent facade reference": [
+        212,
+        213,
+        214,
+        215,
+        216,
+        217,
+        218,
+        219,
+        220,
+        221,
+        222,
+        223,
+        224,
+        225,
+        226,
+        227,
+        228,
+        229,
+        230,
+        231,
+        232,
+        555,
+        556,
+        557
+      ],
+      "168 1st Avenue · adjacent facade reference": [
+        233,
+        234,
+        235,
+        236,
+        237,
+        238,
+        239,
+        240,
+        241,
+        242,
+        243,
+        244,
+        245,
+        246,
+        247,
+        248,
+        249
+      ],
+      "170 1st Avenue · adjacent facade reference": [
+        250,
+        251,
+        252,
+        253,
+        254,
+        255,
+        256,
+        257,
+        258,
+        259,
+        260,
+        261,
+        262,
+        263,
+        264,
+        265,
+        266
+      ],
+      "160 1st Avenue · adjacent facade reference": [
+        267,
+        268,
+        269,
+        270,
+        271,
+        272,
+        273,
+        274,
+        275,
+        276,
+        277,
+        278,
+        279,
+        280,
+        281,
+        282,
+        283,
+        284,
+        285,
+        286,
+        287,
+        288,
+        289,
+        290,
+        291,
+        292,
+        558,
+        559,
+        560,
+        561
+      ],
+      "158 1st Avenue · adjacent facade reference": [
+        293,
+        294,
+        295,
+        296,
+        297,
+        298,
+        299,
+        300,
+        301,
+        302,
+        303,
+        304,
+        305,
+        306,
+        307,
+        308
+      ],
+      "156 1st Avenue · adjacent facade reference": [
+        309,
+        310,
+        311,
+        312,
+        313,
+        314,
+        315,
+        316,
+        317,
+        318,
+        319,
+        320,
+        321,
+        322,
+        323,
+        324,
+        325,
+        326
+      ],
+      "153 1st Avenue · adjacent facade reference": [
+        327,
+        328,
+        329,
+        330,
+        331,
+        332,
+        333,
+        334,
+        335,
+        336,
+        337,
+        338,
+        339,
+        340,
+        341,
+        342,
+        343,
+        344,
+        345
+      ],
+      "151 1st Avenue · adjacent facade reference": [
+        346,
+        347,
+        348,
+        349,
+        350,
+        351,
+        352,
+        353,
+        354,
+        355,
+        356,
+        357,
+        358,
+        359,
+        360,
+        361,
+        362
+      ],
+      "247 East 10th Street · side street reference": [
+        363,
+        364,
+        365,
+        366,
+        367,
+        368,
+        369,
+        370,
+        371,
+        372,
+        373,
+        374,
+        375,
+        376,
+        377,
+        378,
+        379,
+        380,
+        381,
+        382,
+        562,
+        563
+      ],
+      "249 East 10th Street · side street reference": [
+        383,
+        384,
+        385,
+        386,
+        387,
+        388,
+        389,
+        390,
+        391,
+        392,
+        393,
+        394,
+        395,
+        396,
+        397,
+        398,
+        399,
+        400
+      ],
+      "248 East 10th Street · side street reference": [
+        401,
+        402,
+        403,
+        404,
+        405,
+        406,
+        407,
+        408,
+        409,
+        410,
+        411,
+        412,
+        413,
+        414,
+        415,
+        416,
+        417
+      ],
+      "250 East 10th Street · side street reference": [
+        418,
+        419,
+        420,
+        421,
+        422,
+        423,
+        424,
+        425,
+        426,
+        427,
+        428,
+        429,
+        430,
+        431,
+        432,
+        433,
+        434,
+        435
+      ],
+      "254 East 10th Street · side street reference": [
+        436,
+        437,
+        438,
+        439,
+        440,
+        441,
+        442,
+        443,
+        444,
+        445,
+        446,
+        447,
+        448,
+        449,
+        450,
+        451,
+        452
+      ],
+      "239 East 10th Street · side street reference": [
+        453,
+        454,
+        455,
+        456,
+        457,
+        458,
+        459,
+        460,
+        461,
+        462,
+        463,
+        464,
+        465,
+        466,
+        467,
+        468,
+        469,
+        470
+      ],
+      "Streets · mapped alignment · curb widths estimated from photographs": [
+        471,
+        472,
+        473,
+        474,
+        475,
+        476,
+        477,
+        478,
+        479,
+        480
+      ],
+      "Street furniture · positions inferred from reference views": [
+        481,
+        482,
+        483,
+        484,
+        485,
+        486,
+        487,
+        488,
+        564,
+        565,
+        566,
+        576,
+        577,
+        578
+      ],
+      "Architectural detail · visible elements interpreted from dated references": [
+        489,
+        490,
+        491,
+        492
+      ],
+      "Street surface detail · representative wear and utility furniture": [
+        493,
+        494,
+        495,
+        496,
+        497,
+        498
+      ],
+      "Bicycles · illustrative parked street dressing": [
+        499,
+        500,
+        501
+      ],
+      "Trees · approximate seasonal dressing": [
+        502,
+        503,
+        504,
+        505,
+        506,
+        507,
+        508
+      ],
+      "Parked vehicles · illustrative dressing": [
+        509,
+        510,
+        511,
+        512,
+        513,
+        514,
+        515,
+        516,
+        517,
+        518,
+        519,
+        520,
+        521,
+        522
+      ],
+      "Theater and tower · footprint subdivision estimated from r.017": [
+        538
+      ],
+      "Theater and tower · footprint subdivision estimated from r.018": [
+        539
+      ],
+      "Theater and tower · footprint subdivision estimated from r.019": [
+        540
+      ],
+      "Theater and tower · footprint subdivision estimated from r.020": [
+        541
+      ],
+      "Theater and tower · footprint subdivision estimated from r.021": [
+        542
+      ],
+      "Theater and tower · footprint subdivision estimated from r.022": [
+        543
+      ],
+      "Theater and tower · footprint subdivision estimated from r.023": [
+        544
+      ],
+      "Theater and tower · footprint subdivision estimated from r.024": [
+        545
+      ],
+      "Theater and tower · footprint subdivision estimated from r.025": [
+        546
+      ],
+      "Theater and tower · footprint subdivision estimated from r.026": [
+        547
+      ],
+      "Theater and tower · footprint subdivision estimated from r.027": [
+        548
+      ],
+      "Theater and tower · footprint subdivision estimated from r.028": [
+        549
+      ],
+      "Theater and tower · footprint subdivision estimated from r.029": [
+        550
+      ],
+      "Theater and tower · footprint subdivision estimated from r.030": [
+        551
+      ],
+      "Street furniture · positions inferred from reference views.002": [
+        567
+      ],
+      "Street furniture · positions inferred from reference views.003": [
+        568
+      ],
+      "Street furniture · positions inferred from reference views.004": [
+        569
+      ],
+      "Street furniture · positions inferred from reference views.005": [
+        570
+      ],
+      "Street furniture · positions inferred from reference views.006": [
+        571
+      ],
+      "Street furniture · positions inferred from reference views.007": [
+        572
+      ],
+      "Street furniture · positions inferred from reference views.008": [
+        573
+      ],
+      "Street furniture · positions inferred from reference views.009": [
+        574
+      ],
+      "Street furniture · positions inferred from reference views.010": [
+        575
+      ],
+      "Street furniture · positions inferred from reference views.011": [
+        579
+      ],
+      "Street furniture · positions inferred from reference views.012": [
+        580
+      ],
+      "Street furniture · positions inferred from reference views.013": [
+        581
+      ],
+      "Street furniture · positions inferred from reference views.014": [
+        582
+      ],
+      "Street furniture · positions inferred from reference views.015": [
+        583
+      ],
+      "Street furniture · positions inferred from reference views.016": [
+        584
+      ],
+      "Architectural detail · visible elements interpreted from d.003": [
+        585
+      ],
+      "Architectural detail · visible elements interpreted from d.004": [
+        586
+      ],
+      "Architectural detail · visible elements interpreted from d.005": [
+        587
+      ],
+      "Architectural detail · visible elements interpreted from d.006": [
+        588
+      ],
+      "Architectural detail · visible elements interpreted from d.007": [
+        589
+      ]
+    }
+  },
+  "adapter": {
+    "state": "needs-component",
+    "originShift": [
+      0,
+      0,
+      228
+    ],
+    "tenthCenterZ": -228,
+    "currentFirstNorthTerminal": -166,
+    "requirements": [
+      "Connect First Avenue from existing Ninth terminal to the assigned Tenth junction using narrowly derived road/sidewalk/collision bounds.",
+      "Tenth west approach ends at Second; do not open the separate Second Avenue block or Tenth east of First.",
+      "Preserve all 295 existing model/scene pairs, Seventh-only address HUD, original game and private screenshots.",
+      "Resolve the separate protected core asset in the new engine before exposing the eastern block; do not omit its six Tenth planes or replace them with generic geometry.",
+      "Account explicitly for connector/context buildings between Ninth and Tenth; road access is not facade-edit authorization."
+    ]
+  },
+  "limits": [
+    "Business identities in this inventory are dated mapped leads, not fresh occupancy or visual evidence.",
+    "Mapped primary faces may contain several shops, and new survey views may expose articulated planes; retain an explicit inventory revision trail.",
+    "No photographic fidelity or completed-model claim at this preparation milestone."
+  ]
+}

@@ -89,13 +89,15 @@ func _ready():
 	tire_effects.car = car
 	add_child(tire_effects)
 	cameras.car = car
-	cameras.residency_guard = world.streamer.permit_camera
 	hud.minimap.car = car
+	hud.minimap.configure(world.data)
 	cameras.set_mode(initial_camera)
 	weather.car = car
 	weather.select(initial_weather,true)
 	setup_audio()
 	await warm_street_views()
+	world.streamer.finish_warming()
+	cameras.residency_guard = world.streamer.permit_camera
 	ready_to_play = true
 	if OS.has_feature("web"):
 		browser_resize_callback = JavaScriptBridge.create_callback(browser_resize_requested)
@@ -105,20 +107,25 @@ func _ready():
 	if review_mode: call_deferred("run_review")
 
 func warm_street_views():
-	# Upload the two street walls/foliage while the opening screen is present.
-	# First-visit profiling showed a hitch when turning onto Seventh; a few
-	# hidden views move that work before the player takes control.
+	# Prepare the actual opening view, then warm resident street walls under
+	# the overlay. Hidden warm-up views must not download the entire catalog.
 	cameras.set_process(false)
+	cameras.snap_next = true
+	cameras._process(1.0/60.0)
+	await world.streamer.prepare_camera(cameras.camera)
 	for x in [-140.0,135.0]:
 		for direction in [-1.0,1.0]:
 			cameras.camera.position = Vector3(x,2.9,0)
 			cameras.camera.look_at(Vector3(x+direction*45,2.9,0),Vector3.UP)
 			await get_tree().process_frame
 			await RenderingServer.frame_post_draw
+	world.streamer.require_at(car.position)
+	while not world.streamer.ready_at(car.position): await get_tree().process_frame
 	cameras.snap_next = true
-	cameras.set_process(true)
-	await get_tree().process_frame
+	cameras._process(1.0/60.0)
+	await world.streamer.prepare_camera(cameras.camera)
 	await RenderingServer.frame_post_draw
+	cameras.set_process(true)
 
 func configure_input():
 	var bindings = {"accelerate":[KEY_W,KEY_UP],"brake":[KEY_S,KEY_DOWN],"left":[KEY_A,KEY_LEFT],"right":[KEY_D,KEY_RIGHT],"handbrake":[KEY_SPACE]}
@@ -171,6 +178,9 @@ func prepare_position(point: Vector3) -> bool:
 	cameras.set_process(false)
 	world.streamer.require_at(point)
 	while not world.streamer.ready_at(point):
+		# Slow or failed relocation requests must remain wanted while the
+		# normal driving/camera processes are suspended.
+		world.streamer.require_at(point)
 		hud.toast("Opening the next block…  ·  R to retry")
 		await get_tree().process_frame
 	relocating = false
@@ -219,12 +229,17 @@ func handle_review_command(command: Dictionary):
 		car.position = point
 		car.rotation.y = float(command.yaw)
 		car.reset_physics_interpolation()
+		cameras.snap_next = true
+		cameras._process(1.0/60.0)
+		while world.streamer.camera_held:
+			await get_tree().process_frame
 	elif kind in ["frontage","streetFrontage","reference"]:
 		await prepare_position(Vector3.ZERO)
 		review_pinned = true
 		if kind == "frontage": show_review_frontage(int(command.id),bool(command.get("close",false)),float(command.get("along",.5)),float(command.get("span",1.0)))
 		elif kind == "streetFrontage": show_street_review_frontage(str(command.faceId),bool(command.get("close",false)),float(command.get("along",.5)),float(command.get("span",1.0)))
 		else: show_reference_camera(command)
+		await world.streamer.prepare_camera(cameras.camera)
 	elif kind == "streamingDump":
 		JavaScriptBridge.eval("window.seventhStreamDump="+JSON.stringify(world.streamer.snapshot(true)))
 	JavaScriptBridge.eval("window.seventhReviewAck="+str(int(command.get("sequence",0))))
@@ -253,10 +268,10 @@ func browser_focus_changed(_arguments: Array):
 	if started and bool(JavaScriptBridge.eval("document.hidden || !document.hasFocus()")):
 		pause_for_focus_loss()
 
-func browser_resize_requested(_arguments: Array):
+func browser_resize_requested(arguments: Array):
 	# The shell keeps the old backing size/projection while this request waits.
-	world.streamer.resize_pending = true
-	world.streamer.west_wanted = true
+	var dimensions = Vector2(float(arguments[0]),float(arguments[1]))
+	world.streamer.request_resize(car.position,cameras.camera,dimensions)
 
 func pause_for_focus_loss():
 	paused = true
@@ -270,7 +285,7 @@ func pause_for_focus_loss():
 
 func _process(dt):
 	if not ready_to_play: return
-	if world.streamer.resize_pending and world.streamer.west_ready():
+	if world.streamer.resize_pending and world.streamer.resize_ready(car.position):
 		JavaScriptBridge.eval("window.seventhApplyResize()")
 		world.streamer.resize_pending = false
 	session_time += dt
@@ -286,6 +301,9 @@ func _process(dt):
 			var address_state = hud.address_state()
 			var stats = {"ready":ready_to_play,"started":started,"paused":paused,"frames":Engine.get_frames_drawn(),"fps":Engine.get_frames_per_second(),"drawCalls":RenderingServer.get_rendering_info(RenderingServer.RENDERING_INFO_TOTAL_DRAW_CALLS_IN_FRAME),"triangles":RenderingServer.get_rendering_info(RenderingServer.RENDERING_INFO_TOTAL_PRIMITIVES_IN_FRAME),"scale":scale_3d,"position":[car.position.x,car.position.y,car.position.z],"yaw":car.rotation.y,"speed":car.speed,"camera":cameras.mode,"cameraPose":cameras.camera_state(),"weather":weather.mode,"wetness":weather.current.wet,"sound":audio_enabled,"collisions":car.collision_count,"buildings":world.building_roots.size(),"persistent":OS.is_userfs_persistent(),"address":address_state.address,"addressId":address_state.addressId,"addressVisible":address_state.addressVisible}
 			stats["tickMs"] = Time.get_ticks_msec()
+			stats["relocating"] = relocating
+			stats["reviewTransition"] = review_transition
+			stats["minimap"] = {"rasterizations":hud.minimap.map_rasterizations,"patchWidth":hud.minimap.map_viewport.size.x,"patchHeight":hud.minimap.map_viewport.size.y,"visible":hud.minimap.visible}
 			stats["buildings"] = world.data.buildings.size()
 			stats["streaming"] = world.streamer.snapshot()
 			stats["slipDegrees"] = rad_to_deg(car.handling.slip)

@@ -1,0 +1,646 @@
+
+> drivearound-nyc@0.4.0 seventh:build
+> node scripts/export-seventh.mjs
+
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+[   0% ] [90m[1mfirst_scan_filesystem[22m | Started Project initialization (5 steps)[39m[0m
+[   0% ] [90m[1mfirst_scan_filesystem[22m | Scanning file structure...[39m[0m
+[  16% ] [90m[1mfirst_scan_filesystem[22m | Loading global class names...[39m[0m
+[  33% ] [90m[1mfirst_scan_filesystem[22m | Verifying GDExtensions...[39m[0m
+[  50% ] [90m[1mfirst_scan_filesystem[22m | Creating autoload scripts...[39m[0m
+[  66% ] [90m[1mfirst_scan_filesystem[22m | Initializing plugins...[39m[0m
+[  83% ] [90m[1mfirst_scan_filesystem[22m | Starting file scan...[39m[0m
+[92m[ DONE ][39m [1mfirst_scan_filesystem[22m
+[0m
+[   0% ] [90m[1mupdate_scripts_classes[22m | Started Registering global classes... (3 steps)[39m[0m
+[   0% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  25% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  50% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[92m[ DONE ][39m [1mupdate_scripts_classes[22m
+[0m
+[   0% ] [90m[1m_update_scan_actions[22m | Started Scanning actions... (352 steps)[39m[0m
+[   0% ] [90m[1m_update_scan_actions[22m | building-241822151.glb[39m[0m
+[   0% ] [90m[1m_update_scan_actions[22m | building-241822153.glb[39m[0m
+[   0% ] [90m[1m_update_scan_actions[22m | building-241822156.glb[39m[0m
+[   0% ] [90m[1m_update_scan_actions[22m | building-241822157.glb[39m[0m
+[   1% ] [90m[1m_update_scan_actions[22m | building-241822159.glb[39m[0m
+[   1% ] [90m[1m_update_scan_actions[22m | building-241822162.glb[39m[0m
+[   1% ] [90m[1m_update_scan_actions[22m | building-241822164.glb[39m[0m
+[   1% ] [90m[1m_update_scan_actions[22m | building-241822165.glb[39m[0m
+[   2% ] [90m[1m_update_scan_actions[22m | building-241822167.glb[39m[0m
+[   2% ] [90m[1m_update_scan_actions[22m | building-241822169.glb[39m[0m
+[   2% ] [90m[1m_update_scan_actions[22m | building-241822171.glb[39m[0m
+[   3% ] [90m[1m_update_scan_actions[22m | building-241822173.glb[39m[0m
+[   3% ] [90m[1m_update_scan_actions[22m | building-241822174.glb[39m[0m
+[   3% ] [90m[1m_update_scan_actions[22m | building-241822176.glb[39m[0m
+[   3% ] [90m[1m_update_scan_actions[22m | building-241822178.glb[39m[0m
+[   4% ] [90m[1m_update_scan_actions[22m | building-241822179.glb[39m[0m
+[   4% ] [90m[1m_update_scan_actions[22m | building-241822181.glb[39m[0m
+[   4% ] [90m[1m_update_scan_actions[22m | building-241822183.glb[39m[0m
+[   5% ] [90m[1m_update_scan_actions[22m | building-241822185.glb[39m[0m
+[   5% ] [90m[1m_update_scan_actions[22m | building-241822187.glb[39m[0m
+[   5% ] [90m[1m_update_scan_actions[22m | building-241822189.glb[39m[0m
+[   5% ] [90m[1m_update_scan_actions[22m | building-241822190.glb[39m[0m
+[   6% ] [90m[1m_update_scan_actions[22m | building-241822192.glb[39m[0m
+[   6% ] [90m[1m_update_scan_actions[22m | building-241822194.glb[39m[0m
+[   6% ] [90m[1m_update_scan_actions[22m | building-241822195.glb[39m[0m
+[   7% ] [90m[1m_update_scan_actions[22m | building-241822197.glb[39m[0m
+[   7% ] [90m[1m_update_scan_actions[22m | building-241822199.glb[39m[0m
+[   7% ] [90m[1m_update_scan_actions[22m | building-241822201.glb[39m[0m
+[   7% ] [90m[1m_update_scan_actions[22m | building-241822202.glb[39m[0m
+[   8% ] [90m[1m_update_scan_actions[22m | building-241822204.glb[39m[0m
+[   8% ] [90m[1m_update_scan_actions[22m | building-241822206.glb[39m[0m
+[   8% ] [90m[1m_update_scan_actions[22m | building-241822208.glb[39m[0m
+[   9% ] [90m[1m_update_scan_actions[22m | building-241822210.glb[39m[0m
+[   9% ] [90m[1m_update_scan_actions[22m | building-241822211.glb[39m[0m
+[   9% ] [90m[1m_update_scan_actions[22m | building-241822212.glb[39m[0m
+[   9% ] [90m[1m_update_scan_actions[22m | building-241822214.glb[39m[0m
+[  10% ] [90m[1m_update_scan_actions[22m | building-241822215.glb[39m[0m
+[  10% ] [90m[1m_update_scan_actions[22m | building-241822217.glb[39m[0m
+[  10% ] [90m[1m_update_scan_actions[22m | building-241822219.glb[39m[0m
+[  11% ] [90m[1m_update_scan_actions[22m | building-241822220.glb[39m[0m
+[  11% ] [90m[1m_update_scan_actions[22m | building-241822222.glb[39m[0m
+[  11% ] [90m[1m_update_scan_actions[22m | building-241822224.glb[39m[0m
+[  11% ] [90m[1m_update_scan_actions[22m | building-241822226.glb[39m[0m
+[  12% ] [90m[1m_update_scan_actions[22m | building-241822228.glb[39m[0m
+[  12% ] [90m[1m_update_scan_actions[22m | building-241822229.glb[39m[0m
+[  12% ] [90m[1m_update_scan_actions[22m | building-241822230.glb[39m[0m
+[  13% ] [90m[1m_update_scan_actions[22m | building-241822234.glb[39m[0m
+[  13% ] [90m[1m_update_scan_actions[22m | building-241822236.glb[39m[0m
+[  13% ] [90m[1m_update_scan_actions[22m | building-241822237.glb[39m[0m
+[  13% ] [90m[1m_update_scan_actions[22m | building-241822239.glb[39m[0m
+[  14% ] [90m[1m_update_scan_actions[22m | building-241822241.glb[39m[0m
+[  14% ] [90m[1m_update_scan_actions[22m | building-241822244.glb[39m[0m
+[  14% ] [90m[1m_update_scan_actions[22m | building-241822247.glb[39m[0m
+[  15% ] [90m[1m_update_scan_actions[22m | building-241822251.glb[39m[0m
+[  15% ] [90m[1m_update_scan_actions[22m | building-241822254.glb[39m[0m
+[  15% ] [90m[1m_update_scan_actions[22m | building-241822256.glb[39m[0m
+[  15% ] [90m[1m_update_scan_actions[22m | building-241822261.glb[39m[0m
+[  16% ] [90m[1m_update_scan_actions[22m | building-241822263.glb[39m[0m
+[  16% ] [90m[1m_update_scan_actions[22m | building-241822265.glb[39m[0m
+[  16% ] [90m[1m_update_scan_actions[22m | building-241822267.glb[39m[0m
+[  16% ] [90m[1m_update_scan_actions[22m | building-241822269.glb[39m[0m
+[  17% ] [90m[1m_update_scan_actions[22m | building-241822271.glb[39m[0m
+[  17% ] [90m[1m_update_scan_actions[22m | building-241822272.glb[39m[0m
+[  17% ] [90m[1m_update_scan_actions[22m | building-241822274.glb[39m[0m
+[  18% ] [90m[1m_update_scan_actions[22m | building-241822276.glb[39m[0m
+[  18% ] [90m[1m_update_scan_actions[22m | building-241822278.glb[39m[0m
+[  18% ] [90m[1m_update_scan_actions[22m | building-241822279.glb[39m[0m
+[  18% ] [90m[1m_update_scan_actions[22m | building-241822280.glb[39m[0m
+[  19% ] [90m[1m_update_scan_actions[22m | building-241822282.glb[39m[0m
+[  19% ] [90m[1m_update_scan_actions[22m | building-241822284.glb[39m[0m
+[  19% ] [90m[1m_update_scan_actions[22m | building-241822286.glb[39m[0m
+[  20% ] [90m[1m_update_scan_actions[22m | building-241822288.glb[39m[0m
+[  20% ] [90m[1m_update_scan_actions[22m | building-241822290.glb[39m[0m
+[  20% ] [90m[1m_update_scan_actions[22m | building-241822291.glb[39m[0m
+[  20% ] [90m[1m_update_scan_actions[22m | building-241822293.glb[39m[0m
+[  21% ] [90m[1m_update_scan_actions[22m | building-241822295.glb[39m[0m
+[  21% ] [90m[1m_update_scan_actions[22m | building-241822297.glb[39m[0m
+[  21% ] [90m[1m_update_scan_actions[22m | building-241822299.glb[39m[0m
+[  22% ] [90m[1m_update_scan_actions[22m | building-241822300.glb[39m[0m
+[  22% ] [90m[1m_update_scan_actions[22m | building-241822301.glb[39m[0m
+[  22% ] [90m[1m_update_scan_actions[22m | building-241822303.glb[39m[0m
+[  22% ] [90m[1m_update_scan_actions[22m | building-241822304.glb[39m[0m
+[  23% ] [90m[1m_update_scan_actions[22m | building-241822306.glb[39m[0m
+[  23% ] [90m[1m_update_scan_actions[22m | building-241822308.glb[39m[0m
+[  23% ] [90m[1m_update_scan_actions[22m | building-241822310.glb[39m[0m
+[  24% ] [90m[1m_update_scan_actions[22m | building-241822312.glb[39m[0m
+[  24% ] [90m[1m_update_scan_actions[22m | building-241822314.glb[39m[0m
+[  24% ] [90m[1m_update_scan_actions[22m | building-241822315.glb[39m[0m
+[  24% ] [90m[1m_update_scan_actions[22m | building-241822317.glb[39m[0m
+[  25% ] [90m[1m_update_scan_actions[22m | building-241822319.glb[39m[0m
+[  25% ] [90m[1m_update_scan_actions[22m | building-241822320.glb[39m[0m
+[  25% ] [90m[1m_update_scan_actions[22m | building-241822323.glb[39m[0m
+[  26% ] [90m[1m_update_scan_actions[22m | building-241822325.glb[39m[0m
+[  26% ] [90m[1m_update_scan_actions[22m | building-241822326.glb[39m[0m
+[  26% ] [90m[1m_update_scan_actions[22m | building-241822329.glb[39m[0m
+[  26% ] [90m[1m_update_scan_actions[22m | building-241822332.glb[39m[0m
+[  27% ] [90m[1m_update_scan_actions[22m | building-241822335.glb[39m[0m
+[  27% ] [90m[1m_update_scan_actions[22m | building-241822336.glb[39m[0m
+[  27% ] [90m[1m_update_scan_actions[22m | building-241822337.glb[39m[0m
+[  28% ] [90m[1m_update_scan_actions[22m | building-241822338.glb[39m[0m
+[  28% ] [90m[1m_update_scan_actions[22m | building-241822339.glb[39m[0m
+[  28% ] [90m[1m_update_scan_actions[22m | building-241822340.glb[39m[0m
+[  28% ] [90m[1m_update_scan_actions[22m | building-241822341.glb[39m[0m
+[  29% ] [90m[1m_update_scan_actions[22m | building-241829564.glb[39m[0m
+[  29% ] [90m[1m_update_scan_actions[22m | building-241829565.glb[39m[0m
+[  29% ] [90m[1m_update_scan_actions[22m | building-241829566.glb[39m[0m
+[  30% ] [90m[1m_update_scan_actions[22m | building-241829567.glb[39m[0m
+[  30% ] [90m[1m_update_scan_actions[22m | building-241829572.glb[39m[0m
+[  30% ] [90m[1m_update_scan_actions[22m | building-241829573.glb[39m[0m
+[  30% ] [90m[1m_update_scan_actions[22m | building-241829574.glb[39m[0m
+[  31% ] [90m[1m_update_scan_actions[22m | building-241829575.glb[39m[0m
+[  31% ] [90m[1m_update_scan_actions[22m | building-241829577.glb[39m[0m
+[  31% ] [90m[1m_update_scan_actions[22m | building-241829579.glb[39m[0m
+[  32% ] [90m[1m_update_scan_actions[22m | building-241829580.glb[39m[0m
+[  32% ] [90m[1m_update_scan_actions[22m | building-241829581.glb[39m[0m
+[  32% ] [90m[1m_update_scan_actions[22m | building-241829582.glb[39m[0m
+[  32% ] [90m[1m_update_scan_actions[22m | building-241829595.glb[39m[0m
+[  33% ] [90m[1m_update_scan_actions[22m | building-241829611.glb[39m[0m
+[  33% ] [90m[1m_update_scan_actions[22m | building-241829621.glb[39m[0m
+[  33% ] [90m[1m_update_scan_actions[22m | building-241829623.glb[39m[0m
+[  33% ] [90m[1m_update_scan_actions[22m | building-241829629.glb[39m[0m
+[  34% ] [90m[1m_update_scan_actions[22m | building-241829630.glb[39m[0m
+[  34% ] [90m[1m_update_scan_actions[22m | building-241829631.glb[39m[0m
+[  34% ] [90m[1m_update_scan_actions[22m | building-241829633.glb[39m[0m
+[  35% ] [90m[1m_update_scan_actions[22m | building-241829634.glb[39m[0m
+[  35% ] [90m[1m_update_scan_actions[22m | building-241829636.glb[39m[0m
+[  35% ] [90m[1m_update_scan_actions[22m | building-241829641.glb[39m[0m
+[  35% ] [90m[1m_update_scan_actions[22m | building-241829643.glb[39m[0m
+[  36% ] [90m[1m_update_scan_actions[22m | building-241829661.glb[39m[0m
+[  36% ] [90m[1m_update_scan_actions[22m | building-241829665.glb[39m[0m
+[  36% ] [90m[1m_update_scan_actions[22m | building-241833259.glb[39m[0m
+[  37% ] [90m[1m_update_scan_actions[22m | building-241833267.glb[39m[0m
+[  37% ] [90m[1m_update_scan_actions[22m | building-241833274.glb[39m[0m
+[  37% ] [90m[1m_update_scan_actions[22m | building-241833286.glb[39m[0m
+[  37% ] [90m[1m_update_scan_actions[22m | building-241833290.glb[39m[0m
+[  38% ] [90m[1m_update_scan_actions[22m | building-241833291.glb[39m[0m
+[  38% ] [90m[1m_update_scan_actions[22m | building-241833299.glb[39m[0m
+[  38% ] [90m[1m_update_scan_actions[22m | building-241833312.glb[39m[0m
+[  39% ] [90m[1m_update_scan_actions[22m | building-241833322.glb[39m[0m
+[  39% ] [90m[1m_update_scan_actions[22m | building-241845001.glb[39m[0m
+[  39% ] [90m[1m_update_scan_actions[22m | building-241845013.glb[39m[0m
+[  39% ] [90m[1m_update_scan_actions[22m | building-247851894.glb[39m[0m
+[  40% ] [90m[1m_update_scan_actions[22m | building-247851895.glb[39m[0m
+[  40% ] [90m[1m_update_scan_actions[22m | building-247851896.glb[39m[0m
+[  40% ] [90m[1m_update_scan_actions[22m | building-247851897.glb[39m[0m
+[  41% ] [90m[1m_update_scan_actions[22m | building-247851898.glb[39m[0m
+[  41% ] [90m[1m_update_scan_actions[22m | building-247851899.glb[39m[0m
+[  41% ] [90m[1m_update_scan_actions[22m | building-247851900.glb[39m[0m
+[  41% ] [90m[1m_update_scan_actions[22m | building-247851901.glb[39m[0m
+[  42% ] [90m[1m_update_scan_actions[22m | building-247851902.glb[39m[0m
+[  42% ] [90m[1m_update_scan_actions[22m | building-247851903.glb[39m[0m
+[  42% ] [90m[1m_update_scan_actions[22m | building-247851904.glb[39m[0m
+[  43% ] [90m[1m_update_scan_actions[22m | building-247851906.glb[39m[0m
+[  43% ] [90m[1m_update_scan_actions[22m | building-247851908.glb[39m[0m
+[  43% ] [90m[1m_update_scan_actions[22m | building-247851911.glb[39m[0m
+[  43% ] [90m[1m_update_scan_actions[22m | building-247851935.glb[39m[0m
+[  44% ] [90m[1m_update_scan_actions[22m | building-247852656.glb[39m[0m
+[  44% ] [90m[1m_update_scan_actions[22m | building-247852658.glb[39m[0m
+[  44% ] [90m[1m_update_scan_actions[22m | building-247852659.glb[39m[0m
+[  45% ] [90m[1m_update_scan_actions[22m | building-247852660.glb[39m[0m
+[  45% ] [90m[1m_update_scan_actions[22m | building-247852662.glb[39m[0m
+[  45% ] [90m[1m_update_scan_actions[22m | building-247852663.glb[39m[0m
+[  45% ] [90m[1m_update_scan_actions[22m | building-247852664.glb[39m[0m
+[  46% ] [90m[1m_update_scan_actions[22m | building-247852665.glb[39m[0m
+[  46% ] [90m[1m_update_scan_actions[22m | building-247852667.glb[39m[0m
+[  46% ] [90m[1m_update_scan_actions[22m | building-247852668.glb[39m[0m
+[  47% ] [90m[1m_update_scan_actions[22m | building-247852671.glb[39m[0m
+[  47% ] [90m[1m_update_scan_actions[22m | building-247852672.glb[39m[0m
+[  47% ] [90m[1m_update_scan_actions[22m | building-247852673.glb[39m[0m
+[  47% ] [90m[1m_update_scan_actions[22m | building-247852674.glb[39m[0m
+[  48% ] [90m[1m_update_scan_actions[22m | building-247852675.glb[39m[0m
+[  48% ] [90m[1m_update_scan_actions[22m | building-247852676.glb[39m[0m
+[  48% ] [90m[1m_update_scan_actions[22m | building-247852677.glb[39m[0m
+[  49% ] [90m[1m_update_scan_actions[22m | building-247852678.glb[39m[0m
+[  49% ] [90m[1m_update_scan_actions[22m | building-247852679.glb[39m[0m
+[  49% ] [90m[1m_update_scan_actions[22m | building-247852680.glb[39m[0m
+[  49% ] [90m[1m_update_scan_actions[22m | building-247852681.glb[39m[0m
+[  50% ] [90m[1m_update_scan_actions[22m | building-247852682.glb[39m[0m
+[  50% ] [90m[1m_update_scan_actions[22m | building-247852683.glb[39m[0m
+[  50% ] [90m[1m_update_scan_actions[22m | building-247852684.glb[39m[0m
+[  50% ] [90m[1m_update_scan_actions[22m | building-247852685.glb[39m[0m
+[  51% ] [90m[1m_update_scan_actions[22m | building-247852686.glb[39m[0m
+[  51% ] [90m[1m_update_scan_actions[22m | building-247852687.glb[39m[0m
+[  51% ] [90m[1m_update_scan_actions[22m | building-247852689.glb[39m[0m
+[  52% ] [90m[1m_update_scan_actions[22m | building-247852690.glb[39m[0m
+[  52% ] [90m[1m_update_scan_actions[22m | building-247852691.glb[39m[0m
+[  52% ] [90m[1m_update_scan_actions[22m | building-247852693.glb[39m[0m
+[  52% ] [90m[1m_update_scan_actions[22m | building-247852694.glb[39m[0m
+[  53% ] [90m[1m_update_scan_actions[22m | building-247852697.glb[39m[0m
+[  53% ] [90m[1m_update_scan_actions[22m | building-247852702.glb[39m[0m
+[  53% ] [90m[1m_update_scan_actions[22m | building-248142313.glb[39m[0m
+[  54% ] [90m[1m_update_scan_actions[22m | building-248142319.glb[39m[0m
+[  54% ] [90m[1m_update_scan_actions[22m | building-248142320.glb[39m[0m
+[  54% ] [90m[1m_update_scan_actions[22m | building-248142322.glb[39m[0m
+[  54% ] [90m[1m_update_scan_actions[22m | building-248142324.glb[39m[0m
+[  55% ] [90m[1m_update_scan_actions[22m | building-248142326.glb[39m[0m
+[  55% ] [90m[1m_update_scan_actions[22m | building-248142327.glb[39m[0m
+[  55% ] [90m[1m_update_scan_actions[22m | building-248142328.glb[39m[0m
+[  56% ] [90m[1m_update_scan_actions[22m | building-248142329.glb[39m[0m
+[  56% ] [90m[1m_update_scan_actions[22m | building-248142330.glb[39m[0m
+[  56% ] [90m[1m_update_scan_actions[22m | building-248142331.glb[39m[0m
+[  56% ] [90m[1m_update_scan_actions[22m | building-248142332.glb[39m[0m
+[  57% ] [90m[1m_update_scan_actions[22m | building-248142333.glb[39m[0m
+[  57% ] [90m[1m_update_scan_actions[22m | building-248142334.glb[39m[0m
+[  57% ] [90m[1m_update_scan_actions[22m | building-248142335.glb[39m[0m
+[  58% ] [90m[1m_update_scan_actions[22m | building-248142336.glb[39m[0m
+[  58% ] [90m[1m_update_scan_actions[22m | building-248142337.glb[39m[0m
+[  58% ] [90m[1m_update_scan_actions[22m | building-248142338.glb[39m[0m
+[  58% ] [90m[1m_update_scan_actions[22m | building-248142390.glb[39m[0m
+[  59% ] [90m[1m_update_scan_actions[22m | building-248142393.glb[39m[0m
+[  59% ] [90m[1m_update_scan_actions[22m | building-248142396.glb[39m[0m
+[  59% ] [90m[1m_update_scan_actions[22m | building-248142404.glb[39m[0m
+[  60% ] [90m[1m_update_scan_actions[22m | building-248142407.glb[39m[0m
+[  60% ] [90m[1m_update_scan_actions[22m | building-248142411.glb[39m[0m
+[  60% ] [90m[1m_update_scan_actions[22m | building-248142412.glb[39m[0m
+[  60% ] [90m[1m_update_scan_actions[22m | building-248142614.glb[39m[0m
+[  61% ] [90m[1m_update_scan_actions[22m | building-248142615.glb[39m[0m
+[  61% ] [90m[1m_update_scan_actions[22m | building-248142616.glb[39m[0m
+[  61% ] [90m[1m_update_scan_actions[22m | building-248142617.glb[39m[0m
+[  62% ] [90m[1m_update_scan_actions[22m | building-248142618.glb[39m[0m
+[  62% ] [90m[1m_update_scan_actions[22m | building-248142619.glb[39m[0m
+[  62% ] [90m[1m_update_scan_actions[22m | building-248142620.glb[39m[0m
+[  62% ] [90m[1m_update_scan_actions[22m | building-248142621.glb[39m[0m
+[  63% ] [90m[1m_update_scan_actions[22m | building-248142622.glb[39m[0m
+[  63% ] [90m[1m_update_scan_actions[22m | building-248142623.glb[39m[0m
+[  63% ] [90m[1m_update_scan_actions[22m | building-248142624.glb[39m[0m
+[  64% ] [90m[1m_update_scan_actions[22m | building-248142625.glb[39m[0m
+[  64% ] [90m[1m_update_scan_actions[22m | building-248142627.glb[39m[0m
+[  64% ] [90m[1m_update_scan_actions[22m | building-248142628.glb[39m[0m
+[  64% ] [90m[1m_update_scan_actions[22m | building-248142630.glb[39m[0m
+[  65% ] [90m[1m_update_scan_actions[22m | building-248142631.glb[39m[0m
+[  65% ] [90m[1m_update_scan_actions[22m | building-248142633.glb[39m[0m
+[  65% ] [90m[1m_update_scan_actions[22m | building-248142634.glb[39m[0m
+[  66% ] [90m[1m_update_scan_actions[22m | building-248142636.glb[39m[0m
+[  66% ] [90m[1m_update_scan_actions[22m | building-248142638.glb[39m[0m
+[  66% ] [90m[1m_update_scan_actions[22m | building-248142640.glb[39m[0m
+[  66% ] [90m[1m_update_scan_actions[22m | building-248142641.glb[39m[0m
+[  67% ] [90m[1m_update_scan_actions[22m | building-248142642.glb[39m[0m
+[  67% ] [90m[1m_update_scan_actions[22m | building-248142643.glb[39m[0m
+[  67% ] [90m[1m_update_scan_actions[22m | building-248142645.glb[39m[0m
+[  67% ] [90m[1m_update_scan_actions[22m | building-248142646.glb[39m[0m
+[  68% ] [90m[1m_update_scan_actions[22m | building-248142647.glb[39m[0m
+[  68% ] [90m[1m_update_scan_actions[22m | building-248142648.glb[39m[0m
+[  68% ] [90m[1m_update_scan_actions[22m | building-248142649.glb[39m[0m
+[  69% ] [90m[1m_update_scan_actions[22m | building-248142650.glb[39m[0m
+[  69% ] [90m[1m_update_scan_actions[22m | building-248142651.glb[39m[0m
+[  69% ] [90m[1m_update_scan_actions[22m | building-248142652.glb[39m[0m
+[  69% ] [90m[1m_update_scan_actions[22m | building-248142653.glb[39m[0m
+[  70% ] [90m[1m_update_scan_actions[22m | building-248142654.glb[39m[0m
+[  70% ] [90m[1m_update_scan_actions[22m | building-248142655.glb[39m[0m
+[  70% ] [90m[1m_update_scan_actions[22m | building-248142656.glb[39m[0m
+[  71% ] [90m[1m_update_scan_actions[22m | building-248142657.glb[39m[0m
+[  71% ] [90m[1m_update_scan_actions[22m | building-248142658.glb[39m[0m
+[  71% ] [90m[1m_update_scan_actions[22m | building-248142659.glb[39m[0m
+[  71% ] [90m[1m_update_scan_actions[22m | building-248142660.glb[39m[0m
+[  72% ] [90m[1m_update_scan_actions[22m | building-248142661.glb[39m[0m
+[  72% ] [90m[1m_update_scan_actions[22m | building-248142662.glb[39m[0m
+[  72% ] [90m[1m_update_scan_actions[22m | building-248142663.glb[39m[0m
+[  73% ] [90m[1m_update_scan_actions[22m | building-248142664.glb[39m[0m
+[  73% ] [90m[1m_update_scan_actions[22m | building-248142666.glb[39m[0m
+[  73% ] [90m[1m_update_scan_actions[22m | building-248142668.glb[39m[0m
+[  73% ] [90m[1m_update_scan_actions[22m | building-248142669.glb[39m[0m
+[  74% ] [90m[1m_update_scan_actions[22m | building-248142672.glb[39m[0m
+[  74% ] [90m[1m_update_scan_actions[22m | building-248142675.glb[39m[0m
+[  74% ] [90m[1m_update_scan_actions[22m | building-248142676.glb[39m[0m
+[  75% ] [90m[1m_update_scan_actions[22m | building-248142677.glb[39m[0m
+[  75% ] [90m[1m_update_scan_actions[22m | building-248142679.glb[39m[0m
+[  75% ] [90m[1m_update_scan_actions[22m | building-248142681.glb[39m[0m
+[  75% ] [90m[1m_update_scan_actions[22m | building-248142682.glb[39m[0m
+[  76% ] [90m[1m_update_scan_actions[22m | building-248142683.glb[39m[0m
+[  76% ] [90m[1m_update_scan_actions[22m | building-248142684.glb[39m[0m
+[  76% ] [90m[1m_update_scan_actions[22m | building-248142685.glb[39m[0m
+[  77% ] [90m[1m_update_scan_actions[22m | building-248142686.glb[39m[0m
+[  77% ] [90m[1m_update_scan_actions[22m | building-248142687.glb[39m[0m
+[  77% ] [90m[1m_update_scan_actions[22m | building-248142688.glb[39m[0m
+[  77% ] [90m[1m_update_scan_actions[22m | building-248142689.glb[39m[0m
+[  78% ] [90m[1m_update_scan_actions[22m | building-248142690.glb[39m[0m
+[  78% ] [90m[1m_update_scan_actions[22m | building-248142691.glb[39m[0m
+[  78% ] [90m[1m_update_scan_actions[22m | building-248142692.glb[39m[0m
+[  79% ] [90m[1m_update_scan_actions[22m | building-248142693.glb[39m[0m
+[  79% ] [90m[1m_update_scan_actions[22m | building-248142694.glb[39m[0m
+[  79% ] [90m[1m_update_scan_actions[22m | building-248142695.glb[39m[0m
+[  79% ] [90m[1m_update_scan_actions[22m | building-248142696.glb[39m[0m
+[  80% ] [90m[1m_update_scan_actions[22m | building-248142697.glb[39m[0m
+[  80% ] [90m[1m_update_scan_actions[22m | building-248142698.glb[39m[0m
+[  80% ] [90m[1m_update_scan_actions[22m | building-248142701.glb[39m[0m
+[  81% ] [90m[1m_update_scan_actions[22m | building-248142702.glb[39m[0m
+[  81% ] [90m[1m_update_scan_actions[22m | building-248142706.glb[39m[0m
+[  81% ] [90m[1m_update_scan_actions[22m | building-248142707.glb[39m[0m
+[  81% ] [90m[1m_update_scan_actions[22m | building-248142709.glb[39m[0m
+[  82% ] [90m[1m_update_scan_actions[22m | building-248142710.glb[39m[0m
+[  82% ] [90m[1m_update_scan_actions[22m | building-248142711.glb[39m[0m
+[  82% ] [90m[1m_update_scan_actions[22m | building-248142712.glb[39m[0m
+[  83% ] [90m[1m_update_scan_actions[22m | building-248142713.glb[39m[0m
+[  83% ] [90m[1m_update_scan_actions[22m | building-248142714.glb[39m[0m
+[  83% ] [90m[1m_update_scan_actions[22m | building-248142715.glb[39m[0m
+[  83% ] [90m[1m_update_scan_actions[22m | building-248142716.glb[39m[0m
+[  84% ] [90m[1m_update_scan_actions[22m | building-248142717.glb[39m[0m
+[  84% ] [90m[1m_update_scan_actions[22m | building-248142887.glb[39m[0m
+[  84% ] [90m[1m_update_scan_actions[22m | building-248142888.glb[39m[0m
+[  84% ] [90m[1m_update_scan_actions[22m | building-248142890.glb[39m[0m
+[  85% ] [90m[1m_update_scan_actions[22m | building-248142891.glb[39m[0m
+[  85% ] [90m[1m_update_scan_actions[22m | building-248142892.glb[39m[0m
+[  85% ] [90m[1m_update_scan_actions[22m | building-248142893.glb[39m[0m
+[  86% ] [90m[1m_update_scan_actions[22m | building-248142894.glb[39m[0m
+[  86% ] [90m[1m_update_scan_actions[22m | building-248142895.glb[39m[0m
+[  86% ] [90m[1m_update_scan_actions[22m | building-248142896.glb[39m[0m
+[  86% ] [90m[1m_update_scan_actions[22m | building-248142897.glb[39m[0m
+[  87% ] [90m[1m_update_scan_actions[22m | building-248142898.glb[39m[0m
+[  87% ] [90m[1m_update_scan_actions[22m | building-248142899.glb[39m[0m
+[  87% ] [90m[1m_update_scan_actions[22m | building-248142900.glb[39m[0m
+[  88% ] [90m[1m_update_scan_actions[22m | building-248142901.glb[39m[0m
+[  88% ] [90m[1m_update_scan_actions[22m | building-248142902.glb[39m[0m
+[  88% ] [90m[1m_update_scan_actions[22m | building-248142903.glb[39m[0m
+[  88% ] [90m[1m_update_scan_actions[22m | building-248142904.glb[39m[0m
+[  89% ] [90m[1m_update_scan_actions[22m | building-248142905.glb[39m[0m
+[  89% ] [90m[1m_update_scan_actions[22m | building-248142906.glb[39m[0m
+[  89% ] [90m[1m_update_scan_actions[22m | building-248142907.glb[39m[0m
+[  90% ] [90m[1m_update_scan_actions[22m | building-248142908.glb[39m[0m
+[  90% ] [90m[1m_update_scan_actions[22m | building-248142909.glb[39m[0m
+[  90% ] [90m[1m_update_scan_actions[22m | building-248142910.glb[39m[0m
+[  90% ] [90m[1m_update_scan_actions[22m | building-248142911.glb[39m[0m
+[  91% ] [90m[1m_update_scan_actions[22m | building-248142912.glb[39m[0m
+[  91% ] [90m[1m_update_scan_actions[22m | building-248142913.glb[39m[0m
+[  91% ] [90m[1m_update_scan_actions[22m | building-248142914.glb[39m[0m
+[  92% ] [90m[1m_update_scan_actions[22m | building-248142921.glb[39m[0m
+[  92% ] [90m[1m_update_scan_actions[22m | building-248142923.glb[39m[0m
+[  92% ] [90m[1m_update_scan_actions[22m | building-248142925.glb[39m[0m
+[  92% ] [90m[1m_update_scan_actions[22m | building-248142926.glb[39m[0m
+[  93% ] [90m[1m_update_scan_actions[22m | building-248142927.glb[39m[0m
+[  93% ] [90m[1m_update_scan_actions[22m | building-248142929.glb[39m[0m
+[  93% ] [90m[1m_update_scan_actions[22m | building-248142930.glb[39m[0m
+[  94% ] [90m[1m_update_scan_actions[22m | building-248142932.glb[39m[0m
+[  94% ] [90m[1m_update_scan_actions[22m | building-248142934.glb[39m[0m
+[  94% ] [90m[1m_update_scan_actions[22m | building-248142936.glb[39m[0m
+[  94% ] [90m[1m_update_scan_actions[22m | building-248142938.glb[39m[0m
+[  95% ] [90m[1m_update_scan_actions[22m | building-248142940.glb[39m[0m
+[  95% ] [90m[1m_update_scan_actions[22m | building-248142942.glb[39m[0m
+[  95% ] [90m[1m_update_scan_actions[22m | building-248142944.glb[39m[0m
+[  96% ] [90m[1m_update_scan_actions[22m | building-248142945.glb[39m[0m
+[  96% ] [90m[1m_update_scan_actions[22m | building-248142947.glb[39m[0m
+[  96% ] [90m[1m_update_scan_actions[22m | building-248142948.glb[39m[0m
+[  96% ] [90m[1m_update_scan_actions[22m | building-248142950.glb[39m[0m
+[  97% ] [90m[1m_update_scan_actions[22m | building-248142953.glb[39m[0m
+[  97% ] [90m[1m_update_scan_actions[22m | building-248142955.glb[39m[0m
+[  97% ] [90m[1m_update_scan_actions[22m | building-248142963.glb[39m[0m
+[  98% ] [90m[1m_update_scan_actions[22m | building-248142975.glb[39m[0m
+[  98% ] [90m[1m_update_scan_actions[22m | building-951679435.glb[39m[0m
+[  98% ] [90m[1m_update_scan_actions[22m | building-978475216.glb[39m[0m
+[  98% ] [90m[1m_update_scan_actions[22m | building-1063735559.glb[39m[0m
+[  99% ] [90m[1m_update_scan_actions[22m | building--177966.glb[39m[0m
+[  99% ] [90m[1m_update_scan_actions[22m | building--577810.glb[39m[0m
+[92m[ DONE ][39m [1m_update_scan_actions[22m
+[0m
+[   0% ] [90m[1mreimport[22m | Started (Re)Importing Assets (30 steps)[39m[0m
+[   0% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[   3% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[   6% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[   9% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  12% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  16% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  19% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  22% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  25% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  29% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  32% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  35% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  38% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  41% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  45% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  48% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  51% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  54% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  58% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  61% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  64% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  67% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  70% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  74% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  77% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  80% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  83% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  87% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  90% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  93% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[   0% ] [90m[1mreimport[22m | Executing pre-reimport operations...[39m[0m
+[   0% ] [90m[1mreimport[22m | building--577810.glb[39m[0m
+[   0% ] [90m[1mimport[22m | Started Import Scene (104 steps)[39m[0m
+[   0% ] [90m[1mimport[22m | Importing Scene...[39m[0m
+[   1% ] [90m[1mimport[22m | Running Custom Script...[39m[0m
+[  99% ] [90m[1mimport[22m | Saving...[39m[0m
+[92m[ DONE ][39m [1mimport[22m
+[0m
+[   3% ] [90m[1mreimport[22m | building-248142975.glb[39m[0m
+[   0% ] [90m[1mimport[22m | Started Import Scene (104 steps)[39m[0m
+[   0% ] [90m[1mimport[22m | Importing Scene...[39m[0m
+[   1% ] [90m[1mimport[22m | Running Custom Script...[39m[0m
+[  99% ] [90m[1mimport[22m | Saving...[39m[0m
+[92m[ DONE ][39m [1mimport[22m
+[0m
+[   6% ] [90m[1mreimport[22m | building-248142953.glb[39m[0m
+[   0% ] [90m[1mimport[22m | Started Import Scene (104 steps)[39m[0m
+[   0% ] [90m[1mimport[22m | Importing Scene...[39m[0m
+[   1% ] [90m[1mimport[22m | Running Custom Script...[39m[0m
+[  99% ] [90m[1mimport[22m | Saving...[39m[0m
+[92m[ DONE ][39m [1mimport[22m
+[0m
+[   9% ] [90m[1mreimport[22m | building-248142914.glb[39m[0m
+[   0% ] [90m[1mimport[22m | Started Import Scene (104 steps)[39m[0m
+[   0% ] [90m[1mimport[22m | Importing Scene...[39m[0m
+[   1% ] [90m[1mimport[22m | Running Custom Script...[39m[0m
+[  99% ] [90m[1mimport[22m | Saving...[39m[0m
+[92m[ DONE ][39m [1mimport[22m
+[0m
+[  12% ] [90m[1mreimport[22m | building-248142913.glb[39m[0m
+[   0% ] [90m[1mimport[22m | Started Import Scene (104 steps)[39m[0m
+[   0% ] [90m[1mimport[22m | Importing Scene...[39m[0m
+[   1% ] [90m[1mimport[22m | Running Custom Script...[39m[0m
+[  99% ] [90m[1mimport[22m | Saving...[39m[0m
+[92m[ DONE ][39m [1mimport[22m
+[0m
+[  16% ] [90m[1mreimport[22m | building-248142912.glb[39m[0m
+[   0% ] [90m[1mimport[22m | Started Import Scene (104 steps)[39m[0m
+[   0% ] [90m[1mimport[22m | Importing Scene...[39m[0m
+[   1% ] [90m[1mimport[22m | Running Custom Script...[39m[0m
+[  99% ] [90m[1mimport[22m | Saving...[39m[0m
+[92m[ DONE ][39m [1mimport[22m
+[0m
+[  19% ] [90m[1mreimport[22m | building-248142911.glb[39m[0m
+[   0% ] [90m[1mimport[22m | Started Import Scene (104 steps)[39m[0m
+[   0% ] [90m[1mimport[22m | Importing Scene...[39m[0m
+[   1% ] [90m[1mimport[22m | Running Custom Script...[39m[0m
+[  99% ] [90m[1mimport[22m | Saving...[39m[0m
+[92m[ DONE ][39m [1mimport[22m
+[0m
+[  22% ] [90m[1mreimport[22m | building-248142910.glb[39m[0m
+[   0% ] [90m[1mimport[22m | Started Import Scene (104 steps)[39m[0m
+[   0% ] [90m[1mimport[22m | Importing Scene...[39m[0m
+[   1% ] [90m[1mimport[22m | Running Custom Script...[39m[0m
+[  99% ] [90m[1mimport[22m | Saving...[39m[0m
+[92m[ DONE ][39m [1mimport[22m
+[0m
+[  25% ] [90m[1mreimport[22m | building-248142909.glb[39m[0m
+[   0% ] [90m[1mimport[22m | Started Import Scene (104 steps)[39m[0m
+[   0% ] [90m[1mimport[22m | Importing Scene...[39m[0m
+[   1% ] [90m[1mimport[22m | Running Custom Script...[39m[0m
+[  99% ] [90m[1mimport[22m | Saving...[39m[0m
+[92m[ DONE ][39m [1mimport[22m
+[0m
+[  29% ] [90m[1mreimport[22m | building-248142908.glb[39m[0m
+[   0% ] [90m[1mimport[22m | Started Import Scene (104 steps)[39m[0m
+[   0% ] [90m[1mimport[22m | Importing Scene...[39m[0m
+[   1% ] [90m[1mimport[22m | Running Custom Script...[39m[0m
+[  99% ] [90m[1mimport[22m | Saving...[39m[0m
+[92m[ DONE ][39m [1mimport[22m
+[0m
+[  32% ] [90m[1mreimport[22m | building-248142907.glb[39m[0m
+[   0% ] [90m[1mimport[22m | Started Import Scene (104 steps)[39m[0m
+[   0% ] [90m[1mimport[22m | Importing Scene...[39m[0m
+[   1% ] [90m[1mimport[22m | Running Custom Script...[39m[0m
+[  99% ] [90m[1mimport[22m | Saving...[39m[0m
+[92m[ DONE ][39m [1mimport[22m
+[0m
+[  35% ] [90m[1mreimport[22m | building-248142906.glb[39m[0m
+[   0% ] [90m[1mimport[22m | Started Import Scene (104 steps)[39m[0m
+[   0% ] [90m[1mimport[22m | Importing Scene...[39m[0m
+[   1% ] [90m[1mimport[22m | Running Custom Script...[39m[0m
+[  99% ] [90m[1mimport[22m | Saving...[39m[0m
+[92m[ DONE ][39m [1mimport[22m
+[0m
+[  38% ] [90m[1mreimport[22m | building-248142905.glb[39m[0m
+[   0% ] [90m[1mimport[22m | Started Import Scene (104 steps)[39m[0m
+[   0% ] [90m[1mimport[22m | Importing Scene...[39m[0m
+[   1% ] [90m[1mimport[22m | Running Custom Script...[39m[0m
+[  99% ] [90m[1mimport[22m | Saving...[39m[0m
+[92m[ DONE ][39m [1mimport[22m
+[0m
+[  41% ] [90m[1mreimport[22m | building-248142904.glb[39m[0m
+[   0% ] [90m[1mimport[22m | Started Import Scene (104 steps)[39m[0m
+[   0% ] [90m[1mimport[22m | Importing Scene...[39m[0m
+[   1% ] [90m[1mimport[22m | Running Custom Script...[39m[0m
+[  99% ] [90m[1mimport[22m | Saving...[39m[0m
+[92m[ DONE ][39m [1mimport[22m
+[0m
+[  45% ] [90m[1mreimport[22m | building-248142903.glb[39m[0m
+[   0% ] [90m[1mimport[22m | Started Import Scene (104 steps)[39m[0m
+[   0% ] [90m[1mimport[22m | Importing Scene...[39m[0m
+[   1% ] [90m[1mimport[22m | Running Custom Script...[39m[0m
+[  99% ] [90m[1mimport[22m | Saving...[39m[0m
+[92m[ DONE ][39m [1mimport[22m
+[0m
+[  48% ] [90m[1mreimport[22m | building-248142902.glb[39m[0m
+[   0% ] [90m[1mimport[22m | Started Import Scene (104 steps)[39m[0m
+[   0% ] [90m[1mimport[22m | Importing Scene...[39m[0m
+[   1% ] [90m[1mimport[22m | Running Custom Script...[39m[0m
+[  99% ] [90m[1mimport[22m | Saving...[39m[0m
+[92m[ DONE ][39m [1mimport[22m
+[0m
+[  51% ] [90m[1mreimport[22m | building-248142901.glb[39m[0m
+[   0% ] [90m[1mimport[22m | Started Import Scene (104 steps)[39m[0m
+[   0% ] [90m[1mimport[22m | Importing Scene...[39m[0m
+[   1% ] [90m[1mimport[22m | Running Custom Script...[39m[0m
+[  99% ] [90m[1mimport[22m | Saving...[39m[0m
+[92m[ DONE ][39m [1mimport[22m
+[0m
+[  54% ] [90m[1mreimport[22m | building-248142900.glb[39m[0m
+[   0% ] [90m[1mimport[22m | Started Import Scene (104 steps)[39m[0m
+[   0% ] [90m[1mimport[22m | Importing Scene...[39m[0m
+[   1% ] [90m[1mimport[22m | Running Custom Script...[39m[0m
+[  99% ] [90m[1mimport[22m | Saving...[39m[0m
+[92m[ DONE ][39m [1mimport[22m
+[0m
+[  58% ] [90m[1mreimport[22m | building-248142899.glb[39m[0m
+[   0% ] [90m[1mimport[22m | Started Import Scene (104 steps)[39m[0m
+[   0% ] [90m[1mimport[22m | Importing Scene...[39m[0m
+[   1% ] [90m[1mimport[22m | Running Custom Script...[39m[0m
+[  99% ] [90m[1mimport[22m | Saving...[39m[0m
+[92m[ DONE ][39m [1mimport[22m
+[0m
+[  61% ] [90m[1mreimport[22m | building-248142898.glb[39m[0m
+[   0% ] [90m[1mimport[22m | Started Import Scene (104 steps)[39m[0m
+[   0% ] [90m[1mimport[22m | Importing Scene...[39m[0m
+[   1% ] [90m[1mimport[22m | Running Custom Script...[39m[0m
+[  99% ] [90m[1mimport[22m | Saving...[39m[0m
+[92m[ DONE ][39m [1mimport[22m
+[0m
+[  64% ] [90m[1mreimport[22m | building-248142897.glb[39m[0m
+[   0% ] [90m[1mimport[22m | Started Import Scene (104 steps)[39m[0m
+[   0% ] [90m[1mimport[22m | Importing Scene...[39m[0m
+[   1% ] [90m[1mimport[22m | Running Custom Script...[39m[0m
+[  99% ] [90m[1mimport[22m | Saving...[39m[0m
+[92m[ DONE ][39m [1mimport[22m
+[0m
+[  67% ] [90m[1mreimport[22m | building-248142896.glb[39m[0m
+[   0% ] [90m[1mimport[22m | Started Import Scene (104 steps)[39m[0m
+[   0% ] [90m[1mimport[22m | Importing Scene...[39m[0m
+[   1% ] [90m[1mimport[22m | Running Custom Script...[39m[0m
+[  99% ] [90m[1mimport[22m | Saving...[39m[0m
+[92m[ DONE ][39m [1mimport[22m
+[0m
+[  70% ] [90m[1mreimport[22m | building-248142895.glb[39m[0m
+[   0% ] [90m[1mimport[22m | Started Import Scene (104 steps)[39m[0m
+[   0% ] [90m[1mimport[22m | Importing Scene...[39m[0m
+[   1% ] [90m[1mimport[22m | Running Custom Script...[39m[0m
+[  99% ] [90m[1mimport[22m | Saving...[39m[0m
+[92m[ DONE ][39m [1mimport[22m
+[0m
+[  74% ] [90m[1mreimport[22m | building-248142894.glb[39m[0m
+[   0% ] [90m[1mimport[22m | Started Import Scene (104 steps)[39m[0m
+[   0% ] [90m[1mimport[22m | Importing Scene...[39m[0m
+[   1% ] [90m[1mimport[22m | Running Custom Script...[39m[0m
+[  99% ] [90m[1mimport[22m | Saving...[39m[0m
+[92m[ DONE ][39m [1mimport[22m
+[0m
+[  77% ] [90m[1mreimport[22m | building-248142893.glb[39m[0m
+[   0% ] [90m[1mimport[22m | Started Import Scene (104 steps)[39m[0m
+[   0% ] [90m[1mimport[22m | Importing Scene...[39m[0m
+[   1% ] [90m[1mimport[22m | Running Custom Script...[39m[0m
+[  99% ] [90m[1mimport[22m | Saving...[39m[0m
+[92m[ DONE ][39m [1mimport[22m
+[0m
+[  80% ] [90m[1mreimport[22m | building-248142892.glb[39m[0m
+[   0% ] [90m[1mimport[22m | Started Import Scene (104 steps)[39m[0m
+[   0% ] [90m[1mimport[22m | Importing Scene...[39m[0m
+[   1% ] [90m[1mimport[22m | Running Custom Script...[39m[0m
+[  99% ] [90m[1mimport[22m | Saving...[39m[0m
+[92m[ DONE ][39m [1mimport[22m
+[0m
+[  83% ] [90m[1mreimport[22m | building-248142891.glb[39m[0m
+[   0% ] [90m[1mimport[22m | Started Import Scene (104 steps)[39m[0m
+[   0% ] [90m[1mimport[22m | Importing Scene...[39m[0m
+[   1% ] [90m[1mimport[22m | Running Custom Script...[39m[0m
+[  99% ] [90m[1mimport[22m | Saving...[39m[0m
+[92m[ DONE ][39m [1mimport[22m
+[0m
+[  87% ] [90m[1mreimport[22m | building-248142890.glb[39m[0m
+[   0% ] [90m[1mimport[22m | Started Import Scene (104 steps)[39m[0m
+[   0% ] [90m[1mimport[22m | Importing Scene...[39m[0m
+[   1% ] [90m[1mimport[22m | Running Custom Script...[39m[0m
+[  99% ] [90m[1mimport[22m | Saving...[39m[0m
+[92m[ DONE ][39m [1mimport[22m
+[0m
+[  90% ] [90m[1mreimport[22m | building-248142888.glb[39m[0m
+[   0% ] [90m[1mimport[22m | Started Import Scene (104 steps)[39m[0m
+[   0% ] [90m[1mimport[22m | Importing Scene...[39m[0m
+[   1% ] [90m[1mimport[22m | Running Custom Script...[39m[0m
+[  99% ] [90m[1mimport[22m | Saving...[39m[0m
+[92m[ DONE ][39m [1mimport[22m
+[0m
+[  93% ] [90m[1mreimport[22m | building-248142887.glb[39m[0m
+[   0% ] [90m[1mimport[22m | Started Import Scene (104 steps)[39m[0m
+[   0% ] [90m[1mimport[22m | Importing Scene...[39m[0m
+[   1% ] [90m[1mimport[22m | Running Custom Script...[39m[0m
+[  99% ] [90m[1mimport[22m | Saving...[39m[0m
+[92m[ DONE ][39m [1mimport[22m
+[0m
+[  96% ] [90m[1mreimport[22m | Finalizing Asset Import...[39m[0m
+[92m[ DONE ][39m [1mreimport[22m
+[0m
+[   0% ] [90m[1mreimport[22m | Started (Re)Importing Assets (30 steps)[39m[0m
+[   0% ] [90m[1mreimport[22m | Executing post-reimport operations...[39m[0m
+[92m[ DONE ][39m [1mreimport[22m
+[0m
+[   0% ] [90m[1mloading_editor_layout[22m | Started Loading editor (5 steps)[39m[0m
+[   0% ] [90m[1mloading_editor_layout[22m | Loading editor layout...[39m[0m
+[  16% ] [90m[1mloading_editor_layout[22m | Loading docks...[39m[0m
+[92m[ DONE ][39m [1mloading_editor_layout[22m
+[0m
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+SCRIPT ERROR: Assertion failed.
+          at: _initialize (res://scripts/export_areas.gd:58)
+          GDScript backtrace (most recent call first):
+              [0] _initialize (res://scripts/export_areas.gd:58)
+file:///Users/rayidali/Desktop/borough-drive/scripts/export-seventh.mjs:17
+    child.on('error',reject);child.on('exit',code=>code===0?resolve():reject(Error(`${path.basename(command)} exited ${code}`)));
+                                                                             ^
+
+Error: Godot exited null
+    at ChildProcess.<anonymous> (file:///Users/rayidali/Desktop/borough-drive/scripts/export-seventh.mjs:17:78)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+
+Node.js v22.23.4

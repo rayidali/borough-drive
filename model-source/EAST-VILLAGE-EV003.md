@@ -1,5 +1,9 @@
 # EV-003 — loading integration
 
+<!-- current-project-status -->
+> **Current status:** The [project handoff](../CODEX-HANDOFF.md) governs current scope, publication and next work. This file retains its dated observations, evidence or specialist instructions. See [browser scaling](../docs/BROWSER-SCALING.md) for the current loading/rendering work; older model counts and paused states describe their original checkpoints.
+<!-- /current-project-status -->
+
 **October 12, 2026 — complete locally; uncommitted.** The user's “continue ahead” authorized this session after the [EV-002 proof](EAST-VILLAGE-EV002.md). This integrates the existing player before P01; no new facade, street geometry, paid work or publication is included. [Baseline](east-village-ev003/baseline.json) · [progress and trials](east-village-ev003/progress.json).
 
 ## Changes

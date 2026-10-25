@@ -16,7 +16,7 @@ const evaluate=async expression=>{const r=await send('Runtime.evaluate',{express
 const sleep=ms=>new Promise(r=>setTimeout(r,ms));
 const until=async(expression,timeout=120000)=>{const start=Date.now();while(Date.now()-start<timeout){if(await evaluate(expression))return;await sleep(250);}throw Error('Timeout: '+expression);};
 let sequence=0;
-async function command(value){const n=++sequence;await evaluate('window.seventhReviewCommand='+JSON.stringify({...value,sequence:n}));await until('window.seventhReviewAck==='+n,5000);await sleep(450);}
+async function command(value){const n=++sequence;await evaluate('window.seventhReviewCommand='+JSON.stringify({...value,sequence:n}));await until('window.seventhReviewAck==='+n,180000);await sleep(450);}
 async function screenshot(name){const r=await send('Page.captureScreenshot',{format:'png'});await fs.writeFile(path.join(out,name+'.png'),Buffer.from(r.data,'base64'));}
 
 const cases=[

@@ -1,5 +1,9 @@
 # N01A — north Ninth, 147 First return and 345–341 East Ninth
 
+<!-- current-project-status -->
+> **Current status:** The [project handoff](../CODEX-HANDOFF.md) governs current scope, publication and next work. This file retains its dated observations, evidence or specialist instructions. See [browser scaling](../docs/BROWSER-SCALING.md) for the current loading/rendering work; older model counts and paused states describe their original checkpoints.
+<!-- /current-project-status -->
+
 Local implementation under the user’s October 13, 2026 “go ahead keep going.” Four exact north-side faces: `247852691:1`, `247852690:0`, `247852697:0`, `247852689:0`. Implementation and local review are complete; exact timing and trials are in [progress](east-village-e09-n01a/progress.json). No publication or next packet is assigned.
 
 ## Evidence and modeled features

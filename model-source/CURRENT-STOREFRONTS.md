@@ -1,5 +1,9 @@
 # Core storefront modeling references — September 6, 2026
 
+<!-- current-project-status -->
+> **Current status:** The [project handoff](../CODEX-HANDOFF.md) governs current scope, publication and next work. This file retains its dated observations, evidence or specialist instructions. See [browser scaling](../docs/BROWSER-SCALING.md) for the current loading/rendering work; older model counts and paused states describe their original checkpoints.
+<!-- /current-project-status -->
+
 **October 23 current-state pointer:** this remains a historical core-reference report. The newer 295-model First/Ninth expansion is intact/local/uncommitted on the restored laptop; GitHub/live retain 203-model revision 09. The user is restarting VS Code/Terminal, with build tools and browser Street View verified. Read the [latest handoff](../CODEX-HANDOFF.md) and [restart guide](../START-HERE.md#after-restarting-vs-code-or-terminal) rather than treating older continuation notes below as the active task. Historical observations and storefront quality requirements remain unchanged.
 
 **October 11 continuation:** this is a historical report. The user endorsed [First Avenue / St. Marks revision 09](SEVENTH-ENGINE-09.md) and requested publication to `main`. Read the [current handoff](../CODEX-HANDOFF.md) for verified release state. Earlier dates, counts, source limitations, route descriptions and pause instructions below remain history; no further street or pipeline is assigned.

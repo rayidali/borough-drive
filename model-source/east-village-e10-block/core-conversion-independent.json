@@ -1,0 +1,10 @@
+{
+  "decoder": "Blender 5.2.1 LTS",
+  "sourceAudit": "core-source-audit.json",
+  "convertedAsset": "engine/first-seventh/assets/protected-core.glb",
+  "matchingMeshes": 521,
+  "triangles": 424497,
+  "mismatches": [],
+  "scope": "Independent import comparison of transformed vertices and triangle indices with the earlier original-GLB audit.",
+  "limits": "Engine import, material rendering, runtime ownership and matched-view review remain separate."
+}

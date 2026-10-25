@@ -1,0 +1,80 @@
+{
+  "recorded": "2026-10-25T15:27:28.650947+00:00",
+  "views": [
+    {
+      "file": "smoke-01/seventh-start.png",
+      "sha256": "720ddcc52d095a2edf82123066b40c00e9ef5961511f1508bb1e6a9373dcef24",
+      "observations": "Inspected initial following-map typography and footprint composition; initial direct drawing was too costly and hidden-view warmup/resize overfetched."
+    },
+    {
+      "file": "smoke-04/seventh-start.png",
+      "sha256": "5e41a5ed104c8634021ca78ff077389e0b8d2b367a2c41cb47bc0415f7366885",
+      "observations": "Inspected cached map: warm marker, readable north/header and local footprint grid. Following center still leaves excess empty area near authored boundaries."
+    },
+    {
+      "file": "resize-06/viewport-390.png",
+      "sha256": "e0cd74d31fbf2aa283541f2d6c48d8d31196554897455013dbe03a93e96859e5",
+      "observations": "Inspected narrow layout: map yields space; speed and controls remain legible within viewport."
+    },
+    {
+      "file": "resize-06/viewport-1440.png",
+      "sha256": "700dfa5f241df025516508c99c43955c4dfcc10bd21b6fc865dbd7bd52949a7a",
+      "observations": "Inspected returned desktop layout and south-facing heading marker; complete map and compact speed card restored."
+    },
+    {
+      "file": "resize-06/resize-held.png",
+      "sha256": "39d1e4b7c20c22b1c85a244ee46f60dc816cacfdb51c21bfc9f6383eafa41540",
+      "observations": "Inspected proportionate letterboxing while delayed scene blocks resize; no stretched world or incomplete scene exposed."
+    },
+    {
+      "file": "gameplay-06/first-connection-north.jpg",
+      "sha256": "d87f1efd5395395aae2f0103da2bcb7e2bc25aac02e61929965bd33544b82466",
+      "observations": "Inspected northern endpoint and marker heading. Found excess empty frontier in minimap; bounds clamp authored next."
+    },
+    {
+      "file": "gameplay-06/tenth-whole-east.jpg",
+      "sha256": "d14ab9bc18b0b0ab066de954d1123d42cbf5d8ab407ff96fde47dc8b97e2c011",
+      "observations": "Inspected east endpoint and east-heading marker; edge labels and coverage motivate bounds clamp."
+    },
+    {
+      "file": "gameplay-06/reset-seventh.jpg",
+      "sha256": "7a1a865cdc339b216badd3e5ae6bb1214f535907d6e2909012178b04ad0b0aab",
+      "observations": "Inspected completed asynchronous reset, full street ownership and overhead view; map and marker aligned."
+    },
+    {
+      "file": "smoke-07/seventh-start.png",
+      "sha256": "c6366116cd682866c7dcb8ab4725891f13c9735148c30a40590ea0685a2c95af",
+      "observations": "Final bounds-aware map inspected: Seventh/St Marks/Ninth remain visible at spawn, warm marker stays legible, footprint texture is crisp and the card fits the HUD.",
+      "inspectedAt": "2026-10-25T14:49:27.586225+00:00"
+    },
+    {
+      "file": "smoke-07/eleventh.png",
+      "sha256": "d0881e6f8f8153063cb70054e9a4f65573ddd6d1eed7bf0783623c8ee0952111",
+      "observations": "Final northern map inspected: Eleventh, Tenth and Ninth fill the usable map area, west-facing marker is correct, preserved complete street models remain visible after streaming.",
+      "inspectedAt": "2026-10-25T14:49:27.587576+00:00"
+    },
+    {
+      "file": "smoke-10/seventh-start.png",
+      "sha256": "782b43ef11e44b70706ac04def279d9e325e58b8f758c84cf93fb6a8834b4188",
+      "observations": "Inspected final cached-patch map at spawn: distinct warm heading arrow, restrained green footprint/road layers, readable street labels, compass and scale; compact speed panel."
+    },
+    {
+      "file": "smoke-10/eleventh.png",
+      "sha256": "044298f1a00278d32d4d3f816656598966130d2d2d2c9b513461213d799726ce",
+      "observations": "Inspected final frontier map and west-facing marker: authored street ends clear, center clamped within covered neighborhood, actual school/tenement footprints retained."
+    },
+    {
+      "file": "recovery-10/viewport-390.png",
+      "sha256": "0a317f0053904a6ad69cfd4d2297d56c3a0f151a5ae7e015cd7caba83ec2bafa",
+      "observations": "Inspected final narrow layout at390px: map yields space; speed, weather and camera/postcard controls fit within viewport."
+    },
+    {
+      "file": "recovery-10/viewport-1440.png",
+      "sha256": "97467ae5cd2f5372525af2a5aa9945eaaa9659c00275a4cc6ac598bd0cd84ff7",
+      "observations": "Inspected final restored1440px layout: map, labels, south-facing marker and speed card restored without stretching the 3D view."
+    }
+  ],
+  "scope": "Ten actually inspected candidate images, including final map placement and the unchanged responsive layout. Captures are not calibrated photographic acceptance.",
+  "finalMinimapBuild": "2026-10-25T14:44:44.798Z",
+  "finalMapResult": "Reviewed locally; edge-placement repair resolves excess empty frontier."
+}

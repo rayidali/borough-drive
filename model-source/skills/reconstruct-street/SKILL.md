@@ -5,6 +5,10 @@ description: Reconstruct or refine bounded Borough Drive streets and individuall
 
 # Reconstruct individual streets and storefronts
 
+<!-- current-project-status -->
+> **Current status:** The [project handoff](../../../CODEX-HANDOFF.md) governs current scope, publication and next work. This file retains its dated observations, evidence or specialist instructions. See [browser scaling](../../../docs/BROWSER-SCALING.md) for the current loading/rendering work; older model counts and paused states describe their original checkpoints.
+<!-- /current-project-status -->
+
 **October 23 repository resume checkpoint:** the project was transferred to a new laptop; tools, GitHub login and ordinary browser Street View are now verified. The user is closing VS Code/Terminal and returning shortly. Read the latest [handoff](../../../CODEX-HANDOFF.md) and [restart instructions](../../../START-HERE.md#after-restarting-vs-code-or-terminal); do not reinstall tools, restart device login, start the proposed next block or publish merely because the editor restarted. The unchanged 295-model expansion remains local/uncommitted; GitHub/live retain 203-model revision 09. Preserve the transferred Godot `.godot/` cache: clean reimport changes compiled hashes, while the retained cache reproduces the reviewed package exactly. This environment note does not change the portable reconstruction quality/ownership rules below.
 
 This is a repository-local, model-independent skill. Read it as ordinary Markdown in any assistant with access to this repository; no plugin, provider API, paid coordinator or installed skill loader is required. Keep its `references/` folder beside it. Repository links assume this location.

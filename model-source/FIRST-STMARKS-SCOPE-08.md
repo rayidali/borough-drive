@@ -1,5 +1,9 @@
 # First Avenue and St. Marks Place — confirmed scope, October 11, 2026
 
+<!-- current-project-status -->
+> **Current status:** The [project handoff](../CODEX-HANDOFF.md) governs current scope, publication and next work. This file retains its dated observations, evidence or specialist instructions. See [browser scaling](../docs/BROWSER-SCALING.md) for the current loading/rendering work; older model counts and paused states describe their original checkpoints.
+<!-- /current-project-status -->
+
 **Latest review, October 11:** the complete bounded revision 08 was refined into [revision 09](SEVENTH-ENGINE-09.md), with 80 individual business/return records on 57 faces / 51 buildings. The user endorsed the revised result and requested publication to `main` plus documentation upkeep. The [storefront standard](skills/reconstruct-street/references/storefront-individuality.md) remains in force; endorsement is not calibrated 1:1 acceptance. Read the [current handoff](../CODEX-HANDOFF.md) for verified release state. The bounds below remain resolved and do not queue more modeling.
 
 The user wants to resume reconstruction with First Avenue and the street immediately north of Seventh, **St. Marks Place**, and answered **“Yes, those full bounds”** to the complete extent below. Implementation is authorized. The September close and earlier endpoint question are superseded.

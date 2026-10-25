@@ -1,5 +1,9 @@
 # DriveAround.nyc — brand and calm-driving experience brief
 
+<!-- current-project-status -->
+> **Current status:** The [project handoff](../CODEX-HANDOFF.md) governs current scope, publication and next work. This file retains its dated observations, evidence or specialist instructions. See [browser scaling](BROWSER-SCALING.md) for the current loading/rendering work; older model counts and paused states describe their original checkpoints.
+<!-- /current-project-status -->
+
 **October 11 status:** user-endorsed [revision 09](../model-source/SEVENTH-ENGINE-09.md) refines First Avenue / St. Marks storefronts and is authorized for publication. It preserves the interface, original logo and audio. The separate product/audio proposals below remain unassigned; read the [current handoff](../CODEX-HANDOFF.md) for actual release state.
 
 Prepared September 21, 2026 as a planning-only brief, then partially implemented and published at the user's request. The [interface pass](../model-source/INTERFACE-PASS-05.md), source `b194dc6`, now ships compact launch/HUD/pause layouts, bundled Inter, charcoal/sage styling, the original logo in the interface and tab icon, and revised loading/retry presentation. Checkpoint `533570e` passed CI and Vercel deployment; the branded root and legacy route were verified live. That interface pass left models and audio unchanged. The later [revision 07](../model-source/SEVENTH-ENGINE-07.md) updates the east-block architecture while preserving this interface and audio; it is published through checkpoint `78aa716` with passing CI/Vercel. This September 23 session close is documentation only. The original logo pixels remain intact; dedicated small icons, social artwork and legacy branding remain future work.

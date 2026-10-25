@@ -1,5 +1,9 @@
 # First Avenue and St. Marks — local revision 08
 
+<!-- current-project-status -->
+> **Current status:** The [project handoff](../CODEX-HANDOFF.md) governs current scope, publication and next work. This file retains its dated observations, evidence or specialist instructions. See [browser scaling](../docs/BROWSER-SCALING.md) for the current loading/rendering work; older model counts and paused states describe their original checkpoints.
+<!-- /current-project-status -->
+
 **Subsequent user review, October 11:** the user likes the overall scene but finds the storefronts too generic and insufficiently like the real businesses. They request a “100×” qualitative increase in textures, fonts/letterforms, styles, awnings/shades, outdoor seating and small elements, with Tile Bar as the individuality reference. The [updated storefront standard](skills/reconstruct-street/references/storefront-individuality.md) records that requirement. The implementation/review evidence below describes this existing candidate, not acceptance of its storefront detail against the stronger target. This described the initial instruction-only follow-up. The subsequent [revision 09](SEVENTH-ENGINE-09.md) implements the storefront refinement; the user endorsed that result and requested publication. The revision 08 evidence below keeps its original package identity. See the [current handoff](../CODEX-HANDOFF.md) for verified release state.
 
 October 11, 2026. The user confirmed **First Avenue from East Seventh to St. Marks, plus both sides of St. Marks from Second Avenue to Avenue A**, including same-parcel corner returns and street details. This full extent is implemented as a local candidate. No publication or paid imagery job was requested. [Current save state](../CODEX-HANDOFF.md) · [Confirmed scope](FIRST-STMARKS-SCOPE-08.md).

@@ -1,5 +1,9 @@
 # First & 7th Unreal browser pilot — September 14, 2026
 
+<!-- current-project-status -->
+> **Current status:** The [project handoff](../CODEX-HANDOFF.md) governs current scope, publication and next work. This file retains its dated observations, evidence or specialist instructions. See [browser scaling](../docs/BROWSER-SCALING.md) for the current loading/rendering work; older model counts and paused states describe their original checkpoints.
+<!-- /current-project-status -->
+
 **October 11 continuation:** [First Avenue / St. Marks revision 09](SEVENTH-ENGINE-09.md) is now the user-endorsed working storefront reference and has explicit publication authorization. See the [current handoff](../CODEX-HANDOFF.md) for release verification. This does not assign an engine migration, GPU service or another street.
 
 **Superseded compute decision:** later September 14 the user said a GPU machine is unavailable and authorized the [Godot browser slice](../engine/first-seventh/README.md), now published with [interface pass 05](INTERFACE-PASS-05.md) and [east-block revision 07](SEVENTH-ENGINE-07.md) at [DriveAround.nyc](https://www.drivearound.nyc/). The [current handoff](../CODEX-HANDOFF.md) takes precedence. The plan below is a historical Unreal option; its pending-question, local-only and Godot-pause statements are not current instructions. No GPU hosting was purchased, and no Unreal work is assigned at session close.

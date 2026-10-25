@@ -1,5 +1,9 @@
 # P02 — 138–148 First Avenue
 
+<!-- current-project-status -->
+> **Current status:** The [project handoff](../CODEX-HANDOFF.md) governs current scope, publication and next work. This file retains its dated observations, evidence or specialist instructions. See [browser scaling](../docs/BROWSER-SCALING.md) for the current loading/rendering work; older model counts and paused states describe their original checkpoints.
+<!-- /current-project-status -->
+
 **October 13, 2026 — complete locally; awaiting user review.** Five east-side First Avenue faces and five businesses are implemented between St. Marks and Ninth. The user's stronger attention to gaps, shape differences and texture is now part of the reconstruction skill and its work packet. P03, the 145 First / southwest Ninth corner, is next on the next instruction. No publication is requested.
 
 All 207 preceding GLBs and compiled scenes are byte-identical. P02 brings the slice to 212 models; all load initially, with 12 west-context scenes releasable and 200 pinned. First Avenue's existing terminal at −145 / outer cap −150 is sufficient; other avenue terminals stay −119 and Ninth remains closed. Original game, interface/audio/controls and both private untracked screenshots are preserved.

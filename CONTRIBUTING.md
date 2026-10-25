@@ -1,5 +1,9 @@
 # Contributing to Borough Drive
 
+<!-- current-project-status -->
+> **Current October 25 assignment:** Refresh documentation, improve the bottom-left minimap and browser loading/rendering, publish the completed 397-building result, then implement Eleventh First–Avenue A and Twelfth Second–First, both sides. Publication and the two blocks are authorized; continue without routine stage questions. See the [current handoff](CODEX-HANDOFF.md) for actual save/live state and [browser scaling](docs/BROWSER-SCALING.md) for implementation and remaining capacity limits. Earlier dated checkpoints below remain historical.
+<!-- /current-project-status -->
+
 **October 24 current checkpoint:** the complete 295-model expansion and evidence are pushed; final CI, deployment and live-file/cache verification pass. Tenth, Second–First, both sides, is assigned and its protected-core inventory is prepared. Read the [current handoff](CODEX-HANDOFF.md) and [publication record](model-source/publication-2026-10-24/README.md). Continue authorized steps without repeated confirmations; respect the actual session sandbox and preserve all caches/private files. Earlier dated pauses below are historical.
 
 **Historical local checkpoint — October 23, 2026:** the user's new laptop is restored and ready for a VS Code/Terminal restart. The 295-model Ninth expansion remains local/uncommitted; GitHub/live were checked at the earlier 203-model revision 09. Follow the [current handoff](CODEX-HANDOFF.md) and [restart/tool instructions](START-HERE.md#after-restarting-vs-code-or-terminal) when resuming this existing checkout. Fresh-shell Node 22 and project-local Node 24 both pass verification; Blender 5.2.1, Godot 4.7.2/templates, Python/map libraries, Brave Street View and authenticated GitHub CLI are ready. Preserve the existing dirty worktree and Godot import cache. No new street or publication is assigned by this documentation close.

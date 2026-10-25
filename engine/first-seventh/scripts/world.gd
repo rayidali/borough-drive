@@ -30,12 +30,12 @@ func _ready():
 		for entry in [["brick","red_brick_03"],["pale","white_bricks"],["stone","concrete_wall_006"]]:
 			target.set_shader_parameter(entry[0]+"_color",load("res://assets/surfaces/"+entry[1]+"_diff_1k.jpg"))
 			target.set_shader_parameter(entry[0]+"_normal",load("res://assets/surfaces/"+entry[1]+"_nor_gl_1k.jpg"))
-	for id in [248142657,248142658,248142659,248142660,248142713,241822237,247852691,247852690,247852697,247852689,247852687,247852686,247852685,247852684,241822165,241822171,241822179,241822183,241822187,241822204,241822210,241822229,241822239,241822241,241822244,241822251,241822261,241822269,241822272,241822276,241822293,241822315,241822335,247852671,247852672,247852673,247852674,247852675,247852676,247852677,247852678,247852679,247852680,247852681,247852682,247852683,247852702,1063735559,248142661,248142662,248142663,248142664,248142666,248142668,248142669,248142672,248142675,248142676,248142677,248142679,248142681,248142682,248142683,248142684,248142685,248142702,248142710,248142716,248142921,248142923,248142925,248142926,248142927,248142929,248142930,248142932,248142934,248142936,248142938,248142940,248142942,248142944,248142945,248142947,248142948,248142950,248142955,248142963]:
+	for id in [248142657,248142658,248142659,248142660,248142713,241822237,247852691,247852690,247852697,247852689,247852687,247852686,247852685,247852684,241822165,241822171,241822179,241822183,241822187,241822204,241822210,241822229,241822239,241822241,241822244,241822251,241822261,241822269,241822272,241822276,241822293,241822315,241822335,247852671,247852672,247852673,247852674,247852675,247852676,247852677,247852678,247852679,247852680,247852681,247852682,247852683,247852702,1063735559,248142661,248142662,248142663,248142664,248142666,248142668,248142669,248142672,248142675,248142676,248142677,248142679,248142681,248142682,248142683,248142684,248142685,248142702,248142710,248142716,248142921,248142923,248142925,248142926,248142927,248142929,248142930,248142932,248142934,248142936,248142938,248142940,248142942,248142944,248142945,248142947,248142948,248142950,248142955,248142963,247851894,247851895,247851896,247851897,247851898,247851899,247851900,247851901,247851902,247851903,247851904,247851906,247851908,247851911,247851935,247852656,247852658,247852659,247852660,247852662,247852663,247852664,247852665,247852667,247852668,247852693,247852694,-577810,248142887,248142888,248142890,248142891,248142892,248142893,248142894,248142895,248142896,248142897,248142898,248142899,248142900,248142901,248142902,248142903,248142904,248142905,248142906,248142907,248142908,248142909,248142910,248142911,248142912,248142913,248142914,248142953,248142975,247851916,247851917,247851918,247851919,247851921,247851922,247851923,247851924,247851925,247851926,247851927,247851928,247851929,247851930,247851931,247851932,247851933,247851934,247851936,247851937,247851941,247851942]:
 		var mat=paint.duplicate()
 		mat.shader=preload("res://shaders/p02_masonry.gdshader")
 		mat.set_shader_parameter("brick_pitch",Vector2(.215,.071) if id==248142657 else Vector2(.21,.067))
 		mat.set_shader_parameter("faded_brick",id==248142658)
-		mat.set_shader_parameter("painted_mural",id in [247852691,248142947,248142948,248142950,248142963,248142685,248142702,248142716])
+		mat.set_shader_parameter("painted_mural",id in [247852691,248142947,248142948,248142950,248142963,248142685,248142702,248142716,247851903,248142975])
 		mat.set_shader_parameter("streaked_stucco",id==248142713)
 		p02_paints[id]=mat
 	glass = S.material(Color(0.83,.90,.94,.32),.25)
@@ -62,7 +62,7 @@ func build() -> bool:
 	if file == null: return false
 	var parsed = JSON.parse_string(file.get_as_text())
 	if not parsed is Dictionary or not parsed.has("buildings"): return false
-	data = parsed
+	data = preload("res://scripts/runtime_catalog.gd").with_protected_core(parsed)
 	build_streets()
 	build_props()
 	batch_details()
@@ -80,8 +80,15 @@ func activate_building(b: Dictionary, scene: PackedScene) -> Node3D:
 	model.position = Vector3(b.position[0],0,b.position[2])
 	model.name = "Building_"+key
 	owner.add_child(model)
-	apply_materials(model,p02_paints.get(int(b.id),paint))
-	add_building_collision(b,owner)
+	# Accepted First/Tenth materials include their original texture maps,
+	# letter meshes and emission settings. Do not apply semantic paint shaders.
+	var kind: String = b.get("kind","authored-building")
+	if kind.begins_with("protected-core"):
+		preload("res://scripts/protected_core_textures.gd").bind(model)
+	else:
+		apply_materials(model,p02_paints.get(int(b.id),paint))
+	if kind!="protected-core-details": add_building_collision(b,owner)
+	owner.set_meta("model_kind",kind)
 	# Off-tree staging keeps visual and physics activation together.
 	add_child(owner)
 	resident_owners[key] = owner
@@ -242,10 +249,8 @@ func build_streets():
 	var x_ranges = [[-350.0,-239.75],[-218.25,-10.75],[10.75,204.7],[223.3,335.0]]
 	var z_ranges = [[-165.0,-82.85],[-72.95,-4.95],[4.95,108.0]]
 	var curb = S.material(Color("c8bdab"))
-	# P.S.122's assigned First Avenue return extends beyond the road cap.
-	# Support only that frontage, preserving the real wells and the -166 vehicle boundary.
-	rectilinear_plane_with_voids(10.75,17.0,-181.65,-171.0,.07,.14,sidewalk,voids,true)
-	S.box(geometry,Vector3(10.75,.112,-176.325),Vector3(.18,.105,10.65),curb)
+	preload("res://scripts/e10_block_detail.gd").new().streets(self,voids)
+	preload("res://scripts/e11_block_detail.gd").new().streets(self,voids)
 	for z in [-159.65,-149.75]:
 		S.box(geometry,Vector3(-113.875,.112,z),Vector3(206.25,.105,.18),curb)
 		S.box(geometry,Vector3(107.725,.112,z),Vector3(193.95,.105,.18),curb)
@@ -264,19 +269,19 @@ func build_streets():
 	for z in [-173.0,-176.0,-179.0]:
 		S.box(geometry,Vector3(12.575,.147,z),Vector3(3.65,.006,.026),joint)
 	for x in [0.0,-229.0,214.0]:
-		var north_terminal = -166 if x==0.0 else -119
-		for z in range(-164 if x==0.0 else -119,63,3):
-			if abs(z)<8 or abs(z+77.9)<8 or (x==0.0 and abs(z+154.7)<7): continue
+		var north_terminal = -315.3 if x==0.0 else -119
+		for z in range(-314 if x==0.0 else -119,63,3):
+			if abs(z)<8 or abs(z+77.9)<8 or (x==0.0 and (abs(z+154.7)<7 or abs(z+228)<7 or abs(z+304.3)<7)): continue
 			for side in [-1,1]:
 				S.box(geometry,Vector3(x+side*12.7,.147,z),Vector3(3.65,.006,.026),joint)
-		for z in range(-160 if x==0.0 else -112,56,6):
-			if abs(z)<12 or abs(z+77.9)<12 or (x==0.0 and abs(z+154.7)<9): continue
+		for z in range(-310 if x==0.0 else -112,56,6):
+			if abs(z)<12 or abs(z+77.9)<12 or (x==0.0 and (abs(z+154.7)<9 or abs(z+228)<9 or abs(z+304.3)<9)): continue
 			for line_x in [-3.45,3.45]:
 				S.box(geometry,Vector3(x+line_x,.005,z),Vector3(.085,.012,2.4),road_paint)
 			S.box(geometry,Vector3(x-7.0,.006,z),Vector3(.12,.012,4.0),road_paint)
 		# Muted protected cycleway; continuous route interrupts at crossings.
 		var cycle = S.material(Color("708e85"))
-		var cycle_intervals=[[-166.0,-161.0],[-148.0,-88.0],[-67.0,-11.0],[11.0,56.0]] if x==0.0 else [[float(north_terminal),-88.0],[-67.0,-11.0],[11.0,56.0]]
+		var cycle_intervals=[[-315.3,-311.3],[-297.3,-235.0],[-221.0,-161.0],[-148.0,-88.0],[-67.0,-11.0],[11.0,56.0]] if x==0.0 else [[float(north_terminal),-88.0],[-67.0,-11.0],[11.0,56.0]]
 		for interval in cycle_intervals:
 			if x==214.0: continue
 			S.box(geometry,Vector3(x-9.25,.003,(interval[0]+interval[1])/2),Vector3(2.35,.008,interval[1]-interval[0]),cycle)
@@ -294,7 +299,7 @@ func build_streets():
 	# Visible terminal barriers and solid limits make the small map deliberate.
 	var barrier = S.material(Color("8faaa0"))
 	for x in [0.0,-229.0,214.0]:
-		for z in [-166.0 if x==0.0 else -119.0,57.0]:
+		for z in [-315.3 if x==0.0 else -119.0,57.0]:
 			S.solid_box(self,Vector3(x,1.0,z),Vector3(21.5,2.0,.4),null)
 			for sx in range(-9,10,3):
 				S.box(geometry,Vector3(x+sx,.65,z),Vector3(2.5,.23,.20),barrier)
@@ -326,12 +331,12 @@ func build_streets():
 	# Keep all previous outer limits, except the explicit Ninth block L-shaped envelope.
 	for interval in [[-318.0,-17.0],[17.0,302.0]]:
 		S.solid_box(self,Vector3((interval[0]+interval[1])*.5,10,-130),Vector3(interval[1]-interval[0],30,1),null)
-	S.solid_box(self,Vector3(0,10,-171),Vector3(34,30,1),null)
-	for interval in [[-171.0,-164.0],[-144.3,-130.0]]:
+	S.solid_box(self,Vector3(0,10,-320.3),Vector3(34,30,1),null)
+	for interval in [[-320.3,-314.3],[-294.3,-238.0],[-218.0,-164.0],[-144.3,-130.0]]:
 		S.solid_box(self,Vector3(17,10,(interval[0]+interval[1])*.5),Vector3(1,30,interval[1]-interval[0]),null)
 	for z in [-164.0,-144.3]:S.solid_box(self,Vector3(114,10,z),Vector3(194,30,1),null)
 	S.solid_box(self,Vector3(211,10,-154.15),Vector3(1,30,19.7),null)
-	for interval in [[-171.0,-164.0],[-144.3,-130.0]]:
+	for interval in [[-320.3,-314.3],[-294.3,-238.0],[-218.0,-164.0],[-144.3,-130.0]]:
 		S.solid_box(self,Vector3(-17,10,(interval[0]+interval[1])*.5),Vector3(1,30,interval[1]-interval[0]),null)
 	for z in [-164.0,-144.3]:S.solid_box(self,Vector3(-117,10,z),Vector3(200,30,1),null)
 	S.solid_box(self,Vector3(-217,10,-154.15),Vector3(1,30,19.7),null)
@@ -413,6 +418,8 @@ func build_props():
 	preload("res://scripts/n01b_detail.gd").new().dress(geometry,details)
 	preload("res://scripts/e09_block_detail.gd").new().dress(geometry,details)
 	preload("res://scripts/e09_east_detail.gd").new().dress(geometry,details)
+	preload("res://scripts/e10_block_detail.gd").new().dress(geometry,details,street_void_rectangles())
+	preload("res://scripts/e11_block_detail.gd").new().dress(geometry,details)
 	var manhole = S.material(Color("555965"),.60)
 	for p in [Vector3(-4,.008,1),Vector3(3,.008,-28),Vector3(-36,.008,-1),Vector3(-145,.008,-78),Vector3(-229,.008,-32)]:
 		S.cylinder(geometry,p,.47,.02,manhole,24)
@@ -617,8 +624,9 @@ func material_key(mat: Material) -> String:
 	return "standard:"+"|".join(properties)
 
 func batch_details():
-	# Share static detail geometry globally per canonical material. Buildings
-	# remain individual scene roots, retaining their own frustum/LOD culling.
+	# Batch exact geometry/materials inside local 256 m cells, so an off-screen
+	# street does not share one city-wide bounding box and draw submission.
+	# Buildings retain individual scene roots and their original mesh LODs.
 	var groups = {}
 	var canonical_materials = {}
 	var material_keys = {}
@@ -632,7 +640,9 @@ func batch_details():
 			material_keys[material_id] = canonical_key
 		if not canonical_materials.has(canonical_key): canonical_materials[canonical_key] = mat
 		mat = canonical_materials[canonical_key]
-		var key = canonical_key
+		var center = item.transform * item.mesh.get_aabb().get_center()
+		var cell = Vector2i(floori(center.x/256.0),floori(center.z/256.0))
+		var key = canonical_key+":"+str(cell.x)+":"+str(cell.y)
 		if not groups.has(key): groups[key] = {"mat":mat,"tool":SurfaceTool.new(),"items":[]}
 		if groups[key].items.is_empty(): groups[key].tool.begin(Mesh.PRIMITIVE_TRIANGLES)
 		groups[key].tool.append_from(item.mesh,0,item.transform)

@@ -1,5 +1,9 @@
 # EV-002 — bounded browser loading proof
 
+<!-- current-project-status -->
+> **Current status:** The [project handoff](../CODEX-HANDOFF.md) governs current scope, publication and next work. This file retains its dated observations, evidence or specialist instructions. See [browser scaling](../docs/BROWSER-SCALING.md) for the current loading/rendering work; older model counts and paused states describe their original checkpoints.
+<!-- /current-project-status -->
+
 **October 12, 2026 — complete locally; uncommitted.** The user's “go ahead” after [EV-001](EAST-VILLAGE-EV001.md) authorized this existing-asset implementation and review. No new street/facade authoring, EV-003 integration, paid work or publication is included. [Current handoff](../CODEX-HANDOFF.md) · [baseline and allowlist](east-village-ev002/baseline.json) · [progress and unsuccessful trials](east-village-ev002/progress.json).
 
 The player now uses a shared PCK and 203 separately fetched compiled building scenes. The 12 existing west-context buildings can unload together with their collision bodies and reload before they are needed. The other 191 remain resident for this proof. This is the bounded package/lifecycle test from the plan, not a neighborhood-wide streaming conversion.

@@ -1,5 +1,9 @@
 # Seventh Street revision 03 — architectural fidelity candidate
 
+<!-- current-project-status -->
+> **Current status:** The [project handoff](../CODEX-HANDOFF.md) governs current scope, publication and next work. This file retains its dated observations, evidence or specialist instructions. See [browser scaling](../docs/BROWSER-SCALING.md) for the current loading/rendering work; older model counts and paused states describe their original checkpoints.
+<!-- /current-project-status -->
+
 **October 11 continuation:** this is a historical report. The user endorsed [First Avenue / St. Marks revision 09](SEVENTH-ENGINE-09.md) and requested publication to `main`. Read the [current handoff](../CODEX-HANDOFF.md) for verified release state. Earlier dates, counts, source limitations, route descriptions and pause instructions below remain history; no further street or pipeline is assigned.
 
 September 14, 2026. The user's Street View comparison showed that revision 02's resemblance did not meet the requested door/window/label/access precision. This pass changes the **entire existing 82-frontage Seventh inventory**, with the 50/48½ East 7th pair as the detailed comparison case. It remains a candidate reconstruction, not a certified 1:1 street or an accepted template for cheaper-model production.

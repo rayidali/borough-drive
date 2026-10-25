@@ -1,0 +1,104 @@
+{
+  "issue": "New-block export reserialized all 24 core scenes with different byte identities; original converted GLB and all 322 ordinary GLB/SCN pairs remained unchanged.",
+  "recovered": "All 24 exact reviewed SCNs recovered from local browser response cache using recorded size and SHA-256, restored to required dist assets.",
+  "baselineBuild": "2026-10-25T05:30:04.052Z",
+  "assets": {
+    "-10010": {
+      "sha256": "d9795c716ad0c2696e5c8728d551f0214e665ff8a64ddbab84325824aae6c93c",
+      "bytes": 108364
+    },
+    "247851882": {
+      "sha256": "585384b74e71573b31fb043c9503eb37f4b4ebdce4d9df99f7821b6aef7a20bc",
+      "bytes": 217073
+    },
+    "247851883": {
+      "sha256": "20763c744f95007d342637632d610d3dc997ce5622488f0672558e054091c6b9",
+      "bytes": 153587
+    },
+    "247851884": {
+      "sha256": "bcbfd53cc642c24c8060069d99ae2e004628252410d59f580df82c26eaedac39",
+      "bytes": 32942
+    },
+    "247851885": {
+      "sha256": "4fe88498c7507a1041f5cc02ea5a08abc8bf9e4dcf9a6bfa98891caefd402b43",
+      "bytes": 217585
+    },
+    "247851912": {
+      "sha256": "7870ab7779cd24e2bb29ffa159111c10fa79ba9b47ec27dbfdd092fd6d8472cd",
+      "bytes": 142437
+    },
+    "247851944": {
+      "sha256": "5c7c83be929e6a94c789c3f11133b7c3230cf12d7a3a3de1ac16041f82ecda91",
+      "bytes": 328623
+    },
+    "247852655": {
+      "sha256": "73895d70224a5308da8ffe5bfe71015c27fe23bfd5f30f7e63b8c75fb866d279",
+      "bytes": 120101
+    },
+    "247852692": {
+      "sha256": "7ba5084b780860082383a00ade856f01fd9b41f89b84bc33d7e4fad62c4cb7e7",
+      "bytes": 1441078
+    },
+    "247852695": {
+      "sha256": "aa95d29e8a103728d3e077cadb4e67e90c6c4190adad514ce4be74ca4b3635dc",
+      "bytes": 781809
+    },
+    "247852701": {
+      "sha256": "c32a5bad7821a9d3964ee3fc3bfe598fb5a06ae1bd2a005950ac778f2440338a",
+      "bytes": 150369
+    },
+    "248142860": {
+      "sha256": "bcdb7067de404da0543327a7d0175133434ef2b36837c93c648b61bd8b79a0b3",
+      "bytes": 155063
+    },
+    "248142861": {
+      "sha256": "1a1e6a70fd3ba24e4f9694f737f511995ed8153c49210fc0e4aae69b96ee5758",
+      "bytes": 170649
+    },
+    "248142862": {
+      "sha256": "0545c183237d8e2d6b13ff0f22ee09c6e46195d70f582d907f3a1257440c9385",
+      "bytes": 445410
+    },
+    "248142864": {
+      "sha256": "869b0acb3775a0f20abb9d88c0b8378380aee521026d21d67f12b51048ecca44",
+      "bytes": 93431
+    },
+    "248142866": {
+      "sha256": "81b03685705a8ddeb3ff1d58bf63aac73f4add151559ae4076a565195a2101e2",
+      "bytes": 61676
+    },
+    "248142868": {
+      "sha256": "8588233df38853da094dd4a28e661026e0578cd25faeeeb401956a152f4957ba",
+      "bytes": 225489
+    },
+    "248142883": {
+      "sha256": "9e81e29c8f0630f357b07d7dc3091a4a7cdb9bb451c2884c159ec3f78b92dd2f",
+      "bytes": 214030
+    },
+    "248142884": {
+      "sha256": "58f419d929dcf4584b27d4ed2a3e8cd5e4c4e4ce2d92233d1d657c5c13a57190",
+      "bytes": 72316
+    },
+    "248142885": {
+      "sha256": "a11b1a9c5c23fb09ea3921994902899b43e037a7ec1587e50f56ceea3f7c549b",
+      "bytes": 141428
+    },
+    "248142886": {
+      "sha256": "d04f0bfc0ec750ab68885bed6a25bf8cfe53fcbe64bd7f6634622baf9c0838b7",
+      "bytes": 84790
+    },
+    "248142889": {
+      "sha256": "0e7028669efcc7fa3224d43ecb27800af00e6efbd7d2241665e6c2209e12f061",
+      "bytes": 154352
+    },
+    "248142962": {
+      "sha256": "79c35320585f30b42419693f236fffbd9084ee92375c27eb49578d4b2d721b7c",
+      "bytes": 253014
+    },
+    "248142976": {
+      "sha256": "d4a9d83b5ed51b0799f634f47cfded59b2e613eecbf3ff0850c0202e7d2d8182",
+      "bytes": 195051
+    }
+  },
+  "fix": "Pin core runtime bytes in protected-core-scenes.json and copy those exact independent scenes into each export stage. New candidate visual captures precede this packaging-only correction."
+}

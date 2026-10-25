@@ -1,0 +1,3464 @@
+{
+  "schema": 1,
+  "scope": "36 assigned street planes /30 new owners, protected core immutable",
+  "updatedAt": "2026-10-25T08:09:46.401836+00:00",
+  "rows": [
+    {
+      "faceId": "248142887:0",
+      "address": "251",
+      "sourceIds": [
+        "65-north-overview",
+        "55-north-road",
+        "248142887-0-full",
+        "248142887-0-ground"
+      ],
+      "mappedFootprint": [
+        [
+          58.944,
+          -9.122
+        ],
+        [
+          51.291,
+          -9.12
+        ],
+        [
+          51.211,
+          -28.844
+        ],
+        [
+          52.387,
+          -28.848
+        ],
+        [
+          52.373,
+          -31.91
+        ],
+        [
+          57.848,
+          -31.923
+        ],
+        [
+          57.862,
+          -28.861
+        ],
+        [
+          58.859,
+          -28.855
+        ],
+        [
+          58.863,
+          -27.686
+        ],
+        [
+          58.915,
+          -16.136
+        ]
+      ],
+      "mappedHeight": 17.39,
+      "authoredHeight": 17.39,
+      "junctionAndShape": "No front escape; stepped gray cornice and buff facade beside protected core. East edge touches 253; no invented alley.",
+      "evidenceLimit": "Street-facing junctions and roofs only; rear roof geometry and dimensions are visual/mapped estimates, not surveyed. Source dates remain separate.",
+      "servedViews": [
+        "248142887-0-elevation",
+        "248142887-0-mass-left",
+        "248142887-0-mass-right"
+      ],
+      "reviewState": "reviewed-with-estimated-depth-limits",
+      "evidence": [
+        {
+          "candidate": "03",
+          "views": [
+            "248142887-0-elevation",
+            "248142887-0-ground",
+            "248142887-0-mass-left",
+            "248142887-0-mass-right",
+            "248142887-0-well-0"
+          ],
+          "sameFinalScene": false
+        },
+        {
+          "candidate": "04",
+          "views": [
+            "248142887-0-ground",
+            "248142887-0-access-left",
+            "248142887-0-access-right"
+          ],
+          "sameFinalScene": true
+        },
+        {
+          "candidate": "05",
+          "views": [
+            "248142887-0-elevation"
+          ],
+          "sameFinalScene": true
+        }
+      ]
+    },
+    {
+      "faceId": "248142888:0",
+      "address": "253",
+      "sourceIds": [
+        "65-north-overview",
+        "55-north-road",
+        "248142888-0-full",
+        "248142888-0-ground"
+      ],
+      "mappedFootprint": [
+        [
+          66.381,
+          -27.688
+        ],
+        [
+          65.475,
+          -26.522
+        ],
+        [
+          65.48,
+          -24.258
+        ],
+        [
+          64.872,
+          -23.423
+        ],
+        [
+          64.887,
+          -20.323
+        ],
+        [
+          65.503,
+          -19.545
+        ],
+        [
+          65.515,
+          -17.233
+        ],
+        [
+          66.427,
+          -16.148
+        ],
+        [
+          66.43,
+          -15.258
+        ],
+        [
+          66.457,
+          -9.134
+        ],
+        [
+          58.944,
+          -9.122
+        ],
+        [
+          58.915,
+          -16.136
+        ],
+        [
+          59.931,
+          -17.224
+        ],
+        [
+          59.92,
+          -19.536
+        ],
+        [
+          60.642,
+          -20.319
+        ],
+        [
+          60.627,
+          -23.419
+        ],
+        [
+          59.904,
+          -24.252
+        ],
+        [
+          59.886,
+          -26.522
+        ],
+        [
+          58.863,
+          -27.686
+        ],
+        [
+          58.859,
+          -28.855
+        ],
+        [
+          58.84,
+          -34.029
+        ],
+        [
+          66.352,
+          -34.041
+        ],
+        [
+          66.376,
+          -28.373
+        ]
+      ],
+      "mappedHeight": 18.02,
+      "authoredHeight": 18.02,
+      "junctionAndShape": "Shared edges with 251/255; gray bands and raised central crown, not a setback.",
+      "evidenceLimit": "Street-facing junctions and roofs only; rear roof geometry and dimensions are visual/mapped estimates, not surveyed. Source dates remain separate.",
+      "servedViews": [
+        "248142888-0-elevation",
+        "248142888-0-mass-left",
+        "248142888-0-mass-right"
+      ],
+      "reviewState": "reviewed-with-estimated-depth-limits",
+      "evidence": [
+        {
+          "candidate": "03",
+          "views": [
+            "248142888-0-elevation",
+            "248142888-0-entry-inside-tree",
+            "248142888-0-mass-left",
+            "248142888-0-mass-right",
+            "248142888-0-well-0",
+            "248142888-0-well-1"
+          ],
+          "sameFinalScene": false
+        },
+        {
+          "candidate": "04",
+          "views": [
+            "248142888-0-ground",
+            "248142888-0-entry-inside-tree"
+          ],
+          "sameFinalScene": true
+        },
+        {
+          "candidate": "05",
+          "views": [
+            "248142888-0-elevation"
+          ],
+          "sameFinalScene": true
+        }
+      ]
+    },
+    {
+      "faceId": "248142890:0",
+      "address": "255",
+      "sourceIds": [
+        "65-north-overview",
+        "248142888-0-full",
+        "248142890-0-full",
+        "248142890-0-ground"
+      ],
+      "mappedFootprint": [
+        [
+          74.193,
+          -9.143
+        ],
+        [
+          66.457,
+          -9.134
+        ],
+        [
+          66.43,
+          -15.258
+        ],
+        [
+          67.459,
+          -16.149
+        ],
+        [
+          67.442,
+          -20.814
+        ],
+        [
+          67.868,
+          -21.803
+        ],
+        [
+          67.856,
+          -24.687
+        ],
+        [
+          67.338,
+          -25.291
+        ],
+        [
+          67.332,
+          -27.695
+        ],
+        [
+          66.376,
+          -28.373
+        ],
+        [
+          66.352,
+          -34.041
+        ],
+        [
+          73.307,
+          -34.049
+        ],
+        [
+          73.352,
+          -24.508
+        ],
+        [
+          72.706,
+          -24.506
+        ],
+        [
+          72.712,
+          -21.579
+        ],
+        [
+          73.365,
+          -21.586
+        ],
+        [
+          73.387,
+          -16.147
+        ],
+        [
+          74.166,
+          -15.268
+        ]
+      ],
+      "mappedHeight": 20.77,
+      "authoredHeight": 20.77,
+      "junctionAndShape": "Higher flat/stepped blank parapet distinct from both adjoining roofs.",
+      "evidenceLimit": "Street-facing junctions and roofs only; rear roof geometry and dimensions are visual/mapped estimates, not surveyed. Source dates remain separate.",
+      "servedViews": [
+        "248142890-0-elevation",
+        "248142890-0-mass-left",
+        "248142890-0-mass-right"
+      ],
+      "reviewState": "reviewed-with-estimated-depth-limits",
+      "evidence": [
+        {
+          "candidate": "03",
+          "views": [
+            "248142890-0-elevation",
+            "248142890-0-ground",
+            "248142890-0-mass-left",
+            "248142890-0-mass-right"
+          ],
+          "sameFinalScene": false
+        },
+        {
+          "candidate": "04",
+          "views": [
+            "248142890-0-ground"
+          ],
+          "sameFinalScene": true
+        },
+        {
+          "candidate": "05",
+          "views": [
+            "248142890-0-elevation"
+          ],
+          "sameFinalScene": true
+        }
+      ]
+    },
+    {
+      "faceId": "248142891:0",
+      "address": "257",
+      "sourceIds": [
+        "65-north-overview",
+        "248142891-0-full",
+        "248142891-0-ground"
+      ],
+      "mappedFootprint": [
+        [
+          81.834,
+          -9.151
+        ],
+        [
+          74.193,
+          -9.143
+        ],
+        [
+          74.166,
+          -15.268
+        ],
+        [
+          74.079,
+          -36.758
+        ],
+        [
+          81.719,
+          -36.765
+        ],
+        [
+          81.732,
+          -32.976
+        ]
+      ],
+      "mappedHeight": 17.3,
+      "authoredHeight": 17.3,
+      "junctionAndShape": "Low plain buff/red patterned parapet; right first-floor balcony does not imply an alley.",
+      "evidenceLimit": "Street-facing junctions and roofs only; rear roof geometry and dimensions are visual/mapped estimates, not surveyed. Source dates remain separate.",
+      "servedViews": [
+        "248142891-0-elevation",
+        "248142891-0-mass-left",
+        "248142891-0-mass-right"
+      ],
+      "reviewState": "reviewed-with-estimated-depth-limits",
+      "evidence": [
+        {
+          "candidate": "03",
+          "views": [
+            "248142891-0-elevation",
+            "248142891-0-ground",
+            "248142891-0-mass-left",
+            "248142891-0-mass-right",
+            "248142891-0-churchofchrist-0-front",
+            "248142891-0-churchofchrist-0-left",
+            "248142891-0-churchofchrist-0-right"
+          ],
+          "sameFinalScene": false
+        },
+        {
+          "candidate": "04",
+          "views": [
+            "248142891-0-ground",
+            "248142891-0-churchofchrist-0-front",
+            "248142891-0-churchofchrist-0-left",
+            "248142891-0-churchofchrist-0-right",
+            "248142891-0-churchofchrist-1-front",
+            "248142891-0-churchofchrist-1-left",
+            "248142891-0-churchofchrist-1-right"
+          ],
+          "sameFinalScene": false
+        },
+        {
+          "candidate": "05",
+          "views": [
+            "248142891-0-ground",
+            "248142891-0-elevation",
+            "248142891-0-churchofchrist-0-front",
+            "248142891-0-churchofchrist-0-left",
+            "248142891-0-churchofchrist-0-right",
+            "248142891-0-churchofchrist-1-front",
+            "248142891-0-churchofchrist-1-left",
+            "248142891-0-churchofchrist-1-right"
+          ],
+          "sameFinalScene": true
+        }
+      ]
+    },
+    {
+      "faceId": "248142892:0",
+      "address": "259",
+      "sourceIds": [
+        "85-north-road",
+        "248142892-0-full",
+        "248142892-0-ground",
+        "259-alternate",
+        "85-north-2022",
+        "lephin-2022"
+      ],
+      "mappedFootprint": [
+        [
+          89.511,
+          -26.208
+        ],
+        [
+          88.465,
+          -25.346
+        ],
+        [
+          88.494,
+          -17.274
+        ],
+        [
+          89.553,
+          -16.36
+        ],
+        [
+          89.583,
+          -9.154
+        ],
+        [
+          81.834,
+          -9.151
+        ],
+        [
+          81.732,
+          -32.976
+        ],
+        [
+          89.488,
+          -32.984
+        ]
+      ],
+      "mappedHeight": 17.21,
+      "authoredHeight": 17.21,
+      "junctionAndShape": "Contiguous street wall; gray-painted eastern half belongs to this owner. Curb dining enclosure is separate from building mass.",
+      "evidenceLimit": "Street-facing junctions and roofs only; rear roof geometry and dimensions are visual/mapped estimates, not surveyed. Source dates remain separate.",
+      "servedViews": [
+        "248142892-0-elevation",
+        "248142892-0-mass-left",
+        "248142892-0-mass-right"
+      ],
+      "reviewState": "reviewed-with-estimated-depth-limits",
+      "evidence": [
+        {
+          "candidate": "03",
+          "views": [
+            "248142892-0-elevation",
+            "248142892-0-ground",
+            "248142892-0-mass-left",
+            "248142892-0-mass-right",
+            "248142892-0-lephin-0-front",
+            "248142892-0-lephin-0-left",
+            "248142892-0-lephin-0-right",
+            "248142892-0-halfmoon-0-front",
+            "248142892-0-halfmoon-0-left",
+            "248142892-0-halfmoon-0-right"
+          ],
+          "sameFinalScene": false
+        },
+        {
+          "candidate": "04",
+          "views": [
+            "248142892-0-ground",
+            "248142892-0-lephin-0-front",
+            "248142892-0-lephin-0-left",
+            "248142892-0-lephin-0-right",
+            "248142892-0-halfmoon-0-front",
+            "248142892-0-halfmoon-0-left",
+            "248142892-0-halfmoon-0-right"
+          ],
+          "sameFinalScene": true
+        },
+        {
+          "candidate": "05",
+          "views": [
+            "248142892-0-board",
+            "248142892-0-elevation"
+          ],
+          "sameFinalScene": true
+        }
+      ]
+    },
+    {
+      "faceId": "248142894:0",
+      "address": "261",
+      "sourceIds": [
+        "85-north-road",
+        "248142892-0-full",
+        "248142894-0-full",
+        "248142894-0-ground",
+        "261-alternate",
+        "85-north-2022"
+      ],
+      "mappedFootprint": [
+        [
+          97.223,
+          -9.161
+        ],
+        [
+          89.583,
+          -9.154
+        ],
+        [
+          89.553,
+          -16.36
+        ],
+        [
+          90.423,
+          -17.277
+        ],
+        [
+          90.388,
+          -25.358
+        ],
+        [
+          89.511,
+          -26.208
+        ],
+        [
+          89.488,
+          -32.984
+        ],
+        [
+          97.121,
+          -32.987
+        ],
+        [
+          97.136,
+          -29.888
+        ],
+        [
+          97.201,
+          -14.079
+        ]
+      ],
+      "mappedHeight": 16.85,
+      "authoredHeight": 16.85,
+      "junctionAndShape": "Contiguous street wall with raised brick pilasters/bands; shop pair and independent center access.",
+      "evidenceLimit": "Street-facing junctions and roofs only; rear roof geometry and dimensions are visual/mapped estimates, not surveyed. Source dates remain separate.",
+      "servedViews": [
+        "248142894-0-elevation",
+        "248142894-0-mass-left",
+        "248142894-0-mass-right"
+      ],
+      "reviewState": "reviewed-with-estimated-depth-limits",
+      "evidence": [
+        {
+          "candidate": "03",
+          "views": [
+            "248142894-0-elevation",
+            "248142894-0-ground",
+            "248142894-0-mass-left",
+            "248142894-0-mass-right"
+          ],
+          "sameFinalScene": false
+        },
+        {
+          "candidate": "04",
+          "views": [
+            "248142894-0-ground",
+            "248142894-0-kavasutra-0-front",
+            "248142894-0-kavasutra-0-left",
+            "248142894-0-kavasutra-0-right",
+            "248142894-0-livelive-0-front",
+            "248142894-0-livelive-0-left",
+            "248142894-0-livelive-0-right"
+          ],
+          "sameFinalScene": false
+        },
+        {
+          "candidate": "05",
+          "views": [
+            "248142894-0-elevation",
+            "248142894-0-kavasutra-0-front",
+            "248142894-0-kavasutra-0-left",
+            "248142894-0-kavasutra-0-right",
+            "248142894-0-livelive-0-front",
+            "248142894-0-livelive-0-left",
+            "248142894-0-livelive-0-right"
+          ],
+          "sameFinalScene": true
+        }
+      ]
+    },
+    {
+      "faceId": "248142895:0",
+      "address": "263",
+      "sourceIds": [
+        "85-north-road",
+        "248142895-0-full",
+        "248142895-0-ground",
+        "85-north-2022"
+      ],
+      "mappedFootprint": [
+        [
+          104.614,
+          -29.893
+        ],
+        [
+          103.825,
+          -28.639
+        ],
+        [
+          103.837,
+          -25.093
+        ],
+        [
+          102.601,
+          -25.093
+        ],
+        [
+          102.615,
+          -21.407
+        ],
+        [
+          103.853,
+          -21.42
+        ],
+        [
+          103.874,
+          -15.305
+        ],
+        [
+          104.686,
+          -14.088
+        ],
+        [
+          104.701,
+          -9.167
+        ],
+        [
+          97.223,
+          -9.161
+        ],
+        [
+          97.201,
+          -14.079
+        ],
+        [
+          97.924,
+          -15.296
+        ],
+        [
+          97.869,
+          -28.639
+        ],
+        [
+          97.136,
+          -29.888
+        ],
+        [
+          97.121,
+          -32.987
+        ],
+        [
+          97.115,
+          -34.716
+        ],
+        [
+          104.593,
+          -34.722
+        ]
+      ],
+      "mappedHeight": 17.0,
+      "authoredHeight": 17.0,
+      "junctionAndShape": "Contiguous brick wall; red quoin relief, not wide pale strips or gaps.",
+      "evidenceLimit": "Street-facing junctions and roofs only; rear roof geometry and dimensions are visual/mapped estimates, not surveyed. Source dates remain separate.",
+      "servedViews": [
+        "248142895-0-elevation",
+        "248142895-0-mass-left",
+        "248142895-0-mass-right"
+      ],
+      "reviewState": "reviewed-with-estimated-depth-limits",
+      "evidence": [
+        {
+          "candidate": "03",
+          "views": [
+            "248142895-0-elevation",
+            "248142895-0-ground",
+            "248142895-0-mass-left",
+            "248142895-0-mass-right",
+            "248142895-0-lucie-0-front",
+            "248142895-0-lucie-0-left",
+            "248142895-0-lucie-0-right",
+            "248142895-0-niconeco-0-front",
+            "248142895-0-niconeco-0-left",
+            "248142895-0-niconeco-0-right"
+          ],
+          "sameFinalScene": false
+        },
+        {
+          "candidate": "04",
+          "views": [
+            "248142895-0-ground",
+            "248142895-0-lucie-0-front",
+            "248142895-0-lucie-0-left",
+            "248142895-0-lucie-0-right",
+            "248142895-0-niconeco-0-front",
+            "248142895-0-niconeco-0-left",
+            "248142895-0-niconeco-0-right"
+          ],
+          "sameFinalScene": false
+        },
+        {
+          "candidate": "05",
+          "views": [
+            "248142895-0-elevation",
+            "248142895-0-lucie-0-front",
+            "248142895-0-lucie-0-left",
+            "248142895-0-lucie-0-right",
+            "248142895-0-niconeco-0-front",
+            "248142895-0-niconeco-0-left",
+            "248142895-0-niconeco-0-right"
+          ],
+          "sameFinalScene": true
+        }
+      ]
+    },
+    {
+      "faceId": "248142897:0",
+      "address": "265",
+      "sourceIds": [
+        "248142897-0-full",
+        "248142897-0-ground"
+      ],
+      "mappedFootprint": [
+        [
+          112.301,
+          -9.177
+        ],
+        [
+          104.701,
+          -9.167
+        ],
+        [
+          104.686,
+          -14.088
+        ],
+        [
+          104.614,
+          -29.893
+        ],
+        [
+          104.593,
+          -34.722
+        ],
+        [
+          104.591,
+          -34.899
+        ],
+        [
+          112.191,
+          -34.909
+        ],
+        [
+          112.22,
+          -28.99
+        ]
+      ],
+      "mappedHeight": 17.18,
+      "authoredHeight": 17.18,
+      "junctionAndShape": "No front escape; ornate dark heads, four-bay composition and distinct green/white units.",
+      "evidenceLimit": "Street-facing junctions and roofs only; rear roof geometry and dimensions are visual/mapped estimates, not surveyed. Source dates remain separate.",
+      "servedViews": [
+        "248142897-0-elevation",
+        "248142897-0-mass-left",
+        "248142897-0-mass-right"
+      ],
+      "reviewState": "reviewed-with-estimated-depth-limits",
+      "evidence": [
+        {
+          "candidate": "03",
+          "views": [
+            "248142897-0-elevation",
+            "248142897-0-ground",
+            "248142897-0-mass-left",
+            "248142897-0-mass-right",
+            "248142897-0-porthole-0-front",
+            "248142897-0-porthole-0-left",
+            "248142897-0-porthole-0-right",
+            "248142897-0-eastsidestory-0-front",
+            "248142897-0-eastsidestory-0-left",
+            "248142897-0-eastsidestory-0-right"
+          ],
+          "sameFinalScene": false
+        },
+        {
+          "candidate": "04",
+          "views": [
+            "248142897-0-ground",
+            "248142897-0-porthole-0-front",
+            "248142897-0-porthole-0-left",
+            "248142897-0-porthole-0-right",
+            "248142897-0-eastsidestory-0-front",
+            "248142897-0-eastsidestory-0-left",
+            "248142897-0-eastsidestory-0-right"
+          ],
+          "sameFinalScene": false
+        },
+        {
+          "candidate": "05",
+          "views": [
+            "248142897-0-ground",
+            "248142897-0-elevation",
+            "248142897-0-porthole-0-front",
+            "248142897-0-porthole-0-left",
+            "248142897-0-porthole-0-right",
+            "248142897-0-eastsidestory-0-front",
+            "248142897-0-eastsidestory-0-left",
+            "248142897-0-eastsidestory-0-right"
+          ],
+          "sameFinalScene": true
+        }
+      ]
+    },
+    {
+      "faceId": "248142899:0",
+      "address": "267",
+      "sourceIds": [
+        "120-north-road",
+        "248142897-0-full",
+        "248142899-0-full",
+        "248142899-0-ground"
+      ],
+      "mappedFootprint": [
+        [
+          119.955,
+          -9.179
+        ],
+        [
+          112.301,
+          -9.177
+        ],
+        [
+          112.22,
+          -28.99
+        ],
+        [
+          119.868,
+          -29.001
+        ]
+      ],
+      "mappedHeight": 17.11,
+      "authoredHeight": 17.11,
+      "junctionAndShape": "Pale wall between taller neighboring cornices; real differently pitched shop awnings.",
+      "evidenceLimit": "Street-facing junctions and roofs only; rear roof geometry and dimensions are visual/mapped estimates, not surveyed. Source dates remain separate.",
+      "servedViews": [
+        "248142899-0-elevation",
+        "248142899-0-mass-left",
+        "248142899-0-mass-right"
+      ],
+      "reviewState": "reviewed-with-estimated-depth-limits",
+      "evidence": [
+        {
+          "candidate": "03",
+          "views": [
+            "248142899-0-elevation",
+            "248142899-0-ground",
+            "248142899-0-mass-left",
+            "248142899-0-mass-right"
+          ],
+          "sameFinalScene": false
+        },
+        {
+          "candidate": "04",
+          "views": [
+            "248142899-0-ground",
+            "248142899-0-whistle-0-front",
+            "248142899-0-whistle-0-left",
+            "248142899-0-whistle-0-right",
+            "248142899-0-bleach-0-front",
+            "248142899-0-bleach-0-left",
+            "248142899-0-bleach-0-right"
+          ],
+          "sameFinalScene": true
+        },
+        {
+          "candidate": "05",
+          "views": [
+            "248142899-0-elevation"
+          ],
+          "sameFinalScene": true
+        }
+      ]
+    },
+    {
+      "faceId": "248142901:0",
+      "address": "269",
+      "sourceIds": [
+        "120-north-road",
+        "248142899-0-full",
+        "248142901-0-full",
+        "248142901-0-ground"
+      ],
+      "mappedFootprint": [
+        [
+          127.507,
+          -9.188
+        ],
+        [
+          119.955,
+          -9.179
+        ],
+        [
+          119.868,
+          -29.001
+        ],
+        [
+          127.426,
+          -29.001
+        ]
+      ],
+      "mappedHeight": 16.22,
+      "authoredHeight": 16.22,
+      "junctionAndShape": "Pale carved facade, projecting heads/sills and curved dark central cornice. Source lower foliage occlusion retained as evidence limit.",
+      "evidenceLimit": "Street-facing junctions and roofs only; rear roof geometry and dimensions are visual/mapped estimates, not surveyed. Source dates remain separate.",
+      "servedViews": [
+        "248142901-0-elevation",
+        "248142901-0-mass-left",
+        "248142901-0-mass-right"
+      ],
+      "reviewState": "reviewed-with-estimated-depth-limits",
+      "evidence": [
+        {
+          "candidate": "03",
+          "views": [
+            "248142901-0-elevation",
+            "248142901-0-ground",
+            "248142901-0-mass-left",
+            "248142901-0-mass-right"
+          ],
+          "sameFinalScene": false
+        },
+        {
+          "candidate": "04",
+          "views": [
+            "248142901-0-ground"
+          ],
+          "sameFinalScene": false
+        },
+        {
+          "candidate": "05",
+          "views": [
+            "248142901-0-ground",
+            "248142901-0-elevation"
+          ],
+          "sameFinalScene": true
+        }
+      ]
+    },
+    {
+      "faceId": "248142903:0",
+      "address": "271",
+      "sourceIds": [
+        "120-north-road",
+        "248142903-0-full",
+        "248142903-0-ground"
+      ],
+      "mappedFootprint": [
+        [
+          135.196,
+          -9.196
+        ],
+        [
+          127.507,
+          -9.188
+        ],
+        [
+          127.426,
+          -29.001
+        ],
+        [
+          127.411,
+          -31.285
+        ],
+        [
+          135.1,
+          -31.293
+        ]
+      ],
+      "mappedHeight": 16.52,
+      "authoredHeight": 16.52,
+      "junctionAndShape": "Pink ashlar street wall; rusty escape and brown curved carved roof edge.",
+      "evidenceLimit": "Street-facing junctions and roofs only; rear roof geometry and dimensions are visual/mapped estimates, not surveyed. Source dates remain separate.",
+      "servedViews": [
+        "248142903-0-elevation",
+        "248142903-0-mass-left",
+        "248142903-0-mass-right"
+      ],
+      "reviewState": "reviewed-with-estimated-depth-limits",
+      "evidence": [
+        {
+          "candidate": "03",
+          "views": [
+            "248142903-0-elevation",
+            "248142903-0-ground",
+            "248142903-0-mass-left",
+            "248142903-0-mass-right"
+          ],
+          "sameFinalScene": false
+        },
+        {
+          "candidate": "04",
+          "views": [
+            "248142903-0-ground",
+            "248142903-0-alterations-0-front",
+            "248142903-0-alterations-0-left",
+            "248142903-0-alterations-0-right",
+            "248142903-0-271closed-0-front",
+            "248142903-0-271closed-0-left",
+            "248142903-0-271closed-0-right"
+          ],
+          "sameFinalScene": false
+        },
+        {
+          "candidate": "05",
+          "views": [
+            "248142903-0-ground",
+            "248142903-0-elevation",
+            "248142903-0-alterations-0-front",
+            "248142903-0-alterations-0-left",
+            "248142903-0-alterations-0-right",
+            "248142903-0-271closed-0-front",
+            "248142903-0-271closed-0-left",
+            "248142903-0-271closed-0-right"
+          ],
+          "sameFinalScene": true
+        }
+      ]
+    },
+    {
+      "faceId": "248142905:0",
+      "address": "273",
+      "sourceIds": [
+        "248142903-0-full",
+        "248142905-0-full",
+        "248142905-0-ground"
+      ],
+      "mappedFootprint": [
+        [
+          142.802,
+          -9.197
+        ],
+        [
+          135.196,
+          -9.196
+        ],
+        [
+          135.1,
+          -31.293
+        ],
+        [
+          142.707,
+          -31.307
+        ],
+        [
+          142.717,
+          -29.033
+        ]
+      ],
+      "mappedHeight": 16.81,
+      "authoredHeight": 16.81,
+      "junctionAndShape": "Plain gray wall; separate shingled east-shop hood is not an upper-floor mass.",
+      "evidenceLimit": "Street-facing junctions and roofs only; rear roof geometry and dimensions are visual/mapped estimates, not surveyed. Source dates remain separate.",
+      "servedViews": [
+        "248142905-0-elevation",
+        "248142905-0-mass-left",
+        "248142905-0-mass-right"
+      ],
+      "reviewState": "reviewed-with-estimated-depth-limits",
+      "evidence": [
+        {
+          "candidate": "03",
+          "views": [
+            "248142905-0-elevation",
+            "248142905-0-ground",
+            "248142905-0-mass-left",
+            "248142905-0-mass-right"
+          ],
+          "sameFinalScene": false
+        },
+        {
+          "candidate": "04",
+          "views": [
+            "248142905-0-ground",
+            "248142905-0-clash-0-front",
+            "248142905-0-clash-0-left",
+            "248142905-0-clash-0-right",
+            "248142905-0-273east-0-front",
+            "248142905-0-273east-0-left",
+            "248142905-0-273east-0-right"
+          ],
+          "sameFinalScene": false
+        },
+        {
+          "candidate": "05",
+          "views": [
+            "248142905-0-elevation",
+            "248142905-0-clash-0-front",
+            "248142905-0-clash-0-left",
+            "248142905-0-clash-0-right",
+            "248142905-0-273east-0-front",
+            "248142905-0-273east-0-left",
+            "248142905-0-273east-0-right"
+          ],
+          "sameFinalScene": true
+        }
+      ]
+    },
+    {
+      "faceId": "248142907:0",
+      "address": "275",
+      "sourceIds": [
+        "155-north-overview",
+        "248142905-0-full",
+        "248142907-0-full",
+        "248142907-0-ground"
+      ],
+      "mappedFootprint": [
+        [
+          150.274,
+          -9.212
+        ],
+        [
+          142.802,
+          -9.197
+        ],
+        [
+          142.717,
+          -29.033
+        ],
+        [
+          150.182,
+          -29.044
+        ]
+      ],
+      "mappedHeight": 16.83,
+      "authoredHeight": 16.83,
+      "junctionAndShape": "Red wall with curved black cornice and pale tympanum; silver escape.",
+      "evidenceLimit": "Street-facing junctions and roofs only; rear roof geometry and dimensions are visual/mapped estimates, not surveyed. Source dates remain separate.",
+      "servedViews": [
+        "248142907-0-elevation",
+        "248142907-0-mass-left",
+        "248142907-0-mass-right"
+      ],
+      "reviewState": "reviewed-with-estimated-depth-limits",
+      "evidence": [
+        {
+          "candidate": "03",
+          "views": [
+            "248142907-0-elevation",
+            "248142907-0-ground",
+            "248142907-0-mass-left",
+            "248142907-0-mass-right"
+          ],
+          "sameFinalScene": false
+        },
+        {
+          "candidate": "04",
+          "views": [
+            "248142907-0-ground"
+          ],
+          "sameFinalScene": false
+        },
+        {
+          "candidate": "05",
+          "views": [
+            "248142907-0-elevation"
+          ],
+          "sameFinalScene": true
+        }
+      ]
+    },
+    {
+      "faceId": "248142909:0",
+      "address": "277",
+      "sourceIds": [
+        "155-north-overview",
+        "248142907-0-full",
+        "248142909-0-full",
+        "248142909-0-ground"
+      ],
+      "mappedFootprint": [
+        [
+          158.178,
+          -9.213
+        ],
+        [
+          150.274,
+          -9.212
+        ],
+        [
+          150.182,
+          -29.044
+        ],
+        [
+          158.087,
+          -29.045
+        ],
+        [
+          158.093,
+          -28.323
+        ]
+      ],
+      "mappedHeight": 16.53,
+      "authoredHeight": 16.53,
+      "junctionAndShape": "Pale wall with separate carved lintel/sill brackets; roof does not inherit 275 curved crown.",
+      "evidenceLimit": "Street-facing junctions and roofs only; rear roof geometry and dimensions are visual/mapped estimates, not surveyed. Source dates remain separate.",
+      "servedViews": [
+        "248142909-0-elevation",
+        "248142909-0-mass-left",
+        "248142909-0-mass-right"
+      ],
+      "reviewState": "reviewed-with-estimated-depth-limits",
+      "evidence": [
+        {
+          "candidate": "03",
+          "views": [
+            "248142909-0-elevation",
+            "248142909-0-ground",
+            "248142909-0-mass-left",
+            "248142909-0-mass-right"
+          ],
+          "sameFinalScene": false
+        },
+        {
+          "candidate": "04",
+          "views": [
+            "248142909-0-ground",
+            "248142909-0-foxtail-0-front",
+            "248142909-0-foxtail-0-left",
+            "248142909-0-foxtail-0-right",
+            "248142909-0-277lease-0-front",
+            "248142909-0-277lease-0-left",
+            "248142909-0-277lease-0-right"
+          ],
+          "sameFinalScene": false
+        },
+        {
+          "candidate": "05",
+          "views": [
+            "248142909-0-ground",
+            "248142909-0-elevation",
+            "248142909-0-foxtail-0-front",
+            "248142909-0-foxtail-0-left",
+            "248142909-0-foxtail-0-right",
+            "248142909-0-277lease-0-front",
+            "248142909-0-277lease-0-left",
+            "248142909-0-277lease-0-right"
+          ],
+          "sameFinalScene": true
+        }
+      ]
+    },
+    {
+      "faceId": "248142911:0",
+      "address": "279",
+      "sourceIds": [
+        "155-north-overview",
+        "248142907-0-full",
+        "248142911-0-full",
+        "248142911-0-ground"
+      ],
+      "mappedFootprint": [
+        [
+          165.724,
+          -9.218
+        ],
+        [
+          158.178,
+          -9.213
+        ],
+        [
+          158.093,
+          -28.323
+        ],
+        [
+          165.645,
+          -28.332
+        ],
+        [
+          165.685,
+          -18.228
+        ]
+      ],
+      "mappedHeight": 17.0,
+      "authoredHeight": 17.0,
+      "junctionAndShape": "Contiguous with club at east; four upper rows and separate side balconies.",
+      "evidenceLimit": "Street-facing junctions and roofs only; rear roof geometry and dimensions are visual/mapped estimates, not surveyed. Source dates remain separate.",
+      "servedViews": [
+        "248142911-0-elevation",
+        "248142911-0-mass-left",
+        "248142911-0-mass-right"
+      ],
+      "reviewState": "reviewed-with-estimated-depth-limits",
+      "evidence": [
+        {
+          "candidate": "03",
+          "views": [
+            "248142911-0-elevation",
+            "248142911-0-ground",
+            "248142911-0-mass-left",
+            "248142911-0-mass-right"
+          ],
+          "sameFinalScene": false
+        },
+        {
+          "candidate": "04",
+          "views": [
+            "248142911-0-ground",
+            "248142911-0-crops-0-front",
+            "248142911-0-crops-0-left",
+            "248142911-0-crops-0-right",
+            "248142911-0-dogwash-0-front",
+            "248142911-0-dogwash-0-left",
+            "248142911-0-dogwash-0-right"
+          ],
+          "sameFinalScene": false
+        },
+        {
+          "candidate": "05",
+          "views": [
+            "248142911-0-ground",
+            "248142911-0-elevation",
+            "248142911-0-crops-0-front",
+            "248142911-0-crops-0-left",
+            "248142911-0-crops-0-right",
+            "248142911-0-dogwash-0-front",
+            "248142911-0-dogwash-0-left",
+            "248142911-0-dogwash-0-right"
+          ],
+          "sameFinalScene": true
+        }
+      ]
+    },
+    {
+      "faceId": "-577810:0",
+      "address": "256",
+      "sourceIds": [
+        "65-south-overview",
+        "55-south-road",
+        "-577810-0-full",
+        "-577810-0-ground"
+      ],
+      "mappedFootprint": [
+        [
+          67.442,
+          9.19
+        ],
+        [
+          67.478,
+          13.971
+        ],
+        [
+          67.538,
+          22.203
+        ],
+        [
+          65.333,
+          22.212
+        ],
+        [
+          65.343,
+          23.491
+        ],
+        [
+          67.548,
+          23.482
+        ],
+        [
+          67.618,
+          32.966
+        ],
+        [
+          64.905,
+          32.977
+        ],
+        [
+          54.376,
+          33.021
+        ],
+        [
+          54.361,
+          31.052
+        ],
+        [
+          54.361,
+          31.024
+        ],
+        [
+          54.33,
+          26.902
+        ],
+        [
+          55.258,
+          26.104
+        ],
+        [
+          55.239,
+          23.499
+        ],
+        [
+          56.608,
+          23.494
+        ],
+        [
+          56.593,
+          21.465
+        ],
+        [
+          55.534,
+          21.469
+        ],
+        [
+          55.495,
+          16.119
+        ],
+        [
+          54.244,
+          15.174
+        ],
+        [
+          54.212,
+          10.771
+        ],
+        [
+          54.2,
+          9.244
+        ]
+      ],
+      "mappedHeight": 21.02,
+      "authoredHeight": 21.02,
+      "junctionAndShape": "Wide six-bay owner; separate protected modern neighbor at west. Broad front stairs and two wells remain open.",
+      "evidenceLimit": "Street-facing junctions and roofs only; rear roof geometry and dimensions are visual/mapped estimates, not surveyed. Source dates remain separate.",
+      "servedViews": [
+        "-577810-0-elevation",
+        "-577810-0-mass-left",
+        "-577810-0-mass-right"
+      ],
+      "reviewState": "reviewed-with-estimated-depth-limits",
+      "evidence": [
+        {
+          "candidate": "03",
+          "views": [
+            "-577810-0-elevation",
+            "-577810-0-ground",
+            "-577810-0-mass-left",
+            "-577810-0-mass-right"
+          ],
+          "sameFinalScene": false
+        },
+        {
+          "candidate": "04",
+          "views": [
+            "-577810-0-ground"
+          ],
+          "sameFinalScene": true
+        },
+        {
+          "candidate": "05",
+          "views": [
+            "-577810-0-elevation"
+          ],
+          "sameFinalScene": true
+        }
+      ]
+    },
+    {
+      "faceId": "248142893:0",
+      "address": "260",
+      "sourceIds": [
+        "65-south-overview",
+        "248142893-0-full",
+        "248142896-0-full",
+        "248142893-0-ground"
+      ],
+      "mappedFootprint": [
+        [
+          76.297,
+          16.651
+        ],
+        [
+          75.026,
+          16.657
+        ],
+        [
+          75.046,
+          19.245
+        ],
+        [
+          76.317,
+          19.239
+        ],
+        [
+          76.346,
+          22.763
+        ],
+        [
+          74.478,
+          22.771
+        ],
+        [
+          74.508,
+          27.059
+        ],
+        [
+          76.376,
+          27.052
+        ],
+        [
+          76.425,
+          33.546
+        ],
+        [
+          68.354,
+          33.577
+        ],
+        [
+          68.304,
+          27.083
+        ],
+        [
+          69.228,
+          27.078
+        ],
+        [
+          69.191,
+          22.793
+        ],
+        [
+          67.547,
+          22.804
+        ],
+        [
+          67.543,
+          22.207
+        ],
+        [
+          67.441,
+          9.195
+        ],
+        [
+          76.241,
+          9.155
+        ],
+        [
+          76.258,
+          10.852
+        ]
+      ],
+      "mappedHeight": 18.71,
+      "authoredHeight": 18.71,
+      "junctionAndShape": "Independent ornate pale facade and red ground zone; central high arch/stair and flanking windows.",
+      "evidenceLimit": "Street-facing junctions and roofs only; rear roof geometry and dimensions are visual/mapped estimates, not surveyed. Source dates remain separate.",
+      "servedViews": [
+        "248142893-0-elevation",
+        "248142893-0-mass-left",
+        "248142893-0-mass-right"
+      ],
+      "reviewState": "reviewed-with-estimated-depth-limits",
+      "evidence": [
+        {
+          "candidate": "03",
+          "views": [
+            "248142893-0-elevation",
+            "248142893-0-ground",
+            "248142893-0-mass-left",
+            "248142893-0-mass-right"
+          ],
+          "sameFinalScene": false
+        },
+        {
+          "candidate": "04",
+          "views": [
+            "248142893-0-ground"
+          ],
+          "sameFinalScene": false
+        },
+        {
+          "candidate": "05",
+          "views": [
+            "248142893-0-ground",
+            "248142893-0-elevation"
+          ],
+          "sameFinalScene": true
+        }
+      ]
+    },
+    {
+      "faceId": "248142896:0",
+      "address": "264",
+      "sourceIds": [
+        "85-south-road",
+        "248142893-0-full",
+        "248142896-0-full",
+        "248142896-0-ground"
+      ],
+      "mappedFootprint": [
+        [
+          84.098,
+          24.796
+        ],
+        [
+          76.358,
+          24.833
+        ],
+        [
+          76.346,
+          22.763
+        ],
+        [
+          76.317,
+          19.239
+        ],
+        [
+          76.297,
+          16.651
+        ],
+        [
+          76.258,
+          10.852
+        ],
+        [
+          83.998,
+          10.815
+        ]
+      ],
+      "mappedHeight": 16.48,
+      "authoredHeight": 16.48,
+      "junctionAndShape": "Mapped address264, photographed door262 uncertain. Actual projecting ground bay/hip roof and short wall; adjoining facades touch.",
+      "evidenceLimit": "Street-facing junctions and roofs only; rear roof geometry and dimensions are visual/mapped estimates, not surveyed. Source dates remain separate.",
+      "servedViews": [
+        "248142896-0-elevation",
+        "248142896-0-mass-left",
+        "248142896-0-mass-right"
+      ],
+      "reviewState": "reviewed-with-estimated-depth-limits",
+      "evidence": [
+        {
+          "candidate": "03",
+          "views": [
+            "248142896-0-elevation",
+            "248142896-0-ground",
+            "248142896-0-mass-left",
+            "248142896-0-mass-right"
+          ],
+          "sameFinalScene": false
+        },
+        {
+          "candidate": "04",
+          "views": [
+            "248142896-0-ground"
+          ],
+          "sameFinalScene": true
+        },
+        {
+          "candidate": "05",
+          "views": [
+            "248142896-0-elevation"
+          ],
+          "sameFinalScene": true
+        }
+      ]
+    },
+    {
+      "faceId": "248142898:0",
+      "address": "266",
+      "sourceIds": [
+        "85-south-road",
+        "248142898-0-full",
+        "248142898-0-ground"
+      ],
+      "mappedFootprint": [
+        [
+          91.539,
+          33.09
+        ],
+        [
+          84.16,
+          33.117
+        ],
+        [
+          84.098,
+          24.796
+        ],
+        [
+          83.998,
+          10.815
+        ],
+        [
+          91.369,
+          10.792
+        ]
+      ],
+      "mappedHeight": 18.59,
+      "authoredHeight": 18.59,
+      "junctionAndShape": "Three upper balcony rows above five-window first floor; projecting concrete slabs, not flush escape rails.",
+      "evidenceLimit": "Street-facing junctions and roofs only; rear roof geometry and dimensions are visual/mapped estimates, not surveyed. Source dates remain separate.",
+      "servedViews": [
+        "248142898-0-elevation",
+        "248142898-0-mass-left",
+        "248142898-0-mass-right"
+      ],
+      "reviewState": "reviewed-with-estimated-depth-limits",
+      "evidence": [
+        {
+          "candidate": "03",
+          "views": [
+            "248142898-0-elevation",
+            "248142898-0-ground",
+            "248142898-0-mass-left",
+            "248142898-0-mass-right"
+          ],
+          "sameFinalScene": false
+        },
+        {
+          "candidate": "04",
+          "views": [
+            "248142898-0-ground",
+            "248142898-0-body-0-front",
+            "248142898-0-body-0-left",
+            "248142898-0-body-0-right"
+          ],
+          "sameFinalScene": false
+        },
+        {
+          "candidate": "05",
+          "views": [
+            "248142898-0-elevation",
+            "248142898-0-body-0-front",
+            "248142898-0-body-0-left",
+            "248142898-0-body-0-right"
+          ],
+          "sameFinalScene": true
+        }
+      ]
+    },
+    {
+      "faceId": "248142900:0",
+      "address": "268",
+      "sourceIds": [
+        "85-south-road",
+        "248142898-0-full",
+        "248142900-0-full",
+        "248142902-0-full",
+        "248142900-0-ground"
+      ],
+      "mappedFootprint": [
+        [
+          99.319,
+          35.782
+        ],
+        [
+          91.552,
+          35.822
+        ],
+        [
+          91.539,
+          33.09
+        ],
+        [
+          91.369,
+          10.792
+        ],
+        [
+          99.129,
+          10.757
+        ],
+        [
+          99.254,
+          27.297
+        ],
+        [
+          99.286,
+          31.33
+        ]
+      ],
+      "mappedHeight": 16.97,
+      "authoredHeight": 16.97,
+      "junctionAndShape": "Three upper rows above tall ashlar entry base; separate deep stair and fenced basement opening.",
+      "evidenceLimit": "Street-facing junctions and roofs only; rear roof geometry and dimensions are visual/mapped estimates, not surveyed. Source dates remain separate.",
+      "servedViews": [
+        "248142900-0-elevation",
+        "248142900-0-mass-left",
+        "248142900-0-mass-right"
+      ],
+      "reviewState": "reviewed-with-estimated-depth-limits",
+      "evidence": [
+        {
+          "candidate": "03",
+          "views": [
+            "248142900-0-elevation",
+            "248142900-0-ground",
+            "248142900-0-mass-left",
+            "248142900-0-mass-right"
+          ],
+          "sameFinalScene": false
+        },
+        {
+          "candidate": "04",
+          "views": [
+            "248142900-0-ground",
+            "248142900-0-baths-0-front",
+            "248142900-0-baths-0-left",
+            "248142900-0-baths-0-right",
+            "248142900-0-baths-1-front",
+            "248142900-0-baths-1-left",
+            "248142900-0-baths-1-right"
+          ],
+          "sameFinalScene": false
+        },
+        {
+          "candidate": "05",
+          "views": [
+            "248142900-0-ground",
+            "248142900-0-elevation",
+            "248142900-0-baths-0-front",
+            "248142900-0-baths-0-left",
+            "248142900-0-baths-0-right",
+            "248142900-0-baths-1-front",
+            "248142900-0-baths-1-left",
+            "248142900-0-baths-1-right"
+          ],
+          "sameFinalScene": true
+        }
+      ]
+    },
+    {
+      "faceId": "248142902:0",
+      "address": "270",
+      "sourceIds": [
+        "248142900-0-full",
+        "248142902-0-full",
+        "248142902-0-ground"
+      ],
+      "mappedFootprint": [
+        [
+          106.517,
+          27.271
+        ],
+        [
+          99.254,
+          27.297
+        ],
+        [
+          99.129,
+          10.757
+        ],
+        [
+          106.4,
+          10.726
+        ]
+      ],
+      "mappedHeight": 16.47,
+      "authoredHeight": 16.47,
+      "junctionAndShape": "Four upper rows and three ground arches; paired real wells remain open.",
+      "evidenceLimit": "Street-facing junctions and roofs only; rear roof geometry and dimensions are visual/mapped estimates, not surveyed. Source dates remain separate.",
+      "servedViews": [
+        "248142902-0-elevation",
+        "248142902-0-mass-left",
+        "248142902-0-mass-right"
+      ],
+      "reviewState": "reviewed-with-estimated-depth-limits",
+      "evidence": [
+        {
+          "candidate": "03",
+          "views": [
+            "248142902-0-elevation",
+            "248142902-0-ground",
+            "248142902-0-mass-left",
+            "248142902-0-mass-right"
+          ],
+          "sameFinalScene": false
+        },
+        {
+          "candidate": "04",
+          "views": [
+            "248142902-0-ground"
+          ],
+          "sameFinalScene": false
+        },
+        {
+          "candidate": "05",
+          "views": [
+            "248142902-0-elevation"
+          ],
+          "sameFinalScene": true
+        }
+      ]
+    },
+    {
+      "faceId": "248142904:0",
+      "address": "272",
+      "sourceIds": [
+        "248142904-0-full",
+        "248142904-0-ground"
+      ],
+      "mappedFootprint": [
+        [
+          114.413,
+          27.236
+        ],
+        [
+          106.517,
+          27.271
+        ],
+        [
+          106.4,
+          10.726
+        ],
+        [
+          114.288,
+          10.696
+        ],
+        [
+          114.389,
+          24.677
+        ]
+      ],
+      "mappedHeight": 18.29,
+      "authoredHeight": 18.29,
+      "junctionAndShape": "Plain three-bay red wall with star plates, triangular right portal and fenced planted forecourt.",
+      "evidenceLimit": "Street-facing junctions and roofs only; rear roof geometry and dimensions are visual/mapped estimates, not surveyed. Source dates remain separate.",
+      "servedViews": [
+        "248142904-0-elevation",
+        "248142904-0-mass-left",
+        "248142904-0-mass-right"
+      ],
+      "reviewState": "reviewed-with-estimated-depth-limits",
+      "evidence": [
+        {
+          "candidate": "03",
+          "views": [
+            "248142904-0-elevation",
+            "248142904-0-ground",
+            "248142904-0-mass-left",
+            "248142904-0-mass-right"
+          ],
+          "sameFinalScene": false
+        },
+        {
+          "candidate": "04",
+          "views": [
+            "248142904-0-ground"
+          ],
+          "sameFinalScene": false
+        },
+        {
+          "candidate": "05",
+          "views": [
+            "248142904-0-ground",
+            "248142904-0-elevation"
+          ],
+          "sameFinalScene": true
+        }
+      ]
+    },
+    {
+      "faceId": "248142906:0",
+      "address": "274",
+      "sourceIds": [
+        "120-south-road",
+        "248142904-0-full",
+        "248142906-0-full",
+        "248142906-0-ground"
+      ],
+      "mappedFootprint": [
+        [
+          121.98,
+          24.633
+        ],
+        [
+          114.389,
+          24.677
+        ],
+        [
+          114.288,
+          10.696
+        ],
+        [
+          114.282,
+          10.355
+        ],
+        [
+          121.872,
+          10.326
+        ]
+      ],
+      "mappedHeight": 17.3,
+      "authoredHeight": 17.3,
+      "junctionAndShape": "Four upper rows plus taller raised parlor row; separate red basement and circle fence.",
+      "evidenceLimit": "Street-facing junctions and roofs only; rear roof geometry and dimensions are visual/mapped estimates, not surveyed. Source dates remain separate.",
+      "servedViews": [
+        "248142906-0-elevation",
+        "248142906-0-mass-left",
+        "248142906-0-mass-right"
+      ],
+      "reviewState": "reviewed-with-estimated-depth-limits",
+      "evidence": [
+        {
+          "candidate": "03",
+          "views": [
+            "248142906-0-elevation",
+            "248142906-0-ground",
+            "248142906-0-mass-left",
+            "248142906-0-mass-right"
+          ],
+          "sameFinalScene": false
+        },
+        {
+          "candidate": "04",
+          "views": [
+            "248142906-0-ground"
+          ],
+          "sameFinalScene": true
+        },
+        {
+          "candidate": "05",
+          "views": [
+            "248142906-0-elevation"
+          ],
+          "sameFinalScene": true
+        }
+      ]
+    },
+    {
+      "faceId": "248142908:0",
+      "address": "276",
+      "sourceIds": [
+        "120-south-road",
+        "248142906-0-full",
+        "248142908-0-full",
+        "248142908-0-ground"
+      ],
+      "mappedFootprint": [
+        [
+          129.52,
+          25.382
+        ],
+        [
+          121.986,
+          25.407
+        ],
+        [
+          121.98,
+          24.633
+        ],
+        [
+          121.872,
+          10.326
+        ],
+        [
+          129.406,
+          10.301
+        ]
+      ],
+      "mappedHeight": 17.81,
+      "authoredHeight": 17.81,
+      "junctionAndShape": "Four upper rows, raised right entry and lower cellar access; vertical right drop rather than zigzag escape.",
+      "evidenceLimit": "Street-facing junctions and roofs only; rear roof geometry and dimensions are visual/mapped estimates, not surveyed. Source dates remain separate.",
+      "servedViews": [
+        "248142908-0-elevation",
+        "248142908-0-mass-left",
+        "248142908-0-mass-right"
+      ],
+      "reviewState": "reviewed-with-estimated-depth-limits",
+      "evidence": [
+        {
+          "candidate": "03",
+          "views": [
+            "248142908-0-elevation",
+            "248142908-0-ground",
+            "248142908-0-mass-left",
+            "248142908-0-mass-right"
+          ],
+          "sameFinalScene": false
+        },
+        {
+          "candidate": "04",
+          "views": [
+            "248142908-0-ground"
+          ],
+          "sameFinalScene": false
+        },
+        {
+          "candidate": "05",
+          "views": [
+            "248142908-0-ground",
+            "248142908-0-elevation"
+          ],
+          "sameFinalScene": true
+        }
+      ]
+    },
+    {
+      "faceId": "248142910:0",
+      "address": "278",
+      "sourceIds": [
+        "120-south-road",
+        "248142910-0-full",
+        "248142910-0-ground"
+      ],
+      "mappedFootprint": [
+        [
+          137.264,
+          33.164
+        ],
+        [
+          129.58,
+          33.196
+        ],
+        [
+          129.52,
+          25.382
+        ],
+        [
+          129.406,
+          10.301
+        ],
+        [
+          129.396,
+          9.415
+        ],
+        [
+          137.094,
+          9.389
+        ],
+        [
+          137.152,
+          17.165
+        ],
+        [
+          137.213,
+          25.347
+        ]
+      ],
+      "mappedHeight": 16.95,
+      "authoredHeight": 16.95,
+      "junctionAndShape": "Five upper rows and plain flat parapet; lower entry/fence abuts276 and280.",
+      "evidenceLimit": "Street-facing junctions and roofs only; rear roof geometry and dimensions are visual/mapped estimates, not surveyed. Source dates remain separate.",
+      "servedViews": [
+        "248142910-0-elevation",
+        "248142910-0-mass-left",
+        "248142910-0-mass-right"
+      ],
+      "reviewState": "reviewed-with-estimated-depth-limits",
+      "evidence": [
+        {
+          "candidate": "03",
+          "views": [
+            "248142910-0-elevation",
+            "248142910-0-ground",
+            "248142910-0-mass-left",
+            "248142910-0-mass-right"
+          ],
+          "sameFinalScene": false
+        },
+        {
+          "candidate": "04",
+          "views": [
+            "248142910-0-ground"
+          ],
+          "sameFinalScene": false
+        },
+        {
+          "candidate": "05",
+          "views": [
+            "248142910-0-elevation"
+          ],
+          "sameFinalScene": true
+        }
+      ]
+    },
+    {
+      "faceId": "248142912:0",
+      "address": "280",
+      "sourceIds": [
+        "155-south-overview",
+        "248142912-0-full",
+        "248142912-0-ground"
+      ],
+      "mappedFootprint": [
+        [
+          152.304,
+          16.242
+        ],
+        [
+          149.491,
+          16.252
+        ],
+        [
+          148.586,
+          16.602
+        ],
+        [
+          148.604,
+          18.63
+        ],
+        [
+          148.262,
+          19.839
+        ],
+        [
+          148.314,
+          26.268
+        ],
+        [
+          152.377,
+          26.25
+        ],
+        [
+          152.414,
+          31.211
+        ],
+        [
+          152.431,
+          33.099
+        ],
+        [
+          137.264,
+          33.164
+        ],
+        [
+          137.213,
+          25.347
+        ],
+        [
+          141.221,
+          25.334
+        ],
+        [
+          141.16,
+          17.152
+        ],
+        [
+          137.152,
+          17.165
+        ],
+        [
+          137.094,
+          9.389
+        ],
+        [
+          137.087,
+          8.578
+        ],
+        [
+          152.253,
+          8.513
+        ],
+        [
+          152.255,
+          9.505
+        ]
+      ],
+      "mappedHeight": 19.72,
+      "authoredHeight": 19.72,
+      "junctionAndShape": "Wide seven-group five-row facade; central triplets, two separate scroll escapes and four shop units.",
+      "evidenceLimit": "Street-facing junctions and roofs only; rear roof geometry and dimensions are visual/mapped estimates, not surveyed. Source dates remain separate.",
+      "servedViews": [
+        "248142912-0-elevation",
+        "248142912-0-mass-left",
+        "248142912-0-mass-right"
+      ],
+      "reviewState": "reviewed-with-estimated-depth-limits",
+      "evidence": [
+        {
+          "candidate": "03",
+          "views": [
+            "248142912-0-elevation",
+            "248142912-0-ground",
+            "248142912-0-mass-left",
+            "248142912-0-mass-right"
+          ],
+          "sameFinalScene": false
+        },
+        {
+          "candidate": "04",
+          "views": [
+            "248142912-0-ground",
+            "248142912-0-280lease-0-front",
+            "248142912-0-280lease-0-left",
+            "248142912-0-280lease-0-right",
+            "248142912-0-280dark-0-front",
+            "248142912-0-280dark-0-left",
+            "248142912-0-280dark-0-right",
+            "248142912-0-physical-0-front",
+            "248142912-0-physical-0-left",
+            "248142912-0-physical-0-right",
+            "248142912-0-queencity-0-front",
+            "248142912-0-queencity-0-left",
+            "248142912-0-queencity-0-right"
+          ],
+          "sameFinalScene": true
+        },
+        {
+          "candidate": "05",
+          "views": [
+            "248142912-0-elevation"
+          ],
+          "sameFinalScene": true
+        }
+      ]
+    },
+    {
+      "faceId": "248142913:0",
+      "address": "284",
+      "sourceIds": [
+        "155-south-overview",
+        "248142913-0-full",
+        "248142913-0-ground"
+      ],
+      "mappedFootprint": [
+        [
+          160.154,
+          31.174
+        ],
+        [
+          152.414,
+          31.211
+        ],
+        [
+          152.377,
+          26.25
+        ],
+        [
+          152.304,
+          16.242
+        ],
+        [
+          152.255,
+          9.505
+        ],
+        [
+          159.995,
+          9.468
+        ],
+        [
+          160.117,
+          26.214
+        ]
+      ],
+      "mappedHeight": 16.99,
+      "authoredHeight": 16.99,
+      "junctionAndShape": "Lower red facade with masonry bands; separate two hatch boxes, touching280/286.",
+      "evidenceLimit": "Street-facing junctions and roofs only; rear roof geometry and dimensions are visual/mapped estimates, not surveyed. Source dates remain separate.",
+      "servedViews": [
+        "248142913-0-elevation",
+        "248142913-0-mass-left",
+        "248142913-0-mass-right"
+      ],
+      "reviewState": "reviewed-with-estimated-depth-limits",
+      "evidence": [
+        {
+          "candidate": "03",
+          "views": [
+            "248142913-0-elevation",
+            "248142913-0-ground",
+            "248142913-0-mass-left",
+            "248142913-0-mass-right"
+          ],
+          "sameFinalScene": false
+        },
+        {
+          "candidate": "04",
+          "views": [
+            "248142913-0-ground"
+          ],
+          "sameFinalScene": true
+        },
+        {
+          "candidate": "05",
+          "views": [
+            "248142913-0-elevation"
+          ],
+          "sameFinalScene": true
+        }
+      ]
+    },
+    {
+      "faceId": "248142914:0",
+      "address": "286",
+      "sourceIds": [
+        "155-south-overview",
+        "248142914-0-full",
+        "248142914-0-ground"
+      ],
+      "mappedFootprint": [
+        [
+          167.599,
+          26.18
+        ],
+        [
+          160.117,
+          26.214
+        ],
+        [
+          159.995,
+          9.468
+        ],
+        [
+          167.477,
+          9.435
+        ],
+        [
+          167.503,
+          12.503
+        ],
+        [
+          167.569,
+          21.7
+        ],
+        [
+          167.589,
+          25.434
+        ]
+      ],
+      "mappedHeight": 19.78,
+      "authoredHeight": 19.78,
+      "junctionAndShape": "Taller four-bay facade; no escape; east edge touches low church wing.",
+      "evidenceLimit": "Street-facing junctions and roofs only; rear roof geometry and dimensions are visual/mapped estimates, not surveyed. Source dates remain separate.",
+      "servedViews": [
+        "248142914-0-elevation",
+        "248142914-0-mass-left",
+        "248142914-0-mass-right"
+      ],
+      "reviewState": "reviewed-with-estimated-depth-limits",
+      "evidence": [
+        {
+          "candidate": "03",
+          "views": [
+            "248142914-0-elevation",
+            "248142914-0-ground",
+            "248142914-0-mass-left",
+            "248142914-0-mass-right"
+          ],
+          "sameFinalScene": false
+        },
+        {
+          "candidate": "04",
+          "views": [
+            "248142914-0-ground",
+            "248142914-0-laundromat-0-front",
+            "248142914-0-laundromat-0-left",
+            "248142914-0-laundromat-0-right"
+          ],
+          "sameFinalScene": false
+        },
+        {
+          "candidate": "05",
+          "views": [
+            "248142914-0-ground",
+            "248142914-0-laundromat-0-front",
+            "248142914-0-laundromat-0-right",
+            "248142914-0-elevation",
+            "248142914-0-laundromat-0-left"
+          ],
+          "sameFinalScene": true
+        }
+      ]
+    },
+    {
+      "faceId": "248142975:1",
+      "address": "287-Tenth",
+      "sourceIds": [
+        "180-north-road",
+        "club-wide",
+        "club-west-oblique",
+        "club-east-oblique",
+        "club-west-upper",
+        "club-east-upper"
+      ],
+      "mappedFootprint": [
+        [
+          201.916,
+          -30.541
+        ],
+        [
+          202.006,
+          -9.256
+        ],
+        [
+          165.724,
+          -9.218
+        ],
+        [
+          165.685,
+          -18.228
+        ],
+        [
+          167.722,
+          -18.227
+        ],
+        [
+          167.674,
+          -30.517
+        ],
+        [
+          172.876,
+          -30.518
+        ],
+        [
+          178.791,
+          -30.521
+        ]
+      ],
+      "mappedHeight": 27.1,
+      "authoredHeight": 27.1,
+      "junctionAndShape": "Long flat27.1m front, lower22.7m rear range; touches279 at west. Actual front roof projection/box hoods are separate from rear roof step.",
+      "evidenceLimit": "Street-facing junctions and roofs only; rear roof geometry and dimensions are visual/mapped estimates, not surveyed. Source dates remain separate.",
+      "servedViews": [
+        "248142975-1-elevation",
+        "248142975-1-mass-left",
+        "248142975-1-mass-right"
+      ],
+      "reviewState": "reviewed-with-estimated-depth-limits",
+      "evidence": [
+        {
+          "candidate": "03",
+          "views": [
+            "248142975-1-elevation",
+            "248142975-1-ground-west",
+            "248142975-1-ground-middle",
+            "248142975-1-ground-east",
+            "248142975-1-mass-left",
+            "248142975-1-mass-right"
+          ],
+          "sameFinalScene": false
+        },
+        {
+          "candidate": "04",
+          "views": [
+            "248142975-1-entry-front",
+            "248142975-1-service-front",
+            "248142975-1-service-left",
+            "248142975-1-service-right",
+            "248142975-1-identity-front",
+            "248142975-1-identity-left",
+            "248142975-1-identity-right"
+          ],
+          "sameFinalScene": false
+        },
+        {
+          "candidate": "05",
+          "views": [
+            "248142975-1-entry-left",
+            "248142975-1-entry-right",
+            "248142975-1-elevation",
+            "248142975-1-mass-left",
+            "248142975-1-mass-right"
+          ],
+          "sameFinalScene": true
+        }
+      ]
+    },
+    {
+      "faceId": "248142975:0",
+      "address": "287-Avenue",
+      "sourceIds": [
+        "club-east-oblique",
+        "club-avenue",
+        "club-east-upper"
+      ],
+      "mappedFootprint": [
+        [
+          201.916,
+          -30.541
+        ],
+        [
+          202.006,
+          -9.256
+        ],
+        [
+          165.724,
+          -9.218
+        ],
+        [
+          165.685,
+          -18.228
+        ],
+        [
+          167.722,
+          -18.227
+        ],
+        [
+          167.674,
+          -30.517
+        ],
+        [
+          172.876,
+          -30.518
+        ],
+        [
+          178.791,
+          -30.521
+        ]
+      ],
+      "mappedHeight": 27.1,
+      "authoredHeight": 27.1,
+      "junctionAndShape": "Tall first two window groups, lower rear three groups with glass-block top openings and open roof fence. Not a diagonal building roof; earlier diagonal was cast shadow.",
+      "evidenceLimit": "Street-facing junctions and roofs only; rear roof geometry and dimensions are visual/mapped estimates, not surveyed. Source dates remain separate.",
+      "servedViews": [
+        "248142975-0-elevation",
+        "248142975-0-mass-left",
+        "248142975-0-mass-right"
+      ],
+      "reviewState": "reviewed-with-estimated-depth-limits",
+      "evidence": [
+        {
+          "candidate": "03",
+          "views": [
+            "248142975-0-elevation",
+            "248142975-0-mass-left",
+            "248142975-0-mass-right"
+          ],
+          "sameFinalScene": false
+        },
+        {
+          "candidate": "05",
+          "views": [
+            "248142975-0-elevation",
+            "248142975-0-mass-left",
+            "248142975-0-mass-right"
+          ],
+          "sameFinalScene": true
+        }
+      ]
+    },
+    {
+      "faceId": "248142953:0",
+      "address": "288-wing",
+      "sourceIds": [
+        "180-south-road",
+        "church-wide",
+        "church-west-oblique"
+      ],
+      "mappedFootprint": [
+        [
+          188.0,
+          25.357
+        ],
+        [
+          187.97,
+          22.317
+        ],
+        [
+          182.282,
+          22.346
+        ],
+        [
+          182.306,
+          25.377
+        ],
+        [
+          175.43,
+          25.405
+        ],
+        [
+          171.259,
+          25.419
+        ],
+        [
+          171.233,
+          21.676
+        ],
+        [
+          167.569,
+          21.7
+        ],
+        [
+          167.503,
+          12.503
+        ],
+        [
+          171.383,
+          12.485
+        ],
+        [
+          171.362,
+          9.427
+        ],
+        [
+          182.269,
+          9.374
+        ],
+        [
+          182.293,
+          12.265
+        ],
+        [
+          189.848,
+          12.242
+        ],
+        [
+          189.831,
+          9.347
+        ],
+        [
+          194.615,
+          9.323
+        ],
+        [
+          194.616,
+          9.845
+        ],
+        [
+          201.552,
+          9.822
+        ],
+        [
+          201.672,
+          25.295
+        ]
+      ],
+      "mappedHeight": 31.4,
+      "authoredHeight": 31.4,
+      "junctionAndShape": "Low7.8m gable touching286, independent9m estimated roof depth; no invented alley.",
+      "evidenceLimit": "Street-facing junctions and roofs only; rear roof geometry and dimensions are visual/mapped estimates, not surveyed. Source dates remain separate.",
+      "servedViews": [
+        "248142953-0-elevation",
+        "248142953-0-mass-left",
+        "248142953-0-mass-right"
+      ],
+      "reviewState": "reviewed-with-estimated-depth-limits",
+      "evidence": [
+        {
+          "candidate": "03",
+          "views": [
+            "248142953-0-elevation",
+            "248142953-0-ground",
+            "248142953-0-mass-left",
+            "248142953-0-mass-right"
+          ],
+          "sameFinalScene": false
+        },
+        {
+          "candidate": "05",
+          "views": [
+            "248142953-0-elevation"
+          ],
+          "sameFinalScene": false
+        },
+        {
+          "candidate": "06",
+          "views": [
+            "248142953-0-mass-left",
+            "248142953-0-mass-right"
+          ],
+          "sameFinalScene": true
+        }
+      ]
+    },
+    {
+      "faceId": "248142953:1",
+      "address": "288-nave",
+      "sourceIds": [
+        "180-south-road",
+        "church-wide",
+        "church-west-oblique"
+      ],
+      "mappedFootprint": [
+        [
+          188.0,
+          25.357
+        ],
+        [
+          187.97,
+          22.317
+        ],
+        [
+          182.282,
+          22.346
+        ],
+        [
+          182.306,
+          25.377
+        ],
+        [
+          175.43,
+          25.405
+        ],
+        [
+          171.259,
+          25.419
+        ],
+        [
+          171.233,
+          21.676
+        ],
+        [
+          167.569,
+          21.7
+        ],
+        [
+          167.503,
+          12.503
+        ],
+        [
+          171.383,
+          12.485
+        ],
+        [
+          171.362,
+          9.427
+        ],
+        [
+          182.269,
+          9.374
+        ],
+        [
+          182.293,
+          12.265
+        ],
+        [
+          189.848,
+          12.242
+        ],
+        [
+          189.831,
+          9.347
+        ],
+        [
+          194.615,
+          9.323
+        ],
+        [
+          194.616,
+          9.845
+        ],
+        [
+          201.552,
+          9.822
+        ],
+        [
+          201.672,
+          25.295
+        ]
+      ],
+      "mappedHeight": 31.4,
+      "authoredHeight": 31.4,
+      "junctionAndShape": "Front gable18.6m eave/23.8m ridge projects beyond recessed porch; rear depth16m is estimate.",
+      "evidenceLimit": "Street-facing junctions and roofs only; rear roof geometry and dimensions are visual/mapped estimates, not surveyed. Source dates remain separate.",
+      "servedViews": [
+        "248142953-1-elevation",
+        "248142953-1-mass-left",
+        "248142953-1-mass-right"
+      ],
+      "reviewState": "reviewed-with-estimated-depth-limits",
+      "evidence": [
+        {
+          "candidate": "03",
+          "views": [
+            "248142953-1-elevation",
+            "248142953-1-ground",
+            "248142953-1-mass-left",
+            "248142953-1-mass-right"
+          ],
+          "sameFinalScene": false
+        },
+        {
+          "candidate": "05",
+          "views": [
+            "248142953-1-elevation"
+          ],
+          "sameFinalScene": false
+        },
+        {
+          "candidate": "06",
+          "views": [
+            "248142953-1-mass-left",
+            "248142953-1-mass-right"
+          ],
+          "sameFinalScene": true
+        }
+      ]
+    },
+    {
+      "faceId": "248142953:2",
+      "address": "288-porch",
+      "sourceIds": [
+        "180-south-road",
+        "church-wide",
+        "church-west-oblique"
+      ],
+      "mappedFootprint": [
+        [
+          188.0,
+          25.357
+        ],
+        [
+          187.97,
+          22.317
+        ],
+        [
+          182.282,
+          22.346
+        ],
+        [
+          182.306,
+          25.377
+        ],
+        [
+          175.43,
+          25.405
+        ],
+        [
+          171.259,
+          25.419
+        ],
+        [
+          171.233,
+          21.676
+        ],
+        [
+          167.569,
+          21.7
+        ],
+        [
+          167.503,
+          12.503
+        ],
+        [
+          171.383,
+          12.485
+        ],
+        [
+          171.362,
+          9.427
+        ],
+        [
+          182.269,
+          9.374
+        ],
+        [
+          182.293,
+          12.265
+        ],
+        [
+          189.848,
+          12.242
+        ],
+        [
+          189.831,
+          9.347
+        ],
+        [
+          194.615,
+          9.323
+        ],
+        [
+          194.616,
+          9.845
+        ],
+        [
+          201.552,
+          9.822
+        ],
+        [
+          201.672,
+          25.295
+        ]
+      ],
+      "mappedHeight": 31.4,
+      "authoredHeight": 31.4,
+      "junctionAndShape": "Recessed porch behind neighboring main masses; lower10.45m front gable and13.8m back wall. Stairs and access stay open.",
+      "evidenceLimit": "Street-facing junctions and roofs only; rear roof geometry and dimensions are visual/mapped estimates, not surveyed. Source dates remain separate.",
+      "servedViews": [
+        "248142953-2-elevation",
+        "248142953-2-mass-left",
+        "248142953-2-mass-right"
+      ],
+      "reviewState": "reviewed-with-estimated-depth-limits",
+      "evidence": [
+        {
+          "candidate": "03",
+          "views": [
+            "248142953-2-elevation",
+            "248142953-2-ground",
+            "248142953-2-mass-left",
+            "248142953-2-mass-right"
+          ],
+          "sameFinalScene": false
+        },
+        {
+          "candidate": "04",
+          "views": [
+            "248142953-2-ground",
+            "248142953-2-access-left"
+          ],
+          "sameFinalScene": false
+        },
+        {
+          "candidate": "05",
+          "views": [
+            "248142953-2-ground",
+            "248142953-2-access-left",
+            "248142953-2-access-right"
+          ],
+          "sameFinalScene": false
+        },
+        {
+          "candidate": "06",
+          "views": [
+            "248142953-2-mass-left",
+            "248142953-2-mass-right",
+            "248142953-2-elevation"
+          ],
+          "sameFinalScene": true
+        }
+      ]
+    },
+    {
+      "faceId": "248142953:3",
+      "address": "288-tower",
+      "sourceIds": [
+        "180-south-road",
+        "church-wide",
+        "church-west-oblique",
+        "church-east-oblique",
+        "church-avenue-road",
+        "church-tower"
+      ],
+      "mappedFootprint": [
+        [
+          188.0,
+          25.357
+        ],
+        [
+          187.97,
+          22.317
+        ],
+        [
+          182.282,
+          22.346
+        ],
+        [
+          182.306,
+          25.377
+        ],
+        [
+          175.43,
+          25.405
+        ],
+        [
+          171.259,
+          25.419
+        ],
+        [
+          171.233,
+          21.676
+        ],
+        [
+          167.569,
+          21.7
+        ],
+        [
+          167.503,
+          12.503
+        ],
+        [
+          171.383,
+          12.485
+        ],
+        [
+          171.362,
+          9.427
+        ],
+        [
+          182.269,
+          9.374
+        ],
+        [
+          182.293,
+          12.265
+        ],
+        [
+          189.848,
+          12.242
+        ],
+        [
+          189.831,
+          9.347
+        ],
+        [
+          194.615,
+          9.323
+        ],
+        [
+          194.616,
+          9.845
+        ],
+        [
+          201.552,
+          9.822
+        ],
+        [
+          201.672,
+          25.295
+        ]
+      ],
+      "mappedHeight": 31.4,
+      "authoredHeight": 31.4,
+      "junctionAndShape": "Narrow brick shaft26.7m with steep peak30.7m/cross31.4m; do not extrude other church parts to this maximum.",
+      "evidenceLimit": "Street-facing junctions and roofs only; rear roof geometry and dimensions are visual/mapped estimates, not surveyed. Source dates remain separate.",
+      "servedViews": [
+        "248142953-3-elevation",
+        "248142953-3-mass-left",
+        "248142953-3-mass-right"
+      ],
+      "reviewState": "reviewed-with-estimated-depth-limits",
+      "evidence": [
+        {
+          "candidate": "03",
+          "views": [
+            "248142953-3-elevation",
+            "248142953-3-ground",
+            "248142953-3-mass-left",
+            "248142953-3-mass-right"
+          ],
+          "sameFinalScene": false
+        },
+        {
+          "candidate": "05",
+          "views": [
+            "248142953-3-elevation"
+          ],
+          "sameFinalScene": false
+        },
+        {
+          "candidate": "06",
+          "views": [
+            "248142953-3-mass-left",
+            "248142953-3-mass-right"
+          ],
+          "sameFinalScene": true
+        }
+      ]
+    },
+    {
+      "faceId": "248142953:4",
+      "address": "288-rectory",
+      "sourceIds": [
+        "180-south-road",
+        "church-wide",
+        "church-west-oblique",
+        "church-east-oblique",
+        "church-avenue-road",
+        "church-tower"
+      ],
+      "mappedFootprint": [
+        [
+          188.0,
+          25.357
+        ],
+        [
+          187.97,
+          22.317
+        ],
+        [
+          182.282,
+          22.346
+        ],
+        [
+          182.306,
+          25.377
+        ],
+        [
+          175.43,
+          25.405
+        ],
+        [
+          171.259,
+          25.419
+        ],
+        [
+          171.233,
+          21.676
+        ],
+        [
+          167.569,
+          21.7
+        ],
+        [
+          167.503,
+          12.503
+        ],
+        [
+          171.383,
+          12.485
+        ],
+        [
+          171.362,
+          9.427
+        ],
+        [
+          182.269,
+          9.374
+        ],
+        [
+          182.293,
+          12.265
+        ],
+        [
+          189.848,
+          12.242
+        ],
+        [
+          189.831,
+          9.347
+        ],
+        [
+          194.615,
+          9.323
+        ],
+        [
+          194.616,
+          9.845
+        ],
+        [
+          201.552,
+          9.822
+        ],
+        [
+          201.672,
+          25.295
+        ]
+      ],
+      "mappedHeight": 31.4,
+      "authoredHeight": 31.4,
+      "junctionAndShape": "Independent18.3m eave22.5m gable at corner, setback differs from tower. Roof intersections require served oblique review.",
+      "evidenceLimit": "Street-facing junctions and roofs only; rear roof geometry and dimensions are visual/mapped estimates, not surveyed. Source dates remain separate.",
+      "servedViews": [
+        "248142953-4-elevation",
+        "248142953-4-mass-left",
+        "248142953-4-mass-right"
+      ],
+      "reviewState": "reviewed-with-estimated-depth-limits",
+      "evidence": [
+        {
+          "candidate": "03",
+          "views": [
+            "248142953-4-elevation",
+            "248142953-4-ground",
+            "248142953-4-mass-left",
+            "248142953-4-mass-right"
+          ],
+          "sameFinalScene": false
+        },
+        {
+          "candidate": "05",
+          "views": [
+            "248142953-4-mass-left",
+            "248142953-4-mass-right"
+          ],
+          "sameFinalScene": false
+        },
+        {
+          "candidate": "06",
+          "views": [
+            "248142953-4-elevation",
+            "248142953-4-mass-left",
+            "248142953-4-mass-right"
+          ],
+          "sameFinalScene": true
+        }
+      ]
+    },
+    {
+      "faceId": "248142953:5",
+      "address": "288-Avenue",
+      "sourceIds": [
+        "church-east-oblique",
+        "church-avenue-road",
+        "church-tower"
+      ],
+      "mappedFootprint": [
+        [
+          188.0,
+          25.357
+        ],
+        [
+          187.97,
+          22.317
+        ],
+        [
+          182.282,
+          22.346
+        ],
+        [
+          182.306,
+          25.377
+        ],
+        [
+          175.43,
+          25.405
+        ],
+        [
+          171.259,
+          25.419
+        ],
+        [
+          171.233,
+          21.676
+        ],
+        [
+          167.569,
+          21.7
+        ],
+        [
+          167.503,
+          12.503
+        ],
+        [
+          171.383,
+          12.485
+        ],
+        [
+          171.362,
+          9.427
+        ],
+        [
+          182.269,
+          9.374
+        ],
+        [
+          182.293,
+          12.265
+        ],
+        [
+          189.848,
+          12.242
+        ],
+        [
+          189.831,
+          9.347
+        ],
+        [
+          194.615,
+          9.323
+        ],
+        [
+          194.616,
+          9.845
+        ],
+        [
+          201.552,
+          9.822
+        ],
+        [
+          201.672,
+          25.295
+        ]
+      ],
+      "mappedHeight": 31.4,
+      "authoredHeight": 31.4,
+      "junctionAndShape": "Lower north12.4m eave/two17m dormers and taller south18.3/22.5m gable. Footprint retained; unseen depths are estimates.",
+      "evidenceLimit": "Street-facing junctions and roofs only; rear roof geometry and dimensions are visual/mapped estimates, not surveyed. Source dates remain separate.",
+      "servedViews": [
+        "248142953-5-elevation",
+        "248142953-5-mass-left",
+        "248142953-5-mass-right"
+      ],
+      "reviewState": "reviewed-with-estimated-depth-limits",
+      "evidence": [
+        {
+          "candidate": "03",
+          "views": [
+            "248142953-5-elevation",
+            "248142953-5-ground",
+            "248142953-5-mass-left",
+            "248142953-5-mass-right"
+          ],
+          "sameFinalScene": false
+        },
+        {
+          "candidate": "04",
+          "views": [
+            "248142953-5-elevation",
+            "248142953-5-mass-left"
+          ],
+          "sameFinalScene": false
+        },
+        {
+          "candidate": "05",
+          "views": [
+            "248142953-5-elevation",
+            "248142953-5-mass-left",
+            "248142953-5-mass-right"
+          ],
+          "sameFinalScene": false
+        },
+        {
+          "candidate": "06",
+          "views": [
+            "248142953-5-elevation",
+            "248142953-5-mass-left",
+            "248142953-5-mass-right"
+          ],
+          "sameFinalScene": true
+        }
+      ]
+    }
+  ],
+  "acceptance": "Observed street-facing shape and junction review; not a surveyed rear-roof or 1:1 certificate."
+}

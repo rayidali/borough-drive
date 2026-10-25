@@ -1,0 +1,68 @@
+{
+  "schema": 1,
+  "id": "01-E11-21",
+  "date": "2026-10-25T08:17:49.150954+00:00",
+  "coordinateSpace": "Original neighborhood x/z; runtime z is source z minus228.",
+  "sites": [
+    {
+      "id": "site-324-gap",
+      "streetEdgeEstimate": [
+        [
+          -107.186,
+          -67.017
+        ],
+        [
+          -99.246,
+          -67.034
+        ]
+      ],
+      "owner": "Dedicated Eleventh site-detail node; no fabricated building owner",
+      "sourceIds": [
+        "324-gap",
+        "322-shop-close"
+      ],
+      "observed": "Open chain-link frontage between322/326 with exposed pale party walls. Rear extent and stored objects partly obscured.",
+      "state": "source inspected; procedural geometry authored; served front/oblique review pending"
+    },
+    {
+      "id": "site-schoolyard",
+      "streetEdgeEstimate": [
+        [
+          -125.094,
+          -85.336
+        ],
+        [
+          -69.823,
+          -86.635
+        ]
+      ],
+      "owner": "Dedicated Eleventh schoolyard site-detail node adjoining247851934; no duplicated school mass",
+      "sourceIds": [
+        "schoolyard-west",
+        "schoolyard-east"
+      ],
+      "observed": "Blue basketball court west, trees/bench strip middle, green soccer court east, black chain-link street fence.",
+      "state": "source inspected; procedural geometry authored; served front/oblique review pending"
+    },
+    {
+      "id": "site-300-304-passage",
+      "streetEdgeEstimate": [
+        [
+          -177.733,
+          -66.943
+        ],
+        [
+          -174.596,
+          -67.0
+        ]
+      ],
+      "owner": "Dedicated Eleventh site-detail node; no invented building owner",
+      "sourceIds": [
+        "247851916-0-full",
+        "247851916-0-ground"
+      ],
+      "observed": "Real open passage with ornate black iron gate and tall pale corner sidewall; number302 not verified.",
+      "state": "source inspected; procedural geometry authored; served front/oblique review pending"
+    }
+  ]
+}

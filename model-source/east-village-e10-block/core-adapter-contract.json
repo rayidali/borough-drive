@@ -1,0 +1,44 @@
+{
+  "state": "candidate integration contract; no export or runtime change",
+  "source": "dist/reconstruction/first-and-10th.glb",
+  "sourceSha256": "405e247602a2117f5f1e7b938921ec584fbd0e3ff9e9008209361f215b65f167",
+  "coordinateConversion": {
+    "source": "x/up/z",
+    "runtime": "x/up/(z-228)",
+    "unitScale": 1
+  },
+  "counts": {
+    "buildingMeshes": 512,
+    "buildingTriangles": 417373,
+    "architectural-detailMeshes": 9,
+    "architectural-detailTriangles": 7124,
+    "street-dressingMeshes": 69,
+    "street-dressingTriangles": 467102
+  },
+  "buildingPolicy": "Reuse the 23 existing named building groups as protected context, with one rendered/collision owner per mapped building. No protected facade regeneration.",
+  "architecturalDetailPolicy": "Retain all nine shared architectural-detail source meshes without cutting or remeshing. They include address lettering, hardware, cables, weathering and brass details on the four original corner buildings. Give this group one non-colliding protected-core detail owner; document it separately from the 23 building owners.",
+  "sourceEvidence": {
+    "file": "model-source/build_intersection.py",
+    "function": "close_details",
+    "entryNumbers": [
+      "163",
+      "159",
+      "164",
+      "162",
+      "242"
+    ],
+    "notes": "The named 242 entry belongs to mapped core building 247852692, whose source building group is 159–161 First Avenue. Shared material batches span several buildings and cannot be assigned solely from their aggregate bounds."
+  },
+  "streetPolicy": "Do not import the original core street/dressing meshes wholesale: they contain their own roads, sidewalks, trees, parked cars and furniture. Inventory relevant fixtures separately and prevent overlap with the current engine street and car systems.",
+  "validationRequired": [
+    "Compare decoded transformed triangles, normals, UVs, vertex colors, image bytes and material properties before/after conversion.",
+    "Check all 23 mapped owner IDs against current 295 model IDs; freeze the four assigned protected Tenth buildings and all six protected face IDs.",
+    "Prove no duplicate buildings, ground surfaces or collision ownership along the First connection.",
+    "Inspect original and converted core from matched close views, including all nine shared architectural-detail meshes.",
+    "Only open the First connection and assigned Tenth corridor once the full assigned block and immutable adapter pass integration."
+  ],
+  "limits": [
+    "This contract identifies a preservation strategy, not a completed engine adapter or photographic acceptance.",
+    "Street fixture inclusion, exact outer runtime bounds and Godot material translation still require implementation and review."
+  ]
+}

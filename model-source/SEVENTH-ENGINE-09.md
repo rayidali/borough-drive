@@ -1,5 +1,9 @@
 # First Avenue / St. Marks — individual storefront revision 09
 
+<!-- current-project-status -->
+> **Current status:** The [project handoff](../CODEX-HANDOFF.md) governs current scope, publication and next work. This file retains its dated observations, evidence or specialist instructions. See [browser scaling](../docs/BROWSER-SCALING.md) for the current loading/rendering work; older model counts and paused states describe their original checkpoints.
+<!-- /current-project-status -->
+
 October 11, 2026. The user asked to revise the actual work after an instruction-only update. This user-endorsed revision gives the businesses in the confirmed First Avenue Seventh–St. Marks and St. Marks Second–Avenue A scope distinct storefront compositions. It preserves the accepted Seventh/core/corner, original game, interface, audio and geographic bounds. The user subsequently said “yes this is great” and explicitly requested publication to `main` and updated documentation. No paid job or additional street is included.
 
 ## What changed

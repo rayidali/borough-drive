@@ -1,5 +1,9 @@
 # Runtime performance pass 07 — September 9, 2026
 
+<!-- current-project-status -->
+> **Current status:** The [project handoff](../CODEX-HANDOFF.md) governs current scope, publication and next work. This file retains its dated observations, evidence or specialist instructions. See [browser scaling](../docs/BROWSER-SCALING.md) for the current loading/rendering work; older model counts and paused states describe their original checkpoints.
+<!-- /current-project-status -->
+
 **October 11 continuation:** this is a historical report. The user endorsed [First Avenue / St. Marks revision 09](SEVENTH-ENGINE-09.md) and requested publication to `main`. Read the [current handoff](../CODEX-HANDOFF.md) for verified release state. Earlier dates, counts, source limitations, route descriptions and pause instructions below remain history; no further street or pipeline is assigned.
 
 **Historical performance baseline; continuation updated September 12, 2026.** [Pass 09](BROWSER-PASS-09.md) is the later published browser improvement. The measurements below remain September 9 results. The user has paused new implementation while brainstorming automatic block work; see [the handoff](../CODEX-HANDOFF.md) and [workflow](BLOCK-WORKFLOW.md).

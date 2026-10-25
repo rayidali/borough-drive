@@ -1,0 +1,153 @@
+{
+  "stage": "first served candidate review in progress",
+  "build": "2026-10-25T04:13:31.350Z",
+  "inspectedViews": [
+    "247851894-0-elevation",
+    "247851894-0-ground",
+    "247851895-0-elevation",
+    "247851896-0-elevation",
+    "247851896-0-ground",
+    "247851897-0-elevation",
+    "247851897-0-ground",
+    "247851898-0-elevation",
+    "247851899-0-ground",
+    "247851900-0-elevation",
+    "247851901-0-ground",
+    "247851897-0-mass-left",
+    "247851899-0-elevation",
+    "247851900-0-cleaner-0-front",
+    "247851900-0-pourquoi-0-front",
+    "247851901-0-records-0-front",
+    "247851902-0-elevation",
+    "247851902-0-waxing-0-front",
+    "247851902-0-barber-0-front",
+    "247851903-0-elevation",
+    "247851904-0-elevation",
+    "247851904-0-ground",
+    "247851906-0-ground",
+    "247851908-0-elevation",
+    "247851911-0-elevation",
+    "core-northwest",
+    "core-southwest",
+    "247851935-0-elevation",
+    "247851935-1-elevation",
+    "247851935-0-marinara-0-front",
+    "247851935-0-juicepress-0-front",
+    "247851935-0-matchahouse-0-front",
+    "247852656-0-elevation",
+    "247852658-0-elevation",
+    "247852659-0-elevation",
+    "247852660-0-elevation",
+    "247852660-0-madamevo-0-front",
+    "247852662-0-elevation",
+    "247852662-0-ando-0-front",
+    "247852662-0-214closed-0-front",
+    "247852694-0-elevation",
+    "247852694-0-rairaiken-0-front",
+    "247852694-0-shabutatsu-0-front",
+    "247852663-0-elevation",
+    "247852663-0-220closed-0-front",
+    "247852663-0-archies-0-front",
+    "247852664-0-elevation",
+    "247852665-0-ground",
+    "247852667-0-elevation",
+    "247852668-0-ground",
+    "247852693-1-elevation",
+    "247852693-1-mass-left",
+    "247852693-1-mass-right",
+    "247852693-1-prince-0-front",
+    "247852693-1-shipping-0-front",
+    "247852693-1-204shutter-0-front",
+    "247852693-1-chase-tenth-0-front",
+    "247852693-0-elevation",
+    "247852693-0-chase-second-0-front",
+    "core-northeast",
+    "core-southeast",
+    "core-theater",
+    "core-239",
+    "core-west-tenth-approach",
+    "first-connection"
+  ],
+  "repairs": [
+    {
+      "faceId": "247851894:0",
+      "state": "needs-repair",
+      "items": [
+        "May 2009 supplement resolves five upper rows, six sashes grouped as outer pairs/two central singles, and central fire escape; candidate has only four rows and no escape.",
+        "Lowest upper outer-pair blind arches and shallow arcade cornice are absent/incorrectly shifted to top openings.",
+        "Entry needs a thicker carved round portal and face relief observed in April 2026."
+      ]
+    },
+    {
+      "faceId": "247851895:0",
+      "state": "needs-repair",
+      "items": [
+        "Current source shows central black fire escape, absent from candidate.",
+        "Facade should be lighter cream/buff; add observed carved lintel/ornate entry guards beyond basic rectangular grille."
+      ]
+    },
+    {
+      "faceId": "247851897:0",
+      "state": "needs-repair",
+      "items": [
+        "Ground flanking windows incorrectly rectangular; need arches and projecting carved stone caps; oriel curvature exists in oblique but relief too plain."
+      ]
+    },
+    {
+      "faceId": "247851898:0",
+      "state": "needs-repair",
+      "items": [
+        "Same ground arch/portal relief omission as 213."
+      ]
+    },
+    {
+      "faceId": "247851899:0",
+      "state": "needs-repair",
+      "items": [
+        "Replace alternating triangular pediments with observed semicircular relief caps, add ground blind arches and curled guard detail."
+      ]
+    },
+    {
+      "faceId": "247851900:0",
+      "state": "needs-repair",
+      "items": [
+        "Lighten buff wall; add carved horizontal bands and layered lintels. Cleaner uses wrong script instead of bold slanted block lettering. Pourquoi needs open grille, not solid shutter."
+      ]
+    },
+    {
+      "faceId": "247851901:0",
+      "state": "needs-repair",
+      "items": [
+        "Lower businesses have no real descending access; add bounded sidewalk void and steps. LIMITED/board lettering too stretched."
+      ]
+    },
+    {
+      "faceId": "247851911:0",
+      "state": "needs-repair",
+      "items": [
+        "Six rows correct; outer openings should be broad paired groups with narrow central sashes and paired vents below."
+      ]
+    },
+    {
+      "faceId": "247852656:0",
+      "state": "needs-repair",
+      "items": [
+        "Ground arches and carved portal/upper stone bands missing."
+      ]
+    },
+    {
+      "faceId": "247851904:0",
+      "state": "needs-repair",
+      "items": [
+        "Roof pediment currently an open metal-looking arch; needs solid semicircular masonry with carved relief."
+      ]
+    }
+  ],
+  "limits": [
+    "All 29 scheduled elevations have not yet had complete paired oblique/detail inspection; only listed captures inspected.",
+    "204 U-shaped notch is open in both inspected obliques; depths and hidden surfaces remain visual estimates.",
+    "Protected core material appearance preserved; two approach captures inspected so far, not a new fidelity pass.",
+    "core-theater capture placed camera inside a building and is unusable; new Tenth and First-side poses prepared."
+  ],
+  "repairImplementation": "Second candidate source prepared: corrected 205/209 escapes, 205 rows, 237/204 grouped windows; natural-aspect lettering and weight-600 Japanese; open Pourquoi grille, 221 below-grade entries, arches/carving/hatch boxes; shutter overlay depth. Re-export running; no repair closure awarded before served review."
+}

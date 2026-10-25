@@ -1,0 +1,156 @@
+/Users/rayidali/Desktop/borough-drive/model-source/export_seventh_engine.py:166: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  m.use_nodes = True
+/Users/rayidali/Desktop/borough-drive/model-source/export_seventh_engine.py:218: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  bs = mat.node_tree.nodes.get('Principled BSDF') if mat.use_nodes else None
+INFO Draco is available, use library at /Applications/Blender.app/Contents/Resources/5.2/scripts/addons_core/io_scene_gltf2/libbf_intern_draco_bridge.dylib
+INFO MeshOptimizer is available, use library at /Applications/Blender.app/Contents/Resources/5.2/scripts/addons_core/io_scene_gltf2/libbf_intern_meshopt_bridge.dylib
+03:44:53 | INFO: Starting glTF 2.0 export
+03:44:53 | INFO: Extracting primitive: 248142887 Tenth east individually observed / recess shadow
+03:44:53 | INFO: Primitives created: 1
+03:44:53 | INFO: Extracting primitive: 248142887 Tenth east individually observed / eb white wood
+03:44:53 | INFO: Primitives created: 1
+03:44:53 | INFO: Finished glTF 2.0 export in 0.019359827041625977 s
+
+ENGINE_BUILDING 299 352 248142887 39796
+03:44:53 | INFO: Starting glTF 2.0 export
+03:44:53 | INFO: Extracting primitive: 248142888 Tenth east individually observed / recess shadow
+03:44:53 | INFO: Primitives created: 1
+03:44:53 | INFO: Extracting primitive: 248142888 Tenth east individually observed / eb white wood
+03:44:53 | INFO: Primitives created: 1
+03:44:53 | INFO: Finished glTF 2.0 export in 0.039722442626953125 s
+
+ENGINE_BUILDING 300 352 248142888 113136
+03:44:53 | INFO: Starting glTF 2.0 export
+03:44:53 | INFO: Extracting primitive: 248142890 Tenth east individually observed / recess shadow
+03:44:53 | INFO: Primitives created: 1
+03:44:53 | INFO: Extracting primitive: 248142890 Tenth east individually observed / eb dark wood
+03:44:53 | INFO: Primitives created: 1
+03:44:53 | INFO: Finished glTF 2.0 export in 0.01815485954284668 s
+
+ENGINE_BUILDING 301 352 248142890 47916
+03:44:53 | INFO: Starting glTF 2.0 export
+03:44:53 | INFO: Extracting primitive: 248142891 Tenth east individually observed / opal lamp
+03:44:53 | INFO: Primitives created: 1
+03:44:53 | INFO: Extracting primitive: 248142891 Tenth east individually observed / recess shadow
+03:44:53 | INFO: Primitives created: 1
+03:44:53 | INFO: Extracting primitive: Individual business lettering
+03:44:53 | INFO: Primitives created: 1
+03:44:53 | INFO: Finished glTF 2.0 export in 0.011078357696533203 s
+
+ENGINE_BUILDING 302 352 248142891 22243
+03:44:54 | INFO: Starting glTF 2.0 export
+03:44:54 | INFO: Extracting primitive: Individual business lettering.002
+03:44:54 | INFO: Primitives created: 1
+03:44:54 | INFO: Extracting primitive: Individual business lettering
+03:44:54 | INFO: Primitives created: 1
+03:44:54 | INFO: Extracting primitive: 248142892 Tenth east individually observed / store09 clear glass
+03:44:54 | INFO: Primitives created: 1
+03:44:54 | INFO: Finished glTF 2.0 export in 0.01919412612915039 s
+
+ENGINE_BUILDING 303 352 248142892 44810
+03:44:54 | INFO: Starting glTF 2.0 export
+03:44:54 | INFO: Extracting primitive: 248142893 Tenth east individually observed / recess shadow
+03:44:54 | INFO: Primitives created: 1
+03:44:54 | INFO: Extracting primitive: 248142893 Tenth east individually observed / eb white wood
+03:44:54 | INFO: Primitives created: 1
+03:44:54 | INFO: Finished glTF 2.0 export in 0.022144079208374023 s
+
+ENGINE_BUILDING 304 352 248142893 63419
+03:44:54 | INFO: Starting glTF 2.0 export
+03:44:54 | INFO: Extracting primitive: 248142894 Tenth east individually observed / recess shadow
+03:44:54 | INFO: Primitives created: 1
+03:44:54 | INFO: Extracting primitive: Individual business lettering
+03:44:54 | INFO: Primitives created: 1
+03:44:54 | INFO: Extracting primitive: 248142894 Tenth east individually observed / store09 clear glass
+03:44:54 | INFO: Primitives created: 1
+03:44:54 | INFO: Finished glTF 2.0 export in 0.01663494110107422 s
+
+ENGINE_BUILDING 305 352 248142894 39156
+03:44:54 | INFO: Starting glTF 2.0 export
+03:44:54 | INFO: Extracting primitive: Individual business lettering.010
+03:44:54 | INFO: Primitives created: 1
+03:44:54 | INFO: Extracting primitive: Individual business lettering
+03:44:54 | INFO: Primitives created: 1
+03:44:54 | INFO: Extracting primitive: 248142895 Tenth east individually observed / store09 clear glass
+03:44:54 | INFO: Primitives created: 1
+03:44:54 | INFO: Finished glTF 2.0 export in 0.018063068389892578 s
+
+ENGINE_BUILDING 306 352 248142895 41833
+03:44:54 | INFO: Starting glTF 2.0 export
+03:44:54 | INFO: Extracting primitive: 248142896 Tenth east individually observed / recess shadow
+03:44:54 | INFO: Primitives created: 1
+03:44:54 | INFO: Extracting primitive: Individual business lettering
+03:44:54 | INFO: Primitives created: 1
+03:44:54 | INFO: Finished glTF 2.0 export in 0.009758949279785156 s
+
+ENGINE_BUILDING 307 352 248142896 21837
+03:44:54 | INFO: Starting glTF 2.0 export
+03:44:54 | INFO: Extracting primitive: Individual business lettering
+03:44:54 | INFO: Primitives created: 1
+03:44:54 | INFO: Extracting primitive: Individual business lettering.001
+03:44:54 | INFO: Primitives created: 1
+03:44:54 | INFO: Extracting primitive: 248142897 Tenth east individually observed / store09 clear glass
+03:44:54 | INFO: Primitives created: 1
+03:44:54 | INFO: Finished glTF 2.0 export in 0.024280071258544922 s
+
+ENGINE_BUILDING 308 352 248142897 62494
+03:44:54 | INFO: Starting glTF 2.0 export
+03:44:54 | INFO: Extracting primitive: 248142898 Tenth east individually observed / recess shadow
+03:44:54 | INFO: Primitives created: 1
+03:44:54 | INFO: Extracting primitive: Individual business lettering
+03:44:55 | INFO: Primitives created: 1
+03:44:55 | INFO: Extracting primitive: 248142898 Tenth east individually observed / store09 clear glass
+03:44:55 | INFO: Primitives created: 1
+03:44:55 | INFO: Finished glTF 2.0 export in 0.008997917175292969 s
+
+ENGINE_BUILDING 309 352 248142898 16017
+03:44:55 | INFO: Starting glTF 2.0 export
+03:44:55 | INFO: Extracting primitive: Individual business lettering
+03:44:55 | INFO: Primitives created: 1
+03:44:55 | INFO: Extracting primitive: Individual business lettering.001
+03:44:55 | INFO: Primitives created: 1
+03:44:55 | INFO: Extracting primitive: 248142899 Tenth east individually observed / store09 clear glass
+03:44:55 | INFO: Primitives created: 1
+03:44:55 | INFO: Finished glTF 2.0 export in 0.017783164978027344 s
+
+ENGINE_BUILDING 310 352 248142899 41704
+03:44:55 | INFO: Starting glTF 2.0 export
+03:44:55 | INFO: Extracting primitive: Individual business lettering.002
+03:44:55 | INFO: Primitives created: 1
+03:44:55 | INFO: Extracting primitive: Individual business lettering
+03:44:55 | INFO: Primitives created: 1
+03:44:55 | INFO: Finished glTF 2.0 export in 0.020642995834350586 s
+
+ENGINE_BUILDING 311 352 248142900 52545
+03:44:55 | INFO: Starting glTF 2.0 export
+03:44:55 | INFO: Extracting primitive: 248142901 Tenth east individually observed / recess shadow
+03:44:55 | INFO: Primitives created: 1
+03:44:55 | INFO: Extracting primitive: Individual business lettering
+03:44:55 | INFO: Primitives created: 1
+03:44:55 | INFO: Finished glTF 2.0 export in 0.04154396057128906 s
+
+ENGINE_BUILDING 312 352 248142901 125627
+03:44:55 | INFO: Starting glTF 2.0 export
+03:44:55 | INFO: Extracting primitive: 248142902 Tenth east individually observed / recess shadow
+03:44:55 | INFO: Primitives created: 1
+03:44:55 | INFO: Extracting primitive: Individual business lettering
+03:44:55 | INFO: Primitives created: 1
+03:44:55 | INFO: Finished glTF 2.0 export in 0.010320186614990234 s
+
+ENGINE_BUILDING 313 352 248142902 24325
+Traceback (most recent call last):
+  File "/Users/rayidali/Desktop/borough-drive/model-source/export_seventh_engine.py", line 206, in <module>
+    kit['flush']()
+    ~~~~~~~~~~~~^^
+  File "/Users/rayidali/Desktop/borough-drive/model-source/first_seventh_refinement.py", line 524, in flush
+    _unbatched_corner_flush()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/rayidali/Desktop/borough-drive/model-source/build_intersection.py", line 962, in flush
+    obj.data.materials.append(MATS[mat]);obj['provenance']=owner
+                              ~~~~^^^^^
+KeyError: 'eb blue wood'
+
+Error: script failed, file: 'model-source/export_seventh_engine.py', exiting.
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 01:35:57)
+
+Blender quit

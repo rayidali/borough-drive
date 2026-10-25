@@ -1,5 +1,9 @@
 # East Village session plan
 
+<!-- current-project-status -->
+> **Current status:** The [project handoff](../CODEX-HANDOFF.md) governs current scope, publication and next work. This file retains its dated observations, evidence or specialist instructions. See [browser scaling](../docs/BROWSER-SCALING.md) for the current loading/rendering work; older model counts and paused states describe their original checkpoints.
+<!-- /current-project-status -->
+
 **October 23 laptop/restart checkpoint:** the roadmap is unchanged. The transferred 295-model result, build tools, GitHub login and ordinary Street View workflow are verified on the new laptop; all expansion work remains local/uncommitted while GitHub/live retain 203-model revision 09. The user is restarting VS Code/Terminal, then returning. [Restart instructions](../START-HERE.md#after-restarting-vs-code-or-terminal) · [Exact handoff](../CODEX-HANDOFF.md). No new block or publication has started. Tenth Second–First remains the proposed next delivery, with protected-core ownership preparation before modeling when assigned.
 
 **October 14 cadence correction — current:** the user expected roughly one block per session. Ordinary delivery now means **one street segment between named intersections, both sides**, including its assigned street/corner detail. The small property packets remain internal working groups. Once a block is assigned, continue through those groups and their repairs without another routine “go ahead.” Preserve the individual storefront/building standard. [Exact workflow and next block](east-village-block-workflow.json).

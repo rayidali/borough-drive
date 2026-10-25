@@ -1,0 +1,12 @@
+{
+  "inspectedImages": [
+    "tenth-west.jpg",
+    "tenth-east.jpg",
+    "first-connection-north.jpg"
+  ],
+  "observations": [
+    "Both Tenth directions and First junction render the new and protected owners with continuous road and crosswalk surfaces. Barriers intentionally close the unassigned adjacent avenues; Tenth east opening follows the next block.",
+    "UI and chase car are present. Some protected context beyond the closed road is visible without drivable ground; it is not a new modeled block or open avenue."
+  ],
+  "limits": "3 of 21 integration captures visually inspected; assertions cover all named routes/boundaries/cameras."
+}

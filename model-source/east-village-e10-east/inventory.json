@@ -1,0 +1,2949 @@
+{
+  "schema": 1,
+  "id": "01-E10-1A",
+  "recorded": "2026-10-25T04:27:14.679323+00:00",
+  "mode": "authorized follow-on implementation; mapped ownership preparation only",
+  "scope": {
+    "street": "East 10th Street",
+    "from": "First Avenue",
+    "to": "Avenue A",
+    "sides": "both",
+    "editableFaces": 36,
+    "newBuildingOwners": 30,
+    "protectedFaces": 11,
+    "limits": "Mapped identities and geometry only; fresh photo inspection and per-feature transcription pending. Corner returns do not open the adjacent avenue block. No unrelated street faces included."
+  },
+  "input": {
+    "path": "dist/reconstruction/neighborhood.json",
+    "sha256": "fd61b108e80eab18d477686b677413ef565f1ab16edc26170751347e22651a5c"
+  },
+  "faces": [
+    {
+      "faceId": "248142887:0",
+      "buildingId": 248142887,
+      "frontageIndex": 0,
+      "mappedAddress": "251 East 10th Street",
+      "mappedName": "",
+      "sourceFace": {
+        "x": 51.291,
+        "z": -9.12,
+        "rx": 0.9999999658518998,
+        "rz": -0.0002613354150927043,
+        "length": 7.653,
+        "street": "East 10th Street"
+      },
+      "sourceFootprint": [
+        [
+          58.944,
+          -9.122
+        ],
+        [
+          51.291,
+          -9.12
+        ],
+        [
+          51.211,
+          -28.844
+        ],
+        [
+          52.387,
+          -28.848
+        ],
+        [
+          52.373,
+          -31.91
+        ],
+        [
+          57.848,
+          -31.923
+        ],
+        [
+          57.862,
+          -28.861
+        ],
+        [
+          58.859,
+          -28.855
+        ],
+        [
+          58.863,
+          -27.686
+        ],
+        [
+          58.915,
+          -16.136
+        ]
+      ],
+      "sourceHeight": 17.39,
+      "role": "primary",
+      "evidenceState": "needs fresh dated observation",
+      "reviewState": "not authored"
+    },
+    {
+      "faceId": "248142888:0",
+      "buildingId": 248142888,
+      "frontageIndex": 0,
+      "mappedAddress": "253 East 10th Street",
+      "mappedName": "",
+      "sourceFace": {
+        "x": 58.944,
+        "z": -9.122,
+        "rx": 0.9999987244282635,
+        "rz": -0.0015972294280766181,
+        "length": 7.513,
+        "street": "East 10th Street"
+      },
+      "sourceFootprint": [
+        [
+          66.381,
+          -27.688
+        ],
+        [
+          65.475,
+          -26.522
+        ],
+        [
+          65.48,
+          -24.258
+        ],
+        [
+          64.872,
+          -23.423
+        ],
+        [
+          64.887,
+          -20.323
+        ],
+        [
+          65.503,
+          -19.545
+        ],
+        [
+          65.515,
+          -17.233
+        ],
+        [
+          66.427,
+          -16.148
+        ],
+        [
+          66.43,
+          -15.258
+        ],
+        [
+          66.457,
+          -9.134
+        ],
+        [
+          58.944,
+          -9.122
+        ],
+        [
+          58.915,
+          -16.136
+        ],
+        [
+          59.931,
+          -17.224
+        ],
+        [
+          59.92,
+          -19.536
+        ],
+        [
+          60.642,
+          -20.319
+        ],
+        [
+          60.627,
+          -23.419
+        ],
+        [
+          59.904,
+          -24.252
+        ],
+        [
+          59.886,
+          -26.522
+        ],
+        [
+          58.863,
+          -27.686
+        ],
+        [
+          58.859,
+          -28.855
+        ],
+        [
+          58.84,
+          -34.029
+        ],
+        [
+          66.352,
+          -34.041
+        ],
+        [
+          66.376,
+          -28.373
+        ]
+      ],
+      "sourceHeight": 18.02,
+      "role": "primary",
+      "evidenceState": "needs fresh dated observation",
+      "reviewState": "not authored"
+    },
+    {
+      "faceId": "248142890:0",
+      "buildingId": 248142890,
+      "frontageIndex": 0,
+      "mappedAddress": "255 East 10th Street",
+      "mappedName": "",
+      "sourceFace": {
+        "x": 66.457,
+        "z": -9.134,
+        "rx": 0.9999993232602912,
+        "rz": -0.0011633911465024505,
+        "length": 7.736,
+        "street": "East 10th Street"
+      },
+      "sourceFootprint": [
+        [
+          74.193,
+          -9.143
+        ],
+        [
+          66.457,
+          -9.134
+        ],
+        [
+          66.43,
+          -15.258
+        ],
+        [
+          67.459,
+          -16.149
+        ],
+        [
+          67.442,
+          -20.814
+        ],
+        [
+          67.868,
+          -21.803
+        ],
+        [
+          67.856,
+          -24.687
+        ],
+        [
+          67.338,
+          -25.291
+        ],
+        [
+          67.332,
+          -27.695
+        ],
+        [
+          66.376,
+          -28.373
+        ],
+        [
+          66.352,
+          -34.041
+        ],
+        [
+          73.307,
+          -34.049
+        ],
+        [
+          73.352,
+          -24.508
+        ],
+        [
+          72.706,
+          -24.506
+        ],
+        [
+          72.712,
+          -21.579
+        ],
+        [
+          73.365,
+          -21.586
+        ],
+        [
+          73.387,
+          -16.147
+        ],
+        [
+          74.166,
+          -15.268
+        ]
+      ],
+      "sourceHeight": 20.77,
+      "role": "primary",
+      "evidenceState": "needs fresh dated observation",
+      "reviewState": "not authored"
+    },
+    {
+      "faceId": "248142891:0",
+      "buildingId": 248142891,
+      "frontageIndex": 0,
+      "mappedAddress": "257 East 10th Street",
+      "mappedName": "",
+      "sourceFace": {
+        "x": 74.193,
+        "z": -9.143,
+        "rx": 0.9999994519133525,
+        "rz": -0.00104698280530113,
+        "length": 7.641,
+        "street": "East 10th Street"
+      },
+      "sourceFootprint": [
+        [
+          81.834,
+          -9.151
+        ],
+        [
+          74.193,
+          -9.143
+        ],
+        [
+          74.166,
+          -15.268
+        ],
+        [
+          74.079,
+          -36.758
+        ],
+        [
+          81.719,
+          -36.765
+        ],
+        [
+          81.732,
+          -32.976
+        ]
+      ],
+      "sourceHeight": 17.3,
+      "role": "primary",
+      "evidenceState": "needs fresh dated observation",
+      "reviewState": "not authored"
+    },
+    {
+      "faceId": "248142892:0",
+      "buildingId": 248142892,
+      "frontageIndex": 0,
+      "mappedAddress": "259 East 10th Street",
+      "mappedName": "",
+      "sourceFace": {
+        "x": 81.834,
+        "z": -9.151,
+        "rx": 0.9999999250587137,
+        "rz": -0.0003871466995968843,
+        "length": 7.749,
+        "street": "East 10th Street"
+      },
+      "sourceFootprint": [
+        [
+          89.511,
+          -26.208
+        ],
+        [
+          88.465,
+          -25.346
+        ],
+        [
+          88.494,
+          -17.274
+        ],
+        [
+          89.553,
+          -16.36
+        ],
+        [
+          89.583,
+          -9.154
+        ],
+        [
+          81.834,
+          -9.151
+        ],
+        [
+          81.732,
+          -32.976
+        ],
+        [
+          89.488,
+          -32.984
+        ]
+      ],
+      "sourceHeight": 17.21,
+      "role": "primary",
+      "evidenceState": "needs fresh dated observation",
+      "reviewState": "not authored"
+    },
+    {
+      "faceId": "248142893:0",
+      "buildingId": 248142893,
+      "frontageIndex": 0,
+      "mappedAddress": "260 East 10th Street",
+      "mappedName": "",
+      "sourceFace": {
+        "x": 76.241,
+        "z": 9.155,
+        "rx": -0.9999896695815662,
+        "rz": 0.004545407589007225,
+        "length": 8.8,
+        "street": "East 10th Street"
+      },
+      "sourceFootprint": [
+        [
+          76.297,
+          16.651
+        ],
+        [
+          75.026,
+          16.657
+        ],
+        [
+          75.046,
+          19.245
+        ],
+        [
+          76.317,
+          19.239
+        ],
+        [
+          76.346,
+          22.763
+        ],
+        [
+          74.478,
+          22.771
+        ],
+        [
+          74.508,
+          27.059
+        ],
+        [
+          76.376,
+          27.052
+        ],
+        [
+          76.425,
+          33.546
+        ],
+        [
+          68.354,
+          33.577
+        ],
+        [
+          68.304,
+          27.083
+        ],
+        [
+          69.228,
+          27.078
+        ],
+        [
+          69.191,
+          22.793
+        ],
+        [
+          67.547,
+          22.804
+        ],
+        [
+          67.543,
+          22.207
+        ],
+        [
+          67.441,
+          9.195
+        ],
+        [
+          76.241,
+          9.155
+        ],
+        [
+          76.258,
+          10.852
+        ]
+      ],
+      "sourceHeight": 18.71,
+      "role": "primary",
+      "evidenceState": "needs fresh dated observation",
+      "reviewState": "not authored"
+    },
+    {
+      "faceId": "248142894:0",
+      "buildingId": 248142894,
+      "frontageIndex": 0,
+      "mappedAddress": "261 East 10th Street",
+      "mappedName": "",
+      "sourceFace": {
+        "x": 89.583,
+        "z": -9.154,
+        "rx": 0.999999580261222,
+        "rz": -0.0009162299819146894,
+        "length": 7.64,
+        "street": "East 10th Street"
+      },
+      "sourceFootprint": [
+        [
+          97.223,
+          -9.161
+        ],
+        [
+          89.583,
+          -9.154
+        ],
+        [
+          89.553,
+          -16.36
+        ],
+        [
+          90.423,
+          -17.277
+        ],
+        [
+          90.388,
+          -25.358
+        ],
+        [
+          89.511,
+          -26.208
+        ],
+        [
+          89.488,
+          -32.984
+        ],
+        [
+          97.121,
+          -32.987
+        ],
+        [
+          97.136,
+          -29.888
+        ],
+        [
+          97.201,
+          -14.079
+        ]
+      ],
+      "sourceHeight": 16.85,
+      "role": "primary",
+      "evidenceState": "needs fresh dated observation",
+      "reviewState": "not authored"
+    },
+    {
+      "faceId": "248142895:0",
+      "buildingId": 248142895,
+      "frontageIndex": 0,
+      "mappedAddress": "263 East 10th Street",
+      "mappedName": "",
+      "sourceFace": {
+        "x": 97.223,
+        "z": -9.161,
+        "rx": 0.9999996781145294,
+        "rz": -0.0008023533122074629,
+        "length": 7.478,
+        "street": "East 10th Street"
+      },
+      "sourceFootprint": [
+        [
+          104.614,
+          -29.893
+        ],
+        [
+          103.825,
+          -28.639
+        ],
+        [
+          103.837,
+          -25.093
+        ],
+        [
+          102.601,
+          -25.093
+        ],
+        [
+          102.615,
+          -21.407
+        ],
+        [
+          103.853,
+          -21.42
+        ],
+        [
+          103.874,
+          -15.305
+        ],
+        [
+          104.686,
+          -14.088
+        ],
+        [
+          104.701,
+          -9.167
+        ],
+        [
+          97.223,
+          -9.161
+        ],
+        [
+          97.201,
+          -14.079
+        ],
+        [
+          97.924,
+          -15.296
+        ],
+        [
+          97.869,
+          -28.639
+        ],
+        [
+          97.136,
+          -29.888
+        ],
+        [
+          97.121,
+          -32.987
+        ],
+        [
+          97.115,
+          -34.716
+        ],
+        [
+          104.593,
+          -34.722
+        ]
+      ],
+      "sourceHeight": 17.0,
+      "role": "primary",
+      "evidenceState": "needs fresh dated observation",
+      "reviewState": "not authored"
+    },
+    {
+      "faceId": "248142896:0",
+      "buildingId": 248142896,
+      "frontageIndex": 0,
+      "mappedAddress": "264 East 10th Street",
+      "mappedName": "",
+      "sourceFace": {
+        "x": 83.998,
+        "z": 10.815,
+        "rx": -0.9999885742665596,
+        "rz": 0.004780307137966857,
+        "length": 7.74,
+        "street": "East 10th Street"
+      },
+      "sourceFootprint": [
+        [
+          84.098,
+          24.796
+        ],
+        [
+          76.358,
+          24.833
+        ],
+        [
+          76.346,
+          22.763
+        ],
+        [
+          76.317,
+          19.239
+        ],
+        [
+          76.297,
+          16.651
+        ],
+        [
+          76.258,
+          10.852
+        ],
+        [
+          83.998,
+          10.815
+        ]
+      ],
+      "sourceHeight": 16.48,
+      "role": "primary",
+      "evidenceState": "needs fresh dated observation",
+      "reviewState": "not authored"
+    },
+    {
+      "faceId": "248142897:0",
+      "buildingId": 248142897,
+      "frontageIndex": 0,
+      "mappedAddress": "265 East 10th Street",
+      "mappedName": "EastSide Story",
+      "sourceFace": {
+        "x": 104.701,
+        "z": -9.167,
+        "rx": 0.9999991343501545,
+        "rz": -0.0013157883346712265,
+        "length": 7.6,
+        "street": "East 10th Street"
+      },
+      "sourceFootprint": [
+        [
+          112.301,
+          -9.177
+        ],
+        [
+          104.701,
+          -9.167
+        ],
+        [
+          104.686,
+          -14.088
+        ],
+        [
+          104.614,
+          -29.893
+        ],
+        [
+          104.593,
+          -34.722
+        ],
+        [
+          104.591,
+          -34.899
+        ],
+        [
+          112.191,
+          -34.909
+        ],
+        [
+          112.22,
+          -28.99
+        ]
+      ],
+      "sourceHeight": 17.18,
+      "role": "primary",
+      "evidenceState": "needs fresh dated observation",
+      "reviewState": "not authored"
+    },
+    {
+      "faceId": "248142898:0",
+      "buildingId": 248142898,
+      "frontageIndex": 0,
+      "mappedAddress": "266 East 10th Street",
+      "mappedName": "",
+      "sourceFace": {
+        "x": 91.369,
+        "z": 10.792,
+        "rx": -0.9999951317857574,
+        "rz": 0.003120321263203381,
+        "length": 7.371,
+        "street": "East 10th Street"
+      },
+      "sourceFootprint": [
+        [
+          91.539,
+          33.09
+        ],
+        [
+          84.16,
+          33.117
+        ],
+        [
+          84.098,
+          24.796
+        ],
+        [
+          83.998,
+          10.815
+        ],
+        [
+          91.369,
+          10.792
+        ]
+      ],
+      "sourceHeight": 18.59,
+      "role": "primary",
+      "evidenceState": "needs fresh dated observation",
+      "reviewState": "not authored"
+    },
+    {
+      "faceId": "248142899:0",
+      "buildingId": 248142899,
+      "frontageIndex": 0,
+      "mappedAddress": "267 East 10th Street",
+      "mappedName": "",
+      "sourceFace": {
+        "x": 112.301,
+        "z": -9.177,
+        "rx": 0.9999999658608222,
+        "rz": -0.00026130127145575037,
+        "length": 7.654,
+        "street": "East 10th Street"
+      },
+      "sourceFootprint": [
+        [
+          119.955,
+          -9.179
+        ],
+        [
+          112.301,
+          -9.177
+        ],
+        [
+          112.22,
+          -28.99
+        ],
+        [
+          119.868,
+          -29.001
+        ]
+      ],
+      "sourceHeight": 17.11,
+      "role": "primary",
+      "evidenceState": "needs fresh dated observation",
+      "reviewState": "not authored"
+    },
+    {
+      "faceId": "248142900:0",
+      "buildingId": 248142900,
+      "frontageIndex": 0,
+      "mappedAddress": "268 East 10th Street",
+      "mappedName": "",
+      "sourceFace": {
+        "x": 99.129,
+        "z": 10.757,
+        "rx": -0.9999898287102916,
+        "rz": 0.004510263402688186,
+        "length": 7.76,
+        "street": "East 10th Street"
+      },
+      "sourceFootprint": [
+        [
+          99.319,
+          35.782
+        ],
+        [
+          91.552,
+          35.822
+        ],
+        [
+          91.539,
+          33.09
+        ],
+        [
+          91.369,
+          10.792
+        ],
+        [
+          99.129,
+          10.757
+        ],
+        [
+          99.254,
+          27.297
+        ],
+        [
+          99.286,
+          31.33
+        ]
+      ],
+      "sourceHeight": 16.97,
+      "role": "primary",
+      "evidenceState": "needs fresh dated observation",
+      "reviewState": "not authored"
+    },
+    {
+      "faceId": "248142901:0",
+      "buildingId": 248142901,
+      "frontageIndex": 0,
+      "mappedAddress": "269 East 10th Street",
+      "mappedName": "",
+      "sourceFace": {
+        "x": 119.955,
+        "z": -9.179,
+        "rx": 0.9999992898818744,
+        "rz": -0.001191736441861388,
+        "length": 7.552,
+        "street": "East 10th Street"
+      },
+      "sourceFootprint": [
+        [
+          127.507,
+          -9.188
+        ],
+        [
+          119.955,
+          -9.179
+        ],
+        [
+          119.868,
+          -29.001
+        ],
+        [
+          127.426,
+          -29.001
+        ]
+      ],
+      "sourceHeight": 16.22,
+      "role": "primary",
+      "evidenceState": "needs fresh dated observation",
+      "reviewState": "not authored"
+    },
+    {
+      "faceId": "248142902:0",
+      "buildingId": 248142902,
+      "frontageIndex": 0,
+      "mappedAddress": "270 East 10th Street",
+      "mappedName": "",
+      "sourceFace": {
+        "x": 106.4,
+        "z": 10.726,
+        "rx": -0.9999909113541288,
+        "rz": 0.004263473834682546,
+        "length": 7.271,
+        "street": "East 10th Street"
+      },
+      "sourceFootprint": [
+        [
+          106.517,
+          27.271
+        ],
+        [
+          99.254,
+          27.297
+        ],
+        [
+          99.129,
+          10.757
+        ],
+        [
+          106.4,
+          10.726
+        ]
+      ],
+      "sourceHeight": 16.47,
+      "role": "primary",
+      "evidenceState": "needs fresh dated observation",
+      "reviewState": "not authored"
+    },
+    {
+      "faceId": "248142903:0",
+      "buildingId": 248142903,
+      "frontageIndex": 0,
+      "mappedAddress": "271 East 10th Street",
+      "mappedName": "",
+      "sourceFace": {
+        "x": 127.507,
+        "z": -9.188,
+        "rx": 0.9999994587350514,
+        "rz": -0.0010404468292209048,
+        "length": 7.689,
+        "street": "East 10th Street"
+      },
+      "sourceFootprint": [
+        [
+          135.196,
+          -9.196
+        ],
+        [
+          127.507,
+          -9.188
+        ],
+        [
+          127.426,
+          -29.001
+        ],
+        [
+          127.411,
+          -31.285
+        ],
+        [
+          135.1,
+          -31.293
+        ]
+      ],
+      "sourceHeight": 16.52,
+      "role": "primary",
+      "evidenceState": "needs fresh dated observation",
+      "reviewState": "not authored"
+    },
+    {
+      "faceId": "248142904:0",
+      "buildingId": 248142904,
+      "frontageIndex": 0,
+      "mappedAddress": "272 East 10th Street",
+      "mappedName": "",
+      "sourceFace": {
+        "x": 114.288,
+        "z": 10.696,
+        "rx": -0.9999927677405356,
+        "rz": 0.003803217930047824,
+        "length": 7.888,
+        "street": "East 10th Street"
+      },
+      "sourceFootprint": [
+        [
+          114.413,
+          27.236
+        ],
+        [
+          106.517,
+          27.271
+        ],
+        [
+          106.4,
+          10.726
+        ],
+        [
+          114.288,
+          10.696
+        ],
+        [
+          114.389,
+          24.677
+        ]
+      ],
+      "sourceHeight": 18.29,
+      "role": "primary",
+      "evidenceState": "needs fresh dated observation",
+      "reviewState": "not authored"
+    },
+    {
+      "faceId": "248142905:0",
+      "buildingId": 248142905,
+      "frontageIndex": 0,
+      "mappedAddress": "273 East 10th Street",
+      "mappedName": "",
+      "sourceFace": {
+        "x": 135.196,
+        "z": -9.196,
+        "rx": 0.9999999913571425,
+        "rz": -0.0001314751500600301,
+        "length": 7.606,
+        "street": "East 10th Street"
+      },
+      "sourceFootprint": [
+        [
+          142.802,
+          -9.197
+        ],
+        [
+          135.196,
+          -9.196
+        ],
+        [
+          135.1,
+          -31.293
+        ],
+        [
+          142.707,
+          -31.307
+        ],
+        [
+          142.717,
+          -29.033
+        ]
+      ],
+      "sourceHeight": 16.81,
+      "role": "primary",
+      "evidenceState": "needs fresh dated observation",
+      "reviewState": "not authored"
+    },
+    {
+      "faceId": "248142906:0",
+      "buildingId": 248142906,
+      "frontageIndex": 0,
+      "mappedAddress": "274 East 10th Street",
+      "mappedName": "",
+      "sourceFace": {
+        "x": 121.872,
+        "z": 10.326,
+        "rx": -0.9999927007591639,
+        "rz": 0.003820788975232629,
+        "length": 7.59,
+        "street": "East 10th Street"
+      },
+      "sourceFootprint": [
+        [
+          121.98,
+          24.633
+        ],
+        [
+          114.389,
+          24.677
+        ],
+        [
+          114.288,
+          10.696
+        ],
+        [
+          114.282,
+          10.355
+        ],
+        [
+          121.872,
+          10.326
+        ]
+      ],
+      "sourceHeight": 17.3,
+      "role": "primary",
+      "evidenceState": "needs fresh dated observation",
+      "reviewState": "not authored"
+    },
+    {
+      "faceId": "248142907:0",
+      "buildingId": 248142907,
+      "frontageIndex": 0,
+      "mappedAddress": "275 East 10th Street",
+      "mappedName": "",
+      "sourceFace": {
+        "x": 142.802,
+        "z": -9.197,
+        "rx": 0.9999979849887122,
+        "rz": -0.002007490601556643,
+        "length": 7.472,
+        "street": "East 10th Street"
+      },
+      "sourceFootprint": [
+        [
+          150.274,
+          -9.212
+        ],
+        [
+          142.802,
+          -9.197
+        ],
+        [
+          142.717,
+          -29.033
+        ],
+        [
+          150.182,
+          -29.044
+        ]
+      ],
+      "sourceHeight": 16.83,
+      "role": "primary",
+      "evidenceState": "needs fresh dated observation",
+      "reviewState": "not authored"
+    },
+    {
+      "faceId": "248142908:0",
+      "buildingId": 248142908,
+      "frontageIndex": 0,
+      "mappedAddress": "276 East 10th Street",
+      "mappedName": "",
+      "sourceFace": {
+        "x": 129.406,
+        "z": 10.301,
+        "rx": -0.9999944945198207,
+        "rz": 0.003318272147995202,
+        "length": 7.534,
+        "street": "East 10th Street"
+      },
+      "sourceFootprint": [
+        [
+          129.52,
+          25.382
+        ],
+        [
+          121.986,
+          25.407
+        ],
+        [
+          121.98,
+          24.633
+        ],
+        [
+          121.872,
+          10.326
+        ],
+        [
+          129.406,
+          10.301
+        ]
+      ],
+      "sourceHeight": 17.81,
+      "role": "primary",
+      "evidenceState": "needs fresh dated observation",
+      "reviewState": "not authored"
+    },
+    {
+      "faceId": "248142909:0",
+      "buildingId": 248142909,
+      "frontageIndex": 0,
+      "mappedAddress": "277 East 10th Street",
+      "mappedName": "",
+      "sourceFace": {
+        "x": 150.274,
+        "z": -9.212,
+        "rx": 0.9999999919965703,
+        "rz": -0.00012651821761083205,
+        "length": 7.904,
+        "street": "East 10th Street"
+      },
+      "sourceFootprint": [
+        [
+          158.178,
+          -9.213
+        ],
+        [
+          150.274,
+          -9.212
+        ],
+        [
+          150.182,
+          -29.044
+        ],
+        [
+          158.087,
+          -29.045
+        ],
+        [
+          158.093,
+          -28.323
+        ]
+      ],
+      "sourceHeight": 16.53,
+      "role": "primary",
+      "evidenceState": "needs fresh dated observation",
+      "reviewState": "not authored"
+    },
+    {
+      "faceId": "248142910:0",
+      "buildingId": 248142910,
+      "frontageIndex": 0,
+      "mappedAddress": "278 East 10th Street",
+      "mappedName": "",
+      "sourceFace": {
+        "x": 137.094,
+        "z": 9.389,
+        "rx": -0.99999429629348,
+        "rz": 0.003377481385246851,
+        "length": 7.698,
+        "street": "East 10th Street"
+      },
+      "sourceFootprint": [
+        [
+          137.264,
+          33.164
+        ],
+        [
+          129.58,
+          33.196
+        ],
+        [
+          129.52,
+          25.382
+        ],
+        [
+          129.406,
+          10.301
+        ],
+        [
+          129.396,
+          9.415
+        ],
+        [
+          137.094,
+          9.389
+        ],
+        [
+          137.152,
+          17.165
+        ],
+        [
+          137.213,
+          25.347
+        ]
+      ],
+      "sourceHeight": 16.95,
+      "role": "primary",
+      "evidenceState": "needs fresh dated observation",
+      "reviewState": "not authored"
+    },
+    {
+      "faceId": "248142911:0",
+      "buildingId": 248142911,
+      "frontageIndex": 0,
+      "mappedAddress": "279 East 10th Street",
+      "mappedName": "",
+      "sourceFace": {
+        "x": 158.178,
+        "z": -9.213,
+        "rx": 0.999999780478901,
+        "rz": -0.0006626025579638605,
+        "length": 7.546,
+        "street": "East 10th Street"
+      },
+      "sourceFootprint": [
+        [
+          165.724,
+          -9.218
+        ],
+        [
+          158.178,
+          -9.213
+        ],
+        [
+          158.093,
+          -28.323
+        ],
+        [
+          165.645,
+          -28.332
+        ],
+        [
+          165.685,
+          -18.228
+        ]
+      ],
+      "sourceHeight": 17.0,
+      "role": "primary",
+      "evidenceState": "needs fresh dated observation",
+      "reviewState": "not authored"
+    },
+    {
+      "faceId": "248142912:0",
+      "buildingId": 248142912,
+      "frontageIndex": 0,
+      "mappedAddress": "280 East 10th Street",
+      "mappedName": "",
+      "sourceFace": {
+        "x": 152.253,
+        "z": 8.513,
+        "rx": -0.9999908156456516,
+        "rz": 0.0042858633137918285,
+        "length": 15.166,
+        "street": "East 10th Street"
+      },
+      "sourceFootprint": [
+        [
+          152.304,
+          16.242
+        ],
+        [
+          149.491,
+          16.252
+        ],
+        [
+          148.586,
+          16.602
+        ],
+        [
+          148.604,
+          18.63
+        ],
+        [
+          148.262,
+          19.839
+        ],
+        [
+          148.314,
+          26.268
+        ],
+        [
+          152.377,
+          26.25
+        ],
+        [
+          152.414,
+          31.211
+        ],
+        [
+          152.431,
+          33.099
+        ],
+        [
+          137.264,
+          33.164
+        ],
+        [
+          137.213,
+          25.347
+        ],
+        [
+          141.221,
+          25.334
+        ],
+        [
+          141.16,
+          17.152
+        ],
+        [
+          137.152,
+          17.165
+        ],
+        [
+          137.094,
+          9.389
+        ],
+        [
+          137.087,
+          8.578
+        ],
+        [
+          152.253,
+          8.513
+        ],
+        [
+          152.255,
+          9.505
+        ]
+      ],
+      "sourceHeight": 19.72,
+      "role": "primary",
+      "evidenceState": "needs fresh dated observation",
+      "reviewState": "not authored"
+    },
+    {
+      "faceId": "248142913:0",
+      "buildingId": 248142913,
+      "frontageIndex": 0,
+      "mappedAddress": "284 East 10th Street",
+      "mappedName": "",
+      "sourceFace": {
+        "x": 159.995,
+        "z": 9.468,
+        "rx": -0.9999885742665596,
+        "rz": 0.004780307137966857,
+        "length": 7.74,
+        "street": "East 10th Street"
+      },
+      "sourceFootprint": [
+        [
+          160.154,
+          31.174
+        ],
+        [
+          152.414,
+          31.211
+        ],
+        [
+          152.377,
+          26.25
+        ],
+        [
+          152.304,
+          16.242
+        ],
+        [
+          152.255,
+          9.505
+        ],
+        [
+          159.995,
+          9.468
+        ],
+        [
+          160.117,
+          26.214
+        ]
+      ],
+      "sourceHeight": 16.99,
+      "role": "primary",
+      "evidenceState": "needs fresh dated observation",
+      "reviewState": "not authored"
+    },
+    {
+      "faceId": "248142914:0",
+      "buildingId": 248142914,
+      "frontageIndex": 0,
+      "mappedAddress": "286 East 10th Street",
+      "mappedName": "",
+      "sourceFace": {
+        "x": 167.477,
+        "z": 9.435,
+        "rx": -0.9999902735101015,
+        "rz": 0.004410542505457474,
+        "length": 7.482,
+        "street": "East 10th Street"
+      },
+      "sourceFootprint": [
+        [
+          167.599,
+          26.18
+        ],
+        [
+          160.117,
+          26.214
+        ],
+        [
+          159.995,
+          9.468
+        ],
+        [
+          167.477,
+          9.435
+        ],
+        [
+          167.503,
+          12.503
+        ],
+        [
+          167.569,
+          21.7
+        ],
+        [
+          167.589,
+          25.434
+        ]
+      ],
+      "sourceHeight": 19.78,
+      "role": "primary",
+      "evidenceState": "needs fresh dated observation",
+      "reviewState": "not authored"
+    },
+    {
+      "faceId": "248142953:0",
+      "buildingId": 248142953,
+      "frontageIndex": 0,
+      "mappedAddress": "288 East 10th Street",
+      "mappedName": "St. Nicholas of Myra Orthodox Church",
+      "sourceFace": {
+        "x": 171.383,
+        "z": 12.485,
+        "rx": -0.9999892392001587,
+        "rz": 0.004639125336495729,
+        "length": 3.88,
+        "street": "East 10th Street"
+      },
+      "sourceFootprint": [
+        [
+          188.0,
+          25.357
+        ],
+        [
+          187.97,
+          22.317
+        ],
+        [
+          182.282,
+          22.346
+        ],
+        [
+          182.306,
+          25.377
+        ],
+        [
+          175.43,
+          25.405
+        ],
+        [
+          171.259,
+          25.419
+        ],
+        [
+          171.233,
+          21.676
+        ],
+        [
+          167.569,
+          21.7
+        ],
+        [
+          167.503,
+          12.503
+        ],
+        [
+          171.383,
+          12.485
+        ],
+        [
+          171.362,
+          9.427
+        ],
+        [
+          182.269,
+          9.374
+        ],
+        [
+          182.293,
+          12.265
+        ],
+        [
+          189.848,
+          12.242
+        ],
+        [
+          189.831,
+          9.347
+        ],
+        [
+          194.615,
+          9.323
+        ],
+        [
+          194.616,
+          9.845
+        ],
+        [
+          201.552,
+          9.822
+        ],
+        [
+          201.672,
+          25.295
+        ]
+      ],
+      "sourceHeight": 31.4,
+      "role": "primary",
+      "evidenceState": "needs fresh dated observation",
+      "reviewState": "not authored"
+    },
+    {
+      "faceId": "248142953:1",
+      "buildingId": 248142953,
+      "frontageIndex": 1,
+      "mappedAddress": "288 East 10th Street",
+      "mappedName": "St. Nicholas of Myra Orthodox Church",
+      "sourceFace": {
+        "x": 182.269,
+        "z": 9.374,
+        "rx": -0.9999881939824009,
+        "rz": 0.004859207323834808,
+        "length": 10.907,
+        "street": "East 10th Street"
+      },
+      "sourceFootprint": [
+        [
+          188.0,
+          25.357
+        ],
+        [
+          187.97,
+          22.317
+        ],
+        [
+          182.282,
+          22.346
+        ],
+        [
+          182.306,
+          25.377
+        ],
+        [
+          175.43,
+          25.405
+        ],
+        [
+          171.259,
+          25.419
+        ],
+        [
+          171.233,
+          21.676
+        ],
+        [
+          167.569,
+          21.7
+        ],
+        [
+          167.503,
+          12.503
+        ],
+        [
+          171.383,
+          12.485
+        ],
+        [
+          171.362,
+          9.427
+        ],
+        [
+          182.269,
+          9.374
+        ],
+        [
+          182.293,
+          12.265
+        ],
+        [
+          189.848,
+          12.242
+        ],
+        [
+          189.831,
+          9.347
+        ],
+        [
+          194.615,
+          9.323
+        ],
+        [
+          194.616,
+          9.845
+        ],
+        [
+          201.552,
+          9.822
+        ],
+        [
+          201.672,
+          25.295
+        ]
+      ],
+      "sourceHeight": 31.4,
+      "role": "primary",
+      "evidenceState": "needs fresh dated observation",
+      "reviewState": "not authored"
+    },
+    {
+      "faceId": "248142953:2",
+      "buildingId": 248142953,
+      "frontageIndex": 2,
+      "mappedAddress": "288 East 10th Street",
+      "mappedName": "St. Nicholas of Myra Orthodox Church",
+      "sourceFace": {
+        "x": 189.848,
+        "z": 12.242,
+        "rx": -0.9999953660246396,
+        "rz": 0.0030443273882946893,
+        "length": 7.555,
+        "street": "East 10th Street"
+      },
+      "sourceFootprint": [
+        [
+          188.0,
+          25.357
+        ],
+        [
+          187.97,
+          22.317
+        ],
+        [
+          182.282,
+          22.346
+        ],
+        [
+          182.306,
+          25.377
+        ],
+        [
+          175.43,
+          25.405
+        ],
+        [
+          171.259,
+          25.419
+        ],
+        [
+          171.233,
+          21.676
+        ],
+        [
+          167.569,
+          21.7
+        ],
+        [
+          167.503,
+          12.503
+        ],
+        [
+          171.383,
+          12.485
+        ],
+        [
+          171.362,
+          9.427
+        ],
+        [
+          182.269,
+          9.374
+        ],
+        [
+          182.293,
+          12.265
+        ],
+        [
+          189.848,
+          12.242
+        ],
+        [
+          189.831,
+          9.347
+        ],
+        [
+          194.615,
+          9.323
+        ],
+        [
+          194.616,
+          9.845
+        ],
+        [
+          201.552,
+          9.822
+        ],
+        [
+          201.672,
+          25.295
+        ]
+      ],
+      "sourceHeight": 31.4,
+      "role": "primary",
+      "evidenceState": "needs fresh dated observation",
+      "reviewState": "not authored"
+    },
+    {
+      "faceId": "248142953:3",
+      "buildingId": 248142953,
+      "frontageIndex": 3,
+      "mappedAddress": "288 East 10th Street",
+      "mappedName": "St. Nicholas of Myra Orthodox Church",
+      "sourceFace": {
+        "x": 194.615,
+        "z": 9.323,
+        "rx": -0.9999874164856616,
+        "rz": 0.0050166592800282,
+        "length": 4.784,
+        "street": "East 10th Street"
+      },
+      "sourceFootprint": [
+        [
+          188.0,
+          25.357
+        ],
+        [
+          187.97,
+          22.317
+        ],
+        [
+          182.282,
+          22.346
+        ],
+        [
+          182.306,
+          25.377
+        ],
+        [
+          175.43,
+          25.405
+        ],
+        [
+          171.259,
+          25.419
+        ],
+        [
+          171.233,
+          21.676
+        ],
+        [
+          167.569,
+          21.7
+        ],
+        [
+          167.503,
+          12.503
+        ],
+        [
+          171.383,
+          12.485
+        ],
+        [
+          171.362,
+          9.427
+        ],
+        [
+          182.269,
+          9.374
+        ],
+        [
+          182.293,
+          12.265
+        ],
+        [
+          189.848,
+          12.242
+        ],
+        [
+          189.831,
+          9.347
+        ],
+        [
+          194.615,
+          9.323
+        ],
+        [
+          194.616,
+          9.845
+        ],
+        [
+          201.552,
+          9.822
+        ],
+        [
+          201.672,
+          25.295
+        ]
+      ],
+      "sourceHeight": 31.4,
+      "role": "primary",
+      "evidenceState": "needs fresh dated observation",
+      "reviewState": "not authored"
+    },
+    {
+      "faceId": "248142953:4",
+      "buildingId": 248142953,
+      "frontageIndex": 4,
+      "mappedAddress": "288 East 10th Street",
+      "mappedName": "St. Nicholas of Myra Orthodox Church",
+      "sourceFace": {
+        "x": 201.552,
+        "z": 9.822,
+        "rx": -0.9999945020102505,
+        "rz": 0.0033160140637597028,
+        "length": 6.936,
+        "street": "East 10th Street"
+      },
+      "sourceFootprint": [
+        [
+          188.0,
+          25.357
+        ],
+        [
+          187.97,
+          22.317
+        ],
+        [
+          182.282,
+          22.346
+        ],
+        [
+          182.306,
+          25.377
+        ],
+        [
+          175.43,
+          25.405
+        ],
+        [
+          171.259,
+          25.419
+        ],
+        [
+          171.233,
+          21.676
+        ],
+        [
+          167.569,
+          21.7
+        ],
+        [
+          167.503,
+          12.503
+        ],
+        [
+          171.383,
+          12.485
+        ],
+        [
+          171.362,
+          9.427
+        ],
+        [
+          182.269,
+          9.374
+        ],
+        [
+          182.293,
+          12.265
+        ],
+        [
+          189.848,
+          12.242
+        ],
+        [
+          189.831,
+          9.347
+        ],
+        [
+          194.615,
+          9.323
+        ],
+        [
+          194.616,
+          9.845
+        ],
+        [
+          201.552,
+          9.822
+        ],
+        [
+          201.672,
+          25.295
+        ]
+      ],
+      "sourceHeight": 31.4,
+      "role": "primary",
+      "evidenceState": "needs fresh dated observation",
+      "reviewState": "not authored"
+    },
+    {
+      "faceId": "248142953:5",
+      "buildingId": 248142953,
+      "frontageIndex": 5,
+      "mappedAddress": "288 East 10th Street",
+      "mappedName": "St. Nicholas of Myra Orthodox Church",
+      "sourceFace": {
+        "x": 201.672,
+        "z": 25.295,
+        "rx": -0.007755211746086152,
+        "rz": -0.9999699278932208,
+        "length": 15.473,
+        "street": "Avenue A"
+      },
+      "sourceFootprint": [
+        [
+          188.0,
+          25.357
+        ],
+        [
+          187.97,
+          22.317
+        ],
+        [
+          182.282,
+          22.346
+        ],
+        [
+          182.306,
+          25.377
+        ],
+        [
+          175.43,
+          25.405
+        ],
+        [
+          171.259,
+          25.419
+        ],
+        [
+          171.233,
+          21.676
+        ],
+        [
+          167.569,
+          21.7
+        ],
+        [
+          167.503,
+          12.503
+        ],
+        [
+          171.383,
+          12.485
+        ],
+        [
+          171.362,
+          9.427
+        ],
+        [
+          182.269,
+          9.374
+        ],
+        [
+          182.293,
+          12.265
+        ],
+        [
+          189.848,
+          12.242
+        ],
+        [
+          189.831,
+          9.347
+        ],
+        [
+          194.615,
+          9.323
+        ],
+        [
+          194.616,
+          9.845
+        ],
+        [
+          201.552,
+          9.822
+        ],
+        [
+          201.672,
+          25.295
+        ]
+      ],
+      "sourceHeight": 31.4,
+      "role": "same-parcel-corner-return",
+      "evidenceState": "needs fresh dated observation",
+      "reviewState": "not authored"
+    },
+    {
+      "faceId": "248142975:1",
+      "buildingId": 248142975,
+      "frontageIndex": 1,
+      "mappedAddress": "287 East 10th Street",
+      "mappedName": "",
+      "sourceFace": {
+        "x": 165.724,
+        "z": -9.218,
+        "rx": 0.9999994515280746,
+        "rz": -0.001047350729233975,
+        "length": 36.282,
+        "street": "East 10th Street"
+      },
+      "sourceFootprint": [
+        [
+          201.916,
+          -30.541
+        ],
+        [
+          202.006,
+          -9.256
+        ],
+        [
+          165.724,
+          -9.218
+        ],
+        [
+          165.685,
+          -18.228
+        ],
+        [
+          167.722,
+          -18.227
+        ],
+        [
+          167.674,
+          -30.517
+        ],
+        [
+          172.876,
+          -30.518
+        ],
+        [
+          178.791,
+          -30.521
+        ]
+      ],
+      "sourceHeight": 27.1,
+      "role": "primary",
+      "evidenceState": "needs fresh dated observation",
+      "reviewState": "not authored"
+    },
+    {
+      "faceId": "248142975:0",
+      "buildingId": 248142975,
+      "frontageIndex": 0,
+      "mappedAddress": "287 East 10th Street",
+      "mappedName": "",
+      "sourceFace": {
+        "x": 202.006,
+        "z": -9.256,
+        "rx": -0.004228292011557781,
+        "rz": -0.9999910607333773,
+        "length": 21.285,
+        "street": "Avenue A"
+      },
+      "sourceFootprint": [
+        [
+          201.916,
+          -30.541
+        ],
+        [
+          202.006,
+          -9.256
+        ],
+        [
+          165.724,
+          -9.218
+        ],
+        [
+          165.685,
+          -18.228
+        ],
+        [
+          167.722,
+          -18.227
+        ],
+        [
+          167.674,
+          -30.517
+        ],
+        [
+          172.876,
+          -30.518
+        ],
+        [
+          178.791,
+          -30.521
+        ]
+      ],
+      "sourceHeight": 27.1,
+      "role": "same-parcel-corner-return",
+      "evidenceState": "needs fresh dated observation",
+      "reviewState": "not authored"
+    },
+    {
+      "faceId": "-577810:0",
+      "buildingId": -577810,
+      "frontageIndex": 0,
+      "mappedAddress": "256 East 10th Street",
+      "mappedName": "",
+      "sourceFace": {
+        "x": 67.442,
+        "z": 9.19,
+        "rx": -0.9999916853314721,
+        "rz": 0.004077899940182737,
+        "length": 13.242,
+        "street": "East 10th Street"
+      },
+      "sourceFootprint": [
+        [
+          67.442,
+          9.19
+        ],
+        [
+          67.478,
+          13.971
+        ],
+        [
+          67.538,
+          22.203
+        ],
+        [
+          65.333,
+          22.212
+        ],
+        [
+          65.343,
+          23.491
+        ],
+        [
+          67.548,
+          23.482
+        ],
+        [
+          67.618,
+          32.966
+        ],
+        [
+          64.905,
+          32.977
+        ],
+        [
+          54.376,
+          33.021
+        ],
+        [
+          54.361,
+          31.052
+        ],
+        [
+          54.361,
+          31.024
+        ],
+        [
+          54.33,
+          26.902
+        ],
+        [
+          55.258,
+          26.104
+        ],
+        [
+          55.239,
+          23.499
+        ],
+        [
+          56.608,
+          23.494
+        ],
+        [
+          56.593,
+          21.465
+        ],
+        [
+          55.534,
+          21.469
+        ],
+        [
+          55.495,
+          16.119
+        ],
+        [
+          54.244,
+          15.174
+        ],
+        [
+          54.212,
+          10.771
+        ],
+        [
+          54.2,
+          9.244
+        ]
+      ],
+      "sourceHeight": 21.02,
+      "role": "primary",
+      "evidenceState": "needs fresh dated observation",
+      "reviewState": "not authored"
+    }
+  ],
+  "protectedFaces": [
+    {
+      "faceId": "248142862:0",
+      "buildingId": 248142862,
+      "frontageIndex": 0,
+      "mappedAddress": "160 1st Avenue",
+      "mappedName": "",
+      "sourceFace": {
+        "x": 31.443,
+        "z": 17.851,
+        "rx": -0.9999925258095996,
+        "rz": 0.00386630636877485,
+        "length": 3.621,
+        "street": "East 10th Street"
+      },
+      "sourceFootprint": [
+        [
+          22.112,
+          17.091
+        ],
+        [
+          27.004,
+          17.071
+        ],
+        [
+          27.822,
+          17.865
+        ],
+        [
+          31.443,
+          17.851
+        ],
+        [
+          32.502,
+          17.046
+        ],
+        [
+          34.649,
+          17.036
+        ],
+        [
+          36.193,
+          16.012
+        ],
+        [
+          41.432,
+          15.99
+        ],
+        [
+          41.478,
+          22.983
+        ],
+        [
+          39.522,
+          22.988
+        ],
+        [
+          39.535,
+          23.758
+        ],
+        [
+          38.039,
+          23.775
+        ],
+        [
+          36.253,
+          23.774
+        ],
+        [
+          34.693,
+          22.896
+        ],
+        [
+          31.473,
+          22.904
+        ],
+        [
+          31.47,
+          21.822
+        ],
+        [
+          27.849,
+          21.836
+        ],
+        [
+          27.852,
+          22.918
+        ],
+        [
+          22.158,
+          22.937
+        ],
+        [
+          20.747,
+          23.837
+        ],
+        [
+          20.413,
+          23.844
+        ],
+        [
+          15.453,
+          23.864
+        ],
+        [
+          15.396,
+          16.088
+        ],
+        [
+          20.695,
+          16.071
+        ]
+      ],
+      "sourceHeight": 21.7,
+      "role": "primary",
+      "evidenceState": "needs fresh dated observation",
+      "reviewState": "not authored"
+    },
+    {
+      "faceId": "248142862:1",
+      "buildingId": 248142862,
+      "frontageIndex": 1,
+      "mappedAddress": "160 1st Avenue",
+      "mappedName": "",
+      "sourceFace": {
+        "x": 15.396,
+        "z": 16.088,
+        "rx": 0.007330049985197364,
+        "rz": 0.9999731348227384,
+        "length": 7.776,
+        "street": "First Avenue"
+      },
+      "sourceFootprint": [
+        [
+          22.112,
+          17.091
+        ],
+        [
+          27.004,
+          17.071
+        ],
+        [
+          27.822,
+          17.865
+        ],
+        [
+          31.443,
+          17.851
+        ],
+        [
+          32.502,
+          17.046
+        ],
+        [
+          34.649,
+          17.036
+        ],
+        [
+          36.193,
+          16.012
+        ],
+        [
+          41.432,
+          15.99
+        ],
+        [
+          41.478,
+          22.983
+        ],
+        [
+          39.522,
+          22.988
+        ],
+        [
+          39.535,
+          23.758
+        ],
+        [
+          38.039,
+          23.775
+        ],
+        [
+          36.253,
+          23.774
+        ],
+        [
+          34.693,
+          22.896
+        ],
+        [
+          31.473,
+          22.904
+        ],
+        [
+          31.47,
+          21.822
+        ],
+        [
+          27.849,
+          21.836
+        ],
+        [
+          27.852,
+          22.918
+        ],
+        [
+          22.158,
+          22.937
+        ],
+        [
+          20.747,
+          23.837
+        ],
+        [
+          20.413,
+          23.844
+        ],
+        [
+          15.453,
+          23.864
+        ],
+        [
+          15.396,
+          16.088
+        ],
+        [
+          20.695,
+          16.071
+        ]
+      ],
+      "sourceHeight": 21.7,
+      "role": "same-parcel-corner-return",
+      "evidenceState": "needs fresh dated observation",
+      "reviewState": "not authored"
+    },
+    {
+      "faceId": "248142883:0",
+      "buildingId": 248142883,
+      "frontageIndex": 0,
+      "mappedAddress": "247 East 10th Street",
+      "mappedName": "",
+      "sourceFace": {
+        "x": 31.288,
+        "z": -9.091,
+        "rx": 0.9999995429375539,
+        "rz": -0.0009560986786113539,
+        "length": 12.551,
+        "street": "East 10th Street"
+      },
+      "sourceFootprint": [
+        [
+          43.839,
+          -9.103
+        ],
+        [
+          31.288,
+          -9.091
+        ],
+        [
+          31.259,
+          -16.45
+        ],
+        [
+          43.811,
+          -16.462
+        ]
+      ],
+      "sourceHeight": 16.5,
+      "role": "primary",
+      "evidenceState": "needs fresh dated observation",
+      "reviewState": "not authored"
+    },
+    {
+      "faceId": "248142884:0",
+      "buildingId": 248142884,
+      "frontageIndex": 0,
+      "mappedAddress": "248 East 10th Street",
+      "mappedName": "",
+      "sourceFace": {
+        "x": 36.146,
+        "z": 9.313,
+        "rx": -0.9999838441784703,
+        "rz": 0.005684310164724952,
+        "length": 4.398,
+        "street": "East 10th Street"
+      },
+      "sourceFootprint": [
+        [
+          36.193,
+          16.012
+        ],
+        [
+          31.798,
+          16.023
+        ],
+        [
+          31.764,
+          11.622
+        ],
+        [
+          31.748,
+          9.338
+        ],
+        [
+          36.146,
+          9.313
+        ]
+      ],
+      "sourceHeight": 10.6,
+      "role": "primary",
+      "evidenceState": "needs fresh dated observation",
+      "reviewState": "not authored"
+    },
+    {
+      "faceId": "248142885:0",
+      "buildingId": 248142885,
+      "frontageIndex": 0,
+      "mappedAddress": "249 East 10th Street",
+      "mappedName": "",
+      "sourceFace": {
+        "x": 43.839,
+        "z": -9.103,
+        "rx": 0.9999973979211091,
+        "rz": -0.002281260837984208,
+        "length": 7.452,
+        "street": "East 10th Street"
+      },
+      "sourceFootprint": [
+        [
+          51.291,
+          -9.12
+        ],
+        [
+          43.839,
+          -9.103
+        ],
+        [
+          43.811,
+          -16.462
+        ],
+        [
+          43.774,
+          -23.575
+        ],
+        [
+          43.75,
+          -28.809
+        ],
+        [
+          43.736,
+          -32.254
+        ],
+        [
+          51.194,
+          -32.261
+        ],
+        [
+          51.211,
+          -28.844
+        ]
+      ],
+      "sourceHeight": 18.9,
+      "role": "primary",
+      "evidenceState": "needs fresh dated observation",
+      "reviewState": "not authored"
+    },
+    {
+      "faceId": "248142886:0",
+      "buildingId": 248142886,
+      "frontageIndex": 0,
+      "mappedAddress": "250 East 10th Street",
+      "mappedName": "",
+      "sourceFace": {
+        "x": 45.684,
+        "z": 9.282,
+        "rx": -0.9999947182807193,
+        "rz": 0.003250140099255912,
+        "length": 9.538,
+        "street": "East 10th Street"
+      },
+      "sourceFootprint": [
+        [
+          45.734,
+          15.967
+        ],
+        [
+          41.432,
+          15.99
+        ],
+        [
+          36.193,
+          16.012
+        ],
+        [
+          36.146,
+          9.313
+        ],
+        [
+          45.684,
+          9.282
+        ]
+      ],
+      "sourceHeight": 10.8,
+      "role": "primary",
+      "evidenceState": "needs fresh dated observation",
+      "reviewState": "not authored"
+    },
+    {
+      "faceId": "248142889:0",
+      "buildingId": 248142889,
+      "frontageIndex": 0,
+      "mappedAddress": "254 East 10th Street",
+      "mappedName": "",
+      "sourceFace": {
+        "x": 54.198,
+        "z": 9.248,
+        "rx": -0.9999920263833454,
+        "rz": 0.003993390756052905,
+        "length": 8.514,
+        "street": "East 10th Street"
+      },
+      "sourceFootprint": [
+        [
+          54.363,
+          31.052
+        ],
+        [
+          45.767,
+          31.094
+        ],
+        [
+          45.761,
+          30.18
+        ],
+        [
+          42.724,
+          30.187
+        ],
+        [
+          42.668,
+          23.264
+        ],
+        [
+          45.787,
+          23.249
+        ],
+        [
+          45.734,
+          15.967
+        ],
+        [
+          45.684,
+          9.282
+        ],
+        [
+          54.198,
+          9.248
+        ],
+        [
+          54.24,
+          15.173
+        ],
+        [
+          54.334,
+          26.903
+        ]
+      ],
+      "sourceHeight": 17.6,
+      "role": "primary",
+      "evidenceState": "needs fresh dated observation",
+      "reviewState": "not authored"
+    },
+    {
+      "faceId": "248142962:0",
+      "buildingId": 248142962,
+      "frontageIndex": 0,
+      "mappedAddress": "164 1st Avenue",
+      "mappedName": "",
+      "sourceFace": {
+        "x": 16.102,
+        "z": -9.079,
+        "rx": 0.9999996877909398,
+        "rz": -0.0007902012546746975,
+        "length": 15.186,
+        "street": "East 10th Street"
+      },
+      "sourceFootprint": [
+        [
+          31.288,
+          -9.091
+        ],
+        [
+          16.102,
+          -9.079
+        ],
+        [
+          16.073,
+          -16.438
+        ],
+        [
+          31.259,
+          -16.45
+        ]
+      ],
+      "sourceHeight": 15.9,
+      "role": "primary",
+      "evidenceState": "needs fresh dated observation",
+      "reviewState": "not authored"
+    },
+    {
+      "faceId": "248142962:1",
+      "buildingId": 248142962,
+      "frontageIndex": 1,
+      "mappedAddress": "164 1st Avenue",
+      "mappedName": "",
+      "sourceFace": {
+        "x": 16.073,
+        "z": -16.438,
+        "rx": 0.003940722221007906,
+        "rz": 0.9999922353240434,
+        "length": 7.359,
+        "street": "First Avenue"
+      },
+      "sourceFootprint": [
+        [
+          31.288,
+          -9.091
+        ],
+        [
+          16.102,
+          -9.079
+        ],
+        [
+          16.073,
+          -16.438
+        ],
+        [
+          31.259,
+          -16.45
+        ]
+      ],
+      "sourceHeight": 15.9,
+      "role": "same-parcel-corner-return",
+      "evidenceState": "needs fresh dated observation",
+      "reviewState": "not authored"
+    },
+    {
+      "faceId": "248142976:1",
+      "buildingId": 248142976,
+      "frontageIndex": 1,
+      "mappedAddress": "162 First Ave",
+      "mappedName": "",
+      "sourceFace": {
+        "x": 31.743,
+        "z": 9.137,
+        "rx": -0.9999895393921064,
+        "rz": 0.004573959593487057,
+        "length": 16.397,
+        "street": "East 10th Street"
+      },
+      "sourceFootprint": [
+        [
+          31.764,
+          11.622
+        ],
+        [
+          27.326,
+          11.644
+        ],
+        [
+          27.36,
+          16.045
+        ],
+        [
+          20.695,
+          16.071
+        ],
+        [
+          15.396,
+          16.088
+        ],
+        [
+          15.346,
+          9.212
+        ],
+        [
+          31.743,
+          9.137
+        ],
+        [
+          31.748,
+          9.338
+        ]
+      ],
+      "sourceHeight": 14.5,
+      "role": "primary",
+      "evidenceState": "needs fresh dated observation",
+      "reviewState": "not authored"
+    },
+    {
+      "faceId": "248142976:0",
+      "buildingId": 248142976,
+      "frontageIndex": 0,
+      "mappedAddress": "162 First Ave",
+      "mappedName": "",
+      "sourceFace": {
+        "x": 15.346,
+        "z": 9.212,
+        "rx": 0.00727147733027385,
+        "rz": 0.9999735624592458,
+        "length": 6.876,
+        "street": "First Avenue"
+      },
+      "sourceFootprint": [
+        [
+          31.764,
+          11.622
+        ],
+        [
+          27.326,
+          11.644
+        ],
+        [
+          27.36,
+          16.045
+        ],
+        [
+          20.695,
+          16.071
+        ],
+        [
+          15.396,
+          16.088
+        ],
+        [
+          15.346,
+          9.212
+        ],
+        [
+          31.743,
+          9.137
+        ],
+        [
+          31.748,
+          9.338
+        ]
+      ],
+      "sourceHeight": 14.5,
+      "role": "same-parcel-corner-return",
+      "evidenceState": "needs fresh dated observation",
+      "reviewState": "not authored"
+    }
+  ],
+  "massPolicy": "Reuse protected core exactly; new masses follow mapped irregular footprints with photographed setbacks/roof steps. A single mapped owner is not proof of a single uniform mass.",
+  "authorization": "Current user added two complete blocks after the ongoing Tenth west block; no stage confirmation required."
+}

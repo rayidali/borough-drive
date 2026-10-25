@@ -1,0 +1,126 @@
+{
+	"pass": true,
+	"routes": [
+		{
+			"hitDetails": [],
+			"name": "first-north",
+			"newContacts": 0,
+			"pass": true,
+			"position": [
+				0.0,
+				-0.0190582014620304,
+				-309.334106445312
+			],
+			"reached": true
+		},
+		{
+			"hitDetails": [],
+			"name": "first-south",
+			"newContacts": 0,
+			"pass": true,
+			"position": [
+				0.0000228808585234219,
+				-0.019058195874095,
+				-158.467224121094
+			],
+			"reached": true
+		},
+		{
+			"hitDetails": [],
+			"name": "eleventh-west",
+			"newContacts": 0,
+			"pass": true,
+			"position": [
+				-200.331665039062,
+				-0.0274549257010221,
+				-304.299987792969
+			],
+			"reached": true
+		},
+		{
+			"hitDetails": [],
+			"name": "eleventh-east",
+			"newContacts": 0,
+			"pass": true,
+			"position": [
+				6.30446338653564,
+				-0.0190581940114498,
+				-304.299987792969
+			],
+			"reached": true
+		},
+		{
+			"hitDetails": [],
+			"name": "tenth-west",
+			"newContacts": 0,
+			"pass": true,
+			"position": [
+				-190.20002746582,
+				-0.0190568454563618,
+				-228.745986938477
+			],
+			"reached": true
+		},
+		{
+			"hitDetails": [],
+			"name": "tenth-east",
+			"newContacts": 0,
+			"pass": true,
+			"position": [
+				202.513854980469,
+				-0.0265441685914993,
+				-227.999710083008
+			],
+			"reached": true
+		},
+		{
+			"hitDetails": [],
+			"name": "ninth-west",
+			"newContacts": 0,
+			"pass": true,
+			"position": [
+				-62.1818733215332,
+				-0.0190570689737797,
+				-154.699996948242
+			],
+			"reached": true
+		},
+		{
+			"hitDetails": [],
+			"name": "ninth-east",
+			"newContacts": 0,
+			"pass": true,
+			"position": [
+				62.1818733215332,
+				-0.0190570633858442,
+				-154.699996948242
+			],
+			"reached": true
+		},
+		{
+			"hitDetails": [],
+			"name": "west-first-lane",
+			"newContacts": 0,
+			"pass": true,
+			"position": [
+				-6.0,
+				-0.0190582126379013,
+				-309.55517578125
+			],
+			"reached": true
+		},
+		{
+			"hitDetails": [],
+			"name": "east-first-lane",
+			"newContacts": 0,
+			"pass": true,
+			"position": [
+				6.0,
+				-0.0190581884235144,
+				-159.445541381836
+			],
+			"reached": true
+		}
+	],
+	"scope": "Actual car, street and building colliders; native headless fixed physics step, no rendering or browser timing claims."
+}

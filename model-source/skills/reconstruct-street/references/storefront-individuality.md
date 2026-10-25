@@ -1,5 +1,9 @@
 # Storefront individuality and close detail
 
+<!-- current-project-status -->
+> **Current status:** The [project handoff](../../../../CODEX-HANDOFF.md) governs current scope, publication and next work. This file retains its dated observations, evidence or specialist instructions. See [browser scaling](../../../../docs/BROWSER-SCALING.md) for the current loading/rendering work; older model counts and paused states describe their original checkpoints.
+<!-- /current-project-status -->
+
 ## User direction — October 11, 2026
 
 The user likes the overall First Avenue / St. Marks result but finds its businesses too generic and insufficiently like the originals. They request a **“100×” increase in textures, details, fonts, styles and elements**, naming **Tile Bar** as a reference for how individual a storefront should feel. This is the current quality requirement for businesses across the requested map, including existing work when assigned for refinement. Earlier visual endorsements remain historical. The subsequent [revision 09](../../../SEVENTH-ENGINE-09.md) implements this direction and is user-endorsed for publication as the current working storefront reference. Preserve its individuality and continue evidence-led refinement; endorsement is not a calibrated match or a waiver for generic replacements.

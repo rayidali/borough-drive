@@ -1,0 +1,280 @@
+/Users/rayidali/Desktop/borough-drive/model-source/export_seventh_engine.py:166: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  m.use_nodes = True
+/Users/rayidali/Desktop/borough-drive/model-source/export_seventh_engine.py:218: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  bs = mat.node_tree.nodes.get('Principled BSDF') if mat.use_nodes else None
+INFO Draco is available, use library at /Applications/Blender.app/Contents/Resources/5.2/scripts/addons_core/io_scene_gltf2/libbf_intern_draco_bridge.dylib
+INFO MeshOptimizer is available, use library at /Applications/Blender.app/Contents/Resources/5.2/scripts/addons_core/io_scene_gltf2/libbf_intern_meshopt_bridge.dylib
+03:46:55 | INFO: Starting glTF 2.0 export
+03:46:55 | INFO: Extracting primitive: 248142887 Tenth east individually observed / recess shadow
+03:46:55 | INFO: Primitives created: 1
+03:46:55 | INFO: Extracting primitive: 248142887 Tenth east individually observed / eb white wood
+03:46:55 | INFO: Primitives created: 1
+03:46:55 | INFO: Finished glTF 2.0 export in 0.01938319206237793 s
+
+ENGINE_BUILDING 299 352 248142887 39796
+03:46:55 | INFO: Starting glTF 2.0 export
+03:46:55 | INFO: Extracting primitive: 248142888 Tenth east individually observed / recess shadow
+03:46:55 | INFO: Primitives created: 1
+03:46:55 | INFO: Extracting primitive: 248142888 Tenth east individually observed / eb white wood
+03:46:55 | INFO: Primitives created: 1
+03:46:55 | INFO: Finished glTF 2.0 export in 0.03945302963256836 s
+
+ENGINE_BUILDING 300 352 248142888 113136
+03:46:56 | INFO: Starting glTF 2.0 export
+03:46:56 | INFO: Extracting primitive: 248142890 Tenth east individually observed / recess shadow
+03:46:56 | INFO: Primitives created: 1
+03:46:56 | INFO: Extracting primitive: 248142890 Tenth east individually observed / eb dark wood
+03:46:56 | INFO: Primitives created: 1
+03:46:56 | INFO: Finished glTF 2.0 export in 0.01728987693786621 s
+
+ENGINE_BUILDING 301 352 248142890 47916
+03:46:56 | INFO: Starting glTF 2.0 export
+03:46:56 | INFO: Extracting primitive: 248142891 Tenth east individually observed / opal lamp
+03:46:56 | INFO: Primitives created: 1
+03:46:56 | INFO: Extracting primitive: 248142891 Tenth east individually observed / recess shadow
+03:46:56 | INFO: Primitives created: 1
+03:46:56 | INFO: Extracting primitive: Individual business lettering
+03:46:56 | INFO: Primitives created: 1
+03:46:56 | INFO: Finished glTF 2.0 export in 0.011111974716186523 s
+
+ENGINE_BUILDING 302 352 248142891 22243
+03:46:56 | INFO: Starting glTF 2.0 export
+03:46:56 | INFO: Extracting primitive: Individual business lettering.002
+03:46:56 | INFO: Primitives created: 1
+03:46:56 | INFO: Extracting primitive: Individual business lettering
+03:46:56 | INFO: Primitives created: 1
+03:46:56 | INFO: Extracting primitive: 248142892 Tenth east individually observed / store09 clear glass
+03:46:56 | INFO: Primitives created: 1
+03:46:56 | INFO: Finished glTF 2.0 export in 0.01905679702758789 s
+
+ENGINE_BUILDING 303 352 248142892 44810
+03:46:56 | INFO: Starting glTF 2.0 export
+03:46:56 | INFO: Extracting primitive: 248142893 Tenth east individually observed / recess shadow
+03:46:56 | INFO: Primitives created: 1
+03:46:56 | INFO: Extracting primitive: 248142893 Tenth east individually observed / eb white wood
+03:46:56 | INFO: Primitives created: 1
+03:46:56 | INFO: Finished glTF 2.0 export in 0.022236347198486328 s
+
+ENGINE_BUILDING 304 352 248142893 63419
+03:46:56 | INFO: Starting glTF 2.0 export
+03:46:56 | INFO: Extracting primitive: 248142894 Tenth east individually observed / recess shadow
+03:46:56 | INFO: Primitives created: 1
+03:46:56 | INFO: Extracting primitive: Individual business lettering
+03:46:56 | INFO: Primitives created: 1
+03:46:56 | INFO: Extracting primitive: 248142894 Tenth east individually observed / store09 clear glass
+03:46:56 | INFO: Primitives created: 1
+03:46:56 | INFO: Finished glTF 2.0 export in 0.016765117645263672 s
+
+ENGINE_BUILDING 305 352 248142894 39156
+03:46:56 | INFO: Starting glTF 2.0 export
+03:46:56 | INFO: Extracting primitive: Individual business lettering.010
+03:46:56 | INFO: Primitives created: 1
+03:46:56 | INFO: Extracting primitive: Individual business lettering
+03:46:56 | INFO: Primitives created: 1
+03:46:56 | INFO: Extracting primitive: 248142895 Tenth east individually observed / store09 clear glass
+03:46:56 | INFO: Primitives created: 1
+03:46:56 | INFO: Finished glTF 2.0 export in 0.019105195999145508 s
+
+ENGINE_BUILDING 306 352 248142895 41833
+03:46:56 | INFO: Starting glTF 2.0 export
+03:46:56 | INFO: Extracting primitive: 248142896 Tenth east individually observed / recess shadow
+03:46:56 | INFO: Primitives created: 1
+03:46:56 | INFO: Extracting primitive: Individual business lettering
+03:46:57 | INFO: Primitives created: 1
+03:46:57 | INFO: Finished glTF 2.0 export in 0.009741783142089844 s
+
+ENGINE_BUILDING 307 352 248142896 21837
+03:46:57 | INFO: Starting glTF 2.0 export
+03:46:57 | INFO: Extracting primitive: Individual business lettering
+03:46:57 | INFO: Primitives created: 1
+03:46:57 | INFO: Extracting primitive: Individual business lettering.001
+03:46:57 | INFO: Primitives created: 1
+03:46:57 | INFO: Extracting primitive: 248142897 Tenth east individually observed / store09 clear glass
+03:46:57 | INFO: Primitives created: 1
+03:46:57 | INFO: Finished glTF 2.0 export in 0.024075031280517578 s
+
+ENGINE_BUILDING 308 352 248142897 62494
+03:46:57 | INFO: Starting glTF 2.0 export
+03:46:57 | INFO: Extracting primitive: 248142898 Tenth east individually observed / recess shadow
+03:46:57 | INFO: Primitives created: 1
+03:46:57 | INFO: Extracting primitive: Individual business lettering
+03:46:57 | INFO: Primitives created: 1
+03:46:57 | INFO: Extracting primitive: 248142898 Tenth east individually observed / store09 clear glass
+03:46:57 | INFO: Primitives created: 1
+03:46:57 | INFO: Finished glTF 2.0 export in 0.009192228317260742 s
+
+ENGINE_BUILDING 309 352 248142898 16017
+03:46:57 | INFO: Starting glTF 2.0 export
+03:46:57 | INFO: Extracting primitive: Individual business lettering
+03:46:57 | INFO: Primitives created: 1
+03:46:57 | INFO: Extracting primitive: Individual business lettering.001
+03:46:57 | INFO: Primitives created: 1
+03:46:57 | INFO: Extracting primitive: 248142899 Tenth east individually observed / store09 clear glass
+03:46:57 | INFO: Primitives created: 1
+03:46:57 | INFO: Finished glTF 2.0 export in 0.018826961517333984 s
+
+ENGINE_BUILDING 310 352 248142899 41704
+03:46:57 | INFO: Starting glTF 2.0 export
+03:46:57 | INFO: Extracting primitive: Individual business lettering.002
+03:46:57 | INFO: Primitives created: 1
+03:46:57 | INFO: Extracting primitive: Individual business lettering
+03:46:57 | INFO: Primitives created: 1
+03:46:57 | INFO: Finished glTF 2.0 export in 0.021496057510375977 s
+
+ENGINE_BUILDING 311 352 248142900 52545
+03:46:57 | INFO: Starting glTF 2.0 export
+03:46:57 | INFO: Extracting primitive: 248142901 Tenth east individually observed / recess shadow
+03:46:57 | INFO: Primitives created: 1
+03:46:58 | INFO: Extracting primitive: Individual business lettering
+03:46:58 | INFO: Primitives created: 1
+03:46:58 | INFO: Finished glTF 2.0 export in 0.04184103012084961 s
+
+ENGINE_BUILDING 312 352 248142901 125627
+03:46:58 | INFO: Starting glTF 2.0 export
+03:46:58 | INFO: Extracting primitive: 248142902 Tenth east individually observed / recess shadow
+03:46:58 | INFO: Primitives created: 1
+03:46:58 | INFO: Extracting primitive: Individual business lettering
+03:46:58 | INFO: Primitives created: 1
+03:46:58 | INFO: Finished glTF 2.0 export in 0.01052713394165039 s
+
+ENGINE_BUILDING 313 352 248142902 24325
+03:46:58 | INFO: Starting glTF 2.0 export
+03:46:58 | INFO: Extracting primitive: Individual business lettering
+03:46:58 | INFO: Primitives created: 1
+03:46:58 | INFO: Extracting primitive: 248142903 Tenth east individually observed / eb white wood
+03:46:58 | INFO: Primitives created: 1
+03:46:58 | INFO: Extracting primitive: 248142903 Tenth east individually observed / store09 clear glass
+03:46:58 | INFO: Primitives created: 1
+03:46:58 | INFO: Finished glTF 2.0 export in 0.020660877227783203 s
+
+ENGINE_BUILDING 314 352 248142903 51547
+03:46:58 | INFO: Starting glTF 2.0 export
+03:46:58 | INFO: Extracting primitive: 248142904 Tenth east individually observed / opal lamp
+03:46:58 | INFO: Primitives created: 1
+03:46:58 | INFO: Extracting primitive: 248142904 Tenth east individually observed / recess shadow
+03:46:58 | INFO: Primitives created: 1
+03:46:58 | INFO: Extracting primitive: 248142904 Tenth east individually observed / eb dark wood
+03:46:58 | INFO: Primitives created: 1
+03:46:58 | INFO: Finished glTF 2.0 export in 0.005528926849365234 s
+
+ENGINE_BUILDING 315 352 248142904 6017
+03:46:58 | INFO: Starting glTF 2.0 export
+03:46:58 | INFO: Extracting primitive: Individual business lettering.004
+03:46:58 | INFO: Primitives created: 1
+03:46:58 | INFO: Extracting primitive: Individual business lettering
+03:46:58 | INFO: Primitives created: 1
+03:46:58 | INFO: Extracting primitive: 248142905 Tenth east individually observed / store09 clear glass
+03:46:58 | INFO: Primitives created: 1
+03:46:58 | INFO: Finished glTF 2.0 export in 0.015809059143066406 s
+
+ENGINE_BUILDING 316 352 248142905 35293
+03:46:58 | INFO: Starting glTF 2.0 export
+03:46:58 | INFO: Extracting primitive: 248142906 Tenth east individually observed / recess shadow
+03:46:58 | INFO: Primitives created: 1
+03:46:58 | INFO: Extracting primitive: 248142906 Tenth east individually observed / eb dark wood
+03:46:58 | INFO: Primitives created: 1
+03:46:58 | INFO: Finished glTF 2.0 export in 0.01947808265686035 s
+
+ENGINE_BUILDING 317 352 248142906 55597
+03:46:59 | INFO: Starting glTF 2.0 export
+03:46:59 | INFO: Extracting primitive: 248142907 Tenth east individually observed / recess shadow
+03:46:59 | INFO: Primitives created: 1
+03:46:59 | INFO: Extracting primitive: Individual business lettering
+03:46:59 | INFO: Primitives created: 1
+03:46:59 | INFO: Finished glTF 2.0 export in 0.03455090522766113 s
+
+ENGINE_BUILDING 318 352 248142907 101750
+03:46:59 | INFO: Starting glTF 2.0 export
+03:46:59 | INFO: Extracting primitive: Individual business lettering
+03:46:59 | INFO: Primitives created: 1
+03:46:59 | INFO: Extracting primitive: 248142908 Tenth east individually observed / eb white wood
+03:46:59 | INFO: Primitives created: 1
+03:46:59 | INFO: Finished glTF 2.0 export in 0.013525009155273438 s
+
+ENGINE_BUILDING 319 352 248142908 33777
+03:46:59 | INFO: Starting glTF 2.0 export
+03:46:59 | INFO: Extracting primitive: 248142909 Tenth east individually observed / recess shadow
+03:46:59 | INFO: Primitives created: 1
+03:46:59 | INFO: Extracting primitive: Individual business lettering
+03:46:59 | INFO: Primitives created: 1
+03:46:59 | INFO: Extracting primitive: 248142909 Tenth east individually observed / store09 clear glass
+03:46:59 | INFO: Primitives created: 1
+03:46:59 | INFO: Finished glTF 2.0 export in 0.041649818420410156 s
+
+ENGINE_BUILDING 320 352 248142909 119773
+03:46:59 | INFO: Starting glTF 2.0 export
+03:46:59 | INFO: Extracting primitive: 248142910 Tenth east individually observed / recess shadow
+03:46:59 | INFO: Primitives created: 1
+03:46:59 | INFO: Extracting primitive: Individual business lettering
+03:46:59 | INFO: Primitives created: 1
+03:46:59 | INFO: Finished glTF 2.0 export in 0.00938272476196289 s
+
+ENGINE_BUILDING 321 352 248142910 20344
+03:47:00 | INFO: Starting glTF 2.0 export
+03:47:00 | INFO: Extracting primitive: Individual business lettering.003
+03:47:00 | INFO: Primitives created: 1
+03:47:00 | INFO: Extracting primitive: Individual business lettering
+03:47:00 | INFO: Primitives created: 1
+03:47:00 | INFO: Extracting primitive: 248142911 Tenth east individually observed / store09 clear glass
+03:47:00 | INFO: Primitives created: 1
+03:47:00 | INFO: Finished glTF 2.0 export in 0.01844310760498047 s
+
+ENGINE_BUILDING 322 352 248142911 41331
+03:47:01 | INFO: Starting glTF 2.0 export
+03:47:01 | INFO: Extracting primitive: Individual business lettering.003
+03:47:01 | INFO: Primitives created: 1
+03:47:01 | INFO: Extracting primitive: Individual business lettering
+03:47:01 | INFO: Primitives created: 1
+03:47:01 | INFO: Extracting primitive: 248142912 Tenth east individually observed / store09 clear glass
+03:47:01 | INFO: Primitives created: 1
+03:47:01 | INFO: Finished glTF 2.0 export in 0.15636777877807617 s
+
+ENGINE_BUILDING 323 352 248142912 424564
+03:47:01 | INFO: Starting glTF 2.0 export
+03:47:01 | INFO: Extracting primitive: 248142913 Tenth east individually observed / recess shadow
+03:47:01 | INFO: Primitives created: 1
+03:47:01 | INFO: Extracting primitive: Individual business lettering
+03:47:01 | INFO: Primitives created: 1
+03:47:01 | INFO: Finished glTF 2.0 export in 0.012574911117553711 s
+
+ENGINE_BUILDING 324 352 248142913 30205
+03:47:01 | INFO: Starting glTF 2.0 export
+03:47:01 | INFO: Extracting primitive: Individual business lettering.002
+03:47:01 | INFO: Primitives created: 1
+03:47:01 | INFO: Extracting primitive: Individual business lettering
+03:47:01 | INFO: Primitives created: 1
+03:47:01 | INFO: Extracting primitive: 248142914 Tenth east individually observed / store09 clear glass
+03:47:01 | INFO: Primitives created: 1
+03:47:01 | INFO: Finished glTF 2.0 export in 0.033804893493652344 s
+
+ENGINE_BUILDING 325 352 248142914 88872
+03:47:03 | INFO: Starting glTF 2.0 export
+03:47:03 | INFO: Extracting primitive: Individual business lettering
+03:47:03 | INFO: Primitives created: 1
+03:47:03 | INFO: Extracting primitive: Individual business lettering.001
+03:47:03 | INFO: Primitives created: 1
+03:47:03 | INFO: Finished glTF 2.0 export in 0.15060806274414062 s
+
+ENGINE_BUILDING 344 352 248142953 435123
+03:47:03 | INFO: Starting glTF 2.0 export
+03:47:03 | INFO: Extracting primitive: 248142975 Tenth east individually observed / opal lamp
+03:47:03 | INFO: Primitives created: 1
+03:47:03 | INFO: Extracting primitive: 248142975 Tenth east individually observed / recess shadow
+03:47:03 | INFO: Primitives created: 1
+03:47:03 | INFO: Extracting primitive: Individual business lettering
+03:47:03 | INFO: Primitives created: 1
+03:47:03 | INFO: Finished glTF 2.0 export in 0.019678115844726562 s
+
+ENGINE_BUILDING 347 352 248142975 48442
+03:47:04 | INFO: Starting glTF 2.0 export
+03:47:04 | INFO: Extracting primitive: -577810 Tenth east individually observed / recess shadow
+03:47:04 | INFO: Primitives created: 1
+03:47:04 | INFO: Extracting primitive: -577810 Tenth east individually observed / eb dark wood
+03:47:04 | INFO: Primitives created: 1
+03:47:04 | INFO: Finished glTF 2.0 export in 0.11033487319946289 s
+
+ENGINE_BUILDING 351 352 -577810 340844
+ENGINE_EXPORT_COMPLETE 352 14061594
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 01:35:57)
+
+Blender quit

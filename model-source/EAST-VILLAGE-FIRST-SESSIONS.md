@@ -1,5 +1,9 @@
 # East Village first sessions
 
+<!-- current-project-status -->
+> **Current status:** The [project handoff](../CODEX-HANDOFF.md) governs current scope, publication and next work. This file retains its dated observations, evidence or specialist instructions. See [browser scaling](../docs/BROWSER-SCALING.md) for the current loading/rendering work; older model counts and paused states describe their original checkpoints.
+<!-- /current-project-status -->
+
 **October 23 restart checkpoint:** new-laptop recovery is complete; preserve all **295** local models and the transferred Godot import cache. The user is restarting VS Code/Terminal; tools and GitHub credentials persist, while preview/browser processes may need the [restart commands](../START-HERE.md#after-restarting-vs-code-or-terminal). The [current handoff](../CODEX-HANDOFF.md) records actual checks, Street View readiness and local-versus-live state. Next proposed remains `01-E10-21`, Tenth Second–First, both sides, requiring protected-core ownership preparation on assignment. No block/publication is started by this close.
 
 **October 15 current checkpoint:** [Ninth First–Avenue A](EAST-VILLAGE-E09-EAST.md) is implemented and individually reviewed: 50 planes / 41 owners, 40 new models plus 148’s Ninth return; 295 total. Read the current handoff for final integration/source/performance limits. Proposed next is **`01-E10-21`, Tenth Second–First, both sides**, on the next instruction, with exact protected-core ownership prepared first. Earlier packet limits and next-step notes below are history. No publication.

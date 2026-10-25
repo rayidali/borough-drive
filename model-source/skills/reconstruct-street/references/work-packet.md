@@ -1,5 +1,9 @@
 # Bounded work packet and review return
 
+<!-- current-project-status -->
+> **Current status:** The [project handoff](../../../../CODEX-HANDOFF.md) governs current scope, publication and next work. This file retains its dated observations, evidence or specialist instructions. See [browser scaling](../../../../docs/BROWSER-SCALING.md) for the current loading/rendering work; older model counts and paused states describe their original checkpoints.
+<!-- /current-project-status -->
+
 **Resume after the October 23 laptop migration:** use the [current handoff](../../../../CODEX-HANDOFF.md), [restart instructions](../../../../START-HERE.md#after-restarting-vs-code-or-terminal) and [repository adapter](repository-adapter.md) for the restored toolchain and compiled-cache protection. Record actual versions and whether the reviewed import cache is retained in the packet baseline. This template and an editor restart do not assign the proposed next block or authorize publication.
 
 **Block delivery, internal packet:** an assigned block includes all its internal packets. Keep the active block ID, completed/remaining face IDs and next internal action in the checkpoint. Finishing this template's small group is a progress milestone; continue the block without a routine user handoff. Split working sets for context/detail, retaining the parent scope. Consolidate broad integration checks at block completion and rerun earlier only for relevant changes/failures; preserve affected-feature review and exact build evidence. See [current block workflow](../../../east-village-block-workflow.json).

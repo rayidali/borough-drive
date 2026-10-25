@@ -1,0 +1,6 @@
+
+> drivearound-nyc@0.4.0 seventh:verify
+> node scripts/verify-seventh.mjs
+
+Hosting route contract: 396 files, root/legacy mapping and four uncached missing-file cases pass.
+Verified slice: 396 runtime files, 184 source hashes; 375 buildings / 376 model scenes; all 322 preceding model pairs and 24 core/detail scenes preserved; 36 Tenth east facade planes. Visual accuracy and performance require separate review.

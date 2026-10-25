@@ -1,0 +1,130 @@
+{
+  "recorded": "2026-10-25T15:27:28.650947+00:00",
+  "builtAt": "2026-10-25T15:05:39.714Z",
+  "buildSha256": "930566a299f41627fe99d2e7244f973b51b2fcfb69ec303fb5dc05bbe01c28f4",
+  "buildings": 397,
+  "modelScenes": 398,
+  "runtimeFiles": 418,
+  "sourceHashes": 194,
+  "checks": {
+    "smoke": {
+      "file": "smoke-10/review.json",
+      "complete": true,
+      "errors": []
+    },
+    "routes": {
+      "file": "gameplay-10/captures.json",
+      "complete": true,
+      "errors": []
+    },
+    "recovery": {
+      "file": "recovery-10/review.json",
+      "complete": true,
+      "errors": []
+    },
+    "startup": {
+      "file": "startup-10/startups.json",
+      "complete": true,
+      "errors": []
+    }
+  },
+  "performance": {
+    "file": "performance-10/performance.json",
+    "complete": true,
+    "samples": 21,
+    "metrics": {
+      "renderFps": {
+        "min": 95.24978519700504,
+        "max": 120.00499500499501
+      },
+      "p95Ms": {
+        "min": 9,
+        "max": 16.800000000017462
+      },
+      "maxFrameGapMs": {
+        "min": 9.39999999999418,
+        "max": 57.89999999999418
+      },
+      "drawCalls": {
+        "min": 540.5067637877211,
+        "max": 1800.851900393185
+      },
+      "triangles": {
+        "min": 5589601.573375262,
+        "max": 12557140.909529554
+      }
+    },
+    "errors": [],
+    "conditions": "Local M4 Max, 1440x1000, unthrottled Brave; golden/dusk/rain, 7 routes each. No city-scale or low-end-device guarantee."
+  },
+  "startup": {
+    "cold": {
+      "count": 5,
+      "medianSeconds": 13.40470000001788,
+      "minSeconds": 12.01490000000596,
+      "maxSeconds": 13.651100000023842
+    },
+    "warm": {
+      "count": 5,
+      "medianSeconds": 13.43140000000596,
+      "minSeconds": 13.3645,
+      "maxSeconds": 13.801200000017882
+    },
+    "readyResidentScenes": [
+      331,
+      331
+    ],
+    "downloadedSceneBytes": [
+      304195653,
+      304195653
+    ]
+  },
+  "preservation": "preservation.json",
+  "visualReview": "visual-review.json",
+  "offlineChecks": [
+    "npm run verify",
+    "npm run workflow:verify",
+    "npm run seventh:verify",
+    "git diff --check"
+  ],
+  "addressContinuity": {
+    "file": "address-06/review.json",
+    "cases": 17,
+    "reason": "Address behavior unchanged since candidate06; final routes/cameras tested separately."
+  },
+  "nativeChecks": [
+    "spatial-index.json",
+    "spatial-index-wide.log",
+    "camera-cache-test.json",
+    "batch-counts.json"
+  ],
+  "publication": {
+    "state": "pending",
+    "previousMain": "e1155e58e6084052b592c291a4cabd67281a3b21"
+  },
+  "remainingAssignedBlocks": [
+    "01-E11-1A",
+    "01-E12-21"
+  ],
+  "stagedWhitespaceReview": {
+    "result": "Four harmless trailing-space findings retained to preserve exact reviewed recipe and upstream license bytes. No other findings.",
+    "findings": [
+      "dist/seventh/NOTOSANSJP-OFL.txt:21",
+      "model-source/fonts/tenth/OFL.txt:21",
+      "model-source/e11_block_kit.py:663",
+      "model-source/e11_block_kit.py:813"
+    ],
+    "check": "git -c core.whitespace=-blank-at-eol diff --cached --check"
+  },
+  "isolatedStagedCheckout": {
+    "recorded": "2026-10-25T15:29:23.058835+00:00",
+    "result": "pass",
+    "commands": [
+      "npm run verify",
+      "npm run seventh:verify"
+    ],
+    "ignoredCachesPresent": false,
+    "runtimeFiles": 418,
+    "sourceHashes": 194
+  }
+}

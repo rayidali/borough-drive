@@ -1,5 +1,9 @@
 # P01 — 137–143 First Avenue
 
+<!-- current-project-status -->
+> **Current status:** The [project handoff](../CODEX-HANDOFF.md) governs current scope, publication and next work. This file retains its dated observations, evidence or specialist instructions. See [browser scaling](../docs/BROWSER-SCALING.md) for the current loading/rendering work; older model counts and paused states describe their original checkpoints.
+<!-- /current-project-status -->
+
 **October 12, 2026 — complete locally; awaiting user review.** The user’s “go onto next” starts the first facade packet after EV-003. Four west-side properties and seven observed businesses are implemented. The exact schedule, dated evidence, unsuccessful trials and final review records live in [the packet](east-village-p01/). No P02 or publication is started.
 
 The previous 203 authored and compiled building files are unchanged. P01 adds four independently loaded scenes and extends First Avenue alone to the visible terminal at z=−145, with outer cap −150. Other avenues remain at −119. Ninth is closed; the address HUD retains its Seventh-only boundary. Existing controls, audio, interface and legacy map are preserved.

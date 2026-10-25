@@ -1,5 +1,9 @@
 # EV-000 — boundary, topology and ownership inventory
 
+<!-- current-project-status -->
+> **Current status:** The [project handoff](../CODEX-HANDOFF.md) governs current scope, publication and next work. This file retains its dated observations, evidence or specialist instructions. See [browser scaling](../docs/BROWSER-SCALING.md) for the current loading/rendering work; older model counts and paused states describe their original checkpoints.
+<!-- /current-project-status -->
+
 **October 12, 2026 — completed locally.** The user's “go ahead” starts the first proposed session in the [East Village roadmap](EAST-VILLAGE-SESSION-PLAN.md). This session freezes geography and ownership records. The published revision 09 game is unchanged. **Next session: EV-001, loading/package design.** No later session or publication has started.
 
 ![Municipal parcel and street inventory divided into nine planning phases](east-village-ev000/inventory-map.png)

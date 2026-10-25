@@ -1,5 +1,9 @@
 # EV-001 — loading and package design
 
+<!-- current-project-status -->
+> **Current status:** The [project handoff](../CODEX-HANDOFF.md) governs current scope, publication and next work. This file retains its dated observations, evidence or specialist instructions. See [browser scaling](../docs/BROWSER-SCALING.md) for the current loading/rendering work; older model counts and paused states describe their original checkpoints.
+<!-- /current-project-status -->
+
 **Completed locally, October 12, 2026. Design and native resource inspection only.** The user's next “go ahead” authorized EV-001 after the completed [EV-000 inventory](EAST-VILLAGE-EV000.md). EV-002 browser implementation, EV-003 integration and facade work have not started. No export, publication or paid job occurred. [Current checkpoint](../CODEX-HANDOFF.md) · [machine-readable design and exact ownership](east-village-ev001/loading-design.json).
 
 Use **one shared startup PCK and individually fetched, content-hashed building scenes**, grouped by runtime area. Preserve the existing imported geometry, LODs, material identities, vertex colors and authored storefront detail. The current single-threaded Godot web player and static hosting can remain the starting point. The next session must establish whether scene decoding, activation and release work acceptably in the browser.

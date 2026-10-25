@@ -1,5 +1,9 @@
 # DriveAround.nyc — First–Second block revision 04
 
+<!-- current-project-status -->
+> **Current status:** The [project handoff](../CODEX-HANDOFF.md) governs current scope, publication and next work. This file retains its dated observations, evidence or specialist instructions. See [browser scaling](../docs/BROWSER-SCALING.md) for the current loading/rendering work; older model counts and paused states describe their original checkpoints.
+<!-- /current-project-status -->
+
 **October 11 continuation:** [First Avenue / St. Marks revision 09](SEVENTH-ENGINE-09.md) is user-endorsed for publication. It preserves this dated Seventh/interface work; the results and package hashes below remain historical. Read the [current handoff](../CODEX-HANDOFF.md) for the verified release and next authorized action.
 
 **Later east-block work:** [revision 07](SEVENTH-ENGINE-07.md) refines First Avenue–Avenue A through browser Street View after [revision 06](SEVENTH-ENGINE-06.md). The user endorsed revision 07 and it is published. This west-block model set is preserved; the current handoff records exact source, package and deployment checks separately from the historical results below.

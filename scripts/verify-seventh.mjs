@@ -34,8 +34,24 @@ const e09blockFaces=e09block.elevations.map(r=>r.faceId).sort();
 const e09east=JSON.parse(await fs.readFile(path.join(root,'model-source/east-village-e09-east/schedule.json'),'utf8'));
 const e09eastIds=[...new Set(e09east.elevations.map(r=>r.buildingId))].sort((a,b)=>a-b);
 const e09eastFaces=e09east.elevations.map(r=>r.faceId).sort();
-assert.equal(slice.buildings.length,295);assert.equal(new Set(slice.buildings.map(x=>x.id)).size,295);
-assert.equal(slice.packetScope.id,'01-E09-1A');assert.deepEqual(slice.packetScope.buildingIds,e09eastIds);
+const tenth=JSON.parse(await fs.readFile(path.join(root,'model-source/east-village-e10-block/schedule.json'),'utf8'));
+const tenthIds=[...new Set(tenth.elevations.map(r=>r.buildingId))].sort((a,b)=>a-b);
+const tenthFaces=tenth.elevations.map(r=>r.faceId).sort();
+const tenthEast=JSON.parse(await fs.readFile(path.join(root,'model-source/east-village-e10-east/schedule.json'),'utf8'));
+const tenthEastIds=[...new Set(tenthEast.elevations.map(r=>r.buildingId))].sort((a,b)=>a-b);
+const tenthEastFaces=tenthEast.elevations.map(r=>r.faceId).sort();
+const eleventh=JSON.parse(await fs.readFile(path.join(root,'model-source/east-village-e11-block/schedule.json'),'utf8'));
+const eleventhIds=[...new Set(eleventh.elevations.map(r=>r.buildingId))].sort((a,b)=>a-b);
+const eleventhFaces=eleventh.elevations.map(r=>r.faceId).sort();
+const core=JSON.parse(await fs.readFile(path.join(root,'engine/first-seventh/assets/protected-core.json'),'utf8'));
+const runtimeEntries=[...slice.buildings,...core.buildingOwners,...core.sharedModels];
+assert.equal(slice.buildings.length,374);assert.equal(new Set(slice.buildings.map(x=>x.id)).size,374);
+assert.equal(core.buildingOwners.length,23);assert.equal(core.sharedModels.length,1);
+assert.equal(build.buildings,397);assert.equal(build.modelScenes,398);
+assert.equal(new Set(runtimeEntries.map(b=>b.id)).size,398,'Each model has one distinct owner');
+assert.equal(digest(await fs.readFile(path.join(root,core.source))),core.sourceSha256,'Original core GLB unchanged');
+assert.equal(digest(await fs.readFile(path.join(root,'engine/first-seventh/assets/protected-core.glb'))),core.convertedSha256);
+assert.equal(slice.packetScope.id,'01-E11-21');assert.deepEqual(slice.packetScope.buildingIds,eleventhIds);
 assert.equal(build.schema,2,'Area-aware export required');
 assert.match(build.checkoutCommit,/^[a-f0-9]{40}$/,'Checkout commit separate from geographic baseline');
 assert.match(build.areas.manifest,/^areas\/manifest-[a-f0-9]{64}\.json$/);
@@ -46,24 +62,24 @@ assert.equal(digest(await fs.readFile(path.join(root,'engine/first-seventh/asset
 const areas=JSON.parse(areaBytes);
 assert.equal(areas.schema,1);assert.equal(areas.engine,'4.7.2');assert.equal(areas.release,build.areas.release);
 assert.deepEqual(areas.originShift,slice.originShift);
-assert.deepEqual(Object.keys(areas.assets).sort(),slice.buildings.map(b=>String(b.id)).sort());
+assert.deepEqual(Object.keys(areas.assets).sort(),runtimeEntries.map(b=>String(b.id)).sort());
 const west=[241833259,241833267,241833274,241833286,241833290,241833291,241833299,241833312,241833322,241845001,241845013,978475216].map(String);
 assert.deepEqual([...areas.areas['EVP-WEST']].sort(),west.sort());
-assert.equal(areas.areas['EVP-REST'].length,283);
+assert.equal(areas.areas['EVP-REST'].length,386);
 const assigned=Object.values(areas.areas).flat();
-assert.equal(new Set(assigned).size,295);assert.equal(assigned.length,295);
+assert.equal(new Set(assigned).size,398);assert.equal(assigned.length,398);
 assert.deepEqual([...assigned].sort(),Object.keys(areas.assets).sort());
-for(const b of slice.buildings){
+for(const b of runtimeEntries){
   const asset=areas.assets[String(b.id)];assert.equal(asset.id,b.id);assert.equal(asset.glbSha256,b.sha256);
   assert(areas.areas[asset.owner]?.includes(String(b.id)),'Each building has one runtime owner');
   assert.equal(asset.url,`/seventh/areas/assets/${asset.sha256}.scn`);
   const file=asset.url.slice('/seventh/'.length);assert(build.files[file]);
   assert.equal(asset.bytes,build.files[file].bytes);assert.equal(asset.sha256,build.files[file].sha256);
-  assert(asset.bytes>0&&asset.bytes<=8*1024*1024,'Bounded serialized scene');
+  assert(asset.bytes>0&&asset.bytes<=([247852693,248142953].includes(b.id)?16:8)*1024*1024,'Bounded serialized scene');
   assert.equal(asset.bounds.length,6);assert(asset.bounds.every(Number.isFinite));
   for(let axis=0;axis<3;axis++)assert(asset.bounds[axis]<asset.bounds[axis+3],'Nonempty imported visual bounds');
 }
-assert(pack.length<=16*1024*1024,'Shared pack proof budget');
+assert(pack.length<=24*1024*1024,'Shared pack including original core texture library');
 const entries=packEntries(pack);
 assert(!entries.some(e=>/building--?\d+\.glb/.test(e.name)),'No duplicated streamed building payload');
 const embedded=entries.find(e=>e.name==='assets/area_manifest.json');assert(embedded);
@@ -91,11 +107,11 @@ const expectedFaces=[...scope.frontages,...scope.cornerReturns].filter(f=>!f.pro
 assert.deepEqual(street.elevations.map(r=>r.faceId).sort(),expectedFaces,'Every editable confirmed face has a schedule');
 assert.deepEqual(slice.streetReviewFrontages.map(r=>r.faceId).sort(),expectedFaces,'Every scheduled face can be reviewed');
 const base=geography.buildings.filter(b=>!b.core&&((b.box[0]+b.box[2])/2>=-268&&(b.box[0]+b.box[2])/2<=77&&(b.box[1]+b.box[3])/2>=121&&(b.box[1]+b.box[3])/2<=283||b.frontages.some(f=>f.street==='East 7th Street'))).map(b=>b.id);
-const expectedIds=[...new Set([...base,...scope.frontages.map(f=>f.buildingId),...scope.cornerReturns.map(f=>f.buildingId),...p01Ids,...p02Ids,...p03Ids,...n01aIds,...n01bIds,...e09blockIds,...e09eastIds])].sort((a,b)=>a-b);
+const expectedIds=[...new Set([...base,...scope.frontages.map(f=>f.buildingId),...scope.cornerReturns.map(f=>f.buildingId),...p01Ids,...p02Ids,...p03Ids,...n01aIds,...n01bIds,...e09blockIds,...e09eastIds,...tenthIds,...tenthEastIds,...eleventhIds])].sort((a,b)=>a-b);
 assert.deepEqual(slice.buildings.map(b=>b.id).sort((a,b)=>a-b),expectedIds,'Bounded expansion preserves the entire previous slice');
 const p01=JSON.parse(await fs.readFile(path.join(root,'model-source/east-village-p01/schedule.json'),'utf8'));
 assert.deepEqual(p01.elevations.map(r=>r.buildingId).sort((a,b)=>a-b),p01Ids);
-assert.deepEqual(slice.packetReviewFrontages.map(r=>r.faceId).sort(),[...[...p01Ids,...p02Ids].map(id=>id+':0'),'241822237:0','241822237:1',...n01aFaces,...n01bFaces,...e09blockFaces,...e09eastFaces].sort());
+assert.deepEqual(slice.packetReviewFrontages.map(r=>r.faceId).sort(),[...[...p01Ids,...p02Ids].map(id=>id+':0'),'241822237:0','241822237:1',...n01aFaces,...n01bFaces,...e09blockFaces,...e09eastFaces,...tenthFaces,...tenthEastFaces,...eleventhFaces].sort());
 assert.equal(p01.businesses.length,7);
 for(const r of p01.elevations){
   const b=geography.buildings.find(b=>b.id===r.buildingId);
@@ -117,7 +133,7 @@ for(const b of protectedModels.models){
 const p02=JSON.parse(await fs.readFile(path.join(root,'model-source/east-village-p02/schedule.json'),'utf8'));
 assert.deepEqual(p02.elevations.map(r=>r.buildingId).sort((a,b)=>a-b),p02Ids);
 assert.equal(p02.businesses.length,5);assert.equal(p02.junctions.length,5);
-assert.deepEqual(slice.packetScopes.map(p=>p.id),['P01','P02','P03','01-E09-21-N01A','01-E09-21-N01B','01-E09-21','01-E09-1A']);
+assert.deepEqual(slice.packetScopes.map(p=>p.id),['P01','P02','P03','01-E09-21-N01A','01-E09-21-N01B','01-E09-21','01-E09-1A','01-E10-21','01-E10-1A','01-E11-21']);
 for(const r of p02.elevations){
  const b=geography.buildings.find(b=>b.id===r.buildingId),model=slice.buildings.find(b=>b.id===r.buildingId);
  assert.deepEqual(r.sourceFace,b.frontages[0]);assert.deepEqual(model.footprint,b.p.map(p=>[p[0],p[1]-228]),'Keep irregular mapped footprint');
@@ -142,7 +158,7 @@ for(const r of p03.elevations){
  for(const sh of r.architecture.returnShops){assert(sh.design.detailP03);assert(Math.abs(sh.design.panels.reduce((v,p)=>v+p[1],0)-1)<1e-7);}
 }
 assert.deepEqual(slice.packetScopes.find(p=>p.id==='P03').buildingIds,p03Ids);
-assert.deepEqual(slice.packetScope.supportingRoad,{street:'East Ninth Second Avenue–Avenue A with bounded corner approaches',northTerminal:-166,outerNorthLimit:-171,corridorHalfWidth:17,ninthCenter:-154.7,ninthWestTerminal:-213,ninthOuterWest:-217,ninthEastTerminal:207,ninthOuterEast:211,addressPolicy:'Seventh-only HUD; Ninth now serves both completed blocks. First north and other avenue terminals remain unchanged; east Ninth ends at Avenue A approach.'});
+assert.deepEqual(slice.packetScope.supportingRoad,{street:'First Avenue connection and Eleventh Second–First; existing Ninth and Tenth retained',northTerminal:-315.3,outerNorthLimit:-320.3,eleventhCenter:-304.3,eleventhWestTerminal:-213,eleventhEastTerminal:13,eleventhOuterWest:-217,eleventhOuterEast:17,tenthCenter:-228,tenthWestTerminal:-213,tenthEastTerminal:207,tenthOuterWest:-217,tenthOuterEast:211,corridorHalfWidth:17,ninthCenter:-154.7,ninthWestTerminal:-213,ninthOuterWest:-217,ninthEastTerminal:207,ninthOuterEast:211,addressPolicy:'Seventh-only HUD; First reaches Eleventh. Eleventh reaches Second and ends at First; Ninth and Tenth retained, other avenue terminals unchanged.'});
 const p03Protected=JSON.parse(await fs.readFile(path.join(root,'model-source/east-village-p03/protected-models.json'),'utf8'));
 assert.equal(p03Protected.models.length,212);
 for(const b of p03Protected.models.filter(r=>r.id!==248142713)){assert.equal(slice.buildings.find(r=>r.id===b.id)?.sha256,b.glbSha256,'P03 preserves GLB '+b.id);assert.equal(areas.assets[String(b.id)]?.sha256,b.sceneSha256,'P03 preserves scene '+b.id);}
@@ -211,6 +227,41 @@ for(const b of eastProtected.models.filter(r=>r.id!==248142713)){assert.equal(sl
 assert.deepEqual(e09east.elevations.filter(r=>r.buildingId===248142713).map(r=>r.faceId),['248142713:1']);
 assert.equal(slice.auxiliaryFootprints.length,1);assert.equal(slice.auxiliaryFootprints[0].owner,248142716);assert.equal(slice.auxiliaryFootprints[0].height,3.25);
 
+const tenthInventory=JSON.parse(await fs.readFile(path.join(root,'model-source/east-village-e10-block/inventory.json'),'utf8'));
+assert.equal(tenthIds.length,27);assert.equal(tenthFaces.length,29);
+assert.deepEqual(tenthFaces,tenthInventory.faces.map(r=>r.faceId).sort());
+for(const r of tenth.elevations){
+ const b=geography.buildings.find(b=>b.id===r.buildingId);
+ assert.deepEqual(r.sourceFace,b.frontages[r.frontageIndex]);
+ assert(!b.core,'Protected core cannot enter ordinary facade generator');
+ assert(r.architecture.observation.sources.length);
+ for(const shop of r.architecture.returnShops){assert(shop.design.detailE10Block&&shop.design.detail09.identity);assert(Math.abs(shop.design.panels.reduce((v,p)=>v+p[1],0)-1)<1e-7);}
+}
+const tenthProtected=JSON.parse(await fs.readFile(path.join(root,'model-source/east-village-e10-block/protected-models.json'),'utf8'));
+assert.equal(tenthProtected.models.length,295);
+for(const b of tenthProtected.models){assert.equal(slice.buildings.find(r=>r.id===b.id)?.sha256,b.glbSha256);assert.equal(areas.assets[String(b.id)]?.sha256,b.sceneSha256);}
+const tenthEastInventory=JSON.parse(await fs.readFile(path.join(root,'model-source/east-village-e10-east/inventory.json'),'utf8'));
+assert.equal(tenthEastIds.length,30);assert.equal(tenthEastFaces.length,36);
+assert.deepEqual(tenthEastFaces,tenthEastInventory.faces.map(r=>r.faceId).sort());
+for(const r of tenthEast.elevations){
+ const b=geography.buildings.find(b=>b.id===r.buildingId);
+ assert.deepEqual(r.sourceFace,b.frontages[r.frontageIndex]);assert(!b.core);assert(r.architecture.observation.sources.length);
+ for(const sh of r.architecture.returnShops){assert(sh.design.detailE10East&&sh.design.detail09.identity);assert(Math.abs(sh.design.panels.reduce((v,p)=>v+p[1],0)-1)<1e-7);}
+}
+const tenthEastProtected=JSON.parse(await fs.readFile(path.join(root,'model-source/east-village-e10-east/protected-models.json'),'utf8'));
+assert.equal(tenthEastProtected.models.length,322);
+for(const b of tenthEastProtected.models){assert.equal(slice.buildings.find(r=>r.id===b.id)?.sha256,b.glbSha256,'Tenth east preserves GLB '+b.id);assert.equal(areas.assets[String(b.id)]?.sha256,b.sceneSha256,'Tenth east preserves SCN '+b.id);}
+assert.equal(Object.keys(tenthEastProtected.coreAssets).length,24);
+for(const [id,hash] of Object.entries(tenthEastProtected.coreAssets))assert.equal(areas.assets[id]?.sha256,hash,'Protected core scene '+id);
+const imageIndex=JSON.parse(await fs.readFile(path.join(root,'engine/first-seventh/assets/protected-core-textures.json'),'utf8'));
+const imageBytes=await fs.readFile(path.join(root,'engine/first-seventh/assets/protected-core-textures.bin'));
+assert.equal(digest(imageBytes),imageIndex.sha256);assert.equal(imageIndex.images.length,9);
+for(const row of imageIndex.images)assert.equal(digest(imageBytes.subarray(row.offset,row.offset+row.length)),row.sha256);
+assert(build.files['NOTOSANSJP-OFL.txt']);
+assert(!entries.some(e=>e.name==='assets/protected-core.glb'),'Core geometry stays external');
+const encoded=entries.find(e=>e.name==='assets/protected-core-textures.bin');assert(encoded);
+assert.equal(digest(pack.subarray(encoded.start,encoded.start+encoded.bytes)),imageIndex.sha256);
+
 for(const r of street.elevations){
  const b=geography.buildings.find(b=>b.id===r.buildingId);
  assert.deepEqual(r.sourceFace,b.frontages[r.frontageIndex],'Stable mapped frontage '+r.faceId);
@@ -247,4 +298,20 @@ const shellPack=JSON.parse(html.match(/const packRelease = (\{[^\n]+\});/)[1]);
 assert.deepEqual(shellPack,{bytes:pack.length,sha256:digest(pack)},'Shell pins its exact pack before startup');
 assert(html.includes('"canvasResizePolicy":0'),'CSS-pixel rendering');assert(html.includes('const threaded = false'),'No GPU server or cross-origin threads required');
 assert(!/<script[^>]+src=["']https?:/.test(html),'Runtime scripts must be local');
-console.log(`Verified slice: ${Object.keys(build.files).length} runtime files, ${Object.keys(build.sources).length} source hashes; 295 models, including 254 immutable preceding models and the 148 Ninth-only return; 50 new-block faces. Visual accuracy and performance require separate review.`);
+
+const eleventhInventory=JSON.parse(await fs.readFile(path.join(root,'model-source/east-village-e11-block/inventory.json'),'utf8'));
+assert.equal(eleventhIds.length,22);assert.equal(eleventhFaces.length,26);
+assert.deepEqual(eleventhFaces,eleventhInventory.faces.map(r=>r.faceId).sort());
+for(const r of eleventh.elevations){
+ const b=geography.buildings.find(b=>b.id===r.buildingId),m=slice.buildings.find(b=>b.id===r.buildingId);
+ assert.deepEqual(r.sourceFace,b.frontages[r.frontageIndex]);assert.equal(m.height,r.buildingHeight);
+ assert.deepEqual(m.footprint,b.p.map(p=>[p[0],p[1]-228]));assert(r.architecture.observation.sources.length);
+ for(const sh of r.architecture.returnShops){assert(sh.design.detailE11Block&&sh.design.detail09.identity);assert(Math.abs(sh.design.panels.reduce((v,p)=>v+p[1],0)-1)<1e-7);}
+}
+const eleventhProtected=JSON.parse(await fs.readFile(path.join(root,'model-source/east-village-e11-block/protected-models.json'),'utf8'));
+assert.equal(eleventhProtected.models.length,352);
+for(const b of eleventhProtected.models){assert.equal(slice.buildings.find(r=>r.id===b.id)?.sha256,b.glbSha256,'Eleventh preserves GLB '+b.id);assert.equal(areas.assets[String(b.id)]?.sha256,b.sceneSha256,'Eleventh preserves SCN '+b.id);}
+assert.equal(Object.keys(eleventhProtected.coreAssets).length,24);
+for(const [id,hash] of Object.entries(eleventhProtected.coreAssets))assert.equal(areas.assets[id]?.sha256,hash,'Protected core scene '+id);
+
+console.log(`Verified slice: ${Object.keys(build.files).length} runtime files, ${Object.keys(build.sources).length} source hashes; 397 buildings / 398 model scenes; all352 preceding model pairs and24 core scenes preserved;26 Eleventh planes. Visual/performance review separate.`);

@@ -1,5 +1,144 @@
 # Borough Drive: continuation context
 
+## October 25, 2026 — Final minimap/scaling candidate; publication finishing
+
+**Objective and authorization:** Refresh project Markdown, improve the bottom-left map and browser scaling, publish the completed397-building result, then complete Eleventh First–Avenue A and Twelfth Second–First, both sides. Both blocks remain assigned; no routine stage permission is required.
+
+**Local source/runtime:** Candidate `2026-10-25T15:05:39.714Z`,418 runtime files/194 source hashes,397 buildings/398 scenes. North-up footprint map with cached456×312patch, spatial scene residency/prefetch/retirement, conservative camera/resize guards and256m street batches are implemented. All398 compiled scenes,374 ordinary GLBs and original/private files match the frozen baseline.69 Markdown files reviewed;1665 local links resolve. [Report](model-source/BROWSER-SCALE-2026-10-25.md), [validation](model-source/browser-scale-2026-10-25/validation.json), [scaling limits](docs/BROWSER-SCALING.md).
+
+**Verification:** Original/workflow/export checks pass. Final10browser routes,10boundaries,4cameras/reset and delay/404/corrupt/offline/resize recovery pass with zero unexpected errors.17address cases passed candidate06 with unchanged address logic. Final21weather-drive samples:95.25–120.00fps,RAFp95 9.0–16.8ms,max sampled gap57.9ms on localM4Max1440×1000. Some routes are slower than the prior all-resident111.22–120.00fps build; do not claim universal speedup or whole-Manhattan readiness. Final five cold/five warm startup medians are 13.405/13.431seconds; ready scenes331–331of398. Earlier unsuccessful trials remain recorded.14actual image inspections are in the visual ledger.
+
+**Save/publication state:** Explicit source/runtime/evidence allowlist is staged; private screenshots, workspace settings and all caches are excluded. No new commit/push yet; main/live remain295-model `e1155e58e6084052b592c291a4cabd67281a3b21`. Isolated staged-checkout original/export verification passed without ignored caches. Commit/push, then verify both CI jobs, Vercel, all418hosted file hashes and production browser behavior.
+
+**Continue afterward:** Implement `01-E11-1A` then `01-E12-21`. Primary-plane reconnaissance finds26Eleventh-east planes/22newowners and22Twelfth-west planes/20owners, including the existing185First school return. Prepare exact corner/site and protected school-face ownership before authoring. Neither new block has been modeled. Preserve `.godot/`, `.tools/`, original game and private files.
+
+## October 25, 2026 — Minimap, browser scaling, publication and two further blocks assigned
+
+The user requests current Markdown refresh, an improved bottom-left minimap and browser loading/rendering optimization with Manhattan-scale growth in mind. Publish the completed397-building checkpoint plus these improvements to main and verify deployment before continuing **Eleventh First–Avenue A (`01-E11-1A`)**, then **Twelfth Second–First (`01-E12-21`)**, both sides. This supersedes the preceding no-fourth-block pause. Preserve all398 current scenes, original game, private files and caches. Baseline is saved in `model-source/browser-scale-2026-10-25/baseline.json`. Main/live currently remain295-model `e1155e5`; publication is pending. No routine stage permission is needed.
+
+Current action: minimap and spatial residency/render batching implementation, followed by browser verification and documentation. No new-block model is authored yet.
+
+## October 25, 2026 — Three assigned blocks complete locally
+
+The assigned blocks are complete: **Tenth Second–First, Tenth First–Avenue A, and Eleventh Second–First, both sides**. Together they add 91 reviewed facade planes on 79 new owners; the protected adapter also reuses 23 accepted core buildings. Final local candidate `2026-10-25T10:35:34.514Z` has **397 buildings / 398 model scenes**. All preceding model pairs, 24 frozen core scenes, original game and private files are preserved. The prior 295-model checkpoint is pushed and verified live at `e1155e58e6084052b592c291a4cabd67281a3b21`; all new three-block work remains local/uncommitted.
+
+Eleventh has 26 planes, 918 scheduled openings, 28 entries and 30 business/return records, with 97 inspected dated browser references and 343 actually inspected served detail images across five candidates. Every business has front and both oblique evidence matching its final compiled scene. Final export/original verification, ten browser routes, ten boundaries, four cameras/reset/ownership and 17 address cases pass. Ten native routes passed candidate03; final changes are non-colliding visual details. The initial browser endpoint failure and test correction remain recorded.
+
+Local M4 Max results: 21 weather-drive samples, engine fps 111.22–120.00, RAF p95 8.7–16.6 ms; largest sampled gap 41.6 ms. Five cold/five warm startup medians 13.815/13.856 s. These are local unthrottled results, not remote-network or low-powered-device guarantees. Dated/unknown shop identities, fine artwork/letterform approximation, fence moire, concealed depths and the 170 Second height-datum discrepancy remain explicit; no calibrated 1:1 claim.
+
+Preview `http://127.0.0.1:5181/`: north on First, left or right on Tenth; farther north, left on Eleventh. Restart with `npm run dev -- 5181`. [Eleventh report](model-source/EAST-VILLAGE-E11-BLOCK.md) and [validation](model-source/east-village-e11-block/validation.json) preserve exact checks and limits. **No fourth block is queued.** The next step is user review of the completed three-block result. Continue already-authorized work without stage permission; preserve cache, tools and private files.
+
+## October 25, 2026 — Eleventh final visual repairs complete; integration active
+
+Both Tenth blocks are complete locally. Eleventh candidate05 `2026-10-25T10:35:34.514Z` passes export verification: 418 runtime files, 191 source hashes, 397 physical buildings / 398 model scenes. Actual served inspections now total 63 + 170 + 90 + 14 + 6 images across five candidates. All 26 elevations and 30 business/return records have recorded front/oblique evidence; final hash continuity is being assembled. Final repairs close the garage rear ramp junction and expose low shutter markings. Dated identities, estimated tower height, fine artwork and tree/fence visibility limits remain explicit.
+
+Ten native routes passed candidate03; subsequent changes are non-colliding model details. Final browser routes/boundaries/cameras are running; address, startup and weather timing checks remain. Continue through final integration and the third-block report without stage permission. Main/origin/live remain the verified 295-model `e1155e58e6084052b592c291a4cabd67281a3b21`; all three new blocks remain local/uncommitted. Preserve all prior models, frozen core scenes, original game, cache, tools and private files.
+
+## October 25, 2026 — Eleventh candidate03 built; final review active
+
+Both Tenth blocks are complete locally. Eleventh candidate03 `2026-10-25T10:15:20.711Z` passes export/original verification:418 runtime files,191 source hashes,397 physical buildings/398 model scenes. All352 preceding ordinary GLB/SCN pairs and24 frozen core scenes, original game and private files are preserved. Candidate02 has170 actually inspected images:26 elevations, all30 business/return records in front-and-oblique sets, plus access/mass/site views. Candidate03 repairs awning attachment, individual shutter contours, storefront/entry detail, garage ramps,311 joints,school-side windows/court/fence batching and lot vehicles. Fresh capture is active; final visual acceptance and browser timing are not yet claimed.
+
+Continue fresh03 repair review and scene continuity, native/browser10routes10boundaries4cameras/reset,17addresses,5cold/5warm startups and21weather-drive samples, then finish the third block report/checkpoint. Do not stop at this internal checkpoint or ask stage permission. Main/origin/live remain verified295-model e1155e5; allnewthree-block work local/uncommitted. Source dates, four unresolved shop identities, mural/ornament approximation and170tower height-datum uncertainty remain explicit. Preserve cache/tools/private files and prior model bytes.
+
+## October 25, 2026 — Eleventh second candidate; review and integration continue
+
+Both Tenth blocks are complete locally. Eleventh candidate01 built with all352 preceding model pairs and24 core scenes preserved; native routes02 pass all10 legs after correcting test braking endpoints.63 served detail images were actually inspected. Candidate02 repairs individual signs/awnings, shop displays, garage opening registration,305 brick panels,311 proportions/finish,school projection,324lot-side windows,177mural and tower streetwall proportions. The municipal62.76m tower height remains in sourceHeight;47.60m is an explicit uncalibrated visual streetwall estimate. Third Blender export succeeds at374ordinary models; second web build/review is active. No final Eleventh visual acceptance or browser/performance claim yet.
+
+Continue the assigned full third block through fresh individual visual review/repairs,10browser routes/10boundaries/4cameras/reset,17addresses,startup/weather/performance and preservation. Do not stop at this checkpoint or ask stage permission. Main/origin/live remain verified295-model e1155e5; allnewthree-block work local/uncommitted. Preserve cache/tools/privatefiles/originalgame and frozen prior models. See `model-source/east-village-e11-block/progress.json` and `review-notes-01.json` for exact review evidence.
+
+## October 25, 2026 — Eleventh first geometry export; integration active
+
+The assigned thirdblock has26planes/22owners,918openings,28entries and30shopfront/returnrecords, based on97actuallyinspected dated browser views. First Blender export succeeds at374ordinarymodels withall352priorGLBs unchanged. Individualcourtyard/stepped/corner/school geometry and3open sites are authored. Secondexport addsmatchingcellar cuts andFirst/Eleventh connection; webbuild, fullservedreview/repairs andintegration checks remain. No visualacceptance claimed. Main/live stille1155e5; bothTenthblocks complete locally, allnewblockwork uncommitted. Continue withoutstageconfirmation. Preserveall24coreSCNs/cache/tools/privatefiles.
+
+## October 25, 2026 — Eleventh source review and partial recipes
+
+Both Tenth blocks remain complete locally. The assigned third block, Eleventh Second–First, has26 inspected facade planes/22 owners and3 real gaps:300–304passage,324lot andschoolyard.91ordinary-browser sources are inspected/recorded;16southface recipes are drafted but no Eleventh GLB/export/runtime change exists yet. Targeted current-corner and longschool checks continue. The frozen baseline preserves352ordinary model pairs plus24coreSCNs. Continue the full thirdblock through geometry, served review/repair and integration without stage confirmation. Main/origin/live remain e1155e5; newblocks local/uncommitted. See model-source/east-village-e11-block/progress.json and observations.json for exact evidence/limits.
+
+## October 25, 2026 — Both Tenth blocks complete locally; Eleventh active
+
+The three-block assignment continues without stage permission. Tenth Second–First and Tenth First–Avenue A are complete locally. [Second-block report](model-source/EAST-VILLAGE-E10-EAST.md):36 reviewed planes/30 owners/619 openings/37 entries/26 shop or community records. Final candidate06 `2026-10-25T07:57:01.795Z` has352 ordinary models plus23 core owners and1 detail scene:375 buildings/376 scenes. All322 preceding ordinary GLB/SCN pairs and24 frozen core scenes, original game and private screenshots are preserved.
+
+Actual detail review:169 candidate03 +126 candidate04 +119 candidate05 +15 candidate06 images; final scene continuity and limits are recorded. Candidate05 passes8 native routes,8 browser routes,8 boundaries,4 cameras/reset and ownership checks. Final06 adds church ornament only;17 address cases and15 weather-drive samples pass. Local M4 Max engine fps117.23–120.02, RAFp95 8.8–9.9ms, max sampled gap25.3ms;5cold/5warm startup medians12.661/12.756s. Historical tenant identities, fine-art and concealed roof-depth limits remain; no calibrated1:1claim. Preserve cache/tools and all prior assets.
+
+**Continue assigned `01-E11-21`, Eleventh Second–First, both sides.**26 planes/22 owners are inventoried; source inspection and ownership/gap preparation next. No new Eleventh models yet. Do not stop at this checkpoint. Main/origin/live remain verified295-model `e1155e58e6084052b592c291a4cabd67281a3b21`; both Tenth blocks local/uncommitted. New-block publication is not automatic.
+
+
+## October 25, 2026 — Tenth east candidate05 export and final review active
+
+Tenth west remains complete locally; Tenth east has36 planes/30 owners/619 openings/37 entries/26 shop or community records. Candidate04 passes396 runtime files/184 source hashes and322 prior model-pair plus24 core-scene preservation.126 actually inspected04 images include all business/community front-and-oblique sets;169 preceding03 inspections remain recorded. Narrow05 fixes address lettering occlusion, church duplicate Avenue closure, sign lamp/service-line depth, blue residential entry, black alteration door, clipped lease poster, planter/chair details and step contrast. First05 attempt rejected an undefined paint name; local source-specific paint is defined and the retry Blender export passes. Web build active, no final05 served acceptance yet.04 scene280 initially exceeded8MiB; equivalent attached relief without hidden tube backs reduces it to8,171,295 bytes; no new size exception. Church remains under its existing16MiB measured limit.
+
+Continue final visual/oblique review and repairs, integration/address/native/startup/weather/preservation checks, then complete assigned Eleventh Second–First. Third block26planes/22owners is inventory-only. Main/origin/live remain verified295-model e1155e5; all new blocks local/uncommitted. No stage confirmation is needed. Preserve cache/tools/original/private assets.
+
+## October 25, 2026 — Tenth east fourth-candidate repairs authored
+
+The three-block assignment continues without stage approval. First Tenth block is complete locally. Second block candidate03 has169 actually inspected images in `model-source/east-village-e10-east/review-notes-03.json`. Candidate04 repairs are authored across30 owners: individual shop lettering/interiors/canopies, entry numbers/glazing, raised access/guards/refuse cabinets, club entrance and church tracery/connected roofs. Current schedule36 planes/619 openings/37 entries/26 businesses or community entries. **Fourth export and served re-review are pending**; no second-block final acceptance or integration/performance claim. Candidate03 preserved all322 prior pairs and24 protected scenes; repeat after export. Private source pixels remain local.
+
+Continue second-block review/repair and integration, then complete assigned Eleventh Second–First (26 planes/22 owners, inventory only). Main/origin/live remain verified295-model `e1155e58e6084052b592c291a4cabd67281a3b21`; new blocks local/uncommitted. Preserve cache/tools/all prior assets/private files. Do not stop at this internal checkpoint.
+
+## October 25, 2026 — Second Tenth block authored; first browser review pending
+
+The three-block assignment continues without stage approval. Tenth Second–First is complete locally. Tenth First–Avenue A now has 36 scheduled planes / 30 new owners, 613 openings, 36 entrances and 26 shopfront/community records. Its first Blender export preserves all 322 preceding GLBs byte-for-byte. Individual storefronts and the club/church roof sections are authored; the first browser build is active, and no served visual acceptance is claimed. See [progress](model-source/east-village-e10-east/progress.json) for the exact next action.
+
+Continue the second block's complete source-to-game review and repairs, then route/boundary/address/camera/startup/performance/preservation checks. **Eleventh Second–First remains assigned next, with 26 planes / 22 owners inventoried; do not stop after this checkpoint.** Main/origin/live remain the verified 295-model `e1155e58e6084052b592c291a4cabd67281a3b21`; all three-block work remains local/uncommitted. Preserve cache, tools, original game, preceding models and private files.
+
+
+## October 25, 2026 — Tenth Second–First complete locally; two more blocks active
+
+The three-block assignment continues without routine approval. First block complete: 29 reviewed planes /27 new owners, 667 openings, 28 entries and 22 shopfront records; 97 inspected dated source views. Final candidate `2026-10-25T05:30:04.052Z` has 322 ordinary models plus23 protected core owners and a detail scene (345 buildings/346scenes). All295 prior model pairs are byte-identical. [Full report](model-source/EAST-VILLAGE-E10-BLOCK.md) and [validation](model-source/east-village-e10-block/validation.json) distinguish exact review/build boundaries and limits.
+
+Final export verification passes. Browser candidate06:8 routes/8 boundaries/4cameras/reset/owner checks;17 address cases pass. Native09:8routes pass. Candidate09 weather/startup measurements:5cold/5warm medians11.764/11.789s on M4 Max;12drive samples118.4–120enginefps, RAFp95 8.5–9.9ms, two isolated Seventh116.6/116.7ms gaps unexplained. Final sign/recess-only repairs have fresh served visual review, not repeated timings. 198 inspected views carry final model-hash continuity across all29facades; 3/21gameplay captures inspected. Three tenant identities, fine-art/letterform and shadowed-well readability limits remain; no calibrated1:1claim.
+
+Main/origin/live remain the verified295-model `e1155e58e6084052b592c291a4cabd67281a3b21`; new block local/uncommitted. **Next active:01-E10-1A,Tenth First–Avenue A (36new planes/30owners,11protected planes), then01-E11-21,Eleventh Second–First (26planes/22owners).** Both are assigned; do not stop after this internal checkpoint. Second-block source research is active, no new models yet; third has inventory only. Preserve cache/tools/all preceding models/private files. No further publication automatically follows.
+
+
+## October 25, 2026 — Tenth sixth candidate passes browser integration; final visual review active
+
+The three-block assignment continues without stage approval: Tenth Second–First, Tenth First–Avenue A, then Eleventh Second–First. Published main/live remain the verified 295-model `e1155e5`; new blocks remain local/uncommitted.
+
+Sixth candidate passes `npm run verify` and `npm run seventh:verify`: 366 runtime files / 178 source hashes, 345 physical buildings / 346 scenes, all 295 preceding model pairs byte-identical. The original road-box seam and two intermediate repairs are recorded honestly in earlier failed evidence. The final collider uses three uninterrupted coplanar road rectangles at the original height, with separate sidewalk/well triangulation; car handling is unchanged. Eight native routes pass, and `gameplay-06/captures.json` now passes all eight browser routes, eight boundaries, four camera modes/reset and new/protected owner checks, with zero console errors or failed requests. Startup/performance and address checks are still pending.
+
+Latest geometry repairs for 201/Marinara, Archie’s Press, Prince, the shipping shop, closed shutter, construction net and Chase are exported. Final targeted captures are active in `review-06`; inspection remains incomplete. Previously inspected second/third-candidate views and their compiled-scene continuity are recorded in `review-notes-02.json`, `review-notes-03.json` and `review-continuity.json`; the latter needs refreshing after final inspection. No calibrated photographic acceptance is claimed.
+
+Next: finish visual review/repairs and address/startup/weather measurements, save the full first-block milestone, then implement both remaining complete blocks. Tenth east has four preliminary historical overviews; its 36-plane/30-owner inventory and Eleventh’s 26-plane/22-owner inventory are prepared, not modeled. Preserve cache, tools, all preceding models, original game and private screenshots/workspace.
+
+## October 25, 2026 — Tenth third-candidate review and road seam repair active
+
+Three-block assignment continues: Tenth Second–First, Tenth First–Avenue A, Eleventh Second–First. Main/live remain the verified 295-model `e1155e5` release; new work stays local/uncommitted. Do not stop at this internal checkpoint or ask for stage approval.
+
+Third candidate built and verified: 345 physical buildings / 346 model scenes, 366 runtime files / 177 source hashes, all 295 preceding model pairs unchanged. The first two First Avenue routes pass, but westbound Tenth stalled at x=−15.03, z=−228 with no streaming hold. Native reproduction identified a supporting-road-box seam at x=−17. A continuous horizontal road collision surface clears the full native westbound test; browser rerun is pending. Failed evidence is retained in `gameplay-03` and `route-diagnostic-03`, and the durable native test is `engine/first-seventh/tests/tenth_route_collision.gd`. No full route/boundary/camera/startup pass is claimed.
+
+Second and third visual review filenames and discrepancies are recorded in `review-notes-02.json` / `review-notes-03.json`. 201's arched upper caps/recessed masonry panels and Marinara glazing were missing; they are now authored. Latest fixes also add continuous pleated Prince curtains, Archie’s cream door/header and correctly located hatch, dense construction mesh, and individual shipping/shutter graphics. The 27-model re-export is active; final web build and served re-review remain. Review is not complete, and capture counts are not acceptance.
+
+The next two blocks have exact mapped inventories: Tenth east 36 editable planes / 30 new owners plus protected core faces, Eleventh west 26 planes / 22 owners. Tenth east has four preliminary inspected overviews (June 2014 / July 2022), not complete/current business evidence. No follow-on models yet. Continue first-block repairs and integration, then both remaining assigned full blocks. Preserve cache, tools, previous assets, original game, private screenshots and local workspace.
+
+## October 25, 2026 — First Tenth browser candidate reviewed; targeted repairs in progress
+
+The three-block assignment remains active: Tenth Second–First, Tenth First–Avenue A, then Eleventh Second–First. Main/live remain the verified 295-model release `e1155e5`; all new work is local/uncommitted.
+
+First Tenth candidate `2026-10-25T04:13:31.350Z` built and passed export verification (366 runtime files, 177 source hashes). All 295 prior authored/compiled pairs remain byte-identical. Runtime has 322 ordinary models plus 23 protected core buildings and one shared-detail scene: 345 physical buildings / 346 model scenes. The isolated core geometry/material/ownership proof also passes. This does not establish browser performance.
+
+The source ledger now records 97 inspected dated views. First-candidate visual review has inspected 65 captures, including one unusable core-theater camera now corrected in the harness. Review found missing 205/209 escapes, 205's fifth upper row, incorrect 237/204 window grouping, missing ground arches/carved relief, stretched lettering, concealed shutter tags, and basement shop access. Repairs are authored and the 27 affected models are re-exporting; 667 scheduled openings / 28 entries / 22 shopfront records. No repair has been awarded served acceptance yet. The 204 upper notch is visibly open in both inspected obliques. Core approach views are inspected, with the theater replacement and broader visual coverage still pending.
+
+Next: finish the second export/build; complete per-face, per-shop and oblique review/repair; run driving, boundary, camera/reset, address and startup/performance checks. Then continue both remaining assigned blocks. No routine stage approval is needed. Preserve `.godot/`, `.tools/`, previous model bytes and private screenshots/workspace.
+
+## October 25, 2026 — Tenth geometry authored; protected-core preservation proof passes
+
+The three-block instruction remains active: finish Tenth Second–First, then Tenth First–Avenue A, then Eleventh Second–First, both sides. Continue without stage permission prompts. Published `main`/live remain `e1155e5` and the verified 295-model release; the current implementation is local/uncommitted.
+
+Tenth west now has 91 individually inspected reference views, 29 scheduled planes / 27 new ordinary owners, 661 scheduled openings, 28 entrances and 22 shopfront records. First full export produced 322 ordinary models; all 295 prior GLBs and compiled scenes remain byte-identical. The new facade geometry has **not yet had served visual review**; four count/occlusion limitations and tenant uncertainties remain explicit. Geometry includes curved oriels, the 204 upper notch, actual open cellar access and individual shop constructions. A second full export updates shared exporter metadata; inspect actual logs/state before rebuilding again.
+
+The original protected core is unchanged. Its lossless decoded adapter preserves 521 meshes / 424,497 triangles. The isolated runtime activation test passes 23 building/collision owners plus one non-colliding shared-detail owner, with all used texture slots checked against original decoded pixels and original mipmap state. [Ownership proof](model-source/east-village-e10-block/core-ownership-proof.json). Nine original encoded images are now shared once (11,843,149 bytes), not duplicated into each scene; this raises the shared PCK allowance from 16 to 24 MiB while retaining 8 MiB per ordinary scene / 32 MiB aggregate staging, with one measured 16 MiB exception for the 204 Tenth corner. This is a packaging decision, not a measured browser performance claim. Original texture credits/provenance remain; new Street View pixels stay private under `.tools/`.
+
+Current runtime source adds First's connection to Tenth and the bounded west Tenth road; web export, all facade/storefront/core comparisons, repairs, routes/boundaries/cameras/address checks and startup/performance measurement are still pending. The last exported web player is still the published 295-model version. The 204 corner is already compressed at 14.79 MB; recompression did not reduce it below 8 MiB. Its explicit per-owner limit is 16 MiB, with the same 32 MiB aggregate staging reservation. No geometry/detail was removed to meet a byte limit. Keep `.godot/`, `.tools/`, all prior model pairs, both private screenshots and the workstation workspace. Next concrete action: finish web packaging, then render/repair the complete first block before advancing to the remaining two.
+
+## October 24, 2026 — Three-block continuation authorized; automatic permission review active
+
+The user added **“also after you're done do the two more blocks too.”** Complete `01-E10-21` (Tenth Second–First), then `01-E10-1A` (Tenth First–Avenue A), then `01-E11-21` (Eleventh Second–First), both sides, in the saved roadmap order. Individual business/building detail and all preservation rules remain. Save progress across contexts and continue the three-block assignment without routine permission or packet handoffs. No paid source job or automatic publication of the new blocks is implied.
+
+The active permissions now explicitly use **automatic review** for sandbox escalations. The previous session-policy dependency is resolved; do not repeat the request to change `/permissions`. Final publication checkpoint `e1155e5` also passes both Node CI jobs and Vercel. Game payloads remain identical to verified release `888f5b8`.
+
+Current work: Tenth west inventory/core adapter preparation is saved locally; resume dated ordinary-browser reference inspection, then author/review/integrate the complete block before advancing. The detailed preceding checkpoint remains the preservation baseline.
+
 ## October 24, 2026 — 295-model expansion published; Tenth preparation started
 
 The user requested **“push to main whatever the latest work is and then continue ahead.”** Publication is verified. Continue the whole-East-Village plan with **`01-E10-21`, East Tenth between Second and First Avenues, both sides**. The earlier publication/next-block pause is superseded; roughly one complete block per session and individual storefront evidence/detail remain the target.

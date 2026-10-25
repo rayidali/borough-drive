@@ -1,5 +1,9 @@
 # DriveAround.nyc interface pass — September 21, 2026
 
+<!-- current-project-status -->
+> **Current status:** The [project handoff](../CODEX-HANDOFF.md) governs current scope, publication and next work. This file retains its dated observations, evidence or specialist instructions. See [browser scaling](../docs/BROWSER-SCALING.md) for the current loading/rendering work; older model counts and paused states describe their original checkpoints.
+<!-- /current-project-status -->
+
 **October 11 continuation:** [First Avenue / St. Marks revision 09](SEVENTH-ENGINE-09.md) is user-endorsed for publication. It preserves this dated Seventh/interface work; the results and package hashes below remain historical. Read the [current handoff](../CODEX-HANDOFF.md) for the verified release and next authorized action.
 
 **September 23 context:** this dated interface report remains valid for the preserved UI. The subsequently published [revision 07](SEVENTH-ENGINE-07.md) changes east-block architecture, so “revision 04 architecture” below describes the interface pass at its original date. Read the [closing handoff](../CODEX-HANDOFF.md) for the current package/deployment; audio and the UI remain unchanged.

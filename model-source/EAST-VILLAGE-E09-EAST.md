@@ -1,5 +1,9 @@
 # East Ninth, First Avenue–Avenue A — complete block record
 
+<!-- current-project-status -->
+> **Current status:** The [project handoff](../CODEX-HANDOFF.md) governs current scope, publication and next work. This file retains its dated observations, evidence or specialist instructions. See [browser scaling](../docs/BROWSER-SCALING.md) for the current loading/rendering work; older model counts and paused states describe their original checkpoints.
+<!-- /current-project-status -->
+
 October 14–15, 2026. Complete local geographic pass with dated-source and performance limits; no publication.
 
 **October 23 continuation note:** this exact 295-model result was transferred intact to the new laptop. Tool/build/browser/Street View setup and preservation checks are saved separately in [machine verification](machine-setup-2026-10-23/verification.json). The user is restarting VS Code/Terminal; use the [restart guide](../START-HERE.md#after-restarting-vs-code-or-terminal) and [current handoff](../CODEX-HANDOFF.md). Expansion remains local/uncommitted; GitHub/live retain the earlier 203-model revision 09. The dated source observations, visual acceptance limits and October 15 measurements in this report have not been replaced by setup checks. Next proposed block remains Tenth Second–First with protected-core ownership preparation on assignment; no new block/publication was performed.

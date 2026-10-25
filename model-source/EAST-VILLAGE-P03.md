@@ -1,5 +1,9 @@
 # P03 — 145 First Avenue / southwest Ninth corner
 
+<!-- current-project-status -->
+> **Current status:** The [project handoff](../CODEX-HANDOFF.md) governs current scope, publication and next work. This file retains its dated observations, evidence or specialist instructions. See [browser scaling](../docs/BROWSER-SCALING.md) for the current loading/rendering work; older model counts and paused states describe their original checkpoints.
+<!-- /current-project-status -->
+
 Completed locally October 13, 2026, under the user’s “continue onto the next.” One building, two exact faces (`241822237:1`, `241822237:0`), two businesses across three shopfronts. The previous 212 authored and compiled models remain byte-identical. This is a reviewed local candidate, not user acceptance or calibrated photographic 1:1.
 
 ## Observed and implemented

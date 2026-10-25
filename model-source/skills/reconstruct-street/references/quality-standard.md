@@ -1,5 +1,9 @@
 # Seventh quality: observable requirements and review
 
+<!-- current-project-status -->
+> **Current status:** The [project handoff](../../../../CODEX-HANDOFF.md) governs current scope, publication and next work. This file retains its dated observations, evidence or specialist instructions. See [browser scaling](../../../../docs/BROWSER-SCALING.md) for the current loading/rendering work; older model counts and paused states describe their original checkpoints.
+<!-- /current-project-status -->
+
 Read when observing, modeling or reviewing a facade. This standard transfers the method and level of attention, not Seventh Street's shop names, colors or dimensions.
 
 **October 11 update:** the user finds revision 08's storefronts too generic and asks for a major increase in individual business detail, naming Tile Bar as the reference. The [storefront individuality requirements](storefront-individuality.md) now govern business-level observation, implementation and review alongside this architectural checklist. Historic Seventh endorsements and revision 08 coverage do not establish that these stronger requirements are met. The subsequent [revision 09](../../../SEVENTH-ENGINE-09.md) is the user-endorsed working storefront reference, with per-business review and explicit remaining detail limits; it does not certify calibrated fidelity.

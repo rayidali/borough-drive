@@ -1,5 +1,9 @@
 # Rendering and driving direction — September 10, 2026
 
+<!-- current-project-status -->
+> **Current status:** The [project handoff](../CODEX-HANDOFF.md) governs current scope, publication and next work. This file retains its dated observations, evidence or specialist instructions. See [browser scaling](../docs/BROWSER-SCALING.md) for the current loading/rendering work; older model counts and paused states describe their original checkpoints.
+<!-- /current-project-status -->
+
 **October 23 current-state pointer:** the restored new laptop runs the unchanged 295-model Godot browser slice locally, with the original Three.js game preserved at `/index.html`. Godot 4.7.2/templates and Blender 5.2.1 are installed/tested; this does not reopen the historical Unreal/GPU migration discussion. GitHub/live remain 203-model revision 09; newer work is local/uncommitted. The user is restarting VS Code/Terminal. [Restart tools/player](../START-HERE.md#after-restarting-vs-code-or-terminal) · [Current handoff](../CODEX-HANDOFF.md). No new engine, street or publication is assigned by the restart.
 
 **October 11 continuation:** [First Avenue / St. Marks revision 09](SEVENTH-ENGINE-09.md) is now the user-endorsed working storefront reference and has explicit publication authorization. See the [current handoff](../CODEX-HANDOFF.md) for release verification. This does not assign an engine migration, GPU service or another street.

@@ -71,8 +71,8 @@
   <noscript>This little neighborhood needs JavaScript enabled to open.</noscript>
   <script src="index.js"></script>
   <script>
-    const config = {"args":[],"canvasResizePolicy":0,"emscriptenPoolSize":8,"ensureCrossOriginIsolationHeaders":true,"executable":"index","experimentalVK":false,"fileSizes":{"index.pck":8178208,"index.wasm":39514754},"focusCanvas":true,"gdextensionLibs":[],"godotPoolSize":4};
-    const packRelease = {"bytes":8178208,"sha256":"b0100bd00b509f41afce60e8648e42c6892664b73c4757fc8ba49300f2d2b9ab"};
+    const config = {"args":[],"canvasResizePolicy":0,"emscriptenPoolSize":8,"ensureCrossOriginIsolationHeaders":true,"executable":"index","experimentalVK":false,"fileSizes":{"index.pck":20243024,"index.wasm":39514754},"focusCanvas":true,"gdextensionLibs":[],"godotPoolSize":4};
+    const packRelease = {"bytes":20243024,"sha256":"703a8e951a46a092d7cf4f159cda55f73fb25d4c1e420d75e7ca4370e33c8d83"};
     const threaded = false;
     const loading = document.getElementById('loading');
     const status = document.getElementById('status');
@@ -82,6 +82,7 @@
     // Render at CSS-pixel resolution on Retina too; retain a responsive canvas
     // without silently multiplying the GPU workload by four.
     function fitCanvas() {
+      if (canvas.width === Math.max(1, innerWidth) && canvas.height === Math.max(1, innerHeight)) return;
       if (window.seventhRequestResize) {
         // Keep the old projection until its newly exposed surroundings exist.
         // Preserve aspect rather than stretching the last complete view.
@@ -90,7 +91,7 @@
         canvas.style.width = width + 'px'; canvas.style.height = height + 'px';
         canvas.style.left = (innerWidth - width) / 2 + 'px';
         canvas.style.top = (innerHeight - height) / 2 + 'px';
-        window.seventhRequestResize();
+        window.seventhRequestResize(innerWidth, innerHeight);
       } else window.seventhApplyResize();
     }
     window.seventhApplyResize = () => {

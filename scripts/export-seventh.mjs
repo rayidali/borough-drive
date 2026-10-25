@@ -17,6 +17,7 @@ async function run(command,args,cwd=project){
     child.on('error',reject);child.on('exit',code=>code===0?resolve():reject(Error(`${path.basename(command)} exited ${code}`)));
   });
 }
+const core=JSON.parse(await fs.readFile(path.join(project,'assets/protected-core.json'),'utf8'));
 const data=JSON.parse(await fs.readFile(path.join(project,'assets/slice.json'),'utf8'));
 for(const [name,expected] of Object.entries({...data.recipeHashes,'model-source/storefront-details.json':data.detailSourceSha256})){
   const actual=createHash('sha256').update(await fs.readFile(path.join(root,name))).digest('hex');
@@ -39,6 +40,7 @@ try{
   await run(godot,['--headless','--path','.','--export-release','Web',path.join(stage,'index.html')]);
   await run(godot,['--headless','--path','.','--script','res://scripts/export_credits.gd','--','--credits-out='+path.join(stage,'godot-notices.txt')]);
   await fs.copyFile(path.join(project,'assets/credits.txt'),path.join(stage,'credits.txt'));
+  await fs.copyFile(path.join(root,'model-source/fonts/tenth/OFL.txt'),path.join(stage,'NOTOSANSJP-OFL.txt'));
   await fs.copyFile(path.join(root,'LICENSE'),path.join(stage,'LICENSE.txt'));
   await fs.copyFile(path.join(root,'model-source/fonts/OFL.txt'),path.join(stage,'DAMION-OFL.txt'));
   for(const family of ['bebasneue','librebaskerville','barlowcondensed','montserrat']){
@@ -61,7 +63,7 @@ try{
   const shell=await fs.readFile(shellPath,'utf8');
   assert(shell.includes('/* BOROUGH_PACK_RELEASE */ null'),'Missing shell package pin');
   await fs.writeFile(shellPath,shell.replace('/* BOROUGH_PACK_RELEASE */ null',JSON.stringify(packIdentity)));
-  const manifest={schema:2,builtAt:new Date().toISOString(),engine:'Godot 4.7.2',renderer:'Compatibility / WebGL 2',threaded:false,buildings:data.buildings.length,sourceCommit:data.sourceCommit,checkoutCommit:execFileSync('git',['rev-parse','HEAD'],{cwd:root,encoding:'utf8'}).trim(),geographySha256:data.sourceSha256,areas,files:{},sources:{}};
+  const manifest={schema:2,builtAt:new Date().toISOString(),engine:'Godot 4.7.2',renderer:'Compatibility / WebGL 2',threaded:false,buildings:data.buildings.length+core.buildingOwners.length,modelScenes:data.buildings.length+core.buildingOwners.length+core.sharedModels.length,sourceCommit:data.sourceCommit,checkoutCommit:execFileSync('git',['rev-parse','HEAD'],{cwd:root,encoding:'utf8'}).trim(),geographySha256:data.sourceSha256,areas,files:{},sources:{}};
   async function listFiles(directory,prefix=''){
     const result=[];
     for(const entry of await fs.readdir(directory,{withFileTypes:true})){
@@ -81,7 +83,7 @@ try{
     manifest.files[name]=record;
   }
   const pack=await fs.readFile(path.join(stage,'index.pck'));
-  assert(pack.length<=16*1024*1024,'Shared PCK exceeds EV-002 proof budget');
+  assert(pack.length<=24*1024*1024,'Shared PCK exceeds Tenth original-texture budget');
   const entries=packEntries(pack);
   assert(!entries.some(e=>/building--?\d+\.glb/.test(e.name)),'Streamed building payload duplicated in base pack');
   const embedded=entries.find(e=>e.name==='assets/area_manifest.json');
@@ -93,13 +95,13 @@ try{
       if(entry.name.startsWith('.')||entry.name==='exports'||entry.name==='neighborhood')continue;
       const filename=path.join(directory,entry.name);
       if(entry.isDirectory())await sources(filename);
-      else if(/\.(gd|gdshader|tscn|godot|cfg|html|json|wav|txt|jpg|png|ttf|woff2|import)$/.test(entry.name)){
+      else if(/\.(gd|gdshader|tscn|godot|cfg|html|json|wav|txt|jpg|png|ttf|woff2|import|bin)$/.test(entry.name)){
         manifest.sources[path.relative(root,filename)]=createHash('sha256').update(await fs.readFile(filename)).digest('hex');
       }
     }
   }
   await sources(project);
-  for(const name of [...Object.keys(data.recipeHashes),'model-source/east-village-p01/protected-models.json','model-source/east-village-p02/protected-models.json','model-source/east-village-p03/protected-models.json','model-source/east-village-e09-n01a/protected-models.json','model-source/east-village-e09-n01b/protected-models.json','model-source/east-village-e09-block/protected-models.json','model-source/east-village-e09-east/protected-models.json','model-source/storefront-details.json','model-source/first-stmarks-scope-08.json','model-source/first-stmarks-browser-08.json','model-source/seventh-street-reference-02.json','model-source/west-seventh-reference-04.json','model-source/west-seventh-observations-04.json','model-source/east-seventh-reference-06.json','model-source/east-seventh-observations-06.json','model-source/east-seventh-browser-07.json','model-source/make_seventh_audio.py','scripts/export-seventh.mjs','scripts/seventh-package.mjs','vercel.json','scripts/seventh-hosting.mjs']){
+  for(const name of [...Object.keys(data.recipeHashes),'model-source/east-village-p01/protected-models.json','model-source/east-village-p02/protected-models.json','model-source/east-village-p03/protected-models.json','model-source/east-village-e09-n01a/protected-models.json','model-source/east-village-e09-n01b/protected-models.json','model-source/east-village-e09-block/protected-models.json','model-source/east-village-e09-east/protected-models.json','model-source/east-village-e10-block/protected-models.json','model-source/east-village-e10-east/protected-models.json','model-source/east-village-e11-block/protected-models.json','model-source/export_protected_core.py','model-source/prepare_protected_core.py','engine/first-seventh/assets/protected-core.glb','model-source/storefront-details.json','model-source/first-stmarks-scope-08.json','model-source/first-stmarks-browser-08.json','model-source/seventh-street-reference-02.json','model-source/west-seventh-reference-04.json','model-source/west-seventh-observations-04.json','model-source/east-seventh-reference-06.json','model-source/east-seventh-observations-06.json','model-source/east-seventh-browser-07.json','model-source/make_seventh_audio.py','scripts/export-seventh.mjs','scripts/seventh-package.mjs','vercel.json','scripts/seventh-hosting.mjs']){
     manifest.sources[name]=createHash('sha256').update(await fs.readFile(path.join(root,name))).digest('hex');
   }
   await fs.writeFile(path.join(stage,'build.json'),JSON.stringify(manifest,null,2)+'\n');

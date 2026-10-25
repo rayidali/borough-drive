@@ -1,0 +1,604 @@
+{
+  "build": "2026-10-25T06:17:15.938Z",
+  "inspected": [
+    {
+      "name": "248142887-0-elevation",
+      "faceId": "248142887:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142887:0",
+        "close": false
+      },
+      "sha256": "b7741556a8d83b88e5fd517996743ca1d4e0dd0c514930cfc74043df91e96179"
+    },
+    {
+      "name": "248142887-0-ground",
+      "faceId": "248142887:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142887:0",
+        "close": true,
+        "along": 0.5,
+        "span": 0.9
+      },
+      "sha256": "807ee95dd32f312d5c4581d567f9feed5a5bcca9f4d8dbff378cdcac43d71aa3"
+    },
+    {
+      "name": "248142887-0-mass-left",
+      "faceId": "248142887:0",
+      "pose": {
+        "type": "reference",
+        "x": 50.12115873588409,
+        "z": -223.1196938009638,
+        "height": 7.825500000000001,
+        "heading": 48.715714172118325,
+        "pitch": 4,
+        "fov": 78
+      },
+      "sha256": "40353180bac77db32c17469a9ed04263eee743615e87e2e359b3c52b51cb22ea"
+    },
+    {
+      "name": "248142888-0-elevation",
+      "faceId": "248142888:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142888:0",
+        "close": false
+      },
+      "sha256": "f270dcce946701c584c849e40c32d1f140e087b8ed6d53a32df513a33276b8de"
+    },
+    {
+      "name": "248142888-0-ground",
+      "faceId": "248142888:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142888:0",
+        "close": true,
+        "along": 0.5,
+        "span": 0.9
+      },
+      "sha256": "7bb754876ddf465671c35fdb1bb252e4faeda1a5a999044ce530d4e188086319"
+    },
+    {
+      "name": "248142890-0-elevation",
+      "faceId": "248142890:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142890:0",
+        "close": false
+      },
+      "sha256": "d0d41d9f36b60e9f689a44be582be06ec480c3931ecef7725c703e8446746ce1"
+    },
+    {
+      "name": "248142891-0-elevation",
+      "faceId": "248142891:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142891:0",
+        "close": false
+      },
+      "sha256": "19e8b473178ff5eafc63884b6ca68efafa891c74161505f041f9dd7d49ceba17"
+    },
+    {
+      "name": "248142891-0-ground",
+      "faceId": "248142891:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142891:0",
+        "close": true,
+        "along": 0.5,
+        "span": 0.9
+      },
+      "sha256": "8a88c1a78c8b843e42ae59cdb91b9dea4cd84a0eb7c128641ed93595ffbc83f5"
+    },
+    {
+      "name": "248142975-1-elevation",
+      "faceId": "248142975:1",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142975:1",
+        "close": false
+      },
+      "sha256": "354eb0b7680ac7fccb069e99e324c39ac372ff1fa07c7df078e6bad57d6f7171"
+    },
+    {
+      "name": "248142975-0-elevation",
+      "faceId": "248142975:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142975:0",
+        "close": false
+      },
+      "sha256": "f5bf0cf76ec2ac1f7f5f3875f4c408731aae5281a77428017ee0893b2427fcf2"
+    },
+    {
+      "name": "248142975-0-mass-left",
+      "faceId": "248142975:0",
+      "pose": {
+        "type": "reference",
+        "x": 215.98201671259204,
+        "z": -242.95764564834988,
+        "height": 12.195,
+        "heading": -41.51157642008818,
+        "pitch": 4,
+        "fov": 78
+      },
+      "sha256": "58c970676927801b6234c4e15f6f847365f80ffee69e05d89336ec19542eb57a"
+    },
+    {
+      "name": "248142975-0-mass-right",
+      "faceId": "248142975:0",
+      "pose": {
+        "type": "reference",
+        "x": 215.9397337924765,
+        "z": -252.95755625568367,
+        "height": 12.195,
+        "heading": -80.81922453619487,
+        "pitch": 4,
+        "fov": 78
+      },
+      "sha256": "70dc646cbdf4fc244fc4055731dec7583202c8c5461ffc22095be853b51de79b"
+    },
+    {
+      "name": "248142953-0-elevation",
+      "faceId": "248142953:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142953:0",
+        "close": false
+      },
+      "sha256": "69749a325a84e8ed56dcc010ba889fff9b9cdda612c41cc642a2d85fe9bde822"
+    },
+    {
+      "name": "248142953-1-elevation",
+      "faceId": "248142953:1",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142953:1",
+        "close": false
+      },
+      "sha256": "2713a290df90e4af804d4f71d000be47d27c1c3600b335b1f0d4a4915171cf19"
+    },
+    {
+      "name": "248142953-2-ground",
+      "faceId": "248142953:2",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142953:2",
+        "close": true,
+        "along": 0.5,
+        "span": 0.9
+      },
+      "sha256": "d66c485c12715cb74ad0b811d72078c73296e625e91d316e6382eba9742b84bb"
+    },
+    {
+      "name": "248142953-3-elevation",
+      "faceId": "248142953:3",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142953:3",
+        "close": false
+      },
+      "sha256": "91dd904f9b5742c10e0e3338aaeeb001dc4479aff57907b9cf952b027c923835"
+    },
+    {
+      "name": "248142953-4-elevation",
+      "faceId": "248142953:4",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142953:4",
+        "close": false
+      },
+      "sha256": "dc97949a4db710689720daf8b6aebbbcb0697dc2c922c63b7a7aad1a28ad0499"
+    },
+    {
+      "name": "248142953-5-elevation",
+      "faceId": "248142953:5",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142953:5",
+        "close": false
+      },
+      "sha256": "f0b11e11fb2fb3198d1966834df74bda8a604e522e6a758406baf3e50d3246e2"
+    },
+    {
+      "name": "248142953-5-mass-left",
+      "faceId": "248142953:5",
+      "pose": {
+        "type": "reference",
+        "x": 215.65035685356193,
+        "z": -205.549990672125,
+        "height": 14.129999999999999,
+        "heading": -41.71365776781281,
+        "pitch": 4,
+        "fov": 78
+      },
+      "sha256": "dc7af47581f47f4a86b732fc0ebc78c37b8bfba60be5f2443d79a9988683c00f"
+    },
+    {
+      "name": "248142953-5-mass-right",
+      "faceId": "248142953:5",
+      "pose": {
+        "type": "reference",
+        "x": 215.57280473610106,
+        "z": -215.54968995105722,
+        "height": 14.129999999999999,
+        "heading": -81.02130588391947,
+        "pitch": 4,
+        "fov": 78
+      },
+      "sha256": "29c90ab6d02f9b376f041f2532b10b2d31ef661360672775c1f74ed051048814"
+    },
+    {
+      "name": "248142895-0-lucie-0-front",
+      "faceId": "248142895:0",
+      "pose": {
+        "type": "reference",
+        "x": 98.83397889573102,
+        "z": -233.16229128712666,
+        "height": 1.9,
+        "heading": 29.030892067157243,
+        "pitch": 0,
+        "fov": 72
+      },
+      "sha256": "24960d23ebd4ac135f4a375ee5cb9f0e7a05d03aee1eba0478796c777241ed62",
+      "businessId": "248142895:0:lucie"
+    },
+    {
+      "name": "248142895-0-lucie-0-left",
+      "faceId": "248142895:0",
+      "pose": {
+        "type": "reference",
+        "x": 97.53397931418213,
+        "z": -233.1612482278208,
+        "height": 1.9,
+        "heading": 47.03505367307072,
+        "pitch": 0,
+        "fov": 72
+      },
+      "sha256": "2e85fd600da06c2bd89c61656c796fe09bdde2d7a06ebff6080ccc449c43ab3b",
+      "businessId": "248142895:0:lucie"
+    },
+    {
+      "name": "248142895-0-niconeco-0-front",
+      "faceId": "248142895:0",
+      "pose": {
+        "type": "reference",
+        "x": 103.09643752370708,
+        "z": -233.1657112860258,
+        "height": 1.9,
+        "heading": 29.030892067157243,
+        "pitch": 0,
+        "fov": 72
+      },
+      "sha256": "caf7ff3b4caa29af68ed5452e095b6c3aa4709be1ba0dd10b8a9d417759a4294",
+      "businessId": "248142895:0:niconeco"
+    },
+    {
+      "name": "248142895-0-niconeco-0-right",
+      "faceId": "248142895:0",
+      "pose": {
+        "type": "reference",
+        "x": 104.39643710525597,
+        "z": -233.16675434533167,
+        "height": 1.9,
+        "heading": 11.026730461243861,
+        "pitch": 0,
+        "fov": 72
+      },
+      "sha256": "034328c4703486848a31c43fcaff9e1b4e7b77c30a37cc32ce92efa907438c24",
+      "businessId": "248142895:0:niconeco"
+    },
+    {
+      "name": "248142900-0-ground",
+      "faceId": "248142900:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142900:0",
+        "close": true,
+        "along": 0.5,
+        "span": 0.9
+      },
+      "sha256": "ac6456d43b6b75513c86e850a1713a971c0a34e9b87b891a7c99adddd0fb10df"
+    },
+    {
+      "name": "248142912-0-ground",
+      "faceId": "248142912:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142912:0",
+        "close": true,
+        "along": 0.5,
+        "span": 0.9
+      },
+      "sha256": "f070d683c23b1e379a04ccbbf37746e726bf89627f4a25be0f4b9613ae6ba4ac"
+    },
+    {
+      "name": "248142892-0-elevation",
+      "faceId": "248142892:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142892:0",
+        "close": false
+      },
+      "sha256": "ff8e78d0ef0ac039250896de601aba4c9e1b8007d300558c3def49fb7d968b4a"
+    },
+    {
+      "name": "248142894-0-elevation",
+      "faceId": "248142894:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142894:0",
+        "close": false
+      },
+      "sha256": "69ac66e01a2f9037dac178e1674e554722065e32ef24f1fc7142abf2a8b9ecc3"
+    },
+    {
+      "name": "248142895-0-elevation",
+      "faceId": "248142895:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142895:0",
+        "close": false
+      },
+      "sha256": "2f889c2caf529a8fdaa7cb879730062f8ede8d41935deebde89c37d0fff5c332"
+    },
+    {
+      "name": "248142897-0-elevation",
+      "faceId": "248142897:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142897:0",
+        "close": false
+      },
+      "sha256": "ebc6b7f827ec5a8de2cb84c6112867c414aa93b8c63ccf73090f5a9c01e3aa29"
+    },
+    {
+      "name": "248142899-0-elevation",
+      "faceId": "248142899:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142899:0",
+        "close": false
+      },
+      "sha256": "86c1ee983a692f0e2812367769b092aa518989ae65fe9e8da9eed674c78afc4c"
+    },
+    {
+      "name": "248142901-0-elevation",
+      "faceId": "248142901:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142901:0",
+        "close": false
+      },
+      "sha256": "863a575ba8c7a68ded3b2e19f8beb0dbeec69ac4bde4ebcb397a07dcaf48a677"
+    },
+    {
+      "name": "248142903-0-elevation",
+      "faceId": "248142903:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142903:0",
+        "close": false
+      },
+      "sha256": "67e1b99c0668646e2c46fd7670c8479ebb1caf785117b08d2057a9f1695daf71"
+    },
+    {
+      "name": "248142905-0-elevation",
+      "faceId": "248142905:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142905:0",
+        "close": false
+      },
+      "sha256": "e7089c78d9ff3cc779493b4f4f64b440e55691aa419f15feac9d40b802f09585"
+    },
+    {
+      "name": "248142907-0-elevation",
+      "faceId": "248142907:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142907:0",
+        "close": false
+      },
+      "sha256": "49ad36930288ded9b08b2417e63dbca5556043254c8edc53b7273dfc8dad06af"
+    },
+    {
+      "name": "248142909-0-elevation",
+      "faceId": "248142909:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142909:0",
+        "close": false
+      },
+      "sha256": "346125a7a6beeaa94654da1bff90638c7d6eda50af54510d655f45f2f99c609d"
+    },
+    {
+      "name": "248142911-0-elevation",
+      "faceId": "248142911:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142911:0",
+        "close": false
+      },
+      "sha256": "e8f1bf98cf050fcf5f40b1084997cf00fdff19d4f393770ffd6fbe0aa7b4d18c"
+    },
+    {
+      "name": "-577810-0-elevation",
+      "faceId": "-577810:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "-577810:0",
+        "close": false
+      },
+      "sha256": "7920009e4ffdb64be9f4fef0226a60202ce07a38eae1e401fb51b1d8ecb4da51"
+    },
+    {
+      "name": "248142893-0-elevation",
+      "faceId": "248142893:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142893:0",
+        "close": false
+      },
+      "sha256": "1a44e30aa07f40fea8e45b75e2deb5df62bbe100d37a539d65ac4bb4afddc369"
+    },
+    {
+      "name": "248142896-0-elevation",
+      "faceId": "248142896:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142896:0",
+        "close": false
+      },
+      "sha256": "ce8c5ce0d357814c449300e264b8c12d3c7e0f2bbd9a7faa814162c8c98cd3eb"
+    },
+    {
+      "name": "248142898-0-elevation",
+      "faceId": "248142898:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142898:0",
+        "close": false
+      },
+      "sha256": "ca51570e66a19c97342d3008aeba0f31968b12b7b64c11c0b20e3109d457846b"
+    },
+    {
+      "name": "248142900-0-elevation",
+      "faceId": "248142900:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142900:0",
+        "close": false
+      },
+      "sha256": "b7a06829c5c1316f72dd5005e5a99f18057e9c2d348a9a1d39f6300eb2b32a88"
+    },
+    {
+      "name": "248142902-0-elevation",
+      "faceId": "248142902:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142902:0",
+        "close": false
+      },
+      "sha256": "3450411ff981a730fd65712b08acd64c472dbe1e320059a429c20a42263f81ab"
+    },
+    {
+      "name": "248142904-0-elevation",
+      "faceId": "248142904:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142904:0",
+        "close": false
+      },
+      "sha256": "bf25fdd7932fc8ab39aeed3126e41b177c8d4338048c98e023775521e422871b"
+    },
+    {
+      "name": "248142906-0-elevation",
+      "faceId": "248142906:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142906:0",
+        "close": false
+      },
+      "sha256": "de0f0e8491402edd30841bbf4bbf67a357ece9c13bbe57c67bb50fb69c72000c"
+    },
+    {
+      "name": "248142908-0-elevation",
+      "faceId": "248142908:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142908:0",
+        "close": false
+      },
+      "sha256": "afc6f309a5d63d8598cb4ee078c1e8ca2095600a41d50b12866616108b7cf92d"
+    },
+    {
+      "name": "248142910-0-elevation",
+      "faceId": "248142910:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142910:0",
+        "close": false
+      },
+      "sha256": "54c54cc90219b3efbea61196881e5be6b2ccd2a865156b5b434f61302d9e845f"
+    },
+    {
+      "name": "-577810-0-ground",
+      "faceId": "-577810:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "-577810:0",
+        "close": true,
+        "along": 0.5,
+        "span": 0.9
+      },
+      "sha256": "dbf12820998db124eb86a1d3f8abf3e248c0e696f989805c0c36293bd41a24dc"
+    },
+    {
+      "name": "248142893-0-ground",
+      "faceId": "248142893:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142893:0",
+        "close": true,
+        "along": 0.5,
+        "span": 0.9
+      },
+      "sha256": "2a56f6791c0e2e7703d1afc95b07b7399d3195d70f5680eb620cee8a691243b2"
+    },
+    {
+      "name": "248142896-0-ground",
+      "faceId": "248142896:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142896:0",
+        "close": true,
+        "along": 0.5,
+        "span": 0.9
+      },
+      "sha256": "46ad32ed7e0a0dec0052f086104843554e1ece421809e16448e24fd1f06131c6"
+    },
+    {
+      "name": "248142912-0-elevation",
+      "faceId": "248142912:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142912:0",
+        "close": false
+      },
+      "sha256": "f8ce8c43b31f808d7483ffe8f8aebea9ef98443e38dc2da98b16ab16001c6988"
+    },
+    {
+      "name": "248142913-0-elevation",
+      "faceId": "248142913:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142913:0",
+        "close": false
+      },
+      "sha256": "216fca67ea2de45c9b0194af061adec1da172f1418ea7f115a22efa78f28882e"
+    },
+    {
+      "name": "248142914-0-elevation",
+      "faceId": "248142914:0",
+      "pose": {
+        "type": "streetFrontage",
+        "faceId": "248142914:0",
+        "close": false
+      },
+      "sha256": "97d15529a8daa4d87bb99148d549e40193d028659b828278fce66e145235838d"
+    }
+  ],
+  "findings": {
+    "251": "Four bays/rows and separate access/open well present. Repair overly brown brick and black cornice to source pale buff/gray, add continuous paired middle panels and white sashes. Ground red should be plain paint.",
+    "253": "Four rows/bays and raised round portal present; missing raised central cornice and broad paired blind arch, wider masonry relief, lower wells. Tree masks front entrance: inspect inboard replacement, keep tree.",
+    "255": "Tall stepped parapet/4x4 round top openings present; add observed pale insets in blank parapet and brick arch surround.",
+    "257": "Wrong bracketed black cornice, dark red upper field, missing first-floor triangular heads, wrong single-line sign and small isolated black canopies. Repair to cream low parapet, buff/red pattern, three upper first-floor pediments, source two-line sign on continuous angled frame, solid lower/gold kickplate doors.",
+    "church": "Individual mass sections, lancets and recess present. Solid wood scroll doors required (current glass leaf is wrong); gray stairs, fine pointed tracery and stronger pane subdivisions. Roof vertical pipes extend beyond low roof and need trimming. Avenue roof has intersections needing cleanup.",
+    "club": "Five upper rows and separate lower rear roof present in both obliques. Elevation diagonal is a cast shadow, not a sloped profile. White masonry contrast is excessive; opt this owner into painted-masonry shading. Need source-specific high window hoods and closer entrance review.",
+    "north-mid": "259 split brick/lowest rustication, 261 pilasters, 263 red quoins, 265 porthole AC/solid paneled Eastside Story leaves, 267 pitched canopies and diamond bench, 269 black curved crown/pale cream, 271 pink ashlar and curved carved cornice, 275 curved black cornice/pale tympanum/white sashes, 277 pale cream/white sashes need repairs. Lucie/niconeco initial discrepancies authored in export02, served reinspection pending.",
+    "south-initial": "256 stairs exist but front crop loses depth; shield/portal top not visibly expressed. 260 curved portal, 264 projecting bay/hip roof/low wall and 272 triangular portal need concrete inspection/repair. Remaining counts and broad openings reviewed in initial elevations; no acceptance implied."
+  },
+  "state": "53 of 237 captures inspected; repairs pending"
+}

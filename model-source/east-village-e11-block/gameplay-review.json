@@ -1,0 +1,54 @@
+{
+  "candidate": "05",
+  "views": [
+    {
+      "name": "first-connection-north",
+      "sha256": "9dc1e57de9a5d9121276384a56f229b7a9649dc5a2d7a804043ce57d6a40e170",
+      "observations": [
+        "First/Eleventh crossing and intentional north barrier visible; school edge and existing HUD remain. Beyond assigned boundary has blank world context."
+      ],
+      "inspectedAt": "2026-10-25T10:42:53.701245+00:00"
+    },
+    {
+      "name": "eleventh-west",
+      "sha256": "54c05f9b9d357f3f53309abbf273ac6c17846b5976c4c3e2a8b8a953056557a6",
+      "observations": [
+        "West terminal and both corner fronts visible with road/sidewalk clearance; blank beyond-boundary context intentional."
+      ],
+      "inspectedAt": "2026-10-25T10:42:53.701507+00:00"
+    },
+    {
+      "name": "eleventh-east",
+      "sha256": "e72df85541b0fd3fc42d429d616e77ebf2ccfd6da1731dc9cb98dc263a43134d",
+      "observations": [
+        "Eleventh/First connection and intentional east barrier visible; distant unassigned rear context visible beyond barrier; no new geography claimed."
+      ],
+      "inspectedAt": "2026-10-25T10:42:53.701660+00:00"
+    },
+    {
+      "name": "eleventh-camera-0",
+      "sha256": "25560a0dd82320b50175a557eabb95bee0c6a3bab04000fdd322c9029a4930fb",
+      "observations": [
+        "Orbit and zoom show full schoolyard, separate court markings/hoops/trees, side-school window fields and street clearance without moving car."
+      ],
+      "inspectedAt": "2026-10-25T10:45:04.783453+00:00"
+    },
+    {
+      "name": "eleventh-camera-1",
+      "sha256": "9108856f3a0c45f2fcd38c227360a77fe3409f856828d448866b59dd78c14d66",
+      "observations": [
+        "Low hood orbit shows detailed fence and schoolyard depth; fine mesh moire remains at oblique distance."
+      ],
+      "inspectedAt": "2026-10-25T10:45:04.783744+00:00"
+    },
+    {
+      "name": "reset-seventh",
+      "sha256": "b565aeaf50f4949fd9a5adf07a3b11ffc4eda6fef05477957183a1f4e4ff19e6",
+      "observations": [
+        "Reset returns to preserved First/Seventh intersection with original signage, HUD and overhead camera mode retained."
+      ],
+      "inspectedAt": "2026-10-25T10:45:04.783971+00:00"
+    }
+  ],
+  "acceptance": "Actual still-image inspection; automated driving/camera evidence recorded separately."
+}

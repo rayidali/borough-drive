@@ -1,0 +1,1338 @@
+{
+  "schema": 1,
+  "source": "dist/reconstruction/first-and-10th.glb",
+  "sourceSha256": "405e247602a2117f5f1e7b938921ec584fbd0e3ff9e9008209361f215b65f167",
+  "convertedSha256": "9d158c9903ec5b56cabd9f9adead303de2db6ab63b91918ea555ccd5131e6eb2",
+  "buildingOwners": [
+    {
+      "id": 247851882,
+      "kind": "protected-core",
+      "address": "165 1st Avenue",
+      "asset": "res://assets/protected-core.glb",
+      "group": "ProtectedCore_247851882",
+      "sha256": "9d158c9903ec5b56cabd9f9adead303de2db6ab63b91918ea555ccd5131e6eb2",
+      "position": [
+        0,
+        0,
+        -228
+      ],
+      "footprint": [
+        [
+          -15.393,
+          -245.652
+        ],
+        [
+          -31.679,
+          -245.639
+        ],
+        [
+          -31.704,
+          -252.402
+        ],
+        [
+          -15.423,
+          -252.424
+        ]
+      ],
+      "height": 16.8,
+      "protection": "Unchanged accepted source geometry/materials; translated once."
+    },
+    {
+      "id": 247851883,
+      "kind": "protected-core",
+      "address": "167 1st Avenue",
+      "asset": "res://assets/protected-core.glb",
+      "group": "ProtectedCore_247851883",
+      "sha256": "9d158c9903ec5b56cabd9f9adead303de2db6ab63b91918ea555ccd5131e6eb2",
+      "position": [
+        0,
+        0,
+        -228
+      ],
+      "footprint": [
+        [
+          -15.46,
+          -259.626
+        ],
+        [
+          -15.423,
+          -252.424
+        ],
+        [
+          -31.704,
+          -252.402
+        ],
+        [
+          -45.674,
+          -252.39
+        ],
+        [
+          -45.691,
+          -256.864
+        ],
+        [
+          -45.704,
+          -259.596
+        ],
+        [
+          -27.72,
+          -259.61
+        ]
+      ],
+      "height": 17.1,
+      "protection": "Unchanged accepted source geometry/materials; translated once."
+    },
+    {
+      "id": 247851884,
+      "kind": "protected-core",
+      "address": "169 1st Avenue",
+      "asset": "res://assets/protected-core.glb",
+      "group": "ProtectedCore_247851884",
+      "sha256": "9d158c9903ec5b56cabd9f9adead303de2db6ab63b91918ea555ccd5131e6eb2",
+      "position": [
+        0,
+        0,
+        -228
+      ],
+      "footprint": [
+        [
+          -15.46,
+          -259.626
+        ],
+        [
+          -27.72,
+          -259.61
+        ],
+        [
+          -27.746,
+          -266.652
+        ],
+        [
+          -15.486,
+          -266.668
+        ]
+      ],
+      "height": 8.1,
+      "protection": "Unchanged accepted source geometry/materials; translated once."
+    },
+    {
+      "id": 247851885,
+      "kind": "protected-core",
+      "address": "171 1st Avenue",
+      "asset": "res://assets/protected-core.glb",
+      "group": "ProtectedCore_247851885",
+      "sha256": "9d158c9903ec5b56cabd9f9adead303de2db6ab63b91918ea555ccd5131e6eb2",
+      "position": [
+        0,
+        0,
+        -228
+      ],
+      "footprint": [
+        [
+          -15.518,
+          -273.719
+        ],
+        [
+          -15.486,
+          -266.668
+        ],
+        [
+          -27.746,
+          -266.652
+        ],
+        [
+          -42.661,
+          -266.638
+        ],
+        [
+          -42.692,
+          -273.69
+        ],
+        [
+          -34.8,
+          -273.696
+        ],
+        [
+          -30.779,
+          -273.703
+        ]
+      ],
+      "height": 19.6,
+      "protection": "Unchanged accepted source geometry/materials; translated once."
+    },
+    {
+      "id": 247851912,
+      "kind": "protected-core",
+      "address": "239 East 10th Street",
+      "asset": "res://assets/protected-core.glb",
+      "group": "ProtectedCore_247851912",
+      "sha256": "9d158c9903ec5b56cabd9f9adead303de2db6ab63b91918ea555ccd5131e6eb2",
+      "position": [
+        0,
+        0,
+        -228
+      ],
+      "footprint": [
+        [
+          -45.62,
+          -240.524
+        ],
+        [
+          -53.349,
+          -240.519
+        ],
+        [
+          -53.362,
+          -242.244
+        ],
+        [
+          -53.385,
+          -247.249
+        ],
+        [
+          -53.393,
+          -250.302
+        ],
+        [
+          -53.422,
+          -256.221
+        ],
+        [
+          -53.427,
+          -256.855
+        ],
+        [
+          -45.691,
+          -256.864
+        ],
+        [
+          -45.674,
+          -252.39
+        ],
+        [
+          -45.642,
+          -244.868
+        ]
+      ],
+      "height": 17.5,
+      "protection": "Unchanged accepted source geometry/materials; translated once."
+    },
+    {
+      "id": 247851944,
+      "kind": "protected-core",
+      "address": "163 1st Avenue",
+      "asset": "res://assets/protected-core.glb",
+      "group": "ProtectedCore_247851944",
+      "sha256": "9d158c9903ec5b56cabd9f9adead303de2db6ab63b91918ea555ccd5131e6eb2",
+      "position": [
+        0,
+        0,
+        -228
+      ],
+      "footprint": [
+        [
+          -15.393,
+          -245.652
+        ],
+        [
+          -15.36,
+          -237.556
+        ],
+        [
+          -45.604,
+          -237.527
+        ],
+        [
+          -45.62,
+          -240.524
+        ],
+        [
+          -45.642,
+          -244.868
+        ],
+        [
+          -31.671,
+          -244.879
+        ],
+        [
+          -31.679,
+          -245.639
+        ]
+      ],
+      "height": 10.6,
+      "protection": "Unchanged accepted source geometry/materials; translated once."
+    },
+    {
+      "id": 247852655,
+      "kind": "protected-core",
+      "address": "153 1st Avenue",
+      "asset": "res://assets/protected-core.glb",
+      "group": "ProtectedCore_247852655",
+      "sha256": "9d158c9903ec5b56cabd9f9adead303de2db6ab63b91918ea555ccd5131e6eb2",
+      "position": [
+        0,
+        0,
+        -228
+      ],
+      "footprint": [
+        [
+          -15.284,
+          -183.452
+        ],
+        [
+          -32.051,
+          -183.402
+        ],
+        [
+          -34.884,
+          -183.393
+        ],
+        [
+          -45.576,
+          -183.37
+        ],
+        [
+          -45.598,
+          -190.631
+        ],
+        [
+          -34.906,
+          -190.654
+        ],
+        [
+          -26.686,
+          -190.678
+        ],
+        [
+          -15.306,
+          -190.713
+        ]
+      ],
+      "height": 15.0,
+      "protection": "Unchanged accepted source geometry/materials; translated once."
+    },
+    {
+      "id": 247852692,
+      "kind": "protected-core",
+      "address": "242 East 10th Street",
+      "asset": "res://assets/protected-core.glb",
+      "group": "ProtectedCore_247852692",
+      "sha256": "9d158c9903ec5b56cabd9f9adead303de2db6ab63b91918ea555ccd5131e6eb2",
+      "position": [
+        0,
+        0,
+        -228
+      ],
+      "footprint": [
+        [
+          -20.911,
+          -204.767
+        ],
+        [
+          -20.923,
+          -208.174
+        ],
+        [
+          -22.379,
+          -208.867
+        ],
+        [
+          -24.785,
+          -208.853
+        ],
+        [
+          -28.101,
+          -208.844
+        ],
+        [
+          -29.052,
+          -207.067
+        ],
+        [
+          -29.043,
+          -204.74099999999999
+        ],
+        [
+          -33.398,
+          -204.727
+        ],
+        [
+          -34.681,
+          -204.726
+        ],
+        [
+          -37.243,
+          -204.716
+        ],
+        [
+          -37.263,
+          -209.265
+        ],
+        [
+          -37.263,
+          -210.07999999999998
+        ],
+        [
+          -37.267,
+          -212.727
+        ],
+        [
+          -37.286,
+          -218.957
+        ],
+        [
+          -34.724,
+          -218.968
+        ],
+        [
+          -15.378,
+          -219.014
+        ],
+        [
+          -15.34,
+          -204.782
+        ]
+      ],
+      "height": 18.8,
+      "protection": "Unchanged accepted source geometry/materials; translated once."
+    },
+    {
+      "id": 247852695,
+      "kind": "protected-core",
+      "address": "155 1st Avenue",
+      "asset": "res://assets/protected-core.glb",
+      "group": "ProtectedCore_247852695",
+      "sha256": "9d158c9903ec5b56cabd9f9adead303de2db6ab63b91918ea555ccd5131e6eb2",
+      "position": [
+        0,
+        0,
+        -228
+      ],
+      "footprint": [
+        [
+          -37.243,
+          -204.716
+        ],
+        [
+          -34.681,
+          -204.726
+        ],
+        [
+          -33.398,
+          -204.727
+        ],
+        [
+          -29.043,
+          -204.74099999999999
+        ],
+        [
+          -26.727,
+          -204.742
+        ],
+        [
+          -20.911,
+          -204.767
+        ],
+        [
+          -15.34,
+          -204.782
+        ],
+        [
+          -15.335,
+          -202.377
+        ],
+        [
+          -15.306,
+          -193.108
+        ],
+        [
+          -15.306,
+          -190.713
+        ],
+        [
+          -26.686,
+          -190.678
+        ],
+        [
+          -34.906,
+          -190.654
+        ],
+        [
+          -45.598,
+          -190.631
+        ],
+        [
+          -53.208,
+          -190.603
+        ],
+        [
+          -76.046,
+          -190.552
+        ],
+        [
+          -83.377,
+          -190.526
+        ],
+        [
+          -83.389,
+          -194.506
+        ],
+        [
+          -83.407,
+          -200.699
+        ],
+        [
+          -83.454,
+          -217.639
+        ],
+        [
+          -77.735,
+          -217.648
+        ],
+        [
+          -77.735,
+          -218.845
+        ],
+        [
+          -49.243,
+          -218.919
+        ],
+        [
+          -48.482,
+          -218.922
+        ],
+        [
+          -43.264,
+          -218.945
+        ],
+        [
+          -38.047,
+          -218.955
+        ],
+        [
+          -37.286,
+          -218.957
+        ],
+        [
+          -37.267,
+          -212.727
+        ],
+        [
+          -37.263,
+          -210.07999999999998
+        ],
+        [
+          -37.263,
+          -209.265
+        ]
+      ],
+      "height": 51.5,
+      "protection": "Unchanged accepted source geometry/materials; translated once."
+    },
+    {
+      "id": 247852701,
+      "kind": "protected-core",
+      "address": "151 1st Avenue",
+      "asset": "res://assets/protected-core.glb",
+      "group": "ProtectedCore_247852701",
+      "sha256": "9d158c9903ec5b56cabd9f9adead303de2db6ab63b91918ea555ccd5131e6eb2",
+      "position": [
+        0,
+        0,
+        -228
+      ],
+      "footprint": [
+        [
+          -15.284,
+          -183.452
+        ],
+        [
+          -15.267,
+          -176.686
+        ],
+        [
+          -28.887,
+          -176.653
+        ],
+        [
+          -32.032,
+          -176.649
+        ],
+        [
+          -32.051,
+          -183.402
+        ]
+      ],
+      "height": 17.0,
+      "protection": "Unchanged accepted source geometry/materials; translated once."
+    },
+    {
+      "id": 248142860,
+      "kind": "protected-core",
+      "address": "156 1st Avenue",
+      "asset": "res://assets/protected-core.glb",
+      "group": "ProtectedCore_248142860",
+      "sha256": "9d158c9903ec5b56cabd9f9adead303de2db6ab63b91918ea555ccd5131e6eb2",
+      "position": [
+        0,
+        0,
+        -228
+      ],
+      "footprint": [
+        [
+          22.558,
+          -197.261
+        ],
+        [
+          27.988,
+          -197.286
+        ],
+        [
+          28.615,
+          -196.489
+        ],
+        [
+          30.714,
+          -196.497
+        ],
+        [
+          31.466,
+          -197.297
+        ],
+        [
+          33.784,
+          -197.313
+        ],
+        [
+          35.013,
+          -198.314
+        ],
+        [
+          38.084,
+          -198.328
+        ],
+        [
+          39.694,
+          -198.332
+        ],
+        [
+          39.703,
+          -197.534
+        ],
+        [
+          41.069,
+          -197.542
+        ],
+        [
+          41.115,
+          -190.69
+        ],
+        [
+          35.068,
+          -190.664
+        ],
+        [
+          33.829,
+          -191.504
+        ],
+        [
+          31.513,
+          -191.502
+        ],
+        [
+          30.741,
+          -192.232
+        ],
+        [
+          25.441,
+          -192.215
+        ],
+        [
+          24.71,
+          -191.707
+        ],
+        [
+          22.604,
+          -191.69400000000002
+        ],
+        [
+          21.376,
+          -190.60399999999998
+        ],
+        [
+          15.552,
+          -190.575
+        ],
+        [
+          15.492,
+          -198.235
+        ],
+        [
+          21.321,
+          -198.254
+        ]
+      ],
+      "height": 21.1,
+      "protection": "Unchanged accepted source geometry/materials; translated once."
+    },
+    {
+      "id": 248142861,
+      "kind": "protected-core",
+      "address": "158 1st Avenue",
+      "asset": "res://assets/protected-core.glb",
+      "group": "ProtectedCore_248142861",
+      "sha256": "9d158c9903ec5b56cabd9f9adead303de2db6ab63b91918ea555ccd5131e6eb2",
+      "position": [
+        0,
+        0,
+        -228
+      ],
+      "footprint": [
+        [
+          21.498,
+          -203.091
+        ],
+        [
+          31.86,
+          -203.133
+        ],
+        [
+          32.712,
+          -204.206
+        ],
+        [
+          36.253,
+          -204.226
+        ],
+        [
+          38.039,
+          -204.225
+        ],
+        [
+          38.084,
+          -198.328
+        ],
+        [
+          35.013,
+          -198.314
+        ],
+        [
+          31.894,
+          -198.299
+        ],
+        [
+          31.252,
+          -199.22899999999998
+        ],
+        [
+          22.547,
+          -199.19
+        ],
+        [
+          21.321,
+          -198.254
+        ],
+        [
+          15.492,
+          -198.235
+        ],
+        [
+          15.453,
+          -204.136
+        ],
+        [
+          20.413,
+          -204.156
+        ]
+      ],
+      "height": 21.4,
+      "protection": "Unchanged accepted source geometry/materials; translated once."
+    },
+    {
+      "id": 248142862,
+      "kind": "protected-core",
+      "address": "160 1st Avenue",
+      "asset": "res://assets/protected-core.glb",
+      "group": "ProtectedCore_248142862",
+      "sha256": "9d158c9903ec5b56cabd9f9adead303de2db6ab63b91918ea555ccd5131e6eb2",
+      "position": [
+        0,
+        0,
+        -228
+      ],
+      "footprint": [
+        [
+          22.112,
+          -210.909
+        ],
+        [
+          27.004,
+          -210.929
+        ],
+        [
+          27.822,
+          -210.135
+        ],
+        [
+          31.443,
+          -210.149
+        ],
+        [
+          32.502,
+          -210.954
+        ],
+        [
+          34.649,
+          -210.964
+        ],
+        [
+          36.193,
+          -211.988
+        ],
+        [
+          41.432,
+          -212.01
+        ],
+        [
+          41.478,
+          -205.017
+        ],
+        [
+          39.522,
+          -205.012
+        ],
+        [
+          39.535,
+          -204.242
+        ],
+        [
+          38.039,
+          -204.225
+        ],
+        [
+          36.253,
+          -204.226
+        ],
+        [
+          34.693,
+          -205.10399999999998
+        ],
+        [
+          31.473,
+          -205.096
+        ],
+        [
+          31.47,
+          -206.178
+        ],
+        [
+          27.849,
+          -206.164
+        ],
+        [
+          27.852,
+          -205.082
+        ],
+        [
+          22.158,
+          -205.063
+        ],
+        [
+          20.747,
+          -204.163
+        ],
+        [
+          20.413,
+          -204.156
+        ],
+        [
+          15.453,
+          -204.136
+        ],
+        [
+          15.396,
+          -211.912
+        ],
+        [
+          20.695,
+          -211.929
+        ]
+      ],
+      "height": 21.7,
+      "protection": "Unchanged accepted source geometry/materials; translated once."
+    },
+    {
+      "id": 248142864,
+      "kind": "protected-core",
+      "address": "166 1st Avenue",
+      "asset": "res://assets/protected-core.glb",
+      "group": "ProtectedCore_248142864",
+      "sha256": "9d158c9903ec5b56cabd9f9adead303de2db6ab63b91918ea555ccd5131e6eb2",
+      "position": [
+        0,
+        0,
+        -228
+      ],
+      "footprint": [
+        [
+          43.811,
+          -244.462
+        ],
+        [
+          31.259,
+          -244.45
+        ],
+        [
+          16.073,
+          -244.438
+        ],
+        [
+          16.037,
+          -251.551
+        ],
+        [
+          43.774,
+          -251.575
+        ]
+      ],
+      "height": 17.3,
+      "protection": "Unchanged accepted source geometry/materials; translated once."
+    },
+    {
+      "id": 248142866,
+      "kind": "protected-core",
+      "address": "168 1st Avenue",
+      "asset": "res://assets/protected-core.glb",
+      "group": "ProtectedCore_248142866",
+      "sha256": "9d158c9903ec5b56cabd9f9adead303de2db6ab63b91918ea555ccd5131e6eb2",
+      "position": [
+        0,
+        0,
+        -228
+      ],
+      "footprint": [
+        [
+          31.197,
+          -258.987
+        ],
+        [
+          31.212,
+          -256.79200000000003
+        ],
+        [
+          43.75,
+          -256.809
+        ],
+        [
+          43.774,
+          -251.575
+        ],
+        [
+          16.037,
+          -251.551
+        ],
+        [
+          15.425,
+          -251.541
+        ],
+        [
+          15.393,
+          -258.975
+        ],
+        [
+          28.806,
+          -258.98199999999997
+        ]
+      ],
+      "height": 17.6,
+      "protection": "Unchanged accepted source geometry/materials; translated once."
+    },
+    {
+      "id": 248142868,
+      "kind": "protected-core",
+      "address": "170 1st Avenue",
+      "asset": "res://assets/protected-core.glb",
+      "group": "ProtectedCore_248142868",
+      "sha256": "9d158c9903ec5b56cabd9f9adead303de2db6ab63b91918ea555ccd5131e6eb2",
+      "position": [
+        0,
+        0,
+        -228
+      ],
+      "footprint": [
+        [
+          28.786,
+          -264.053
+        ],
+        [
+          32.711,
+          -264.058
+        ],
+        [
+          32.701,
+          -266.09000000000003
+        ],
+        [
+          34.168,
+          -266.091
+        ],
+        [
+          39.96,
+          -266.089
+        ],
+        [
+          39.992,
+          -259.522
+        ],
+        [
+          32.726,
+          -259.519
+        ],
+        [
+          32.72,
+          -260.484
+        ],
+        [
+          28.8,
+          -260.469
+        ],
+        [
+          28.806,
+          -258.98199999999997
+        ],
+        [
+          15.393,
+          -258.975
+        ],
+        [
+          14.72,
+          -258.97
+        ],
+        [
+          14.689,
+          -266.073
+        ],
+        [
+          28.775,
+          -266.085
+        ]
+      ],
+      "height": 17.3,
+      "protection": "Unchanged accepted source geometry/materials; translated once."
+    },
+    {
+      "id": 248142883,
+      "kind": "protected-core",
+      "address": "247 East 10th Street",
+      "asset": "res://assets/protected-core.glb",
+      "group": "ProtectedCore_248142883",
+      "sha256": "9d158c9903ec5b56cabd9f9adead303de2db6ab63b91918ea555ccd5131e6eb2",
+      "position": [
+        0,
+        0,
+        -228
+      ],
+      "footprint": [
+        [
+          43.839,
+          -237.103
+        ],
+        [
+          31.288,
+          -237.091
+        ],
+        [
+          31.259,
+          -244.45
+        ],
+        [
+          43.811,
+          -244.462
+        ]
+      ],
+      "height": 16.5,
+      "protection": "Unchanged accepted source geometry/materials; translated once."
+    },
+    {
+      "id": 248142884,
+      "kind": "protected-core",
+      "address": "248 East 10th Street",
+      "asset": "res://assets/protected-core.glb",
+      "group": "ProtectedCore_248142884",
+      "sha256": "9d158c9903ec5b56cabd9f9adead303de2db6ab63b91918ea555ccd5131e6eb2",
+      "position": [
+        0,
+        0,
+        -228
+      ],
+      "footprint": [
+        [
+          36.193,
+          -211.988
+        ],
+        [
+          31.798,
+          -211.977
+        ],
+        [
+          31.764,
+          -216.378
+        ],
+        [
+          31.748,
+          -218.662
+        ],
+        [
+          36.146,
+          -218.687
+        ]
+      ],
+      "height": 10.6,
+      "protection": "Unchanged accepted source geometry/materials; translated once."
+    },
+    {
+      "id": 248142885,
+      "kind": "protected-core",
+      "address": "249 East 10th Street",
+      "asset": "res://assets/protected-core.glb",
+      "group": "ProtectedCore_248142885",
+      "sha256": "9d158c9903ec5b56cabd9f9adead303de2db6ab63b91918ea555ccd5131e6eb2",
+      "position": [
+        0,
+        0,
+        -228
+      ],
+      "footprint": [
+        [
+          51.291,
+          -237.12
+        ],
+        [
+          43.839,
+          -237.103
+        ],
+        [
+          43.811,
+          -244.462
+        ],
+        [
+          43.774,
+          -251.575
+        ],
+        [
+          43.75,
+          -256.809
+        ],
+        [
+          43.736,
+          -260.254
+        ],
+        [
+          51.194,
+          -260.261
+        ],
+        [
+          51.211,
+          -256.844
+        ]
+      ],
+      "height": 18.9,
+      "protection": "Unchanged accepted source geometry/materials; translated once."
+    },
+    {
+      "id": 248142886,
+      "kind": "protected-core",
+      "address": "250 East 10th Street",
+      "asset": "res://assets/protected-core.glb",
+      "group": "ProtectedCore_248142886",
+      "sha256": "9d158c9903ec5b56cabd9f9adead303de2db6ab63b91918ea555ccd5131e6eb2",
+      "position": [
+        0,
+        0,
+        -228
+      ],
+      "footprint": [
+        [
+          45.734,
+          -212.033
+        ],
+        [
+          41.432,
+          -212.01
+        ],
+        [
+          36.193,
+          -211.988
+        ],
+        [
+          36.146,
+          -218.687
+        ],
+        [
+          45.684,
+          -218.718
+        ]
+      ],
+      "height": 10.8,
+      "protection": "Unchanged accepted source geometry/materials; translated once."
+    },
+    {
+      "id": 248142889,
+      "kind": "protected-core",
+      "address": "254 East 10th Street",
+      "asset": "res://assets/protected-core.glb",
+      "group": "ProtectedCore_248142889",
+      "sha256": "9d158c9903ec5b56cabd9f9adead303de2db6ab63b91918ea555ccd5131e6eb2",
+      "position": [
+        0,
+        0,
+        -228
+      ],
+      "footprint": [
+        [
+          54.363,
+          -196.948
+        ],
+        [
+          45.767,
+          -196.906
+        ],
+        [
+          45.761,
+          -197.82
+        ],
+        [
+          42.724,
+          -197.813
+        ],
+        [
+          42.668,
+          -204.736
+        ],
+        [
+          45.787,
+          -204.751
+        ],
+        [
+          45.734,
+          -212.033
+        ],
+        [
+          45.684,
+          -218.718
+        ],
+        [
+          54.198,
+          -218.752
+        ],
+        [
+          54.24,
+          -212.827
+        ],
+        [
+          54.334,
+          -201.097
+        ]
+      ],
+      "height": 17.6,
+      "protection": "Unchanged accepted source geometry/materials; translated once."
+    },
+    {
+      "id": 248142962,
+      "kind": "protected-core",
+      "address": "164 1st Avenue",
+      "asset": "res://assets/protected-core.glb",
+      "group": "ProtectedCore_248142962",
+      "sha256": "9d158c9903ec5b56cabd9f9adead303de2db6ab63b91918ea555ccd5131e6eb2",
+      "position": [
+        0,
+        0,
+        -228
+      ],
+      "footprint": [
+        [
+          31.288,
+          -237.091
+        ],
+        [
+          16.102,
+          -237.079
+        ],
+        [
+          16.073,
+          -244.438
+        ],
+        [
+          31.259,
+          -244.45
+        ]
+      ],
+      "height": 15.9,
+      "protection": "Unchanged accepted source geometry/materials; translated once."
+    },
+    {
+      "id": 248142976,
+      "kind": "protected-core",
+      "address": "162 First Ave",
+      "asset": "res://assets/protected-core.glb",
+      "group": "ProtectedCore_248142976",
+      "sha256": "9d158c9903ec5b56cabd9f9adead303de2db6ab63b91918ea555ccd5131e6eb2",
+      "position": [
+        0,
+        0,
+        -228
+      ],
+      "footprint": [
+        [
+          31.764,
+          -216.378
+        ],
+        [
+          27.326,
+          -216.356
+        ],
+        [
+          27.36,
+          -211.95499999999998
+        ],
+        [
+          20.695,
+          -211.929
+        ],
+        [
+          15.396,
+          -211.912
+        ],
+        [
+          15.346,
+          -218.788
+        ],
+        [
+          31.743,
+          -218.863
+        ],
+        [
+          31.748,
+          -218.662
+        ]
+      ],
+      "height": 14.5,
+      "protection": "Unchanged accepted source geometry/materials; translated once."
+    }
+  ],
+  "sharedModels": [
+    {
+      "id": -10010,
+      "kind": "protected-core-details",
+      "asset": "res://assets/protected-core.glb",
+      "group": "ProtectedCore_Details",
+      "sha256": "9d158c9903ec5b56cabd9f9adead303de2db6ab63b91918ea555ccd5131e6eb2",
+      "position": [
+        0,
+        0,
+        -228
+      ],
+      "protection": "Nine unchanged shared architectural-detail meshes; no collision."
+    }
+  ]
+}

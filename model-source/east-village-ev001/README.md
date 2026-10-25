@@ -1,5 +1,9 @@
 # EV-001 evidence and reproduction
 
+<!-- current-project-status -->
+> **Current status:** The [project handoff](../../CODEX-HANDOFF.md) governs current scope, publication and next work. This file retains its dated observations, evidence or specialist instructions. See [browser scaling](../../docs/BROWSER-SCALING.md) for the current loading/rendering work; older model counts and paused states describe their original checkpoints.
+<!-- /current-project-status -->
+
 [Design and next-session packet](../EAST-VILLAGE-EV001.md) · [exact asset/area plan](loading-design.json).
 
 These files inspect the existing export; none is a runtime loader. `package-census.json` records all 493 PCK entries and checksums. `native-resource-probe.json` records dependencies for all 203 building scenes and three native relocation/signature checks. `probe-notes.json` preserves diagnostic limits. `validation.json` binds inputs and records runtime/source/private-file preservation. The 203-item `loading-design.json` is a proposed manifest/ownership specification, not an exported browser manifest.

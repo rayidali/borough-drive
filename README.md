@@ -2,6 +2,10 @@
 
 # DriveAround.nyc
 
+<!-- current-project-status -->
+> **Current October 25 assignment:** Refresh documentation, improve the bottom-left minimap and browser loading/rendering, publish the completed 397-building result, then implement Eleventh First–Avenue A and Twelfth Second–First, both sides. Publication and the two blocks are authorized; continue without routine stage questions. See the [current handoff](CODEX-HANDOFF.md) for actual save/live state and [browser scaling](docs/BROWSER-SCALING.md) for implementation and remaining capacity limits. Earlier dated checkpoints below remain historical.
+<!-- /current-project-status -->
+
 **A little piece of New York, at your own pace.**
 
 Walk and drive through ten connected East Village blocks, reconstructed from mapped footprints and photographic observations.
@@ -16,6 +20,8 @@ Walk and drive through ten connected East Village blocks, reconstructed from map
 </div>
 
 ## Current driving study: East Village
+
+**October 25 completed assignment:** All three blocks—Tenth Second–First, Tenth First–Avenue A, and Eleventh Second–First, both sides—are complete locally: 91 reviewed planes, 397 buildings / 398 scenes. Main/live remain the verified 295-model `e1155e5`; new three-block work is local/uncommitted. Ten browser routes, ten boundaries, four cameras/reset, 17 addresses, preservation and recorded startup/weather checks pass. Dated evidence, fine-art and height/depth limits remain explicit. No fourth block is queued. Preserve cache/tools/original/private files and read the [current handoff](CODEX-HANDOFF.md) for exact build, evidence and next review step.
 
 **October 24 publication:** the complete **295-model Ninth Street expansion** and its saved review evidence are pushed to `main`. Runtime/source release `de27f5a` passed CI and Vercel; the final hosting repair is `888f5b8`, with both Node CI jobs, Vercel and all live-file/cache checks passing. The production game passed eight driving routes, eight boundaries and four camera modes/reset. [Publication evidence](model-source/publication-2026-10-24/README.md) · [Current handoff](CODEX-HANDOFF.md). **Tenth, Second–First, both sides, is now assigned**; protected-core ownership preparation has begun. Earlier dated local-only and proposed-next notes below are historical.
 

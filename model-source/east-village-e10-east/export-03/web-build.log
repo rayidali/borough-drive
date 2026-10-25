@@ -1,0 +1,341 @@
+
+> drivearound-nyc@0.4.0 seventh:build
+> node scripts/export-seventh.mjs
+
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+[   0% ] [90m[1mfirst_scan_filesystem[22m | Started Project initialization (5 steps)[39m[0m
+[   0% ] [90m[1mfirst_scan_filesystem[22m | Scanning file structure...[39m[0m
+[  16% ] [90m[1mfirst_scan_filesystem[22m | Loading global class names...[39m[0m
+[  33% ] [90m[1mfirst_scan_filesystem[22m | Verifying GDExtensions...[39m[0m
+[  50% ] [90m[1mfirst_scan_filesystem[22m | Creating autoload scripts...[39m[0m
+[  66% ] [90m[1mfirst_scan_filesystem[22m | Initializing plugins...[39m[0m
+[  83% ] [90m[1mfirst_scan_filesystem[22m | Starting file scan...[39m[0m
+[92m[ DONE ][39m [1mfirst_scan_filesystem[22m
+[0m
+[   0% ] [90m[1m_update_scan_actions[22m | Started Scanning actions... (30 steps)[39m[0m
+[   0% ] [90m[1m_update_scan_actions[22m | building-248142887.glb[39m[0m
+[   3% ] [90m[1m_update_scan_actions[22m | building-248142888.glb[39m[0m
+[   6% ] [90m[1m_update_scan_actions[22m | building-248142890.glb[39m[0m
+[   9% ] [90m[1m_update_scan_actions[22m | building-248142891.glb[39m[0m
+[  12% ] [90m[1m_update_scan_actions[22m | building-248142892.glb[39m[0m
+[  16% ] [90m[1m_update_scan_actions[22m | building-248142893.glb[39m[0m
+[  19% ] [90m[1m_update_scan_actions[22m | building-248142894.glb[39m[0m
+[  22% ] [90m[1m_update_scan_actions[22m | building-248142895.glb[39m[0m
+[  25% ] [90m[1m_update_scan_actions[22m | building-248142896.glb[39m[0m
+[  29% ] [90m[1m_update_scan_actions[22m | building-248142897.glb[39m[0m
+[  32% ] [90m[1m_update_scan_actions[22m | building-248142898.glb[39m[0m
+[  35% ] [90m[1m_update_scan_actions[22m | building-248142899.glb[39m[0m
+[  38% ] [90m[1m_update_scan_actions[22m | building-248142900.glb[39m[0m
+[  41% ] [90m[1m_update_scan_actions[22m | building-248142901.glb[39m[0m
+[  45% ] [90m[1m_update_scan_actions[22m | building-248142902.glb[39m[0m
+[  48% ] [90m[1m_update_scan_actions[22m | building-248142903.glb[39m[0m
+[  51% ] [90m[1m_update_scan_actions[22m | building-248142904.glb[39m[0m
+[  54% ] [90m[1m_update_scan_actions[22m | building-248142905.glb[39m[0m
+[  58% ] [90m[1m_update_scan_actions[22m | building-248142906.glb[39m[0m
+[  61% ] [90m[1m_update_scan_actions[22m | building-248142907.glb[39m[0m
+[  64% ] [90m[1m_update_scan_actions[22m | building-248142908.glb[39m[0m
+[  67% ] [90m[1m_update_scan_actions[22m | building-248142909.glb[39m[0m
+[  70% ] [90m[1m_update_scan_actions[22m | building-248142910.glb[39m[0m
+[  74% ] [90m[1m_update_scan_actions[22m | building-248142911.glb[39m[0m
+[  77% ] [90m[1m_update_scan_actions[22m | building-248142912.glb[39m[0m
+[  80% ] [90m[1m_update_scan_actions[22m | building-248142913.glb[39m[0m
+[  83% ] [90m[1m_update_scan_actions[22m | building-248142914.glb[39m[0m
+[  87% ] [90m[1m_update_scan_actions[22m | building-248142953.glb[39m[0m
+[  90% ] [90m[1m_update_scan_actions[22m | building-248142975.glb[39m[0m
+[  93% ] [90m[1m_update_scan_actions[22m | building--577810.glb[39m[0m
+[92m[ DONE ][39m [1m_update_scan_actions[22m
+[0m
+[   0% ] [90m[1mreimport[22m | Started (Re)Importing Assets (16 steps)[39m[0m
+[   0% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[   5% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  11% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  17% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  23% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  29% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  35% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  41% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  47% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  52% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  58% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  64% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  70% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  76% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  82% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  88% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[   0% ] [90m[1mreimport[22m | Executing pre-reimport operations...[39m[0m
+[   0% ] [90m[1mpreload_reimporting_scene[22m | Started Preparing scenes for reload (1 steps)[39m[0m
+[   0% ] [90m[1mpreload_reimporting_scene[22m | Analyzing scene [empty][39m[0m
+[  50% ] [90m[1mpreload_reimporting_scene[22m | Preparation done.[39m[0m
+[92m[ DONE ][39m [1mpreload_reimporting_scene[22m
+[0m
+[   0% ] [90m[1mreimport[22m | building-248142892.glb[39m[0m
+[   0% ] [90m[1mimport[22m | Started Import Scene (104 steps)[39m[0m
+[   0% ] [90m[1mimport[22m | Importing Scene...[39m[0m
+[   1% ] [90m[1mimport[22m | Running Custom Script...[39m[0m
+[  99% ] [90m[1mimport[22m | Saving...[39m[0m
+[92m[ DONE ][39m [1mimport[22m
+[0m
+[   5% ] [90m[1mreimport[22m | building-248142893.glb[39m[0m
+[   0% ] [90m[1mimport[22m | Started Import Scene (104 steps)[39m[0m
+[   0% ] [90m[1mimport[22m | Importing Scene...[39m[0m
+[   1% ] [90m[1mimport[22m | Running Custom Script...[39m[0m
+[  99% ] [90m[1mimport[22m | Saving...[39m[0m
+[92m[ DONE ][39m [1mimport[22m
+[0m
+[  11% ] [90m[1mreimport[22m | building-248142894.glb[39m[0m
+[   0% ] [90m[1mimport[22m | Started Import Scene (104 steps)[39m[0m
+[   0% ] [90m[1mimport[22m | Importing Scene...[39m[0m
+[   1% ] [90m[1mimport[22m | Running Custom Script...[39m[0m
+[  99% ] [90m[1mimport[22m | Saving...[39m[0m
+[92m[ DONE ][39m [1mimport[22m
+[0m
+[  17% ] [90m[1mreimport[22m | building-248142895.glb[39m[0m
+[   0% ] [90m[1mimport[22m | Started Import Scene (104 steps)[39m[0m
+[   0% ] [90m[1mimport[22m | Importing Scene...[39m[0m
+[   1% ] [90m[1mimport[22m | Running Custom Script...[39m[0m
+[  99% ] [90m[1mimport[22m | Saving...[39m[0m
+[92m[ DONE ][39m [1mimport[22m
+[0m
+[  23% ] [90m[1mreimport[22m | building-248142896.glb[39m[0m
+[   0% ] [90m[1mimport[22m | Started Import Scene (104 steps)[39m[0m
+[   0% ] [90m[1mimport[22m | Importing Scene...[39m[0m
+[   1% ] [90m[1mimport[22m | Running Custom Script...[39m[0m
+[  99% ] [90m[1mimport[22m | Saving...[39m[0m
+[92m[ DONE ][39m [1mimport[22m
+[0m
+[  29% ] [90m[1mreimport[22m | building-248142897.glb[39m[0m
+[   0% ] [90m[1mimport[22m | Started Import Scene (104 steps)[39m[0m
+[   0% ] [90m[1mimport[22m | Importing Scene...[39m[0m
+[   1% ] [90m[1mimport[22m | Running Custom Script...[39m[0m
+[  99% ] [90m[1mimport[22m | Saving...[39m[0m
+[92m[ DONE ][39m [1mimport[22m
+[0m
+[  35% ] [90m[1mreimport[22m | building-248142898.glb[39m[0m
+[   0% ] [90m[1mimport[22m | Started Import Scene (104 steps)[39m[0m
+[   0% ] [90m[1mimport[22m | Importing Scene...[39m[0m
+[   1% ] [90m[1mimport[22m | Running Custom Script...[39m[0m
+[  99% ] [90m[1mimport[22m | Saving...[39m[0m
+[92m[ DONE ][39m [1mimport[22m
+[0m
+[  41% ] [90m[1mreimport[22m | building-248142899.glb[39m[0m
+[   0% ] [90m[1mimport[22m | Started Import Scene (104 steps)[39m[0m
+[   0% ] [90m[1mimport[22m | Importing Scene...[39m[0m
+[   1% ] [90m[1mimport[22m | Running Custom Script...[39m[0m
+[  99% ] [90m[1mimport[22m | Saving...[39m[0m
+[92m[ DONE ][39m [1mimport[22m
+[0m
+[  47% ] [90m[1mreimport[22m | building-248142901.glb[39m[0m
+[   0% ] [90m[1mimport[22m | Started Import Scene (104 steps)[39m[0m
+[   0% ] [90m[1mimport[22m | Importing Scene...[39m[0m
+[   1% ] [90m[1mimport[22m | Running Custom Script...[39m[0m
+[  99% ] [90m[1mimport[22m | Saving...[39m[0m
+[92m[ DONE ][39m [1mimport[22m
+[0m
+[  52% ] [90m[1mreimport[22m | building-248142903.glb[39m[0m
+[   0% ] [90m[1mimport[22m | Started Import Scene (104 steps)[39m[0m
+[   0% ] [90m[1mimport[22m | Importing Scene...[39m[0m
+[   1% ] [90m[1mimport[22m | Running Custom Script...[39m[0m
+[  99% ] [90m[1mimport[22m | Saving...[39m[0m
+[92m[ DONE ][39m [1mimport[22m
+[0m
+[  58% ] [90m[1mreimport[22m | building-248142907.glb[39m[0m
+[   0% ] [90m[1mimport[22m | Started Import Scene (104 steps)[39m[0m
+[   0% ] [90m[1mimport[22m | Importing Scene...[39m[0m
+[   1% ] [90m[1mimport[22m | Running Custom Script...[39m[0m
+[  99% ] [90m[1mimport[22m | Saving...[39m[0m
+[92m[ DONE ][39m [1mimport[22m
+[0m
+[  64% ] [90m[1mreimport[22m | building-248142908.glb[39m[0m
+[   0% ] [90m[1mimport[22m | Started Import Scene (104 steps)[39m[0m
+[   0% ] [90m[1mimport[22m | Importing Scene...[39m[0m
+[   1% ] [90m[1mimport[22m | Running Custom Script...[39m[0m
+[  99% ] [90m[1mimport[22m | Saving...[39m[0m
+[92m[ DONE ][39m [1mimport[22m
+[0m
+[  70% ] [90m[1mreimport[22m | building-248142909.glb[39m[0m
+[   0% ] [90m[1mimport[22m | Started Import Scene (104 steps)[39m[0m
+[   0% ] [90m[1mimport[22m | Importing Scene...[39m[0m
+[   1% ] [90m[1mimport[22m | Running Custom Script...[39m[0m
+[  99% ] [90m[1mimport[22m | Saving...[39m[0m
+[92m[ DONE ][39m [1mimport[22m
+[0m
+[  76% ] [90m[1mreimport[22m | building-248142912.glb[39m[0m
+[   0% ] [90m[1mimport[22m | Started Import Scene (104 steps)[39m[0m
+[   0% ] [90m[1mimport[22m | Importing Scene...[39m[0m
+[   1% ] [90m[1mimport[22m | Running Custom Script...[39m[0m
+[  99% ] [90m[1mimport[22m | Saving...[39m[0m
+[92m[ DONE ][39m [1mimport[22m
+[0m
+[  82% ] [90m[1mreimport[22m | building-248142975.glb[39m[0m
+[   0% ] [90m[1mimport[22m | Started Import Scene (104 steps)[39m[0m
+[   0% ] [90m[1mimport[22m | Importing Scene...[39m[0m
+[   1% ] [90m[1mimport[22m | Running Custom Script...[39m[0m
+[  99% ] [90m[1mimport[22m | Saving...[39m[0m
+[92m[ DONE ][39m [1mimport[22m
+[0m
+[  88% ] [90m[1mreimport[22m | building--577810.glb[39m[0m
+[   0% ] [90m[1mimport[22m | Started Import Scene (104 steps)[39m[0m
+[   0% ] [90m[1mimport[22m | Importing Scene...[39m[0m
+[   1% ] [90m[1mimport[22m | Running Custom Script...[39m[0m
+[  99% ] [90m[1mimport[22m | Saving...[39m[0m
+[92m[ DONE ][39m [1mimport[22m
+[0m
+[  94% ] [90m[1mreimport[22m | Finalizing Asset Import...[39m[0m
+[92m[ DONE ][39m [1mreimport[22m
+[0m
+[   0% ] [90m[1mreimport[22m | Started (Re)Importing Assets (16 steps)[39m[0m
+[   0% ] [90m[1mreimport[22m | Executing post-reimport operations...[39m[0m
+[92m[ DONE ][39m [1mreimport[22m
+[0m
+[   0% ] [90m[1mloading_editor_layout[22m | Started Loading editor (5 steps)[39m[0m
+[   0% ] [90m[1mloading_editor_layout[22m | Loading editor layout...[39m[0m
+[  16% ] [90m[1mloading_editor_layout[22m | Loading docks...[39m[0m
+[92m[ DONE ][39m [1mloading_editor_layout[22m
+[0m
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+SEVENTH_AREAS_EXPORTED 376 imported scenes
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+[   0% ] [90m[1mfirst_scan_filesystem[22m | Started Project initialization (5 steps)[39m[0m
+[   0% ] [90m[1mfirst_scan_filesystem[22m | Scanning file structure...[39m[0m
+[  16% ] [90m[1mfirst_scan_filesystem[22m | Loading global class names...[39m[0m
+[  33% ] [90m[1mfirst_scan_filesystem[22m | Verifying GDExtensions...[39m[0m
+[  50% ] [90m[1mfirst_scan_filesystem[22m | Creating autoload scripts...[39m[0m
+[  66% ] [90m[1mfirst_scan_filesystem[22m | Initializing plugins...[39m[0m
+[  83% ] [90m[1mfirst_scan_filesystem[22m | Starting file scan...[39m[0m
+[92m[ DONE ][39m [1mfirst_scan_filesystem[22m
+[0m
+[   0% ] [90m[1msavepack[22m | Started Packing (102 steps)[39m[0m
+[   1% ] [90m[1msavepack[22m | Storing File: res://.godot/imported/cornerlight.wav-e540cb6634b9f3f8c52b337213a3cbf7.sample[39m[0m
+[   1% ] [90m[1msavepack[22m | Storing File: res://assets/audio/cornerlight.wav.import[39m[0m
+[   2% ] [90m[1msavepack[22m | Storing File: res://.godot/imported/engine-coast.wav-cad84ea50044964f0b58a61fbfc69f51.sample[39m[0m
+[   2% ] [90m[1msavepack[22m | Storing File: res://assets/audio/engine-coast.wav.import[39m[0m
+[   3% ] [90m[1msavepack[22m | Storing File: res://.godot/imported/engine-idle.wav-55cd398ff9fc9b40c3cfe118b5ecabe7.sample[39m[0m
+[   3% ] [90m[1msavepack[22m | Storing File: res://assets/audio/engine-idle.wav.import[39m[0m
+[   5% ] [90m[1msavepack[22m | Storing File: res://.godot/imported/engine-load.wav-f171c06ff5c85c3299c8a13981d34989.sample[39m[0m
+[   5% ] [90m[1msavepack[22m | Storing File: res://assets/audio/engine-load.wav.import[39m[0m
+[   6% ] [90m[1msavepack[22m | Storing File: res://.godot/imported/impact.wav-69c408f3f3e73daf7c3030beaa0507af.sample[39m[0m
+[   6% ] [90m[1msavepack[22m | Storing File: res://assets/audio/impact.wav.import[39m[0m
+[   8% ] [90m[1msavepack[22m | Storing File: res://.godot/imported/rain.wav-0961eaecbc309373f89475380ffc583f.sample[39m[0m
+[   8% ] [90m[1msavepack[22m | Storing File: res://assets/audio/rain.wav.import[39m[0m
+[   9% ] [90m[1msavepack[22m | Storing File: res://.godot/imported/road.wav-6bcce0b9331c1283f3464322d4b57f7f.sample[39m[0m
+[   9% ] [90m[1msavepack[22m | Storing File: res://assets/audio/road.wav.import[39m[0m
+[  11% ] [90m[1msavepack[22m | Storing File: res://.godot/imported/tires.wav-25b7557a024e8d3be0b63c0b45a4eb2f.sample[39m[0m
+[  11% ] [90m[1msavepack[22m | Storing File: res://assets/audio/tires.wav.import[39m[0m
+[  12% ] [90m[1msavepack[22m | Storing File: res://.godot/imported/drivearound-logo.png-5548960e7f7a0502023058f0437a3b1b.ctex[39m[0m
+[  12% ] [90m[1msavepack[22m | Storing File: res://assets/brand/drivearound-logo.png.import[39m[0m
+[  14% ] [90m[1msavepack[22m | Storing File: res://.godot/imported/InterVariable.ttf-914015d7025f622d1da0359a08f34ba4.fontdata[39m[0m
+[  14% ] [90m[1msavepack[22m | Storing File: res://assets/fonts/InterVariable.ttf.import[39m[0m
+[  15% ] [90m[1msavepack[22m | Storing File: res://.godot/imported/InterVariable.woff2-843ca530432dafa5a53116b21723cd8d.fontdata[39m[0m
+[  15% ] [90m[1msavepack[22m | Storing File: res://assets/fonts/InterVariable.woff2.import[39m[0m
+[  16% ] [90m[1msavepack[22m | Storing File: res://scripts/p01_detail.gdc[39m[0m
+[  18% ] [90m[1msavepack[22m | Storing File: res://shaders/storefront.gdshader[39m[0m
+[  19% ] [90m[1msavepack[22m | Storing File: res://scripts/area_streamer.gdc[39m[0m
+[  21% ] [90m[1msavepack[22m | Storing File: res://scripts/protected_core_textures.gdc[39m[0m
+[  22% ] [90m[1msavepack[22m | Storing File: res://.godot/imported/concrete_wall_006_nor_gl_1k.jpg-f730e8f0b14f48157e2589efa0a295f9.s3tc.ctex[39m[0m
+[  22% ] [90m[1msavepack[22m | Storing File: res://assets/surfaces/concrete_wall_006_nor_gl_1k.jpg.import[39m[0m
+[  24% ] [90m[1msavepack[22m | Storing File: res://scripts/car.gdc[39m[0m
+[  25% ] [90m[1msavepack[22m | Storing File: res://assets/protected-core-scenes.json[39m[0m
+[  27% ] [90m[1msavepack[22m | Storing File: res://.godot/imported/concrete_wall_006_diff_1k.jpg-785832847a3d9788a049a805f5dca67a.s3tc.ctex[39m[0m
+[  27% ] [90m[1msavepack[22m | Storing File: res://assets/surfaces/concrete_wall_006_diff_1k.jpg.import[39m[0m
+[  28% ] [90m[1msavepack[22m | Storing File: res://shaders/film.gdshader[39m[0m
+[  29% ] [90m[1msavepack[22m | Storing File: res://shaders/foliage.gdshader[39m[0m
+[  31% ] [90m[1msavepack[22m | Storing File: res://tests/handling.gdc[39m[0m
+[  32% ] [90m[1msavepack[22m | Storing File: res://shaders/sidewalk.gdshader[39m[0m
+[  33% ] [90m[1msavepack[22m | Storing File: res://scripts/minimap.gdc[39m[0m
+[  34% ] [90m[1msavepack[22m | Storing File: res://assets/area_manifest.json[39m[0m
+[  36% ] [90m[1msavepack[22m | Storing File: res://shaders/tire_marks.gdshader[39m[0m
+[  37% ] [90m[1msavepack[22m | Storing File: res://shaders/p02_masonry.gdshader[39m[0m
+[  39% ] [90m[1msavepack[22m | Storing File: res://scripts/runtime_catalog.gdc[39m[0m
+[  40% ] [90m[1msavepack[22m | Storing File: res://.godot/exported/133200997/export-3ad5c15c4f3250da0cc7c1af1770d85f-main.scn[39m[0m
+[  42% ] [90m[1msavepack[22m | Storing File: res://scripts/car_audio.gdc[39m[0m
+[  43% ] [90m[1msavepack[22m | Storing File: res://scripts/weather.gdc[39m[0m
+[  44% ] [90m[1msavepack[22m | Storing File: res://assets/slice.json[39m[0m
+[  46% ] [90m[1msavepack[22m | Storing File: res://shaders/road.gdshader[39m[0m
+[  47% ] [90m[1msavepack[22m | Storing File: res://shaders/paint.gdshader[39m[0m
+[  49% ] [90m[1msavepack[22m | Storing File: res://tests/cameras.gdc[39m[0m
+[  50% ] [90m[1msavepack[22m | Storing File: res://scripts/e10_block_detail.gdc[39m[0m
+[  52% ] [90m[1msavepack[22m | Storing File: res://tests/protected_core_import.gdc[39m[0m
+[  53% ] [90m[1msavepack[22m | Storing File: res://scripts/handling.gdc[39m[0m
+[  55% ] [90m[1msavepack[22m | Storing File: res://scripts/main.gdc[39m[0m
+[  56% ] [90m[1msavepack[22m | Storing File: res://scripts/e09_east_detail.gdc[39m[0m
+[  57% ] [90m[1msavepack[22m | Storing File: res://scripts/shapes.gdc[39m[0m
+[  59% ] [90m[1msavepack[22m | Storing File: res://scripts/e09_block_detail.gdc[39m[0m
+[  60% ] [90m[1msavepack[22m | Storing File: res://assets/protected-core-textures.bin[39m[0m
+[  62% ] [90m[1msavepack[22m | Storing File: res://scripts/tire_effects.gdc[39m[0m
+[  63% ] [90m[1msavepack[22m | Storing File: res://tests/tenth_route_collision.gdc[39m[0m
+[  65% ] [90m[1msavepack[22m | Storing File: res://scripts/export_areas.gdc[39m[0m
+[  66% ] [90m[1msavepack[22m | Storing File: res://tests/address_locator.gdc[39m[0m
+[  67% ] [90m[1msavepack[22m | Storing File: res://scripts/street_detail.gdc[39m[0m
+[  68% ] [90m[1msavepack[22m | Storing File: res://scripts/cameras.gdc[39m[0m
+[  70% ] [90m[1msavepack[22m | Storing File: res://scripts/export_credits.gdc[39m[0m
+[  71% ] [90m[1msavepack[22m | Storing File: res://assets/protected-core.json[39m[0m
+[  72% ] [90m[1msavepack[22m | Storing File: res://scripts/p03_detail.gdc[39m[0m
+[  74% ] [90m[1msavepack[22m | Storing File: res://scripts/first_stmarks_detail.gdc[39m[0m
+[  75% ] [90m[1msavepack[22m | Storing File: res://scripts/hud.gdc[39m[0m
+[  77% ] [90m[1msavepack[22m | Storing File: res://scripts/n01a_detail.gdc[39m[0m
+[  78% ] [90m[1msavepack[22m | Storing File: res://.godot/imported/red_brick_03_diff_1k.jpg-b7e88f03a2bdbb8f764906239706185c.s3tc.ctex[39m[0m
+[  78% ] [90m[1msavepack[22m | Storing File: res://assets/surfaces/red_brick_03_diff_1k.jpg.import[39m[0m
+[  80% ] [90m[1msavepack[22m | Storing File: res://scripts/world.gdc[39m[0m
+[  81% ] [90m[1msavepack[22m | Storing File: res://shaders/sky.gdshader[39m[0m
+[  83% ] [90m[1msavepack[22m | Storing File: res://assets/protected-core-textures.json[39m[0m
+[  84% ] [90m[1msavepack[22m | Storing File: res://tests/protected_core_ownership.gdc[39m[0m
+[  85% ] [90m[1msavepack[22m | Storing File: res://scripts/p02_detail.gdc[39m[0m
+[  87% ] [90m[1msavepack[22m | Storing File: res://scripts/protected_core_package.gdc[39m[0m
+[  88% ] [90m[1msavepack[22m | Storing File: res://.godot/imported/white_bricks_nor_gl_1k.jpg-29a47b68ec574e3dfa33ef40a4d1dae3.s3tc.ctex[39m[0m
+[  88% ] [90m[1msavepack[22m | Storing File: res://assets/surfaces/white_bricks_nor_gl_1k.jpg.import[39m[0m
+[  90% ] [90m[1msavepack[22m | Storing File: res://.godot/imported/white_bricks_diff_1k.jpg-9b29ed41a8d2c5125fd9314650763a72.s3tc.ctex[39m[0m
+[  90% ] [90m[1msavepack[22m | Storing File: res://assets/surfaces/white_bricks_diff_1k.jpg.import[39m[0m
+[  91% ] [90m[1msavepack[22m | Storing File: res://scripts/address_locator.gdc[39m[0m
+[  93% ] [90m[1msavepack[22m | Storing File: res://scripts/n01b_detail.gdc[39m[0m
+[  94% ] [90m[1msavepack[22m | Storing File: res://.godot/imported/red_brick_03_nor_gl_1k.jpg-7bd5f2fc3a0e64150e2f728f93c4934a.s3tc.ctex[39m[0m
+[  94% ] [90m[1msavepack[22m | Storing File: res://assets/surfaces/red_brick_03_nor_gl_1k.jpg.import[39m[0m
+[  96% ] [90m[1msavepack[22m | Storing File: res://assets/west_seventh_streetscape.json[39m[0m
+[  97% ] [90m[1msavepack[22m | Storing File: res://scripts/east_seventh_detail.gdc[39m[0m
+[  97% ] [90m[1msavepack[22m | Storing File: res://scripts/p01_detail.gd.remap[39m[0m
+[  97% ] [90m[1msavepack[22m | Storing File: res://scripts/area_streamer.gd.remap[39m[0m
+[  97% ] [90m[1msavepack[22m | Storing File: res://scripts/protected_core_textures.gd.remap[39m[0m
+[  97% ] [90m[1msavepack[22m | Storing File: res://scripts/car.gd.remap[39m[0m
+[  97% ] [90m[1msavepack[22m | Storing File: res://tests/handling.gd.remap[39m[0m
+[  97% ] [90m[1msavepack[22m | Storing File: res://scripts/minimap.gd.remap[39m[0m
+[  97% ] [90m[1msavepack[22m | Storing File: res://scripts/runtime_catalog.gd.remap[39m[0m
+[  97% ] [90m[1msavepack[22m | Storing File: res://scenes/main.tscn.remap[39m[0m
+[  97% ] [90m[1msavepack[22m | Storing File: res://scripts/car_audio.gd.remap[39m[0m
+[  97% ] [90m[1msavepack[22m | Storing File: res://scripts/weather.gd.remap[39m[0m
+[  97% ] [90m[1msavepack[22m | Storing File: res://tests/cameras.gd.remap[39m[0m
+[  97% ] [90m[1msavepack[22m | Storing File: res://scripts/e10_block_detail.gd.remap[39m[0m
+[  97% ] [90m[1msavepack[22m | Storing File: res://tests/protected_core_import.gd.remap[39m[0m
+[  97% ] [90m[1msavepack[22m | Storing File: res://scripts/handling.gd.remap[39m[0m
+[  97% ] [90m[1msavepack[22m | Storing File: res://scripts/main.gd.remap[39m[0m
+[  97% ] [90m[1msavepack[22m | Storing File: res://scripts/e09_east_detail.gd.remap[39m[0m
+[  97% ] [90m[1msavepack[22m | Storing File: res://scripts/shapes.gd.remap[39m[0m
+[  97% ] [90m[1msavepack[22m | Storing File: res://scripts/e09_block_detail.gd.remap[39m[0m
+[  97% ] [90m[1msavepack[22m | Storing File: res://scripts/tire_effects.gd.remap[39m[0m
+[  97% ] [90m[1msavepack[22m | Storing File: res://tests/tenth_route_collision.gd.remap[39m[0m
+[  97% ] [90m[1msavepack[22m | Storing File: res://scripts/export_areas.gd.remap[39m[0m
+[  97% ] [90m[1msavepack[22m | Storing File: res://tests/address_locator.gd.remap[39m[0m
+[  97% ] [90m[1msavepack[22m | Storing File: res://scripts/street_detail.gd.remap[39m[0m
+[  97% ] [90m[1msavepack[22m | Storing File: res://scripts/cameras.gd.remap[39m[0m
+[  97% ] [90m[1msavepack[22m | Storing File: res://scripts/export_credits.gd.remap[39m[0m
+[  97% ] [90m[1msavepack[22m | Storing File: res://scripts/p03_detail.gd.remap[39m[0m
+[  97% ] [90m[1msavepack[22m | Storing File: res://scripts/first_stmarks_detail.gd.remap[39m[0m
+[  97% ] [90m[1msavepack[22m | Storing File: res://scripts/hud.gd.remap[39m[0m
+[  97% ] [90m[1msavepack[22m | Storing File: res://scripts/n01a_detail.gd.remap[39m[0m
+[  97% ] [90m[1msavepack[22m | Storing File: res://scripts/world.gd.remap[39m[0m
+[  97% ] [90m[1msavepack[22m | Storing File: res://tests/protected_core_ownership.gd.remap[39m[0m
+[  97% ] [90m[1msavepack[22m | Storing File: res://scripts/p02_detail.gd.remap[39m[0m
+[  97% ] [90m[1msavepack[22m | Storing File: res://scripts/protected_core_package.gd.remap[39m[0m
+[  97% ] [90m[1msavepack[22m | Storing File: res://scripts/address_locator.gd.remap[39m[0m
+[  97% ] [90m[1msavepack[22m | Storing File: res://scripts/n01b_detail.gd.remap[39m[0m
+[  97% ] [90m[1msavepack[22m | Storing File: res://scripts/east_seventh_detail.gd.remap[39m[0m
+[  97% ] [90m[1msavepack[22m | Storing File: res://.godot/global_script_class_cache.cfg[39m[0m
+[  97% ] [90m[1msavepack[22m | Storing File: res://.godot/uid_cache.bin[39m[0m
+[  97% ] [90m[1msavepack[22m | Storing File: res://project.binary[39m[0m
+[92m[ DONE ][39m [1msavepack[22m
+[0m
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+SEVENTH_LICENSES_SAVED
+SEVENTH_EXPORT_COMPLETE {"files":396,"bytes":372133275}

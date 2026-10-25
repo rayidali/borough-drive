@@ -1,5 +1,9 @@
 # Storefront fidelity pass 05 — September 8, 2026
 
+<!-- current-project-status -->
+> **Current status:** The [project handoff](../CODEX-HANDOFF.md) governs current scope, publication and next work. This file retains its dated observations, evidence or specialist instructions. See [browser scaling](../docs/BROWSER-SCALING.md) for the current loading/rendering work; older model counts and paused states describe their original checkpoints.
+<!-- /current-project-status -->
+
 **October 11 continuation:** this is a historical report. The user endorsed [First Avenue / St. Marks revision 09](SEVENTH-ENGINE-09.md) and requested publication to `main`. Read the [current handoff](../CODEX-HANDOFF.md) for verified release state. Earlier dates, counts, source limitations, route descriptions and pause instructions below remain history; no further street or pipeline is assigned.
 
 **Continuation update — September 12, 2026.** This is a historical report; its observations, counts and checks keep their original dates. [Corner pass 08](FIRST-SEVENTH-PASS-08.md) and [browser pass 09](BROWSER-PASS-09.md) were published September 10. Revision 06 remains the accepted minimum. The [block process](BLOCK-WORKFLOW.md) is under discussion; automatic acquisition and execution are not implemented. Read the [current handoff](../CODEX-HANDOFF.md) before resuming. The user requested brainstorming only, with no new implementation yet.

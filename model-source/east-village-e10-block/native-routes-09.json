@@ -1,0 +1,102 @@
+{
+	"pass": true,
+	"routes": [
+		{
+			"hitDetails": [],
+			"name": "first-north",
+			"newContacts": 0,
+			"pass": true,
+			"position": [
+				0.0,
+				-0.0190597921609879,
+				-218.77473449707
+			],
+			"reached": true
+		},
+		{
+			"hitDetails": [],
+			"name": "first-south",
+			"newContacts": 0,
+			"pass": true,
+			"position": [
+				0.0000100764891612926,
+				-0.0190582182258368,
+				-163.266204833984
+			],
+			"reached": true
+		},
+		{
+			"hitDetails": [],
+			"name": "tenth-west",
+			"newContacts": 0,
+			"pass": true,
+			"position": [
+				-190.330139160156,
+				-0.0190584417432547,
+				-228.0
+			],
+			"reached": true
+		},
+		{
+			"hitDetails": [],
+			"name": "tenth-east",
+			"newContacts": 0,
+			"pass": true,
+			"position": [
+				-23.669527053833,
+				-0.0190582014620304,
+				-228.0
+			],
+			"reached": true
+		},
+		{
+			"hitDetails": [],
+			"name": "ninth-west",
+			"newContacts": 0,
+			"pass": true,
+			"position": [
+				-62.1818923950195,
+				-0.0190568082034588,
+				-154.699996948242
+			],
+			"reached": true
+		},
+		{
+			"hitDetails": [],
+			"name": "ninth-east",
+			"newContacts": 0,
+			"pass": true,
+			"position": [
+				62.1818771362305,
+				-0.0190571025013924,
+				-154.699996948242
+			],
+			"reached": true
+		},
+		{
+			"hitDetails": [],
+			"name": "west-first-lane",
+			"newContacts": 0,
+			"pass": true,
+			"position": [
+				-6.0,
+				-0.0190581288188696,
+				-217.490158081055
+			],
+			"reached": true
+		},
+		{
+			"hitDetails": [],
+			"name": "east-first-lane",
+			"newContacts": 0,
+			"pass": true,
+			"position": [
+				6.0,
+				-0.0190582126379013,
+				-164.598663330078
+			],
+			"reached": true
+		}
+	],
+	"scope": "Actual car, street and building colliders; native headless fixed physics step, no rendering or browser timing claims."
+}

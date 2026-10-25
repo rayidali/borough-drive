@@ -1,5 +1,9 @@
 # October 24 publication verification
 
+<!-- current-project-status -->
+> **Current status:** The [project handoff](../../CODEX-HANDOFF.md) governs current scope, publication and next work. This file retains its dated observations, evidence or specialist instructions. See [browser scaling](../../docs/BROWSER-SCALING.md) for the current loading/rendering work; older model counts and paused states describe their original checkpoints.
+<!-- /current-project-status -->
+
 The user authorized publication of the complete existing 295-model build, then continuation with East Tenth, Second–First, both sides. The runtime/source release is `de27f5a212d49688a4a74519ac208a628925e777`; subsequent evidence commits preserve the saved game-review captures. Both private user screenshots and the workstation-only workspace remain local.
 
 The original-game, export/preservation and workflow checks passed locally. The original/export checks also passed from an isolated checkout of the staged release, without ignored caches or local-only files. GitHub Node 22 and Node 24 jobs succeeded for `de27f5a`; Vercel reported deployment success. [CI run](https://github.com/rayidali/borough-drive/actions/runs/40153203183) and [deployment](https://vercel.com/rayidalis-projects/borough-drive/7S5HmiWN454iXPM1XzAwzTiDB2x7).

@@ -56,6 +56,18 @@ e09east = json.loads((ROOT/'model-source/east-village-e09-east/schedule.json').r
 e09east_ids = {r['buildingId'] for r in e09east['elevations']}
 assert len(e09east_ids)==41 and len(e09east['elevations'])==50
 assert e09east_ids & {r['id'] for r in json.loads((ROOT/'model-source/east-village-e09-east/protected-models.json').read_text())['models']} == {248142713}
+e10block = json.loads((ROOT/'model-source/east-village-e10-block/schedule.json').read_text())
+e10block_ids = {r['buildingId'] for r in e10block['elevations']}
+assert len(e10block_ids)==27 and len(e10block['elevations'])==29
+assert not e10block_ids & {r['id'] for r in json.loads((ROOT/'model-source/east-village-e10-block/protected-models.json').read_text())['models']}
+e10east = json.loads((ROOT/'model-source/east-village-e10-east/schedule.json').read_text())
+e10east_ids = {r['buildingId'] for r in e10east['elevations']}
+assert len(e10east_ids)==30 and len(e10east['elevations'])==36
+assert not e10east_ids & {r['id'] for r in json.loads((ROOT/'model-source/east-village-e10-east/protected-models.json').read_text())['models']}
+e11block=json.loads((ROOT/'model-source/east-village-e11-block/schedule.json').read_text())
+e11block_ids={r['buildingId'] for r in e11block['elevations']}
+assert len(e11block_ids)==22 and len(e11block['elevations'])==26
+assert not e11block_ids & {r['id'] for r in json.loads((ROOT/'model-source/east-village-e11-block/protected-models.json').read_text())['models']}
 def canonical_digest(value):
     return hashlib.sha256(json.dumps(value,sort_keys=True,separators=(',',':'),ensure_ascii=False).encode()).hexdigest()
 recipe_files=['model-source/export_seventh_engine.py','model-source/seventh_street_kit.py','model-source/seventh_fidelity_kit.py',
@@ -86,6 +98,12 @@ e09block_recipe_files=['model-source/author_e09_block.py','model-source/e09_bloc
 e09block_recipe_hashes={name:hashlib.sha256((ROOT/name).read_bytes()).hexdigest() for name in e09block_recipe_files}
 e09east_recipe_files=['model-source/author_e09_east.py','model-source/e09_east_kit.py','model-source/east-village-e09-east/schedule.json','model-source/east-village-e09-east/observations.json']
 e09east_recipe_hashes={name:hashlib.sha256((ROOT/name).read_bytes()).hexdigest() for name in e09east_recipe_files}
+e10block_recipe_files=['model-source/author_e10_block.py','model-source/e10_block_kit.py','model-source/east-village-e10-block/schedule.json','model-source/east-village-e10-block/observations.json','model-source/fonts/tenth/NotoSansJP.ttf','model-source/fonts/tenth/OFL.txt']
+e10block_recipe_hashes={name:hashlib.sha256((ROOT/name).read_bytes()).hexdigest() for name in e10block_recipe_files}
+e10east_recipe_files=['model-source/author_e10_east.py','model-source/e10_east_kit.py','model-source/east-village-e10-east/schedule.json','model-source/east-village-e10-east/observations.json']
+e10east_recipe_hashes={name:hashlib.sha256((ROOT/name).read_bytes()).hexdigest() for name in e10east_recipe_files}
+e11block_recipe_files=['model-source/author_e11_block.py','model-source/e11_block_kit.py','model-source/east-village-e11-block/schedule.json','model-source/east-village-e11-block/observations.json']
+e11block_recipe_hashes={name:hashlib.sha256((ROOT/name).read_bytes()).hexdigest() for name in e11block_recipe_files}
 detail_source = ROOT/'model-source/seventh_street_kit.py'
 if detail_source.exists():
     exec(compile(detail_source.read_text(),str(detail_source),'exec'),kit)
@@ -125,6 +143,15 @@ kit['apply_first_stmarks_schedule'](data,e09block)
 e09east_source=ROOT/'model-source/e09_east_kit.py'
 exec(compile(e09east_source.read_text(),str(e09east_source),'exec'),kit)
 kit['apply_first_stmarks_schedule'](data,e09east)
+e10block_source=ROOT/'model-source/e10_block_kit.py'
+exec(compile(e10block_source.read_text(),str(e10block_source),'exec'),kit)
+kit['apply_first_stmarks_schedule'](data,e10block)
+e10east_source=ROOT/'model-source/e10_east_kit.py'
+exec(compile(e10east_source.read_text(),str(e10east_source),'exec'),kit)
+kit['apply_first_stmarks_schedule'](data,e10east)
+e11block_source=ROOT/'model-source/e11_block_kit.py'
+exec(compile(e11block_source.read_text(),str(e11block_source),'exec'),kit)
+kit['apply_first_stmarks_schedule'](data,e11block)
 # A complete First/Second/Seventh/St Marks circuit plus the facing street walls.
 bounds = [-268, 121, 77, 283]
 confirmed_scope=json.loads((ROOT/'model-source/first-stmarks-scope-08.json').read_text())
@@ -132,7 +159,7 @@ street_ids={f['buildingId'] for f in confirmed_scope['frontages']+confirmed_scop
 selected = [b for b in data['buildings'] if not b['core'] and (
             (bounds[0] <= (b['box'][0]+b['box'][2])/2 <= bounds[2] and
              bounds[1] <= (b['box'][1]+b['box'][3])/2 <= bounds[3]) or
-            any(f['street']=='East 7th Street' for f in b['frontages']) or b['id'] in street_ids or b['id'] in p01_ids or b['id'] in p02_ids or b['id'] in p03_ids or b['id'] in n01a_ids or b['id'] in n01b_ids or b['id'] in e09block_ids or b['id'] in e09east_ids)]
+            any(f['street']=='East 7th Street' for f in b['frontages']) or b['id'] in street_ids or b['id'] in p01_ids or b['id'] in p02_ids or b['id'] in p03_ids or b['id'] in n01a_ids or b['id'] in n01b_ids or b['id'] in e09block_ids or b['id'] in e09east_ids or b['id'] in e10block_ids or b['id'] in e10east_ids or b['id'] in e11block_ids)]
 records = []
 old_manifest = json.loads((OUT.parent/'slice.json').read_text())
 old_records = {b['id']:b for b in old_manifest['buildings']}
@@ -170,7 +197,7 @@ materials = {'paint': plain_material('Lofi / painted surfaces'),
              'shopglass09': plain_material('Storefront09 / clear glass', .18)}
 
 for index, building in enumerate(selected):
-    applicable_recipes={**recipe_hashes,**(p01_recipe_hashes if building['id'] in p01_ids else {}),**(p02_recipe_hashes if building['id'] in p02_ids else {}),**(p03_recipe_hashes if building['id'] in p03_ids else {}),**(n01a_recipe_hashes if building['id'] in n01a_ids else {}),**(n01b_recipe_hashes if building['id'] in n01b_ids else {}),**(e09block_recipe_hashes if building['id'] in e09block_ids else {}),**(e09east_recipe_hashes if building['id'] in e09east_ids else {})}
+    applicable_recipes={**recipe_hashes,**(p01_recipe_hashes if building['id'] in p01_ids else {}),**(p02_recipe_hashes if building['id'] in p02_ids else {}),**(p03_recipe_hashes if building['id'] in p03_ids else {}),**(n01a_recipe_hashes if building['id'] in n01a_ids else {}),**(n01b_recipe_hashes if building['id'] in n01b_ids else {}),**(e09block_recipe_hashes if building['id'] in e09block_ids else {}),**(e09east_recipe_hashes if building['id'] in e09east_ids else {}),**(e10block_recipe_hashes if building['id'] in e10block_ids else {}),**(e10east_recipe_hashes if building['id'] in e10east_ids else {}),**(e11block_recipe_hashes if building['id'] in e11block_ids else {})}
     input_digest=canonical_digest({'recipes':applicable_recipes,'building':building})
     if args.only and building['id'] not in args.only:
         previous = old_records.get(building['id'])
@@ -293,14 +320,14 @@ manifest = {'schema':1, 'sourceCommit':'c76dccebc143960498d21eeab8c55c2d0dbcc5ce
         'address':r['address'],'height':exported_heights[r['buildingId']],
         'frontage':r['sourceFace']} for r in first_stmarks.get('elevations',[])],
     'detailSourceSha256':hashlib.sha256((ROOT/'model-source/storefront-details.json').read_bytes()).hexdigest(),
-    'recipeHashes':{**recipe_hashes,**p01_recipe_hashes,**p02_recipe_hashes,**p03_recipe_hashes,**n01a_recipe_hashes,**n01b_recipe_hashes,**e09block_recipe_hashes,**e09east_recipe_hashes},
-    'packetScope':{'id':'01-E09-1A','buildingIds':sorted(e09east_ids),'faceIds':sorted(r['faceId'] for r in e09east['elevations']),
-        'supportingRoad':{'street':'East Ninth Second Avenue–Avenue A with bounded corner approaches','northTerminal':-166.0,'outerNorthLimit':-171.0,
+    'recipeHashes':{**recipe_hashes,**p01_recipe_hashes,**p02_recipe_hashes,**p03_recipe_hashes,**n01a_recipe_hashes,**n01b_recipe_hashes,**e09block_recipe_hashes,**e09east_recipe_hashes,**e10block_recipe_hashes,**e10east_recipe_hashes,**e11block_recipe_hashes},
+    'packetScope':{'id':'01-E11-21','buildingIds':sorted(e11block_ids),'faceIds':sorted(r['faceId'] for r in e11block['elevations']),
+        'supportingRoad':{'street':'First Avenue connection and Eleventh Second–First; existing Ninth and Tenth retained','northTerminal':-315.3,'outerNorthLimit':-320.3,'eleventhCenter':-304.3,'eleventhWestTerminal':-213.0,'eleventhEastTerminal':13.0,'eleventhOuterWest':-217.0,'eleventhOuterEast':17.0,'tenthCenter':-228.0,'tenthWestTerminal':-213.0,'tenthEastTerminal':207.0,'tenthOuterWest':-217.0,'tenthOuterEast':211.0,
             'corridorHalfWidth':17.0,'ninthCenter':-154.7,'ninthWestTerminal':-213.0,'ninthOuterWest':-217.0,'ninthEastTerminal':207.0,'ninthOuterEast':211.0,
-            'addressPolicy':'Seventh-only HUD; Ninth now serves both completed blocks. First north and other avenue terminals remain unchanged; east Ninth ends at Avenue A approach.'}},
-    'packetScopes':[{'id':packet['id'],'buildingIds':sorted({r['buildingId'] for r in packet['elevations']}),'faceIds':sorted(r['faceId'] for r in packet['elevations'])} for packet in [p01,p02,p03,n01a,n01b,e09block,e09east]],
+            'addressPolicy':'Seventh-only HUD; First reaches Eleventh. Eleventh reaches Second and ends at First; Ninth and Tenth retained, other avenue terminals unchanged.'}},
+    'packetScopes':[{'id':packet['id'],'buildingIds':sorted({r['buildingId'] for r in packet['elevations']}),'faceIds':sorted(r['faceId'] for r in packet['elevations'])} for packet in [p01,p02,p03,n01a,n01b,e09block,e09east,e10block,e10east,e11block]],
     'packetReviewFrontages':[{'faceId':r['faceId'],'id':r['buildingId'],'address':r['address'],
-        'height':exported_heights[r['buildingId']],'frontage':r.get('effectiveFace',r['sourceFace'])} for packet in [p01,p02,p03,n01a,n01b,e09block,e09east] for r in packet['elevations']],
+        'height':exported_heights[r['buildingId']],'frontage':r.get('effectiveFace',r['sourceFace'])} for packet in [p01,p02,p03,n01a,n01b,e09block,e09east,e10block,e10east,e11block] for r in packet['elevations']],
     # Export only the explicit areaways recorded in revision 04.  The runtime
     # can use these records to cut matching sidewalk/solid planes; no generic
     # basement openings are inferred from building type or address.
@@ -339,7 +366,7 @@ manifest = {'schema':1, 'sourceCommit':'c76dccebc143960498d21eeab8c55c2d0dbcc5ce
               'oneway':r['oneway']} for r in data['roads']
              if r['name'] in ['First Avenue','Second Avenue','Avenue A','East 7th Street','St. Marks Place']],
     'notes':'Seventh Street from Second Avenue through Avenue A with existing boundary context and the prior return circuit. Dated observation schedules plus authored surface/street detail; not a measured survey. Shared Poly Haven CC0 generic material maps are not scans of these buildings. Original game export is preserved.'}
-for record in first_stmarks.get('elevations',[])+n01a['elevations']+n01b['elevations']+e09block['elevations']+e09east['elevations']:
+for record in first_stmarks.get('elevations',[])+n01a['elevations']+n01b['elevations']+e09block['elevations']+e09east['elevations']+e10block['elevations']+e10east['elevations']+e11block['elevations']:
     f=record['sourceFace']
     for well in record['architecture'].get('observedGround',{}).get('basementAreaways',[]):
         at=well.get('at',.5)
@@ -358,5 +385,7 @@ manifest['notes']+=' N01B adds 339–333 Ninth; supporting west terminal x=-99, 
 manifest['notes']+=' E09 complete-block addition owns 34 remaining Ninth faces; 221 prior models preserved. Ninth west terminal x=-213 at Second approach, with other avenue ends unchanged.'
 manifest['auxiliaryFootprints']=[{**r,'box':[r['box'][0],r['box'][1]-228,r['box'][2],r['box'][3]-228]} for r in e09east['auxiliaryFootprints']]
 manifest['notes']+=' E09 east block supersedes previous road limits: 50 faces across 41 owners, including 148 Ninth return with First face and shared mapped mass protected. Celeste retains its observed low infill/open terrace.'
+manifest['notes']+=' Tenth Second–First adds 27 ordinary owners / 29 faces; separate immutable protected core adapter retains 23 original building owners.'
+manifest['notes']+=' Tenth First–Avenue A adds 30 ordinary owners / 36 planes, with separate club and church roof profiles and no protected core changes.'
 (OUT.parent/'slice.json').write_text(json.dumps(manifest,separators=(',',':'))+'\n')
 print('ENGINE_EXPORT_COMPLETE',len(records),sum(r['triangles'] for r in records),flush=True)

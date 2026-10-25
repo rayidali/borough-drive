@@ -16,16 +16,24 @@ func _initialize():
 	assert(args.size()==1,"Expected absolute export stage")
 	var stage = args[0]
 	assert(Engine.get_version_info().string.begins_with("4.7.2"),"Preserve reviewed import engine")
-	var data = JSON.parse_string(FileAccess.get_file_as_string("res://assets/slice.json"))
+	var data = preload("res://scripts/runtime_catalog.gd").with_protected_core(JSON.parse_string(FileAccess.get_file_as_string("res://assets/slice.json")))
 	var manifest = {"schema":1,"engine":"4.7.2","originShift":data.originShift,"assets":{},"areas":{"EVP-WEST":[],"EVP-REST":[]}}
 	DirAccess.make_dir_recursive_absolute(stage.path_join("areas/assets"))
-	for b in data.buildings:
-		var imported = ConfigFile.new()
-		assert(imported.load(b.asset+".import")==OK)
-		var source: String = imported.get_value("remap","path")
+	var core_packages = preload("res://scripts/protected_core_package.gd").compile(stage)
+	var entries: Array = data.buildings + data.sharedModels
+	for b in entries:
+		var key = str(int(b.id))
+		var source: String
+		if core_packages.has(key):
+			source = core_packages[key].path
+		else:
+			var imported = ConfigFile.new()
+			assert(imported.load(b.asset+".import")==OK)
+			source = imported.get_value("remap","path")
 		assert(ResourceLoader.get_dependencies(source).is_empty(),"External scene dependency requires explicit packaging")
 		var bytes = FileAccess.get_file_as_bytes(source)
-		assert(bytes.size()>0 and bytes.size()<=8*1024*1024)
+		var scene_limit = 16*1024*1024 if int(b.id) in [247852693,248142953] else 8*1024*1024
+		assert(bytes.size()>0 and bytes.size()<=scene_limit,"Scene byte bound: "+key+" = "+str(bytes.size()))
 		var hash = FileAccess.get_sha256(source)
 		var relative = "areas/assets/"+hash+".scn"
 		var file = FileAccess.open(stage.path_join(relative),FileAccess.WRITE)
@@ -41,16 +49,18 @@ func _initialize():
 		assert(found.size()==1)
 		var bounds: AABB = found[0]
 		var owner = "EVP-WEST" if int(b.id) in WEST else "EVP-REST"
-		var key = str(int(b.id))
 		manifest.assets[key] = {"id":int(b.id),"owner":owner,"url":"/seventh/"+relative,"sha256":hash,"bytes":bytes.size(),"glbSha256":b.sha256,"bounds":[bounds.position.x,bounds.position.y,bounds.position.z,bounds.end.x,bounds.end.y,bounds.end.z]}
+		if b.has("kind"): manifest.assets[key]["kind"] = b.kind
 		manifest.areas[owner].append(key)
 		model.free()
 		scene = null
-	assert(data.packetScope.id=="01-E09-1A")
+	for record in core_packages.values(): DirAccess.remove_absolute(record.path)
+	assert(data.packetScope.id=="01-E11-21")
 	var packet_ids: Array[int] = []
 	for id in data.packetScope.buildingIds: packet_ids.append(int(id))
-	assert(packet_ids==[248142661, 248142662, 248142663, 248142664, 248142666, 248142668, 248142669, 248142672, 248142675, 248142676, 248142677, 248142679, 248142681, 248142682, 248142683, 248142684, 248142685, 248142702, 248142710, 248142713, 248142716, 248142921, 248142923, 248142925, 248142926, 248142927, 248142929, 248142930, 248142932, 248142934, 248142936, 248142938, 248142940, 248142942, 248142944, 248142945, 248142947, 248142948, 248142950, 248142955, 248142963])
-	assert(manifest.assets.size()==295 and manifest.areas["EVP-WEST"].size()==12 and manifest.areas["EVP-REST"].size()==283)
+	assert(packet_ids==[247851916, 247851917, 247851918, 247851919, 247851921, 247851922, 247851923, 247851924, 247851925, 247851926, 247851927, 247851928, 247851929, 247851930, 247851931, 247851932, 247851933, 247851934, 247851936, 247851937, 247851941, 247851942])
+	assert(manifest.assets.size()==398 and manifest.areas["EVP-WEST"].size()==12 and manifest.areas["EVP-REST"].size()==386)
+	manifest["protectedCore"] = data.protectedCore
 	for id in data.packetScope.buildingIds: assert(str(int(id)) in manifest.areas["EVP-REST"])
 	manifest["release"] = JSON.stringify(manifest).sha256_text()
 	var content = JSON.stringify(manifest,"\t")+"\n"

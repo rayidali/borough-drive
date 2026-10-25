@@ -1,5 +1,9 @@
 # East Seventh, First Avenue–Avenue A — revision 06
 
+<!-- current-project-status -->
+> **Current status:** The [project handoff](../CODEX-HANDOFF.md) governs current scope, publication and next work. This file retains its dated observations, evidence or specialist instructions. See [browser scaling](../docs/BROWSER-SCALING.md) for the current loading/rendering work; older model counts and paused states describe their original checkpoints.
+<!-- /current-project-status -->
+
 **October 11 continuation:** [First Avenue / St. Marks revision 09](SEVENTH-ENGINE-09.md) is user-endorsed for publication. It preserves this dated Seventh/interface work; the results and package hashes below remain historical. Read the [current handoff](../CODEX-HANDOFF.md) for the verified release and next authorized action.
 
 **Historical public-reference pass.** The later [revision 07](SEVENTH-ENGINE-07.md) records browser observations and refinements of this same block. Revision 07 is now user-endorsed and published. Read the current handoff for the closing state, latest saved package and tests; the evidence below retains its original revision 06 boundary.

@@ -1,5 +1,9 @@
 # EV-003 evidence
 
+<!-- current-project-status -->
+> **Current status:** The [project handoff](../../CODEX-HANDOFF.md) governs current scope, publication and next work. This file retains its dated observations, evidence or specialist instructions. See [browser scaling](../../docs/BROWSER-SCALING.md) for the current loading/rendering work; older model counts and paused states describe their original checkpoints.
+<!-- /current-project-status -->
+
 Read the [session report](../EAST-VILLAGE-EV003.md) and [progress](progress.json) for current completion state. Raw browser reports embed the exact build/source hashes; first-build results are not relabeled as final-pack evidence.
 
 - `baseline.json`: EV-002 local starting files, source/runtime manifest, protected inventory and private image hashes.

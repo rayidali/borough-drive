@@ -82,6 +82,7 @@
     // Render at CSS-pixel resolution on Retina too; retain a responsive canvas
     // without silently multiplying the GPU workload by four.
     function fitCanvas() {
+      if (canvas.width === Math.max(1, innerWidth) && canvas.height === Math.max(1, innerHeight)) return;
       if (window.seventhRequestResize) {
         // Keep the old projection until its newly exposed surroundings exist.
         // Preserve aspect rather than stretching the last complete view.
@@ -90,7 +91,7 @@
         canvas.style.width = width + 'px'; canvas.style.height = height + 'px';
         canvas.style.left = (innerWidth - width) / 2 + 'px';
         canvas.style.top = (innerHeight - height) / 2 + 'px';
-        window.seventhRequestResize();
+        window.seventhRequestResize(innerWidth, innerHeight);
       } else window.seventhApplyResize();
     }
     window.seventhApplyResize = () => {

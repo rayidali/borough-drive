@@ -1,5 +1,9 @@
 # East Ninth, Second–First: full block delivery
 
+<!-- current-project-status -->
+> **Current status:** The [project handoff](../CODEX-HANDOFF.md) governs current scope, publication and next work. This file retains its dated observations, evidence or specialist instructions. See [browser scaling](../docs/BROWSER-SCALING.md) for the current loading/rendering work; older model counts and paused states describe their original checkpoints.
+<!-- /current-project-status -->
+
 October 14, 2026. Completed local geographic pass with recorded source limitations. No publication.
 
 The user requested more progress per session without reducing quality, then reported another laptop shutdown. This session implements all **34 remaining faces** of `01-E09-21`, across N02A/N02B/N03/S01/S02/S03 as internal groups. The eight completed Ninth faces and separate P03 corner return are preserved, along with every other preceding model. There are now **255 models**, up from 221. This is complete geographic coverage of the assigned block, with the source uncertainties below still open; it is not calibrated photographic acceptance.

@@ -1,5 +1,9 @@
 # EV-002 evidence
 
+<!-- current-project-status -->
+> **Current status:** The [project handoff](../../CODEX-HANDOFF.md) governs current scope, publication and next work. This file retains its dated observations, evidence or specialist instructions. See [browser scaling](../../docs/BROWSER-SCALING.md) for the current loading/rendering work; older model counts and paused states describe their original checkpoints.
+<!-- /current-project-status -->
+
 Read [the session report](../EAST-VILLAGE-EV002.md) and [current handoff](../../CODEX-HANDOFF.md) for final state. This directory contains local browser tests using unchanged revision-09 building assets; it is not new photographic research or production acceptance.
 
 - `baseline.json`: frozen checkout, original package/source/model/private-image hashes and intended change scope.

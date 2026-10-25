@@ -1,0 +1,69 @@
+{
+  "images": [
+    {
+      "name": "concrete_wall_006_nor_gl_1k",
+      "mime": "image/jpeg",
+      "offset": 0,
+      "length": 1195078,
+      "sha256": "4ff16bb96fc2df3ef71d22007151aff1d8bf7cb10a493d3f8e973213a99dd428"
+    },
+    {
+      "name": "red_brick_03_nor_gl_1k",
+      "mime": "image/jpeg",
+      "offset": 1195078,
+      "length": 955430,
+      "sha256": "9bfd45e24720d851017c1e1678b70219c72239b2ac6b25e11d57d458bdab8503"
+    },
+    {
+      "name": "sw-159-first-2021-09-06",
+      "mime": "image/jpeg",
+      "offset": 2150508,
+      "length": 3513283,
+      "sha256": "eaf2fd99aac866d4d26c8a18fd1d53dcc038b5aca607ac5db0cf7d4b51ea9771"
+    },
+    {
+      "name": "red_brick_03_diff_1k",
+      "mime": "image/jpeg",
+      "offset": 5663791,
+      "length": 694500,
+      "sha256": "9c58254c099b2d211478f50a427fcdde622af24249ff2e94da41fb836f8c857f"
+    },
+    {
+      "name": "red_brick_03_rough_1k",
+      "mime": "image/png",
+      "offset": 6358291,
+      "length": 919303,
+      "sha256": "97724ae83a21d9f467f6d608d87e9888a451b43e8a24f896cd3a035f25b63d2d"
+    },
+    {
+      "name": "ne-beron-beron-2025-05-16",
+      "mime": "image/jpeg",
+      "offset": 7277594,
+      "length": 2842767,
+      "sha256": "46f82ba6dae7f77dc394511d0129e59bb752b39809220ea70bddc2af44486563"
+    },
+    {
+      "name": "brown_brick_02_nor_gl_1k",
+      "mime": "image/jpeg",
+      "offset": 10120361,
+      "length": 226347,
+      "sha256": "c4ca57e17a7ebfa27b561b126a6579e90b09a852c94ffa83a0b68d4ed62b46af"
+    },
+    {
+      "name": "brown_brick_02_diff_1k",
+      "mime": "image/jpeg",
+      "offset": 10346708,
+      "length": 425513,
+      "sha256": "d769443de69cc16482d25a8a1777b1fa826ada8b4175c7c29d7abb08a91f8ac2"
+    },
+    {
+      "name": "brown_brick_02_rough_1k",
+      "mime": "image/png",
+      "offset": 10772221,
+      "length": 1070928,
+      "sha256": "e887810820b14b5dff247b6297c2c40a7216f7016cc2aa2eb8e6365cb355daf4"
+    }
+  ],
+  "sha256": "1db4759410dfafad3d77fd12df48f0de7f52a8bbf0cb9fc17300cfae1ff3efab",
+  "source": "Original protected-core GLB; nine used images retained byte-for-byte; three unused asphalt images remain in source GLB."
+}

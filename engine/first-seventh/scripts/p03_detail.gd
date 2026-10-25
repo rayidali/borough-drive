@@ -1,9 +1,10 @@
 extends RefCounted
 ## P03 dated corner street edge. No next-Ninth building or generic prop grid.
 const S = preload("res://scripts/shapes.gd")
-func label(root: Node3D, text: String, p: Vector3, angle: float, size: int, color: Color):
+func label(root: Node3D, text: String, p: Vector3, angle: float, size: int, color):
 	var node=Label3D.new();node.text=text;node.position=p;node.rotation.y=angle
-	node.font_size=size;node.pixel_size=.0035;node.outline_size=0;node.modulate=color;root.add_child(node)
+	var tint: Color = color.albedo_color if color is BaseMaterial3D else color
+	node.font_size=size;node.pixel_size=.0035;node.outline_size=0;node.modulate=tint;root.add_child(node)
 
 func dress(root: Node3D, detail):
 	var wood=S.material(Color("82735c"));var iron=S.material(Color("43463d"))

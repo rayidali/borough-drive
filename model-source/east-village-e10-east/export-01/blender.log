@@ -1,0 +1,3126 @@
+/Users/rayidali/Desktop/borough-drive/model-source/export_seventh_engine.py:166: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  m.use_nodes = True
+/Users/rayidali/Desktop/borough-drive/model-source/export_seventh_engine.py:218: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  bs = mat.node_tree.nodes.get('Principled BSDF') if mat.use_nodes else None
+INFO Draco is available, use library at /Applications/Blender.app/Contents/Resources/5.2/scripts/addons_core/io_scene_gltf2/libbf_intern_draco_bridge.dylib
+INFO MeshOptimizer is available, use library at /Applications/Blender.app/Contents/Resources/5.2/scripts/addons_core/io_scene_gltf2/libbf_intern_meshopt_bridge.dylib
+02:14:37 | INFO: Starting glTF 2.0 export
+02:14:37 | INFO: Extracting primitive: 45 Saint Marks Place · mapped shape; facade details estimated / recess shadow
+02:14:37 | INFO: Primitives created: 1
+02:14:37 | INFO: Finished glTF 2.0 export in 0.006243228912353516 s
+
+ENGINE_BUILDING 1 352 241822151 5509
+02:14:37 | INFO: Starting glTF 2.0 export
+02:14:37 | INFO: Extracting primitive: 122 2nd Avenue · reference observed / store glass
+02:14:37 | INFO: Primitives created: 1
+02:14:37 | INFO: Extracting primitive: 122 2nd Avenue · reference observed / curtain amber
+02:14:37 | INFO: Primitives created: 1
+02:14:37 | INFO: Extracting primitive: 122 2nd Avenue · reference observed / painted ivory
+02:14:37 | INFO: Primitives created: 1
+02:14:37 | INFO: Finished glTF 2.0 export in 0.006312131881713867 s
+
+ENGINE_BUILDING 2 352 241822153 7140
+02:14:38 | INFO: Starting glTF 2.0 export
+02:14:38 | INFO: Extracting primitive: 118 2nd Avenue · reference observed / store glass
+02:14:38 | INFO: Primitives created: 1
+02:14:38 | INFO: Extracting primitive: 118 2nd Avenue · reference observed / curtain amber
+02:14:38 | INFO: Primitives created: 1
+02:14:38 | INFO: Extracting primitive: 118 2nd Avenue · reference observed / warm brick
+02:14:38 | INFO: Primitives created: 1
+02:14:38 | INFO: Finished glTF 2.0 export in 0.020897865295410156 s
+
+ENGINE_BUILDING 3 352 241822156 43424
+02:14:38 | INFO: Starting glTF 2.0 export
+02:14:38 | INFO: Extracting primitive: 65 East 7th Street · reference observed / recess shadow
+02:14:38 | INFO: Primitives created: 1
+02:14:38 | INFO: Finished glTF 2.0 export in 0.006219148635864258 s
+
+ENGINE_BUILDING 4 352 241822157 11046
+02:14:38 | INFO: Starting glTF 2.0 export
+02:14:38 | INFO: Extracting primitive: 43 Saint Marks Place · mapped shape; facade details estimated / recess shadow
+02:14:38 | INFO: Primitives created: 1
+02:14:38 | INFO: Finished glTF 2.0 export in 0.0031900405883789062 s
+
+ENGINE_BUILDING 5 352 241822159 4863
+02:14:38 | INFO: Starting glTF 2.0 export
+02:14:38 | INFO: Extracting primitive: 136 2nd Avenue · reference observed / store glass
+02:14:38 | INFO: Primitives created: 1
+02:14:38 | INFO: Extracting primitive: 136 2nd Avenue · reference observed / curtain amber
+02:14:38 | INFO: Primitives created: 1
+02:14:38 | INFO: Extracting primitive: 136 2nd Avenue · reference observed / painted blue
+02:14:38 | INFO: Primitives created: 1
+02:14:38 | INFO: Finished glTF 2.0 export in 0.0065250396728515625 s
+
+ENGINE_BUILDING 6 352 241822162 7697
+02:14:38 | INFO: Starting glTF 2.0 export
+02:14:38 | INFO: Extracting primitive: 132 2nd Avenue · reference observed / opal lamp
+02:14:38 | INFO: Primitives created: 1
+02:14:38 | INFO: Extracting primitive: 132 2nd Avenue · reference observed / recess shadow
+02:14:38 | INFO: Primitives created: 1
+02:14:38 | INFO: Extracting primitive: Individual business lettering
+02:14:38 | INFO: Primitives created: 1
+02:14:38 | INFO: Extracting primitive: 132 2nd Avenue · reference observed / store09 clear glass
+02:14:38 | INFO: Primitives created: 1
+02:14:38 | INFO: Finished glTF 2.0 export in 0.03379631042480469 s
+
+ENGINE_BUILDING 7 352 241822164 80441
+02:14:38 | INFO: Starting glTF 2.0 export
+02:14:38 | INFO: Extracting primitive: 241822165 E09 observed block / recess shadow
+02:14:38 | INFO: Primitives created: 1
+02:14:38 | INFO: Extracting primitive: Individual business lettering
+02:14:38 | INFO: Primitives created: 1
+02:14:38 | INFO: Extracting primitive: 241822165 E09 observed block / store09 clear glass
+02:14:38 | INFO: Primitives created: 1
+02:14:38 | INFO: Finished glTF 2.0 export in 0.0216367244720459 s
+
+ENGINE_BUILDING 8 352 241822165 55798
+02:14:38 | INFO: Starting glTF 2.0 export
+02:14:38 | INFO: Extracting primitive: 70 Saint Marks Place · mapped shape; facade details estimated / recess shadow
+02:14:38 | INFO: Primitives created: 1
+02:14:38 | INFO: Finished glTF 2.0 export in 0.005637168884277344 s
+
+ENGINE_BUILDING 9 352 241822167 9754
+02:14:38 | INFO: Starting glTF 2.0 export
+02:14:38 | INFO: Extracting primitive: 57 East 7th Street · reference observed / recess shadow
+02:14:38 | INFO: Primitives created: 1
+02:14:38 | INFO: Finished glTF 2.0 export in 0.004520893096923828 s
+
+ENGINE_BUILDING 10 352 241822169 8794
+02:14:38 | INFO: Starting glTF 2.0 export
+02:14:38 | INFO: Extracting primitive: 241822171 E09 observed block / recess shadow
+02:14:38 | INFO: Primitives created: 1
+02:14:38 | INFO: Extracting primitive: Individual business lettering
+02:14:38 | INFO: Primitives created: 1
+02:14:38 | INFO: Extracting primitive: 241822171 E09 observed block / store09 clear glass
+02:14:38 | INFO: Primitives created: 1
+02:14:38 | INFO: Finished glTF 2.0 export in 0.016196012496948242 s
+
+ENGINE_BUILDING 11 352 241822171 36222
+02:14:38 | INFO: Starting glTF 2.0 export
+02:14:38 | INFO: Extracting primitive: 76 Saint Marks Place · mapped shape; facade details estimated / recess shadow
+02:14:38 | INFO: Primitives created: 1
+02:14:38 | INFO: Finished glTF 2.0 export in 0.006170749664306641 s
+
+ENGINE_BUILDING 12 352 241822173 14123
+02:14:39 | INFO: Starting glTF 2.0 export
+02:14:39 | INFO: Extracting primitive: 55 Saint Marks Place · mapped shape; facade details estimated / recess shadow
+02:14:39 | INFO: Primitives created: 1
+02:14:39 | INFO: Finished glTF 2.0 export in 0.004413127899169922 s
+
+ENGINE_BUILDING 13 352 241822174 8896
+02:14:39 | INFO: Starting glTF 2.0 export
+02:14:39 | INFO: Extracting primitive: 69 East 7th Street · reference observed / recess shadow
+02:14:39 | INFO: Primitives created: 1
+02:14:39 | INFO: Finished glTF 2.0 export in 0.0047948360443115234 s
+
+ENGINE_BUILDING 14 352 241822176 9125
+02:14:39 | INFO: Starting glTF 2.0 export
+02:14:39 | INFO: Extracting primitive: 53 East 7th Street · reference observed / recess shadow
+02:14:39 | INFO: Primitives created: 1
+02:14:39 | INFO: Finished glTF 2.0 export in 0.009508848190307617 s
+
+ENGINE_BUILDING 15 352 241822178 20499
+02:14:39 | INFO: Starting glTF 2.0 export
+02:14:39 | INFO: Extracting primitive: 241822179 E09 observed block / recess shadow
+02:14:39 | INFO: Primitives created: 1
+02:14:39 | INFO: Extracting primitive: Individual business lettering
+02:14:39 | INFO: Primitives created: 1
+02:14:39 | INFO: Extracting primitive: 241822179 E09 observed block / store09 clear glass
+02:14:39 | INFO: Primitives created: 1
+02:14:39 | INFO: Finished glTF 2.0 export in 0.05020308494567871 s
+
+ENGINE_BUILDING 16 352 241822179 143924
+02:14:39 | INFO: Starting glTF 2.0 export
+02:14:39 | INFO: Extracting primitive: 66 Saint Marks Place · mapped shape; facade details estimated / recess shadow
+02:14:39 | INFO: Primitives created: 1
+02:14:39 | INFO: Finished glTF 2.0 export in 0.004841327667236328 s
+
+ENGINE_BUILDING 17 352 241822181 10125
+02:14:40 | INFO: Starting glTF 2.0 export
+02:14:40 | INFO: Extracting primitive: 241822183 E09 observed block / recess shadow
+02:14:40 | INFO: Primitives created: 1
+02:14:40 | INFO: Extracting primitive: Individual business lettering
+02:14:40 | INFO: Primitives created: 1
+02:14:40 | INFO: Extracting primitive: 241822183 E09 observed block / store09 clear glass
+02:14:40 | INFO: Primitives created: 1
+02:14:40 | INFO: Finished glTF 2.0 export in 0.051280975341796875 s
+
+ENGINE_BUILDING 18 352 241822183 146476
+02:14:40 | INFO: Starting glTF 2.0 export
+02:14:40 | INFO: Extracting primitive: 77 East 7th Street · reference observed / store glass
+02:14:40 | INFO: Primitives created: 1
+02:14:40 | INFO: Extracting primitive: 77 East 7th Street · reference observed / opal lamp
+02:14:40 | INFO: Primitives created: 1
+02:14:40 | INFO: Extracting primitive: 77 East 7th Street · reference observed / recess shadow
+02:14:40 | INFO: Primitives created: 1
+02:14:40 | INFO: Finished glTF 2.0 export in 0.010326147079467773 s
+
+ENGINE_BUILDING 19 352 241822185 17117
+02:14:40 | INFO: Starting glTF 2.0 export
+02:14:40 | INFO: Extracting primitive: 241822187 E09 observed block / recess shadow
+02:14:40 | INFO: Primitives created: 1
+02:14:40 | INFO: Extracting primitive: Individual business lettering
+02:14:40 | INFO: Primitives created: 1
+02:14:40 | INFO: Extracting primitive: 241822187 E09 observed block / store09 clear glass
+02:14:40 | INFO: Primitives created: 1
+02:14:40 | INFO: Finished glTF 2.0 export in 0.034691810607910156 s
+
+ENGINE_BUILDING 20 352 241822187 76762
+02:14:40 | INFO: Starting glTF 2.0 export
+02:14:40 | INFO: Extracting primitive: 51 Saint Marks Place · mapped shape; facade details estimated / recess shadow
+02:14:40 | INFO: Primitives created: 1
+02:14:40 | INFO: Finished glTF 2.0 export in 0.005899667739868164 s
+
+ENGINE_BUILDING 21 352 241822189 12245
+02:14:40 | INFO: Starting glTF 2.0 export
+02:14:40 | INFO: Extracting primitive: 58 Saint Marks Place · mapped shape; facade details estimated / recess shadow
+02:14:40 | INFO: Primitives created: 1
+02:14:40 | INFO: Extracting primitive: Individual business lettering
+02:14:40 | INFO: Primitives created: 1
+02:14:40 | INFO: Extracting primitive: 58 Saint Marks Place · mapped shape; facade details estimated / store09 clear glass
+02:14:40 | INFO: Primitives created: 1
+02:14:40 | INFO: Finished glTF 2.0 export in 0.01285409927368164 s
+
+ENGINE_BUILDING 22 352 241822190 24298
+02:14:40 | INFO: Starting glTF 2.0 export
+02:14:40 | INFO: Extracting primitive: 85 East 7th Street · reference observed / recess shadow
+02:14:40 | INFO: Primitives created: 1
+02:14:40 | INFO: Finished glTF 2.0 export in 0.005341291427612305 s
+
+ENGINE_BUILDING 23 352 241822192 10059
+02:14:40 | INFO: Starting glTF 2.0 export
+02:14:40 | INFO: Extracting primitive: 64 Saint Marks Place · mapped shape; facade details estimated / recess shadow
+02:14:40 | INFO: Primitives created: 1
+02:14:40 | INFO: Finished glTF 2.0 export in 0.008601188659667969 s
+
+ENGINE_BUILDING 24 352 241822194 18665
+02:14:40 | INFO: Starting glTF 2.0 export
+02:14:40 | INFO: Extracting primitive: 120 2nd Avenue · reference observed / store glass
+02:14:40 | INFO: Primitives created: 1
+02:14:40 | INFO: Extracting primitive: 120 2nd Avenue · reference observed / curtain amber
+02:14:40 | INFO: Primitives created: 1
+02:14:40 | INFO: Extracting primitive: 120 2nd Avenue · reference observed / warm brick
+02:14:40 | INFO: Primitives created: 1
+02:14:40 | INFO: Finished glTF 2.0 export in 0.007788181304931641 s
+
+ENGINE_BUILDING 25 352 241822195 13010
+02:14:41 | INFO: Starting glTF 2.0 export
+02:14:41 | INFO: Extracting primitive: 55 East 7th Street · reference observed / opal lamp
+02:14:41 | INFO: Primitives created: 1
+02:14:41 | INFO: Extracting primitive: 55 East 7th Street · reference observed / recess shadow
+02:14:41 | INFO: Primitives created: 1
+02:14:41 | INFO: Finished glTF 2.0 export in 0.009625673294067383 s
+
+ENGINE_BUILDING 26 352 241822197 20570
+02:14:41 | INFO: Starting glTF 2.0 export
+02:14:41 | INFO: Extracting primitive: 59 East 7th Street · reference observed / recess shadow
+02:14:41 | INFO: Primitives created: 1
+02:14:41 | INFO: Finished glTF 2.0 export in 0.009627819061279297 s
+
+ENGINE_BUILDING 27 352 241822199 24393
+02:14:41 | INFO: Starting glTF 2.0 export
+02:14:41 | INFO: Extracting primitive: 61 East 7th Street · reference observed / recess shadow
+02:14:41 | INFO: Primitives created: 1
+02:14:41 | INFO: Finished glTF 2.0 export in 0.00842595100402832 s
+
+ENGINE_BUILDING 28 352 241822201 19565
+02:14:41 | INFO: Starting glTF 2.0 export
+02:14:41 | INFO: Extracting primitive: 63 East 7th Street · reference observed / store glass
+02:14:41 | INFO: Primitives created: 1
+02:14:41 | INFO: Extracting primitive: 63 East 7th Street · reference observed / neon rose
+02:14:41 | INFO: Primitives created: 1
+02:14:41 | INFO: Extracting primitive: 63 East 7th Street · reference observed / recess shadow
+02:14:41 | INFO: Primitives created: 1
+02:14:41 | INFO: Finished glTF 2.0 export in 0.011963129043579102 s
+
+ENGINE_BUILDING 29 352 241822202 22700
+02:14:41 | INFO: Starting glTF 2.0 export
+02:14:41 | INFO: Extracting primitive: 241822204 E09 observed block / recess shadow
+02:14:41 | INFO: Primitives created: 1
+02:14:41 | INFO: Extracting primitive: Individual business lettering
+02:14:41 | INFO: Primitives created: 1
+02:14:41 | INFO: Finished glTF 2.0 export in 0.024420976638793945 s
+
+ENGINE_BUILDING 30 352 241822204 67021
+02:14:41 | INFO: Starting glTF 2.0 export
+02:14:41 | INFO: Extracting primitive: 124 2nd Avenue · reference observed / store glass
+02:14:41 | INFO: Primitives created: 1
+02:14:41 | INFO: Extracting primitive: 124 2nd Avenue · reference observed / opal lamp
+02:14:41 | INFO: Primitives created: 1
+02:14:41 | INFO: Extracting primitive: 124 2nd Avenue · reference observed / cornice copper brown
+02:14:41 | INFO: Primitives created: 1
+02:14:41 | INFO: Finished glTF 2.0 export in 0.010956764221191406 s
+
+ENGINE_BUILDING 31 352 241822206 19947
+02:14:41 | INFO: Starting glTF 2.0 export
+02:14:41 | INFO: Extracting primitive: 128 2nd Avenue · reference observed / store glass
+02:14:41 | INFO: Primitives created: 1
+02:14:41 | INFO: Extracting primitive: 128 2nd Avenue · reference observed / curtain amber
+02:14:41 | INFO: Primitives created: 1
+02:14:41 | INFO: Extracting primitive: 128 2nd Avenue · reference observed / cornice copper brown
+02:14:41 | INFO: Primitives created: 1
+02:14:41 | INFO: Finished glTF 2.0 export in 0.010766983032226562 s
+
+ENGINE_BUILDING 32 352 241822208 18066
+02:14:41 | INFO: Starting glTF 2.0 export
+02:14:41 | INFO: Extracting primitive: 241822210 E09 observed block / opal lamp
+02:14:41 | INFO: Primitives created: 1
+02:14:41 | INFO: Extracting primitive: 241822210 E09 observed block / recess shadow
+02:14:41 | INFO: Primitives created: 1
+02:14:41 | INFO: Extracting primitive: Individual business lettering
+02:14:41 | INFO: Primitives created: 1
+02:14:41 | INFO: Extracting primitive: 241822210 E09 observed block / store09 clear glass
+02:14:41 | INFO: Primitives created: 1
+02:14:41 | INFO: Finished glTF 2.0 export in 0.036074161529541016 s
+
+ENGINE_BUILDING 33 352 241822210 86636
+02:14:42 | INFO: Starting glTF 2.0 export
+02:14:42 | INFO: Extracting primitive: 143 1st Avenue · reference observed / opal lamp
+02:14:42 | INFO: Primitives created: 1
+02:14:42 | INFO: Extracting primitive: 143 1st Avenue · reference observed / recess shadow
+02:14:42 | INFO: Primitives created: 1
+02:14:42 | INFO: Extracting primitive: Individual business lettering
+02:14:42 | INFO: Primitives created: 1
+02:14:42 | INFO: Extracting primitive: 143 1st Avenue · reference observed / store09 clear glass
+02:14:42 | INFO: Primitives created: 1
+02:14:42 | INFO: Finished glTF 2.0 export in 0.014220952987670898 s
+
+ENGINE_BUILDING 34 352 241822211 25722
+02:14:42 | INFO: Starting glTF 2.0 export
+02:14:42 | INFO: Extracting primitive: 117 1st Avenue · reference observed / recess shadow
+02:14:42 | INFO: Primitives created: 1
+02:14:42 | INFO: Extracting primitive: 117 1st Avenue · reference observed / store09 gray plaster
+02:14:42 | INFO: Primitives created: 1
+02:14:42 | INFO: Extracting primitive: 117 1st Avenue · reference observed / store09 clear glass
+02:14:42 | INFO: Primitives created: 1
+02:14:42 | INFO: Finished glTF 2.0 export in 0.007547140121459961 s
+
+ENGINE_BUILDING 35 352 241822212 9429
+02:14:42 | INFO: Starting glTF 2.0 export
+02:14:42 | INFO: Extracting primitive: 67 Saint Marks Place · mapped shape; facade details estimated / recess shadow
+02:14:42 | INFO: Primitives created: 1
+02:14:42 | INFO: Finished glTF 2.0 export in 0.0049822330474853516 s
+
+ENGINE_BUILDING 36 352 241822214 11398
+02:14:42 | INFO: Starting glTF 2.0 export
+02:14:42 | INFO: Extracting primitive: Building 241822215 · mapped shape; facade details estimated / painted grey
+02:14:42 | INFO: Primitives created: 1
+02:14:42 | INFO: Finished glTF 2.0 export in 0.0015611648559570312 s
+
+ENGINE_BUILDING 37 352 241822215 58
+02:14:42 | INFO: Starting glTF 2.0 export
+02:14:42 | INFO: Extracting primitive: 75 Saint Marks Place · mapped shape; facade details estimated / recess shadow
+02:14:42 | INFO: Primitives created: 1
+02:14:42 | INFO: Extracting primitive: Individual business lettering
+02:14:42 | INFO: Primitives created: 1
+02:14:42 | INFO: Extracting primitive: 75 Saint Marks Place · mapped shape; facade details estimated / store09 clear glass
+02:14:42 | INFO: Primitives created: 1
+02:14:42 | INFO: Finished glTF 2.0 export in 0.008862972259521484 s
+
+ENGINE_BUILDING 38 352 241822217 14252
+02:14:42 | INFO: Starting glTF 2.0 export
+02:14:42 | INFO: Extracting primitive: 83 Saint Marks Place · mapped shape; facade details estimated / recess shadow
+02:14:42 | INFO: Primitives created: 1
+02:14:42 | INFO: Extracting primitive: Individual business lettering
+02:14:42 | INFO: Primitives created: 1
+02:14:42 | INFO: Extracting primitive: 83 Saint Marks Place · mapped shape; facade details estimated / store09 clear glass
+02:14:42 | INFO: Primitives created: 1
+02:14:42 | INFO: Finished glTF 2.0 export in 0.014621973037719727 s
+
+ENGINE_BUILDING 39 352 241822219 32528
+02:14:42 | INFO: Starting glTF 2.0 export
+02:14:42 | INFO: Extracting primitive: 129 1st Avenue · reference observed / opal lamp
+02:14:42 | INFO: Primitives created: 1
+02:14:42 | INFO: Extracting primitive: Individual business lettering.001
+02:14:42 | INFO: Primitives created: 1
+02:14:42 | INFO: Extracting primitive: Individual business lettering
+02:14:42 | INFO: Primitives created: 1
+02:14:42 | INFO: Extracting primitive: 129 1st Avenue · reference observed / store09 clear glass
+02:14:42 | INFO: Primitives created: 1
+02:14:42 | INFO: Finished glTF 2.0 export in 0.009317874908447266 s
+
+ENGINE_BUILDING 40 352 241822220 13580
+02:14:42 | INFO: Starting glTF 2.0 export
+02:14:42 | INFO: Extracting primitive: 80 Saint Marks Place · reference observed / recess shadow
+02:14:42 | INFO: Primitives created: 1
+02:14:42 | INFO: Finished glTF 2.0 export in 0.004974842071533203 s
+
+ENGINE_BUILDING 41 352 241822222 11162
+02:14:42 | INFO: Starting glTF 2.0 export
+02:14:42 | INFO: Extracting primitive: 41 Saint Marks Place · mapped shape; facade details estimated / recess shadow
+02:14:42 | INFO: Primitives created: 1
+02:14:42 | INFO: Extracting primitive: 41 Saint Marks Place · mapped shape; facade details estimated / store09 gray plaster
+02:14:42 | INFO: Primitives created: 1
+02:14:42 | INFO: Extracting primitive: 41 Saint Marks Place · mapped shape; facade details estimated / store09 clear glass
+02:14:42 | INFO: Primitives created: 1
+02:14:42 | INFO: Finished glTF 2.0 export in 0.008163928985595703 s
+
+ENGINE_BUILDING 42 352 241822224 15297
+02:14:42 | INFO: Starting glTF 2.0 export
+02:14:42 | INFO: Extracting primitive: 115 First Avenue / 87 East 7th Street / First & Seventh photographic benchmark / seventh glass
+02:14:42 | INFO: Primitives created: 1
+02:14:42 | INFO: Extracting primitive: Observed sign lettering.007
+02:14:42 | INFO: Primitives created: 1
+02:14:42 | INFO: Extracting primitive: Observed sign lettering
+02:14:42 | INFO: Primitives created: 1
+02:14:42 | INFO: Finished glTF 2.0 export in 0.03663992881774902 s
+
+ENGINE_BUILDING 43 352 241822226 100196
+02:14:42 | INFO: Starting glTF 2.0 export
+02:14:42 | INFO: Extracting primitive: 125 1st Avenue · reference observed / first net veil
+02:14:42 | INFO: Primitives created: 1
+02:14:42 | INFO: Extracting primitive: 125 1st Avenue · reference observed / opal lamp
+02:14:42 | INFO: Primitives created: 1
+02:14:42 | INFO: Extracting primitive: 125 1st Avenue · reference observed / recess shadow
+02:14:42 | INFO: Primitives created: 1
+02:14:42 | INFO: Extracting primitive: Individual business lettering
+02:14:42 | INFO: Primitives created: 1
+02:14:42 | INFO: Extracting primitive: 125 1st Avenue · reference observed / store09 clear glass
+02:14:42 | INFO: Primitives created: 1
+02:14:42 | INFO: Finished glTF 2.0 export in 0.01174020767211914 s
+
+ENGINE_BUILDING 44 352 241822228 18748
+02:14:43 | INFO: Starting glTF 2.0 export
+02:14:43 | INFO: Extracting primitive: 241822229 E09 observed block / opal lamp
+02:14:43 | INFO: Primitives created: 1
+02:14:43 | INFO: Extracting primitive: 241822229 E09 observed block / recess shadow
+02:14:43 | INFO: Primitives created: 1
+02:14:43 | INFO: Extracting primitive: Individual business lettering
+02:14:43 | INFO: Primitives created: 1
+02:14:43 | INFO: Extracting primitive: 241822229 E09 observed block / store09 clear glass
+02:14:43 | INFO: Primitives created: 1
+02:14:43 | INFO: Finished glTF 2.0 export in 0.021963119506835938 s
+
+ENGINE_BUILDING 45 352 241822229 53467
+02:14:43 | INFO: Starting glTF 2.0 export
+02:14:43 | INFO: Extracting primitive: 71 Saint Marks Place · mapped shape; facade details estimated / recess shadow
+02:14:43 | INFO: Primitives created: 1
+02:14:43 | INFO: Finished glTF 2.0 export in 0.002279996871948242 s
+
+ENGINE_BUILDING 46 352 241822230 2536
+02:14:43 | INFO: Starting glTF 2.0 export
+02:14:43 | INFO: Extracting primitive: 81 Saint Marks Place · mapped shape; facade details estimated / recess shadow
+02:14:43 | INFO: Primitives created: 1
+02:14:43 | INFO: Extracting primitive: Individual business lettering
+02:14:43 | INFO: Primitives created: 1
+02:14:43 | INFO: Extracting primitive: 81 Saint Marks Place · mapped shape; facade details estimated / store09 clear glass
+02:14:43 | INFO: Primitives created: 1
+02:14:43 | INFO: Finished glTF 2.0 export in 0.008632183074951172 s
+
+ENGINE_BUILDING 47 352 241822234 15498
+02:14:43 | INFO: Starting glTF 2.0 export
+02:14:43 | INFO: Extracting primitive: 59 Saint Marks Place · mapped shape; facade details estimated / recess shadow
+02:14:43 | INFO: Primitives created: 1
+02:14:43 | INFO: Finished glTF 2.0 export in 0.0025339126586914062 s
+
+ENGINE_BUILDING 48 352 241822236 3666
+02:14:43 | INFO: Starting glTF 2.0 export
+02:14:43 | INFO: Extracting primitive: Individual business lettering.010
+02:14:43 | INFO: Primitives created: 1
+02:14:43 | INFO: Extracting primitive: 145 First / 352 Ninth P03 dated observed corner / recess shadow
+02:14:43 | INFO: Primitives created: 1
+02:14:43 | INFO: Extracting primitive: Individual business lettering
+02:14:43 | INFO: Primitives created: 1
+02:14:43 | INFO: Extracting primitive: 145 First / 352 Ninth P03 dated observed corner / store09 clear glass
+02:14:43 | INFO: Primitives created: 1
+02:14:43 | INFO: Finished glTF 2.0 export in 0.05330085754394531 s
+
+ENGINE_BUILDING 49 352 241822237 133137
+02:14:43 | INFO: Starting glTF 2.0 export
+02:14:43 | INFO: Extracting primitive: 241822239 E09 observed block / recess shadow
+02:14:43 | INFO: Primitives created: 1
+02:14:43 | INFO: Extracting primitive: Individual business lettering
+02:14:43 | INFO: Primitives created: 1
+02:14:43 | INFO: Extracting primitive: 241822239 E09 observed block / store09 clear glass
+02:14:43 | INFO: Primitives created: 1
+02:14:43 | INFO: Finished glTF 2.0 export in 0.0089569091796875 s
+
+ENGINE_BUILDING 50 352 241822239 15410
+02:14:43 | INFO: Starting glTF 2.0 export
+02:14:43 | INFO: Extracting primitive: 241822241 E09 observed block / opal lamp
+02:14:43 | INFO: Primitives created: 1
+02:14:43 | INFO: Extracting primitive: 241822241 E09 observed block / recess shadow
+02:14:43 | INFO: Primitives created: 1
+02:14:43 | INFO: Extracting primitive: Individual business lettering
+02:14:43 | INFO: Primitives created: 1
+02:14:43 | INFO: Finished glTF 2.0 export in 0.012623786926269531 s
+
+ENGINE_BUILDING 51 352 241822241 25646
+02:14:44 | INFO: Starting glTF 2.0 export
+02:14:44 | INFO: Extracting primitive: 241822244 E09 observed block / opal lamp
+02:14:44 | INFO: Primitives created: 1
+02:14:44 | INFO: Extracting primitive: 241822244 E09 observed block / recess shadow
+02:14:44 | INFO: Primitives created: 1
+02:14:44 | INFO: Extracting primitive: Individual business lettering
+02:14:44 | INFO: Primitives created: 1
+02:14:44 | INFO: Finished glTF 2.0 export in 0.006453037261962891 s
+
+ENGINE_BUILDING 52 352 241822244 8307
+02:14:44 | INFO: Starting glTF 2.0 export
+02:14:44 | INFO: Extracting primitive: Individual business lettering
+02:14:44 | INFO: Primitives created: 1
+02:14:44 | INFO: Extracting primitive: Individual business lettering.002
+02:14:44 | INFO: Primitives created: 1
+02:14:44 | INFO: Extracting primitive: 121 1st Avenue · reference observed / store09 clear glass
+02:14:44 | INFO: Primitives created: 1
+02:14:44 | INFO: Finished glTF 2.0 export in 0.009763240814208984 s
+
+ENGINE_BUILDING 53 352 241822247 16168
+02:14:44 | INFO: Starting glTF 2.0 export
+02:14:44 | INFO: Extracting primitive: 241822251 E09 observed block / recess shadow
+02:14:44 | INFO: Primitives created: 1
+02:14:44 | INFO: Extracting primitive: Individual business lettering
+02:14:44 | INFO: Primitives created: 1
+02:14:44 | INFO: Extracting primitive: 241822251 E09 observed block / store09 clear glass
+02:14:44 | INFO: Primitives created: 1
+02:14:44 | INFO: Finished glTF 2.0 export in 0.01817488670349121 s
+
+ENGINE_BUILDING 54 352 241822251 45750
+02:14:44 | INFO: Starting glTF 2.0 export
+02:14:44 | INFO: Extracting primitive: 47 Saint Marks Place · mapped shape; facade details estimated / recess shadow
+02:14:44 | INFO: Primitives created: 1
+02:14:44 | INFO: Finished glTF 2.0 export in 0.005375862121582031 s
+
+ENGINE_BUILDING 55 352 241822254 8470
+02:14:44 | INFO: Starting glTF 2.0 export
+02:14:44 | INFO: Extracting primitive: 50 Saint Marks Place · mapped shape; facade details estimated / opal lamp
+02:14:44 | INFO: Primitives created: 1
+02:14:44 | INFO: Extracting primitive: 50 Saint Marks Place · mapped shape; facade details estimated / recess shadow
+02:14:44 | INFO: Primitives created: 1
+02:14:44 | INFO: Finished glTF 2.0 export in 0.004478931427001953 s
+
+ENGINE_BUILDING 56 352 241822256 5297
+02:14:44 | INFO: Starting glTF 2.0 export
+02:14:44 | INFO: Extracting primitive: 241822261 E09 observed block / recess shadow
+02:14:44 | INFO: Primitives created: 1
+02:14:44 | INFO: Extracting primitive: Individual business lettering
+02:14:44 | INFO: Primitives created: 1
+02:14:44 | INFO: Finished glTF 2.0 export in 0.010367870330810547 s
+
+ENGINE_BUILDING 57 352 241822261 21420
+02:14:44 | INFO: Starting glTF 2.0 export
+02:14:44 | INFO: Extracting primitive: 127 1st Avenue · reference observed / first net veil
+02:14:44 | INFO: Primitives created: 1
+02:14:44 | INFO: Extracting primitive: 127 1st Avenue · reference observed / opal lamp
+02:14:44 | INFO: Primitives created: 1
+02:14:44 | INFO: Extracting primitive: 127 1st Avenue · reference observed / recess shadow
+02:14:44 | INFO: Primitives created: 1
+02:14:44 | INFO: Extracting primitive: 127 1st Avenue · reference observed / store09 gray plaster
+02:14:44 | INFO: Primitives created: 1
+02:14:44 | INFO: Extracting primitive: 127 1st Avenue · reference observed / store09 clear glass
+02:14:44 | INFO: Primitives created: 1
+02:14:44 | INFO: Finished glTF 2.0 export in 0.010299205780029297 s
+
+ENGINE_BUILDING 58 352 241822263 14090
+02:14:44 | INFO: Starting glTF 2.0 export
+02:14:44 | INFO: Extracting primitive: 48 Saint Marks Place · mapped shape; facade details estimated / recess shadow
+02:14:44 | INFO: Primitives created: 1
+02:14:44 | INFO: Finished glTF 2.0 export in 0.0043408870697021484 s
+
+ENGINE_BUILDING 59 352 241822265 7476
+02:14:44 | INFO: Starting glTF 2.0 export
+02:14:44 | INFO: Extracting primitive: 73 Saint Marks Place · mapped shape; facade details estimated / recess shadow
+02:14:44 | INFO: Primitives created: 1
+02:14:44 | INFO: Finished glTF 2.0 export in 0.0027599334716796875 s
+
+ENGINE_BUILDING 60 352 241822267 3685
+02:14:44 | INFO: Starting glTF 2.0 export
+02:14:44 | INFO: Extracting primitive: 241822269 E09 observed block / recess shadow
+02:14:44 | INFO: Primitives created: 1
+02:14:44 | INFO: Extracting primitive: Individual business lettering
+02:14:44 | INFO: Primitives created: 1
+02:14:44 | INFO: Finished glTF 2.0 export in 0.008414030075073242 s
+
+ENGINE_BUILDING 61 352 241822269 17755
+02:14:44 | INFO: Starting glTF 2.0 export
+02:14:44 | INFO: Extracting primitive: Individual business lettering
+02:14:44 | INFO: Primitives created: 1
+02:14:44 | INFO: Extracting primitive: 77 Saint Marks Place · mapped shape; facade details estimated / store09 linen canvas
+02:14:44 | INFO: Primitives created: 1
+02:14:44 | INFO: Extracting primitive: 77 Saint Marks Place · mapped shape; facade details estimated / store09 clear glass
+02:14:44 | INFO: Primitives created: 1
+02:14:44 | INFO: Finished glTF 2.0 export in 0.009227991104125977 s
+
+ENGINE_BUILDING 62 352 241822271 16653
+02:14:44 | INFO: Starting glTF 2.0 export
+02:14:44 | INFO: Extracting primitive: 241822272 E09 observed block / opal lamp
+02:14:44 | INFO: Primitives created: 1
+02:14:44 | INFO: Extracting primitive: 241822272 E09 observed block / recess shadow
+02:14:44 | INFO: Primitives created: 1
+02:14:44 | INFO: Extracting primitive: Individual business lettering
+02:14:44 | INFO: Primitives created: 1
+02:14:44 | INFO: Finished glTF 2.0 export in 0.0063800811767578125 s
+
+ENGINE_BUILDING 63 352 241822272 6770
+02:14:44 | INFO: Starting glTF 2.0 export
+02:14:44 | INFO: Extracting primitive: 67 East 7th Street · reference observed / recess shadow
+02:14:44 | INFO: Primitives created: 1
+02:14:44 | INFO: Finished glTF 2.0 export in 0.005007028579711914 s
+
+ENGINE_BUILDING 64 352 241822274 9446
+02:14:44 | INFO: Starting glTF 2.0 export
+02:14:44 | INFO: Extracting primitive: 241822276 E09 observed block / recess shadow
+02:14:44 | INFO: Primitives created: 1
+02:14:44 | INFO: Extracting primitive: Individual business lettering
+02:14:44 | INFO: Primitives created: 1
+02:14:44 | INFO: Extracting primitive: 241822276 E09 observed block / store09 clear glass
+02:14:44 | INFO: Primitives created: 1
+02:14:44 | INFO: Finished glTF 2.0 export in 0.011307954788208008 s
+
+ENGINE_BUILDING 65 352 241822276 21545
+02:14:44 | INFO: Starting glTF 2.0 export
+02:14:44 | INFO: Extracting primitive: 137 1st Avenue · reference observed / opal lamp
+02:14:44 | INFO: Primitives created: 1
+02:14:44 | INFO: Extracting primitive: 137 1st Avenue · reference observed / recess shadow
+02:14:44 | INFO: Primitives created: 1
+02:14:44 | INFO: Extracting primitive: Individual business lettering
+02:14:44 | INFO: Primitives created: 1
+02:14:44 | INFO: Extracting primitive: 137 1st Avenue · reference observed / store09 clear glass
+02:14:44 | INFO: Primitives created: 1
+02:14:44 | INFO: Finished glTF 2.0 export in 0.015558958053588867 s
+
+ENGINE_BUILDING 66 352 241822278 31823
+02:14:45 | INFO: Starting glTF 2.0 export
+02:14:45 | INFO: Extracting primitive: 65 Saint Marks Place · mapped shape; facade details estimated / recess shadow
+02:14:45 | INFO: Primitives created: 1
+02:14:45 | INFO: Extracting primitive: Individual business lettering
+02:14:45 | INFO: Primitives created: 1
+02:14:45 | INFO: Extracting primitive: 65 Saint Marks Place · mapped shape; facade details estimated / store09 clear glass
+02:14:45 | INFO: Primitives created: 1
+02:14:45 | INFO: Finished glTF 2.0 export in 0.012825965881347656 s
+
+ENGINE_BUILDING 67 352 241822279 24462
+02:14:45 | INFO: Starting glTF 2.0 export
+02:14:45 | INFO: Extracting primitive: 60 Saint Marks Place · mapped shape; facade details estimated / recess shadow
+02:14:45 | INFO: Primitives created: 1
+02:14:45 | INFO: Finished glTF 2.0 export in 0.006106853485107422 s
+
+ENGINE_BUILDING 68 352 241822280 13171
+02:14:45 | INFO: Starting glTF 2.0 export
+02:14:45 | INFO: Extracting primitive: 63 Saint Marks Place · mapped shape; facade details estimated / recess shadow
+02:14:45 | INFO: Primitives created: 1
+02:14:45 | INFO: Finished glTF 2.0 export in 0.003915071487426758 s
+
+ENGINE_BUILDING 69 352 241822282 5355
+02:14:45 | INFO: Starting glTF 2.0 export
+02:14:45 | INFO: Extracting primitive: 42 1/2 Saint Marks Place · mapped shape; facade details estimated / recess shadow
+02:14:45 | INFO: Primitives created: 1
+02:14:45 | INFO: Extracting primitive: 42 1/2 Saint Marks Place · mapped shape; facade details estimated / store09 gray plaster
+02:14:45 | INFO: Primitives created: 1
+02:14:45 | INFO: Extracting primitive: 42 1/2 Saint Marks Place · mapped shape; facade details estimated / store09 clear glass
+02:14:45 | INFO: Primitives created: 1
+02:14:45 | INFO: Finished glTF 2.0 export in 0.006045818328857422 s
+
+ENGINE_BUILDING 70 352 241822284 5842
+02:14:45 | INFO: Starting glTF 2.0 export
+02:14:45 | INFO: Extracting primitive: 52 Saint Marks Place · mapped shape; facade details estimated / recess shadow
+02:14:45 | INFO: Primitives created: 1
+02:14:45 | INFO: Finished glTF 2.0 export in 0.006320953369140625 s
+
+ENGINE_BUILDING 71 352 241822286 12553
+02:14:45 | INFO: Starting glTF 2.0 export
+02:14:45 | INFO: Extracting primitive: Individual business lettering
+02:14:45 | INFO: Primitives created: 1
+02:14:45 | INFO: Extracting primitive: 123 1st Avenue · reference observed / store09 gray plaster
+02:14:45 | INFO: Primitives created: 1
+02:14:45 | INFO: Extracting primitive: 123 1st Avenue · reference observed / store09 clear glass
+02:14:45 | INFO: Primitives created: 1
+02:14:45 | INFO: Finished glTF 2.0 export in 0.008899927139282227 s
+
+ENGINE_BUILDING 72 352 241822288 15196
+02:14:45 | INFO: Starting glTF 2.0 export
+02:14:45 | INFO: Extracting primitive: 38 Saint Marks Place · reference observed / recess shadow
+02:14:45 | INFO: Primitives created: 1
+02:14:45 | INFO: Finished glTF 2.0 export in 0.002445697784423828 s
+
+ENGINE_BUILDING 73 352 241822290 2692
+02:14:45 | INFO: Starting glTF 2.0 export
+02:14:45 | INFO: Extracting primitive: 69 Saint Marks Place · mapped shape; facade details estimated / first net veil
+02:14:45 | INFO: Primitives created: 1
+02:14:45 | INFO: Extracting primitive: 69 Saint Marks Place · mapped shape; facade details estimated / opal lamp
+02:14:45 | INFO: Primitives created: 1
+02:14:45 | INFO: Extracting primitive: 69 Saint Marks Place · mapped shape; facade details estimated / recess shadow
+02:14:45 | INFO: Primitives created: 1
+02:14:45 | INFO: Finished glTF 2.0 export in 0.009694099426269531 s
+
+ENGINE_BUILDING 74 352 241822291 19163
+02:14:45 | INFO: Starting glTF 2.0 export
+02:14:45 | INFO: Extracting primitive: 241822293 E09 observed block / opal lamp
+02:14:45 | INFO: Primitives created: 1
+02:14:45 | INFO: Extracting primitive: 241822293 E09 observed block / recess shadow
+02:14:45 | INFO: Primitives created: 1
+02:14:45 | INFO: Extracting primitive: Individual business lettering
+02:14:45 | INFO: Primitives created: 1
+02:14:45 | INFO: Finished glTF 2.0 export in 0.00631403923034668 s
+
+ENGINE_BUILDING 75 352 241822293 7636
+02:14:45 | INFO: Starting glTF 2.0 export
+02:14:45 | INFO: Extracting primitive: 119 1st Avenue · reference observed / first net veil
+02:14:45 | INFO: Primitives created: 1
+02:14:45 | INFO: Extracting primitive: 119 1st Avenue · reference observed / opal lamp
+02:14:45 | INFO: Primitives created: 1
+02:14:45 | INFO: Extracting primitive: 119 1st Avenue · reference observed / recess shadow
+02:14:45 | INFO: Primitives created: 1
+02:14:45 | INFO: Extracting primitive: 119 1st Avenue · reference observed / store09 gray plaster
+02:14:45 | INFO: Primitives created: 1
+02:14:45 | INFO: Extracting primitive: 119 1st Avenue · reference observed / store09 clear glass
+02:14:45 | INFO: Primitives created: 1
+02:14:45 | INFO: Finished glTF 2.0 export in 0.009317874908447266 s
+
+ENGINE_BUILDING 76 352 241822295 11506
+02:14:45 | INFO: Starting glTF 2.0 export
+02:14:45 | INFO: Extracting primitive: 39 Saint Marks Place · mapped shape; facade details estimated / recess shadow
+02:14:45 | INFO: Primitives created: 1
+02:14:45 | INFO: Finished glTF 2.0 export in 0.0032100677490234375 s
+
+ENGINE_BUILDING 77 352 241822297 4115
+02:14:45 | INFO: Starting glTF 2.0 export
+02:14:45 | INFO: Extracting primitive: 49 Saint Marks Place · mapped shape; facade details estimated / recess shadow
+02:14:45 | INFO: Primitives created: 1
+02:14:45 | INFO: Finished glTF 2.0 export in 0.0030519962310791016 s
+
+ENGINE_BUILDING 78 352 241822299 5038
+02:14:45 | INFO: Starting glTF 2.0 export
+02:14:45 | INFO: Extracting primitive: 42 Saint Marks Place · mapped shape; facade details estimated / recess shadow
+02:14:45 | INFO: Primitives created: 1
+02:14:45 | INFO: Extracting primitive: Individual business lettering
+02:14:45 | INFO: Primitives created: 1
+02:14:45 | INFO: Extracting primitive: 42 Saint Marks Place · mapped shape; facade details estimated / store09 clear glass
+02:14:45 | INFO: Primitives created: 1
+02:14:45 | INFO: Finished glTF 2.0 export in 0.01605391502380371 s
+
+ENGINE_BUILDING 79 352 241822300 35007
+02:14:45 | INFO: Starting glTF 2.0 export
+02:14:45 | INFO: Extracting primitive: 46 Saint Marks Place · mapped shape; facade details estimated / recess shadow
+02:14:45 | INFO: Primitives created: 1
+02:14:45 | INFO: Finished glTF 2.0 export in 0.004813194274902344 s
+
+ENGINE_BUILDING 80 352 241822301 10567
+02:14:45 | INFO: Starting glTF 2.0 export
+02:14:45 | INFO: Extracting primitive: 62 Saint Marks Place · reference observed / recess shadow
+02:14:45 | INFO: Primitives created: 1
+02:14:45 | INFO: Finished glTF 2.0 export in 0.0033218860626220703 s
+
+ENGINE_BUILDING 81 352 241822303 5206
+02:14:45 | INFO: Starting glTF 2.0 export
+02:14:45 | INFO: Extracting primitive: 141 1st Avenue · reference observed / p01 blue tube
+02:14:45 | INFO: Primitives created: 1
+02:14:45 | INFO: Extracting primitive: 141 1st Avenue · reference observed / recess shadow
+02:14:45 | INFO: Primitives created: 1
+02:14:45 | INFO: Extracting primitive: Individual business lettering
+02:14:45 | INFO: Primitives created: 1
+02:14:45 | INFO: Extracting primitive: 141 1st Avenue · reference observed / store09 clear glass
+02:14:45 | INFO: Primitives created: 1
+02:14:45 | INFO: Finished glTF 2.0 export in 0.014453887939453125 s
+
+ENGINE_BUILDING 82 352 241822304 27469
+02:14:45 | INFO: Starting glTF 2.0 export
+02:14:45 | INFO: Extracting primitive: 44 Saint Marks Place · mapped shape; facade details estimated / recess shadow
+02:14:45 | INFO: Primitives created: 1
+02:14:45 | INFO: Extracting primitive: Individual business lettering
+02:14:45 | INFO: Primitives created: 1
+02:14:45 | INFO: Extracting primitive: 44 Saint Marks Place · mapped shape; facade details estimated / store09 clear glass
+02:14:45 | INFO: Primitives created: 1
+02:14:45 | INFO: Finished glTF 2.0 export in 0.007493257522583008 s
+
+ENGINE_BUILDING 83 352 241822306 11391
+02:14:46 | INFO: Starting glTF 2.0 export
+02:14:46 | INFO: Extracting primitive: 131 1st Avenue · reference observed / first warm red brick
+02:14:46 | INFO: Primitives created: 1
+02:14:46 | INFO: Extracting primitive: Individual business lettering
+02:14:46 | INFO: Primitives created: 1
+02:14:46 | INFO: Extracting primitive: 131 1st Avenue · reference observed / store09 clear glass
+02:14:46 | INFO: Primitives created: 1
+02:14:46 | INFO: Finished glTF 2.0 export in 0.00624394416809082 s
+
+ENGINE_BUILDING 84 352 241822308 8027
+02:14:46 | INFO: Starting glTF 2.0 export
+02:14:46 | INFO: Extracting primitive: Individual business lettering.001
+02:14:46 | INFO: Primitives created: 1
+02:14:46 | INFO: Extracting primitive: Individual business lettering
+02:14:46 | INFO: Primitives created: 1
+02:14:46 | INFO: Extracting primitive: 40 1/2 Saint Marks Place · mapped shape; facade details estimated / store09 clear glass
+02:14:46 | INFO: Primitives created: 1
+02:14:46 | INFO: Finished glTF 2.0 export in 0.010069847106933594 s
+
+ENGINE_BUILDING 85 352 241822310 18798
+02:14:46 | INFO: Starting glTF 2.0 export
+02:14:46 | INFO: Extracting primitive: 61 Saint Marks Place · mapped shape; facade details estimated / recess shadow
+02:14:46 | INFO: Primitives created: 1
+02:14:46 | INFO: Finished glTF 2.0 export in 0.0039000511169433594 s
+
+ENGINE_BUILDING 86 352 241822312 6263
+02:14:46 | INFO: Starting glTF 2.0 export
+02:14:46 | INFO: Extracting primitive: 57 Saint Marks Place · reference observed / recess shadow
+02:14:46 | INFO: Primitives created: 1
+02:14:46 | INFO: Finished glTF 2.0 export in 0.004302263259887695 s
+
+ENGINE_BUILDING 87 352 241822314 8963
+02:14:46 | INFO: Starting glTF 2.0 export
+02:14:46 | INFO: Extracting primitive: 241822315 E09 observed block / recess shadow
+02:14:46 | INFO: Primitives created: 1
+02:14:46 | INFO: Extracting primitive: Individual business lettering
+02:14:46 | INFO: Primitives created: 1
+02:14:46 | INFO: Extracting primitive: 241822315 E09 observed block / store09 clear glass
+02:14:46 | INFO: Primitives created: 1
+02:14:46 | INFO: Finished glTF 2.0 export in 0.014070987701416016 s
+
+ENGINE_BUILDING 88 352 241822315 31061
+02:14:46 | INFO: Starting glTF 2.0 export
+02:14:46 | INFO: Extracting primitive: 83 East 7th Street · reference observed / store glass
+02:14:46 | INFO: Primitives created: 1
+02:14:46 | INFO: Extracting primitive: 83 East 7th Street · reference observed / opal lamp
+02:14:46 | INFO: Primitives created: 1
+02:14:46 | INFO: Extracting primitive: 83 East 7th Street · reference observed / recess shadow
+02:14:46 | INFO: Primitives created: 1
+02:14:46 | INFO: Finished glTF 2.0 export in 0.0072209835052490234 s
+
+ENGINE_BUILDING 89 352 241822317 11218
+02:14:46 | INFO: Starting glTF 2.0 export
+02:14:46 | INFO: Extracting primitive: 71 East 7th Street · reference observed / recess shadow
+02:14:46 | INFO: Primitives created: 1
+02:14:46 | INFO: Finished glTF 2.0 export in 0.0049610137939453125 s
+
+ENGINE_BUILDING 90 352 241822319 9746
+02:14:46 | INFO: Starting glTF 2.0 export
+02:14:46 | INFO: Extracting primitive: 79 Saint Marks Place · mapped shape; facade details estimated / recess shadow
+02:14:46 | INFO: Primitives created: 1
+02:14:46 | INFO: Extracting primitive: 79 Saint Marks Place · mapped shape; facade details estimated / store09 gray plaster
+02:14:46 | INFO: Primitives created: 1
+02:14:46 | INFO: Extracting primitive: 79 Saint Marks Place · mapped shape; facade details estimated / store09 clear glass
+02:14:46 | INFO: Primitives created: 1
+02:14:46 | INFO: Finished glTF 2.0 export in 0.004046916961669922 s
+
+ENGINE_BUILDING 91 352 241822320 1831
+02:14:46 | INFO: Starting glTF 2.0 export
+02:14:46 | INFO: Extracting primitive: 78 Saint Marks Place · reference observed / recess shadow
+02:14:46 | INFO: Primitives created: 1
+02:14:46 | INFO: Finished glTF 2.0 export in 0.0031120777130126953 s
+
+ENGINE_BUILDING 92 352 241822323 5077
+02:14:46 | INFO: Starting glTF 2.0 export
+02:14:46 | INFO: Extracting primitive: 49 East 7th Street · reference observed / recess shadow
+02:14:46 | INFO: Primitives created: 1
+02:14:46 | INFO: Finished glTF 2.0 export in 0.0038080215454101562 s
+
+ENGINE_BUILDING 93 352 241822325 7196
+02:14:46 | INFO: Starting glTF 2.0 export
+02:14:46 | INFO: Extracting primitive: 74 Saint Marks Place · mapped shape; facade details estimated / recess shadow
+02:14:46 | INFO: Primitives created: 1
+02:14:46 | INFO: Finished glTF 2.0 export in 0.0033359527587890625 s
+
+ENGINE_BUILDING 94 352 241822326 5400
+02:14:46 | INFO: Starting glTF 2.0 export
+02:14:46 | INFO: Extracting primitive: 81 East 7th Street · reference observed / store glass
+02:14:46 | INFO: Primitives created: 1
+02:14:46 | INFO: Extracting primitive: Observed sign lettering
+02:14:46 | INFO: Primitives created: 1
+02:14:46 | INFO: Extracting primitive: 81 East 7th Street · reference observed / recess shadow
+02:14:46 | INFO: Primitives created: 1
+02:14:46 | INFO: Finished glTF 2.0 export in 0.012668371200561523 s
+
+ENGINE_BUILDING 95 352 241822329 23783
+02:14:46 | INFO: Starting glTF 2.0 export
+02:14:46 | INFO: Extracting primitive: 68 Saint Marks Place · mapped shape; facade details estimated / recess shadow
+02:14:46 | INFO: Primitives created: 1
+02:14:46 | INFO: Finished glTF 2.0 export in 0.0036270618438720703 s
+
+ENGINE_BUILDING 96 352 241822332 6354
+02:14:46 | INFO: Starting glTF 2.0 export
+02:14:46 | INFO: Extracting primitive: 241822335 E09 observed block / recess shadow
+02:14:46 | INFO: Primitives created: 1
+02:14:46 | INFO: Extracting primitive: Individual business lettering
+02:14:46 | INFO: Primitives created: 1
+02:14:46 | INFO: Finished glTF 2.0 export in 0.01084280014038086 s
+
+ENGINE_BUILDING 97 352 241822335 24317
+02:14:46 | INFO: Starting glTF 2.0 export
+02:14:46 | INFO: Extracting primitive: 79 East 7th Street · reference observed / store glass
+02:14:46 | INFO: Primitives created: 1
+02:14:46 | INFO: Extracting primitive: 79 East 7th Street · reference observed / recess shadow
+02:14:46 | INFO: Primitives created: 1
+02:14:46 | INFO: Finished glTF 2.0 export in 0.006468057632446289 s
+
+ENGINE_BUILDING 98 352 241822336 11635
+02:14:46 | INFO: Starting glTF 2.0 export
+02:14:46 | INFO: Extracting primitive: Individual business lettering.003
+02:14:46 | INFO: Primitives created: 1
+02:14:46 | INFO: Extracting primitive: 139 1st Avenue · reference observed / recess shadow
+02:14:46 | INFO: Primitives created: 1
+02:14:46 | INFO: Extracting primitive: Individual business lettering
+02:14:46 | INFO: Primitives created: 1
+02:14:46 | INFO: Extracting primitive: 139 1st Avenue · reference observed / store09 clear glass
+02:14:46 | INFO: Primitives created: 1
+02:14:46 | INFO: Finished glTF 2.0 export in 0.017264842987060547 s
+
+ENGINE_BUILDING 99 352 241822337 37455
+02:14:46 | INFO: Starting glTF 2.0 export
+02:14:46 | INFO: Extracting primitive: 53 Saint Marks Place · mapped shape; facade details estimated / recess shadow
+02:14:46 | INFO: Primitives created: 1
+02:14:46 | INFO: Finished glTF 2.0 export in 0.0035920143127441406 s
+
+ENGINE_BUILDING 100 352 241822338 6502
+02:14:46 | INFO: Starting glTF 2.0 export
+02:14:46 | INFO: Extracting primitive: 126 2nd Avenue · reference observed / store glass
+02:14:46 | INFO: Primitives created: 1
+02:14:46 | INFO: Extracting primitive: 126 2nd Avenue · reference observed / opal lamp
+02:14:46 | INFO: Primitives created: 1
+02:14:46 | INFO: Extracting primitive: 126 2nd Avenue · reference observed / window glass
+02:14:46 | INFO: Primitives created: 1
+02:14:46 | INFO: Finished glTF 2.0 export in 0.005693912506103516 s
+
+ENGINE_BUILDING 101 352 241822339 6375
+02:14:47 | INFO: Starting glTF 2.0 export
+02:14:47 | INFO: Extracting primitive: 51 East 7th Street · reference observed / recess shadow
+02:14:47 | INFO: Primitives created: 1
+02:14:47 | INFO: Finished glTF 2.0 export in 0.0032660961151123047 s
+
+ENGINE_BUILDING 102 352 241822340 4980
+02:14:47 | INFO: Starting glTF 2.0 export
+02:14:47 | INFO: Extracting primitive: 56 St. Marks Place · mapped shape; facade details estimated / recess shadow
+02:14:47 | INFO: Primitives created: 1
+02:14:47 | INFO: Finished glTF 2.0 export in 0.006386995315551758 s
+
+ENGINE_BUILDING 103 352 241822341 15850
+02:14:47 | INFO: Starting glTF 2.0 export
+02:14:47 | INFO: Extracting primitive: 108 2nd Avenue · reference observed / store glass
+02:14:47 | INFO: Primitives created: 1
+02:14:47 | INFO: Extracting primitive: 108 2nd Avenue · reference observed / curtain amber
+02:14:47 | INFO: Primitives created: 1
+02:14:47 | INFO: Extracting primitive: 108 2nd Avenue · reference observed / black iron
+02:14:47 | INFO: Primitives created: 1
+02:14:47 | INFO: Finished glTF 2.0 export in 0.0061969757080078125 s
+
+ENGINE_BUILDING 104 352 241829564 7347
+02:14:47 | INFO: Starting glTF 2.0 export
+02:14:47 | INFO: Extracting primitive: 58 East 7th Street · reference observed / recess shadow
+02:14:47 | INFO: Primitives created: 1
+02:14:47 | INFO: Finished glTF 2.0 export in 0.006356000900268555 s
+
+ENGINE_BUILDING 105 352 241829565 13610
+02:14:47 | INFO: Starting glTF 2.0 export
+02:14:47 | INFO: Extracting primitive: 80 East 7th Street · reference observed / store glass
+02:14:47 | INFO: Primitives created: 1
+02:14:47 | INFO: Extracting primitive: 80 East 7th Street · reference observed / opal lamp
+02:14:47 | INFO: Primitives created: 1
+02:14:47 | INFO: Extracting primitive: Observed sign lettering
+02:14:47 | INFO: Primitives created: 1
+02:14:47 | INFO: Finished glTF 2.0 export in 0.014451980590820312 s
+
+ENGINE_BUILDING 106 352 241829566 32469
+02:14:47 | INFO: Starting glTF 2.0 export
+02:14:47 | INFO: Extracting primitive: 76 East 7th Street · mapped shape; facade details estimated / store glass
+02:14:47 | INFO: Primitives created: 1
+02:14:47 | INFO: Extracting primitive: 76 East 7th Street · mapped shape; facade details estimated / recess shadow
+02:14:47 | INFO: Primitives created: 1
+02:14:47 | INFO: Finished glTF 2.0 export in 0.012113809585571289 s
+
+ENGINE_BUILDING 107 352 241829567 25900
+02:14:47 | INFO: Starting glTF 2.0 export
+02:14:47 | INFO: Extracting primitive: 62 East 7th Street · reference observed / recess shadow
+02:14:47 | INFO: Primitives created: 1
+02:14:47 | INFO: Finished glTF 2.0 export in 0.005159854888916016 s
+
+ENGINE_BUILDING 108 352 241829572 10492
+02:14:47 | INFO: Starting glTF 2.0 export
+02:14:47 | INFO: Extracting primitive: 74 East 7th Street · reference observed / store glass
+02:14:47 | INFO: Primitives created: 1
+02:14:47 | INFO: Extracting primitive: 74 East 7th Street · reference observed / opal lamp
+02:14:47 | INFO: Primitives created: 1
+02:14:47 | INFO: Extracting primitive: 74 East 7th Street · reference observed / recess shadow
+02:14:47 | INFO: Primitives created: 1
+02:14:47 | INFO: Finished glTF 2.0 export in 0.01067495346069336 s
+
+ENGINE_BUILDING 109 352 241829573 21259
+02:14:47 | INFO: Starting glTF 2.0 export
+02:14:47 | INFO: Extracting primitive: 72 East 7th Street · reference observed / store glass
+02:14:47 | INFO: Primitives created: 1
+02:14:47 | INFO: Extracting primitive: 72 East 7th Street · reference observed / recess shadow
+02:14:47 | INFO: Primitives created: 1
+02:14:47 | INFO: Finished glTF 2.0 export in 0.010757923126220703 s
+
+ENGINE_BUILDING 110 352 241829574 20757
+02:14:47 | INFO: Starting glTF 2.0 export
+02:14:47 | INFO: Extracting primitive: 50 East 7th / April 2026 architecture / recess shadow
+02:14:47 | INFO: Primitives created: 1
+02:14:47 | INFO: Finished glTF 2.0 export in 0.009935140609741211 s
+
+ENGINE_BUILDING 111 352 241829575 21676
+02:14:47 | INFO: Starting glTF 2.0 export
+02:14:47 | INFO: Extracting primitive: 70 East 7th Street · reference observed / store glass
+02:14:47 | INFO: Primitives created: 1
+02:14:47 | INFO: Extracting primitive: 70 East 7th Street · reference observed / recess shadow
+02:14:47 | INFO: Primitives created: 1
+02:14:47 | INFO: Finished glTF 2.0 export in 0.008989095687866211 s
+
+ENGINE_BUILDING 112 352 241829577 20121
+02:14:47 | INFO: Starting glTF 2.0 export
+02:14:47 | INFO: Extracting primitive: 66 East 7th Street · reference observed / recess shadow
+02:14:47 | INFO: Primitives created: 1
+02:14:47 | INFO: Finished glTF 2.0 export in 0.006375789642333984 s
+
+ENGINE_BUILDING 113 352 241829579 15423
+02:14:48 | INFO: Starting glTF 2.0 export
+02:14:48 | INFO: Extracting primitive: 54 East 7th Street · reference observed / recess shadow
+02:14:48 | INFO: Primitives created: 1
+02:14:48 | INFO: Finished glTF 2.0 export in 0.008977174758911133 s
+
+ENGINE_BUILDING 114 352 241829580 22067
+02:14:48 | INFO: Starting glTF 2.0 export
+02:14:48 | INFO: Extracting primitive: 56 East 7th Street · reference observed / recess shadow
+02:14:48 | INFO: Primitives created: 1
+02:14:48 | INFO: Finished glTF 2.0 export in 0.009855031967163086 s
+
+ENGINE_BUILDING 115 352 241829581 22161
+02:14:48 | INFO: Starting glTF 2.0 export
+02:14:48 | INFO: Extracting primitive: 52 East 7th Street · reference observed / recess shadow
+02:14:48 | INFO: Primitives created: 1
+02:14:48 | INFO: Finished glTF 2.0 export in 0.0068209171295166016 s
+
+ENGINE_BUILDING 116 352 241829582 15604
+02:14:48 | INFO: Starting glTF 2.0 export
+02:14:48 | INFO: Extracting primitive: 84 East 7th Street · reference observed / store glass
+02:14:48 | INFO: Primitives created: 1
+02:14:48 | INFO: Extracting primitive: 84 East 7th Street · reference observed / recess shadow
+02:14:48 | INFO: Primitives created: 1
+02:14:48 | INFO: Finished glTF 2.0 export in 0.0064220428466796875 s
+
+ENGINE_BUILDING 117 352 241829595 10895
+02:14:48 | INFO: Starting glTF 2.0 export
+02:14:48 | INFO: Extracting primitive: 110 2nd Avenue · reference observed / curtain amber
+02:14:48 | INFO: Primitives created: 1
+02:14:48 | INFO: Extracting primitive: 110 2nd Avenue · reference observed / warm brick
+02:14:48 | INFO: Primitives created: 1
+02:14:48 | INFO: Finished glTF 2.0 export in 0.004666805267333984 s
+
+ENGINE_BUILDING 118 352 241829611 6077
+02:14:48 | INFO: Starting glTF 2.0 export
+02:14:48 | INFO: Extracting primitive: 68 East 7th Street · reference observed / recess shadow
+02:14:48 | INFO: Primitives created: 1
+02:14:48 | INFO: Finished glTF 2.0 export in 0.004202127456665039 s
+
+ENGINE_BUILDING 119 352 241829621 8186
+02:14:48 | INFO: Starting glTF 2.0 export
+02:14:48 | INFO: Extracting primitive: 111 1st Avenue · reference observed / store glass
+02:14:48 | INFO: Primitives created: 1
+02:14:48 | INFO: Extracting primitive: 111 1st Avenue · reference observed / opal lamp
+02:14:48 | INFO: Primitives created: 1
+02:14:48 | INFO: Extracting primitive: 111 1st Avenue · reference observed / warm brick
+02:14:48 | INFO: Primitives created: 1
+02:14:48 | INFO: Finished glTF 2.0 export in 0.005959987640380859 s
+
+ENGINE_BUILDING 120 352 241829623 7360
+02:14:48 | INFO: Starting glTF 2.0 export
+02:14:48 | INFO: Extracting primitive: 64 East 7th Street · reference observed / recess shadow
+02:14:48 | INFO: Primitives created: 1
+02:14:48 | INFO: Finished glTF 2.0 export in 0.0035240650177001953 s
+
+ENGINE_BUILDING 121 352 241829629 6223
+02:14:48 | INFO: Starting glTF 2.0 export
+02:14:48 | INFO: Extracting primitive: 109 1st Avenue · reference observed / store glass
+02:14:48 | INFO: Primitives created: 1
+02:14:48 | INFO: Extracting primitive: 109 1st Avenue · reference observed / curtain amber
+02:14:48 | INFO: Primitives created: 1
+02:14:48 | INFO: Extracting primitive: 109 1st Avenue · reference observed / warm brick
+02:14:48 | INFO: Primitives created: 1
+02:14:48 | INFO: Finished glTF 2.0 export in 0.007071971893310547 s
+
+ENGINE_BUILDING 122 352 241829630 10987
+02:14:48 | INFO: Starting glTF 2.0 export
+02:14:48 | INFO: Extracting primitive: 113 First Avenue / 86 East 7th Street / First & Seventh photographic benchmark / seventh glass
+02:14:48 | INFO: Primitives created: 1
+02:14:48 | INFO: Extracting primitive: Observed sign lettering.015
+02:14:48 | INFO: Primitives created: 1
+02:14:48 | INFO: Extracting primitive: Observed sign lettering
+02:14:48 | INFO: Primitives created: 1
+02:14:48 | INFO: Finished glTF 2.0 export in 0.0354921817779541 s
+
+ENGINE_BUILDING 123 352 241829631 89709
+02:14:48 | INFO: Starting glTF 2.0 export
+02:14:48 | INFO: Extracting primitive: 82 East 7th Street · reference observed / recess shadow
+02:14:48 | INFO: Primitives created: 1
+02:14:48 | INFO: Finished glTF 2.0 export in 0.0037391185760498047 s
+
+ENGINE_BUILDING 124 352 241829633 6113
+02:14:48 | INFO: Starting glTF 2.0 export
+02:14:48 | INFO: Extracting primitive: 107 1st Avenue · reference observed / store glass
+02:14:48 | INFO: Primitives created: 1
+02:14:48 | INFO: Extracting primitive: 107 1st Avenue · reference observed / curtain amber
+02:14:48 | INFO: Primitives created: 1
+02:14:48 | INFO: Extracting primitive: 107 1st Avenue · reference observed / cornice green
+02:14:48 | INFO: Primitives created: 1
+02:14:48 | INFO: Finished glTF 2.0 export in 0.00793910026550293 s
+
+ENGINE_BUILDING 125 352 241829634 13555
+02:14:49 | INFO: Starting glTF 2.0 export
+02:14:49 | INFO: Extracting primitive: 103 1st Avenue · reference observed / store glass
+02:14:49 | INFO: Primitives created: 1
+02:14:49 | INFO: Extracting primitive: 103 1st Avenue · reference observed / curtain amber
+02:14:49 | INFO: Primitives created: 1
+02:14:49 | INFO: Extracting primitive: 103 1st Avenue · reference observed / warm brick
+02:14:49 | INFO: Primitives created: 1
+02:14:49 | INFO: Finished glTF 2.0 export in 0.005633115768432617 s
+
+ENGINE_BUILDING 126 352 241829636 4839
+02:14:49 | INFO: Starting glTF 2.0 export
+02:14:49 | INFO: Extracting primitive: 105 1st Avenue · reference observed / store glass
+02:14:49 | INFO: Primitives created: 1
+02:14:49 | INFO: Extracting primitive: 105 1st Avenue · reference observed / curtain amber
+02:14:49 | INFO: Primitives created: 1
+02:14:49 | INFO: Extracting primitive: 105 1st Avenue · reference observed / cornice copper brown
+02:14:49 | INFO: Primitives created: 1
+02:14:49 | INFO: Finished glTF 2.0 export in 0.006223917007446289 s
+
+ENGINE_BUILDING 127 352 241829641 8219
+02:14:49 | INFO: Starting glTF 2.0 export
+02:14:49 | INFO: Extracting primitive: 48 1/2 East 7th Street · mapped shape; facade details estimated / store glass
+02:14:49 | INFO: Primitives created: 1
+02:14:49 | INFO: Extracting primitive: Observed sign lettering
+02:14:49 | INFO: Primitives created: 1
+02:14:49 | INFO: Finished glTF 2.0 export in 0.019190073013305664 s
+
+ENGINE_BUILDING 128 352 241829643 46657
+02:14:49 | INFO: Starting glTF 2.0 export
+02:14:49 | INFO: Extracting primitive: Building 241829661 · mapped shape; facade details estimated / weathered red
+02:14:49 | INFO: Primitives created: 1
+02:14:49 | INFO: Finished glTF 2.0 export in 0.00180816650390625 s
+
+ENGINE_BUILDING 129 352 241829661 133
+02:14:49 | INFO: Starting glTF 2.0 export
+02:14:49 | INFO: Extracting primitive: 60 East 7th Street · reference observed / recess shadow
+02:14:49 | INFO: Primitives created: 1
+02:14:49 | INFO: Finished glTF 2.0 export in 0.0045430660247802734 s
+
+ENGINE_BUILDING 130 352 241829665 8917
+02:14:49 | INFO: Starting glTF 2.0 export
+02:14:49 | INFO: Extracting primitive: 107 2nd Avenue · mapped shape; facade details estimated / store glass
+02:14:49 | INFO: Primitives created: 1
+02:14:49 | INFO: Extracting primitive: 107 2nd Avenue · mapped shape; facade details estimated / curtain amber
+02:14:49 | INFO: Primitives created: 1
+02:14:49 | INFO: Extracting primitive: 107 2nd Avenue · mapped shape; facade details estimated / cornice copper brown
+02:14:49 | INFO: Primitives created: 1
+02:14:49 | INFO: Finished glTF 2.0 export in 0.011130809783935547 s
+
+ENGINE_BUILDING 131 352 241833259 22900
+02:14:49 | INFO: Starting glTF 2.0 export
+02:14:49 | INFO: Extracting primitive: 131 2nd Avenue · reference observed / store glass
+02:14:49 | INFO: Primitives created: 1
+02:14:49 | INFO: Extracting primitive: 131 2nd Avenue · reference observed / curtain amber
+02:14:49 | INFO: Primitives created: 1
+02:14:49 | INFO: Extracting primitive: 131 2nd Avenue · reference observed / black iron
+02:14:49 | INFO: Primitives created: 1
+02:14:49 | INFO: Finished glTF 2.0 export in 0.01530599594116211 s
+
+ENGINE_BUILDING 132 352 241833267 35993
+02:14:49 | INFO: Starting glTF 2.0 export
+02:14:49 | INFO: Extracting primitive: 43 East 7th Street · reference observed / store glass
+02:14:49 | INFO: Primitives created: 1
+02:14:49 | INFO: Extracting primitive: 43 East 7th Street · reference observed / opal lamp
+02:14:49 | INFO: Primitives created: 1
+02:14:49 | INFO: Extracting primitive: 43 East 7th Street · reference observed / recess shadow
+02:14:49 | INFO: Primitives created: 1
+02:14:49 | INFO: Finished glTF 2.0 export in 0.011104106903076172 s
+
+ENGINE_BUILDING 133 352 241833274 19722
+02:14:49 | INFO: Starting glTF 2.0 export
+02:14:49 | INFO: Extracting primitive: 129 2nd Avenue · reference observed / store glass
+02:14:49 | INFO: Primitives created: 1
+02:14:49 | INFO: Extracting primitive: 129 2nd Avenue · reference observed / curtain amber
+02:14:49 | INFO: Primitives created: 1
+02:14:49 | INFO: Extracting primitive: 129 2nd Avenue · reference observed / black iron
+02:14:49 | INFO: Primitives created: 1
+02:14:49 | INFO: Finished glTF 2.0 export in 0.010694026947021484 s
+
+ENGINE_BUILDING 134 352 241833286 21079
+02:14:49 | INFO: Starting glTF 2.0 export
+02:14:49 | INFO: Extracting primitive: 127 2nd Avenue · reference observed / store glass
+02:14:49 | INFO: Primitives created: 1
+02:14:49 | INFO: Extracting primitive: 127 2nd Avenue · reference observed / curtain amber
+02:14:49 | INFO: Primitives created: 1
+02:14:49 | INFO: Extracting primitive: 127 2nd Avenue · reference observed / black iron
+02:14:49 | INFO: Primitives created: 1
+02:14:49 | INFO: Finished glTF 2.0 export in 0.008929967880249023 s
+
+ENGINE_BUILDING 135 352 241833290 16368
+02:14:49 | INFO: Starting glTF 2.0 export
+02:14:49 | INFO: Extracting primitive: 125 2nd Avenue · reference observed / store glass
+02:14:49 | INFO: Primitives created: 1
+02:14:49 | INFO: Extracting primitive: 125 2nd Avenue · reference observed / curtain amber
+02:14:49 | INFO: Primitives created: 1
+02:14:49 | INFO: Extracting primitive: 125 2nd Avenue · reference observed / red iron
+02:14:49 | INFO: Primitives created: 1
+02:14:49 | INFO: Finished glTF 2.0 export in 0.011533021926879883 s
+
+ENGINE_BUILDING 136 352 241833291 21645
+02:14:50 | INFO: Starting glTF 2.0 export
+02:14:50 | INFO: Extracting primitive: 117 2nd Avenue · mapped shape; facade details estimated / store glass
+02:14:50 | INFO: Primitives created: 1
+02:14:50 | INFO: Extracting primitive: 117 2nd Avenue · mapped shape; facade details estimated / opal lamp
+02:14:50 | INFO: Primitives created: 1
+02:14:50 | INFO: Extracting primitive: 117 2nd Avenue · mapped shape; facade details estimated / cornice copper brown
+02:14:50 | INFO: Primitives created: 1
+02:14:50 | INFO: Finished glTF 2.0 export in 0.011484861373901367 s
+
+ENGINE_BUILDING 137 352 241833299 23928
+02:14:50 | INFO: Starting glTF 2.0 export
+02:14:50 | INFO: Extracting primitive: 115 2nd Avenue · mapped shape; facade details estimated / store glass
+02:14:50 | INFO: Primitives created: 1
+02:14:50 | INFO: Extracting primitive: 115 2nd Avenue · mapped shape; facade details estimated / warm glass
+02:14:50 | INFO: Primitives created: 1
+02:14:50 | INFO: Extracting primitive: 115 2nd Avenue · mapped shape; facade details estimated / cornice copper brown
+02:14:50 | INFO: Primitives created: 1
+02:14:50 | INFO: Finished glTF 2.0 export in 0.007542848587036133 s
+
+ENGINE_BUILDING 138 352 241833312 9645
+02:14:50 | INFO: Starting glTF 2.0 export
+02:14:50 | INFO: Extracting primitive: 46 East 7th Street · mapped shape; facade details estimated / store glass
+02:14:50 | INFO: Primitives created: 1
+02:14:50 | INFO: Extracting primitive: 46 East 7th Street · mapped shape; facade details estimated / recess shadow
+02:14:50 | INFO: Primitives created: 1
+02:14:50 | INFO: Finished glTF 2.0 export in 0.006574869155883789 s
+
+ENGINE_BUILDING 139 352 241833322 12477
+02:14:50 | INFO: Starting glTF 2.0 export
+02:14:50 | INFO: Extracting primitive: 135 2nd Avenue · reference observed / window glass
+02:14:50 | INFO: Primitives created: 1
+02:14:50 | INFO: Finished glTF 2.0 export in 0.003921031951904297 s
+
+ENGINE_BUILDING 140 352 241845001 6910
+02:14:50 | INFO: Starting glTF 2.0 export
+02:14:50 | INFO: Extracting primitive: 133 2nd Avenue · reference observed / store glass
+02:14:50 | INFO: Primitives created: 1
+02:14:50 | INFO: Extracting primitive: 133 2nd Avenue · reference observed / curtain amber
+02:14:50 | INFO: Primitives created: 1
+02:14:50 | INFO: Extracting primitive: 133 2nd Avenue · reference observed / buff brick
+02:14:50 | INFO: Primitives created: 1
+02:14:50 | INFO: Finished glTF 2.0 export in 0.021086931228637695 s
+
+ENGINE_BUILDING 141 352 241845013 53353
+02:14:50 | INFO: Starting glTF 2.0 export
+02:14:50 | INFO: Extracting primitive: 247851894 Tenth individually observed / opal lamp
+02:14:50 | INFO: Primitives created: 1
+02:14:50 | INFO: Extracting primitive: 247851894 Tenth individually observed / recess shadow
+02:14:50 | INFO: Primitives created: 1
+02:14:50 | INFO: Extracting primitive: Individual business lettering
+02:14:50 | INFO: Primitives created: 1
+02:14:50 | INFO: Finished glTF 2.0 export in 0.032073020935058594 s
+
+ENGINE_BUILDING 142 352 247851894 90927
+02:14:50 | INFO: Starting glTF 2.0 export
+02:14:50 | INFO: Extracting primitive: 247851895 Tenth individually observed / recess shadow
+02:14:50 | INFO: Primitives created: 1
+02:14:50 | INFO: Extracting primitive: Individual business lettering
+02:14:50 | INFO: Primitives created: 1
+02:14:50 | INFO: Finished glTF 2.0 export in 0.020446062088012695 s
+
+ENGINE_BUILDING 143 352 247851895 58491
+02:14:51 | INFO: Starting glTF 2.0 export
+02:14:51 | INFO: Extracting primitive: 247851896 Tenth individually observed / recess shadow
+02:14:51 | INFO: Primitives created: 1
+02:14:51 | INFO: Extracting primitive: Individual business lettering
+02:14:51 | INFO: Primitives created: 1
+02:14:51 | INFO: Finished glTF 2.0 export in 0.03905510902404785 s
+
+ENGINE_BUILDING 144 352 247851896 114528
+02:14:51 | INFO: Starting glTF 2.0 export
+02:14:51 | INFO: Extracting primitive: 247851897 Tenth individually observed / recess shadow
+02:14:51 | INFO: Primitives created: 1
+02:14:51 | INFO: Extracting primitive: Individual business lettering
+02:14:51 | INFO: Primitives created: 1
+02:14:51 | INFO: Finished glTF 2.0 export in 0.03166794776916504 s
+
+ENGINE_BUILDING 145 352 247851897 96645
+02:14:52 | INFO: Starting glTF 2.0 export
+02:14:52 | INFO: Extracting primitive: 247851898 Tenth individually observed / recess shadow
+02:14:52 | INFO: Primitives created: 1
+02:14:52 | INFO: Extracting primitive: Individual business lettering
+02:14:52 | INFO: Primitives created: 1
+02:14:52 | INFO: Finished glTF 2.0 export in 0.03810882568359375 s
+
+ENGINE_BUILDING 146 352 247851898 111907
+02:14:52 | INFO: Starting glTF 2.0 export
+02:14:52 | INFO: Extracting primitive: 247851899 Tenth individually observed / recess shadow
+02:14:52 | INFO: Primitives created: 1
+02:14:52 | INFO: Extracting primitive: Individual business lettering
+02:14:52 | INFO: Primitives created: 1
+02:14:52 | INFO: Finished glTF 2.0 export in 0.05751180648803711 s
+
+ENGINE_BUILDING 147 352 247851899 170725
+02:14:52 | INFO: Starting glTF 2.0 export
+02:14:53 | INFO: Extracting primitive: Individual business lettering.002
+02:14:53 | INFO: Primitives created: 1
+02:14:53 | INFO: Extracting primitive: Individual business lettering
+02:14:53 | INFO: Primitives created: 1
+02:14:53 | INFO: Extracting primitive: 247851900 Tenth individually observed / store09 clear glass
+02:14:53 | INFO: Primitives created: 1
+02:14:53 | INFO: Finished glTF 2.0 export in 0.038572072982788086 s
+
+ENGINE_BUILDING 148 352 247851900 105010
+02:14:53 | INFO: Starting glTF 2.0 export
+02:14:53 | INFO: Extracting primitive: Individual business lettering.007
+02:14:53 | INFO: Primitives created: 1
+02:14:53 | INFO: Extracting primitive: Individual business lettering
+02:14:53 | INFO: Primitives created: 1
+02:14:53 | INFO: Extracting primitive: 247851901 Tenth individually observed / store09 clear glass
+02:14:53 | INFO: Primitives created: 1
+02:14:53 | INFO: Finished glTF 2.0 export in 0.04925799369812012 s
+
+ENGINE_BUILDING 149 352 247851901 139097
+02:14:53 | INFO: Starting glTF 2.0 export
+02:14:53 | INFO: Extracting primitive: Individual business lettering.003
+02:14:53 | INFO: Primitives created: 1
+02:14:53 | INFO: Extracting primitive: Individual business lettering
+02:14:53 | INFO: Primitives created: 1
+02:14:53 | INFO: Extracting primitive: 247851902 Tenth individually observed / store09 clear glass
+02:14:53 | INFO: Primitives created: 1
+02:14:53 | INFO: Finished glTF 2.0 export in 0.043543100357055664 s
+
+ENGINE_BUILDING 150 352 247851902 120041
+02:14:54 | INFO: Starting glTF 2.0 export
+02:14:54 | INFO: Extracting primitive: 247851903 Tenth individually observed / recess shadow
+02:14:54 | INFO: Primitives created: 1
+02:14:54 | INFO: Extracting primitive: 247851903 Tenth individually observed / eb dark wood
+02:14:54 | INFO: Primitives created: 1
+02:14:54 | INFO: Finished glTF 2.0 export in 0.011722803115844727 s
+
+ENGINE_BUILDING 151 352 247851903 28355
+02:14:54 | INFO: Starting glTF 2.0 export
+02:14:54 | INFO: Extracting primitive: 247851904 Tenth individually observed / recess shadow
+02:14:54 | INFO: Primitives created: 1
+02:14:54 | INFO: Extracting primitive: Individual business lettering
+02:14:54 | INFO: Primitives created: 1
+02:14:54 | INFO: Finished glTF 2.0 export in 0.01534891128540039 s
+
+ENGINE_BUILDING 152 352 247851904 40053
+02:14:54 | INFO: Starting glTF 2.0 export
+02:14:54 | INFO: Extracting primitive: 247851906 Tenth individually observed / recess shadow
+02:14:54 | INFO: Primitives created: 1
+02:14:54 | INFO: Extracting primitive: Individual business lettering
+02:14:54 | INFO: Primitives created: 1
+02:14:54 | INFO: Finished glTF 2.0 export in 0.015535116195678711 s
+
+ENGINE_BUILDING 153 352 247851906 40775
+02:14:54 | INFO: Starting glTF 2.0 export
+02:14:54 | INFO: Extracting primitive: 247851908 Tenth individually observed / recess shadow
+02:14:54 | INFO: Primitives created: 1
+02:14:54 | INFO: Extracting primitive: 247851908 Tenth individually observed / eb dark wood
+02:14:54 | INFO: Primitives created: 1
+02:14:54 | INFO: Finished glTF 2.0 export in 0.012819051742553711 s
+
+ENGINE_BUILDING 154 352 247851908 28701
+02:14:54 | INFO: Starting glTF 2.0 export
+02:14:54 | INFO: Extracting primitive: 247851911 Tenth individually observed / opal lamp
+02:14:54 | INFO: Primitives created: 1
+02:14:54 | INFO: Extracting primitive: 247851911 Tenth individually observed / recess shadow
+02:14:54 | INFO: Primitives created: 1
+02:14:54 | INFO: Extracting primitive: Individual business lettering
+02:14:54 | INFO: Primitives created: 1
+02:14:54 | INFO: Finished glTF 2.0 export in 0.018615007400512695 s
+
+ENGINE_BUILDING 155 352 247851911 42178
+02:14:55 | INFO: Starting glTF 2.0 export
+02:14:55 | INFO: Extracting primitive: 247851935 Tenth individually observed / opal lamp
+02:14:55 | INFO: Primitives created: 1
+02:14:55 | INFO: Extracting primitive: Individual business lettering.011
+02:14:55 | INFO: Primitives created: 1
+02:14:55 | INFO: Extracting primitive: Individual business lettering
+02:14:55 | INFO: Primitives created: 1
+02:14:55 | INFO: Extracting primitive: 247851935 Tenth individually observed / store09 clear glass
+02:14:55 | INFO: Primitives created: 1
+02:14:55 | INFO: Finished glTF 2.0 export in 0.09075427055358887 s
+
+ENGINE_BUILDING 156 352 247851935 249630
+02:14:55 | INFO: Starting glTF 2.0 export
+02:14:55 | INFO: Extracting primitive: 247852656 Tenth individually observed / recess shadow
+02:14:55 | INFO: Primitives created: 1
+02:14:55 | INFO: Extracting primitive: Individual business lettering
+02:14:55 | INFO: Primitives created: 1
+02:14:55 | INFO: Finished glTF 2.0 export in 0.03838992118835449 s
+
+ENGINE_BUILDING 157 352 247852656 112955
+02:14:56 | INFO: Starting glTF 2.0 export
+02:14:56 | INFO: Extracting primitive: 247852658 Tenth individually observed / opal lamp
+02:14:56 | INFO: Primitives created: 1
+02:14:56 | INFO: Extracting primitive: 247852658 Tenth individually observed / recess shadow
+02:14:56 | INFO: Primitives created: 1
+02:14:56 | INFO: Extracting primitive: Individual business lettering
+02:14:56 | INFO: Primitives created: 1
+02:14:56 | INFO: Finished glTF 2.0 export in 0.0075571537017822266 s
+
+ENGINE_BUILDING 158 352 247852658 11337
+02:14:56 | INFO: Starting glTF 2.0 export
+02:14:56 | INFO: Extracting primitive: 247852659 Tenth individually observed / opal lamp
+02:14:56 | INFO: Primitives created: 1
+02:14:56 | INFO: Extracting primitive: 247852659 Tenth individually observed / recess shadow
+02:14:56 | INFO: Primitives created: 1
+02:14:56 | INFO: Extracting primitive: Individual business lettering
+02:14:56 | INFO: Primitives created: 1
+02:14:56 | INFO: Finished glTF 2.0 export in 0.03491783142089844 s
+
+ENGINE_BUILDING 159 352 247852659 102089
+02:14:56 | INFO: Starting glTF 2.0 export
+02:14:56 | INFO: Extracting primitive: 247852660 Tenth individually observed / opal lamp
+02:14:56 | INFO: Primitives created: 1
+02:14:56 | INFO: Extracting primitive: 247852660 Tenth individually observed / recess shadow
+02:14:56 | INFO: Primitives created: 1
+02:14:56 | INFO: Extracting primitive: Individual business lettering
+02:14:56 | INFO: Primitives created: 1
+02:14:56 | INFO: Extracting primitive: 247852660 Tenth individually observed / store09 clear glass
+02:14:56 | INFO: Primitives created: 1
+02:14:56 | INFO: Finished glTF 2.0 export in 0.014614105224609375 s
+
+ENGINE_BUILDING 160 352 247852660 26016
+02:14:56 | INFO: Starting glTF 2.0 export
+02:14:56 | INFO: Extracting primitive: 247852662 Tenth individually observed / recess shadow
+02:14:56 | INFO: Primitives created: 1
+02:14:56 | INFO: Extracting primitive: Individual business lettering
+02:14:56 | INFO: Primitives created: 1
+02:14:56 | INFO: Extracting primitive: 247852662 Tenth individually observed / store09 clear glass
+02:14:56 | INFO: Primitives created: 1
+02:14:56 | INFO: Finished glTF 2.0 export in 0.04014897346496582 s
+
+ENGINE_BUILDING 161 352 247852662 116966
+02:14:57 | INFO: Starting glTF 2.0 export
+02:14:57 | INFO: Extracting primitive: Individual business lettering
+02:14:57 | INFO: Primitives created: 1
+02:14:57 | INFO: Extracting primitive: Individual business lettering.001
+02:14:57 | INFO: Primitives created: 1
+02:14:57 | INFO: Extracting primitive: 247852663 Tenth individually observed / store09 clear glass
+02:14:57 | INFO: Primitives created: 1
+02:14:57 | INFO: Finished glTF 2.0 export in 0.047930002212524414 s
+
+ENGINE_BUILDING 162 352 247852663 133741
+02:14:57 | INFO: Starting glTF 2.0 export
+02:14:57 | INFO: Extracting primitive: 247852664 Tenth individually observed / opal lamp
+02:14:57 | INFO: Primitives created: 1
+02:14:57 | INFO: Extracting primitive: 247852664 Tenth individually observed / recess shadow
+02:14:57 | INFO: Primitives created: 1
+02:14:57 | INFO: Extracting primitive: Individual business lettering
+02:14:57 | INFO: Primitives created: 1
+02:14:57 | INFO: Finished glTF 2.0 export in 0.008714675903320312 s
+
+ENGINE_BUILDING 163 352 247852664 16331
+02:14:57 | INFO: Starting glTF 2.0 export
+02:14:57 | INFO: Extracting primitive: 247852665 Tenth individually observed / recess shadow
+02:14:57 | INFO: Primitives created: 1
+02:14:57 | INFO: Extracting primitive: Individual business lettering
+02:14:57 | INFO: Primitives created: 1
+02:14:57 | INFO: Finished glTF 2.0 export in 0.011699199676513672 s
+
+ENGINE_BUILDING 164 352 247852665 23738
+02:14:57 | INFO: Starting glTF 2.0 export
+02:14:57 | INFO: Extracting primitive: 247852667 Tenth individually observed / recess shadow
+02:14:57 | INFO: Primitives created: 1
+02:14:57 | INFO: Extracting primitive: Individual business lettering
+02:14:57 | INFO: Primitives created: 1
+02:14:57 | INFO: Finished glTF 2.0 export in 0.009716987609863281 s
+
+ENGINE_BUILDING 165 352 247852667 21177
+02:14:57 | INFO: Starting glTF 2.0 export
+02:14:57 | INFO: Extracting primitive: 247852668 Tenth individually observed / recess shadow
+02:14:57 | INFO: Primitives created: 1
+02:14:57 | INFO: Extracting primitive: Individual business lettering
+02:14:57 | INFO: Primitives created: 1
+02:14:57 | INFO: Finished glTF 2.0 export in 0.010380983352661133 s
+
+ENGINE_BUILDING 166 352 247852668 20809
+02:14:57 | INFO: Starting glTF 2.0 export
+02:14:57 | INFO: Extracting primitive: 247852671 E09 observed block / recess shadow
+02:14:57 | INFO: Primitives created: 1
+02:14:57 | INFO: Extracting primitive: Individual business lettering
+02:14:57 | INFO: Primitives created: 1
+02:14:57 | INFO: Extracting primitive: 247852671 E09 observed block / store09 clear glass
+02:14:57 | INFO: Primitives created: 1
+02:14:57 | INFO: Finished glTF 2.0 export in 0.02271580696105957 s
+
+ENGINE_BUILDING 167 352 247852671 61137
+02:14:58 | INFO: Starting glTF 2.0 export
+02:14:58 | INFO: Extracting primitive: 247852672 E09 observed block / opal lamp
+02:14:58 | INFO: Primitives created: 1
+02:14:58 | INFO: Extracting primitive: Individual business lettering
+02:14:58 | INFO: Primitives created: 1
+02:14:58 | INFO: Extracting primitive: Individual business lettering.001
+02:14:58 | INFO: Primitives created: 1
+02:14:58 | INFO: Extracting primitive: 247852672 E09 observed block / store09 clear glass
+02:14:58 | INFO: Primitives created: 1
+02:14:58 | INFO: Finished glTF 2.0 export in 0.024774789810180664 s
+
+ENGINE_BUILDING 168 352 247852672 58731
+02:14:58 | INFO: Starting glTF 2.0 export
+02:14:58 | INFO: Extracting primitive: 247852673 E09 observed block / opal lamp
+02:14:58 | INFO: Primitives created: 1
+02:14:58 | INFO: Extracting primitive: 247852673 E09 observed block / recess shadow
+02:14:58 | INFO: Primitives created: 1
+02:14:58 | INFO: Extracting primitive: Individual business lettering
+02:14:58 | INFO: Primitives created: 1
+02:14:58 | INFO: Extracting primitive: 247852673 E09 observed block / store09 clear glass
+02:14:58 | INFO: Primitives created: 1
+02:14:58 | INFO: Finished glTF 2.0 export in 0.02067399024963379 s
+
+ENGINE_BUILDING 169 352 247852673 49428
+02:14:58 | INFO: Starting glTF 2.0 export
+02:14:58 | INFO: Extracting primitive: 247852674 E09 observed block / recess shadow
+02:14:58 | INFO: Primitives created: 1
+02:14:58 | INFO: Extracting primitive: Individual business lettering
+02:14:58 | INFO: Primitives created: 1
+02:14:58 | INFO: Finished glTF 2.0 export in 0.00514674186706543 s
+
+ENGINE_BUILDING 170 352 247852674 6734
+02:14:58 | INFO: Starting glTF 2.0 export
+02:14:58 | INFO: Extracting primitive: 247852675 E09 observed block / recess shadow
+02:14:58 | INFO: Primitives created: 1
+02:14:58 | INFO: Extracting primitive: Individual business lettering
+02:14:58 | INFO: Primitives created: 1
+02:14:58 | INFO: Finished glTF 2.0 export in 0.010445117950439453 s
+
+ENGINE_BUILDING 171 352 247852675 24326
+02:14:58 | INFO: Starting glTF 2.0 export
+02:14:58 | INFO: Extracting primitive: 247852676 E09 observed block / recess shadow
+02:14:58 | INFO: Primitives created: 1
+02:14:58 | INFO: Extracting primitive: Individual business lettering
+02:14:58 | INFO: Primitives created: 1
+02:14:58 | INFO: Extracting primitive: 247852676 E09 observed block / store09 clear glass
+02:14:58 | INFO: Primitives created: 1
+02:14:58 | INFO: Finished glTF 2.0 export in 0.02715921401977539 s
+
+ENGINE_BUILDING 172 352 247852676 68832
+02:14:58 | INFO: Starting glTF 2.0 export
+02:14:58 | INFO: Extracting primitive: 247852677 E09 observed block / recess shadow
+02:14:58 | INFO: Primitives created: 1
+02:14:58 | INFO: Extracting primitive: Individual business lettering
+02:14:58 | INFO: Primitives created: 1
+02:14:58 | INFO: Finished glTF 2.0 export in 0.012423992156982422 s
+
+ENGINE_BUILDING 173 352 247852677 29006
+02:14:58 | INFO: Starting glTF 2.0 export
+02:14:58 | INFO: Extracting primitive: 247852678 E09 observed block / recess shadow
+02:14:58 | INFO: Primitives created: 1
+02:14:58 | INFO: Extracting primitive: Individual business lettering
+02:14:58 | INFO: Primitives created: 1
+02:14:58 | INFO: Finished glTF 2.0 export in 0.011087179183959961 s
+
+ENGINE_BUILDING 174 352 247852678 24661
+02:14:59 | INFO: Starting glTF 2.0 export
+02:14:59 | INFO: Extracting primitive: 247852679 E09 observed block / recess shadow
+02:14:59 | INFO: Primitives created: 1
+02:14:59 | INFO: Extracting primitive: Individual business lettering
+02:14:59 | INFO: Primitives created: 1
+02:14:59 | INFO: Extracting primitive: 247852679 E09 observed block / store09 clear glass
+02:14:59 | INFO: Primitives created: 1
+02:14:59 | INFO: Finished glTF 2.0 export in 0.01871204376220703 s
+
+ENGINE_BUILDING 175 352 247852679 46919
+02:14:59 | INFO: Starting glTF 2.0 export
+02:14:59 | INFO: Extracting primitive: 247852680 E09 observed block / opal lamp
+02:14:59 | INFO: Primitives created: 1
+02:14:59 | INFO: Extracting primitive: 247852680 E09 observed block / recess shadow
+02:14:59 | INFO: Primitives created: 1
+02:14:59 | INFO: Extracting primitive: Individual business lettering
+02:14:59 | INFO: Primitives created: 1
+02:14:59 | INFO: Finished glTF 2.0 export in 0.013082742691040039 s
+
+ENGINE_BUILDING 176 352 247852680 19839
+02:14:59 | INFO: Starting glTF 2.0 export
+02:14:59 | INFO: Extracting primitive: 247852681 E09 observed block / recess shadow
+02:14:59 | INFO: Primitives created: 1
+02:14:59 | INFO: Extracting primitive: Individual business lettering
+02:14:59 | INFO: Primitives created: 1
+02:14:59 | INFO: Finished glTF 2.0 export in 0.006979942321777344 s
+
+ENGINE_BUILDING 177 352 247852681 12763
+02:14:59 | INFO: Starting glTF 2.0 export
+02:14:59 | INFO: Extracting primitive: 247852682 E09 observed block / recess shadow
+02:14:59 | INFO: Primitives created: 1
+02:14:59 | INFO: Extracting primitive: Individual business lettering
+02:14:59 | INFO: Primitives created: 1
+02:14:59 | INFO: Finished glTF 2.0 export in 0.008911848068237305 s
+
+ENGINE_BUILDING 178 352 247852682 16914
+02:14:59 | INFO: Starting glTF 2.0 export
+02:14:59 | INFO: Extracting primitive: 247852683 E09 observed block / opal lamp
+02:14:59 | INFO: Primitives created: 1
+02:14:59 | INFO: Extracting primitive: 247852683 E09 observed block / recess shadow
+02:14:59 | INFO: Primitives created: 1
+02:14:59 | INFO: Extracting primitive: Individual business lettering
+02:14:59 | INFO: Primitives created: 1
+02:14:59 | INFO: Extracting primitive: 247852683 E09 observed block / store09 clear glass
+02:14:59 | INFO: Primitives created: 1
+02:14:59 | INFO: Finished glTF 2.0 export in 0.025207042694091797 s
+
+ENGINE_BUILDING 179 352 247852683 60099
+02:14:59 | INFO: Starting glTF 2.0 export
+02:14:59 | INFO: Extracting primitive: 247852684 N01B observed Ninth / opal lamp
+02:14:59 | INFO: Primitives created: 1
+02:14:59 | INFO: Extracting primitive: 247852684 N01B observed Ninth / recess shadow
+02:14:59 | INFO: Primitives created: 1
+02:14:59 | INFO: Extracting primitive: Individual business lettering
+02:14:59 | INFO: Primitives created: 1
+02:14:59 | INFO: Extracting primitive: 247852684 N01B observed Ninth / store09 clear glass
+02:14:59 | INFO: Primitives created: 1
+02:14:59 | INFO: Finished glTF 2.0 export in 0.02758193016052246 s
+
+ENGINE_BUILDING 180 352 247852684 67645
+02:15:00 | INFO: Starting glTF 2.0 export
+02:15:00 | INFO: Extracting primitive: 247852685 N01B observed Ninth / opal lamp
+02:15:00 | INFO: Primitives created: 1
+02:15:00 | INFO: Extracting primitive: Individual business lettering.004
+02:15:00 | INFO: Primitives created: 1
+02:15:00 | INFO: Extracting primitive: Individual business lettering
+02:15:00 | INFO: Primitives created: 1
+02:15:00 | INFO: Extracting primitive: 247852685 N01B observed Ninth / store09 clear glass
+02:15:00 | INFO: Primitives created: 1
+02:15:00 | INFO: Finished glTF 2.0 export in 0.03782820701599121 s
+
+ENGINE_BUILDING 181 352 247852685 98478
+02:15:00 | INFO: Starting glTF 2.0 export
+02:15:00 | INFO: Extracting primitive: 247852686 N01B observed Ninth / recess shadow
+02:15:00 | INFO: Primitives created: 1
+02:15:00 | INFO: Extracting primitive: Individual business lettering
+02:15:00 | INFO: Primitives created: 1
+02:15:00 | INFO: Extracting primitive: 247852686 N01B observed Ninth / store09 clear glass
+02:15:00 | INFO: Primitives created: 1
+02:15:00 | INFO: Finished glTF 2.0 export in 0.020839214324951172 s
+
+ENGINE_BUILDING 182 352 247852686 53112
+02:15:00 | INFO: Starting glTF 2.0 export
+02:15:00 | INFO: Extracting primitive: 247852687 N01B observed Ninth / opal lamp
+02:15:00 | INFO: Primitives created: 1
+02:15:00 | INFO: Extracting primitive: Individual business lettering
+02:15:00 | INFO: Primitives created: 1
+02:15:00 | INFO: Extracting primitive: 247852687 N01B observed Ninth / nb ochre door
+02:15:00 | INFO: Primitives created: 1
+02:15:00 | INFO: Finished glTF 2.0 export in 0.01167917251586914 s
+
+ENGINE_BUILDING 183 352 247852687 22921
+02:15:00 | INFO: Starting glTF 2.0 export
+02:15:00 | INFO: Extracting primitive: 247852689 N01A observed Ninth frontage / recess shadow
+02:15:00 | INFO: Primitives created: 1
+02:15:00 | INFO: Extracting primitive: Individual business lettering
+02:15:00 | INFO: Primitives created: 1
+02:15:00 | INFO: Extracting primitive: 247852689 N01A observed Ninth frontage / store09 clear glass
+02:15:00 | INFO: Primitives created: 1
+02:15:00 | INFO: Finished glTF 2.0 export in 0.02722620964050293 s
+
+ENGINE_BUILDING 184 352 247852689 72449
+02:15:00 | INFO: Starting glTF 2.0 export
+02:15:00 | INFO: Extracting primitive: 247852690 N01A observed Ninth frontage / recess shadow
+02:15:00 | INFO: Primitives created: 1
+02:15:00 | INFO: Extracting primitive: Individual business lettering
+02:15:00 | INFO: Primitives created: 1
+02:15:00 | INFO: Extracting primitive: 247852690 N01A observed Ninth frontage / store09 clear glass
+02:15:00 | INFO: Primitives created: 1
+02:15:00 | INFO: Finished glTF 2.0 export in 0.021957874298095703 s
+
+ENGINE_BUILDING 185 352 247852690 53849
+02:15:01 | INFO: Starting glTF 2.0 export
+02:15:01 | INFO: Extracting primitive: 247852691 N01A observed Ninth frontage / recess shadow
+02:15:01 | INFO: Primitives created: 1
+02:15:01 | INFO: Extracting primitive: Individual business lettering
+02:15:01 | INFO: Primitives created: 1
+02:15:01 | INFO: Extracting primitive: 247852691 N01A observed Ninth frontage / store09 clear glass
+02:15:01 | INFO: Primitives created: 1
+02:15:01 | INFO: Finished glTF 2.0 export in 0.07022213935852051 s
+
+ENGINE_BUILDING 186 352 247852691 204155
+02:15:03 | INFO: Starting glTF 2.0 export
+02:15:03 | INFO: Extracting primitive: Individual business lettering
+02:15:04 | INFO: Primitives created: 1
+02:15:04 | INFO: Extracting primitive: Individual business lettering.002
+02:15:04 | INFO: Primitives created: 1
+02:15:04 | INFO: Extracting primitive: 247852693 Tenth individually observed / store09 clear glass
+02:15:04 | INFO: Primitives created: 1
+02:15:04 | INFO: Finished glTF 2.0 export in 0.32164621353149414 s
+
+ENGINE_BUILDING 187 352 247852693 868156
+02:15:05 | INFO: Starting glTF 2.0 export
+02:15:05 | INFO: Extracting primitive: Individual business lettering.004
+02:15:05 | INFO: Primitives created: 1
+02:15:05 | INFO: Extracting primitive: Individual business lettering
+02:15:05 | INFO: Primitives created: 1
+02:15:05 | INFO: Extracting primitive: 247852694 Tenth individually observed / store09 clear glass
+02:15:05 | INFO: Primitives created: 1
+02:15:05 | INFO: Finished glTF 2.0 export in 0.10556602478027344 s
+
+ENGINE_BUILDING 188 352 247852694 304814
+02:15:05 | INFO: Starting glTF 2.0 export
+02:15:05 | INFO: Extracting primitive: 247852697 N01A observed Ninth frontage / opal lamp
+02:15:05 | INFO: Primitives created: 1
+02:15:05 | INFO: Extracting primitive: Individual business lettering
+02:15:05 | INFO: Primitives created: 1
+02:15:05 | INFO: Extracting primitive: 247852697 N01A observed Ninth frontage / store09 aged brass
+02:15:05 | INFO: Primitives created: 1
+02:15:05 | INFO: Finished glTF 2.0 export in 0.008168935775756836 s
+
+ENGINE_BUILDING 189 352 247852697 10395
+02:15:05 | INFO: Starting glTF 2.0 export
+02:15:05 | INFO: Extracting primitive: 247852702 E09 observed block / opal lamp
+02:15:05 | INFO: Primitives created: 1
+02:15:05 | INFO: Extracting primitive: 247852702 E09 observed block / recess shadow
+02:15:06 | INFO: Primitives created: 1
+02:15:06 | INFO: Extracting primitive: Individual business lettering
+02:15:06 | INFO: Primitives created: 1
+02:15:06 | INFO: Extracting primitive: 247852702 E09 observed block / store09 clear glass
+02:15:06 | INFO: Primitives created: 1
+02:15:06 | INFO: Finished glTF 2.0 export in 0.027200937271118164 s
+
+ENGINE_BUILDING 190 352 247852702 67270
+02:15:06 | INFO: Starting glTF 2.0 export
+02:15:06 | INFO: Extracting primitive: 100 East 7th Street · reference observed / recess shadow
+02:15:06 | INFO: Primitives created: 1
+02:15:06 | INFO: Finished glTF 2.0 export in 0.00808095932006836 s
+
+ENGINE_BUILDING 191 352 248142313 16376
+02:15:06 | INFO: Starting glTF 2.0 export
+02:15:06 | INFO: Extracting primitive: 102 East 7th Street · reference observed / store glass
+02:15:06 | INFO: Primitives created: 1
+02:15:06 | INFO: Extracting primitive: 102 East 7th Street · reference observed / black iron
+02:15:06 | INFO: Primitives created: 1
+02:15:06 | INFO: Finished glTF 2.0 export in 0.004673004150390625 s
+
+ENGINE_BUILDING 192 352 248142319 6053
+02:15:06 | INFO: Starting glTF 2.0 export
+02:15:06 | INFO: Extracting primitive: 104 1st Avenue · mapped shape; facade details estimated / store glass
+02:15:06 | INFO: Primitives created: 1
+02:15:06 | INFO: Extracting primitive: 104 1st Avenue · mapped shape; facade details estimated / curtain amber
+02:15:06 | INFO: Primitives created: 1
+02:15:06 | INFO: Extracting primitive: 104 1st Avenue · mapped shape; facade details estimated / cornice copper brown
+02:15:06 | INFO: Primitives created: 1
+02:15:06 | INFO: Finished glTF 2.0 export in 0.004965066909790039 s
+
+ENGINE_BUILDING 193 352 248142320 4577
+02:15:06 | INFO: Starting glTF 2.0 export
+02:15:06 | INFO: Extracting primitive: 104 East 7th Street · reference observed / store glass
+02:15:06 | INFO: Primitives created: 1
+02:15:06 | INFO: Extracting primitive: 104 East 7th Street · reference observed / opal lamp
+02:15:06 | INFO: Primitives created: 1
+02:15:06 | INFO: Extracting primitive: 104 East 7th Street · reference observed / recess shadow
+02:15:06 | INFO: Primitives created: 1
+02:15:06 | INFO: Finished glTF 2.0 export in 0.007208108901977539 s
+
+ENGINE_BUILDING 194 352 248142322 11336
+02:15:06 | INFO: Starting glTF 2.0 export
+02:15:06 | INFO: Extracting primitive: 106 East 7th Street · reference observed / recess shadow
+02:15:06 | INFO: Primitives created: 1
+02:15:06 | INFO: Finished glTF 2.0 export in 0.002955198287963867 s
+
+ENGINE_BUILDING 195 352 248142324 4168
+02:15:06 | INFO: Starting glTF 2.0 export
+02:15:06 | INFO: Extracting primitive: 108 1st Avenue · reference observed / store glass
+02:15:06 | INFO: Primitives created: 1
+02:15:06 | INFO: Extracting primitive: 108 1st Avenue · reference observed / curtain amber
+02:15:06 | INFO: Primitives created: 1
+02:15:06 | INFO: Extracting primitive: 108 1st Avenue · reference observed / warm brick
+02:15:06 | INFO: Primitives created: 1
+02:15:06 | INFO: Finished glTF 2.0 export in 0.007229804992675781 s
+
+ENGINE_BUILDING 196 352 248142326 11329
+02:15:06 | INFO: Starting glTF 2.0 export
+02:15:06 | INFO: Extracting primitive: 110 1st Avenue · reference observed / store glass
+02:15:06 | INFO: Primitives created: 1
+02:15:06 | INFO: Extracting primitive: 110 1st Avenue · reference observed / curtain amber
+02:15:06 | INFO: Primitives created: 1
+02:15:06 | INFO: Extracting primitive: 110 1st Avenue · reference observed / warm brick
+02:15:06 | INFO: Primitives created: 1
+02:15:06 | INFO: Finished glTF 2.0 export in 0.007846832275390625 s
+
+ENGINE_BUILDING 197 352 248142327 12725
+02:15:06 | INFO: Starting glTF 2.0 export
+02:15:06 | INFO: Extracting primitive: 110 East 7th Street · reference observed / store glass
+02:15:06 | INFO: Primitives created: 1
+02:15:06 | INFO: Extracting primitive: 110 East 7th Street · reference observed / opal lamp
+02:15:06 | INFO: Primitives created: 1
+02:15:06 | INFO: Extracting primitive: 110 East 7th Street · reference observed / recess shadow
+02:15:06 | INFO: Primitives created: 1
+02:15:06 | INFO: Finished glTF 2.0 export in 0.009775161743164062 s
+
+ENGINE_BUILDING 198 352 248142328 18188
+02:15:06 | INFO: Starting glTF 2.0 export
+02:15:06 | INFO: Extracting primitive: 112 1st Avenue · reference observed / store glass
+02:15:06 | INFO: Primitives created: 1
+02:15:06 | INFO: Extracting primitive: 112 1st Avenue · reference observed / curtain amber
+02:15:06 | INFO: Primitives created: 1
+02:15:06 | INFO: Extracting primitive: 112 1st Avenue · reference observed / black iron
+02:15:06 | INFO: Primitives created: 1
+02:15:06 | INFO: Finished glTF 2.0 export in 0.00817108154296875 s
+
+ENGINE_BUILDING 199 352 248142329 14056
+02:15:06 | INFO: Starting glTF 2.0 export
+02:15:06 | INFO: Extracting primitive: 112 East 7th Street · reference observed / recess shadow
+02:15:06 | INFO: Primitives created: 1
+02:15:06 | INFO: Finished glTF 2.0 export in 0.00822591781616211 s
+
+ENGINE_BUILDING 200 352 248142330 16621
+02:15:07 | INFO: Starting glTF 2.0 export
+02:15:07 | INFO: Extracting primitive: 114 First Avenue / First & Seventh photographic benchmark / seventh glass
+02:15:07 | INFO: Primitives created: 1
+02:15:07 | INFO: Extracting primitive: Observed sign lettering.001
+02:15:07 | INFO: Primitives created: 1
+02:15:07 | INFO: Extracting primitive: Saifee fabric lettering
+02:15:07 | INFO: Primitives created: 1
+02:15:07 | INFO: Finished glTF 2.0 export in 0.049501895904541016 s
+
+ENGINE_BUILDING 201 352 248142331 127525
+02:15:07 | INFO: Starting glTF 2.0 export
+02:15:07 | INFO: Extracting primitive: 114 East 7th Street · reference observed / opal lamp
+02:15:07 | INFO: Primitives created: 1
+02:15:07 | INFO: Extracting primitive: 114 East 7th Street · reference observed / recess shadow
+02:15:07 | INFO: Primitives created: 1
+02:15:07 | INFO: Finished glTF 2.0 export in 0.009137868881225586 s
+
+ENGINE_BUILDING 202 352 248142332 18923
+02:15:07 | INFO: Starting glTF 2.0 export
+02:15:07 | INFO: Extracting primitive: 118 East 7th Street · reference observed / recess shadow
+02:15:07 | INFO: Primitives created: 1
+02:15:07 | INFO: Finished glTF 2.0 export in 0.004961967468261719 s
+
+ENGINE_BUILDING 203 352 248142333 8809
+02:15:07 | INFO: Starting glTF 2.0 export
+02:15:07 | INFO: Extracting primitive: 120 East 7th Street · reference observed / store glass
+02:15:07 | INFO: Primitives created: 1
+02:15:07 | INFO: Extracting primitive: 120 East 7th Street · reference observed / recess shadow
+02:15:07 | INFO: Primitives created: 1
+02:15:07 | INFO: Finished glTF 2.0 export in 0.0073871612548828125 s
+
+ENGINE_BUILDING 204 352 248142334 13760
+02:15:07 | INFO: Starting glTF 2.0 export
+02:15:07 | INFO: Extracting primitive: 122 East 7th Street · reference observed / store glass
+02:15:07 | INFO: Primitives created: 1
+02:15:07 | INFO: Extracting primitive: 122 East 7th Street · reference observed / recess shadow
+02:15:07 | INFO: Primitives created: 1
+02:15:07 | INFO: Finished glTF 2.0 export in 0.008819341659545898 s
+
+ENGINE_BUILDING 205 352 248142335 15531
+02:15:07 | INFO: Starting glTF 2.0 export
+02:15:07 | INFO: Extracting primitive: 126 East 7th Street · reference observed / store glass
+02:15:07 | INFO: Primitives created: 1
+02:15:07 | INFO: Extracting primitive: 126 East 7th Street · reference observed / recess shadow
+02:15:07 | INFO: Primitives created: 1
+02:15:07 | INFO: Finished glTF 2.0 export in 0.007606029510498047 s
+
+ENGINE_BUILDING 206 352 248142336 14912
+02:15:07 | INFO: Starting glTF 2.0 export
+02:15:07 | INFO: Extracting primitive: 128 East 7th Street · mapped shape; facade details estimated / store glass
+02:15:07 | INFO: Primitives created: 1
+02:15:07 | INFO: Extracting primitive: 128 East 7th Street · mapped shape; facade details estimated / opal lamp
+02:15:07 | INFO: Primitives created: 1
+02:15:07 | INFO: Extracting primitive: 128 East 7th Street · mapped shape; facade details estimated / recess shadow
+02:15:07 | INFO: Primitives created: 1
+02:15:07 | INFO: Finished glTF 2.0 export in 0.011628150939941406 s
+
+ENGINE_BUILDING 207 352 248142337 24214
+02:15:07 | INFO: Starting glTF 2.0 export
+02:15:07 | INFO: Extracting primitive: 140 East 7th Street · reference observed / recess shadow
+02:15:07 | INFO: Primitives created: 1
+02:15:07 | INFO: Finished glTF 2.0 export in 0.007935047149658203 s
+
+ENGINE_BUILDING 208 352 248142338 18230
+02:15:07 | INFO: Starting glTF 2.0 export
+02:15:07 | INFO: Extracting primitive: 94 East 7th Street · reference observed / recess shadow
+02:15:07 | INFO: Primitives created: 1
+02:15:07 | INFO: Finished glTF 2.0 export in 0.006967067718505859 s
+
+ENGINE_BUILDING 209 352 248142390 16258
+02:15:07 | INFO: Starting glTF 2.0 export
+02:15:07 | INFO: Extracting primitive: 96 East 7th Street · reference observed / store glass
+02:15:07 | INFO: Primitives created: 1
+02:15:07 | INFO: Extracting primitive: Observed sign lettering
+02:15:07 | INFO: Primitives created: 1
+02:15:07 | INFO: Extracting primitive: 96 East 7th Street · reference observed / recess shadow
+02:15:07 | INFO: Primitives created: 1
+02:15:07 | INFO: Finished glTF 2.0 export in 0.008841991424560547 s
+
+ENGINE_BUILDING 210 352 248142393 16208
+02:15:07 | INFO: Starting glTF 2.0 export
+02:15:07 | INFO: Extracting primitive: 98 East 7th Street · reference observed / opal lamp
+02:15:07 | INFO: Primitives created: 1
+02:15:07 | INFO: Extracting primitive: 98 East 7th Street · reference observed / recess shadow
+02:15:07 | INFO: Primitives created: 1
+02:15:07 | INFO: Finished glTF 2.0 export in 0.0072901248931884766 s
+
+ENGINE_BUILDING 211 352 248142396 14811
+02:15:08 | INFO: Starting glTF 2.0 export
+02:15:08 | INFO: Extracting primitive: 116 First Avenue / 90 East 7th Street / First & Seventh photographic benchmark / seventh glass
+02:15:08 | INFO: Primitives created: 1
+02:15:08 | INFO: Extracting primitive: Observed sign lettering.001
+02:15:08 | INFO: Primitives created: 1
+02:15:08 | INFO: Extracting primitive: Saifee fabric lettering
+02:15:08 | INFO: Primitives created: 1
+02:15:08 | INFO: Finished glTF 2.0 export in 0.09038186073303223 s
+
+ENGINE_BUILDING 212 352 248142404 241558
+02:15:09 | INFO: Starting glTF 2.0 export
+02:15:09 | INFO: Extracting primitive: 109 Avenue A · reference observed / store glass
+02:15:09 | INFO: Primitives created: 1
+02:15:09 | INFO: Extracting primitive: 109 Avenue A · reference observed / curtain amber
+02:15:09 | INFO: Primitives created: 1
+02:15:09 | INFO: Extracting primitive: Observed sign lettering
+02:15:09 | INFO: Primitives created: 1
+02:15:09 | INFO: Finished glTF 2.0 export in 0.030508995056152344 s
+
+ENGINE_BUILDING 213 352 248142407 78611
+02:15:09 | INFO: Starting glTF 2.0 export
+02:15:09 | INFO: Extracting primitive: 116 East 7th Street · reference observed / store glass
+02:15:09 | INFO: Primitives created: 1
+02:15:09 | INFO: Extracting primitive: OPEN
+02:15:09 | INFO: Primitives created: 1
+02:15:09 | INFO: Extracting primitive: 116 East 7th Street · reference observed / recess shadow
+02:15:09 | INFO: Primitives created: 1
+02:15:09 | INFO: Finished glTF 2.0 export in 0.005808115005493164 s
+
+ENGINE_BUILDING 214 352 248142411 6749
+02:15:09 | INFO: Starting glTF 2.0 export
+02:15:09 | INFO: Extracting primitive: 112 Avenue A · reference observed / store glass
+02:15:09 | INFO: Primitives created: 1
+02:15:09 | INFO: Extracting primitive: 112 Avenue A · reference observed / curtain amber
+02:15:09 | INFO: Primitives created: 1
+02:15:09 | INFO: Extracting primitive: 112 Avenue A · reference observed / cornice copper brown
+02:15:09 | INFO: Primitives created: 1
+02:15:09 | INFO: Finished glTF 2.0 export in 0.012561321258544922 s
+
+ENGINE_BUILDING 215 352 248142412 26597
+02:15:09 | INFO: Starting glTF 2.0 export
+02:15:09 | INFO: Extracting primitive: 100 Saint Marks Place · mapped shape; facade details estimated / recess shadow
+02:15:09 | INFO: Primitives created: 1
+02:15:09 | INFO: Extracting primitive: Individual business lettering
+02:15:09 | INFO: Primitives created: 1
+02:15:09 | INFO: Extracting primitive: 100 Saint Marks Place · mapped shape; facade details estimated / store09 clear glass
+02:15:09 | INFO: Primitives created: 1
+02:15:09 | INFO: Finished glTF 2.0 export in 0.011661052703857422 s
+
+ENGINE_BUILDING 216 352 248142614 23357
+02:15:09 | INFO: Starting glTF 2.0 export
+02:15:09 | INFO: Extracting primitive: 101 East 7th Street · reference observed / recess shadow
+02:15:09 | INFO: Primitives created: 1
+02:15:09 | INFO: Finished glTF 2.0 export in 0.004240751266479492 s
+
+ENGINE_BUILDING 217 352 248142615 7250
+02:15:09 | INFO: Starting glTF 2.0 export
+02:15:09 | INFO: Extracting primitive: 101 Saint Marks Place · mapped shape; facade details estimated / opal lamp
+02:15:09 | INFO: Primitives created: 1
+02:15:09 | INFO: Extracting primitive: 101 Saint Marks Place · mapped shape; facade details estimated / recess shadow
+02:15:09 | INFO: Primitives created: 1
+02:15:09 | INFO: Extracting primitive: 101 Saint Marks Place · mapped shape; facade details estimated / store09 linen canvas
+02:15:09 | INFO: Primitives created: 1
+02:15:09 | INFO: Extracting primitive: 101 Saint Marks Place · mapped shape; facade details estimated / store09 clear glass
+02:15:09 | INFO: Primitives created: 1
+02:15:09 | INFO: Finished glTF 2.0 export in 0.015112876892089844 s
+
+ENGINE_BUILDING 218 352 248142616 30758
+02:15:09 | INFO: Starting glTF 2.0 export
+02:15:09 | INFO: Extracting primitive: 102 Saint Marks Place · mapped shape; facade details estimated / opal lamp
+02:15:09 | INFO: Primitives created: 1
+02:15:09 | INFO: Extracting primitive: 102 Saint Marks Place · mapped shape; facade details estimated / recess shadow
+02:15:09 | INFO: Primitives created: 1
+02:15:09 | INFO: Extracting primitive: Individual business lettering
+02:15:09 | INFO: Primitives created: 1
+02:15:09 | INFO: Extracting primitive: 102 Saint Marks Place · mapped shape; facade details estimated / store09 clear glass
+02:15:09 | INFO: Primitives created: 1
+02:15:09 | INFO: Finished glTF 2.0 export in 0.009859085083007812 s
+
+ENGINE_BUILDING 219 352 248142617 16342
+02:15:10 | INFO: Starting glTF 2.0 export
+02:15:10 | INFO: Extracting primitive: east-stanislaus / recess shadow
+02:15:10 | INFO: Primitives created: 1
+02:15:10 | INFO: Finished glTF 2.0 export in 0.008301019668579102 s
+
+ENGINE_BUILDING 220 352 248142618 19460
+02:15:10 | INFO: Starting glTF 2.0 export
+02:15:10 | INFO: Extracting primitive: 103 Saint Marks Place · mapped shape; facade details estimated / recess shadow
+02:15:10 | INFO: Primitives created: 1
+02:15:10 | INFO: Extracting primitive: Individual business lettering
+02:15:10 | INFO: Primitives created: 1
+02:15:10 | INFO: Extracting primitive: 103 Saint Marks Place · mapped shape; facade details estimated / store09 clear glass
+02:15:10 | INFO: Primitives created: 1
+02:15:10 | INFO: Finished glTF 2.0 export in 0.010493993759155273 s
+
+ENGINE_BUILDING 221 352 248142619 18755
+02:15:10 | INFO: Starting glTF 2.0 export
+02:15:10 | INFO: Extracting primitive: 107 Saint Marks Place · mapped shape; facade details estimated / recess shadow
+02:15:10 | INFO: Primitives created: 1
+02:15:10 | INFO: Finished glTF 2.0 export in 0.012053966522216797 s
+
+ENGINE_BUILDING 222 352 248142620 33997
+02:15:10 | INFO: Starting glTF 2.0 export
+02:15:10 | INFO: Extracting primitive: 109 East 7th Street · mapped shape; facade details estimated / recess shadow
+02:15:10 | INFO: Primitives created: 1
+02:15:10 | INFO: Finished glTF 2.0 export in 0.003300905227661133 s
+
+ENGINE_BUILDING 223 352 248142621 5068
+02:15:10 | INFO: Starting glTF 2.0 export
+02:15:10 | INFO: Extracting primitive: 109 Saint Marks Place · mapped shape; facade details estimated / recess shadow
+02:15:10 | INFO: Primitives created: 1
+02:15:10 | INFO: Extracting primitive: 109 Saint Marks Place · mapped shape; facade details estimated / store09 gray plaster
+02:15:10 | INFO: Primitives created: 1
+02:15:10 | INFO: Extracting primitive: 109 Saint Marks Place · mapped shape; facade details estimated / store09 clear glass
+02:15:10 | INFO: Primitives created: 1
+02:15:10 | INFO: Finished glTF 2.0 export in 0.014703989028930664 s
+
+ENGINE_BUILDING 224 352 248142622 27468
+02:15:10 | INFO: Starting glTF 2.0 export
+02:15:10 | INFO: Extracting primitive: 110 Saint Marks Place · mapped shape; facade details estimated / recess shadow
+02:15:10 | INFO: Primitives created: 1
+02:15:10 | INFO: Extracting primitive: 110 Saint Marks Place · mapped shape; facade details estimated / store09 gray plaster
+02:15:10 | INFO: Primitives created: 1
+02:15:10 | INFO: Extracting primitive: 110 Saint Marks Place · mapped shape; facade details estimated / store09 clear glass
+02:15:10 | INFO: Primitives created: 1
+02:15:10 | INFO: Finished glTF 2.0 export in 0.011539936065673828 s
+
+ENGINE_BUILDING 225 352 248142623 24516
+02:15:10 | INFO: Starting glTF 2.0 export
+02:15:10 | INFO: Extracting primitive: 111–115 East 7th Street · reference observed / store glass
+02:15:10 | INFO: Primitives created: 1
+02:15:10 | INFO: Extracting primitive: 111–115 East 7th Street · reference observed / opal lamp
+02:15:10 | INFO: Primitives created: 1
+02:15:10 | INFO: Extracting primitive: 111–115 East 7th Street · reference observed / recess shadow
+02:15:10 | INFO: Primitives created: 1
+02:15:10 | INFO: Finished glTF 2.0 export in 0.020730018615722656 s
+
+ENGINE_BUILDING 226 352 248142624 49089
+02:15:10 | INFO: Starting glTF 2.0 export
+02:15:10 | INFO: Extracting primitive: 111 Saint Marks Place · mapped shape; facade details estimated / recess shadow
+02:15:10 | INFO: Primitives created: 1
+02:15:10 | INFO: Finished glTF 2.0 export in 0.005561113357543945 s
+
+ENGINE_BUILDING 227 352 248142625 12782
+02:15:10 | INFO: Starting glTF 2.0 export
+02:15:10 | INFO: Extracting primitive: 113 Saint Marks Place · mapped shape; facade details estimated / first net veil
+02:15:10 | INFO: Primitives created: 1
+02:15:10 | INFO: Extracting primitive: 113 Saint Marks Place · mapped shape; facade details estimated / opal lamp
+02:15:10 | INFO: Primitives created: 1
+02:15:10 | INFO: Extracting primitive: 113 Saint Marks Place · mapped shape; facade details estimated / recess shadow
+02:15:10 | INFO: Primitives created: 1
+02:15:10 | INFO: Extracting primitive: Individual business lettering
+02:15:10 | INFO: Primitives created: 1
+02:15:10 | INFO: Extracting primitive: 113 Saint Marks Place · mapped shape; facade details estimated / store09 clear glass
+02:15:10 | INFO: Primitives created: 1
+02:15:10 | INFO: Finished glTF 2.0 export in 0.012676239013671875 s
+
+ENGINE_BUILDING 228 352 248142627 20295
+02:15:10 | INFO: Starting glTF 2.0 export
+02:15:10 | INFO: Extracting primitive: 114 Saint Marks Place · mapped shape; facade details estimated / recess shadow
+02:15:10 | INFO: Primitives created: 1
+02:15:10 | INFO: Finished glTF 2.0 export in 0.003098011016845703 s
+
+ENGINE_BUILDING 229 352 248142628 4553
+02:15:11 | INFO: Starting glTF 2.0 export
+02:15:11 | INFO: Extracting primitive: 115 Saint Marks Place · mapped shape; facade details estimated / recess shadow
+02:15:11 | INFO: Primitives created: 1
+02:15:11 | INFO: Extracting primitive: Individual business lettering
+02:15:11 | INFO: Primitives created: 1
+02:15:11 | INFO: Finished glTF 2.0 export in 0.012932062149047852 s
+
+ENGINE_BUILDING 230 352 248142630 31028
+02:15:11 | INFO: Starting glTF 2.0 export
+02:15:11 | INFO: Extracting primitive: 116 Saint Marks Place · mapped shape; facade details estimated / recess shadow
+02:15:11 | INFO: Primitives created: 1
+02:15:11 | INFO: Extracting primitive: 116 Saint Marks Place · mapped shape; facade details estimated / store09 gray plaster
+02:15:11 | INFO: Primitives created: 1
+02:15:11 | INFO: Extracting primitive: 116 Saint Marks Place · mapped shape; facade details estimated / store09 clear glass
+02:15:11 | INFO: Primitives created: 1
+02:15:11 | INFO: Finished glTF 2.0 export in 0.006409168243408203 s
+
+ENGINE_BUILDING 231 352 248142631 9542
+02:15:11 | INFO: Starting glTF 2.0 export
+02:15:11 | INFO: Extracting primitive: 117–119 East 7th Street · mapped shape; facade details estimated / store glass
+02:15:11 | INFO: Primitives created: 1
+02:15:11 | INFO: Extracting primitive: 117–119 East 7th Street · mapped shape; facade details estimated / recess shadow
+02:15:11 | INFO: Primitives created: 1
+02:15:11 | INFO: Finished glTF 2.0 export in 0.010487079620361328 s
+
+ENGINE_BUILDING 232 352 248142633 23518
+02:15:11 | INFO: Starting glTF 2.0 export
+02:15:11 | INFO: Extracting primitive: 118 Saint Marks Place · mapped shape; facade details estimated / recess shadow
+02:15:11 | INFO: Primitives created: 1
+02:15:11 | INFO: Extracting primitive: Individual business lettering
+02:15:11 | INFO: Primitives created: 1
+02:15:11 | INFO: Extracting primitive: 118 Saint Marks Place · mapped shape; facade details estimated / store09 clear glass
+02:15:11 | INFO: Primitives created: 1
+02:15:11 | INFO: Finished glTF 2.0 export in 0.009064912796020508 s
+
+ENGINE_BUILDING 233 352 248142634 16232
+02:15:11 | INFO: Starting glTF 2.0 export
+02:15:11 | INFO: Extracting primitive: 119 Saint Marks Place · mapped shape; facade details estimated / opal lamp
+02:15:11 | INFO: Primitives created: 1
+02:15:11 | INFO: Extracting primitive: 119 Saint Marks Place · mapped shape; facade details estimated / recess shadow
+02:15:11 | INFO: Primitives created: 1
+02:15:11 | INFO: Extracting primitive: Individual business lettering
+02:15:11 | INFO: Primitives created: 1
+02:15:11 | INFO: Extracting primitive: 119 Saint Marks Place · mapped shape; facade details estimated / store09 clear glass
+02:15:11 | INFO: Primitives created: 1
+02:15:11 | INFO: Finished glTF 2.0 export in 0.01809096336364746 s
+
+ENGINE_BUILDING 234 352 248142636 37931
+02:15:11 | INFO: Starting glTF 2.0 export
+02:15:11 | INFO: Extracting primitive: 120 Saint Marks Place · mapped shape; facade details estimated / recess shadow
+02:15:11 | INFO: Primitives created: 1
+02:15:11 | INFO: Finished glTF 2.0 export in 0.00551295280456543 s
+
+ENGINE_BUILDING 235 352 248142638 13270
+02:15:11 | INFO: Starting glTF 2.0 export
+02:15:11 | INFO: Extracting primitive: east-st-mary / opal lamp
+02:15:11 | INFO: Primitives created: 1
+02:15:11 | INFO: Extracting primitive: east-st-mary / recess shadow
+02:15:11 | INFO: Primitives created: 1
+02:15:11 | INFO: Finished glTF 2.0 export in 0.007727861404418945 s
+
+ENGINE_BUILDING 236 352 248142640 14850
+02:15:11 | INFO: Starting glTF 2.0 export
+02:15:11 | INFO: Extracting primitive: 121 Saint Marks Place · mapped shape; facade details estimated / opal lamp
+02:15:11 | INFO: Primitives created: 1
+02:15:11 | INFO: Extracting primitive: 121 Saint Marks Place · mapped shape; facade details estimated / recess shadow
+02:15:11 | INFO: Primitives created: 1
+02:15:11 | INFO: Extracting primitive: Individual business lettering
+02:15:11 | INFO: Primitives created: 1
+02:15:11 | INFO: Extracting primitive: 121 Saint Marks Place · mapped shape; facade details estimated / store09 clear glass
+02:15:11 | INFO: Primitives created: 1
+02:15:11 | INFO: Finished glTF 2.0 export in 0.017014026641845703 s
+
+ENGINE_BUILDING 237 352 248142641 39042
+02:15:11 | INFO: Starting glTF 2.0 export
+02:15:11 | INFO: Extracting primitive: 122 1st Avenue · reference observed / recess shadow
+02:15:11 | INFO: Primitives created: 1
+02:15:11 | INFO: Extracting primitive: 122 1st Avenue · reference observed / store09 gray plaster
+02:15:11 | INFO: Primitives created: 1
+02:15:11 | INFO: Extracting primitive: 122 1st Avenue · reference observed / store09 clear glass
+02:15:11 | INFO: Primitives created: 1
+02:15:11 | INFO: Finished glTF 2.0 export in 0.0073091983795166016 s
+
+ENGINE_BUILDING 238 352 248142642 11720
+02:15:11 | INFO: Starting glTF 2.0 export
+02:15:11 | INFO: Extracting primitive: 122 Saint Marks Place · mapped shape; facade details estimated / recess shadow
+02:15:11 | INFO: Primitives created: 1
+02:15:11 | INFO: Extracting primitive: Individual business lettering
+02:15:11 | INFO: Primitives created: 1
+02:15:11 | INFO: Extracting primitive: 122 Saint Marks Place · mapped shape; facade details estimated / store09 clear glass
+02:15:11 | INFO: Primitives created: 1
+02:15:11 | INFO: Finished glTF 2.0 export in 0.017752885818481445 s
+
+ENGINE_BUILDING 239 352 248142643 41186
+02:15:11 | INFO: Starting glTF 2.0 export
+02:15:11 | INFO: Extracting primitive: 123 East 7th Street · reference observed / opal lamp
+02:15:11 | INFO: Primitives created: 1
+02:15:11 | INFO: Extracting primitive: 123 East 7th Street · reference observed / recess shadow
+02:15:11 | INFO: Primitives created: 1
+02:15:11 | INFO: Finished glTF 2.0 export in 0.006911039352416992 s
+
+ENGINE_BUILDING 240 352 248142645 12676
+02:15:12 | INFO: Starting glTF 2.0 export
+02:15:12 | INFO: Extracting primitive: 124 1st Avenue · reference observed / recess shadow
+02:15:12 | INFO: Primitives created: 1
+02:15:12 | INFO: Extracting primitive: Individual business lettering
+02:15:12 | INFO: Primitives created: 1
+02:15:12 | INFO: Extracting primitive: 124 1st Avenue · reference observed / store09 clear glass
+02:15:12 | INFO: Primitives created: 1
+02:15:12 | INFO: Finished glTF 2.0 export in 0.010207891464233398 s
+
+ENGINE_BUILDING 241 352 248142646 18505
+02:15:12 | INFO: Starting glTF 2.0 export
+02:15:12 | INFO: Extracting primitive: 125 East 7th Street · reference observed / recess shadow
+02:15:12 | INFO: Primitives created: 1
+02:15:12 | INFO: Finished glTF 2.0 export in 0.005201816558837891 s
+
+ENGINE_BUILDING 242 352 248142647 10930
+02:15:12 | INFO: Starting glTF 2.0 export
+02:15:12 | INFO: Extracting primitive: Individual business lettering
+02:15:12 | INFO: Primitives created: 1
+02:15:12 | INFO: Extracting primitive: 126 1st Avenue · reference observed / store09 gray plaster
+02:15:12 | INFO: Primitives created: 1
+02:15:12 | INFO: Extracting primitive: 126 1st Avenue · reference observed / store09 clear glass
+02:15:12 | INFO: Primitives created: 1
+02:15:12 | INFO: Finished glTF 2.0 export in 0.007426023483276367 s
+
+ENGINE_BUILDING 243 352 248142648 10994
+02:15:12 | INFO: Starting glTF 2.0 export
+02:15:12 | INFO: Extracting primitive: 126 Saint Marks Place · mapped shape; facade details estimated / recess shadow
+02:15:12 | INFO: Primitives created: 1
+02:15:12 | INFO: Extracting primitive: 126 Saint Marks Place · mapped shape; facade details estimated / store09 gray plaster
+02:15:12 | INFO: Primitives created: 1
+02:15:12 | INFO: Extracting primitive: 126 Saint Marks Place · mapped shape; facade details estimated / store09 clear glass
+02:15:12 | INFO: Primitives created: 1
+02:15:12 | INFO: Finished glTF 2.0 export in 0.011560201644897461 s
+
+ENGINE_BUILDING 244 352 248142649 26218
+02:15:12 | INFO: Starting glTF 2.0 export
+02:15:12 | INFO: Extracting primitive: 127 East 7th Street · reference observed / store glass
+02:15:12 | INFO: Primitives created: 1
+02:15:12 | INFO: Extracting primitive: 127 East 7th Street · reference observed / opal lamp
+02:15:12 | INFO: Primitives created: 1
+02:15:12 | INFO: Extracting primitive: 127 East 7th Street · reference observed / recess shadow
+02:15:12 | INFO: Primitives created: 1
+02:15:12 | INFO: Finished glTF 2.0 export in 0.008087158203125 s
+
+ENGINE_BUILDING 245 352 248142650 14180
+02:15:12 | INFO: Starting glTF 2.0 export
+02:15:12 | INFO: Extracting primitive: 128 1st Avenue · reference observed / recess shadow
+02:15:12 | INFO: Primitives created: 1
+02:15:12 | INFO: Extracting primitive: Individual business lettering
+02:15:12 | INFO: Primitives created: 1
+02:15:12 | INFO: Extracting primitive: 128 1st Avenue · reference observed / store09 clear glass
+02:15:12 | INFO: Primitives created: 1
+02:15:12 | INFO: Finished glTF 2.0 export in 0.009588003158569336 s
+
+ENGINE_BUILDING 246 352 248142651 17315
+02:15:12 | INFO: Starting glTF 2.0 export
+02:15:12 | INFO: Extracting primitive: 128 Saint Marks Place · mapped shape; facade details estimated / recess shadow
+02:15:12 | INFO: Primitives created: 1
+02:15:12 | INFO: Finished glTF 2.0 export in 0.00528717041015625 s
+
+ENGINE_BUILDING 247 352 248142652 11101
+02:15:12 | INFO: Starting glTF 2.0 export
+02:15:12 | INFO: Extracting primitive: 129 East 7th Street · reference observed / recess shadow
+02:15:12 | INFO: Primitives created: 1
+02:15:12 | INFO: Finished glTF 2.0 export in 0.006623029708862305 s
+
+ENGINE_BUILDING 248 352 248142653 14899
+02:15:12 | INFO: Starting glTF 2.0 export
+02:15:12 | INFO: Extracting primitive: Individual business lettering
+02:15:12 | INFO: Primitives created: 1
+02:15:12 | INFO: Extracting primitive: Individual business lettering.001
+02:15:12 | INFO: Primitives created: 1
+02:15:12 | INFO: Extracting primitive: 130 1st Avenue · reference observed / store09 clear glass
+02:15:12 | INFO: Primitives created: 1
+02:15:12 | INFO: Finished glTF 2.0 export in 0.011801004409790039 s
+
+ENGINE_BUILDING 249 352 248142654 22772
+02:15:12 | INFO: Starting glTF 2.0 export
+02:15:12 | INFO: Extracting primitive: 130 Saint Marks Place · mapped shape; facade details estimated / recess shadow
+02:15:12 | INFO: Primitives created: 1
+02:15:12 | INFO: Extracting primitive: Individual business lettering
+02:15:12 | INFO: Primitives created: 1
+02:15:12 | INFO: Extracting primitive: 130 Saint Marks Place · mapped shape; facade details estimated / store09 clear glass
+02:15:12 | INFO: Primitives created: 1
+02:15:12 | INFO: Finished glTF 2.0 export in 0.008728742599487305 s
+
+ENGINE_BUILDING 250 352 248142655 16390
+02:15:12 | INFO: Starting glTF 2.0 export
+02:15:12 | INFO: Extracting primitive: 131 East 7th Street · mapped shape; facade details estimated / store glass
+02:15:12 | INFO: Primitives created: 1
+02:15:12 | INFO: Extracting primitive: 131 East 7th Street · mapped shape; facade details estimated / recess shadow
+02:15:12 | INFO: Primitives created: 1
+02:15:12 | INFO: Finished glTF 2.0 export in 0.007325887680053711 s
+
+ENGINE_BUILDING 251 352 248142656 13992
+02:15:12 | INFO: Starting glTF 2.0 export
+02:15:12 | INFO: Extracting primitive: Individual business lettering.006
+02:15:12 | INFO: Primitives created: 1
+02:15:12 | INFO: Extracting primitive: 138 1st Avenue P02 observed First Avenue face; estimates recorded / recess shadow
+02:15:12 | INFO: Primitives created: 1
+02:15:12 | INFO: Extracting primitive: Individual business lettering
+02:15:12 | INFO: Primitives created: 1
+02:15:12 | INFO: Extracting primitive: 138 1st Avenue P02 observed First Avenue face; estimates recorded / store09 clear glass
+02:15:12 | INFO: Primitives created: 1
+02:15:12 | INFO: Finished glTF 2.0 export in 0.01697993278503418 s
+
+ENGINE_BUILDING 252 352 248142657 31732
+02:15:12 | INFO: Starting glTF 2.0 export
+02:15:12 | INFO: Extracting primitive: Individual business lettering.002
+02:15:12 | INFO: Primitives created: 1
+02:15:12 | INFO: Extracting primitive: 140 1st Avenue P02 observed First Avenue face; estimates recorded / recess shadow
+02:15:12 | INFO: Primitives created: 1
+02:15:12 | INFO: Extracting primitive: Individual business lettering
+02:15:12 | INFO: Primitives created: 1
+02:15:12 | INFO: Extracting primitive: 140 1st Avenue P02 observed First Avenue face; estimates recorded / store09 clear glass
+02:15:12 | INFO: Primitives created: 1
+02:15:12 | INFO: Finished glTF 2.0 export in 0.014367103576660156 s
+
+ENGINE_BUILDING 253 352 248142658 28772
+02:15:13 | INFO: Starting glTF 2.0 export
+02:15:13 | INFO: Extracting primitive: 142 1st Avenue P02 observed First Avenue face; estimates recorded / recess shadow
+02:15:13 | INFO: Primitives created: 1
+02:15:13 | INFO: Extracting primitive: Individual business lettering
+02:15:13 | INFO: Primitives created: 1
+02:15:13 | INFO: Extracting primitive: 142 1st Avenue P02 observed First Avenue face; estimates recorded / store09 clear glass
+02:15:13 | INFO: Primitives created: 1
+02:15:13 | INFO: Finished glTF 2.0 export in 0.012373924255371094 s
+
+ENGINE_BUILDING 254 352 248142659 26046
+02:15:13 | INFO: Starting glTF 2.0 export
+02:15:13 | INFO: Extracting primitive: 144 1st Avenue P02 observed First Avenue face; estimates recorded / recess shadow
+02:15:13 | INFO: Primitives created: 1
+02:15:13 | INFO: Extracting primitive: Individual business lettering
+02:15:13 | INFO: Primitives created: 1
+02:15:13 | INFO: Extracting primitive: 144 1st Avenue P02 observed First Avenue face; estimates recorded / store09 clear glass
+02:15:13 | INFO: Primitives created: 1
+02:15:13 | INFO: Finished glTF 2.0 export in 0.013667821884155273 s
+
+ENGINE_BUILDING 255 352 248142660 29129
+02:15:13 | INFO: Starting glTF 2.0 export
+02:15:13 | INFO: Extracting primitive: 248142661 E09 east observed block / recess shadow
+02:15:13 | INFO: Primitives created: 1
+02:15:13 | INFO: Extracting primitive: Individual business lettering
+02:15:13 | INFO: Primitives created: 1
+02:15:13 | INFO: Finished glTF 2.0 export in 0.006154060363769531 s
+
+ENGINE_BUILDING 256 352 248142661 10305
+02:15:13 | INFO: Starting glTF 2.0 export
+02:15:13 | INFO: Extracting primitive: 248142662 E09 east observed block / recess shadow
+02:15:13 | INFO: Primitives created: 1
+02:15:13 | INFO: Extracting primitive: Individual business lettering
+02:15:13 | INFO: Primitives created: 1
+02:15:13 | INFO: Finished glTF 2.0 export in 0.010600805282592773 s
+
+ENGINE_BUILDING 257 352 248142662 11333
+02:15:13 | INFO: Starting glTF 2.0 export
+02:15:13 | INFO: Extracting primitive: 248142663 E09 east observed block / opal lamp
+02:15:13 | INFO: Primitives created: 1
+02:15:13 | INFO: Extracting primitive: Individual business lettering.004
+02:15:13 | INFO: Primitives created: 1
+02:15:13 | INFO: Extracting primitive: Individual business lettering
+02:15:13 | INFO: Primitives created: 1
+02:15:13 | INFO: Extracting primitive: 248142663 E09 east observed block / store09 clear glass
+02:15:13 | INFO: Primitives created: 1
+02:15:13 | INFO: Finished glTF 2.0 export in 0.05935478210449219 s
+
+ENGINE_BUILDING 258 352 248142663 161974
+02:15:13 | INFO: Starting glTF 2.0 export
+02:15:13 | INFO: Extracting primitive: 248142664 E09 east observed block / recess shadow
+02:15:13 | INFO: Primitives created: 1
+02:15:13 | INFO: Extracting primitive: Individual business lettering
+02:15:13 | INFO: Primitives created: 1
+02:15:13 | INFO: Finished glTF 2.0 export in 0.007747173309326172 s
+
+ENGINE_BUILDING 259 352 248142664 14979
+02:15:14 | INFO: Starting glTF 2.0 export
+02:15:14 | INFO: Extracting primitive: 248142666 E09 east observed block / recess shadow
+02:15:14 | INFO: Primitives created: 1
+02:15:14 | INFO: Extracting primitive: Individual business lettering
+02:15:14 | INFO: Primitives created: 1
+02:15:14 | INFO: Finished glTF 2.0 export in 0.012900114059448242 s
+
+ENGINE_BUILDING 260 352 248142666 31324
+02:15:14 | INFO: Starting glTF 2.0 export
+02:15:14 | INFO: Extracting primitive: Individual business lettering.001
+02:15:14 | INFO: Primitives created: 1
+02:15:14 | INFO: Extracting primitive: Individual business lettering
+02:15:14 | INFO: Primitives created: 1
+02:15:14 | INFO: Finished glTF 2.0 export in 0.005555868148803711 s
+
+ENGINE_BUILDING 261 352 248142668 7216
+02:15:14 | INFO: Starting glTF 2.0 export
+02:15:14 | INFO: Extracting primitive: 248142669 E09 east observed block / recess shadow
+02:15:14 | INFO: Primitives created: 1
+02:15:14 | INFO: Extracting primitive: Individual business lettering
+02:15:14 | INFO: Primitives created: 1
+02:15:14 | INFO: Finished glTF 2.0 export in 0.00804591178894043 s
+
+ENGINE_BUILDING 262 352 248142669 16608
+02:15:14 | INFO: Starting glTF 2.0 export
+02:15:14 | INFO: Extracting primitive: 248142672 E09 east observed block / opal lamp
+02:15:14 | INFO: Primitives created: 1
+02:15:14 | INFO: Extracting primitive: 248142672 E09 east observed block / recess shadow
+02:15:14 | INFO: Primitives created: 1
+02:15:14 | INFO: Extracting primitive: Individual business lettering
+02:15:14 | INFO: Primitives created: 1
+02:15:14 | INFO: Extracting primitive: 248142672 E09 east observed block / store09 clear glass
+02:15:14 | INFO: Primitives created: 1
+02:15:14 | INFO: Finished glTF 2.0 export in 0.01791095733642578 s
+
+ENGINE_BUILDING 263 352 248142672 42557
+02:15:14 | INFO: Starting glTF 2.0 export
+02:15:14 | INFO: Extracting primitive: 248142675 E09 east observed block / opal lamp
+02:15:14 | INFO: Primitives created: 1
+02:15:14 | INFO: Extracting primitive: 248142675 E09 east observed block / recess shadow
+02:15:14 | INFO: Primitives created: 1
+02:15:14 | INFO: Extracting primitive: Individual business lettering
+02:15:14 | INFO: Primitives created: 1
+02:15:14 | INFO: Extracting primitive: 248142675 E09 east observed block / store09 clear glass
+02:15:14 | INFO: Primitives created: 1
+02:15:14 | INFO: Finished glTF 2.0 export in 0.01646900177001953 s
+
+ENGINE_BUILDING 264 352 248142675 36815
+02:15:14 | INFO: Starting glTF 2.0 export
+02:15:14 | INFO: Extracting primitive: 248142676 E09 east observed block / opal lamp
+02:15:14 | INFO: Primitives created: 1
+02:15:14 | INFO: Extracting primitive: 248142676 E09 east observed block / recess shadow
+02:15:14 | INFO: Primitives created: 1
+02:15:14 | INFO: Extracting primitive: Individual business lettering
+02:15:14 | INFO: Primitives created: 1
+02:15:14 | INFO: Extracting primitive: 248142676 E09 east observed block / store09 clear glass
+02:15:14 | INFO: Primitives created: 1
+02:15:14 | INFO: Finished glTF 2.0 export in 0.04111218452453613 s
+
+ENGINE_BUILDING 265 352 248142676 110619
+02:15:14 | INFO: Starting glTF 2.0 export
+02:15:14 | INFO: Extracting primitive: 248142677 E09 east observed block / opal lamp
+02:15:14 | INFO: Primitives created: 1
+02:15:14 | INFO: Extracting primitive: 248142677 E09 east observed block / recess shadow
+02:15:14 | INFO: Primitives created: 1
+02:15:14 | INFO: Extracting primitive: Individual business lettering
+02:15:14 | INFO: Primitives created: 1
+02:15:14 | INFO: Finished glTF 2.0 export in 0.012612104415893555 s
+
+ENGINE_BUILDING 266 352 248142677 27337
+02:15:15 | INFO: Starting glTF 2.0 export
+02:15:15 | INFO: Extracting primitive: 248142679 E09 east observed block / recess shadow
+02:15:15 | INFO: Primitives created: 1
+02:15:15 | INFO: Extracting primitive: Individual business lettering
+02:15:15 | INFO: Primitives created: 1
+02:15:15 | INFO: Extracting primitive: 248142679 E09 east observed block / store09 clear glass
+02:15:15 | INFO: Primitives created: 1
+02:15:15 | INFO: Finished glTF 2.0 export in 0.020879030227661133 s
+
+ENGINE_BUILDING 267 352 248142679 49687
+02:15:15 | INFO: Starting glTF 2.0 export
+02:15:15 | INFO: Extracting primitive: 248142681 E09 east observed block / recess shadow
+02:15:15 | INFO: Primitives created: 1
+02:15:15 | INFO: Extracting primitive: Individual business lettering
+02:15:15 | INFO: Primitives created: 1
+02:15:15 | INFO: Extracting primitive: 248142681 E09 east observed block / store09 clear glass
+02:15:15 | INFO: Primitives created: 1
+02:15:15 | INFO: Finished glTF 2.0 export in 0.01787590980529785 s
+
+ENGINE_BUILDING 268 352 248142681 42726
+02:15:15 | INFO: Starting glTF 2.0 export
+02:15:15 | INFO: Extracting primitive: 248142682 E09 east observed block / recess shadow
+02:15:15 | INFO: Primitives created: 1
+02:15:15 | INFO: Extracting primitive: Individual business lettering
+02:15:15 | INFO: Primitives created: 1
+02:15:15 | INFO: Extracting primitive: 248142682 E09 east observed block / store09 clear glass
+02:15:15 | INFO: Primitives created: 1
+02:15:15 | INFO: Finished glTF 2.0 export in 0.011671066284179688 s
+
+ENGINE_BUILDING 269 352 248142682 23729
+02:15:15 | INFO: Starting glTF 2.0 export
+02:15:15 | INFO: Extracting primitive: 248142683 E09 east observed block / recess shadow
+02:15:15 | INFO: Primitives created: 1
+02:15:15 | INFO: Extracting primitive: Individual business lettering
+02:15:15 | INFO: Primitives created: 1
+02:15:15 | INFO: Extracting primitive: 248142683 E09 east observed block / store09 clear glass
+02:15:15 | INFO: Primitives created: 1
+02:15:15 | INFO: Finished glTF 2.0 export in 0.020975112915039062 s
+
+ENGINE_BUILDING 270 352 248142683 51766
+02:15:15 | INFO: Starting glTF 2.0 export
+02:15:15 | INFO: Extracting primitive: 248142684 E09 east observed block / recess shadow
+02:15:15 | INFO: Primitives created: 1
+02:15:15 | INFO: Extracting primitive: Individual business lettering
+02:15:15 | INFO: Primitives created: 1
+02:15:15 | INFO: Extracting primitive: 248142684 E09 east observed block / store09 clear glass
+02:15:15 | INFO: Primitives created: 1
+02:15:15 | INFO: Finished glTF 2.0 export in 0.02120494842529297 s
+
+ENGINE_BUILDING 271 352 248142684 52697
+02:15:15 | INFO: Starting glTF 2.0 export
+02:15:15 | INFO: Extracting primitive: 248142685 E09 east observed block / recess shadow
+02:15:15 | INFO: Primitives created: 1
+02:15:15 | INFO: Extracting primitive: Individual business lettering
+02:15:15 | INFO: Primitives created: 1
+02:15:15 | INFO: Extracting primitive: 248142685 E09 east observed block / store09 clear glass
+02:15:15 | INFO: Primitives created: 1
+02:15:15 | INFO: Finished glTF 2.0 export in 0.01759505271911621 s
+
+ENGINE_BUILDING 272 352 248142685 40094
+02:15:16 | INFO: Starting glTF 2.0 export
+02:15:16 | INFO: Extracting primitive: 87 Saint Marks Place · mapped shape; facade details estimated / recess shadow
+02:15:16 | INFO: Primitives created: 1
+02:15:16 | INFO: Finished glTF 2.0 export in 0.0060901641845703125 s
+
+ENGINE_BUILDING 273 352 248142686 11332
+02:15:16 | INFO: Starting glTF 2.0 export
+02:15:16 | INFO: Extracting primitive: 92 Saint Marks Place · mapped shape; facade details estimated / recess shadow
+02:15:16 | INFO: Primitives created: 1
+02:15:16 | INFO: Finished glTF 2.0 export in 0.0029103755950927734 s
+
+ENGINE_BUILDING 274 352 248142687 4538
+02:15:16 | INFO: Starting glTF 2.0 export
+02:15:16 | INFO: Extracting primitive: 93 Saint Marks Place · reference observed / recess shadow
+02:15:16 | INFO: Primitives created: 1
+02:15:16 | INFO: Finished glTF 2.0 export in 0.0031309127807617188 s
+
+ENGINE_BUILDING 275 352 248142688 5432
+02:15:16 | INFO: Starting glTF 2.0 export
+02:15:16 | INFO: Extracting primitive: 94 Saint Marks Place · mapped shape; facade details estimated / recess shadow
+02:15:16 | INFO: Primitives created: 1
+02:15:16 | INFO: Extracting primitive: Individual business lettering
+02:15:16 | INFO: Primitives created: 1
+02:15:16 | INFO: Finished glTF 2.0 export in 0.016492843627929688 s
+
+ENGINE_BUILDING 276 352 248142689 39768
+02:15:16 | INFO: Starting glTF 2.0 export
+02:15:16 | INFO: Extracting primitive: 95 East 7th Street · reference observed / recess shadow
+02:15:16 | INFO: Primitives created: 1
+02:15:16 | INFO: Finished glTF 2.0 export in 0.008375167846679688 s
+
+ENGINE_BUILDING 277 352 248142690 19283
+02:15:16 | INFO: Starting glTF 2.0 export
+02:15:16 | INFO: Extracting primitive: 95 Saint Marks Place · mapped shape; facade details estimated / recess shadow
+02:15:16 | INFO: Primitives created: 1
+02:15:16 | INFO: Finished glTF 2.0 export in 0.004312038421630859 s
+
+ENGINE_BUILDING 278 352 248142691 8986
+02:15:16 | INFO: Starting glTF 2.0 export
+02:15:16 | INFO: Extracting primitive: 96 Saint Marks Place · mapped shape; facade details estimated / recess shadow
+02:15:16 | INFO: Primitives created: 1
+02:15:16 | INFO: Extracting primitive: Individual business lettering
+02:15:16 | INFO: Primitives created: 1
+02:15:16 | INFO: Extracting primitive: 96 Saint Marks Place · mapped shape; facade details estimated / store09 clear glass
+02:15:16 | INFO: Primitives created: 1
+02:15:16 | INFO: Finished glTF 2.0 export in 0.014627933502197266 s
+
+ENGINE_BUILDING 279 352 248142692 32324
+02:15:16 | INFO: Starting glTF 2.0 export
+02:15:16 | INFO: Extracting primitive: 97 1/2 East 7th Street · reference observed / recess shadow
+02:15:16 | INFO: Primitives created: 1
+02:15:16 | INFO: Finished glTF 2.0 export in 0.00727081298828125 s
+
+ENGINE_BUILDING 280 352 248142693 16332
+02:15:16 | INFO: Starting glTF 2.0 export
+02:15:16 | INFO: Extracting primitive: 97 Saint Marks Place · mapped shape; facade details estimated / recess shadow
+02:15:16 | INFO: Primitives created: 1
+02:15:16 | INFO: Extracting primitive: Individual business lettering
+02:15:16 | INFO: Primitives created: 1
+02:15:16 | INFO: Extracting primitive: 97 Saint Marks Place · mapped shape; facade details estimated / store09 clear glass
+02:15:16 | INFO: Primitives created: 1
+02:15:16 | INFO: Finished glTF 2.0 export in 0.008627891540527344 s
+
+ENGINE_BUILDING 281 352 248142694 15874
+02:15:16 | INFO: Starting glTF 2.0 export
+02:15:16 | INFO: Extracting primitive: 98 Saint Marks Place · mapped shape; facade details estimated / recess shadow
+02:15:16 | INFO: Primitives created: 1
+02:15:16 | INFO: Extracting primitive: 98 Saint Marks Place · mapped shape; facade details estimated / store09 gray plaster
+02:15:16 | INFO: Primitives created: 1
+02:15:16 | INFO: Extracting primitive: 98 Saint Marks Place · mapped shape; facade details estimated / store09 clear glass
+02:15:16 | INFO: Primitives created: 1
+02:15:16 | INFO: Finished glTF 2.0 export in 0.009659290313720703 s
+
+ENGINE_BUILDING 282 352 248142695 18767
+02:15:16 | INFO: Starting glTF 2.0 export
+02:15:16 | INFO: Extracting primitive: 99 1/2 Saint Marks Place · mapped shape; facade details estimated / recess shadow
+02:15:16 | INFO: Primitives created: 1
+02:15:16 | INFO: Extracting primitive: Individual business lettering
+02:15:16 | INFO: Primitives created: 1
+02:15:16 | INFO: Extracting primitive: 99 1/2 Saint Marks Place · mapped shape; facade details estimated / store09 clear glass
+02:15:16 | INFO: Primitives created: 1
+02:15:16 | INFO: Finished glTF 2.0 export in 0.006070137023925781 s
+
+ENGINE_BUILDING 283 352 248142696 7298
+02:15:16 | INFO: Starting glTF 2.0 export
+02:15:16 | INFO: Extracting primitive: 99 East 7th Street · reference observed / recess shadow
+02:15:16 | INFO: Primitives created: 1
+02:15:16 | INFO: Finished glTF 2.0 export in 0.009456157684326172 s
+
+ENGINE_BUILDING 284 352 248142697 23238
+02:15:16 | INFO: Starting glTF 2.0 export
+02:15:16 | INFO: Extracting primitive: 99 Saint Marks Place · mapped shape; facade details estimated / recess shadow
+02:15:16 | INFO: Primitives created: 1
+02:15:16 | INFO: Extracting primitive: Individual business lettering
+02:15:16 | INFO: Primitives created: 1
+02:15:16 | INFO: Extracting primitive: 99 Saint Marks Place · mapped shape; facade details estimated / store09 clear glass
+02:15:16 | INFO: Primitives created: 1
+02:15:16 | INFO: Finished glTF 2.0 export in 0.013208866119384766 s
+
+ENGINE_BUILDING 285 352 248142698 28360
+02:15:16 | INFO: Starting glTF 2.0 export
+02:15:16 | INFO: Extracting primitive: 97 East 7th Street · reference observed / recess shadow
+02:15:16 | INFO: Primitives created: 1
+02:15:17 | INFO: Finished glTF 2.0 export in 0.008105993270874023 s
+
+ENGINE_BUILDING 286 352 248142701 18798
+02:15:17 | INFO: Starting glTF 2.0 export
+02:15:17 | INFO: Extracting primitive: 248142702 E09 east observed block / recess shadow
+02:15:17 | INFO: Primitives created: 1
+02:15:17 | INFO: Extracting primitive: Individual business lettering
+02:15:17 | INFO: Primitives created: 1
+02:15:17 | INFO: Extracting primitive: 248142702 E09 east observed block / store09 clear glass
+02:15:17 | INFO: Primitives created: 1
+02:15:17 | INFO: Finished glTF 2.0 export in 0.027638912200927734 s
+
+ENGINE_BUILDING 287 352 248142702 70790
+02:15:17 | INFO: Starting glTF 2.0 export
+02:15:17 | INFO: Extracting primitive: 132 Saint Mark's Place · reference observed / recess shadow
+02:15:17 | INFO: Primitives created: 1
+02:15:17 | INFO: Extracting primitive: 132 Saint Mark's Place · reference observed / store09 gray plaster
+02:15:17 | INFO: Primitives created: 1
+02:15:17 | INFO: Extracting primitive: 132 Saint Mark's Place · reference observed / store09 clear glass
+02:15:17 | INFO: Primitives created: 1
+02:15:17 | INFO: Finished glTF 2.0 export in 0.025419950485229492 s
+
+ENGINE_BUILDING 288 352 248142706 67901
+02:15:17 | INFO: Starting glTF 2.0 export
+02:15:17 | INFO: Extracting primitive: 118–120 First Avenue / 91 East 7th Street / First & Seventh photographic benchmark / seventh glass
+02:15:17 | INFO: Primitives created: 1
+02:15:17 | INFO: Extracting primitive: Observed sign lettering.001
+02:15:17 | INFO: Primitives created: 1
+02:15:17 | INFO: Extracting primitive: Observed sign lettering
+02:15:17 | INFO: Primitives created: 1
+02:15:17 | INFO: Finished glTF 2.0 export in 0.043589115142822266 s
+
+ENGINE_BUILDING 289 352 248142707 110734
+02:15:18 | INFO: Starting glTF 2.0 export
+02:15:18 | INFO: Extracting primitive: 131 Avenue A · mapped shape; facade details estimated / recess shadow
+02:15:18 | INFO: Primitives created: 1
+02:15:18 | INFO: Extracting primitive: Individual business lettering
+02:15:18 | INFO: Primitives created: 1
+02:15:18 | INFO: Extracting primitive: 131 Avenue A · mapped shape; facade details estimated / store09 clear glass
+02:15:18 | INFO: Primitives created: 1
+02:15:18 | INFO: Finished glTF 2.0 export in 0.02054309844970703 s
+
+ENGINE_BUILDING 290 352 248142709 49847
+02:15:18 | INFO: Starting glTF 2.0 export
+02:15:18 | INFO: Extracting primitive: 248142710 E09 east observed block / opal lamp
+02:15:18 | INFO: Primitives created: 1
+02:15:18 | INFO: Extracting primitive: 248142710 E09 east observed block / recess shadow
+02:15:18 | INFO: Primitives created: 1
+02:15:18 | INFO: Extracting primitive: Individual business lettering
+02:15:18 | INFO: Primitives created: 1
+02:15:18 | INFO: Extracting primitive: 248142710 E09 east observed block / store09 clear glass
+02:15:18 | INFO: Primitives created: 1
+02:15:18 | INFO: Finished glTF 2.0 export in 0.018027067184448242 s
+
+ENGINE_BUILDING 291 352 248142710 40496
+02:15:18 | INFO: Starting glTF 2.0 export
+02:15:18 | INFO: Extracting primitive: 134 1st Avenue · reference observed / recess shadow
+02:15:18 | INFO: Primitives created: 1
+02:15:18 | INFO: Extracting primitive: Individual business lettering
+02:15:18 | INFO: Primitives created: 1
+02:15:18 | INFO: Extracting primitive: 134 1st Avenue · reference observed / store09 clear glass
+02:15:18 | INFO: Primitives created: 1
+02:15:18 | INFO: Finished glTF 2.0 export in 0.023468971252441406 s
+
+ENGINE_BUILDING 292 352 248142711 55425
+02:15:18 | INFO: Starting glTF 2.0 export
+02:15:18 | INFO: Extracting primitive: 132 1st Avenue · reference observed / opal lamp
+02:15:18 | INFO: Primitives created: 1
+02:15:18 | INFO: Extracting primitive: 132 1st Avenue · reference observed / recess shadow
+02:15:18 | INFO: Primitives created: 1
+02:15:18 | INFO: Extracting primitive: 132 1st Avenue · reference observed / store09 gray plaster
+02:15:18 | INFO: Primitives created: 1
+02:15:18 | INFO: Extracting primitive: 132 1st Avenue · reference observed / store09 clear glass
+02:15:18 | INFO: Primitives created: 1
+02:15:18 | INFO: Finished glTF 2.0 export in 0.011478900909423828 s
+
+ENGINE_BUILDING 293 352 248142712 21319
+02:15:18 | INFO: Starting glTF 2.0 export
+02:15:18 | INFO: Extracting primitive: Individual business lettering.002
+02:15:18 | INFO: Primitives created: 1
+02:15:18 | INFO: Extracting primitive: 148 1st Avenue P02 observed First Avenue face; estimates recorded / recess shadow
+02:15:18 | INFO: Primitives created: 1
+02:15:18 | INFO: Extracting primitive: Individual business lettering
+02:15:18 | INFO: Primitives created: 1
+02:15:18 | INFO: Extracting primitive: 148 1st Avenue P02 observed First Avenue face; estimates recorded / store09 clear glass
+02:15:18 | INFO: Primitives created: 1
+02:15:18 | INFO: Finished glTF 2.0 export in 0.02161097526550293 s
+
+ENGINE_BUILDING 294 352 248142713 47670
+02:15:18 | INFO: Starting glTF 2.0 export
+02:15:18 | INFO: Extracting primitive: 111 Avenue A · reference observed / store glass
+02:15:18 | INFO: Primitives created: 1
+02:15:18 | INFO: Extracting primitive: 111 Avenue A · reference observed / opal lamp
+02:15:18 | INFO: Primitives created: 1
+02:15:18 | INFO: Extracting primitive: Observed sign lettering
+02:15:19 | INFO: Primitives created: 1
+02:15:19 | INFO: Finished glTF 2.0 export in 0.013488054275512695 s
+
+ENGINE_BUILDING 295 352 248142714 28630
+02:15:19 | INFO: Starting glTF 2.0 export
+02:15:19 | INFO: Extracting primitive: 93 East 7th Street · reference observed / store glass
+02:15:19 | INFO: Primitives created: 1
+02:15:19 | INFO: Extracting primitive: 93 East 7th Street · reference observed / recess shadow
+02:15:19 | INFO: Primitives created: 1
+02:15:19 | INFO: Finished glTF 2.0 export in 0.00783991813659668 s
+
+ENGINE_BUILDING 296 352 248142715 14478
+02:15:19 | INFO: Starting glTF 2.0 export
+02:15:19 | INFO: Extracting primitive: Individual business lettering.002
+02:15:19 | INFO: Primitives created: 1
+02:15:19 | INFO: Extracting primitive: Individual business lettering.006
+02:15:19 | INFO: Primitives created: 1
+02:15:19 | INFO: Extracting primitive: Individual business lettering
+02:15:19 | INFO: Primitives created: 1
+02:15:19 | INFO: Extracting primitive: 248142716 E09 east observed block / store09 clear glass
+02:15:19 | INFO: Primitives created: 1
+02:15:19 | INFO: Finished glTF 2.0 export in 0.04084300994873047 s
+
+ENGINE_BUILDING 297 352 248142716 104060
+02:15:19 | INFO: Starting glTF 2.0 export
+02:15:19 | INFO: Extracting primitive: Building 248142717 · mapped shape; facade details estimated / recess shadow
+02:15:19 | INFO: Primitives created: 1
+02:15:19 | INFO: Finished glTF 2.0 export in 0.004002809524536133 s
+
+ENGINE_BUILDING 298 352 248142717 6605
+02:15:19 | INFO: Starting glTF 2.0 export
+02:15:19 | INFO: Extracting primitive: 248142887 Tenth east individually observed / recess shadow
+02:15:19 | INFO: Primitives created: 1
+02:15:19 | INFO: Extracting primitive: Individual business lettering
+02:15:19 | INFO: Primitives created: 1
+02:15:19 | INFO: Finished glTF 2.0 export in 0.01708698272705078 s
+
+ENGINE_BUILDING 299 352 248142887 45408
+02:15:19 | INFO: Starting glTF 2.0 export
+02:15:19 | INFO: Extracting primitive: 248142888 Tenth east individually observed / recess shadow
+02:15:19 | INFO: Primitives created: 1
+02:15:19 | INFO: Extracting primitive: Individual business lettering
+02:15:19 | INFO: Primitives created: 1
+02:15:19 | INFO: Finished glTF 2.0 export in 0.0310060977935791 s
+
+ENGINE_BUILDING 300 352 248142888 91408
+02:15:20 | INFO: Starting glTF 2.0 export
+02:15:20 | INFO: Extracting primitive: 248142890 Tenth east individually observed / recess shadow
+02:15:20 | INFO: Primitives created: 1
+02:15:20 | INFO: Extracting primitive: Individual business lettering
+02:15:20 | INFO: Primitives created: 1
+02:15:20 | INFO: Finished glTF 2.0 export in 0.018121004104614258 s
+
+ENGINE_BUILDING 301 352 248142890 49108
+02:15:20 | INFO: Starting glTF 2.0 export
+02:15:20 | INFO: Extracting primitive: 248142891 Tenth east individually observed / recess shadow
+02:15:20 | INFO: Primitives created: 1
+02:15:20 | INFO: Extracting primitive: Individual business lettering
+02:15:20 | INFO: Primitives created: 1
+02:15:20 | INFO: Finished glTF 2.0 export in 0.011601924896240234 s
+
+ENGINE_BUILDING 302 352 248142891 25493
+02:15:20 | INFO: Starting glTF 2.0 export
+02:15:20 | INFO: Extracting primitive: 248142892 Tenth east individually observed / recess shadow
+02:15:20 | INFO: Primitives created: 1
+02:15:20 | INFO: Extracting primitive: Individual business lettering
+02:15:20 | INFO: Primitives created: 1
+02:15:20 | INFO: Extracting primitive: 248142892 Tenth east individually observed / store09 clear glass
+02:15:20 | INFO: Primitives created: 1
+02:15:20 | INFO: Finished glTF 2.0 export in 0.019337892532348633 s
+
+ENGINE_BUILDING 303 352 248142892 46658
+02:15:20 | INFO: Starting glTF 2.0 export
+02:15:20 | INFO: Extracting primitive: 248142893 Tenth east individually observed / recess shadow
+02:15:20 | INFO: Primitives created: 1
+02:15:20 | INFO: Extracting primitive: Individual business lettering
+02:15:20 | INFO: Primitives created: 1
+02:15:20 | INFO: Finished glTF 2.0 export in 0.020503997802734375 s
+
+ENGINE_BUILDING 304 352 248142893 56652
+02:15:20 | INFO: Starting glTF 2.0 export
+02:15:20 | INFO: Extracting primitive: Individual business lettering.003
+02:15:20 | INFO: Primitives created: 1
+02:15:20 | INFO: Extracting primitive: Individual business lettering
+02:15:20 | INFO: Primitives created: 1
+02:15:20 | INFO: Extracting primitive: 248142894 Tenth east individually observed / store09 clear glass
+02:15:20 | INFO: Primitives created: 1
+02:15:20 | INFO: Finished glTF 2.0 export in 0.018348217010498047 s
+
+ENGINE_BUILDING 305 352 248142894 41726
+02:15:20 | INFO: Starting glTF 2.0 export
+02:15:20 | INFO: Extracting primitive: 248142895 Tenth east individually observed / recess shadow
+02:15:20 | INFO: Primitives created: 1
+02:15:20 | INFO: Extracting primitive: Individual business lettering
+02:15:20 | INFO: Primitives created: 1
+02:15:20 | INFO: Extracting primitive: 248142895 Tenth east individually observed / store09 clear glass
+02:15:20 | INFO: Primitives created: 1
+02:15:20 | INFO: Finished glTF 2.0 export in 0.019687891006469727 s
+
+ENGINE_BUILDING 306 352 248142895 47217
+02:15:21 | INFO: Starting glTF 2.0 export
+02:15:21 | INFO: Extracting primitive: 248142896 Tenth east individually observed / recess shadow
+02:15:21 | INFO: Primitives created: 1
+02:15:21 | INFO: Extracting primitive: Individual business lettering
+02:15:21 | INFO: Primitives created: 1
+02:15:21 | INFO: Finished glTF 2.0 export in 0.010019063949584961 s
+
+ENGINE_BUILDING 307 352 248142896 20789
+02:15:21 | INFO: Starting glTF 2.0 export
+02:15:21 | INFO: Extracting primitive: 248142897 Tenth east individually observed / recess shadow
+02:15:21 | INFO: Primitives created: 1
+02:15:21 | INFO: Extracting primitive: Individual business lettering
+02:15:21 | INFO: Primitives created: 1
+02:15:21 | INFO: Extracting primitive: 248142897 Tenth east individually observed / store09 clear glass
+02:15:21 | INFO: Primitives created: 1
+02:15:21 | INFO: Finished glTF 2.0 export in 0.01341700553894043 s
+
+ENGINE_BUILDING 308 352 248142897 29434
+02:15:21 | INFO: Starting glTF 2.0 export
+02:15:21 | INFO: Extracting primitive: 248142898 Tenth east individually observed / recess shadow
+02:15:21 | INFO: Primitives created: 1
+02:15:21 | INFO: Extracting primitive: Individual business lettering
+02:15:21 | INFO: Primitives created: 1
+02:15:21 | INFO: Extracting primitive: 248142898 Tenth east individually observed / store09 clear glass
+02:15:21 | INFO: Primitives created: 1
+02:15:21 | INFO: Finished glTF 2.0 export in 0.011267900466918945 s
+
+ENGINE_BUILDING 309 352 248142898 21737
+02:15:21 | INFO: Starting glTF 2.0 export
+02:15:21 | INFO: Extracting primitive: Individual business lettering.001
+02:15:21 | INFO: Primitives created: 1
+02:15:21 | INFO: Extracting primitive: Individual business lettering
+02:15:21 | INFO: Primitives created: 1
+02:15:21 | INFO: Extracting primitive: 248142899 Tenth east individually observed / store09 clear glass
+02:15:21 | INFO: Primitives created: 1
+02:15:21 | INFO: Finished glTF 2.0 export in 0.020898103713989258 s
+
+ENGINE_BUILDING 310 352 248142899 49972
+02:15:21 | INFO: Starting glTF 2.0 export
+02:15:21 | INFO: Extracting primitive: Individual business lettering.001
+02:15:21 | INFO: Primitives created: 1
+02:15:21 | INFO: Extracting primitive: Individual business lettering
+02:15:21 | INFO: Primitives created: 1
+02:15:21 | INFO: Finished glTF 2.0 export in 0.016541004180908203 s
+
+ENGINE_BUILDING 311 352 248142900 39445
+02:15:21 | INFO: Starting glTF 2.0 export
+02:15:21 | INFO: Extracting primitive: 248142901 Tenth east individually observed / recess shadow
+02:15:21 | INFO: Primitives created: 1
+02:15:21 | INFO: Extracting primitive: Individual business lettering
+02:15:21 | INFO: Primitives created: 1
+02:15:21 | INFO: Finished glTF 2.0 export in 0.032733917236328125 s
+
+ENGINE_BUILDING 312 352 248142901 96323
+02:15:22 | INFO: Starting glTF 2.0 export
+02:15:22 | INFO: Extracting primitive: 248142902 Tenth east individually observed / recess shadow
+02:15:22 | INFO: Primitives created: 1
+02:15:22 | INFO: Extracting primitive: Individual business lettering
+02:15:22 | INFO: Primitives created: 1
+02:15:22 | INFO: Finished glTF 2.0 export in 0.009208917617797852 s
+
+ENGINE_BUILDING 313 352 248142902 19513
+02:15:22 | INFO: Starting glTF 2.0 export
+02:15:22 | INFO: Extracting primitive: Individual business lettering
+02:15:22 | INFO: Primitives created: 1
+02:15:22 | INFO: Extracting primitive: Individual business lettering.003
+02:15:22 | INFO: Primitives created: 1
+02:15:22 | INFO: Extracting primitive: 248142903 Tenth east individually observed / store09 clear glass
+02:15:22 | INFO: Primitives created: 1
+02:15:22 | INFO: Finished glTF 2.0 export in 0.01456308364868164 s
+
+ENGINE_BUILDING 314 352 248142903 30771
+02:15:22 | INFO: Starting glTF 2.0 export
+02:15:22 | INFO: Extracting primitive: 248142904 Tenth east individually observed / opal lamp
+02:15:22 | INFO: Primitives created: 1
+02:15:22 | INFO: Extracting primitive: 248142904 Tenth east individually observed / recess shadow
+02:15:22 | INFO: Primitives created: 1
+02:15:22 | INFO: Extracting primitive: Individual business lettering
+02:15:22 | INFO: Primitives created: 1
+02:15:22 | INFO: Finished glTF 2.0 export in 0.005724906921386719 s
+
+ENGINE_BUILDING 315 352 248142904 6255
+02:15:22 | INFO: Starting glTF 2.0 export
+02:15:22 | INFO: Extracting primitive: 248142905 Tenth east individually observed / recess shadow
+02:15:22 | INFO: Primitives created: 1
+02:15:22 | INFO: Extracting primitive: Individual business lettering
+02:15:22 | INFO: Primitives created: 1
+02:15:22 | INFO: Extracting primitive: 248142905 Tenth east individually observed / store09 clear glass
+02:15:22 | INFO: Primitives created: 1
+02:15:22 | INFO: Finished glTF 2.0 export in 0.017049789428710938 s
+
+ENGINE_BUILDING 316 352 248142905 38569
+02:15:22 | INFO: Starting glTF 2.0 export
+02:15:22 | INFO: Extracting primitive: 248142906 Tenth east individually observed / recess shadow
+02:15:22 | INFO: Primitives created: 1
+02:15:22 | INFO: Extracting primitive: Individual business lettering
+02:15:22 | INFO: Primitives created: 1
+02:15:22 | INFO: Finished glTF 2.0 export in 0.016809940338134766 s
+
+ENGINE_BUILDING 317 352 248142906 45089
+02:15:22 | INFO: Starting glTF 2.0 export
+02:15:22 | INFO: Extracting primitive: 248142907 Tenth east individually observed / recess shadow
+02:15:22 | INFO: Primitives created: 1
+02:15:22 | INFO: Extracting primitive: Individual business lettering
+02:15:22 | INFO: Primitives created: 1
+02:15:22 | INFO: Finished glTF 2.0 export in 0.014620065689086914 s
+
+ENGINE_BUILDING 318 352 248142907 36162
+02:15:22 | INFO: Starting glTF 2.0 export
+02:15:22 | INFO: Extracting primitive: Individual business lettering.001
+02:15:22 | INFO: Primitives created: 1
+02:15:22 | INFO: Extracting primitive: Individual business lettering
+02:15:22 | INFO: Primitives created: 1
+02:15:22 | INFO: Finished glTF 2.0 export in 0.0067789554595947266 s
+
+ENGINE_BUILDING 319 352 248142908 9297
+02:15:22 | INFO: Starting glTF 2.0 export
+02:15:22 | INFO: Extracting primitive: 248142909 Tenth east individually observed / recess shadow
+02:15:22 | INFO: Primitives created: 1
+02:15:22 | INFO: Extracting primitive: Individual business lettering
+02:15:22 | INFO: Primitives created: 1
+02:15:22 | INFO: Extracting primitive: 248142909 Tenth east individually observed / store09 clear glass
+02:15:22 | INFO: Primitives created: 1
+02:15:22 | INFO: Finished glTF 2.0 export in 0.02568817138671875 s
+
+ENGINE_BUILDING 320 352 248142909 67637
+02:15:23 | INFO: Starting glTF 2.0 export
+02:15:23 | INFO: Extracting primitive: 248142910 Tenth east individually observed / recess shadow
+02:15:23 | INFO: Primitives created: 1
+02:15:23 | INFO: Extracting primitive: Individual business lettering
+02:15:23 | INFO: Primitives created: 1
+02:15:23 | INFO: Finished glTF 2.0 export in 0.009243249893188477 s
+
+ENGINE_BUILDING 321 352 248142910 19508
+02:15:23 | INFO: Starting glTF 2.0 export
+02:15:23 | INFO: Extracting primitive: 248142911 Tenth east individually observed / recess shadow
+02:15:23 | INFO: Primitives created: 1
+02:15:23 | INFO: Extracting primitive: Individual business lettering
+02:15:23 | INFO: Primitives created: 1
+02:15:23 | INFO: Extracting primitive: 248142911 Tenth east individually observed / store09 clear glass
+02:15:23 | INFO: Primitives created: 1
+02:15:23 | INFO: Finished glTF 2.0 export in 0.019184112548828125 s
+
+ENGINE_BUILDING 322 352 248142911 45467
+02:15:23 | INFO: Starting glTF 2.0 export
+02:15:23 | INFO: Extracting primitive: Individual business lettering
+02:15:23 | INFO: Primitives created: 1
+02:15:23 | INFO: Extracting primitive: Individual business lettering.003
+02:15:23 | INFO: Primitives created: 1
+02:15:23 | INFO: Extracting primitive: 248142912 Tenth east individually observed / store09 clear glass
+02:15:23 | INFO: Primitives created: 1
+02:15:23 | INFO: Finished glTF 2.0 export in 0.06421613693237305 s
+
+ENGINE_BUILDING 323 352 248142912 179282
+02:15:23 | INFO: Starting glTF 2.0 export
+02:15:23 | INFO: Extracting primitive: 248142913 Tenth east individually observed / recess shadow
+02:15:23 | INFO: Primitives created: 1
+02:15:23 | INFO: Extracting primitive: Individual business lettering
+02:15:23 | INFO: Primitives created: 1
+02:15:23 | INFO: Finished glTF 2.0 export in 0.009741067886352539 s
+
+ENGINE_BUILDING 324 352 248142913 21229
+02:15:24 | INFO: Starting glTF 2.0 export
+02:15:24 | INFO: Extracting primitive: 248142914 Tenth east individually observed / recess shadow
+02:15:24 | INFO: Primitives created: 1
+02:15:24 | INFO: Extracting primitive: Individual business lettering
+02:15:24 | INFO: Primitives created: 1
+02:15:24 | INFO: Extracting primitive: 248142914 Tenth east individually observed / store09 clear glass
+02:15:24 | INFO: Primitives created: 1
+02:15:24 | INFO: Finished glTF 2.0 export in 0.01593494415283203 s
+
+ENGINE_BUILDING 325 352 248142914 36603
+02:15:24 | INFO: Starting glTF 2.0 export
+02:15:24 | INFO: Extracting primitive: 248142921 E09 east observed block / recess shadow
+02:15:24 | INFO: Primitives created: 1
+02:15:24 | INFO: Extracting primitive: Individual business lettering
+02:15:24 | INFO: Primitives created: 1
+02:15:24 | INFO: Extracting primitive: 248142921 E09 east observed block / store09 clear glass
+02:15:24 | INFO: Primitives created: 1
+02:15:24 | INFO: Finished glTF 2.0 export in 0.010885953903198242 s
+
+ENGINE_BUILDING 326 352 248142921 22792
+02:15:24 | INFO: Starting glTF 2.0 export
+02:15:24 | INFO: Extracting primitive: 248142923 E09 east observed block / recess shadow
+02:15:24 | INFO: Primitives created: 1
+02:15:24 | INFO: Extracting primitive: Individual business lettering
+02:15:24 | INFO: Primitives created: 1
+02:15:24 | INFO: Finished glTF 2.0 export in 0.010969161987304688 s
+
+ENGINE_BUILDING 327 352 248142923 24905
+02:15:24 | INFO: Starting glTF 2.0 export
+02:15:24 | INFO: Extracting primitive: 248142925 E09 east observed block / recess shadow
+02:15:24 | INFO: Primitives created: 1
+02:15:24 | INFO: Extracting primitive: Individual business lettering
+02:15:24 | INFO: Primitives created: 1
+02:15:24 | INFO: Finished glTF 2.0 export in 0.03067493438720703 s
+
+ENGINE_BUILDING 328 352 248142925 87435
+02:15:24 | INFO: Starting glTF 2.0 export
+02:15:24 | INFO: Extracting primitive: 248142926 E09 east observed block / recess shadow
+02:15:24 | INFO: Primitives created: 1
+02:15:24 | INFO: Extracting primitive: Individual business lettering
+02:15:24 | INFO: Primitives created: 1
+02:15:24 | INFO: Finished glTF 2.0 export in 0.010684967041015625 s
+
+ENGINE_BUILDING 329 352 248142926 24865
+02:15:24 | INFO: Starting glTF 2.0 export
+02:15:24 | INFO: Extracting primitive: 248142927 E09 east observed block / recess shadow
+02:15:24 | INFO: Primitives created: 1
+02:15:24 | INFO: Extracting primitive: Individual business lettering
+02:15:24 | INFO: Primitives created: 1
+02:15:24 | INFO: Finished glTF 2.0 export in 0.006678104400634766 s
+
+ENGINE_BUILDING 330 352 248142927 12088
+02:15:24 | INFO: Starting glTF 2.0 export
+02:15:24 | INFO: Extracting primitive: 248142929 E09 east observed block / recess shadow
+02:15:24 | INFO: Primitives created: 1
+02:15:24 | INFO: Extracting primitive: Individual business lettering
+02:15:24 | INFO: Primitives created: 1
+02:15:24 | INFO: Finished glTF 2.0 export in 0.013381004333496094 s
+
+ENGINE_BUILDING 331 352 248142929 32248
+02:15:24 | INFO: Starting glTF 2.0 export
+02:15:24 | INFO: Extracting primitive: 248142930 E09 east observed block / recess shadow
+02:15:24 | INFO: Primitives created: 1
+02:15:24 | INFO: Extracting primitive: 248142930 E09 east observed block / eb dark wood
+02:15:24 | INFO: Primitives created: 1
+02:15:24 | INFO: Finished glTF 2.0 export in 0.005055904388427734 s
+
+ENGINE_BUILDING 332 352 248142930 7076
+02:15:24 | INFO: Starting glTF 2.0 export
+02:15:24 | INFO: Extracting primitive: 248142932 E09 east observed block / recess shadow
+02:15:24 | INFO: Primitives created: 1
+02:15:24 | INFO: Extracting primitive: Individual business lettering
+02:15:24 | INFO: Primitives created: 1
+02:15:24 | INFO: Finished glTF 2.0 export in 0.005239009857177734 s
+
+ENGINE_BUILDING 333 352 248142932 7498
+02:15:24 | INFO: Starting glTF 2.0 export
+02:15:24 | INFO: Extracting primitive: 248142934 E09 east observed block / recess shadow
+02:15:24 | INFO: Primitives created: 1
+02:15:24 | INFO: Extracting primitive: Individual business lettering
+02:15:24 | INFO: Primitives created: 1
+02:15:24 | INFO: Finished glTF 2.0 export in 0.00570225715637207 s
+
+ENGINE_BUILDING 334 352 248142934 9362
+02:15:25 | INFO: Starting glTF 2.0 export
+02:15:25 | INFO: Extracting primitive: 248142936 E09 east observed block / recess shadow
+02:15:25 | INFO: Primitives created: 1
+02:15:25 | INFO: Extracting primitive: Individual business lettering
+02:15:25 | INFO: Primitives created: 1
+02:15:25 | INFO: Finished glTF 2.0 export in 0.008898019790649414 s
+
+ENGINE_BUILDING 335 352 248142936 18992
+02:15:25 | INFO: Starting glTF 2.0 export
+02:15:25 | INFO: Extracting primitive: 248142938 E09 east observed block / recess shadow
+02:15:25 | INFO: Primitives created: 1
+02:15:25 | INFO: Extracting primitive: Individual business lettering
+02:15:25 | INFO: Primitives created: 1
+02:15:25 | INFO: Finished glTF 2.0 export in 0.03387808799743652 s
+
+ENGINE_BUILDING 336 352 248142938 94058
+02:15:25 | INFO: Starting glTF 2.0 export
+02:15:25 | INFO: Extracting primitive: 248142940 E09 east observed block / opal lamp
+02:15:25 | INFO: Primitives created: 1
+02:15:25 | INFO: Extracting primitive: 248142940 E09 east observed block / recess shadow
+02:15:25 | INFO: Primitives created: 1
+02:15:25 | INFO: Extracting primitive: Individual business lettering
+02:15:25 | INFO: Primitives created: 1
+02:15:25 | INFO: Finished glTF 2.0 export in 0.011445999145507812 s
+
+ENGINE_BUILDING 337 352 248142940 23993
+02:15:25 | INFO: Starting glTF 2.0 export
+02:15:25 | INFO: Extracting primitive: 248142942 E09 east observed block / recess shadow
+02:15:25 | INFO: Primitives created: 1
+02:15:25 | INFO: Extracting primitive: Individual business lettering
+02:15:25 | INFO: Primitives created: 1
+02:15:25 | INFO: Extracting primitive: 248142942 E09 east observed block / store09 clear glass
+02:15:25 | INFO: Primitives created: 1
+02:15:25 | INFO: Finished glTF 2.0 export in 0.013369083404541016 s
+
+ENGINE_BUILDING 338 352 248142942 27749
+02:15:25 | INFO: Starting glTF 2.0 export
+02:15:25 | INFO: Extracting primitive: 248142944 E09 east observed block / recess shadow
+02:15:25 | INFO: Primitives created: 1
+02:15:25 | INFO: Extracting primitive: Individual business lettering
+02:15:25 | INFO: Primitives created: 1
+02:15:25 | INFO: Extracting primitive: 248142944 E09 east observed block / store09 clear glass
+02:15:25 | INFO: Primitives created: 1
+02:15:25 | INFO: Finished glTF 2.0 export in 0.024798870086669922 s
+
+ENGINE_BUILDING 339 352 248142944 62480
+02:15:26 | INFO: Starting glTF 2.0 export
+02:15:26 | INFO: Extracting primitive: 248142945 E09 east observed block / recess shadow
+02:15:26 | INFO: Primitives created: 1
+02:15:26 | INFO: Extracting primitive: Individual business lettering
+02:15:26 | INFO: Primitives created: 1
+02:15:26 | INFO: Extracting primitive: 248142945 E09 east observed block / store09 clear glass
+02:15:26 | INFO: Primitives created: 1
+02:15:26 | INFO: Finished glTF 2.0 export in 0.03254508972167969 s
+
+ENGINE_BUILDING 340 352 248142945 84723
+02:15:26 | INFO: Starting glTF 2.0 export
+02:15:26 | INFO: Extracting primitive: 248142947 E09 east observed block / opal lamp
+02:15:26 | INFO: Primitives created: 1
+02:15:26 | INFO: Extracting primitive: 248142947 E09 east observed block / recess shadow
+02:15:26 | INFO: Primitives created: 1
+02:15:26 | INFO: Extracting primitive: Individual business lettering
+02:15:26 | INFO: Primitives created: 1
+02:15:26 | INFO: Extracting primitive: 248142947 E09 east observed block / store09 clear glass
+02:15:26 | INFO: Primitives created: 1
+02:15:26 | INFO: Finished glTF 2.0 export in 0.014847040176391602 s
+
+ENGINE_BUILDING 341 352 248142947 30923
+02:15:26 | INFO: Starting glTF 2.0 export
+02:15:26 | INFO: Extracting primitive: 248142948 E09 east observed block / recess shadow
+02:15:26 | INFO: Primitives created: 1
+02:15:26 | INFO: Extracting primitive: Individual business lettering
+02:15:26 | INFO: Primitives created: 1
+02:15:26 | INFO: Extracting primitive: 248142948 E09 east observed block / store09 clear glass
+02:15:26 | INFO: Primitives created: 1
+02:15:26 | INFO: Finished glTF 2.0 export in 0.017976045608520508 s
+
+ENGINE_BUILDING 342 352 248142948 39101
+02:15:26 | INFO: Starting glTF 2.0 export
+02:15:26 | INFO: Extracting primitive: 248142950 E09 east observed block / opal lamp
+02:15:26 | INFO: Primitives created: 1
+02:15:26 | INFO: Extracting primitive: 248142950 E09 east observed block / recess shadow
+02:15:26 | INFO: Primitives created: 1
+02:15:26 | INFO: Extracting primitive: Individual business lettering
+02:15:26 | INFO: Primitives created: 1
+02:15:26 | INFO: Extracting primitive: 248142950 E09 east observed block / store09 clear glass
+02:15:26 | INFO: Primitives created: 1
+02:15:26 | INFO: Finished glTF 2.0 export in 0.02530837059020996 s
+
+ENGINE_BUILDING 343 352 248142950 59389
+02:15:27 | INFO: Starting glTF 2.0 export
+02:15:27 | INFO: Extracting primitive: Individual business lettering
+02:15:27 | INFO: Primitives created: 1
+02:15:27 | INFO: Extracting primitive: 248142953 Tenth east individually observed / eb red wood
+02:15:27 | INFO: Primitives created: 1
+02:15:27 | INFO: Finished glTF 2.0 export in 0.14954900741577148 s
+
+ENGINE_BUILDING 344 352 248142953 413493
+02:15:28 | INFO: Starting glTF 2.0 export
+02:15:28 | INFO: Extracting primitive: Individual business lettering
+02:15:28 | INFO: Primitives created: 1
+02:15:28 | INFO: Extracting primitive: 248142955 E09 east observed block / ee school green
+02:15:28 | INFO: Primitives created: 1
+02:15:28 | INFO: Finished glTF 2.0 export in 0.03835415840148926 s
+
+ENGINE_BUILDING 345 352 248142955 99296
+02:15:28 | INFO: Starting glTF 2.0 export
+02:15:28 | INFO: Extracting primitive: 248142963 E09 east observed block / opal lamp
+02:15:28 | INFO: Primitives created: 1
+02:15:28 | INFO: Extracting primitive: Individual business lettering.017
+02:15:28 | INFO: Primitives created: 1
+02:15:28 | INFO: Extracting primitive: Individual business lettering
+02:15:28 | INFO: Primitives created: 1
+02:15:28 | INFO: Finished glTF 2.0 export in 0.031481266021728516 s
+
+ENGINE_BUILDING 346 352 248142963 73698
+02:15:28 | INFO: Starting glTF 2.0 export
+02:15:28 | INFO: Extracting primitive: 248142975 Tenth east individually observed / recess shadow
+02:15:28 | INFO: Primitives created: 1
+02:15:28 | INFO: Extracting primitive: Individual business lettering
+02:15:28 | INFO: Primitives created: 1
+02:15:28 | INFO: Finished glTF 2.0 export in 0.016204118728637695 s
+
+ENGINE_BUILDING 347 352 248142975 39542
+02:15:28 | INFO: Starting glTF 2.0 export
+02:15:28 | INFO: Extracting primitive: 92 East 7th Street · reference observed / store glass
+02:15:28 | INFO: Primitives created: 1
+02:15:28 | INFO: Extracting primitive: 92 East 7th Street · reference observed / recess shadow
+02:15:28 | INFO: Primitives created: 1
+02:15:28 | INFO: Finished glTF 2.0 export in 0.004021883010864258 s
+
+ENGINE_BUILDING 348 352 951679435 4073
+02:15:29 | INFO: Starting glTF 2.0 export
+02:15:29 | INFO: Extracting primitive: 45 East 7th Street · reference observed / store glass
+02:15:29 | INFO: Primitives created: 1
+02:15:29 | INFO: Extracting primitive: 45 East 7th Street · reference observed / curtain amber
+02:15:29 | INFO: Primitives created: 1
+02:15:29 | INFO: Extracting primitive: 45 East 7th Street · reference observed / black iron
+02:15:29 | INFO: Primitives created: 1
+02:15:29 | INFO: Finished glTF 2.0 export in 0.020215749740600586 s
+
+ENGINE_BUILDING 349 352 978475216 50660
+02:15:29 | INFO: Starting glTF 2.0 export
+02:15:29 | INFO: Extracting primitive: 1063735559 E09 observed block / recess shadow
+02:15:29 | INFO: Primitives created: 1
+02:15:29 | INFO: Extracting primitive: 1063735559 E09 observed block / eb plywood
+02:15:29 | INFO: Primitives created: 1
+02:15:29 | INFO: Finished glTF 2.0 export in 0.005816936492919922 s
+
+ENGINE_BUILDING 350 352 1063735559 9972
+02:15:29 | INFO: Starting glTF 2.0 export
+02:15:29 | INFO: Extracting primitive: -577810 Tenth east individually observed / recess shadow
+02:15:29 | INFO: Primitives created: 1
+02:15:29 | INFO: Extracting primitive: Individual business lettering
+02:15:29 | INFO: Primitives created: 1
+02:15:29 | INFO: Finished glTF 2.0 export in 0.027173995971679688 s
+
+ENGINE_BUILDING 351 352 -577810 76089
+02:15:29 | INFO: Starting glTF 2.0 export
+02:15:29 | INFO: Extracting primitive: 73-75 East 7th Street · reference observed / store glass
+02:15:29 | INFO: Primitives created: 1
+02:15:29 | INFO: Extracting primitive: 73-75 East 7th Street · reference observed / recess shadow
+02:15:29 | INFO: Primitives created: 1
+02:15:29 | INFO: Finished glTF 2.0 export in 0.0172579288482666 s
+
+ENGINE_BUILDING 352 352 -177966 43919
+ENGINE_EXPORT_COMPLETE 352 13217133
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 01:35:57)
+
+Blender quit

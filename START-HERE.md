@@ -1,8 +1,20 @@
 # Run DriveAround.nyc locally
 
+<!-- current-project-status -->
+> **Current October 25 assignment:** Refresh documentation, improve the bottom-left minimap and browser loading/rendering, publish the completed 397-building result, then implement Eleventh First–Avenue A and Twelfth Second–First, both sides. Publication and the two blocks are authorized; continue without routine stage questions. See the [current handoff](CODEX-HANDOFF.md) for actual save/live state and [browser scaling](docs/BROWSER-SCALING.md) for implementation and remaining capacity limits. Earlier dated checkpoints below remain historical.
+<!-- /current-project-status -->
+
+**October 25 completed assignment:** All three blocks—Tenth Second–First, Tenth First–Avenue A, and Eleventh Second–First, both sides—are complete locally: 91 reviewed planes, 397 buildings / 398 scenes. Main/live remain the verified 295-model `e1155e5`; new three-block work is local/uncommitted. Ten browser routes, ten boundaries, four cameras/reset, 17 addresses, preservation and recorded startup/weather checks pass. Dated evidence, fine-art and height/depth limits remain explicit. No fourth block is queued. Preserve cache/tools/original/private files and read the [current handoff](CODEX-HANDOFF.md) for exact build, evidence and next review step.
+
+**October 25 active:** Both Tenth blocks are complete locally; final east candidate06 has375 buildings/376 scenes. Main/live remain295-model `e1155e5`. Continue the assigned third block, Eleventh Second–First, both sides (`01-E11-21`), without stage permission.26planes/22owners are inventoried, research next. Preserve all352 ordinary models,24 frozen core scenes, cache/tools/original/private files. [Current handoff](CODEX-HANDOFF.md) records exact validation, source limits and publication state.
+
+**October 25 current:** Tenth Second–First is complete locally; preview north on First, left on Tenth. Two further blocks are assigned and in progress. Main/live remain the295-model release; read the current handoff for exact states and review/performance limits.
+
 **October 24 current state:** the 295-model expansion and review evidence are pushed to `main`; final CI, deployment and live-file/cache verification pass. Follow the [current handoff](CODEX-HANDOFF.md) for exact CI/live state and the assigned Tenth block. Existing tools, login and cached models remain ready; the restart commands below still apply. Earlier October 23 publication statements describe that dated checkpoint.
 
 ## After restarting VS Code or Terminal
+
+**Current resume:** Continue the authorized minimap/scaling, publication and two-block assignment from the newest handoff. Preserve the dirty worktree and caches; run `npm run dev -- 5181` only if the preview is absent. No repeated installation, login or stage approval is needed.
 
 **October 23 close:** the project was transferred to this new laptop, its tools and Street View access were restored/tested, and the user is restarting VS Code before returning. Saved work and installed tools persist; terminal-launched preview/browser processes may need restarting. The **295-model expansion is local/uncommitted**; GitHub/live still have the earlier **203-model revision 09**, as checked during restoration. Read [CODEX-HANDOFF.md](CODEX-HANDOFF.md) first. No reinstall, new GitHub login, new model build or publication is needed just to resume.
 

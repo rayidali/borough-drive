@@ -1,5 +1,9 @@
 # West Seventh streetscape anchors — September 15, 2026
 
+<!-- current-project-status -->
+> **Current status:** The [project handoff](../CODEX-HANDOFF.md) governs current scope, publication and next work. This file retains its dated observations, evidence or specialist instructions. See [browser scaling](../docs/BROWSER-SCALING.md) for the current loading/rendering work; older model counts and paused states describe their original checkpoints.
+<!-- /current-project-status -->
+
 **October 11 continuation:** [First Avenue / St. Marks revision 09](SEVENTH-ENGINE-09.md) is user-endorsed for publication. It preserves this dated Seventh/interface work; the results and package hashes below remain historical. Read the [current handoff](../CODEX-HANDOFF.md) for the verified release and next authorized action.
 
 The bounded First–Second East 7th pass uses the dated view metadata in [`west-seventh-reference-04.json`](west-seventh-reference-04.json) and the runtime ledger in [`west_seventh_streetscape.json`](../engine/first-seventh/assets/west_seventh_streetscape.json). It does not claim a survey, current municipal inventory, or 1:1 acceptance.

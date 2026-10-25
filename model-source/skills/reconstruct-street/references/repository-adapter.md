@@ -1,5 +1,9 @@
 # Borough Drive source, build and review adapter
 
+<!-- current-project-status -->
+> **Current status:** The [project handoff](../../../../CODEX-HANDOFF.md) governs current scope, publication and next work. This file retains its dated observations, evidence or specialist instructions. See [browser scaling](../../../../docs/BROWSER-SCALING.md) for the current loading/rendering work; older model counts and paused states describe their original checkpoints.
+<!-- /current-project-status -->
+
 ## October 23 new-laptop and restart setup
 
 The user transferred the full working project and is restarting VS Code/Terminal after successful restoration. [START-HERE](../../../../START-HERE.md#after-restarting-vs-code-or-terminal) is the canonical launch/tool guide; [CODEX-HANDOFF](../../../../CODEX-HANDOFF.md) records the exact current save state. The local 295-model package is uncommitted; the restoration checked GitHub/live at 203-model revision 09. Do not infer a new block or publication from this setup close.

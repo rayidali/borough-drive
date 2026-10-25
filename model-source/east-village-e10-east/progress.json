@@ -1,0 +1,27 @@
+{
+  "updatedAt": "2026-10-25T08:09:46.401836+00:00",
+  "assignment": [
+    "01-E10-21",
+    "01-E10-1A",
+    "01-E11-21"
+  ],
+  "firstBlock": "complete locally; final candidate 2026-10-25T05:30:04.052Z",
+  "activeBlock": "01-E11-21",
+  "state": "Complete locally with recorded dated-source/artwork/performance limits; final candidate06.",
+  "counts": {
+    "facades": 36,
+    "owners": 30,
+    "openings": 619,
+    "entries": 37,
+    "shopfronts": 26
+  },
+  "sourceLedger": "observations.json",
+  "sources": "83 previous ledger records including one rejected wrong subject; one supplementary dated Le Phin record with six inspected images. Source count is not acceptance.",
+  "geometry": "352 ordinary models plus23 protected core owners and1 detail scene:375 buildings/376 scenes.322 preceding ordinary pairs and24 core scenes preserved.",
+  "thirdBlock": "01-E11-21 assigned;26planes/22owners inventoried, research next.",
+  "publication": "main/origin/live e1155e58e6084052b592c291a4cabd67281a3b21 unchanged; new blocks local/uncommitted.",
+  "next": "Complete assigned Eleventh Second–First, both sides; third block currently inventory only. No stage approval needed.",
+  "exportLimits": "Church 248142953 measured 8,469,930 bytes in second candidate; explicit 16 MiB scene allowance, same as previously measured 204 Tenth. Aggregate 32 MiB staging unchanged. No detail removed.",
+  "validation": "validation.json",
+  "report": "../EAST-VILLAGE-E10-EAST.md"
+}

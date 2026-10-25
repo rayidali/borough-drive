@@ -1,5 +1,9 @@
 # 01-E09-21-N01B — 339–333 East Ninth
 
+<!-- current-project-status -->
+> **Current status:** The [project handoff](../CODEX-HANDOFF.md) governs current scope, publication and next work. This file retains its dated observations, evidence or specialist instructions. See [browser scaling](../docs/BROWSER-SCALING.md) for the current loading/rendering work; older model counts and paused states describe their original checkpoints.
+<!-- /current-project-status -->
+
 October 14, 2026. **Complete locally, within the dated-source and review limits below.** The user's later shutdown/recovery request resumed this same packet. Nothing was published.
 
 The user’s “keep on going ahead” assigns four north-side Ninth faces: `247852687:0`, `247852686:0`, `247852685:0`, `247852684:0`. This is the second child of `01-E09-21-N01`, under corridor `01-E09-21`. All 217 preceding models, original game, UI/audio/handling, frozen geography and both private screenshots remain protected. Publication is not requested.

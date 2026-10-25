@@ -1,0 +1,1568 @@
+{
+  "schema": 1,
+  "id": "01-E11-21",
+  "recorded": "2026-10-25T04:27:14.680771+00:00",
+  "mode": "authorized implementation; dated ordinary-browser source inspection active",
+  "scope": {
+    "street": "East 11th Street",
+    "from": "Second Avenue",
+    "to": "First Avenue",
+    "sides": "both",
+    "editableFaces": 26,
+    "newBuildingOwners": 22,
+    "protectedFaces": 0,
+    "limits": "26 mapped building planes on22 new owners plus three observed open site edges. Same-parcel First/Second returns are assigned; Twelfth-facing facade and adjacent avenue roads remain outside detailed expansion.",
+    "siteEdges": 3
+  },
+  "input": {
+    "path": "dist/reconstruction/neighborhood.json",
+    "sha256": "fd61b108e80eab18d477686b677413ef565f1ab16edc26170751347e22651a5c"
+  },
+  "faces": [
+    {
+      "faceId": "247851916:0",
+      "buildingId": 247851916,
+      "frontageIndex": 0,
+      "mappedAddress": "304 East 11th Street",
+      "mappedName": "",
+      "sourceFace": {
+        "x": -165.651,
+        "z": -66.949,
+        "rx": -0.9999997750367028,
+        "rz": 0.0006707656400470037,
+        "length": 8.945,
+        "street": "East 11th Street"
+      },
+      "sourceFootprint": [
+        [
+          -165.619,
+          -59.999
+        ],
+        [
+          -166.739,
+          -59.236
+        ],
+        [
+          -166.671,
+          -45.505
+        ],
+        [
+          -165.564,
+          -45.51
+        ],
+        [
+          -165.536,
+          -41.398
+        ],
+        [
+          -174.488,
+          -41.388
+        ],
+        [
+          -174.495,
+          -43.588
+        ],
+        [
+          -174.508,
+          -45.504
+        ],
+        [
+          -173.252,
+          -45.501
+        ],
+        [
+          -173.307,
+          -59.227
+        ],
+        [
+          -174.563,
+          -59.993
+        ],
+        [
+          -174.596,
+          -66.943
+        ],
+        [
+          -165.651,
+          -66.949
+        ]
+      ],
+      "sourceHeight": 18.32,
+      "role": "primary",
+      "evidenceState": "needs fresh dated observation",
+      "reviewState": "not authored"
+    },
+    {
+      "faceId": "247851917:0",
+      "buildingId": 247851917,
+      "frontageIndex": 0,
+      "mappedAddress": "305 East 11th Street",
+      "mappedName": "",
+      "sourceFace": {
+        "x": -183.211,
+        "z": -85.423,
+        "rx": 0.9999988419990719,
+        "rz": 0.0015218411596429518,
+        "length": 33.512,
+        "street": "East 11th Street"
+      },
+      "sourceFootprint": [
+        [
+          -149.699,
+          -85.372
+        ],
+        [
+          -183.211,
+          -85.423
+        ],
+        [
+          -183.196,
+          -92.946
+        ],
+        [
+          -183.188,
+          -101.039
+        ],
+        [
+          -183.18,
+          -101.527
+        ],
+        [
+          -176.383,
+          -101.524
+        ],
+        [
+          -176.379,
+          -104.52
+        ],
+        [
+          -156.133,
+          -104.493
+        ],
+        [
+          -156.135,
+          -101.46
+        ],
+        [
+          -149.672,
+          -101.449
+        ]
+      ],
+      "sourceHeight": 15.14,
+      "role": "primary",
+      "evidenceState": "needs fresh dated observation",
+      "reviewState": "not authored"
+    },
+    {
+      "faceId": "247851918:0",
+      "buildingId": 247851918,
+      "frontageIndex": 0,
+      "mappedAddress": "306 East 11th Street",
+      "mappedName": "",
+      "sourceFace": {
+        "x": -156.25,
+        "z": -66.967,
+        "rx": -0.9999981669862824,
+        "rz": 0.001914686416950723,
+        "length": 9.401,
+        "street": "East 11th Street"
+      },
+      "sourceFootprint": [
+        [
+          -156.225,
+          -60.013
+        ],
+        [
+          -157.428,
+          -59.243
+        ],
+        [
+          -157.404,
+          -53.906
+        ],
+        [
+          -158.118,
+          -53.904
+        ],
+        [
+          -158.106,
+          -51.453
+        ],
+        [
+          -157.392,
+          -51.454
+        ],
+        [
+          -157.366,
+          -45.47
+        ],
+        [
+          -156.155,
+          -44.768
+        ],
+        [
+          -156.142,
+          -41.412
+        ],
+        [
+          -165.536,
+          -41.398
+        ],
+        [
+          -165.564,
+          -45.51
+        ],
+        [
+          -164.097,
+          -45.51
+        ],
+        [
+          -164.152,
+          -59.236
+        ],
+        [
+          -165.619,
+          -59.999
+        ],
+        [
+          -165.651,
+          -66.949
+        ],
+        [
+          -156.25,
+          -66.967
+        ]
+      ],
+      "sourceHeight": 18.26,
+      "role": "primary",
+      "evidenceState": "needs fresh dated observation",
+      "reviewState": "not authored"
+    },
+    {
+      "faceId": "247851919:0",
+      "buildingId": 247851919,
+      "frontageIndex": 0,
+      "mappedAddress": "310 East 11th Street",
+      "mappedName": "",
+      "sourceFace": {
+        "x": -141.689,
+        "z": -66.975,
+        "rx": -0.9999998490728135,
+        "rz": 0.000549412732132276,
+        "length": 14.561,
+        "street": "East 11th Street"
+      },
+      "sourceFootprint": [
+        [
+          -141.578,
+          -40.06
+        ],
+        [
+          -156.133,
+          -40.042
+        ],
+        [
+          -156.142,
+          -41.412
+        ],
+        [
+          -156.155,
+          -44.768
+        ],
+        [
+          -156.225,
+          -60.013
+        ],
+        [
+          -156.25,
+          -66.967
+        ],
+        [
+          -141.689,
+          -66.975
+        ],
+        [
+          -141.584,
+          -41.495
+        ]
+      ],
+      "sourceHeight": 24.68,
+      "role": "primary",
+      "evidenceState": "needs fresh dated observation",
+      "reviewState": "not authored"
+    },
+    {
+      "faceId": "247851921:0",
+      "buildingId": 247851921,
+      "frontageIndex": 0,
+      "mappedAddress": "314 East 11th Street",
+      "mappedName": "",
+      "sourceFace": {
+        "x": -137.41,
+        "z": -66.986,
+        "rx": -0.9999966957823313,
+        "rz": 0.0025706855932730883,
+        "length": 4.279,
+        "street": "East 11th Street"
+      },
+      "sourceFootprint": [
+        [
+          -137.383,
+          -61.053
+        ],
+        [
+          -138.574,
+          -60.123
+        ],
+        [
+          -138.555,
+          -55.523
+        ],
+        [
+          -139.22,
+          -55.522
+        ],
+        [
+          -139.199,
+          -51.509
+        ],
+        [
+          -138.463,
+          -50.81
+        ],
+        [
+          -138.45,
+          -48.409
+        ],
+        [
+          -137.327,
+          -47.709
+        ],
+        [
+          -137.299,
+          -41.496
+        ],
+        [
+          -141.584,
+          -41.495
+        ],
+        [
+          -141.689,
+          -66.975
+        ],
+        [
+          -137.41,
+          -66.986
+        ]
+      ],
+      "sourceHeight": 17.52,
+      "role": "primary",
+      "evidenceState": "needs fresh dated observation",
+      "reviewState": "not authored"
+    },
+    {
+      "faceId": "247851922:0",
+      "buildingId": 247851922,
+      "frontageIndex": 0,
+      "mappedAddress": "316 East 11th Street",
+      "mappedName": "",
+      "sourceFace": {
+        "x": -129.776,
+        "z": -66.989,
+        "rx": -0.9999999227838484,
+        "rz": 0.0003929787488016328,
+        "length": 7.634,
+        "street": "East 11th Street"
+      },
+      "sourceFootprint": [
+        [
+          -129.749,
+          -61.056
+        ],
+        [
+          -130.702,
+          -60.131
+        ],
+        [
+          -130.683,
+          -55.531
+        ],
+        [
+          -131.594,
+          -54.566
+        ],
+        [
+          -131.586,
+          -51.513
+        ],
+        [
+          -130.659,
+          -50.819
+        ],
+        [
+          -130.654,
+          -48.414
+        ],
+        [
+          -129.687,
+          -47.716
+        ],
+        [
+          -129.668,
+          -42.059
+        ],
+        [
+          -129.659,
+          -41.504
+        ],
+        [
+          -137.299,
+          -41.496
+        ],
+        [
+          -137.327,
+          -47.709
+        ],
+        [
+          -136.433,
+          -48.41
+        ],
+        [
+          -136.438,
+          -50.815
+        ],
+        [
+          -135.444,
+          -51.508
+        ],
+        [
+          -135.457,
+          -54.57
+        ],
+        [
+          -136.462,
+          -55.527
+        ],
+        [
+          -136.476,
+          -60.117
+        ],
+        [
+          -137.383,
+          -61.053
+        ],
+        [
+          -137.41,
+          -66.986
+        ],
+        [
+          -129.776,
+          -66.989
+        ]
+      ],
+      "sourceHeight": 17.16,
+      "role": "primary",
+      "evidenceState": "needs fresh dated observation",
+      "reviewState": "not authored"
+    },
+    {
+      "faceId": "247851923:0",
+      "buildingId": 247851923,
+      "frontageIndex": 0,
+      "mappedAddress": "318 East 11th Street",
+      "mappedName": "",
+      "sourceFace": {
+        "x": -122.284,
+        "z": -67.003,
+        "rx": -0.9999982540596543,
+        "rz": 0.0018686566413282095,
+        "length": 7.492,
+        "street": "East 11th Street"
+      },
+      "sourceFootprint": [
+        [
+          -122.264,
+          -61.448
+        ],
+        [
+          -123.97,
+          -61.442
+        ],
+        [
+          -124.439,
+          -60.48
+        ],
+        [
+          -124.358,
+          -42.056
+        ],
+        [
+          -129.668,
+          -42.059
+        ],
+        [
+          -129.687,
+          -47.716
+        ],
+        [
+          -129.749,
+          -61.056
+        ],
+        [
+          -129.776,
+          -66.989
+        ],
+        [
+          -122.284,
+          -67.003
+        ]
+      ],
+      "sourceHeight": 19.16,
+      "role": "primary",
+      "evidenceState": "needs fresh dated observation",
+      "reviewState": "not authored"
+    },
+    {
+      "faceId": "247851924:0",
+      "buildingId": 247851924,
+      "frontageIndex": 0,
+      "mappedAddress": "320 East 11th Street",
+      "mappedName": "",
+      "sourceFace": {
+        "x": -114.432,
+        "z": -67.013,
+        "rx": -0.9999991890223339,
+        "rz": 0.0012735598433811068,
+        "length": 7.852,
+        "street": "East 11th Street"
+      },
+      "sourceFootprint": [
+        [
+          -114.383,
+          -55.016
+        ],
+        [
+          -122.235,
+          -55.006
+        ],
+        [
+          -122.264,
+          -61.448
+        ],
+        [
+          -122.284,
+          -67.003
+        ],
+        [
+          -114.432,
+          -67.013
+        ],
+        [
+          -114.413,
+          -61.406
+        ]
+      ],
+      "sourceHeight": 11.63,
+      "role": "primary",
+      "evidenceState": "needs fresh dated observation",
+      "reviewState": "not authored"
+    },
+    {
+      "faceId": "247851925:0",
+      "buildingId": 247851925,
+      "frontageIndex": 0,
+      "mappedAddress": "322 East 11th Street",
+      "mappedName": "",
+      "sourceFace": {
+        "x": -107.186,
+        "z": -67.017,
+        "rx": -0.9999998476321891,
+        "rz": 0.000552028621379994,
+        "length": 7.246,
+        "street": "East 11th Street"
+      },
+      "sourceFootprint": [
+        [
+          -114.363,
+          -48.888
+        ],
+        [
+          -113.484,
+          -49.963
+        ],
+        [
+          -113.501,
+          -52.717
+        ],
+        [
+          -112.19,
+          -52.72
+        ],
+        [
+          -112.2,
+          -54.371
+        ],
+        [
+          -113.504,
+          -54.372
+        ],
+        [
+          -113.531,
+          -59.872
+        ],
+        [
+          -114.413,
+          -61.406
+        ],
+        [
+          -114.432,
+          -67.013
+        ],
+        [
+          -107.186,
+          -67.017
+        ],
+        [
+          -107.159,
+          -61.415
+        ],
+        [
+          -108.103,
+          -59.884
+        ],
+        [
+          -108.088,
+          -56.835
+        ],
+        [
+          -108.794,
+          -56.838
+        ],
+        [
+          -108.776,
+          -53.23
+        ],
+        [
+          -108.07,
+          -53.228
+        ],
+        [
+          -108.059,
+          -49.961
+        ],
+        [
+          -107.11,
+          -48.896
+        ],
+        [
+          -107.077,
+          -42.902
+        ],
+        [
+          -114.337,
+          -42.903
+        ],
+        [
+          -114.352,
+          -45.761
+        ]
+      ],
+      "sourceHeight": 22.63,
+      "role": "primary",
+      "evidenceState": "needs fresh dated observation",
+      "reviewState": "not authored"
+    },
+    {
+      "faceId": "247851926:0",
+      "buildingId": 247851926,
+      "frontageIndex": 0,
+      "mappedAddress": "326 East 11th Street",
+      "mappedName": "",
+      "sourceFace": {
+        "x": -91.626,
+        "z": -67.034,
+        "rx": -0.9999993024993348,
+        "rz": 0.0011811015383850873,
+        "length": 7.62,
+        "street": "East 11th Street"
+      },
+      "sourceFootprint": [
+        [
+          -91.6,
+          -61.138
+        ],
+        [
+          -92.665,
+          -60.049
+        ],
+        [
+          -92.65,
+          -57.281
+        ],
+        [
+          -91.58,
+          -56.016
+        ],
+        [
+          -91.568,
+          -53.233
+        ],
+        [
+          -93.911,
+          -53.23
+        ],
+        [
+          -93.895,
+          -49.417
+        ],
+        [
+          -91.552,
+          -49.421
+        ],
+        [
+          -91.533,
+          -44.821
+        ],
+        [
+          -91.52,
+          -42.472
+        ],
+        [
+          -99.14,
+          -42.463
+        ],
+        [
+          -99.159,
+          -46.159
+        ],
+        [
+          -98.317,
+          -46.156
+        ],
+        [
+          -98.331,
+          -49.409
+        ],
+        [
+          -97.332,
+          -49.417
+        ],
+        [
+          -97.347,
+          -53.229
+        ],
+        [
+          -99.188,
+          -53.225
+        ],
+        [
+          -99.197,
+          -56.035
+        ],
+        [
+          -98.66,
+          -56.041
+        ],
+        [
+          -98.242,
+          -57.356
+        ],
+        [
+          -98.248,
+          -60.04
+        ],
+        [
+          -98.71,
+          -61.426
+        ],
+        [
+          -99.22,
+          -61.423
+        ],
+        [
+          -99.246,
+          -67.025
+        ],
+        [
+          -91.626,
+          -67.034
+        ]
+      ],
+      "sourceHeight": 20.55,
+      "role": "primary",
+      "evidenceState": "needs fresh dated observation",
+      "reviewState": "not authored"
+    },
+    {
+      "faceId": "247851927:0",
+      "buildingId": 247851927,
+      "frontageIndex": 0,
+      "mappedAddress": "328 East 11th Street",
+      "mappedName": "",
+      "sourceFace": {
+        "x": -84.081,
+        "z": -67.039,
+        "rx": -0.9999997804207074,
+        "rz": 0.0006626903780117944,
+        "length": 7.545,
+        "street": "East 11th Street"
+      },
+      "sourceFootprint": [
+        [
+          -83.98,
+          -44.83
+        ],
+        [
+          -91.533,
+          -44.821
+        ],
+        [
+          -91.552,
+          -49.421
+        ],
+        [
+          -91.568,
+          -53.233
+        ],
+        [
+          -91.58,
+          -56.016
+        ],
+        [
+          -91.6,
+          -61.138
+        ],
+        [
+          -91.626,
+          -67.034
+        ],
+        [
+          -84.081,
+          -67.039
+        ]
+      ],
+      "sourceHeight": 16.5,
+      "role": "primary",
+      "evidenceState": "needs fresh dated observation",
+      "reviewState": "not authored"
+    },
+    {
+      "faceId": "247851928:0",
+      "buildingId": 247851928,
+      "frontageIndex": 0,
+      "mappedAddress": "330 East 11th Street",
+      "mappedName": "",
+      "sourceFace": {
+        "x": -76.399,
+        "z": -67.043,
+        "rx": -0.999999864436962,
+        "rz": 0.0005206976643781223,
+        "length": 7.682,
+        "street": "East 11th Street"
+      },
+      "sourceFootprint": [
+        [
+          -76.306,
+          -44.83
+        ],
+        [
+          -83.98,
+          -44.83
+        ],
+        [
+          -84.081,
+          -67.039
+        ],
+        [
+          -76.399,
+          -67.043
+        ]
+      ],
+      "sourceHeight": 16.4,
+      "role": "primary",
+      "evidenceState": "needs fresh dated observation",
+      "reviewState": "not authored"
+    },
+    {
+      "faceId": "247851929:0",
+      "buildingId": 247851929,
+      "frontageIndex": 0,
+      "mappedAddress": "332 East 11th Street",
+      "mappedName": "",
+      "sourceFace": {
+        "x": -68.819,
+        "z": -67.055,
+        "rx": -0.9999987468782475,
+        "rz": 0.0015831114726305312,
+        "length": 7.58,
+        "street": "East 11th Street"
+      },
+      "sourceFootprint": [
+        [
+          -68.698,
+          -38.247
+        ],
+        [
+          -76.278,
+          -38.235
+        ],
+        [
+          -76.306,
+          -44.83
+        ],
+        [
+          -76.399,
+          -67.043
+        ],
+        [
+          -68.819,
+          -67.055
+        ],
+        [
+          -68.726,
+          -44.842
+        ]
+      ],
+      "sourceHeight": 16.72,
+      "role": "primary",
+      "evidenceState": "needs fresh dated observation",
+      "reviewState": "not authored"
+    },
+    {
+      "faceId": "247851930:0",
+      "buildingId": 247851930,
+      "frontageIndex": 0,
+      "mappedAddress": "334 East 11th Street",
+      "mappedName": "",
+      "sourceFace": {
+        "x": -61.246,
+        "z": -67.063,
+        "rx": -0.9999994420263358,
+        "rz": 0.0010563839345313947,
+        "length": 7.573,
+        "street": "East 11th Street"
+      },
+      "sourceFootprint": [
+        [
+          -61.153,
+          -44.85
+        ],
+        [
+          -68.726,
+          -44.842
+        ],
+        [
+          -68.819,
+          -67.055
+        ],
+        [
+          -61.246,
+          -67.063
+        ],
+        [
+          -61.187,
+          -53.365
+        ],
+        [
+          -61.167,
+          -47.339
+        ]
+      ],
+      "sourceHeight": 16.37,
+      "role": "primary",
+      "evidenceState": "needs fresh dated observation",
+      "reviewState": "not authored"
+    },
+    {
+      "faceId": "247851931:0",
+      "buildingId": 247851931,
+      "frontageIndex": 0,
+      "mappedAddress": "338 East 11th Street",
+      "mappedName": "",
+      "sourceFace": {
+        "x": -53.32,
+        "z": -67.076,
+        "rx": -0.9999986549212961,
+        "rz": 0.0016401693810204222,
+        "length": 7.926,
+        "street": "East 11th Street"
+      },
+      "sourceFootprint": [
+        [
+          -53.26,
+          -53.378
+        ],
+        [
+          -61.187,
+          -53.365
+        ],
+        [
+          -61.246,
+          -67.063
+        ],
+        [
+          -53.32,
+          -67.076
+        ],
+        [
+          -53.29,
+          -59.628
+        ]
+      ],
+      "sourceHeight": 14.37,
+      "role": "primary",
+      "evidenceState": "needs fresh dated observation",
+      "reviewState": "not authored"
+    },
+    {
+      "faceId": "247851932:0",
+      "buildingId": 247851932,
+      "frontageIndex": 0,
+      "mappedAddress": "340 East 11th Street",
+      "mappedName": "",
+      "sourceFace": {
+        "x": -45.774,
+        "z": -67.081,
+        "rx": -0.999999780478901,
+        "rz": 0.000662602557965037,
+        "length": 7.546,
+        "street": "East 11th Street"
+      },
+      "sourceFootprint": [
+        [
+          -45.745,
+          -59.633
+        ],
+        [
+          -46.773,
+          -58.705
+        ],
+        [
+          -46.758,
+          -55.936
+        ],
+        [
+          -47.783,
+          -55.94
+        ],
+        [
+          -47.767,
+          -52.56
+        ],
+        [
+          -46.742,
+          -52.557
+        ],
+        [
+          -46.734,
+          -49.505
+        ],
+        [
+          -45.697,
+          -48.629
+        ],
+        [
+          -45.681,
+          -45.684
+        ],
+        [
+          -45.667,
+          -41.666
+        ],
+        [
+          -53.32,
+          -41.665
+        ],
+        [
+          -53.35,
+          -47.342
+        ],
+        [
+          -53.351,
+          -48.628
+        ],
+        [
+          -52.426,
+          -49.499
+        ],
+        [
+          -52.439,
+          -52.561
+        ],
+        [
+          -51.143,
+          -52.556
+        ],
+        [
+          -51.154,
+          -55.925
+        ],
+        [
+          -52.45,
+          -55.93
+        ],
+        [
+          -52.465,
+          -58.699
+        ],
+        [
+          -53.29,
+          -59.628
+        ],
+        [
+          -53.32,
+          -67.076
+        ],
+        [
+          -45.774,
+          -67.081
+        ]
+      ],
+      "sourceHeight": 17.18,
+      "role": "primary",
+      "evidenceState": "needs fresh dated observation",
+      "reviewState": "not authored"
+    },
+    {
+      "faceId": "247851933:0",
+      "buildingId": 247851933,
+      "frontageIndex": 0,
+      "mappedAddress": "342 East 11th Street",
+      "mappedName": "",
+      "sourceFace": {
+        "x": -34.894,
+        "z": -67.094,
+        "rx": -0.9999992861639888,
+        "rz": 0.0011948520882465873,
+        "length": 10.88,
+        "street": "East 11th Street"
+      },
+      "sourceFootprint": [
+        [
+          -34.8,
+          -45.696
+        ],
+        [
+          -42.692,
+          -45.69
+        ],
+        [
+          -45.681,
+          -45.684
+        ],
+        [
+          -45.697,
+          -48.629
+        ],
+        [
+          -45.745,
+          -59.633
+        ],
+        [
+          -45.774,
+          -67.081
+        ],
+        [
+          -34.894,
+          -67.094
+        ],
+        [
+          -34.858,
+          -60.261
+        ],
+        [
+          -34.834,
+          -53.256
+        ]
+      ],
+      "sourceHeight": 16.25,
+      "role": "primary",
+      "evidenceState": "needs fresh dated observation",
+      "reviewState": "not authored"
+    },
+    {
+      "faceId": "247851934:0",
+      "buildingId": 247851934,
+      "frontageIndex": 0,
+      "mappedAddress": "185 1st Avenue",
+      "mappedName": "",
+      "sourceFace": {
+        "x": -69.823,
+        "z": -86.635,
+        "rx": 0.9999969957720587,
+        "rz": 0.0024512133438868,
+        "length": 50.995,
+        "street": "East 11th Street"
+      },
+      "sourceFootprint": [
+        [
+          -18.828,
+          -86.51
+        ],
+        [
+          -69.823,
+          -86.635
+        ],
+        [
+          -69.876,
+          -147.12
+        ],
+        [
+          -18.881,
+          -146.996
+        ]
+      ],
+      "sourceHeight": 9.25,
+      "role": "primary",
+      "evidenceState": "needs fresh dated observation",
+      "reviewState": "not authored"
+    },
+    {
+      "faceId": "247851934:2",
+      "buildingId": 247851934,
+      "frontageIndex": 2,
+      "mappedAddress": "185 1st Avenue",
+      "mappedName": "",
+      "sourceFace": {
+        "x": -18.828,
+        "z": -86.51,
+        "rx": -0.0008762354867836899,
+        "rz": -0.9999996161056122,
+        "length": 60.486,
+        "street": "First Avenue"
+      },
+      "sourceFootprint": [
+        [
+          -18.828,
+          -86.51
+        ],
+        [
+          -69.823,
+          -86.635
+        ],
+        [
+          -69.876,
+          -147.12
+        ],
+        [
+          -18.881,
+          -146.996
+        ]
+      ],
+      "sourceHeight": 9.25,
+      "role": "same-parcel-corner-return",
+      "evidenceState": "needs fresh dated observation",
+      "reviewState": "not authored"
+    },
+    {
+      "faceId": "247851936:0",
+      "buildingId": 247851936,
+      "frontageIndex": 0,
+      "mappedAddress": "177 1st Avenue",
+      "mappedName": "",
+      "sourceFace": {
+        "x": -15.606,
+        "z": -67.107,
+        "rx": -0.9999997728659911,
+        "rz": 0.0006739940401940645,
+        "length": 19.288,
+        "street": "East 11th Street"
+      },
+      "sourceFootprint": [
+        [
+          -34.858,
+          -60.261
+        ],
+        [
+          -34.894,
+          -67.094
+        ],
+        [
+          -15.606,
+          -67.107
+        ],
+        [
+          -15.576,
+          -60.284
+        ]
+      ],
+      "sourceHeight": 12.5,
+      "role": "primary",
+      "evidenceState": "needs fresh dated observation",
+      "reviewState": "not authored"
+    },
+    {
+      "faceId": "247851936:1",
+      "buildingId": 247851936,
+      "frontageIndex": 1,
+      "mappedAddress": "177 1st Avenue",
+      "mappedName": "",
+      "sourceFace": {
+        "x": -15.576,
+        "z": -60.284,
+        "rx": -0.004396850361160978,
+        "rz": -0.9999903338067331,
+        "length": 6.823,
+        "street": "First Avenue"
+      },
+      "sourceFootprint": [
+        [
+          -34.858,
+          -60.261
+        ],
+        [
+          -34.894,
+          -67.094
+        ],
+        [
+          -15.606,
+          -67.107
+        ],
+        [
+          -15.576,
+          -60.284
+        ]
+      ],
+      "sourceHeight": 12.5,
+      "role": "same-parcel-corner-return",
+      "evidenceState": "needs fresh dated observation",
+      "reviewState": "not authored"
+    },
+    {
+      "faceId": "247851937:1",
+      "buildingId": 247851937,
+      "frontageIndex": 1,
+      "mappedAddress": "174 2nd Avenue",
+      "mappedName": "",
+      "sourceFace": {
+        "x": -213.737,
+        "z": -85.466,
+        "rx": 0.9999990078748262,
+        "rz": 0.0014086338642013269,
+        "length": 30.526,
+        "street": "East 11th Street"
+      },
+      "sourceFootprint": [
+        [
+          -213.737,
+          -85.466
+        ],
+        [
+          -213.722,
+          -92.989
+        ],
+        [
+          -198.175,
+          -92.96
+        ],
+        [
+          -186.456,
+          -92.942
+        ],
+        [
+          -183.196,
+          -92.946
+        ],
+        [
+          -183.211,
+          -85.423
+        ]
+      ],
+      "sourceHeight": 16.7,
+      "role": "primary",
+      "evidenceState": "needs fresh dated observation",
+      "reviewState": "not authored"
+    },
+    {
+      "faceId": "247851937:0",
+      "buildingId": 247851937,
+      "frontageIndex": 0,
+      "mappedAddress": "174 2nd Avenue",
+      "mappedName": "",
+      "sourceFace": {
+        "x": -213.722,
+        "z": -92.989,
+        "rx": -0.0019938814546367526,
+        "rz": 0.9999980122163968,
+        "length": 7.523,
+        "street": "Second Avenue"
+      },
+      "sourceFootprint": [
+        [
+          -213.737,
+          -85.466
+        ],
+        [
+          -213.722,
+          -92.989
+        ],
+        [
+          -198.175,
+          -92.96
+        ],
+        [
+          -186.456,
+          -92.942
+        ],
+        [
+          -183.196,
+          -92.946
+        ],
+        [
+          -183.211,
+          -85.423
+        ]
+      ],
+      "sourceHeight": 16.7,
+      "role": "same-parcel-corner-return",
+      "evidenceState": "needs fresh dated observation",
+      "reviewState": "not authored"
+    },
+    {
+      "faceId": "247851941:0",
+      "buildingId": 247851941,
+      "frontageIndex": 0,
+      "mappedAddress": "",
+      "mappedName": "",
+      "sourceFace": {
+        "x": -149.699,
+        "z": -85.372,
+        "rx": 0.999998929645671,
+        "rz": 0.001463115686537106,
+        "length": 24.605,
+        "street": "East 11th Street"
+      },
+      "sourceFootprint": [
+        [
+          -149.665,
+          -107.426
+        ],
+        [
+          -125.066,
+          -107.4
+        ],
+        [
+          -125.094,
+          -85.336
+        ],
+        [
+          -149.699,
+          -85.372
+        ],
+        [
+          -149.672,
+          -101.449
+        ]
+      ],
+      "sourceHeight": 23.87,
+      "role": "primary",
+      "evidenceState": "needs fresh dated observation",
+      "reviewState": "not authored"
+    },
+    {
+      "faceId": "247851942:1",
+      "buildingId": 247851942,
+      "frontageIndex": 1,
+      "mappedAddress": "168 2nd Avenue",
+      "mappedName": "",
+      "sourceFace": {
+        "x": -177.733,
+        "z": -66.943,
+        "rx": -0.999999241489114,
+        "rz": 0.0012316741438671748,
+        "length": 33.288,
+        "street": "East 11th Street"
+      },
+      "sourceFootprint": [
+        [
+          -210.943,
+          -48.935
+        ],
+        [
+          -211.021,
+          -66.902
+        ],
+        [
+          -177.733,
+          -66.943
+        ],
+        [
+          -177.662,
+          -51.991
+        ],
+        [
+          -199.606,
+          -51.965
+        ],
+        [
+          -199.592,
+          -48.954
+        ]
+      ],
+      "sourceHeight": 62.76,
+      "role": "primary",
+      "evidenceState": "needs fresh dated observation",
+      "reviewState": "not authored"
+    },
+    {
+      "faceId": "247851942:0",
+      "buildingId": 247851942,
+      "frontageIndex": 0,
+      "mappedAddress": "168 2nd Avenue",
+      "mappedName": "",
+      "sourceFace": {
+        "x": -211.021,
+        "z": -66.902,
+        "rx": 0.0043412514601439325,
+        "rz": 0.9999905767234808,
+        "length": 17.967,
+        "street": "Second Avenue"
+      },
+      "sourceFootprint": [
+        [
+          -210.943,
+          -48.935
+        ],
+        [
+          -211.021,
+          -66.902
+        ],
+        [
+          -177.733,
+          -66.943
+        ],
+        [
+          -177.662,
+          -51.991
+        ],
+        [
+          -199.606,
+          -51.965
+        ],
+        [
+          -199.592,
+          -48.954
+        ]
+      ],
+      "sourceHeight": 62.76,
+      "role": "same-parcel-corner-return",
+      "evidenceState": "needs fresh dated observation",
+      "reviewState": "not authored"
+    }
+  ],
+  "protectedFaces": [],
+  "massPolicy": "Reuse protected core exactly; new masses follow mapped irregular footprints with photographed setbacks/roof steps. A single mapped owner is not proof of a single uniform mass.",
+  "authorization": "Current user added two complete blocks after the ongoing Tenth west block; no stage confirmation required.",
+  "siteSupplements": [
+    "site-324-gap",
+    "site-schoolyard",
+    "site-300-304-passage"
+  ],
+  "cornerOwnership": {
+    "247851934": "Eleventh plane0 and First plane2 assigned. Entire mapped building mass may support these views; Twelfth plane1 not assigned, no new Twelfth road. First road cap extends only enough to turn at Eleventh.",
+    "247851936": "Eleventh0 and short First1 corner return assigned; do not regenerate neighboring protected core.",
+    "247851937": "Eleventh1 and Second0 return assigned; Second through-road stays closed.",
+    "247851942": "Eleventh1 and Second0 return assigned. Tall mapped62.76m mass requires high/oblique source coverage; no surveyed-height claim."
+  },
+  "limits": []
+}
