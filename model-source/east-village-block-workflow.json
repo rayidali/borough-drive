@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "recorded": "2026-10-25T10:53:45.960707+00:00",
+  "recorded": "2026-10-25T16:03:07.336583+00:00",
   "mode": "implement",
   "userDirection": "User expected roughly one block per session and asks to cover more while retaining individual building/storefront quality.",
   "definition": "One ordinary street segment between its named intersections, both sides and assigned street/corner details. Not the four-sided perimeter of a city block. Large sites/parks use separately bounded sections.",
@@ -17,8 +17,8 @@
   ],
   "quality": "Existing architectural and storefront individuality requirements remain; no generic replacement or silent omission to fit a session.",
   "timing": "Two complete block deliveries include interruptions; record wall elapsed but active time is unmeasured. No stable whole-area hour forecast.",
-  "nextBlock": null,
-  "publication": "397-building result and minimap/scaling improvements authorized for publication before the next two blocks. Pending.",
+  "nextBlock": "01-E12-21",
+  "publication": "397-building release0073ecd pushed and verified: CI Node22/24, Vercel,418 runtime hashes,5 routes and production browser smoke. Next two blocks remain assigned.",
   "completedBlocks": [
     {
       "id": "01-E09-21",
@@ -345,8 +345,13 @@
     "publication": "none"
   },
   "validation": "east-village-e11-block/validation.json",
-  "latestProgress": "east-village-e11-block/progress.json",
-  "activeBlock": null,
+  "latestProgress": {
+    "recorded": "2026-10-25T16:03:07.336583+00:00",
+    "active": "01-E11-1A",
+    "state": "31-plane/22-owner source research; no model/export change yet.",
+    "next": "Complete dated source coverage, author/review the full Eleventh-east block, then Twelfth-west with protected school ownership."
+  },
+  "activeBlock": "01-E11-1A",
   "authorizedBlockQueue": [
     "01-E11-1A",
     "01-E12-21"

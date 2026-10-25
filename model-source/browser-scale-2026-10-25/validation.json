@@ -99,8 +99,9 @@
     "batch-counts.json"
   ],
   "publication": {
-    "state": "pending",
-    "previousMain": "e1155e58e6084052b592c291a4cabd67281a3b21"
+    "state": "pushed; CI/Vercel/live HTTP and browser verified",
+    "release": "0073ecda43ad66dccf2894bd542682022d33743b",
+    "evidence": "../publication-2026-10-25/release.json"
   },
   "remainingAssignedBlocks": [
     "01-E11-1A",

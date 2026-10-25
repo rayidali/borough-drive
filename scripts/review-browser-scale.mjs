@@ -4,20 +4,22 @@ import assert from 'node:assert/strict';
 import {reviewClient,delay} from './browser-review-client.mjs';
 const out=path.resolve(process.argv[2]||'model-source/browser-scale-2026-10-25/smoke-01');
 const mode=process.argv[3]||'smoke';
+const url=process.env.BOROUGH_REVIEW_URL||'http://127.0.0.1:5181/seventh/?review=1';
 await fs.mkdir(out,{recursive:true});
 const build=JSON.parse(await fs.readFile('dist/seventh/build.json','utf8'));
-const report={date:new Date().toISOString(),build,mode,errors:[],warnings:[],failedRequests:[],views:[]};
+const report={date:new Date().toISOString(),url,build,mode,errors:[],warnings:[],failedRequests:[],views:[]};
 const c=await reviewClient();
 c.on('Runtime.exceptionThrown',e=>report.errors.push(e.exceptionDetails));
 c.on('Runtime.consoleAPICalled',e=>{if(['error','warning'].includes(e.type))report[e.type==='error'?'errors':'warnings'].push(e.args.map(a=>a.value||a.description||'').join(' '));});
 c.on('Network.responseReceived',e=>{if(e.response.status>=400)report.failedRequests.push([e.response.status,e.response.url]);});
 async function shot(name){await c.shot(path.join(out,name+'.png'));report.views.push({name,stats:await c.stats()});}
 try{
- report.startup=await c.open('http://127.0.0.1:5181/seventh/?review=1');
+ report.startup=await c.open(url);
  console.log('STARTUP',JSON.stringify(report.startup));
  await c.tap('Enter');await c.until('seventhStats.started');
  while((await c.stats()).weather!==0)await c.tap('t');
  while((await c.stats()).camera!==0)await c.tap('c');
+ await c.until('!seventhStats.streaming.cameraHeld && !seventhStats.streaming.held');
  await delay(1500);await shot('seventh-start');
  report.initial=await c.dump();
  assert.equal(report.initial.catalogCount,build.modelScenes);

@@ -1,0 +1,21 @@
+{
+  "recorded": "2026-10-25T16:03:07.336583+00:00",
+  "views": [
+    {
+      "file": "browser/seventh-start.png",
+      "sha256": "923d73826afa1a05cafc8db8b9bc241e7d0f003a6a9597d98f3afa0495ce0408",
+      "observations": "Inspected transitional view: prior overhead camera remains visible while requested chase owners load. This is the intentional camera guard, not the settled chase view."
+    },
+    {
+      "file": "browser/eleventh.png",
+      "sha256": "172d68268c10f7d18e68ad6e33bf0d57bcff1ef9692bd835567c995c3370c131",
+      "observations": "Inspected production Eleventh street/detail and clamped footprint map after spatial transition."
+    },
+    {
+      "file": "browser/settled-spawn.png",
+      "sha256": "79f2129e298a68382a0f9a85ecb10c29afefef8d2d4d8f738c568d4fa1d1f949",
+      "observations": "Inspected settled production chase: correct camera, readable map labels/marker/scale, full streets and unchanged controls."
+    }
+  ],
+  "scope": "Three actually inspected production images; other captures remain test evidence, not claimed visual inspections."
+}

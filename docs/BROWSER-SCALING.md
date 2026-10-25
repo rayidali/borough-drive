@@ -16,11 +16,13 @@ The [October 25 report](../model-source/BROWSER-SCALE-2026-10-25.md) and [valida
 
 Implementation: [spatial index](../engine/first-seventh/scripts/spatial_index.gd), [residency](../engine/first-seventh/scripts/area_streamer.gd), [street batching](../engine/first-seventh/scripts/world.gd), [minimap](../engine/first-seventh/scripts/minimap.gd). [Baseline and candidate evidence](../model-source/browser-scale-2026-10-25/) preserve the exact builds, including unsuccessful trials.
 
-## Gates before publication and further block integration
+## Verification for publication and further block integration
 
 Preserve every preceding authored/compiled model and the original game. Verify routes, endpoint collisions, camera inspection/reset, resize, address behavior and scene ownership. Exercise delayed, missing and corrupt scene responses and explicit retry. Compare startup transfers and resident resources, not only the size of the shared PCK. Measure frame intervals in golden, dusk and rain conditions without capture/export jobs running at the same time. Inspect the map at desktop and narrow sizes and the actual streets after release/reload.
 
 A catalog count is separate from the number of resident scenes and physical buildings. Capturing an image is separate from inspecting it. A successful local test is separate from an actual CDN response or a low-powered-device result. Keep every result attached to its tested package identity.
+
+The 397-building candidate is [published and verified](../model-source/publication-2026-10-25/README.md). Apply these same checks as the two assigned blocks are integrated.
 
 ## Remaining work for a much larger city
 

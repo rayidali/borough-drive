@@ -1,7 +1,7 @@
 # Contributing to Borough Drive
 
 <!-- current-project-status -->
-> **Current October 25 assignment:** Refresh documentation, improve the bottom-left minimap and browser loading/rendering, publish the completed 397-building result, then implement Eleventh First–Avenue A and Twelfth Second–First, both sides. Publication and the two blocks are authorized; continue without routine stage questions. See the [current handoff](CODEX-HANDOFF.md) for actual save/live state and [browser scaling](docs/BROWSER-SCALING.md) for implementation and remaining capacity limits. Earlier dated checkpoints below remain historical.
+> **Current October 25:** The 397-building expansion, redesigned minimap and spatial loading are pushed to main in `0073ecd` and [verified live](model-source/publication-2026-10-25/README.md). Continue the assigned Eleventh First–Avenue A and Twelfth Second–First blocks, both sides, without routine stage permission. The [current handoff](CODEX-HANDOFF.md) records active source/model work, exact preservation and performance limits. Earlier dated checkpoints below remain historical.
 <!-- /current-project-status -->
 
 **October 24 current checkpoint:** the complete 295-model expansion and evidence are pushed; final CI, deployment and live-file/cache verification pass. Tenth, Second–First, both sides, is assigned and its protected-core inventory is prepared. Read the [current handoff](CODEX-HANDOFF.md) and [publication record](model-source/publication-2026-10-24/README.md). Continue authorized steps without repeated confirmations; respect the actual session sandbox and preserve all caches/private files. Earlier dated pauses below are historical.

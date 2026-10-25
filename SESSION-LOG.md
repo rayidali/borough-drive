@@ -1,5 +1,17 @@
 # Borough Drive session checkpoints
 
+## October 25, 2026 — 397-building minimap/scaling release verified live; two blocks continue
+
+**Objective:** The user assigned a project-wide Markdown refresh, improved minimap and browser scaling, publication of completed work, then two further full blocks. The first stage is complete. Continue **Eleventh First–Avenue A (`01-E11-1A`)**, then **Twelfth Second–First (`01-E12-21`)**, both sides, without routine permission questions.
+
+**Git and live state:** Source/runtime release `0073ecda43ad66dccf2894bd542682022d33743b` is pushed to main and verified live. Both Node 22/24 CI jobs and Vercel succeed. All 418 live runtime hashes, five routes/manifest checks, immutable caches and missing-scene 404/no-store pass. Production browser loading, six poses, retirement/reload/reset and ownership/staging pass with zero errors/failed requests; three images were inspected, including the separately settled chase view. [Publication record](model-source/publication-2026-10-25/README.md). Publication documentation/evidence follows in its own commit; identify it with Git history.
+
+**Preserved and tested result:** Candidate `2026-10-25T15:05:39.714Z` has 397 physical buildings / 398 scenes. All 398 compiled scenes and 374 ordinary GLBs remain unchanged by the minimap/scaling work. Local and isolated-checkout original/export checks pass. Final ten routes/ten boundaries/four cameras/reset, five recovery/resize cases,17 unchanged address cases and ten startups are recorded in [validation](model-source/browser-scale-2026-10-25/validation.json). Cold/warm medians 13.405/13.431 seconds, 331 scenes at ready. Local M4 Max at 1440 × 1000 weather/drive samples average 95.25–120.00 fps, p95 9.0–16.8 ms,max gap 57.9 ms. Some routes are slower than the preceding all-resident build; whole-Manhattan performance remains unproven. [Report and limits](model-source/BROWSER-SCALE-2026-10-25.md).
+
+**Active block:** Eleventh east has 31 assigned planes on 22 new owners after five same-parcel avenue returns were included. Inventory/baseline/progress and dated observations are local under `model-source/east-village-e11-east/`; no new GLB or runtime change exists yet. Source research found the mosque annex/minaret, recessed juice-bar court, gated 406 access, planted/recreation north gap and the 422 garden. Older auto-selected 2021/2022/2024 panoramas and rejected indoor/older attempts remain explicitly dated. Complete targeted upper/ground/oblique coverage and all individual source records before authorship; then carry the whole block through served review/repairs and integration.
+
+**Following block:** Twelfth west reconnaissance has 22 primary planes / 20 owners, including the existing 185 First school north return. Prepare its exact corner/site inventory and preserve the school's reviewed Eleventh/First faces and mass. Both blocks remain authorized; do not stop after a small internal group. Preserve original game, private screenshots, workstation file, `.tools/` and `.godot/`.
+
 ## October 25, 2026 — Final minimap/scaling candidate; publication finishing
 
 **Objective and authorization:** Refresh project Markdown, improve the bottom-left map and browser scaling, publish the completed397-building result, then complete Eleventh First–Avenue A and Twelfth Second–First, both sides. Both blocks remain assigned; no routine stage permission is required.

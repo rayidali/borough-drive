@@ -1,5 +1,5 @@
 {
-  "recorded": "2026-10-25T15:24:14.994813+00:00",
+  "recorded": "2026-10-25T16:04:30.688198+00:00",
   "files": [
     {
       "path": "START-HERE.md",
@@ -276,14 +276,18 @@
     {
       "path": "model-source/BROWSER-SCALE-2026-10-25.md",
       "action": "New current report reviewed; no historical evidence overwritten."
+    },
+    {
+      "path": "model-source/publication-2026-10-25/README.md",
+      "action": "New verified publication record."
     }
   ],
-  "publication": "pending; exact completion follows browser verification",
+  "publication": "397-building release0073ecd pushed and verified; current docs reflect the next two assigned blocks.",
   "policy": "Project-wide Markdown reviewed; frozen source credits, license/provenance and historical worker packets are unchanged. Historical checks are not relabeled as fresh.",
   "relativeLinksChecked": 1654,
   "missingLocalTargets": [],
   "localLinks": {
-    "checked": 1665,
+    "checked": 1681,
     "missing": []
   }
 }
