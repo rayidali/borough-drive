@@ -1,0 +1,41 @@
+{
+  "date": "2026-10-12",
+  "head": "a2a90a3e08540e15f40e0ede0f8af14921f54675",
+  "runtimeFilesMatchedToBuildManifest": 18,
+  "recipeSourceFilesMatchedToBuildManifest": 108,
+  "runtimeSha256": {
+    "BARLOWCONDENSED-OFL.txt": "186d750eb496a4c17a76385f82be6aea2ac1cf2de074a811d63786cf374ea73f",
+    "BEBASNEUE-OFL.txt": "72082f6cb4d04be2ecf7cc7d9e1e7d73787f0af8a5a278a47cade70c16b78341",
+    "DAMION-OFL.txt": "4aeb831b7b6ab653dca84308e576613059c598696aa2dc83192ab6117b24a5fa",
+    "INTER-OFL.txt": "262481e844521b326f5ecd053e59b98c8b2da78c8ee1bdbb6e8174305e54935a",
+    "InterVariable.woff2": "693b77d4f32ee9b8bfc995589b5fad5e99adf2832738661f5402f9978429a8e3",
+    "LIBREBASKERVILLE-OFL.txt": "3624eddd4c8f8a908130a417ae7cd089c9da69899c4e0ca1a5217d0a6fae16fd",
+    "LICENSE.txt": "d698c1c978070d4305be75e60e904f6f54715f003fe248a23bf8b3ee0ca07134",
+    "MONTSERRAT-OFL.txt": "8b7141c03fa4f8d44e6345d5d4931709290f0f67875e452e95ac1fd3a027802e",
+    "credits.txt": "27b3349ab601fcfb88ec34c62ba480c01e97337dee1f0996d34496fbb0fda888",
+    "drivearound-logo.png": "9156dec61cc0ab10adb5b471e7f80d77d4e79102c2a4069e09227f93462f5448",
+    "godot-notices.txt": "96b99d808a955ca39a6a8db9b93b3c04d012d1d71109c9e1dd8af85f00eeeb98",
+    "index.audio.position.worklet.js": "be33985bc7160d6bf9646f259cd86b259cd67b02ccb297ee5c44f8ac84327bc8",
+    "index.audio.worklet.js": "5b476a9c9ce642c0ee4256436d1bc31d9c38f868aca0f9a8e2a57c18d2dec2a3",
+    "index.html": "555e281877693244f97d947aafc811de11cff83693cd7247b47344e4094c095d",
+    "index.js": "33c94cb3175f3333b82e2a3be5e8e86f77986f0aa2042b1631f6367a4e5bb6ba",
+    "index.pck": "8da68329347228060231d47f46e80c9d6233b6afb0469fd43611bdc83204b1d0",
+    "index.png": "3cb4495c0b98dfbe4b663cbf2b6836473572339beb66d902367893162a70be0e",
+    "index.wasm": "fc74679e3b97f76878947fcd4fbe1268cbfa6188182a2e33bbc3f5dc9bfa57d0"
+  },
+  "privateScreenshots": {
+    "Screenshot 2026-09-14 at 8.35.02\u202fPM.png": {
+      "sha256": "a182ce14205d2c4d6125f5f332b80ff643b77b56f0117678e7a2d83541fd652d",
+      "matchesPriorBaseline": true,
+      "untracked": true
+    },
+    "Screenshot 2026-09-21 at 4.47.09\u202fPM.png": {
+      "sha256": "184d4be305befa6c5152848f7f8fc9ce770083fea613d0dacaefa50a72596deb",
+      "matchesPriorBaseline": true,
+      "untracked": true
+    }
+  },
+  "trackedRuntimeOriginalGameRoutingUnchanged": true,
+  "distIndexAbsent": true,
+  "note": "Hash/source preservation only; no new game, fidelity, performance or live deployment test."
+}

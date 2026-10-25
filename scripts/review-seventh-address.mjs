@@ -40,11 +40,11 @@ const cases=[
 ];
 const report={date:new Date().toISOString(),url,cases:[],branding:{}};
 try{
-  await send('Page.enable');await send('Page.bringToFront');await send('Runtime.enable');await send('Emulation.setDeviceMetricsOverride',{width:1440,height:1000,deviceScaleFactor:1,mobile:false});
+  await send('Page.enable');await send('Emulation.setFocusEmulationEnabled',{enabled:true});await send('Page.bringToFront');await send('Runtime.enable');await send('Emulation.setDeviceMetricsOverride',{width:1440,height:1000,deviceScaleFactor:1,mobile:false});
   await send('Page.navigate',{url});await until('window.seventhStats?.ready && document.getElementById("loading").hidden');
   report.branding=await evaluate('({title:document.title,description:document.querySelector("meta[name=description]")?.content,canvasLabel:document.querySelector("#canvas")?.getAttribute("aria-label")})');
   assert(report.branding.title.includes('DriveAround.nyc'),'Seventh title should use the DriveAround.nyc brand');
-  await evaluate('window.seventhReviewCommand={type:"pose",x:-12,z:0,yaw:-Math.PI/2,sequence:1}');await until('window.seventhReviewAck===1');
+  await command({type:'pose',x:-12,z:0,yaw:-Math.PI/2});
   await evaluate('document.querySelector("#canvas").focus()');await send('Input.dispatchKeyEvent',{type:'keyDown',key:'Enter',code:'Enter',windowsVirtualKeyCode:13});await send('Input.dispatchKeyEvent',{type:'keyUp',key:'Enter',code:'Enter',windowsVirtualKeyCode:13});await sleep(500);
   for(const c of cases){await command({type:'pose',x:c.x,z:c.z,yaw:c.yaw});const stats=await evaluate('window.seventhStats');assert.equal(stats.address,c.address,c.name+' address');assert.equal(stats.addressVisible,c.address!=='',c.name+' visibility');if(c.address)assert.notEqual(stats.addressId,0,c.name+' mapped address id');else assert.equal(stats.addressId,0,c.name+' address id reset');await screenshot(c.name);report.cases.push({name:c.name,expected:c.address,stats});}
   await fs.writeFile(path.join(out,'review.json'),JSON.stringify(report,null,2)+'\n');console.log('SEVENTH_ADDRESS_BROWSER_REVIEW_COMPLETE',out);

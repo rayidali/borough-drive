@@ -1,0 +1,934 @@
+{
+  "state": "Individual modeled frontage review with explicit evidence limits; not calibrated photographic acceptance",
+  "faces": {
+    "247852683:0": {
+      "address": "331 East Ninth Street",
+      "sourceIds": [
+        "331-elevation",
+        "331-shops",
+        "329-obscured-historic"
+      ],
+      "elevationReviewed": true,
+      "bothMassApproachesReviewed": true,
+      "reviewLedger": "visual-review.json",
+      "dimensionalBasis": "Unchanged mapped footprint; visual proportional estimates within dated observations"
+    },
+    "247852682:0": {
+      "address": "329 East Ninth Street",
+      "sourceIds": [
+        "329-obscured-current",
+        "329-obscured-historic",
+        "327-2016-exterior",
+        "329-2012-upper"
+      ],
+      "elevationReviewed": true,
+      "bothMassApproachesReviewed": true,
+      "reviewLedger": "visual-review.json",
+      "dimensionalBasis": "Unchanged mapped footprint; visual proportional estimates within dated observations"
+    },
+    "1063735559:0": {
+      "address": "327 East Ninth Street",
+      "sourceIds": [
+        "329-obscured-current",
+        "329-obscured-historic",
+        "327-2016-exterior"
+      ],
+      "elevationReviewed": true,
+      "bothMassApproachesReviewed": true,
+      "reviewLedger": "visual-review.json",
+      "dimensionalBasis": "Unchanged mapped footprint; visual proportional estimates within dated observations"
+    },
+    "247852681:0": {
+      "address": "325 East Ninth Street",
+      "sourceIds": [
+        "327-2016-exterior"
+      ],
+      "elevationReviewed": true,
+      "bothMassApproachesReviewed": true,
+      "reviewLedger": "visual-review.json",
+      "dimensionalBasis": "Unchanged mapped footprint; visual proportional estimates within dated observations"
+    },
+    "247852680:0": {
+      "address": "323 East Ninth Street",
+      "sourceIds": [
+        "323-elevation"
+      ],
+      "elevationReviewed": true,
+      "bothMassApproachesReviewed": true,
+      "reviewLedger": "visual-review.json",
+      "dimensionalBasis": "Unchanged mapped footprint; visual proportional estimates within dated observations"
+    },
+    "247852679:0": {
+      "address": "321 East Ninth Street",
+      "sourceIds": [
+        "321-elevation"
+      ],
+      "elevationReviewed": true,
+      "bothMassApproachesReviewed": true,
+      "reviewLedger": "visual-review.json",
+      "dimensionalBasis": "Unchanged mapped footprint; visual proportional estimates within dated observations"
+    },
+    "247852678:0": {
+      "address": "319 East Ninth Street",
+      "sourceIds": [
+        "319-elevation",
+        "317-context",
+        "317-319-historic-clear"
+      ],
+      "elevationReviewed": true,
+      "bothMassApproachesReviewed": true,
+      "reviewLedger": "visual-review.json",
+      "dimensionalBasis": "Unchanged mapped footprint; visual proportional estimates within dated observations"
+    },
+    "247852677:0": {
+      "address": "317 East Ninth Street",
+      "sourceIds": [
+        "315-317-ground",
+        "317-context",
+        "317-319-historic-clear"
+      ],
+      "elevationReviewed": true,
+      "bothMassApproachesReviewed": true,
+      "reviewLedger": "visual-review.json",
+      "dimensionalBasis": "Unchanged mapped footprint; visual proportional estimates within dated observations"
+    },
+    "247852676:0": {
+      "address": "315 East Ninth Street",
+      "sourceIds": [
+        "315-elevation",
+        "315-317-ground",
+        "rosemary-2023"
+      ],
+      "elevationReviewed": true,
+      "bothMassApproachesReviewed": true,
+      "reviewLedger": "visual-review.json",
+      "dimensionalBasis": "Unchanged mapped footprint; visual proportional estimates within dated observations"
+    },
+    "247852675:0": {
+      "address": "313 East Ninth Street",
+      "sourceIds": [
+        "313-elevation"
+      ],
+      "elevationReviewed": true,
+      "bothMassApproachesReviewed": true,
+      "reviewLedger": "visual-review.json",
+      "dimensionalBasis": "Unchanged mapped footprint; visual proportional estimates within dated observations"
+    },
+    "247852674:0": {
+      "address": "311 East Ninth Street",
+      "sourceIds": [
+        "311-309-historic"
+      ],
+      "elevationReviewed": true,
+      "bothMassApproachesReviewed": true,
+      "reviewLedger": "visual-review.json",
+      "dimensionalBasis": "Unchanged mapped footprint; visual proportional estimates within dated observations"
+    },
+    "247852673:0": {
+      "address": "309 East Ninth Street",
+      "sourceIds": [
+        "311-309-historic",
+        "daveys-2022-opening",
+        "spooksvilla-exterior"
+      ],
+      "elevationReviewed": true,
+      "bothMassApproachesReviewed": true,
+      "reviewLedger": "visual-review.json",
+      "dimensionalBasis": "Unchanged mapped footprint; visual proportional estimates within dated observations"
+    },
+    "247852672:0": {
+      "address": "307 East Ninth Street",
+      "sourceIds": [
+        "307-305-historic",
+        "307-current-context",
+        "shw-2018-fitout",
+        "mud-official-exterior"
+      ],
+      "elevationReviewed": true,
+      "bothMassApproachesReviewed": true,
+      "reviewLedger": "visual-review.json",
+      "dimensionalBasis": "Unchanged mapped footprint; visual proportional estimates within dated observations"
+    },
+    "247852671:0": {
+      "address": "305 East Ninth Street",
+      "sourceIds": [
+        "307-305-historic",
+        "303-305-gap",
+        "307-current-context"
+      ],
+      "elevationReviewed": true,
+      "bothMassApproachesReviewed": true,
+      "reviewLedger": "visual-review.json",
+      "dimensionalBasis": "Unchanged mapped footprint; visual proportional estimates within dated observations"
+    },
+    "247852702:0": {
+      "address": "146 Second Avenue / Ninth return",
+      "sourceIds": [
+        "303-305-gap",
+        "146second-ninth-return",
+        "146second-ground"
+      ],
+      "elevationReviewed": true,
+      "bothMassApproachesReviewed": true,
+      "reviewLedger": "visual-review.json",
+      "dimensionalBasis": "Unchanged mapped footprint; visual proportional estimates within dated observations"
+    },
+    "241822239:0": {
+      "address": "350 East Ninth Street",
+      "sourceIds": [
+        "350-350a-historic",
+        "350-current-oblique"
+      ],
+      "elevationReviewed": true,
+      "bothMassApproachesReviewed": true,
+      "reviewLedger": "visual-review.json",
+      "dimensionalBasis": "Unchanged mapped footprint; visual proportional estimates within dated observations"
+    },
+    "241822276:0": {
+      "address": "350A East Ninth Street",
+      "sourceIds": [
+        "350-350a-historic",
+        "350-current-oblique"
+      ],
+      "elevationReviewed": true,
+      "bothMassApproachesReviewed": true,
+      "reviewLedger": "visual-review.json",
+      "dimensionalBasis": "Unchanged mapped footprint; visual proportional estimates within dated observations"
+    },
+    "241822204:0": {
+      "address": "348 East Ninth Street",
+      "sourceIds": [
+        "350-current-oblique",
+        "348-346-elevations"
+      ],
+      "elevationReviewed": true,
+      "bothMassApproachesReviewed": true,
+      "reviewLedger": "visual-review.json",
+      "dimensionalBasis": "Unchanged mapped footprint; visual proportional estimates within dated observations"
+    },
+    "241822315:0": {
+      "address": "346 East Ninth Street",
+      "sourceIds": [
+        "348-346-elevations"
+      ],
+      "elevationReviewed": true,
+      "bothMassApproachesReviewed": true,
+      "reviewLedger": "visual-review.json",
+      "dimensionalBasis": "Unchanged mapped footprint; visual proportional estimates within dated observations"
+    },
+    "241822241:0": {
+      "address": "344 East Ninth Street",
+      "sourceIds": [
+        "344-residential"
+      ],
+      "elevationReviewed": true,
+      "bothMassApproachesReviewed": true,
+      "reviewLedger": "visual-review.json",
+      "dimensionalBasis": "Unchanged mapped footprint; visual proportional estimates within dated observations"
+    },
+    "241822261:0": {
+      "address": "342 East Ninth Street",
+      "sourceIds": [
+        "342-340-elevations"
+      ],
+      "elevationReviewed": true,
+      "bothMassApproachesReviewed": true,
+      "reviewLedger": "visual-review.json",
+      "dimensionalBasis": "Unchanged mapped footprint; visual proportional estimates within dated observations"
+    },
+    "241822335:0": {
+      "address": "340 East Ninth Street",
+      "sourceIds": [
+        "342-340-elevations",
+        "338-garage"
+      ],
+      "elevationReviewed": true,
+      "bothMassApproachesReviewed": true,
+      "reviewLedger": "visual-review.json",
+      "dimensionalBasis": "Unchanged mapped footprint; visual proportional estimates within dated observations"
+    },
+    "241822244:0": {
+      "address": "338 East Ninth Street",
+      "sourceIds": [
+        "338-garage",
+        "336-carriagefront"
+      ],
+      "elevationReviewed": true,
+      "bothMassApproachesReviewed": true,
+      "reviewLedger": "visual-review.json",
+      "dimensionalBasis": "Unchanged mapped footprint; visual proportional estimates within dated observations"
+    },
+    "241822293:0": {
+      "address": "336 East Ninth Street",
+      "sourceIds": [
+        "336-carriagefront"
+      ],
+      "elevationReviewed": true,
+      "bothMassApproachesReviewed": true,
+      "reviewLedger": "visual-review.json",
+      "dimensionalBasis": "Unchanged mapped footprint; visual proportional estimates within dated observations"
+    },
+    "241822229:0": {
+      "address": "334 East Ninth Street",
+      "sourceIds": [
+        "334-332-elevations"
+      ],
+      "elevationReviewed": true,
+      "bothMassApproachesReviewed": true,
+      "reviewLedger": "visual-review.json",
+      "dimensionalBasis": "Unchanged mapped footprint; visual proportional estimates within dated observations"
+    },
+    "241822251:0": {
+      "address": "332 East Ninth Street",
+      "sourceIds": [
+        "334-332-elevations"
+      ],
+      "elevationReviewed": true,
+      "bothMassApproachesReviewed": true,
+      "reviewLedger": "visual-review.json",
+      "dimensionalBasis": "Unchanged mapped footprint; visual proportional estimates within dated observations"
+    },
+    "241822179:0": {
+      "address": "328 East Ninth Street",
+      "sourceIds": [
+        "328-elevation"
+      ],
+      "elevationReviewed": true,
+      "bothMassApproachesReviewed": true,
+      "reviewLedger": "visual-review.json",
+      "dimensionalBasis": "Unchanged mapped footprint; visual proportional estimates within dated observations"
+    },
+    "241822183:0": {
+      "address": "324 East Ninth Street",
+      "sourceIds": [
+        "324-elevation"
+      ],
+      "elevationReviewed": true,
+      "bothMassApproachesReviewed": true,
+      "reviewLedger": "visual-review.json",
+      "dimensionalBasis": "Unchanged mapped footprint; visual proportional estimates within dated observations"
+    },
+    "241822272:0": {
+      "address": "320 East Ninth Street",
+      "sourceIds": [
+        "320-318-road"
+      ],
+      "elevationReviewed": true,
+      "bothMassApproachesReviewed": true,
+      "reviewLedger": "visual-review.json",
+      "dimensionalBasis": "Unchanged mapped footprint; visual proportional estimates within dated observations"
+    },
+    "241822187:0": {
+      "address": "318 East Ninth Street",
+      "sourceIds": [
+        "314312-context",
+        "320-318-road",
+        "sustainable-2022-exterior"
+      ],
+      "elevationReviewed": true,
+      "bothMassApproachesReviewed": true,
+      "reviewLedger": "visual-review.json",
+      "dimensionalBasis": "Unchanged mapped footprint; visual proportional estimates within dated observations"
+    },
+    "241822165:0": {
+      "address": "314\u2013316 East Ninth Street",
+      "sourceIds": [
+        "314312-context",
+        "312-current-ground"
+      ],
+      "elevationReviewed": true,
+      "bothMassApproachesReviewed": true,
+      "reviewLedger": "visual-review.json",
+      "dimensionalBasis": "Unchanged mapped footprint; visual proportional estimates within dated observations"
+    },
+    "241822171:0": {
+      "address": "312 East Ninth Street",
+      "sourceIds": [
+        "314312-context",
+        "312-current-ground",
+        "310-312-historic"
+      ],
+      "elevationReviewed": true,
+      "bothMassApproachesReviewed": true,
+      "reviewLedger": "visual-review.json",
+      "dimensionalBasis": "Unchanged mapped footprint; visual proportional estimates within dated observations"
+    },
+    "241822269:0": {
+      "address": "310 East Ninth Street",
+      "sourceIds": [
+        "310-312-historic"
+      ],
+      "elevationReviewed": true,
+      "bothMassApproachesReviewed": true,
+      "reviewLedger": "visual-review.json",
+      "dimensionalBasis": "Unchanged mapped footprint; visual proportional estimates within dated observations"
+    },
+    "241822210:1": {
+      "address": "144 Second Avenue / Ninth return",
+      "sourceIds": [
+        "veselka-center",
+        "veselka-east",
+        "veselka-west"
+      ],
+      "elevationReviewed": true,
+      "bothMassApproachesReviewed": true,
+      "reviewLedger": "visual-review.json",
+      "dimensionalBasis": "Unchanged mapped footprint; visual proportional estimates within dated observations"
+    }
+  },
+  "businesses": {
+    "247852683:0:source": {
+      "name": "Source Unltd",
+      "faceId": "247852683:0",
+      "sourceIds": [
+        "331-elevation",
+        "331-shops",
+        "329-obscured-historic"
+      ],
+      "individuality": "Black sloping cloth with starburst and service valance; bridge-art shutter, grille and mailbox.",
+      "frontAndApproachReviewed": true,
+      "state": "modeled and reviewed within dated-source limits",
+      "limits": [
+        "Target primary appearance is dated September 2024 unless a record states otherwise; not an October 2026 occupancy survey.",
+        "Source pixels remain temporary references, never textures or committed photographic assets.",
+        "Exact dimensions/letterforms/artwork and hidden roofs/rears/interiors remain explicit estimates or unknowns."
+      ]
+    },
+    "247852683:0:frida": {
+      "name": "Frida Munchies \u2014 retained fascia / vacant display",
+      "faceId": "247852683:0",
+      "sourceIds": [
+        "331-elevation",
+        "331-shops",
+        "329-obscured-historic"
+      ],
+      "individuality": "Rounded two-line white/pink fascia, multicolor bands, rainbow jamb, lease notice and bunting.",
+      "frontAndApproachReviewed": true,
+      "state": "modeled and reviewed within dated-source limits",
+      "limits": [
+        "Target primary appearance is dated September 2024 unless a record states otherwise; not an October 2026 occupancy survey.",
+        "Source pixels remain temporary references, never textures or committed photographic assets.",
+        "Exact dimensions/letterforms/artwork and hidden roofs/rears/interiors remain explicit estimates or unknowns."
+      ]
+    },
+    "247852679:0:hare": {
+      "name": "The March Hare",
+      "faceId": "247852679:0",
+      "sourceIds": [
+        "321-elevation"
+      ],
+      "individuality": "White script on red fascia, red window frame, green kick panel with white hare, varied toys and books.",
+      "frontAndApproachReviewed": true,
+      "state": "modeled and reviewed within dated-source limits",
+      "limits": [
+        "Target primary appearance is dated September 2024 unless a record states otherwise; not an October 2026 occupancy survey.",
+        "Source pixels remain temporary references, never textures or committed photographic assets.",
+        "Exact dimensions/letterforms/artwork and hidden roofs/rears/interiors remain explicit estimates or unknowns."
+      ]
+    },
+    "247852679:0:321east": {
+      "name": "321 east shop \u2014 tenant unresolved",
+      "faceId": "247852679:0",
+      "sourceIds": [
+        "321-elevation"
+      ],
+      "individuality": "Blue cloth shade and closed metal grille; tenant copy not legible.",
+      "frontAndApproachReviewed": true,
+      "state": "needs-evidence: dated/obscured frontage remains partial",
+      "limits": [
+        "Target primary appearance is dated September 2024 unless a record states otherwise; not an October 2026 occupancy survey.",
+        "Source pixels remain temporary references, never textures or committed photographic assets.",
+        "Exact dimensions/letterforms/artwork and hidden roofs/rears/interiors remain explicit estimates or unknowns."
+      ]
+    },
+    "247852676:0:rosemary": {
+      "name": "Rosemary Home",
+      "faceId": "247852676:0",
+      "sourceIds": [
+        "315-elevation",
+        "315-317-ground",
+        "rosemary-2023"
+      ],
+      "individuality": "Deep green projecting window, stacked glass letters, green bulkhead, flowers, books and tabletop objects.",
+      "frontAndApproachReviewed": true,
+      "state": "modeled and reviewed within dated-source limits",
+      "limits": [
+        "Target primary appearance is dated September 2024 unless a record states otherwise; not an October 2026 occupancy survey.",
+        "Source pixels remain temporary references, never textures or committed photographic assets.",
+        "Exact dimensions/letterforms/artwork and hidden roofs/rears/interiors remain explicit estimates or unknowns."
+      ]
+    },
+    "247852676:0:gnocchi": {
+      "name": "Gnocchi on 9th",
+      "faceId": "247852676:0",
+      "sourceIds": [
+        "315-elevation",
+        "315-317-ground",
+        "rosemary-2023"
+      ],
+      "individuality": "Blue fascia with gold script, circular orange/yellow gnocchi motif, grille and barrel menu stand.",
+      "frontAndApproachReviewed": true,
+      "state": "modeled and reviewed within dated-source limits",
+      "limits": [
+        "Target primary appearance is dated September 2024 unless a record states otherwise; not an October 2026 occupancy survey.",
+        "Source pixels remain temporary references, never textures or committed photographic assets.",
+        "Exact dimensions/letterforms/artwork and hidden roofs/rears/interiors remain explicit estimates or unknowns."
+      ]
+    },
+    "247852673:0:spook": {
+      "name": "Spooksvilla + Friends",
+      "faceId": "247852673:0",
+      "sourceIds": [
+        "311-309-historic",
+        "daveys-2022-opening",
+        "spooksvilla-exterior"
+      ],
+      "individuality": "Cyan/pink illustrated fascia, outlined irregular lettering, animal window decals, print racks and pale wood counter.",
+      "frontAndApproachReviewed": true,
+      "state": "modeled and reviewed within dated-source limits",
+      "limits": [
+        "Target primary appearance is dated September 2024 unless a record states otherwise; not an October 2026 occupancy survey.",
+        "Source pixels remain temporary references, never textures or committed photographic assets.",
+        "Exact dimensions/letterforms/artwork and hidden roofs/rears/interiors remain explicit estimates or unknowns."
+      ]
+    },
+    "247852673:0:daveys": {
+      "name": "Davey\u2019s Ice Cream",
+      "faceId": "247852673:0",
+      "sourceIds": [
+        "311-309-historic",
+        "daveys-2022-opening",
+        "spooksvilla-exterior"
+      ],
+      "individuality": "Raised multicolor ICE CREAM letters on white angled fascia, turquoise frame, rainbow threshold, colored bulbs and cone A-board.",
+      "frontAndApproachReviewed": true,
+      "state": "modeled and reviewed within dated-source limits",
+      "limits": [
+        "Target primary appearance is dated September 2024 unless a record states otherwise; not an October 2026 occupancy survey.",
+        "Source pixels remain temporary references, never textures or committed photographic assets.",
+        "Exact dimensions/letterforms/artwork and hidden roofs/rears/interiors remain explicit estimates or unknowns."
+      ]
+    },
+    "247852672:0:shw": {
+      "name": "SHW / Still House",
+      "faceId": "247852672:0",
+      "sourceIds": [
+        "307-305-historic",
+        "307-current-context",
+        "shw-2018-fitout",
+        "mud-official-exterior"
+      ],
+      "individuality": "Pale box hood, broad left display and deep narrow right entry, silver grille; sparse ceramic/jewelry display.",
+      "frontAndApproachReviewed": true,
+      "state": "needs-evidence: dated/obscured frontage remains partial",
+      "limits": [
+        "Target primary appearance is dated September 2024 unless a record states otherwise; not an October 2026 occupancy survey.",
+        "Source pixels remain temporary references, never textures or committed photographic assets.",
+        "Exact dimensions/letterforms/artwork and hidden roofs/rears/interiors remain explicit estimates or unknowns."
+      ]
+    },
+    "247852672:0:mud": {
+      "name": "MUD",
+      "faceId": "247852672:0",
+      "sourceIds": [
+        "307-305-historic",
+        "307-current-context",
+        "shw-2018-fitout",
+        "mud-official-exterior"
+      ],
+      "individuality": "Carved wood, X-braced entry, cream MUD medallion, projecting tripartite window, red curtains, round relief kick panels and warm bulbs.",
+      "frontAndApproachReviewed": true,
+      "state": "modeled and reviewed within dated-source limits",
+      "limits": [
+        "Target primary appearance is dated September 2024 unless a record states otherwise; not an October 2026 occupancy survey.",
+        "Source pixels remain temporary references, never textures or committed photographic assets.",
+        "Exact dimensions/letterforms/artwork and hidden roofs/rears/interiors remain explicit estimates or unknowns."
+      ]
+    },
+    "247852671:0:raw": {
+      "name": "Raw Spirit \u2014 dated identity, partly obscured front",
+      "faceId": "247852671:0",
+      "sourceIds": [
+        "307-305-historic",
+        "303-305-gap",
+        "307-current-context"
+      ],
+      "individuality": "Dark independent shop frame and recessed doorway; frontage details partly obscured, no unsupported elaborate logo.",
+      "frontAndApproachReviewed": true,
+      "state": "needs-evidence: dated/obscured frontage remains partial",
+      "limits": [
+        "Target primary appearance is dated September 2024 unless a record states otherwise; not an October 2026 occupancy survey.",
+        "Source pixels remain temporary references, never textures or committed photographic assets.",
+        "Exact dimensions/letterforms/artwork and hidden roofs/rears/interiors remain explicit estimates or unknowns."
+      ]
+    },
+    "247852671:0:artray": {
+      "name": "Art + Ray \u2014 dated identity, partly obscured front",
+      "faceId": "247852671:0",
+      "sourceIds": [
+        "307-305-historic",
+        "303-305-gap",
+        "307-current-context"
+      ],
+      "individuality": "Separate narrow gallery entry and broad window; small framed artwork layers, physical frontage partly obscured.",
+      "frontAndApproachReviewed": true,
+      "state": "needs-evidence: dated/obscured frontage remains partial",
+      "limits": [
+        "Target primary appearance is dated September 2024 unless a record states otherwise; not an October 2026 occupancy survey.",
+        "Source pixels remain temporary references, never textures or committed photographic assets.",
+        "Exact dimensions/letterforms/artwork and hidden roofs/rears/interiors remain explicit estimates or unknowns."
+      ]
+    },
+    "247852702:0:farm": {
+      "name": "Village Farm \u2014 closed Ninth frontage",
+      "faceId": "247852702:0",
+      "sourceIds": [
+        "303-305-gap",
+        "146second-ninth-return",
+        "146second-ground"
+      ],
+      "individuality": "Long blue sloped 24 HR GROCERY awning, white service valance, opaque boarded panes and graffiti.",
+      "frontAndApproachReviewed": true,
+      "state": "modeled and reviewed within dated-source limits",
+      "limits": [
+        "Target primary appearance is dated September 2024 unless a record states otherwise; not an October 2026 occupancy survey.",
+        "Source pixels remain temporary references, never textures or committed photographic assets.",
+        "Exact dimensions/letterforms/artwork and hidden roofs/rears/interiors remain explicit estimates or unknowns."
+      ]
+    },
+    "241822239:0:mizu": {
+      "name": "Mizu Sushi \u2014 closed frontage",
+      "faceId": "241822239:0",
+      "sourceIds": [
+        "350-350a-historic",
+        "350-current-oblique"
+      ],
+      "individuality": "Black flat fascia, brush white name, closed tagged shutter.",
+      "frontAndApproachReviewed": true,
+      "state": "modeled and reviewed within dated-source limits",
+      "limits": [
+        "Target primary appearance is dated September 2024 unless a record states otherwise; not an October 2026 occupancy survey.",
+        "Source pixels remain temporary references, never textures or committed photographic assets.",
+        "Exact dimensions/letterforms/artwork and hidden roofs/rears/interiors remain explicit estimates or unknowns."
+      ]
+    },
+    "241822276:0:rafael": {
+      "name": "Rafael\u2019s Barber Shop",
+      "faceId": "241822276:0",
+      "sourceIds": [
+        "350-350a-historic",
+        "350-current-oblique"
+      ],
+      "individuality": "Gold fascia, red/white/blue shallow striped shade, portrait window grid and projecting barber pole.",
+      "frontAndApproachReviewed": true,
+      "state": "modeled and reviewed within dated-source limits",
+      "limits": [
+        "Target primary appearance is dated September 2024 unless a record states otherwise; not an October 2026 occupancy survey.",
+        "Source pixels remain temporary references, never textures or committed photographic assets.",
+        "Exact dimensions/letterforms/artwork and hidden roofs/rears/interiors remain explicit estimates or unknowns."
+      ]
+    },
+    "241822315:0:vintage9": {
+      "name": "9th Street Vintage",
+      "faceId": "241822315:0",
+      "sourceIds": [
+        "348-346-elevations"
+      ],
+      "individuality": "Pale gray serif fascia, diamond grille, right entrance and separate lower approach.",
+      "frontAndApproachReviewed": true,
+      "state": "modeled and reviewed within dated-source limits",
+      "limits": [
+        "Target primary appearance is dated September 2024 unless a record states otherwise; not an October 2026 occupancy survey.",
+        "Source pixels remain temporary references, never textures or committed photographic assets.",
+        "Exact dimensions/letterforms/artwork and hidden roofs/rears/interiors remain explicit estimates or unknowns."
+      ]
+    },
+    "241822315:0:morocco": {
+      "name": "Tribes of Morocco",
+      "faceId": "241822315:0",
+      "sourceIds": [
+        "348-346-elevations"
+      ],
+      "individuality": "Red sloped cloth, gold serif name, dark closed shutter, white ornamental areaway fence.",
+      "frontAndApproachReviewed": true,
+      "state": "modeled and reviewed within dated-source limits",
+      "limits": [
+        "Target primary appearance is dated September 2024 unless a record states otherwise; not an October 2026 occupancy survey.",
+        "Source pixels remain temporary references, never textures or committed photographic assets.",
+        "Exact dimensions/letterforms/artwork and hidden roofs/rears/interiors remain explicit estimates or unknowns."
+      ]
+    },
+    "241822229:0:cloak": {
+      "name": "Cloak & Dagger",
+      "faceId": "241822229:0",
+      "sourceIds": [
+        "334-332-elevations"
+      ],
+      "individuality": "White fascia, narrow red serif name, silver grille, round blade and white plant pots.",
+      "frontAndApproachReviewed": true,
+      "state": "modeled and reviewed within dated-source limits",
+      "limits": [
+        "Target primary appearance is dated September 2024 unless a record states otherwise; not an October 2026 occupancy survey.",
+        "Source pixels remain temporary references, never textures or committed photographic assets.",
+        "Exact dimensions/letterforms/artwork and hidden roofs/rears/interiors remain explicit estimates or unknowns."
+      ]
+    },
+    "241822229:0:ricebird": {
+      "name": "Rice Bird",
+      "faceId": "241822229:0",
+      "sourceIds": [
+        "334-332-elevations"
+      ],
+      "individuality": "Black canopy with white Chinese/Latin lettering, food display panels and string lights.",
+      "frontAndApproachReviewed": true,
+      "state": "modeled and reviewed within dated-source limits",
+      "limits": [
+        "Target primary appearance is dated September 2024 unless a record states otherwise; not an October 2026 occupancy survey.",
+        "Source pixels remain temporary references, never textures or committed photographic assets.",
+        "Exact dimensions/letterforms/artwork and hidden roofs/rears/interiors remain explicit estimates or unknowns."
+      ]
+    },
+    "241822251:0:ladywong": {
+      "name": "Lady Wong",
+      "faceId": "241822251:0",
+      "sourceIds": [
+        "334-332-elevations"
+      ],
+      "individuality": "Taupe canopy with gold letters, black pineapple blade and pastry display.",
+      "frontAndApproachReviewed": true,
+      "state": "modeled and reviewed within dated-source limits",
+      "limits": [
+        "Target primary appearance is dated September 2024 unless a record states otherwise; not an October 2026 occupancy survey.",
+        "Source pixels remain temporary references, never textures or committed photographic assets.",
+        "Exact dimensions/letterforms/artwork and hidden roofs/rears/interiors remain explicit estimates or unknowns."
+      ]
+    },
+    "241822251:0:sushikai": {
+      "name": "Sushi Kai",
+      "faceId": "241822251:0",
+      "sourceIds": [
+        "334-332-elevations"
+      ],
+      "individuality": "Separate taupe canopy, round white flower mark on black blade, narrow basement entry.",
+      "frontAndApproachReviewed": true,
+      "state": "modeled and reviewed within dated-source limits",
+      "limits": [
+        "Target primary appearance is dated September 2024 unless a record states otherwise; not an October 2026 occupancy survey.",
+        "Source pixels remain temporary references, never textures or committed photographic assets.",
+        "Exact dimensions/letterforms/artwork and hidden roofs/rears/interiors remain explicit estimates or unknowns."
+      ]
+    },
+    "241822179:0:anme": {
+      "name": "an.m\u00e9",
+      "faceId": "241822179:0",
+      "sourceIds": [
+        "328-elevation"
+      ],
+      "individuality": "Lavender blue fascia with small gold name, tagged roll shutter and independent entry.",
+      "frontAndApproachReviewed": true,
+      "state": "modeled and reviewed within dated-source limits",
+      "limits": [
+        "Target primary appearance is dated September 2024 unless a record states otherwise; not an October 2026 occupancy survey.",
+        "Source pixels remain temporary references, never textures or committed photographic assets.",
+        "Exact dimensions/letterforms/artwork and hidden roofs/rears/interiors remain explicit estimates or unknowns."
+      ]
+    },
+    "241822179:0:pillowcat": {
+      "name": "Pillow Cat Books",
+      "faceId": "241822179:0",
+      "sourceIds": [
+        "328-elevation"
+      ],
+      "individuality": "Green canopy with white italic letters and cat, green grille and pink BOOKS display.",
+      "frontAndApproachReviewed": true,
+      "state": "modeled and reviewed within dated-source limits",
+      "limits": [
+        "Target primary appearance is dated September 2024 unless a record states otherwise; not an October 2026 occupancy survey.",
+        "Source pixels remain temporary references, never textures or committed photographic assets.",
+        "Exact dimensions/letterforms/artwork and hidden roofs/rears/interiors remain explicit estimates or unknowns."
+      ]
+    },
+    "241822179:0:jane": {
+      "name": "Jane Cookshop",
+      "faceId": "241822179:0",
+      "sourceIds": [
+        "328-elevation"
+      ],
+      "individuality": "Pale yellow/white shop frame and kitchenware window, separate pale fascia.",
+      "frontAndApproachReviewed": true,
+      "state": "modeled and reviewed within dated-source limits",
+      "limits": [
+        "Target primary appearance is dated September 2024 unless a record states otherwise; not an October 2026 occupancy survey.",
+        "Source pixels remain temporary references, never textures or committed photographic assets.",
+        "Exact dimensions/letterforms/artwork and hidden roofs/rears/interiors remain explicit estimates or unknowns."
+      ]
+    },
+    "241822183:0:duo": {
+      "name": "DUO",
+      "faceId": "241822183:0",
+      "sourceIds": [
+        "324-elevation"
+      ],
+      "individuality": "White hood and restrained gray trim, clothing display and sparse gold glass lettering.",
+      "frontAndApproachReviewed": true,
+      "state": "modeled and reviewed within dated-source limits",
+      "limits": [
+        "Target primary appearance is dated September 2024 unless a record states otherwise; not an October 2026 occupancy survey.",
+        "Source pixels remain temporary references, never textures or committed photographic assets.",
+        "Exact dimensions/letterforms/artwork and hidden roofs/rears/interiors remain explicit estimates or unknowns."
+      ]
+    },
+    "241822183:0:cerney": {
+      "name": "D. L. Cerney",
+      "faceId": "241822183:0",
+      "sourceIds": [
+        "324-elevation"
+      ],
+      "individuality": "Narrow carved timber fascia and diamond grille, hanging garments behind glass.",
+      "frontAndApproachReviewed": true,
+      "state": "modeled and reviewed within dated-source limits",
+      "limits": [
+        "Target primary appearance is dated September 2024 unless a record states otherwise; not an October 2026 occupancy survey.",
+        "Source pixels remain temporary references, never textures or committed photographic assets.",
+        "Exact dimensions/letterforms/artwork and hidden roofs/rears/interiors remain explicit estimates or unknowns."
+      ]
+    },
+    "241822183:0:sakaya": {
+      "name": "Sakaya",
+      "faceId": "241822183:0",
+      "sourceIds": [
+        "324-elevation"
+      ],
+      "individuality": "Pale hood, brown vertical SAKAYA blade, bottle shelving behind metal grille.",
+      "frontAndApproachReviewed": true,
+      "state": "modeled and reviewed within dated-source limits",
+      "limits": [
+        "Target primary appearance is dated September 2024 unless a record states otherwise; not an October 2026 occupancy survey.",
+        "Source pixels remain temporary references, never textures or committed photographic assets.",
+        "Exact dimensions/letterforms/artwork and hidden roofs/rears/interiors remain explicit estimates or unknowns."
+      ]
+    },
+    "241822187:0:318east": {
+      "name": "318 east shop \u2014 obscured tenant",
+      "faceId": "241822187:0",
+      "sourceIds": [
+        "314312-context",
+        "320-318-road",
+        "sustainable-2022-exterior"
+      ],
+      "individuality": "Carved dark timber surround, broad plant/display pane and narrow access; tenant lettering unresolved.",
+      "frontAndApproachReviewed": true,
+      "state": "needs-evidence: dated/obscured frontage remains partial",
+      "limits": [
+        "Target primary appearance is dated September 2024 unless a record states otherwise; not an October 2026 occupancy survey.",
+        "Source pixels remain temporary references, never textures or committed photographic assets.",
+        "Exact dimensions/letterforms/artwork and hidden roofs/rears/interiors remain explicit estimates or unknowns."
+      ]
+    },
+    "241822187:0:sustainable": {
+      "name": "A Sustainable Village \u2014 Ninth storefront",
+      "faceId": "241822187:0",
+      "sourceIds": [
+        "314312-context",
+        "320-318-road",
+        "sustainable-2022-exterior"
+      ],
+      "individuality": "Brown timber display and left entry, silver roll grille, white green-letter blade, refill containers, green bench and chalk A-board.",
+      "frontAndApproachReviewed": true,
+      "state": "modeled and reviewed within dated-source limits",
+      "limits": [
+        "Target primary appearance is dated September 2024 unless a record states otherwise; not an October 2026 occupancy survey.",
+        "Source pixels remain temporary references, never textures or committed photographic assets.",
+        "Exact dimensions/letterforms/artwork and hidden roofs/rears/interiors remain explicit estimates or unknowns."
+      ]
+    },
+    "241822165:0:cobblestones": {
+      "name": "Cobblestones",
+      "faceId": "241822165:0",
+      "sourceIds": [
+        "314312-context",
+        "312-current-ground"
+      ],
+      "individuality": "Gray pinstriped canopy, white capital letters, low black shutter and clothes behind grille.",
+      "frontAndApproachReviewed": true,
+      "state": "modeled and reviewed within dated-source limits",
+      "limits": [
+        "Target primary appearance is dated September 2024 unless a record states otherwise; not an October 2026 occupancy survey.",
+        "Source pixels remain temporary references, never textures or committed photographic assets.",
+        "Exact dimensions/letterforms/artwork and hidden roofs/rears/interiors remain explicit estimates or unknowns."
+      ]
+    },
+    "241822165:0:314west": {
+      "name": "314 west shop \u2014 closed dated frontage",
+      "faceId": "241822165:0",
+      "sourceIds": [
+        "314312-context",
+        "312-current-ground"
+      ],
+      "individuality": "Plain silver shutter and pale projecting blade; later tenant identity not imposed on September 2024 appearance.",
+      "frontAndApproachReviewed": true,
+      "state": "modeled and reviewed within dated-source limits",
+      "limits": [
+        "Target primary appearance is dated September 2024 unless a record states otherwise; not an October 2026 occupancy survey.",
+        "Source pixels remain temporary references, never textures or committed photographic assets.",
+        "Exact dimensions/letterforms/artwork and hidden roofs/rears/interiors remain explicit estimates or unknowns."
+      ]
+    },
+    "241822171:0:headdress": {
+      "name": "Headdress",
+      "faceId": "241822171:0",
+      "sourceIds": [
+        "314312-context",
+        "312-current-ground",
+        "310-312-historic"
+      ],
+      "individuality": "Cream three-part glazing, slender white crossrail and thin name, salon chair/mirror and high right AC.",
+      "frontAndApproachReviewed": true,
+      "state": "modeled and reviewed within dated-source limits",
+      "limits": [
+        "Target primary appearance is dated September 2024 unless a record states otherwise; not an October 2026 occupancy survey.",
+        "Source pixels remain temporary references, never textures or committed photographic assets.",
+        "Exact dimensions/letterforms/artwork and hidden roofs/rears/interiors remain explicit estimates or unknowns."
+      ]
+    },
+    "241822171:0:cabin": {
+      "name": "Cabin on 9th",
+      "faceId": "241822171:0",
+      "sourceIds": [
+        "314312-context",
+        "312-current-ground",
+        "310-312-historic"
+      ],
+      "individuality": "Black fascia with white script, light timber window, plants along low display.",
+      "frontAndApproachReviewed": true,
+      "state": "modeled and reviewed within dated-source limits",
+      "limits": [
+        "Target primary appearance is dated September 2024 unless a record states otherwise; not an October 2026 occupancy survey.",
+        "Source pixels remain temporary references, never textures or committed photographic assets.",
+        "Exact dimensions/letterforms/artwork and hidden roofs/rears/interiors remain explicit estimates or unknowns."
+      ]
+    },
+    "241822210:1:veselka": {
+      "name": "Veselka \u2014 Ninth dining frontage",
+      "faceId": "241822210:1",
+      "sourceIds": [
+        "veselka-center",
+        "veselka-east",
+        "veselka-west"
+      ],
+      "individuality": "Long green divided glazing with gold food-name bands, lamps, folk-art color panels and a blue/yellow curb dining shelter.",
+      "frontAndApproachReviewed": true,
+      "state": "modeled and reviewed within dated-source limits",
+      "limits": [
+        "Target primary appearance is dated September 2024 unless a record states otherwise; not an October 2026 occupancy survey.",
+        "Source pixels remain temporary references, never textures or committed photographic assets.",
+        "Exact dimensions/letterforms/artwork and hidden roofs/rears/interiors remain explicit estimates or unknowns."
+      ]
+    }
+  },
+  "limits": [
+    "Target primary appearance is dated September 2024 unless a record states otherwise; not an October 2026 occupancy survey.",
+    "Source pixels remain temporary references, never textures or committed photographic assets.",
+    "Exact dimensions/letterforms/artwork and hidden roofs/rears/interiors remain explicit estimates or unknowns."
+  ]
+}

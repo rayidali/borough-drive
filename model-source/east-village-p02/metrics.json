@@ -1,0 +1,91 @@
+{
+  "recorded": "2026-10-13T18:43:58.908768+00:00",
+  "timedPack": {
+    "bytes": 8006792,
+    "sha256": "476e38b45cd92fff235cb56e17c8c92506d3949959a002d88e0b26e49d07f288",
+    "brotliBytes": 7395316
+  },
+  "routes": [
+    {
+      "name": "first-north",
+      "p95Ms": 18.600000000000364,
+      "maxMs": 18.700000000000728,
+      "contacts": 0,
+      "holds": 0
+    },
+    {
+      "name": "first-south",
+      "p95Ms": 18.599999999998545,
+      "maxMs": 48.10000000000218,
+      "contacts": 0,
+      "holds": 0
+    },
+    {
+      "name": "west-lane-north",
+      "p95Ms": 18.600000000002183,
+      "maxMs": 18.700000000000728,
+      "contacts": 0,
+      "holds": 0
+    },
+    {
+      "name": "east-lane-south",
+      "p95Ms": 18.599999999998545,
+      "maxMs": 18.799999999999272,
+      "contacts": 0,
+      "holds": 0
+    }
+  ],
+  "cold": {
+    "count": 5,
+    "readyMs": [
+      7902.199999988079,
+      7806.199999988079,
+      7823.399999976158,
+      8298.900000035763,
+      7830.699999988079
+    ],
+    "medianReadyMs": 7830.699999988079,
+    "p95ReadyMs": 8298.900000035763,
+    "encodedBytes": [
+      149356755,
+      149356755,
+      149356755,
+      149356755,
+      149356755
+    ]
+  },
+  "warm": {
+    "count": 5,
+    "readyMs": [
+      8008,
+      9457.199999988079,
+      9753.300000011921,
+      21686.900000035763,
+      9231.300000011921
+    ],
+    "medianReadyMs": 9457.199999988079,
+    "p95ReadyMs": 21686.900000035763,
+    "encodedBytes": [
+      48248057,
+      48248057,
+      48248057,
+      48248057,
+      48248057
+    ]
+  },
+  "warmSceneCacheHits": [
+    212,
+    212,
+    212,
+    212,
+    212
+  ],
+  "historicalComparison": {
+    "P01ColdMedianMs": 6597.9,
+    "P01WarmMedianMs": 8965.1,
+    "coldMedianChangePercent": 18.6847330209321,
+    "warmMedianChangePercent": 5.489063144728767,
+    "comparison": "Historical, not freshly paired; five more models and device conditions differ. No causal regression or speed improvement established."
+  },
+  "limitations": "Five samples per condition; p95 is maximum. Browser-cold is not OS/GPU/WASM-cold. Warm outlier 21686.9 ms remains unattributed; all 212 scenes hit cache. All models still open initially, 200 remain pinned. No whole-area startup or memory scalability claim. Route rAF gaps are not GPU timings."
+}

@@ -1,0 +1,54 @@
+{
+  "recorded": "2026-10-12T19:41:42.408498+00:00",
+  "head": "a2a90a3e08540e15f40e0ede0f8af14921f54675",
+  "finalPck": {
+    "bytes": 7981516,
+    "sha256": "fa4d32a0ece9c56bdd4b67e2c94f11c2a01f5dce272bdb675313e8285928cffc",
+    "brotliBytes": 7386114
+  },
+  "runtimeFiles": 222,
+  "sourceHashes": 112,
+  "unchangedModels": 203,
+  "unchangedCompiledScenes": 203,
+  "changedTrackedNonMarkdown": [
+    "dist/seventh/build.json",
+    "dist/seventh/index.html",
+    "dist/seventh/index.pck",
+    "engine/first-seventh/export_presets.cfg",
+    "engine/first-seventh/scripts/cameras.gd",
+    "engine/first-seventh/scripts/main.gd",
+    "engine/first-seventh/scripts/world.gd",
+    "scripts/export-seventh.mjs",
+    "scripts/verify-seventh.mjs",
+    "scripts/review-seventh-address.mjs"
+  ],
+  "unchangedTrackedNonMarkdownCount": 2374,
+  "addedRuntimeSources": [
+    "engine/first-seventh/scripts/area_streamer.gd",
+    "engine/first-seventh/scripts/area_streamer.gd.uid",
+    "engine/first-seventh/scripts/export_areas.gd",
+    "engine/first-seventh/scripts/export_areas.gd.uid",
+    "engine/first-seventh/assets/area_manifest.json",
+    "scripts/seventh-package.mjs"
+  ],
+  "allowlistClarification": "The baseline proposed assets/areas.json; the actual generated manifest is assets/area_manifest.json. Generated .gd.uid companions are retained. Camera edits are the bounded readiness hook.",
+  "privateScreenshots": [
+    {
+      "path": "Screenshot 2026-09-14 at 8.35.02\u202fPM.png",
+      "sha256": "a182ce14205d2c4d6125f5f332b80ff643b77b56f0117678e7a2d83541fd652d",
+      "untracked": true
+    },
+    {
+      "path": "Screenshot 2026-09-21 at 4.47.09\u202fPM.png",
+      "sha256": "184d4be305befa6c5152848f7f8fc9ce770083fea613d0dacaefa50a72596deb",
+      "untracked": true
+    }
+  ],
+  "absentDistIndex": true,
+  "timedCandidateSourceDifference": [
+    "engine/first-seventh/scripts/area_streamer.gd"
+  ],
+  "timedCandidateDifferenceScope": "Only retry_failed changes: cancel outstanding requests and clear old attempt budgets on explicit R/reset. Startup, ordinary journey, decode, activation and retirement paths are unchanged.",
+  "remote": "No fetch, push, CI, deployment or live check; local uncommitted.",
+  "reviewHarnessChange": "Address runner now emulates focus during healthy checks, consistent with existing full/streaming runners. Initial watchdog failure and successful repeat retained. No runtime source change."
+}

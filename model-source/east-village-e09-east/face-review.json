@@ -1,0 +1,3209 @@
+{
+  "schema": 1,
+  "block": "01-E09-1A",
+  "build": "2026-10-15T04:33:43.860Z",
+  "reviewer": "root, same implementer, separate served-image inspection pass",
+  "method": "Records compiled after the actual inspections enumerated in visual-review.json; capture counts alone did not award review. Dated source observations and identity/architecture comparisons guided repairs.",
+  "faces": [
+    {
+      "faceId": "248142921:0",
+      "buildingId": 248142921,
+      "address": "411",
+      "state": "modeled and visually reviewed against dated evidence; not calibrated acceptance",
+      "sourceIds": [
+        "411-oblique",
+        "archive-248142921",
+        "411-shops-dated"
+      ],
+      "reviewedViews": {
+        "review-02": [
+          "248142921-0-411east-0-front.jpg",
+          "248142921-0-411east-0-left.jpg",
+          "248142921-0-411east-0-right.jpg",
+          "248142921-0-411west-0-front.jpg",
+          "248142921-0-411west-0-left.jpg",
+          "248142921-0-411west-0-right.jpg",
+          "248142921-0-elevation.jpg",
+          "248142921-0-ground-middle.jpg",
+          "248142921-0-mass-east.jpg",
+          "248142921-0-mass-west.jpg"
+        ]
+      },
+      "architectureReview": "Two distinct blue-gray shop bays; no fabricated tenant label; four-by-four upper rhythm without escape.",
+      "openings": 16,
+      "entries": 1,
+      "massAndJunctionReview": "Full elevation plus both mass obliques inspected; mapped footprint and observed roof/recess/access distinctions retained. Dimensions are visual estimates, hidden returns not established.",
+      "sourceHeight": 17.51,
+      "modeledHeight": 17.51
+    },
+    {
+      "faceId": "248142923:0",
+      "buildingId": 248142923,
+      "address": "413",
+      "state": "modeled and visually reviewed against dated evidence; not calibrated acceptance",
+      "sourceIds": [
+        "413-415-elevations",
+        "archive-248142923"
+      ],
+      "reviewedViews": {
+        "review-02": [
+          "248142923-0-elevation.jpg",
+          "248142923-0-ground-middle.jpg",
+          "248142923-0-mass-east.jpg",
+          "248142923-0-mass-west.jpg",
+          "248142923-0-well.jpg"
+        ],
+        "review-03": [
+          "248142923-0-well.jpg"
+        ]
+      },
+      "architectureReview": "Buff raised ground, green molded hoods; independent access.",
+      "openings": 20,
+      "entries": 1,
+      "massAndJunctionReview": "Full elevation plus both mass obliques inspected; mapped footprint and observed roof/recess/access distinctions retained. Dimensions are visual estimates, hidden returns not established.",
+      "sourceHeight": 16.13,
+      "modeledHeight": 16.13
+    },
+    {
+      "faceId": "248142925:0",
+      "buildingId": 248142925,
+      "address": "415",
+      "state": "modeled and visually reviewed against dated evidence; not calibrated acceptance",
+      "sourceIds": [
+        "413-415-elevations",
+        "archive-248142925"
+      ],
+      "reviewedViews": {
+        "review-02": [
+          "248142925-0-elevation.jpg",
+          "248142925-0-ground-middle.jpg",
+          "248142925-0-mass-east.jpg",
+          "248142925-0-mass-west.jpg",
+          "248142925-0-well.jpg"
+        ],
+        "review-03": [
+          "248142925-0-well.jpg"
+        ]
+      },
+      "architectureReview": "Ornamental pediment/scroll lintels and separate cornice rhythm.",
+      "openings": 20,
+      "entries": 1,
+      "massAndJunctionReview": "Full elevation plus both mass obliques inspected; mapped footprint and observed roof/recess/access distinctions retained. Dimensions are visual estimates, hidden returns not established.",
+      "sourceHeight": 16.64,
+      "modeledHeight": 16.64
+    },
+    {
+      "faceId": "248142926:0",
+      "buildingId": 248142926,
+      "address": "417",
+      "state": "modeled and visually reviewed against dated evidence; not calibrated acceptance",
+      "sourceIds": [
+        "417-419-elevations",
+        "archive-248142926"
+      ],
+      "reviewedViews": {
+        "review-02": [
+          "248142926-0-elevation.jpg",
+          "248142926-0-ground-middle.jpg",
+          "248142926-0-mass-east.jpg",
+          "248142926-0-mass-west.jpg",
+          "248142926-0-well.jpg"
+        ],
+        "review-03": [
+          "248142926-0-well.jpg"
+        ]
+      },
+      "architectureReview": "High parlor/silver access, pale stone lower facade.",
+      "openings": 20,
+      "entries": 1,
+      "massAndJunctionReview": "Full elevation plus both mass obliques inspected; mapped footprint and observed roof/recess/access distinctions retained. Dimensions are visual estimates, hidden returns not established.",
+      "sourceHeight": 19.82,
+      "modeledHeight": 19.82
+    },
+    {
+      "faceId": "248142927:0",
+      "buildingId": 248142927,
+      "address": "419",
+      "state": "modeled and visually reviewed against dated evidence; not calibrated acceptance",
+      "sourceIds": [
+        "417-419-elevations"
+      ],
+      "reviewedViews": {
+        "review-02": [
+          "248142927-0-elevation.jpg",
+          "248142927-0-ground-middle.jpg",
+          "248142927-0-mass-east.jpg",
+          "248142927-0-mass-west.jpg",
+          "248142927-0-well.jpg"
+        ],
+        "review-03": [
+          "248142927-0-well.jpg"
+        ]
+      },
+      "architectureReview": "Salmon three-column upper facade without escape; dated Ukrainian flag.",
+      "openings": 16,
+      "entries": 1,
+      "massAndJunctionReview": "Full elevation plus both mass obliques inspected; mapped footprint and observed roof/recess/access distinctions retained. Dimensions are visual estimates, hidden returns not established.",
+      "sourceHeight": 13.57,
+      "modeledHeight": 13.57
+    },
+    {
+      "faceId": "248142929:0",
+      "buildingId": 248142929,
+      "address": "421",
+      "state": "modeled and visually reviewed against dated evidence; not calibrated acceptance",
+      "sourceIds": [
+        "421-oblique",
+        "archive-248142929"
+      ],
+      "reviewedViews": {
+        "review-02": [
+          "248142929-0-elevation.jpg",
+          "248142929-0-ground-middle.jpg",
+          "248142929-0-mass-east.jpg",
+          "248142929-0-mass-west.jpg",
+          "248142929-0-well.jpg"
+        ],
+        "review-03": [
+          "248142929-0-well.jpg"
+        ]
+      },
+      "architectureReview": "Coral pilasters and curved burgundy 421 doorway canopy.",
+      "openings": 18,
+      "entries": 1,
+      "massAndJunctionReview": "Full elevation plus both mass obliques inspected; mapped footprint and observed roof/recess/access distinctions retained. Dimensions are visual estimates, hidden returns not established.",
+      "sourceHeight": 18.15,
+      "modeledHeight": 18.15
+    },
+    {
+      "faceId": "248142930:0",
+      "buildingId": 248142930,
+      "address": "423",
+      "state": "modeled and visually reviewed against dated evidence; not calibrated acceptance",
+      "sourceIds": [
+        "423-427-houses",
+        "425-ground-detail"
+      ],
+      "reviewedViews": {
+        "review-02": [
+          "248142930-0-elevation.jpg",
+          "248142930-0-ground-middle.jpg",
+          "248142930-0-mass-east.jpg",
+          "248142930-0-mass-west.jpg",
+          "248142930-0-well.jpg"
+        ],
+        "review-03": [
+          "248142930-0-well.jpg"
+        ]
+      },
+      "architectureReview": "Two-bay narrow paired rowhouse face; no invented extra 423 door.",
+      "openings": 8,
+      "entries": 0,
+      "massAndJunctionReview": "Full elevation plus both mass obliques inspected; mapped footprint and observed roof/recess/access distinctions retained. Dimensions are visual estimates, hidden returns not established.",
+      "sourceHeight": 14.08,
+      "modeledHeight": 14.08
+    },
+    {
+      "faceId": "248142932:0",
+      "buildingId": 248142932,
+      "address": "425",
+      "state": "modeled and visually reviewed against dated evidence; not calibrated acceptance",
+      "sourceIds": [
+        "423-427-houses",
+        "425-ground-detail"
+      ],
+      "reviewedViews": {
+        "review-02": [
+          "248142932-0-elevation.jpg",
+          "248142932-0-ground-middle.jpg",
+          "248142932-0-mass-east.jpg",
+          "248142932-0-mass-west.jpg",
+          "248142932-0-well.jpg"
+        ],
+        "review-03": [
+          "248142932-0-well.jpg"
+        ]
+      },
+      "architectureReview": "Paired rowhouse with its observed access; two upper bays.",
+      "openings": 7,
+      "entries": 1,
+      "massAndJunctionReview": "Full elevation plus both mass obliques inspected; mapped footprint and observed roof/recess/access distinctions retained. Dimensions are visual estimates, hidden returns not established.",
+      "sourceHeight": 14.88,
+      "modeledHeight": 14.88
+    },
+    {
+      "faceId": "248142934:0",
+      "buildingId": 248142934,
+      "address": "427",
+      "state": "modeled and visually reviewed against dated evidence; not calibrated acceptance",
+      "sourceIds": [
+        "423-427-houses",
+        "425-ground-detail"
+      ],
+      "reviewedViews": {
+        "review-02": [
+          "248142934-0-elevation.jpg",
+          "248142934-0-ground-middle.jpg",
+          "248142934-0-mass-east.jpg",
+          "248142934-0-mass-west.jpg",
+          "248142934-0-well.jpg"
+        ],
+        "review-03": [
+          "248142934-0-well.jpg"
+        ]
+      },
+      "architectureReview": "Pale two-bay front with divided sash/shutters and low entry.",
+      "openings": 7,
+      "entries": 1,
+      "massAndJunctionReview": "Full elevation plus both mass obliques inspected; mapped footprint and observed roof/recess/access distinctions retained. Dimensions are visual estimates, hidden returns not established.",
+      "sourceHeight": 13.9,
+      "modeledHeight": 13.9
+    },
+    {
+      "faceId": "248142936:0",
+      "buildingId": 248142936,
+      "address": "429",
+      "state": "modeled and visually reviewed against dated evidence; not calibrated acceptance",
+      "sourceIds": [
+        "429-433-ground",
+        "archive-248142936"
+      ],
+      "reviewedViews": {
+        "review-02": [
+          "248142936-0-elevation.jpg",
+          "248142936-0-ground-middle.jpg",
+          "248142936-0-mass-east.jpg",
+          "248142936-0-mass-west.jpg",
+          "248142936-0-well.jpg"
+        ],
+        "review-03": [
+          "248142936-0-well.jpg"
+        ]
+      },
+      "architectureReview": "Three-bay rust facade and projecting entry hood.",
+      "openings": 11,
+      "entries": 1,
+      "massAndJunctionReview": "Full elevation plus both mass obliques inspected; mapped footprint and observed roof/recess/access distinctions retained. Dimensions are visual estimates, hidden returns not established.",
+      "sourceHeight": 13.71,
+      "modeledHeight": 13.71
+    },
+    {
+      "faceId": "248142938:0",
+      "buildingId": 248142938,
+      "address": "431",
+      "state": "modeled and visually reviewed against dated evidence; not calibrated acceptance",
+      "sourceIds": [
+        "429-433-ground",
+        "archive-248142938"
+      ],
+      "reviewedViews": {
+        "review-02": [
+          "248142938-0-elevation.jpg",
+          "248142938-0-ground-middle.jpg",
+          "248142938-0-mass-east.jpg",
+          "248142938-0-mass-west.jpg",
+          "248142938-0-well.jpg"
+        ],
+        "review-03": [
+          "248142938-0-well.jpg"
+        ]
+      },
+      "architectureReview": "Ornate light-stone facade with arches, panels, pediments and spherical gate piers.",
+      "openings": 14,
+      "entries": 1,
+      "massAndJunctionReview": "Full elevation plus both mass obliques inspected; mapped footprint and observed roof/recess/access distinctions retained. Dimensions are visual estimates, hidden returns not established.",
+      "sourceHeight": 17.83,
+      "modeledHeight": 17.83
+    },
+    {
+      "faceId": "248142940:0",
+      "buildingId": 248142940,
+      "address": "433",
+      "state": "modeled and visually reviewed against dated evidence; not calibrated acceptance",
+      "sourceIds": [
+        "429-433-ground"
+      ],
+      "reviewedViews": {
+        "review-02": [
+          "248142940-0-elevation.jpg",
+          "248142940-0-ground-middle.jpg",
+          "248142940-0-mass-east.jpg",
+          "248142940-0-mass-west.jpg",
+          "248142940-0-well.jpg"
+        ],
+        "review-03": [
+          "248142940-0-well.jpg"
+        ]
+      },
+      "architectureReview": "Mauve brick/cream ground; boarded western parlor, AC and three lamps.",
+      "openings": 14,
+      "entries": 1,
+      "massAndJunctionReview": "Full elevation plus both mass obliques inspected; mapped footprint and observed roof/recess/access distinctions retained. Dimensions are visual estimates, hidden returns not established.",
+      "sourceHeight": 15.97,
+      "modeledHeight": 15.97
+    },
+    {
+      "faceId": "248142942:0",
+      "buildingId": 248142942,
+      "address": "435",
+      "state": "modeled and visually reviewed against dated evidence; not calibrated acceptance",
+      "sourceIds": [
+        "435-elevation",
+        "435-shopfronts",
+        "437-439-shop-details"
+      ],
+      "reviewedViews": {
+        "review-02": [
+          "248142942-0-elevation.jpg",
+          "248142942-0-ground-middle.jpg",
+          "248142942-0-katsu-0-front.jpg",
+          "248142942-0-katsu-0-left.jpg",
+          "248142942-0-katsu-0-right.jpg",
+          "248142942-0-mass-east.jpg",
+          "248142942-0-mass-west.jpg",
+          "248142942-0-psychic-0-front.jpg",
+          "248142942-0-psychic-0-left.jpg",
+          "248142942-0-psychic-0-right.jpg"
+        ]
+      },
+      "architectureReview": "Individual source schedule and complete elevation/ground/both-oblique review; storefront distinctions are recorded per business below.",
+      "openings": 9,
+      "entries": 1,
+      "massAndJunctionReview": "Full elevation plus both mass obliques inspected; mapped footprint and observed roof/recess/access distinctions retained. Dimensions are visual estimates, hidden returns not established.",
+      "sourceHeight": 12.39,
+      "modeledHeight": 12.39
+    },
+    {
+      "faceId": "248142944:0",
+      "buildingId": 248142944,
+      "address": "437",
+      "state": "modeled and visually reviewed against dated evidence; not calibrated acceptance",
+      "sourceIds": [
+        "437-441-elevations",
+        "437-439-shop-details"
+      ],
+      "reviewedViews": {
+        "review-02": [
+          "248142944-0-elevation.jpg",
+          "248142944-0-ground-middle.jpg",
+          "248142944-0-lafleur-0-front.jpg",
+          "248142944-0-lafleur-0-left.jpg",
+          "248142944-0-lafleur-0-right.jpg",
+          "248142944-0-mass-east.jpg",
+          "248142944-0-mass-west.jpg",
+          "248142944-0-throwback-0-front.jpg",
+          "248142944-0-throwback-0-left.jpg",
+          "248142944-0-throwback-0-right.jpg"
+        ],
+        "review-03": [
+          "248142944-0-0.24-front.jpg",
+          "248142944-0-0.24-left.jpg",
+          "248142944-0-0.24-right.jpg",
+          "248142944-0-elevation.jpg",
+          "248142944-0-ground.jpg"
+        ]
+      },
+      "architectureReview": "Individual source schedule and complete elevation/ground/both-oblique review; storefront distinctions are recorded per business below.",
+      "openings": 12,
+      "entries": 1,
+      "massAndJunctionReview": "Full elevation plus both mass obliques inspected; mapped footprint and observed roof/recess/access distinctions retained. Dimensions are visual estimates, hidden returns not established.",
+      "sourceHeight": 15.39,
+      "modeledHeight": 15.39
+    },
+    {
+      "faceId": "248142945:0",
+      "buildingId": 248142945,
+      "address": "439",
+      "state": "modeled and visually reviewed against dated evidence; not calibrated acceptance",
+      "sourceIds": [
+        "437-441-elevations",
+        "437-439-shop-details"
+      ],
+      "reviewedViews": {
+        "review-02": [
+          "248142945-0-439vacant-0-front.jpg",
+          "248142945-0-439vacant-0-left.jpg",
+          "248142945-0-439vacant-0-right.jpg",
+          "248142945-0-barbers-0-front.jpg",
+          "248142945-0-barbers-0-left.jpg",
+          "248142945-0-barbers-0-right.jpg",
+          "248142945-0-elevation.jpg",
+          "248142945-0-ground-middle.jpg",
+          "248142945-0-mass-east.jpg",
+          "248142945-0-mass-west.jpg"
+        ]
+      },
+      "architectureReview": "Individual source schedule and complete elevation/ground/both-oblique review; storefront distinctions are recorded per business below.",
+      "openings": 12,
+      "entries": 1,
+      "massAndJunctionReview": "Full elevation plus both mass obliques inspected; mapped footprint and observed roof/recess/access distinctions retained. Dimensions are visual estimates, hidden returns not established.",
+      "sourceHeight": 12.76,
+      "modeledHeight": 12.76
+    },
+    {
+      "faceId": "248142947:0",
+      "buildingId": 248142947,
+      "address": "441",
+      "state": "modeled and visually reviewed against dated evidence; not calibrated acceptance",
+      "sourceIds": [
+        "437-441-elevations",
+        "441-ground"
+      ],
+      "reviewedViews": {
+        "review-02": [
+          "248142947-0-441vacant-0-front.jpg",
+          "248142947-0-441vacant-0-left.jpg",
+          "248142947-0-441vacant-0-right.jpg",
+          "248142947-0-elevation.jpg",
+          "248142947-0-ground-middle.jpg",
+          "248142947-0-mass-east.jpg",
+          "248142947-0-mass-west.jpg",
+          "248142947-0-poke-0-front.jpg",
+          "248142947-0-poke-0-left.jpg",
+          "248142947-0-poke-0-right.jpg"
+        ],
+        "review-03": [
+          "248142947-0-elevation.jpg",
+          "248142947-0-ground.jpg",
+          "248142947-0-upper-rails.jpg"
+        ]
+      },
+      "architectureReview": "Painted white brick; four main openings plus slit; diamond upper balcony rails and plain lowest rail.",
+      "openings": 25,
+      "entries": 1,
+      "massAndJunctionReview": "Full elevation plus both mass obliques inspected; mapped footprint and observed roof/recess/access distinctions retained. Dimensions are visual estimates, hidden returns not established.",
+      "sourceHeight": 17.04,
+      "modeledHeight": 17.04
+    },
+    {
+      "faceId": "248142948:0",
+      "buildingId": 248142948,
+      "address": "443",
+      "state": "modeled and visually reviewed against dated evidence; not calibrated acceptance",
+      "sourceIds": [
+        "443-elevation",
+        "443-shops"
+      ],
+      "reviewedViews": {
+        "review-02": [
+          "248142948-0-elevation.jpg",
+          "248142948-0-ground-middle.jpg",
+          "248142948-0-mass-east.jpg",
+          "248142948-0-mass-west.jpg",
+          "248142948-0-socialtees-0-front.jpg",
+          "248142948-0-socialtees-0-left.jpg",
+          "248142948-0-socialtees-0-right.jpg",
+          "248142948-0-yam-0-front.jpg",
+          "248142948-0-yam-0-left.jpg",
+          "248142948-0-yam-0-right.jpg"
+        ],
+        "review-03": [
+          "248142948-0-0.2-front.jpg",
+          "248142948-0-0.2-left.jpg",
+          "248142948-0-0.2-right.jpg",
+          "248142948-0-elevation.jpg",
+          "248142948-0-ground.jpg",
+          "248142948-0-upper-rails.jpg"
+        ]
+      },
+      "architectureReview": "Painted white brick; Social Tees and Hello Yam separate glass graphics/entries; diamond upper rails.",
+      "openings": 25,
+      "entries": 1,
+      "massAndJunctionReview": "Full elevation plus both mass obliques inspected; mapped footprint and observed roof/recess/access distinctions retained. Dimensions are visual estimates, hidden returns not established.",
+      "sourceHeight": 17.1,
+      "modeledHeight": 17.1
+    },
+    {
+      "faceId": "248142950:0",
+      "buildingId": 248142950,
+      "address": "445",
+      "state": "modeled and visually reviewed against dated evidence; not calibrated acceptance",
+      "sourceIds": [
+        "443-elevation",
+        "445-awning",
+        "445-close-correction"
+      ],
+      "reviewedViews": {
+        "review-02": [
+          "248142950-0-creperie-0-front.jpg",
+          "248142950-0-creperie-0-left.jpg",
+          "248142950-0-creperie-0-right.jpg",
+          "248142950-0-elevation.jpg",
+          "248142950-0-ground-middle.jpg",
+          "248142950-0-mass-east.jpg",
+          "248142950-0-mass-west.jpg",
+          "248142950-0-smoke-0-front.jpg",
+          "248142950-0-smoke-0-left.jpg",
+          "248142950-0-smoke-0-right.jpg"
+        ],
+        "review-03": [
+          "248142950-0-elevation.jpg",
+          "248142950-0-ground.jpg",
+          "248142950-0-upper-rails.jpg"
+        ]
+      },
+      "architectureReview": "Painted white brick; striped/scalloped creperie canopy and wood smoke-shop frontage; diamond upper rails.",
+      "openings": 25,
+      "entries": 2,
+      "massAndJunctionReview": "Full elevation plus both mass obliques inspected; mapped footprint and observed roof/recess/access distinctions retained. Dimensions are visual estimates, hidden returns not established.",
+      "sourceHeight": 17.6,
+      "modeledHeight": 17.6
+    },
+    {
+      "faceId": "248142661:0",
+      "buildingId": 248142661,
+      "address": "402",
+      "state": "modeled and visually reviewed against dated evidence; not calibrated acceptance",
+      "sourceIds": [
+        "archive-248142661",
+        "406-complete"
+      ],
+      "reviewedViews": {
+        "review-02": [
+          "248142661-0-elevation.jpg",
+          "248142661-0-ground-middle.jpg",
+          "248142661-0-mass-east.jpg",
+          "248142661-0-mass-west.jpg",
+          "248142661-0-well.jpg"
+        ],
+        "review-03": [
+          "248142661-0-well.jpg"
+        ]
+      },
+      "architectureReview": "Pale courses, independent access and actual well.",
+      "openings": 8,
+      "entries": 1,
+      "massAndJunctionReview": "Full elevation plus both mass obliques inspected; mapped footprint and observed roof/recess/access distinctions retained. Dimensions are visual estimates, hidden returns not established.",
+      "sourceHeight": 10.91,
+      "modeledHeight": 10.91
+    },
+    {
+      "faceId": "248142662:0",
+      "buildingId": 248142662,
+      "address": "404",
+      "state": "modeled and visually reviewed against dated evidence; not calibrated acceptance",
+      "sourceIds": [
+        "archive-248142662",
+        "406-complete"
+      ],
+      "reviewedViews": {
+        "review-02": [
+          "248142662-0-elevation.jpg",
+          "248142662-0-ground-middle.jpg",
+          "248142662-0-mass-east.jpg",
+          "248142662-0-mass-west.jpg",
+          "248142662-0-well.jpg"
+        ],
+        "review-03": [
+          "248142662-0-well.jpg"
+        ]
+      },
+      "architectureReview": "10.2m street wall and recessed 11.49m roof volume; no full-footprint overextrusion.",
+      "openings": 8,
+      "entries": 1,
+      "massAndJunctionReview": "Full elevation plus both mass obliques inspected; mapped footprint and observed roof/recess/access distinctions retained. Dimensions are visual estimates, hidden returns not established.",
+      "sourceHeight": 11.49,
+      "modeledHeight": 11.49
+    },
+    {
+      "faceId": "248142663:0",
+      "buildingId": 248142663,
+      "address": "406",
+      "state": "modeled and visually reviewed against dated evidence; not calibrated acceptance",
+      "sourceIds": [
+        "406-complete",
+        "406-410-frontage-correction"
+      ],
+      "reviewedViews": {
+        "review-02": [
+          "248142663-0-elevation.jpg",
+          "248142663-0-flowerpower-0-front.jpg",
+          "248142663-0-flowerpower-0-left.jpg",
+          "248142663-0-flowerpower-0-right.jpg",
+          "248142663-0-ground-middle.jpg",
+          "248142663-0-mass-east.jpg",
+          "248142663-0-mass-west.jpg",
+          "248142663-0-tsumiki-0-front.jpg",
+          "248142663-0-tsumiki-0-left.jpg",
+          "248142663-0-tsumiki-0-right.jpg",
+          "248142663-0-whitmans-0-front.jpg",
+          "248142663-0-whitmans-0-left.jpg",
+          "248142663-0-whitmans-0-right.jpg"
+        ]
+      },
+      "architectureReview": "Six upper openings with paired ornate hoods/pediments; three differently composed stores and separate residential door.",
+      "openings": 30,
+      "entries": 1,
+      "massAndJunctionReview": "Full elevation plus both mass obliques inspected; mapped footprint and observed roof/recess/access distinctions retained. Dimensions are visual estimates, hidden returns not established.",
+      "sourceHeight": 19.08,
+      "modeledHeight": 19.08
+    },
+    {
+      "faceId": "248142664:0",
+      "buildingId": 248142664,
+      "address": "410",
+      "state": "modeled and visually reviewed against dated evidence; not calibrated acceptance",
+      "sourceIds": [
+        "archive-248142664",
+        "406-complete",
+        "406-410-frontage-correction"
+      ],
+      "reviewedViews": {
+        "review-02": [
+          "248142664-0-elevation.jpg",
+          "248142664-0-ground-middle.jpg",
+          "248142664-0-mass-east.jpg",
+          "248142664-0-mass-west.jpg",
+          "248142664-0-well.jpg"
+        ],
+        "review-03": [
+          "248142664-0-well.jpg"
+        ]
+      },
+      "architectureReview": "Low two-story/three-column frontage, true roof step against tall neighbor.",
+      "openings": 8,
+      "entries": 1,
+      "massAndJunctionReview": "Full elevation plus both mass obliques inspected; mapped footprint and observed roof/recess/access distinctions retained. Dimensions are visual estimates, hidden returns not established.",
+      "sourceHeight": 11.74,
+      "modeledHeight": 11.74
+    },
+    {
+      "faceId": "248142710:0",
+      "buildingId": 248142710,
+      "address": "412",
+      "state": "modeled and visually reviewed against dated evidence; not calibrated acceptance",
+      "sourceIds": [
+        "406-410-frontage-correction",
+        "412-416-complete"
+      ],
+      "reviewedViews": {
+        "review-02": [
+          "248142710-0-412basement-0-front.jpg",
+          "248142710-0-412basement-0-left.jpg",
+          "248142710-0-412basement-0-right.jpg",
+          "248142710-0-414basement-0-front.jpg",
+          "248142710-0-414basement-0-left.jpg",
+          "248142710-0-414basement-0-right.jpg",
+          "248142710-0-elevation.jpg",
+          "248142710-0-ground-middle.jpg",
+          "248142710-0-mass-east.jpg",
+          "248142710-0-mass-west.jpg",
+          "248142710-0-well.jpg"
+        ],
+        "review-03": [
+          "248142710-0-well.jpg"
+        ]
+      },
+      "architectureReview": "Six-bay joined 412/414 facade with separate raised access and two basement shops; tenant words unresolved.",
+      "openings": 30,
+      "entries": 1,
+      "massAndJunctionReview": "Full elevation plus both mass obliques inspected; mapped footprint and observed roof/recess/access distinctions retained. Dimensions are visual estimates, hidden returns not established.",
+      "sourceHeight": 16.99,
+      "modeledHeight": 16.99
+    },
+    {
+      "faceId": "248142666:0",
+      "buildingId": 248142666,
+      "address": "416",
+      "state": "modeled and visually reviewed against dated evidence; not calibrated acceptance",
+      "sourceIds": [
+        "archive-248142666",
+        "412-416-complete"
+      ],
+      "reviewedViews": {
+        "review-02": [
+          "248142666-0-elevation.jpg",
+          "248142666-0-ground-middle.jpg",
+          "248142666-0-mass-east.jpg",
+          "248142666-0-mass-west.jpg",
+          "248142666-0-well.jpg"
+        ],
+        "review-03": [
+          "248142666-0-well.jpg"
+        ]
+      },
+      "architectureReview": "Five-column upper rhythm with arched details and real basement well.",
+      "openings": 28,
+      "entries": 1,
+      "massAndJunctionReview": "Full elevation plus both mass obliques inspected; mapped footprint and observed roof/recess/access distinctions retained. Dimensions are visual estimates, hidden returns not established.",
+      "sourceHeight": 17.67,
+      "modeledHeight": 17.67
+    },
+    {
+      "faceId": "248142669:0",
+      "buildingId": 248142669,
+      "address": "418",
+      "state": "modeled and visually reviewed against dated evidence; not calibrated acceptance",
+      "sourceIds": [
+        "archive-248142669",
+        "418-422-evidence-limit"
+      ],
+      "reviewedViews": {
+        "review-02": [
+          "248142669-0-elevation.jpg",
+          "248142669-0-ground-middle.jpg",
+          "248142669-0-mass-east.jpg",
+          "248142669-0-mass-west.jpg"
+        ]
+      },
+      "architectureReview": "Three-bay face; broad grille and narrow western access.",
+      "openings": 15,
+      "entries": 1,
+      "massAndJunctionReview": "Full elevation plus both mass obliques inspected; mapped footprint and observed roof/recess/access distinctions retained. Dimensions are visual estimates, hidden returns not established.",
+      "sourceHeight": 18.75,
+      "modeledHeight": 18.75
+    },
+    {
+      "faceId": "248142668:0",
+      "buildingId": 248142668,
+      "address": "418.5",
+      "state": "modeled and visually reviewed against dated evidence; not calibrated acceptance",
+      "sourceIds": [
+        "archive-248142668",
+        "418-422-evidence-limit"
+      ],
+      "reviewedViews": {
+        "review-02": [
+          "248142668-0-elevation.jpg",
+          "248142668-0-ground-middle.jpg",
+          "248142668-0-mass-east.jpg",
+          "248142668-0-mass-west.jpg",
+          "248142668-0-well.jpg"
+        ],
+        "review-03": [
+          "248142668-0-well.jpg"
+        ]
+      },
+      "architectureReview": "Narrow two-bay face, no fire escape; distinct half-address placement.",
+      "openings": 10,
+      "entries": 1,
+      "massAndJunctionReview": "Full elevation plus both mass obliques inspected; mapped footprint and observed roof/recess/access distinctions retained. Dimensions are visual estimates, hidden returns not established.",
+      "sourceHeight": 18.13,
+      "modeledHeight": 18.13
+    },
+    {
+      "faceId": "248142672:0",
+      "buildingId": 248142672,
+      "address": "420",
+      "state": "modeled and visually reviewed against dated evidence; not calibrated acceptance",
+      "sourceIds": [
+        "archive-248142672",
+        "fa-dated-photo",
+        "418-422-evidence-limit",
+        "422-goodbeer-dated"
+      ],
+      "reviewedViews": {
+        "review-02": [
+          "248142672-0-elevation.jpg",
+          "248142672-0-fa-0-front.jpg",
+          "248142672-0-fa-0-left.jpg",
+          "248142672-0-fa-0-right.jpg",
+          "248142672-0-ground-middle.jpg",
+          "248142672-0-mass-east.jpg",
+          "248142672-0-mass-west.jpg",
+          "248142672-0-well.jpg"
+        ],
+        "review-03": [
+          "248142672-0-well.jpg"
+        ]
+      },
+      "architectureReview": "Joined 420/422 rhythm, circle/X escape rails and outside stair run; FA arched wood/glass.",
+      "openings": 14,
+      "entries": 1,
+      "massAndJunctionReview": "Full elevation plus both mass obliques inspected; mapped footprint and observed roof/recess/access distinctions retained. Dimensions are visual estimates, hidden returns not established.",
+      "sourceHeight": 17.56,
+      "modeledHeight": 17.56
+    },
+    {
+      "faceId": "248142675:0",
+      "buildingId": 248142675,
+      "address": "422",
+      "state": "modeled and visually reviewed against dated evidence; not calibrated acceptance",
+      "sourceIds": [
+        "archive-248142675",
+        "418-422-evidence-limit",
+        "422-goodbeer-dated"
+      ],
+      "reviewedViews": {
+        "review-02": [
+          "248142675-0-422basement-0-front.jpg",
+          "248142675-0-422basement-0-left.jpg",
+          "248142675-0-422basement-0-right.jpg",
+          "248142675-0-elevation.jpg",
+          "248142675-0-ground-middle.jpg",
+          "248142675-0-mass-east.jpg",
+          "248142675-0-mass-west.jpg",
+          "248142675-0-well.jpg"
+        ],
+        "review-03": [
+          "248142675-0-well.jpg"
+        ]
+      },
+      "architectureReview": "Joined 420/422 mass; historic Good Beer basement, not a current occupancy claim.",
+      "openings": 14,
+      "entries": 1,
+      "massAndJunctionReview": "Full elevation plus both mass obliques inspected; mapped footprint and observed roof/recess/access distinctions retained. Dimensions are visual estimates, hidden returns not established.",
+      "sourceHeight": 17.29,
+      "modeledHeight": 17.29
+    },
+    {
+      "faceId": "248142676:0",
+      "buildingId": 248142676,
+      "address": "424",
+      "state": "modeled and visually reviewed against dated evidence; not calibrated acceptance",
+      "sourceIds": [
+        "archive-248142676",
+        "424-upper",
+        "424-east-basement",
+        "thursday-close-supplement"
+      ],
+      "reviewedViews": {
+        "review-02": [
+          "248142676-0-drgreen-0-front.jpg",
+          "248142676-0-drgreen-0-left.jpg",
+          "248142676-0-drgreen-0-right.jpg",
+          "248142676-0-elevation.jpg",
+          "248142676-0-ground-middle.jpg",
+          "248142676-0-mass-east.jpg",
+          "248142676-0-mass-west.jpg",
+          "248142676-0-thursday-0-front.jpg",
+          "248142676-0-thursday-0-left.jpg",
+          "248142676-0-thursday-0-right.jpg",
+          "248142676-0-well.jpg"
+        ],
+        "review-03": [
+          "248142676-0-0.18-front.jpg",
+          "248142676-0-0.18-left.jpg",
+          "248142676-0-0.18-right.jpg",
+          "248142676-0-0.77-front.jpg",
+          "248142676-0-0.77-left.jpg",
+          "248142676-0-0.77-right.jpg",
+          "248142676-0-well.jpg"
+        ]
+      },
+      "architectureReview": "Six-column broad facade, central escape plus selected side balconies; raised entry, two basement businesses and timber curb enclosure.",
+      "openings": 29,
+      "entries": 1,
+      "massAndJunctionReview": "Full elevation plus both mass obliques inspected; mapped footprint and observed roof/recess/access distinctions retained. Dimensions are visual estimates, hidden returns not established.",
+      "sourceHeight": 17.6,
+      "modeledHeight": 17.6
+    },
+    {
+      "faceId": "248142677:0",
+      "buildingId": 248142677,
+      "address": "426",
+      "state": "modeled and visually reviewed against dated evidence; not calibrated acceptance",
+      "sourceIds": [
+        "archive-248142677",
+        "430428-ground",
+        "424-east-basement"
+      ],
+      "reviewedViews": {
+        "review-02": [
+          "248142677-0-elevation.jpg",
+          "248142677-0-ground-middle.jpg",
+          "248142677-0-mass-east.jpg",
+          "248142677-0-mass-west.jpg",
+          "248142677-0-well.jpg"
+        ],
+        "review-03": [
+          "248142677-0-well.jpg"
+        ]
+      },
+      "architectureReview": "Paired wide parlor glazing and silver entrance; basement rail/steps retained.",
+      "openings": 18,
+      "entries": 1,
+      "massAndJunctionReview": "Full elevation plus both mass obliques inspected; mapped footprint and observed roof/recess/access distinctions retained. Dimensions are visual estimates, hidden returns not established.",
+      "sourceHeight": 17.52,
+      "modeledHeight": 17.52
+    },
+    {
+      "faceId": "248142679:0",
+      "buildingId": 248142679,
+      "address": "428",
+      "state": "modeled and visually reviewed against dated evidence; not calibrated acceptance",
+      "sourceIds": [
+        "throwback2-photo",
+        "430428-ground"
+      ],
+      "reviewedViews": {
+        "review-02": [
+          "248142679-0-428east-0-front.jpg",
+          "248142679-0-428east-0-left.jpg",
+          "248142679-0-428east-0-right.jpg",
+          "248142679-0-elevation.jpg",
+          "248142679-0-ground-middle.jpg",
+          "248142679-0-mass-east.jpg",
+          "248142679-0-mass-west.jpg",
+          "248142679-0-throwback2-0-front.jpg",
+          "248142679-0-throwback2-0-left.jpg",
+          "248142679-0-throwback2-0-right.jpg",
+          "248142679-0-well.jpg"
+        ],
+        "review-03": [
+          "248142679-0-well.jpg"
+        ]
+      },
+      "architectureReview": "Two carved-wood shopfronts; eastern tenant unresolved, Throwback 2 separate grille/banner/hoods.",
+      "openings": 16,
+      "entries": 1,
+      "massAndJunctionReview": "Full elevation plus both mass obliques inspected; mapped footprint and observed roof/recess/access distinctions retained. Dimensions are visual estimates, hidden returns not established.",
+      "sourceHeight": 17.43,
+      "modeledHeight": 17.43
+    },
+    {
+      "faceId": "248142681:0",
+      "buildingId": 248142681,
+      "address": "430",
+      "state": "modeled and visually reviewed against dated evidence; not calibrated acceptance",
+      "sourceIds": [
+        "430-434-architecture",
+        "archive-248142681",
+        "430428-ground"
+      ],
+      "reviewedViews": {
+        "review-02": [
+          "248142681-0-elevation.jpg",
+          "248142681-0-ground-middle.jpg",
+          "248142681-0-mass-east.jpg",
+          "248142681-0-mass-west.jpg",
+          "248142681-0-salads-0-front.jpg",
+          "248142681-0-salads-0-left.jpg",
+          "248142681-0-salads-0-right.jpg",
+          "248142681-0-well.jpg",
+          "248142681-0-whiskers-0-front.jpg",
+          "248142681-0-whiskers-0-left.jpg",
+          "248142681-0-whiskers-0-right.jpg"
+        ],
+        "review-03": [
+          "248142681-0-well.jpg"
+        ]
+      },
+      "architectureReview": "High stoop and four parlor openings above independently composed dated basement shops.",
+      "openings": 20,
+      "entries": 1,
+      "massAndJunctionReview": "Full elevation plus both mass obliques inspected; mapped footprint and observed roof/recess/access distinctions retained. Dimensions are visual estimates, hidden returns not established.",
+      "sourceHeight": 19.57,
+      "modeledHeight": 19.57
+    },
+    {
+      "faceId": "248142682:0",
+      "buildingId": 248142682,
+      "address": "432",
+      "state": "modeled and visually reviewed against dated evidence; not calibrated acceptance",
+      "sourceIds": [
+        "430-434-architecture",
+        "432434-close"
+      ],
+      "reviewedViews": {
+        "review-02": [
+          "248142682-0-chiro-0-front.jpg",
+          "248142682-0-chiro-0-left.jpg",
+          "248142682-0-chiro-0-right.jpg",
+          "248142682-0-elevation.jpg",
+          "248142682-0-ground-middle.jpg",
+          "248142682-0-mass-east.jpg",
+          "248142682-0-mass-west.jpg"
+        ]
+      },
+      "architectureReview": "Wood rounded glass frontage and far-west residential access.",
+      "openings": 12,
+      "entries": 1,
+      "massAndJunctionReview": "Full elevation plus both mass obliques inspected; mapped footprint and observed roof/recess/access distinctions retained. Dimensions are visual estimates, hidden returns not established.",
+      "sourceHeight": 12.96,
+      "modeledHeight": 12.96
+    },
+    {
+      "faceId": "248142683:0",
+      "buildingId": 248142683,
+      "address": "434",
+      "state": "modeled and visually reviewed against dated evidence; not calibrated acceptance",
+      "sourceIds": [
+        "436-434-elevations",
+        "430-434-architecture",
+        "432434-close"
+      ],
+      "reviewedViews": {
+        "review-02": [
+          "248142683-0-434west-0-front.jpg",
+          "248142683-0-434west-0-left.jpg",
+          "248142683-0-434west-0-right.jpg",
+          "248142683-0-elevation.jpg",
+          "248142683-0-ground-middle.jpg",
+          "248142683-0-loveonly-0-front.jpg",
+          "248142683-0-loveonly-0-left.jpg",
+          "248142683-0-loveonly-0-right.jpg",
+          "248142683-0-mass-east.jpg",
+          "248142683-0-mass-west.jpg"
+        ]
+      },
+      "architectureReview": "Blue/yellow residential door between black Love Only canopy and ochre west frontage.",
+      "openings": 16,
+      "entries": 1,
+      "massAndJunctionReview": "Full elevation plus both mass obliques inspected; mapped footprint and observed roof/recess/access distinctions retained. Dimensions are visual estimates, hidden returns not established.",
+      "sourceHeight": 15.21,
+      "modeledHeight": 15.21
+    },
+    {
+      "faceId": "248142684:0",
+      "buildingId": 248142684,
+      "address": "436",
+      "state": "modeled and visually reviewed against dated evidence; not calibrated acceptance",
+      "sourceIds": [
+        "436-434-elevations"
+      ],
+      "reviewedViews": {
+        "review-02": [
+          "248142684-0-elevation.jpg",
+          "248142684-0-ground-middle.jpg",
+          "248142684-0-mass-east.jpg",
+          "248142684-0-mass-west.jpg",
+          "248142684-0-nicebrow-0-front.jpg",
+          "248142684-0-nicebrow-0-left.jpg",
+          "248142684-0-nicebrow-0-right.jpg",
+          "248142684-0-starshop-0-front.jpg",
+          "248142684-0-starshop-0-left.jpg",
+          "248142684-0-starshop-0-right.jpg"
+        ]
+      },
+      "architectureReview": "Independent Nicebrow sign/grille and star storefront.",
+      "openings": 16,
+      "entries": 1,
+      "massAndJunctionReview": "Full elevation plus both mass obliques inspected; mapped footprint and observed roof/recess/access distinctions retained. Dimensions are visual estimates, hidden returns not established.",
+      "sourceHeight": 15.51,
+      "modeledHeight": 15.51
+    },
+    {
+      "faceId": "248142685:0",
+      "buildingId": 248142685,
+      "address": "438",
+      "state": "modeled and visually reviewed against dated evidence; not calibrated acceptance",
+      "sourceIds": [
+        "438-440-elevations",
+        "440-438-shop-close"
+      ],
+      "reviewedViews": {
+        "review-02": [
+          "248142685-0-elevation.jpg",
+          "248142685-0-ground-middle.jpg",
+          "248142685-0-mass-east.jpg",
+          "248142685-0-mass-west.jpg",
+          "248142685-0-murphys-0-front.jpg",
+          "248142685-0-murphys-0-left.jpg",
+          "248142685-0-murphys-0-right.jpg",
+          "248142685-0-tacos-0-front.jpg",
+          "248142685-0-tacos-0-left.jpg",
+          "248142685-0-tacos-0-right.jpg"
+        ],
+        "review-03": [
+          "248142685-0-0.25-front.jpg",
+          "248142685-0-0.25-left.jpg",
+          "248142685-0-0.25-right.jpg",
+          "248142685-0-elevation.jpg",
+          "248142685-0-ground.jpg"
+        ]
+      },
+      "architectureReview": "Straight blue Murphy shade/plant layers versus Tacos green/red sign and independent curb frame.",
+      "openings": 16,
+      "entries": 1,
+      "massAndJunctionReview": "Full elevation plus both mass obliques inspected; mapped footprint and observed roof/recess/access distinctions retained. Dimensions are visual estimates, hidden returns not established.",
+      "sourceHeight": 14.35,
+      "modeledHeight": 14.35
+    },
+    {
+      "faceId": "248142702:0",
+      "buildingId": 248142702,
+      "address": "440",
+      "state": "modeled and visually reviewed against dated evidence; not calibrated acceptance",
+      "sourceIds": [
+        "442-low-infill",
+        "438-440-elevations",
+        "440-438-shop-close"
+      ],
+      "reviewedViews": {
+        "review-02": [
+          "248142702-0-confectionery-0-front.jpg",
+          "248142702-0-confectionery-0-left.jpg",
+          "248142702-0-confectionery-0-right.jpg",
+          "248142702-0-elevation.jpg",
+          "248142702-0-ground-middle.jpg",
+          "248142702-0-mass-east.jpg",
+          "248142702-0-mass-west.jpg",
+          "248142702-0-monkey-0-front.jpg",
+          "248142702-0-monkey-0-left.jpg",
+          "248142702-0-monkey-0-right.jpg"
+        ],
+        "review-03": [
+          "248142702-0-elevation.jpg",
+          "248142702-0-ground.jpg"
+        ]
+      },
+      "architectureReview": "Red curved Confectionery canopy versus green straight Monkey shade.",
+      "openings": 16,
+      "entries": 1,
+      "massAndJunctionReview": "Full elevation plus both mass obliques inspected; mapped footprint and observed roof/recess/access distinctions retained. Dimensions are visual estimates, hidden returns not established.",
+      "sourceHeight": 14.78,
+      "modeledHeight": 14.78
+    },
+    {
+      "faceId": "248142955:4",
+      "buildingId": 248142955,
+      "address": "PS122-4",
+      "state": "modeled and visually reviewed against dated evidence; not calibrated acceptance",
+      "sourceIds": [
+        "ps122-corner-2024",
+        "ps122-center-2022",
+        "school-official-photo",
+        "school-2019-clear"
+      ],
+      "reviewedViews": {
+        "review-02": [
+          "248142955-4-elevation.jpg",
+          "248142955-4-ground-middle.jpg",
+          "248142955-4-mass-east.jpg",
+          "248142955-4-mass-west.jpg",
+          "248142955-4-well.jpg"
+        ],
+        "review-03": [
+          "248142955-4-well.jpg"
+        ]
+      },
+      "architectureReview": "One of eight articulated school planes; raised institutional windows/access and open iron-railed lightwell beneath dated green scaffold. Narrow support strip fixed under First return; driving cap unchanged.",
+      "openings": 4,
+      "entries": 0,
+      "massAndJunctionReview": "Full elevation plus both mass obliques inspected; mapped footprint and observed roof/recess/access distinctions retained. Dimensions are visual estimates, hidden returns not established.",
+      "sourceHeight": 23.16,
+      "modeledHeight": 23.16
+    },
+    {
+      "faceId": "248142955:3",
+      "buildingId": 248142955,
+      "address": "PS122-3",
+      "state": "modeled and visually reviewed against dated evidence; not calibrated acceptance",
+      "sourceIds": [
+        "ps122-corner-2024",
+        "ps122-center-2022",
+        "school-official-photo",
+        "school-2019-clear"
+      ],
+      "reviewedViews": {
+        "review-02": [
+          "248142955-3-elevation.jpg",
+          "248142955-3-ground-middle.jpg",
+          "248142955-3-mass-east.jpg",
+          "248142955-3-mass-west.jpg",
+          "248142955-3-well.jpg"
+        ],
+        "review-03": [
+          "248142955-3-well.jpg"
+        ]
+      },
+      "architectureReview": "One of eight articulated school planes; raised institutional windows/access and open iron-railed lightwell beneath dated green scaffold. Narrow support strip fixed under First return; driving cap unchanged.",
+      "openings": 14,
+      "entries": 0,
+      "massAndJunctionReview": "Full elevation plus both mass obliques inspected; mapped footprint and observed roof/recess/access distinctions retained. Dimensions are visual estimates, hidden returns not established.",
+      "sourceHeight": 23.16,
+      "modeledHeight": 23.16
+    },
+    {
+      "faceId": "248142955:2",
+      "buildingId": 248142955,
+      "address": "PS122-2",
+      "state": "modeled and visually reviewed against dated evidence; not calibrated acceptance",
+      "sourceIds": [
+        "ps122-corner-2024",
+        "ps122-center-2022",
+        "school-official-photo",
+        "school-2019-clear"
+      ],
+      "reviewedViews": {
+        "review-02": [
+          "248142955-2-elevation.jpg",
+          "248142955-2-ground-middle.jpg",
+          "248142955-2-mass-east.jpg",
+          "248142955-2-mass-west.jpg",
+          "248142955-2-well.jpg"
+        ],
+        "review-03": [
+          "248142955-2-well.jpg"
+        ]
+      },
+      "architectureReview": "One of eight articulated school planes; raised institutional windows/access and open iron-railed lightwell beneath dated green scaffold. Narrow support strip fixed under First return; driving cap unchanged.",
+      "openings": 6,
+      "entries": 1,
+      "massAndJunctionReview": "Full elevation plus both mass obliques inspected; mapped footprint and observed roof/recess/access distinctions retained. Dimensions are visual estimates, hidden returns not established.",
+      "sourceHeight": 23.16,
+      "modeledHeight": 23.16
+    },
+    {
+      "faceId": "248142955:1",
+      "buildingId": 248142955,
+      "address": "PS122-1",
+      "state": "modeled and visually reviewed against dated evidence; not calibrated acceptance",
+      "sourceIds": [
+        "ps122-corner-2024",
+        "ps122-center-2022",
+        "school-official-photo",
+        "school-2019-clear"
+      ],
+      "reviewedViews": {
+        "review-02": [
+          "248142955-1-elevation.jpg",
+          "248142955-1-ground-middle.jpg",
+          "248142955-1-mass-east.jpg",
+          "248142955-1-mass-west.jpg",
+          "248142955-1-well.jpg"
+        ],
+        "review-03": [
+          "248142955-1-well.jpg"
+        ]
+      },
+      "architectureReview": "One of eight articulated school planes; raised institutional windows/access and open iron-railed lightwell beneath dated green scaffold. Narrow support strip fixed under First return; driving cap unchanged.",
+      "openings": 14,
+      "entries": 0,
+      "massAndJunctionReview": "Full elevation plus both mass obliques inspected; mapped footprint and observed roof/recess/access distinctions retained. Dimensions are visual estimates, hidden returns not established.",
+      "sourceHeight": 23.16,
+      "modeledHeight": 23.16
+    },
+    {
+      "faceId": "248142955:0",
+      "buildingId": 248142955,
+      "address": "PS122-0",
+      "state": "modeled and visually reviewed against dated evidence; not calibrated acceptance",
+      "sourceIds": [
+        "ps122-corner-2024",
+        "ps122-center-2022",
+        "school-official-photo",
+        "school-2019-clear"
+      ],
+      "reviewedViews": {
+        "review-02": [
+          "248142955-0-elevation.jpg",
+          "248142955-0-ground-middle.jpg",
+          "248142955-0-mass-east.jpg",
+          "248142955-0-mass-west.jpg",
+          "248142955-0-well.jpg"
+        ],
+        "review-03": [
+          "248142955-0-well.jpg"
+        ]
+      },
+      "architectureReview": "One of eight articulated school planes; raised institutional windows/access and open iron-railed lightwell beneath dated green scaffold. Narrow support strip fixed under First return; driving cap unchanged.",
+      "openings": 4,
+      "entries": 0,
+      "massAndJunctionReview": "Full elevation plus both mass obliques inspected; mapped footprint and observed roof/recess/access distinctions retained. Dimensions are visual estimates, hidden returns not established.",
+      "sourceHeight": 23.16,
+      "modeledHeight": 23.16
+    },
+    {
+      "faceId": "248142955:5",
+      "buildingId": 248142955,
+      "address": "PS122-5",
+      "state": "modeled and visually reviewed against dated evidence; not calibrated acceptance",
+      "sourceIds": [
+        "ps122-corner-2024",
+        "school-official-photo",
+        "school-2019-clear"
+      ],
+      "reviewedViews": {
+        "review-02": [
+          "248142955-5-elevation.jpg",
+          "248142955-5-ground-middle.jpg",
+          "248142955-5-mass-east.jpg",
+          "248142955-5-mass-west.jpg",
+          "248142955-5-well.jpg"
+        ],
+        "review-03": [
+          "248142955-5-well.jpg"
+        ]
+      },
+      "architectureReview": "One of eight articulated school planes; raised institutional windows/access and open iron-railed lightwell beneath dated green scaffold. Narrow support strip fixed under First return; driving cap unchanged.",
+      "openings": 8,
+      "entries": 0,
+      "massAndJunctionReview": "Full elevation plus both mass obliques inspected; mapped footprint and observed roof/recess/access distinctions retained. Dimensions are visual estimates, hidden returns not established.",
+      "sourceHeight": 23.16,
+      "modeledHeight": 23.16
+    },
+    {
+      "faceId": "248142955:6",
+      "buildingId": 248142955,
+      "address": "PS122-6",
+      "state": "modeled and visually reviewed against dated evidence; not calibrated acceptance",
+      "sourceIds": [
+        "ps122-corner-2024",
+        "school-official-photo",
+        "school-2019-clear"
+      ],
+      "reviewedViews": {
+        "review-02": [
+          "248142955-6-elevation.jpg",
+          "248142955-6-ground-middle.jpg",
+          "248142955-6-mass-east.jpg",
+          "248142955-6-mass-west.jpg",
+          "248142955-6-well.jpg"
+        ],
+        "review-03": [
+          "248142955-6-well.jpg"
+        ]
+      },
+      "architectureReview": "One of eight articulated school planes; raised institutional windows/access and open iron-railed lightwell beneath dated green scaffold. Narrow support strip fixed under First return; driving cap unchanged.",
+      "openings": 6,
+      "entries": 1,
+      "massAndJunctionReview": "Full elevation plus both mass obliques inspected; mapped footprint and observed roof/recess/access distinctions retained. Dimensions are visual estimates, hidden returns not established.",
+      "sourceHeight": 23.16,
+      "modeledHeight": 23.16
+    },
+    {
+      "faceId": "248142955:7",
+      "buildingId": 248142955,
+      "address": "PS122-7",
+      "state": "modeled and visually reviewed against dated evidence; not calibrated acceptance",
+      "sourceIds": [
+        "ps122-corner-2024",
+        "school-official-photo",
+        "school-2019-clear"
+      ],
+      "reviewedViews": {
+        "review-02": [
+          "248142955-7-elevation.jpg",
+          "248142955-7-ground-middle.jpg",
+          "248142955-7-mass-east.jpg",
+          "248142955-7-mass-west.jpg",
+          "248142955-7-well.jpg"
+        ],
+        "review-03": [
+          "248142955-7-well.jpg"
+        ]
+      },
+      "architectureReview": "One of eight articulated school planes; raised institutional windows/access and open iron-railed lightwell beneath dated green scaffold. Narrow support strip fixed under First return; driving cap unchanged.",
+      "openings": 8,
+      "entries": 0,
+      "massAndJunctionReview": "Full elevation plus both mass obliques inspected; mapped footprint and observed roof/recess/access distinctions retained. Dimensions are visual estimates, hidden returns not established.",
+      "sourceHeight": 23.16,
+      "modeledHeight": 23.16
+    },
+    {
+      "faceId": "248142963:0",
+      "buildingId": 248142963,
+      "address": "145A-Ninth",
+      "state": "modeled and visually reviewed against dated evidence; not calibrated acceptance",
+      "sourceIds": [
+        "145A-ninth-elevation",
+        "145A-return-and-ralphs"
+      ],
+      "reviewedViews": {
+        "review-02": [
+          "248142963-0-elevation.jpg",
+          "248142963-0-ground-middle.jpg",
+          "248142963-0-mass-east.jpg",
+          "248142963-0-mass-west.jpg",
+          "248142963-0-ralphside-0-front.jpg",
+          "248142963-0-ralphside-0-left.jpg",
+          "248142963-0-ralphside-0-right.jpg"
+        ],
+        "review-03": [
+          "248142963-0-elevation.jpg",
+          "248142963-0-ground.jpg"
+        ]
+      },
+      "architectureReview": "Ralph corner: broad burgundy Ninth wall, short blue return, Avenue A service hatch and picture-menu field under curved blue canopy; painted white masonry.",
+      "openings": 15,
+      "entries": 0,
+      "massAndJunctionReview": "Full elevation plus both mass obliques inspected; mapped footprint and observed roof/recess/access distinctions retained. Dimensions are visual estimates, hidden returns not established.",
+      "sourceHeight": 16.9,
+      "modeledHeight": 16.9
+    },
+    {
+      "faceId": "248142963:1",
+      "buildingId": 248142963,
+      "address": "145A-Avenue",
+      "state": "modeled and visually reviewed against dated evidence; not calibrated acceptance",
+      "sourceIds": [
+        "145A-return-and-ralphs"
+      ],
+      "reviewedViews": {
+        "review-02": [
+          "248142963-1-elevation.jpg",
+          "248142963-1-ground-middle.jpg",
+          "248142963-1-mass-east.jpg",
+          "248142963-1-mass-west.jpg",
+          "248142963-1-ralph-0-front.jpg",
+          "248142963-1-ralph-0-left.jpg",
+          "248142963-1-ralph-0-right.jpg",
+          "248142963-1-ralph-1-front.jpg",
+          "248142963-1-ralph-1-left.jpg",
+          "248142963-1-ralph-1-right.jpg",
+          "248142963-1-shop-complete.jpg"
+        ],
+        "review-03": [
+          "248142963-1-0.5-front.jpg",
+          "248142963-1-0.5-left.jpg",
+          "248142963-1-0.5-right.jpg",
+          "248142963-1-elevation.jpg",
+          "248142963-1-ground.jpg"
+        ]
+      },
+      "architectureReview": "Ralph corner: broad burgundy Ninth wall, short blue return, Avenue A service hatch and picture-menu field under curved blue canopy; painted white masonry.",
+      "openings": 19,
+      "entries": 0,
+      "massAndJunctionReview": "Full elevation plus both mass obliques inspected; mapped footprint and observed roof/recess/access distinctions retained. Dimensions are visual estimates, hidden returns not established.",
+      "sourceHeight": 16.9,
+      "modeledHeight": 16.9
+    },
+    {
+      "faceId": "248142716:0",
+      "buildingId": 248142716,
+      "address": "141A-Ninth",
+      "state": "modeled and visually reviewed against dated evidence; not calibrated acceptance",
+      "sourceIds": [
+        "141A-corner",
+        "doc-2024-ground",
+        "doc-ninth-mural",
+        "442-low-infill"
+      ],
+      "reviewedViews": {
+        "review-02": [
+          "248142716-0-celeste-0-front.jpg",
+          "248142716-0-celeste-0-left.jpg",
+          "248142716-0-celeste-0-right.jpg",
+          "248142716-0-docside-0-front.jpg",
+          "248142716-0-docside-0-left.jpg",
+          "248142716-0-docside-0-right.jpg",
+          "248142716-0-docside-1-front.jpg",
+          "248142716-0-docside-1-left.jpg",
+          "248142716-0-docside-1-right.jpg",
+          "248142716-0-elevation.jpg",
+          "248142716-0-ground-middle.jpg",
+          "248142716-0-mass-east.jpg",
+          "248142716-0-mass-west.jpg",
+          "248142716-0-shop-complete.jpg"
+        ],
+        "review-03": [
+          "248142716-0-elevation.jpg",
+          "248142716-0-ground.jpg"
+        ]
+      },
+      "architectureReview": "Doc corner: painted white masonry, deep cornice, blind/open Ninth bay rhythm, STIK/cowboy artwork and mauve wrap canopy; separate low Celeste infill with open terrace above.",
+      "openings": 12,
+      "entries": 1,
+      "massAndJunctionReview": "Full elevation plus both mass obliques inspected; mapped footprint and observed roof/recess/access distinctions retained. Dimensions are visual estimates, hidden returns not established.",
+      "sourceHeight": 15.4,
+      "modeledHeight": 15.4
+    },
+    {
+      "faceId": "248142716:1",
+      "buildingId": 248142716,
+      "address": "141A-Avenue",
+      "state": "modeled and visually reviewed against dated evidence; not calibrated acceptance",
+      "sourceIds": [
+        "141A-corner",
+        "141A-architecture-supplement",
+        "doc-2024-ground"
+      ],
+      "reviewedViews": {
+        "review-02": [
+          "248142716-1-docave-0-front.jpg",
+          "248142716-1-docave-0-left.jpg",
+          "248142716-1-docave-0-right.jpg",
+          "248142716-1-docave-1-front.jpg",
+          "248142716-1-docave-1-left.jpg",
+          "248142716-1-docave-1-right.jpg",
+          "248142716-1-elevation.jpg",
+          "248142716-1-ground-middle.jpg",
+          "248142716-1-mass-east.jpg",
+          "248142716-1-mass-west.jpg",
+          "248142716-1-shop-complete.jpg"
+        ],
+        "review-03": [
+          "248142716-1-elevation.jpg",
+          "248142716-1-ground.jpg"
+        ]
+      },
+      "architectureReview": "Doc corner: painted white masonry, deep cornice, blind/open Ninth bay rhythm, STIK/cowboy artwork and mauve wrap canopy; separate low Celeste infill with open terrace above.",
+      "openings": 16,
+      "entries": 0,
+      "massAndJunctionReview": "Full elevation plus both mass obliques inspected; mapped footprint and observed roof/recess/access distinctions retained. Dimensions are visual estimates, hidden returns not established.",
+      "sourceHeight": 15.4,
+      "modeledHeight": 15.4
+    },
+    {
+      "faceId": "248142713:1",
+      "buildingId": 248142713,
+      "address": "148-Ninth",
+      "state": "modeled and visually reviewed against dated evidence; not calibrated acceptance",
+      "sourceIds": [
+        "148-ninth-return"
+      ],
+      "reviewedViews": {
+        "review-02": [
+          "248142713-1-elevation.jpg",
+          "248142713-1-ground-middle.jpg",
+          "248142713-1-marketside-0-front.jpg",
+          "248142713-1-marketside-0-left.jpg",
+          "248142713-1-marketside-0-right.jpg",
+          "248142713-1-marketside-1-front.jpg",
+          "248142713-1-marketside-1-left.jpg",
+          "248142713-1-marketside-1-right.jpg",
+          "248142713-1-mass-east.jpg",
+          "248142713-1-mass-west.jpg",
+          "248142713-1-shop-complete.jpg",
+          "248142713-1-well.jpg"
+        ],
+        "review-03": [
+          "248142713-1-0.68-front.jpg",
+          "248142713-1-0.68-left.jpg",
+          "248142713-1-0.68-right.jpg",
+          "248142713-1-elevation.jpg",
+          "248142713-1-ground.jpg",
+          "248142713-1-well.jpg"
+        ]
+      },
+      "architectureReview": "Asymmetric stucco windows, 400 hood/stoop, real left well and projecting market enclosure; existing First face and mass protected.",
+      "openings": 16,
+      "entries": 1,
+      "massAndJunctionReview": "Full elevation plus both mass obliques inspected; mapped footprint and observed roof/recess/access distinctions retained. Dimensions are visual estimates, hidden returns not established.",
+      "sourceHeight": 13.36,
+      "modeledHeight": 13.36
+    }
+  ],
+  "businesses": [
+    {
+      "id": "248142921:0:411west",
+      "faceId": "248142921:0",
+      "name": "411 west studio \u2014 dated tenant unresolved",
+      "businessId": "411west",
+      "span": [
+        0.02,
+        0.405
+      ],
+      "identity": "Blue-gray carved frame, shallow straight fabric shade, closed silver rectangular grille.",
+      "sourceIds": [
+        "411-oblique",
+        "archive-248142921",
+        "411-shops-dated"
+      ],
+      "reviewState": "needs-evidence: tenant wording/identity unresolved; physical frontage reviewed",
+      "unknown": [
+        "Dated source appearance, not an October 2026 occupancy survey.",
+        "Source pixels temporary only; never distributed textures.",
+        "Mapped geometry plus visual estimates; hidden/unreadable details remain explicit."
+      ],
+      "reviewedFeatures": "Blue-gray carved frame, shallow straight fabric shade, closed silver rectangular grille.",
+      "inspection": {
+        "review-02": [
+          "248142921-0-411west-0-front.jpg",
+          "248142921-0-411west-0-left.jpg",
+          "248142921-0-411west-0-right.jpg"
+        ],
+        "review-03": [],
+        "review-04": [],
+        "review-05": []
+      },
+      "finalRepairs": "See parent face targeted repairs in visual-review.json; all images are build-specific.",
+      "limits": [
+        "Exact font outlines, graphic artwork, menu/poster contents and decorative dimensions are approximations; no photographic texture use.",
+        "Generic display objects express observed composition but do not reproduce every merchandise item.",
+        "No October 2026 occupancy verification; dated physical appearance is retained."
+      ]
+    },
+    {
+      "id": "248142921:0:411east",
+      "faceId": "248142921:0",
+      "name": "411 east salon \u2014 dated tenant unresolved",
+      "businessId": "411east",
+      "span": [
+        0.615,
+        0.985
+      ],
+      "identity": "Separate blue-gray molded frame, left entrance, broad display, white chair and plants; no invented logo.",
+      "sourceIds": [
+        "411-oblique",
+        "archive-248142921",
+        "411-shops-dated"
+      ],
+      "reviewState": "needs-evidence: tenant wording/identity unresolved; physical frontage reviewed",
+      "unknown": [
+        "Dated source appearance, not an October 2026 occupancy survey.",
+        "Source pixels temporary only; never distributed textures.",
+        "Mapped geometry plus visual estimates; hidden/unreadable details remain explicit."
+      ],
+      "reviewedFeatures": "Separate blue-gray molded frame, left entrance, broad display, white chair and plants; no invented logo.",
+      "inspection": {
+        "review-02": [
+          "248142921-0-411east-0-front.jpg",
+          "248142921-0-411east-0-left.jpg",
+          "248142921-0-411east-0-right.jpg"
+        ],
+        "review-03": [],
+        "review-04": [],
+        "review-05": []
+      },
+      "finalRepairs": "See parent face targeted repairs in visual-review.json; all images are build-specific.",
+      "limits": [
+        "Exact font outlines, graphic artwork, menu/poster contents and decorative dimensions are approximations; no photographic texture use.",
+        "Generic display objects express observed composition but do not reproduce every merchandise item.",
+        "No October 2026 occupancy verification; dated physical appearance is retained."
+      ]
+    },
+    {
+      "id": "248142942:0:psychic",
+      "faceId": "248142942:0",
+      "name": "Psychic / Tarot Card Reading",
+      "businessId": "psychic",
+      "span": [
+        0.015,
+        0.415
+      ],
+      "identity": "Burgundy curved canopy, flowing white Psychic script, side TAROT CARD READING, white frame, oval door grille and wire chair.",
+      "sourceIds": [
+        "435-elevation",
+        "435-shopfronts",
+        "437-439-shop-details"
+      ],
+      "reviewState": "dated frontage visually reviewed; current occupancy unverified",
+      "unknown": [
+        "Dated source appearance, not an October 2026 occupancy survey.",
+        "Source pixels temporary only; never distributed textures.",
+        "Mapped geometry plus visual estimates; hidden/unreadable details remain explicit."
+      ],
+      "reviewedFeatures": "Burgundy curved canopy, flowing white Psychic script, side TAROT CARD READING, white frame, oval door grille and wire chair.",
+      "inspection": {
+        "review-02": [
+          "248142942-0-psychic-0-front.jpg",
+          "248142942-0-psychic-0-left.jpg",
+          "248142942-0-psychic-0-right.jpg"
+        ],
+        "review-03": [],
+        "review-04": [],
+        "review-05": []
+      },
+      "finalRepairs": "See parent face targeted repairs in visual-review.json; all images are build-specific.",
+      "limits": [
+        "Exact font outlines, graphic artwork, menu/poster contents and decorative dimensions are approximations; no photographic texture use.",
+        "Generic display objects express observed composition but do not reproduce every merchandise item.",
+        "No October 2026 occupancy verification; dated physical appearance is retained."
+      ]
+    },
+    {
+      "id": "248142942:0:katsu",
+      "faceId": "248142942:0",
+      "name": "Evil Katsu",
+      "businessId": "katsu",
+      "span": [
+        0.62,
+        0.99
+      ],
+      "identity": "White sign box with angular blue EK, small Evil Katsu wording, separate dark closed roller shutter.",
+      "sourceIds": [
+        "435-elevation",
+        "435-shopfronts",
+        "437-439-shop-details"
+      ],
+      "reviewState": "dated frontage visually reviewed; current occupancy unverified",
+      "unknown": [
+        "Dated source appearance, not an October 2026 occupancy survey.",
+        "Source pixels temporary only; never distributed textures.",
+        "Mapped geometry plus visual estimates; hidden/unreadable details remain explicit."
+      ],
+      "reviewedFeatures": "White sign box with angular blue EK, small Evil Katsu wording, separate dark closed roller shutter.",
+      "inspection": {
+        "review-02": [
+          "248142942-0-katsu-0-front.jpg",
+          "248142942-0-katsu-0-left.jpg",
+          "248142942-0-katsu-0-right.jpg"
+        ],
+        "review-03": [],
+        "review-04": [],
+        "review-05": []
+      },
+      "finalRepairs": "See parent face targeted repairs in visual-review.json; all images are build-specific.",
+      "limits": [
+        "Exact font outlines, graphic artwork, menu/poster contents and decorative dimensions are approximations; no photographic texture use.",
+        "Generic display objects express observed composition but do not reproduce every merchandise item.",
+        "No October 2026 occupancy verification; dated physical appearance is retained."
+      ]
+    },
+    {
+      "id": "248142944:0:lafleur",
+      "faceId": "248142944:0",
+      "name": "La Fleur Cafe",
+      "businessId": "lafleur",
+      "span": [
+        0.015,
+        0.415
+      ],
+      "identity": "Dark green surround, brilliant green leaf illustration and pink script, silver roll grille.",
+      "sourceIds": [
+        "437-441-elevations",
+        "437-439-shop-details"
+      ],
+      "reviewState": "dated frontage visually reviewed; current occupancy unverified",
+      "unknown": [
+        "Dated source appearance, not an October 2026 occupancy survey.",
+        "Source pixels temporary only; never distributed textures.",
+        "Mapped geometry plus visual estimates; hidden/unreadable details remain explicit."
+      ],
+      "reviewedFeatures": "Dark green surround, brilliant green leaf illustration and pink script, silver roll grille.",
+      "inspection": {
+        "review-02": [
+          "248142944-0-lafleur-0-front.jpg",
+          "248142944-0-lafleur-0-left.jpg",
+          "248142944-0-lafleur-0-right.jpg"
+        ],
+        "review-03": [],
+        "review-04": [],
+        "review-05": []
+      },
+      "finalRepairs": "See parent face targeted repairs in visual-review.json; all images are build-specific.",
+      "limits": [
+        "Exact font outlines, graphic artwork, menu/poster contents and decorative dimensions are approximations; no photographic texture use.",
+        "Generic display objects express observed composition but do not reproduce every merchandise item.",
+        "No October 2026 occupancy verification; dated physical appearance is retained."
+      ]
+    },
+    {
+      "id": "248142944:0:throwback",
+      "faceId": "248142944:0",
+      "name": "Mr. Throwback",
+      "businessId": "throwback",
+      "span": [
+        0.62,
+        0.99
+      ],
+      "identity": "Multicolor athletic wordmark, black frame/grille, numbered sports jerseys and layered garments behind glass.",
+      "sourceIds": [
+        "437-441-elevations",
+        "437-439-shop-details"
+      ],
+      "reviewState": "dated frontage visually reviewed; current occupancy unverified",
+      "unknown": [
+        "Dated source appearance, not an October 2026 occupancy survey.",
+        "Source pixels temporary only; never distributed textures.",
+        "Mapped geometry plus visual estimates; hidden/unreadable details remain explicit."
+      ],
+      "reviewedFeatures": "Multicolor athletic wordmark, black frame/grille, numbered sports jerseys and layered garments behind glass.",
+      "inspection": {
+        "review-02": [
+          "248142944-0-throwback-0-front.jpg",
+          "248142944-0-throwback-0-left.jpg",
+          "248142944-0-throwback-0-right.jpg"
+        ],
+        "review-03": [],
+        "review-04": [],
+        "review-05": []
+      },
+      "finalRepairs": "See parent face targeted repairs in visual-review.json; all images are build-specific.",
+      "limits": [
+        "Exact font outlines, graphic artwork, menu/poster contents and decorative dimensions are approximations; no photographic texture use.",
+        "Generic display objects express observed composition but do not reproduce every merchandise item.",
+        "No October 2026 occupancy verification; dated physical appearance is retained."
+      ]
+    },
+    {
+      "id": "248142945:0:barbers",
+      "faceId": "248142945:0",
+      "name": "Neighborhood Barbers",
+      "businessId": "barbers",
+      "span": [
+        0.015,
+        0.415
+      ],
+      "identity": "Tan curved canopy with gold badge, green carved frame, portrait-grid window, striped barber pole, green chair, mirror/salon chair.",
+      "sourceIds": [
+        "437-441-elevations",
+        "437-439-shop-details"
+      ],
+      "reviewState": "dated frontage visually reviewed; current occupancy unverified",
+      "unknown": [
+        "Dated source appearance, not an October 2026 occupancy survey.",
+        "Source pixels temporary only; never distributed textures.",
+        "Mapped geometry plus visual estimates; hidden/unreadable details remain explicit."
+      ],
+      "reviewedFeatures": "Tan curved canopy with gold badge, green carved frame, portrait-grid window, striped barber pole, green chair, mirror/salon chair.",
+      "inspection": {
+        "review-02": [
+          "248142945-0-barbers-0-front.jpg",
+          "248142945-0-barbers-0-left.jpg",
+          "248142945-0-barbers-0-right.jpg"
+        ],
+        "review-03": [],
+        "review-04": [],
+        "review-05": []
+      },
+      "finalRepairs": "See parent face targeted repairs in visual-review.json; all images are build-specific.",
+      "limits": [
+        "Exact font outlines, graphic artwork, menu/poster contents and decorative dimensions are approximations; no photographic texture use.",
+        "Generic display objects express observed composition but do not reproduce every merchandise item.",
+        "No October 2026 occupancy verification; dated physical appearance is retained."
+      ]
+    },
+    {
+      "id": "248142945:0:439vacant",
+      "faceId": "248142945:0",
+      "name": "439 east vacant shop",
+      "businessId": "439vacant",
+      "span": [
+        0.62,
+        0.99
+      ],
+      "identity": "Gray blank fascia, closed silver grille, lease placard behind glass, tagged dark lower panels.",
+      "sourceIds": [
+        "437-441-elevations",
+        "437-439-shop-details"
+      ],
+      "reviewState": "dated frontage visually reviewed; current occupancy unverified",
+      "unknown": [
+        "Dated source appearance, not an October 2026 occupancy survey.",
+        "Source pixels temporary only; never distributed textures.",
+        "Mapped geometry plus visual estimates; hidden/unreadable details remain explicit."
+      ],
+      "reviewedFeatures": "Gray blank fascia, closed silver grille, lease placard behind glass, tagged dark lower panels.",
+      "inspection": {
+        "review-02": [
+          "248142945-0-439vacant-0-front.jpg",
+          "248142945-0-439vacant-0-left.jpg",
+          "248142945-0-439vacant-0-right.jpg"
+        ],
+        "review-03": [],
+        "review-04": [],
+        "review-05": []
+      },
+      "finalRepairs": "See parent face targeted repairs in visual-review.json; all images are build-specific.",
+      "limits": [
+        "Exact font outlines, graphic artwork, menu/poster contents and decorative dimensions are approximations; no photographic texture use.",
+        "Generic display objects express observed composition but do not reproduce every merchandise item.",
+        "No October 2026 occupancy verification; dated physical appearance is retained."
+      ]
+    },
+    {
+      "id": "248142947:0:poke",
+      "faceId": "248142947:0",
+      "name": "Poke & Roll",
+      "businessId": "poke",
+      "span": [
+        0.015,
+        0.415
+      ],
+      "identity": "Blue raised capitals on white brick, black window and right entry, food-image band, round blue blade and angled lamps.",
+      "sourceIds": [
+        "437-441-elevations",
+        "441-ground"
+      ],
+      "reviewState": "dated frontage visually reviewed; current occupancy unverified",
+      "unknown": [
+        "Dated source appearance, not an October 2026 occupancy survey.",
+        "Source pixels temporary only; never distributed textures.",
+        "Mapped geometry plus visual estimates; hidden/unreadable details remain explicit."
+      ],
+      "reviewedFeatures": "Blue raised capitals on white brick, black window and right entry, food-image band, round blue blade and angled lamps.",
+      "inspection": {
+        "review-02": [
+          "248142947-0-poke-0-front.jpg",
+          "248142947-0-poke-0-left.jpg",
+          "248142947-0-poke-0-right.jpg"
+        ],
+        "review-03": [],
+        "review-04": [],
+        "review-05": []
+      },
+      "finalRepairs": "See parent face targeted repairs in visual-review.json; all images are build-specific.",
+      "limits": [
+        "Exact font outlines, graphic artwork, menu/poster contents and decorative dimensions are approximations; no photographic texture use.",
+        "Generic display objects express observed composition but do not reproduce every merchandise item.",
+        "No October 2026 occupancy verification; dated physical appearance is retained."
+      ]
+    },
+    {
+      "id": "248142947:0:441vacant",
+      "faceId": "248142947:0",
+      "name": "441 east vacant storefront",
+      "businessId": "441vacant",
+      "span": [
+        0.62,
+        0.99
+      ],
+      "identity": "Black metal glazing, large pale lease poster, two red stools in closed interior, plain fascia.",
+      "sourceIds": [
+        "437-441-elevations",
+        "441-ground"
+      ],
+      "reviewState": "dated frontage visually reviewed; current occupancy unverified",
+      "unknown": [
+        "Dated source appearance, not an October 2026 occupancy survey.",
+        "Source pixels temporary only; never distributed textures.",
+        "Mapped geometry plus visual estimates; hidden/unreadable details remain explicit."
+      ],
+      "reviewedFeatures": "Black metal glazing, large pale lease poster, two red stools in closed interior, plain fascia.",
+      "inspection": {
+        "review-02": [
+          "248142947-0-441vacant-0-front.jpg",
+          "248142947-0-441vacant-0-left.jpg",
+          "248142947-0-441vacant-0-right.jpg"
+        ],
+        "review-03": [],
+        "review-04": [],
+        "review-05": []
+      },
+      "finalRepairs": "See parent face targeted repairs in visual-review.json; all images are build-specific.",
+      "limits": [
+        "Exact font outlines, graphic artwork, menu/poster contents and decorative dimensions are approximations; no photographic texture use.",
+        "Generic display objects express observed composition but do not reproduce every merchandise item.",
+        "No October 2026 occupancy verification; dated physical appearance is retained."
+      ]
+    },
+    {
+      "id": "248142948:0:socialtees",
+      "faceId": "248142948:0",
+      "name": "Social Tees Animal Rescue",
+      "businessId": "socialtees",
+      "span": [
+        0.015,
+        0.415
+      ],
+      "identity": "Gold outlined dog/lettering on black glass, right entrance, wood slat bench, paper notices and rescue window layers.",
+      "sourceIds": [
+        "443-elevation",
+        "443-shops"
+      ],
+      "reviewState": "dated frontage visually reviewed; current occupancy unverified",
+      "unknown": [
+        "Dated source appearance, not an October 2026 occupancy survey.",
+        "Source pixels temporary only; never distributed textures.",
+        "Mapped geometry plus visual estimates; hidden/unreadable details remain explicit."
+      ],
+      "reviewedFeatures": "Gold outlined dog/lettering on black glass, right entrance, wood slat bench, paper notices and rescue window layers.",
+      "inspection": {
+        "review-02": [
+          "248142948-0-socialtees-0-front.jpg",
+          "248142948-0-socialtees-0-left.jpg",
+          "248142948-0-socialtees-0-right.jpg"
+        ],
+        "review-03": [],
+        "review-04": [],
+        "review-05": []
+      },
+      "finalRepairs": "See parent face targeted repairs in visual-review.json; all images are build-specific.",
+      "limits": [
+        "Exact font outlines, graphic artwork, menu/poster contents and decorative dimensions are approximations; no photographic texture use.",
+        "Generic display objects express observed composition but do not reproduce every merchandise item.",
+        "No October 2026 occupancy verification; dated physical appearance is retained."
+      ]
+    },
+    {
+      "id": "248142948:0:yam",
+      "faceId": "248142948:0",
+      "name": "Hello Yam",
+      "businessId": "yam",
+      "span": [
+        0.62,
+        0.99
+      ],
+      "identity": "Black frame, left entrance with red EXIT, pink/yellow yam icon and yellow wordmark, white stools/counter.",
+      "sourceIds": [
+        "443-elevation",
+        "443-shops"
+      ],
+      "reviewState": "dated frontage visually reviewed; current occupancy unverified",
+      "unknown": [
+        "Dated source appearance, not an October 2026 occupancy survey.",
+        "Source pixels temporary only; never distributed textures.",
+        "Mapped geometry plus visual estimates; hidden/unreadable details remain explicit."
+      ],
+      "reviewedFeatures": "Black frame, left entrance with red EXIT, pink/yellow yam icon and yellow wordmark, white stools/counter.",
+      "inspection": {
+        "review-02": [
+          "248142948-0-yam-0-front.jpg",
+          "248142948-0-yam-0-left.jpg",
+          "248142948-0-yam-0-right.jpg"
+        ],
+        "review-03": [],
+        "review-04": [],
+        "review-05": []
+      },
+      "finalRepairs": "See parent face targeted repairs in visual-review.json; all images are build-specific.",
+      "limits": [
+        "Exact font outlines, graphic artwork, menu/poster contents and decorative dimensions are approximations; no photographic texture use.",
+        "Generic display objects express observed composition but do not reproduce every merchandise item.",
+        "No October 2026 occupancy verification; dated physical appearance is retained."
+      ]
+    },
+    {
+      "id": "248142950:0:creperie",
+      "faceId": "248142950:0",
+      "name": "Village Creperie",
+      "businessId": "creperie",
+      "span": [
+        0.015,
+        0.415
+      ],
+      "identity": "Deep blue/ochre striped retractable canopy with scalloped valance, round cream blade, white round tables, woven chairs, menu board and bulbs.",
+      "sourceIds": [
+        "443-elevation",
+        "445-awning",
+        "445-close-correction"
+      ],
+      "reviewState": "dated frontage visually reviewed; current occupancy unverified",
+      "unknown": [
+        "Dated source appearance, not an October 2026 occupancy survey.",
+        "Source pixels temporary only; never distributed textures.",
+        "Mapped geometry plus visual estimates; hidden/unreadable details remain explicit."
+      ],
+      "reviewedFeatures": "Deep blue/ochre striped retractable canopy with scalloped valance, round cream blade, white round tables, woven chairs, menu board and bulbs.",
+      "inspection": {
+        "review-02": [
+          "248142950-0-creperie-0-front.jpg",
+          "248142950-0-creperie-0-left.jpg",
+          "248142950-0-creperie-0-right.jpg"
+        ],
+        "review-03": [],
+        "review-04": [],
+        "review-05": []
+      },
+      "finalRepairs": "See parent face targeted repairs in visual-review.json; all images are build-specific.",
+      "limits": [
+        "Exact font outlines, graphic artwork, menu/poster contents and decorative dimensions are approximations; no photographic texture use.",
+        "Generic display objects express observed composition but do not reproduce every merchandise item.",
+        "No October 2026 occupancy verification; dated physical appearance is retained."
+      ]
+    },
+    {
+      "id": "248142950:0:smoke",
+      "faceId": "248142950:0",
+      "name": "Villager Smoke Shop",
+      "businessId": "smoke",
+      "span": [
+        0.62,
+        0.925
+      ],
+      "identity": "Brown horizontal wood slats, raised white/red-shadow lettering and left badge, 445 at right, closed silver shutter with multicolor bubble mural.",
+      "sourceIds": [
+        "443-elevation",
+        "445-awning",
+        "445-close-correction"
+      ],
+      "reviewState": "dated frontage visually reviewed; current occupancy unverified",
+      "unknown": [
+        "Dated source appearance, not an October 2026 occupancy survey.",
+        "Source pixels temporary only; never distributed textures.",
+        "Mapped geometry plus visual estimates; hidden/unreadable details remain explicit."
+      ],
+      "reviewedFeatures": "Brown horizontal wood slats, raised white/red-shadow lettering and left badge, 445 at right, closed silver shutter with multicolor bubble mural.",
+      "inspection": {
+        "review-02": [
+          "248142950-0-smoke-0-front.jpg",
+          "248142950-0-smoke-0-left.jpg",
+          "248142950-0-smoke-0-right.jpg"
+        ],
+        "review-03": [],
+        "review-04": [],
+        "review-05": []
+      },
+      "finalRepairs": "See parent face targeted repairs in visual-review.json; all images are build-specific.",
+      "limits": [
+        "Exact font outlines, graphic artwork, menu/poster contents and decorative dimensions are approximations; no photographic texture use.",
+        "Generic display objects express observed composition but do not reproduce every merchandise item.",
+        "No October 2026 occupancy verification; dated physical appearance is retained."
+      ]
+    },
+    {
+      "id": "248142963:1:ralph",
+      "faceId": "248142963:1",
+      "name": "Ralph\u2019s Famous Italian Ices",
+      "businessId": "ralph",
+      "span": [
+        0.015,
+        0.985
+      ],
+      "identity": "Service hatch and projecting ledge surrounded by white picture menus; deep curved blue canopy with white center red script/yellow mascot.",
+      "sourceIds": [
+        "145A-return-and-ralphs"
+      ],
+      "reviewState": "dated frontage visually reviewed; current occupancy unverified",
+      "unknown": [
+        "Dated source appearance, not an October 2026 occupancy survey.",
+        "Source pixels temporary only; never distributed textures.",
+        "Mapped geometry plus visual estimates; hidden/unreadable details remain explicit."
+      ],
+      "reviewedFeatures": "Service hatch and projecting ledge surrounded by white picture menus; deep curved blue canopy with white center red script/yellow mascot.",
+      "inspection": {
+        "review-02": [
+          "248142963-1-ralph-0-front.jpg",
+          "248142963-1-ralph-0-left.jpg",
+          "248142963-1-ralph-0-right.jpg",
+          "248142963-1-ralph-1-front.jpg",
+          "248142963-1-ralph-1-left.jpg",
+          "248142963-1-ralph-1-right.jpg"
+        ],
+        "review-03": [],
+        "review-04": [],
+        "review-05": []
+      },
+      "finalRepairs": "See parent face targeted repairs in visual-review.json; all images are build-specific.",
+      "limits": [
+        "Exact font outlines, graphic artwork, menu/poster contents and decorative dimensions are approximations; no photographic texture use.",
+        "Generic display objects express observed composition but do not reproduce every merchandise item.",
+        "No October 2026 occupancy verification; dated physical appearance is retained."
+      ]
+    },
+    {
+      "id": "248142963:0:ralphside",
+      "faceId": "248142963:0",
+      "name": "Ralph\u2019s \u2014 short Ninth canopy return",
+      "businessId": "ralphside",
+      "span": [
+        0.77,
+        0.995
+      ],
+      "identity": "Short curved blue canopy return above solid burgundy wall, service panels only; no invented entry.",
+      "sourceIds": [
+        "145A-ninth-elevation",
+        "145A-return-and-ralphs"
+      ],
+      "reviewState": "dated frontage visually reviewed; current occupancy unverified",
+      "unknown": [
+        "Dated source appearance, not an October 2026 occupancy survey.",
+        "Source pixels temporary only; never distributed textures.",
+        "Mapped geometry plus visual estimates; hidden/unreadable details remain explicit."
+      ],
+      "reviewedFeatures": "Short curved blue canopy return above solid burgundy wall, service panels only; no invented entry.",
+      "inspection": {
+        "review-02": [
+          "248142963-0-ralphside-0-front.jpg",
+          "248142963-0-ralphside-0-left.jpg",
+          "248142963-0-ralphside-0-right.jpg"
+        ],
+        "review-03": [],
+        "review-04": [],
+        "review-05": []
+      },
+      "finalRepairs": "See parent face targeted repairs in visual-review.json; all images are build-specific.",
+      "limits": [
+        "Exact font outlines, graphic artwork, menu/poster contents and decorative dimensions are approximations; no photographic texture use.",
+        "Generic display objects express observed composition but do not reproduce every merchandise item.",
+        "No October 2026 occupancy verification; dated physical appearance is retained."
+      ]
+    },
+    {
+      "id": "248142663:0:tsumiki",
+      "faceId": "248142663:0",
+      "name": "Tsumiki Hair",
+      "businessId": "tsumiki",
+      "span": [
+        0.012,
+        0.25
+      ],
+      "identity": "Narrow black straight sloping fabric shade, small gold cursive name, closed grille with pink bubble graffiti.",
+      "sourceIds": [
+        "406-complete",
+        "406-410-frontage-correction"
+      ],
+      "reviewState": "dated frontage visually reviewed; current occupancy unverified",
+      "unknown": [
+        "Dated source appearance, not an October 2026 occupancy survey.",
+        "Source pixels temporary only; never distributed textures.",
+        "Mapped geometry plus visual estimates; hidden/unreadable details remain explicit."
+      ],
+      "reviewedFeatures": "Narrow black straight sloping fabric shade, small gold cursive name, closed grille with pink bubble graffiti.",
+      "inspection": {
+        "review-02": [
+          "248142663-0-tsumiki-0-front.jpg",
+          "248142663-0-tsumiki-0-left.jpg",
+          "248142663-0-tsumiki-0-right.jpg"
+        ],
+        "review-03": [],
+        "review-04": [],
+        "review-05": []
+      },
+      "finalRepairs": "See parent face targeted repairs in visual-review.json; all images are build-specific.",
+      "limits": [
+        "Exact font outlines, graphic artwork, menu/poster contents and decorative dimensions are approximations; no photographic texture use.",
+        "Generic display objects express observed composition but do not reproduce every merchandise item.",
+        "No October 2026 occupancy verification; dated physical appearance is retained."
+      ]
+    },
+    {
+      "id": "248142663:0:whitmans",
+      "faceId": "248142663:0",
+      "name": "Whitmans",
+      "businessId": "whitmans",
+      "span": [
+        0.265,
+        0.575
+      ],
+      "identity": "Independent black shade with spaced white block name, black glazing and cream lower panels, warm exposed bulbs, white outdoor chairs.",
+      "sourceIds": [
+        "406-complete",
+        "406-410-frontage-correction"
+      ],
+      "reviewState": "dated frontage visually reviewed; current occupancy unverified",
+      "unknown": [
+        "Dated source appearance, not an October 2026 occupancy survey.",
+        "Source pixels temporary only; never distributed textures.",
+        "Mapped geometry plus visual estimates; hidden/unreadable details remain explicit."
+      ],
+      "reviewedFeatures": "Independent black shade with spaced white block name, black glazing and cream lower panels, warm exposed bulbs, white outdoor chairs.",
+      "inspection": {
+        "review-02": [
+          "248142663-0-whitmans-0-front.jpg",
+          "248142663-0-whitmans-0-left.jpg",
+          "248142663-0-whitmans-0-right.jpg"
+        ],
+        "review-03": [],
+        "review-04": [],
+        "review-05": []
+      },
+      "finalRepairs": "See parent face targeted repairs in visual-review.json; all images are build-specific.",
+      "limits": [
+        "Exact font outlines, graphic artwork, menu/poster contents and decorative dimensions are approximations; no photographic texture use.",
+        "Generic display objects express observed composition but do not reproduce every merchandise item.",
+        "No October 2026 occupancy verification; dated physical appearance is retained."
+      ]
+    },
+    {
+      "id": "248142663:0:flowerpower",
+      "faceId": "248142663:0",
+      "name": "Flower Power Herbs & Roots",
+      "businessId": "flowerpower",
+      "span": [
+        0.67,
+        0.99
+      ],
+      "identity": "Ochre ribbed wood surround, hand-painted pale yellow sunflower/blue curved lettering, dark right door, botanical/jar display and brass fittings.",
+      "sourceIds": [
+        "406-complete",
+        "406-410-frontage-correction"
+      ],
+      "reviewState": "dated frontage visually reviewed; current occupancy unverified",
+      "unknown": [
+        "Dated source appearance, not an October 2026 occupancy survey.",
+        "Source pixels temporary only; never distributed textures.",
+        "Mapped geometry plus visual estimates; hidden/unreadable details remain explicit."
+      ],
+      "reviewedFeatures": "Ochre ribbed wood surround, hand-painted pale yellow sunflower/blue curved lettering, dark right door, botanical/jar display and brass fittings.",
+      "inspection": {
+        "review-02": [
+          "248142663-0-flowerpower-0-front.jpg",
+          "248142663-0-flowerpower-0-left.jpg",
+          "248142663-0-flowerpower-0-right.jpg"
+        ],
+        "review-03": [],
+        "review-04": [],
+        "review-05": []
+      },
+      "finalRepairs": "See parent face targeted repairs in visual-review.json; all images are build-specific.",
+      "limits": [
+        "Exact font outlines, graphic artwork, menu/poster contents and decorative dimensions are approximations; no photographic texture use.",
+        "Generic display objects express observed composition but do not reproduce every merchandise item.",
+        "No October 2026 occupancy verification; dated physical appearance is retained."
+      ]
+    },
+    {
+      "id": "248142710:0:414basement",
+      "faceId": "248142710:0",
+      "name": "414 basement shop \u2014 tenant unresolved",
+      "businessId": "414basement",
+      "span": [
+        0.015,
+        0.53
+      ],
+      "identity": "Dark hood with four gooseneck lamps, closed horizontal shutter over large east window, narrower west entry and 414 hood number.",
+      "sourceIds": [
+        "406-410-frontage-correction",
+        "412-416-complete"
+      ],
+      "reviewState": "needs-evidence: tenant wording/identity unresolved; physical frontage reviewed",
+      "unknown": [
+        "Dated source appearance, not an October 2026 occupancy survey.",
+        "Source pixels temporary only; never distributed textures.",
+        "Mapped geometry plus visual estimates; hidden/unreadable details remain explicit."
+      ],
+      "reviewedFeatures": "Dark hood with four gooseneck lamps, closed horizontal shutter over large east window, narrower west entry and 414 hood number.",
+      "inspection": {
+        "review-02": [
+          "248142710-0-414basement-0-front.jpg",
+          "248142710-0-414basement-0-left.jpg",
+          "248142710-0-414basement-0-right.jpg"
+        ],
+        "review-03": [],
+        "review-04": [],
+        "review-05": []
+      },
+      "finalRepairs": "See parent face targeted repairs in visual-review.json; all images are build-specific.",
+      "limits": [
+        "Exact font outlines, graphic artwork, menu/poster contents and decorative dimensions are approximations; no photographic texture use.",
+        "Generic display objects express observed composition but do not reproduce every merchandise item.",
+        "No October 2026 occupancy verification; dated physical appearance is retained."
+      ]
+    },
+    {
+      "id": "248142710:0:412basement",
+      "faceId": "248142710:0",
+      "name": "412 west basement shop \u2014 tenant unresolved",
+      "businessId": "412basement",
+      "span": [
+        0.75,
+        0.99
+      ],
+      "identity": "Short gold/brown hood with goosenecks, pale metal window and separate shallow descent; sign is blurred.",
+      "sourceIds": [
+        "406-410-frontage-correction",
+        "412-416-complete"
+      ],
+      "reviewState": "needs-evidence: tenant wording/identity unresolved; physical frontage reviewed",
+      "unknown": [
+        "Dated source appearance, not an October 2026 occupancy survey.",
+        "Source pixels temporary only; never distributed textures.",
+        "Mapped geometry plus visual estimates; hidden/unreadable details remain explicit."
+      ],
+      "reviewedFeatures": "Short gold/brown hood with goosenecks, pale metal window and separate shallow descent; sign is blurred.",
+      "inspection": {
+        "review-02": [
+          "248142710-0-412basement-0-front.jpg",
+          "248142710-0-412basement-0-left.jpg",
+          "248142710-0-412basement-0-right.jpg"
+        ],
+        "review-03": [],
+        "review-04": [],
+        "review-05": []
+      },
+      "finalRepairs": "See parent face targeted repairs in visual-review.json; all images are build-specific.",
+      "limits": [
+        "Exact font outlines, graphic artwork, menu/poster contents and decorative dimensions are approximations; no photographic texture use.",
+        "Generic display objects express observed composition but do not reproduce every merchandise item.",
+        "No October 2026 occupancy verification; dated physical appearance is retained."
+      ]
+    },
+    {
+      "id": "248142672:0:fa",
+      "faceId": "248142672:0",
+      "name": "Fucking Awesome / FA",
+      "businessId": "fa",
+      "span": [
+        0.015,
+        0.63
+      ],
+      "identity": "Two rounded display panes in glossy black wood, separate metal hoods, carved scrolling fascia, narrow west door, warm wood displays and two lamps.",
+      "sourceIds": [
+        "archive-248142672",
+        "fa-dated-photo",
+        "418-422-evidence-limit",
+        "422-goodbeer-dated"
+      ],
+      "reviewState": "dated frontage visually reviewed; current occupancy unverified",
+      "unknown": [
+        "Dated source appearance, not an October 2026 occupancy survey.",
+        "Source pixels temporary only; never distributed textures.",
+        "Mapped geometry plus visual estimates; hidden/unreadable details remain explicit."
+      ],
+      "reviewedFeatures": "Two rounded display panes in glossy black wood, separate metal hoods, carved scrolling fascia, narrow west door, warm wood displays and two lamps.",
+      "inspection": {
+        "review-02": [
+          "248142672-0-fa-0-front.jpg",
+          "248142672-0-fa-0-left.jpg",
+          "248142672-0-fa-0-right.jpg"
+        ],
+        "review-03": [],
+        "review-04": [],
+        "review-05": []
+      },
+      "finalRepairs": "See parent face targeted repairs in visual-review.json; all images are build-specific.",
+      "limits": [
+        "Exact font outlines, graphic artwork, menu/poster contents and decorative dimensions are approximations; no photographic texture use.",
+        "Generic display objects express observed composition but do not reproduce every merchandise item.",
+        "No October 2026 occupancy verification; dated physical appearance is retained."
+      ]
+    },
+    {
+      "id": "248142675:0:422basement",
+      "faceId": "248142675:0",
+      "name": "Good Beer \u2014 July 2022 frontage; subsequently closed",
+      "businessId": "422basement",
+      "span": [
+        0.37,
+        0.985
+      ],
+      "identity": "Narrow east door and broad glass with stacked gold GOOD BEER, separate pale metal hoods, three silver lamps and bottle shelving. Historical appearance, closed September 2022.",
+      "sourceIds": [
+        "archive-248142675",
+        "418-422-evidence-limit",
+        "422-goodbeer-dated"
+      ],
+      "reviewState": "historic frontage reviewed; closed September 2022; current tenant unresolved",
+      "unknown": [
+        "Dated source appearance, not an October 2026 occupancy survey.",
+        "Source pixels temporary only; never distributed textures.",
+        "Mapped geometry plus visual estimates; hidden/unreadable details remain explicit."
+      ],
+      "reviewedFeatures": "Narrow east door and broad glass with stacked gold GOOD BEER, separate pale metal hoods, three silver lamps and bottle shelving. Historical appearance, closed September 2022.",
+      "inspection": {
+        "review-02": [
+          "248142675-0-422basement-0-front.jpg",
+          "248142675-0-422basement-0-left.jpg",
+          "248142675-0-422basement-0-right.jpg"
+        ],
+        "review-03": [],
+        "review-04": [],
+        "review-05": []
+      },
+      "finalRepairs": "See parent face targeted repairs in visual-review.json; all images are build-specific.",
+      "limits": [
+        "Exact font outlines, graphic artwork, menu/poster contents and decorative dimensions are approximations; no photographic texture use.",
+        "Generic display objects express observed composition but do not reproduce every merchandise item.",
+        "No October 2026 occupancy verification; dated physical appearance is retained."
+      ]
+    },
+    {
+      "id": "248142676:0:drgreen",
+      "faceId": "248142676:0",
+      "name": "Dr. Green",
+      "businessId": "drgreen",
+      "span": [
+        0.015,
+        0.34
+      ],
+      "identity": "Dark green painted frame, circular green illustrated sign and white script, metal tagged hood, narrow entry and merchandise.",
+      "sourceIds": [
+        "archive-248142676",
+        "424-upper",
+        "424-east-basement",
+        "thursday-close-supplement"
+      ],
+      "reviewState": "dated frontage visually reviewed; current occupancy unverified",
+      "unknown": [
+        "Dated source appearance, not an October 2026 occupancy survey.",
+        "Source pixels temporary only; never distributed textures.",
+        "Mapped geometry plus visual estimates; hidden/unreadable details remain explicit."
+      ],
+      "reviewedFeatures": "Dark green painted frame, circular green illustrated sign and white script, metal tagged hood, narrow entry and merchandise.",
+      "inspection": {
+        "review-02": [
+          "248142676-0-drgreen-0-front.jpg",
+          "248142676-0-drgreen-0-left.jpg",
+          "248142676-0-drgreen-0-right.jpg"
+        ],
+        "review-03": [],
+        "review-04": [],
+        "review-05": []
+      },
+      "finalRepairs": "See parent face targeted repairs in visual-review.json; all images are build-specific.",
+      "limits": [
+        "Exact font outlines, graphic artwork, menu/poster contents and decorative dimensions are approximations; no photographic texture use.",
+        "Generic display objects express observed composition but do not reproduce every merchandise item.",
+        "No October 2026 occupancy verification; dated physical appearance is retained."
+      ]
+    },
+    {
+      "id": "248142676:0:thursday",
+      "faceId": "248142676:0",
+      "name": "Thursday Kitchen",
+      "businessId": "thursday",
+      "span": [
+        0.53,
+        0.99
+      ],
+      "identity": "Carved dark scroll fascia, inset amber lit sign with black hand lettering/wood character, industrial silver caged lamp, red center door and warm interior; raw timber curb enclosure.",
+      "sourceIds": [
+        "archive-248142676",
+        "424-upper",
+        "424-east-basement",
+        "thursday-close-supplement"
+      ],
+      "reviewState": "dated frontage visually reviewed; current occupancy unverified",
+      "unknown": [
+        "Dated source appearance, not an October 2026 occupancy survey.",
+        "Source pixels temporary only; never distributed textures.",
+        "Mapped geometry plus visual estimates; hidden/unreadable details remain explicit."
+      ],
+      "reviewedFeatures": "Carved dark scroll fascia, inset amber lit sign with black hand lettering/wood character, industrial silver caged lamp, red center door and warm interior; raw timber curb enclosure.",
+      "inspection": {
+        "review-02": [
+          "248142676-0-thursday-0-front.jpg",
+          "248142676-0-thursday-0-left.jpg",
+          "248142676-0-thursday-0-right.jpg"
+        ],
+        "review-03": [],
+        "review-04": [],
+        "review-05": []
+      },
+      "finalRepairs": "See parent face targeted repairs in visual-review.json; all images are build-specific.",
+      "limits": [
+        "Exact font outlines, graphic artwork, menu/poster contents and decorative dimensions are approximations; no photographic texture use.",
+        "Generic display objects express observed composition but do not reproduce every merchandise item.",
+        "No October 2026 occupancy verification; dated physical appearance is retained."
+      ]
+    },
+    {
+      "id": "248142679:0:428east",
+      "faceId": "248142679:0",
+      "name": "428 east shop \u2014 tenant unresolved",
+      "businessId": "428east",
+      "span": [
+        0.015,
+        0.405
+      ],
+      "identity": "Carved dark wood fascia, ornate arched display and diamond grille, narrow right entry, layered ceramics behind glass.",
+      "sourceIds": [
+        "throwback2-photo",
+        "430428-ground"
+      ],
+      "reviewState": "needs-evidence: tenant wording/identity unresolved; physical frontage reviewed",
+      "unknown": [
+        "Dated source appearance, not an October 2026 occupancy survey.",
+        "Source pixels temporary only; never distributed textures.",
+        "Mapped geometry plus visual estimates; hidden/unreadable details remain explicit."
+      ],
+      "reviewedFeatures": "Carved dark wood fascia, ornate arched display and diamond grille, narrow right entry, layered ceramics behind glass.",
+      "inspection": {
+        "review-02": [
+          "248142679-0-428east-0-front.jpg",
+          "248142679-0-428east-0-left.jpg",
+          "248142679-0-428east-0-right.jpg"
+        ],
+        "review-03": [],
+        "review-04": [],
+        "review-05": []
+      },
+      "finalRepairs": "See parent face targeted repairs in visual-review.json; all images are build-specific.",
+      "limits": [
+        "Exact font outlines, graphic artwork, menu/poster contents and decorative dimensions are approximations; no photographic texture use.",
+        "Generic display objects express observed composition but do not reproduce every merchandise item.",
+        "No October 2026 occupancy verification; dated physical appearance is retained."
+      ]
+    },
+    {
+      "id": "248142679:0:throwback2",
+      "faceId": "248142679:0",
+      "name": "Throwback 2",
+      "businessId": "throwback2",
+      "span": [
+        0.62,
+        0.99
+      ],
+      "identity": "Separate black carved frame, narrow left open door, broad right window, silver rectangular grilles, red distressed banner and independent flat metal hoods.",
+      "sourceIds": [
+        "throwback2-photo",
+        "430428-ground"
+      ],
+      "reviewState": "dated frontage visually reviewed; current occupancy unverified",
+      "unknown": [
+        "Dated source appearance, not an October 2026 occupancy survey.",
+        "Source pixels temporary only; never distributed textures.",
+        "Mapped geometry plus visual estimates; hidden/unreadable details remain explicit."
+      ],
+      "reviewedFeatures": "Separate black carved frame, narrow left open door, broad right window, silver rectangular grilles, red distressed banner and independent flat metal hoods.",
+      "inspection": {
+        "review-02": [
+          "248142679-0-throwback2-0-front.jpg",
+          "248142679-0-throwback2-0-left.jpg",
+          "248142679-0-throwback2-0-right.jpg"
+        ],
+        "review-03": [],
+        "review-04": [],
+        "review-05": []
+      },
+      "finalRepairs": "See parent face targeted repairs in visual-review.json; all images are build-specific.",
+      "limits": [
+        "Exact font outlines, graphic artwork, menu/poster contents and decorative dimensions are approximations; no photographic texture use.",
+        "Generic display objects express observed composition but do not reproduce every merchandise item.",
+        "No October 2026 occupancy verification; dated physical appearance is retained."
+      ]
+    },
+    {
+      "id": "248142681:0:salads",
+      "faceId": "248142681:0",
+      "name": "Salads Days \u2014 July 2022 frontage",
+      "businessId": "salads",
+      "span": [
+        0.015,
+        0.36
+      ],
+      "identity": "White fascia with two-line italic green name, glass and pale metal frames, low access beside high stoop.",
+      "sourceIds": [
+        "430-434-architecture",
+        "archive-248142681",
+        "430428-ground"
+      ],
+      "reviewState": "dated frontage visually reviewed; current occupancy unverified",
+      "unknown": [
+        "Dated source appearance, not an October 2026 occupancy survey.",
+        "Source pixels temporary only; never distributed textures.",
+        "Mapped geometry plus visual estimates; hidden/unreadable details remain explicit."
+      ],
+      "reviewedFeatures": "White fascia with two-line italic green name, glass and pale metal frames, low access beside high stoop.",
+      "inspection": {
+        "review-02": [
+          "248142681-0-salads-0-front.jpg",
+          "248142681-0-salads-0-left.jpg",
+          "248142681-0-salads-0-right.jpg"
+        ],
+        "review-03": [],
+        "review-04": [],
+        "review-05": []
+      },
+      "finalRepairs": "See parent face targeted repairs in visual-review.json; all images are build-specific.",
+      "limits": [
+        "Exact font outlines, graphic artwork, menu/poster contents and decorative dimensions are approximations; no photographic texture use.",
+        "Generic display objects express observed composition but do not reproduce every merchandise item.",
+        "No October 2026 occupancy verification; dated physical appearance is retained."
+      ]
+    },
+    {
+      "id": "248142681:0:whiskers",
+      "faceId": "248142681:0",
+      "name": "Whiskers",
+      "businessId": "whiskers",
+      "span": [
+        0.65,
+        0.99
+      ],
+      "identity": "Orange banner with blue/cream letters and cat/dog illustration, green painted frame and grille, small red sloping shade.",
+      "sourceIds": [
+        "430-434-architecture",
+        "archive-248142681",
+        "430428-ground"
+      ],
+      "reviewState": "dated frontage visually reviewed; current occupancy unverified",
+      "unknown": [
+        "Dated source appearance, not an October 2026 occupancy survey.",
+        "Source pixels temporary only; never distributed textures.",
+        "Mapped geometry plus visual estimates; hidden/unreadable details remain explicit."
+      ],
+      "reviewedFeatures": "Orange banner with blue/cream letters and cat/dog illustration, green painted frame and grille, small red sloping shade.",
+      "inspection": {
+        "review-02": [
+          "248142681-0-whiskers-0-front.jpg",
+          "248142681-0-whiskers-0-left.jpg",
+          "248142681-0-whiskers-0-right.jpg"
+        ],
+        "review-03": [],
+        "review-04": [],
+        "review-05": []
+      },
+      "finalRepairs": "See parent face targeted repairs in visual-review.json; all images are build-specific.",
+      "limits": [
+        "Exact font outlines, graphic artwork, menu/poster contents and decorative dimensions are approximations; no photographic texture use.",
+        "Generic display objects express observed composition but do not reproduce every merchandise item.",
+        "No October 2026 occupancy verification; dated physical appearance is retained."
+      ]
+    },
+    {
+      "id": "248142682:0:chiro",
+      "faceId": "248142682:0",
+      "name": "Chiro-Fit \u2014 wood-fronted premises",
+      "businessId": "chiro",
+      "span": [
+        0.015,
+        0.87
+      ],
+      "identity": "Tall reddish timber panels with rounded glass heads, molded kick panels and muted olive fascia; separate residential door at far west.",
+      "sourceIds": [
+        "430-434-architecture",
+        "432434-close"
+      ],
+      "reviewState": "dated frontage visually reviewed; current occupancy unverified",
+      "unknown": [
+        "Dated source appearance, not an October 2026 occupancy survey.",
+        "Source pixels temporary only; never distributed textures.",
+        "Mapped geometry plus visual estimates; hidden/unreadable details remain explicit."
+      ],
+      "reviewedFeatures": "Tall reddish timber panels with rounded glass heads, molded kick panels and muted olive fascia; separate residential door at far west.",
+      "inspection": {
+        "review-02": [
+          "248142682-0-chiro-0-front.jpg",
+          "248142682-0-chiro-0-left.jpg",
+          "248142682-0-chiro-0-right.jpg"
+        ],
+        "review-03": [],
+        "review-04": [],
+        "review-05": []
+      },
+      "finalRepairs": "See parent face targeted repairs in visual-review.json; all images are build-specific.",
+      "limits": [
+        "Exact font outlines, graphic artwork, menu/poster contents and decorative dimensions are approximations; no photographic texture use.",
+        "Generic display objects express observed composition but do not reproduce every merchandise item.",
+        "No October 2026 occupancy verification; dated physical appearance is retained."
+      ]
+    },
+    {
+      "id": "248142683:0:loveonly",
+      "faceId": "248142683:0",
+      "name": "Love Only",
+      "businessId": "loveonly",
+      "span": [
+        0.015,
+        0.415
+      ],
+      "identity": "Black rounded cloth canopy, thin white serif name, white frame and closed rectangular silver grille.",
+      "sourceIds": [
+        "436-434-elevations",
+        "430-434-architecture",
+        "432434-close"
+      ],
+      "reviewState": "dated frontage visually reviewed; current occupancy unverified",
+      "unknown": [
+        "Dated source appearance, not an October 2026 occupancy survey.",
+        "Source pixels temporary only; never distributed textures.",
+        "Mapped geometry plus visual estimates; hidden/unreadable details remain explicit."
+      ],
+      "reviewedFeatures": "Black rounded cloth canopy, thin white serif name, white frame and closed rectangular silver grille.",
+      "inspection": {
+        "review-02": [
+          "248142683-0-loveonly-0-front.jpg",
+          "248142683-0-loveonly-0-left.jpg",
+          "248142683-0-loveonly-0-right.jpg"
+        ],
+        "review-03": [],
+        "review-04": [],
+        "review-05": []
+      },
+      "finalRepairs": "See parent face targeted repairs in visual-review.json; all images are build-specific.",
+      "limits": [
+        "Exact font outlines, graphic artwork, menu/poster contents and decorative dimensions are approximations; no photographic texture use.",
+        "Generic display objects express observed composition but do not reproduce every merchandise item.",
+        "No October 2026 occupancy verification; dated physical appearance is retained."
+      ]
+    },
+    {
+      "id": "248142683:0:434west",
+      "faceId": "248142683:0",
+      "name": "434 west shop \u2014 tenant unresolved",
+      "businessId": "434west",
+      "span": [
+        0.62,
+        0.99
+      ],
+      "identity": "Gold ochre carved surround with scroll brackets, metal hood and silver shutter; preserves September 2024 paint.",
+      "sourceIds": [
+        "436-434-elevations",
+        "430-434-architecture",
+        "432434-close"
+      ],
+      "reviewState": "needs-evidence: tenant wording/identity unresolved; physical frontage reviewed",
+      "unknown": [
+        "Dated source appearance, not an October 2026 occupancy survey.",
+        "Source pixels temporary only; never distributed textures.",
+        "Mapped geometry plus visual estimates; hidden/unreadable details remain explicit."
+      ],
+      "reviewedFeatures": "Gold ochre carved surround with scroll brackets, metal hood and silver shutter; preserves September 2024 paint.",
+      "inspection": {
+        "review-02": [
+          "248142683-0-434west-0-front.jpg",
+          "248142683-0-434west-0-left.jpg",
+          "248142683-0-434west-0-right.jpg"
+        ],
+        "review-03": [],
+        "review-04": [],
+        "review-05": []
+      },
+      "finalRepairs": "See parent face targeted repairs in visual-review.json; all images are build-specific.",
+      "limits": [
+        "Exact font outlines, graphic artwork, menu/poster contents and decorative dimensions are approximations; no photographic texture use.",
+        "Generic display objects express observed composition but do not reproduce every merchandise item.",
+        "No October 2026 occupancy verification; dated physical appearance is retained."
+      ]
+    },
+    {
+      "id": "248142684:0:nicebrow",
+      "faceId": "248142684:0",
+      "name": "Nicebrow",
+      "businessId": "nicebrow",
+      "span": [
+        0.015,
+        0.415
+      ],
+      "identity": "White fascia with gold raised lowercase lettering and eyelash ornament, white metal glazing and silver grille.",
+      "sourceIds": [
+        "436-434-elevations"
+      ],
+      "reviewState": "dated frontage visually reviewed; current occupancy unverified",
+      "unknown": [
+        "Dated source appearance, not an October 2026 occupancy survey.",
+        "Source pixels temporary only; never distributed textures.",
+        "Mapped geometry plus visual estimates; hidden/unreadable details remain explicit."
+      ],
+      "reviewedFeatures": "White fascia with gold raised lowercase lettering and eyelash ornament, white metal glazing and silver grille.",
+      "inspection": {
+        "review-02": [
+          "248142684-0-nicebrow-0-front.jpg",
+          "248142684-0-nicebrow-0-left.jpg",
+          "248142684-0-nicebrow-0-right.jpg"
+        ],
+        "review-03": [],
+        "review-04": [],
+        "review-05": []
+      },
+      "finalRepairs": "See parent face targeted repairs in visual-review.json; all images are build-specific.",
+      "limits": [
+        "Exact font outlines, graphic artwork, menu/poster contents and decorative dimensions are approximations; no photographic texture use.",
+        "Generic display objects express observed composition but do not reproduce every merchandise item.",
+        "No October 2026 occupancy verification; dated physical appearance is retained."
+      ]
+    },
+    {
+      "id": "248142684:0:starshop",
+      "faceId": "248142684:0",
+      "name": "436 west star storefront",
+      "businessId": "starshop",
+      "span": [
+        0.62,
+        0.99
+      ],
+      "identity": "Black canopy and white outlined star blade; pale blue star with white central shape painted across grille, red/white lower tags.",
+      "sourceIds": [
+        "436-434-elevations"
+      ],
+      "reviewState": "needs-evidence: tenant wording/identity unresolved; physical frontage reviewed",
+      "unknown": [
+        "Dated source appearance, not an October 2026 occupancy survey.",
+        "Source pixels temporary only; never distributed textures.",
+        "Mapped geometry plus visual estimates; hidden/unreadable details remain explicit."
+      ],
+      "reviewedFeatures": "Black canopy and white outlined star blade; pale blue star with white central shape painted across grille, red/white lower tags.",
+      "inspection": {
+        "review-02": [
+          "248142684-0-starshop-0-front.jpg",
+          "248142684-0-starshop-0-left.jpg",
+          "248142684-0-starshop-0-right.jpg"
+        ],
+        "review-03": [],
+        "review-04": [],
+        "review-05": []
+      },
+      "finalRepairs": "See parent face targeted repairs in visual-review.json; all images are build-specific.",
+      "limits": [
+        "Exact font outlines, graphic artwork, menu/poster contents and decorative dimensions are approximations; no photographic texture use.",
+        "Generic display objects express observed composition but do not reproduce every merchandise item.",
+        "No October 2026 occupancy verification; dated physical appearance is retained."
+      ]
+    },
+    {
+      "id": "248142685:0:murphys",
+      "faceId": "248142685:0",
+      "name": "Murphy\u2019s",
+      "businessId": "murphys",
+      "span": [
+        0.015,
+        0.415
+      ],
+      "identity": "Straight blue cloth shade with pale flowing script, hanging/trailing plants, brown bamboo roller screen and blue tagged lower panel.",
+      "sourceIds": [
+        "438-440-elevations",
+        "440-438-shop-close"
+      ],
+      "reviewState": "dated frontage visually reviewed; current occupancy unverified",
+      "unknown": [
+        "Dated source appearance, not an October 2026 occupancy survey.",
+        "Source pixels temporary only; never distributed textures.",
+        "Mapped geometry plus visual estimates; hidden/unreadable details remain explicit."
+      ],
+      "reviewedFeatures": "Straight blue cloth shade with pale flowing script, hanging/trailing plants, brown bamboo roller screen and blue tagged lower panel.",
+      "inspection": {
+        "review-02": [
+          "248142685-0-murphys-0-front.jpg",
+          "248142685-0-murphys-0-left.jpg",
+          "248142685-0-murphys-0-right.jpg"
+        ],
+        "review-03": [],
+        "review-04": [],
+        "review-05": []
+      },
+      "finalRepairs": "See parent face targeted repairs in visual-review.json; all images are build-specific.",
+      "limits": [
+        "Exact font outlines, graphic artwork, menu/poster contents and decorative dimensions are approximations; no photographic texture use.",
+        "Generic display objects express observed composition but do not reproduce every merchandise item.",
+        "No October 2026 occupancy verification; dated physical appearance is retained."
+      ]
+    },
+    {
+      "id": "248142685:0:tacos",
+      "faceId": "248142685:0",
+      "name": "Tacos Cuautla Morelos",
+      "businessId": "tacos",
+      "span": [
+        0.62,
+        0.99
+      ],
+      "identity": "White box fascia with green/red name and red border, green valance, silver/pale glazing, curb dining frame and cones.",
+      "sourceIds": [
+        "438-440-elevations",
+        "440-438-shop-close"
+      ],
+      "reviewState": "dated frontage visually reviewed; current occupancy unverified",
+      "unknown": [
+        "Dated source appearance, not an October 2026 occupancy survey.",
+        "Source pixels temporary only; never distributed textures.",
+        "Mapped geometry plus visual estimates; hidden/unreadable details remain explicit."
+      ],
+      "reviewedFeatures": "White box fascia with green/red name and red border, green valance, silver/pale glazing, curb dining frame and cones.",
+      "inspection": {
+        "review-02": [
+          "248142685-0-tacos-0-front.jpg",
+          "248142685-0-tacos-0-left.jpg",
+          "248142685-0-tacos-0-right.jpg"
+        ],
+        "review-03": [],
+        "review-04": [],
+        "review-05": []
+      },
+      "finalRepairs": "See parent face targeted repairs in visual-review.json; all images are build-specific.",
+      "limits": [
+        "Exact font outlines, graphic artwork, menu/poster contents and decorative dimensions are approximations; no photographic texture use.",
+        "Generic display objects express observed composition but do not reproduce every merchandise item.",
+        "No October 2026 occupancy verification; dated physical appearance is retained."
+      ]
+    },
+    {
+      "id": "248142702:0:confectionery",
+      "faceId": "248142702:0",
+      "name": "Confectionery",
+      "businessId": "confectionery",
+      "span": [
+        0.015,
+        0.415
+      ],
+      "identity": "Red rounded scalloped canopy with blue cursive name; independent pale frame, closed silver grille.",
+      "sourceIds": [
+        "442-low-infill",
+        "438-440-elevations",
+        "440-438-shop-close"
+      ],
+      "reviewState": "dated frontage visually reviewed; current occupancy unverified",
+      "unknown": [
+        "Dated source appearance, not an October 2026 occupancy survey.",
+        "Source pixels temporary only; never distributed textures.",
+        "Mapped geometry plus visual estimates; hidden/unreadable details remain explicit."
+      ],
+      "reviewedFeatures": "Red rounded scalloped canopy with blue cursive name; independent pale frame, closed silver grille.",
+      "inspection": {
+        "review-02": [
+          "248142702-0-confectionery-0-front.jpg",
+          "248142702-0-confectionery-0-left.jpg",
+          "248142702-0-confectionery-0-right.jpg"
+        ],
+        "review-03": [],
+        "review-04": [],
+        "review-05": []
+      },
+      "finalRepairs": "See parent face targeted repairs in visual-review.json; all images are build-specific.",
+      "limits": [
+        "Exact font outlines, graphic artwork, menu/poster contents and decorative dimensions are approximations; no photographic texture use.",
+        "Generic display objects express observed composition but do not reproduce every merchandise item.",
+        "No October 2026 occupancy verification; dated physical appearance is retained."
+      ]
+    },
+    {
+      "id": "248142702:0:monkey",
+      "faceId": "248142702:0",
+      "name": "Monkey Thrift Shop UpCycling",
+      "businessId": "monkey",
+      "span": [
+        0.62,
+        0.99
+      ],
+      "identity": "Green straight sloping shade, peach lettering and 440 at ends, gold script glass, purple/gold monkey panels and clothing behind grille.",
+      "sourceIds": [
+        "442-low-infill",
+        "438-440-elevations",
+        "440-438-shop-close"
+      ],
+      "reviewState": "dated frontage visually reviewed; current occupancy unverified",
+      "unknown": [
+        "Dated source appearance, not an October 2026 occupancy survey.",
+        "Source pixels temporary only; never distributed textures.",
+        "Mapped geometry plus visual estimates; hidden/unreadable details remain explicit."
+      ],
+      "reviewedFeatures": "Green straight sloping shade, peach lettering and 440 at ends, gold script glass, purple/gold monkey panels and clothing behind grille.",
+      "inspection": {
+        "review-02": [
+          "248142702-0-monkey-0-front.jpg",
+          "248142702-0-monkey-0-left.jpg",
+          "248142702-0-monkey-0-right.jpg"
+        ],
+        "review-03": [],
+        "review-04": [],
+        "review-05": []
+      },
+      "finalRepairs": "See parent face targeted repairs in visual-review.json; all images are build-specific.",
+      "limits": [
+        "Exact font outlines, graphic artwork, menu/poster contents and decorative dimensions are approximations; no photographic texture use.",
+        "Generic display objects express observed composition but do not reproduce every merchandise item.",
+        "No October 2026 occupancy verification; dated physical appearance is retained."
+      ]
+    },
+    {
+      "id": "248142716:1:docave",
+      "faceId": "248142716:1",
+      "name": "Doc Holliday\u2019s Bar",
+      "businessId": "docave",
+      "span": [
+        0.015,
+        0.99
+      ],
+      "identity": "Mauve rounded ribbed canopy with white slab serif text, dark wood bar windows, poster-covered door, beer tubes and stickers.",
+      "sourceIds": [
+        "141A-corner",
+        "141A-architecture-supplement",
+        "doc-2024-ground"
+      ],
+      "reviewState": "dated frontage visually reviewed; current occupancy unverified",
+      "unknown": [
+        "Dated source appearance, not an October 2026 occupancy survey.",
+        "Source pixels temporary only; never distributed textures.",
+        "Mapped geometry plus visual estimates; hidden/unreadable details remain explicit."
+      ],
+      "reviewedFeatures": "Mauve rounded ribbed canopy with white slab serif text, dark wood bar windows, poster-covered door, beer tubes and stickers.",
+      "inspection": {
+        "review-02": [
+          "248142716-1-docave-0-front.jpg",
+          "248142716-1-docave-0-left.jpg",
+          "248142716-1-docave-0-right.jpg",
+          "248142716-1-docave-1-front.jpg",
+          "248142716-1-docave-1-left.jpg",
+          "248142716-1-docave-1-right.jpg"
+        ],
+        "review-03": [],
+        "review-04": [],
+        "review-05": []
+      },
+      "finalRepairs": "See parent face targeted repairs in visual-review.json; all images are build-specific.",
+      "limits": [
+        "Exact font outlines, graphic artwork, menu/poster contents and decorative dimensions are approximations; no photographic texture use.",
+        "Generic display objects express observed composition but do not reproduce every merchandise item.",
+        "No October 2026 occupancy verification; dated physical appearance is retained."
+      ]
+    },
+    {
+      "id": "248142716:0:docside",
+      "faceId": "248142716:0",
+      "name": "Doc Holliday\u2019s \u2014 Ninth frontage",
+      "businessId": "docside",
+      "span": [
+        0.015,
+        0.89
+      ],
+      "identity": "Short wrap canopy over corner window, red/orange cowboy mural across solid wall, independent west bar window; giant STIK figure on upper blank corner.",
+      "sourceIds": [
+        "141A-corner",
+        "doc-2024-ground",
+        "doc-ninth-mural",
+        "442-low-infill"
+      ],
+      "reviewState": "dated frontage visually reviewed; current occupancy unverified",
+      "unknown": [
+        "Dated source appearance, not an October 2026 occupancy survey.",
+        "Source pixels temporary only; never distributed textures.",
+        "Mapped geometry plus visual estimates; hidden/unreadable details remain explicit."
+      ],
+      "reviewedFeatures": "Short wrap canopy over corner window, red/orange cowboy mural across solid wall, independent west bar window; giant STIK figure on upper blank corner.",
+      "inspection": {
+        "review-02": [
+          "248142716-0-docside-0-front.jpg",
+          "248142716-0-docside-0-left.jpg",
+          "248142716-0-docside-0-right.jpg",
+          "248142716-0-docside-1-front.jpg",
+          "248142716-0-docside-1-left.jpg",
+          "248142716-0-docside-1-right.jpg"
+        ],
+        "review-03": [],
+        "review-04": [],
+        "review-05": []
+      },
+      "finalRepairs": "See parent face targeted repairs in visual-review.json; all images are build-specific.",
+      "limits": [
+        "Exact font outlines, graphic artwork, menu/poster contents and decorative dimensions are approximations; no photographic texture use.",
+        "Generic display objects express observed composition but do not reproduce every merchandise item.",
+        "No October 2026 occupancy verification; dated physical appearance is retained."
+      ]
+    },
+    {
+      "id": "248142716:0:celeste",
+      "faceId": "248142716:0",
+      "name": "Celeste Hair Studio \u2014 low infill",
+      "businessId": "celeste",
+      "span": [
+        1.006,
+        1.218
+      ],
+      "identity": "One-storey recessed shop in real gap with black sloping CELESTE shade, closed grille; open iron-railed terrace and string lights above.",
+      "sourceIds": [
+        "141A-corner",
+        "doc-2024-ground",
+        "doc-ninth-mural",
+        "442-low-infill"
+      ],
+      "reviewState": "dated frontage visually reviewed; current occupancy unverified",
+      "unknown": [
+        "Dated source appearance, not an October 2026 occupancy survey.",
+        "Source pixels temporary only; never distributed textures.",
+        "Mapped geometry plus visual estimates; hidden/unreadable details remain explicit."
+      ],
+      "reviewedFeatures": "One-storey recessed shop in real gap with black sloping CELESTE shade, closed grille; open iron-railed terrace and string lights above.",
+      "inspection": {
+        "review-02": [
+          "248142716-0-celeste-0-front.jpg",
+          "248142716-0-celeste-0-left.jpg",
+          "248142716-0-celeste-0-right.jpg"
+        ],
+        "review-03": [],
+        "review-04": [],
+        "review-05": []
+      },
+      "finalRepairs": "See parent face targeted repairs in visual-review.json; all images are build-specific.",
+      "limits": [
+        "Exact font outlines, graphic artwork, menu/poster contents and decorative dimensions are approximations; no photographic texture use.",
+        "Generic display objects express observed composition but do not reproduce every merchandise item.",
+        "No October 2026 occupancy verification; dated physical appearance is retained."
+      ]
+    },
+    {
+      "id": "248142713:1:marketside",
+      "faceId": "248142713:1",
+      "name": "Lime Tree Market \u2014 Ninth enclosure",
+      "businessId": "marketside",
+      "span": [
+        0.43,
+        0.998
+      ],
+      "identity": "Long burgundy sloping shade with oval market mark, thin silver clear-sheet enclosure and red low panels; shares existing corner grocery.",
+      "sourceIds": [
+        "148-ninth-return"
+      ],
+      "reviewState": "dated frontage visually reviewed; current occupancy unverified",
+      "unknown": [
+        "Dated source appearance, not an October 2026 occupancy survey.",
+        "Source pixels temporary only; never distributed textures.",
+        "Mapped geometry plus visual estimates; hidden/unreadable details remain explicit."
+      ],
+      "reviewedFeatures": "Long burgundy sloping shade with oval market mark, thin silver clear-sheet enclosure and red low panels; shares existing corner grocery.",
+      "inspection": {
+        "review-02": [
+          "248142713-1-marketside-0-front.jpg",
+          "248142713-1-marketside-0-left.jpg",
+          "248142713-1-marketside-0-right.jpg",
+          "248142713-1-marketside-1-front.jpg",
+          "248142713-1-marketside-1-left.jpg",
+          "248142713-1-marketside-1-right.jpg"
+        ],
+        "review-03": [],
+        "review-04": [],
+        "review-05": []
+      },
+      "finalRepairs": "See parent face targeted repairs in visual-review.json; all images are build-specific.",
+      "limits": [
+        "Exact font outlines, graphic artwork, menu/poster contents and decorative dimensions are approximations; no photographic texture use.",
+        "Generic display objects express observed composition but do not reproduce every merchandise item.",
+        "No October 2026 occupancy verification; dated physical appearance is retained."
+      ]
+    }
+  ],
+  "counts": {
+    "faces": 50,
+    "businessRecords": 42,
+    "unresolvedTenantIdentity": 7
+  },
+  "limits": [
+    "Primary July2022/September2024 visual evidence with older archive supplements is not a current occupancy survey.",
+    "Survey scale, exact fonts/artwork/stone relief, deep interiors, hidden roofs and rears are not calibrated.",
+    "Shared 148 model mass and First facade are deliberately preserved; Ninth source observations do not authorize revising them."
+  ]
+}

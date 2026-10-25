@@ -1,0 +1,155 @@
+{
+  "schema": 1,
+  "recorded": "2026-10-23T20:08:15.113136+00:00",
+  "objective": "Restore transferred project and development tools on new Apple Silicon Mac; no map expansion or publication.",
+  "git": {
+    "branch": "main",
+    "head": "a2a90a3e08540e15f40e0ede0f8af14921f54675",
+    "remoteMainVerifiedViaGitHub": true,
+    "localExpansionCommitted": false,
+    "pushedThisSession": false,
+    "githubCliAuthenticated": true,
+    "repositoryPermission": "ADMIN",
+    "gitFsck": "passed; eight dangling blobs retained"
+  },
+  "localBuild": {
+    "builtAt": "2026-10-15T04:33:43.860Z",
+    "models": 295,
+    "runtimeFiles": 314,
+    "sourceHashes": 157,
+    "pack": {
+      "bytes": 8178208,
+      "sha256": "b0100bd00b509f41afce60e8648e42c6892664b73c4757fc8ba49300f2d2b9ab",
+      "brotliBytes": 7449476
+    }
+  },
+  "liveManifest": {
+    "builtAt": "2026-10-11T23:07:00.496Z",
+    "models": 203,
+    "matchesCommittedManifest": true,
+    "url": "https://www.drivearound.nyc/seventh/build.json",
+    "limit": "Read-only manifest check; no full production resource, CI, or deployment audit."
+  },
+  "tools": {
+    "node": "24.22.1",
+    "npm": "11.19.1",
+    "godot": "4.7.2.stable.official.ed1daf0bf",
+    "blender": "5.2.1 LTS / 9e2066aef7ef",
+    "python": "3.13.17 (isolated .tools/python)",
+    "uv": "0.13.5",
+    "shapely": "2.2.0",
+    "matplotlib": "3.11.2",
+    "numpy": "2.5.4",
+    "browser": "Brave installed by user; separate .tools/brave-review profile; CDP 9222",
+    "githubCli": "Authenticated as repository owner; existing ~/.local/bin/gh retained from concurrent user/Claude setup. Separate verified CLI downloaded under .tools."
+  },
+  "checks": {
+    "npmVerify": "passed",
+    "npmSeventhVerify": "passed",
+    "workflowVerify": "passed; 1348 items / 672 unique facade sections",
+    "nativeHandling": "passed",
+    "nativeAddresses": "passed",
+    "nativeCameras": "passed",
+    "pythonGeometryAndPlot": "passed",
+    "blenderGlbExport": "passed outside sandbox; sandbox initialization crashed",
+    "httpRoutes": 4,
+    "httpRuntimeHashes": 314,
+    "privateScreenshotsPreserved": 2,
+    "routes": 8,
+    "boundaries": 8,
+    "cameras": 4,
+    "browserAddresses": 17,
+    "browserErrors": [],
+    "browserWarnings": [],
+    "failedRequests": [],
+    "reviewedImages": [
+      "ninth-west.jpg",
+      "north-camera-3.jpg",
+      "reset-seventh.jpg"
+    ],
+    "visualLimits": "Three setup smoke images inspected, not a new all-business fidelity review. Orbit/zoom can put an inspection camera behind a fire escape; that occluded overhead capture is not a clear facade review.",
+    "godotIsolatedWebExport": "passed using the matching custom templates; exported only under ignored .tools/build-check/output",
+    "godotCompiledManifestMatches": true,
+    "isolatedPckMatchesTransferred": true,
+    "streetViewBrowser": {
+      "checked": "2026-10-23T20:19:01.930991+00:00",
+      "passed": true,
+      "method": "Ordinary Google Maps Street View in the isolated Brave browser, controlled with Node built-in fetch/WebSocket and CDP.",
+      "reference": "https://www.google.com/maps/@?api=1&map_action=pano&pano=F-ZwOY7KR3X_bOQIHf1cwg&heading=65&pitch=20&fov=90",
+      "displayedImageryDate": "September 2024",
+      "visualInspection": "Panorama visibly rendered at First Avenue / East Ninth; source photograph inspected only to verify browser research access, not as a new building observation.",
+      "extraLibraryRequired": false,
+      "paidApiRequested": false,
+      "apiCredentialState": "Existing local Google Maps key is present; value not printed; API validity/billing not tested.",
+      "localScreenshot": ".tools/recovery/2026-10-23/streetview-check.jpg"
+    }
+  },
+  "routeTimings": [
+    {
+      "name": "first-north",
+      "p95Ms": 13.900000000001455,
+      "maxMs": 253.39999999999418
+    },
+    {
+      "name": "first-south",
+      "p95Ms": 13.900000000001455,
+      "maxMs": 14.30000000000291
+    },
+    {
+      "name": "west-lane-north",
+      "p95Ms": 14,
+      "maxMs": 14.39999999999418
+    },
+    {
+      "name": "east-lane-south",
+      "p95Ms": 14,
+      "maxMs": 14.400000000001455
+    },
+    {
+      "name": "ninth-west",
+      "p95Ms": 14.099999999998545,
+      "maxMs": 14.400000000001455
+    },
+    {
+      "name": "ninth-east",
+      "p95Ms": 13.900000000008731,
+      "maxMs": 14.400000000008731
+    },
+    {
+      "name": "ninth-through-first-west",
+      "p95Ms": 13.80000000000291,
+      "maxMs": 14.30000000000291
+    },
+    {
+      "name": "ninth-through-first-east",
+      "p95Ms": 13.89999999999418,
+      "maxMs": 14.400000000008731
+    }
+  ],
+  "timingLimits": "Single 1440x1000 Brave route pass on new hardware, not a paired benchmark. First route has a 253.4 ms maximum interval. Existing October 15 startup/stall limits remain historical and unresolved. No fresh cold/warm distribution or mobile/RAM claim.",
+  "preservation": {
+    "baselineFiles": 7096,
+    "recoveryArchive": ".tools/recovery/2026-10-23/transferred-worktree.tar",
+    "archivePayloadBytes": 4952219875,
+    "archiveScope": "Tracked and nonignored untracked files plus authored neighborhood model cache; excludes credentials, .git, ignored renders, and tool binaries. Local archive, not off-device backup.",
+    "allBaselineFilesUnchangedBeforeDocumentation": true,
+    "transferredCompiledCacheMatches": 295,
+    "freshImportHashesMatching": 0,
+    "cachedImportHashesMatching": 295,
+    "note": "A clean Godot reimport produced different compiled hashes. Copying the intact transferred .godot cache into the disposable export project preserves all 295 hashes after import; do not discard that cache or overwrite reviewed scenes with clean reimports.",
+    "changedOriginalFiles": [
+      "AGENTS.md",
+      "CODEX-HANDOFF.md",
+      "README.md",
+      "SESSION-LOG.md",
+      "START-HERE.md",
+      "engine/first-seventh/README.md",
+      "model-source/NEIGHBORHOOD-NOTES.md"
+    ],
+    "compiledCacheArchive": ".tools/recovery/2026-10-23/godot-import-cache.tar",
+    "compiledCacheArchiveBytes": 207022080,
+    "compiledCacheArchiveSha256": "690cba38e12d45d8e8f9368e5c5a716ab1f4e35f8550bbad10d940f6b1520a61"
+  },
+  "browserEvidence": "renders/machine-setup-2026-10-23/",
+  "next": "Proposed 01-E10-21, East Tenth Second\u2013First, both sides; requires exact protected-core face/mass ownership preparation when assigned."
+}

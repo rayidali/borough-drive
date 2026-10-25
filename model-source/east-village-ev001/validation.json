@@ -1,0 +1,80 @@
+{
+  "recorded": "2026-10-12T14:18:50.927438-04:00",
+  "session": "EV-001",
+  "mode": "design/evidence validation; no game export or browser performance run",
+  "head": "a2a90a3e08540e15f40e0ede0f8af14921f54675",
+  "cachedOriginMain": "a2a90a3e08540e15f40e0ede0f8af14921f54675",
+  "remoteRefreshed": false,
+  "runtimeFilesMatched": 18,
+  "recipeSourceFilesMatched": 108,
+  "packSha256": "8da68329347228060231d47f46e80c9d6233b6afb0469fd43611bdc83204b1d0",
+  "packBytes": 102660112,
+  "censusEntries": 493,
+  "catalogModels": 203,
+  "compiledCacheAndGlbHashesMatched": 203,
+  "dependencyListsEmpty": 203,
+  "nativeRelocationSamplesPassed": 3,
+  "proofOwnerCounts": [
+    12,
+    191
+  ],
+  "proofOwnershipDisjointAndComplete": true,
+  "sourceModelTransformsPreserved": true,
+  "seventhFaces": 82,
+  "firstStmarksFaces": 102,
+  "trackedChangesOnlyMarkdown": true,
+  "distIndexAbsent": true,
+  "privateScreenshots": {
+    "Screenshot 2026-09-14 at 8.35.02 PM.png": {
+      "sha256": "a182ce14205d2c4d6125f5f332b80ff643b77b56f0117678e7a2d83541fd652d",
+      "matchesBaseline": true,
+      "untracked": true
+    },
+    "Screenshot 2026-09-21 at 4.47.09 PM.png": {
+      "sha256": "184d4be305befa6c5152848f7f8fc9ce770083fea613d0dacaefa50a72596deb",
+      "matchesBaseline": true,
+      "untracked": true
+    }
+  },
+  "roadmapJsonCsvRowsMatched": 193,
+  "nextSession": "EV-002",
+  "inspectedInputSha256": {
+    "engine/first-seventh/project.godot": "71a99956d6b337e274d693ea40aadf5ee3ffbc595b21be5509426189fb952675",
+    "engine/first-seventh/export_presets.cfg": "de830db6e0808164dba6f22f4cfceee803f4d56d002c7e9bdd87b395609de38b",
+    "engine/first-seventh/scripts/world.gd": "721223af545f01ec742ff59064dec699471a8471d2c726ae7ff9c24d6f599bc7",
+    "engine/first-seventh/scripts/main.gd": "77b64b51fe7278836b03d603742e7cf02ff3fa7c26f08e2af4bab077b04304b3",
+    "engine/first-seventh/scripts/cameras.gd": "41bee5dc1557b8220549bcfb6d7fb663c0dab996388cd61599e5158a7932f2fa",
+    "engine/first-seventh/scripts/handling.gd": "f421fb6ba97f937db1b50bdb2488138997fb3a69882f69f9f7b3ce3d85e67518",
+    "engine/first-seventh/scripts/address_locator.gd": "67039770c035bcc663c9bd9d8f4bb35d6778a57264f68429e994572b551e2d2f",
+    "engine/first-seventh/scripts/minimap.gd": "fe97467d38921f80fbed32ff0b5fffd038ab2190d77a04a0c07a89337c41a83e",
+    "engine/first-seventh/web/shell.html": "60e9c60be19838cef65ce68dc36cf68876f8711f827fe17c5c896f08faba11f5",
+    "engine/first-seventh/assets/slice.json": "ff9724686ac06c285e7d961d6ac2f72f81029393f95ef41e4c2706f9c3f7eeff",
+    "scripts/export-seventh.mjs": "122a40d8fa25d006cee5b12bbc5f54c86b073ce04c6bc4b0fe51280d37007858",
+    "scripts/verify-seventh.mjs": "9048731ba318b43c93164d5097cd8655adcf7532d2a3be7219fb4925b4d2570b",
+    "scripts/serve.mjs": "8695c816a5c29c9675c73189345b33854ed4c6a4a8972fa1e58eec4de9c7c5f7",
+    "vercel.json": "89022f58c8f0bf605bdcaa75dfdfcb574fb974b312721b66a49f5f6a51275444",
+    "dist/seventh/build.json": "d489230130472e349e409ef49a539b803a91ae6e0bcbb2e6c93e25bda005c076"
+  },
+  "evidenceSha256": {
+    "probe-resources.gd": "ab15608825d5f4d9aff6ab0104d13fe7b0e191987adf58cab1098346d805281f",
+    "package-census.json": "8af46728398267e6e5ecb0a23fad667d5547c3d2dced7a42e5a8248c3f29ec61",
+    "native-resource-probe.json": "238988346bc728891a4340bf949246c0f1f3ce844aa567e1cb195dc9780d49d8",
+    "probe-notes.json": "fc71adc8723983a85b03bd550a35c13f3bbcae79a7b7b6937435b7fc82258c11",
+    "loading-design.json": "9bc33b1b0967be7f4fee04916560cb7523f943ca158f26768990d39d21e045a4"
+  },
+  "syntax": "inspect-seventh-package.py AST passed; native probe executed successfully in earlier recorded run",
+  "limitations": [
+    "Native scene signatures are not rendered visual checks.",
+    "No browser streaming, performance, memory or failure-injection result.",
+    "No runtime, model, export, remote or deployment mutation.",
+    "Scene release proof covers PackedScene weak refs in native process, not all browser CPU/GPU allocations."
+  ],
+  "documentationChecks": {
+    "markdownFiles": 50,
+    "relativeLinksResolved": 1065,
+    "evidenceTextWhitespace": "passed",
+    "skillValidator": "passed; frontmatter/scaffold check, not behavioral model evaluation",
+    "trackedDiffWhitespace": "git diff --check passed",
+    "newPythonSyntax": "AST parse passed"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "recorded": "2026-10-14T17:43:00.393493+00:00",
+  "session": "01-E09-21",
+  "state": "local implementation and bounded validation complete; source uncertainties retained",
+  "builtAt": "2026-10-14T17:30:33.776Z",
+  "pack": {
+    "bytes": 8096788,
+    "sha256": "56af68394e3cc27156124b0b360a99096a16dacba4220c6637abf86c2a136638",
+    "brotliBytes": 7422797
+  },
+  "sourceCheckout": "a2a90a3e08540e15f40e0ede0f8af14921f54675",
+  "checks": {
+    "originalVerifier": "npm run verify passed on final build; original game preserved",
+    "exportVerifier": "npm run seventh:verify passed: 274 files, 151 source hashes, 255 models",
+    "protectedModels": 221,
+    "privateImages": 2,
+    "drivingLegs": 6,
+    "drivingContacts": 0,
+    "loadingHolds": 0,
+    "heldThrottleBoundaries": 7,
+    "cameraModesWithOrbitZoomAndUnchangedCar": 4,
+    "vehicleReset": "passed",
+    "newVisualCollisionOwners": 34,
+    "addressCases": 17,
+    "startupColdRuns": 5,
+    "startupWarmRuns": 5,
+    "weatherModeViewsInspected": 8,
+    "gameplayViewsInspected": 18,
+    "localHttpRoutes": 4,
+    "localRuntimeFileHashes": 274
+  },
+  "evidence": {
+    "visual": "visual-review.json",
+    "faceAndBusiness": "face-review.json",
+    "gameplay": "gameplay/captures.json",
+    "address": "address/review.json",
+    "startups": "performance/startups.json",
+    "metrics": "metrics.json",
+    "weather": "weather/captures.json",
+    "preservation": "preservation.json",
+    "http": "http-validation.json"
+  },
+  "trialLimits": [
+    "Trial01 west route braked only 25 m before terminal and touched it; checker now brakes 42 m short; runtime unchanged.",
+    "Trial02 six routes/six boundaries passed. North-boundary test position touched new corner before outer wall; corrected to unobstructed west edge. Tail records final boundary, four cameras, reset and ownership on identical build; combined report retains source runs.",
+    "All 255 initially loaded; cold/warm medians 9.928/12.593 s, p95 11.592/15.343 s. One Ninth-east leg p95 31.4 ms/max35.3; other legs p95 18.6\u201318.7 ms. Historical baseline only; no stable speed/RAM/mobile claim.",
+    "Five shop records need more evidence; no calibrated 1:1, numerical fidelity multiplier or independent reviewer.",
+    "User-reported laptop shutdown cause unknown. Saved progress survived; temporary evidence had to be reopened."
+  ],
+  "publication": "Not requested; no commit, push, CI/deployment or live recheck. Main/cached origin unchanged.",
+  "next": "01-E09-1A: Ninth First\u2013Avenue A, both sides, only on next user instruction",
+  "documentation": {
+    "markdownFiles": 13,
+    "relativeLinks": 710,
+    "jsonCsvRows": 193,
+    "completedEditableFaces": 42,
+    "protectedCornerReturns": 1,
+    "remainingAssignedFaces": 0,
+    "diffWhitespace": "passed",
+    "skillValidation": "Skill is valid; structural validation only",
+    "headAndCachedOrigin": "unchanged",
+    "privateImages": "unchanged and untracked"
+  }
+}

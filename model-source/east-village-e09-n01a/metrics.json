@@ -1,0 +1,243 @@
+{
+  "recorded": "2026-10-14T03:11:52.967666+00:00",
+  "builtAt": "2026-10-14T02:50:35.713Z",
+  "currentPack": {
+    "bytes": 8023168,
+    "sha256": "418cedd49602c3f553ec5f863bdd7e0cbe69baec676461bbb0b14960a9a75bed",
+    "brotliBytes": 7404687
+  },
+  "newModels": [
+    {
+      "id": 247852689,
+      "glbBytes": 4549264,
+      "triangles": 72449,
+      "glbSha256": "709e76f0a029925c3b9b726d904b766a41ec02b4ccdd325b594037a4478da10a",
+      "compiled": {
+        "bounds": [
+          -60.6079978942871,
+          0.157498836517334,
+          -177.928009033203,
+          -52.8022689819336,
+          15.9400005340576,
+          -157.460037231445
+        ],
+        "bytes": 1753381,
+        "glbSha256": "709e76f0a029925c3b9b726d904b766a41ec02b4ccdd325b594037a4478da10a",
+        "id": 247852689,
+        "owner": "EVP-REST",
+        "sha256": "6edd56dde50f4372a0f089be9321b3feab312f688e0108b6c3607f554c3bf2fd",
+        "url": "/seventh/areas/assets/6edd56dde50f4372a0f089be9321b3feab312f688e0108b6c3607f554c3bf2fd.scn"
+      }
+    },
+    {
+      "id": 247852690,
+      "glbBytes": 2566428,
+      "triangles": 53849,
+      "glbSha256": "641d7f2c99ca1b769395e82d306bf4058bd1c9cf35e920bc68f872e1a84699d8",
+      "compiled": {
+        "bounds": [
+          -45.6240005493164,
+          0.170000001788139,
+          -169.449005126953,
+          -36.6920013427734,
+          11.6999998092651,
+          -161.404510498047
+        ],
+        "bytes": 1323240,
+        "glbSha256": "641d7f2c99ca1b769395e82d306bf4058bd1c9cf35e920bc68f872e1a84699d8",
+        "id": 247852690,
+        "owner": "EVP-REST",
+        "sha256": "9f3daf0295bd0cac0ee118dec1b415c6329bfb2568f610a0153c73cb2e03f2bf",
+        "url": "/seventh/areas/assets/9f3daf0295bd0cac0ee118dec1b415c6329bfb2568f610a0153c73cb2e03f2bf.scn"
+      }
+    },
+    {
+      "id": 247852691,
+      "glbBytes": 14228668,
+      "triangles": 204155,
+      "glbSha256": "e6fb3fff79108921d7a4e48f8c73fb501f3de2a1f72685e61c3614c07bc6f24e",
+      "compiled": {
+        "bounds": [
+          -36.8660011291504,
+          0.15749979019165,
+          -169.505004882812,
+          -15.1500015258789,
+          12.7799987792969,
+          -161.719268798828
+        ],
+        "bytes": 3394017,
+        "glbSha256": "e6fb3fff79108921d7a4e48f8c73fb501f3de2a1f72685e61c3614c07bc6f24e",
+        "id": 247852691,
+        "owner": "EVP-REST",
+        "sha256": "33289dcde53b22b2d0bb605ff972f91de1500ddac484973d3378141e6ee70205",
+        "url": "/seventh/areas/assets/33289dcde53b22b2d0bb605ff972f91de1500ddac484973d3378141e6ee70205.scn"
+      }
+    },
+    {
+      "id": 247852697,
+      "glbBytes": 647760,
+      "triangles": 10395,
+      "glbSha256": "c00fb3110ca3d60d08c0ca6bbc9e272389c29fac554a95dc70eb607f18ba5a86",
+      "compiled": {
+        "bounds": [
+          -53.2441673278809,
+          -0.470000267028809,
+          -174.610168457031,
+          -45.4401702880859,
+          13.2799997329712,
+          -161.64582824707
+        ],
+        "bytes": 236973,
+        "glbSha256": "c00fb3110ca3d60d08c0ca6bbc9e272389c29fac554a95dc70eb607f18ba5a86",
+        "id": 247852697,
+        "owner": "EVP-REST",
+        "sha256": "a753e4dd2dd3ca19e4aaa6ade26a9bfee892d884401a84a9f41f54fc1aac2020",
+        "url": "/seventh/areas/assets/a753e4dd2dd3ca19e4aaa6ade26a9bfee892d884401a84a9f41f54fc1aac2020.scn"
+      }
+    }
+  ],
+  "totalTriangles": 4783068,
+  "runtimeBytes": 159279921,
+  "runtimeFiles": 236,
+  "sources": 139,
+  "residentPartition": {
+    "EVP-REST": 205,
+    "EVP-WEST": 12
+  },
+  "allLoadInitially": 217,
+  "growthFromP03": {
+    "packBytes": 8644,
+    "runtimeBytes": 6718365
+  },
+  "startup": {
+    "cold": {
+      "count": 5,
+      "valuesMs": [
+        10721.2,
+        8077,
+        7758.4,
+        8679.1,
+        8472.6
+      ],
+      "medianMs": 8472.6,
+      "p95NearestRankMs": 10721.2,
+      "maxMs": 10721.2,
+      "sceneCacheHits": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "residentModels": [
+        217,
+        217,
+        217,
+        217,
+        217
+      ],
+      "transferEncodedBytes": [
+        159070517,
+        159070517,
+        159070517,
+        159070517,
+        159070517
+      ]
+    },
+    "cacheEnabled": {
+      "count": 5,
+      "valuesMs": [
+        8321.3,
+        9588.1,
+        10277,
+        11426.9,
+        8784.6
+      ],
+      "medianMs": 9588.1,
+      "p95NearestRankMs": 11426.9,
+      "maxMs": 11426.9,
+      "sceneCacheHits": [
+        217,
+        217,
+        217,
+        217,
+        217
+      ],
+      "residentModels": [
+        217,
+        217,
+        217,
+        217,
+        217
+      ],
+      "transferEncodedBytes": [
+        48264433,
+        48264433,
+        48264433,
+        48264433,
+        48264433
+      ]
+    },
+    "conditions": "One local game tab; unthrottled CPU/network; focus emulated. Cold means browser network cache disabled, not an OS/GPU/WASM-cache reset. Warm enables browser cache; localhost response headers are recorded. Raw first-drive intervals retained.",
+    "browser": {
+      "protocolVersion": "1.3",
+      "product": "Chrome/155.0.8059.40",
+      "revision": "@b01cdf43be4b4d5559bf7e58229e666e24454f5",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "jsVersion": "15.5.35.20"
+    },
+    "raw": "performance-final/startups.json",
+    "comparison": "No fresh N01A before benchmark. P03 final cold median/p95 8048.3/8983.8 ms and warm 8951.4/10250.6 ms are historical only; no causal regression percentage. Historical P02 warm 21686.9 ms outlier remains unresolved. Five-run p95 is the maximum, not stable population latency."
+  },
+  "routes": [
+    {
+      "name": "first-north",
+      "frames": 287,
+      "p95Ms": 18.7,
+      "maxMs": 18.8,
+      "contacts": 0,
+      "holds": 0
+    },
+    {
+      "name": "first-south",
+      "frames": 332,
+      "p95Ms": 18.6,
+      "maxMs": 18.7,
+      "contacts": 0,
+      "holds": 0
+    },
+    {
+      "name": "west-lane-north",
+      "frames": 267,
+      "p95Ms": 18.6,
+      "maxMs": 18.7,
+      "contacts": 0,
+      "holds": 0
+    },
+    {
+      "name": "east-lane-south",
+      "frames": 343,
+      "p95Ms": 18.6,
+      "maxMs": 18.8,
+      "contacts": 0,
+      "holds": 0
+    },
+    {
+      "name": "ninth-west",
+      "frames": 341,
+      "p95Ms": 18.6,
+      "maxMs": 18.7,
+      "contacts": 0,
+      "holds": 0
+    },
+    {
+      "name": "ninth-east",
+      "frames": 355,
+      "p95Ms": 18.6,
+      "maxMs": 18.7,
+      "contacts": 0,
+      "holds": 0
+    }
+  ],
+  "limits": "Local desktop, unthrottled network/CPU; 1440×1000. No mobile/whole-area scalability or total RAM result. New models remain pinned; previous 12-building release/reload proof is historical, not rerun here."
+}

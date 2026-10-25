@@ -1,0 +1,5 @@
+
+> drivearound-nyc@0.4.0 seventh:verify
+> node scripts/verify-seventh.mjs
+
+Verified slice: 314 runtime files, 157 source hashes; 295 models, including 254 immutable preceding models and the 148 Ninth-only return; 50 new-block faces. Visual accuracy and performance require separate review.

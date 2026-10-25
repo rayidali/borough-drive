@@ -1,0 +1,75 @@
+{
+  "status": "complete locally; uncommitted",
+  "session": "EV-003",
+  "authorization": "User: continue ahead",
+  "scope": [
+    "Release/cache integration and missing-old-asset recovery",
+    "Resize while west scenes absent",
+    "Existing route/ownership integration and next-packet contract"
+  ],
+  "notAuthorized": [
+    "New facades/geography",
+    "Publication",
+    "Paid work"
+  ],
+  "baselinePack": {
+    "bytes": 7981516,
+    "sha256": "fa4d32a0ece9c56bdd4b67e2c94f11c2a01f5dce272bdb675313e8285928cffc",
+    "brotliBytes": 7386114
+  },
+  "next": "137\u2013143 First Avenue, on next user instruction; exact p01-handoff.json adapter and protected ownership",
+  "firstBuild": {
+    "pack": {
+      "bytes": 7982188,
+      "sha256": "ece50a67929216f894ed2d1041cdd5017535d4b5aac7afd017cb7f494f7a8ee5",
+      "brotliBytes": 7385590
+    },
+    "passed": [
+      "Smoke 203\u2192191\u2192203",
+      "4 camera modes delayed resize + missing/retry",
+      "2 invalid pack cases, 203 immutable browser-cache hits"
+    ],
+    "repairs": [
+      "Image inspection found reset interpolation crossing buildings; camera now uses real transform for teleport frames",
+      "Old-release retry sends no-cache to bypass possible immutable negative response"
+    ],
+    "failedTrials": [
+      {
+        "path": "routes/routes.json",
+        "reason": "Harness released handbrake after 500 ms while speed ~20 m/s; car subsequently hit existing terminal barriers. Stop earlier and brake to measured zero; do not change road geometry."
+      },
+      {
+        "path": "final-routes/routes.json",
+        "reason": "Handbrake-only stop from 24 m/s still reaches existing St Marks x=239 barrier. Reuse EV-002 service brake S to <2 m/s, then handbrake; no vehicle/road modification."
+      }
+    ]
+  },
+  "currentPack": {
+    "bytes": 7982220,
+    "sha256": "aee35948c9ea850031aa959d2cc561d40cccef819680cf5935943c57660b33da",
+    "brotliBytes": 7386163
+  },
+  "finalResize": "passed including camera proximity assertion after retry; image inspected and correct",
+  "hostingOwnership": "passed installed Vercel route compiler; 11 local GET/HEAD/hash cases; 203 current/254 protected faces and 53 unique future faces / 52 mass owners",
+  "cameraTrial": {
+    "failed": [
+      "final-camera/review.json",
+      "camera-diagnostic/review.json"
+    ],
+    "diagnosis": "Hood default captured before camera settled from review car drop: initial y=1.2163583 vs recentered 1.1709896, 4.54 cm difference; x/z and car identical. Harness now waits for two successive stable poses and retains the original 3 cm gate. No runtime change."
+  },
+  "finalStartup": "5 cold/5 actual-cache warm complete, startup-summary.json; cold median 6269 ms, warm median 6615.1 ms, unchanged final pack",
+  "finalRecovery": "all six scenarios pass; missing/corrupt/offline plus in-flight retry/delay/focus/cancellation",
+  "finalRoutes": "8 legs, zero contacts/ordinary holds, all 8 endpoint images inspected; route fixtures corrected without road/vehicle edits",
+  "notDone": [],
+  "nextSession": "P01",
+  "finalCamera": "camera-verified/review.json passed; original tolerance retained with stable baseline sampling",
+  "finalSettings": "final-settings/review.json passes settings, loaded Retina resize, focus, postcard, missing-pack and context retry",
+  "visualReview": "visual-review.json: 26 inspected images, plus diagnosed first-build reset sweep",
+  "saveState": "No Git fetch/commit/push, CI or deployment; main and cached origin remain a2a90a3; only prior production HEAD reads",
+  "limits": [
+    "All models still open initially; 191 remain pinned",
+    "Candidate CDN headers/negative caching need later authorized publication check",
+    "No new facade, Street View inspection, paid request or whole-area scale claim"
+  ]
+}

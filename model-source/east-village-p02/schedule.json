@@ -1,0 +1,1769 @@
+{
+  "schema": 1,
+  "id": "P02",
+  "parent": "01-FA08E",
+  "revision": "P02-01",
+  "scopeFaces": [
+    "248142657:0",
+    "248142658:0",
+    "248142659:0",
+    "248142660:0",
+    "248142713:0"
+  ],
+  "elevations": [
+    {
+      "faceId": "248142657:0",
+      "buildingId": 248142657,
+      "frontageIndex": 0,
+      "address": "138 1st Avenue",
+      "sourceFace": {
+        "x": 15.086,
+        "z": 112.426,
+        "rx": 0.003627944462027151,
+        "rz": 0.9999934189878353,
+        "length": 6.064,
+        "street": "First Avenue"
+      },
+      "buildingHeight": 10.59,
+      "architecture": {
+        "wall": "p02 dark red brick",
+        "windows": [
+          {
+            "at": 0.16,
+            "width": 0.17315303430079157,
+            "bottom": 4.17,
+            "height": 1.82,
+            "trim": "p02 ivory stone",
+            "frame": "white frame",
+            "hood": "none",
+            "surround": false,
+            "rails": [
+              0.48
+            ],
+            "ac": false
+          },
+          {
+            "at": 0.5,
+            "width": 0.17315303430079157,
+            "bottom": 4.17,
+            "height": 1.82,
+            "trim": "p02 ivory stone",
+            "frame": "white frame",
+            "hood": "none",
+            "surround": false,
+            "rails": [
+              0.48
+            ],
+            "ac": false
+          },
+          {
+            "at": 0.84,
+            "width": 0.17315303430079157,
+            "bottom": 4.17,
+            "height": 1.82,
+            "trim": "p02 ivory stone",
+            "frame": "white frame",
+            "hood": "none",
+            "surround": false,
+            "rails": [
+              0.48
+            ],
+            "ac": false
+          },
+          {
+            "at": 0.16,
+            "width": 0.17315303430079157,
+            "bottom": 7.04,
+            "height": 1.82,
+            "trim": "p02 ivory stone",
+            "frame": "white frame",
+            "hood": "none",
+            "surround": false,
+            "rails": [
+              0.48
+            ],
+            "ac": true
+          },
+          {
+            "at": 0.5,
+            "width": 0.17315303430079157,
+            "bottom": 7.04,
+            "height": 1.82,
+            "trim": "p02 ivory stone",
+            "frame": "white frame",
+            "hood": "none",
+            "surround": false,
+            "rails": [
+              0.48
+            ],
+            "ac": false
+          },
+          {
+            "at": 0.84,
+            "width": 0.17315303430079157,
+            "bottom": 7.04,
+            "height": 1.82,
+            "trim": "p02 ivory stone",
+            "frame": "white frame",
+            "hood": "none",
+            "surround": false,
+            "rails": [
+              0.48
+            ],
+            "ac": false
+          }
+        ],
+        "doors": [
+          {
+            "at": 0.895,
+            "width": 0.15,
+            "bottom": 0.23,
+            "top": 2.98,
+            "leafTop": 2.7,
+            "material": "store09 cream enamel",
+            "trim": "store09 cream enamel",
+            "leaves": 1,
+            "recess": 0.24,
+            "hardware": "store09 aged brass",
+            "panels": [
+              {
+                "y": 0.69,
+                "height": 0.44,
+                "width": 0.76,
+                "glass": true
+              },
+              {
+                "y": 0.2,
+                "height": 0.29,
+                "width": 0.76
+              }
+            ]
+          }
+        ],
+        "returnShops": [
+          {
+            "name": "East Village Wines",
+            "span": [
+              0.02,
+              0.8
+            ],
+            "design": {
+              "top": 3.18,
+              "head": 2.8,
+              "base": 0.2,
+              "recess": 0.24,
+              "panels": [
+                [
+                  "glass",
+                  0.44
+                ],
+                [
+                  "glass",
+                  0.27
+                ],
+                [
+                  "door",
+                  0.29
+                ]
+              ],
+              "transom": false,
+              "signs": [
+                {
+                  "at": 0.5,
+                  "width": 1,
+                  "y": 3.42,
+                  "height": 0.51,
+                  "depth": 0.26,
+                  "material": "store09 maroon canvas",
+                  "lines": [
+                    {
+                      "text": "EAST VILLAGE WINES",
+                      "material": "store09 paper",
+                      "size": 0.47,
+                      "style": "store09:condensed",
+                      "width": 0.97
+                    }
+                  ]
+                }
+              ],
+              "detail09": {
+                "frame": "store09 black enamel",
+                "surround": "store09 black enamel",
+                "frameWidth": 0.042,
+                "pierWidth": 0.07,
+                "floor": 0.17,
+                "molding": false,
+                "displayDepth": 1.1,
+                "displays": [
+                  {
+                    "kind": "bottles",
+                    "at": 0.24,
+                    "y": 0.62,
+                    "width": 0.35,
+                    "rows": 4,
+                    "count": 6,
+                    "rowStep": 0.42,
+                    "depth": -0.6,
+                    "colors": [
+                      "store09 bottle green",
+                      "store09 aged brass",
+                      "store09 paper"
+                    ]
+                  },
+                  {
+                    "kind": "poster",
+                    "at": 0.24,
+                    "y": 1.12,
+                    "width": 0.35,
+                    "height": 1.0,
+                    "depth": 0.11,
+                    "text": "",
+                    "material": "store09 paper"
+                  }
+                ],
+                "furniture": [],
+                "id": "248142657:0:0",
+                "identity": "Folded ivory/red projecting sign above burgundy fascia; dark window, copper mesh panel, recessed south door, bottle poster and stacked cartons; separate cream residence grille.",
+                "sourceIds": [
+                  "wines-detail",
+                  "south-group"
+                ]
+              },
+              "detailP02": {
+                "kind": "wines"
+              },
+              "boards": [
+                {
+                  "at": 0.015,
+                  "depth": 1.15,
+                  "height": 1.0,
+                  "width": 0.47,
+                  "frame": "store09 oak timber"
+                }
+              ]
+            }
+          }
+        ],
+        "signs": [],
+        "observedGround": {
+          "replaceWindows": false,
+          "replaceDoors": false
+        },
+        "observation": {
+          "sources": [
+            "south-group",
+            "wines-detail"
+          ],
+          "facts": [
+            "East-side south group: 138 is lower three-storey dark red-brown brick between taller protected 134/136 and pale weathered 140. No alley between these shared party walls; height step exposes a tall pale side wall belonging to protected southern neighbor.",
+            "138 has two upper rows of three rectangular white sash windows, projecting pale flat trapezoid lintels with raised central keys, pale sills, dark elaborate bracket/rosette cornice, dentil brick course between upper floors. No facade fire escape. East Village Wines below; residential grille right/south.",
+            "140: three upper rows of three white sash windows, pale rectangular lintel/sill outlines, faded salmon/cream brick, ornate salmon bracketed cornice distinctly taller than neighboring 142 cornice; salmon-painted zigzag fire escape across left/center two bays. Left/north separate residential entry; bar below with canvas BAR awning and green right door.",
+            "142: three upper rows of three sash openings in red brick, dark olive flat lintels/sills, black fire escape across whole facade, comparatively plain large dark continuous cornice. White COSMOS LAUNDERAMA sign and projecting wash/dry canopy. Ground entry left/north.",
+            "138 East Village Wines: upper white folded V-shaped rigid sign box projects above lower long wine-red EAST VILLAGE WINES fascia. Upper two faces each red tall narrow capitals on ivory, small bottle outline left, tiny 138 FIRST AVE and telephone observed but microcopy not reliably legible. Separate small black floodlights on sign top.",
+            "Shop occupies left/north roughly 80%; right/south separate narrow cream security-grille residential door within charcoal/graffiti surround. Shop entry on right/south of shop is recessed dark single glazed leaf with rectangular copper-brown mesh/security panels immediately left. Broad left glazing carries large pale bottle poster; shelves/bottles in shaded window and stacked cartons outside. Red OPEN near top middle. No fabric awning or outdoor seating. Thin wood A-frame between wine shop and bar in April.",
+            "138 upper lintels are three-segment white tapered heads with raised central rectangular keys, white sash divisions and shallow iron lower guards. Stringcourse contains two raised dentil rows. Adjacent party walls touch; height difference is not an alley."
+          ],
+          "unknown": [
+            "No survey/calibrated acceptance; mapped height and footprint, visual opening/relief dimensions.",
+            "Rear and roof equipment are unobserved. Ninth return is deferred and receives only the shared mass."
+          ]
+        },
+        "p02Face": {
+          "id": 248142657,
+          "escapeSpecs": [],
+          "masonryPitch": [
+            0.215,
+            0.071
+          ],
+          "sourceIds": [
+            "south-group",
+            "wines-detail"
+          ]
+        }
+      }
+    },
+    {
+      "faceId": "248142658:0",
+      "buildingId": 248142658,
+      "frontageIndex": 0,
+      "address": "140 1st Avenue",
+      "sourceFace": {
+        "x": 15.066,
+        "z": 106.782,
+        "rx": 0.0035435638609420624,
+        "rz": 0.9999937215578724,
+        "length": 5.644,
+        "street": "First Avenue"
+      },
+      "buildingHeight": 13.56,
+      "architecture": {
+        "wall": "p02 faded pink brick",
+        "windows": [
+          {
+            "at": 0.16,
+            "width": 0.18603827072997875,
+            "bottom": 4.15,
+            "height": 1.86,
+            "trim": "p02 ivory stone",
+            "frame": "white frame",
+            "hood": "flat",
+            "surround": true,
+            "rails": [
+              0.48
+            ],
+            "ac": false
+          },
+          {
+            "at": 0.5,
+            "width": 0.18603827072997875,
+            "bottom": 4.15,
+            "height": 1.86,
+            "trim": "p02 ivory stone",
+            "frame": "white frame",
+            "hood": "flat",
+            "surround": true,
+            "rails": [
+              0.48
+            ],
+            "ac": false
+          },
+          {
+            "at": 0.84,
+            "width": 0.18603827072997875,
+            "bottom": 4.15,
+            "height": 1.86,
+            "trim": "p02 ivory stone",
+            "frame": "white frame",
+            "hood": "flat",
+            "surround": true,
+            "rails": [
+              0.48
+            ],
+            "ac": false
+          },
+          {
+            "at": 0.16,
+            "width": 0.18603827072997875,
+            "bottom": 7.02,
+            "height": 1.86,
+            "trim": "p02 ivory stone",
+            "frame": "white frame",
+            "hood": "flat",
+            "surround": true,
+            "rails": [
+              0.48
+            ],
+            "ac": false
+          },
+          {
+            "at": 0.5,
+            "width": 0.18603827072997875,
+            "bottom": 7.02,
+            "height": 1.86,
+            "trim": "p02 ivory stone",
+            "frame": "white frame",
+            "hood": "flat",
+            "surround": true,
+            "rails": [
+              0.48
+            ],
+            "ac": false
+          },
+          {
+            "at": 0.84,
+            "width": 0.18603827072997875,
+            "bottom": 7.02,
+            "height": 1.86,
+            "trim": "p02 ivory stone",
+            "frame": "white frame",
+            "hood": "flat",
+            "surround": true,
+            "rails": [
+              0.48
+            ],
+            "ac": false
+          },
+          {
+            "at": 0.16,
+            "width": 0.18603827072997875,
+            "bottom": 9.92,
+            "height": 1.86,
+            "trim": "p02 ivory stone",
+            "frame": "white frame",
+            "hood": "flat",
+            "surround": true,
+            "rails": [
+              0.48
+            ],
+            "ac": false
+          },
+          {
+            "at": 0.5,
+            "width": 0.18603827072997875,
+            "bottom": 9.92,
+            "height": 1.86,
+            "trim": "p02 ivory stone",
+            "frame": "white frame",
+            "hood": "flat",
+            "surround": true,
+            "rails": [
+              0.48
+            ],
+            "ac": false
+          },
+          {
+            "at": 0.84,
+            "width": 0.18603827072997875,
+            "bottom": 9.92,
+            "height": 1.86,
+            "trim": "p02 ivory stone",
+            "frame": "white frame",
+            "hood": "flat",
+            "surround": true,
+            "rails": [
+              0.48
+            ],
+            "ac": true
+          }
+        ],
+        "doors": [
+          {
+            "at": 0.12,
+            "width": 0.175,
+            "bottom": 0.23,
+            "top": 2.98,
+            "leafTop": 2.7,
+            "material": "store09 black enamel",
+            "trim": "store09 cream enamel",
+            "leaves": 1,
+            "recess": 0.24,
+            "hardware": "store09 aged brass",
+            "panels": [
+              {
+                "y": 0.21,
+                "height": 0.22,
+                "width": 0.8,
+                "glass": true
+              },
+              {
+                "y": 0.47,
+                "height": 0.22,
+                "width": 0.8,
+                "glass": true
+              },
+              {
+                "y": 0.73,
+                "height": 0.22,
+                "width": 0.8,
+                "glass": true
+              }
+            ]
+          }
+        ],
+        "returnShops": [
+          {
+            "name": "Area 140 First",
+            "span": [
+              0.24,
+              0.987
+            ],
+            "design": {
+              "top": 3.22,
+              "head": 2.8,
+              "base": 0.38,
+              "recess": 0.24,
+              "panels": [
+                [
+                  "glass",
+                  0.36
+                ],
+                [
+                  "glass",
+                  0.38
+                ],
+                [
+                  "door",
+                  0.26
+                ]
+              ],
+              "transom": false,
+              "signs": [],
+              "detail09": {
+                "frame": "store09 black enamel",
+                "surround": "store09 black enamel",
+                "frameWidth": 0.042,
+                "pierWidth": 0.07,
+                "floor": 0.17,
+                "molding": false,
+                "displayDepth": 1.1,
+                "displays": [
+                  {
+                    "kind": "counter",
+                    "at": 0.31,
+                    "y": 0.84,
+                    "width": 0.61,
+                    "depth": -0.62,
+                    "material": "store09 dark timber"
+                  }
+                ],
+                "furniture": [],
+                "id": "248142658:0:0",
+                "identity": "Olive BAR fabric shade, circular mathematical monogram, rainbow tube, drooping bulb string; solid vivid green south door and four gray folding chairs with red wire stool.",
+                "sourceIds": [
+                  "bar-detail"
+                ],
+                "doorMaterial": "p02 green door",
+                "doorSolidTop": 2.75,
+                "hardware": "store09 dark iron"
+              },
+              "detailP02": {
+                "kind": "bar"
+              },
+              "awning": {
+                "detail09": true,
+                "y": 3.69,
+                "drop": 0.28,
+                "depth": 0.83,
+                "valance": 0.16,
+                "material": "p02 olive canvas",
+                "text": "BAR",
+                "textSize": 0.24,
+                "font": "store09:bold",
+                "sidePanels": true
+              }
+            }
+          }
+        ],
+        "signs": [],
+        "observedGround": {
+          "replaceWindows": false,
+          "replaceDoors": false
+        },
+        "observation": {
+          "sources": [
+            "south-group",
+            "bar-detail"
+          ],
+          "facts": [
+            "East-side south group: 138 is lower three-storey dark red-brown brick between taller protected 134/136 and pale weathered 140. No alley between these shared party walls; height step exposes a tall pale side wall belonging to protected southern neighbor.",
+            "138 has two upper rows of three rectangular white sash windows, projecting pale flat trapezoid lintels with raised central keys, pale sills, dark elaborate bracket/rosette cornice, dentil brick course between upper floors. No facade fire escape. East Village Wines below; residential grille right/south.",
+            "140: three upper rows of three white sash windows, pale rectangular lintel/sill outlines, faded salmon/cream brick, ornate salmon bracketed cornice distinctly taller than neighboring 142 cornice; salmon-painted zigzag fire escape across left/center two bays. Left/north separate residential entry; bar below with canvas BAR awning and green right door.",
+            "142: three upper rows of three sash openings in red brick, dark olive flat lintels/sills, black fire escape across whole facade, comparatively plain large dark continuous cornice. White COSMOS LAUNDERAMA sign and projecting wash/dry canopy. Ground entry left/north.",
+            "140 bar: olive-brown shallow sloping fabric awning with straight narrow hem, only BAR in bold white capitals centered. Two dark panes left/center and bright green solid right entry door, vertical long black pull and small horizontal dark peephole; white-framed residential door separate left/north with three frosted rectangular panels, intercom at right and two shallow threshold steps.",
+            "Bar window has circular outlined ornate RT monogram, rainbow OPEN tube at upper left and short string of small hanging bulbs with drooping cable under awning. Four dark gray folding chairs in row, small red circular wire-base stool/table forward, black ground mat. Glass behind has low dark bench/counter and small plant at left. Exact logo strokes/illegible small wordmark remain uncertain. No invented drinks display."
+          ],
+          "unknown": [
+            "No survey/calibrated acceptance; mapped height and footprint, visual opening/relief dimensions.",
+            "Rear and roof equipment are unobserved. Ninth return is deferred and receives only the shared mass."
+          ]
+        },
+        "p02Face": {
+          "id": 248142658,
+          "escapeSpecs": [
+            {
+              "span": [
+                0.06,
+                0.68
+              ],
+              "levels": [
+                4.05,
+                6.92,
+                9.82
+              ],
+              "material": "p02 salmon iron"
+            }
+          ],
+          "masonryPitch": [
+            0.21,
+            0.067
+          ],
+          "sourceIds": [
+            "south-group",
+            "bar-detail"
+          ]
+        }
+      }
+    },
+    {
+      "faceId": "248142659:0",
+      "buildingId": 248142659,
+      "frontageIndex": 0,
+      "address": "142 1st Avenue",
+      "sourceFace": {
+        "x": 15.042,
+        "z": 100.109,
+        "rx": 0.003596559984500865,
+        "rz": 0.9999935323572237,
+        "length": 6.673,
+        "street": "First Avenue"
+      },
+      "buildingHeight": 13.49,
+      "architecture": {
+        "wall": "p02 red brick",
+        "windows": [
+          {
+            "at": 0.16,
+            "width": 0.15735051700884162,
+            "bottom": 4.12,
+            "height": 1.88,
+            "trim": "p02 dark lintel",
+            "frame": "p02 olive frame",
+            "hood": "flat",
+            "surround": false,
+            "rails": [
+              0.48
+            ],
+            "ac": false
+          },
+          {
+            "at": 0.5,
+            "width": 0.15735051700884162,
+            "bottom": 4.12,
+            "height": 1.88,
+            "trim": "p02 dark lintel",
+            "frame": "p02 olive frame",
+            "hood": "flat",
+            "surround": false,
+            "rails": [
+              0.48
+            ],
+            "ac": false
+          },
+          {
+            "at": 0.84,
+            "width": 0.15735051700884162,
+            "bottom": 4.12,
+            "height": 1.88,
+            "trim": "p02 dark lintel",
+            "frame": "p02 olive frame",
+            "hood": "flat",
+            "surround": false,
+            "rails": [
+              0.48
+            ],
+            "ac": false
+          },
+          {
+            "at": 0.16,
+            "width": 0.15735051700884162,
+            "bottom": 6.99,
+            "height": 1.88,
+            "trim": "p02 dark lintel",
+            "frame": "p02 olive frame",
+            "hood": "flat",
+            "surround": false,
+            "rails": [
+              0.48
+            ],
+            "ac": false
+          },
+          {
+            "at": 0.5,
+            "width": 0.15735051700884162,
+            "bottom": 6.99,
+            "height": 1.88,
+            "trim": "p02 dark lintel",
+            "frame": "p02 olive frame",
+            "hood": "flat",
+            "surround": false,
+            "rails": [
+              0.48
+            ],
+            "ac": false
+          },
+          {
+            "at": 0.84,
+            "width": 0.15735051700884162,
+            "bottom": 6.99,
+            "height": 1.88,
+            "trim": "p02 dark lintel",
+            "frame": "p02 olive frame",
+            "hood": "flat",
+            "surround": false,
+            "rails": [
+              0.48
+            ],
+            "ac": false
+          },
+          {
+            "at": 0.16,
+            "width": 0.15735051700884162,
+            "bottom": 9.85,
+            "height": 1.88,
+            "trim": "p02 dark lintel",
+            "frame": "p02 olive frame",
+            "hood": "flat",
+            "surround": false,
+            "rails": [
+              0.48
+            ],
+            "ac": false
+          },
+          {
+            "at": 0.5,
+            "width": 0.15735051700884162,
+            "bottom": 9.85,
+            "height": 1.88,
+            "trim": "p02 dark lintel",
+            "frame": "p02 olive frame",
+            "hood": "flat",
+            "surround": false,
+            "rails": [
+              0.48
+            ],
+            "ac": false
+          },
+          {
+            "at": 0.84,
+            "width": 0.15735051700884162,
+            "bottom": 9.85,
+            "height": 1.88,
+            "trim": "p02 dark lintel",
+            "frame": "p02 olive frame",
+            "hood": "flat",
+            "surround": false,
+            "rails": [
+              0.48
+            ],
+            "ac": false
+          }
+        ],
+        "doors": [
+          {
+            "at": 0.115,
+            "width": 0.15,
+            "bottom": 0.23,
+            "top": 2.98,
+            "leafTop": 2.7,
+            "material": "p02 door brown",
+            "trim": "store09 cream enamel",
+            "leaves": 1,
+            "recess": 0.24,
+            "hardware": "store09 aged brass",
+            "panels": [
+              {
+                "y": 0.69,
+                "height": 0.44,
+                "width": 0.76,
+                "glass": true
+              },
+              {
+                "y": 0.2,
+                "height": 0.29,
+                "width": 0.76
+              }
+            ],
+            "label": "142",
+            "labelY": 3.035,
+            "labelSize": 0.13,
+            "labelMaterial": "store09 aged brass",
+            "labelDepth": 0.12,
+            "labelPlate": false
+          }
+        ],
+        "returnShops": [
+          {
+            "name": "Cosmos Launderama",
+            "span": [
+              0.265,
+              0.987
+            ],
+            "design": {
+              "top": 3.19,
+              "head": 2.85,
+              "base": 0.27,
+              "recess": 0.24,
+              "panels": [
+                [
+                  "glass",
+                  0.37
+                ],
+                [
+                  "glass",
+                  0.39
+                ],
+                [
+                  "door",
+                  0.24
+                ]
+              ],
+              "transom": false,
+              "signs": [
+                {
+                  "at": 0.5,
+                  "width": 1,
+                  "y": 3.65,
+                  "height": 0.66,
+                  "depth": 0.26,
+                  "material": "store09 white enamel",
+                  "lines": [
+                    {
+                      "text": "LAUNDERAMA",
+                      "material": "p02 laundry red",
+                      "size": 0.57,
+                      "style": "store09:narrow",
+                      "offset": 0.105,
+                      "width": 0.78
+                    }
+                  ]
+                }
+              ],
+              "detail09": {
+                "frame": "p02 silver frame",
+                "surround": "p02 silver frame",
+                "frameWidth": 0.042,
+                "pierWidth": 0.07,
+                "floor": 0.17,
+                "molding": false,
+                "displayDepth": 1.45,
+                "displays": [],
+                "furniture": [],
+                "id": "248142659:0:0",
+                "identity": "Raised red narrow LAUNDERAMA and small COSMOS/stars on white; folded gray metal canopy, silver windows with low white rail, separate brown 142 entrance and visible washer drums.",
+                "sourceIds": [
+                  "laundry-detail"
+                ],
+                "baseMaterial": "store09 white enamel",
+                "doorSolidTop": 0.18,
+                "hardware": "store09 brushed steel"
+              },
+              "detailP02": {
+                "kind": "laundry"
+              }
+            }
+          }
+        ],
+        "signs": [],
+        "observedGround": {
+          "replaceWindows": false,
+          "replaceDoors": false
+        },
+        "observation": {
+          "sources": [
+            "south-group",
+            "laundry-detail",
+            "north-elevations-older"
+          ],
+          "facts": [
+            "East-side south group: 138 is lower three-storey dark red-brown brick between taller protected 134/136 and pale weathered 140. No alley between these shared party walls; height step exposes a tall pale side wall belonging to protected southern neighbor.",
+            "138 has two upper rows of three rectangular white sash windows, projecting pale flat trapezoid lintels with raised central keys, pale sills, dark elaborate bracket/rosette cornice, dentil brick course between upper floors. No facade fire escape. East Village Wines below; residential grille right/south.",
+            "140: three upper rows of three white sash windows, pale rectangular lintel/sill outlines, faded salmon/cream brick, ornate salmon bracketed cornice distinctly taller than neighboring 142 cornice; salmon-painted zigzag fire escape across left/center two bays. Left/north separate residential entry; bar below with canvas BAR awning and green right door.",
+            "142: three upper rows of three sash openings in red brick, dark olive flat lintels/sills, black fire escape across whole facade, comparatively plain large dark continuous cornice. White COSMOS LAUNDERAMA sign and projecting wash/dry canopy. Ground entry left/north.",
+            "142 COSMOS LAUNDERAMA: broad white fascia with large dimensional condensed red LAUNDERAMA, smaller red COSMOS and five stars left. Separate left/north brown residential single door below small pale rigid hood and 142 above. Wide shop silver glazing with low white railing, red vertical trim behind, recessed/open far-right glazed leaf; shallow folded gray metal canopy has DROP OFF SERVICE on right and small WASH DRY FOLD left. Interior washing-machine circles visible; white painted ground piers with low rectangular louver beside entry.",
+            "144: red WASH & DRY capitals across separate off-white top fascia; green COSMOS DRY CLEANERS lower sign with white serif words, 144 1st Ave and 7 Days Drop Off Service. Narrow single central-right/south leaf with broad left/north pane, silver lower panels; adjoining brown residential door at north edge. A bulky gray/sage ATM cabinet sits by southern drycleaner jamb. Upper facade has two bays per floor, red brick, plain dark lintels, bracketed cornice and separate narrow two-bay black zigzag fire escape. One foreground tree in square black guard stands in front of 142; M15 bus pole in front of 144.",
+            "Second ground panorama confirms 142 three bays, 144 two bays and 148 four bays on each of three upper floors. 144 top escape landing is only right/south bay wide, unlike the two full lower platforms. 148 northern top platform spans two bays while its southern top platform is one bay wide; staggered stairs and short drop ladders are individual features, not identical ladders on every building. Laundry machines seen through far-right 142 door. Truck obscures market center; do not claim this view resolves it."
+          ],
+          "unknown": [
+            "No survey/calibrated acceptance; mapped height and footprint, visual opening/relief dimensions.",
+            "Rear and roof equipment are unobserved. Ninth return is deferred and receives only the shared mass."
+          ]
+        },
+        "p02Face": {
+          "id": 248142659,
+          "escapeSpecs": [
+            {
+              "span": [
+                0.055,
+                0.945
+              ],
+              "levels": [
+                4.0,
+                6.88,
+                9.74
+              ],
+              "material": "p02 olive iron",
+              "flights": [
+                [
+                  0.37,
+                  0.68
+                ],
+                [
+                  0.37,
+                  0.68
+                ]
+              ],
+              "dropAt": 0.6
+            }
+          ],
+          "masonryPitch": [
+            0.21,
+            0.067
+          ],
+          "sourceIds": [
+            "south-group",
+            "laundry-detail",
+            "north-elevations-older"
+          ]
+        }
+      }
+    },
+    {
+      "faceId": "248142660:0",
+      "buildingId": 248142660,
+      "frontageIndex": 0,
+      "address": "144 1st Avenue",
+      "sourceFace": {
+        "x": 15.028,
+        "z": 93.888,
+        "rx": 0.0022504363524687428,
+        "rz": 0.9999974677649056,
+        "length": 6.221,
+        "street": "First Avenue"
+      },
+      "buildingHeight": 13.63,
+      "architecture": {
+        "wall": "p02 fine red brick",
+        "windows": [
+          {
+            "at": 0.265,
+            "width": 0.16878315383378878,
+            "bottom": 4.11,
+            "height": 1.9,
+            "trim": "p02 dark lintel",
+            "frame": "p02 olive frame",
+            "hood": "flat",
+            "surround": false,
+            "rails": [
+              0.48
+            ],
+            "ac": false
+          },
+          {
+            "at": 0.735,
+            "width": 0.16878315383378878,
+            "bottom": 4.11,
+            "height": 1.9,
+            "trim": "p02 dark lintel",
+            "frame": "p02 olive frame",
+            "hood": "flat",
+            "surround": false,
+            "rails": [
+              0.48
+            ],
+            "ac": true
+          },
+          {
+            "at": 0.265,
+            "width": 0.16878315383378878,
+            "bottom": 6.99,
+            "height": 1.9,
+            "trim": "p02 dark lintel",
+            "frame": "p02 olive frame",
+            "hood": "flat",
+            "surround": false,
+            "rails": [
+              0.48
+            ],
+            "ac": false
+          },
+          {
+            "at": 0.735,
+            "width": 0.16878315383378878,
+            "bottom": 6.99,
+            "height": 1.9,
+            "trim": "p02 dark lintel",
+            "frame": "p02 olive frame",
+            "hood": "flat",
+            "surround": false,
+            "rails": [
+              0.48
+            ],
+            "ac": false
+          },
+          {
+            "at": 0.265,
+            "width": 0.16878315383378878,
+            "bottom": 9.85,
+            "height": 1.9,
+            "trim": "p02 dark lintel",
+            "frame": "p02 olive frame",
+            "hood": "flat",
+            "surround": false,
+            "rails": [
+              0.48
+            ],
+            "ac": true
+          },
+          {
+            "at": 0.735,
+            "width": 0.16878315383378878,
+            "bottom": 9.85,
+            "height": 1.9,
+            "trim": "p02 dark lintel",
+            "frame": "p02 olive frame",
+            "hood": "flat",
+            "surround": false,
+            "rails": [
+              0.48
+            ],
+            "ac": false
+          }
+        ],
+        "doors": [
+          {
+            "at": 0.115,
+            "width": 0.15,
+            "bottom": 0.23,
+            "top": 2.98,
+            "leafTop": 2.7,
+            "material": "p02 door brown",
+            "trim": "store09 cream enamel",
+            "leaves": 1,
+            "recess": 0.24,
+            "hardware": "store09 aged brass",
+            "panels": [
+              {
+                "y": 0.69,
+                "height": 0.44,
+                "width": 0.76,
+                "glass": true
+              },
+              {
+                "y": 0.2,
+                "height": 0.29,
+                "width": 0.76
+              }
+            ]
+          }
+        ],
+        "returnShops": [
+          {
+            "name": "Cosmos Dry Cleaners",
+            "span": [
+              0.27,
+              0.985
+            ],
+            "design": {
+              "top": 3.14,
+              "head": 2.75,
+              "base": 0.7,
+              "recess": 0.24,
+              "panels": [
+                [
+                  "glass",
+                  0.65
+                ],
+                [
+                  "door",
+                  0.35
+                ]
+              ],
+              "transom": false,
+              "signs": [
+                {
+                  "at": 0.5,
+                  "width": 1,
+                  "y": 3.85,
+                  "height": 0.69,
+                  "depth": 0.26,
+                  "material": "store09 cream enamel",
+                  "lines": [
+                    {
+                      "text": "WASH & DRY",
+                      "material": "p02 laundry red",
+                      "size": 0.45539999999999997,
+                      "style": "store09:narrow"
+                    }
+                  ]
+                },
+                {
+                  "at": 0.5,
+                  "width": 1,
+                  "y": 3.29,
+                  "height": 0.48,
+                  "depth": 0.26,
+                  "material": "store09 green enamel",
+                  "lines": [
+                    {
+                      "text": "COSMOS DRY CLEANERS",
+                      "material": "store09 paper",
+                      "size": 0.24,
+                      "style": "store09:serif",
+                      "width": 0.94,
+                      "y": 0.07
+                    },
+                    {
+                      "text": "144 1st Ave   7 Days Drop Off Service",
+                      "style": "store09:condensed",
+                      "size": 0.092,
+                      "y": -0.125,
+                      "material": "store09 paper"
+                    }
+                  ]
+                }
+              ],
+              "detail09": {
+                "frame": "p02 silver frame",
+                "surround": "p02 silver frame",
+                "frameWidth": 0.042,
+                "pierWidth": 0.07,
+                "floor": 0.17,
+                "molding": false,
+                "displayDepth": 0.9,
+                "displays": [],
+                "furniture": [],
+                "id": "248142660:0:0",
+                "identity": "Separate WASH & DRY ivory/red fascia and green serif dry-cleaning sign, thin silver shop framing, brown base, narrow south leaf and freestanding sage ATM cabinet.",
+                "sourceIds": [
+                  "laundry-detail",
+                  "north-shops-april"
+                ],
+                "baseMaterial": "store09 brushed steel",
+                "doorMaterial": "p02 door brown",
+                "doorSolidTop": 0.7
+              },
+              "detailP02": {
+                "kind": "drycleaner"
+              }
+            }
+          }
+        ],
+        "signs": [],
+        "observedGround": {
+          "replaceWindows": false,
+          "replaceDoors": false
+        },
+        "observation": {
+          "sources": [
+            "north-oblique",
+            "laundry-detail",
+            "north-elevations-older"
+          ],
+          "facts": [
+            "North oblique confirms no through-alley between 138/140/142/144; contiguous party-wall edges, distinct projecting cornices and height steps. 148 is set back behind 144 by the mapped approximately half metre, white painted/stucco surface with brown roof-edge streaks, salmon window lintels and rust-salmon fire escapes. Two independent escape stair stacks. Geometry remains a shared corner mass; Ninth side belongs to later packet, not detailed here.",
+            "144 has two upper bays per row, narrow three-platform zigzag escape and richly bracketed dark cornice. 142 has three bays per row, wider three-platform escape with continuous platforms; tall plain dark projecting cornice. Narrow downpipe/cable visible at their junction. April northern shop/tree partly occluded, needs closer view.",
+            "142 COSMOS LAUNDERAMA: broad white fascia with large dimensional condensed red LAUNDERAMA, smaller red COSMOS and five stars left. Separate left/north brown residential single door below small pale rigid hood and 142 above. Wide shop silver glazing with low white railing, red vertical trim behind, recessed/open far-right glazed leaf; shallow folded gray metal canopy has DROP OFF SERVICE on right and small WASH DRY FOLD left. Interior washing-machine circles visible; white painted ground piers with low rectangular louver beside entry.",
+            "144: red WASH & DRY capitals across separate off-white top fascia; green COSMOS DRY CLEANERS lower sign with white serif words, 144 1st Ave and 7 Days Drop Off Service. Narrow single central-right/south leaf with broad left/north pane, silver lower panels; adjoining brown residential door at north edge. A bulky gray/sage ATM cabinet sits by southern drycleaner jamb. Upper facade has two bays per floor, red brick, plain dark lintels, bracketed cornice and separate narrow two-bay black zigzag fire escape. One foreground tree in square black guard stands in front of 142; M15 bus pole in front of 144.",
+            "Second ground panorama confirms 142 three bays, 144 two bays and 148 four bays on each of three upper floors. 144 top escape landing is only right/south bay wide, unlike the two full lower platforms. 148 northern top platform spans two bays while its southern top platform is one bay wide; staggered stairs and short drop ladders are individual features, not identical ladders on every building. Laundry machines seen through far-right 142 door. Truck obscures market center; do not claim this view resolves it."
+          ],
+          "unknown": [
+            "No survey/calibrated acceptance; mapped height and footprint, visual opening/relief dimensions.",
+            "Rear and roof equipment are unobserved. Ninth return is deferred and receives only the shared mass."
+          ]
+        },
+        "p02Face": {
+          "id": 248142660,
+          "escapeSpecs": [
+            {
+              "span": [
+                0.12,
+                0.88
+              ],
+              "levels": [
+                4.0,
+                6.88,
+                9.74
+              ],
+              "topSpan": [
+                0.59,
+                0.89
+              ],
+              "material": "p02 olive iron",
+              "flights": [
+                [
+                  0.2,
+                  0.72
+                ],
+                [
+                  0.2,
+                  0.72
+                ]
+              ]
+            }
+          ],
+          "masonryPitch": [
+            0.21,
+            0.067
+          ],
+          "sourceIds": [
+            "north-oblique",
+            "laundry-detail",
+            "north-elevations-older"
+          ]
+        }
+      }
+    },
+    {
+      "faceId": "248142713:0",
+      "buildingId": 248142713,
+      "frontageIndex": 0,
+      "address": "148 1st Avenue",
+      "sourceFace": {
+        "x": 15.502,
+        "z": 83.613,
+        "rx": 0.002822373186940047,
+        "rz": 0.999996017096865,
+        "length": 10.275,
+        "street": "First Avenue"
+      },
+      "buildingHeight": 13.36,
+      "architecture": {
+        "wall": "p02 aged cream stucco",
+        "windows": [
+          {
+            "at": 0.13,
+            "width": 0.09927007299270073,
+            "bottom": 4.05,
+            "height": 1.75,
+            "trim": "p02 salmon lintel",
+            "frame": "p02 silver frame",
+            "hood": "flat",
+            "surround": false,
+            "rails": [
+              0.48
+            ],
+            "ac": true
+          },
+          {
+            "at": 0.38,
+            "width": 0.09927007299270073,
+            "bottom": 4.05,
+            "height": 1.75,
+            "trim": "p02 salmon lintel",
+            "frame": "p02 silver frame",
+            "hood": "flat",
+            "surround": false,
+            "rails": [
+              0.48
+            ],
+            "ac": false
+          },
+          {
+            "at": 0.63,
+            "width": 0.09927007299270073,
+            "bottom": 4.05,
+            "height": 1.75,
+            "trim": "p02 salmon lintel",
+            "frame": "p02 silver frame",
+            "hood": "flat",
+            "surround": false,
+            "rails": [
+              0.48
+            ],
+            "ac": false
+          },
+          {
+            "at": 0.875,
+            "width": 0.09927007299270073,
+            "bottom": 4.05,
+            "height": 1.75,
+            "trim": "p02 salmon lintel",
+            "frame": "p02 silver frame",
+            "hood": "flat",
+            "surround": false,
+            "rails": [
+              0.48
+            ],
+            "ac": false
+          },
+          {
+            "at": 0.13,
+            "width": 0.09927007299270073,
+            "bottom": 6.97,
+            "height": 1.75,
+            "trim": "p02 salmon lintel",
+            "frame": "p02 silver frame",
+            "hood": "flat",
+            "surround": false,
+            "rails": [
+              0.48
+            ],
+            "ac": true
+          },
+          {
+            "at": 0.38,
+            "width": 0.09927007299270073,
+            "bottom": 6.97,
+            "height": 1.75,
+            "trim": "p02 salmon lintel",
+            "frame": "p02 silver frame",
+            "hood": "flat",
+            "surround": false,
+            "rails": [
+              0.48
+            ],
+            "ac": false
+          },
+          {
+            "at": 0.63,
+            "width": 0.09927007299270073,
+            "bottom": 6.97,
+            "height": 1.75,
+            "trim": "p02 salmon lintel",
+            "frame": "p02 silver frame",
+            "hood": "flat",
+            "surround": false,
+            "rails": [
+              0.48
+            ],
+            "ac": false
+          },
+          {
+            "at": 0.875,
+            "width": 0.09927007299270073,
+            "bottom": 6.97,
+            "height": 1.75,
+            "trim": "p02 salmon lintel",
+            "frame": "p02 silver frame",
+            "hood": "flat",
+            "surround": false,
+            "rails": [
+              0.48
+            ],
+            "ac": false
+          },
+          {
+            "at": 0.13,
+            "width": 0.09927007299270073,
+            "bottom": 9.9,
+            "height": 1.75,
+            "trim": "p02 salmon lintel",
+            "frame": "p02 silver frame",
+            "hood": "flat",
+            "surround": false,
+            "rails": [
+              0.48
+            ],
+            "ac": true
+          },
+          {
+            "at": 0.38,
+            "width": 0.09927007299270073,
+            "bottom": 9.9,
+            "height": 1.75,
+            "trim": "p02 salmon lintel",
+            "frame": "p02 silver frame",
+            "hood": "flat",
+            "surround": false,
+            "rails": [
+              0.48
+            ],
+            "ac": false
+          },
+          {
+            "at": 0.63,
+            "width": 0.09927007299270073,
+            "bottom": 9.9,
+            "height": 1.75,
+            "trim": "p02 salmon lintel",
+            "frame": "p02 silver frame",
+            "hood": "flat",
+            "surround": false,
+            "rails": [
+              0.48
+            ],
+            "ac": true
+          },
+          {
+            "at": 0.875,
+            "width": 0.09927007299270073,
+            "bottom": 9.9,
+            "height": 1.75,
+            "trim": "p02 salmon lintel",
+            "frame": "p02 silver frame",
+            "hood": "flat",
+            "surround": false,
+            "rails": [
+              0.48
+            ],
+            "ac": false
+          }
+        ],
+        "doors": [],
+        "returnShops": [
+          {
+            "name": "Lime Tree Market",
+            "span": [
+              0.008,
+              0.988
+            ],
+            "design": {
+              "top": 3.08,
+              "head": 2.89,
+              "base": 0.57,
+              "recess": 0.24,
+              "panels": [
+                [
+                  "glass",
+                  0.18
+                ],
+                [
+                  "glass",
+                  0.12
+                ],
+                [
+                  "door",
+                  0.105
+                ],
+                [
+                  "glass",
+                  0.185
+                ],
+                [
+                  "glass",
+                  0.2
+                ],
+                [
+                  "glass",
+                  0.21
+                ]
+              ],
+              "transom": false,
+              "signs": [],
+              "detail09": {
+                "frame": "p02 silver frame",
+                "surround": "p02 silver frame",
+                "frameWidth": 0.035,
+                "pierWidth": 0.025,
+                "floor": 0.17,
+                "molding": false,
+                "displayDepth": 1.95,
+                "displays": [
+                  {
+                    "kind": "bottles",
+                    "at": 0.71,
+                    "y": 0.88,
+                    "width": 0.29,
+                    "rows": 4,
+                    "count": 12,
+                    "rowStep": 0.34,
+                    "depth": -0.55,
+                    "colors": [
+                      "store09 paper",
+                      "store09 bottle green",
+                      "store09 orange enamel"
+                    ]
+                  },
+                  {
+                    "kind": "poster",
+                    "at": 0.22,
+                    "y": 1.55,
+                    "width": 0.06,
+                    "height": 0.58,
+                    "depth": 0.1,
+                    "text": "",
+                    "material": "store09 paper",
+                    "layout": "grid"
+                  },
+                  {
+                    "kind": "poster",
+                    "at": 0.52,
+                    "y": 1.55,
+                    "width": 0.06,
+                    "height": 0.58,
+                    "depth": 0.1,
+                    "text": "",
+                    "material": "store09 paper",
+                    "layout": "grid"
+                  },
+                  {
+                    "kind": "poster",
+                    "at": 0.77,
+                    "y": 1.55,
+                    "width": 0.06,
+                    "height": 0.58,
+                    "depth": 0.1,
+                    "text": "",
+                    "material": "store09 paper",
+                    "layout": "grid"
+                  }
+                ],
+                "furniture": [],
+                "id": "248142713:0:0",
+                "identity": "Broad burgundy cloth canopy over a projecting silver-glazed enclosure with red lower panels, unequal glass bays, north-of-center leaf, layered product/window notices and recessed cream upper mass.",
+                "sourceIds": [
+                  "north-shops-april",
+                  "148-upper-older"
+                ],
+                "baseMaterial": "p02 market red",
+                "doorMaterial": "p02 market red",
+                "doorSolidTop": 0.55
+              },
+              "detailP02": {
+                "kind": "market"
+              }
+            }
+          }
+        ],
+        "signs": [],
+        "observedGround": {
+          "replaceWindows": false,
+          "replaceDoors": false
+        },
+        "observation": {
+          "sources": [
+            "north-oblique",
+            "148-upper-older",
+            "north-shops-april",
+            "north-elevations-older",
+            "148-flight-reinspection"
+          ],
+          "facts": [
+            "North oblique confirms no through-alley between 138/140/142/144; contiguous party-wall edges, distinct projecting cornices and height steps. 148 is set back behind 144 by the mapped approximately half metre, white painted/stucco surface with brown roof-edge streaks, salmon window lintels and rust-salmon fire escapes. Two independent escape stair stacks. Geometry remains a shared corner mass; Ninth side belongs to later packet, not detailed here.",
+            "144 has two upper bays per row, narrow three-platform zigzag escape and richly bracketed dark cornice. 142 has three bays per row, wider three-platform escape with continuous platforms; tall plain dark projecting cornice. Narrow downpipe/cable visible at their junction. April northern shop/tree partly occluded, needs closer view.",
+            "Mapped 148/municipal 146 corner mass: three upper rows of four windows, broad pale cream stucco wall with strong brown drip streaks below parapet, salmon flat lintels and pale sills. Two separate salmon/rust escape stacks centered near second and fourth bays; northern stack two-window width, southern top landing narrower than its lower platforms. Flat parapet with small metal rail opening near center, no ornate cornice. Side wall is visible context but Ninth-facing architecture excluded from this packet.",
+            "Lime Tree Market wraps corner under large burgundy sloping fabric awning, white wide serif LIME TREE MARKET on First face, thin valance with small text. Red lower opaque panels and silver glazed frames. This is a 2024 elevation/depth reference, not evidence of October 2026 tenancy; April 2026 oblique must govern visible target ground features.",
+            "April 2026 Lime Tree First Avenue frontage retains burgundy sloped canopy and full-height silver framed transparent street enclosure with red lower rectangular infill panels. Canopy projects well beyond set-back upper wall; glass enclosure has several unequal bays, off-center door left/north of midpoint, posters on central panes, red ATM / DONT POST STICKERS text toward southern pane and vertical dark interior shelves. Central tree obscures exact center pane/door edges; September opposite oblique used for geometry only. No patio tables or chairs visible. Dense shelves/posters remain shallow interior cues, not inferred full interior.",
+            "144 sign reads COSMOS DRY CLEANERS (apostrophe-like printed mark between O and S in upper source); ATM 24/7 small cream box appended over right sign area; brown residential door left of silver-framed shop. 142 brown residence door has ribbed upper glass and lower plain panel, 142 gold on black above, brass intercom right. Square tree guard is low open pickets with corner finials; green M15 bus pole has circular blue bus disk and rectangular stacked signs; separate dark short utility box/pole with layered stickers beside tree north of bus pole.",
+            "Second ground panorama confirms 142 three bays, 144 two bays and 148 four bays on each of three upper floors. 144 top escape landing is only right/south bay wide, unlike the two full lower platforms. 148 northern top platform spans two bays while its southern top platform is one bay wide; staggered stairs and short drop ladders are individual features, not identical ladders on every building. Laundry machines seen through far-right 142 door. Truck obscures market center; do not claim this view resolves it.",
+            "Closer independent reinspection corrects the initial broad reading of the northern escape: its landings center on the SECOND window stack and extend into flanking masonry, not across both first and second windows. Northern stair flights descend toward the south/right through roughly 1.7 m horizontal run, not the whole platform width. First window stack remains free of platforms. Southern lower platforms span third/fourth bays; top landing is only fourth-bay wide, with flights descending north/left. Drop ladder under second stack. These observations supersede the coarse escape-span descriptions in earlier entries.",
+            "Stucco parapet contains a short recessed railing break; photographed stains are concentrated along upper edge and down a few strong vertical runs. Exact runoff pattern remains an authored approximation. No continuous ornate cornice."
+          ],
+          "unknown": [
+            "No survey/calibrated acceptance; mapped height and footprint, visual opening/relief dimensions.",
+            "Rear and roof equipment are unobserved. Ninth return is deferred and receives only the shared mass."
+          ]
+        },
+        "p02Face": {
+          "id": 248142713,
+          "escapeSpecs": [
+            {
+              "span": [
+                0.235,
+                0.565
+              ],
+              "levels": [
+                3.97,
+                6.87,
+                9.8
+              ],
+              "material": "p02 salmon iron",
+              "reverse": true,
+              "flights": [
+                [
+                  0.48,
+                  0.31
+                ],
+                [
+                  0.48,
+                  0.31
+                ]
+              ],
+              "dropAt": 0.455
+            },
+            {
+              "span": [
+                0.565,
+                0.985
+              ],
+              "levels": [
+                3.97,
+                6.87,
+                9.8
+              ],
+              "topSpan": [
+                0.795,
+                0.97
+              ],
+              "material": "p02 salmon iron",
+              "flights": [
+                [
+                  0.67,
+                  0.88
+                ],
+                [
+                  0.67,
+                  0.88
+                ]
+              ],
+              "dropAt": 0.73
+            }
+          ],
+          "masonryPitch": [
+            0.21,
+            0.067
+          ],
+          "sourceIds": [
+            "north-oblique",
+            "148-upper-older",
+            "north-shops-april",
+            "north-elevations-older",
+            "148-flight-reinspection"
+          ]
+        }
+      }
+    }
+  ],
+  "businesses": [
+    {
+      "id": "248142657:0:0",
+      "faceId": "248142657:0",
+      "name": "East Village Wines",
+      "span": [
+        0.02,
+        0.8
+      ],
+      "identity": "Folded ivory/red projecting sign above burgundy fascia; dark window, copper mesh panel, recessed south door, bottle poster and stacked cartons; separate cream residence grille.",
+      "sourceIds": [
+        "wines-detail",
+        "south-group"
+      ],
+      "targetCapture": "2026-04",
+      "component": "wines",
+      "reviewState": "authored; served-game review recorded separately",
+      "unknown": [
+        "Exact proprietary letterforms, graphic art and small illegible notices are approximate; no invented legible copy.",
+        "Movable objects reflect dated imagery, not a claim of unchanged October 2026 conditions.",
+        "Deep interiors and source-obscured fittings remain unverified."
+      ]
+    },
+    {
+      "id": "248142658:0:0",
+      "faceId": "248142658:0",
+      "name": "Area 140 First",
+      "span": [
+        0.24,
+        0.987
+      ],
+      "identity": "Olive BAR fabric shade, circular mathematical monogram, rainbow tube, drooping bulb string; solid vivid green south door and four gray folding chairs with red wire stool.",
+      "sourceIds": [
+        "bar-detail"
+      ],
+      "targetCapture": "2026-04",
+      "component": "bar",
+      "reviewState": "authored; served-game review recorded separately",
+      "unknown": [
+        "Exact proprietary letterforms, graphic art and small illegible notices are approximate; no invented legible copy.",
+        "Movable objects reflect dated imagery, not a claim of unchanged October 2026 conditions.",
+        "Deep interiors and source-obscured fittings remain unverified."
+      ]
+    },
+    {
+      "id": "248142659:0:0",
+      "faceId": "248142659:0",
+      "name": "Cosmos Launderama",
+      "span": [
+        0.265,
+        0.987
+      ],
+      "identity": "Raised red narrow LAUNDERAMA and small COSMOS/stars on white; folded gray metal canopy, silver windows with low white rail, separate brown 142 entrance and visible washer drums.",
+      "sourceIds": [
+        "laundry-detail"
+      ],
+      "targetCapture": "2026-04",
+      "component": "laundry",
+      "reviewState": "authored; served-game review recorded separately",
+      "unknown": [
+        "Exact proprietary letterforms, graphic art and small illegible notices are approximate; no invented legible copy.",
+        "Movable objects reflect dated imagery, not a claim of unchanged October 2026 conditions.",
+        "Deep interiors and source-obscured fittings remain unverified."
+      ]
+    },
+    {
+      "id": "248142660:0:0",
+      "faceId": "248142660:0",
+      "name": "Cosmos Dry Cleaners",
+      "span": [
+        0.27,
+        0.985
+      ],
+      "identity": "Separate WASH & DRY ivory/red fascia and green serif dry-cleaning sign, thin silver shop framing, brown base, narrow south leaf and freestanding sage ATM cabinet.",
+      "sourceIds": [
+        "laundry-detail",
+        "north-shops-april"
+      ],
+      "targetCapture": "2026-04",
+      "component": "drycleaner",
+      "reviewState": "authored; served-game review recorded separately",
+      "unknown": [
+        "Exact proprietary letterforms, graphic art and small illegible notices are approximate; no invented legible copy.",
+        "Movable objects reflect dated imagery, not a claim of unchanged October 2026 conditions.",
+        "Deep interiors and source-obscured fittings remain unverified."
+      ]
+    },
+    {
+      "id": "248142713:0:0",
+      "faceId": "248142713:0",
+      "name": "Lime Tree Market",
+      "span": [
+        0.008,
+        0.988
+      ],
+      "identity": "Broad burgundy cloth canopy over a projecting silver-glazed enclosure with red lower panels, unequal glass bays, north-of-center leaf, layered product/window notices and recessed cream upper mass.",
+      "sourceIds": [
+        "north-shops-april",
+        "148-upper-older"
+      ],
+      "targetCapture": "2026-04",
+      "component": "market",
+      "reviewState": "authored; served-game review recorded separately",
+      "unknown": [
+        "Exact proprietary letterforms, graphic art and small illegible notices are approximate; no invented legible copy.",
+        "Movable objects reflect dated imagery, not a claim of unchanged October 2026 conditions.",
+        "Deep interiors and source-obscured fittings remain unverified.",
+        "April tree occlusion leaves central exact pane proportions uncertain; two dated obliques support enclosure, not surveyed dimensions. Ninth shop return is deferred."
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "northId": 248142713,
+      "southId": 248142660,
+      "condition": "setback with short exposed return",
+      "mappedStreetOffsetMetres": 0.503,
+      "openAlleyObserved": false,
+      "sourceIds": [
+        "south-group",
+        "north-oblique"
+      ],
+      "reviewState": "pending served obliques",
+      "heightNorth": 13.36,
+      "heightSouth": 13.63
+    },
+    {
+      "northId": 248142660,
+      "southId": 248142659,
+      "condition": "touching party walls; separate cornices",
+      "mappedStreetOffsetMetres": -0.0,
+      "openAlleyObserved": false,
+      "sourceIds": [
+        "south-group",
+        "north-oblique"
+      ],
+      "reviewState": "pending served obliques",
+      "heightNorth": 13.63,
+      "heightSouth": 13.49
+    },
+    {
+      "northId": 248142659,
+      "southId": 248142658,
+      "condition": "touching party walls; separate cornices",
+      "mappedStreetOffsetMetres": -0.0,
+      "openAlleyObserved": false,
+      "sourceIds": [
+        "south-group",
+        "north-oblique"
+      ],
+      "reviewState": "pending served obliques",
+      "heightNorth": 13.49,
+      "heightSouth": 13.56
+    },
+    {
+      "northId": 248142658,
+      "southId": 248142657,
+      "condition": "touching party walls; separate cornices",
+      "mappedStreetOffsetMetres": -0.0,
+      "openAlleyObserved": false,
+      "sourceIds": [
+        "south-group",
+        "north-oblique"
+      ],
+      "reviewState": "pending served obliques",
+      "heightNorth": 13.56,
+      "heightSouth": 10.59
+    },
+    {
+      "northId": 248142657,
+      "southId": 248142711,
+      "condition": "touching party wall; low 138 exposes tall protected southern wall",
+      "openAlleyObserved": false,
+      "sourceIds": [
+        "south-group"
+      ],
+      "protectedNeighbor": true
+    }
+  ],
+  "targetCapture": "2026-04 with explicit 2024 architectural supplements",
+  "ownership": "Five First Avenue faces and their shared masses only. 148 Ninth return remains deferred; no invented generic side storefront.",
+  "sourceLedger": "model-source/east-village-p02/observations.json"
+}

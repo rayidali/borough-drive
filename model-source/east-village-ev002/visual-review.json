@@ -1,0 +1,202 @@
+{
+  "recorded": "2026-10-12T19:52:39.431410+00:00",
+  "status": "Complete: 27 paired views / 54 individual images inspected.",
+  "overview": [
+    {
+      "name": "corner-0.png",
+      "controlSha256": "14b9c6ad7b54cdaddfdec636d91fbe4bb03b5b43b74e633e54d4030aa6de4423",
+      "candidateSha256": "04cd8aa1ec0c8c19a9bf7bf2557d8292db83a09a7e1cc27b54c0e71d0afcb5d4",
+      "inspected": true,
+      "finding": "Matching facade/street silhouettes, materials, signs, access details and fixtures; no introduced missing geometry at seam or retained views."
+    },
+    {
+      "name": "seam-0.png",
+      "controlSha256": "e46ed7097994349d5e54e2e9893db2c54cb328a727352e84dcb93e2109337d87",
+      "candidateSha256": "c8ebb60df36fc45a7d8d62144aac2e466e53422ac8b59f0778c09f49c8ecffd0",
+      "inspected": true,
+      "finding": "Matching facade/street silhouettes, materials, signs, access details and fixtures; no introduced missing geometry at seam or retained views."
+    },
+    {
+      "name": "west-0.png",
+      "controlSha256": "54f0d0606c3568267ab64281db7584c1a3e8f00d2d62de982b9f73309b59bb0f",
+      "candidateSha256": "d53415e74470541d5c58172feac5d7d33c87d9c3703370e9f674f2fc5ff2cacb",
+      "inspected": true,
+      "finding": "Matching facade/street silhouettes, materials, signs, access details and fixtures; no introduced missing geometry at seam or retained views."
+    },
+    {
+      "name": "east-0.png",
+      "controlSha256": "4e25d653a2ba7077b5426a4f9d0c213f54cfa1626780505e3f722133e5809813",
+      "candidateSha256": "e0d1c9824d6746531486e880c88c4dbeddf9b100174b57b5289ef5c6a41cd72c",
+      "inspected": true,
+      "finding": "Matching facade/street silhouettes, materials, signs, access details and fixtures; no introduced missing geometry at seam or retained views."
+    },
+    {
+      "name": "corner-1.png",
+      "controlSha256": "b2d11dc6467b046f00badfe7225c1339f346a23d45cfb3cf1beee4d8ec699c60",
+      "candidateSha256": "19ceb49b1008ebb3b8e6a191575768f0cf3b70b96d5f6abaf2ecad1dd1c533e4",
+      "inspected": true,
+      "finding": "Matching facade/street silhouettes, materials, signs, access details and fixtures; no introduced missing geometry at seam or retained views."
+    },
+    {
+      "name": "seam-1.png",
+      "controlSha256": "68da16814e202f5e9a9d07e9d400d39c011909d8e7223776b54f07b0906e5e59",
+      "candidateSha256": "064718afe1ab6952d9f9231934f2e45e33a3622aeb3451c3e5d710e505b0f421",
+      "inspected": true,
+      "finding": "Matching facade/street silhouettes, materials, signs, access details and fixtures; no introduced missing geometry at seam or retained views."
+    },
+    {
+      "name": "west-1.png",
+      "controlSha256": "7ed4d6114ea4ee703f9f964d7d633d1cc2010ab8e6eacd9ab81e54180105d8ee",
+      "candidateSha256": "1e63b28568941eafce23c5b4f01fa3c9324532c198033d7fede11663b0248d81",
+      "inspected": true,
+      "finding": "Matching facade/street silhouettes, materials, signs, access details and fixtures; no introduced missing geometry at seam or retained views."
+    },
+    {
+      "name": "east-1.png",
+      "controlSha256": "012327de584eea0c28805d6b234e1cb499e3df1051e8707bb77254d728b758d6",
+      "candidateSha256": "dbbe338c628e4c313b39182a260cd74896fef8bdb63929e0e3157e131abc67ad",
+      "inspected": true,
+      "finding": "Matching facade/street silhouettes, materials, signs, access details and fixtures; no introduced missing geometry at seam or retained views."
+    },
+    {
+      "name": "corner-2.png",
+      "controlSha256": "cd45c45d8c8e38a08b6c502fdd61203f33a85be4e2e57f5b902d5314ab691d96",
+      "candidateSha256": "a03977c9b2714558ddc15eb2c1c75079a3e85fd0c864911f8e305b18053e925f",
+      "inspected": true,
+      "finding": "Matching facade/street silhouettes, materials, signs, access details and fixtures; no introduced missing geometry at seam or retained views."
+    },
+    {
+      "name": "seam-2.png",
+      "controlSha256": "79c3d203de0a3a9d9139caecc995c77e1cf4ef9596a63c18b900a7bda51f65c5",
+      "candidateSha256": "25525d2e55adae8502d4a3330abb2b9ce4cc7d3a124bf498f9ce560375807552",
+      "inspected": true,
+      "finding": "Matching facade/street silhouettes, materials, signs, access details and fixtures; no introduced missing geometry at seam or retained views."
+    },
+    {
+      "name": "west-2.png",
+      "controlSha256": "8faa6dc156ef0809236a26ef6c019f15f731dd082a87e7b883e5eea4eab6f64c",
+      "candidateSha256": "07d17572845f031eb4b663e49aa910d3490524fefc370405798d59df89485d83",
+      "inspected": true,
+      "finding": "Matching facade/street silhouettes, materials, signs, access details and fixtures; no introduced missing geometry at seam or retained views."
+    },
+    {
+      "name": "east-2.png",
+      "controlSha256": "a61182c344c28efc50ce3f6276fdb32b33092186fca77492782ff84a7f678fc1",
+      "candidateSha256": "ff9a0e8c9ada0d502fb3fd2e95193991871608b4ba8e223b8e373e0f5dae1f86",
+      "inspected": true,
+      "finding": "Matching facade/street silhouettes, materials, signs, access details and fixtures; no introduced missing geometry at seam or retained views."
+    }
+  ],
+  "limits": "Game-to-game preservation review; no new source photography, calibrated fidelity or pixel-exact match. Weather interpolation, moving rain/trees and shader time vary.",
+  "details": [
+    {
+      "name": "tilebar-0.png",
+      "controlSha256": "ac063d0fc98f893d15b8e3aea9b31c7d27bf3c80479e6109850720cff56ad15f",
+      "candidateSha256": "592cf1f828df90695ea5083c3c194c6999b00ffd69918defc536961497100fcc",
+      "inspected": true,
+      "finding": "Seventh-side stripe canopy, red mural wall, brick/AC/escape, mail/bin/grate placement match; separate entry view checks shopfront."
+    },
+    {
+      "name": "kinka-0.png",
+      "controlSha256": "0429f2a4b2c69aa45719cf89724dcf1ef34b52a56c860a5404cbb347ac95a248",
+      "candidateSha256": "59c75156545f7177b1e74a55d53beca4e2f4ea519a3de91e8944b5e491da8001",
+      "inspected": true,
+      "finding": "Blue sign/lettering, right basement shop and raised double-door entrance, rail spacing, depth and planting match."
+    },
+    {
+      "name": "stmarks83-0.png",
+      "controlSha256": "effdd4bd8ff92b77b4db9a40c5e90fa9d9fe89ddd37da903383d52cc7d393e82",
+      "candidateSha256": "57426956d3a42667388202990df87e93c7d9110f9feb9d64c82f11b19f63c4d2",
+      "inspected": true,
+      "finding": "Camino/Stromboli lettering, distinct fascia, shelves/bottles, stool geometry and central entry match."
+    },
+    {
+      "name": "first134-0.png",
+      "controlSha256": "93e129fb577153517388d7ffaef1537360f326a9a8b1cd0042b41c31308fe288",
+      "candidateSha256": "bbf3b9fde9378b108684d0f42ec71dfb2be594c3ebcb3da2eab1006cacfc4b7f",
+      "inspected": true,
+      "finding": "Striped scalloped canopy, transparent window layers, three seating groups, plant/barrel and neighbor display match."
+    },
+    {
+      "name": "tilebar-1.png",
+      "controlSha256": "5916017cb246cc51a3f9fdfb8e895b6f6e21fac280e22829056dc81ca09f1a5f",
+      "candidateSha256": "f9b03bdc9c6cdd91555c23c40ec116923c193f7dd9e5b2ce2b0e7200bcc80cd2",
+      "inspected": true,
+      "finding": "Seventh-side stripe canopy, red mural wall, brick/AC/escape, mail/bin/grate placement match; separate entry view checks shopfront."
+    },
+    {
+      "name": "kinka-1.png",
+      "controlSha256": "444b15965e46aa52168e7cd7db3ee8a2203253c34b949fb70026df3fb50c122f",
+      "candidateSha256": "a430519fee36fee272cbb8f3c0c70ce14ea610d8688b3356332a17241f403696",
+      "inspected": true,
+      "finding": "Blue sign/lettering, right basement shop and raised double-door entrance, rail spacing, depth and planting match."
+    },
+    {
+      "name": "stmarks83-1.png",
+      "controlSha256": "381ba56d1b584c614d88fd765571aed823976661165401e522acb7dbaf490d6c",
+      "candidateSha256": "aded0609e95234e16666667c8446d6749235bf1ceb0f1412eb766eb9358c8a8e",
+      "inspected": true,
+      "finding": "Camino/Stromboli lettering, distinct fascia, shelves/bottles, stool geometry and central entry match."
+    },
+    {
+      "name": "first134-1.png",
+      "controlSha256": "e2d30822104fe7d02897519413538996fb23210c0af94af7ff463d58f83c2f6e",
+      "candidateSha256": "cf41532817d49dd31965955f2f41e5625ec05c4831331cbca1cf0e57feafe192",
+      "inspected": true,
+      "finding": "Striped scalloped canopy, transparent window layers, three seating groups, plant/barrel and neighbor display match."
+    },
+    {
+      "name": "tilebar-2.png",
+      "controlSha256": "7ca3d55bd10c20609f76621c99375707a6c35980922318a612940cf6c4a3127d",
+      "candidateSha256": "de975f2b7bb7a469b1fa21e196bcc06875aad6554f6e35ef3b9d061a4b8a5ea6",
+      "inspected": true,
+      "finding": "Seventh-side stripe canopy, red mural wall, brick/AC/escape, mail/bin/grate placement match; separate entry view checks shopfront."
+    },
+    {
+      "name": "kinka-2.png",
+      "controlSha256": "84bac8bd91bed1c65f75cf5f919a001aebef29987368af5c8a58c2cb75c34ae2",
+      "candidateSha256": "78dca587d1e1c12219cb06689ef9bdd1cd678e548f4773be2d9249720dcdec67",
+      "inspected": true,
+      "finding": "Blue sign/lettering, right basement shop and raised double-door entrance, rail spacing, depth and planting match."
+    },
+    {
+      "name": "stmarks83-2.png",
+      "controlSha256": "f18e0cd809221453812831070c663d05cede1a14cfc3a40c5c35581372149a45",
+      "candidateSha256": "a9af1022cf5b5cd9a2c10a0ebff82948db58fa96568de0d8b2d3f45de864e2c4",
+      "inspected": true,
+      "finding": "Camino/Stromboli lettering, distinct fascia, shelves/bottles, stool geometry and central entry match."
+    },
+    {
+      "name": "first134-2.png",
+      "controlSha256": "cd181fd3a2c976ff24f65008d960de66d897b2a7701d283817cb758d11b4b783",
+      "candidateSha256": "42944d80b77ce103d9bd729d451f25c9f7b158cbadb8a809b5fd3081f28bb72e",
+      "inspected": true,
+      "finding": "Striped scalloped canopy, transparent window layers, three seating groups, plant/barrel and neighbor display match."
+    },
+    {
+      "name": "tilebar-entry-0.png",
+      "controlSha256": "a296007ed0dd1f89077c8bf9f7a7ebf26b3b21449fc8db906e1a3db20846de9d",
+      "candidateSha256": "046e6dad9d0910b4f441947e6141c6bde171fd2b3f50d57ee1ec50ac935def24",
+      "inspected": true,
+      "finding": "First Avenue entrance, 115 placement, striped canopy/lettering, tile patches, layered bottles/neon, plaques, board and planting match the unchanged control."
+    },
+    {
+      "name": "tilebar-entry-1.png",
+      "controlSha256": "8a15c2d7eb4718c371a6c1acb16686c3604cbba7ae7b689d0ff2acb68ae68b36",
+      "candidateSha256": "f2aa2be8594cdea0bf52bf9cf3c6537948701e2aaed8f10bdb8e85d0a1427b8a",
+      "inspected": true,
+      "finding": "First Avenue entrance, 115 placement, striped canopy/lettering, tile patches, layered bottles/neon, plaques, board and planting match the unchanged control."
+    },
+    {
+      "name": "tilebar-entry-2.png",
+      "controlSha256": "c46d01b9de996b3f55d4ee3a49a4b8ad0265d34d3a4b4c85b029492579e30de8",
+      "candidateSha256": "52e4c63503195bf321a26b3629b4a0d4bffea00da056cea9f357d5eaa9000e6b",
+      "inspected": true,
+      "finding": "First Avenue entrance, 115 placement, striped canopy/lettering, tile patches, layered bottles/neon, plaques, board and planting match the unchanged control."
+    }
+  ],
+  "passPreservationReview": true,
+  "candidatePck": "fa4d32a0ece9c56bdd4b67e2c94f11c2a01f5dce272bdb675313e8285928cffc",
+  "controlPck": "8da68329347228060231d47f46e80c9d6233b6afb0469fd43611bdc83204b1d0",
+  "notInspected": "The additional address/settings-run screenshots are retained as test evidence; they are not counted as source-to-game visual review."
+}

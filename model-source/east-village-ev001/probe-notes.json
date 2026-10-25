@@ -1,0 +1,16 @@
+{
+  "nativeResult": "final signatures pass for three nonempty imported scenes; all 203 dependency lists empty",
+  "importCacheMatch": {
+    "count": 203,
+    "allMatchReviewedPck": true
+  },
+  "initialAttempt": "Invalid comparison discarded: ArrayMesh.surface_get_lods is not a callable method; fixed probe reads stored _surfaces LOD records and rejects empty signatures.",
+  "finalDiagnostics": [
+    "Sandbox prevented Godot creating its unused user-data directory under Application Support.",
+    "OS certificate-store warning at native shutdown; no HTTP request made by probe."
+  ],
+  "limits": "Native headless read-only inspection; no current game execution, browser streaming or visual match claim.",
+  "projectSettingsPackMethods": [
+    "load_resource_pack"
+  ]
+}

@@ -1,0 +1,1239 @@
+{
+  "recorded": "2026-10-14T14:26:47.154Z",
+  "base": "http://127.0.0.1:5181",
+  "buildAt": "2026-10-14T05:01:04.528Z",
+  "pack": {
+    "bytes": 8031316,
+    "sha256": "143be91b9c79a859ff6de5ef3f4bb6bea718ab2573b1f8eef26a02c2d300588d",
+    "brotliBytes": 7409689
+  },
+  "routes": [
+    {
+      "route": "/",
+      "status": 200,
+      "bytes": 12517,
+      "sha256": "fd9a82d150d0d69702a15c6ebed25c14a1b053c9596a7aad3c8c432797420d30"
+    },
+    {
+      "route": "/seventh/",
+      "status": 200,
+      "bytes": 12517,
+      "sha256": "fd9a82d150d0d69702a15c6ebed25c14a1b053c9596a7aad3c8c432797420d30"
+    },
+    {
+      "route": "/index.html",
+      "status": 200,
+      "bytes": 11540,
+      "sha256": "ad8fa5a259fea000caa0a463ce636ce5004dad5641d4c9f324930acdaacbb908"
+    },
+    {
+      "route": "/seventh/index.pck",
+      "status": 200,
+      "bytes": 8031316,
+      "sha256": "143be91b9c79a859ff6de5ef3f4bb6bea718ab2573b1f8eef26a02c2d300588d"
+    }
+  ],
+  "assets": [
+    {
+      "name": "BARLOWCONDENSED-OFL.txt",
+      "status": 200,
+      "bytes": 4377
+    },
+    {
+      "name": "BEBASNEUE-OFL.txt",
+      "status": 200,
+      "bytes": 4337
+    },
+    {
+      "name": "DAMION-OFL.txt",
+      "status": 200,
+      "bytes": 4389
+    },
+    {
+      "name": "INTER-OFL.txt",
+      "status": 200,
+      "bytes": 4380
+    },
+    {
+      "name": "InterVariable.woff2",
+      "status": 200,
+      "bytes": 352240
+    },
+    {
+      "name": "LIBREBASKERVILLE-OFL.txt",
+      "status": 200,
+      "bytes": 4542
+    },
+    {
+      "name": "LICENSE.txt",
+      "status": 200,
+      "bytes": 1097
+    },
+    {
+      "name": "MONTSERRAT-OFL.txt",
+      "status": 200,
+      "bytes": 4400
+    },
+    {
+      "name": "areas/assets/00f896fce3de6f97a5ce9a82321ddeb263814c9eca33c022e971d91755595ae8.scn",
+      "status": 200,
+      "bytes": 104402
+    },
+    {
+      "name": "areas/assets/01f228b1873430c0146b05339e46b92590b1e50a126ea8a87b62a4a6b080d69d.scn",
+      "status": 200,
+      "bytes": 211026
+    },
+    {
+      "name": "areas/assets/023a92c93b30abd6679567688a25292410a8e8fa4d87f46baf2931e7e56d1265.scn",
+      "status": 200,
+      "bytes": 208331
+    },
+    {
+      "name": "areas/assets/040f884515a25604af213353c49a8b01bb759600e774e0af7edb4bfaf228c46e.scn",
+      "status": 200,
+      "bytes": 234340
+    },
+    {
+      "name": "areas/assets/04ab4f2422d569bb24de359e05e599d2ee5f0ba37de19e1ff031651fb18e105c.scn",
+      "status": 200,
+      "bytes": 221204
+    },
+    {
+      "name": "areas/assets/04c083cd811178c62f2f08c199485ea439aba993d5f9d3a5f6da876015c5435c.scn",
+      "status": 200,
+      "bytes": 1575126
+    },
+    {
+      "name": "areas/assets/04e97185ef5ace7cec4f9df35bff497460d00f53d46b7f1d5ae4c87544794462.scn",
+      "status": 200,
+      "bytes": 384484
+    },
+    {
+      "name": "areas/assets/080fa54f4c77ac78066065063542a01a3a9928c5c513ef00a6906657f41f7ac2.scn",
+      "status": 200,
+      "bytes": 180023
+    },
+    {
+      "name": "areas/assets/09e109b4665d90337044f87424ee23fab948163c2073a23681471d44848e3e80.scn",
+      "status": 200,
+      "bytes": 592332
+    },
+    {
+      "name": "areas/assets/0a640eeacdbd17917a457d8b8429e782042753501d260a69143730e5664b11f7.scn",
+      "status": 200,
+      "bytes": 245337
+    },
+    {
+      "name": "areas/assets/0a905dc3d317944941cfcd6611d8a16aab5be365819540f24af1a1daf6bc7a66.scn",
+      "status": 200,
+      "bytes": 561203
+    },
+    {
+      "name": "areas/assets/0b19a8dca941f02e1675ced26908559a6d22db9b2b888940bb7c96c1470c7f6b.scn",
+      "status": 200,
+      "bytes": 396553
+    },
+    {
+      "name": "areas/assets/0b5a73fc698931eb2df9205916822f2e8e277413f9c17cc814c33ae1defb7a29.scn",
+      "status": 200,
+      "bytes": 532558
+    },
+    {
+      "name": "areas/assets/0c784ff17aa66610f0d4da5d65c15693b19b3b1de608f4117f546451652b3940.scn",
+      "status": 200,
+      "bytes": 164880
+    },
+    {
+      "name": "areas/assets/0cf063ba342f1e63341146346dfb317b30f9f6471ec75c034479d530499dc70f.scn",
+      "status": 200,
+      "bytes": 91715
+    },
+    {
+      "name": "areas/assets/0fea636108e3e268a05b95585cc474a3fbe076c5f641f628c85530f64ca772e6.scn",
+      "status": 200,
+      "bytes": 142493
+    },
+    {
+      "name": "areas/assets/10a7c4f4b8e9915340bacb5e427a0f43e32f6e058c6a5c1bd92a604d290b3d8f.scn",
+      "status": 200,
+      "bytes": 469529
+    },
+    {
+      "name": "areas/assets/11497f1959f606fcfe345710c8d1b869998ee925cdea251eaf8534704b1b6246.scn",
+      "status": 200,
+      "bytes": 376508
+    },
+    {
+      "name": "areas/assets/1275d6b3861322a68109dc39328ac41c2b1df060663f52d7714b5bb30600a12d.scn",
+      "status": 200,
+      "bytes": 668701
+    },
+    {
+      "name": "areas/assets/13eb7c91b0e3f74c126f6eae8eb2dba9acb831b99d74bcf594ea9698bce5d3b7.scn",
+      "status": 200,
+      "bytes": 1358102
+    },
+    {
+      "name": "areas/assets/14db5c73c10b407954ab44bcc43d9be1dcb337b14a0558285a90fb26faded3cc.scn",
+      "status": 200,
+      "bytes": 180980
+    },
+    {
+      "name": "areas/assets/1664b6fa4de1053da2184a06e0353d84c061b226abb710a0b0f25a050b0fcc6d.scn",
+      "status": 200,
+      "bytes": 385612
+    },
+    {
+      "name": "areas/assets/16bda4cf1286dc6ad5f0150b36d3dde15c48faf2b775f9bb3c55651410a0ca57.scn",
+      "status": 200,
+      "bytes": 1835936
+    },
+    {
+      "name": "areas/assets/16c2c6f21b795f9c5afad48e376cffeacbb955082b7eeabf66f3cf6dcb165595.scn",
+      "status": 200,
+      "bytes": 458915
+    },
+    {
+      "name": "areas/assets/16e28f8ef02afe4dac0b8c7f02482f771c18b70c99da9c75faa4922ddc0d4e51.scn",
+      "status": 200,
+      "bytes": 428812
+    },
+    {
+      "name": "areas/assets/17abcb3448143434a2f55a6cb867c7e504576b5e5bf459e447007f768b634eff.scn",
+      "status": 200,
+      "bytes": 359329
+    },
+    {
+      "name": "areas/assets/1879637a10761da6b0771bf33ba492b1b89e29dfa84831cd7d174d3265c45837.scn",
+      "status": 200,
+      "bytes": 215271
+    },
+    {
+      "name": "areas/assets/1b68063af107e6243c6b935aacb5a3422e5d5db6c21ac819200d3e47cf626879.scn",
+      "status": 200,
+      "bytes": 347401
+    },
+    {
+      "name": "areas/assets/1bc6f3fb5a3bf9b74fc7ff1e911d581a968068f01f7bd5abfae03eee04190d73.scn",
+      "status": 200,
+      "bytes": 800595
+    },
+    {
+      "name": "areas/assets/1ccdbdd6c14a0eab9f6ffc8202952beef6e7b737d9d3fec4977bf6011ae66daf.scn",
+      "status": 200,
+      "bytes": 194343
+    },
+    {
+      "name": "areas/assets/1e023b6896d307d538c6f9e9a923137225eab6426933c13079383fd469bd0dc5.scn",
+      "status": 200,
+      "bytes": 340738
+    },
+    {
+      "name": "areas/assets/1fba3e6a396a6a4eb362a6323fd697473460ba63e57d45c1554dfc6f70d80ab2.scn",
+      "status": 200,
+      "bytes": 825596
+    },
+    {
+      "name": "areas/assets/204f96cec257835b285dd158619b2d53d27c175d9d2e36a418f58b5e39e0a6ec.scn",
+      "status": 200,
+      "bytes": 250726
+    },
+    {
+      "name": "areas/assets/207aa8e828ac1cd7d0c14e22249e7d5b21b00cfe14fcb5a62733e05a656dd656.scn",
+      "status": 200,
+      "bytes": 517664
+    },
+    {
+      "name": "areas/assets/2164e3df1b5ab8993f3f79e2483fdf7c69d78ddd139e9c88d10cc9d88bd0aaec.scn",
+      "status": 200,
+      "bytes": 453661
+    },
+    {
+      "name": "areas/assets/223090f7e0d4ea54ee30619b55f69616e4af92c566b9f155ad89e28d66eadf08.scn",
+      "status": 200,
+      "bytes": 117065
+    },
+    {
+      "name": "areas/assets/243ba692e3108a27d59aab247b52f3cbd68f0be407188cafd5ca6f9faa097c23.scn",
+      "status": 200,
+      "bytes": 115624
+    },
+    {
+      "name": "areas/assets/2602625ff2853fe3026f938ef05b513a83dfb60888d93116b435ac3b819bb5ab.scn",
+      "status": 200,
+      "bytes": 474107
+    },
+    {
+      "name": "areas/assets/264621f47ddd8c820f085f69df7e8accb9e9a05f15bf6317787f51d7ba75f394.scn",
+      "status": 200,
+      "bytes": 233340
+    },
+    {
+      "name": "areas/assets/2bb46705ee0636481977dde7c52b4ad4805bf22eb107ff14f73095f443c75a53.scn",
+      "status": 200,
+      "bytes": 319725
+    },
+    {
+      "name": "areas/assets/2bbe0c18dec474f283b27efaf22203a81967e4b3ec2981e0cac0c69e9fba737d.scn",
+      "status": 200,
+      "bytes": 196805
+    },
+    {
+      "name": "areas/assets/2c1db87335c9b38ee1908717c96ec3e15ebcc521a43b846d46ee34becc1b6d4f.scn",
+      "status": 200,
+      "bytes": 41771
+    },
+    {
+      "name": "areas/assets/2d40756b96783be6f6d11eecea4743fe5538f4dbb71e4433e3c2351262c00fdc.scn",
+      "status": 200,
+      "bytes": 274149
+    },
+    {
+      "name": "areas/assets/2e8ddb95f20f87242451ad6cc71261b7ef3e69812643c87d564cb518772e22fb.scn",
+      "status": 200,
+      "bytes": 189001
+    },
+    {
+      "name": "areas/assets/3005289e1abe330b92e643f7930671be901fd2504bc4bf18300f52fb324c2410.scn",
+      "status": 200,
+      "bytes": 597973
+    },
+    {
+      "name": "areas/assets/32d34a75c19e1236d7c0191d42a7156844fe8c1cafabebd7249bd5aa83f4efa1.scn",
+      "status": 200,
+      "bytes": 382052
+    },
+    {
+      "name": "areas/assets/33289dcde53b22b2d0bb605ff972f91de1500ddac484973d3378141e6ee70205.scn",
+      "status": 200,
+      "bytes": 3394017
+    },
+    {
+      "name": "areas/assets/33be3f58f172ce22df71662e02a5efcabdb6481a87b14bb4cdbeccb3e523fea0.scn",
+      "status": 200,
+      "bytes": 244097
+    },
+    {
+      "name": "areas/assets/3572bcfa1f6f1311aca35cdcbdf7607c60935013fa59fb1c86c1f7209d554134.scn",
+      "status": 200,
+      "bytes": 388948
+    },
+    {
+      "name": "areas/assets/35b769f3e70494ceab8eab1c88234aefc7b1c25afc5ae6ee898098c142341d3a.scn",
+      "status": 200,
+      "bytes": 134611
+    },
+    {
+      "name": "areas/assets/35f306463f2940e05e1b39f4b8843cfe42726a87ffb05dcaa4906ec9903586bb.scn",
+      "status": 200,
+      "bytes": 365943
+    },
+    {
+      "name": "areas/assets/37e9e54506dd70fb19eff0a4d549c70ef13320e799a4ae169abac28b0ad42b97.scn",
+      "status": 200,
+      "bytes": 467392
+    },
+    {
+      "name": "areas/assets/386dfc3f7a05a0c0aa562a2494c9bfbd25eee76fb8a44eb24839f3196f1d82cc.scn",
+      "status": 200,
+      "bytes": 497306
+    },
+    {
+      "name": "areas/assets/38cdb192ec8ee01a5cb2ccf124566426199503c5f5311a585a95029efcde6954.scn",
+      "status": 200,
+      "bytes": 90307
+    },
+    {
+      "name": "areas/assets/3940f68b8e7ef93790900761f57d5db15fc1b65ee37ff0db66db7bd9ef8609a9.scn",
+      "status": 200,
+      "bytes": 144274
+    },
+    {
+      "name": "areas/assets/394d837dfa8366cd023e0a9cb8bfbcc3bea2424ba27d1e93b997345cf66eb7f2.scn",
+      "status": 200,
+      "bytes": 623685
+    },
+    {
+      "name": "areas/assets/39b17c7f63cc3ecc0c87082edeb97e29db5c537d561e1156bd28b397dd0a3c07.scn",
+      "status": 200,
+      "bytes": 100594
+    },
+    {
+      "name": "areas/assets/3b1eec5ab2f64a254eb939b426b4fb29289277ea91cfa3772a9687b9356d59d2.scn",
+      "status": 200,
+      "bytes": 640421
+    },
+    {
+      "name": "areas/assets/3bf490fc4146536f5a603f45941fd6845559fd758084a2d2153786d0fec06ab2.scn",
+      "status": 200,
+      "bytes": 380575
+    },
+    {
+      "name": "areas/assets/3d20a15cc77e776418d22330be9c75a4d7f4d9db70d19bd48f9fafa58d66b7d2.scn",
+      "status": 200,
+      "bytes": 645312
+    },
+    {
+      "name": "areas/assets/3d28934cd27743d6143d2c3af9de05dd81640404d194ae210273100a3881d962.scn",
+      "status": 200,
+      "bytes": 1017393
+    },
+    {
+      "name": "areas/assets/3d6e55451aa8bbf2457414f84275d77663b69e729aec5a99664f463ef0760e83.scn",
+      "status": 200,
+      "bytes": 122394
+    },
+    {
+      "name": "areas/assets/4042090b1ddaf4b9de2c0336521685060f43068088373b4fe37557beac3d90bb.scn",
+      "status": 200,
+      "bytes": 845710
+    },
+    {
+      "name": "areas/assets/40ab8149f567cd54467c13191b37840d0bbba09a2a24a17dd5708408a39487e3.scn",
+      "status": 200,
+      "bytes": 648427
+    },
+    {
+      "name": "areas/assets/42a0b7f0bd6efbe8a11b3d0e38c49ef7a7e08a44bb3a38244176833c4dda4200.scn",
+      "status": 200,
+      "bytes": 290476
+    },
+    {
+      "name": "areas/assets/43c4f8cc2fd540ec3acbe5d10fec6e5188111cb63962b41d87aa92a0c4bd5873.scn",
+      "status": 200,
+      "bytes": 190323
+    },
+    {
+      "name": "areas/assets/44a7d3b6e69dceddfd1e59a37e4be9daadd880a91e3f5f679c45fbccb76acb20.scn",
+      "status": 200,
+      "bytes": 264240
+    },
+    {
+      "name": "areas/assets/45eb9948a31a8e8d5467134151db48cf5562960f0d63068d7ac77aee8485c4c2.scn",
+      "status": 200,
+      "bytes": 197315
+    },
+    {
+      "name": "areas/assets/46de63a7add8f9b2062f97da9a716f2f4228c2ee724ef417ef563643c00d5826.scn",
+      "status": 200,
+      "bytes": 341812
+    },
+    {
+      "name": "areas/assets/484657c5b12234d60bd070e952f124aef720fddc141384f74f30b7171427cd95.scn",
+      "status": 200,
+      "bytes": 231111
+    },
+    {
+      "name": "areas/assets/4b6b91887f82516eeb6cd3d99d0d4da4c71ae8520648743f99e2c9ac9fe5a8dc.scn",
+      "status": 200,
+      "bytes": 124641
+    },
+    {
+      "name": "areas/assets/4ba49da9e5d1b7e4dcc31546a01875df6ab41e514074d67d41b62fe0e8e7db37.scn",
+      "status": 200,
+      "bytes": 945545
+    },
+    {
+      "name": "areas/assets/4bb3ff5e9f93256861bda0fede8e1a4438c43f954f44ebd40cd6d5341d4e1ce3.scn",
+      "status": 200,
+      "bytes": 294135
+    },
+    {
+      "name": "areas/assets/4c26127cb272a4064c0575a6d03d0c07c5989a78e90c003bd4c8916a375801df.scn",
+      "status": 200,
+      "bytes": 134695
+    },
+    {
+      "name": "areas/assets/4c582029b98aaad943aeef9bab01d2e0b8c801c0b4eacb0bc9b6fe6f8e958591.scn",
+      "status": 200,
+      "bytes": 546554
+    },
+    {
+      "name": "areas/assets/4c60f5def01dade53f6c902f9abaa7f6ddb060ff8723547c16b774641aea0ec1.scn",
+      "status": 200,
+      "bytes": 563264
+    },
+    {
+      "name": "areas/assets/536aae284eb9e03e404798024ea7d493e68e431b248b4a9955ff6acba00eacbf.scn",
+      "status": 200,
+      "bytes": 440239
+    },
+    {
+      "name": "areas/assets/53b14fd27d63012ce70bdbfe72750ec83999b36d4ce530d92d989fdc1a239c62.scn",
+      "status": 200,
+      "bytes": 291211
+    },
+    {
+      "name": "areas/assets/54907e911d9bee446f1046a6d5ea85422be50048e5658234421237ec0a36b66b.scn",
+      "status": 200,
+      "bytes": 113856
+    },
+    {
+      "name": "areas/assets/5606014fa24d6cb18ec60b78c4fc09d6426b4caec0862e66f19c6f855cdcf632.scn",
+      "status": 200,
+      "bytes": 273097
+    },
+    {
+      "name": "areas/assets/569b0fadbf2d206e4d7009d2e286c07d8ee81d8b7ada2bdaeb204315c1d79a18.scn",
+      "status": 200,
+      "bytes": 4941
+    },
+    {
+      "name": "areas/assets/56fdd44126ca237d5fc934b7a6969ef55559aa15170706b280f410b27630c068.scn",
+      "status": 200,
+      "bytes": 267602
+    },
+    {
+      "name": "areas/assets/5a075b9caf3886b5ce8a689d2e255f631735ed4f51fc1d4be25540d7877c236b.scn",
+      "status": 200,
+      "bytes": 242606
+    },
+    {
+      "name": "areas/assets/5ac034246ea65d015cd6ca750e6fcf965b9ad0ee80523765dc6e2e92e30b72f7.scn",
+      "status": 200,
+      "bytes": 1461229
+    },
+    {
+      "name": "areas/assets/5aca2e17d79973d216bea29ea8a0cd69e973c1f3008e847957e4d09c1bf74356.scn",
+      "status": 200,
+      "bytes": 250833
+    },
+    {
+      "name": "areas/assets/5b343702294b24f740e09208b7741994c1e11d2a2f7b34fee371e4645e75bb9c.scn",
+      "status": 200,
+      "bytes": 146730
+    },
+    {
+      "name": "areas/assets/5d285b61f5e8fdbf445476719f7b0bbc8e01d29760cde1286f2603b13a1be491.scn",
+      "status": 200,
+      "bytes": 287934
+    },
+    {
+      "name": "areas/assets/5dedbd47cae377849ded5768f85a815115a7f549d53576d664636d5be522625c.scn",
+      "status": 200,
+      "bytes": 673765
+    },
+    {
+      "name": "areas/assets/5e39a1aa2c709b1ff70faac559a2d3c0665449075b2d00c3bf3503db7e744f57.scn",
+      "status": 200,
+      "bytes": 614085
+    },
+    {
+      "name": "areas/assets/5ea73f225e0a678f25474c973bbca903650ed7aa047cc8726614a13c0cc25e9d.scn",
+      "status": 200,
+      "bytes": 904382
+    },
+    {
+      "name": "areas/assets/6072c73f5e2a7d003d3145ec3f6837bf36406cf879468b798f93a65902cfb0f4.scn",
+      "status": 200,
+      "bytes": 266569
+    },
+    {
+      "name": "areas/assets/63aec09e70d0132f08b0cee0271f8dda0bb4ca9d3921ffb277269e1c04441bcb.scn",
+      "status": 200,
+      "bytes": 419828
+    },
+    {
+      "name": "areas/assets/679537f64d8bc820fa721aa91413787429de8efad42f373585528083f8f6662b.scn",
+      "status": 200,
+      "bytes": 123099
+    },
+    {
+      "name": "areas/assets/681e3a707ee6c62f2d7b4534f1867c41acb507df8ac76ac1bd69708cb26d0534.scn",
+      "status": 200,
+      "bytes": 701590
+    },
+    {
+      "name": "areas/assets/69461398ac563c56bdecf55c208d0d291c66a0f7f0997d71753e963ec50dccb2.scn",
+      "status": 200,
+      "bytes": 1297416
+    },
+    {
+      "name": "areas/assets/69898c9c08f0c5cecb3f91b6eef6ed930ccede2e2b1640ba5678079a1096b1b2.scn",
+      "status": 200,
+      "bytes": 291575
+    },
+    {
+      "name": "areas/assets/69daf4929bb961b237fbc72b947ab9174f3fd7e48c2e82eaec59848e7fb1d446.scn",
+      "status": 200,
+      "bytes": 244325
+    },
+    {
+      "name": "areas/assets/6b3ed63b29b6692c3e59278f04f9ae072a069004a3bc6d4efdb0ac4088356cc0.scn",
+      "status": 200,
+      "bytes": 122815
+    },
+    {
+      "name": "areas/assets/6c640d071d0062d51bc79c30bb1bf71384d30b271055c0d39c81f8889a1a9ee3.scn",
+      "status": 200,
+      "bytes": 465132
+    },
+    {
+      "name": "areas/assets/6d5634b85247d11f2a25c24163b8cdfdb4845b56389699fa9510d47d5be868d0.scn",
+      "status": 200,
+      "bytes": 1565302
+    },
+    {
+      "name": "areas/assets/6d767540495f59ef0be2bd65b30fd3f1d5b06460c4df4e7fe93e9ac6ee9eca86.scn",
+      "status": 200,
+      "bytes": 3166399
+    },
+    {
+      "name": "areas/assets/6d89f64e83af5ca8afb4cd7f0addd2585b9bd936497cc24faafd570f95686e07.scn",
+      "status": 200,
+      "bytes": 342531
+    },
+    {
+      "name": "areas/assets/6e37f04547150bb6819f30a8afbbb1f231e353d89cfcdac85adb949cb4bdc084.scn",
+      "status": 200,
+      "bytes": 605971
+    },
+    {
+      "name": "areas/assets/6edd56dde50f4372a0f089be9321b3feab312f688e0108b6c3607f554c3bf2fd.scn",
+      "status": 200,
+      "bytes": 1753381
+    },
+    {
+      "name": "areas/assets/703a94d6ef81d12155aa9c6ddb9c49269c52c7c36df172ac084a1882e5affa22.scn",
+      "status": 200,
+      "bytes": 2391045
+    },
+    {
+      "name": "areas/assets/717ffb645796684ab22cc4408b3a36a68e85a1162bd407383a5d4448b858e405.scn",
+      "status": 200,
+      "bytes": 141833
+    },
+    {
+      "name": "areas/assets/729a6b193d47d0f6d641d7471b10a48e18d3e2bf99a45f074841f1fc82354172.scn",
+      "status": 200,
+      "bytes": 459688
+    },
+    {
+      "name": "areas/assets/73e6afb996315f130e3a50c646e6aefc4fcb1c95d1cb46081265a6f721eeb26b.scn",
+      "status": 200,
+      "bytes": 2988511
+    },
+    {
+      "name": "areas/assets/74db2ee1ab1a8c26e2744597328181d943c196ad59154fe8d43b139f734c4c55.scn",
+      "status": 200,
+      "bytes": 1117983
+    },
+    {
+      "name": "areas/assets/756f8ca23cae74ea41644cdddb111311f89df619f3eaff6a2a501c20cb98e2f6.scn",
+      "status": 200,
+      "bytes": 981145
+    },
+    {
+      "name": "areas/assets/7579409f7afb6ba680f094caf878919b1c6921e3bd25bdfd7e3462a169d474f7.scn",
+      "status": 200,
+      "bytes": 1059687
+    },
+    {
+      "name": "areas/assets/75c479e594238e3714e1b6274e827272b57e81eb0b4421d1aeaf3585aa3fa8cf.scn",
+      "status": 200,
+      "bytes": 351675
+    },
+    {
+      "name": "areas/assets/764f0aa2bda5f48f920c4931ec6953ea62d1bc6ac60f27fec3d6bbbbd69e0246.scn",
+      "status": 200,
+      "bytes": 514267
+    },
+    {
+      "name": "areas/assets/771ffed57dc949ec33acbdbe20806e832c556602d80b33fdeda8f42cf51cc603.scn",
+      "status": 200,
+      "bytes": 264922
+    },
+    {
+      "name": "areas/assets/7897a4d1f6e33f1643accf702f9f6d2a3437173d6cda2f39de8f9375c9931ba6.scn",
+      "status": 200,
+      "bytes": 1856820
+    },
+    {
+      "name": "areas/assets/798ce20abc4c4f3bf7d1f8e3bde08c47c434df9e6304b0dab93d3843898be14e.scn",
+      "status": 200,
+      "bytes": 402123
+    },
+    {
+      "name": "areas/assets/7a9e75f136e1b4f3a5922805bba3e4e3d5cd96648da8de68b3725f12b727c46e.scn",
+      "status": 200,
+      "bytes": 378334
+    },
+    {
+      "name": "areas/assets/7b51de792be5c100101c7e676c3851d79471b364a6d2a6e7c226f2fc388e3ebf.scn",
+      "status": 200,
+      "bytes": 330362
+    },
+    {
+      "name": "areas/assets/7c1bdef832c1c6b5b91d54d52bf4597287bce982b193432558c3137761af83ff.scn",
+      "status": 200,
+      "bytes": 177223
+    },
+    {
+      "name": "areas/assets/7ce57d4a8fc16530d06be96860f4b50d5d7ba34dd676b9354bd8cf5bc5d90624.scn",
+      "status": 200,
+      "bytes": 418325
+    },
+    {
+      "name": "areas/assets/7ff193d841cfc5a905ce10b71a61589b58c005a794274f8e797af055ce10a3d5.scn",
+      "status": 200,
+      "bytes": 575298
+    },
+    {
+      "name": "areas/assets/8046e1f5cc32299e3cea1e22981d6de926553e7ceeeb63198c8c8c38aa67d368.scn",
+      "status": 200,
+      "bytes": 413322
+    },
+    {
+      "name": "areas/assets/806166511466897c07d6774c7c6c744bdf43ae01cb2081e564fc37d70018cf14.scn",
+      "status": 200,
+      "bytes": 1212221
+    },
+    {
+      "name": "areas/assets/80d3fd214cb31ccc277af8a5b8634cc4e47ab66b15b3792f02bd94951adf1155.scn",
+      "status": 200,
+      "bytes": 200889
+    },
+    {
+      "name": "areas/assets/836fd7adbaef7a5dd0b1da37a5bbd591a1fc20796c3de810c1efd52aeb5972c9.scn",
+      "status": 200,
+      "bytes": 450856
+    },
+    {
+      "name": "areas/assets/8490b40f80e9a536de6e8e7bcbe4c7e684135baa739140630f78ba194dfdc91c.scn",
+      "status": 200,
+      "bytes": 355702
+    },
+    {
+      "name": "areas/assets/85dc8ede648656d9420645130134d9c2c338f83494e8731277295c8bc90af893.scn",
+      "status": 200,
+      "bytes": 1293731
+    },
+    {
+      "name": "areas/assets/86ecc88036f4e79f1999432f6fd814f1c202893fe3b63ca71e611a1b1f4f694c.scn",
+      "status": 200,
+      "bytes": 202413
+    },
+    {
+      "name": "areas/assets/879b207fc5d378846eabd21145c9d3a43ca0cba1b86acb114759d6f9a6dce90a.scn",
+      "status": 200,
+      "bytes": 412220
+    },
+    {
+      "name": "areas/assets/8828d2a8757667dcffe170bef25b198f38f63fa313e3f44971f2f27bb2e6888a.scn",
+      "status": 200,
+      "bytes": 278485
+    },
+    {
+      "name": "areas/assets/88941b872cee3a35962bf11b62d8c71f9cee5ac38366836facec21b24103fc87.scn",
+      "status": 200,
+      "bytes": 323611
+    },
+    {
+      "name": "areas/assets/8d2f7ab806c55cd755852a1894c9ea61cf2f7a3a2723eac36468d36c814f588e.scn",
+      "status": 200,
+      "bytes": 134583
+    },
+    {
+      "name": "areas/assets/9026919b2d022f7a6baf958aff790e23d81ea5a3efe1eeeb275721f2c24cb0b0.scn",
+      "status": 200,
+      "bytes": 667606
+    },
+    {
+      "name": "areas/assets/91423dbf64f53e4db645cc037793390b7912977d4e32712da3cacb49969f6208.scn",
+      "status": 200,
+      "bytes": 184801
+    },
+    {
+      "name": "areas/assets/91789d0e4f01f465582c3c810b0e7cc6eee56d722ab49385d34694d77c691c56.scn",
+      "status": 200,
+      "bytes": 450897
+    },
+    {
+      "name": "areas/assets/9180ce98e072e5675dc73c9b830cf9bbaac05b01b2a5b5cd9471a8e9abff85d9.scn",
+      "status": 200,
+      "bytes": 772310
+    },
+    {
+      "name": "areas/assets/953f440ecef0f3fe93726608c0781b0e7e45db8c4adc0410d6682df903127712.scn",
+      "status": 200,
+      "bytes": 313965
+    },
+    {
+      "name": "areas/assets/95822ebbc92db4ed7d50e015da4a2e4aa233c482dbec6c142c16abf5e5831372.scn",
+      "status": 200,
+      "bytes": 199794
+    },
+    {
+      "name": "areas/assets/9657da693fe05cd817c5f6e2998cff8e9622880d6d5dff737d42790e82f166ad.scn",
+      "status": 200,
+      "bytes": 114166
+    },
+    {
+      "name": "areas/assets/96c4179d1d042a0634f57bf37e3c32dc11169b9e85458274ca555f0e17d989a5.scn",
+      "status": 200,
+      "bytes": 546505
+    },
+    {
+      "name": "areas/assets/976e82f1278bf35bb7dbcd7a572fdbc4bcb38d204b2c9610a74e932622ee0e3c.scn",
+      "status": 200,
+      "bytes": 628761
+    },
+    {
+      "name": "areas/assets/981fbc95c76b85d64bc90c3dc34964dae54fc54e67a4f21838dd8060d795fc9a.scn",
+      "status": 200,
+      "bytes": 439846
+    },
+    {
+      "name": "areas/assets/986ebb40b5fc67509bebc2e2fbe8ba51838c9966bf58e0ad37f89c8de57e033e.scn",
+      "status": 200,
+      "bytes": 5755304
+    },
+    {
+      "name": "areas/assets/98798df12dad613f6349b2659664ff8b624268dfc5a46f4136096b2a0548cec6.scn",
+      "status": 200,
+      "bytes": 242689
+    },
+    {
+      "name": "areas/assets/99139811c6f2d19fbf1df959d76b0debc28fadf1c01679c5187bdac54c8c6f93.scn",
+      "status": 200,
+      "bytes": 143102
+    },
+    {
+      "name": "areas/assets/9a582373379370395c83df641b5190d25d1d8162a41f7a3c89ec999bfa599578.scn",
+      "status": 200,
+      "bytes": 158666
+    },
+    {
+      "name": "areas/assets/9a9af1f227bb7bcb13ded42fa4da10b2ba9cdead8e42d0827b4efb117fe743ab.scn",
+      "status": 200,
+      "bytes": 228574
+    },
+    {
+      "name": "areas/assets/9ab93239712b8095262d8991f9081882d869756f0bfa612058bb5efd3fe4a8e2.scn",
+      "status": 200,
+      "bytes": 428241
+    },
+    {
+      "name": "areas/assets/9cb1183439a09c7543d306c82804fe802d0114a71a4318c716bdb52fa8d63391.scn",
+      "status": 200,
+      "bytes": 248895
+    },
+    {
+      "name": "areas/assets/9f3daf0295bd0cac0ee118dec1b415c6329bfb2568f610a0153c73cb2e03f2bf.scn",
+      "status": 200,
+      "bytes": 1323240
+    },
+    {
+      "name": "areas/assets/a01d212e194371ba066184133bee8479f91ea08256d1a9ccb5d73477ad3b830f.scn",
+      "status": 200,
+      "bytes": 645173
+    },
+    {
+      "name": "areas/assets/a0733ab20f53059c7c17f89803cbc4a59ba901fd359a3da1a38aa6c3ada8e52e.scn",
+      "status": 200,
+      "bytes": 687595
+    },
+    {
+      "name": "areas/assets/a1581762b3b751f05d75cc48d275e2f1658da21679e6f8e00c5373294c8c68c2.scn",
+      "status": 200,
+      "bytes": 551680
+    },
+    {
+      "name": "areas/assets/a1c30660b36beb557a67210ce6f59cb1f1e5f9ca75a93d5117022030a06e5e49.scn",
+      "status": 200,
+      "bytes": 257376
+    },
+    {
+      "name": "areas/assets/a225d10e4dafda994c87103b8b40f7a7f10c94688750f3c51c73c2680b9a322e.scn",
+      "status": 200,
+      "bytes": 3313
+    },
+    {
+      "name": "areas/assets/a30486774f24060bbbc4f42ddb73ff43f16f0957c04f572bad5c8d05c44e5731.scn",
+      "status": 200,
+      "bytes": 509306
+    },
+    {
+      "name": "areas/assets/a4efd9cdfda03aae094f59c3ceb0180e1c1365c33135ad58179dfeaf88aff4f4.scn",
+      "status": 200,
+      "bytes": 438836
+    },
+    {
+      "name": "areas/assets/a54e54670d3481b03d4e28b0ff57eab3663e756ac888574c049ce7a30edb53b1.scn",
+      "status": 200,
+      "bytes": 501047
+    },
+    {
+      "name": "areas/assets/a674fe1a3ff285589c2bceaea483a83f1d7ec106557d02270777a91f874143d4.scn",
+      "status": 200,
+      "bytes": 119931
+    },
+    {
+      "name": "areas/assets/a699c4e8570479ef06579049c507dad27078db72c035c7940e138806b8a31ced.scn",
+      "status": 200,
+      "bytes": 273535
+    },
+    {
+      "name": "areas/assets/a753e4dd2dd3ca19e4aaa6ade26a9bfee892d884401a84a9f41f54fc1aac2020.scn",
+      "status": 200,
+      "bytes": 236973
+    },
+    {
+      "name": "areas/assets/aac307471aae852ae26270ef23a14628e108dce7ade7e60e2f80a0d3c64d80bf.scn",
+      "status": 200,
+      "bytes": 265030
+    },
+    {
+      "name": "areas/assets/abe0dc926516cb6b3efb0beabf25b54576ac1487801d899c9353bcb2572f092b.scn",
+      "status": 200,
+      "bytes": 1902800
+    },
+    {
+      "name": "areas/assets/ac252f7dbcc5f62fc765b1025d8af87050a394cd44dd85f0e6bcad9764d49015.scn",
+      "status": 200,
+      "bytes": 2749219
+    },
+    {
+      "name": "areas/assets/ad577a3901b6f75b856362aae26a8025f221eee31158346b6eefc8599cce4e94.scn",
+      "status": 200,
+      "bytes": 117159
+    },
+    {
+      "name": "areas/assets/ae3b5d9d41e01bcbe91a00ecf3550d35e3f6c8773ef53e58a3aaac001cf5284a.scn",
+      "status": 200,
+      "bytes": 250499
+    },
+    {
+      "name": "areas/assets/af9f5c03743e9448c5abc1ddeb8365d8c7db6bf9fc46867f793eaf365f82fc2e.scn",
+      "status": 200,
+      "bytes": 176873
+    },
+    {
+      "name": "areas/assets/b00a80c8cf08c2a3160d32ff39b156bfedce4cf006b711aeaa78bd39c33c78e8.scn",
+      "status": 200,
+      "bytes": 413466
+    },
+    {
+      "name": "areas/assets/b01bdfc6ffd0852404dae2b1ba1478fc07e5d08106d05abd9351de2bc96549aa.scn",
+      "status": 200,
+      "bytes": 152533
+    },
+    {
+      "name": "areas/assets/b0d34fd876eec9b58f4dc953754ae5081fa5b87b647be8bbbd10bae6482e3a6c.scn",
+      "status": 200,
+      "bytes": 59339
+    },
+    {
+      "name": "areas/assets/b41b93e98be5688a64fdfc8d85c824980eeba84fad53fb4fd25e683d35ef5800.scn",
+      "status": 200,
+      "bytes": 218606
+    },
+    {
+      "name": "areas/assets/b95b398d7fac67d64eb593518223cc234c61dd1ed684a2f5ce85d4a870eadc97.scn",
+      "status": 200,
+      "bytes": 257746
+    },
+    {
+      "name": "areas/assets/ba8ef825ae6e1db9f214b8fb529ca6cfafb68558bec4cae4d21d08e8f7ee2d36.scn",
+      "status": 200,
+      "bytes": 394319
+    },
+    {
+      "name": "areas/assets/bafd694a8a6d8fcd93c3833a5d02655ae0121e1320ddb72238734a93532f7727.scn",
+      "status": 200,
+      "bytes": 113136
+    },
+    {
+      "name": "areas/assets/bbc139d0ad1de1faf9311daba8cdd938bd3c1842226bbd11b40d4b12dc7a52b9.scn",
+      "status": 200,
+      "bytes": 168712
+    },
+    {
+      "name": "areas/assets/bd5b1ef710aaa4c132ef6009fead3880f93dfd8990b65d1eb40c02cad260237a.scn",
+      "status": 200,
+      "bytes": 190335
+    },
+    {
+      "name": "areas/assets/c0cde5872f25ebe9e4e4472dcb86be33ac5c1dc1fb51f158b66f0d74d049f7ec.scn",
+      "status": 200,
+      "bytes": 276490
+    },
+    {
+      "name": "areas/assets/c5a23e430f7dd064d1b0a18d2e64ce326174087284f22a87779b552ae8e35ba0.scn",
+      "status": 200,
+      "bytes": 214441
+    },
+    {
+      "name": "areas/assets/c65bc1cc1e252d7faecb089d1fc0f4a34f2421ffc71acc76537d85a5dfc988da.scn",
+      "status": 200,
+      "bytes": 740826
+    },
+    {
+      "name": "areas/assets/c7ab0a6307cae27a54a5f86b391c5b42f2d48490ddae9a23de64988c845b4b9f.scn",
+      "status": 200,
+      "bytes": 323725
+    },
+    {
+      "name": "areas/assets/c7dd064cd627283167ced8d5a4a1c74d224bb771d8f41bde841d129be7622331.scn",
+      "status": 200,
+      "bytes": 678525
+    },
+    {
+      "name": "areas/assets/c8028866102f17deba66743bfd6d5c37b50bcf5391802fd7a0fce44d64eb2c92.scn",
+      "status": 200,
+      "bytes": 692145
+    },
+    {
+      "name": "areas/assets/c8d4409352505bc89e08cd372796d25a1908f6f18075c56cecdfff091ee184be.scn",
+      "status": 200,
+      "bytes": 243654
+    },
+    {
+      "name": "areas/assets/c9a53d174cf0cbc91dd46abf0edd69b9d97f9e3286724744bff4c1097f63f774.scn",
+      "status": 200,
+      "bytes": 581889
+    },
+    {
+      "name": "areas/assets/cbb10a18b88d8175eec6edca1256a50e61e288c3eaa04eb6e7de3c185e1bf5eb.scn",
+      "status": 200,
+      "bytes": 878924
+    },
+    {
+      "name": "areas/assets/cc332877d1130ccb5dad5d0275f59d7ce79d96355fc61bf69d6731bd255a8e32.scn",
+      "status": 200,
+      "bytes": 447995
+    },
+    {
+      "name": "areas/assets/cc5d2b7c3bb3f75369d02a82a5b671a055c9a1f77359351af7bd853f5a906338.scn",
+      "status": 200,
+      "bytes": 332600
+    },
+    {
+      "name": "areas/assets/ce3f4b0233b6cd8716664efd000b228e1373ec20a035394a98563b1a511bbdba.scn",
+      "status": 200,
+      "bytes": 327918
+    },
+    {
+      "name": "areas/assets/d0c3819a7deb467cf2c92a80107fa243c9d481865b19bbeb3926981926dcf2c3.scn",
+      "status": 200,
+      "bytes": 579037
+    },
+    {
+      "name": "areas/assets/d1ef1046da73527d64b18331b70cc0fe2fad882bb26d383cbe5dff1e1ebbbcbd.scn",
+      "status": 200,
+      "bytes": 253707
+    },
+    {
+      "name": "areas/assets/d4163d88c3b06c7292465d08c43c25df8bffa016de6fbf9686d4b09688400828.scn",
+      "status": 200,
+      "bytes": 561844
+    },
+    {
+      "name": "areas/assets/d49f1773c5621f56aa698456ef646973bd6d3a16d466d71fd36d28e58b04348f.scn",
+      "status": 200,
+      "bytes": 406877
+    },
+    {
+      "name": "areas/assets/d4ffc93338aec8255214f508ee4d8e6af66e0631698160291927f224c8d74886.scn",
+      "status": 200,
+      "bytes": 521345
+    },
+    {
+      "name": "areas/assets/d5777936507b6e428a8d7556751d8852850e828687c0d14b481441ff84029ee8.scn",
+      "status": 200,
+      "bytes": 1028522
+    },
+    {
+      "name": "areas/assets/d711dd4dc9d9f8c205ea006a649dbfe3b3185f0ac27428d5bee612a9d65f6c18.scn",
+      "status": 200,
+      "bytes": 207776
+    },
+    {
+      "name": "areas/assets/d7669b1ab0b32f8c81ee7c614ea7d14ad4324a12096e2a11b31c28cc643570fd.scn",
+      "status": 200,
+      "bytes": 86760
+    },
+    {
+      "name": "areas/assets/d941122ae86e943544417d6ac8b424629a305f5b8b8fcd696291d67a50b866f2.scn",
+      "status": 200,
+      "bytes": 1028421
+    },
+    {
+      "name": "areas/assets/da3fa21efcd5479fde99afadd32167cc70c121144f29e12c3f2b85bc93529986.scn",
+      "status": 200,
+      "bytes": 555193
+    },
+    {
+      "name": "areas/assets/dae09b72060ba1f6e61543e94d78fe7b0a14567da4ffc9d26cb946fbb14f4340.scn",
+      "status": 200,
+      "bytes": 511542
+    },
+    {
+      "name": "areas/assets/dc4385fec8c8e4f5a711ce6a18fd6203851ed3007810fff359b4e5fc93502a94.scn",
+      "status": 200,
+      "bytes": 750722
+    },
+    {
+      "name": "areas/assets/ddf36ee0ad22b239edea97052b531c1e35faf85fdfbef24fd2840b4638764cba.scn",
+      "status": 200,
+      "bytes": 567769
+    },
+    {
+      "name": "areas/assets/de6061ecc19e3e9fae015d81c7423ccfebcd605792c0ed4081a2828ad5c853df.scn",
+      "status": 200,
+      "bytes": 73443
+    },
+    {
+      "name": "areas/assets/df77faacedd1923af3130131caa5ce8bf5ca3e17356b60f216f9564242a6473a.scn",
+      "status": 200,
+      "bytes": 126441
+    },
+    {
+      "name": "areas/assets/e0c0b14426316991535586872aae230c476381aa9c268d014f62388068da968b.scn",
+      "status": 200,
+      "bytes": 213034
+    },
+    {
+      "name": "areas/assets/e3890dbb2e4f7ae91c347de2383ed66c4721496892808166577a5ea423785fa5.scn",
+      "status": 200,
+      "bytes": 221426
+    },
+    {
+      "name": "areas/assets/e64d9de72e127f31228bd22545c326e6626edd2b342b81ceabb25fab0b649632.scn",
+      "status": 200,
+      "bytes": 246311
+    },
+    {
+      "name": "areas/assets/e79ad357554618aae2ffb95e963e82ae115a6f554f07754c67cccea353fd7ca2.scn",
+      "status": 200,
+      "bytes": 334328
+    },
+    {
+      "name": "areas/assets/e8ef2c3f480ec01894a279dafc994e973536fbdc7b7e42615ad63edef894c75e.scn",
+      "status": 200,
+      "bytes": 93182
+    },
+    {
+      "name": "areas/assets/ec72c39811477094c04c8ca411ad32d64081af3a9875550be4dd064e6ffc4ff6.scn",
+      "status": 200,
+      "bytes": 785028
+    },
+    {
+      "name": "areas/assets/ecd7da7121d468cbf24643d69494919a2546ac3a34396ad11a9321f0353f3d5c.scn",
+      "status": 200,
+      "bytes": 496855
+    },
+    {
+      "name": "areas/assets/ed463b04ade22b7901408ee7e909bbf0d4fa54c19d0b63bdb64fcf3191011d32.scn",
+      "status": 200,
+      "bytes": 394138
+    },
+    {
+      "name": "areas/assets/ee243aa9ff502f2c0b6c2417a6b7cf07280eca954fbf4bea4d17fde5f24340ec.scn",
+      "status": 200,
+      "bytes": 365271
+    },
+    {
+      "name": "areas/assets/f2e95977acf9aa8407f96f7163da20d3724da9acfb76a50717009d4e80996371.scn",
+      "status": 200,
+      "bytes": 493266
+    },
+    {
+      "name": "areas/assets/f4c5928eed604e2083ebde5f0fc482db3bcc7c3c266878ae455a767546ae2735.scn",
+      "status": 200,
+      "bytes": 412097
+    },
+    {
+      "name": "areas/assets/f84ea82af1bea4b8a19e124e45ecb9d15b9c1d37060bc03048b41997cfcd37d4.scn",
+      "status": 200,
+      "bytes": 813322
+    },
+    {
+      "name": "areas/assets/fa3e3e4d8cd180d2303e5967dae498e62690826b190e48b4c31378ece86d4f53.scn",
+      "status": 200,
+      "bytes": 552588
+    },
+    {
+      "name": "areas/assets/fab81be735dae2f247c03207f460e39f131c380c07b230704db879c4e1be2573.scn",
+      "status": 200,
+      "bytes": 325988
+    },
+    {
+      "name": "areas/assets/fc566d218ff0b31be527c4609dd547929583029be7857471f81a64bd9739ddbb.scn",
+      "status": 200,
+      "bytes": 457259
+    },
+    {
+      "name": "areas/assets/fcba34fc2c9f95c433302d414613c68559d80ba3b8685bc47c88484b25ab81fe.scn",
+      "status": 200,
+      "bytes": 436885
+    },
+    {
+      "name": "areas/assets/fceaf6cb0fb95ef25b6a4dd98cf365fdb3cd730f556b1de0051d614ea7dcde41.scn",
+      "status": 200,
+      "bytes": 143790
+    },
+    {
+      "name": "areas/assets/fe7c733831cc880cc54ff8982bfc550380234690042598941257099960a290c2.scn",
+      "status": 200,
+      "bytes": 360940
+    },
+    {
+      "name": "areas/manifest-6b9ddf4e44a817e45e0320f9c5c0cab4e26f77454f06cd3e97dc1949dca57fda.json",
+      "status": 200,
+      "bytes": 116134
+    },
+    {
+      "name": "credits.txt",
+      "status": 200,
+      "bytes": 4576
+    },
+    {
+      "name": "drivearound-logo.png",
+      "status": 200,
+      "bytes": 80463
+    },
+    {
+      "name": "godot-notices.txt",
+      "status": 200,
+      "bytes": 87732
+    },
+    {
+      "name": "index.audio.position.worklet.js",
+      "status": 200,
+      "bytes": 2973
+    },
+    {
+      "name": "index.audio.worklet.js",
+      "status": 200,
+      "bytes": 7298
+    },
+    {
+      "name": "index.html",
+      "status": 200,
+      "bytes": 12517
+    },
+    {
+      "name": "index.js",
+      "status": 200,
+      "bytes": 279815
+    },
+    {
+      "name": "index.pck",
+      "status": 200,
+      "bytes": 8031316
+    },
+    {
+      "name": "index.png",
+      "status": 200,
+      "bytes": 21443
+    },
+    {
+      "name": "index.wasm",
+      "status": 200,
+      "bytes": 39514754
+    }
+  ],
+  "productionChecked": false
+}

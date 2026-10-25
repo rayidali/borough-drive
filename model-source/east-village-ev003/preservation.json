@@ -1,0 +1,53 @@
+{
+  "status": "passed",
+  "baseline": "baseline.json",
+  "pack": {
+    "bytes": 7982220,
+    "sha256": "aee35948c9ea850031aa959d2cc561d40cccef819680cf5935943c57660b33da",
+    "brotliBytes": 7386163
+  },
+  "runtimeFiles": 222,
+  "sourceHashes": 114,
+  "unchangedAuthoredModels": 203,
+  "unchangedCompiledScenes": 203,
+  "unchangedAreaManifest": true,
+  "unchangedOtherTrackedNonMarkdownFiles": 2373,
+  "changedTrackedNonMarkdownFiles": [
+    "dist/seventh/build.json",
+    "dist/seventh/index.html",
+    "dist/seventh/index.pck",
+    "engine/first-seventh/scripts/cameras.gd",
+    "engine/first-seventh/scripts/main.gd",
+    "engine/first-seventh/web/shell.html",
+    "scripts/export-seventh.mjs",
+    "scripts/review-seventh-camera.mjs",
+    "scripts/serve.mjs",
+    "scripts/verify-seventh.mjs",
+    "vercel.json"
+  ],
+  "protectedInventoryUnchanged": [
+    "model-source/east-village-ev000/roads.geojson",
+    "model-source/east-village-ev000/units.csv",
+    "model-source/east-village-ev000/summary.json",
+    "model-source/east-village-ev000/next-packets.json",
+    "model-source/east-village-ev000/preservation.json",
+    "model-source/east-village-ev000/roads.csv",
+    "model-source/east-village-ev000/inventory-map.png",
+    "model-source/east-village-ev000/exceptions.json",
+    "model-source/east-village-ev000/boundary-spec.json",
+    "model-source/east-village-ev000/validation.json",
+    "model-source/east-village-ev000/lots.csv",
+    "model-source/east-village-ev000/plan-input.json",
+    "model-source/east-village-ev000/boundary-joins.json",
+    "model-source/east-village-ev000/sites.csv",
+    "model-source/east-village-ev000/buildings.csv",
+    "model-source/east-village-ev000/boundary.geojson",
+    "model-source/east-village-ev000/documentation-validation.json",
+    "model-source/east-village-ev000/intersections.csv",
+    "model-source/east-village-ev000/protected.json",
+    "model-source/east-village-ev000/phases.geojson"
+  ],
+  "privateScreenshotsUnchangedAndUntracked": true,
+  "distIndexAbsent": true,
+  "limits": "Untracked runtime sources are verified through build.sources; prior roadmap files remain local and are not newly committed by this audit."
+}

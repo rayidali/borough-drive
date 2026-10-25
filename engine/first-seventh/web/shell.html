@@ -20,7 +20,7 @@
     html,body{margin:0;width:100%;height:100%;overflow:hidden;background:var(--bg);color:var(--ink);font-family:Inter,system-ui,sans-serif;-webkit-font-smoothing:antialiased}
     button,a{-webkit-tap-highlight-color:transparent}
     button{font:inherit}
-    #canvas{display:block;outline:none;touch-action:none}
+    #canvas{display:block;outline:none;touch-action:none;position:absolute}
     #loading{position:fixed;inset:0;z-index:5;display:flex;flex-direction:column;background:radial-gradient(ellipse at 75% 55%,#31413b65,transparent 65%),var(--bg);transition:opacity .35s}
     #loading[hidden]{display:none}
     .masthead{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:28px 32px}
@@ -72,6 +72,7 @@
   <script src="$GODOT_URL"></script>
   <script>
     const config = $GODOT_CONFIG;
+    const packRelease = /* BOROUGH_PACK_RELEASE */ null;
     const threaded = $GODOT_THREADS_ENABLED;
     const loading = document.getElementById('loading');
     const status = document.getElementById('status');
@@ -81,11 +82,22 @@
     // Render at CSS-pixel resolution on Retina too; retain a responsive canvas
     // without silently multiplying the GPU workload by four.
     function fitCanvas() {
-      canvas.width = Math.max(1, innerWidth);
-      canvas.height = Math.max(1, innerHeight);
-      canvas.style.width = innerWidth + 'px';
-      canvas.style.height = innerHeight + 'px';
+      if (window.seventhRequestResize) {
+        // Keep the old projection until its newly exposed surroundings exist.
+        // Preserve aspect rather than stretching the last complete view.
+        const scale = Math.min(innerWidth / canvas.width, innerHeight / canvas.height);
+        const width = canvas.width * scale, height = canvas.height * scale;
+        canvas.style.width = width + 'px'; canvas.style.height = height + 'px';
+        canvas.style.left = (innerWidth - width) / 2 + 'px';
+        canvas.style.top = (innerHeight - height) / 2 + 'px';
+        window.seventhRequestResize();
+      } else window.seventhApplyResize();
     }
+    window.seventhApplyResize = () => {
+      canvas.width = Math.max(1, innerWidth); canvas.height = Math.max(1, innerHeight);
+      canvas.style.width = innerWidth + 'px'; canvas.style.height = innerHeight + 'px';
+      canvas.style.left = '0px'; canvas.style.top = '0px';
+    };
     fitCanvas();
     window.addEventListener('resize', fitCanvas);
     window.boroughReview = new URLSearchParams(location.search).get('review') === '1';
@@ -127,6 +139,32 @@
       setTimeout(() => { if (!failed) loading.hidden = true; }, 650);
       canvas.focus();
     }
+    async function verifiedPack() {
+      if (!packRelease) throw new Error('Missing package identity.');
+      const response = await fetch(config.executable + '.pck', {cache: 'no-cache'});
+      if (!response.ok) throw new Error('The neighborhood package is unavailable.');
+      const reader = response.body.getReader(), chunks = [];
+      let length = 0;
+      while (true) {
+        const {done, value} = await reader.read();
+        if (done) break;
+        length += value.length;
+        if (length > packRelease.bytes) {
+          await reader.cancel();
+          throw new Error('The neighborhood was updated. Reload to open the latest version.');
+        }
+        chunks.push(value); keepLoading();
+      }
+      const bytes = new Uint8Array(length);
+      let offset = 0;
+      for (const chunk of chunks) { bytes.set(chunk, offset); offset += chunk.length; }
+      const hash = Array.from(new Uint8Array(await crypto.subtle.digest('SHA-256', bytes)), b => b.toString(16).padStart(2, '0')).join('');
+      if (length !== packRelease.bytes || hash !== packRelease.sha256) {
+        throw new Error('The neighborhood was updated. Reload to open the latest version.');
+      }
+      window.seventhPinnedPack = hash;
+      return bytes;
+    }
     if (typeof Engine === 'undefined') {
       failure(new Error('The engine download did not finish.'));
     } else {
@@ -135,8 +173,7 @@
         failure(new Error(missing.join(', ')));
         status.textContent = 'This game needs WebGL 2 and WebAssembly. Try a current desktop browser with hardware acceleration enabled.';
       } else {
-        const engine = new Engine(config);
-        engine.startGame({
+        const engine = new Engine({...config,
           onProgress(current, total) {
             if (failed) return;
             if (current !== previousBytes) { previousBytes = current; keepLoading(); }
@@ -152,7 +189,17 @@
           },
           onPrintError(...args) { console.error(...args); },
           onExit(code) { if (code !== 0) failure(new Error(`Game stopped (${code}).`)); }
-        }).catch(failure);
+        });
+        // Pinned 4.7.2 API: initialize and verify in parallel, then preload the
+        // validated bytes once. startGame() would fetch the mutable pack again.
+        Promise.all([engine.init(config.executable), verifiedPack()])
+          .then(async ([, bytes]) => {
+            await engine.preloadFile(bytes, 'index.pck');
+            return engine.start({args: ['--main-pack', 'index.pck', ...(config.args || [])]});
+          }).catch(error => {
+            failure(error);
+            if (error.message.includes('was updated')) status.textContent = error.message;
+          });
       }
     }
   </script>

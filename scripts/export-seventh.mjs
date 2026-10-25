@@ -2,7 +2,9 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import {fileURLToPath} from 'node:url';
-import {spawn} from 'node:child_process';
+import {spawn,execFileSync} from 'node:child_process';
+import assert from 'node:assert/strict';
+import {packEntries} from './seventh-package.mjs';
 import {createHash} from 'node:crypto';
 import {brotliCompress,constants} from 'node:zlib';
 import {promisify} from 'node:util';
@@ -27,9 +29,13 @@ for(const record of data.buildings){
   if(createHash('sha256').update(buffer).digest('hex')!==record.sha256)throw Error('Source asset hash mismatch: '+record.id);
 }
 await fs.mkdir(path.join(project,'exports'),{recursive:true});
+await fs.writeFile(path.join(project,'exports/.gdignore'),'');
 const stage=await fs.mkdtemp(path.join(project,'exports/web-'));
 try{
   await run(godot,['--headless','--path','.','--import']);
+  await run(godot,['--headless','--path','.','--script','res://scripts/export_areas.gd','--',stage]);
+  const areas=JSON.parse(await fs.readFile(path.join(stage,'area-export.json'),'utf8'));
+  await fs.rm(path.join(stage,'area-export.json'));
   await run(godot,['--headless','--path','.','--export-release','Web',path.join(stage,'index.html')]);
   await run(godot,['--headless','--path','.','--script','res://scripts/export_credits.gd','--','--credits-out='+path.join(stage,'godot-notices.txt')]);
   await fs.copyFile(path.join(project,'assets/credits.txt'),path.join(stage,'credits.txt'));
@@ -49,8 +55,23 @@ try{
     const text=(await fs.readFile(filename,'utf8')).replace(/[ \t]+$/gm,'').replace(/\n+$/,'\n');
     await fs.writeFile(filename,text);
   }
-  const manifest={schema:1,builtAt:new Date().toISOString(),engine:'Godot 4.7.2',renderer:'Compatibility / WebGL 2',threaded:false,buildings:data.buildings.length,sourceCommit:data.sourceCommit,geographySha256:data.sourceSha256,files:{},sources:{}};
-  for(const name of (await fs.readdir(stage)).sort()){
+  const packBytes=await fs.readFile(path.join(stage,'index.pck'));
+  const packIdentity={bytes:packBytes.length,sha256:createHash('sha256').update(packBytes).digest('hex')};
+  const shellPath=path.join(stage,'index.html');
+  const shell=await fs.readFile(shellPath,'utf8');
+  assert(shell.includes('/* BOROUGH_PACK_RELEASE */ null'),'Missing shell package pin');
+  await fs.writeFile(shellPath,shell.replace('/* BOROUGH_PACK_RELEASE */ null',JSON.stringify(packIdentity)));
+  const manifest={schema:2,builtAt:new Date().toISOString(),engine:'Godot 4.7.2',renderer:'Compatibility / WebGL 2',threaded:false,buildings:data.buildings.length,sourceCommit:data.sourceCommit,checkoutCommit:execFileSync('git',['rev-parse','HEAD'],{cwd:root,encoding:'utf8'}).trim(),geographySha256:data.sourceSha256,areas,files:{},sources:{}};
+  async function listFiles(directory,prefix=''){
+    const result=[];
+    for(const entry of await fs.readdir(directory,{withFileTypes:true})){
+      const relative=prefix+entry.name;
+      if(entry.isDirectory())result.push(...await listFiles(path.join(directory,entry.name),relative+'/'));
+      else result.push(relative);
+    }
+    return result.sort();
+  }
+  for(const name of await listFiles(stage)){
     const buffer=await fs.readFile(path.join(stage,name));
     const record={bytes:buffer.length,sha256:createHash('sha256').update(buffer).digest('hex')};
     if(name.endsWith('.wasm')||name.endsWith('.pck')){
@@ -59,6 +80,14 @@ try{
     }
     manifest.files[name]=record;
   }
+  const pack=await fs.readFile(path.join(stage,'index.pck'));
+  assert(pack.length<=16*1024*1024,'Shared PCK exceeds EV-002 proof budget');
+  const entries=packEntries(pack);
+  assert(!entries.some(e=>/building--?\d+\.glb/.test(e.name)),'Streamed building payload duplicated in base pack');
+  const embedded=entries.find(e=>e.name==='assets/area_manifest.json');
+  assert(embedded,'Release manifest missing from base pack');
+  assert.equal(createHash('sha256').update(pack.subarray(embedded.start,embedded.start+embedded.bytes)).digest('hex'),areas.sha256,'Embedded and external area manifests differ');
+  for(const record of Object.values(manifest.files))assert(record.bytes<100*1024*1024,'Tracked runtime file exceeds repository limit');
   async function sources(directory){
     for(const entry of await fs.readdir(directory,{withFileTypes:true})){
       if(entry.name.startsWith('.')||entry.name==='exports'||entry.name==='neighborhood')continue;
@@ -70,13 +99,21 @@ try{
     }
   }
   await sources(project);
-  for(const name of [...Object.keys(data.recipeHashes),'model-source/storefront-details.json','model-source/first-stmarks-scope-08.json','model-source/first-stmarks-browser-08.json','model-source/seventh-street-reference-02.json','model-source/west-seventh-reference-04.json','model-source/west-seventh-observations-04.json','model-source/east-seventh-reference-06.json','model-source/east-seventh-observations-06.json','model-source/east-seventh-browser-07.json','model-source/make_seventh_audio.py','scripts/export-seventh.mjs']){
+  for(const name of [...Object.keys(data.recipeHashes),'model-source/east-village-p01/protected-models.json','model-source/east-village-p02/protected-models.json','model-source/east-village-p03/protected-models.json','model-source/east-village-e09-n01a/protected-models.json','model-source/east-village-e09-n01b/protected-models.json','model-source/east-village-e09-block/protected-models.json','model-source/east-village-e09-east/protected-models.json','model-source/storefront-details.json','model-source/first-stmarks-scope-08.json','model-source/first-stmarks-browser-08.json','model-source/seventh-street-reference-02.json','model-source/west-seventh-reference-04.json','model-source/west-seventh-observations-04.json','model-source/east-seventh-reference-06.json','model-source/east-seventh-observations-06.json','model-source/east-seventh-browser-07.json','model-source/make_seventh_audio.py','scripts/export-seventh.mjs','scripts/seventh-package.mjs','vercel.json','scripts/seventh-hosting.mjs']){
     manifest.sources[name]=createHash('sha256').update(await fs.readFile(path.join(root,name))).digest('hex');
   }
   await fs.writeFile(path.join(stage,'build.json'),JSON.stringify(manifest,null,2)+'\n');
-  // Godot exports into an ignored staging directory; only a completed package
-  // is copied into the separately served slice. The existing game stays intact.
-  await fs.cp(stage,path.join(root,'dist/seventh'),{recursive:true});
+  // Validate the full staged release before replacing only its owned files.
+  // Assets first, mutable shell/manifest last; unrelated dist content survives.
+  const destination=path.join(root,'dist/seventh');
+  const previous=JSON.parse(await fs.readFile(path.join(destination,'build.json'),'utf8'));
+  const safe=name=>{assert(!path.isAbsolute(name)&&!name.split('/').includes('..')&&!name.includes('\\'));return path.join(destination,name);};
+  for(const name of Object.keys(manifest.files).filter(n=>n!=='index.html')){
+    const target=safe(name);await fs.mkdir(path.dirname(target),{recursive:true});await fs.copyFile(path.join(stage,name),target);
+  }
+  await fs.copyFile(path.join(stage,'index.html'),safe('index.html'));
+  await fs.copyFile(path.join(stage,'build.json'),safe('build.json'));
+  for(const name of Object.keys(previous.files))if(!manifest.files[name])await fs.rm(safe(name),{force:true});
   console.log('SEVENTH_EXPORT_COMPLETE',JSON.stringify({files:Object.keys(manifest.files).length,bytes:Object.values(manifest.files).reduce((n,f)=>n+f.bytes,0)}));
 }finally{
   await fs.rm(stage,{recursive:true,force:true});

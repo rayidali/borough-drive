@@ -1,0 +1,308 @@
+{
+  "recorded": "2026-10-14T14:28:59.235180+00:00",
+  "session": "01-E09-21-N01B",
+  "buildAt": "2026-10-14T05:01:04.528Z",
+  "pack": {
+    "bytes": 8031316,
+    "sha256": "143be91b9c79a859ff6de5ef3f4bb6bea718ab2573b1f8eef26a02c2d300588d",
+    "brotliBytes": 7409689
+  },
+  "detailImagesOpened": 58,
+  "allNames": "inspected-views.json",
+  "faces": [
+    {
+      "faceId": "247852687:0",
+      "address": "339 East Ninth Street",
+      "state": "reviewed locally within stated source limits",
+      "sourceIds": [
+        "339-all",
+        "339-upper",
+        "339-access"
+      ],
+      "views": [
+        "247852687-0-elevation",
+        "247852687-0-ground-west",
+        "247852687-0-ground-middle",
+        "247852687-0-ground-east"
+      ],
+      "assessment": "Cream bands and grouped sash windows; rust escape, plain parapet and vents; ochre single door, caged lamps, clear approach, open basement well/descent and four sloped refuse lids.",
+      "junctions": "Touching party walls retained; unmodeled 331 remains a coverage limit, not an alley."
+    },
+    {
+      "faceId": "247852686:0",
+      "address": "337 East Ninth Street",
+      "state": "reviewed locally within stated source limits",
+      "sourceIds": [
+        "337-shop",
+        "337-oblique",
+        "337-historic"
+      ],
+      "views": [
+        "247852686-0-1-0-front",
+        "247852686-0-1-0-right",
+        "247852686-0-0-0-front",
+        "247852686-0-0-0-left",
+        "247852686-0-0-0-right",
+        "247852686-0-elevation",
+        "247852686-0-ground-west",
+        "247852686-0-ground-middle",
+        "247852686-0-ground-east",
+        "247852686-0-mass-north",
+        "247852686-0-mass-south",
+        "247852686-0-1-0-left"
+      ],
+      "assessment": "Lower observed roofline is estimated at 15.9 m; taupe brick, flat stone heads, notched dark cornice and escape scrolls; dark recessed common passage and three-step approach.",
+      "junctions": "Touching party walls retained; unmodeled 331 remains a coverage limit, not an alley."
+    },
+    {
+      "faceId": "247852685:0",
+      "address": "335 East Ninth Street",
+      "state": "reviewed locally within stated source limits",
+      "sourceIds": [
+        "335-shop",
+        "335-upper",
+        "335-close"
+      ],
+      "views": [
+        "247852685-0-elevation",
+        "247852685-0-ground-west",
+        "247852685-0-ground-middle",
+        "247852685-0-ground-east",
+        "247852685-0-0-0-front",
+        "247852685-0-0-0-left",
+        "247852685-0-0-0-right",
+        "247852685-0-mass-north",
+        "247852685-0-mass-south",
+        "247852685-0-1-0-front",
+        "247852685-0-1-0-left",
+        "247852685-0-1-0-right"
+      ],
+      "assessment": "Red brick, triangular lower and molded upper heads, ornate cornice and black escape; separate fluted 335 portal, hooded lamp and standpipes.",
+      "junctions": "Touching party walls retained; unmodeled 331 remains a coverage limit, not an alley."
+    },
+    {
+      "faceId": "247852684:0",
+      "address": "333 East Ninth Street",
+      "state": "reviewed locally within stated source limits",
+      "sourceIds": [
+        "333-shop",
+        "333-westclose",
+        "333-reverse"
+      ],
+      "views": [
+        "247852684-0-elevation",
+        "247852684-0-ground-west",
+        "247852684-0-ground-middle",
+        "247852684-0-ground-east",
+        "247852684-0-0-0-front",
+        "247852684-0-0-0-left",
+        "247852684-0-0-0-right",
+        "247852684-0-mass-north",
+        "247852684-0-mass-south",
+        "247852684-0-1-0-front",
+        "247852684-0-1-0-left",
+        "247852684-0-1-0-right"
+      ],
+      "assessment": "Individual sash/head placement, stone bands and cornice, black escape; center door with patterned transom and no invented door number.",
+      "junctions": "Touching party walls retained; unmodeled 331 remains a coverage limit, not an alley."
+    }
+  ],
+  "businesses": [
+    {
+      "id": "247852686:0:0",
+      "faceId": "247852686:0",
+      "name": "New Sew Good Cleaners",
+      "sourceIds": [
+        "337-shop",
+        "337-historic"
+      ],
+      "observedDistinctiveFeatures": "Curved faded red awning, condensed white name, separate side service text; nine display compartments and low vent, raised sill. Door shares the recessed center passage.",
+      "views": [
+        "247852686-0-0-0-front",
+        "247852686-0-0-0-left",
+        "247852686-0-0-0-right"
+      ],
+      "state": "reviewed locally within stated source limits",
+      "identityStatus": "dated source-supported identity",
+      "limits": [
+        "Primary exterior state is September 2024; November 2017 supplements occluded access only, not October 2026 occupancy survey.",
+        "333 west shop tenant/sign script remains unresolved; dated observed physical shop is fully included.",
+        "Dimensions, exact branded lettering, ornament relief and fine display artwork are visual approximations. Hidden roofs/rears and deep interiors are unobserved.",
+        "337 facade height estimate 15.9m replaces conflicting 18.93m engine-only mass; municipal source remains unchanged. No guessed higher rear roof is added."
+      ]
+    },
+    {
+      "id": "247852686:0:1",
+      "faceId": "247852686:0",
+      "name": "Wicked Heathens — dated east display",
+      "sourceIds": [
+        "337-shop",
+        "337-historic"
+      ],
+      "observedDistinctiveFeatures": "Projecting black timber display, diamond grille, jewelry/mannequin and pale fabric behind glass; adjacent recessed entry, no invented fascia brand.",
+      "views": [
+        "247852686-0-1-0-front",
+        "247852686-0-1-0-right",
+        "247852686-0-1-0-left"
+      ],
+      "state": "reviewed locally within stated source limits",
+      "identityStatus": "dated source-supported identity",
+      "limits": [
+        "Primary exterior state is September 2024; November 2017 supplements occluded access only, not October 2026 occupancy survey.",
+        "333 west shop tenant/sign script remains unresolved; dated observed physical shop is fully included.",
+        "Dimensions, exact branded lettering, ornament relief and fine display artwork are visual approximations. Hidden roofs/rears and deep interiors are unobserved.",
+        "337 facade height estimate 15.9m replaces conflicting 18.93m engine-only mass; municipal source remains unchanged. No guessed higher rear roof is added."
+      ]
+    },
+    {
+      "id": "247852685:0:0",
+      "faceId": "247852685:0",
+      "name": "Fabulous Fanny’s",
+      "sourceIds": [
+        "335-close",
+        "335-shop"
+      ],
+      "observedDistinctiveFeatures": "Gray cloth awning, white script name and two 335 labels; silver rolling grille, giant eyeglass motif, red framed display, busts and eyeglasses, high AC.",
+      "views": [
+        "247852685-0-0-0-front",
+        "247852685-0-0-0-left",
+        "247852685-0-0-0-right"
+      ],
+      "state": "reviewed locally within stated source limits",
+      "identityStatus": "dated source-supported identity",
+      "limits": [
+        "Primary exterior state is September 2024; November 2017 supplements occluded access only, not October 2026 occupancy survey.",
+        "333 west shop tenant/sign script remains unresolved; dated observed physical shop is fully included.",
+        "Dimensions, exact branded lettering, ornament relief and fine display artwork are visual approximations. Hidden roofs/rears and deep interiors are unobserved.",
+        "337 facade height estimate 15.9m replaces conflicting 18.93m engine-only mass; municipal source remains unchanged. No guessed higher rear roof is added."
+      ]
+    },
+    {
+      "id": "247852685:0:1",
+      "faceId": "247852685:0",
+      "name": "Layers",
+      "sourceIds": [
+        "335-close",
+        "337-historic"
+      ],
+      "observedDistinctiveFeatures": "Narrow black/mixed-metal salon glazing, small brown script blade, grille, pale chairs and mirror layers; no awning.",
+      "views": [
+        "247852685-0-1-0-front",
+        "247852685-0-1-0-left",
+        "247852685-0-1-0-right"
+      ],
+      "state": "reviewed locally within stated source limits",
+      "identityStatus": "dated source-supported identity",
+      "limits": [
+        "Primary exterior state is September 2024; November 2017 supplements occluded access only, not October 2026 occupancy survey.",
+        "333 west shop tenant/sign script remains unresolved; dated observed physical shop is fully included.",
+        "Dimensions, exact branded lettering, ornament relief and fine display artwork are visual approximations. Hidden roofs/rears and deep interiors are unobserved.",
+        "337 facade height estimate 15.9m replaces conflicting 18.93m engine-only mass; municipal source remains unchanged. No guessed higher rear roof is added."
+      ]
+    },
+    {
+      "id": "247852684:0:0",
+      "faceId": "247852684:0",
+      "name": "333 west shop — tenant unresolved",
+      "sourceIds": [
+        "333-shop",
+        "333-westclose",
+        "333-reverse"
+      ],
+      "observedDistinctiveFeatures": "Black inclined canopy with small 333 E9th at right; broad left pane, narrow right door with circular pale script seal, pale chairs, blinds and blue water jug.",
+      "views": [
+        "247852684-0-0-0-front",
+        "247852684-0-0-0-left",
+        "247852684-0-0-0-right"
+      ],
+      "state": "physical frontage reviewed; tenant identity unresolved",
+      "identityStatus": "tenant unresolved; physical frontage observed",
+      "limits": [
+        "Primary exterior state is September 2024; November 2017 supplements occluded access only, not October 2026 occupancy survey.",
+        "333 west shop tenant/sign script remains unresolved; dated observed physical shop is fully included.",
+        "Dimensions, exact branded lettering, ornament relief and fine display artwork are visual approximations. Hidden roofs/rears and deep interiors are unobserved.",
+        "337 facade height estimate 15.9m replaces conflicting 18.93m engine-only mass; municipal source remains unchanged. No guessed higher rear roof is added."
+      ]
+    },
+    {
+      "id": "247852684:0:1",
+      "faceId": "247852684:0",
+      "name": "Spark Pretty",
+      "sourceIds": [
+        "333-shop",
+        "333-westclose",
+        "333-reverse"
+      ],
+      "observedDistinctiveFeatures": "Black inclined cloth, white stacked slanted logo/pink 333; metal grille, colorful clothing and toy display, torso forms, high left AC.",
+      "views": [
+        "247852684-0-1-0-front",
+        "247852684-0-1-0-left",
+        "247852684-0-1-0-right"
+      ],
+      "state": "reviewed locally within stated source limits",
+      "identityStatus": "dated source-supported identity",
+      "limits": [
+        "Primary exterior state is September 2024; November 2017 supplements occluded access only, not October 2026 occupancy survey.",
+        "333 west shop tenant/sign script remains unresolved; dated observed physical shop is fully included.",
+        "Dimensions, exact branded lettering, ornament relief and fine display artwork are visual approximations. Hidden roofs/rears and deep interiors are unobserved.",
+        "337 facade height estimate 15.9m replaces conflicting 18.93m engine-only mass; municipal source remains unchanged. No guessed higher rear roof is added."
+      ]
+    }
+  ],
+  "repairs": [
+    "339 vent/number overlap, correct single-leaf glass and clear well approach",
+    "Individual blind variations, rectangular/diamond grille topology, darker masonry and storefront materials",
+    "Layered displays, dark recessed doorway lining, mature/small tree forms",
+    "Subdivided curved canopy fade follows geometry; outward side service lettering corrected in final fifth build"
+  ],
+  "protected": [
+    "protected-stmarks83",
+    "protected-first143",
+    "protected-first148",
+    "protected-ninth341",
+    "protected-ninth343",
+    "protected-first134",
+    "protected-tilebar"
+  ],
+  "weather": [
+    "block-weather-0",
+    "block-weather-1",
+    "block-weather-2"
+  ],
+  "gameplayImagesOpened": 18,
+  "gameplayNames": [
+    "first-north",
+    "first-south",
+    "west-lane-north",
+    "east-lane-south",
+    "ninth-west",
+    "ninth-east",
+    "first-terminal",
+    "second-still-closed",
+    "avenue-a-still-closed",
+    "ninth-west-terminal",
+    "east-ninth-closed-at-curb",
+    "west-ninth-outer",
+    "north-ninth-outer",
+    "north-camera-0",
+    "north-camera-1",
+    "north-camera-2",
+    "north-camera-3",
+    "reset-seventh"
+  ],
+  "gameplayAssessment": "Six route views, seven boundary views, four camera modes and Seventh reset inspected. Lane clearance, storefront visibility and reset framing retained. Five camera/reset images reopened after interruption.",
+  "limits": [
+    "Primary exterior state is September 2024; November 2017 supplements occluded access only, not October 2026 occupancy survey.",
+    "333 west shop tenant/sign script remains unresolved; dated observed physical shop is fully included.",
+    "Dimensions, exact branded lettering, ornament relief and fine display artwork are visual approximations. Hidden roofs/rears and deep interiors are unobserved.",
+    "337 facade height estimate 15.9m replaces conflicting 18.93m engine-only mass; municipal source remains unchanged. No guessed higher rear roof is added.",
+    "Fine fonts/artwork/relief and display dimensions are approximations.",
+    "No calibrated 1:1 or numerical fidelity multiplier established; no independent second reviewer.",
+    "A captured file is not by itself an inspected view; the detail ledger records all 58 actually opened final images."
+  ],
+  "trials": [
+    "Four preceding 58-view captures retained separately; final fifth build reviewed in full.",
+    "Final six routes/seven boundaries passed before shutdown; final ten startup trials passed after restart in a fresh browser profile.",
+    "Address checker duplicate sequence ID repaired; failed trial retained separately; no game code changed."
+  ]
+}

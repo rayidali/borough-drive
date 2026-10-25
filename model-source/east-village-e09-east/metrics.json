@@ -1,0 +1,195 @@
+{
+  "recorded": "2026-10-15T04:49:18.453642+00:00",
+  "builtAt": "2026-10-15T04:33:43.860Z",
+  "pack": {
+    "bytes": 8178208,
+    "sha256": "b0100bd00b509f41afce60e8648e42c6892664b73c4757fc8ba49300f2d2b9ab",
+    "brotliBytes": 7449476
+  },
+  "runtimeBytes": 235738090,
+  "runtimeFiles": 314,
+  "sourceHashes": 157,
+  "models": 295,
+  "triangles": 8276065,
+  "partition": {
+    "EVP-REST": 283,
+    "EVP-WEST": 12
+  },
+  "conditions": "One local game tab; unthrottled CPU/network; focus emulated. Cold means browser network cache disabled, not an OS/GPU/WASM-cache reset. Warm enables browser cache; localhost response headers are recorded. Raw first-drive intervals retained.",
+  "startups": {
+    "cold": {
+      "samples": 5,
+      "readyMs": [
+        15873.10000000149,
+        16560.5,
+        16883.20000000298,
+        17639.29999999702,
+        21509.10000000149
+      ],
+      "medianMs": 16883.20000000298,
+      "p95Ms": 21509.10000000149,
+      "sceneCacheHits": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "residentCounts": [
+        295,
+        295,
+        295,
+        295,
+        295
+      ]
+    },
+    "warm": {
+      "samples": 5,
+      "readyMs": [
+        20030.10000000149,
+        23691.19999999553,
+        22925.60000000149,
+        22542.5,
+        22020.19999999553
+      ],
+      "medianMs": 22542.5,
+      "p95Ms": 23691.19999999553,
+      "sceneCacheHits": [
+        295,
+        295,
+        295,
+        295,
+        295
+      ],
+      "residentCounts": [
+        295,
+        295,
+        295,
+        295,
+        295
+      ]
+    }
+  },
+  "routes": [
+    {
+      "name": "first-north",
+      "p50Ms": 16.69999999999709,
+      "p95Ms": 17.600000000002183,
+      "maxMs": 33.29999999999927,
+      "camera": 0,
+      "scaleBefore": 1,
+      "scaleAfter": 1
+    },
+    {
+      "name": "first-south",
+      "p50Ms": 16.700000000000728,
+      "p95Ms": 17.700000000000728,
+      "maxMs": 34.29999999999927,
+      "camera": 0,
+      "scaleBefore": 1,
+      "scaleAfter": 1
+    },
+    {
+      "name": "west-lane-north",
+      "p50Ms": 16.69999999999709,
+      "p95Ms": 17.69999999999709,
+      "maxMs": 17.80000000000291,
+      "camera": 0,
+      "scaleBefore": 1,
+      "scaleAfter": 1
+    },
+    {
+      "name": "east-lane-south",
+      "p50Ms": 16.69999999999709,
+      "p95Ms": 17.599999999998545,
+      "maxMs": 33.799999999995634,
+      "camera": 0,
+      "scaleBefore": 1,
+      "scaleAfter": 1
+    },
+    {
+      "name": "ninth-west",
+      "p50Ms": 16.69999999999709,
+      "p95Ms": 33.400000000001455,
+      "maxMs": 5049.100000000006,
+      "camera": 0,
+      "scaleBefore": 1,
+      "scaleAfter": 0.75
+    },
+    {
+      "name": "ninth-east",
+      "p50Ms": 16.69999999999709,
+      "p95Ms": 17.60000000000582,
+      "maxMs": 17.80000000000291,
+      "camera": 0,
+      "scaleBefore": 0.75,
+      "scaleAfter": 0.75
+    },
+    {
+      "name": "ninth-through-first-west",
+      "p50Ms": 16.69999999999709,
+      "p95Ms": 17.59999999999127,
+      "maxMs": 50,
+      "camera": 0,
+      "scaleBefore": 0.75,
+      "scaleAfter": 0.75
+    },
+    {
+      "name": "ninth-through-first-east",
+      "p50Ms": 16.69999999999709,
+      "p95Ms": 17.70000000001164,
+      "maxMs": 34.10000000000582,
+      "camera": 0,
+      "scaleBefore": 0.75,
+      "scaleAfter": 1
+    }
+  ],
+  "westboundChaseRepeats": [
+    {
+      "name": "ninth-west-repeat-1",
+      "p50Ms": 16.700000000000728,
+      "p95Ms": 33.900000000001455,
+      "maxMs": 300.09999999999854,
+      "camera": 0,
+      "scaleBefore": 1,
+      "scaleAfter": 0.75
+    },
+    {
+      "name": "ninth-west-repeat-2",
+      "p50Ms": 16.69999999999709,
+      "p95Ms": 33.30000000000291,
+      "maxMs": 34.400000000001455,
+      "camera": 0,
+      "scaleBefore": 0.75,
+      "scaleAfter": 0.75
+    },
+    {
+      "name": "ninth-west-repeat-3",
+      "p50Ms": 16.69999999999709,
+      "p95Ms": 33.400000000001455,
+      "maxMs": 34.400000000001455,
+      "camera": 0,
+      "scaleBefore": 0.75,
+      "scaleAfter": 0.75
+    }
+  ],
+  "differentCameraTrial": "west-repeat/captures.json has overhead mode3; not equivalent to chase. Retained but excluded from chase comparison.",
+  "outlier": {
+    "route": "ninth-west",
+    "intervalMs": 5049.1,
+    "sampleIndex": 91,
+    "fullyResident": 295,
+    "loadingHolds": 0,
+    "cause": "unknown",
+    "repeated": false,
+    "repeatLimit": "Chase repeat1 still has300.1ms max; subsequent runs34.4ms. Adaptive scale1\u2192.75, then stayed.75."
+  },
+  "baseline": "Historical previous255-model block: cold median/p95 9.928/11.592s, warm12.593/15.343s. No fresh paired baseline; no isolated causal attribution.",
+  "limits": [
+    "All295 scenes load initially;12 west releasable/283 pinned. This is not whole-area scalability.",
+    "Startup medians are higher than the previous historical255-model run; warm cache is not faster here.",
+    "Westbound chase p95 is33\u201334ms with adaptive scale.75; no smooth60fps claim. The unexplained5.049s original interval remains in evidence.",
+    "No mobile, total process/RAM, or whole-area capacity certification. OS/GPU/WASM caches are not reset by the cold protocol.",
+    "Low disk space was observed after final startup measurements; do not infer it caused earlier frame stalls or laptop shutdowns."
+  ]
+}

@@ -1,0 +1,235 @@
+{
+  "recorded": "2026-10-14T01:34:56.964064+00:00",
+  "currentPack": {
+    "bytes": 8014524,
+    "sha256": "509239e48e6fb2928e308a31f11d801821c83298331ce3c51e4809011617cb4c",
+    "brotliBytes": 7401135
+  },
+  "newModel": {
+    "id": 241822237,
+    "address": "145 1st Avenue",
+    "asset": "res://assets/neighborhood/building-241822237.glb",
+    "position": [
+      -24.72450065612793,
+      0,
+      -140.50450134277344
+    ],
+    "footprint": [
+      [
+        -34.739,
+        -136.715
+      ],
+      [
+        -34.741,
+        -137.326
+      ],
+      [
+        -34.753,
+        -144.274
+      ],
+      [
+        -14.696,
+        -144.29399999999998
+      ],
+      [
+        -14.696,
+        -136.74099999999999
+      ]
+    ],
+    "height": 15.19,
+    "box": [
+      -34.753,
+      -144.29399999999998,
+      -14.696,
+      -136.715
+    ],
+    "triangles": 133137,
+    "bytes": 8635860,
+    "inputSha256": "5dc10a53d1c62a207706fe4661c9bf4350e94bf1e0246f5611552049dab38ede",
+    "sha256": "03179a693076c5354e04a6e9ef4accba9cbd411d757601f70e1deb578a73f0ea"
+  },
+  "newCompiledScene": {
+    "bounds": [
+      -34.8330001831055,
+      0.119999997317791,
+      -145.433242797852,
+      -13.554500579834,
+      15.3699998855591,
+      -136.635009765625
+    ],
+    "bytes": 2988511,
+    "glbSha256": "03179a693076c5354e04a6e9ef4accba9cbd411d757601f70e1deb578a73f0ea",
+    "id": 241822237,
+    "owner": "EVP-REST",
+    "sha256": "73e6afb996315f130e3a50c646e6aefc4fcb1c95d1cb46081265a6f721eeb26b",
+    "url": "/seventh/areas/assets/73e6afb996315f130e3a50c646e6aefc4fcb1c95d1cb46081265a6f721eeb26b.scn"
+  },
+  "runtimeBytes": 152561556,
+  "runtimeFiles": 232,
+  "sources": 133,
+  "residentPartition": {
+    "EVP-REST": 201,
+    "EVP-WEST": 12
+  },
+  "startup": {
+    "before": {
+      "pack": {
+        "bytes": 8006792,
+        "sha256": "476e38b45cd92fff235cb56e17c8c92506d3949959a002d88e0b26e49d07f288",
+        "brotliBytes": 7395316
+      },
+      "cold": {
+        "runsMs": [
+          6949.799999999814,
+          6823.0999999996275,
+          6782.299999999814,
+          7232.9000000003725,
+          7385.100000000559
+        ],
+        "medianMs": 6949.799999999814,
+        "p95Ms": 7385.100000000559,
+        "encodedBytes": [
+          149356755,
+          149356755,
+          149356755,
+          149356755,
+          149356755
+        ],
+        "residentCounts": [
+          212,
+          212,
+          212,
+          212,
+          212
+        ]
+      },
+      "warm": {
+        "runsMs": [
+          7280.700000000186,
+          7848.799999999814,
+          7394.700000000186,
+          7155.4000000003725,
+          7573.4000000003725
+        ],
+        "medianMs": 7394.700000000186,
+        "p95Ms": 7848.799999999814,
+        "encodedBytes": [
+          48248057,
+          48248057,
+          48248057,
+          48248057,
+          48248057
+        ],
+        "residentCounts": [
+          212,
+          212,
+          212,
+          212,
+          212
+        ]
+      }
+    },
+    "after": {
+      "pack": {
+        "bytes": 8014524,
+        "sha256": "509239e48e6fb2928e308a31f11d801821c83298331ce3c51e4809011617cb4c",
+        "brotliBytes": 7401135
+      },
+      "cold": {
+        "runsMs": [
+          8512.599999999627,
+          7915.5,
+          8983.799999999814,
+          7819.699999999255,
+          8048.299999999814
+        ],
+        "medianMs": 8048.299999999814,
+        "p95Ms": 8983.799999999814,
+        "encodedBytes": [
+          152353251,
+          152353251,
+          152353251,
+          152353251,
+          152353251
+        ],
+        "residentCounts": [
+          213,
+          213,
+          213,
+          213,
+          213
+        ]
+      },
+      "warm": {
+        "runsMs": [
+          7816.200000000186,
+          8213.899999999441,
+          9892.100000000559,
+          10250.599999999627,
+          8951.399999999441
+        ],
+        "medianMs": 8951.399999999441,
+        "p95Ms": 10250.599999999627,
+        "encodedBytes": [
+          48255789,
+          48255789,
+          48255789,
+          48255789,
+          48255789
+        ],
+        "residentCounts": [
+          213,
+          213,
+          213,
+          213,
+          213
+        ]
+      }
+    },
+    "limitations": "Fresh same-session before/after, five cold/five cache-enabled each, sequential rather than alternating. Device/thermal/background conditions not controlled; p95 is the maximum of five. After medians are slower; no causal attribution or whole-area scalability claim. Historical P02 warm 21.687s outlier remains unexplained."
+  },
+  "routes": [
+    {
+      "name": "first-north",
+      "p95Ms": 17.700000000000728,
+      "maxMs": 18.700000000000728,
+      "contacts": 0,
+      "loadingHolds": 0
+    },
+    {
+      "name": "first-south",
+      "p95Ms": 17.5,
+      "maxMs": 18.799999999999272,
+      "contacts": 0,
+      "loadingHolds": 0
+    },
+    {
+      "name": "west-lane-north",
+      "p95Ms": 18.099999999998545,
+      "maxMs": 18.80000000000291,
+      "contacts": 0,
+      "loadingHolds": 0
+    },
+    {
+      "name": "east-lane-south",
+      "p95Ms": 17.900000000001455,
+      "maxMs": 18.80000000000291,
+      "contacts": 0,
+      "loadingHolds": 0
+    },
+    {
+      "name": "ninth-west",
+      "p95Ms": 18.69999999999709,
+      "maxMs": 18.80000000000291,
+      "contacts": 0,
+      "loadingHolds": 0
+    },
+    {
+      "name": "ninth-east",
+      "p95Ms": 18.60000000000582,
+      "maxMs": 18.700000000004366,
+      "contacts": 0,
+      "loadingHolds": 0
+    }
+  ]
+}

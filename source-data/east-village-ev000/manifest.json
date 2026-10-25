@@ -1,0 +1,92 @@
+{
+  "retrievedUTC": "2026-10-12T16:59:04.928598+00:00",
+  "bboxWGS84": [
+    -73.998,
+    40.716,
+    -73.967,
+    40.738
+  ],
+  "purpose": "EV-000 inventory only; selected public geometry/identity fields; not current visual or access evidence",
+  "sources": {
+    "roads": {
+      "url": "https://services6.arcgis.com/yG5s3afENB5iO9fj/arcgis/rest/services/Centerline_view/FeatureServer/0",
+      "query": {
+        "where": "1=1",
+        "geometry": "-73.998,40.716,-73.967,40.738",
+        "geometryType": "esriGeometryEnvelope",
+        "inSR": 4326,
+        "spatialRel": "esriSpatialRelIntersects"
+      },
+      "outFields": "OBJECTID,PHYSICALID,FULL_STREET_NAME,STREET_NAME,STNAME_LABEL,STATUS,TRAFDIR,RW_TYPE,STREETWIDTH,FROM_LEVEL_CODE,TO_LEVEL_CODE,L_BLOCKFACEID,R_BLOCKFACEID,L_LOW_HN,L_HIGH_HN,R_LOW_HN,R_HIGH_HN,MODIFIED_DATE",
+      "featureCount": 1327,
+      "idPagesVerified": true,
+      "sha256": "a5b1c844be1773d2ca336350639f1fd818d000c5ccd9ed63e7bb638035e3fe3b",
+      "serviceEditingInfo": {
+        "lastEditDate": 1791616331216,
+        "schemaLastEditDate": 1688932964244,
+        "dataLastEditDate": 1791616331216
+      },
+      "copyright": ""
+    },
+    "buildings": {
+      "url": "https://services6.arcgis.com/yG5s3afENB5iO9fj/arcgis/rest/services/BUILDING_view/FeatureServer/0",
+      "query": {
+        "where": "1=1",
+        "geometry": "-73.998,40.716,-73.967,40.738",
+        "geometryType": "esriGeometryEnvelope",
+        "inSR": 4326,
+        "spatialRel": "esriSpatialRelIntersects"
+      },
+      "outFields": "OBJECTID,DOITT_ID,BIN,BASE_BBL,MAPPLUTO_BBL,FEATURE_CODE,HEIGHT_ROOF,GROUND_ELEVATION,CONSTRUCTION_YEAR,LAST_EDITED_DATE",
+      "featureCount": 5857,
+      "idPagesVerified": true,
+      "sha256": "cfbcbefc5751d0d8f35fdd25e8cd3fd2c072353316ccd2fdbb0f7240af17157d",
+      "serviceEditingInfo": {
+        "lastEditDate": 1791684993156,
+        "schemaLastEditDate": 1760112642732,
+        "dataLastEditDate": 1791684993156
+      },
+      "copyright": ""
+    },
+    "lots": {
+      "url": "https://services5.arcgis.com/GfwWNkhOj9bNBqoJ/ArcGIS/rest/services/MAPPLUTO/FeatureServer/0",
+      "query": {
+        "where": "1=1",
+        "geometry": "-73.998,40.716,-73.967,40.738",
+        "geometryType": "esriGeometryEnvelope",
+        "inSR": 4326,
+        "spatialRel": "esriSpatialRelIntersects"
+      },
+      "outFields": "OBJECTID,BBL,Block,Lot,Address,BldgClass,LandUse,NumBldgs,NumFloors,YearBuilt,Version,Landmark,HistDist",
+      "featureCount": 5389,
+      "idPagesVerified": true,
+      "sha256": "8acbe653497959f21e14b6e116b4ea7d19e1827536cf4b6c00efe49f52cec476",
+      "serviceEditingInfo": {
+        "lastEditDate": 1788967824444,
+        "schemaLastEditDate": 1788967824444,
+        "dataLastEditDate": 1788967824444
+      },
+      "copyright": "NYC Department of City Planning,  Information Technology Division"
+    },
+    "shoreline": {
+      "url": "https://services6.arcgis.com/yG5s3afENB5iO9fj/ArcGIS/rest/services/Shoreline_2022/FeatureServer/21",
+      "query": {
+        "where": "1=1",
+        "geometry": "-73.998,40.716,-73.967,40.738",
+        "geometryType": "esriGeometryEnvelope",
+        "inSR": 4326,
+        "spatialRel": "esriSpatialRelIntersects"
+      },
+      "outFields": "OBJECTID,SOURCE_ID,FEATURE_CODE,SUB_FEATURE_CODE,STATUS",
+      "featureCount": 2,
+      "idPagesVerified": true,
+      "sha256": "d36a45305214f5fcad724eea7b979f383b755107faf261e7dbc515f3878527f1",
+      "serviceEditingInfo": {
+        "lastEditDate": 1757021179063,
+        "schemaLastEditDate": 1705436209494,
+        "dataLastEditDate": 1705436209494
+      },
+      "copyright": "The New York City Office of Technology & Innovation funded and coordinated the MYCMap update project. The Sanborn Map Company Inc. produced the data, and CARSI (Center for Advanced Analysis of Spatial Information) at Hunter College managed the project and conducted quality assurance for the data product."
+    }
+  }
+}

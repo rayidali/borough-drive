@@ -1,5 +1,10 @@
 # Bounded work packet and review return
 
+**Resume after the October 23 laptop migration:** use the [current handoff](../../../../CODEX-HANDOFF.md), [restart instructions](../../../../START-HERE.md#after-restarting-vs-code-or-terminal) and [repository adapter](repository-adapter.md) for the restored toolchain and compiled-cache protection. Record actual versions and whether the reviewed import cache is retained in the packet baseline. This template and an editor restart do not assign the proposed next block or authorize publication.
+
+**Block delivery, internal packet:** an assigned block includes all its internal packets. Keep the active block ID, completed/remaining face IDs and next internal action in the checkpoint. Finishing this template's small group is a progress milestone; continue the block without a routine user handoff. Split working sets for context/detail, retaining the parent scope. Consolidate broad integration checks at block completion and rerun earlier only for relevant changes/failures; preserve affected-feature review and exact build evidence. See [current block workflow](../../../east-village-block-workflow.json).
+
+
 Copy the template below into a durable, task-specific Markdown file under `model-source/` when a future task is authorized. Fill it with the actual unit and baseline; this template is not an implemented queue, JSON schema or automatic runner. Do not append it to the legacy planner's JSON expecting compatibility.
 
 For the current baseline and user-endorsed examples, read the [skill entry point](../SKILL.md) and current handoff; revision 09 is the current endorsed storefront example, while this reusable template does not assign a new task or start a pipeline.
@@ -7,6 +12,8 @@ For the current baseline and user-endorsed examples, read the [skill entry point
 Every packet involving shops must carry the October 11 [storefront individuality requirements](storefront-individuality.md). A small packet may cover one facade, but each business within it needs its own identity summary, detail rows and review outcome. Do not compress these into a business-name list or a shared style preset. Worker/reviewer roles can be separate passes by one agent; delegation follows the active session's authorization.
 
 The coordinator inventories the whole requested street first. Each worker receives only its unit, relevant source records/component interfaces and the images it must actually inspect. A corner with multiple faces needs separate face IDs and shared-feature ownership. Workers proposing edits to shared JSON return per-record patches for serial integration; do not let independent workers rewrite the whole file.
+
+For the East Village roadmap, consult the completed [EV-000 inventory](../../../EAST-VILLAGE-EV000.md). Initial packets already have exact legacy face and municipal IDs. Preserve their protected neighbors and single mass/roof owner, then establish the current engine file allowlist and dated business evidence. Outside those packets, a parcel identity does not replace complete face/site enumeration.
 
 ## Scope bootstrap when there is no ready facade packet
 
@@ -23,10 +30,13 @@ The output is a planning draft with the next inventory/evidence action, not an e
 - User request/mode: <plan | implement | review; exact authorized scope>
 - Street bounds/sides: <street, from, to, included corner returns/sites>
 - Assigned unit: <building ID + face/segment ID; display address>
+- Roadmap parent/child session: <ID when using the East Village plan; transferred corner/site ownership; otherwise not applicable>
+- Junction/massing ledger: <each neighbor: touching wall, open gap, setback, height step; dimensions estimated or mapped; exact evidence, geometry location and oblique review>
 - Neighbor/context IDs: <left/right, corner partner; read-only where applicable>
 - Owner of shared street fixtures: <task ID>
 - Target conditions: <date or explicit mixed-date policy; conflicts>
 - Baseline: <branch, commit, dirty files, source-record hash, package hash>
+- Toolchain/cache baseline: <actual Node, Blender and Godot versions; retained reviewed import cache; machine/setup evidence link>
 - Protected records/assets: <IDs and paths; baseline hashes>
 - Allowed files AND records: <exact patch scope>
 - Outputs: <observation, proposal/source, captures, review, checkpoint paths>
@@ -91,6 +101,8 @@ effective implementation and actual review. Do not fill unknowns with defaults.
   needs-review | reviewed-candidate | accepted; identify accepting party/scope>
 - Required next action: <one executable step and why>
 - Attempts/actual usage: <observed values or unavailable, never invented>
+- Actual timing: <research; authoring; export/wait; review/repair; user review/wait separately; packet continuation needed or not>
+- Active block / next internal action: <parent ID, remaining exact faces and next group; continue authorized parent before requesting a new block>
 - Changed files/records: <exact list; conflicts/stale baseline>
 - Git/push/deployment: <three separate states; not checked where applicable>
 ```
@@ -134,3 +146,7 @@ Continue actionable repairs within the authorized scope and budget; do not stop 
 At a milestone, update the street inventory and project checkpoint. Record source/gameplay commit, local edits, tests actually run, unresolveds, push and deployment separately. Save all needed metadata and permitted evidence outside temporary folders. If source-image storage is restricted, retain a permitted durable locator and observation; do not pretend a deleted preview can be inspected offline.
 
 For cost comparison, record model/effort when available, actual token/cost reports, acquisition/build/review time, repair count and omitted features. If the platform exposes no usage, write `unavailable`. Compare total cost per reviewed unit, not the cheapest initial proposal or a historic price example.
+
+## October 15 block continuation record
+
+Carry the assigned full-block inventory through context/session recovery. Keep an explicit inspection ledger separate from screenshots and authored schedules; record invalid/obscured camera poses and their replacements. Keep exact build identities when reusing unchanged model review. For the current 50-plane Ninth east block and its next proposed action, read the [report](../../../EAST-VILLAGE-E09-EAST.md) and root handoff; older packet next-step examples are historical. No routine handoff after an internal group.

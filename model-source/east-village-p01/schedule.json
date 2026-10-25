@@ -1,0 +1,2443 @@
+{
+  "schema": 1,
+  "id": "P01",
+  "parent": "01-FA08W",
+  "revision": "P01-02",
+  "targetCapture": "2026-04",
+  "scopeFaces": [
+    "241822278:0",
+    "241822337:0",
+    "241822304:0",
+    "241822211:0"
+  ],
+  "elevations": [
+    {
+      "faceId": "241822278:0",
+      "buildingId": 241822278,
+      "frontageIndex": 0,
+      "address": "137 1st Avenue",
+      "sourceFace": {
+        "x": -14.656,
+        "z": 121.603,
+        "rx": -0.0007541475985147913,
+        "rz": -0.9999997156306595,
+        "length": 9.282,
+        "street": "First Avenue"
+      },
+      "buildingHeight": 14.43,
+      "architecture": {
+        "wall": "p01 137 red brick",
+        "windows": [
+          {
+            "at": 0.1,
+            "width": 0.10665804783451842,
+            "bottom": 3.83,
+            "height": 1.86,
+            "trim": "seventh pale limestone",
+            "frame": "white frame",
+            "hood": "flat",
+            "hoodBacking": false,
+            "rails": [
+              0.48
+            ],
+            "shape": "rectangle",
+            "grille": false,
+            "ac": false
+          },
+          {
+            "at": 0.3,
+            "width": 0.10665804783451842,
+            "bottom": 3.83,
+            "height": 1.86,
+            "trim": "seventh pale limestone",
+            "frame": "white frame",
+            "hood": "flat",
+            "hoodBacking": false,
+            "rails": [
+              0.48
+            ],
+            "shape": "rectangle",
+            "grille": false,
+            "ac": true
+          },
+          {
+            "at": 0.5,
+            "width": 0.10665804783451842,
+            "bottom": 3.83,
+            "height": 1.86,
+            "trim": "seventh pale limestone",
+            "frame": "white frame",
+            "hood": "flat",
+            "hoodBacking": false,
+            "rails": [
+              0.48
+            ],
+            "shape": "rectangle",
+            "grille": false,
+            "ac": false
+          },
+          {
+            "at": 0.7,
+            "width": 0.10665804783451842,
+            "bottom": 3.83,
+            "height": 1.86,
+            "trim": "seventh pale limestone",
+            "frame": "white frame",
+            "hood": "flat",
+            "hoodBacking": false,
+            "rails": [
+              0.48
+            ],
+            "shape": "rectangle",
+            "grille": false,
+            "ac": true
+          },
+          {
+            "at": 0.9,
+            "width": 0.10665804783451842,
+            "bottom": 3.83,
+            "height": 1.86,
+            "trim": "seventh pale limestone",
+            "frame": "white frame",
+            "hood": "flat",
+            "hoodBacking": false,
+            "rails": [
+              0.48
+            ],
+            "shape": "rectangle",
+            "grille": false,
+            "ac": false
+          },
+          {
+            "at": 0.1,
+            "width": 0.10665804783451842,
+            "bottom": 6.38,
+            "height": 1.86,
+            "trim": "seventh pale limestone",
+            "frame": "white frame",
+            "hood": "flat",
+            "hoodBacking": false,
+            "rails": [
+              0.48
+            ],
+            "shape": "rectangle",
+            "grille": false,
+            "ac": false
+          },
+          {
+            "at": 0.3,
+            "width": 0.10665804783451842,
+            "bottom": 6.38,
+            "height": 1.86,
+            "trim": "seventh pale limestone",
+            "frame": "white frame",
+            "hood": "flat",
+            "hoodBacking": false,
+            "rails": [
+              0.48
+            ],
+            "shape": "rectangle",
+            "grille": false,
+            "ac": false
+          },
+          {
+            "at": 0.5,
+            "width": 0.10665804783451842,
+            "bottom": 6.38,
+            "height": 1.86,
+            "trim": "seventh pale limestone",
+            "frame": "white frame",
+            "hood": "flat",
+            "hoodBacking": false,
+            "rails": [
+              0.48
+            ],
+            "shape": "rectangle",
+            "grille": false,
+            "ac": true
+          },
+          {
+            "at": 0.7,
+            "width": 0.10665804783451842,
+            "bottom": 6.38,
+            "height": 1.86,
+            "trim": "seventh pale limestone",
+            "frame": "white frame",
+            "hood": "flat",
+            "hoodBacking": false,
+            "rails": [
+              0.48
+            ],
+            "shape": "rectangle",
+            "grille": false,
+            "ac": true
+          },
+          {
+            "at": 0.9,
+            "width": 0.10665804783451842,
+            "bottom": 6.38,
+            "height": 1.86,
+            "trim": "seventh pale limestone",
+            "frame": "white frame",
+            "hood": "flat",
+            "hoodBacking": false,
+            "rails": [
+              0.48
+            ],
+            "shape": "rectangle",
+            "grille": false,
+            "ac": false
+          },
+          {
+            "at": 0.1,
+            "width": 0.10665804783451842,
+            "bottom": 8.93,
+            "height": 1.86,
+            "trim": "seventh pale limestone",
+            "frame": "white frame",
+            "hood": "flat",
+            "hoodBacking": false,
+            "rails": [
+              0.48
+            ],
+            "shape": "rectangle",
+            "grille": false,
+            "ac": false
+          },
+          {
+            "at": 0.3,
+            "width": 0.10665804783451842,
+            "bottom": 8.93,
+            "height": 1.86,
+            "trim": "seventh pale limestone",
+            "frame": "white frame",
+            "hood": "flat",
+            "hoodBacking": false,
+            "rails": [
+              0.48
+            ],
+            "shape": "rectangle",
+            "grille": false,
+            "ac": true
+          },
+          {
+            "at": 0.5,
+            "width": 0.10665804783451842,
+            "bottom": 8.93,
+            "height": 1.86,
+            "trim": "seventh pale limestone",
+            "frame": "white frame",
+            "hood": "flat",
+            "hoodBacking": false,
+            "rails": [
+              0.48
+            ],
+            "shape": "rectangle",
+            "grille": false,
+            "ac": false
+          },
+          {
+            "at": 0.7,
+            "width": 0.10665804783451842,
+            "bottom": 8.93,
+            "height": 1.86,
+            "trim": "seventh pale limestone",
+            "frame": "white frame",
+            "hood": "flat",
+            "hoodBacking": false,
+            "rails": [
+              0.48
+            ],
+            "shape": "rectangle",
+            "grille": false,
+            "ac": false
+          },
+          {
+            "at": 0.9,
+            "width": 0.10665804783451842,
+            "bottom": 8.93,
+            "height": 1.86,
+            "trim": "seventh pale limestone",
+            "frame": "white frame",
+            "hood": "flat",
+            "hoodBacking": false,
+            "rails": [
+              0.48
+            ],
+            "shape": "rectangle",
+            "grille": false,
+            "ac": false
+          },
+          {
+            "at": 0.1,
+            "width": 0.10665804783451842,
+            "bottom": 11.48,
+            "height": 1.86,
+            "trim": "seventh pale limestone",
+            "frame": "white frame",
+            "hood": "flat",
+            "hoodBacking": false,
+            "rails": [
+              0.48
+            ],
+            "shape": "rectangle",
+            "grille": false,
+            "ac": false
+          },
+          {
+            "at": 0.3,
+            "width": 0.10665804783451842,
+            "bottom": 11.48,
+            "height": 1.86,
+            "trim": "seventh pale limestone",
+            "frame": "white frame",
+            "hood": "flat",
+            "hoodBacking": false,
+            "rails": [
+              0.48
+            ],
+            "shape": "rectangle",
+            "grille": false,
+            "ac": false
+          },
+          {
+            "at": 0.5,
+            "width": 0.10665804783451842,
+            "bottom": 11.48,
+            "height": 1.86,
+            "trim": "seventh pale limestone",
+            "frame": "white frame",
+            "hood": "flat",
+            "hoodBacking": false,
+            "rails": [
+              0.48
+            ],
+            "shape": "rectangle",
+            "grille": false,
+            "ac": false
+          },
+          {
+            "at": 0.7,
+            "width": 0.10665804783451842,
+            "bottom": 11.48,
+            "height": 1.86,
+            "trim": "seventh pale limestone",
+            "frame": "white frame",
+            "hood": "flat",
+            "hoodBacking": false,
+            "rails": [
+              0.48
+            ],
+            "shape": "rectangle",
+            "grille": false,
+            "ac": false
+          },
+          {
+            "at": 0.9,
+            "width": 0.10665804783451842,
+            "bottom": 11.48,
+            "height": 1.86,
+            "trim": "seventh pale limestone",
+            "frame": "white frame",
+            "hood": "flat",
+            "hoodBacking": false,
+            "rails": [
+              0.48
+            ],
+            "shape": "rectangle",
+            "grille": false,
+            "ac": true
+          }
+        ],
+        "doors": [
+          {
+            "at": 0.49,
+            "width": 0.12,
+            "bottom": 0.2,
+            "top": 2.9,
+            "leafTop": 2.42,
+            "material": "store09 black enamel",
+            "trim": "store09 black enamel",
+            "leaves": 1,
+            "recess": 0.28,
+            "panels": [
+              {
+                "y": 0.61,
+                "height": 0.64,
+                "width": 0.76,
+                "glass": true
+              },
+              {
+                "y": 0.13,
+                "height": 0.15,
+                "width": 0.76
+              }
+            ],
+            "hardware": "store09 aged brass",
+            "label": "137",
+            "labelY": 2.29,
+            "labelSize": 0.13,
+            "labelMaterial": "store09 aged brass",
+            "labelDepth": -0.17,
+            "labelPlate": false
+          }
+        ],
+        "returnShops": [
+          {
+            "name": "Spirals",
+            "span": [
+              0.02,
+              0.415
+            ],
+            "design": {
+              "top": 3.33,
+              "head": 2.8,
+              "base": 0.37,
+              "recess": 0.2,
+              "panels": [
+                [
+                  "glass",
+                  0.48
+                ],
+                [
+                  "glass",
+                  0.13
+                ],
+                [
+                  "glass",
+                  0.13
+                ],
+                [
+                  "door",
+                  0.26
+                ]
+              ],
+              "transom": false,
+              "signs": [
+                {
+                  "at": 0.5,
+                  "width": 1,
+                  "y": 3.38,
+                  "height": 0.65,
+                  "depth": 0.28,
+                  "material": "store09 white enamel",
+                  "lines": [
+                    {
+                      "text": "Spirals",
+                      "material": "store09 aged brass",
+                      "size": 0.65,
+                      "style": "store09:serif:1.0:0.18",
+                      "y": 0.06
+                    },
+                    {
+                      "text": "Cinnamon Rolls",
+                      "material": "store09 gray plaster",
+                      "size": 0.115,
+                      "y": -0.32,
+                      "style": "store09:condensed"
+                    }
+                  ]
+                }
+              ],
+              "detail09": {
+                "frame": "p01 blue enamel",
+                "surround": "p01 blue enamel",
+                "frameWidth": 0.05,
+                "pierWidth": 0.1,
+                "floor": 0.17,
+                "displayDepth": 0.9,
+                "molding": true,
+                "displays": [
+                  {
+                    "kind": "counter",
+                    "at": 0.34,
+                    "y": 0.98,
+                    "width": 0.72,
+                    "depth": -0.43,
+                    "material": "store09 cream enamel"
+                  },
+                  {
+                    "kind": "poster",
+                    "at": 0.78,
+                    "y": 1.69,
+                    "width": 0.055,
+                    "height": 0.26,
+                    "text": "",
+                    "depth": 0.08,
+                    "material": "store09 paper"
+                  },
+                  {
+                    "kind": "poster",
+                    "at": 0.92,
+                    "y": 1.99,
+                    "width": 0.12,
+                    "height": 0.17,
+                    "text": "",
+                    "depth": 0.08,
+                    "material": "store09 paper"
+                  }
+                ],
+                "furniture": [],
+                "id": "241822278:0:0",
+                "sourceIds": [
+                  "137-front",
+                  "137-sign-entry"
+                ],
+                "identity": "Powder-blue framed bakery, white/ochre italic serif fascia, separate black lamp housing, broad left window and narrow right leaf.",
+                "baseMaterial": "store09 black tile",
+                "doorMaterial": "p01 blue enamel",
+                "doorSolidTop": 0.54,
+                "hardware": "store09 aged brass",
+                "threshold": "store09 gray plaster"
+              },
+              "detailP01": {
+                "kind": "spirals"
+              }
+            }
+          },
+          {
+            "name": "Crispy Burger",
+            "span": [
+              0.585,
+              0.985
+            ],
+            "design": {
+              "top": 3.31,
+              "head": 2.82,
+              "base": 0.24,
+              "recess": 0.2,
+              "panels": [
+                [
+                  "door",
+                  0.42
+                ],
+                [
+                  "glass",
+                  0.29
+                ],
+                [
+                  "glass",
+                  0.29
+                ]
+              ],
+              "transom": false,
+              "signs": [
+                {
+                  "at": 0.5,
+                  "width": 1,
+                  "y": 3.43,
+                  "height": 0.74,
+                  "depth": 0.28,
+                  "material": "store09 cream enamel",
+                  "lines": [
+                    {
+                      "text": "CRISPY BURGER",
+                      "material": "store09 printed red",
+                      "size": 0.52,
+                      "style": "store09:bold",
+                      "offset": 0.08,
+                      "width": 0.79,
+                      "y": 0.14
+                    },
+                    {
+                      "text": "BURGER  FRIED CHICKEN  SNACKS",
+                      "size": 0.15,
+                      "y": -0.15,
+                      "material": "store09 printed red",
+                      "style": "store09:condensed"
+                    }
+                  ]
+                }
+              ],
+              "detail09": {
+                "frame": "p01 burger orange",
+                "surround": "p01 burger orange",
+                "frameWidth": 0.045,
+                "pierWidth": 0.2,
+                "floor": 0.17,
+                "displayDepth": 0.9,
+                "molding": true,
+                "displays": [
+                  {
+                    "kind": "counter",
+                    "at": 0.65,
+                    "y": 1.0,
+                    "width": 0.55,
+                    "depth": -0.52,
+                    "material": "store09 brushed steel"
+                  }
+                ],
+                "furniture": [],
+                "id": "241822278:0:1",
+                "sourceIds": [
+                  "137-front",
+                  "137-sign-entry"
+                ],
+                "identity": "Orange paneled piers, cream/red chunky fascia and chicken medallion, open recessed left entry, red lower food collage and green neon.",
+                "kickplate": false,
+                "doorSolidTop": 0.17,
+                "hardware": "store09 brushed steel"
+              },
+              "detailP01": {
+                "kind": "crispy"
+              },
+              "boards": [
+                {
+                  "at": 0.43,
+                  "depth": 1.0,
+                  "height": 0.93,
+                  "width": 0.46,
+                  "frame": "store09 dark iron"
+                }
+              ]
+            }
+          }
+        ],
+        "signs": [],
+        "observedGround": {
+          "replaceWindows": false,
+          "replaceDoors": false
+        },
+        "observation": {
+          "sources": [
+            "south-elevations",
+            "137-front",
+            "137-sign-entry"
+          ],
+          "facts": [
+            "137 has five bays by FOUR upper rows (twenty windows); plain brick parapet, white simple lintels/sills; no front escape. White sash; AC positions at bottom row bays 2,4; second row bays 3,4; third row bay2; top bay5.",
+            "139 CORRECTION to first oblique: FOUR bays by FOUR upper rows (16); blue painted brick, pink/red thin frames/sills, cream vertical edge and cornice band; black ornate bracketed cornice; escape spans middle two bays with four landings/zigzag stairs. No guessed three-bay legacy rhythm.",
+            "137 divisions from left/south: Spirals roughly 41%, residential entry 16%, Crispy Burger 42%. 139 separate residential door left, V-One Nail Spa center, SKWR right; street tree covers 141/143 lower elevations.",
+            "Spirals: separate white sign box with ochre italic serif-like Spirals and small Cinnamon Rolls; black shutter/light housing with three white downlights; powder-blue surround, large left display pane, narrow fixed sidelight then right glazed single door with bottom molded panel. Low blue sill, interior pale counter and dark lower display. Residential entrance immediately right is black narrow double glazed leaves with 137 small brass plate over transom; recessed threshold.",
+            "Crispy Burger: bright orange raised-panel piers, cream fascia with round red cartoon chicken emblem at left and chunky red raised/shadow CRISPY BURGER plus smaller BURGER/FRIED CHICKEN/SNACKS line; left open/recessed single door, right narrow two-part glazing with red product collage on lower half; neon green circular light right; black A-frame with pale/orange panel on pavement. No fabric canopy/patio visible.",
+            "V-One: charcoal sign band and orange hand-script V-ONE Nail Spa, address small at lower left; fine pale metal glazing, photographic manicure/foot graphics on lower glass, pale interior chair shapes and a white A-frame. Different storefront width from right-hand SKWR.",
+            "Close inspection: Spirals letterforms are high-contrast italic SERIF, not connected script; a small spiral sits above the i. White fascia thin ochre border, Cinnamon Rolls small gray subline. Three tiny white downlights on black housing; two larger white lamps above sign; black brick stall riser; blue glazed door at north edge has brass pull and solid lower panel; two narrow middle glazed lights plus broad left window. Window has dated BABE ORIGINAL x Spirals collaboration lettering with sprinkle-like marks, not permanent inferred stock.",
+            "137 number is small slanted brass digits at top of recessed black glazed entrance; exact leaf/fixed-panel division partly occluded by person. Circle intercom/camera left of entry on black pier; black ribbed frieze above. Preserve uncertainty until opposite oblique.",
+            "Crispy close: cream panel outlined red bold block letters with dark extrusion/shadow, cartoon chicken red/orange medallion. Orange rectangular inset piers; left entrance open at April capture with silver vertical pull, right two narrow glass panels; red lower menu graphics with food silhouettes, notices on center pier, green neon circular light, black A-frame. No seating or fabric shade observed in visible storefront."
+          ],
+          "unknown": [
+            "Dimensions visually estimated; no surveyed or calibrated acceptance.",
+            "Unseen rear/roof details and exact proprietary artwork remain unknown.",
+            "137 entrance leaf/fixed split remains partly hidden; narrow single operable glazed leaf is an authored interpretation."
+          ]
+        },
+        "cornice": {
+          "profile": "plain",
+          "material": "p01 137 red brick",
+          "y": 14.43,
+          "brackets": 6
+        },
+        "p01Face": {
+          "id": 241822278,
+          "upperBlindFractions": [
+            0.35,
+            0.72,
+            0.0,
+            0.5
+          ],
+          "sourceIds": [
+            "south-elevations",
+            "137-front",
+            "137-sign-entry"
+          ]
+        }
+      }
+    },
+    {
+      "faceId": "241822337:0",
+      "buildingId": 241822337,
+      "frontageIndex": 0,
+      "address": "139 1st Avenue",
+      "sourceFace": {
+        "x": -14.663,
+        "z": 112.321,
+        "rx": -0.0012649322276537646,
+        "rz": -0.9999991999729098,
+        "length": 7.115,
+        "street": "First Avenue"
+      },
+      "buildingHeight": 15.32,
+      "architecture": {
+        "wall": "painted p01 cobalt",
+        "windows": [
+          {
+            "at": 0.115,
+            "width": 0.13211524947294448,
+            "bottom": 4.05,
+            "height": 1.87,
+            "trim": "p01 rose stone",
+            "frame": "black iron",
+            "hood": "segmental",
+            "hoodBacking": true,
+            "rails": [
+              0.48
+            ],
+            "shape": "segmental",
+            "grille": false,
+            "ac": false
+          },
+          {
+            "at": 0.37,
+            "width": 0.13211524947294448,
+            "bottom": 4.05,
+            "height": 1.87,
+            "trim": "p01 rose stone",
+            "frame": "black iron",
+            "hood": "segmental",
+            "hoodBacking": true,
+            "rails": [
+              0.48
+            ],
+            "shape": "segmental",
+            "grille": false,
+            "ac": false
+          },
+          {
+            "at": 0.63,
+            "width": 0.13211524947294448,
+            "bottom": 4.05,
+            "height": 1.87,
+            "trim": "p01 rose stone",
+            "frame": "black iron",
+            "hood": "segmental",
+            "hoodBacking": true,
+            "rails": [
+              0.48
+            ],
+            "shape": "segmental",
+            "grille": false,
+            "ac": false
+          },
+          {
+            "at": 0.885,
+            "width": 0.13211524947294448,
+            "bottom": 4.05,
+            "height": 1.87,
+            "trim": "p01 rose stone",
+            "frame": "black iron",
+            "hood": "segmental",
+            "hoodBacking": true,
+            "rails": [
+              0.48
+            ],
+            "shape": "segmental",
+            "grille": false,
+            "ac": false
+          },
+          {
+            "at": 0.115,
+            "width": 0.13211524947294448,
+            "bottom": 6.67,
+            "height": 1.87,
+            "trim": "p01 rose stone",
+            "frame": "black iron",
+            "hood": "segmental",
+            "hoodBacking": true,
+            "rails": [
+              0.48
+            ],
+            "shape": "segmental",
+            "grille": false,
+            "ac": false
+          },
+          {
+            "at": 0.37,
+            "width": 0.13211524947294448,
+            "bottom": 6.67,
+            "height": 1.87,
+            "trim": "p01 rose stone",
+            "frame": "black iron",
+            "hood": "segmental",
+            "hoodBacking": true,
+            "rails": [
+              0.48
+            ],
+            "shape": "segmental",
+            "grille": false,
+            "ac": false
+          },
+          {
+            "at": 0.63,
+            "width": 0.13211524947294448,
+            "bottom": 6.67,
+            "height": 1.87,
+            "trim": "p01 rose stone",
+            "frame": "black iron",
+            "hood": "segmental",
+            "hoodBacking": true,
+            "rails": [
+              0.48
+            ],
+            "shape": "segmental",
+            "grille": false,
+            "ac": false
+          },
+          {
+            "at": 0.885,
+            "width": 0.13211524947294448,
+            "bottom": 6.67,
+            "height": 1.87,
+            "trim": "p01 rose stone",
+            "frame": "black iron",
+            "hood": "segmental",
+            "hoodBacking": true,
+            "rails": [
+              0.48
+            ],
+            "shape": "segmental",
+            "grille": false,
+            "ac": false
+          },
+          {
+            "at": 0.115,
+            "width": 0.13211524947294448,
+            "bottom": 9.29,
+            "height": 1.87,
+            "trim": "p01 rose stone",
+            "frame": "black iron",
+            "hood": "segmental",
+            "hoodBacking": true,
+            "rails": [
+              0.48
+            ],
+            "shape": "segmental",
+            "grille": false,
+            "ac": true
+          },
+          {
+            "at": 0.37,
+            "width": 0.13211524947294448,
+            "bottom": 9.29,
+            "height": 1.87,
+            "trim": "p01 rose stone",
+            "frame": "black iron",
+            "hood": "segmental",
+            "hoodBacking": true,
+            "rails": [
+              0.48
+            ],
+            "shape": "segmental",
+            "grille": false,
+            "ac": false
+          },
+          {
+            "at": 0.63,
+            "width": 0.13211524947294448,
+            "bottom": 9.29,
+            "height": 1.87,
+            "trim": "p01 rose stone",
+            "frame": "black iron",
+            "hood": "segmental",
+            "hoodBacking": true,
+            "rails": [
+              0.48
+            ],
+            "shape": "segmental",
+            "grille": false,
+            "ac": false
+          },
+          {
+            "at": 0.885,
+            "width": 0.13211524947294448,
+            "bottom": 9.29,
+            "height": 1.87,
+            "trim": "p01 rose stone",
+            "frame": "black iron",
+            "hood": "segmental",
+            "hoodBacking": true,
+            "rails": [
+              0.48
+            ],
+            "shape": "segmental",
+            "grille": false,
+            "ac": false
+          },
+          {
+            "at": 0.115,
+            "width": 0.13211524947294448,
+            "bottom": 11.91,
+            "height": 1.87,
+            "trim": "p01 rose stone",
+            "frame": "black iron",
+            "hood": "segmental",
+            "hoodBacking": true,
+            "rails": [
+              0.48
+            ],
+            "shape": "segmental",
+            "grille": false,
+            "ac": true
+          },
+          {
+            "at": 0.37,
+            "width": 0.13211524947294448,
+            "bottom": 11.91,
+            "height": 1.87,
+            "trim": "p01 rose stone",
+            "frame": "black iron",
+            "hood": "segmental",
+            "hoodBacking": true,
+            "rails": [
+              0.48
+            ],
+            "shape": "segmental",
+            "grille": false,
+            "ac": false
+          },
+          {
+            "at": 0.63,
+            "width": 0.13211524947294448,
+            "bottom": 11.91,
+            "height": 1.87,
+            "trim": "p01 rose stone",
+            "frame": "black iron",
+            "hood": "segmental",
+            "hoodBacking": true,
+            "rails": [
+              0.48
+            ],
+            "shape": "segmental",
+            "grille": false,
+            "ac": false
+          },
+          {
+            "at": 0.885,
+            "width": 0.13211524947294448,
+            "bottom": 11.91,
+            "height": 1.87,
+            "trim": "p01 rose stone",
+            "frame": "black iron",
+            "hood": "segmental",
+            "hoodBacking": true,
+            "rails": [
+              0.48
+            ],
+            "shape": "segmental",
+            "grille": false,
+            "ac": true
+          }
+        ],
+        "doors": [
+          {
+            "at": 0.105,
+            "width": 0.16,
+            "bottom": 0.2,
+            "top": 2.9,
+            "leafTop": 2.42,
+            "material": "store09 dark timber",
+            "trim": "store09 dark timber",
+            "leaves": 2,
+            "recess": 0.28,
+            "panels": [
+              {
+                "y": 0.61,
+                "height": 0.64,
+                "width": 0.76,
+                "glass": true
+              },
+              {
+                "y": 0.13,
+                "height": 0.15,
+                "width": 0.76
+              }
+            ],
+            "hardware": "store09 aged brass",
+            "label": "139",
+            "labelY": 2.29,
+            "labelSize": 0.13,
+            "labelMaterial": "store09 aged brass",
+            "labelDepth": -0.17,
+            "labelPlate": false
+          }
+        ],
+        "returnShops": [
+          {
+            "name": "V-One Nail Spa",
+            "span": [
+              0.22,
+              0.625
+            ],
+            "design": {
+              "top": 3.23,
+              "head": 2.81,
+              "base": 0.27,
+              "recess": 0.2,
+              "panels": [
+                [
+                  "glass",
+                  0.62
+                ],
+                [
+                  "door",
+                  0.38
+                ]
+              ],
+              "transom": false,
+              "signs": [
+                {
+                  "at": 0.5,
+                  "width": 1,
+                  "y": 3.43,
+                  "height": 0.74,
+                  "depth": 0.28,
+                  "material": "store09 black enamel",
+                  "lines": [
+                    {
+                      "text": "V-ONE Nail Spa",
+                      "material": "store09 orange enamel",
+                      "size": 0.481,
+                      "style": "store09:script"
+                    },
+                    {
+                      "text": "139 First Ave",
+                      "size": 0.082,
+                      "y": -0.34,
+                      "material": "store09 orange enamel",
+                      "style": "store09:condensed"
+                    }
+                  ]
+                }
+              ],
+              "detail09": {
+                "frame": "store09 brushed steel",
+                "surround": "store09 brushed steel",
+                "frameWidth": 0.032,
+                "pierWidth": 0.055,
+                "floor": 0.17,
+                "displayDepth": 0.9,
+                "molding": false,
+                "displays": [
+                  {
+                    "kind": "bottles",
+                    "at": 0.47,
+                    "y": 0.71,
+                    "width": 0.2,
+                    "rows": 6,
+                    "count": 6,
+                    "rowStep": 0.19,
+                    "depth": -0.65,
+                    "colors": [
+                      "store09 printed red",
+                      "store09 rose enamel",
+                      "store09 paper",
+                      "store09 purple canvas"
+                    ]
+                  },
+                  {
+                    "kind": "counter",
+                    "at": 0.34,
+                    "y": 0.64,
+                    "width": 0.59,
+                    "depth": -0.53,
+                    "material": "store09 cream enamel"
+                  }
+                ],
+                "furniture": [],
+                "id": "241822337:0:0",
+                "sourceIds": [
+                  "139-front"
+                ],
+                "identity": "Orange handwritten sign on charcoal, slender silver glazing, circular manicure graphics and coral base, visible polish rack and white board.",
+                "kickplate": true,
+                "baseMaterial": "store09 rose enamel"
+              },
+              "detailP01": {
+                "kind": "vone"
+              },
+              "boards": [
+                {
+                  "at": 0.64,
+                  "depth": 1.0,
+                  "height": 1.05,
+                  "width": 0.52,
+                  "frame": "store09 white enamel"
+                }
+              ]
+            }
+          },
+          {
+            "name": "SKWR",
+            "span": [
+              0.635,
+              0.987
+            ],
+            "design": {
+              "top": 3.28,
+              "head": 2.73,
+              "base": 0.32,
+              "recess": 0.2,
+              "panels": [
+                [
+                  "door",
+                  0.29
+                ],
+                [
+                  "glass",
+                  0.71
+                ]
+              ],
+              "transom": false,
+              "signs": [
+                {
+                  "at": 0.5,
+                  "width": 1,
+                  "y": 3.44,
+                  "height": 0.76,
+                  "depth": 0.28,
+                  "material": "store09 sage enamel",
+                  "lines": [
+                    {
+                      "text": "SKWR",
+                      "material": "store09 white enamel",
+                      "size": 0.68,
+                      "style": "store09:bold"
+                    }
+                  ]
+                }
+              ],
+              "detail09": {
+                "frame": "store09 green enamel",
+                "surround": "store09 green enamel",
+                "frameWidth": 0.05,
+                "pierWidth": 0.1,
+                "floor": 0.17,
+                "displayDepth": 0.9,
+                "molding": false,
+                "displays": [
+                  {
+                    "kind": "counter",
+                    "at": 0.64,
+                    "y": 0.96,
+                    "width": 0.59,
+                    "depth": -0.35,
+                    "material": "store09 honey timber"
+                  },
+                  {
+                    "kind": "jars",
+                    "at": 0.64,
+                    "y": 1.03,
+                    "width": 0.57,
+                    "rows": 1,
+                    "count": 9,
+                    "depth": -0.32,
+                    "colors": [
+                      "store09 paper",
+                      "store09 printed red",
+                      "store09 orange enamel"
+                    ]
+                  },
+                  {
+                    "kind": "poster",
+                    "at": 0.55,
+                    "y": 2.25,
+                    "width": 0.35,
+                    "height": 0.42,
+                    "depth": -0.3,
+                    "text": "",
+                    "layout": "grid"
+                  }
+                ],
+                "furniture": [],
+                "id": "241822337:0:1",
+                "sourceIds": [
+                  "139-front",
+                  "141-detail"
+                ],
+                "identity": "Olive green skewer fascia with thick white lettering, narrow left entry, broad right window, violet Open tube and layered counter/menu."
+              },
+              "detailP01": {
+                "kind": "skwr"
+              }
+            }
+          }
+        ],
+        "signs": [],
+        "observedGround": {
+          "replaceWindows": false,
+          "replaceDoors": false
+        },
+        "observation": {
+          "sources": [
+            "south-elevations",
+            "139-front"
+          ],
+          "facts": [
+            "137 has five bays by FOUR upper rows (twenty windows); plain brick parapet, white simple lintels/sills; no front escape. White sash; AC positions at bottom row bays 2,4; second row bays 3,4; third row bay2; top bay5.",
+            "139 CORRECTION to first oblique: FOUR bays by FOUR upper rows (16); blue painted brick, pink/red thin frames/sills, cream vertical edge and cornice band; black ornate bracketed cornice; escape spans middle two bays with four landings/zigzag stairs. No guessed three-bay legacy rhythm.",
+            "137 divisions from left/south: Spirals roughly 41%, residential entry 16%, Crispy Burger 42%. 139 separate residential door left, V-One Nail Spa center, SKWR right; street tree covers 141/143 lower elevations.",
+            "139: separate left brown/dark timber glazed double entrance with small gold 139 above leaves, rectangular light transom and fluted black surrounding pier. V-One center has charcoal/slightly projecting fascia with orange handwritten V-ONE Nail Spa, small 139 First Ave and telephone along lower edge. Shop has silver thin frame, broad left display glass with three circular manicure/foot graphics and coral lower panel, door right, vertical polish-rack-like interior strips; white A-frame on pavement.",
+            "SKWR: olive mottled green rigid fascia with large white heavy sans SKWR over a thin ochre skewer/arrow; tiny 139 1st AVENUE bottom left. Dark green surround, recessed narrow left glass door, broader right window; purple script Open near upper window and counter/menu layers visible inside. Lower part obscured by car here; adjacent position needed. No fabric shade or seats established.",
+            "139 upper windows have shallow curved segmental red lintels, red sills and dark sash; pale cream edge stripe outside pink/red side pilaster. Four bays retained."
+          ],
+          "unknown": [
+            "Dimensions visually estimated; no surveyed or calibrated acceptance.",
+            "Unseen rear/roof details and exact proprietary artwork remain unknown."
+          ]
+        },
+        "cornice": {
+          "profile": "bracketed",
+          "material": "p01 navy cornice",
+          "y": 15.32,
+          "brackets": 6
+        },
+        "escapes": [
+          {
+            "at": 0.5,
+            "width": 0.55,
+            "levels": [
+              3.93,
+              6.55,
+              9.17,
+              11.79
+            ],
+            "material": "black iron"
+          }
+        ],
+        "p01Face": {
+          "id": 241822337,
+          "upperBlindFractions": [
+            0.35,
+            0.72,
+            0.0,
+            0.5
+          ],
+          "sourceIds": [
+            "south-elevations",
+            "139-front"
+          ]
+        }
+      }
+    },
+    {
+      "faceId": "241822304:0",
+      "buildingId": 241822304,
+      "frontageIndex": 0,
+      "address": "141 1st Avenue",
+      "sourceFace": {
+        "x": -14.672,
+        "z": 105.206,
+        "rx": -0.001789439425502915,
+        "rz": -0.9999983989519895,
+        "length": 6.706,
+        "street": "First Avenue"
+      },
+      "buildingHeight": 15.67,
+      "architecture": {
+        "wall": "p01 141 orange brick",
+        "windows": [
+          {
+            "at": 0.115,
+            "width": 0.14017297942141363,
+            "bottom": 4.0,
+            "height": 1.87,
+            "trim": "p01 brown stone",
+            "frame": "black iron",
+            "hood": "segmental",
+            "hoodBacking": true,
+            "rails": [
+              0.48
+            ],
+            "shape": "segmental",
+            "grille": true,
+            "ac": false
+          },
+          {
+            "at": 0.37,
+            "width": 0.14017297942141363,
+            "bottom": 4.0,
+            "height": 1.87,
+            "trim": "p01 brown stone",
+            "frame": "black iron",
+            "hood": "segmental",
+            "hoodBacking": true,
+            "rails": [
+              0.48
+            ],
+            "shape": "segmental",
+            "grille": true,
+            "ac": false
+          },
+          {
+            "at": 0.63,
+            "width": 0.14017297942141363,
+            "bottom": 4.0,
+            "height": 1.87,
+            "trim": "p01 brown stone",
+            "frame": "black iron",
+            "hood": "segmental",
+            "hoodBacking": true,
+            "rails": [
+              0.48
+            ],
+            "shape": "segmental",
+            "grille": true,
+            "ac": false
+          },
+          {
+            "at": 0.885,
+            "width": 0.14017297942141363,
+            "bottom": 4.0,
+            "height": 1.87,
+            "trim": "p01 brown stone",
+            "frame": "black iron",
+            "hood": "segmental",
+            "hoodBacking": true,
+            "rails": [
+              0.48
+            ],
+            "shape": "segmental",
+            "grille": true,
+            "ac": false
+          },
+          {
+            "at": 0.115,
+            "width": 0.14017297942141363,
+            "bottom": 6.7,
+            "height": 1.87,
+            "trim": "p01 brown stone",
+            "frame": "black iron",
+            "hood": "segmental",
+            "hoodBacking": true,
+            "rails": [
+              0.48
+            ],
+            "shape": "segmental",
+            "grille": false,
+            "ac": false
+          },
+          {
+            "at": 0.37,
+            "width": 0.14017297942141363,
+            "bottom": 6.7,
+            "height": 1.87,
+            "trim": "p01 brown stone",
+            "frame": "black iron",
+            "hood": "segmental",
+            "hoodBacking": true,
+            "rails": [
+              0.48
+            ],
+            "shape": "segmental",
+            "grille": false,
+            "ac": false
+          },
+          {
+            "at": 0.63,
+            "width": 0.14017297942141363,
+            "bottom": 6.7,
+            "height": 1.87,
+            "trim": "p01 brown stone",
+            "frame": "black iron",
+            "hood": "segmental",
+            "hoodBacking": true,
+            "rails": [
+              0.48
+            ],
+            "shape": "segmental",
+            "grille": false,
+            "ac": false
+          },
+          {
+            "at": 0.885,
+            "width": 0.14017297942141363,
+            "bottom": 6.7,
+            "height": 1.87,
+            "trim": "p01 brown stone",
+            "frame": "black iron",
+            "hood": "segmental",
+            "hoodBacking": true,
+            "rails": [
+              0.48
+            ],
+            "shape": "segmental",
+            "grille": false,
+            "ac": false
+          },
+          {
+            "at": 0.115,
+            "width": 0.14017297942141363,
+            "bottom": 9.4,
+            "height": 1.87,
+            "trim": "p01 brown stone",
+            "frame": "black iron",
+            "hood": "segmental",
+            "hoodBacking": true,
+            "rails": [
+              0.48
+            ],
+            "shape": "segmental",
+            "grille": false,
+            "ac": true
+          },
+          {
+            "at": 0.37,
+            "width": 0.14017297942141363,
+            "bottom": 9.4,
+            "height": 1.87,
+            "trim": "p01 brown stone",
+            "frame": "black iron",
+            "hood": "segmental",
+            "hoodBacking": true,
+            "rails": [
+              0.48
+            ],
+            "shape": "segmental",
+            "grille": false,
+            "ac": false
+          },
+          {
+            "at": 0.63,
+            "width": 0.14017297942141363,
+            "bottom": 9.4,
+            "height": 1.87,
+            "trim": "p01 brown stone",
+            "frame": "black iron",
+            "hood": "segmental",
+            "hoodBacking": true,
+            "rails": [
+              0.48
+            ],
+            "shape": "segmental",
+            "grille": false,
+            "ac": false
+          },
+          {
+            "at": 0.885,
+            "width": 0.14017297942141363,
+            "bottom": 9.4,
+            "height": 1.87,
+            "trim": "p01 brown stone",
+            "frame": "black iron",
+            "hood": "segmental",
+            "hoodBacking": true,
+            "rails": [
+              0.48
+            ],
+            "shape": "segmental",
+            "grille": false,
+            "ac": false
+          },
+          {
+            "at": 0.115,
+            "width": 0.14017297942141363,
+            "bottom": 12.1,
+            "height": 1.87,
+            "trim": "p01 brown stone",
+            "frame": "black iron",
+            "hood": "segmental",
+            "hoodBacking": true,
+            "rails": [
+              0.48
+            ],
+            "shape": "segmental",
+            "grille": false,
+            "ac": true
+          },
+          {
+            "at": 0.37,
+            "width": 0.14017297942141363,
+            "bottom": 12.1,
+            "height": 1.87,
+            "trim": "p01 brown stone",
+            "frame": "black iron",
+            "hood": "segmental",
+            "hoodBacking": true,
+            "rails": [
+              0.48
+            ],
+            "shape": "segmental",
+            "grille": false,
+            "ac": false
+          },
+          {
+            "at": 0.63,
+            "width": 0.14017297942141363,
+            "bottom": 12.1,
+            "height": 1.87,
+            "trim": "p01 brown stone",
+            "frame": "black iron",
+            "hood": "segmental",
+            "hoodBacking": true,
+            "rails": [
+              0.48
+            ],
+            "shape": "segmental",
+            "grille": false,
+            "ac": false
+          },
+          {
+            "at": 0.885,
+            "width": 0.14017297942141363,
+            "bottom": 12.1,
+            "height": 1.87,
+            "trim": "p01 brown stone",
+            "frame": "black iron",
+            "hood": "segmental",
+            "hoodBacking": true,
+            "rails": [
+              0.48
+            ],
+            "shape": "segmental",
+            "grille": false,
+            "ac": false
+          }
+        ],
+        "doors": [
+          {
+            "at": 0.105,
+            "width": 0.17,
+            "bottom": 0.2,
+            "top": 3.06,
+            "leafTop": 2.42,
+            "material": "store09 black enamel",
+            "trim": "store09 black enamel",
+            "leaves": 1,
+            "recess": 0.28,
+            "panels": [
+              {
+                "y": 0.61,
+                "height": 0.64,
+                "width": 0.76,
+                "glass": true
+              },
+              {
+                "y": 0.13,
+                "height": 0.15,
+                "width": 0.76
+              }
+            ],
+            "hardware": "store09 aged brass"
+          }
+        ],
+        "returnShops": [
+          {
+            "name": "Kikoo",
+            "span": [
+              0.225,
+              0.987
+            ],
+            "design": {
+              "top": 3.48,
+              "head": 2.86,
+              "base": 0.23,
+              "recess": 0.2,
+              "panels": [
+                [
+                  "door",
+                  0.18
+                ],
+                [
+                  "glass",
+                  0.265
+                ],
+                [
+                  "glass",
+                  0.265
+                ],
+                [
+                  "glass",
+                  0.29
+                ]
+              ],
+              "transom": false,
+              "signs": [
+                {
+                  "at": 0.5,
+                  "width": 1,
+                  "y": 3.5,
+                  "height": 0.78,
+                  "depth": 0.28,
+                  "material": "store09 black enamel",
+                  "lines": [
+                    {
+                      "text": "",
+                      "material": "store09 white enamel",
+                      "size": 0.507,
+                      "style": "store09:bold"
+                    }
+                  ]
+                }
+              ],
+              "detail09": {
+                "frame": "p01 bronze frame",
+                "surround": "p01 bronze frame",
+                "frameWidth": 0.035,
+                "pierWidth": 0.06,
+                "floor": 0.17,
+                "displayDepth": 1.25,
+                "molding": false,
+                "displays": [
+                  {
+                    "kind": "poster",
+                    "at": 0.17,
+                    "y": 2.05,
+                    "width": 0.29,
+                    "height": 0.76,
+                    "text": "",
+                    "depth": -0.19,
+                    "material": "store09 dark timber",
+                    "ink": "store09 paper"
+                  },
+                  {
+                    "kind": "poster",
+                    "at": 0.57,
+                    "y": 2.02,
+                    "width": 0.38,
+                    "height": 0.82,
+                    "text": "",
+                    "depth": -0.15,
+                    "layout": "grid",
+                    "material": "store09 paper"
+                  },
+                  {
+                    "kind": "counter",
+                    "at": 0.67,
+                    "y": 0.72,
+                    "width": 0.5,
+                    "depth": -0.95,
+                    "material": "store09 dark timber"
+                  }
+                ],
+                "furniture": [
+                  {
+                    "kind": "chair",
+                    "at": 0.39,
+                    "depth": -0.53,
+                    "material": "store09 cream enamel",
+                    "profile": "slat",
+                    "yaw": 0
+                  },
+                  {
+                    "kind": "chair",
+                    "at": 0.58,
+                    "depth": -0.53,
+                    "material": "store09 cream enamel",
+                    "profile": "slat",
+                    "yaw": 0
+                  },
+                  {
+                    "kind": "chair",
+                    "at": 0.78,
+                    "depth": -0.53,
+                    "material": "store09 cream enamel",
+                    "profile": "slat",
+                    "yaw": 0
+                  },
+                  {
+                    "kind": "chair",
+                    "at": 0.93,
+                    "depth": -0.53,
+                    "material": "store09 cream enamel",
+                    "profile": "slat",
+                    "yaw": 0
+                  }
+                ],
+                "id": "241822304:0:0",
+                "sourceIds": [
+                  "141-detail",
+                  "141-143-april-shops"
+                ],
+                "identity": "Long dark restaurant fascia with hand-shaped white Kikoo/sushi-bowl mark, fine bronze glazing, cool blue vertical tubes and readable-depth menu/chair layers.",
+                "baseMaterial": "store09 cream enamel"
+              },
+              "detailP01": {
+                "kind": "kikoo"
+              }
+            }
+          }
+        ],
+        "signs": [
+          {
+            "at": 0.105,
+            "width": 0.2,
+            "y": 3.45,
+            "height": 0.4,
+            "depth": 0.22,
+            "material": "store09 black enamel",
+            "lines": [
+              {
+                "text": "141",
+                "material": "store09 paper",
+                "size": 0.16,
+                "style": "store09:condensed"
+              }
+            ]
+          }
+        ],
+        "observedGround": {
+          "replaceWindows": false,
+          "replaceDoors": false
+        },
+        "observation": {
+          "sources": [
+            "141-143-older-elevations",
+            "141-detail",
+            "141-143-april-shops"
+          ],
+          "facts": [
+            "SEPTEMBER 2024 supplementary upper-elevation view, not target business date. 141: orange-red brick, FOUR bays x FOUR upper rows, rounded segmental brick hoods with shallow stone/sandstone edges; brown/olive ornate bracketed cornice; dark brown/olive escape center two bays, four landings, zigzag stairs; lower row security bars. 143: red brick, FOUR bays x FOUR upper rows, dark stone layered rectangular hoods/sills; broad worn dark cornice decorated recessed panels and long ornament; black escape center two bays. Leafy trees obscure lower facade.",
+            "Business sign discrepancy: this older view has Paquitos left and Smart Smokers right at 143; cannot infer October 2026 identity from these pixels. Need target-date reinspection.",
+            "Kikoo close: 141 appears in pale condensed digits on black fascia centered over the separate south residential door/transom. Dark black timber leaf sits back, wide glazed upper part and solid bottom; rounded black light fitting under transom. Shop restaurant glass has brass-gray fine mullions; left entrance then wide window divisions, repeated vertical blue LED tubes, dark chalk/price panel at left, pale aqua/white sushi-photo menu blocks toward middle, small pale chairs at bottom. White irregular Kikoo wordmark incorporates red/yellow sushi bowl dot; lower white strip reads ALL YOU CAN EAT SUSHI SASHIMI. Fine logo stroke and tiny menu text not fully legible through tree.",
+            "SKWR adjacent close confirms fascia uses a thin ochre horizontal skewer behind thick white letters. Purple Open script on upper broad window; narrow left entry with top transom, posted notices; interior warm counter and red/cream package rows rather than opaque generic glass. SUV hides lower pane in this position.",
+            "APRIL 2026 resolves tenant change: 143 SOUTH unit retains PAQUITOS raised narrow red lettering with a yellow/red sombrero motif on dark fascia; separate central residential entrance; NORTH unit is BANSHEE, replacing Smart Smokers. Banshee has deep rounded burgundy/cream vertically striped canopy with small scalloped valance, dark green/black wood surround, white BANSHEE on glazed pane, projecting circular Guinness sign above canopy, wall light, doorway recess and layered notices. Do NOT render Smart Smokers from September 2024.",
+            "141 Kikoo: independent dark residential entrance at south/left with 141 in small pale digits on black fascia above transom. Restaurant right spans most front with very thin dark/brass metal glazing, near-left restaurant entrance and broad divided front panes; black fascia carries white irregular Kikoo sushi-bowl logo and small pale strip reading ALL YOU CAN EAT SUSHI SASHIMI. Vertical blue window light strips, multi-color menu/price poster panels, pale chairs just inside glass. Tree hides portions of sign; supplementary close source required for exact logo.",
+            "143 Paquitos: deep dark framed glass, small red folding chair/low table outside; low menu board by frontage. Central doorway black/glazed with light intercom left. North Banshee curb tree separate from tree before Kikoo. No assigned facade beyond north Banshee party-wall included."
+          ],
+          "unknown": [
+            "Dimensions visually estimated; no surveyed or calibrated acceptance.",
+            "Unseen rear/roof details and exact proprietary artwork remain unknown."
+          ]
+        },
+        "cornice": {
+          "profile": "bracketed",
+          "material": "p01 brown stone",
+          "y": 15.67,
+          "brackets": 6
+        },
+        "escapes": [
+          {
+            "at": 0.5,
+            "width": 0.55,
+            "levels": [
+              3.88,
+              6.58,
+              9.28,
+              11.98
+            ],
+            "material": "first olive trim"
+          }
+        ],
+        "p01Face": {
+          "id": 241822304,
+          "upperBlindFractions": [
+            0.35,
+            0.72,
+            0.0,
+            0.5
+          ],
+          "sourceIds": [
+            "141-143-older-elevations",
+            "141-detail",
+            "141-143-april-shops"
+          ]
+        }
+      }
+    },
+    {
+      "faceId": "241822211:0",
+      "buildingId": 241822211,
+      "frontageIndex": 0,
+      "address": "143 1st Avenue",
+      "sourceFace": {
+        "x": -14.684,
+        "z": 98.5,
+        "rx": -0.001657227388699549,
+        "rz": -0.9999986267977482,
+        "length": 7.241,
+        "street": "First Avenue"
+      },
+      "buildingHeight": 15.18,
+      "architecture": {
+        "wall": "p01 143 red brick",
+        "windows": [
+          {
+            "at": 0.115,
+            "width": 0.12981632371219445,
+            "bottom": 3.96,
+            "height": 1.85,
+            "trim": "p01 dark stone",
+            "frame": "black iron",
+            "hood": "bracketed",
+            "hoodBacking": false,
+            "rails": [
+              0.48
+            ],
+            "shape": "rectangle",
+            "grille": true,
+            "ac": false
+          },
+          {
+            "at": 0.37,
+            "width": 0.12981632371219445,
+            "bottom": 3.96,
+            "height": 1.85,
+            "trim": "p01 dark stone",
+            "frame": "black iron",
+            "hood": "bracketed",
+            "hoodBacking": false,
+            "rails": [
+              0.48
+            ],
+            "shape": "rectangle",
+            "grille": true,
+            "ac": false
+          },
+          {
+            "at": 0.63,
+            "width": 0.12981632371219445,
+            "bottom": 3.96,
+            "height": 1.85,
+            "trim": "p01 dark stone",
+            "frame": "black iron",
+            "hood": "bracketed",
+            "hoodBacking": false,
+            "rails": [
+              0.48
+            ],
+            "shape": "rectangle",
+            "grille": true,
+            "ac": false
+          },
+          {
+            "at": 0.885,
+            "width": 0.12981632371219445,
+            "bottom": 3.96,
+            "height": 1.85,
+            "trim": "p01 dark stone",
+            "frame": "black iron",
+            "hood": "bracketed",
+            "hoodBacking": false,
+            "rails": [
+              0.48
+            ],
+            "shape": "rectangle",
+            "grille": true,
+            "ac": true
+          },
+          {
+            "at": 0.115,
+            "width": 0.12981632371219445,
+            "bottom": 6.57,
+            "height": 1.85,
+            "trim": "p01 dark stone",
+            "frame": "black iron",
+            "hood": "bracketed",
+            "hoodBacking": false,
+            "rails": [
+              0.48
+            ],
+            "shape": "rectangle",
+            "grille": false,
+            "ac": false
+          },
+          {
+            "at": 0.37,
+            "width": 0.12981632371219445,
+            "bottom": 6.57,
+            "height": 1.85,
+            "trim": "p01 dark stone",
+            "frame": "black iron",
+            "hood": "bracketed",
+            "hoodBacking": false,
+            "rails": [
+              0.48
+            ],
+            "shape": "rectangle",
+            "grille": false,
+            "ac": false
+          },
+          {
+            "at": 0.63,
+            "width": 0.12981632371219445,
+            "bottom": 6.57,
+            "height": 1.85,
+            "trim": "p01 dark stone",
+            "frame": "black iron",
+            "hood": "bracketed",
+            "hoodBacking": false,
+            "rails": [
+              0.48
+            ],
+            "shape": "rectangle",
+            "grille": false,
+            "ac": false
+          },
+          {
+            "at": 0.885,
+            "width": 0.12981632371219445,
+            "bottom": 6.57,
+            "height": 1.85,
+            "trim": "p01 dark stone",
+            "frame": "black iron",
+            "hood": "bracketed",
+            "hoodBacking": false,
+            "rails": [
+              0.48
+            ],
+            "shape": "rectangle",
+            "grille": false,
+            "ac": false
+          },
+          {
+            "at": 0.115,
+            "width": 0.12981632371219445,
+            "bottom": 9.18,
+            "height": 1.85,
+            "trim": "p01 dark stone",
+            "frame": "black iron",
+            "hood": "bracketed",
+            "hoodBacking": false,
+            "rails": [
+              0.48
+            ],
+            "shape": "rectangle",
+            "grille": false,
+            "ac": true
+          },
+          {
+            "at": 0.37,
+            "width": 0.12981632371219445,
+            "bottom": 9.18,
+            "height": 1.85,
+            "trim": "p01 dark stone",
+            "frame": "black iron",
+            "hood": "bracketed",
+            "hoodBacking": false,
+            "rails": [
+              0.48
+            ],
+            "shape": "rectangle",
+            "grille": false,
+            "ac": false
+          },
+          {
+            "at": 0.63,
+            "width": 0.12981632371219445,
+            "bottom": 9.18,
+            "height": 1.85,
+            "trim": "p01 dark stone",
+            "frame": "black iron",
+            "hood": "bracketed",
+            "hoodBacking": false,
+            "rails": [
+              0.48
+            ],
+            "shape": "rectangle",
+            "grille": false,
+            "ac": false
+          },
+          {
+            "at": 0.885,
+            "width": 0.12981632371219445,
+            "bottom": 9.18,
+            "height": 1.85,
+            "trim": "p01 dark stone",
+            "frame": "black iron",
+            "hood": "bracketed",
+            "hoodBacking": false,
+            "rails": [
+              0.48
+            ],
+            "shape": "rectangle",
+            "grille": false,
+            "ac": false
+          },
+          {
+            "at": 0.115,
+            "width": 0.12981632371219445,
+            "bottom": 11.79,
+            "height": 1.85,
+            "trim": "p01 dark stone",
+            "frame": "black iron",
+            "hood": "bracketed",
+            "hoodBacking": false,
+            "rails": [
+              0.48
+            ],
+            "shape": "rectangle",
+            "grille": false,
+            "ac": false
+          },
+          {
+            "at": 0.37,
+            "width": 0.12981632371219445,
+            "bottom": 11.79,
+            "height": 1.85,
+            "trim": "p01 dark stone",
+            "frame": "black iron",
+            "hood": "bracketed",
+            "hoodBacking": false,
+            "rails": [
+              0.48
+            ],
+            "shape": "rectangle",
+            "grille": false,
+            "ac": false
+          },
+          {
+            "at": 0.63,
+            "width": 0.12981632371219445,
+            "bottom": 11.79,
+            "height": 1.85,
+            "trim": "p01 dark stone",
+            "frame": "black iron",
+            "hood": "bracketed",
+            "hoodBacking": false,
+            "rails": [
+              0.48
+            ],
+            "shape": "rectangle",
+            "grille": false,
+            "ac": false
+          },
+          {
+            "at": 0.885,
+            "width": 0.12981632371219445,
+            "bottom": 11.79,
+            "height": 1.85,
+            "trim": "p01 dark stone",
+            "frame": "black iron",
+            "hood": "bracketed",
+            "hoodBacking": false,
+            "rails": [
+              0.48
+            ],
+            "shape": "rectangle",
+            "grille": false,
+            "ac": true
+          }
+        ],
+        "doors": [
+          {
+            "at": 0.55,
+            "width": 0.135,
+            "bottom": 0.2,
+            "top": 2.94,
+            "leafTop": 2.42,
+            "material": "store09 black enamel",
+            "trim": "store09 black enamel",
+            "leaves": 1,
+            "recess": 0.28,
+            "panels": [
+              {
+                "y": 0.61,
+                "height": 0.64,
+                "width": 0.76,
+                "glass": true
+              },
+              {
+                "y": 0.13,
+                "height": 0.15,
+                "width": 0.76
+              }
+            ],
+            "hardware": "store09 aged brass"
+          }
+        ],
+        "returnShops": [
+          {
+            "name": "Paquitos",
+            "span": [
+              0.025,
+              0.465
+            ],
+            "design": {
+              "top": 3.24,
+              "head": 2.7,
+              "base": 0.3,
+              "recess": 0.2,
+              "panels": [
+                [
+                  "glass",
+                  0.34
+                ],
+                [
+                  "glass",
+                  0.31
+                ],
+                [
+                  "door",
+                  0.35
+                ]
+              ],
+              "transom": false,
+              "signs": [
+                {
+                  "at": 0.5,
+                  "width": 1,
+                  "y": 3.47,
+                  "height": 0.74,
+                  "depth": 0.28,
+                  "material": "store09 black enamel",
+                  "lines": [
+                    {
+                      "text": "PAQUITOS",
+                      "material": "store09 printed red",
+                      "size": 0.72,
+                      "style": "store09:narrow",
+                      "y": -0.07
+                    }
+                  ]
+                }
+              ],
+              "detail09": {
+                "frame": "store09 dark iron",
+                "surround": "store09 dark iron",
+                "frameWidth": 0.05,
+                "pierWidth": 0.1,
+                "floor": 0.17,
+                "displayDepth": 0.9,
+                "molding": false,
+                "displays": [
+                  {
+                    "kind": "counter",
+                    "at": 0.33,
+                    "y": 0.83,
+                    "width": 0.62,
+                    "depth": -0.5,
+                    "material": "store09 dark timber"
+                  },
+                  {
+                    "kind": "poster",
+                    "at": 0.9,
+                    "y": 1.5,
+                    "width": 0.08,
+                    "height": 0.24,
+                    "depth": 0.12,
+                    "text": "A",
+                    "material": "store09 paper"
+                  }
+                ],
+                "furniture": [
+                  {
+                    "kind": "chair",
+                    "at": 0.87,
+                    "depth": 0.85,
+                    "material": "store09 red enamel",
+                    "profile": "slat",
+                    "yaw": -0.16
+                  }
+                ],
+                "id": "241822211:0:0",
+                "sourceIds": [
+                  "143-detail"
+                ],
+                "identity": "Narrow red dimensional PAQUITOS/sombrero fascia on dark olive, divided low glass, a red folding chair and low blue pavement menu."
+              },
+              "detailP01": {
+                "kind": "paquitos"
+              },
+              "boards": [
+                {
+                  "at": 0.51,
+                  "depth": 0.91,
+                  "height": 0.72,
+                  "width": 0.64,
+                  "frame": "store09 navy enamel"
+                }
+              ]
+            }
+          },
+          {
+            "name": "Banshee",
+            "span": [
+              0.65,
+              0.985
+            ],
+            "design": {
+              "top": 3.17,
+              "head": 2.66,
+              "base": 0.39,
+              "recess": 0.2,
+              "panels": [
+                [
+                  "door",
+                  0.3
+                ],
+                [
+                  "glass",
+                  0.7
+                ]
+              ],
+              "transom": false,
+              "signs": [],
+              "detail09": {
+                "frame": "store09 green enamel",
+                "surround": "store09 green enamel",
+                "frameWidth": 0.067,
+                "pierWidth": 0.11,
+                "floor": 0.17,
+                "displayDepth": 0.9,
+                "molding": true,
+                "displays": [
+                  {
+                    "kind": "poster",
+                    "at": 0.15,
+                    "y": 1.66,
+                    "width": 0.065,
+                    "height": 0.16,
+                    "depth": 0.11,
+                    "text": "",
+                    "material": "store09 paper"
+                  },
+                  {
+                    "kind": "counter",
+                    "at": 0.67,
+                    "y": 0.82,
+                    "width": 0.57,
+                    "depth": -0.57,
+                    "material": "store09 dark timber"
+                  }
+                ],
+                "furniture": [],
+                "id": "241822211:0:1",
+                "sourceIds": [
+                  "143-detail",
+                  "141-143-april-shops"
+                ],
+                "identity": "Dark green timber pub, deep burgundy/ivory quarter-round striped canopy with scalloped hem, white window name and oval Guinness blade.",
+                "baseMaterial": "store09 green enamel",
+                "doorSolidTop": 0.36,
+                "hardware": "store09 aged brass"
+              },
+              "detailP01": {
+                "kind": "banshee"
+              },
+              "awning": {
+                "detail09": true,
+                "shape": "round",
+                "y": 3.79,
+                "drop": 0.73,
+                "depth": 1.16,
+                "valance": 0.17,
+                "material": "store09 maroon canvas",
+                "stripe": "store09 cream canvas",
+                "stripeSpacing": 0.23,
+                "stripeWidth": 0.115,
+                "scalloped": true,
+                "sidePanels": true,
+                "text": ""
+              },
+              "windowText": [
+                {
+                  "text": "BANSHEE",
+                  "at": 0.64,
+                  "y": 1.95,
+                  "width": 0.59,
+                  "size": 0.16,
+                  "material": "store09 paper",
+                  "style": "store09:serif"
+                }
+              ]
+            }
+          }
+        ],
+        "signs": [],
+        "observedGround": {
+          "replaceWindows": false,
+          "replaceDoors": false
+        },
+        "observation": {
+          "sources": [
+            "141-143-older-elevations",
+            "141-143-april-shops",
+            "143-detail"
+          ],
+          "facts": [
+            "SEPTEMBER 2024 supplementary upper-elevation view, not target business date. 141: orange-red brick, FOUR bays x FOUR upper rows, rounded segmental brick hoods with shallow stone/sandstone edges; brown/olive ornate bracketed cornice; dark brown/olive escape center two bays, four landings, zigzag stairs; lower row security bars. 143: red brick, FOUR bays x FOUR upper rows, dark stone layered rectangular hoods/sills; broad worn dark cornice decorated recessed panels and long ornament; black escape center two bays. Leafy trees obscure lower facade.",
+            "Business sign discrepancy: this older view has Paquitos left and Smart Smokers right at 143; cannot infer October 2026 identity from these pixels. Need target-date reinspection.",
+            "APRIL 2026 resolves tenant change: 143 SOUTH unit retains PAQUITOS raised narrow red lettering with a yellow/red sombrero motif on dark fascia; separate central residential entrance; NORTH unit is BANSHEE, replacing Smart Smokers. Banshee has deep rounded burgundy/cream vertically striped canopy with small scalloped valance, dark green/black wood surround, white BANSHEE on glazed pane, projecting circular Guinness sign above canopy, wall light, doorway recess and layered notices. Do NOT render Smart Smokers from September 2024.",
+            "141 Kikoo: independent dark residential entrance at south/left with 141 in small pale digits on black fascia above transom. Restaurant right spans most front with very thin dark/brass metal glazing, near-left restaurant entrance and broad divided front panes; black fascia carries white irregular Kikoo sushi-bowl logo and small pale strip reading ALL YOU CAN EAT SUSHI SASHIMI. Vertical blue window light strips, multi-color menu/price poster panels, pale chairs just inside glass. Tree hides portions of sign; supplementary close source required for exact logo.",
+            "143 Paquitos: deep dark framed glass, small red folding chair/low table outside; low menu board by frontage. Central doorway black/glazed with light intercom left. North Banshee curb tree separate from tree before Kikoo. No assigned facade beyond north Banshee party-wall included.",
+            "Paquitos: narrow red rounded condensed uppercase PAQUITOS with thick extruded shadow and a small ochre sombrero/red band centered above Q/U area; long dark gray/olive rigid fascia across south unit. Lower narrow-glazed multi-pane shop, pale gray threshold/stall base, interior chair/counter silhouettes; red metal folding chair beside low blue menu board at right. No exterior dining enclosure/umbrella seen.",
+            "143 central residential entry: dark timber surround, deep narrow glazed leaf with black paneled bottom; pale side/intercom mounting to left and metallic rectangular intercom on side of recess. Current door number not legibly resolved; keep unknown rather than adding universal number strip from old image.",
+            "Banshee: projecting quarter-round canopy, alternating burgundy/ivory longitudinal stripes (~0.11m each visually estimated), short scalloped hem, curved side cheeks and visible dark supports. Dark green/black painted timber frame, left inset entry and right broad pane with white BANSHEE at middle; transom under canopy, lower pane and dark stall base. Circular black Guinness blade above north edge with pale serif lettering, small gold harp graphic and red lower accent. Warm small wall lamp just beyond canopy edge. Pale posted notices on door/pier, exact text unreadable. No Banshee tables established; tree/pedestrians/vehicle obscure lower curb. Source remains April 2026, independent of old Smart Smokers."
+          ],
+          "unknown": [
+            "Dimensions visually estimated; no surveyed or calibrated acceptance.",
+            "Unseen rear/roof details and exact proprietary artwork remain unknown."
+          ]
+        },
+        "cornice": {
+          "profile": "bracketed",
+          "material": "p01 dark stone",
+          "y": 15.18,
+          "brackets": 4
+        },
+        "escapes": [
+          {
+            "at": 0.5,
+            "width": 0.55,
+            "levels": [
+              3.84,
+              6.45,
+              9.06,
+              11.67
+            ],
+            "material": "black iron"
+          }
+        ],
+        "p01Face": {
+          "id": 241822211,
+          "upperBlindFractions": [
+            0.35,
+            0.72,
+            0.0,
+            0.5
+          ],
+          "sourceIds": [
+            "141-143-older-elevations",
+            "141-143-april-shops",
+            "143-detail"
+          ]
+        }
+      }
+    }
+  ],
+  "businesses": [
+    {
+      "id": "241822278:0:0",
+      "faceId": "241822278:0",
+      "name": "Spirals",
+      "span": [
+        0.02,
+        0.415
+      ],
+      "identity": "Powder-blue framed bakery, white/ochre italic serif fascia, separate black lamp housing, broad left window and narrow right leaf.",
+      "sourceIds": [
+        "137-front",
+        "137-sign-entry"
+      ],
+      "targetCapture": "2026-04",
+      "component": "spirals",
+      "reviewState": "authored, served-game review pending",
+      "unknown": [
+        "Exact proprietary letterforms and micrographic artwork are approximated with authored shapes and licensed fonts.",
+        "Unreadable menu/notice copy remains abstract marks; no invented legible text.",
+        "Hidden interiors are not reconstructed; only observed near-window layers."
+      ]
+    },
+    {
+      "id": "241822278:0:1",
+      "faceId": "241822278:0",
+      "name": "Crispy Burger",
+      "span": [
+        0.585,
+        0.985
+      ],
+      "identity": "Orange paneled piers, cream/red chunky fascia and chicken medallion, open recessed left entry, red lower food collage and green neon.",
+      "sourceIds": [
+        "137-front",
+        "137-sign-entry"
+      ],
+      "targetCapture": "2026-04",
+      "component": "crispy",
+      "reviewState": "authored, served-game review pending",
+      "unknown": [
+        "Exact proprietary letterforms and micrographic artwork are approximated with authored shapes and licensed fonts.",
+        "Unreadable menu/notice copy remains abstract marks; no invented legible text.",
+        "Hidden interiors are not reconstructed; only observed near-window layers."
+      ]
+    },
+    {
+      "id": "241822337:0:0",
+      "faceId": "241822337:0",
+      "name": "V-One Nail Spa",
+      "span": [
+        0.22,
+        0.625
+      ],
+      "identity": "Orange handwritten sign on charcoal, slender silver glazing, circular manicure graphics and coral base, visible polish rack and white board.",
+      "sourceIds": [
+        "139-front"
+      ],
+      "targetCapture": "2026-04",
+      "component": "vone",
+      "reviewState": "authored, served-game review pending",
+      "unknown": [
+        "Exact proprietary letterforms and micrographic artwork are approximated with authored shapes and licensed fonts.",
+        "Unreadable menu/notice copy remains abstract marks; no invented legible text.",
+        "Hidden interiors are not reconstructed; only observed near-window layers."
+      ]
+    },
+    {
+      "id": "241822337:0:1",
+      "faceId": "241822337:0",
+      "name": "SKWR",
+      "span": [
+        0.635,
+        0.987
+      ],
+      "identity": "Olive green skewer fascia with thick white lettering, narrow left entry, broad right window, violet Open tube and layered counter/menu.",
+      "sourceIds": [
+        "139-front",
+        "141-detail"
+      ],
+      "targetCapture": "2026-04",
+      "component": "skwr",
+      "reviewState": "authored, served-game review pending",
+      "unknown": [
+        "Exact proprietary letterforms and micrographic artwork are approximated with authored shapes and licensed fonts.",
+        "Unreadable menu/notice copy remains abstract marks; no invented legible text.",
+        "Hidden interiors are not reconstructed; only observed near-window layers."
+      ]
+    },
+    {
+      "id": "241822304:0:0",
+      "faceId": "241822304:0",
+      "name": "Kikoo",
+      "span": [
+        0.225,
+        0.987
+      ],
+      "identity": "Long dark restaurant fascia with hand-shaped white Kikoo/sushi-bowl mark, fine bronze glazing, cool blue vertical tubes and readable-depth menu/chair layers.",
+      "sourceIds": [
+        "141-detail",
+        "141-143-april-shops"
+      ],
+      "targetCapture": "2026-04",
+      "component": "kikoo",
+      "reviewState": "authored, served-game review pending",
+      "unknown": [
+        "Exact proprietary letterforms and micrographic artwork are approximated with authored shapes and licensed fonts.",
+        "Unreadable menu/notice copy remains abstract marks; no invented legible text.",
+        "Hidden interiors are not reconstructed; only observed near-window layers."
+      ]
+    },
+    {
+      "id": "241822211:0:0",
+      "faceId": "241822211:0",
+      "name": "Paquitos",
+      "span": [
+        0.025,
+        0.465
+      ],
+      "identity": "Narrow red dimensional PAQUITOS/sombrero fascia on dark olive, divided low glass, a red folding chair and low blue pavement menu.",
+      "sourceIds": [
+        "143-detail"
+      ],
+      "targetCapture": "2026-04",
+      "component": "paquitos",
+      "reviewState": "authored, served-game review pending",
+      "unknown": [
+        "Exact proprietary letterforms and micrographic artwork are approximated with authored shapes and licensed fonts.",
+        "Unreadable menu/notice copy remains abstract marks; no invented legible text.",
+        "Hidden interiors are not reconstructed; only observed near-window layers."
+      ]
+    },
+    {
+      "id": "241822211:0:1",
+      "faceId": "241822211:0",
+      "name": "Banshee",
+      "span": [
+        0.65,
+        0.985
+      ],
+      "identity": "Dark green timber pub, deep burgundy/ivory quarter-round striped canopy with scalloped hem, white window name and oval Guinness blade.",
+      "sourceIds": [
+        "143-detail",
+        "141-143-april-shops"
+      ],
+      "targetCapture": "2026-04",
+      "component": "banshee",
+      "reviewState": "authored, served-game review pending",
+      "unknown": [
+        "Exact proprietary letterforms and micrographic artwork are approximated with authored shapes and licensed fonts.",
+        "Unreadable menu/notice copy remains abstract marks; no invented legible text.",
+        "Hidden interiors are not reconstructed; only observed near-window layers."
+      ]
+    }
+  ],
+  "sourceLedger": "model-source/east-village-p01/observations.json",
+  "limits": "Authored dimensional/font/artwork estimates; source evidence and served-game review are separate. No source photographic pixels distributed."
+}

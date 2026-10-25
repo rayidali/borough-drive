@@ -1,0 +1,56 @@
+{
+  "conditions": "One local game tab; unthrottled CPU/network; focus emulated. Cold means browser network cache disabled, not an OS/GPU/WASM-cache reset. Warm enables browser cache; localhost response headers are recorded. Raw first-drive intervals retained.",
+  "sourcePck": "8da68329347228060231d47f46e80c9d6233b6afb0469fd43611bdc83204b1d0",
+  "candidatePck": "c8df3784f3bb0d38b4c4d55e8064fc2781bfc336b9443fbde4b42ac5469724dc",
+  "samplesPerCondition": 5,
+  "conditionsCompared": [
+    {
+      "cacheDisabled": true,
+      "controlMs": [
+        5863.199999988079,
+        5877.799999952316,
+        6086.399999976158,
+        6676.799999952316,
+        7096.800000011921
+      ],
+      "candidateMs": [
+        5943.699999988079,
+        6156.800000011921,
+        6192.700000047684,
+        6221.699999988079,
+        6304.699999988079
+      ],
+      "controlMedianMs": 6086.399999976158,
+      "candidateMedianMs": 6192.700000047684,
+      "controlP95Ms": 7096.800000011921,
+      "candidateP95Ms": 6304.699999988079,
+      "medianGatePassed": true,
+      "p95GatePassed": true
+    },
+    {
+      "cacheDisabled": false,
+      "controlMs": [
+        6635.699999988079,
+        6712,
+        6971.300000011921,
+        7335,
+        7977.5
+      ],
+      "candidateMs": [
+        6210.699999988079,
+        6246.600000023842,
+        6862.400000035763,
+        7000.800000011921,
+        7622.700000047684
+      ],
+      "controlMedianMs": 6971.300000011921,
+      "candidateMedianMs": 6862.400000035763,
+      "controlP95Ms": 7977.5,
+      "candidateP95Ms": 7622.700000047684,
+      "medianGatePassed": true,
+      "p95GatePassed": true
+    }
+  ],
+  "passed": true,
+  "note": "p95 is the maximum of five samples; warm enables cache but local server transfers all bodies, so this is not an immutable-cache/CDN benchmark."
+}

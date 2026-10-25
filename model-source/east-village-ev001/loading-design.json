@@ -1,0 +1,4763 @@
+{
+  "schema": 1,
+  "session": "EV-001",
+  "state": "design only; EV-002 browser implementation not started",
+  "baselineCommit": "a2a90a3e08540e15f40e0ede0f8af14921f54675",
+  "packageSha256": "8da68329347228060231d47f46e80c9d6233b6afb0469fd43611bdc83204b1d0",
+  "chosenArchitecture": "Shared bootstrap PCK plus hash-addressed same-engine imported binary PackedScene files, fetched and loaded by building; no runtime GLB conversion or mounted per-area PCKs.",
+  "compiledSceneSource": "Godot 4.7.2 imported .scn cache; all 203 match the reviewed PCK bytes",
+  "sharedPayloadCensusBytes": 7897605,
+  "sharedPckTargetMiB": 12,
+  "sharedPckProofGateMiB": 16,
+  "absoluteTrackedFileCapMiB": 100,
+  "perSceneInitialGateMiB": 8,
+  "externalAssets": [
+    {
+      "buildingId": -177966,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building--177966.glb",
+      "importedPath": ".godot/imported/building--177966.glb-256a8d1ef123dfe31f32b62da81b912d.scn",
+      "bytes": 1028421,
+      "sha256": "d941122ae86e943544417d6ac8b424629a305f5b8b8fcd696291d67a50b866f2",
+      "glbSha256": "78aeec50b54ae2e4e342a157ff406670356704ba886e67ec2770c997d2f7cc98",
+      "proposedURL": "/seventh/areas/assets/d941122ae86e943544417d6ac8b424629a305f5b8b8fcd696291d67a50b866f2.scn",
+      "runtimePosition": [
+        -75.57949829101562,
+        0,
+        -21.785507202148438
+      ],
+      "footprintBox": [
+        -83.222,
+        -34.452,
+        -67.937,
+        -9.119
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 241822151,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-241822151.glb",
+      "importedPath": ".godot/imported/building-241822151.glb-f223755b626edea26f516eefff6e7519.scn",
+      "bytes": 123099,
+      "sha256": "679537f64d8bc820fa721aa91413787429de8efad42f373585528083f8f6662b",
+      "glbSha256": "bae1bdfe3ff57d0fde686c92a57b3416a2fe1abad199b2f06b7e53e03477e87f",
+      "proposedURL": "/seventh/areas/assets/679537f64d8bc820fa721aa91413787429de8efad42f373585528083f8f6662b.scn",
+      "runtimePosition": [
+        -163.47000122070312,
+        0,
+        -100.97550201416016
+      ],
+      "footprintBox": [
+        -167.386,
+        -112.894,
+        -159.554,
+        -89.05699999999999
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 241822153,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-241822153.glb",
+      "importedPath": ".godot/imported/building-241822153.glb-ac448c31acd5cff07d24295375435ddb.scn",
+      "bytes": 184801,
+      "sha256": "91423dbf64f53e4db645cc037793390b7912977d4e32712da3cacb49969f6208",
+      "glbSha256": "56f0981e0893c4f86bb0614ffa61a40fbdb15675671babc7b06786896c68adea",
+      "proposedURL": "/seventh/areas/assets/91423dbf64f53e4db645cc037793390b7912977d4e32712da3cacb49969f6208.scn",
+      "runtimePosition": [
+        -194.3209991455078,
+        0,
+        -29.553497314453125
+      ],
+      "footprintBox": [
+        -212.88,
+        -33.748999999999995,
+        -175.762,
+        -25.358000000000004
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 241822156,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-241822156.glb",
+      "importedPath": ".godot/imported/building-241822156.glb-c8bd2add254b10ddc8eb6c2157943104.scn",
+      "bytes": 945545,
+      "sha256": "4ba49da9e5d1b7e4dcc31546a01875df6ab41e514074d67d41b62fe0e8e7db37",
+      "glbSha256": "1130555bc77ae9027e56040800e125215e7311a67631567e291a33dbfe19f43f",
+      "proposedURL": "/seventh/areas/assets/4ba49da9e5d1b7e4dcc31546a01875df6ab41e514074d67d41b62fe0e8e7db37.scn",
+      "runtimePosition": [
+        -194.23849487304688,
+        0,
+        -13.248001098632812
+      ],
+      "footprintBox": [
+        -212.569,
+        -17.357,
+        -175.908,
+        -9.13900000000001
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 241822157,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-241822157.glb",
+      "importedPath": ".godot/imported/building-241822157.glb-43a95ddcfff16b23ac607555b15ea066.scn",
+      "bytes": 245337,
+      "sha256": "0a640eeacdbd17917a457d8b8429e782042753501d260a69143730e5664b11f7",
+      "glbSha256": "e82ef61f0e0a433d29c542e3908e1e24773dc8586b6b0ce66a7f434d69953467",
+      "proposedURL": "/seventh/areas/assets/0a640eeacdbd17917a457d8b8429e782042753501d260a69143730e5664b11f7.scn",
+      "runtimePosition": [
+        -109.93800354003906,
+        0,
+        -21.7030029296875
+      ],
+      "footprintBox": [
+        -113.857,
+        -32.872000000000014,
+        -106.019,
+        -10.533999999999992
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 241822159,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-241822159.glb",
+      "importedPath": ".godot/imported/building-241822159.glb-77b3fe64ddcf77cdc72e3e352c495c2a.scn",
+      "bytes": 115624,
+      "sha256": "243ba692e3108a27d59aab247b52f3cbd68f0be407188cafd5ca6f9faa097c23",
+      "glbSha256": "6e546351efabcb50a189a6dce03d6a58b557309822c77e1d4a7b073ce12302c7",
+      "proposedURL": "/seventh/areas/assets/243ba692e3108a27d59aab247b52f3cbd68f0be407188cafd5ca6f9faa097c23.scn",
+      "runtimePosition": [
+        -171.04750061035156,
+        0,
+        -100.1259994506836
+      ],
+      "footprintBox": [
+        -174.737,
+        -111.204,
+        -167.358,
+        -89.048
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 241822162,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-241822162.glb",
+      "importedPath": ".godot/imported/building-241822162.glb-75ab55cf0f7cf0e7a953591ded8d2a35.scn",
+      "bytes": 176873,
+      "sha256": "af9f5c03743e9448c5abc1ddeb8365d8c7db6bf9fc46867f793eaf365f82fc2e",
+      "glbSha256": "b4cb54e879d7869f31cb1f8f7d3e92db55dc2d920c06d1e7b6280d0be267f693",
+      "proposedURL": "/seventh/areas/assets/af9f5c03743e9448c5abc1ddeb8365d8c7db6bf9fc46867f793eaf365f82fc2e.scn",
+      "runtimePosition": [
+        -193.11050415039062,
+        0,
+        -105.61250305175781
+      ],
+      "footprintBox": [
+        -212.971,
+        -111.287,
+        -173.25,
+        -99.93799999999999
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 241822164,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-241822164.glb",
+      "importedPath": ".godot/imported/building-241822164.glb-edf97d441eba13749b1a20751b831c78.scn",
+      "bytes": 1835936,
+      "sha256": "16bda4cf1286dc6ad5f0150b36d3dde15c48faf2b775f9bb3c55651410a0ca57",
+      "glbSha256": "217e05ff55f580c222d6bb113a0ba72a17f68fb6c0f308e27d01b5e91a780e9c",
+      "proposedURL": "/seventh/areas/assets/16bda4cf1286dc6ad5f0150b36d3dde15c48faf2b775f9bb3c55651410a0ca57.scn",
+      "runtimePosition": [
+        -202.5780029296875,
+        0,
+        -93.74650573730469
+      ],
+      "footprintBox": [
+        -212.955,
+        -99.963,
+        -192.201,
+        -87.53
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 241822167,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-241822167.glb",
+      "importedPath": ".godot/imported/building-241822167.glb-1b6f108a2586f57ca69941cb3c4b9bce.scn",
+      "bytes": 213034,
+      "sha256": "e0c0b14426316991535586872aae230c476381aa9c268d014f62388068da968b",
+      "glbSha256": "e6494fe10d04340279f213689ea047fd207c1affb722192ffaf9c23a1fcf38e3",
+      "proposedURL": "/seventh/areas/assets/e0c0b14426316991535586872aae230c476381aa9c268d014f62388068da968b.scn",
+      "runtimePosition": [
+        -71.90750122070312,
+        0,
+        -56.49699401855469
+      ],
+      "footprintBox": [
+        -75.807,
+        -66.32900000000001,
+        -68.008,
+        -46.66499999999999
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 241822169,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-241822169.glb",
+      "importedPath": ".godot/imported/building-241822169.glb-7fdea48a324f8cb9df7bb5977da4cd8d.scn",
+      "bytes": 215271,
+      "sha256": "1879637a10761da6b0771bf33ba492b1b89e29dfa84831cd7d174d3265c45837",
+      "glbSha256": "d1eed61ea2cef67226296844fc7f577e2c530023b7bccaa1f18ac63378a7c6a2",
+      "proposedURL": "/seventh/areas/assets/1879637a10761da6b0771bf33ba492b1b89e29dfa84831cd7d174d3265c45837.scn",
+      "runtimePosition": [
+        -140.2760009765625,
+        0,
+        -19.67999267578125
+      ],
+      "footprintBox": [
+        -144.141,
+        -28.370000000000005,
+        -136.411,
+        -10.990000000000009
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 241822173,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-241822173.glb",
+      "importedPath": ".godot/imported/building-241822173.glb-2adbe0f0f10f9ff4770b7ede37390565.scn",
+      "bytes": 325988,
+      "sha256": "fab81be735dae2f247c03207f460e39f131c380c07b230704db879c4e1be2573",
+      "glbSha256": "fd77ec81ddb72289400e7fc6dfb7e1031d1f7541e118a58d7cb7d5fe752cd337",
+      "proposedURL": "/seventh/areas/assets/fab81be735dae2f247c03207f460e39f131c380c07b230704db879c4e1be2573.scn",
+      "runtimePosition": [
+        -49.0,
+        0,
+        -54.04600524902344
+      ],
+      "footprintBox": [
+        -52.851,
+        -66.275,
+        -45.149,
+        -41.81700000000001
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 241822174,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-241822174.glb",
+      "importedPath": ".godot/imported/building-241822174.glb-df31e34433bcbe1ca0dbe55ef2cd8a1c.scn",
+      "bytes": 208331,
+      "sha256": "023a92c93b30abd6679567688a25292410a8e8fa4d87f46baf2931e7e56d1265",
+      "glbSha256": "2b89ccbeec932811b6cc559c7ca5913b48ca26372d8b9a64a60a95b15ef3d473",
+      "proposedURL": "/seventh/areas/assets/023a92c93b30abd6679567688a25292410a8e8fa4d87f46baf2931e7e56d1265.scn",
+      "runtimePosition": [
+        -125.48600006103516,
+        0,
+        -100.73300170898438
+      ],
+      "footprintBox": [
+        -129.426,
+        -112.363,
+        -121.546,
+        -89.10300000000001
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 241822176,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-241822176.glb",
+      "importedPath": ".godot/imported/building-241822176.glb-415ae1e2d060dfff636928ffbe1d83fa.scn",
+      "bytes": 211026,
+      "sha256": "01f228b1873430c0146b05339e46b92590b1e50a126ea8a87b62a4a6b080d69d",
+      "glbSha256": "27f28fb3dc2f428bfc50c37ccad6638df9d742380c9cc39715419bdc3f28e614",
+      "proposedURL": "/seventh/areas/assets/01f228b1873430c0146b05339e46b92590b1e50a126ea8a87b62a4a6b080d69d.scn",
+      "runtimePosition": [
+        -94.54949951171875,
+        0,
+        -21.26800537109375
+      ],
+      "footprintBox": [
+        -98.428,
+        -33.485000000000014,
+        -90.671,
+        -9.050999999999988
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 241822178,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-241822178.glb",
+      "importedPath": ".godot/imported/building-241822178.glb-ce932c05f6ee3c8c9e9a8e1953d73163.scn",
+      "bytes": 514267,
+      "sha256": "764f0aa2bda5f48f920c4931ec6953ea62d1bc6ac60f27fec3d6bbbbd69e0246",
+      "glbSha256": "4fb4008a71e87a22ba9222359131b272fa34a288d698e122eb95ad409cc7b8f0",
+      "proposedURL": "/seventh/areas/assets/764f0aa2bda5f48f920c4931ec6953ea62d1bc6ac60f27fec3d6bbbbd69e0246.scn",
+      "runtimePosition": [
+        -155.51800537109375,
+        0,
+        -20.729507446289062
+      ],
+      "footprintBox": [
+        -159.248,
+        -33.11500000000001,
+        -151.788,
+        -8.343999999999994
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 241822181,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-241822181.glb",
+      "importedPath": ".godot/imported/building-241822181.glb-cba88320e42f97955c910b9feed62400.scn",
+      "bytes": 265030,
+      "sha256": "aac307471aae852ae26270ef23a14628e108dce7ade7e60e2f80a0d3c64d80bf",
+      "glbSha256": "a750930763689dcb9c3278fe63492bb39e020d083360076da9110a41d043b117",
+      "proposedURL": "/seventh/areas/assets/aac307471aae852ae26270ef23a14628e108dce7ade7e60e2f80a0d3c64d80bf.scn",
+      "runtimePosition": [
+        -87.20349884033203,
+        0,
+        -54.100494384765625
+      ],
+      "footprintBox": [
+        -91.067,
+        -66.28399999999999,
+        -83.34,
+        -41.917
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 241822185,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-241822185.glb",
+      "importedPath": ".godot/imported/building-241822185.glb-9b5f70ea9ea84a9e4503425c1b0d3977.scn",
+      "bytes": 439846,
+      "sha256": "981fbc95c76b85d64bc90c3dc34964dae54fc54e67a4f21838dd8060d795fc9a",
+      "glbSha256": "937c582b771070c504cf124f69624c1d6e22646c778ef407859a0078f7703acd",
+      "proposedURL": "/seventh/areas/assets/981fbc95c76b85d64bc90c3dc34964dae54fc54e67a4f21838dd8060d795fc9a.scn",
+      "runtimePosition": [
+        -64.28700256347656,
+        0,
+        -21.324996948242188
+      ],
+      "footprintBox": [
+        -68.03,
+        -33.464,
+        -60.544,
+        -9.186000000000007
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 241822189,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-241822189.glb",
+      "importedPath": ".godot/imported/building-241822189.glb-a6771497805b2b4e75049ece66bd5055.scn",
+      "bytes": 341812,
+      "sha256": "46de63a7add8f9b2062f97da9a716f2f4228c2ee724ef417ef563643c00d5826",
+      "glbSha256": "3fa16d262c4a7b8dc4fd2d2d6afb193df71c0bdd6f0235e193cd6394783647d9",
+      "proposedURL": "/seventh/areas/assets/46de63a7add8f9b2062f97da9a716f2f4228c2ee724ef417ef563643c00d5826.scn",
+      "runtimePosition": [
+        -140.65350341796875,
+        0,
+        -101.2614974975586
+      ],
+      "footprintBox": [
+        -144.411,
+        -113.444,
+        -136.896,
+        -89.07900000000001
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 241822190,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-241822190.glb",
+      "importedPath": ".godot/imported/building-241822190.glb-71eff103199aed83f80660f8287872af.scn",
+      "bytes": 555193,
+      "sha256": "da3fa21efcd5479fde99afadd32167cc70c121144f29e12c3f2b85bc93529986",
+      "glbSha256": "f6dac98854f40c4a9822c73d918498776884f31480bf1d8e0bdfee23ae74ff71",
+      "proposedURL": "/seventh/areas/assets/da3fa21efcd5479fde99afadd32167cc70c121144f29e12c3f2b85bc93529986.scn",
+      "runtimePosition": [
+        -117.62349700927734,
+        0,
+        -53.968994140625
+      ],
+      "footprintBox": [
+        -121.277,
+        -66.132,
+        -113.97,
+        -41.80600000000001
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 241822192,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-241822192.glb",
+      "importedPath": ".godot/imported/building-241822192.glb-e82ef033230bcc285f86c919608dd6c4.scn",
+      "bytes": 233340,
+      "sha256": "264621f47ddd8c820f085f69df7e8accb9e9a05f15bf6317787f51d7ba75f394",
+      "glbSha256": "18e6d31db8dd5ecbc9add8290163eee957ce7397f1199e77b6cb634373e74f11",
+      "proposedURL": "/seventh/areas/assets/264621f47ddd8c820f085f69df7e8accb9e9a05f15bf6317787f51d7ba75f394.scn",
+      "runtimePosition": [
+        -33.457000732421875,
+        0,
+        -21.483505249023438
+      ],
+      "footprintBox": [
+        -37.209,
+        -33.872000000000014,
+        -29.705,
+        -9.094999999999999
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 241822194,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-241822194.glb",
+      "importedPath": ".godot/imported/building-241822194.glb-258c8340f0660c997209539ea7e60f88.scn",
+      "bytes": 402123,
+      "sha256": "798ce20abc4c4f3bf7d1f8e3bde08c47c434df9e6304b0dab93d3843898be14e",
+      "glbSha256": "eabbacd60244a83bf728ad9a0be61ff0bfbc7ee4e0feb591043a01a039802141",
+      "proposedURL": "/seventh/areas/assets/798ce20abc4c4f3bf7d1f8e3bde08c47c434df9e6304b0dab93d3843898be14e.scn",
+      "runtimePosition": [
+        -94.84549713134766,
+        0,
+        -53.47650146484375
+      ],
+      "footprintBox": [
+        -98.811,
+        -66.251,
+        -90.88,
+        -40.702
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 241822195,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-241822195.glb",
+      "importedPath": ".godot/imported/building-241822195.glb-3542117bfa46731d31285fb934c0b472.scn",
+      "bytes": 290476,
+      "sha256": "42a0b7f0bd6efbe8a11b3d0e38c49ef7a7e08a44bb3a38244176833c4dda4200",
+      "glbSha256": "ffa7b9a5593b91f66c817591f56d860c45c6dc92fed7448f60872b28ba668ac7",
+      "proposedURL": "/seventh/areas/assets/42a0b7f0bd6efbe8a11b3d0e38c49ef7a7e08a44bb3a38244176833c4dda4200.scn",
+      "runtimePosition": [
+        -196.0500030517578,
+        0,
+        -21.363998413085938
+      ],
+      "footprintBox": [
+        -212.825,
+        -25.52199999999999,
+        -179.275,
+        -17.20599999999999
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 241822197,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-241822197.glb",
+      "importedPath": ".godot/imported/building-241822197.glb-0c96a3784ad26adb66d67a1b1d16adef.scn",
+      "bytes": 546505,
+      "sha256": "96c4179d1d042a0634f57bf37e3c32dc11169b9e85458274ca555f0e17d989a5",
+      "glbSha256": "2af435fd2f1e8d5d9b6356a8b6a11bc463ad1ce35a078fd728e87c87d64a4a59",
+      "proposedURL": "/seventh/areas/assets/96c4179d1d042a0634f57bf37e3c32dc11169b9e85458274ca555f0e17d989a5.scn",
+      "runtimePosition": [
+        -147.95249938964844,
+        0,
+        -21.583999633789062
+      ],
+      "footprintBox": [
+        -151.917,
+        -34.793000000000006,
+        -143.988,
+        -8.375
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 241822199,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-241822199.glb",
+      "importedPath": ".godot/imported/building-241822199.glb-2ed600ee9065c46ce7e83467ee388bc2.scn",
+      "bytes": 648427,
+      "sha256": "40ab8149f567cd54467c13191b37840d0bbba09a2a24a17dd5708408a39487e3",
+      "glbSha256": "f79312c2450799634665a004f57b241da85fe38c88629598ae2c9530ca40cc35",
+      "proposedURL": "/seventh/areas/assets/40ab8149f567cd54467c13191b37840d0bbba09a2a24a17dd5708408a39487e3.scn",
+      "runtimePosition": [
+        -132.82200622558594,
+        0,
+        -21.600494384765625
+      ],
+      "footprintBox": [
+        -136.584,
+        -34.75999999999999,
+        -129.06,
+        -8.441000000000003
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 241822201,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-241822201.glb",
+      "importedPath": ".godot/imported/building-241822201.glb-8045f53be8d500ea2f37bc1536122712.scn",
+      "bytes": 469529,
+      "sha256": "10a7c4f4b8e9915340bacb5e427a0f43e32f6e058c6a5c1bd92a604d290b3d8f",
+      "glbSha256": "eb240102c5a934095c9ed5a36b514766f5c012dc870e779c8a2553157668623e",
+      "proposedURL": "/seventh/areas/assets/10a7c4f4b8e9915340bacb5e427a0f43e32f6e058c6a5c1bd92a604d290b3d8f.scn",
+      "runtimePosition": [
+        -125.239501953125,
+        0,
+        -21.96099853515625
+      ],
+      "footprintBox": [
+        -129.267,
+        -35.45500000000001,
+        -121.212,
+        -8.467000000000013
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 241822202,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-241822202.glb",
+      "importedPath": ".godot/imported/building-241822202.glb-363057fe3826c4b08501d951346c21ef.scn",
+      "bytes": 561844,
+      "sha256": "d4163d88c3b06c7292465d08c43c25df8bffa016de6fbf9686d4b09688400828",
+      "glbSha256": "4c0249fb7e6b8100bc3850ffd4b0cf902de33d50f0642194f27f8b5cf79f7862",
+      "proposedURL": "/seventh/areas/assets/d4163d88c3b06c7292465d08c43c25df8bffa016de6fbf9686d4b09688400828.scn",
+      "runtimePosition": [
+        -117.46700286865234,
+        0,
+        -21.579498291015625
+      ],
+      "footprintBox": [
+        -121.408,
+        -34.65899999999999,
+        -113.526,
+        -8.5
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 241822206,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-241822206.glb",
+      "importedPath": ".godot/imported/building-241822206.glb-6d3adcd13e13e7be553685c35fb66831.scn",
+      "bytes": 521345,
+      "sha256": "d4ffc93338aec8255214f508ee4d8e6af66e0631698160291927f224c8d74886",
+      "glbSha256": "42bb8ff225dd886bbb0de31c0337111d48a41fa275763deb046a805db99a882a",
+      "proposedURL": "/seventh/areas/assets/d4ffc93338aec8255214f508ee4d8e6af66e0631698160291927f224c8d74886.scn",
+      "runtimePosition": [
+        -195.70449829101562,
+        0,
+        -37.626495361328125
+      ],
+      "footprintBox": [
+        -212.947,
+        -41.67099999999999,
+        -178.462,
+        -33.581999999999994
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 241822208,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-241822208.glb",
+      "importedPath": ".godot/imported/building-241822208.glb-15c5f7a27b1676141bfdbb5f8be8fc0f.scn",
+      "bytes": 465132,
+      "sha256": "6c640d071d0062d51bc79c30bb1bf71384d30b271055c0d39c81f8889a1a9ee3",
+      "glbSha256": "c6193d5d9d01802b8f5453cd98c78b65845b0de984a1f53615c2517df063d368",
+      "proposedURL": "/seventh/areas/assets/6c640d071d0062d51bc79c30bb1bf71384d30b271055c0d39c81f8889a1a9ee3.scn",
+      "runtimePosition": [
+        -196.4239959716797,
+        0,
+        -53.80450439453125
+      ],
+      "footprintBox": [
+        -212.721,
+        -57.797,
+        -180.127,
+        -49.81200000000001
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 241822212,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-241822212.glb",
+      "importedPath": ".godot/imported/building-241822212.glb-482fee0deca02af26f1fecdde65580d0.scn",
+      "bytes": 231111,
+      "sha256": "484657c5b12234d60bd070e952f124aef720fddc141384f74f30b7171427cd95",
+      "glbSha256": "8960d55fab466c9d3725bf14cff85ed617ce1f096f553e9c90c4e62cd7e99147",
+      "proposedURL": "/seventh/areas/assets/484657c5b12234d60bd070e952f124aef720fddc141384f74f30b7171427cd95.scn",
+      "runtimePosition": [
+        -22.226999282836914,
+        0,
+        -17.52850341796875
+      ],
+      "footprintBox": [
+        -29.795,
+        -20.558999999999997,
+        -14.659,
+        -14.49799999999999
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 241822214,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-241822214.glb",
+      "importedPath": ".godot/imported/building-241822214.glb-aed5eaa777221802ae15d6b2376bded1.scn",
+      "bytes": 248895,
+      "sha256": "9cb1183439a09c7543d306c82804fe802d0114a71a4318c716bdb52fa8d63391",
+      "glbSha256": "8d1c3f10951056c16b3b9bd037a67dbc4f9bb2f99c4e45bbb9fb4e865f01aaf7",
+      "proposedURL": "/seventh/areas/assets/9cb1183439a09c7543d306c82804fe802d0114a71a4318c716bdb52fa8d63391.scn",
+      "runtimePosition": [
+        -79.5425033569336,
+        0,
+        -99.43350219726562
+      ],
+      "footprintBox": [
+        -83.541,
+        -109.716,
+        -75.544,
+        -89.15100000000001
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 241822215,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-241822215.glb",
+      "importedPath": ".godot/imported/building-241822215.glb-6107748f8340a101bdd6417e67151fd7.scn",
+      "bytes": 3313,
+      "sha256": "a225d10e4dafda994c87103b8b40f7a7f10c94688750f3c51c73c2680b9a322e",
+      "glbSha256": "4d3b6abd624e76b43ee27f8ef39e78f54c8ec3f1659d77c18e3e4fb418530a36",
+      "proposedURL": "/seventh/areas/assets/a225d10e4dafda994c87103b8b40f7a7f10c94688750f3c51c73c2680b9a322e.scn",
+      "runtimePosition": [
+        -33.74250030517578,
+        0,
+        -44.44050598144531
+      ],
+      "footprintBox": [
+        -37.539,
+        -49.947,
+        -29.946,
+        -38.934
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 241822217,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-241822217.glb",
+      "importedPath": ".godot/imported/building-241822217.glb-4b4c3102547641d729da0ed760a82b70.scn",
+      "bytes": 294135,
+      "sha256": "4bb3ff5e9f93256861bda0fede8e1a4438c43f954f44ebd40cd6d5341d4e1ce3",
+      "glbSha256": "abc3bd473130deceb94ac31c2438011c57643f38371c8e338c5666281643ad7e",
+      "proposedURL": "/seventh/areas/assets/4bb3ff5e9f93256861bda0fede8e1a4438c43f954f44ebd40cd6d5341d4e1ce3.scn",
+      "runtimePosition": [
+        -49.07350158691406,
+        0,
+        -97.77799987792969
+      ],
+      "footprintBox": [
+        -52.854,
+        -106.366,
+        -45.293,
+        -89.19
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 241822219,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-241822219.glb",
+      "importedPath": ".godot/imported/building-241822219.glb-aa61041c4bb7f3e95eb661a2da037379.scn",
+      "bytes": 800595,
+      "sha256": "1bc6f3fb5a3bf9b74fc7ff1e911d581a968068f01f7bd5abfae03eee04190d73",
+      "glbSha256": "a6d9ebfc816a5dc73932215fb75ded0f897a896382c68d21fdff747183897194",
+      "proposedURL": "/seventh/areas/assets/1bc6f3fb5a3bf9b74fc7ff1e911d581a968068f01f7bd5abfae03eee04190d73.scn",
+      "runtimePosition": [
+        -18.454999923706055,
+        0,
+        -97.81199645996094
+      ],
+      "footprintBox": [
+        -22.277,
+        -106.397,
+        -14.633,
+        -89.227
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 241822220,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-241822220.glb",
+      "importedPath": ".godot/imported/building-241822220.glb-981fc8aa60a8ef3f94d316171d9d2cb4.scn",
+      "bytes": 264922,
+      "sha256": "771ffed57dc949ec33acbdbe20806e832c556602d80b33fdeda8f42cf51cc603",
+      "glbSha256": "7d51d860df83fb28cb4b176d8a8e5d836bb831bbfd987d55f8f4e5e50c44005f",
+      "proposedURL": "/seventh/areas/assets/771ffed57dc949ec33acbdbe20806e832c556602d80b33fdeda8f42cf51cc603.scn",
+      "runtimePosition": [
+        -21.739500045776367,
+        0,
+        -56.92750549316406
+      ],
+      "footprintBox": [
+        -28.556,
+        -60.822,
+        -14.923,
+        -53.03299999999999
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 241822222,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-241822222.glb",
+      "importedPath": ".godot/imported/building-241822222.glb-54273f7e4b331b110cdd11a2665d33c4.scn",
+      "bytes": 243654,
+      "sha256": "c8d4409352505bc89e08cd372796d25a1908f6f18075c56cecdfff091ee184be",
+      "glbSha256": "74c45e56922328634889bfd34f431721ddd74489f63f93b2d41c5db6d245569d",
+      "proposedURL": "/seventh/areas/assets/c8d4409352505bc89e08cd372796d25a1908f6f18075c56cecdfff091ee184be.scn",
+      "runtimePosition": [
+        -33.84199905395508,
+        0,
+        -58.204498291015625
+      ],
+      "footprintBox": [
+        -37.661,
+        -66.50200000000001,
+        -30.023,
+        -49.90700000000001
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 241822224,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-241822224.glb",
+      "importedPath": ".godot/imported/building-241822224.glb-9eea67ca1cd2f66ec10a61dd42a7f155.scn",
+      "bytes": 334328,
+      "sha256": "e79ad357554618aae2ffb95e963e82ae115a6f554f07754c67cccea353fd7ca2",
+      "glbSha256": "4fd8b6ddde80ca9cab01ad3d3e52de6f48adcdba416172dc365e1183cd5e51f2",
+      "proposedURL": "/seventh/areas/assets/e79ad357554618aae2ffb95e963e82ae115a6f554f07754c67cccea353fd7ca2.scn",
+      "runtimePosition": [
+        -179.01449584960938,
+        0,
+        -94.50950622558594
+      ],
+      "footprintBox": [
+        -183.302,
+        -99.983,
+        -174.727,
+        -89.036
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 241822226,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-241822226.glb",
+      "importedPath": ".godot/imported/building-241822226.glb-7dbda98ce685f0e819ff78cf07e291b1.scn",
+      "bytes": 2391045,
+      "sha256": "703a94d6ef81d12155aa9c6ddb9c49269c52c7c36df172ac084a1882e5affa22",
+      "glbSha256": "6a180f2dbcc3c54b9d2583bb5bb4d0fddde956086d845fddeaed1b05b735213c",
+      "proposedURL": "/seventh/areas/assets/703a94d6ef81d12155aa9c6ddb9c49269c52c7c36df172ac084a1882e5affa22.scn",
+      "runtimePosition": [
+        -22.186500549316406,
+        0,
+        -11.840499877929688
+      ],
+      "footprintBox": [
+        -29.751,
+        -14.558999999999997,
+        -14.622,
+        -9.122000000000014
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 241822228,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-241822228.glb",
+      "importedPath": ".godot/imported/building-241822228.glb-48cab7a9d90db082106bd3e0ab756dba.scn",
+      "bytes": 450856,
+      "sha256": "836fd7adbaef7a5dd0b1da37a5bbd591a1fc20796c3de810c1efd52aeb5972c9",
+      "glbSha256": "86c24ae22fdac365795e6c42eac93c659ace203d12ba93157fbad369faca3191",
+      "proposedURL": "/seventh/areas/assets/836fd7adbaef7a5dd0b1da37a5bbd591a1fc20796c3de810c1efd52aeb5972c9.scn",
+      "runtimePosition": [
+        -20.818500518798828,
+        0,
+        -42.13850402832031
+      ],
+      "footprintBox": [
+        -27.239,
+        -45.35400000000001,
+        -14.398,
+        -38.923
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 241822230,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-241822230.glb",
+      "importedPath": ".godot/imported/building-241822230.glb-51528d0f194490f6d18439a4e9f00600.scn",
+      "bytes": 59339,
+      "sha256": "b0d34fd876eec9b58f4dc953754ae5081fa5b87b647be8bbbd10bae6482e3a6c",
+      "glbSha256": "965d367ee707dbb7e50dc16b529714c870109727e29015d4b1a2c7d7c7f98a58",
+      "proposedURL": "/seventh/areas/assets/b0d34fd876eec9b58f4dc953754ae5081fa5b87b647be8bbbd10bae6482e3a6c.scn",
+      "runtimePosition": [
+        -64.38050079345703,
+        0,
+        -96.59849548339844
+      ],
+      "footprintBox": [
+        -68.282,
+        -104.024,
+        -60.479,
+        -89.173
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 241822234,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-241822234.glb",
+      "importedPath": ".godot/imported/building-241822234.glb-6681d2a91f080e8faba73b96ebdd2357.scn",
+      "bytes": 382052,
+      "sha256": "32d34a75c19e1236d7c0191d42a7156844fe8c1cafabebd7249bd5aa83f4efa1",
+      "glbSha256": "0fdadf4e4657b840fe4b644f4478378c41d4d750c2854500357b0524b4374d06",
+      "proposedURL": "/seventh/areas/assets/32d34a75c19e1236d7c0191d42a7156844fe8c1cafabebd7249bd5aa83f4efa1.scn",
+      "runtimePosition": [
+        -26.12299919128418,
+        0,
+        -96.22500610351562
+      ],
+      "footprintBox": [
+        -29.985,
+        -103.229,
+        -22.261,
+        -89.221
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 241822236,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-241822236.glb",
+      "importedPath": ".godot/imported/building-241822236.glb-e8c7847c4627923976e0f3d0bad855cb.scn",
+      "bytes": 91715,
+      "sha256": "0cf063ba342f1e63341146346dfb317b30f9f6471ec75c034479d530499dc70f",
+      "glbSha256": "a6a409f9e38c64f58b7dec5a8f50a8a26e55a02a600314f12576974b089a823e",
+      "proposedURL": "/seventh/areas/assets/0cf063ba342f1e63341146346dfb317b30f9f6471ec75c034479d530499dc70f.scn",
+      "runtimePosition": [
+        -110.0885009765625,
+        0,
+        -98.4949951171875
+      ],
+      "footprintBox": [
+        -113.919,
+        -107.872,
+        -106.258,
+        -89.118
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 241822247,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-241822247.glb",
+      "importedPath": ".godot/imported/building-241822247.glb-ba2bcd159bec69a8f96c4a0b6168554a.scn",
+      "bytes": 380575,
+      "sha256": "3bf490fc4146536f5a603f45941fd6845559fd758084a2d2153786d0fec06ab2",
+      "glbSha256": "50f5b662ba5bf682d4f0ed63166e97d28516319d8f1e5400a9e55d5a543f086b",
+      "proposedURL": "/seventh/areas/assets/3bf490fc4146536f5a603f45941fd6845559fd758084a2d2153786d0fec06ab2.scn",
+      "runtimePosition": [
+        -21.661500930786133,
+        0,
+        -29.790496826171875
+      ],
+      "footprintBox": [
+        -29.02,
+        -32.860000000000014,
+        -14.303,
+        -26.721000000000004
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 241822254,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-241822254.glb",
+      "importedPath": ".godot/imported/building-241822254.glb-ca225eadc862eeed1594d2b09d4942e1.scn",
+      "bytes": 221426,
+      "sha256": "e3890dbb2e4f7ae91c347de2383ed66c4721496892808166577a5ea423785fa5",
+      "glbSha256": "80f5ab62dee7c29f089012e5157371ec2ce536e6128fec2be4b5dbbfdc3542d4",
+      "proposedURL": "/seventh/areas/assets/e3890dbb2e4f7ae91c347de2383ed66c4721496892808166577a5ea423785fa5.scn",
+      "runtimePosition": [
+        -155.88699340820312,
+        0,
+        -98.94599914550781
+      ],
+      "footprintBox": [
+        -159.582,
+        -108.827,
+        -152.192,
+        -89.065
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 241822256,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-241822256.glb",
+      "importedPath": ".godot/imported/building-241822256.glb-d66ba9b88537c80c013ea65d631f7b65.scn",
+      "bytes": 124641,
+      "sha256": "4b6b91887f82516eeb6cd3d99d0d4da4c71ae8520648743f99e2c9ac9fe5a8dc",
+      "glbSha256": "ada79adbd3d85a0f1274789ad078655486ae53b0be5885a06e4e156992ba816f",
+      "proposedURL": "/seventh/areas/assets/4b6b91887f82516eeb6cd3d99d0d4da4c71ae8520648743f99e2c9ac9fe5a8dc.scn",
+      "runtimePosition": [
+        -148.1405029296875,
+        0,
+        -57.4739990234375
+      ],
+      "footprintBox": [
+        -152.082,
+        -66.287,
+        -144.199,
+        -48.661
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 241822263,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-241822263.glb",
+      "importedPath": ".godot/imported/building-241822263.glb-a36664515a60decb83c1252d024764c4.scn",
+      "bytes": 332600,
+      "sha256": "cc5d2b7c3bb3f75369d02a82a5b671a055c9a1f77359351af7bd853f5a906338",
+      "glbSha256": "c2bd2f8b1b5307981beee33dabc5d299391ec04e02b244e805b8f9bfc5859288",
+      "proposedURL": "/seventh/areas/assets/cc5d2b7c3bb3f75369d02a82a5b671a055c9a1f77359351af7bd853f5a906338.scn",
+      "runtimePosition": [
+        -21.471500396728516,
+        0,
+        -49.19349670410156
+      ],
+      "footprintBox": [
+        -28.505,
+        -53.087999999999994,
+        -14.438,
+        -45.29900000000001
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 241822265,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-241822265.glb",
+      "importedPath": ".godot/imported/building-241822265.glb-c5cfbf336a8f65ec54d9b058659ece11.scn",
+      "bytes": 194343,
+      "sha256": "1ccdbdd6c14a0eab9f6ffc8202952beef6e7b737d9d3fec4977bf6011ae66daf",
+      "glbSha256": "5139e7f4d56d74e5b47b471b0a75ceb19cca4033984ef4e5c8ba506b763ef5c0",
+      "proposedURL": "/seventh/areas/assets/1ccdbdd6c14a0eab9f6ffc8202952beef6e7b737d9d3fec4977bf6011ae66daf.scn",
+      "runtimePosition": [
+        -155.91400146484375,
+        0,
+        -56.915496826171875
+      ],
+      "footprintBox": [
+        -159.883,
+        -66.255,
+        -151.945,
+        -47.57599999999999
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 241822267,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-241822267.glb",
+      "importedPath": ".godot/imported/building-241822267.glb-1ed199b089f2f7bc2b9cd08cd16b8474.scn",
+      "bytes": 90307,
+      "sha256": "38cdb192ec8ee01a5cb2ccf124566426199503c5f5311a585a95029efcde6954",
+      "glbSha256": "361a43f43fdd5b79a3017cf8592e9816fedf27e483817d15c51247bd02ecc201",
+      "proposedURL": "/seventh/areas/assets/38cdb192ec8ee01a5cb2ccf124566426199503c5f5311a585a95029efcde6954.scn",
+      "runtimePosition": [
+        -56.67250061035156,
+        0,
+        -98.37750244140625
+      ],
+      "footprintBox": [
+        -60.506,
+        -107.572,
+        -52.839,
+        -89.18299999999999
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 241822271,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-241822271.glb",
+      "importedPath": ".godot/imported/building-241822271.glb-a1f2ab8892bcd8dca41c5eb73e128e7c.scn",
+      "bytes": 330362,
+      "sha256": "7b51de792be5c100101c7e676c3851d79471b364a6d2a6e7c226f2fc388e3ebf",
+      "glbSha256": "1626783de89aa6e89153180ad7d9d86a51411cc98313284143dc404018acb628",
+      "proposedURL": "/seventh/areas/assets/7b51de792be5c100101c7e676c3851d79471b364a6d2a6e7c226f2fc388e3ebf.scn",
+      "runtimePosition": [
+        -41.349998474121094,
+        0,
+        -100.30400085449219
+      ],
+      "footprintBox": [
+        -45.321,
+        -111.413,
+        -37.379,
+        -89.195
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 241822274,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-241822274.glb",
+      "importedPath": ".godot/imported/building-241822274.glb-fe7f79e39c28283e4a4c741850fdc8fc.scn",
+      "bytes": 202413,
+      "sha256": "86ecc88036f4e79f1999432f6fd814f1c202893fe3b63ca71e611a1b1f4f694c",
+      "glbSha256": "59affe811b98f2862c400f00daa8903e01de9459661b65174f269f6762a74a48",
+      "proposedURL": "/seventh/areas/assets/86ecc88036f4e79f1999432f6fd814f1c202893fe3b63ca71e611a1b1f4f694c.scn",
+      "runtimePosition": [
+        -102.24700164794922,
+        0,
+        -20.095504760742188
+      ],
+      "footprintBox": [
+        -106.159,
+        -29.623999999999995,
+        -98.335,
+        -10.567000000000007
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 241822279,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-241822279.glb",
+      "importedPath": ".godot/imported/building-241822279.glb-cbe547b18e1275355f545e41d54cfad2.scn",
+      "bytes": 592332,
+      "sha256": "09e109b4665d90337044f87424ee23fab948163c2073a23681471d44848e3e80",
+      "glbSha256": "df77e345b36f9b0cd40f015effc8af7f7ae3cd41d3ff8ed01f2903b62655a9e9",
+      "proposedURL": "/seventh/areas/assets/09e109b4665d90337044f87424ee23fab948163c2073a23681471d44848e3e80.scn",
+      "runtimePosition": [
+        -87.13400268554688,
+        0,
+        -102.04850006103516
+      ],
+      "footprintBox": [
+        -90.757,
+        -114.948,
+        -83.511,
+        -89.149
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 241822280,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-241822280.glb",
+      "importedPath": ".godot/imported/building-241822280.glb-2414d70eebbba78004dfaab92aac9fc8.scn",
+      "bytes": 291575,
+      "sha256": "69898c9c08f0c5cecb3f91b6eef6ed930ccede2e2b1640ba5678079a1096b1b2",
+      "glbSha256": "bd91fefafc2f30368e40684e318d97691c07fdbce6ac91845ced7fe7fc560fb3",
+      "proposedURL": "/seventh/areas/assets/69898c9c08f0c5cecb3f91b6eef6ed930ccede2e2b1640ba5678079a1096b1b2.scn",
+      "runtimePosition": [
+        -110.14649963378906,
+        0,
+        -55.201507568359375
+      ],
+      "footprintBox": [
+        -114.051,
+        -66.189,
+        -106.242,
+        -44.214
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 241822282,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-241822282.glb",
+      "importedPath": ".godot/imported/building-241822282.glb-b65d49d08aead25888ef832d281380e8.scn",
+      "bytes": 126441,
+      "sha256": "df77faacedd1923af3130131caa5ce8bf5ca3e17356b60f216f9564242a6473a",
+      "glbSha256": "f1ebf68b9ca8079c0b392adb05bd3b521413c3514503f5f8806bd00b4b2390bf",
+      "proposedURL": "/seventh/areas/assets/df77faacedd1923af3130131caa5ce8bf5ca3e17356b60f216f9564242a6473a.scn",
+      "runtimePosition": [
+        -94.7354965209961,
+        0,
+        -98.57850646972656
+      ],
+      "footprintBox": [
+        -98.741,
+        -108.017,
+        -90.73,
+        -89.13999999999999
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 241822284,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-241822284.glb",
+      "importedPath": ".godot/imported/building-241822284.glb-1a0d18b9b49d42c939a8499157918ffa.scn",
+      "bytes": 142493,
+      "sha256": "0fea636108e3e268a05b95585cc474a3fbe076c5f641f628c85530f64ca772e6",
+      "glbSha256": "2b9ddd6bcb90effaa3ae02cd4e142bff6dafd6a55a53fe022c4f89c11aeabbac",
+      "proposedURL": "/seventh/areas/assets/0fea636108e3e268a05b95585cc474a3fbe076c5f641f628c85530f64ca772e6.scn",
+      "runtimePosition": [
+        -177.7935028076172,
+        0,
+        -62.149505615234375
+      ],
+      "footprintBox": [
+        -180.809,
+        -66.501,
+        -174.778,
+        -57.798
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 241822286,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-241822286.glb",
+      "importedPath": ".godot/imported/building-241822286.glb-dd5bc768cd87ca26aa10f726101a529e.scn",
+      "bytes": 276490,
+      "sha256": "c0cde5872f25ebe9e4e4472dcb86be33ac5c1dc1fb51f158b66f0d74d049f7ec",
+      "glbSha256": "81c91c5961d06167912e900456db5d9cce7482636b42ee6d8abaf4f869c6fa05",
+      "proposedURL": "/seventh/areas/assets/c0cde5872f25ebe9e4e4472dcb86be33ac5c1dc1fb51f158b66f0d74d049f7ec.scn",
+      "runtimePosition": [
+        -140.41400146484375,
+        0,
+        -54.688507080078125
+      ],
+      "footprintBox": [
+        -144.319,
+        -66.06,
+        -136.509,
+        -43.31700000000001
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 241822288,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-241822288.glb",
+      "importedPath": ".godot/imported/building-241822288.glb-629d232bb8aac318cbfa07f2781ca43f.scn",
+      "bytes": 378334,
+      "sha256": "7a9e75f136e1b4f3a5922805bba3e4e3d5cd96648da8de68b3725f12b727c46e",
+      "glbSha256": "721d4b912a08afa7b5d6780296a36475b66fe0f3360b01e6600a1aa0094c3a61",
+      "proposedURL": "/seventh/areas/assets/7a9e75f136e1b4f3a5922805bba3e4e3d5cd96648da8de68b3725f12b727c46e.scn",
+      "runtimePosition": [
+        -21.702999114990234,
+        0,
+        -35.89100646972656
+      ],
+      "footprintBox": [
+        -29.062,
+        -38.982,
+        -14.344,
+        -32.80000000000001
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 241822290,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-241822290.glb",
+      "importedPath": ".godot/imported/building-241822290.glb-b41bc0341a76351c0618e4801886dc92.scn",
+      "bytes": 73443,
+      "sha256": "de6061ecc19e3e9fae015d81c7423ccfebcd605792c0ed4081a2828ad5c853df",
+      "glbSha256": "121068b0a730366a26c9b555ec718a130cc1bfaaaa89d143cb62de3b6b977c6d",
+      "proposedURL": "/seventh/areas/assets/de6061ecc19e3e9fae015d81c7423ccfebcd605792c0ed4081a2828ad5c853df.scn",
+      "runtimePosition": [
+        -202.5135040283203,
+        0,
+        -63.126495361328125
+      ],
+      "footprintBox": [
+        -212.799,
+        -68.58600000000001,
+        -192.228,
+        -57.667
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 241822291,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-241822291.glb",
+      "importedPath": ".godot/imported/building-241822291.glb-e4719f9c15a509f3b9296773609d7886.scn",
+      "bytes": 438836,
+      "sha256": "a4efd9cdfda03aae094f59c3ceb0180e1c1365c33135ad58179dfeaf88aff4f4",
+      "glbSha256": "c5bcc889d871af22a94833534d8b20b00da8175eea0cc67a6154e60b28fa0359",
+      "proposedURL": "/seventh/areas/assets/a4efd9cdfda03aae094f59c3ceb0180e1c1365c33135ad58179dfeaf88aff4f4.scn",
+      "runtimePosition": [
+        -71.92050170898438,
+        0,
+        -101.67849731445312
+      ],
+      "footprintBox": [
+        -75.578,
+        -114.195,
+        -68.263,
+        -89.162
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 241822295,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-241822295.glb",
+      "importedPath": ".godot/imported/building-241822295.glb-b4e6aae1cdac4bd42bfd11b7cfc3310c.scn",
+      "bytes": 267602,
+      "sha256": "56fdd44126ca237d5fc934b7a6969ef55559aa15170706b280f410b27630c068",
+      "glbSha256": "8c17ea3f4092aef91fd7604673d6c3280b366da1cdbad159f08f9eec506056f7",
+      "proposedURL": "/seventh/areas/assets/56fdd44126ca237d5fc934b7a6969ef55559aa15170706b280f410b27630c068.scn",
+      "runtimePosition": [
+        -22.270000457763672,
+        0,
+        -23.63800048828125
+      ],
+      "footprintBox": [
+        -29.836,
+        -26.77799999999999,
+        -14.704,
+        -20.49799999999999
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 241822297,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-241822297.glb",
+      "importedPath": ".godot/imported/building-241822297.glb-f3402b4ae48e0ddc658070bc5a1611b4.scn",
+      "bytes": 104402,
+      "sha256": "00f896fce3de6f97a5ce9a82321ddeb263814c9eca33c022e971d91755595ae8",
+      "glbSha256": "5b14e1f9cfa66d335aa1eb16afcbd607842bb7579a549288d6effa7e20b5a972",
+      "proposedURL": "/seventh/areas/assets/00f896fce3de6f97a5ce9a82321ddeb263814c9eca33c022e971d91755595ae8.scn",
+      "runtimePosition": [
+        -187.75250244140625,
+        0,
+        -93.7655029296875
+      ],
+      "footprintBox": [
+        -192.213,
+        -99.97200000000001,
+        -183.292,
+        -87.559
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 241822299,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-241822299.glb",
+      "importedPath": ".godot/imported/building-241822299.glb-694b293a3159928a8b8ce2d2d2ca73ef.scn",
+      "bytes": 122394,
+      "sha256": "3d6e55451aa8bbf2457414f84275d77663b69e729aec5a99664f463ef0760e83",
+      "glbSha256": "0ac5f562034973c292dadcf18e365c17fd301a47dd56129ec0ada7d9e90e48a7",
+      "proposedURL": "/seventh/areas/assets/3d6e55451aa8bbf2457414f84275d77663b69e729aec5a99664f463ef0760e83.scn",
+      "runtimePosition": [
+        -148.30499267578125,
+        0,
+        -99.23300170898438
+      ],
+      "footprintBox": [
+        -152.222,
+        -109.395,
+        -144.388,
+        -89.071
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 241822300,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-241822300.glb",
+      "importedPath": ".godot/imported/building-241822300.glb-967bb433feb4ea32b2e86f80f810110f.scn",
+      "bytes": 668701,
+      "sha256": "1275d6b3861322a68109dc39328ac41c2b1df060663f52d7714b5bb30600a12d",
+      "glbSha256": "9a3267303b87e51e649ff985afa3ba970b140ed733d68bc85e65dbb7b053a49a",
+      "proposedURL": "/seventh/areas/assets/1275d6b3861322a68109dc39328ac41c2b1df060663f52d7714b5bb30600a12d.scn",
+      "runtimePosition": [
+        -183.65150451660156,
+        0,
+        -62.12849426269531
+      ],
+      "footprintBox": [
+        -186.565,
+        -66.483,
+        -180.738,
+        -57.774
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 241822301,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-241822301.glb",
+      "importedPath": ".godot/imported/building-241822301.glb-a3c3b7f2645455053dcd87fce7a485d7.scn",
+      "bytes": 228574,
+      "sha256": "9a9af1f227bb7bcb13ded42fa4da10b2ba9cdead8e42d0827b4efb117fe743ab",
+      "glbSha256": "e4d183c59e4c1218220900fd049c79ab68f356459dab97b6cf7ee0b335baefea",
+      "proposedURL": "/seventh/areas/assets/9a9af1f227bb7bcb13ded42fa4da10b2ba9cdead8e42d0827b4efb117fe743ab.scn",
+      "runtimePosition": [
+        -163.42449951171875,
+        0,
+        -53.906494140625
+      ],
+      "footprintBox": [
+        -167.153,
+        -66.22300000000001,
+        -159.696,
+        -41.59
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 241822303,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-241822303.glb",
+      "importedPath": ".godot/imported/building-241822303.glb-35c7ebfa9f66a4989a4ebb9bb6d86d2b.scn",
+      "bytes": 134611,
+      "sha256": "35b769f3e70494ceab8eab1c88234aefc7b1c25afc5ae6ee898098c142341d3a",
+      "glbSha256": "52f9ee4b06c5125ea4c530dea46939a43f91b13f5abf4f67e8005ed74ef17022",
+      "proposedURL": "/seventh/areas/assets/35b769f3e70494ceab8eab1c88234aefc7b1c25afc5ae6ee898098c142341d3a.scn",
+      "runtimePosition": [
+        -102.51750183105469,
+        0,
+        -53.44749450683594
+      ],
+      "footprintBox": [
+        -106.389,
+        -66.238,
+        -98.646,
+        -40.65700000000001
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 241822306,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-241822306.glb",
+      "importedPath": ".godot/imported/building-241822306.glb-9ffb1b6af28d78090f90df5b173aa0f1.scn",
+      "bytes": 278485,
+      "sha256": "8828d2a8757667dcffe170bef25b198f38f63fa313e3f44971f2f27bb2e6888a",
+      "glbSha256": "cfc4559c82d832e5a1a3a2973836617ab88c887d12de3a18c8fc3cd8cb5eaf81",
+      "proposedURL": "/seventh/areas/assets/8828d2a8757667dcffe170bef25b198f38f63fa313e3f44971f2f27bb2e6888a.scn",
+      "runtimePosition": [
+        -170.92649841308594,
+        0,
+        -56.97149658203125
+      ],
+      "footprintBox": [
+        -174.838,
+        -66.19200000000001,
+        -167.015,
+        -47.751000000000005
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 241822308,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-241822308.glb",
+      "importedPath": ".godot/imported/building-241822308.glb-ca26c8f91c6a05c42db7a3b3eb32ada9.scn",
+      "bytes": 200889,
+      "sha256": "80d3fd214cb31ccc277af8a5b8634cc4e47ab66b15b3792f02bd94951adf1155",
+      "glbSha256": "4fdb96e4dd23b21eb931766253fe3b7a440db3b9768b6df3eb247d43d0bce6ea",
+      "proposedURL": "/seventh/areas/assets/80d3fd214cb31ccc277af8a5b8634cc4e47ab66b15b3792f02bd94951adf1155.scn",
+      "runtimePosition": [
+        -22.357500076293945,
+        0,
+        -64.64599609375
+      ],
+      "footprintBox": [
+        -30.158,
+        -68.53800000000001,
+        -14.557,
+        -60.75399999999999
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 241822310,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-241822310.glb",
+      "importedPath": ".godot/imported/building-241822310.glb-bdb1efde07951d3a6425e203b3ff7cd2.scn",
+      "bytes": 406877,
+      "sha256": "d49f1773c5621f56aa698456ef646973bd6d3a16d466d71fd36d28e58b04348f",
+      "glbSha256": "2e9e1175c90a6bee1c5e19da19d66ec484a02ecbe92a7db69311c843b72306e0",
+      "proposedURL": "/seventh/areas/assets/d49f1773c5621f56aa698456ef646973bd6d3a16d466d71fd36d28e58b04348f.scn",
+      "runtimePosition": [
+        -189.39999389648438,
+        0,
+        -62.10600280761719
+      ],
+      "footprintBox": [
+        -192.293,
+        -66.45400000000001,
+        -186.507,
+        -57.75800000000001
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 241822312,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-241822312.glb",
+      "importedPath": ".godot/imported/building-241822312.glb-fad23c526c0d26923f8babc5b2f36195.scn",
+      "bytes": 152533,
+      "sha256": "b01bdfc6ffd0852404dae2b1ba1478fc07e5d08106d05abd9351de2bc96549aa",
+      "glbSha256": "e7b477dc3f3fefdfab613b422f6df6646f1c5de7f1f564cdb807849f9d66abf0",
+      "proposedURL": "/seventh/areas/assets/b01bdfc6ffd0852404dae2b1ba1478fc07e5d08106d05abd9351de2bc96549aa.scn",
+      "runtimePosition": [
+        -102.50250244140625,
+        0,
+        -100.28849792480469
+      ],
+      "footprintBox": [
+        -106.287,
+        -111.451,
+        -98.718,
+        -89.126
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 241822314,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-241822314.glb",
+      "importedPath": ".godot/imported/building-241822314.glb-93160cbbd8a54e031a8a26bf5d40c02c.scn",
+      "bytes": 253707,
+      "sha256": "d1ef1046da73527d64b18331b70cc0fe2fad882bb26d383cbe5dff1e1ebbbcbd",
+      "glbSha256": "9a7c09d7efc7f3978b77806a7ede33494fa4a3a374175e152c33098ec52e718a",
+      "proposedURL": "/seventh/areas/assets/d1ef1046da73527d64b18331b70cc0fe2fad882bb26d383cbe5dff1e1ebbbcbd.scn",
+      "runtimePosition": [
+        -117.739501953125,
+        0,
+        -102.17150115966797
+      ],
+      "footprintBox": [
+        -121.581,
+        -115.236,
+        -113.898,
+        -89.107
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 241822317,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-241822317.glb",
+      "importedPath": ".godot/imported/building-241822317.glb-f64287f486ef3be1509d2d70a3035caa.scn",
+      "bytes": 264240,
+      "sha256": "44a7d3b6e69dceddfd1e59a37e4be9daadd880a91e3f5f679c45fbccb76acb20",
+      "glbSha256": "86561eb2a11f0058d843d2a3facaeb49308aef9f86352887b49658d9065b04ea",
+      "proposedURL": "/seventh/areas/assets/44a7d3b6e69dceddfd1e59a37e4be9daadd880a91e3f5f679c45fbccb76acb20.scn",
+      "runtimePosition": [
+        -41.02899932861328,
+        0,
+        -23.695999145507812
+      ],
+      "footprintBox": [
+        -45.031,
+        -36.92699999999999,
+        -37.027,
+        -10.465000000000003
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 241822319,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-241822319.glb",
+      "importedPath": ".godot/imported/building-241822319.glb-f04cf11b8dfed8aff09edfc515267001.scn",
+      "bytes": 242606,
+      "sha256": "5a075b9caf3886b5ce8a689d2e255f631735ed4f51fc1d4be25540d7877c236b",
+      "glbSha256": "dc02c9ac4409021a9de7fc0d3c8e8e7fe5e5b5bf6d660bd081492d193b542cb0",
+      "proposedURL": "/seventh/areas/assets/5a075b9caf3886b5ce8a689d2e255f631735ed4f51fc1d4be25540d7877c236b.scn",
+      "runtimePosition": [
+        -86.93599700927734,
+        0,
+        -19.957992553710938
+      ],
+      "footprintBox": [
+        -90.83,
+        -29.683999999999997,
+        -83.042,
+        -10.232
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 241822320,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-241822320.glb",
+      "importedPath": ".godot/imported/building-241822320.glb-2cdd2e0863a9f82c709fd9121c350e02.scn",
+      "bytes": 41771,
+      "sha256": "2c1db87335c9b38ee1908717c96ec3e15ebcc521a43b846d46ee34becc1b6d4f",
+      "glbSha256": "217d4a4246c436a16a2a51ba4723f32944e0db83687d4146a9720d8ed399d086",
+      "proposedURL": "/seventh/areas/assets/2c1db87335c9b38ee1908717c96ec3e15ebcc521a43b846d46ee34becc1b6d4f.scn",
+      "runtimePosition": [
+        -33.68600082397461,
+        0,
+        -97.79600524902344
+      ],
+      "footprintBox": [
+        -37.402,
+        -106.378,
+        -29.97,
+        -89.214
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 241822323,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-241822323.glb",
+      "importedPath": ".godot/imported/building-241822323.glb-6a6299b64c66ba1ffaaa0a9a025a3f32.scn",
+      "bytes": 119931,
+      "sha256": "a674fe1a3ff285589c2bceaea483a83f1d7ec106557d02270777a91f874143d4",
+      "glbSha256": "e8cceb73f4d274fba8893e60ce235e29b0a31148a7e3619ff9b104578c2f80cb",
+      "proposedURL": "/seventh/areas/assets/a674fe1a3ff285589c2bceaea483a83f1d7ec106557d02270777a91f874143d4.scn",
+      "runtimePosition": [
+        -41.395999908447266,
+        0,
+        -52.680999755859375
+      ],
+      "footprintBox": [
+        -45.332,
+        -66.46199999999999,
+        -37.46,
+        -38.900000000000006
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 241822325,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-241822325.glb",
+      "importedPath": ".godot/imported/building-241822325.glb-daa310f847d98a839cc06a0fa012aeea.scn",
+      "bytes": 197315,
+      "sha256": "45eb9948a31a8e8d5467134151db48cf5562960f0d63068d7ac77aee8485c4c2",
+      "glbSha256": "f3736b03d09e5adde17e4d3bcf98bf6f14339676941abdc942fbe5c0e54e053c",
+      "proposedURL": "/seventh/areas/assets/45eb9948a31a8e8d5467134151db48cf5562960f0d63068d7ac77aee8485c4c2.scn",
+      "runtimePosition": [
+        -170.843505859375,
+        0,
+        -22.379501342773438
+      ],
+      "footprintBox": [
+        -174.586,
+        -34.30500000000001,
+        -167.101,
+        -10.454000000000008
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 241822326,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-241822326.glb",
+      "importedPath": ".godot/imported/building-241822326.glb-7b202061d637eacf5d24aaba621f766d.scn",
+      "bytes": 134583,
+      "sha256": "8d2f7ab806c55cd755852a1894c9ea61cf2f7a3a2723eac36468d36c814f588e",
+      "glbSha256": "cd5ef846052cb08424b5d20f55115397dda2f59f01c302992d00822931d36b02",
+      "proposedURL": "/seventh/areas/assets/8d2f7ab806c55cd755852a1894c9ea61cf2f7a3a2723eac36468d36c814f588e.scn",
+      "runtimePosition": [
+        -60.40950012207031,
+        0,
+        -56.18150329589844
+      ],
+      "footprintBox": [
+        -68.089,
+        -66.422,
+        -52.73,
+        -45.941
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 241822329,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-241822329.glb",
+      "importedPath": ".godot/imported/building-241822329.glb-cf7a134095b8ea7f226a720e01de78d6.scn",
+      "bytes": 597973,
+      "sha256": "3005289e1abe330b92e643f7930671be901fd2504bc4bf18300f52fb324c2410",
+      "glbSha256": "124f493a1f1e5f7d778f237a69681eefd82146e16e9b0a8f735462f72afbf93f",
+      "proposedURL": "/seventh/areas/assets/3005289e1abe330b92e643f7930671be901fd2504bc4bf18300f52fb324c2410.scn",
+      "runtimePosition": [
+        -48.85900115966797,
+        0,
+        -20.548995971679688
+      ],
+      "footprintBox": [
+        -52.835,
+        -30.664999999999992,
+        -44.883,
+        -10.432999999999993
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 241822332,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-241822332.glb",
+      "importedPath": ".godot/imported/building-241822332.glb-6bd56a15a0cb746dcb15b733a4e5851a.scn",
+      "bytes": 158666,
+      "sha256": "9a582373379370395c83df641b5190d25d1d8162a41f7a3c89ec999bfa599578",
+      "glbSha256": "4738db8f74914aee952828083036df1883a8784df94dfd7bd3755e5bd6dd5efb",
+      "proposedURL": "/seventh/areas/assets/9a582373379370395c83df641b5190d25d1d8162a41f7a3c89ec999bfa599578.scn",
+      "runtimePosition": [
+        -79.57499694824219,
+        0,
+        -54.66650390625
+      ],
+      "footprintBox": [
+        -83.518,
+        -66.305,
+        -75.632,
+        -43.02799999999999
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 241822336,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-241822336.glb",
+      "importedPath": ".godot/imported/building-241822336.glb-86617d538fdce6b454a04a831801f12d.scn",
+      "bytes": 257376,
+      "sha256": "a1c30660b36beb557a67210ce6f59cb1f1e5f9ca75a93d5117022030a06e5e49",
+      "glbSha256": "5f11383bb0f7c6880f5753862b19b5a9d55bf403bce94481aa09f1895e1a0ed5",
+      "proposedURL": "/seventh/areas/assets/a1c30660b36beb557a67210ce6f59cb1f1e5f9ca75a93d5117022030a06e5e49.scn",
+      "runtimePosition": [
+        -56.672000885009766,
+        0,
+        -20.7135009765625
+      ],
+      "footprintBox": [
+        -60.661,
+        -31.02600000000001,
+        -52.683,
+        -10.40100000000001
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 241822338,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-241822338.glb",
+      "importedPath": ".godot/imported/building-241822338.glb-0419192550bef2472baf52b8e32e7932.scn",
+      "bytes": 146730,
+      "sha256": "5b343702294b24f740e09208b7741994c1e11d2a2f7b34fee371e4645e75bb9c",
+      "glbSha256": "500f489b357f7d9b93b4506abec85af8ed1f39e35cdd681105a1d181966841e4",
+      "proposedURL": "/seventh/areas/assets/5b343702294b24f740e09208b7741994c1e11d2a2f7b34fee371e4645e75bb9c.scn",
+      "runtimePosition": [
+        -133.1645050048828,
+        0,
+        -98.4219970703125
+      ],
+      "footprintBox": [
+        -136.918,
+        -107.751,
+        -129.411,
+        -89.09299999999999
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 241822339,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-241822339.glb",
+      "importedPath": ".godot/imported/building-241822339.glb-5cdb918ae07decb491972a2cc7cddddd.scn",
+      "bytes": 177223,
+      "sha256": "7c1bdef832c1c6b5b91d54d52bf4597287bce982b193432558c3137761af83ff",
+      "glbSha256": "002c0f840bf75fbbc560ec6a045a31bf66b72c000e4ebfb613827198248a1999",
+      "proposedURL": "/seventh/areas/assets/7c1bdef832c1c6b5b91d54d52bf4597287bce982b193432558c3137761af83ff.scn",
+      "runtimePosition": [
+        -192.1685028076172,
+        0,
+        -45.748992919921875
+      ],
+      "footprintBox": [
+        -212.668,
+        -49.97,
+        -171.669,
+        -41.52799999999999
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 241822340,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-241822340.glb",
+      "importedPath": ".godot/imported/building-241822340.glb-2bde10aef7f586860d80a9247a586963.scn",
+      "bytes": 122815,
+      "sha256": "6b3ed63b29b6692c3e59278f04f9ae072a069004a3bc6d4efdb0ac4088356cc0",
+      "glbSha256": "7357f0ac02179ae9a2825d6b8ed06ba33fc7a9b3f59824eb58125d82d7a811b9",
+      "proposedURL": "/seventh/areas/assets/6b3ed63b29b6692c3e59278f04f9ae072a069004a3bc6d4efdb0ac4088356cc0.scn",
+      "runtimePosition": [
+        -163.17799377441406,
+        0,
+        -22.405502319335938
+      ],
+      "footprintBox": [
+        -167.279,
+        -34.328,
+        -159.077,
+        -10.483000000000004
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 241822341,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-241822341.glb",
+      "importedPath": ".godot/imported/building-241822341.glb-da9d50f154078f1394dae8addfdd7a51.scn",
+      "bytes": 360940,
+      "sha256": "fe7c733831cc880cc54ff8982bfc550380234690042598941257099960a290c2",
+      "glbSha256": "32ee2149dbf2409059bcb0afea3c77a30124d88700a2b033cccdd51d5446e67e",
+      "proposedURL": "/seventh/areas/assets/fe7c733831cc880cc54ff8982bfc550380234690042598941257099960a290c2.scn",
+      "runtimePosition": [
+        -128.91099548339844,
+        0,
+        -52.652496337890625
+      ],
+      "footprintBox": [
+        -136.674,
+        -66.126,
+        -121.148,
+        -39.179
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 241829564,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-241829564.glb",
+      "importedPath": ".godot/imported/building-241829564.glb-08eb26f4c7f0eebe486a731c3c2947a1.scn",
+      "bytes": 180023,
+      "sha256": "080fa54f4c77ac78066065063542a01a3a9928c5c513ef00a6906657f41f7ac2",
+      "glbSha256": "735a6b169ed722b88778f19abd00efd7f10592dbb28ab89b7967392c37e6c227",
+      "proposedURL": "/seventh/areas/assets/080fa54f4c77ac78066065063542a01a3a9928c5c513ef00a6906657f41f7ac2.scn",
+      "runtimePosition": [
+        -193.3769989013672,
+        0,
+        45.272003173828125
+      ],
+      "footprintBox": [
+        -212.382,
+        41.002999999999986,
+        -174.372,
+        49.541
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 241829565,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-241829565.glb",
+      "importedPath": ".godot/imported/building-241829565.glb-82b6b9ae9e9e1024bc37b3d33ce4505b.scn",
+      "bytes": 340738,
+      "sha256": "1e023b6896d307d538c6f9e9a923137225eab6426933c13079383fd469bd0dc5",
+      "glbSha256": "58d2d1e6a1b80891507ab2375b12590b08a50adb2a945720608b308f86aed8f5",
+      "proposedURL": "/seventh/areas/assets/1e023b6896d307d538c6f9e9a923137225eab6426933c13079383fd469bd0dc5.scn",
+      "runtimePosition": [
+        -140.16000366210938,
+        0,
+        22.957504272460938
+      ],
+      "footprintBox": [
+        -143.982,
+        11.21799999999999,
+        -136.338,
+        34.697
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 241829566,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-241829566.glb",
+      "importedPath": ".godot/imported/building-241829566.glb-07df5a1a62553c61ac59e4d2c51677ac.scn",
+      "bytes": 740826,
+      "sha256": "c65bc1cc1e252d7faecb089d1fc0f4a34f2421ffc71acc76537d85a5dfc988da",
+      "glbSha256": "4be52fc1cd4af37f7d758bf7765b9c66b8f8d56464adbc172ff4a413219f27b0",
+      "proposedURL": "/seventh/areas/assets/c65bc1cc1e252d7faecb089d1fc0f4a34f2421ffc71acc76537d85a5dfc988da.scn",
+      "runtimePosition": [
+        -58.3129997253418,
+        0,
+        21.038497924804688
+      ],
+      "footprintBox": [
+        -64.034,
+        9.35499999999999,
+        -52.592,
+        32.72199999999998
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 241829567,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-241829567.glb",
+      "importedPath": ".godot/imported/building-241829567.glb-790ec2773929d8610a04c4ef1418a660.scn",
+      "bytes": 645173,
+      "sha256": "a01d212e194371ba066184133bee8479f91ea08256d1a9ccb5d73477ad3b830f",
+      "glbSha256": "20ef834c9d31e6243c3880f8805b25790c2a9b65895a58d1d26947093fc5151e",
+      "proposedURL": "/seventh/areas/assets/a01d212e194371ba066184133bee8479f91ea08256d1a9ccb5d73477ad3b830f.scn",
+      "runtimePosition": [
+        -69.72350311279297,
+        0,
+        21.03900146484375
+      ],
+      "footprintBox": [
+        -75.436,
+        9.352000000000004,
+        -64.011,
+        32.726
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 241829572,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-241829572.glb",
+      "importedPath": ".godot/imported/building-241829572.glb-1d89e7ac444fe0ab20128cf1dd9bbb33.scn",
+      "bytes": 266569,
+      "sha256": "6072c73f5e2a7d003d3145ec3f6837bf36406cf879468b798f93a65902cfb0f4",
+      "glbSha256": "fc1d6163184b91625434316079b917eeb21f4c208af5e9a6b73e316833ee7f31",
+      "proposedURL": "/seventh/areas/assets/6072c73f5e2a7d003d3145ec3f6837bf36406cf879468b798f93a65902cfb0f4.scn",
+      "runtimePosition": [
+        -124.85099792480469,
+        0,
+        22.572998046875
+      ],
+      "footprintBox": [
+        -128.621,
+        9.344999999999999,
+        -121.081,
+        35.80099999999999
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 241829573,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-241829573.glb",
+      "importedPath": ".godot/imported/building-241829573.glb-0c95df8b87725a877ec7b96471ac1d47.scn",
+      "bytes": 511542,
+      "sha256": "dae09b72060ba1f6e61543e94d78fe7b0a14567da4ffc9d26cb946fbb14f4340",
+      "glbSha256": "88034791d0f77ffe047579d0bd5c51958944c4c7ad9665ea277dd65389ef145c",
+      "proposedURL": "/seventh/areas/assets/dae09b72060ba1f6e61543e94d78fe7b0a14567da4ffc9d26cb946fbb14f4340.scn",
+      "runtimePosition": [
+        -79.2229995727539,
+        0,
+        21.035995483398438
+      ],
+      "footprintBox": [
+        -83.082,
+        9.34899999999999,
+        -75.364,
+        32.72300000000001
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 241829574,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-241829574.glb",
+      "importedPath": ".godot/imported/building-241829574.glb-4993a6633f6fe025b38242e050e135b1.scn",
+      "bytes": 552588,
+      "sha256": "fa3e3e4d8cd180d2303e5967dae498e62690826b190e48b4c31378ece86d4f53",
+      "glbSha256": "d61e14bd1a2d5846aa37e5ea0c64ddfd7e7880823ead07521ff23ed5c992a469",
+      "proposedURL": "/seventh/areas/assets/fa3e3e4d8cd180d2303e5967dae498e62690826b190e48b4c31378ece86d4f53.scn",
+      "runtimePosition": [
+        -86.9645004272461,
+        0,
+        21.035995483398438
+      ],
+      "footprintBox": [
+        -90.919,
+        9.34899999999999,
+        -83.01,
+        32.72300000000001
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 241829575,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-241829575.glb",
+      "importedPath": ".godot/imported/building-241829575.glb-24fce92e8ed0b08e34b679950785d9ba.scn",
+      "bytes": 501047,
+      "sha256": "a54e54670d3481b03d4e28b0ff57eab3663e756ac888574c049ce7a30edb53b1",
+      "glbSha256": "2581335e8bc877c3e903da0ad9a38933981215dd795c3d9d0c51dd3cfefaf126",
+      "proposedURL": "/seventh/areas/assets/a54e54670d3481b03d4e28b0ff57eab3663e756ac888574c049ce7a30edb53b1.scn",
+      "runtimePosition": [
+        -171.62449645996094,
+        0,
+        23.078506469726562
+      ],
+      "footprintBox": [
+        -176.54,
+        9.293000000000006,
+        -166.709,
+        36.863999999999976
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 241829577,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-241829577.glb",
+      "importedPath": ".godot/imported/building-241829577.glb-82d3aa757e076e5401b4a2115248bcf7.scn",
+      "bytes": 474107,
+      "sha256": "2602625ff2853fe3026f938ef05b513a83dfb60888d93116b435ac3b819bb5ab",
+      "glbSha256": "dbd0f2faded50f40e183ec0448b32deee48678473d14484a234f51a6fc2ec823",
+      "proposedURL": "/seventh/areas/assets/2602625ff2853fe3026f938ef05b513a83dfb60888d93116b435ac3b819bb5ab.scn",
+      "runtimePosition": [
+        -94.60399627685547,
+        0,
+        21.0364990234375
+      ],
+      "footprintBox": [
+        -98.361,
+        9.349999999999994,
+        -90.847,
+        32.72300000000001
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 241829579,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-241829579.glb",
+      "importedPath": ".godot/imported/building-241829579.glb-65490a29b510c1cab95acf371c1c981c.scn",
+      "bytes": 394319,
+      "sha256": "ba8ef825ae6e1db9f214b8fb529ca6cfafb68558bec4cae4d21d08e8f7ee2d36",
+      "glbSha256": "089829e7d4704fdb094e3ab1d208010a161c31d993ecef01ff1d052d583e7f19",
+      "proposedURL": "/seventh/areas/assets/ba8ef825ae6e1db9f214b8fb529ca6cfafb68558bec4cae4d21d08e8f7ee2d36.scn",
+      "runtimePosition": [
+        -109.70500183105469,
+        0,
+        21.141494750976562
+      ],
+      "footprintBox": [
+        -113.505,
+        9.352000000000004,
+        -105.905,
+        32.93099999999998
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 241829580,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-241829580.glb",
+      "importedPath": ".godot/imported/building-241829580.glb-59ab52010b06ad3618589fdb9899d1aa.scn",
+      "bytes": 509306,
+      "sha256": "a30486774f24060bbbc4f42ddb73ff43f16f0957c04f572bad5c8d05c44e5731",
+      "glbSha256": "d8d2dea38cc62c3279caee733ef79354597dee6277ccc597de609437814e2f37",
+      "proposedURL": "/seventh/areas/assets/a30486774f24060bbbc4f42ddb73ff43f16f0957c04f572bad5c8d05c44e5731.scn",
+      "runtimePosition": [
+        -155.39700317382812,
+        0,
+        22.742996215820312
+      ],
+      "footprintBox": [
+        -159.261,
+        9.346000000000004,
+        -151.533,
+        36.139999999999986
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 241829581,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-241829581.glb",
+      "importedPath": ".godot/imported/building-241829581.glb-0a4436f789f2d885d3546e06508a6de3.scn",
+      "bytes": 605971,
+      "sha256": "6e37f04547150bb6819f30a8afbbb1f231e353d89cfcdac85adb949cb4bdc084",
+      "glbSha256": "01dd242d00ea23b69ca899ba29aaaf1918b9b5ebc868ece771d1bad7381e513e",
+      "proposedURL": "/seventh/areas/assets/6e37f04547150bb6819f30a8afbbb1f231e353d89cfcdac85adb949cb4bdc084.scn",
+      "runtimePosition": [
+        -147.76100158691406,
+        0,
+        22.740005493164062
+      ],
+      "footprintBox": [
+        -151.615,
+        9.338999999999999,
+        -143.907,
+        36.14100000000002
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 241829582,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-241829582.glb",
+      "importedPath": ".godot/imported/building-241829582.glb-8959be55df12e103834cda03465b4c12.scn",
+      "bytes": 457259,
+      "sha256": "fc566d218ff0b31be527c4609dd547929583029be7857471f81a64bd9739ddbb",
+      "glbSha256": "451e80a1b157dcf8aab35fe745168b05d376c24b01d6ac6dbc2c8306d4e8bbd1",
+      "proposedURL": "/seventh/areas/assets/fc566d218ff0b31be527c4609dd547929583029be7857471f81a64bd9739ddbb.scn",
+      "runtimePosition": [
+        -162.97500610351562,
+        0,
+        22.715499877929688
+      ],
+      "footprintBox": [
+        -166.771,
+        9.293000000000006,
+        -159.179,
+        36.13799999999998
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 241829595,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-241829595.glb",
+      "importedPath": ".godot/imported/building-241829595.glb-c8f3bf2d772691c7c245c31f439c252c.scn",
+      "bytes": 234340,
+      "sha256": "040f884515a25604af213353c49a8b01bb759600e774e0af7edb4bfaf228c46e",
+      "glbSha256": "12e5b52287f7b13084654470f1e0e30c7d976773f7a012f55ceef06b822411e4",
+      "proposedURL": "/seventh/areas/assets/040f884515a25604af213353c49a8b01bb759600e774e0af7edb4bfaf228c46e.scn",
+      "runtimePosition": [
+        -40.5724983215332,
+        0,
+        16.440505981445312
+      ],
+      "footprintBox": [
+        -44.708,
+        9.359000000000009,
+        -36.437,
+        23.52199999999999
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 241829611,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-241829611.glb",
+      "importedPath": ".godot/imported/building-241829611.glb-2109b745dfa61bc7f4535b58833d99ac.scn",
+      "bytes": 134695,
+      "sha256": "4c26127cb272a4064c0575a6d03d0c07c5989a78e90c003bd4c8916a375801df",
+      "glbSha256": "4037b3df5614f8dadb660b66c0dbacd72f7b0924bfd61c137731cd9540f7da84",
+      "proposedURL": "/seventh/areas/assets/4c26127cb272a4064c0575a6d03d0c07c5989a78e90c003bd4c8916a375801df.scn",
+      "runtimePosition": [
+        -194.7100067138672,
+        0,
+        37.001007080078125
+      ],
+      "footprintBox": [
+        -210.412,
+        32.92599999999999,
+        -179.008,
+        41.07600000000002
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 241829621,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-241829621.glb",
+      "importedPath": ".godot/imported/building-241829621.glb-9f1c9669f64e056a5f5cd42e871b1799.scn",
+      "bytes": 214441,
+      "sha256": "c5a23e430f7dd064d1b0a18d2e64ce326174087284f22a87779b552ae8e35ba0",
+      "glbSha256": "aee9be24a91d889e5560b1200df0c45ea577d71431ad3b6339be71a235633a89",
+      "proposedURL": "/seventh/areas/assets/c5a23e430f7dd064d1b0a18d2e64ce326174087284f22a87779b552ae8e35ba0.scn",
+      "runtimePosition": [
+        -102.16850280761719,
+        0,
+        18.409500122070312
+      ],
+      "footprintBox": [
+        -106.026,
+        10.692000000000007,
+        -98.311,
+        26.12700000000001
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 241829623,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-241829623.glb",
+      "importedPath": ".godot/imported/building-241829623.glb-9a7e2c2742988771b5b10cbf2dabb934.scn",
+      "bytes": 180980,
+      "sha256": "14db5c73c10b407954ab44bcc43d9be1dcb337b14a0558285a90fb26faded3cc",
+      "glbSha256": "e6d7b375d9dd6adcb8db9672024780990b54f2002b2ae168fde8e796ad84fee7",
+      "proposedURL": "/seventh/areas/assets/14db5c73c10b407954ab44bcc43d9be1dcb337b14a0558285a90fb26faded3cc.scn",
+      "runtimePosition": [
+        -23.50749969482422,
+        0,
+        18.636001586914062
+      ],
+      "footprintBox": [
+        -30.472,
+        15.068999999999988,
+        -16.543,
+        22.203000000000003
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 241829629,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-241829629.glb",
+      "importedPath": ".godot/imported/building-241829629.glb-b5469bde730ccabe2f4ca5042ead9519.scn",
+      "bytes": 141833,
+      "sha256": "717ffb645796684ab22cc4408b3a36a68e85a1162bd407383a5d4448b858e405",
+      "glbSha256": "9f0f7633b69dc539ce6973dbcd6e590e632dadde55760d99e13acc96b47e4760",
+      "proposedURL": "/seventh/areas/assets/717ffb645796684ab22cc4408b3a36a68e85a1162bd407383a5d4448b858e405.scn",
+      "runtimePosition": [
+        -117.29350280761719,
+        0,
+        18.70050048828125
+      ],
+      "footprintBox": [
+        -121.139,
+        11.175999999999988,
+        -113.448,
+        26.224999999999994
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 241829630,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-241829630.glb",
+      "importedPath": ".godot/imported/building-241829630.glb-77965752b9a855cf5ec3aaddb71aeed3.scn",
+      "bytes": 250833,
+      "sha256": "5aca2e17d79973d216bea29ea8a0cd69e973c1f3008e847957e4d09c1bf74356",
+      "glbSha256": "0ab4a5e777b09dda3a006ea6ab91404bc8fdc19eca2b8b31444f4e2da2acdfb8",
+      "proposedURL": "/seventh/areas/assets/5aca2e17d79973d216bea29ea8a0cd69e973c1f3008e847957e4d09c1bf74356.scn",
+      "runtimePosition": [
+        -26.17300033569336,
+        0,
+        25.889495849609375
+      ],
+      "footprintBox": [
+        -35.829,
+        22.203000000000003,
+        -16.517,
+        29.576000000000022
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 241829631,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-241829631.glb",
+      "importedPath": ".godot/imported/building-241829631.glb-a024e9ff156a456ab99dbf2c9a4fd50a.scn",
+      "bytes": 1902800,
+      "sha256": "abe0dc926516cb6b3efb0beabf25b54576ac1487801d899c9353bcb2572f092b",
+      "glbSha256": "97354524586db3f1957a799c3afde8a206f0dbddc11645c8501eb6ac8c41589e",
+      "proposedURL": "/seventh/areas/assets/abe0dc926516cb6b3efb0beabf25b54576ac1487801d899c9353bcb2572f092b.scn",
+      "runtimePosition": [
+        -26.52400016784668,
+        0,
+        12.222000122070312
+      ],
+      "footprintBox": [
+        -36.485,
+        9.359000000000009,
+        -16.563,
+        15.085000000000008
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 241829633,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-241829633.glb",
+      "importedPath": ".godot/imported/building-241829633.glb-c2cd249dfdc5eb3e87df6f9b5f396a36.scn",
+      "bytes": 144274,
+      "sha256": "3940f68b8e7ef93790900761f57d5db15fc1b65ee37ff0db66db7bd9ef8609a9",
+      "glbSha256": "12c1ec38e2147715750205e584949260b8e2cf6eaaf009c1309fbf9448ced0f1",
+      "proposedURL": "/seventh/areas/assets/3940f68b8e7ef93790900761f57d5db15fc1b65ee37ff0db66db7bd9ef8609a9.scn",
+      "runtimePosition": [
+        -48.63949966430664,
+        0,
+        16.436004638671875
+      ],
+      "footprintBox": [
+        -52.613,
+        9.359000000000009,
+        -44.666,
+        23.513000000000005
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 241829634,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-241829634.glb",
+      "importedPath": ".godot/imported/building-241829634.glb-8ccfae2440e2e1af287f767d71a2f59e.scn",
+      "bytes": 313965,
+      "sha256": "953f440ecef0f3fe93726608c0781b0e7e45db8c4adc0410d6682df903127712",
+      "glbSha256": "2222acb9d98744fb4b20da1d210a9e949a51d91ccd2fd9f18b91468c6f70ff92",
+      "proposedURL": "/seventh/areas/assets/953f440ecef0f3fe93726608c0781b0e7e45db8c4adc0410d6682df903127712.scn",
+      "runtimePosition": [
+        -27.072500228881836,
+        0,
+        33.115509033203125
+      ],
+      "footprintBox": [
+        -37.649,
+        29.571000000000026,
+        -16.496,
+        36.660000000000025
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 241829636,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-241829636.glb",
+      "importedPath": ".godot/imported/building-241829636.glb-60773c7acced631393f812deac697571.scn",
+      "bytes": 113856,
+      "sha256": "54907e911d9bee446f1046a6d5ea85422be50048e5658234421237ec0a36b66b",
+      "glbSha256": "f15d23019e9d7e8433c67c1748262caa60c38e4250a78cb0b367ade7a3f8a7ad",
+      "proposedURL": "/seventh/areas/assets/54907e911d9bee446f1046a6d5ea85422be50048e5658234421237ec0a36b66b.scn",
+      "runtimePosition": [
+        -30.011499404907227,
+        0,
+        46.97698974609375
+      ],
+      "footprintBox": [
+        -43.57,
+        43.53699999999998,
+        -16.453,
+        50.41699999999997
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 241829641,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-241829641.glb",
+      "importedPath": ".godot/imported/building-241829641.glb-3a7a32778f059084b71e6609ac079264.scn",
+      "bytes": 189001,
+      "sha256": "2e8ddb95f20f87242451ad6cc71261b7ef3e69812643c87d564cb518772e22fb",
+      "glbSha256": "681d1e85d442c6213b6adcd3066a15b6cc2cf6af0b92bd3c6c48b84b489f7dcf",
+      "proposedURL": "/seventh/areas/assets/2e8ddb95f20f87242451ad6cc71261b7ef3e69812643c87d564cb518772e22fb.scn",
+      "runtimePosition": [
+        -30.033000946044922,
+        0,
+        40.0985107421875
+      ],
+      "footprintBox": [
+        -43.584,
+        36.653999999999996,
+        -16.482,
+        43.543000000000006
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 241829643,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-241829643.glb",
+      "importedPath": ".godot/imported/building-241829643.glb-9b7c00bade59678d70548e6ca9dd3eb6.scn",
+      "bytes": 1117983,
+      "sha256": "74db2ee1ab1a8c26e2744597328181d943c196ad59154fe8d43b139f734c4c55",
+      "glbSha256": "da2af96d776b6dbc90d38661c0a95ee924fc54ec34a66da99aa2ad3c72f748d2",
+      "proposedURL": "/seventh/areas/assets/74db2ee1ab1a8c26e2744597328181d943c196ad59154fe8d43b139f734c4c55.scn",
+      "runtimePosition": [
+        -179.97650146484375,
+        0,
+        13.222503662109375
+      ],
+      "footprintBox": [
+        -185.492,
+        9.308999999999997,
+        -174.461,
+        17.135999999999996
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 241829661,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-241829661.glb",
+      "importedPath": ".godot/imported/building-241829661.glb-bb607bb16197f27aa7cd4cb16993ef6a.scn",
+      "bytes": 4941,
+      "sha256": "569b0fadbf2d206e4d7009d2e286c07d8ee81d8b7ada2bdaeb204315c1d79a18",
+      "glbSha256": "df6d4a0c78bf24fb219dc38a1dbe283cdb22a1f9b7ee92348a9c398aaa212eba",
+      "proposedURL": "/seventh/areas/assets/569b0fadbf2d206e4d7009d2e286c07d8ee81d8b7ada2bdaeb204315c1d79a18.scn",
+      "runtimePosition": [
+        -192.49200439453125,
+        0,
+        25.056503295898438
+      ],
+      "footprintBox": [
+        -208.476,
+        17.120000000000005,
+        -176.508,
+        32.992999999999995
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 241829665,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-241829665.glb",
+      "importedPath": ".godot/imported/building-241829665.glb-239ff7ef6f660bb33e08d94879a2a7f0.scn",
+      "bytes": 207776,
+      "sha256": "d711dd4dc9d9f8c205ea006a649dbfe3b3185f0ac27428d5bee612a9d65f6c18",
+      "glbSha256": "2b49d6e85759a73c3bd1ffd11037440d04fc493f80ccf97db2585f38ce5ce631",
+      "proposedURL": "/seventh/areas/assets/d711dd4dc9d9f8c205ea006a649dbfe3b3185f0ac27428d5bee612a9d65f6c18.scn",
+      "runtimePosition": [
+        -132.47850036621094,
+        0,
+        22.447006225585938
+      ],
+      "footprintBox": [
+        -136.384,
+        11.218999999999994,
+        -128.573,
+        33.67500000000001
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 241833259,
+      "owner": "EVP-WEST",
+      "sourceAsset": "res://assets/neighborhood/building-241833259.glb",
+      "importedPath": ".godot/imported/building-241833259.glb-3bd50c7145e0189cbc4a62cc93528986.scn",
+      "bytes": 496855,
+      "sha256": "ecd7da7121d468cbf24643d69494919a2546ac3a34396ad11a9321f0353f3d5c",
+      "glbSha256": "65a84b51677cd252997565a483dd5b8ba5989a5577c7edca14f1990d3387bbca",
+      "proposedURL": "/seventh/areas/assets/ecd7da7121d468cbf24643d69494919a2546ac3a34396ad11a9321f0353f3d5c.scn",
+      "runtimePosition": [
+        -258.2139892578125,
+        0,
+        36.09100341796875
+      ],
+      "footprintBox": [
+        -273.299,
+        22.502999999999986,
+        -243.129,
+        49.678999999999974
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 241833267,
+      "owner": "EVP-WEST",
+      "sourceAsset": "res://assets/neighborhood/building-241833267.glb",
+      "importedPath": ".godot/imported/building-241833267.glb-2a35003912a5e3a388a3ad783b829343.scn",
+      "bytes": 825596,
+      "sha256": "1fba3e6a396a6a4eb362a6323fd697473460ba63e57d45c1554dfc6f70d80ab2",
+      "glbSha256": "7a8fd3380363dea26be73b962a39756be5266ee51f14a7cfc4c6d683f35d76f7",
+      "proposedURL": "/seventh/areas/assets/1fba3e6a396a6a4eb362a6323fd697473460ba63e57d45c1554dfc6f70d80ab2.scn",
+      "runtimePosition": [
+        -257.35699462890625,
+        0,
+        -61.39649963378906
+      ],
+      "footprintBox": [
+        -271.871,
+        -66.578,
+        -242.843,
+        -56.215
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 241833274,
+      "owner": "EVP-WEST",
+      "sourceAsset": "res://assets/neighborhood/building-241833274.glb",
+      "importedPath": ".godot/imported/building-241833274.glb-4396453cc9dd224caa4694dd8dea8a95.scn",
+      "bytes": 447995,
+      "sha256": "cc332877d1130ccb5dad5d0275f59d7ce79d96355fc61bf69d6731bd255a8e32",
+      "glbSha256": "be361cda01865b1377071441c0709d5751a53fe5b1f05c59880ebe1213668415",
+      "proposedURL": "/seventh/areas/assets/cc332877d1130ccb5dad5d0275f59d7ce79d96355fc61bf69d6731bd255a8e32.scn",
+      "runtimePosition": [
+        -281.22198486328125,
+        0,
+        -18.46600341796875
+      ],
+      "footprintBox": [
+        -288.779,
+        -27.841000000000008,
+        -273.665,
+        -9.091000000000008
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 241833286,
+      "owner": "EVP-WEST",
+      "sourceAsset": "res://assets/neighborhood/building-241833286.glb",
+      "importedPath": ".godot/imported/building-241833286.glb-9a827b4486e7fc5f30e17d1545304cfa.scn",
+      "bytes": 458915,
+      "sha256": "16c2c6f21b795f9c5afad48e376cffeacbb955082b7eeabf66f3cf6dcb165595",
+      "glbSha256": "89a528a35c31019c84011d6e26b89ec6b085e345440c6fdadee9524bba732377",
+      "proposedURL": "/seventh/areas/assets/16c2c6f21b795f9c5afad48e376cffeacbb955082b7eeabf66f3cf6dcb165595.scn",
+      "runtimePosition": [
+        -256.5874938964844,
+        0,
+        -52.373992919921875
+      ],
+      "footprintBox": [
+        -270.431,
+        -56.482,
+        -242.744,
+        -48.26599999999999
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 241833290,
+      "owner": "EVP-WEST",
+      "sourceAsset": "res://assets/neighborhood/building-241833290.glb",
+      "importedPath": ".godot/imported/building-241833290.glb-717e81b33be9b1ed2b889ba496f63636.scn",
+      "bytes": 419828,
+      "sha256": "63aec09e70d0132f08b0cee0271f8dda0bb4ca9d3921ffb277269e1c04441bcb",
+      "glbSha256": "7555d4f3a3c8c54fea0d95747ca3a3c61fefaff710d355d7b541316f5219f232",
+      "proposedURL": "/seventh/areas/assets/63aec09e70d0132f08b0cee0271f8dda0bb4ca9d3921ffb277269e1c04441bcb.scn",
+      "runtimePosition": [
+        -256.4880065917969,
+        0,
+        -44.43699645996094
+      ],
+      "footprintBox": [
+        -270.331,
+        -48.52600000000001,
+        -242.645,
+        -40.34800000000001
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 241833291,
+      "owner": "EVP-WEST",
+      "sourceAsset": "res://assets/neighborhood/building-241833291.glb",
+      "importedPath": ".godot/imported/building-241833291.glb-205b6c55218895afbf610140bd343484.scn",
+      "bytes": 563264,
+      "sha256": "4c60f5def01dade53f6c902f9abaa7f6ddb060ff8723547c16b774641aea0ec1",
+      "glbSha256": "1b7770118ce7364aef548912ff40e1cd3a76cfbb837a7f0d0b91cf703fdf6b9c",
+      "proposedURL": "/seventh/areas/assets/4c60f5def01dade53f6c902f9abaa7f6ddb060ff8723547c16b774641aea0ec1.scn",
+      "runtimePosition": [
+        -258.8385009765625,
+        0,
+        -36.29600524902344
+      ],
+      "footprintBox": [
+        -275.141,
+        -40.607,
+        -242.536,
+        -31.985000000000014
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 241833299,
+      "owner": "EVP-WEST",
+      "sourceAsset": "res://assets/neighborhood/building-241833299.glb",
+      "importedPath": ".godot/imported/building-241833299.glb-1ad413d21821d1acb16dc87d161899f2.scn",
+      "bytes": 567769,
+      "sha256": "ddf36ee0ad22b239edea97052b531c1e35faf85fdfbef24fd2840b4638764cba",
+      "glbSha256": "572eb58ee71d1b6105ab3fafcbf3237b8b6ff516fb448ea7832ee3603e6bf9ca",
+      "proposedURL": "/seventh/areas/assets/ddf36ee0ad22b239edea97052b531c1e35faf85fdfbef24fd2840b4638764cba.scn",
+      "runtimePosition": [
+        -253.85299682617188,
+        0,
+        12.433502197265625
+      ],
+      "footprintBox": [
+        -264.415,
+        9.213999999999999,
+        -243.291,
+        15.652999999999992
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 241833312,
+      "owner": "EVP-WEST",
+      "sourceAsset": "res://assets/neighborhood/building-241833312.glb",
+      "importedPath": ".godot/imported/building-241833312.glb-b80dcf3d3d5c5fdc191b8e4d38a654cd.scn",
+      "bytes": 221204,
+      "sha256": "04ab4f2422d569bb24de359e05e599d2ee5f0ba37de19e1ff031651fb18e105c",
+      "glbSha256": "93e3991b34698ee9f96fece647278bd8c69a338fe07fdb25f1b5ec7ac9d96191",
+      "proposedURL": "/seventh/areas/assets/04ab4f2422d569bb24de359e05e599d2ee5f0ba37de19e1ff031651fb18e105c.scn",
+      "runtimePosition": [
+        -253.8195037841797,
+        0,
+        19.072998046875
+      ],
+      "footprintBox": [
+        -264.382,
+        15.617999999999995,
+        -243.257,
+        22.52799999999999
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 241833322,
+      "owner": "EVP-WEST",
+      "sourceAsset": "res://assets/neighborhood/building-241833322.glb",
+      "importedPath": ".godot/imported/building-241833322.glb-995b5981e02712ab9f472bf449e11ce8.scn",
+      "bytes": 287934,
+      "sha256": "5d285b61f5e8fdbf445476719f7b0bbc8e01d29760cde1286f2603b13a1be491",
+      "glbSha256": "f051fb7e7bae11aa4129621a61130e15b650d43de773b5941aac3497557f305c",
+      "proposedURL": "/seventh/areas/assets/5d285b61f5e8fdbf445476719f7b0bbc8e01d29760cde1286f2603b13a1be491.scn",
+      "runtimePosition": [
+        -268.7275085449219,
+        0,
+        14.2864990234375
+      ],
+      "footprintBox": [
+        -273.092,
+        9.22399999999999,
+        -264.363,
+        19.34899999999999
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 241845001,
+      "owner": "EVP-WEST",
+      "sourceAsset": "res://assets/neighborhood/building-241845001.glb",
+      "importedPath": ".godot/imported/building-241845001.glb-fe39fbfcf21c3fb9edc1448105730621.scn",
+      "bytes": 190335,
+      "sha256": "bd5b1ef710aaa4c132ef6009fead3880f93dfd8990b65d1eb40c02cad260237a",
+      "glbSha256": "6258139aa556243410f438e9ba4e59431eafb9bd075df3d33ed690333d9e2dd2",
+      "proposedURL": "/seventh/areas/assets/bd5b1ef710aaa4c132ef6009fead3880f93dfd8990b65d1eb40c02cad260237a.scn",
+      "runtimePosition": [
+        -253.5760040283203,
+        0,
+        -104.39749908447266
+      ],
+      "footprintBox": [
+        -264.295,
+        -107.387,
+        -242.857,
+        -101.408
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 241845013,
+      "owner": "EVP-WEST",
+      "sourceAsset": "res://assets/neighborhood/building-241845013.glb",
+      "importedPath": ".godot/imported/building-241845013.glb-2039d64dbaa9817e40558c8a5e52f226.scn",
+      "bytes": 1297416,
+      "sha256": "69461398ac563c56bdecf55c208d0d291c66a0f7f0997d71753e963ec50dccb2",
+      "glbSha256": "4c6e1bcb23e084709c5e4aac0af44bdcf43da39fa09f33a47ff707f1106e39a3",
+      "proposedURL": "/seventh/areas/assets/69461398ac563c56bdecf55c208d0d291c66a0f7f0997d71753e963ec50dccb2.scn",
+      "runtimePosition": [
+        -261.65301513671875,
+        0,
+        -93.95399475097656
+      ],
+      "footprintBox": [
+        -279.819,
+        -101.584,
+        -243.487,
+        -86.32400000000001
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 248142313,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-248142313.glb",
+      "importedPath": ".godot/imported/building-248142313.glb-2806acf413a4fe78063a759026e2abc4.scn",
+      "bytes": 355702,
+      "sha256": "8490b40f80e9a536de6e8e7bcbe4c7e684135baa739140630f78ba194dfdc91c",
+      "glbSha256": "418877f1a6d95288a074ed13e2d1a6cdc7938bdd34d00a95f4bff61d7eff20a0",
+      "proposedURL": "/seventh/areas/assets/8490b40f80e9a536de6e8e7bcbe4c7e684135baa739140630f78ba194dfdc91c.scn",
+      "runtimePosition": [
+        69.4749984741211,
+        0,
+        21.454498291015625
+      ],
+      "footprintBox": [
+        65.631,
+        9.483000000000004,
+        73.319,
+        33.42599999999999
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 248142319,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-248142319.glb",
+      "importedPath": ".godot/imported/building-248142319.glb-93d8e26db31260faf0240b97b5eb0ecc.scn",
+      "bytes": 143102,
+      "sha256": "99139811c6f2d19fbf1df959d76b0debc28fadf1c01679c5187bdac54c8c6f93",
+      "glbSha256": "2a11fbdc3cf44cea977afc5b515734a2b68a908e9d8f6106c8e0104989719534",
+      "proposedURL": "/seventh/areas/assets/99139811c6f2d19fbf1df959d76b0debc28fadf1c01679c5187bdac54c8c6f93.scn",
+      "runtimePosition": [
+        77.1709976196289,
+        0,
+        19.44500732421875
+      ],
+      "footprintBox": [
+        73.265,
+        9.47399999999999,
+        81.077,
+        29.415999999999997
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 248142320,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-248142320.glb",
+      "importedPath": ".godot/imported/building-248142320.glb-c057fe7a1f773ad0b57123ff035c5748.scn",
+      "bytes": 117065,
+      "sha256": "223090f7e0d4ea54ee30619b55f69616e4af92c566b9f155ad89e28d66eadf08",
+      "glbSha256": "0ade9ecb2cf0f79bbcb9b92dfdde759bac5197d7bef64749fb4ea520612968f4",
+      "proposedURL": "/seventh/areas/assets/223090f7e0d4ea54ee30619b55f69616e4af92c566b9f155ad89e28d66eadf08.scn",
+      "runtimePosition": [
+        26.823999404907227,
+        0,
+        46.78948974609375
+      ],
+      "footprintBox": [
+        16.152,
+        40.446000000000026,
+        37.496,
+        53.13299999999998
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 248142322,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-248142322.glb",
+      "importedPath": ".godot/imported/building-248142322.glb-9660a5abe5d06a65cb571a8136da1e8a.scn",
+      "bytes": 257746,
+      "sha256": "b95b398d7fac67d64eb593518223cc234c61dd1ed684a2f5ce85d4a870eadc97",
+      "glbSha256": "8ec429b724415cddb5c99c49ad02a767e44c1c5b2edf8bda03940c23df960811",
+      "proposedURL": "/seventh/areas/assets/b95b398d7fac67d64eb593518223cc234c61dd1ed684a2f5ce85d4a870eadc97.scn",
+      "runtimePosition": [
+        84.82550048828125,
+        0,
+        19.44500732421875
+      ],
+      "footprintBox": [
+        81.001,
+        9.47399999999999,
+        88.65,
+        29.415999999999997
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 248142324,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-248142324.glb",
+      "importedPath": ".godot/imported/building-248142324.glb-f50570021459bde3b6485b554540c6d5.scn",
+      "bytes": 93182,
+      "sha256": "e8ef2c3f480ec01894a279dafc994e973536fbdc7b7e42615ad63edef894c75e",
+      "glbSha256": "a099b024e378e617e6a61e0cd13c7ac284b99a2590996f9873e4a64779d9e7e4",
+      "proposedURL": "/seventh/areas/assets/e8ef2c3f480ec01894a279dafc994e973536fbdc7b7e42615ad63edef894c75e.scn",
+      "runtimePosition": [
+        92.4384994506836,
+        0,
+        20.68499755859375
+      ],
+      "footprintBox": [
+        88.579,
+        9.46799999999999,
+        96.298,
+        31.901999999999987
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 248142326,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-248142326.glb",
+      "importedPath": ".godot/imported/building-248142326.glb-731e85e097d40bff9896a7d77bea775d.scn",
+      "bytes": 250726,
+      "sha256": "204f96cec257835b285dd158619b2d53d27c175d9d2e36a418f58b5e39e0a6ec",
+      "glbSha256": "1a38df7769a8139f5c92b157dd3cd73a1fde34cf154995c4952398fb3591b3ae",
+      "proposedURL": "/seventh/areas/assets/204f96cec257835b285dd158619b2d53d27c175d9d2e36a418f58b5e39e0a6ec.scn",
+      "runtimePosition": [
+        26.980499267578125,
+        0,
+        37.16400146484375
+      ],
+      "footprintBox": [
+        16.846,
+        33.877999999999986,
+        37.115,
+        40.44999999999999
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 248142327,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-248142327.glb",
+      "importedPath": ".godot/imported/building-248142327.glb-e2ee212e8e4533ec2298057a2de369c4.scn",
+      "bytes": 291211,
+      "sha256": "53b14fd27d63012ce70bdbfe72750ec83999b36d4ce530d92d989fdc1a239c62",
+      "glbSha256": "ced9c6f92841c941145097fc465710953cca7486dc947945dbf19d3f5b1ac95c",
+      "proposedURL": "/seventh/areas/assets/53b14fd27d63012ce70bdbfe72750ec83999b36d4ce530d92d989fdc1a239c62.scn",
+      "runtimePosition": [
+        26.969499588012695,
+        0,
+        30.59649658203125
+      ],
+      "footprintBox": [
+        16.816,
+        27.305000000000007,
+        37.123,
+        33.88799999999998
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 248142328,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-248142328.glb",
+      "importedPath": ".godot/imported/building-248142328.glb-a34c364ce44f580431263baecb23bde5.scn",
+      "bytes": 428812,
+      "sha256": "16e28f8ef02afe4dac0b8c7f02482f771c18b70c99da9c75faa4922ddc0d4e51",
+      "glbSha256": "dced94f33f5d356f19d295533552dbc31f113ae916d50a687b97c9b730f277ef",
+      "proposedURL": "/seventh/areas/assets/16e28f8ef02afe4dac0b8c7f02482f771c18b70c99da9c75faa4922ddc0d4e51.scn",
+      "runtimePosition": [
+        107.48200225830078,
+        0,
+        21.6614990234375
+      ],
+      "footprintBox": [
+        103.63,
+        9.454000000000008,
+        111.334,
+        33.86900000000003
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 248142329,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-248142329.glb",
+      "importedPath": ".godot/imported/building-248142329.glb-398a6ee8c021aec43d59231ca2e5d92a.scn",
+      "bytes": 323725,
+      "sha256": "c7ab0a6307cae27a54a5f86b391c5b42f2d48490ddae9a23de64988c845b4b9f",
+      "glbSha256": "92fd2e854747c34097cb598271393623da894cfecdfc991079fe64f2b655a45c",
+      "proposedURL": "/seventh/areas/assets/c7ab0a6307cae27a54a5f86b391c5b42f2d48490ddae9a23de64988c845b4b9f.scn",
+      "runtimePosition": [
+        25.050500869750977,
+        0,
+        24.048004150390625
+      ],
+      "footprintBox": [
+        16.057,
+        20.787000000000006,
+        34.044,
+        27.308999999999997
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 248142330,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-248142330.glb",
+      "importedPath": ".godot/imported/building-248142330.glb-5eab363b672107e9db01c8464aa8ac0b.scn",
+      "bytes": 385612,
+      "sha256": "1664b6fa4de1053da2184a06e0353d84c061b226abb710a0b0f25a050b0fcc6d",
+      "glbSha256": "c57f0a551a4e7a07db394beabf012b6b7df480eaa4693b61a9e84918f194520b",
+      "proposedURL": "/seventh/areas/assets/1664b6fa4de1053da2184a06e0353d84c061b226abb710a0b0f25a050b0fcc6d.scn",
+      "runtimePosition": [
+        115.2405014038086,
+        0,
+        21.662506103515625
+      ],
+      "footprintBox": [
+        111.318,
+        9.450999999999993,
+        119.163,
+        33.874000000000024
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 248142331,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-248142331.glb",
+      "importedPath": ".godot/imported/building-248142331.glb-14a013bf46b3dd3d8afab56213bc108b.scn",
+      "bytes": 3166399,
+      "sha256": "6d767540495f59ef0be2bd65b30fd3f1d5b06460c4df4e7fe93e9ac6ee9eca86",
+      "glbSha256": "9bd5e69cb2c2f68398ea483739c5de578dac0aa1eb62da8fa63c6b70d628744c",
+      "proposedURL": "/seventh/areas/assets/6d767540495f59ef0be2bd65b30fd3f1d5b06460c4df4e7fe93e9ac6ee9eca86.scn",
+      "runtimePosition": [
+        26.523500442504883,
+        0,
+        17.553497314453125
+      ],
+      "footprintBox": [
+        16.057,
+        14.288000000000011,
+        36.99,
+        20.81899999999999
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 248142332,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-248142332.glb",
+      "importedPath": ".godot/imported/building-248142332.glb-603e6826992364cd0d17470508988afa.scn",
+      "bytes": 453661,
+      "sha256": "2164e3df1b5ab8993f3f79e2483fdf7c69d78ddd139e9c88d10cc9d88bd0aaec",
+      "glbSha256": "1eeaad9fd2adbb235817898995ced628cb3e3c495b8802c8fdb595901655bb9b",
+      "proposedURL": "/seventh/areas/assets/2164e3df1b5ab8993f3f79e2483fdf7c69d78ddd139e9c88d10cc9d88bd0aaec.scn",
+      "runtimePosition": [
+        122.80449676513672,
+        0,
+        21.289993286132812
+      ],
+      "footprintBox": [
+        119.135,
+        9.449000000000012,
+        126.474,
+        33.13099999999997
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 248142333,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-248142333.glb",
+      "importedPath": ".godot/imported/building-248142333.glb-eabb93b3430014cfd1b52308c2810c4b.scn",
+      "bytes": 218606,
+      "sha256": "b41b93e98be5688a64fdfc8d85c824980eeba84fad53fb4fd25e683d35ef5800",
+      "glbSha256": "3a4e2aaa422ad2962cb2ded398b7e9b2ebe2898e3da53c47c3ffc3cd6f1d3de2",
+      "proposedURL": "/seventh/areas/assets/b41b93e98be5688a64fdfc8d85c824980eeba84fad53fb4fd25e683d35ef5800.scn",
+      "runtimePosition": [
+        138.0135040283203,
+        0,
+        17.58099365234375
+      ],
+      "footprintBox": [
+        134.218,
+        9.443999999999988,
+        141.809,
+        25.71799999999999
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 248142334,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-248142334.glb",
+      "importedPath": ".godot/imported/building-248142334.glb-2993403c576957452b6fb14225d7be64.scn",
+      "bytes": 347401,
+      "sha256": "1b68063af107e6243c6b935aacb5a3422e5d5db6c21ac819200d3e47cf626879",
+      "glbSha256": "42587627366a62f87ac011f52d820ef34976b79d061f78c7b6188b1f536820a4",
+      "proposedURL": "/seventh/areas/assets/1b68063af107e6243c6b935aacb5a3422e5d5db6c21ac819200d3e47cf626879.scn",
+      "runtimePosition": [
+        145.5554962158203,
+        0,
+        17.58050537109375
+      ],
+      "footprintBox": [
+        141.756,
+        9.443000000000012,
+        149.355,
+        25.71799999999999
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 248142335,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-248142335.glb",
+      "importedPath": ".godot/imported/building-248142335.glb-188728a911a6b8dab01563d1190e82eb.scn",
+      "bytes": 384484,
+      "sha256": "04e97185ef5ace7cec4f9df35bff497460d00f53d46b7f1d5ae4c87544794462",
+      "glbSha256": "c2b0976e394a336129c0b85a8325656716b73f6b861b4055156e6c5f26d5e98c",
+      "proposedURL": "/seventh/areas/assets/04e97185ef5ace7cec4f9df35bff497460d00f53d46b7f1d5ae4c87544794462.scn",
+      "runtimePosition": [
+        153.11700439453125,
+        0,
+        17.576995849609375
+      ],
+      "footprintBox": [
+        149.294,
+        9.441000000000003,
+        156.94,
+        25.712999999999994
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 248142336,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-248142336.glb",
+      "importedPath": ".godot/imported/building-248142336.glb-e74278926e16c370c534970e4562a99a.scn",
+      "bytes": 365271,
+      "sha256": "ee243aa9ff502f2c0b6c2417a6b7cf07280eca954fbf4bea4d17fde5f24340ec",
+      "glbSha256": "4ef920848d538498114647a224f323ff56cd41a0f8003038601299eddecebcda",
+      "proposedURL": "/seventh/areas/assets/ee243aa9ff502f2c0b6c2417a6b7cf07280eca954fbf4bea4d17fde5f24340ec.scn",
+      "runtimePosition": [
+        160.94400024414062,
+        0,
+        20.514495849609375
+      ],
+      "footprintBox": [
+        156.88,
+        9.436000000000007,
+        165.008,
+        31.593000000000018
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 248142337,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-248142337.glb",
+      "importedPath": ".godot/imported/building-248142337.glb-cd1d37855e1c2ba6ee84d11cfbdad2b5.scn",
+      "bytes": 517664,
+      "sha256": "207aa8e828ac1cd7d0c14e22249e7d5b21b00cfe14fcb5a62733e05a656dd656",
+      "glbSha256": "4d1e798c1bd1b4bd9fb46a4cec7f53f50182f3b150b710023019afb3a12f0113",
+      "proposedURL": "/seventh/areas/assets/207aa8e828ac1cd7d0c14e22249e7d5b21b00cfe14fcb5a62733e05a656dd656.scn",
+      "runtimePosition": [
+        168.5175018310547,
+        0,
+        23.182998657226562
+      ],
+      "footprintBox": [
+        164.927,
+        9.436000000000007,
+        172.108,
+        36.93000000000001
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 248142338,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-248142338.glb",
+      "importedPath": ".godot/imported/building-248142338.glb-1a2145dc63a10689d715ed3286d0bef8.scn",
+      "bytes": 436885,
+      "sha256": "fcba34fc2c9f95c433302d414613c68559d80ba3b8685bc47c88484b25ab81fe",
+      "glbSha256": "7150e89dd3f7db6fc5b396fd46d321f43f8825c32d590d88719607188dce53d6",
+      "proposedURL": "/seventh/areas/assets/fcba34fc2c9f95c433302d414613c68559d80ba3b8685bc47c88484b25ab81fe.scn",
+      "runtimePosition": [
+        265.1390075683594,
+        0,
+        21.237503051757812
+      ],
+      "footprintBox": [
+        249.905,
+        9.675999999999988,
+        280.373,
+        32.79899999999998
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 248142390,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-248142390.glb",
+      "importedPath": ".godot/imported/building-248142390.glb-b499afaa98183b8aa00a4e18a3f440f3.scn",
+      "bytes": 418325,
+      "sha256": "7ce57d4a8fc16530d06be96860f4b50d5d7ba34dd676b9354bd8cf5bc5d90624",
+      "glbSha256": "039ea1e72da37374e5e2644170d76e2e97cb1ac0b208895373636258b4033c70",
+      "proposedURL": "/seventh/areas/assets/7ce57d4a8fc16530d06be96860f4b50d5d7ba34dd676b9354bd8cf5bc5d90624.scn",
+      "runtimePosition": [
+        47.01649856567383,
+        0,
+        21.386993408203125
+      ],
+      "footprintBox": [
+        43.748,
+        9.490000000000009,
+        50.285,
+        33.28399999999999
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 248142393,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-248142393.glb",
+      "importedPath": ".godot/imported/building-248142393.glb-ae770cd3272d2a479675e911d5e6536b.scn",
+      "bytes": 412097,
+      "sha256": "f4c5928eed604e2083ebde5f0fc482db3bcc7c3c266878ae455a767546ae2735",
+      "glbSha256": "87b9881f2706a60aba0a287aac22a4c1a607d8d44a00f2f3a4d4154286a6792f",
+      "proposedURL": "/seventh/areas/assets/f4c5928eed604e2083ebde5f0fc482db3bcc7c3c266878ae455a767546ae2735.scn",
+      "runtimePosition": [
+        54.06050109863281,
+        0,
+        20.17449951171875
+      ],
+      "footprintBox": [
+        50.209,
+        9.490000000000009,
+        57.912,
+        30.85899999999998
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 248142396,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-248142396.glb",
+      "importedPath": ".godot/imported/building-248142396.glb-6c9883683a6298c1cf67b1eb5f53caa8.scn",
+      "bytes": 327918,
+      "sha256": "ce3f4b0233b6cd8716664efd000b228e1373ec20a035394a98563b1a511bbdba",
+      "glbSha256": "4680d529ccc296d8fa190c462834f414cd8dd2771873f8d23d3e66e11d87a92e",
+      "proposedURL": "/seventh/areas/assets/ce3f4b0233b6cd8716664efd000b228e1373ec20a035394a98563b1a511bbdba.scn",
+      "runtimePosition": [
+        61.76250076293945,
+        0,
+        18.845504760742188
+      ],
+      "footprintBox": [
+        57.835,
+        9.48599999999999,
+        65.69,
+        28.204999999999984
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 248142404,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-248142404.glb",
+      "importedPath": ".godot/imported/building-248142404.glb-fcf09f5e2890309e5af7751424a2ecf0.scn",
+      "bytes": 5755304,
+      "sha256": "986ebb40b5fc67509bebc2e2fbe8ba51838c9966bf58e0ad37f89c8de57e033e",
+      "glbSha256": "abc32559643cc97e54bd22b69200fcba0f2e8ff1d3b1235d17edce367243b823",
+      "proposedURL": "/seventh/areas/assets/986ebb40b5fc67509bebc2e2fbe8ba51838c9966bf58e0ad37f89c8de57e033e.scn",
+      "runtimePosition": [
+        26.52750015258789,
+        0,
+        11.888504028320312
+      ],
+      "footprintBox": [
+        16.063,
+        9.471000000000004,
+        36.992,
+        14.306000000000012
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 248142407,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-248142407.glb",
+      "importedPath": ".godot/imported/building-248142407.glb-3bb163e6be8ad09c7bd636cc15c5ab66.scn",
+      "bytes": 1565302,
+      "sha256": "6d5634b85247d11f2a25c24163b8cdfdb4845b56389699fa9510d47d5be868d0",
+      "glbSha256": "6b614af942c11e052b63fc21eacc24bd88bb37ab92030767789ef883acf8e4de",
+      "proposedURL": "/seventh/areas/assets/6d5634b85247d11f2a25c24163b8cdfdb4845b56389699fa9510d47d5be868d0.scn",
+      "runtimePosition": [
+        187.27850341796875,
+        0,
+        12.905502319335938
+      ],
+      "footprintBox": [
+        172.003,
+        9.419999999999987,
+        202.554,
+        16.39099999999999
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 248142411,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-248142411.glb",
+      "importedPath": ".godot/imported/building-248142411.glb-3e1bc9e5dc8b89a044ebfae63c4b06a8.scn",
+      "bytes": 168712,
+      "sha256": "bbc139d0ad1de1faf9311daba8cdd938bd3c1842226bbd11b40d4b12dc7a52b9",
+      "glbSha256": "82d78fd42f396a942dc8112ce6c96aeaf3c7df911df5147cbaa613fe4fb7f6f2",
+      "proposedURL": "/seventh/areas/assets/bbc139d0ad1de1faf9311daba8cdd938bd3c1842226bbd11b40d4b12dc7a52b9.scn",
+      "runtimePosition": [
+        130.35000610351562,
+        0,
+        17.582000732421875
+      ],
+      "footprintBox": [
+        126.421,
+        9.444999999999993,
+        134.279,
+        25.718999999999994
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 248142412,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-248142412.glb",
+      "importedPath": ".godot/imported/building-248142412.glb-107a70ad0de50987bc5c288d4159ec9c.scn",
+      "bytes": 692145,
+      "sha256": "c8028866102f17deba66743bfd6d5c37b50bcf5391802fd7a0fce44d64eb2c92",
+      "glbSha256": "97143a1d4a3c473950976c07290df7ef845f840c10b469a05e7646028670ebe1",
+      "proposedURL": "/seventh/areas/assets/c8028866102f17deba66743bfd6d5c37b50bcf5391802fd7a0fce44d64eb2c92.scn",
+      "runtimePosition": [
+        237.1230010986328,
+        0,
+        14.871002197265625
+      ],
+      "footprintBox": [
+        226.603,
+        9.11699999999999,
+        247.643,
+        20.625
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 248142614,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-248142614.glb",
+      "importedPath": ".godot/imported/building-248142614.glb-5453210602e1dd5a75b8c31127ee306b.scn",
+      "bytes": 546554,
+      "sha256": "4c582029b98aaad943aeef9bab01d2e0b8c801c0b4eacb0bc9b6fe6f8e958591",
+      "glbSha256": "36649485b8c5d1633d650e8e160a2a99e5fa3ad0642e66e27fc257f3efbb7ee5",
+      "proposedURL": "/seventh/areas/assets/4c582029b98aaad943aeef9bab01d2e0b8c801c0b4eacb0bc9b6fe6f8e958591.scn",
+      "runtimePosition": [
+        65.70050048828125,
+        0,
+        -56.60249328613281
+      ],
+      "footprintBox": [
+        61.701,
+        -68.721,
+        69.7,
+        -44.48400000000001
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 248142615,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-248142615.glb",
+      "importedPath": ".godot/imported/building-248142615.glb-b0e0eae5ed9d5687b20b3a304f7369ff.scn",
+      "bytes": 164880,
+      "sha256": "0c784ff17aa66610f0d4da5d65c15693b19b3b1de608f4117f546451652b3940",
+      "glbSha256": "b30466bbc7954d896413f84d0cafaddae0fa1c21df82ccf724d23b876f30db87",
+      "proposedURL": "/seventh/areas/assets/0c784ff17aa66610f0d4da5d65c15693b19b3b1de608f4117f546451652b3940.scn",
+      "runtimePosition": [
+        75.90350341796875,
+        0,
+        -20.184005737304688
+      ],
+      "footprintBox": [
+        72.777,
+        -29.764999999999986,
+        79.03,
+        -10.603000000000009
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 248142616,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-248142616.glb",
+      "importedPath": ".godot/imported/building-248142616.glb-b0ae336f47a928fb14cd33d611adf57b.scn",
+      "bytes": 673765,
+      "sha256": "5dedbd47cae377849ded5768f85a815115a7f549d53576d664636d5be522625c",
+      "glbSha256": "48bf5054cd9204817e7de1f8bc5e761867bfa39ae9a74ca62c693c8a1267bf1f",
+      "proposedURL": "/seventh/areas/assets/5dedbd47cae377849ded5768f85a815115a7f549d53576d664636d5be522625c.scn",
+      "runtimePosition": [
+        82.18250274658203,
+        0,
+        -101.52649688720703
+      ],
+      "footprintBox": [
+        76.547,
+        -115.983,
+        87.818,
+        -87.07
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 248142617,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-248142617.glb",
+      "importedPath": ".godot/imported/building-248142617.glb-637b756c540b47f8ec63cdf632e22291.scn",
+      "bytes": 396553,
+      "sha256": "0b19a8dca941f02e1675ced26908559a6d22db9b2b888940bb7c96c1470c7f6b",
+      "glbSha256": "01120c69c2c553fec6e598fe47da9fe51adb5fb54af1ba9857216801336e0707",
+      "proposedURL": "/seventh/areas/assets/0b19a8dca941f02e1675ced26908559a6d22db9b2b888940bb7c96c1470c7f6b.scn",
+      "runtimePosition": [
+        73.7760009765625,
+        0,
+        -59.81199645996094
+      ],
+      "footprintBox": [
+        69.662,
+        -68.732,
+        77.89,
+        -50.891999999999996
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 248142618,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-248142618.glb",
+      "importedPath": ".godot/imported/building-248142618.glb-a780ae274312030da2fa4f2bd5f86c2b.scn",
+      "bytes": 561203,
+      "sha256": "0a905dc3d317944941cfcd6611d8a16aab5be365819540f24af1a1daf6bc7a66",
+      "glbSha256": "2a40c700d5ca6a56a8a8002c505d30f6e48cce9883789812ca22aa5de4bc1dff",
+      "proposedURL": "/seventh/areas/assets/0a905dc3d317944941cfcd6611d8a16aab5be365819540f24af1a1daf6bc7a66.scn",
+      "runtimePosition": [
+        91.4175033569336,
+        0,
+        -23.939498901367188
+      ],
+      "footprintBox": [
+        80.23,
+        -38.40899999999999,
+        102.605,
+        -9.469999999999999
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 248142619,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-248142619.glb",
+      "importedPath": ".godot/imported/building-248142619.glb-c8ef752eeab5eafca39047bc4e366faa.scn",
+      "bytes": 412220,
+      "sha256": "879b207fc5d378846eabd21145c9d3a43ca0cba1b86acb114759d6f9a6dce90a",
+      "glbSha256": "888aed357f25aa8855f08c514bbcc21f834e357617f46209fb96871d4cf06a1e",
+      "proposedURL": "/seventh/areas/assets/879b207fc5d378846eabd21145c9d3a43ca0cba1b86acb114759d6f9a6dce90a.scn",
+      "runtimePosition": [
+        93.62000274658203,
+        0,
+        -96.37249755859375
+      ],
+      "footprintBox": [
+        87.757,
+        -105.684,
+        99.483,
+        -87.061
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 248142620,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-248142620.glb",
+      "importedPath": ".godot/imported/building-248142620.glb-7b0328aed152f3886432b7a34dabfc59.scn",
+      "bytes": 667606,
+      "sha256": "9026919b2d022f7a6baf958aff790e23d81ea5a3efe1eeeb275721f2c24cb0b0",
+      "glbSha256": "f96e2f279499fc8487bba38d4caff92e41af4d902606949eff8ac4280fd6bd2f",
+      "proposedURL": "/seventh/areas/assets/9026919b2d022f7a6baf958aff790e23d81ea5a3efe1eeeb275721f2c24cb0b0.scn",
+      "runtimePosition": [
+        110.88899993896484,
+        0,
+        -96.37100219726562
+      ],
+      "footprintBox": [
+        99.43,
+        -105.681,
+        122.348,
+        -87.061
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 248142621,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-248142621.glb",
+      "importedPath": ".godot/imported/building-248142621.glb-a9365a23f27aa07236e3ef2280bddb65.scn",
+      "bytes": 113136,
+      "sha256": "bafd694a8a6d8fcd93c3833a5d02655ae0121e1320ddb72238734a93532f7727",
+      "glbSha256": "bc0faf2695cf42c25053121422391c08c7407eb87762e091ba769e8c4bbbed2b",
+      "proposedURL": "/seventh/areas/assets/bafd694a8a6d8fcd93c3833a5d02655ae0121e1320ddb72238734a93532f7727.scn",
+      "runtimePosition": [
+        100.02799987792969,
+        0,
+        -19.05999755859375
+      ],
+      "footprintBox": [
+        96.784,
+        -27.950999999999993,
+        103.272,
+        -10.169000000000011
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 248142622,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-248142622.glb",
+      "importedPath": ".godot/imported/building-248142622.glb-2869e281f58b3d813509b610862db9a6.scn",
+      "bytes": 614085,
+      "sha256": "5e39a1aa2c709b1ff70faac559a2d3c0665449075b2d00c3bf3503db7e744f57",
+      "glbSha256": "45ae62003eac772592ab668a5cf6d395774c5a068b8122e1a4c0cc3c8bbed789",
+      "proposedURL": "/seventh/areas/assets/5e39a1aa2c709b1ff70faac559a2d3c0665449075b2d00c3bf3503db7e744f57.scn",
+      "runtimePosition": [
+        126.12149810791016,
+        0,
+        -99.70150756835938
+      ],
+      "footprintBox": [
+        122.269,
+        -112.341,
+        129.974,
+        -87.06200000000001
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 248142623,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-248142623.glb",
+      "importedPath": ".godot/imported/building-248142623.glb-ab1744326a66cc24aaa2838d7de1831c.scn",
+      "bytes": 532558,
+      "sha256": "0b5a73fc698931eb2df9205916822f2e8e277413f9c17cc814c33ae1defb7a29",
+      "glbSha256": "abd5df6fad79b20c2a0de347325dd695b24bfb7086191ea0ff44bcf10f52c9cc",
+      "proposedURL": "/seventh/areas/assets/0b5a73fc698931eb2df9205916822f2e8e277413f9c17cc814c33ae1defb7a29.scn",
+      "runtimePosition": [
+        107.19499969482422,
+        0,
+        -54.33500671386719
+      ],
+      "footprintBox": [
+        101.497,
+        -68.47999999999999,
+        112.893,
+        -40.19
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 248142624,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-248142624.glb",
+      "importedPath": ".godot/imported/building-248142624.glb-159542565fb40399d56aa1971b034baa.scn",
+      "bytes": 1028522,
+      "sha256": "d5777936507b6e428a8d7556751d8852850e828687c0d14b481441ff84029ee8",
+      "glbSha256": "67da124d7808b33372148b34ff27d55292fdf689ba17d150251e2a52aa6eeb4f",
+      "proposedURL": "/seventh/areas/assets/d5777936507b6e428a8d7556751d8852850e828687c0d14b481441ff84029ee8.scn",
+      "runtimePosition": [
+        112.63050079345703,
+        0,
+        -23.136993408203125
+      ],
+      "footprintBox": [
+        103.194,
+        -37.655,
+        122.067,
+        -8.619
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 248142625,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-248142625.glb",
+      "importedPath": ".godot/imported/building-248142625.glb-3ca6ecb39840e381f20474acef444269.scn",
+      "bytes": 273535,
+      "sha256": "a699c4e8570479ef06579049c507dad27078db72c035c7940e138806b8a31ced",
+      "glbSha256": "a4e80b89ef455e2c7f41aa5fbd62bff87179d2d15adf714d06e1faf27c93e981",
+      "proposedURL": "/seventh/areas/assets/a699c4e8570479ef06579049c507dad27078db72c035c7940e138806b8a31ced.scn",
+      "runtimePosition": [
+        133.73350524902344,
+        0,
+        -95.25100708007812
+      ],
+      "footprintBox": [
+        129.922,
+        -103.446,
+        137.545,
+        -87.05600000000001
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 248142627,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-248142627.glb",
+      "importedPath": ".godot/imported/building-248142627.glb-35a1ba2807e49b115da0409e47b75796.scn",
+      "bytes": 450897,
+      "sha256": "91789d0e4f01f465582c3c810b0e7cc6eee56d722ab49385d34694d77c691c56",
+      "glbSha256": "38641e63d3f383873577ba074d1d85fd3601d4bd7112d57c90bda10b5fe86d06",
+      "proposedURL": "/seventh/areas/assets/91789d0e4f01f465582c3c810b0e7cc6eee56d722ab49385d34694d77c691c56.scn",
+      "runtimePosition": [
+        141.25149536132812,
+        0,
+        -95.25
+      ],
+      "footprintBox": [
+        137.495,
+        -103.446,
+        145.008,
+        -87.054
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 248142628,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-248142628.glb",
+      "importedPath": ".godot/imported/building-248142628.glb-67409a3d5d94f349077b03b640804cc1.scn",
+      "bytes": 100594,
+      "sha256": "39b17c7f63cc3ecc0c87082edeb97e29db5c537d561e1156bd28b397dd0a3c07",
+      "glbSha256": "3751c60551f88a76260735b61e0881b33b42fe4747b84cfce149180473cd857c",
+      "proposedURL": "/seventh/areas/assets/39b17c7f63cc3ecc0c87082edeb97e29db5c537d561e1156bd28b397dd0a3c07.scn",
+      "runtimePosition": [
+        115.89250183105469,
+        0,
+        -59.904998779296875
+      ],
+      "footprintBox": [
+        112.798,
+        -68.48599999999999,
+        118.987,
+        -51.32400000000001
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 248142630,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-248142630.glb",
+      "importedPath": ".godot/imported/building-248142630.glb-c87861c1d4eb55d415700071b3e884b9.scn",
+      "bytes": 678525,
+      "sha256": "c7dd064cd627283167ced8d5a4a1c74d224bb771d8f41bde841d129be7622331",
+      "glbSha256": "b6dd883b02895e70ac696724b55305dc47001d89f5e49a22686e4fc53d4d8b1f",
+      "proposedURL": "/seventh/areas/assets/c7dd064cd627283167ced8d5a4a1c74d224bb771d8f41bde841d129be7622331.scn",
+      "runtimePosition": [
+        150.7010040283203,
+        0,
+        -99.30400085449219
+      ],
+      "footprintBox": [
+        144.978,
+        -111.554,
+        156.424,
+        -87.054
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 248142631,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-248142631.glb",
+      "importedPath": ".godot/imported/building-248142631.glb-8742250a8bc05146fa85bcada043ec4b.scn",
+      "bytes": 196805,
+      "sha256": "2bbe0c18dec474f283b27efaf22203a81967e4b3ec2981e0cac0c69e9fba737d",
+      "glbSha256": "04225754b2da54946ebabee7155c42b26d71a441b8558eb6d74b23a8594bd087",
+      "proposedURL": "/seventh/areas/assets/2bbe0c18dec474f283b27efaf22203a81967e4b3ec2981e0cac0c69e9fba737d.scn",
+      "runtimePosition": [
+        121.87200164794922,
+        0,
+        -59.906005859375
+      ],
+      "footprintBox": [
+        118.924,
+        -68.49100000000001,
+        124.82,
+        -51.321
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 248142633,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-248142633.glb",
+      "importedPath": ".godot/imported/building-248142633.glb-65e5cf0237b93ea0b9e81e3ddbc8e9cb.scn",
+      "bytes": 551680,
+      "sha256": "a1581762b3b751f05d75cc48d275e2f1658da21679e6f8e00c5373294c8c68c2",
+      "glbSha256": "6d1c24fc9fd77bb089277cd5f8ee9046c186fe78bbe84d04c6ce07e9c08c26cc",
+      "proposedURL": "/seventh/areas/assets/a1581762b3b751f05d75cc48d275e2f1658da21679e6f8e00c5373294c8c68c2.scn",
+      "runtimePosition": [
+        128.51199340820312,
+        0,
+        -21.558502197265625
+      ],
+      "footprintBox": [
+        122.039,
+        -34.494,
+        134.985,
+        -8.62299999999999
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 248142634,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-248142634.glb",
+      "importedPath": ".godot/imported/building-248142634.glb-5aa745fe4727e2eff858d9a78b13f9b1.scn",
+      "bytes": 365943,
+      "sha256": "35f306463f2940e05e1b39f4b8843cfe42726a87ffb05dcaa4906ec9903586bb",
+      "glbSha256": "813066fba0848e304f14f1ca9d9c456be3ad9f8a94c4a760365303d18064a201",
+      "proposedURL": "/seventh/areas/assets/35f306463f2940e05e1b39f4b8843cfe42726a87ffb05dcaa4906ec9903586bb.scn",
+      "runtimePosition": [
+        128.65699768066406,
+        0,
+        -58.5364990234375
+      ],
+      "footprintBox": [
+        124.751,
+        -68.49700000000001,
+        132.563,
+        -48.57599999999999
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 248142636,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-248142636.glb",
+      "importedPath": ".godot/imported/building-248142636.glb-5b273f53f534ab73a6dedf8001ed2c07.scn",
+      "bytes": 845710,
+      "sha256": "4042090b1ddaf4b9de2c0336521685060f43068088373b4fe37557beac3d90bb",
+      "glbSha256": "3b756041a2ae8bb9949a9df8088f9842bcf3e998c9846e5c310f324d607608f9",
+      "proposedURL": "/seventh/areas/assets/4042090b1ddaf4b9de2c0336521685060f43068088373b4fe37557beac3d90bb.scn",
+      "runtimePosition": [
+        162.1875,
+        0,
+        -99.30599975585938
+      ],
+      "footprintBox": [
+        156.399,
+        -111.554,
+        167.976,
+        -87.05799999999999
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 248142638,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-248142638.glb",
+      "importedPath": ".godot/imported/building-248142638.glb-30f00d78932407d336e1b4884d8c703f.scn",
+      "bytes": 273097,
+      "sha256": "5606014fa24d6cb18ec60b78c4fc09d6426b4caec0862e66f19c6f855cdcf632",
+      "glbSha256": "fd13e66c4a60a4cca803ed263e0a041ca11ff731af6f71fe14b5785f23d22108",
+      "proposedURL": "/seventh/areas/assets/5606014fa24d6cb18ec60b78c4fc09d6426b4caec0862e66f19c6f855cdcf632.scn",
+      "runtimePosition": [
+        136.58200073242188,
+        0,
+        -55.27349853515625
+      ],
+      "footprintBox": [
+        132.527,
+        -68.49700000000001,
+        140.637,
+        -42.05000000000001
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 248142640,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-248142640.glb",
+      "importedPath": ".godot/imported/building-248142640.glb-214a137fad390c72e6da523c99d5a121.scn",
+      "bytes": 413466,
+      "sha256": "b00a80c8cf08c2a3160d32ff39b156bfedce4cf006b711aeaa78bd39c33c78e8",
+      "glbSha256": "33d26d76c408e1852478da24a1dee4aa1a5f49641dee995d9eeba803ee88adfd",
+      "proposedURL": "/seventh/areas/assets/b00a80c8cf08c2a3160d32ff39b156bfedce4cf006b711aeaa78bd39c33c78e8.scn",
+      "runtimePosition": [
+        138.32899475097656,
+        0,
+        -22.102005004882812
+      ],
+      "footprintBox": [
+        134.882,
+        -35.56899999999999,
+        141.776,
+        -8.634999999999991
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 248142641,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-248142641.glb",
+      "importedPath": ".godot/imported/building-248142641.glb-33a86145725eaa62893afea54ed9eb1d.scn",
+      "bytes": 878924,
+      "sha256": "cbb10a18b88d8175eec6edca1256a50e61e288c3eaa04eb6e7de3c185e1bf5eb",
+      "glbSha256": "d80047c7fe33927e7d4d95060056b3d2d8fd8805b3c53d8eb9398020137439ef",
+      "proposedURL": "/seventh/areas/assets/cbb10a18b88d8175eec6edca1256a50e61e288c3eaa04eb6e7de3c185e1bf5eb.scn",
+      "runtimePosition": [
+        176.71600341796875,
+        0,
+        -97.23399353027344
+      ],
+      "footprintBox": [
+        167.911,
+        -107.419,
+        185.521,
+        -87.049
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 248142642,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-248142642.glb",
+      "importedPath": ".godot/imported/building-248142642.glb-3252ec370874d466c89ad8285fa81562.scn",
+      "bytes": 242689,
+      "sha256": "98798df12dad613f6349b2659664ff8b624268dfc5a46f4136096b2a0548cec6",
+      "glbSha256": "15fd05146339e10c9e577d18cc8b27cc78689310539c14d71ffd7ec725bdbc2e",
+      "proposedURL": "/seventh/areas/assets/98798df12dad613f6349b2659664ff8b624268dfc5a46f4136096b2a0548cec6.scn",
+      "runtimePosition": [
+        23.003000259399414,
+        0,
+        -27.55450439453125
+      ],
+      "footprintBox": [
+        15.384,
+        -31.238,
+        30.622,
+        -23.87100000000001
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 248142643,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-248142643.glb",
+      "importedPath": ".godot/imported/building-248142643.glb-888b54a419254495d2ed61fd6a79d8e9.scn",
+      "bytes": 981145,
+      "sha256": "756f8ca23cae74ea41644cdddb111311f89df619f3eaff6a2a501c20cb98e2f6",
+      "glbSha256": "519081e251fe64956417f3959dd7103653c2be1406a5d9eaec98331e663bc07a",
+      "proposedURL": "/seventh/areas/assets/756f8ca23cae74ea41644cdddb111311f89df619f3eaff6a2a501c20cb98e2f6.scn",
+      "runtimePosition": [
+        146.39700317382812,
+        0,
+        -55.662506103515625
+      ],
+      "footprintBox": [
+        140.54,
+        -68.512,
+        152.254,
+        -42.81299999999999
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 248142645,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-248142645.glb",
+      "importedPath": ".godot/imported/building-248142645.glb-2c5f23c6f39ba0fb1407320d8dae842f.scn",
+      "bytes": 274149,
+      "sha256": "2d40756b96783be6f6d11eecea4743fe5538f4dbb71e4433e3c2351262c00fdc",
+      "glbSha256": "16d3fd3c5a767061fadad258b276ec24dc852624e6021a72a32a67ad8c41b897",
+      "proposedURL": "/seventh/areas/assets/2d40756b96783be6f6d11eecea4743fe5538f4dbb71e4433e3c2351262c00fdc.scn",
+      "runtimePosition": [
+        145.58700561523438,
+        0,
+        -22.337493896484375
+      ],
+      "footprintBox": [
+        141.676,
+        -36.03299999999999,
+        149.498,
+        -8.641999999999996
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 248142646,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-248142646.glb",
+      "importedPath": ".godot/imported/building-248142646.glb-6f4a003e9f3c07ddb8065bd1991d1c27.scn",
+      "bytes": 459688,
+      "sha256": "729a6b193d47d0f6d641d7471b10a48e18d3e2bf99a45f074841f1fc82354172",
+      "glbSha256": "ef8319530bd528f10dc63245d46afcd4dd550826a99bb8dcb6e998f58ba3fdf7",
+      "proposedURL": "/seventh/areas/assets/729a6b193d47d0f6d641d7471b10a48e18d3e2bf99a45f074841f1fc82354172.scn",
+      "runtimePosition": [
+        22.987499237060547,
+        0,
+        -35.02850341796875
+      ],
+      "footprintBox": [
+        15.363,
+        -38.84299999999999,
+        30.612,
+        -31.214
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 248142647,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-248142647.glb",
+      "importedPath": ".godot/imported/building-248142647.glb-9f7235ee2b2eed1106a4d252d881cab2.scn",
+      "bytes": 244325,
+      "sha256": "69daf4929bb961b237fbc72b947ab9174f3fd7e48c2e82eaec59848e7fb1d446",
+      "glbSha256": "42522fd0c3c255992dc16043cc108f2b5c1822c2889a241958ede1d32b308b07",
+      "proposedURL": "/seventh/areas/assets/69daf4929bb961b237fbc72b947ab9174f3fd7e48c2e82eaec59848e7fb1d446.scn",
+      "runtimePosition": [
+        153.08200073242188,
+        0,
+        -22.341506958007812
+      ],
+      "footprintBox": [
+        149.392,
+        -36.03999999999999,
+        156.772,
+        -8.643
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 248142648,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-248142648.glb",
+      "importedPath": ".godot/imported/building-248142648.glb-af75e538abf5cebc01620825de029595.scn",
+      "bytes": 250499,
+      "sha256": "ae3b5d9d41e01bcbe91a00ecf3550d35e3f6c8773ef53e58a3aaac001cf5284a",
+      "glbSha256": "a49faf2b0c82aeb35c60058f27ee5b3618a7d7a65d27d66e786ac8476b99652b",
+      "proposedURL": "/seventh/areas/assets/ae3b5d9d41e01bcbe91a00ecf3550d35e3f6c8773ef53e58a3aaac001cf5284a.scn",
+      "runtimePosition": [
+        25.61400032043457,
+        0,
+        -42.57749938964844
+      ],
+      "footprintBox": [
+        15.352,
+        -46.33500000000001,
+        35.876,
+        -38.81999999999999
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 248142649,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-248142649.glb",
+      "importedPath": ".godot/imported/building-248142649.glb-9e1e0c00d6b57c36eb396ffa8ef564c4.scn",
+      "bytes": 575298,
+      "sha256": "7ff193d841cfc5a905ce10b71a61589b58c005a794274f8e797af055ce10a3d5",
+      "glbSha256": "e35898da3d64d19e971a9c10605710f41446567f10121c81a20d39e50004acbf",
+      "proposedURL": "/seventh/areas/assets/7ff193d841cfc5a905ce10b71a61589b58c005a794274f8e797af055ce10a3d5.scn",
+      "runtimePosition": [
+        158.11599731445312,
+        0,
+        -55.66749572753906
+      ],
+      "footprintBox": [
+        152.23,
+        -68.512,
+        164.002,
+        -42.82300000000001
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 248142650,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-248142650.glb",
+      "importedPath": ".godot/imported/building-248142650.glb-521a38af826128f69ace20a78f9a1946.scn",
+      "bytes": 342531,
+      "sha256": "6d89f64e83af5ca8afb4cd7f0addd2585b9bd936497cc24faafd570f95686e07",
+      "glbSha256": "bf6f720c3d6d5bf21584f28bdc73a0c805c99a1f6d7ee93b51e40cc1c8ca882c",
+      "proposedURL": "/seventh/areas/assets/6d89f64e83af5ca8afb4cd7f0addd2585b9bd936497cc24faafd570f95686e07.scn",
+      "runtimePosition": [
+        160.6634979248047,
+        0,
+        -21.75
+      ],
+      "footprintBox": [
+        156.719,
+        -34.849999999999994,
+        164.608,
+        -8.650000000000006
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 248142651,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-248142651.glb",
+      "importedPath": ".godot/imported/building-248142651.glb-b5aa510cf0d229e2e7d600e49156d8c0.scn",
+      "bytes": 388948,
+      "sha256": "3572bcfa1f6f1311aca35cdcbdf7607c60935013fa59fb1c86c1f7209d554134",
+      "glbSha256": "2a046201fd5725dfdc1d2e924b0b9fe9527b28768e342ac3a2287280293a8be7",
+      "proposedURL": "/seventh/areas/assets/3572bcfa1f6f1311aca35cdcbdf7607c60935013fa59fb1c86c1f7209d554134.scn",
+      "runtimePosition": [
+        22.33449935913086,
+        0,
+        -50.2554931640625
+      ],
+      "footprintBox": [
+        15.344,
+        -54.208,
+        29.325,
+        -46.303
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 248142652,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-248142652.glb",
+      "importedPath": ".godot/imported/building-248142652.glb-62b9e845af502eae5203b60fe0ef18f1.scn",
+      "bytes": 244097,
+      "sha256": "33be3f58f172ce22df71662e02a5efcabdb6481a87b14bb4cdbeccb3e523fea0",
+      "glbSha256": "6d8a07de2f2a64d6c3aef65b96639b619084576dca5d094efa483bfbfd2260de",
+      "proposedURL": "/seventh/areas/assets/33be3f58f172ce22df71662e02a5efcabdb6481a87b14bb4cdbeccb3e523fea0.scn",
+      "runtimePosition": [
+        168.08599853515625,
+        0,
+        -60.01849365234375
+      ],
+      "footprintBox": [
+        163.977,
+        -68.52000000000001,
+        172.195,
+        -51.516999999999996
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 248142653,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-248142653.glb",
+      "importedPath": ".godot/imported/building-248142653.glb-641452dcac4b082789b6d64deb452b6e.scn",
+      "bytes": 323611,
+      "sha256": "88941b872cee3a35962bf11b62d8c71f9cee5ac38366836facec21b24103fc87",
+      "glbSha256": "0f856de6c533951d6c272bdec1202aeacdeddf321930f7c7182a5b9e745e8f08",
+      "proposedURL": "/seventh/areas/assets/88941b872cee3a35962bf11b62d8c71f9cee5ac38366836facec21b24103fc87.scn",
+      "runtimePosition": [
+        168.35400390625,
+        0,
+        -23.608001708984375
+      ],
+      "footprintBox": [
+        164.494,
+        -38.56399999999999,
+        172.214,
+        -8.651999999999987
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 248142654,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-248142654.glb",
+      "importedPath": ".godot/imported/building-248142654.glb-b67e154eaa937538be596555e020358f.scn",
+      "bytes": 493266,
+      "sha256": "f2e95977acf9aa8407f96f7163da20d3724da9acfb76a50717009d4e80996371",
+      "glbSha256": "c9b96cfdbff490fd555e4a236420a2727394b5d2b5b2099cc77498fc442ed2a5",
+      "proposedURL": "/seventh/areas/assets/f2e95977acf9aa8407f96f7163da20d3724da9acfb76a50717009d4e80996371.scn",
+      "runtimePosition": [
+        22.322500228881836,
+        0,
+        -58.22850036621094
+      ],
+      "footprintBox": [
+        15.329,
+        -62.274,
+        29.316,
+        -54.18299999999999
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 248142655,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-248142655.glb",
+      "importedPath": ".godot/imported/building-248142655.glb-d4dda15c5504906316a4aeaa9509ed63.scn",
+      "bytes": 359329,
+      "sha256": "17abcb3448143434a2f55a6cb867c7e504576b5e5bf459e447007f768b634eff",
+      "glbSha256": "5a63274b58bf7872db5b355364b2241605bdaebed3dfedff583e1aceaa0c66eb",
+      "proposedURL": "/seventh/areas/assets/17abcb3448143434a2f55a6cb867c7e504576b5e5bf459e447007f768b634eff.scn",
+      "runtimePosition": [
+        176.71499633789062,
+        0,
+        -60.02799987792969
+      ],
+      "footprintBox": [
+        172.128,
+        -68.52799999999999,
+        181.302,
+        -51.52799999999999
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 248142656,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-248142656.glb",
+      "importedPath": ".godot/imported/building-248142656.glb-317c39937c9ad27610b3c15b64036c69.scn",
+      "bytes": 319725,
+      "sha256": "2bb46705ee0636481977dde7c52b4ad4805bf22eb107ff14f73095f443c75a53",
+      "glbSha256": "c73368b43d079494c4a73bca6af6cda5458004d622925937a80d57d0d51daeea",
+      "proposedURL": "/seventh/areas/assets/2bb46705ee0636481977dde7c52b4ad4805bf22eb107ff14f73095f443c75a53.scn",
+      "runtimePosition": [
+        177.54550170898438,
+        0,
+        -12.478500366210938
+      ],
+      "footprintBox": [
+        172.187,
+        -16.305000000000007,
+        182.904,
+        -8.651999999999987
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 248142686,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-248142686.glb",
+      "importedPath": ".godot/imported/building-248142686.glb-781b99be7ef898c6e634badcf8b5ff42.scn",
+      "bytes": 246311,
+      "sha256": "e64d9de72e127f31228bd22545c326e6626edd2b342b81ceabb25fab0b649632",
+      "glbSha256": "ab3f8ca238c808fc8c89ad57c5539f839dcb53d919a7ba0d9c7cee08c112d10a",
+      "proposedURL": "/seventh/areas/assets/e64d9de72e127f31228bd22545c326e6626edd2b342b81ceabb25fab0b649632.scn",
+      "runtimePosition": [
+        30.69849967956543,
+        0,
+        -99.19000244140625
+      ],
+      "footprintBox": [
+        21.458,
+        -109.517,
+        39.939,
+        -88.863
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 248142687,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-248142687.glb",
+      "importedPath": ".godot/imported/building-248142687.glb-1a72c5b41e9546089c90587df412d5db.scn",
+      "bytes": 114166,
+      "sha256": "9657da693fe05cd817c5f6e2998cff8e9622880d6d5dff737d42790e82f166ad",
+      "glbSha256": "8a7eb35ad421042aaa71d4d2ad8efde5c12a100008799f6dd69f4c7b54b3d06d",
+      "proposedURL": "/seventh/areas/assets/9657da693fe05cd817c5f6e2998cff8e9622880d6d5dff737d42790e82f166ad.scn",
+      "runtimePosition": [
+        35.39849853515625,
+        0,
+        -61.25250244140625
+      ],
+      "footprintBox": [
+        32.133,
+        -68.666,
+        38.664,
+        -53.839
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 248142688,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-248142688.glb",
+      "importedPath": ".godot/imported/building-248142688.glb-1fc288414e4bc5e5659c6a7977865e2f.scn",
+      "bytes": 117159,
+      "sha256": "ad577a3901b6f75b856362aae26a8025f221eee31158346b6eefc8599cce4e94",
+      "glbSha256": "caf5c5d93d680c447fc9c7bf3d9c8eee708954a6b73f16604c03bb03e576755e",
+      "proposedURL": "/seventh/areas/assets/ad577a3901b6f75b856362aae26a8025f221eee31158346b6eefc8599cce4e94.scn",
+      "runtimePosition": [
+        43.95899963378906,
+        0,
+        -104.60700225830078
+      ],
+      "footprintBox": [
+        39.838,
+        -119.734,
+        48.08,
+        -89.47999999999999
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 248142689,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-248142689.glb",
+      "importedPath": ".godot/imported/building-248142689.glb-9bb3a317b665506753ce7892d253cb77.scn",
+      "bytes": 1017393,
+      "sha256": "3d28934cd27743d6143d2c3af9de05dd81640404d194ae210273100a3881d962",
+      "glbSha256": "c788c1103a8ccbb211f5a4c3b128e3b20f1beb816759c62065c23985d614295c",
+      "proposedURL": "/seventh/areas/assets/3d28934cd27743d6143d2c3af9de05dd81640404d194ae210273100a3881d962.scn",
+      "runtimePosition": [
+        42.39099884033203,
+        0,
+        -61.266998291015625
+      ],
+      "footprintBox": [
+        38.641,
+        -68.68100000000001,
+        46.141,
+        -53.85300000000001
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 248142690,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-248142690.glb",
+      "importedPath": ".godot/imported/building-248142690.glb-e940b5b59572e97a418fef2fc9a04e13.scn",
+      "bytes": 428241,
+      "sha256": "9ab93239712b8095262d8991f9081882d869756f0bfa612058bb5efd3fe4a8e2",
+      "glbSha256": "36b853096e92968eb2becf44ca92f100c3d818bfeb2df919986ada31068702f9",
+      "proposedURL": "/seventh/areas/assets/9ab93239712b8095262d8991f9081882d869756f0bfa612058bb5efd3fe4a8e2.scn",
+      "runtimePosition": [
+        48.119998931884766,
+        0,
+        -22.063507080078125
+      ],
+      "footprintBox": [
+        44.335,
+        -35.542,
+        51.905,
+        -8.585000000000008
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 248142691,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-248142691.glb",
+      "importedPath": ".godot/imported/building-248142691.glb-76c0f3f5452ac2c9b095462341c82cf0.scn",
+      "bytes": 199794,
+      "sha256": "95822ebbc92db4ed7d50e015da4a2e4aa233c482dbec6c142c16abf5e5831372",
+      "glbSha256": "f6a8a801242f9c6589724db30230c97b4fe3980a9ccda33fdbe9460f79b1d7fd",
+      "proposedURL": "/seventh/areas/assets/95822ebbc92db4ed7d50e015da4a2e4aa233c482dbec6c142c16abf5e5831372.scn",
+      "runtimePosition": [
+        52.31650161743164,
+        0,
+        -97.67550659179688
+      ],
+      "footprintBox": [
+        48.03,
+        -105.871,
+        56.603,
+        -89.47999999999999
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 248142692,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-248142692.glb",
+      "importedPath": ".godot/imported/building-248142692.glb-1b11429dc37ecb91353b1a0e1b6114d8.scn",
+      "bytes": 813322,
+      "sha256": "f84ea82af1bea4b8a19e124e45ecb9d15b9c1d37060bc03048b41997cfcd37d4",
+      "glbSha256": "d0734bccb497f5cc31a1fb70c895cb66728d10b83c3756c62627cd7129d39756",
+      "proposedURL": "/seventh/areas/assets/f84ea82af1bea4b8a19e124e45ecb9d15b9c1d37060bc03048b41997cfcd37d4.scn",
+      "runtimePosition": [
+        50.08449935913086,
+        0,
+        -55.49000549316406
+      ],
+      "footprintBox": [
+        46.113,
+        -68.69200000000001,
+        54.056,
+        -42.28800000000001
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 248142693,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-248142693.glb",
+      "importedPath": ".godot/imported/building-248142693.glb-10237df9be76afd0f946eccc16d18eb5.scn",
+      "bytes": 394138,
+      "sha256": "ed463b04ade22b7901408ee7e909bbf0d4fa54c19d0b63bdb64fcf3191011d32",
+      "glbSha256": "3a0ca02b3e0b38ce901f16d9bf61f363d96fada5f8b9ed1d5aaf776bee705475",
+      "proposedURL": "/seventh/areas/assets/ed463b04ade22b7901408ee7e909bbf0d4fa54c19d0b63bdb64fcf3191011d32.scn",
+      "runtimePosition": [
+        62.079498291015625,
+        0,
+        -21.58599853515625
+      ],
+      "footprintBox": [
+        59.14,
+        -34.584,
+        65.019,
+        -8.587999999999994
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 248142694,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-248142694.glb",
+      "importedPath": ".godot/imported/building-248142694.glb-d422f9afb3bb4e8a9b313972ea53f925.scn",
+      "bytes": 376508,
+      "sha256": "11497f1959f606fcfe345710c8d1b869998ee925cdea251eaf8534704b1b6246",
+      "glbSha256": "81bc39409ae2bdb9f5edcaf8c1d70814989774b6361fadf17e637e5676f3c4f6",
+      "proposedURL": "/seventh/areas/assets/11497f1959f606fcfe345710c8d1b869998ee925cdea251eaf8534704b1b6246.scn",
+      "runtimePosition": [
+        60.86600112915039,
+        0,
+        -97.6719970703125
+      ],
+      "footprintBox": [
+        56.553,
+        -105.871,
+        65.179,
+        -89.47300000000001
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 248142695,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-248142695.glb",
+      "importedPath": ".godot/imported/building-248142695.glb-109e04bc0a88414493851c733f108956.scn",
+      "bytes": 467392,
+      "sha256": "37e9e54506dd70fb19eff0a4d549c70ef13320e799a4ae169abac28b0ad42b97",
+      "glbSha256": "92e8bf48ac973cf315ac1d06e650edd1a09779871b74b36a3397060fb6c1ca08",
+      "proposedURL": "/seventh/areas/assets/37e9e54506dd70fb19eff0a4d549c70ef13320e799a4ae169abac28b0ad42b97.scn",
+      "runtimePosition": [
+        57.875999450683594,
+        0,
+        -55.5
+      ],
+      "footprintBox": [
+        54.012,
+        -68.701,
+        61.74,
+        -42.29900000000001
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 248142696,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-248142696.glb",
+      "importedPath": ".godot/imported/building-248142696.glb-28bd533578ba709e55cfef6749356f7f.scn",
+      "bytes": 190323,
+      "sha256": "43c4f8cc2fd540ec3acbe5d10fec6e5188111cb63962b41d87aa92a0c4bd5873",
+      "glbSha256": "ed05198e721c020685160dba10cda4127f77bff8b506924a548478be24688f31",
+      "proposedURL": "/seventh/areas/assets/43c4f8cc2fd540ec3acbe5d10fec6e5188111cb63962b41d87aa92a0c4bd5873.scn",
+      "runtimePosition": [
+        74.54000091552734,
+        0,
+        -98.30250549316406
+      ],
+      "footprintBox": [
+        72.44,
+        -109.538,
+        76.64,
+        -87.06700000000001
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 248142697,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-248142697.glb",
+      "importedPath": ".godot/imported/building-248142697.glb-5c2432814bba81e13a50666241ad7420.scn",
+      "bytes": 628761,
+      "sha256": "976e82f1278bf35bb7dbcd7a572fdbc4bcb38d204b2c9610a74e932622ee0e3c",
+      "glbSha256": "0b98310523def29e9f4125a6897ff94baf663f3fe0f9be179f7654cfe01931fd",
+      "proposedURL": "/seventh/areas/assets/976e82f1278bf35bb7dbcd7a572fdbc4bcb38d204b2c9610a74e932622ee0e3c.scn",
+      "runtimePosition": [
+        68.88150024414062,
+        0,
+        -21.897506713867188
+      ],
+      "footprintBox": [
+        64.933,
+        -35.203,
+        72.83,
+        -8.592000000000013
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 248142698,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-248142698.glb",
+      "importedPath": ".godot/imported/building-248142698.glb-90eeb3f675dd73415e0f34add3f3d6f1.scn",
+      "bytes": 701590,
+      "sha256": "681e3a707ee6c62f2d7b4534f1867c41acb507df8ac76ac1bd69708cb26d0534",
+      "glbSha256": "2f4bcb47578fe027d5ffc54c17ab572c39cfec89b9fb1571a1c30a45f5ef5232",
+      "proposedURL": "/seventh/areas/assets/681e3a707ee6c62f2d7b4534f1867c41acb507df8ac76ac1bd69708cb26d0534.scn",
+      "runtimePosition": [
+        68.81199645996094,
+        0,
+        -98.30149841308594
+      ],
+      "footprintBox": [
+        65.113,
+        -109.536,
+        72.511,
+        -87.06700000000001
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 248142701,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-248142701.glb",
+      "importedPath": ".godot/imported/building-248142701.glb-a0c4adccbdebf24a8f9db79518d30169.scn",
+      "bytes": 413322,
+      "sha256": "8046e1f5cc32299e3cea1e22981d6de926553e7ceeeb63198c8c8c38aa67d368",
+      "glbSha256": "3db546f2e06b3b373ada67c5c63d589322d843ce61bc7175d263ef09308f18dd",
+      "proposedURL": "/seventh/areas/assets/8046e1f5cc32299e3cea1e22981d6de926553e7ceeeb63198c8c8c38aa67d368.scn",
+      "runtimePosition": [
+        55.519500732421875,
+        0,
+        -22.06500244140625
+      ],
+      "footprintBox": [
+        51.799,
+        -35.54499999999999,
+        59.24,
+        -8.585000000000008
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 248142706,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-248142706.glb",
+      "importedPath": ".godot/imported/building-248142706.glb-1e7f5458f65816896a1d4628b2dec1d3.scn",
+      "bytes": 1575126,
+      "sha256": "04c083cd811178c62f2f08c199485ea439aba993d5f9d3a5f6da876015c5435c",
+      "glbSha256": "5f0e55dfd742b5f245b73564068801be12f17fa1000f2d2d237f7ac45fa5e68f",
+      "proposedURL": "/seventh/areas/assets/04c083cd811178c62f2f08c199485ea439aba993d5f9d3a5f6da876015c5435c.scn",
+      "runtimePosition": [
+        192.89149475097656,
+        0,
+        -64.96249389648438
+      ],
+      "footprintBox": [
+        183.389,
+        -69.02600000000001,
+        202.394,
+        -60.899
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 248142707,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-248142707.glb",
+      "importedPath": ".godot/imported/building-248142707.glb-b694143be3c8cc90c7355797bedbd10a.scn",
+      "bytes": 2749219,
+      "sha256": "ac252f7dbcc5f62fc765b1025d8af87050a394cd44dd85f0e6bcad9764d49015",
+      "glbSha256": "4f9b80fb8e3794afd5e4cff045f1724da6e23e899b34afa5ca0edf5e2a0d8840",
+      "proposedURL": "/seventh/areas/assets/ac252f7dbcc5f62fc765b1025d8af87050a394cd44dd85f0e6bcad9764d49015.scn",
+      "runtimePosition": [
+        25.19499969482422,
+        0,
+        -16.219497680664062
+      ],
+      "footprintBox": [
+        15.394,
+        -23.894000000000005,
+        34.996,
+        -8.544999999999987
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 248142709,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-248142709.glb",
+      "importedPath": ".godot/imported/building-248142709.glb-7d83d4b8a193a8762bc46d2953861b65.scn",
+      "bytes": 1059687,
+      "sha256": "7579409f7afb6ba680f094caf878919b1c6921e3bd25bdfd7e3462a169d474f7",
+      "glbSha256": "a356bddeadc0aa9c58650f1da0c51d4acf4c6bc8188dc0a8767e279b142c325b",
+      "proposedURL": "/seventh/areas/assets/7579409f7afb6ba680f094caf878919b1c6921e3bd25bdfd7e3462a169d474f7.scn",
+      "runtimePosition": [
+        193.89700317382812,
+        0,
+        -97.97999572753906
+      ],
+      "footprintBox": [
+        185.451,
+        -108.911,
+        202.343,
+        -87.049
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 248142711,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-248142711.glb",
+      "importedPath": ".godot/imported/building-248142711.glb-8c8e27b80df65a8764ed8ddf8aac08b4.scn",
+      "bytes": 1358102,
+      "sha256": "13eb7c91b0e3f74c126f6eae8eb2dba9acb831b99d74bcf594ea9698bce5d3b7",
+      "glbSha256": "d9adf770aca1a9ab76201cfe8f629b7fedac439a6ddaebf9b5b7c44279dce20e",
+      "proposedURL": "/seventh/areas/assets/13eb7c91b0e3f74c126f6eae8eb2dba9acb831b99d74bcf594ea9698bce5d3b7.scn",
+      "runtimePosition": [
+        18.108999252319336,
+        0,
+        -97.89900207519531
+      ],
+      "footprintBox": [
+        14.681,
+        -109.515,
+        21.537,
+        -86.28299999999999
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 248142712,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-248142712.glb",
+      "importedPath": ".godot/imported/building-248142712.glb-646d21a4fac9b4511c9b12481f9e594a.scn",
+      "bytes": 497306,
+      "sha256": "386dfc3f7a05a0c0aa562a2494c9bfbd25eee76fb8a44eb24839f3196f1d82cc",
+      "glbSha256": "af6a479cdbbc97a6ca4f3058cbcab5677ca92fc167ff1f9f74fd92feb96c1301",
+      "proposedURL": "/seventh/areas/assets/386dfc3f7a05a0c0aa562a2494c9bfbd25eee76fb8a44eb24839f3196f1d82cc.scn",
+      "runtimePosition": [
+        23.72949981689453,
+        0,
+        -65.45750427246094
+      ],
+      "footprintBox": [
+        15.323,
+        -68.65199999999999,
+        32.136,
+        -62.263000000000005
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 248142714,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-248142714.glb",
+      "importedPath": ".godot/imported/building-248142714.glb-5a9353ba17428e083f729ad07d61fc80.scn",
+      "bytes": 623685,
+      "sha256": "394d837dfa8366cd023e0a9cb8bfbcc3bea2424ba27d1e93b997345cf66eb7f2",
+      "glbSha256": "bbdd13e57a3e66a4392aaa088cbe0f59ee303ab849ec5121dd09d99a3fd604f8",
+      "proposedURL": "/seventh/areas/assets/394d837dfa8366cd023e0a9cb8bfbcc3bea2424ba27d1e93b997345cf66eb7f2.scn",
+      "runtimePosition": [
+        193.59249877929688,
+        0,
+        -12.446502685546875
+      ],
+      "footprintBox": [
+        184.586,
+        -16.230999999999995,
+        202.599,
+        -8.662000000000006
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 248142715,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-248142715.glb",
+      "importedPath": ".godot/imported/building-248142715.glb-574583942f1fac810e0f909ca97d9dc6.scn",
+      "bytes": 351675,
+      "sha256": "75c479e594238e3714e1b6274e827272b57e81eb0b4421d1aeaf3585aa3fa8cf",
+      "glbSha256": "36b599d8304fa61a9efb5f791a106a82a2bdabc759b15d38ecef732167f9ee1b",
+      "proposedURL": "/seventh/areas/assets/75c479e594238e3714e1b6274e827272b57e81eb0b4421d1aeaf3585aa3fa8cf.scn",
+      "runtimePosition": [
+        39.696998596191406,
+        0,
+        -15.972000122070312
+      ],
+      "footprintBox": [
+        34.972,
+        -23.36099999999999,
+        44.422,
+        -8.582999999999998
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 248142717,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-248142717.glb",
+      "importedPath": ".godot/imported/building-248142717.glb-c45d84380da2f4d4c92f690f31393b26.scn",
+      "bytes": 143790,
+      "sha256": "fceaf6cb0fb95ef25b6a4dd98cf365fdb3cd730f556b1de0051d614ea7dcde41",
+      "glbSha256": "f858a30e96b318d2c47bd176e02be88b7f30c18674269aacf308ffe1c9a49118",
+      "proposedURL": "/seventh/areas/assets/fceaf6cb0fb95ef25b6a4dd98cf365fdb3cd730f556b1de0051d614ea7dcde41.scn",
+      "runtimePosition": [
+        85.69999694824219,
+        0,
+        -53.574493408203125
+      ],
+      "footprintBox": [
+        77.861,
+        -68.74799999999999,
+        93.539,
+        -38.40100000000001
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 951679435,
+      "owner": "EVP-REST",
+      "sourceAsset": "res://assets/neighborhood/building-951679435.glb",
+      "importedPath": ".godot/imported/building-951679435.glb-d47644cb901aff8bad81f2cc5ae12971.scn",
+      "bytes": 86760,
+      "sha256": "d7669b1ab0b32f8c81ee7c614ea7d14ad4324a12096e2a11b31c28cc643570fd",
+      "glbSha256": "bd9053980bd26b6368e967c72a1aaa274296937d9d72b364db2e787f36041425",
+      "proposedURL": "/seventh/areas/assets/d7669b1ab0b32f8c81ee7c614ea7d14ad4324a12096e2a11b31c28cc643570fd.scn",
+      "runtimePosition": [
+        40.374000549316406,
+        0,
+        18.475997924804688
+      ],
+      "footprintBox": [
+        36.979,
+        9.50200000000001,
+        43.769,
+        27.44999999999999
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    },
+    {
+      "buildingId": 978475216,
+      "owner": "EVP-WEST",
+      "sourceAsset": "res://assets/neighborhood/building-978475216.glb",
+      "importedPath": ".godot/imported/building-978475216.glb-13b6389e02b4d71eb039542b5b6ca0e8.scn",
+      "bytes": 1212221,
+      "sha256": "806166511466897c07d6774c7c6c744bdf43ae01cb2081e564fc37d70018cf14",
+      "glbSha256": "bc3274a6c32f6baaaad20b6c7daf11853e4158e754b3f49ae9ff6d65be13bec3",
+      "proposedURL": "/seventh/areas/assets/806166511466897c07d6774c7c6c744bdf43ae01cb2081e564fc37d70018cf14.scn",
+      "runtimePosition": [
+        -258.27398681640625,
+        0,
+        -16.761001586914062
+      ],
+      "footprintBox": [
+        -273.703,
+        -24.391999999999996,
+        -242.845,
+        -9.129999999999995
+      ],
+      "renderBounds": "compute from full imported visual geometry at compile time; footprint is not a culling bound"
+    }
+  ],
+  "proofAreas": [
+    {
+      "id": "EVP-WEST",
+      "rule": "all current building footprint maxX < -212; frozen explicit list",
+      "buildingIds": [
+        241833259,
+        241833267,
+        241833274,
+        241833286,
+        241833290,
+        241833291,
+        241833299,
+        241833312,
+        241833322,
+        241845001,
+        241845013,
+        978475216
+      ],
+      "sceneBytes": 6989332,
+      "role": "12 existing western-context models, released/reloaded while travelling across the current map"
+    },
+    {
+      "id": "EVP-REST",
+      "buildingIds": [
+        -177966,
+        241822151,
+        241822153,
+        241822156,
+        241822157,
+        241822159,
+        241822162,
+        241822164,
+        241822167,
+        241822169,
+        241822173,
+        241822174,
+        241822176,
+        241822178,
+        241822181,
+        241822185,
+        241822189,
+        241822190,
+        241822192,
+        241822194,
+        241822195,
+        241822197,
+        241822199,
+        241822201,
+        241822202,
+        241822206,
+        241822208,
+        241822212,
+        241822214,
+        241822215,
+        241822217,
+        241822219,
+        241822220,
+        241822222,
+        241822224,
+        241822226,
+        241822228,
+        241822230,
+        241822234,
+        241822236,
+        241822247,
+        241822254,
+        241822256,
+        241822263,
+        241822265,
+        241822267,
+        241822271,
+        241822274,
+        241822279,
+        241822280,
+        241822282,
+        241822284,
+        241822286,
+        241822288,
+        241822290,
+        241822291,
+        241822295,
+        241822297,
+        241822299,
+        241822300,
+        241822301,
+        241822303,
+        241822306,
+        241822308,
+        241822310,
+        241822312,
+        241822314,
+        241822317,
+        241822319,
+        241822320,
+        241822323,
+        241822325,
+        241822326,
+        241822329,
+        241822332,
+        241822336,
+        241822338,
+        241822339,
+        241822340,
+        241822341,
+        241829564,
+        241829565,
+        241829566,
+        241829567,
+        241829572,
+        241829573,
+        241829574,
+        241829575,
+        241829577,
+        241829579,
+        241829580,
+        241829581,
+        241829582,
+        241829595,
+        241829611,
+        241829621,
+        241829623,
+        241829629,
+        241829630,
+        241829631,
+        241829633,
+        241829634,
+        241829636,
+        241829641,
+        241829643,
+        241829661,
+        241829665,
+        248142313,
+        248142319,
+        248142320,
+        248142322,
+        248142324,
+        248142326,
+        248142327,
+        248142328,
+        248142329,
+        248142330,
+        248142331,
+        248142332,
+        248142333,
+        248142334,
+        248142335,
+        248142336,
+        248142337,
+        248142338,
+        248142390,
+        248142393,
+        248142396,
+        248142404,
+        248142407,
+        248142411,
+        248142412,
+        248142614,
+        248142615,
+        248142616,
+        248142617,
+        248142618,
+        248142619,
+        248142620,
+        248142621,
+        248142622,
+        248142623,
+        248142624,
+        248142625,
+        248142627,
+        248142628,
+        248142630,
+        248142631,
+        248142633,
+        248142634,
+        248142636,
+        248142638,
+        248142640,
+        248142641,
+        248142642,
+        248142643,
+        248142645,
+        248142646,
+        248142647,
+        248142648,
+        248142649,
+        248142650,
+        248142651,
+        248142652,
+        248142653,
+        248142654,
+        248142655,
+        248142656,
+        248142686,
+        248142687,
+        248142688,
+        248142689,
+        248142690,
+        248142691,
+        248142692,
+        248142693,
+        248142694,
+        248142695,
+        248142696,
+        248142697,
+        248142698,
+        248142701,
+        248142706,
+        248142707,
+        248142709,
+        248142711,
+        248142712,
+        248142714,
+        248142715,
+        248142717,
+        951679435
+      ],
+      "sceneBytes": 87719241,
+      "role": "191 other reviewed models; retained for bounded proof, using same external-asset path"
+    }
+  ],
+  "coordinateFrame": {
+    "originShift": [
+      0,
+      0,
+      228
+    ],
+    "rule": "Positions and footprints in slice are already shifted; leave global transforms unchanged."
+  },
+  "proofRoute": {
+    "street": "existing East Seventh",
+    "sharedRoadSeamX": -229,
+    "poses": [
+      {
+        "x": 0,
+        "z": 0,
+        "yaw": 0,
+        "purpose": "unchanged opening; load all currently camera-reachable buildings"
+      },
+      {
+        "x": 260,
+        "z": 0,
+        "yaw": 1.5707963267948966,
+        "purpose": "east endpoint; release west only after actual render bounds outside 370m camera + movement envelope"
+      },
+      {
+        "x": -260,
+        "z": 0,
+        "yaw": -1.5707963267948966,
+        "purpose": "travel west through Second Avenue seam; all west visuals and collisions ready before visibility/approach"
+      }
+    ],
+    "directions": "both; normal keys; no teleport through an unready area",
+    "repeatCycles": 10
+  },
+  "initialStreamingPolicy": {
+    "retainRadiusCarMetres": 445,
+    "evictBeyondCarMetres": 475,
+    "evictDwellSeconds": 3,
+    "distanceBasis": "minimum distance to full render bounds; actual camera frustum and collision dependency can pin beyond these thresholds",
+    "cameraFarMetres": 370,
+    "cameraMaxOffsetMetres": 45,
+    "panXZMetres": [
+      15,
+      18
+    ],
+    "vehicleMaxSpeedMps": 24,
+    "predictedPrefetch": "measured download+decode+warm latency at speed; includes reachable turns and user camera motion",
+    "networkConcurrency": 2,
+    "sceneLoadsPerFrame": 1,
+    "softActivationBudgetMs": 3,
+    "volatileSerializedCacheLimitMiB": 32,
+    "deleteLoadedSceneBytes": "after load completes and all references/dependencies are resolved; immutable HTTP cache handles later fetches",
+    "failure": "keep current area active; stop movement/camera advance before missing visibility/collision envelope, show existing-style loading/retry status; no invented barrier geometry"
+  },
+  "limits": [
+    "Not an implemented loader or a production export.",
+    "The short existing map can require all 203 models at startup with unchanged camera reach. No startup-byte/time reduction is promised.",
+    "Native resource inspection proves neither WebGL appearance nor single-threaded web loading speed or browser memory release.",
+    "Proof area ownership is runtime residency only; EV-000 facade, mass, source and protected ownership remains authoritative.",
+    "Streets/props remain shared for this bounded proof. Large-map road/site batches must later be grouped by exact owner without altering feature geometry."
+  ]
+}

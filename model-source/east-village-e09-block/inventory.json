@@ -1,0 +1,2098 @@
+{
+  "id": "01-E09-21",
+  "scope": {
+    "id": "01-E09-21",
+    "street": "East Ninth Street",
+    "from": "Second Avenue",
+    "to": "First Avenue",
+    "sides": "both",
+    "target": "Complete remaining block coverage and integrated review",
+    "state": "planned; next implementation instruction starts this block",
+    "completedFaceIds": [
+      "247852691:1",
+      "247852690:0",
+      "247852697:0",
+      "247852689:0",
+      "247852687:0",
+      "247852686:0",
+      "247852685:0",
+      "247852684:0"
+    ],
+    "editableRemainingFaceIds": [
+      "247852683:0",
+      "247852682:0",
+      "1063735559:0",
+      "247852681:0",
+      "247852680:0",
+      "247852679:0",
+      "247852678:0",
+      "247852677:0",
+      "247852676:0",
+      "247852675:0",
+      "247852674:0",
+      "247852673:0",
+      "247852672:0",
+      "247852671:0",
+      "247852702:0",
+      "241822239:0",
+      "241822276:0",
+      "241822204:0",
+      "241822315:0",
+      "241822241:0",
+      "241822261:0",
+      "241822335:0",
+      "241822244:0",
+      "241822293:0",
+      "241822229:0",
+      "241822251:0",
+      "241822179:0",
+      "241822183:0",
+      "241822272:0",
+      "241822187:0",
+      "241822165:0",
+      "241822171:0",
+      "241822269:0",
+      "241822210:1"
+    ],
+    "protectedCornerFaceIds": [
+      "241822237:0"
+    ],
+    "internalPacketOrder": [
+      "01-E09-21-N02A",
+      "01-E09-21-N02B",
+      "01-E09-21-N03",
+      "01-E09-21-S01",
+      "01-E09-21-S02",
+      "01-E09-21-S03"
+    ],
+    "firstInternalPacket": "01-E09-21-N02A",
+    "protectedModelCount": 221,
+    "sourceStatus": "Fresh evidence needed for all 34 remaining faces; mapped labels are not tenant evidence.",
+    "bounds": "Derive road/collision changes from this exact corridor and assigned footprints. Do not open East Ninth east of First or unrelated avenues.",
+    "deferred": [
+      "147 First-facing detail",
+      "148 Ninth return outside this block",
+      "other street blocks"
+    ]
+  },
+  "faces": [
+    {
+      "faceId": "247852683:0",
+      "buildingId": 247852683,
+      "frontageIndex": 0,
+      "mappedAddress": "331 East 9th Street",
+      "mappedName": "",
+      "mappedHeight": 16.93,
+      "sourceFace": {
+        "x": -98.891,
+        "z": 65.487,
+        "rx": 0.999998114325345,
+        "rz": -0.0019419953022890648,
+        "length": 7.724,
+        "street": "East 9th Street"
+      },
+      "sourceFootprint": [
+        [
+          -91.167,
+          65.472
+        ],
+        [
+          -98.891,
+          65.487
+        ],
+        [
+          -98.929,
+          50.351
+        ],
+        [
+          -98.939,
+          46.879
+        ],
+        [
+          -91.215,
+          46.864
+        ],
+        [
+          -91.216,
+          48.495
+        ]
+      ],
+      "state": "needs evidence",
+      "businesses": [],
+      "referenceRoadViewpoint": {
+        "lat": 40.7286145,
+        "lon": -73.9858529,
+        "heading": 29
+      }
+    },
+    {
+      "faceId": "247852682:0",
+      "buildingId": 247852682,
+      "frontageIndex": 0,
+      "mappedAddress": "329 East 9th Street",
+      "mappedName": "",
+      "mappedHeight": 14.97,
+      "sourceFace": {
+        "x": -103.884,
+        "z": 65.499,
+        "rx": 0.9999971119315453,
+        "rz": -0.0024033577695131204,
+        "length": 4.993,
+        "street": "East 9th Street"
+      },
+      "sourceFootprint": [
+        [
+          -98.891,
+          65.487
+        ],
+        [
+          -103.884,
+          65.499
+        ],
+        [
+          -103.922,
+          50.363
+        ],
+        [
+          -98.929,
+          50.351
+        ]
+      ],
+      "state": "needs evidence",
+      "businesses": [],
+      "referenceRoadViewpoint": {
+        "lat": 40.7286422,
+        "lon": -73.9859188,
+        "heading": 29
+      }
+    },
+    {
+      "faceId": "1063735559:0",
+      "buildingId": 1063735559,
+      "frontageIndex": 0,
+      "mappedAddress": "327 East 9th Street",
+      "mappedName": "",
+      "mappedHeight": 18.29,
+      "sourceFace": {
+        "x": -108.266,
+        "z": 65.516,
+        "rx": 0.9999924747973736,
+        "rz": -0.0038794778803207326,
+        "length": 4.382,
+        "street": "East 9th Street"
+      },
+      "sourceFootprint": [
+        [
+          -109.87,
+          46.385
+        ],
+        [
+          -109.876,
+          44.707
+        ],
+        [
+          -106.935,
+          44.702
+        ],
+        [
+          -106.929,
+          46.38
+        ],
+        [
+          -103.932,
+          46.37
+        ],
+        [
+          -103.922,
+          50.363
+        ],
+        [
+          -103.884,
+          65.499
+        ],
+        [
+          -108.266,
+          65.516
+        ],
+        [
+          -109.821,
+          65.515
+        ],
+        [
+          -109.863,
+          49.973
+        ]
+      ],
+      "state": "needs evidence",
+      "businesses": [],
+      "referenceRoadViewpoint": {
+        "lat": 40.7286627,
+        "lon": -73.9859673,
+        "heading": 29
+      }
+    },
+    {
+      "faceId": "247852681:0",
+      "buildingId": 247852681,
+      "frontageIndex": 0,
+      "mappedAddress": "325 East 9th Street",
+      "mappedName": "",
+      "mappedHeight": 15.54,
+      "sourceFace": {
+        "x": -114.088,
+        "z": 65.531,
+        "rx": 0.9999929699226378,
+        "rz": -0.003749680693406975,
+        "length": 4.267,
+        "street": "East 9th Street"
+      },
+      "sourceFootprint": [
+        [
+          -114.144,
+          46.405
+        ],
+        [
+          -109.87,
+          46.385
+        ],
+        [
+          -109.863,
+          49.973
+        ],
+        [
+          -109.821,
+          65.515
+        ],
+        [
+          -114.088,
+          65.531
+        ],
+        [
+          -114.135,
+          49.98
+        ],
+        [
+          -114.137,
+          48.414
+        ]
+      ],
+      "state": "needs evidence",
+      "businesses": [],
+      "referenceRoadViewpoint": {
+        "lat": 40.7286884,
+        "lon": -73.9860282,
+        "heading": 29
+      }
+    },
+    {
+      "faceId": "247852680:0",
+      "buildingId": 247852680,
+      "frontageIndex": 0,
+      "mappedAddress": "323 East 9th Street",
+      "mappedName": "",
+      "mappedHeight": 17.59,
+      "sourceFace": {
+        "x": -121.655,
+        "z": 65.548,
+        "rx": 0.9999974764103639,
+        "rz": -0.002246591396718921,
+        "length": 7.567,
+        "street": "East 9th Street"
+      },
+      "sourceFootprint": [
+        [
+          -114.088,
+          65.531
+        ],
+        [
+          -121.655,
+          65.548
+        ],
+        [
+          -121.675,
+          56.452
+        ],
+        [
+          -121.694,
+          50.464
+        ],
+        [
+          -121.699,
+          48.441
+        ],
+        [
+          -114.137,
+          48.414
+        ],
+        [
+          -114.135,
+          49.98
+        ]
+      ],
+      "state": "needs evidence",
+      "businesses": [],
+      "referenceRoadViewpoint": {
+        "lat": 40.7287142,
+        "lon": -73.9860895,
+        "heading": 29
+      }
+    },
+    {
+      "faceId": "247852679:0",
+      "buildingId": 247852679,
+      "frontageIndex": 0,
+      "mappedAddress": "321 East 9th Street",
+      "mappedName": "",
+      "mappedHeight": 16.71,
+      "sourceFace": {
+        "x": -129.23,
+        "z": 65.57,
+        "rx": 0.9999957825752321,
+        "rz": -0.0029042781804153794,
+        "length": 7.575,
+        "street": "East 9th Street"
+      },
+      "sourceFootprint": [
+        [
+          -121.694,
+          50.464
+        ],
+        [
+          -123.684,
+          50.462
+        ],
+        [
+          -123.672,
+          56.454
+        ],
+        [
+          -121.675,
+          56.452
+        ],
+        [
+          -121.655,
+          65.548
+        ],
+        [
+          -129.23,
+          65.57
+        ],
+        [
+          -129.25,
+          56.474
+        ],
+        [
+          -127.456,
+          56.47
+        ],
+        [
+          -127.468,
+          50.477
+        ],
+        [
+          -129.633,
+          48.599
+        ],
+        [
+          -129.655,
+          40.574
+        ],
+        [
+          -128.683,
+          40.568
+        ],
+        [
+          -128.683,
+          41.332
+        ],
+        [
+          -121.726,
+          41.311
+        ],
+        [
+          -121.699,
+          48.441
+        ]
+      ],
+      "state": "needs evidence",
+      "businesses": [],
+      "referenceRoadViewpoint": {
+        "lat": 40.7287473,
+        "lon": -73.986168,
+        "heading": 29
+      }
+    },
+    {
+      "faceId": "247852678:0",
+      "buildingId": 247852678,
+      "frontageIndex": 0,
+      "mappedAddress": "319 East 9th Street",
+      "mappedName": "",
+      "mappedHeight": 14.0,
+      "sourceFace": {
+        "x": -136.812,
+        "z": 65.596,
+        "rx": 0.9999941204334576,
+        "rz": -0.0034291541982696227,
+        "length": 7.582,
+        "street": "East 9th Street"
+      },
+      "sourceFootprint": [
+        [
+          -129.23,
+          65.57
+        ],
+        [
+          -136.812,
+          65.596
+        ],
+        [
+          -136.851,
+          51.466
+        ],
+        [
+          -136.872,
+          45.44
+        ],
+        [
+          -136.887,
+          38.99
+        ],
+        [
+          -132.416,
+          38.976
+        ],
+        [
+          -132.387,
+          50.016
+        ],
+        [
+          -129.268,
+          50.001
+        ],
+        [
+          -129.25,
+          56.474
+        ]
+      ],
+      "state": "needs evidence",
+      "businesses": [],
+      "referenceRoadViewpoint": {
+        "lat": 40.7287803,
+        "lon": -73.9862465,
+        "heading": 29
+      }
+    },
+    {
+      "faceId": "247852677:0",
+      "buildingId": 247852677,
+      "frontageIndex": 0,
+      "mappedAddress": "317 East 9th Street",
+      "mappedName": "",
+      "mappedHeight": 15.77,
+      "sourceFace": {
+        "x": -144.543,
+        "z": 65.615,
+        "rx": 0.9999969800212133,
+        "rz": -0.0024576306584393106,
+        "length": 7.731,
+        "street": "East 9th Street"
+      },
+      "sourceFootprint": [
+        [
+          -136.812,
+          65.596
+        ],
+        [
+          -144.543,
+          65.615
+        ],
+        [
+          -144.561,
+          59.09
+        ],
+        [
+          -144.576,
+          51.495
+        ],
+        [
+          -136.851,
+          51.466
+        ]
+      ],
+      "state": "needs evidence",
+      "businesses": [],
+      "referenceRoadViewpoint": {
+        "lat": 40.7288138,
+        "lon": -73.9863258,
+        "heading": 29
+      }
+    },
+    {
+      "faceId": "247852676:0",
+      "buildingId": 247852676,
+      "frontageIndex": 0,
+      "mappedAddress": "315 East 9th Street",
+      "mappedName": "",
+      "mappedHeight": 20.83,
+      "sourceFace": {
+        "x": -152.023,
+        "z": 65.634,
+        "rx": 0.9999967739439477,
+        "rz": -0.0025400987573449855,
+        "length": 7.48,
+        "street": "East 9th Street"
+      },
+      "sourceFootprint": [
+        [
+          -144.588,
+          47.464
+        ],
+        [
+          -145.622,
+          48.573
+        ],
+        [
+          -145.61,
+          51.267
+        ],
+        [
+          -146.267,
+          51.734
+        ],
+        [
+          -146.257,
+          55.155
+        ],
+        [
+          -145.602,
+          55.657
+        ],
+        [
+          -145.599,
+          58.317
+        ],
+        [
+          -144.561,
+          59.09
+        ],
+        [
+          -144.543,
+          65.615
+        ],
+        [
+          -152.023,
+          65.634
+        ],
+        [
+          -152.04,
+          59.11
+        ],
+        [
+          -151.245,
+          58.336
+        ],
+        [
+          -151.25,
+          55.168
+        ],
+        [
+          -150.11,
+          55.17
+        ],
+        [
+          -150.12,
+          51.75
+        ],
+        [
+          -151.268,
+          51.751
+        ],
+        [
+          -151.273,
+          48.582
+        ],
+        [
+          -152.075,
+          47.487
+        ],
+        [
+          -152.084,
+          41.62
+        ],
+        [
+          -144.605,
+          41.601
+        ],
+        [
+          -144.59,
+          45.465
+        ]
+      ],
+      "state": "needs evidence",
+      "businesses": [],
+      "referenceRoadViewpoint": {
+        "lat": 40.728847,
+        "lon": -73.9864046,
+        "heading": 29
+      }
+    },
+    {
+      "faceId": "247852675:0",
+      "buildingId": 247852675,
+      "frontageIndex": 0,
+      "mappedAddress": "313 East 9th Street",
+      "mappedName": "",
+      "mappedHeight": 15.72,
+      "sourceFace": {
+        "x": -159.713,
+        "z": 65.656,
+        "rx": 0.999995907770135,
+        "rz": -0.0028608465501883677,
+        "length": 7.69,
+        "street": "East 9th Street"
+      },
+      "sourceFootprint": [
+        [
+          -152.023,
+          65.634
+        ],
+        [
+          -159.713,
+          65.656
+        ],
+        [
+          -159.747,
+          52.212
+        ],
+        [
+          -159.765,
+          47.891
+        ],
+        [
+          -157.64,
+          47.894
+        ],
+        [
+          -157.648,
+          45.173
+        ],
+        [
+          -154.25,
+          45.155
+        ],
+        [
+          -154.242,
+          47.877
+        ],
+        [
+          -152.069,
+          47.879
+        ],
+        [
+          -152.04,
+          59.11
+        ]
+      ],
+      "state": "needs evidence",
+      "businesses": [],
+      "referenceRoadViewpoint": {
+        "lat": 40.7288801,
+        "lon": -73.9864832,
+        "heading": 29
+      }
+    },
+    {
+      "faceId": "247852674:0",
+      "buildingId": 247852674,
+      "frontageIndex": 0,
+      "mappedAddress": "311 East 9th Street",
+      "mappedName": "",
+      "mappedHeight": 13.23,
+      "sourceFace": {
+        "x": -167.321,
+        "z": 65.671,
+        "rx": 0.9999980563849716,
+        "rz": -0.001971605000759087,
+        "length": 7.608,
+        "street": "East 9th Street"
+      },
+      "sourceFootprint": [
+        [
+          -159.713,
+          65.656
+        ],
+        [
+          -167.321,
+          65.671
+        ],
+        [
+          -167.357,
+          52.24
+        ],
+        [
+          -159.747,
+          52.212
+        ]
+      ],
+      "state": "needs evidence",
+      "businesses": [],
+      "referenceRoadViewpoint": {
+        "lat": 40.7289135,
+        "lon": -73.9865624,
+        "heading": 29
+      }
+    },
+    {
+      "faceId": "247852673:0",
+      "buildingId": 247852673,
+      "frontageIndex": 0,
+      "mappedAddress": "309 East 9th Street",
+      "mappedName": "",
+      "mappedHeight": 18.8,
+      "sourceFace": {
+        "x": -174.868,
+        "z": 65.689,
+        "rx": 0.9999971557716452,
+        "rz": -0.0023850468800683837,
+        "length": 7.547,
+        "street": "East 9th Street"
+      },
+      "sourceFootprint": [
+        [
+          -167.321,
+          65.671
+        ],
+        [
+          -174.868,
+          65.689
+        ],
+        [
+          -174.903,
+          50.768
+        ],
+        [
+          -174.924,
+          44.169
+        ],
+        [
+          -167.384,
+          44.154
+        ],
+        [
+          -167.357,
+          52.24
+        ]
+      ],
+      "state": "needs evidence",
+      "businesses": [],
+      "referenceRoadViewpoint": {
+        "lat": 40.7289466,
+        "lon": -73.9866409,
+        "heading": 29
+      }
+    },
+    {
+      "faceId": "247852672:0",
+      "buildingId": 247852672,
+      "frontageIndex": 0,
+      "mappedAddress": "307 East 9th Street",
+      "mappedName": "",
+      "mappedHeight": 17.19,
+      "sourceFace": {
+        "x": -182.789,
+        "z": 65.713,
+        "rx": 0.9999954098225939,
+        "rz": -0.003029906556715464,
+        "length": 7.921,
+        "street": "East 9th Street"
+      },
+      "sourceFootprint": [
+        [
+          -174.868,
+          65.689
+        ],
+        [
+          -182.789,
+          65.713
+        ],
+        [
+          -182.804,
+          57.632
+        ],
+        [
+          -182.824,
+          50.791
+        ],
+        [
+          -180.936,
+          50.785
+        ],
+        [
+          -180.943,
+          47.3
+        ],
+        [
+          -177.003,
+          47.287
+        ],
+        [
+          -176.995,
+          50.772
+        ],
+        [
+          -174.903,
+          50.768
+        ]
+      ],
+      "state": "needs evidence",
+      "businesses": [],
+      "referenceRoadViewpoint": {
+        "lat": 40.7289803,
+        "lon": -73.9867211,
+        "heading": 29
+      }
+    },
+    {
+      "faceId": "247852671:0",
+      "buildingId": 247852671,
+      "frontageIndex": 0,
+      "mappedAddress": "305 East 9th Street",
+      "mappedName": "",
+      "mappedHeight": 17.54,
+      "sourceFace": {
+        "x": -191.811,
+        "z": 65.736,
+        "rx": 0.9999967504897292,
+        "rz": -0.0025493155909193156,
+        "length": 9.022,
+        "street": "East 9th Street"
+      },
+      "sourceFootprint": [
+        [
+          -182.789,
+          65.713
+        ],
+        [
+          -191.811,
+          65.736
+        ],
+        [
+          -191.826,
+          59.72
+        ],
+        [
+          -191.825,
+          57.656
+        ],
+        [
+          -182.804,
+          57.632
+        ]
+      ],
+      "state": "needs evidence",
+      "businesses": [],
+      "referenceRoadViewpoint": {
+        "lat": 40.7290173,
+        "lon": -73.9868088,
+        "heading": 29
+      }
+    },
+    {
+      "faceId": "247852702:0",
+      "buildingId": 247852702,
+      "frontageIndex": 0,
+      "mappedAddress": "146 2nd Avenue",
+      "mappedName": "",
+      "mappedHeight": 17.71,
+      "sourceFace": {
+        "x": -213.013,
+        "z": 65.795,
+        "rx": 0.9999969236907714,
+        "rz": -0.002480445321638281,
+        "length": 18.545,
+        "street": "East 9th Street"
+      },
+      "sourceFootprint": [
+        [
+          -194.483,
+          59.733
+        ],
+        [
+          -193.511,
+          59.727
+        ],
+        [
+          -191.826,
+          59.72
+        ],
+        [
+          -191.811,
+          65.736
+        ],
+        [
+          -194.468,
+          65.749
+        ],
+        [
+          -213.013,
+          65.795
+        ],
+        [
+          -213.032,
+          57.552
+        ],
+        [
+          -194.486,
+          57.505
+        ]
+      ],
+      "state": "needs evidence",
+      "businesses": [],
+      "referenceRoadViewpoint": {
+        "lat": 40.7290891,
+        "lon": -73.9869791,
+        "heading": 29
+      }
+    },
+    {
+      "faceId": "241822239:0",
+      "buildingId": 241822239,
+      "frontageIndex": 0,
+      "mappedAddress": "350 East 9th Street",
+      "mappedName": "",
+      "mappedHeight": 16.39,
+      "sourceFace": {
+        "x": -34.753,
+        "z": 83.726,
+        "rx": -0.9999995016628817,
+        "rz": 0.0009983356089812844,
+        "length": 6.01,
+        "street": "East 9th Street"
+      },
+      "sourceFootprint": [
+        [
+          -34.741,
+          90.674
+        ],
+        [
+          -40.759,
+          90.684
+        ],
+        [
+          -40.763,
+          83.732
+        ],
+        [
+          -34.753,
+          83.726
+        ]
+      ],
+      "state": "needs evidence",
+      "businesses": [],
+      "referenceRoadViewpoint": {
+        "lat": 40.7283645,
+        "lon": -73.9852596,
+        "heading": 209
+      }
+    },
+    {
+      "faceId": "241822276:0",
+      "buildingId": 241822276,
+      "frontageIndex": 0,
+      "mappedAddress": "350A East 9th Street",
+      "mappedName": "",
+      "mappedHeight": 16.39,
+      "sourceFace": {
+        "x": -40.763,
+        "z": 83.732,
+        "rx": -0.9999961320863224,
+        "rz": 0.002781332844913869,
+        "length": 4.674,
+        "street": "East 9th Street"
+      },
+      "sourceFootprint": [
+        [
+          -40.759,
+          90.684
+        ],
+        [
+          -45.431,
+          90.683
+        ],
+        [
+          -45.43,
+          89.816
+        ],
+        [
+          -45.437,
+          83.745
+        ],
+        [
+          -40.763,
+          83.732
+        ]
+      ],
+      "state": "needs evidence",
+      "businesses": [],
+      "referenceRoadViewpoint": {
+        "lat": 40.7283878,
+        "lon": -73.9853149,
+        "heading": 209
+      }
+    },
+    {
+      "faceId": "241822204:0",
+      "buildingId": 241822204,
+      "frontageIndex": 0,
+      "mappedAddress": "348 East 9th Street",
+      "mappedName": "",
+      "mappedHeight": 20.59,
+      "sourceFace": {
+        "x": -45.437,
+        "z": 83.745,
+        "rx": -1.0,
+        "rz": 0.0,
+        "length": 7.491,
+        "street": "East 9th Street"
+      },
+      "sourceFootprint": [
+        [
+          -45.43,
+          89.816
+        ],
+        [
+          -46.485,
+          90.938
+        ],
+        [
+          -46.48,
+          94.107
+        ],
+        [
+          -45.408,
+          94.109
+        ],
+        [
+          -45.408,
+          97.268
+        ],
+        [
+          -46.937,
+          97.278
+        ],
+        [
+          -46.93,
+          102.255
+        ],
+        [
+          -45.989,
+          102.75
+        ],
+        [
+          -45.983,
+          105.243
+        ],
+        [
+          -45.332,
+          105.251
+        ],
+        [
+          -45.328,
+          108.382
+        ],
+        [
+          -52.188,
+          108.388
+        ],
+        [
+          -52.194,
+          101.45
+        ],
+        [
+          -51.413,
+          101.448
+        ],
+        [
+          -51.418,
+          97.273
+        ],
+        [
+          -52.913,
+          97.276
+        ],
+        [
+          -52.917,
+          93.763
+        ],
+        [
+          -51.925,
+          93.759
+        ],
+        [
+          -51.931,
+          90.935
+        ],
+        [
+          -52.925,
+          89.807
+        ],
+        [
+          -52.928,
+          83.745
+        ],
+        [
+          -45.437,
+          83.745
+        ]
+      ],
+      "state": "needs evidence",
+      "businesses": [],
+      "referenceRoadViewpoint": {
+        "lat": 40.7284143,
+        "lon": -73.9853779,
+        "heading": 209
+      }
+    },
+    {
+      "faceId": "241822315:0",
+      "buildingId": 241822315,
+      "frontageIndex": 0,
+      "mappedAddress": "346 East 9th Street",
+      "mappedName": "",
+      "mappedHeight": 18.23,
+      "sourceFace": {
+        "x": -52.928,
+        "z": 83.745,
+        "rx": -0.9999980801783642,
+        "rz": 0.0019594998305259344,
+        "length": 7.655,
+        "street": "East 9th Street"
+      },
+      "sourceFootprint": [
+        [
+          -52.902,
+          106.773
+        ],
+        [
+          -60.563,
+          106.778
+        ],
+        [
+          -60.583,
+          83.76
+        ],
+        [
+          -52.928,
+          83.745
+        ],
+        [
+          -52.925,
+          89.807
+        ],
+        [
+          -52.917,
+          93.763
+        ],
+        [
+          -52.913,
+          97.276
+        ]
+      ],
+      "state": "needs evidence",
+      "businesses": [],
+      "referenceRoadViewpoint": {
+        "lat": 40.7284474,
+        "lon": -73.9854564,
+        "heading": 209
+      }
+    },
+    {
+      "faceId": "241822241:0",
+      "buildingId": 241822241,
+      "frontageIndex": 0,
+      "mappedAddress": "344 East 9th Street",
+      "mappedName": "",
+      "mappedHeight": 17.93,
+      "sourceFace": {
+        "x": -60.583,
+        "z": 83.76,
+        "rx": -0.9999995877413997,
+        "rz": 0.0009080292014762727,
+        "length": 7.709,
+        "street": "East 9th Street"
+      },
+      "sourceFootprint": [
+        [
+          -60.563,
+          106.778
+        ],
+        [
+          -68.266,
+          106.795
+        ],
+        [
+          -68.292,
+          83.767
+        ],
+        [
+          -60.583,
+          83.76
+        ]
+      ],
+      "state": "needs evidence",
+      "businesses": [],
+      "referenceRoadViewpoint": {
+        "lat": 40.7284809,
+        "lon": -73.985536,
+        "heading": 209
+      }
+    },
+    {
+      "faceId": "241822261:0",
+      "buildingId": 241822261,
+      "frontageIndex": 0,
+      "mappedAddress": "342 East 9th Street",
+      "mappedName": "",
+      "mappedHeight": 17.54,
+      "sourceFace": {
+        "x": -68.292,
+        "z": 83.767,
+        "rx": -0.9999994029526491,
+        "rz": 0.001092746240080723,
+        "length": 7.321,
+        "street": "East 9th Street"
+      },
+      "sourceFootprint": [
+        [
+          -68.271,
+          107.307
+        ],
+        [
+          -75.585,
+          107.311
+        ],
+        [
+          -75.599,
+          98.695
+        ],
+        [
+          -75.613,
+          83.775
+        ],
+        [
+          -68.292,
+          83.767
+        ],
+        [
+          -68.266,
+          106.795
+        ]
+      ],
+      "state": "needs evidence",
+      "businesses": [],
+      "referenceRoadViewpoint": {
+        "lat": 40.7285137,
+        "lon": -73.9856138,
+        "heading": 209
+      }
+    },
+    {
+      "faceId": "241822335:0",
+      "buildingId": 241822335,
+      "frontageIndex": 0,
+      "mappedAddress": "340 East 9th Street",
+      "mappedName": "",
+      "mappedHeight": 14.61,
+      "sourceFace": {
+        "x": -75.613,
+        "z": 83.775,
+        "rx": -0.9999990468415126,
+        "rz": 0.001380694052372577,
+        "length": 7.967,
+        "street": "East 9th Street"
+      },
+      "sourceFootprint": [
+        [
+          -75.599,
+          98.695
+        ],
+        [
+          -77.759,
+          98.699
+        ],
+        [
+          -77.752,
+          101.905
+        ],
+        [
+          -81.562,
+          101.909
+        ],
+        [
+          -81.561,
+          98.699
+        ],
+        [
+          -83.558,
+          98.701
+        ],
+        [
+          -83.58,
+          83.786
+        ],
+        [
+          -75.613,
+          83.775
+        ]
+      ],
+      "state": "needs evidence",
+      "businesses": [],
+      "referenceRoadViewpoint": {
+        "lat": 40.7285471,
+        "lon": -73.985693,
+        "heading": 209
+      }
+    },
+    {
+      "faceId": "241822244:0",
+      "buildingId": 241822244,
+      "frontageIndex": 0,
+      "mappedAddress": "338 East 9th Street",
+      "mappedName": "",
+      "mappedHeight": 4.79,
+      "sourceFace": {
+        "x": -83.58,
+        "z": 83.786,
+        "rx": -0.9999983573672573,
+        "rz": 0.0018125293893238462,
+        "length": 7.724,
+        "street": "East 9th Street"
+      },
+      "sourceFootprint": [
+        [
+          -83.547,
+          109.675
+        ],
+        [
+          -91.276,
+          109.68
+        ],
+        [
+          -91.304,
+          83.8
+        ],
+        [
+          -83.58,
+          83.786
+        ],
+        [
+          -83.558,
+          98.701
+        ]
+      ],
+      "state": "needs evidence",
+      "businesses": [],
+      "referenceRoadViewpoint": {
+        "lat": 40.7285814,
+        "lon": -73.9857743,
+        "heading": 209
+      }
+    },
+    {
+      "faceId": "241822293:0",
+      "buildingId": 241822293,
+      "frontageIndex": 0,
+      "mappedAddress": "336 East 9th Street",
+      "mappedName": "",
+      "mappedHeight": 8.46,
+      "sourceFace": {
+        "x": -91.304,
+        "z": 83.8,
+        "rx": -0.9999996780284235,
+        "rz": 0.0008024606216625338,
+        "length": 7.477,
+        "street": "East 9th Street"
+      },
+      "sourceFootprint": [
+        [
+          -91.268,
+          110.249
+        ],
+        [
+          -98.753,
+          110.259
+        ],
+        [
+          -98.752,
+          106.615
+        ],
+        [
+          -98.781,
+          83.806
+        ],
+        [
+          -91.304,
+          83.8
+        ],
+        [
+          -91.276,
+          109.68
+        ]
+      ],
+      "state": "needs evidence",
+      "businesses": [],
+      "referenceRoadViewpoint": {
+        "lat": 40.7286145,
+        "lon": -73.985853,
+        "heading": 209
+      }
+    },
+    {
+      "faceId": "241822229:0",
+      "buildingId": 241822229,
+      "frontageIndex": 0,
+      "mappedAddress": "334 East 9th Street",
+      "mappedName": "",
+      "mappedHeight": 19.01,
+      "sourceFace": {
+        "x": -98.781,
+        "z": 83.806,
+        "rx": -0.9999997804207074,
+        "rz": 0.000662690378013679,
+        "length": 7.545,
+        "street": "East 9th Street"
+      },
+      "sourceFootprint": [
+        [
+          -98.752,
+          106.615
+        ],
+        [
+          -106.297,
+          106.62
+        ],
+        [
+          -106.326,
+          83.811
+        ],
+        [
+          -98.781,
+          83.806
+        ]
+      ],
+      "state": "needs evidence",
+      "businesses": [],
+      "referenceRoadViewpoint": {
+        "lat": 40.7286473,
+        "lon": -73.9859308,
+        "heading": 209
+      }
+    },
+    {
+      "faceId": "241822251:0",
+      "buildingId": 241822251,
+      "frontageIndex": 0,
+      "mappedAddress": "332 East 9th Street",
+      "mappedName": "",
+      "mappedHeight": 18.22,
+      "sourceFace": {
+        "x": -106.326,
+        "z": 83.811,
+        "rx": -0.9999995803710797,
+        "rz": 0.0009161100723188515,
+        "length": 7.641,
+        "street": "East 9th Street"
+      },
+      "sourceFootprint": [
+        [
+          -106.297,
+          106.62
+        ],
+        [
+          -113.938,
+          106.627
+        ],
+        [
+          -113.959,
+          90.603
+        ],
+        [
+          -113.967,
+          83.818
+        ],
+        [
+          -106.326,
+          83.811
+        ]
+      ],
+      "state": "needs evidence",
+      "businesses": [],
+      "referenceRoadViewpoint": {
+        "lat": 40.7286805,
+        "lon": -73.9860095,
+        "heading": 209
+      }
+    },
+    {
+      "faceId": "241822179:0",
+      "buildingId": 241822179,
+      "frontageIndex": 0,
+      "mappedAddress": "328 East 9th Street",
+      "mappedName": "",
+      "mappedHeight": 18.91,
+      "sourceFace": {
+        "x": -113.967,
+        "z": 83.818,
+        "rx": -0.9999994618656995,
+        "rz": 0.0010374335214306943,
+        "length": 11.567,
+        "street": "East 9th Street"
+      },
+      "sourceFootprint": [
+        [
+          -113.959,
+          90.603
+        ],
+        [
+          -115.976,
+          90.604
+        ],
+        [
+          -117.095,
+          91.595
+        ],
+        [
+          -117.089,
+          92.942
+        ],
+        [
+          -116.022,
+          92.934
+        ],
+        [
+          -116.009,
+          106.862
+        ],
+        [
+          -123.323,
+          106.866
+        ],
+        [
+          -123.33,
+          92.948
+        ],
+        [
+          -122.57,
+          92.945
+        ],
+        [
+          -122.57,
+          91.608
+        ],
+        [
+          -123.4,
+          90.618
+        ],
+        [
+          -125.513,
+          90.621
+        ],
+        [
+          -125.534,
+          83.83
+        ],
+        [
+          -113.967,
+          83.818
+        ]
+      ],
+      "state": "needs evidence",
+      "businesses": [],
+      "referenceRoadViewpoint": {
+        "lat": 40.7287224,
+        "lon": -73.986109,
+        "heading": 209
+      }
+    },
+    {
+      "faceId": "241822183:0",
+      "buildingId": 241822183,
+      "frontageIndex": 0,
+      "mappedAddress": "324 East 9th Street",
+      "mappedName": "",
+      "mappedHeight": 19.25,
+      "sourceFace": {
+        "x": -125.534,
+        "z": 83.83,
+        "rx": -0.9999979736617668,
+        "rz": 0.0020131250235638316,
+        "length": 11.425,
+        "street": "East 9th Street"
+      },
+      "sourceFootprint": [
+        [
+          -125.513,
+          90.621
+        ],
+        [
+          -127.686,
+          90.619
+        ],
+        [
+          -128.56,
+          91.615
+        ],
+        [
+          -128.56,
+          92.952
+        ],
+        [
+          -127.419,
+          92.955
+        ],
+        [
+          -127.402,
+          108.331
+        ],
+        [
+          -134.744,
+          108.338
+        ],
+        [
+          -134.761,
+          92.961
+        ],
+        [
+          -133.81,
+          92.954
+        ],
+        [
+          -133.81,
+          91.617
+        ],
+        [
+          -134.763,
+          90.631
+        ],
+        [
+          -136.951,
+          90.638
+        ],
+        [
+          -136.959,
+          83.853
+        ],
+        [
+          -125.534,
+          83.83
+        ]
+      ],
+      "state": "needs evidence",
+      "businesses": [],
+      "referenceRoadViewpoint": {
+        "lat": 40.7287726,
+        "lon": -73.9862281,
+        "heading": 209
+      }
+    },
+    {
+      "faceId": "241822272:0",
+      "buildingId": 241822272,
+      "frontageIndex": 0,
+      "mappedAddress": "320 East 9th Street",
+      "mappedName": "",
+      "mappedHeight": 19.18,
+      "sourceFace": {
+        "x": -136.959,
+        "z": 83.853,
+        "rx": -0.9999998577019259,
+        "rz": 0.0005334755175797008,
+        "length": 7.498,
+        "street": "East 9th Street"
+      },
+      "sourceFootprint": [
+        [
+          -136.937,
+          105.278
+        ],
+        [
+          -144.43,
+          105.292
+        ],
+        [
+          -144.438,
+          96.215
+        ],
+        [
+          -144.439,
+          93.298
+        ],
+        [
+          -144.444,
+          88.219
+        ],
+        [
+          -144.457,
+          83.857
+        ],
+        [
+          -136.959,
+          83.853
+        ],
+        [
+          -136.951,
+          90.638
+        ]
+      ],
+      "state": "needs evidence",
+      "businesses": [],
+      "referenceRoadViewpoint": {
+        "lat": 40.7288139,
+        "lon": -73.9863261,
+        "heading": 209
+      }
+    },
+    {
+      "faceId": "241822187:0",
+      "buildingId": 241822187,
+      "frontageIndex": 0,
+      "mappedAddress": "318 East 9th Street",
+      "mappedName": "",
+      "mappedHeight": 20.6,
+      "sourceFace": {
+        "x": -144.457,
+        "z": 83.857,
+        "rx": -0.9999993350024143,
+        "rz": 0.0011532539742468051,
+        "length": 7.804,
+        "street": "East 9th Street"
+      },
+      "sourceFootprint": [
+        [
+          -144.444,
+          88.219
+        ],
+        [
+          -145.306,
+          88.215
+        ],
+        [
+          -145.295,
+          93.303
+        ],
+        [
+          -144.439,
+          93.298
+        ],
+        [
+          -144.438,
+          96.215
+        ],
+        [
+          -145.294,
+          97.124
+        ],
+        [
+          -145.278,
+          107.827
+        ],
+        [
+          -151.166,
+          107.828
+        ],
+        [
+          -151.172,
+          97.819
+        ],
+        [
+          -152.243,
+          96.466
+        ],
+        [
+          -152.253,
+          93.288
+        ],
+        [
+          -151.316,
+          93.289
+        ],
+        [
+          -151.322,
+          88.21
+        ],
+        [
+          -152.259,
+          88.209
+        ],
+        [
+          -152.261,
+          83.866
+        ],
+        [
+          -144.457,
+          83.857
+        ]
+      ],
+      "state": "needs evidence",
+      "businesses": [],
+      "referenceRoadViewpoint": {
+        "lat": 40.7288473,
+        "lon": -73.9864054,
+        "heading": 209
+      }
+    },
+    {
+      "faceId": "241822165:0",
+      "buildingId": 241822165,
+      "frontageIndex": 0,
+      "mappedAddress": "314-316 East 9th Street",
+      "mappedName": "",
+      "mappedHeight": 20.29,
+      "sourceFace": {
+        "x": -152.261,
+        "z": 83.866,
+        "rx": -0.9999997693687056,
+        "rz": 0.0006791631142133909,
+        "length": 7.362,
+        "street": "East 9th Street"
+      },
+      "sourceFootprint": [
+        [
+          -152.259,
+          88.209
+        ],
+        [
+          -153.339,
+          88.211
+        ],
+        [
+          -153.333,
+          93.29
+        ],
+        [
+          -152.253,
+          93.288
+        ],
+        [
+          -152.243,
+          96.466
+        ],
+        [
+          -152.945,
+          97.825
+        ],
+        [
+          -152.937,
+          108.774
+        ],
+        [
+          -158.663,
+          108.787
+        ],
+        [
+          -158.675,
+          97.101
+        ],
+        [
+          -159.606,
+          96.052
+        ],
+        [
+          -159.623,
+          83.871
+        ],
+        [
+          -152.261,
+          83.866
+        ]
+      ],
+      "state": "needs evidence",
+      "businesses": [],
+      "referenceRoadViewpoint": {
+        "lat": 40.7288804,
+        "lon": -73.9864839,
+        "heading": 209
+      }
+    },
+    {
+      "faceId": "241822171:0",
+      "buildingId": 241822171,
+      "frontageIndex": 0,
+      "mappedAddress": "312 East 9th Street",
+      "mappedName": "",
+      "mappedHeight": 20.24,
+      "sourceFace": {
+        "x": -159.623,
+        "z": 83.871,
+        "rx": -0.9999991073075429,
+        "rz": 0.0013361826660984145,
+        "length": 7.484,
+        "street": "East 9th Street"
+      },
+      "sourceFootprint": [
+        [
+          -159.606,
+          96.052
+        ],
+        [
+          -160.7,
+          97.106
+        ],
+        [
+          -160.692,
+          107.24
+        ],
+        [
+          -166.187,
+          107.252
+        ],
+        [
+          -166.206,
+          97.098
+        ],
+        [
+          -167.089,
+          96.048
+        ],
+        [
+          -167.094,
+          93.261
+        ],
+        [
+          -166.21,
+          93.254
+        ],
+        [
+          -166.218,
+          87.806
+        ],
+        [
+          -167.1,
+          87.8
+        ],
+        [
+          -167.107,
+          83.881
+        ],
+        [
+          -159.623,
+          83.871
+        ]
+      ],
+      "state": "needs evidence",
+      "businesses": [],
+      "referenceRoadViewpoint": {
+        "lat": 40.7289128,
+        "lon": -73.9865609,
+        "heading": 209
+      }
+    },
+    {
+      "faceId": "241822269:0",
+      "buildingId": 241822269,
+      "frontageIndex": 0,
+      "mappedAddress": "310 East 9th Street",
+      "mappedName": "",
+      "mappedHeight": 15.24,
+      "sourceFace": {
+        "x": -167.107,
+        "z": 83.881,
+        "rx": -0.9999982522560821,
+        "rz": 0.0018696215609923727,
+        "length": 8.023,
+        "street": "East 9th Street"
+      },
+      "sourceFootprint": [
+        [
+          -167.084,
+          100.553
+        ],
+        [
+          -175.106,
+          100.569
+        ],
+        [
+          -175.123,
+          91.79
+        ],
+        [
+          -175.13,
+          83.896
+        ],
+        [
+          -167.107,
+          83.881
+        ],
+        [
+          -167.1,
+          87.8
+        ],
+        [
+          -167.094,
+          93.261
+        ],
+        [
+          -167.089,
+          96.048
+        ]
+      ],
+      "state": "needs evidence",
+      "businesses": [],
+      "referenceRoadViewpoint": {
+        "lat": 40.7289467,
+        "lon": -73.9866412,
+        "heading": 209
+      }
+    },
+    {
+      "faceId": "241822210:1",
+      "buildingId": 241822210,
+      "frontageIndex": 1,
+      "mappedAddress": "144 2nd Avenue",
+      "mappedName": "",
+      "mappedHeight": 13.1,
+      "sourceFace": {
+        "x": -175.13,
+        "z": 83.896,
+        "rx": -0.9999992302171905,
+        "rz": 0.0012407920964176724,
+        "length": 37.879,
+        "street": "East 9th Street"
+      },
+      "sourceFootprint": [
+        [
+          -175.123,
+          91.79
+        ],
+        [
+          -193.496,
+          91.816
+        ],
+        [
+          -210.822,
+          91.834
+        ],
+        [
+          -213.002,
+          91.836
+        ],
+        [
+          -213.009,
+          83.943
+        ],
+        [
+          -175.13,
+          83.896
+        ]
+      ],
+      "state": "needs evidence",
+      "businesses": [],
+      "referenceRoadViewpoint": {
+        "lat": 40.7290469,
+        "lon": -73.986879,
+        "heading": 209
+      }
+    }
+  ]
+}

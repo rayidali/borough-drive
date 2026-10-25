@@ -1,0 +1,319 @@
+{
+  "recorded": "2026-10-14T14:28:55.211529+00:00",
+  "builtAt": "2026-10-14T05:01:04.528Z",
+  "currentPack": {
+    "bytes": 8031316,
+    "sha256": "143be91b9c79a859ff6de5ef3f4bb6bea718ab2573b1f8eef26a02c2d300588d",
+    "brotliBytes": 7409689
+  },
+  "newModels": [
+    {
+      "id": 247852684,
+      "glbBytes": 4313740,
+      "triangles": 67645,
+      "glbSha256": "6a2f3c371c148385415133d5e60a463b5d249b2ed1898fb3330fd2092d7d9022",
+      "compiled": {
+        "bounds": [
+          -91.3219985961914,
+          0.15000057220459,
+          -190.565002441406,
+          -83.7360000610352,
+          16.8500022888184,
+          -161.405517578125
+        ],
+        "bytes": 1461229,
+        "glbSha256": "6a2f3c371c148385415133d5e60a463b5d249b2ed1898fb3330fd2092d7d9022",
+        "id": 247852684,
+        "owner": "EVP-REST",
+        "sha256": "5ac034246ea65d015cd6ca750e6fcf965b9ad0ee80523765dc6e2e92e30b72f7",
+        "url": "/seventh/areas/assets/5ac034246ea65d015cd6ca750e6fcf965b9ad0ee80523765dc6e2e92e30b72f7.scn"
+      }
+    },
+    {
+      "id": 247852685,
+      "glbBytes": 6360448,
+      "triangles": 98478,
+      "glbSha256": "30a0fa69e3446304788c1c954378e465c8baa8836e7ffae88205e5e9cecf48bc",
+      "compiled": {
+        "bounds": [
+          -83.94580078125,
+          0.149999618530273,
+          -179.623229980469,
+          -75.8500747680664,
+          16.7999973297119,
+          -161.428497314453
+        ],
+        "bytes": 1856820,
+        "glbSha256": "30a0fa69e3446304788c1c954378e465c8baa8836e7ffae88205e5e9cecf48bc",
+        "id": 247852685,
+        "owner": "EVP-REST",
+        "sha256": "7897a4d1f6e33f1643accf702f9f6d2a3437173d6cda2f39de8f9375c9931ba6",
+        "url": "/seventh/areas/assets/7897a4d1f6e33f1643accf702f9f6d2a3437173d6cda2f39de8f9375c9931ba6.scn"
+      }
+    },
+    {
+      "id": 247852686,
+      "glbBytes": 3132772,
+      "triangles": 53112,
+      "glbSha256": "be4cf0dc473728207381661baae2d8698f28d59459af132603f6be04f3df9162",
+      "compiled": {
+        "bounds": [
+          -76.0660018920898,
+          0.149999856948853,
+          -180.065994262695,
+          -68.3219985961914,
+          16.3199996948242,
+          -161.586502075195
+        ],
+        "bytes": 1293731,
+        "glbSha256": "be4cf0dc473728207381661baae2d8698f28d59459af132603f6be04f3df9162",
+        "id": 247852686,
+        "owner": "EVP-REST",
+        "sha256": "85dc8ede648656d9420645130134d9c2c338f83494e8731277295c8bc90af893",
+        "url": "/seventh/areas/assets/85dc8ede648656d9420645130134d9c2c338f83494e8731277295c8bc90af893.scn"
+      }
+    },
+    {
+      "id": 247852687,
+      "glbBytes": 1409764,
+      "triangles": 22921,
+      "glbSha256": "e477c8b978d793618ddbe814202ff88bd2735bc44c7b6622abb8a4968199f33b",
+      "compiled": {
+        "bounds": [
+          -68.533203125,
+          -0.560000360012054,
+          -178.510208129883,
+          -60.4056510925293,
+          16.8799991607666,
+          -161.072631835938
+        ],
+        "bytes": 440239,
+        "glbSha256": "e477c8b978d793618ddbe814202ff88bd2735bc44c7b6622abb8a4968199f33b",
+        "id": 247852687,
+        "owner": "EVP-REST",
+        "sha256": "536aae284eb9e03e404798024ea7d493e68e431b248b4a9955ff6acba00eacbf",
+        "url": "/seventh/areas/assets/536aae284eb9e03e404798024ea7d493e68e431b248b4a9955ff6acba00eacbf.scn"
+      }
+    }
+  ],
+  "totalTriangles": 5025224,
+  "runtimeBytes": 164342193,
+  "runtimeFiles": 240,
+  "sources": 145,
+  "residentPartition": {
+    "EVP-REST": 209,
+    "EVP-WEST": 12
+  },
+  "allLoadInitially": 221,
+  "growthFromN01A": {
+    "packBytes": 8148,
+    "runtimeBytes": 5062272
+  },
+  "startupBefore": {
+    "cold": {
+      "count": 5,
+      "valuesMs": [
+        7947.2,
+        8066.9,
+        7404.8,
+        8277.4,
+        8487.5
+      ],
+      "medianMs": 8066.9,
+      "p95NearestRankMs": 8487.5,
+      "maxMs": 8487.5,
+      "sceneCacheHits": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "residentModels": [
+        217,
+        217,
+        217,
+        217,
+        217
+      ],
+      "transferEncodedBytes": [
+        159070517,
+        159070517,
+        159070517,
+        159070517,
+        159070517
+      ]
+    },
+    "cacheEnabled": {
+      "count": 5,
+      "valuesMs": [
+        8783,
+        8488.5,
+        14082.9,
+        8549,
+        9350.5
+      ],
+      "medianMs": 8783,
+      "p95NearestRankMs": 14082.9,
+      "maxMs": 14082.9,
+      "sceneCacheHits": [
+        217,
+        217,
+        217,
+        217,
+        217
+      ],
+      "residentModels": [
+        217,
+        217,
+        217,
+        217,
+        217
+      ],
+      "transferEncodedBytes": [
+        48264433,
+        48264433,
+        48264433,
+        48264433,
+        48264433
+      ]
+    },
+    "conditions": "One local game tab; unthrottled CPU/network; focus emulated. Cold means browser network cache disabled, not an OS/GPU/WASM-cache reset. Warm enables browser cache; localhost response headers are recorded. Raw first-drive intervals retained.",
+    "browser": {
+      "protocolVersion": "1.3",
+      "product": "Chrome/155.0.8059.40",
+      "revision": "@b01cdf43be4b4d5559bf7e58229e666e24454f5",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "jsVersion": "15.5.35.20"
+    }
+  },
+  "startupFinal": {
+    "cold": {
+      "count": 5,
+      "valuesMs": [
+        7226.4,
+        6871.1,
+        7007.2,
+        6772,
+        6971.4
+      ],
+      "medianMs": 6971.4,
+      "p95NearestRankMs": 7226.4,
+      "maxMs": 7226.4,
+      "sceneCacheHits": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "residentModels": [
+        221,
+        221,
+        221,
+        221,
+        221
+      ],
+      "transferEncodedBytes": [
+        164131695,
+        164131695,
+        164131695,
+        164131695,
+        164131695
+      ]
+    },
+    "cacheEnabled": {
+      "count": 5,
+      "valuesMs": [
+        7032,
+        9061,
+        8850.2,
+        11169.9,
+        10148.2
+      ],
+      "medianMs": 9061,
+      "p95NearestRankMs": 11169.9,
+      "maxMs": 11169.9,
+      "sceneCacheHits": [
+        221,
+        221,
+        221,
+        221,
+        221
+      ],
+      "residentModels": [
+        221,
+        221,
+        221,
+        221,
+        221
+      ],
+      "transferEncodedBytes": [
+        48272581,
+        48272581,
+        48272581,
+        48272581,
+        48272581
+      ]
+    },
+    "conditions": "One local game tab; unthrottled CPU/network; focus emulated. Cold means browser network cache disabled, not an OS/GPU/WASM-cache reset. Warm enables browser cache; localhost response headers are recorded. Raw first-drive intervals retained.",
+    "browser": {
+      "protocolVersion": "1.3",
+      "product": "Chrome/155.0.8059.40",
+      "revision": "@b01cdf43be4b4d5559bf7e58229e666e24454f5",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "jsVersion": "15.5.35.20"
+    }
+  },
+  "routes": [
+    {
+      "name": "first-north",
+      "frames": 292,
+      "p95Ms": 18.6,
+      "maxMs": 18.7,
+      "contacts": 0,
+      "holds": 0
+    },
+    {
+      "name": "first-south",
+      "frames": 335,
+      "p95Ms": 18.5,
+      "maxMs": 18.7,
+      "contacts": 0,
+      "holds": 0
+    },
+    {
+      "name": "west-lane-north",
+      "frames": 291,
+      "p95Ms": 18.5,
+      "maxMs": 18.8,
+      "contacts": 0,
+      "holds": 0
+    },
+    {
+      "name": "east-lane-south",
+      "frames": 334,
+      "p95Ms": 18.6,
+      "maxMs": 18.8,
+      "contacts": 0,
+      "holds": 0
+    },
+    {
+      "name": "ninth-west",
+      "frames": 434,
+      "p95Ms": 18.6,
+      "maxMs": 18.7,
+      "contacts": 0,
+      "holds": 0
+    },
+    {
+      "name": "ninth-east",
+      "frames": 428,
+      "p95Ms": 18.6,
+      "maxMs": 18.7,
+      "contacts": 0,
+      "holds": 0
+    }
+  ],
+  "limits": "Local desktop, unthrottled network/CPU; 1440x1000. Before/after sequential with a laptop shutdown and fresh isolated browser profile before the final run; not a controlled causal experiment. Interrupted startup trial retained separately with five completed runs and a CDP timeout. Address trial retained; checker repaired duplicate command sequence ID; runtime unchanged. Five-run p95 is the maximum, not stable population latency. Before warm 14.083-second outlier and historical P02 warm 21.687-second outlier retained, unexplained. No mobile/whole-area scalability or total RAM result. All new models pinned; 12-building release/reload historical, not rerun here."
+}

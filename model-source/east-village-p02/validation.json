@@ -1,0 +1,111 @@
+{
+  "recorded": "2026-10-13T18:51:16.403055+00:00",
+  "package": {
+    "bytes": 8006792,
+    "sha256": "476e38b45cd92fff235cb56e17c8c92506d3949959a002d88e0b26e49d07f288",
+    "brotliBytes": 7395316
+  },
+  "areas": {
+    "engine": "4.7.2",
+    "manifest": "areas/manifest-c83fecba5d840b5c86e9ae86af3909b5f358d3c2540555d64a527e6ee0591120.json",
+    "release": "8c096afdb70559c9b3b304f5dacc011b83cb6b629aac2557a574ce6d33eef625",
+    "sha256": "c83fecba5d840b5c86e9ae86af3909b5f358d3c2540555d64a527e6ee0591120"
+  },
+  "checkout": "a2a90a3e08540e15f40e0ede0f8af14921f54675",
+  "cachedOriginMain": "a2a90a3e08540e15f40e0ede0f8af14921f54675",
+  "checks": {
+    "originalVerify": {
+      "passed": true,
+      "log": "verify-final.log"
+    },
+    "packageVerify": {
+      "passed": true,
+      "runtimeFiles": 231,
+      "sourceHashes": 127,
+      "buildings": 212,
+      "log": "verify-final.log"
+    },
+    "visual": {
+      "detailImagesInspected": 50,
+      "gameplayImagesInspected": 13,
+      "report": "visual-review.json",
+      "calibratedAcceptance": false
+    },
+    "routes": {
+      "passed": true,
+      "realKeyLegs": 4,
+      "zeroRouteContacts": true,
+      "zeroOrdinaryHolds": true,
+      "barriers": 4,
+      "cameraModes": 4,
+      "reset": true,
+      "newModelCollisionOwners": 5,
+      "report": "routes-final/captures.json"
+    },
+    "address": {
+      "passed": true,
+      "cases": 17,
+      "report": "address/review.json",
+      "p02HudHiddenVerifiedInRoutes": true
+    },
+    "startup": {
+      "completed": 10,
+      "cold": 5,
+      "cacheEnabled": 5,
+      "cachedScenesPerWarmRun": 212,
+      "latencyOutlierMs": 21686.9,
+      "performanceGateClaimed": false,
+      "report": "metrics.json"
+    },
+    "preservation": {
+      "passed": true,
+      "priorGlbsAndScenes": 207,
+      "otherTrackedNonMarkdown": 2376,
+      "privateScreenshotsUnchangedAndUntracked": 2,
+      "report": "preservation.json"
+    },
+    "localHttp": {
+      "passed": true,
+      "exactRoutes": 4,
+      "sceneImmutableHeader": true,
+      "distIndexAbsent": true,
+      "report": "local-routes.json"
+    },
+    "syntax": {
+      "pythonAst": [
+        "author_p02.py",
+        "p02_kit.py",
+        "export_seventh_engine.py"
+      ],
+      "nodeCheck": [
+        "review-p02.mjs",
+        "review-p01.mjs",
+        "export-seventh.mjs",
+        "verify-seventh.mjs"
+      ],
+      "passed": true
+    },
+    "documentation": {
+      "localLinkTargets": 580,
+      "planningJsonCsvConsistent": true,
+      "skillValid": true,
+      "diffWhitespacePassed": true
+    }
+  },
+  "buildWarnings": "Successful Godot export logs include sandbox user-log/editor-settings and certificate-bundle warnings; no parser error. Final browser capture/route/startup runs have zero errors, warnings and failed requests.",
+  "unresolved": [
+    "Exact artwork, measured geometry and occluded features; see visual-review.json.",
+    "One 21.7-second warm startup remains unattributed; no whole-area performance claim.",
+    "148 Ninth-facing return is deliberately deferred outside P02."
+  ],
+  "saveState": {
+    "localUncommitted": true,
+    "fetched": false,
+    "committed": false,
+    "pushed": false,
+    "ciRun": false,
+    "deployed": false,
+    "productionRechecked": false
+  },
+  "nextSession": "P03, 145 First Avenue / southwest Ninth corner, on next user instruction"
+}

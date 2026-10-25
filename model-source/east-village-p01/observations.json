@@ -1,0 +1,269 @@
+{
+  "schema": 1,
+  "id": "P01",
+  "targetConditions": "April 2026 ordinary Street View; supplementary dates explicitly labeled",
+  "inspectionDate": "2026-10-12",
+  "use": "Architectural observations only. Street View pixels remain temporary/local and are not redistributed or used as textures.",
+  "sources": {
+    "south-oblique": {
+      "url": "https://www.google.com/maps/@40.7278061,-73.9851213,9a,58y,320h,91t/data=!3m7!1e1!3m5!1sSpxKFnvsXEGVLfKp1LIW8g!2e0!6shttps:%2F%2Fstreetviewpixels-pa.clients6.google.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-1%26panoid%3DSpxKFnvsXEGVLfKp1LIW8g%26yaw%3D320!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI2MTAwNy4wIKXMDSoASAFQAw%3D%3D",
+      "text": "Search Google Maps\n\ue8b6\n\ue52e\n\t",
+      "title": "135 1st Ave - Google Maps",
+      "provider": "Google Street View",
+      "captureDate": "2026-04",
+      "inspected": true,
+      "observations": [
+        "137: red brick upper wall, five narrow white-framed bays on each of four upper rows, plain parapet, no front escape. Tree obscures center.",
+        "137 south shop Spirals: pale blue-gray frame, broad white fascia with mustard script, black horizontal lamp bar and three downlights; separate black residential bay to north; orange Crispy Burger north unit with cream/red fascia and photo menu foot panels.",
+        "139: cobalt blue brick, red window trim, dark ornate cornice; three bays x four upper rows, central black escape; V-One Nail Spa left and SKWR right.",
+        "South shared boundary with protected HighLife frontage identified; no edits to HighLife/83 St Marks."
+      ],
+      "limits": [
+        "Motorcycle blur masks Spirals threshold; seek adjacent panorama.",
+        "Precise lettering and unit divisions need closer front view."
+      ]
+    },
+    "south-elevations": {
+      "url": "https://www.google.com/maps/@40.727887,-73.9850623,9a,68y,299h,99t/data=!3m7!1e1!3m5!1skmcfyaVaqkP9ileE8v88vQ!2e0!6shttps:%2F%2Fstreetviewpixels-pa.clients6.google.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-9%26panoid%3DkmcfyaVaqkP9ileE8v88vQ%26yaw%3D299!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI2MTAwNy4wIKXMDSoASAFQAw%3D%3D",
+      "title": "140 1st Ave - Google Maps",
+      "provider": "Google Street View",
+      "captureDate": "2026-04",
+      "inspectionDate": "2026-10-13T01:18:43.902787+00:00",
+      "inspected": true,
+      "observations": [
+        "137 has five bays by FOUR upper rows (twenty windows); plain brick parapet, white simple lintels/sills; no front escape. White sash; AC positions at bottom row bays 2,4; second row bays 3,4; third row bay2; top bay5.",
+        "139 CORRECTION to first oblique: FOUR bays by FOUR upper rows (16); blue painted brick, pink/red thin frames/sills, cream vertical edge and cornice band; black ornate bracketed cornice; escape spans middle two bays with four landings/zigzag stairs. No guessed three-bay legacy rhythm.",
+        "137 divisions from left/south: Spirals roughly 41%, residential entry 16%, Crispy Burger 42%. 139 separate residential door left, V-One Nail Spa center, SKWR right; street tree covers 141/143 lower elevations."
+      ]
+    },
+    "137-front": {
+      "url": "https://www.google.com/maps/@40.727887,-73.9850623,9a,55y,281h,91t/data=!3m7!1e1!3m5!1skmcfyaVaqkP9ileE8v88vQ!2e0!6shttps:%2F%2Fstreetviewpixels-pa.clients6.google.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-1%26panoid%3DkmcfyaVaqkP9ileE8v88vQ%26yaw%3D281!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI2MTAwNy4wIKXMDSoASAFQAw%3D%3D",
+      "title": "140 1st Ave - Google Maps",
+      "provider": "Google Street View",
+      "captureDate": "2026-04",
+      "inspectionDate": "2026-10-13T01:20:52.191342+00:00",
+      "inspected": true,
+      "observations": [
+        "Spirals: separate white sign box with ochre italic serif-like Spirals and small Cinnamon Rolls; black shutter/light housing with three white downlights; powder-blue surround, large left display pane, narrow fixed sidelight then right glazed single door with bottom molded panel. Low blue sill, interior pale counter and dark lower display. Residential entrance immediately right is black narrow double glazed leaves with 137 small brass plate over transom; recessed threshold.",
+        "Crispy Burger: bright orange raised-panel piers, cream fascia with round red cartoon chicken emblem at left and chunky red raised/shadow CRISPY BURGER plus smaller BURGER/FRIED CHICKEN/SNACKS line; left open/recessed single door, right narrow two-part glazing with red product collage on lower half; neon green circular light right; black A-frame with pale/orange panel on pavement. No fabric canopy/patio visible.",
+        "V-One: charcoal sign band and orange hand-script V-ONE Nail Spa, address small at lower left; fine pale metal glazing, photographic manicure/foot graphics on lower glass, pale interior chair shapes and a white A-frame. Different storefront width from right-hand SKWR."
+      ]
+    },
+    "137-sign-entry": {
+      "url": "https://www.google.com/maps/@40.727887,-73.9850623,9a,27.5y,281h,91t/data=!3m7!1e1!3m5!1skmcfyaVaqkP9ileE8v88vQ!2e0!6shttps:%2F%2Fstreetviewpixels-pa.clients6.google.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-1%26panoid%3DkmcfyaVaqkP9ileE8v88vQ%26yaw%3D281!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI2MTAwNy4wIKXMDSoASAFQAw%3D%3D",
+      "title": "140 1st Ave - Google Maps",
+      "provider": "Google Street View",
+      "captureDate": "2026-04",
+      "inspectionDate": "2026-10-13T01:22:02.797228+00:00",
+      "inspected": true,
+      "observations": [
+        "Close inspection: Spirals letterforms are high-contrast italic SERIF, not connected script; a small spiral sits above the i. White fascia thin ochre border, Cinnamon Rolls small gray subline. Three tiny white downlights on black housing; two larger white lamps above sign; black brick stall riser; blue glazed door at north edge has brass pull and solid lower panel; two narrow middle glazed lights plus broad left window. Window has dated BABE ORIGINAL x Spirals collaboration lettering with sprinkle-like marks, not permanent inferred stock.",
+        "137 number is small slanted brass digits at top of recessed black glazed entrance; exact leaf/fixed-panel division partly occluded by person. Circle intercom/camera left of entry on black pier; black ribbed frieze above. Preserve uncertainty until opposite oblique.",
+        "Crispy close: cream panel outlined red bold block letters with dark extrusion/shadow, cartoon chicken red/orange medallion. Orange rectangular inset piers; left entrance open at April capture with silver vertical pull, right two narrow glass panels; red lower menu graphics with food silhouettes, notices on center pier, green neon circular light, black A-frame. No seating or fabric shade observed in visible storefront."
+      ]
+    },
+    "139-front": {
+      "url": "https://www.google.com/maps/@40.727887,-73.9850623,9a,38y,315h,90t/data=!3m7!1e1!3m5!1skmcfyaVaqkP9ileE8v88vQ!2e0!6shttps:%2F%2Fstreetviewpixels-pa.clients6.google.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D0%26panoid%3DkmcfyaVaqkP9ileE8v88vQ%26yaw%3D315!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI2MTAwNy4wIKXMDSoASAFQAw%3D%3D",
+      "title": "140 1st Ave - Google Maps",
+      "provider": "Google Street View",
+      "captureDate": "2026-04",
+      "inspectionDate": "2026-10-13T01:23:04.731461+00:00",
+      "inspected": true,
+      "observations": [
+        "139: separate left brown/dark timber glazed double entrance with small gold 139 above leaves, rectangular light transom and fluted black surrounding pier. V-One center has charcoal/slightly projecting fascia with orange handwritten V-ONE Nail Spa, small 139 First Ave and telephone along lower edge. Shop has silver thin frame, broad left display glass with three circular manicure/foot graphics and coral lower panel, door right, vertical polish-rack-like interior strips; white A-frame on pavement.",
+        "SKWR: olive mottled green rigid fascia with large white heavy sans SKWR over a thin ochre skewer/arrow; tiny 139 1st AVENUE bottom left. Dark green surround, recessed narrow left glass door, broader right window; purple script Open near upper window and counter/menu layers visible inside. Lower part obscured by car here; adjacent position needed. No fabric shade or seats established.",
+        "139 upper windows have shallow curved segmental red lintels, red sills and dark sash; pale cream edge stripe outside pink/red side pilaster. Four bays retained."
+      ]
+    },
+    "141-143-older-elevations": {
+      "url": "https://www.google.com/maps/@40.7279974,-73.9850227,10a,70y,299h,104t/data=!3m8!1e1!3m6!1sPOY62hDjaGzbgzSTczQCUg!2e0!5s20240901T000000!6shttps:%2F%2Fstreetviewpixels-pa.clients6.google.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-14%26panoid%3DPOY62hDjaGzbgzSTczQCUg%26yaw%3D299!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI2MTAwNy4wIKXMDSoASAFQAw%3D%3D",
+      "title": "142 1st Ave - Google Maps",
+      "provider": "Google Street View",
+      "captureDate": "2024-09",
+      "inspectionDate": "2026-10-13T01:25:59.874203+00:00",
+      "inspected": true,
+      "observations": [
+        "SEPTEMBER 2024 supplementary upper-elevation view, not target business date. 141: orange-red brick, FOUR bays x FOUR upper rows, rounded segmental brick hoods with shallow stone/sandstone edges; brown/olive ornate bracketed cornice; dark brown/olive escape center two bays, four landings, zigzag stairs; lower row security bars. 143: red brick, FOUR bays x FOUR upper rows, dark stone layered rectangular hoods/sills; broad worn dark cornice decorated recessed panels and long ornament; black escape center two bays. Leafy trees obscure lower facade.",
+        "Business sign discrepancy: this older view has Paquitos left and Smart Smokers right at 143; cannot infer October 2026 identity from these pixels. Need target-date reinspection."
+      ]
+    },
+    "141-143-april-shops": {
+      "url": "https://www.google.com/maps/@40.727887,-73.9850623,9a,35y,337h,91t/data=!3m7!1e1!3m5!1skmcfyaVaqkP9ileE8v88vQ!2e0!6shttps:%2F%2Fstreetviewpixels-pa.clients6.google.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-1%26panoid%3DkmcfyaVaqkP9ileE8v88vQ%26yaw%3D337!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI2MTAwNy4wIKXMDSoASAFQAw%3D%3D",
+      "title": "140 1st Ave - Google Maps",
+      "provider": "Google Street View",
+      "captureDate": "2026-04",
+      "inspectionDate": "2026-10-13T01:31:43.891485+00:00",
+      "inspected": true,
+      "observations": [
+        "APRIL 2026 resolves tenant change: 143 SOUTH unit retains PAQUITOS raised narrow red lettering with a yellow/red sombrero motif on dark fascia; separate central residential entrance; NORTH unit is BANSHEE, replacing Smart Smokers. Banshee has deep rounded burgundy/cream vertically striped canopy with small scalloped valance, dark green/black wood surround, white BANSHEE on glazed pane, projecting circular Guinness sign above canopy, wall light, doorway recess and layered notices. Do NOT render Smart Smokers from September 2024.",
+        "141 Kikoo: independent dark residential entrance at south/left with 141 in small pale digits on black fascia above transom. Restaurant right spans most front with very thin dark/brass metal glazing, near-left restaurant entrance and broad divided front panes; black fascia carries white irregular Kikoo sushi-bowl logo and small pale strip reading ALL YOU CAN EAT SUSHI SASHIMI. Vertical blue window light strips, multi-color menu/price poster panels, pale chairs just inside glass. Tree hides portions of sign; supplementary close source required for exact logo.",
+        "143 Paquitos: deep dark framed glass, small red folding chair/low table outside; low menu board by frontage. Central doorway black/glazed with light intercom left. North Banshee curb tree separate from tree before Kikoo. No assigned facade beyond north Banshee party-wall included."
+      ]
+    },
+    "143-detail": {
+      "url": "https://www.google.com/maps/@40.727887,-73.9850623,9a,22y,343h,90t/data=!3m7!1e1!3m5!1skmcfyaVaqkP9ileE8v88vQ!2e0!6shttps:%2F%2Fstreetviewpixels-pa.clients6.google.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D0%26panoid%3DkmcfyaVaqkP9ileE8v88vQ%26yaw%3D343!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI2MTAwNy4wIKXMDSoASAFQAw%3D%3D",
+      "title": "140 1st Ave - Google Maps",
+      "provider": "Google Street View",
+      "captureDate": "2026-04",
+      "inspectionDate": "2026-10-13T01:33:29.575167+00:00",
+      "inspected": true,
+      "observations": [
+        "Paquitos: narrow red rounded condensed uppercase PAQUITOS with thick extruded shadow and a small ochre sombrero/red band centered above Q/U area; long dark gray/olive rigid fascia across south unit. Lower narrow-glazed multi-pane shop, pale gray threshold/stall base, interior chair/counter silhouettes; red metal folding chair beside low blue menu board at right. No exterior dining enclosure/umbrella seen.",
+        "143 central residential entry: dark timber surround, deep narrow glazed leaf with black paneled bottom; pale side/intercom mounting to left and metallic rectangular intercom on side of recess. Current door number not legibly resolved; keep unknown rather than adding universal number strip from old image.",
+        "Banshee: projecting quarter-round canopy, alternating burgundy/ivory longitudinal stripes (~0.11m each visually estimated), short scalloped hem, curved side cheeks and visible dark supports. Dark green/black painted timber frame, left inset entry and right broad pane with white BANSHEE at middle; transom under canopy, lower pane and dark stall base. Circular black Guinness blade above north edge with pale serif lettering, small gold harp graphic and red lower accent. Warm small wall lamp just beyond canopy edge. Pale posted notices on door/pier, exact text unreadable. No Banshee tables established; tree/pedestrians/vehicle obscure lower curb. Source remains April 2026, independent of old Smart Smokers."
+      ]
+    },
+    "141-detail": {
+      "url": "https://www.google.com/maps/@40.727887,-73.9850623,9a,26y,322h,90t/data=!3m7!1e1!3m5!1skmcfyaVaqkP9ileE8v88vQ!2e0!6shttps:%2F%2Fstreetviewpixels-pa.clients6.google.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D0%26panoid%3DkmcfyaVaqkP9ileE8v88vQ%26yaw%3D322!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI2MTAwNy4wIKXMDSoASAFQAw%3D%3D",
+      "title": "140 1st Ave - Google Maps",
+      "provider": "Google Street View",
+      "captureDate": "2026-04",
+      "inspectionDate": "2026-10-13T01:35:18.799604+00:00",
+      "inspected": true,
+      "observations": [
+        "Kikoo close: 141 appears in pale condensed digits on black fascia centered over the separate south residential door/transom. Dark black timber leaf sits back, wide glazed upper part and solid bottom; rounded black light fitting under transom. Shop restaurant glass has brass-gray fine mullions; left entrance then wide window divisions, repeated vertical blue LED tubes, dark chalk/price panel at left, pale aqua/white sushi-photo menu blocks toward middle, small pale chairs at bottom. White irregular Kikoo wordmark incorporates red/yellow sushi bowl dot; lower white strip reads ALL YOU CAN EAT SUSHI SASHIMI. Fine logo stroke and tiny menu text not fully legible through tree.",
+        "SKWR adjacent close confirms fascia uses a thin ochre horizontal skewer behind thick white letters. Purple Open script on upper broad window; narrow left entry with top transom, posted notices; interior warm counter and red/cream package rows rather than opaque generic glass. SUV hides lower pane in this position."
+      ]
+    },
+    "protected-east-return": {
+      "url": "https://www.google.com/maps/@40.727887,-73.9850623,9a,80y,137h,105t/data=!3m7!1e1!3m5!1skmcfyaVaqkP9ileE8v88vQ!2e0!6shttps:%2F%2Fstreetviewpixels-pa.clients6.google.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-15%26panoid%3DkmcfyaVaqkP9ileE8v88vQ%26yaw%3D137!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI2MTAwNy4wIKXMDSoASAFQAw%3D%3D",
+      "title": "140 1st Ave - Google Maps",
+      "provider": "Google Street View",
+      "captureDate": "2026-04",
+      "inspectionDate": "2026-10-13T01:36:53.689751+00:00",
+      "inspected": true,
+      "observations": [
+        "Read-only protected east return context: low three-bay wine-shop frontage between bar and taller red-brick corner frontage; taller corner has dark zigzag escapes, pale ornamental cornice and cream sash/hoods. North-facing party wall is plain pale weathered wall. Keep 248142711:1 and its corner mass untouched; bus obscures lower southern end. Adjacent 138+ east faces remain future P02, not this authoring packet."
+      ]
+    }
+  },
+  "faces": [
+    {
+      "faceId": "241822278:0",
+      "buildingId": 241822278,
+      "address": "137 1st Avenue",
+      "sourceFace": {
+        "x": -14.656,
+        "z": 121.603,
+        "rx": -0.0007541475985147913,
+        "rz": -0.9999997156306595,
+        "length": 9.282,
+        "street": "First Avenue"
+      },
+      "bin": "1077697",
+      "geometryOwner": "P01",
+      "dimensionPolicy": "Mapped frontage/footprint retained; facade heights follow municipal envelope; opening, canopy, trim and furniture dimensions visually estimated, not surveyed.",
+      "evidenceState": "individually inspected sources; authoring and rendered review pending",
+      "numberPlacement": "Small slanted brass digits over recessed black glazed entry; leaf division partly occluded.",
+      "upperWindows": {
+        "rows": 4,
+        "bays": 5
+      },
+      "unknown": [
+        "Exact proprietary letterforms/logo artwork, unseen rear/roof arrangement, interior plans and hidden hardware are not established.",
+        "Fine sign/menu text not readable is represented as non-legible marks, not invented words."
+      ]
+    },
+    {
+      "faceId": "241822337:0",
+      "buildingId": 241822337,
+      "address": "139 1st Avenue",
+      "sourceFace": {
+        "x": -14.663,
+        "z": 112.321,
+        "rx": -0.0012649322276537646,
+        "rz": -0.9999991999729098,
+        "length": 7.115,
+        "street": "First Avenue"
+      },
+      "bin": "1006382",
+      "geometryOwner": "P01",
+      "dimensionPolicy": "Mapped frontage/footprint retained; facade heights follow municipal envelope; opening, canopy, trim and furniture dimensions visually estimated, not surveyed.",
+      "evidenceState": "individually inspected sources; authoring and rendered review pending",
+      "numberPlacement": "Small gold 139 above brown glazed double entrance at south edge.",
+      "upperWindows": {
+        "rows": 4,
+        "bays": 4
+      },
+      "unknown": [
+        "Exact proprietary letterforms/logo artwork, unseen rear/roof arrangement, interior plans and hidden hardware are not established.",
+        "Fine sign/menu text not readable is represented as non-legible marks, not invented words."
+      ]
+    },
+    {
+      "faceId": "241822304:0",
+      "buildingId": 241822304,
+      "address": "141 1st Avenue",
+      "sourceFace": {
+        "x": -14.672,
+        "z": 105.206,
+        "rx": -0.001789439425502915,
+        "rz": -0.9999983989519895,
+        "length": 6.706,
+        "street": "First Avenue"
+      },
+      "bin": "1006381",
+      "geometryOwner": "P01",
+      "dimensionPolicy": "Mapped frontage/footprint retained; facade heights follow municipal envelope; opening, canopy, trim and furniture dimensions visually estimated, not surveyed.",
+      "evidenceState": "individually inspected sources; authoring and rendered review pending",
+      "numberPlacement": "Small pale 141 centered on black fascia over south residential transom.",
+      "upperWindows": {
+        "rows": 4,
+        "bays": 4
+      },
+      "unknown": [
+        "Exact proprietary letterforms/logo artwork, unseen rear/roof arrangement, interior plans and hidden hardware are not established.",
+        "Fine sign/menu text not readable is represented as non-legible marks, not invented words."
+      ]
+    },
+    {
+      "faceId": "241822211:0",
+      "buildingId": 241822211,
+      "address": "143 1st Avenue",
+      "sourceFace": {
+        "x": -14.684,
+        "z": 98.5,
+        "rx": -0.001657227388699549,
+        "rz": -0.9999986267977482,
+        "length": 7.241,
+        "street": "First Avenue"
+      },
+      "bin": "1006380",
+      "geometryOwner": "P01",
+      "dimensionPolicy": "Mapped frontage/footprint retained; facade heights follow municipal envelope; opening, canopy, trim and furniture dimensions visually estimated, not surveyed.",
+      "evidenceState": "individually inspected sources; authoring and rendered review pending",
+      "numberPlacement": "Current residential number illegible; do not invent universal address signage.",
+      "upperWindows": {
+        "rows": 4,
+        "bays": 4
+      },
+      "unknown": [
+        "Exact proprietary letterforms/logo artwork, unseen rear/roof arrangement, interior plans and hidden hardware are not established.",
+        "Fine sign/menu text not readable is represented as non-legible marks, not invented words."
+      ]
+    }
+  ],
+  "supplementaryIdentitySources": [
+    {
+      "url": "https://www.spiralscinnamonrolls.com/",
+      "checked": "2026-10-12",
+      "supports": "137 Spirals address only; no source texture reuse"
+    },
+    {
+      "url": "https://www.kikoosushi.com/",
+      "checked": "2026-10-12",
+      "supports": "141 Kikoo address only"
+    },
+    {
+      "url": "https://www.banshee-nyc.com/",
+      "checked": "2026-10-12",
+      "supports": "143 Banshee address only"
+    },
+    {
+      "url": "https://evgrieve.com/search/label/Banshee",
+      "published": "2025-11-18",
+      "checked": "2026-10-12",
+      "supports": "Opening in part of former Paquitos space; April view resolves coexistence with remaining Paquitos."
+    }
+  ]
+}

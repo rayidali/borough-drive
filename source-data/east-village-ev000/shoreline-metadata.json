@@ -1,0 +1,754 @@
+{
+  "currentVersion": 12,
+  "id": 21,
+  "name": "SHORELINE",
+  "type": "Feature Layer",
+  "serviceItemId": "325214e2452e4fecb9eaddb159a38fa1",
+  "cacheMaxAge": 30,
+  "displayField": "STATUS",
+  "description": "<DIV STYLE=\"text-align:Left;\"><DIV><DIV><P STYLE=\"margin:0 0 7 0;\"><SPAN>This feature class contains shorelines. </SPAN></P><P STYLE=\"margin:0 0 7 0;\"><SPAN /><SPAN /></P><P STYLE=\"margin:0 0 7 0;\"><SPAN>Digital planimetrics are derived using the imagery products delivered with the 2022 New York Statewide Flyover (see Summary for specific flight dates), which includes raw imagery collected to support the generation of 0.5 Ft Ground Sample Distance (GSD) natural color imagery. The images were captured with 80% forward lap and side lap to support 1\u201d=100\u2019 mapping and meet the distortion free requirements within New York City. Planimetrics are developed to meet American Society for Photogrammetry and Remote Sensing (ASPRS) Class 1 (one) horizontal mapping standards and ASPRS vertical Class 2 (two) accuracy specifications. Planimetrics are delivered via an ESRI file geodatabase in New York State Plane Coordinate System, Long Island East Zone, NAD83, US foot (EPSG: 2263).</SPAN></P></DIV></DIV></DIV>",
+  "copyrightText": "The New York City Office of Technology & Innovation funded and coordinated the MYCMap update project. The Sanborn Map Company Inc. produced the data, and CARSI (Center for Advanced Analysis of Spatial Information) at Hunter College managed the project and conducted quality assurance for the data product.",
+  "defaultVisibility": true,
+  "editingInfo": {
+    "lastEditDate": 1757021179063,
+    "schemaLastEditDate": 1705436209494,
+    "dataLastEditDate": 1705436209494
+  },
+  "relationships": [],
+  "isDataVersioned": false,
+  "hasContingentValuesDefinition": false,
+  "supportsAppend": true,
+  "supportsCalculate": true,
+  "supportsASyncCalculate": true,
+  "supportsTruncate": false,
+  "supportsAttachmentsByUploadId": true,
+  "supportsAttachmentsResizing": true,
+  "supportsRollbackOnFailureParameter": true,
+  "supportsStatistics": true,
+  "supportsExceedsLimitStatistics": true,
+  "supportsAdvancedQueries": true,
+  "supportsValidateSql": true,
+  "supportsCoordinatesQuantization": true,
+  "supportsLayerOverrides": true,
+  "supportsTilesAndBasicQueriesMode": true,
+  "supportsFieldDescriptionProperty": true,
+  "supportsQuantizationEditMode": true,
+  "supportsColumnStoreIndex": true,
+  "supportsApplyEditsWithGlobalIds": true,
+  "supportsMultiScaleGeometry": true,
+  "supportsReturningQueryGeometry": true,
+  "enableNullGeometry": false,
+  "hasGeometryProperties": true,
+  "geometryProperties": {
+    "shapeLengthFieldName": "Shape__Length",
+    "units": "esriFeet"
+  },
+  "advancedQueryCapabilities": {
+    "supportsPagination": true,
+    "supportsPaginationOnAggregatedQueries": true,
+    "supportsQueryRelatedPagination": true,
+    "supportsQueryWithDistance": true,
+    "supportsOutDistance": true,
+    "supportsReturningQueryExtent": true,
+    "supportsStatistics": true,
+    "supportsOrderBy": true,
+    "supportsDistinct": true,
+    "supportsQueryWithResultType": true,
+    "supportsSqlExpression": true,
+    "supportsTimeRelation": true,
+    "supportsAdvancedQueryRelated": true,
+    "supportsCountDistinct": true,
+    "supportsPercentileStatistics": true,
+    "supportsApproxPercentileStatistics": true,
+    "supportsSpatialAggregationStatistics": true,
+    "supportsTrueCurve": true,
+    "supportedSpatialAggregationStatistics": [
+      "EnvelopeAggregate",
+      "CentroidAggregate",
+      "ConvexHullAggregate"
+    ],
+    "supportsLod": true,
+    "supportsQueryWithLodSR": false,
+    "supportedLodTypes": [
+      "geohash"
+    ],
+    "supportsReturningGeometryCentroid": false,
+    "supportsReturningGeometryEnvelope": true,
+    "supportsReturningGeometryProperties": true,
+    "supportsQueryWithDatumTransformation": true,
+    "supportsCurrentUserQueries": true,
+    "supportsHavingClause": true,
+    "supportsOutFieldSQLExpression": true,
+    "supportsMaxRecordCountFactor": true,
+    "supportsTopFeaturesQuery": true,
+    "supportsDisjointSpatialRel": true,
+    "supportsQueryWithCacheHint": true,
+    "supportedOperationsWithCacheHint": [
+      "query",
+      "queryTopFilter",
+      "queryAnalytics",
+      "queryAttachments",
+      "queryRelated",
+      "queryBins",
+      "queryPivot"
+    ],
+    "supportsQueryAnalytic": true,
+    "supportsQueryPivot": true,
+    "supportsQueryBins": true,
+    "supportsDefaultSR": true,
+    "supportsTranslations": false,
+    "supportsAggIds": true,
+    "supportsQueryWithCollation": true,
+    "supportsISODOW": true,
+    "supportsISOWeek": true,
+    "supportsFullTextSearch": true,
+    "fullTextSearchCapabilities": {
+      "supportsAccentSensitivity": true,
+      "supportsStopWords": true,
+      "supportsSearchOperator": true,
+      "supportsOperator": true
+    }
+  },
+  "advancedQueryAnalyticCapabilities": {
+    "supportsLinearRegression": true,
+    "supportsTrendlineRegression": true,
+    "supportsAsync": true,
+    "supportsPercentileAnalytic": true
+  },
+  "queryBinsCapabilities": {
+    "supportsAsync": true,
+    "supportsAutoIntervalBin": true,
+    "supportsFixedIntervalBin": true,
+    "supportsFixedBoundariesBin": true,
+    "supportsDateBin": true,
+    "supportsClassificationBin": true,
+    "supportsStackBy": true,
+    "supportsSplitBy": true,
+    "supportsFirstDayOfWeek": true,
+    "supportsSnapToData": true,
+    "supportsReturnFullIntervalBin": true,
+    "supportsReturnStackValueRange": true,
+    "supportsNormalization": true,
+    "supportedStatisticTypes": [
+      "COUNT",
+      "SUM",
+      "AVG",
+      "VAR",
+      "STDDEV",
+      "MIN",
+      "MAX",
+      "PERCENTILE_CONT",
+      "PERCENTILE_DISC",
+      "APPROX_PERCENTILE_CONT",
+      "APPROX_PERCENTILE_DISC",
+      "CentroidAggregate",
+      "EnvelopeAggregate",
+      "ConvexHullAggregate"
+    ],
+    "supportedNormalizationTypes": [
+      "boxCox",
+      "field",
+      "inverse",
+      "log",
+      "naturalLog",
+      "percentOfTotal",
+      "squareRoot"
+    ]
+  },
+  "supportedOperationsWithCollation": "query,addField,updateField",
+  "advancedEditingCapabilities": {
+    "supportedSqlFormatsInCalculate": [
+      "standard"
+    ],
+    "supportsAsyncApplyEdits": true,
+    "supportsReturnEditResults": true,
+    "supportsApplyEditsbyUploadID": true,
+    "supportedApplyEditsUploadIDFormats": "JSON,PBF",
+    "supportsTranslation": false,
+    "supportsMaxTranslations": 10
+  },
+  "infoInEstimates": [
+    "extent",
+    "count"
+  ],
+  "useStandardizedQueries": true,
+  "geometryType": "esriGeometryPolyline",
+  "minScale": 243610,
+  "maxScale": 0,
+  "extent": {
+    "xmin": 913125.3591012508,
+    "ymin": 120012.23017005622,
+    "xmax": 1057524.6077037454,
+    "ymax": 273429.3265504837,
+    "spatialReference": {
+      "wkid": 102718,
+      "latestWkid": 2263
+    }
+  },
+  "spatialReference": {
+    "wkid": 102718,
+    "latestWkid": 2263
+  },
+  "drawingInfo": {
+    "renderer": {
+      "type": "uniqueValue",
+      "field1": "FEATURE_CODE",
+      "defaultSymbol": {
+        "type": "esriSLS",
+        "style": "esriSLSSolid",
+        "color": [
+          130,
+          130,
+          130,
+          255
+        ],
+        "width": 1
+      },
+      "defaultLabel": "<all other values>",
+      "uniqueValueInfos": [
+        {
+          "symbol": {
+            "type": "esriSLS",
+            "style": "esriSLSSolid",
+            "color": [
+              244,
+              252,
+              204,
+              255
+            ],
+            "width": 1
+          },
+          "value": "3900",
+          "label": "Shoreline"
+        }
+      ],
+      "fieldDelimiter": ",",
+      "authoringInfo": {
+        "colorRamp": {
+          "type": "multipart",
+          "colorRamps": [
+            {
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm",
+              "fromColor": [
+                210,
+                252,
+                215,
+                255
+              ],
+              "toColor": [
+                210,
+                252,
+                215,
+                255
+              ]
+            },
+            {
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm",
+              "fromColor": [
+                241,
+                179,
+                252,
+                255
+              ],
+              "toColor": [
+                241,
+                179,
+                252,
+                255
+              ]
+            },
+            {
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm",
+              "fromColor": [
+                252,
+                192,
+                189,
+                255
+              ],
+              "toColor": [
+                252,
+                192,
+                189,
+                255
+              ]
+            },
+            {
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm",
+              "fromColor": [
+                194,
+                221,
+                252,
+                255
+              ],
+              "toColor": [
+                194,
+                221,
+                252,
+                255
+              ]
+            },
+            {
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm",
+              "fromColor": [
+                252,
+                232,
+                182,
+                255
+              ],
+              "toColor": [
+                252,
+                232,
+                182,
+                255
+              ]
+            },
+            {
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm",
+              "fromColor": [
+                252,
+                215,
+                249,
+                255
+              ],
+              "toColor": [
+                252,
+                215,
+                249,
+                255
+              ]
+            },
+            {
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm",
+              "fromColor": [
+                196,
+                192,
+                252,
+                255
+              ],
+              "toColor": [
+                196,
+                192,
+                252,
+                255
+              ]
+            },
+            {
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm",
+              "fromColor": [
+                192,
+                249,
+                252,
+                255
+              ],
+              "toColor": [
+                192,
+                249,
+                252,
+                255
+              ]
+            },
+            {
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm",
+              "fromColor": [
+                226,
+                252,
+                184,
+                255
+              ],
+              "toColor": [
+                226,
+                252,
+                184,
+                255
+              ]
+            },
+            {
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm",
+              "fromColor": [
+                182,
+                252,
+                189,
+                255
+              ],
+              "toColor": [
+                182,
+                252,
+                189,
+                255
+              ]
+            },
+            {
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm",
+              "fromColor": [
+                252,
+                218,
+                197,
+                255
+              ],
+              "toColor": [
+                252,
+                218,
+                197,
+                255
+              ]
+            },
+            {
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm",
+              "fromColor": [
+                252,
+                187,
+                215,
+                255
+              ],
+              "toColor": [
+                252,
+                187,
+                215,
+                255
+              ]
+            },
+            {
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm",
+              "fromColor": [
+                242,
+                252,
+                210,
+                255
+              ],
+              "toColor": [
+                242,
+                252,
+                210,
+                255
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "scaleSymbols": true,
+    "transparency": 0,
+    "labelingInfo": null
+  },
+  "allowGeometryUpdates": true,
+  "trueCurveSupportMode": "OGC",
+  "supportedCurveTypes": [
+    "esriGeometryCircularArc"
+  ],
+  "supportedTrueCurvePbfFeatureEncodings": [
+    "esriCompressedShapeBuffer",
+    "esriDefault"
+  ],
+  "allowTrueCurvesUpdates": true,
+  "onlyAllowTrueCurveUpdatesByTrueCurveClients": false,
+  "hasAttachments": false,
+  "htmlPopupType": "esriServerHTMLPopupTypeAsHTMLText",
+  "hasMetadata": true,
+  "hasM": false,
+  "hasZ": false,
+  "objectIdField": "OBJECTID",
+  "uniqueIdField": {
+    "name": "OBJECTID",
+    "isSystemMaintained": true
+  },
+  "globalIdField": "GlobalID",
+  "typeIdField": "FEATURE_CODE",
+  "collation": {
+    "locale": "neutral",
+    "caseSensitive": false,
+    "accentSensitive": true
+  },
+  "fields": [
+    {
+      "name": "OBJECTID",
+      "type": "esriFieldTypeOID",
+      "alias": "OBJECTID",
+      "sqlType": "sqlTypeOther",
+      "nullable": false,
+      "editable": false,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "SOURCE_ID",
+      "type": "esriFieldTypeDouble",
+      "alias": "SOURCE_ID",
+      "sqlType": "sqlTypeOther",
+      "nullable": false,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "FEATURE_CODE",
+      "type": "esriFieldTypeSmallInteger",
+      "alias": "FEATURE_CODE",
+      "sqlType": "sqlTypeOther",
+      "nullable": false,
+      "editable": true,
+      "domain": {
+        "type": "codedValue",
+        "name": "dShoreline",
+        "mergePolicy": "esriMPTDefaultValue",
+        "splitPolicy": "esriSPTDefaultValue",
+        "description": "Domain for Shoreline",
+        "codedValues": [
+          {
+            "name": "Shoreline",
+            "code": 3900
+          }
+        ]
+      },
+      "defaultValue": 3900
+    },
+    {
+      "name": "SUB_FEATURE_CODE",
+      "type": "esriFieldTypeInteger",
+      "alias": "SUB_FEATURE_CODE",
+      "sqlType": "sqlTypeOther",
+      "nullable": false,
+      "editable": true,
+      "domain": {
+        "type": "codedValue",
+        "name": "dShoreline2",
+        "mergePolicy": "esriMPTDefaultValue",
+        "splitPolicy": "esriSPTDefaultValue",
+        "description": "Domain for Shoreline (sub feature)",
+        "codedValues": [
+          {
+            "name": "Shoreline",
+            "code": 390000
+          }
+        ]
+      },
+      "defaultValue": null
+    },
+    {
+      "name": "STATUS",
+      "type": "esriFieldTypeString",
+      "alias": "STATUS",
+      "sqlType": "sqlTypeOther",
+      "length": 16,
+      "nullable": false,
+      "editable": true,
+      "domain": {
+        "type": "codedValue",
+        "name": "dStatus",
+        "mergePolicy": "esriMPTDefaultValue",
+        "splitPolicy": "esriSPTDuplicate",
+        "description": "Domain for Feature Update Status",
+        "codedValues": [
+          {
+            "name": "Newly collected in 2022",
+            "code": "New"
+          },
+          {
+            "name": "Feature has changed in 2022 collection",
+            "code": "Updated"
+          },
+          {
+            "name": "No change in 2022 collection",
+            "code": "Unchanged"
+          }
+        ]
+      },
+      "defaultValue": null
+    },
+    {
+      "name": "GlobalID",
+      "type": "esriFieldTypeGlobalID",
+      "alias": "GlobalID",
+      "sqlType": "sqlTypeOther",
+      "length": 38,
+      "nullable": false,
+      "editable": false,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "Shape__Length",
+      "type": "esriFieldTypeDouble",
+      "alias": "Shape__Length",
+      "sqlType": "sqlTypeDouble",
+      "nullable": true,
+      "editable": false,
+      "domain": null,
+      "defaultValue": null
+    }
+  ],
+  "indexes": [
+    {
+      "name": "PK__SHORELIN__F4B70D85BF54F903",
+      "fields": "OBJECTID",
+      "isAscending": true,
+      "isUnique": true,
+      "description": "",
+      "indexType": "Attribute"
+    },
+    {
+      "name": "user_78820.SHORELINE_2022_SHORELINE_Shape_sidx",
+      "fields": "SHAPE",
+      "isAscending": true,
+      "isUnique": false,
+      "description": "",
+      "indexType": "Spatial"
+    },
+    {
+      "name": "Shape__Length_Index",
+      "fields": "Shape__Length",
+      "isAscending": true,
+      "isUnique": false,
+      "description": "",
+      "indexType": "Attribute"
+    },
+    {
+      "name": "GlobalID_idx",
+      "fields": "GlobalID",
+      "isAscending": true,
+      "isUnique": true,
+      "description": "",
+      "indexType": "Attribute"
+    }
+  ],
+  "dateFieldsTimeReference": {
+    "timeZone": "UTC",
+    "timeZoneIANA": "Etc/UTC",
+    "respectsDaylightSaving": false
+  },
+  "preferredTimeReference": null,
+  "types": [
+    {
+      "id": 3900,
+      "name": "Shoreline",
+      "domains": {
+        "FEATURE_CODE": {
+          "type": "inherited"
+        },
+        "SUB_FEATURE_CODE": {
+          "type": "inherited"
+        },
+        "STATUS": {
+          "type": "inherited"
+        }
+      },
+      "templates": [
+        {
+          "name": "Shoreline",
+          "description": "",
+          "drawingTool": "esriFeatureEditToolLine",
+          "prototype": {
+            "attributes": {
+              "SOURCE_ID": 0,
+              "STATUS": " ",
+              "FEATURE_CODE": 3900,
+              "SUB_FEATURE_CODE": 0
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "templates": [],
+  "supportedQueryFormats": "JSON, geoJSON, PBF",
+  "supportedAppendFormats": "sqlite,geoPackage,shapefile,filegdb,featureCollection,geojson,csv,excel,jsonl,featureService,pbf",
+  "supportedAppendSourceFilterFormats": "sqlite,geoPackage,shapefile,filegdb,featureService",
+  "supportedExportFormats": "csv,shapefile,sqlite,geoPackage,filegdb,featureCollection,geojson,kml,excel,parquet",
+  "supportedConvertFileFormats": "JSON,PBF,Parquet",
+  "supportedConvertContentFormats": "LayerEditCollection,FeatureCollection",
+  "supportedSpatialRelationships": [
+    "esriSpatialRelIntersects",
+    "esriSpatialRelContains",
+    "esriSpatialRelCrosses",
+    "esriSpatialRelEnvelopeIntersects",
+    "esriSpatialRelIndexIntersects",
+    "esriSpatialRelOverlaps",
+    "esriSpatialRelTouches",
+    "esriSpatialRelWithin",
+    "esriSpatialRelDisjoint",
+    "esriSpatialRelRelation"
+  ],
+  "guidFormat": "",
+  "supportsContingentValues": true,
+  "supportsEditingContingentValues": true,
+  "supportedContingentValuesFormats": "JSON, PBF",
+  "supportsFieldGroups": true,
+  "supportedSyncDataOptions": 260,
+  "hasStaticData": false,
+  "maxRecordCount": 2000,
+  "standardMaxRecordCount": 2000,
+  "maxIdsCount": 1000000,
+  "standardMaxRecordCountNoGeometry": 32000,
+  "tileMaxRecordCount": 4000,
+  "maxRecordCountFactor": 1,
+  "capabilities": "Query,Extract,Sync",
+  "subtypeField": "FEATURE_CODE",
+  "defaultSubtypeCode": 3900,
+  "subtypes": [
+    {
+      "code": 3900,
+      "name": "Shoreline",
+      "defaultValues": {
+        "SOURCE_ID": null,
+        "FEATURE_CODE": 3900,
+        "SUB_FEATURE_CODE": null,
+        "STATUS": null
+      },
+      "domains": {
+        "FEATURE_CODE": {
+          "type": "codedValue",
+          "name": "dShoreline",
+          "description": "Domain for Shoreline",
+          "codedValues": [
+            {
+              "name": "Shoreline",
+              "code": 3900
+            }
+          ]
+        },
+        "SUB_FEATURE_CODE": {
+          "type": "codedValue",
+          "name": "dShoreline2",
+          "description": "Domain for Shoreline (sub feature)",
+          "codedValues": [
+            {
+              "name": "Shoreline",
+              "code": 390000
+            }
+          ]
+        },
+        "STATUS": {
+          "type": "codedValue",
+          "name": "dStatus",
+          "description": "Domain for Feature Update Status",
+          "codedValues": [
+            {
+              "name": "Newly collected in 2022",
+              "code": "New"
+            },
+            {
+              "name": "Feature has changed in 2022 collection",
+              "code": "Updated"
+            },
+            {
+              "name": "No change in 2022 collection",
+              "code": "Unchanged"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

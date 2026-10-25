@@ -1,0 +1,88 @@
+{
+  "id": "P01",
+  "parent": "01-FA08W",
+  "started": "2026-10-13T01:10:19.989151+00:00",
+  "state": "complete locally",
+  "scope": [
+    "241822278:0",
+    "241822337:0",
+    "241822304:0",
+    "241822211:0"
+  ],
+  "publication": "not requested",
+  "baselinePack": {
+    "bytes": 7982220,
+    "sha256": "aee35948c9ea850031aa959d2cc561d40cccef819680cf5935943c57660b33da",
+    "brotliBytes": 7386163
+  },
+  "trials": [
+    {
+      "id": "blender-01",
+      "result": "sandbox Metal startup crash before script; retry with normal local graphics access succeeded"
+    },
+    {
+      "id": "blender-02",
+      "result": "207 buildings exported; four new P01 facades"
+    },
+    {
+      "id": "build-01",
+      "result": "Godot JSON float/integer array strict-equality assertion; normalize IDs to integers in packaging validation"
+    },
+    {
+      "id": "build-02",
+      "result": "226 runtime files, 207 models; all 203 protected GLBs and compiled scene hashes pass"
+    },
+    {
+      "id": "review-01",
+      "result": "36 views captured; close review found small Spirals wordmark, red burger palette, generic menu boards and open-door mismatch; refined"
+    },
+    {
+      "id": "review-02",
+      "result": "21 business views and two elevations inspected so far; fixed open-entry floating handle and board front depth in a third pass"
+    },
+    {
+      "id": "blender-04",
+      "result": "Local edit introduced syntax error before export; repaired and py_compile passed before retry"
+    },
+    {
+      "id": "routes-01",
+      "result": "Full-speed braking at z=-133 made contact with nearby terminal; retained as failed trial; separating safe-braking travel from deliberate boundary contact tests"
+    },
+    {
+      "id": "routes-02/03",
+      "result": "Four travel legs passed. Deliberate barrier test used impact counter incorrectly: low-speed collision resolves without increment; retain failed assertions. New test requires motion toward barrier followed by stable endpoint under held throttle."
+    },
+    {
+      "id": "build-04",
+      "result": "Final visual-fix package exported; PCK 74781b228c0263092cb1819e1dc57c7f95523e7b54802386d17d594e2ff41527; 203 original GLB/scene hashes unchanged"
+    },
+    {
+      "id": "routes-04",
+      "result": "All four routes and four held-throttle boundaries passed; camera harness wrongly required cockpit camera position to change when look changes direction. Corrected to compare whole camera pose."
+    },
+    {
+      "id": "final",
+      "result": "Final routes/cameras, 36 views, ten startups, 17 address cases and required preservation/verification pass; actual image review in visual-review.json."
+    },
+    {
+      "id": "route-visual",
+      "result": "Eight final-route screenshots inspected. Found new terminal label facing away from driver; rotate that label only. All architecture/collision/controls remain identical; recapture label on rebuilt pack, retain exact pre-label timings."
+    },
+    {
+      "id": "build-05/terminal-final",
+      "result": "Only new terminal-label rotation changed. Final label inspected and required verifies pass. All 207 scene hashes/area manifest match prior reviewed/timed build."
+    },
+    {
+      "id": "final-local-verification",
+      "result": "Final package hashes verified on /, /seventh/, /index.html and PCK. Skill/diff checks pass. Reference tab closed; current preview server remains on localhost:5181."
+    }
+  ],
+  "completed": "2026-10-13T02:28:18.022298+00:00",
+  "elapsedMinutes": 78.0,
+  "finalPack": {
+    "bytes": 7991408,
+    "sha256": "d79b539d31a624ba19f32fdcd86f02888f16d54989abd99e4d6733c913145656",
+    "brotliBytes": 7388857
+  },
+  "nextSession": "P02 on next user instruction"
+}

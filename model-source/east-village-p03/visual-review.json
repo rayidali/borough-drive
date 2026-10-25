@@ -1,0 +1,333 @@
+{
+  "recorded": "2026-10-14T01:34:56.964064+00:00",
+  "reviewer": "primary assistant; no independent second reviewer",
+  "method": "All 35 final detail images and 18 final gameplay images opened and inspected, alongside previously inspected dated browser references. Working-standard comparison, not calibrated image registration.",
+  "build": {
+    "builtAt": "2026-10-14T01:13:30.064Z",
+    "pack": {
+      "bytes": 8014524,
+      "sha256": "509239e48e6fb2928e308a31f11d801821c83298331ce3c51e4809011617cb4c",
+      "brotliBytes": 7401135
+    },
+    "areaRelease": "6073c8c549739bfda1f4009492924da2007ff20ed94e8d51a7c9b4eb19ffae5d"
+  },
+  "state": "reviewed local candidate; awaits user review",
+  "sourceLedger": "observations.json",
+  "detailViews": [
+    {
+      "name": "241822237-1-elevation",
+      "sha256": "5c1e7a1f4ea924caecf45cff34c5eadfa97cd19deb016d779ee7c1367c79b395",
+      "inspected": true
+    },
+    {
+      "name": "241822237-1-ground-south",
+      "sha256": "da066084909979d95937f3903b7fcd82d05bb786ffaa66b3183974c65629adcb",
+      "inspected": true
+    },
+    {
+      "name": "241822237-1-ground-north",
+      "sha256": "f13b05075f8c2f93f454975612969073ad53d37ca9a120237689aa7fa07f600c",
+      "inspected": true
+    },
+    {
+      "name": "241822237-0-elevation",
+      "sha256": "2418d01b24fba7272cf1d13d75ae6428ddae9e254036d31335195aba8eff25b8",
+      "inspected": true
+    },
+    {
+      "name": "241822237-0-ground-east",
+      "sha256": "b8e49c784dd8810d7d7860ef80c6f6d21ff3b0debb934bf68f4b5becb5a67134",
+      "inspected": true
+    },
+    {
+      "name": "241822237-0-ground-middle",
+      "sha256": "1efb23c1a04291929713b699ed1eed40ec3323033ee54f47d59990fd53f0c766",
+      "inspected": true
+    },
+    {
+      "name": "241822237-0-ground-west",
+      "sha256": "26cc08daab0fa2ecea0f7f838b2790076db94afece99991e016f1a7bc8184ea5",
+      "inspected": true
+    },
+    {
+      "name": "protected-stmarks83",
+      "sha256": "6f721c2f5159dacab2c8764e04580826f100ef40829feb35c4491e4bad4e084e",
+      "inspected": true
+    },
+    {
+      "name": "protected-first143",
+      "sha256": "2329ea8c9e38f0c6e3a7bec68353dace50a58a0344a7357a497be8ca28fe1b7b",
+      "inspected": true
+    },
+    {
+      "name": "protected-first148",
+      "sha256": "8004d86c2df575050ce96a73b8262a5e92cde7e75425176633b4ee4c492b478c",
+      "inspected": true
+    },
+    {
+      "name": "protected-first134",
+      "sha256": "c690e3ca1bd28b1172b9e9b36a010cdea40097167e1ccd574c3ee6bd29f779e0",
+      "inspected": true
+    },
+    {
+      "name": "protected-tilebar",
+      "sha256": "becdf0bd77e60323720b84b3dd67369782856226ee0354c65895a5fdf16f1038",
+      "inspected": true
+    },
+    {
+      "name": "241822237-1-0-0-front",
+      "sha256": "c608bdf2db11dd982a3198c71afb902520d198b922d44d421954a8a05a223cdc",
+      "inspected": true
+    },
+    {
+      "name": "241822237-1-0-0-left",
+      "sha256": "24398ebfbc9c42198804969fc647fe761f58920e85e3d8337f715be68fbeeeca",
+      "inspected": true
+    },
+    {
+      "name": "241822237-1-0-0-right",
+      "sha256": "e2a8a65af6e0ea4b44c3d4ad687c86967420a491f8abac1f1f0673fa5285d72f",
+      "inspected": true
+    },
+    {
+      "name": "241822237-1-mass-north",
+      "sha256": "ba2aced9460ae6eb0f9feea54edf54e6b5109f9ddaf7b7312508bffb413ed0f2",
+      "inspected": true
+    },
+    {
+      "name": "241822237-1-mass-south",
+      "sha256": "3113b75ce786b0b742fc53792ea1d55521af406966fa7a238fa71bb1f49afac5",
+      "inspected": true
+    },
+    {
+      "name": "241822237-1-1-0-front",
+      "sha256": "781adb044249e2fcde22570b5e9a8fc57f1e025526fae568071e3df3d96c1a79",
+      "inspected": true
+    },
+    {
+      "name": "241822237-1-1-0-left",
+      "sha256": "065639877c0284a8f33c45ff5d2945e4e21c5cbee6a77e185aac7b64561a17de",
+      "inspected": true
+    },
+    {
+      "name": "241822237-1-1-0-right",
+      "sha256": "fb0322665e4af572eebdfccab0ee49698242b77fcd91f5beb79fe4ef2f849669",
+      "inspected": true
+    },
+    {
+      "name": "241822237-0-0-0-front",
+      "sha256": "b168bcd6c212cea548f1592aaa2cac2d0f7ccce5894c47afc07f2c5d5b58f057",
+      "inspected": true
+    },
+    {
+      "name": "241822237-0-0-0-left",
+      "sha256": "30e0eb6d27ac41317940258bd8a95bfa5fa3fded4f5569e69b19c966fbf0f43b",
+      "inspected": true
+    },
+    {
+      "name": "241822237-0-0-0-right",
+      "sha256": "ad01dee3e0b36f7da5bf8ea6a6a86aca8abcb1f88fc306aa3f9914e5183e1eef",
+      "inspected": true
+    },
+    {
+      "name": "241822237-0-0-1-front",
+      "sha256": "a20bec9608936addf305be196d9652387ad6568bb5eb5d748809c11202b4b880",
+      "inspected": true
+    },
+    {
+      "name": "241822237-0-0-1-left",
+      "sha256": "c58666810ef435ed6baa2377057342d7bf3d19553b4595bbe6584bae594e473d",
+      "inspected": true
+    },
+    {
+      "name": "241822237-0-0-1-right",
+      "sha256": "f8edc549de0267d376c2750189b06997d5e07a66742521652cce9fc5db714bb6",
+      "inspected": true
+    },
+    {
+      "name": "241822237-0-shop-complete",
+      "sha256": "708d8c5b78589d0cf3a4c99effd3b3ee07862f015b92e8f9abe932291d43427f",
+      "inspected": true
+    },
+    {
+      "name": "241822237-0-mass-north",
+      "sha256": "0139347956b9bb324bf53b0928a15bcdb2b20b826fa146728d0d9959c0a1ea0f",
+      "inspected": true
+    },
+    {
+      "name": "241822237-0-mass-south",
+      "sha256": "15992ef3c07888e574787fcab48a2ed6a90f825f389c7af3ec4afa319b523654",
+      "inspected": true
+    },
+    {
+      "name": "corner-join",
+      "sha256": "f4dac391051c212fab35ae62674e2fef6f28e88366bf3f80b73f1910bc73c9f3",
+      "inspected": true
+    },
+    {
+      "name": "ninth-entry-352",
+      "sha256": "59f081147f76db96149c8e3735e4d0112a2ae4bb0aece96d3ef483fac0cb9a23",
+      "inspected": true
+    },
+    {
+      "name": "ninth-service-mural",
+      "sha256": "8c7a576359702764d19a8a36a026b415b4a072c2eceefa84321c694c0951c807",
+      "inspected": true
+    },
+    {
+      "name": "block-weather-0",
+      "sha256": "f7f6704239eecc8312618aa7784ea3af400a7e188cac515eea4d2c6774d785a9",
+      "inspected": true
+    },
+    {
+      "name": "block-weather-1",
+      "sha256": "f113b53f3be98927409b6c6ba5573f59c6fc9953e5fce4dd49358593ad1f06a7",
+      "inspected": true
+    },
+    {
+      "name": "block-weather-2",
+      "sha256": "56c3081f3b9a82639e6e74c4e3dc26e2ee21f95e41ec6acbcabf77f9f2b145e7",
+      "inspected": true
+    }
+  ],
+  "gameplayViews": [
+    {
+      "name": "first-north",
+      "sha256": "bd46eddd381d7023a04246858a2192b1b79b5a478aa2420c007d458a4e737879",
+      "inspected": true
+    },
+    {
+      "name": "first-south",
+      "sha256": "afa72be8158b9a29d15ef69a5d6fd8b62d23e2f0b9e5fda4a032d1f0af6ddd31",
+      "inspected": true
+    },
+    {
+      "name": "west-lane-north",
+      "sha256": "4a984f62ffcf2ba885174f6f10cfe5dfbd97d50940ea1d6bb818d3b43d4963a9",
+      "inspected": true
+    },
+    {
+      "name": "east-lane-south",
+      "sha256": "fd81c496edb958406fb6153bfe38bf73b224859acb1b3bb17d93f97c0e6a406b",
+      "inspected": true
+    },
+    {
+      "name": "ninth-west",
+      "sha256": "2443e8d8345431f04c74990c0f47af53324561ad9ffaea4118a243609ebfbd6e",
+      "inspected": true
+    },
+    {
+      "name": "ninth-east",
+      "sha256": "b1a9baa32942f272484906231e793825c40af05676738f9430e99a61e84b1d06",
+      "inspected": true
+    },
+    {
+      "name": "first-terminal",
+      "sha256": "02676a92fb9ae8b8d18bd27ded98b0638fe6dba46c93b6d4a45d680635345356",
+      "inspected": true
+    },
+    {
+      "name": "second-still-closed",
+      "sha256": "040c870d0cb1e819644791e30ce779322caf9acca173d824b79463c4a235cc1a",
+      "inspected": true
+    },
+    {
+      "name": "avenue-a-still-closed",
+      "sha256": "1bb9d5e8ea2981374f91b2146ffba62381433e07f75c1756042be1392c14ed95",
+      "inspected": true
+    },
+    {
+      "name": "ninth-west-terminal",
+      "sha256": "1599e17bfd8a73152db203e1a6a518d24f3d1aea25dbfabfb364658883630004",
+      "inspected": true
+    },
+    {
+      "name": "east-ninth-closed-at-curb",
+      "sha256": "ad885ae8d238a7d91ecaf0ee06891dcb43e10cd2b37ceafb8c0f31a199532a32",
+      "inspected": true
+    },
+    {
+      "name": "west-ninth-outer",
+      "sha256": "226ad8905232a813aba4e22e5ffcc7729431557b1c562be93026e0b0ce333d1d",
+      "inspected": true
+    },
+    {
+      "name": "north-ninth-outer",
+      "sha256": "6168db9498175e200e19f74714aa85d4a5c2db1273a3092446f9045d5530f706",
+      "inspected": true
+    },
+    {
+      "name": "north-camera-0",
+      "sha256": "a2fb85da8c486faad66c77758400b586e5a718f6445506ef70597b0fcddcd937",
+      "inspected": true
+    },
+    {
+      "name": "north-camera-1",
+      "sha256": "7a939bfabc6288df8b5a3cbcd2dcca05a58f41b185136d7e64e65196c7167932",
+      "inspected": true
+    },
+    {
+      "name": "north-camera-2",
+      "sha256": "44d5212701d0fa8a61f9bc3fe2caaaafb8156e8961d878f13f508abfbe6004b5",
+      "inspected": true
+    },
+    {
+      "name": "north-camera-3",
+      "sha256": "d96d5d863e47a22c824d48dd62024ce2ccc61d57e4610f3a05de01fecf9047e1",
+      "inspected": true
+    },
+    {
+      "name": "reset-seventh",
+      "sha256": "94d28ee36714af713848c4c0d97422146e323902971b47090afc25a2f97ab4bf",
+      "inspected": true
+    }
+  ],
+  "faceReview": [
+    {
+      "faceId": "241822237:1",
+      "state": "reviewed",
+      "findings": "16 upper openings; lower curved pediments and higher rectangular heads; red brick, continuous green cornice and separate stone sills. No First-facing escape. Touching 143 join retains its own escape and cornice."
+    },
+    {
+      "faceId": "241822237:0",
+      "state": "reviewed",
+      "findings": "10 upper openings including two small low west windows, large blank brick fields and one small escape landing/drop. Unequal ground zones, separate 352 right-jamb number/transom/intercom/step; wrap ends at mapped west boundary."
+    }
+  ],
+  "businessReview": [
+    {
+      "business": "Baji Baji",
+      "faceIds": [
+        "241822237:1"
+      ],
+      "state": "reviewed",
+      "findings": "Dark wood fascia, boxed two-line lettering at right, separate 145 and phone, yellow circular window graphic, recessed right door and layered small stickers; no invented awning or outdoor seating."
+    },
+    {
+      "business": "East Village Pizza",
+      "faceIds": [
+        "241822237:1",
+        "241822237:0"
+      ],
+      "state": "reviewed",
+      "findings": "Separate fixed fascias and projected green shades; gooseneck lights, First neon/display case/trays, corner glazed entrance and painted pier. Ninth three bays, distinct neon/heart art, skyline riser, wood standing tables and backless stools; service mural/vent and eight different slice motifs."
+    }
+  ],
+  "junctionReview": "143 is touching with a slight plane difference, not an alley. West Ninth neighbor 241822239 remains deferred; photographed recessed neighbor wall is recorded without inventing a through-gap or authoring the unassigned building. No 148 Ninth-face detail added.",
+  "repairs": [
+    "Awning text advanced beyond shade face",
+    "Shared corner room shell prevents return wall sealing First doorway",
+    "Lower First sills/pediments separated from fascias",
+    "Horizontal pizza trays and layered display cues",
+    "352 text moved to visible jamb, entry railing shortened",
+    "Service mural lettering separated from vent and slice motifs differentiated",
+    "Street label readable from both sides"
+  ],
+  "limits": [
+    "Mixed 2024 primary shop views, April 2026 context and older 2017 unobstructed Ninth architecture; not an October 2026 occupancy survey.",
+    "Fonts, tiny decals, murals, dimensions and shallow interior display cues remain approximations; no calibrated 1:1 or numerical fidelity multiplier claim.",
+    "Roof/rear and unobserved interior plan not invented.",
+    "Some obliques have tree/pole occlusion; overlapping front and opposite-oblique views supply coverage. The extra Ninth shop-complete diagnostic is cropped and is not sole coverage.",
+    "Trial review folders are superseded; first trials duplicated two mass-view names, corrected before final 35 unique captures."
+  ]
+}

@@ -1,0 +1,1422 @@
+[
+  {
+    "id": "P01",
+    "parent": "01-FA08W",
+    "faces": [
+      {
+        "faceId": "241822278:0",
+        "buildingId": 241822278,
+        "address": "137 1st Avenue",
+        "sourceFace": {
+          "x": -14.656,
+          "z": 121.603,
+          "rx": -0.0007541475985147913,
+          "rz": -0.9999997156306595,
+          "length": 9.282,
+          "street": "First Avenue"
+        },
+        "bin": "1077697",
+        "municipalReferences": [
+          {
+            "bin": "1077697",
+            "doittId": 235040,
+            "bbl": "1004500033",
+            "matchBasis": "BIN"
+          }
+        ],
+        "geometryOwner": "P01",
+        "evidenceState": "needs dated property/business inspection"
+      },
+      {
+        "faceId": "241822337:0",
+        "buildingId": 241822337,
+        "address": "139 1st Avenue",
+        "sourceFace": {
+          "x": -14.663,
+          "z": 112.321,
+          "rx": -0.0012649322276537646,
+          "rz": -0.9999991999729098,
+          "length": 7.115,
+          "street": "First Avenue"
+        },
+        "bin": "1006382",
+        "municipalReferences": [
+          {
+            "bin": "1006382",
+            "doittId": 830030,
+            "bbl": "1004500032",
+            "matchBasis": "BIN"
+          }
+        ],
+        "geometryOwner": "P01",
+        "evidenceState": "needs dated property/business inspection"
+      },
+      {
+        "faceId": "241822304:0",
+        "buildingId": 241822304,
+        "address": "141 1st Avenue",
+        "sourceFace": {
+          "x": -14.672,
+          "z": 105.206,
+          "rx": -0.001789439425502915,
+          "rz": -0.9999983989519895,
+          "length": 6.706,
+          "street": "First Avenue"
+        },
+        "bin": "1006381",
+        "municipalReferences": [
+          {
+            "bin": "1006381",
+            "doittId": 757571,
+            "bbl": "1004500031",
+            "matchBasis": "BIN"
+          }
+        ],
+        "geometryOwner": "P01",
+        "evidenceState": "needs dated property/business inspection"
+      },
+      {
+        "faceId": "241822211:0",
+        "buildingId": 241822211,
+        "address": "143 1st Avenue",
+        "sourceFace": {
+          "x": -14.684,
+          "z": 98.5,
+          "rx": -0.001657227388699549,
+          "rz": -0.9999986267977482,
+          "length": 7.241,
+          "street": "First Avenue"
+        },
+        "bin": "1006380",
+        "municipalReferences": [
+          {
+            "bin": "1006380",
+            "doittId": 637700,
+            "bbl": "1004500030",
+            "matchBasis": "BIN"
+          }
+        ],
+        "geometryOwner": "P01",
+        "evidenceState": "needs dated property/business inspection"
+      }
+    ],
+    "allowlistState": "exact legacy face records; future engine file allowlist must be established by EV-001/packet start",
+    "massAndRoofOwners": [
+      241822211,
+      241822278,
+      241822304,
+      241822337
+    ],
+    "editState": "not started"
+  },
+  {
+    "id": "P02",
+    "parent": "01-FA08E",
+    "faces": [
+      {
+        "faceId": "248142657:0",
+        "buildingId": 248142657,
+        "address": "138 1st Avenue",
+        "sourceFace": {
+          "x": 15.086,
+          "z": 112.426,
+          "rx": 0.003627944462027151,
+          "rz": 0.9999934189878353,
+          "length": 6.064,
+          "street": "First Avenue"
+        },
+        "bin": "1005858",
+        "municipalReferences": [
+          {
+            "bin": "1005858",
+            "doittId": 349695,
+            "bbl": "1004360001",
+            "matchBasis": "BIN"
+          }
+        ],
+        "geometryOwner": "P02",
+        "evidenceState": "needs dated property/business inspection"
+      },
+      {
+        "faceId": "248142658:0",
+        "buildingId": 248142658,
+        "address": "140 1st Avenue",
+        "sourceFace": {
+          "x": 15.066,
+          "z": 106.782,
+          "rx": 0.0035435638609420624,
+          "rz": 0.9999937215578724,
+          "length": 5.644,
+          "street": "First Avenue"
+        },
+        "bin": "1005859",
+        "municipalReferences": [
+          {
+            "bin": "1005859",
+            "doittId": 239209,
+            "bbl": "1004360002",
+            "matchBasis": "BIN"
+          }
+        ],
+        "geometryOwner": "P02",
+        "evidenceState": "needs dated property/business inspection"
+      },
+      {
+        "faceId": "248142659:0",
+        "buildingId": 248142659,
+        "address": "142 1st Avenue",
+        "sourceFace": {
+          "x": 15.042,
+          "z": 100.109,
+          "rx": 0.003596559984500865,
+          "rz": 0.9999935323572237,
+          "length": 6.673,
+          "street": "First Avenue"
+        },
+        "bin": "1005860",
+        "municipalReferences": [
+          {
+            "bin": "1005860",
+            "doittId": 630226,
+            "bbl": "1004360003",
+            "matchBasis": "BIN"
+          }
+        ],
+        "geometryOwner": "P02",
+        "evidenceState": "needs dated property/business inspection"
+      },
+      {
+        "faceId": "248142660:0",
+        "buildingId": 248142660,
+        "address": "144 1st Avenue",
+        "sourceFace": {
+          "x": 15.028,
+          "z": 93.888,
+          "rx": 0.0022504363524687428,
+          "rz": 0.9999974677649056,
+          "length": 6.221,
+          "street": "First Avenue"
+        },
+        "bin": "1005861",
+        "municipalReferences": [
+          {
+            "bin": "1005861",
+            "doittId": 157117,
+            "bbl": "1004360004",
+            "matchBasis": "BIN"
+          }
+        ],
+        "geometryOwner": "P02",
+        "evidenceState": "needs dated property/business inspection"
+      },
+      {
+        "faceId": "248142713:0",
+        "buildingId": 248142713,
+        "address": "148 1st Avenue",
+        "sourceFace": {
+          "x": 15.502,
+          "z": 83.613,
+          "rx": 0.002822373186940047,
+          "rz": 0.999996017096865,
+          "length": 10.275,
+          "street": "First Avenue"
+        },
+        "bin": "1005862",
+        "municipalReferences": [
+          {
+            "bin": "1005862",
+            "doittId": 502574,
+            "bbl": "1004360005",
+            "matchBasis": "BIN"
+          }
+        ],
+        "geometryOwner": "P02",
+        "evidenceState": "needs dated property/business inspection"
+      }
+    ],
+    "allowlistState": "exact legacy face records; future engine file allowlist must be established by EV-001/packet start",
+    "massAndRoofOwners": [
+      248142657,
+      248142658,
+      248142659,
+      248142660,
+      248142713
+    ],
+    "editState": "not started"
+  },
+  {
+    "id": "P03",
+    "parent": "01-FA08W",
+    "faces": [
+      {
+        "faceId": "241822237:1",
+        "buildingId": 241822237,
+        "address": "145 1st Avenue",
+        "sourceFace": {
+          "x": -14.696,
+          "z": 91.259,
+          "rx": 0.0,
+          "rz": -1.0,
+          "length": 7.553,
+          "street": "First Avenue"
+        },
+        "bin": "1079781",
+        "municipalReferences": [
+          {
+            "bin": "1079781",
+            "doittId": 829284,
+            "bbl": "1004500029",
+            "matchBasis": "BIN"
+          }
+        ],
+        "geometryOwner": "P03",
+        "evidenceState": "needs dated property/business inspection"
+      },
+      {
+        "faceId": "241822237:0",
+        "buildingId": 241822237,
+        "address": "145 1st Avenue",
+        "sourceFace": {
+          "x": -14.696,
+          "z": 83.706,
+          "rx": -0.9999995028382332,
+          "rz": 0.0009971576036675815,
+          "length": 20.057,
+          "street": "East 9th Street"
+        },
+        "bin": "1079781",
+        "municipalReferences": [
+          {
+            "bin": "1079781",
+            "doittId": 829284,
+            "bbl": "1004500029",
+            "matchBasis": "BIN"
+          }
+        ],
+        "geometryOwner": "P03",
+        "evidenceState": "needs dated property/business inspection"
+      }
+    ],
+    "allowlistState": "exact legacy face records; future engine file allowlist must be established by EV-001/packet start",
+    "massAndRoofOwners": [
+      241822237
+    ],
+    "editState": "not started"
+  },
+  {
+    "id": "01-E09-21-N01",
+    "parent": "01-E09-21",
+    "faces": [
+      {
+        "faceId": "247852691:1",
+        "buildingId": 247852691,
+        "address": "147 1st Avenue",
+        "sourceFace": {
+          "x": -36.772,
+          "z": 65.323,
+          "rx": 0.9999966211274229,
+          "rz": -0.0025995641436790027,
+          "length": 21.542,
+          "street": "East 9th Street"
+        },
+        "bin": "1079106;1079788",
+        "municipalReferences": [
+          {
+            "bin": "1079788",
+            "doittId": 303537,
+            "bbl": "1004510039",
+            "matchBasis": "Footprint overlap"
+          },
+          {
+            "bin": "1079106",
+            "doittId": 359351,
+            "bbl": "1004510039",
+            "matchBasis": "Footprint overlap"
+          }
+        ],
+        "geometryOwner": "01-E09-21-N01",
+        "evidenceState": "needs dated property/business inspection"
+      },
+      {
+        "faceId": "247852690:0",
+        "buildingId": 247852690,
+        "address": "345 East 9th Street",
+        "sourceFace": {
+          "x": -45.522,
+          "z": 65.349,
+          "rx": 0.9999955853353565,
+          "rz": -0.0029714154535691118,
+          "length": 8.75,
+          "street": "East 9th Street"
+        },
+        "bin": "1079787",
+        "municipalReferences": [
+          {
+            "bin": "1079787",
+            "doittId": 819041,
+            "bbl": "1004510139",
+            "matchBasis": "BIN"
+          }
+        ],
+        "geometryOwner": "01-E09-21-N01",
+        "evidenceState": "needs dated property/business inspection"
+      },
+      {
+        "faceId": "247852697:0",
+        "buildingId": 247852697,
+        "address": "343 East 9th Street",
+        "sourceFace": {
+          "x": -53.13,
+          "z": 65.363,
+          "rx": 0.9999983068947168,
+          "rz": -0.0018401651283546034,
+          "length": 7.608,
+          "street": "East 9th Street"
+        },
+        "bin": "1082724",
+        "municipalReferences": [
+          {
+            "bin": "1082724",
+            "doittId": 830598,
+            "bbl": "1004510040",
+            "matchBasis": "BIN"
+          }
+        ],
+        "geometryOwner": "01-E09-21-N01",
+        "evidenceState": "needs dated property/business inspection"
+      },
+      {
+        "faceId": "247852689:0",
+        "buildingId": 247852689,
+        "address": "341 East 9th Street",
+        "sourceFace": {
+          "x": -60.488,
+          "z": 65.392,
+          "rx": 0.9999922332133847,
+          "rz": -0.003941257782438778,
+          "length": 7.358,
+          "street": "East 9th Street"
+        },
+        "bin": "1006418",
+        "municipalReferences": [
+          {
+            "bin": "1006418",
+            "doittId": 630928,
+            "bbl": "1004510041",
+            "matchBasis": "BIN"
+          }
+        ],
+        "geometryOwner": "01-E09-21-N01",
+        "evidenceState": "needs dated property/business inspection"
+      },
+      {
+        "faceId": "247852687:0",
+        "buildingId": 247852687,
+        "address": "339 East 9th Street",
+        "sourceFace": {
+          "x": -68.402,
+          "z": 65.411,
+          "rx": 0.999997118071267,
+          "rz": -0.0024008017744957706,
+          "length": 7.914,
+          "street": "East 9th Street"
+        },
+        "bin": "1006419",
+        "municipalReferences": [
+          {
+            "bin": "1006419",
+            "doittId": 341831,
+            "bbl": "1004510042",
+            "matchBasis": "BIN"
+          }
+        ],
+        "geometryOwner": "01-E09-21-N01",
+        "evidenceState": "needs dated property/business inspection"
+      },
+      {
+        "faceId": "247852686:0",
+        "buildingId": 247852686,
+        "address": "337 East 9th Street",
+        "sourceFace": {
+          "x": -75.942,
+          "z": 65.425,
+          "rx": 0.9999982762183193,
+          "rz": -0.0018567607250732463,
+          "length": 7.54,
+          "street": "East 9th Street"
+        },
+        "bin": "1006420",
+        "municipalReferences": [
+          {
+            "bin": "1006420",
+            "doittId": 664659,
+            "bbl": "1004510043",
+            "matchBasis": "BIN"
+          }
+        ],
+        "geometryOwner": "01-E09-21-N01",
+        "evidenceState": "needs dated property/business inspection"
+      },
+      {
+        "faceId": "247852685:0",
+        "buildingId": 247852685,
+        "address": "335 East 9th Street",
+        "sourceFace": {
+          "x": -83.816,
+          "z": 65.448,
+          "rx": 0.9999957338897352,
+          "rz": -0.0029209933806781836,
+          "length": 7.874,
+          "street": "East 9th Street"
+        },
+        "bin": "1006421",
+        "municipalReferences": [
+          {
+            "bin": "1006421",
+            "doittId": 624784,
+            "bbl": "1004510044",
+            "matchBasis": "BIN"
+          }
+        ],
+        "geometryOwner": "01-E09-21-N01",
+        "evidenceState": "needs dated property/business inspection"
+      },
+      {
+        "faceId": "247852684:0",
+        "buildingId": 247852684,
+        "address": "333 East 9th Street",
+        "sourceFace": {
+          "x": -91.167,
+          "z": 65.472,
+          "rx": 0.9999946703809177,
+          "rz": -0.003264844523077532,
+          "length": 7.351,
+          "street": "East 9th Street"
+        },
+        "bin": "1083487",
+        "municipalReferences": [
+          {
+            "bin": "1083487",
+            "doittId": 559801,
+            "bbl": "1004510045",
+            "matchBasis": "BIN"
+          }
+        ],
+        "geometryOwner": "01-E09-21-N01",
+        "evidenceState": "needs dated property/business inspection"
+      }
+    ],
+    "allowlistState": "exact legacy face records; future engine file allowlist must be established by EV-001/packet start",
+    "massAndRoofOwners": [
+      247852684,
+      247852685,
+      247852686,
+      247852687,
+      247852689,
+      247852690,
+      247852691,
+      247852697
+    ],
+    "editState": "not started"
+  },
+  {
+    "id": "01-E09-21-N02",
+    "parent": "01-E09-21",
+    "faces": [
+      {
+        "faceId": "247852683:0",
+        "buildingId": 247852683,
+        "address": "331 East 9th Street",
+        "sourceFace": {
+          "x": -98.891,
+          "z": 65.487,
+          "rx": 0.999998114325345,
+          "rz": -0.0019419953022890648,
+          "length": 7.724,
+          "street": "East 9th Street"
+        },
+        "bin": "1006422",
+        "municipalReferences": [
+          {
+            "bin": "1006422",
+            "doittId": 453853,
+            "bbl": "1004510046",
+            "matchBasis": "BIN"
+          }
+        ],
+        "geometryOwner": "01-E09-21-N02",
+        "evidenceState": "needs dated property/business inspection"
+      },
+      {
+        "faceId": "247852682:0",
+        "buildingId": 247852682,
+        "address": "329 East 9th Street",
+        "sourceFace": {
+          "x": -103.884,
+          "z": 65.499,
+          "rx": 0.9999971119315453,
+          "rz": -0.0024033577695131204,
+          "length": 4.993,
+          "street": "East 9th Street"
+        },
+        "bin": "1006423",
+        "municipalReferences": [
+          {
+            "bin": "1006423",
+            "doittId": 519673,
+            "bbl": "1004510047",
+            "matchBasis": "BIN"
+          }
+        ],
+        "geometryOwner": "01-E09-21-N02",
+        "evidenceState": "needs dated property/business inspection"
+      },
+      {
+        "faceId": "1063735559:0",
+        "buildingId": 1063735559,
+        "address": "327 East 9th Street",
+        "sourceFace": {
+          "x": -108.266,
+          "z": 65.516,
+          "rx": 0.9999924747973736,
+          "rz": -0.0038794778803207326,
+          "length": 4.382,
+          "street": "East 9th Street"
+        },
+        "bin": "1088696",
+        "municipalReferences": [
+          {
+            "bin": "1088696",
+            "doittId": 1286969,
+            "bbl": "1004510048",
+            "matchBasis": "BIN"
+          }
+        ],
+        "geometryOwner": "01-E09-21-N02",
+        "evidenceState": "needs dated property/business inspection"
+      },
+      {
+        "faceId": "247852681:0",
+        "buildingId": 247852681,
+        "address": "325 East 9th Street",
+        "sourceFace": {
+          "x": -114.088,
+          "z": 65.531,
+          "rx": 0.9999929699226378,
+          "rz": -0.003749680693406975,
+          "length": 4.267,
+          "street": "East 9th Street"
+        },
+        "bin": "1006424",
+        "municipalReferences": [
+          {
+            "bin": "1006424",
+            "doittId": 510437,
+            "bbl": "1004510049",
+            "matchBasis": "BIN"
+          }
+        ],
+        "geometryOwner": "01-E09-21-N02",
+        "evidenceState": "needs dated property/business inspection"
+      },
+      {
+        "faceId": "247852680:0",
+        "buildingId": 247852680,
+        "address": "323 East 9th Street",
+        "sourceFace": {
+          "x": -121.655,
+          "z": 65.548,
+          "rx": 0.9999974764103639,
+          "rz": -0.002246591396718921,
+          "length": 7.567,
+          "street": "East 9th Street"
+        },
+        "bin": "1006425",
+        "municipalReferences": [
+          {
+            "bin": "1006425",
+            "doittId": 211427,
+            "bbl": "1004510050",
+            "matchBasis": "BIN"
+          }
+        ],
+        "geometryOwner": "01-E09-21-N02",
+        "evidenceState": "needs dated property/business inspection"
+      },
+      {
+        "faceId": "247852679:0",
+        "buildingId": 247852679,
+        "address": "321 East 9th Street",
+        "sourceFace": {
+          "x": -129.23,
+          "z": 65.57,
+          "rx": 0.9999957825752321,
+          "rz": -0.0029042781804153794,
+          "length": 7.575,
+          "street": "East 9th Street"
+        },
+        "bin": "1006426",
+        "municipalReferences": [
+          {
+            "bin": "1006426",
+            "doittId": 821265,
+            "bbl": "1004510051",
+            "matchBasis": "BIN"
+          }
+        ],
+        "geometryOwner": "01-E09-21-N02",
+        "evidenceState": "needs dated property/business inspection"
+      },
+      {
+        "faceId": "247852678:0",
+        "buildingId": 247852678,
+        "address": "319 East 9th Street",
+        "sourceFace": {
+          "x": -136.812,
+          "z": 65.596,
+          "rx": 0.9999941204334576,
+          "rz": -0.0034291541982696227,
+          "length": 7.582,
+          "street": "East 9th Street"
+        },
+        "bin": "1006427",
+        "municipalReferences": [
+          {
+            "bin": "1006427",
+            "doittId": 199845,
+            "bbl": "1004510052",
+            "matchBasis": "BIN"
+          }
+        ],
+        "geometryOwner": "01-E09-21-N02",
+        "evidenceState": "needs dated property/business inspection"
+      },
+      {
+        "faceId": "247852677:0",
+        "buildingId": 247852677,
+        "address": "317 East 9th Street",
+        "sourceFace": {
+          "x": -144.543,
+          "z": 65.615,
+          "rx": 0.9999969800212133,
+          "rz": -0.0024576306584393106,
+          "length": 7.731,
+          "street": "East 9th Street"
+        },
+        "bin": "1082517",
+        "municipalReferences": [
+          {
+            "bin": "1082517",
+            "doittId": 826317,
+            "bbl": "1004510053",
+            "matchBasis": "BIN"
+          }
+        ],
+        "geometryOwner": "01-E09-21-N02",
+        "evidenceState": "needs dated property/business inspection"
+      }
+    ],
+    "allowlistState": "exact legacy face records; future engine file allowlist must be established by EV-001/packet start",
+    "massAndRoofOwners": [
+      247852677,
+      247852678,
+      247852679,
+      247852680,
+      247852681,
+      247852682,
+      247852683,
+      1063735559
+    ],
+    "editState": "not started"
+  },
+  {
+    "id": "01-E09-21-N03",
+    "parent": "01-E09-21",
+    "faces": [
+      {
+        "faceId": "247852676:0",
+        "buildingId": 247852676,
+        "address": "315 East 9th Street",
+        "sourceFace": {
+          "x": -152.023,
+          "z": 65.634,
+          "rx": 0.9999967739439477,
+          "rz": -0.0025400987573449855,
+          "length": 7.48,
+          "street": "East 9th Street"
+        },
+        "bin": "1006428",
+        "municipalReferences": [
+          {
+            "bin": "1006428",
+            "doittId": 834126,
+            "bbl": "1004510054",
+            "matchBasis": "BIN"
+          }
+        ],
+        "geometryOwner": "01-E09-21-N03",
+        "evidenceState": "needs dated property/business inspection"
+      },
+      {
+        "faceId": "247852675:0",
+        "buildingId": 247852675,
+        "address": "313 East 9th Street",
+        "sourceFace": {
+          "x": -159.713,
+          "z": 65.656,
+          "rx": 0.999995907770135,
+          "rz": -0.0028608465501883677,
+          "length": 7.69,
+          "street": "East 9th Street"
+        },
+        "bin": "1006429",
+        "municipalReferences": [
+          {
+            "bin": "1006429",
+            "doittId": 783397,
+            "bbl": "1004510055",
+            "matchBasis": "BIN"
+          }
+        ],
+        "geometryOwner": "01-E09-21-N03",
+        "evidenceState": "needs dated property/business inspection"
+      },
+      {
+        "faceId": "247852674:0",
+        "buildingId": 247852674,
+        "address": "311 East 9th Street",
+        "sourceFace": {
+          "x": -167.321,
+          "z": 65.671,
+          "rx": 0.9999980563849716,
+          "rz": -0.001971605000759087,
+          "length": 7.608,
+          "street": "East 9th Street"
+        },
+        "bin": "1006430",
+        "municipalReferences": [
+          {
+            "bin": "1006430",
+            "doittId": 313962,
+            "bbl": "1004510056",
+            "matchBasis": "BIN"
+          }
+        ],
+        "geometryOwner": "01-E09-21-N03",
+        "evidenceState": "needs dated property/business inspection"
+      },
+      {
+        "faceId": "247852673:0",
+        "buildingId": 247852673,
+        "address": "309 East 9th Street",
+        "sourceFace": {
+          "x": -174.868,
+          "z": 65.689,
+          "rx": 0.9999971557716452,
+          "rz": -0.0023850468800683837,
+          "length": 7.547,
+          "street": "East 9th Street"
+        },
+        "bin": "1006431",
+        "municipalReferences": [
+          {
+            "bin": "1006431",
+            "doittId": 485483,
+            "bbl": "1004510057",
+            "matchBasis": "BIN"
+          }
+        ],
+        "geometryOwner": "01-E09-21-N03",
+        "evidenceState": "needs dated property/business inspection"
+      },
+      {
+        "faceId": "247852672:0",
+        "buildingId": 247852672,
+        "address": "307 East 9th Street",
+        "sourceFace": {
+          "x": -182.789,
+          "z": 65.713,
+          "rx": 0.9999954098225939,
+          "rz": -0.003029906556715464,
+          "length": 7.921,
+          "street": "East 9th Street"
+        },
+        "bin": "1077567",
+        "municipalReferences": [
+          {
+            "bin": "1077567",
+            "doittId": 672274,
+            "bbl": "1004510001",
+            "matchBasis": "BIN"
+          }
+        ],
+        "geometryOwner": "01-E09-21-N03",
+        "evidenceState": "needs dated property/business inspection"
+      },
+      {
+        "faceId": "247852671:0",
+        "buildingId": 247852671,
+        "address": "305 East 9th Street",
+        "sourceFace": {
+          "x": -191.811,
+          "z": 65.736,
+          "rx": 0.9999967504897292,
+          "rz": -0.0025493155909193156,
+          "length": 9.022,
+          "street": "East 9th Street"
+        },
+        "bin": "1077566",
+        "municipalReferences": [
+          {
+            "bin": "1077566",
+            "doittId": 127228,
+            "bbl": "1004510001",
+            "matchBasis": "BIN"
+          }
+        ],
+        "geometryOwner": "01-E09-21-N03",
+        "evidenceState": "needs dated property/business inspection"
+      },
+      {
+        "faceId": "247852702:0",
+        "buildingId": 247852702,
+        "address": "146 2nd Avenue",
+        "sourceFace": {
+          "x": -213.013,
+          "z": 65.795,
+          "rx": 0.9999969236907714,
+          "rz": -0.002480445321638281,
+          "length": 18.545,
+          "street": "East 9th Street"
+        },
+        "bin": "1077563",
+        "municipalReferences": [
+          {
+            "bin": "1077563",
+            "doittId": 229025,
+            "bbl": "1004510001",
+            "matchBasis": "BIN"
+          }
+        ],
+        "geometryOwner": "01-E09-21-N03",
+        "evidenceState": "needs dated property/business inspection"
+      }
+    ],
+    "allowlistState": "exact legacy face records; future engine file allowlist must be established by EV-001/packet start",
+    "massAndRoofOwners": [
+      247852671,
+      247852672,
+      247852673,
+      247852674,
+      247852675,
+      247852676,
+      247852702
+    ],
+    "editState": "not started"
+  },
+  {
+    "id": "01-E09-21-S01",
+    "parent": "01-E09-21",
+    "faces": [
+      {
+        "faceId": "241822239:0",
+        "buildingId": 241822239,
+        "address": "350 East 9th Street",
+        "sourceFace": {
+          "x": -34.753,
+          "z": 83.726,
+          "rx": -0.9999995016628817,
+          "rz": 0.0009983356089812844,
+          "length": 6.01,
+          "street": "East 9th Street"
+        },
+        "bin": "1079782",
+        "municipalReferences": [
+          {
+            "bin": "1079782",
+            "doittId": 262781,
+            "bbl": "1004500029",
+            "matchBasis": "BIN"
+          }
+        ],
+        "geometryOwner": "01-E09-21-S01",
+        "evidenceState": "needs dated property/business inspection"
+      },
+      {
+        "faceId": "241822276:0",
+        "buildingId": 241822276,
+        "address": "350A East 9th Street",
+        "sourceFace": {
+          "x": -40.763,
+          "z": 83.732,
+          "rx": -0.9999961320863224,
+          "rz": 0.002781332844913869,
+          "length": 4.674,
+          "street": "East 9th Street"
+        },
+        "bin": "1079783",
+        "municipalReferences": [
+          {
+            "bin": "1079783",
+            "doittId": 781856,
+            "bbl": "1004500029",
+            "matchBasis": "BIN"
+          }
+        ],
+        "geometryOwner": "01-E09-21-S01",
+        "evidenceState": "needs dated property/business inspection"
+      },
+      {
+        "faceId": "241822204:0",
+        "buildingId": 241822204,
+        "address": "348 East 9th Street",
+        "sourceFace": {
+          "x": -45.437,
+          "z": 83.745,
+          "rx": -1.0,
+          "rz": 0.0,
+          "length": 7.491,
+          "street": "East 9th Street"
+        },
+        "bin": "1006379",
+        "municipalReferences": [
+          {
+            "bin": "1006379",
+            "doittId": 432756,
+            "bbl": "1004500028",
+            "matchBasis": "BIN"
+          }
+        ],
+        "geometryOwner": "01-E09-21-S01",
+        "evidenceState": "needs dated property/business inspection"
+      },
+      {
+        "faceId": "241822315:0",
+        "buildingId": 241822315,
+        "address": "346 East 9th Street",
+        "sourceFace": {
+          "x": -52.928,
+          "z": 83.745,
+          "rx": -0.9999980801783642,
+          "rz": 0.0019594998305259344,
+          "length": 7.655,
+          "street": "East 9th Street"
+        },
+        "bin": "1006378",
+        "municipalReferences": [
+          {
+            "bin": "1006378",
+            "doittId": 418917,
+            "bbl": "1004500027",
+            "matchBasis": "BIN"
+          }
+        ],
+        "geometryOwner": "01-E09-21-S01",
+        "evidenceState": "needs dated property/business inspection"
+      },
+      {
+        "faceId": "241822241:0",
+        "buildingId": 241822241,
+        "address": "344 East 9th Street",
+        "sourceFace": {
+          "x": -60.583,
+          "z": 83.76,
+          "rx": -0.9999995877413997,
+          "rz": 0.0009080292014762727,
+          "length": 7.709,
+          "street": "East 9th Street"
+        },
+        "bin": "1006377",
+        "municipalReferences": [
+          {
+            "bin": "1006377",
+            "doittId": 747567,
+            "bbl": "1004500026",
+            "matchBasis": "BIN"
+          }
+        ],
+        "geometryOwner": "01-E09-21-S01",
+        "evidenceState": "needs dated property/business inspection"
+      },
+      {
+        "faceId": "241822261:0",
+        "buildingId": 241822261,
+        "address": "342 East 9th Street",
+        "sourceFace": {
+          "x": -68.292,
+          "z": 83.767,
+          "rx": -0.9999994029526491,
+          "rz": 0.001092746240080723,
+          "length": 7.321,
+          "street": "East 9th Street"
+        },
+        "bin": "1006376",
+        "municipalReferences": [
+          {
+            "bin": "1006376",
+            "doittId": 396037,
+            "bbl": "1004500025",
+            "matchBasis": "BIN"
+          }
+        ],
+        "geometryOwner": "01-E09-21-S01",
+        "evidenceState": "needs dated property/business inspection"
+      },
+      {
+        "faceId": "241822335:0",
+        "buildingId": 241822335,
+        "address": "340 East 9th Street",
+        "sourceFace": {
+          "x": -75.613,
+          "z": 83.775,
+          "rx": -0.9999990468415126,
+          "rz": 0.001380694052372577,
+          "length": 7.967,
+          "street": "East 9th Street"
+        },
+        "bin": "1006375",
+        "municipalReferences": [
+          {
+            "bin": "1006375",
+            "doittId": 686533,
+            "bbl": "1004500024",
+            "matchBasis": "BIN"
+          }
+        ],
+        "geometryOwner": "01-E09-21-S01",
+        "evidenceState": "needs dated property/business inspection"
+      },
+      {
+        "faceId": "241822244:0",
+        "buildingId": 241822244,
+        "address": "338 East 9th Street",
+        "sourceFace": {
+          "x": -83.58,
+          "z": 83.786,
+          "rx": -0.9999983573672573,
+          "rz": 0.0018125293893238462,
+          "length": 7.724,
+          "street": "East 9th Street"
+        },
+        "bin": "1006374",
+        "municipalReferences": [
+          {
+            "bin": "1006374",
+            "doittId": 31951,
+            "bbl": "1004500023",
+            "matchBasis": "BIN"
+          }
+        ],
+        "geometryOwner": "01-E09-21-S01",
+        "evidenceState": "needs dated property/business inspection"
+      }
+    ],
+    "allowlistState": "exact legacy face records; future engine file allowlist must be established by EV-001/packet start",
+    "massAndRoofOwners": [
+      241822204,
+      241822239,
+      241822241,
+      241822244,
+      241822261,
+      241822276,
+      241822315,
+      241822335
+    ],
+    "editState": "not started"
+  },
+  {
+    "id": "01-E09-21-S02",
+    "parent": "01-E09-21",
+    "faces": [
+      {
+        "faceId": "241822293:0",
+        "buildingId": 241822293,
+        "address": "336 East 9th Street",
+        "sourceFace": {
+          "x": -91.304,
+          "z": 83.8,
+          "rx": -0.9999996780284235,
+          "rz": 0.0008024606216625338,
+          "length": 7.477,
+          "street": "East 9th Street"
+        },
+        "bin": "1006373",
+        "municipalReferences": [
+          {
+            "bin": "1006373",
+            "doittId": 759108,
+            "bbl": "1004500022",
+            "matchBasis": "BIN"
+          }
+        ],
+        "geometryOwner": "01-E09-21-S02",
+        "evidenceState": "needs dated property/business inspection"
+      },
+      {
+        "faceId": "241822229:0",
+        "buildingId": 241822229,
+        "address": "334 East 9th Street",
+        "sourceFace": {
+          "x": -98.781,
+          "z": 83.806,
+          "rx": -0.9999997804207074,
+          "rz": 0.000662690378013679,
+          "length": 7.545,
+          "street": "East 9th Street"
+        },
+        "bin": "1006372",
+        "municipalReferences": [
+          {
+            "bin": "1006372",
+            "doittId": 392540,
+            "bbl": "1004500021",
+            "matchBasis": "BIN"
+          }
+        ],
+        "geometryOwner": "01-E09-21-S02",
+        "evidenceState": "needs dated property/business inspection"
+      },
+      {
+        "faceId": "241822251:0",
+        "buildingId": 241822251,
+        "address": "332 East 9th Street",
+        "sourceFace": {
+          "x": -106.326,
+          "z": 83.811,
+          "rx": -0.9999995803710797,
+          "rz": 0.0009161100723188515,
+          "length": 7.641,
+          "street": "East 9th Street"
+        },
+        "bin": "1006371",
+        "municipalReferences": [
+          {
+            "bin": "1006371",
+            "doittId": 38188,
+            "bbl": "1004500020",
+            "matchBasis": "BIN"
+          }
+        ],
+        "geometryOwner": "01-E09-21-S02",
+        "evidenceState": "needs dated property/business inspection"
+      },
+      {
+        "faceId": "241822179:0",
+        "buildingId": 241822179,
+        "address": "328 East 9th Street",
+        "sourceFace": {
+          "x": -113.967,
+          "z": 83.818,
+          "rx": -0.9999994618656995,
+          "rz": 0.0010374335214306943,
+          "length": 11.567,
+          "street": "East 9th Street"
+        },
+        "bin": "1006370",
+        "municipalReferences": [
+          {
+            "bin": "1006370",
+            "doittId": 544982,
+            "bbl": "1004500018",
+            "matchBasis": "BIN"
+          }
+        ],
+        "geometryOwner": "01-E09-21-S02",
+        "evidenceState": "needs dated property/business inspection"
+      },
+      {
+        "faceId": "241822183:0",
+        "buildingId": 241822183,
+        "address": "324 East 9th Street",
+        "sourceFace": {
+          "x": -125.534,
+          "z": 83.83,
+          "rx": -0.9999979736617668,
+          "rz": 0.0020131250235638316,
+          "length": 11.425,
+          "street": "East 9th Street"
+        },
+        "bin": "1006369",
+        "municipalReferences": [
+          {
+            "bin": "1006369",
+            "doittId": 356884,
+            "bbl": "1004500016",
+            "matchBasis": "BIN"
+          }
+        ],
+        "geometryOwner": "01-E09-21-S02",
+        "evidenceState": "needs dated property/business inspection"
+      },
+      {
+        "faceId": "241822272:0",
+        "buildingId": 241822272,
+        "address": "320 East 9th Street",
+        "sourceFace": {
+          "x": -136.959,
+          "z": 83.853,
+          "rx": -0.9999998577019259,
+          "rz": 0.0005334755175797008,
+          "length": 7.498,
+          "street": "East 9th Street"
+        },
+        "bin": "1006368",
+        "municipalReferences": [
+          {
+            "bin": "1006368",
+            "doittId": 51029,
+            "bbl": "1004500015",
+            "matchBasis": "BIN"
+          }
+        ],
+        "geometryOwner": "01-E09-21-S02",
+        "evidenceState": "needs dated property/business inspection"
+      },
+      {
+        "faceId": "241822187:0",
+        "buildingId": 241822187,
+        "address": "318 East 9th Street",
+        "sourceFace": {
+          "x": -144.457,
+          "z": 83.857,
+          "rx": -0.9999993350024143,
+          "rz": 0.0011532539742468051,
+          "length": 7.804,
+          "street": "East 9th Street"
+        },
+        "bin": "1006367",
+        "municipalReferences": [
+          {
+            "bin": "1006367",
+            "doittId": 677284,
+            "bbl": "1004500014",
+            "matchBasis": "BIN"
+          }
+        ],
+        "geometryOwner": "01-E09-21-S02",
+        "evidenceState": "needs dated property/business inspection"
+      },
+      {
+        "faceId": "241822165:0",
+        "buildingId": 241822165,
+        "address": "314-316 East 9th Street",
+        "sourceFace": {
+          "x": -152.261,
+          "z": 83.866,
+          "rx": -0.9999997693687056,
+          "rz": 0.0006791631142133909,
+          "length": 7.362,
+          "street": "East 9th Street"
+        },
+        "bin": "1006366",
+        "municipalReferences": [
+          {
+            "bin": "1006366",
+            "doittId": 746757,
+            "bbl": "1004500012",
+            "matchBasis": "BIN"
+          }
+        ],
+        "geometryOwner": "01-E09-21-S02",
+        "evidenceState": "needs dated property/business inspection"
+      }
+    ],
+    "allowlistState": "exact legacy face records; future engine file allowlist must be established by EV-001/packet start",
+    "massAndRoofOwners": [
+      241822165,
+      241822179,
+      241822183,
+      241822187,
+      241822229,
+      241822251,
+      241822272,
+      241822293
+    ],
+    "editState": "not started"
+  },
+  {
+    "id": "01-E09-21-S03",
+    "parent": "01-E09-21",
+    "faces": [
+      {
+        "faceId": "241822171:0",
+        "buildingId": 241822171,
+        "address": "312 East 9th Street",
+        "sourceFace": {
+          "x": -159.623,
+          "z": 83.871,
+          "rx": -0.9999991073075429,
+          "rz": 0.0013361826660984145,
+          "length": 7.484,
+          "street": "East 9th Street"
+        },
+        "bin": "1006365",
+        "municipalReferences": [
+          {
+            "bin": "1006365",
+            "doittId": 370285,
+            "bbl": "1004500011",
+            "matchBasis": "BIN"
+          }
+        ],
+        "geometryOwner": "01-E09-21-S03",
+        "evidenceState": "needs dated property/business inspection"
+      },
+      {
+        "faceId": "241822269:0",
+        "buildingId": 241822269,
+        "address": "310 East 9th Street",
+        "sourceFace": {
+          "x": -167.107,
+          "z": 83.881,
+          "rx": -0.9999982522560821,
+          "rz": 0.0018696215609923727,
+          "length": 8.023,
+          "street": "East 9th Street"
+        },
+        "bin": "1006364",
+        "municipalReferences": [
+          {
+            "bin": "1006364",
+            "doittId": 40255,
+            "bbl": "1004500010",
+            "matchBasis": "BIN"
+          }
+        ],
+        "geometryOwner": "01-E09-21-S03",
+        "evidenceState": "needs dated property/business inspection"
+      },
+      {
+        "faceId": "241822210:1",
+        "buildingId": 241822210,
+        "address": "144 2nd Avenue",
+        "sourceFace": {
+          "x": -175.13,
+          "z": 83.896,
+          "rx": -0.9999992302171905,
+          "rz": 0.0012407920964176724,
+          "length": 37.879,
+          "street": "East 9th Street"
+        },
+        "bin": "1006363",
+        "municipalReferences": [
+          {
+            "bin": "1006363",
+            "doittId": 4591,
+            "bbl": "1004500008",
+            "matchBasis": "BIN"
+          }
+        ],
+        "geometryOwner": "01-E09-21-S03",
+        "evidenceState": "needs dated property/business inspection"
+      }
+    ],
+    "allowlistState": "exact legacy face records; future engine file allowlist must be established by EV-001/packet start",
+    "massAndRoofOwners": [
+      241822171,
+      241822210,
+      241822269
+    ],
+    "editState": "not started"
+  }
+]

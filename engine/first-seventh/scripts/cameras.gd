@@ -24,6 +24,7 @@ var right_pan = false
 var input_enabled = false
 var snap_next = true
 var look_point = Vector3.ZERO
+var residency_guard: Callable
 
 func _ready():
 	physics_interpolation_mode = Node.PHYSICS_INTERPOLATION_MODE_OFF
@@ -128,7 +129,16 @@ func _process(dt):
 			middle_holding = false
 		update_drag_state()
 	if not is_instance_valid(car): return
+	var previous_transform = camera.global_transform
+	var previous_fov = camera.fov
+	var previous_look = look_point
 	var pose = car.get_global_transform_interpolated()
+	# Reset can resume this camera outside the physics tick. Its interpolation
+	# pump may still describe the old street for a frame; never ease across the
+	# buildings between a teleport's endpoints. Normal driving is below 1 m/tick.
+	if snap_next or pose.origin.distance_to(car.global_position)>5.0:
+		pose = car.global_transform
+		snap_next = true
 	var origin = pose.origin
 	var forward = -pose.basis.z
 	var focus: Vector3
@@ -175,6 +185,13 @@ func _process(dt):
 	var target_fov = 56.0 if mode==3 else 61.0+min(abs(car.speed)*.35,6)
 	target_fov = clampf(target_fov*zoom,34.0,82.0)
 	camera.fov = lerp(camera.fov,target_fov,1-exp(-dt*3))
+	# Validate the proposed view before this frame is rendered. Keep the last
+	# complete view during a delayed area fetch, including orbit/pan/zoom.
+	if residency_guard.is_valid() and not residency_guard.call(camera):
+		camera.global_transform = previous_transform
+		camera.fov = previous_fov
+		look_point = previous_look
+		snap_next = true
 
 func camera_state() -> Dictionary:
 	return {"mode":mode,"position":[camera.global_position.x,camera.global_position.y,camera.global_position.z],"target":[look_point.x,look_point.y,look_point.z],"yaw":orbit_yaw,"pitch":orbit_pitch,"zoom":zoom,"pan":[pan_focus.x,pan_focus.y,pan_focus.z],"inspecting":absf(orbit_yaw)>.001 or absf(orbit_pitch)>.001 or absf(zoom-1.0)>.001 or pan_focus.length()>.001}

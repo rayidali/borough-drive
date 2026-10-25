@@ -1,0 +1,74 @@
+{
+  "cold": {
+    "count": 5,
+    "medianReadyMs": 6597.900000035763,
+    "p95ReadyMs": 7296.599999964237,
+    "encodedBytes": [
+      145894504,
+      145894504,
+      145894504,
+      145894504,
+      145894504
+    ]
+  },
+  "warm": {
+    "count": 5,
+    "medianReadyMs": 8965.099999964237,
+    "p95ReadyMs": 9686.699999988079,
+    "encodedBytes": [
+      48232721,
+      48232721,
+      48232721,
+      48232721,
+      48232721
+    ]
+  },
+  "routes": [
+    {
+      "name": "first-north",
+      "p95Ms": 18.100000000000364,
+      "maxMs": 18.700000000000728,
+      "contacts": 0,
+      "holds": 0
+    },
+    {
+      "name": "first-south",
+      "p95Ms": 18,
+      "maxMs": 18.700000000000728,
+      "contacts": 0,
+      "holds": 0
+    },
+    {
+      "name": "west-lane-north",
+      "p95Ms": 18.700000000000728,
+      "maxMs": 18.80000000000291,
+      "contacts": 0,
+      "holds": 0
+    },
+    {
+      "name": "east-lane-south",
+      "p95Ms": 18,
+      "maxMs": 18.69999999999709,
+      "contacts": 0,
+      "holds": 0
+    }
+  ],
+  "limitations": "Same local device; five samples per condition, p95 is maximum. Cold disables browser network cache, not OS/GPU/WASM caches. EV-003 numbers are historical, not a fresh paired control. Route frame gaps are requestAnimationFrame intervals, not GPU timings.",
+  "timedPack": {
+    "bytes": 7991456,
+    "sha256": "74781b228c0263092cb1819e1dc57c7f95523e7b54802386d17d594e2ff41527",
+    "brotliBytes": 7388923
+  },
+  "warmSceneCacheHits": [
+    207,
+    207,
+    207,
+    207,
+    207
+  ],
+  "historicalComparison": {
+    "EV003ColdMedianMs": 6269,
+    "EV003WarmMedianMs": 6615.1,
+    "result": "P01 medians +5.2% cold / +35.5% warm relative to historical EV-003 runs. Correct cache headers reduce bytes, not decode/render time. Not a paired regression diagnosis; repeat under matched device conditions before broad expansion if startup latency is a concern."
+  }
+}

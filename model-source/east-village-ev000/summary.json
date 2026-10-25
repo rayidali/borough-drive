@@ -1,0 +1,62 @@
+{
+  "session": "EV-000",
+  "date": "2026-10-12",
+  "mode": "inventory only",
+  "boundaryAreaApproxKm2": 1.668,
+  "counts": {
+    "lotsIntersectingOver1SquareMetre": 2207,
+    "buildingFootprintsIntersectingOver1SquareMetre": 2365,
+    "physicalRoadFeaturesIncludingBoundaryContext": 367,
+    "sharedEndpointNodes": 221,
+    "roadmapUnits": 193,
+    "futurePropertyPackets": 9,
+    "exactFutureFaces": 53,
+    "protectedRuntimeBuildings": 203,
+    "protectedCoreBuildings": 23,
+    "protectedMappedFacesIncludingContext": 254,
+    "specialSiteCoordinationRecords": 294
+  },
+  "lotsByPhase": {
+    "01": 384,
+    "02": 122,
+    "03": 384,
+    "04": 338,
+    "05": 1,
+    "06": 267,
+    "07": 188,
+    "08": 512,
+    "09": 11
+  },
+  "footprintsByPhase": {
+    "01": 431,
+    "02": 137,
+    "03": 410,
+    "04": 363,
+    "05": 1,
+    "06": 309,
+    "07": 177,
+    "08": 489,
+    "09": 48
+  },
+  "roadClassCounts": {
+    "mapped street; access unverified": 298,
+    "highway/structure/connector; gameplay not assigned": 15,
+    "non-vehicular/path": 54
+  },
+  "limitations": [
+    "Counts are snapshot GIS feature counts, not businesses, facade counts, current occupancy or visual acceptance.",
+    "Boundary-clipped sites retain their entire identity but only the in-scope portion is authorized; outside portions remain context.",
+    "Parcel/footprint phase routing uses greatest overlap; exact frontage packets override it. Face enumeration outside the first nine packets remains future per-corridor work.",
+    "Municipal centerlines do not establish current public access. Dated waterfront/utility/site evidence is required before rendering roads as drivable.",
+    "2022 shoreline imagery is a planning edge, not proof of 2026 flood-work conditions.",
+    "Only coincident mapped endpoints are joined. Grade-separated crossings are not assumed to connect.",
+    "The initial project-time estimate remains provisional until actual detailed storefront pilot sessions are timed."
+  ],
+  "preservedInputHashes": {
+    "dist/reconstruction/neighborhood.json": "fd61b108e80eab18d477686b677413ef565f1ab16edc26170751347e22651a5c",
+    "engine/first-seventh/assets/slice.json": "ff9724686ac06c285e7d961d6ac2f72f81029393f95ef41e4c2706f9c3f7eeff",
+    "model-source/storefront-details.json": "63124b2ebb84b02390fd125132f1b29aa2099b4ba657f9757c0136438525d2f5",
+    "dist/seventh/index.pck": "8da68329347228060231d47f46e80c9d6233b6afb0469fd43611bdc83204b1d0"
+  },
+  "nextSession": "EV-001"
+}

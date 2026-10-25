@@ -1,0 +1,518 @@
+{
+  "recorded": "2026-10-13T18:43:58.908768+00:00",
+  "package": {
+    "bytes": 8006792,
+    "sha256": "476e38b45cd92fff235cb56e17c8c92506d3949959a002d88e0b26e49d07f288",
+    "brotliBytes": 7395316
+  },
+  "areaManifest": {
+    "engine": "4.7.2",
+    "manifest": "areas/manifest-c83fecba5d840b5c86e9ae86af3909b5f358d3c2540555d64a527e6ee0591120.json",
+    "release": "8c096afdb70559c9b3b304f5dacc011b83cb6b629aac2557a574ce6d33eef625",
+    "sha256": "c83fecba5d840b5c86e9ae86af3909b5f358d3c2540555d64a527e6ee0591120"
+  },
+  "state": "implemented and visually inspected locally; awaiting user review",
+  "method": "Root inspected all 50 final served images individually against retained dated source observations; previous trial images remain separate. No source pixels are distributed.",
+  "inspectedImageCount": 50,
+  "faces": [
+    {
+      "faceId": "248142657:0",
+      "sourceIds": [
+        "wines-detail",
+        "south-group"
+      ],
+      "observedResult": "Six upper openings, keyed white lintels, dentil band and dark bracketed cornice; low roof exposes protected southern party wall. Folded two-face ivory sign, burgundy fascia, separate cream grille entrance, copper mesh, bottle display and cartons reviewed.",
+      "state": "modeled and inspected; not calibrated acceptance",
+      "images": [
+        "248142657-0-elevation.png",
+        "248142657-0-ground-south.png",
+        "248142657-0-ground-north.png",
+        "248142657-0-0-0-front.png",
+        "248142657-0-0-0-left.png",
+        "248142657-0-0-0-right.png",
+        "248142657-0-mass-north.png",
+        "248142657-0-mass-south.png"
+      ]
+    },
+    {
+      "faceId": "248142658:0",
+      "sourceIds": [
+        "bar-detail"
+      ],
+      "observedResult": "Nine white-framed windows, salmon ornament and two-bay fire escape, faded brick. Olive shallow shade, green door with one long pull, circular mark, string bulbs, rainbow OPEN, four folding chairs and red stool; separate north residence and steps reviewed.",
+      "state": "modeled and inspected; not calibrated acceptance",
+      "images": [
+        "248142658-0-elevation.png",
+        "248142658-0-ground-south.png",
+        "248142658-0-ground-north.png",
+        "248142658-0-0-0-front.png",
+        "248142658-0-0-0-left.png",
+        "248142658-0-0-0-right.png",
+        "248142658-0-mass-north.png",
+        "248142658-0-mass-south.png"
+      ]
+    },
+    {
+      "faceId": "248142659:0",
+      "sourceIds": [
+        "laundry-detail"
+      ],
+      "observedResult": "Nine openings with dark lintels, wide platforms and narrower stair runs. Red/white LAUNDERAMA fascia, star strip, folded gray canopy, low silver rail, washer drums and open glass leaf with attached handle; numbered residence and louver reviewed.",
+      "state": "modeled and inspected; not calibrated acceptance",
+      "images": [
+        "248142659-0-elevation.png",
+        "248142659-0-ground-south.png",
+        "248142659-0-ground-north.png",
+        "248142659-0-0-0-front.png",
+        "248142659-0-0-0-left.png",
+        "248142659-0-0-0-right.png",
+        "248142659-0-mass-north.png",
+        "248142659-0-mass-south.png"
+      ]
+    },
+    {
+      "faceId": "248142660:0",
+      "sourceIds": [
+        "laundry-detail",
+        "north-shops-april"
+      ],
+      "observedResult": "Six upper openings, bracketed cornice, two lower wide platforms and narrow top landing. Separate WASH & DRY and green serif dry-cleaner signs, pane/leaf arrangement, ATM screen/keypad and separate residence reviewed.",
+      "state": "modeled and inspected; not calibrated acceptance",
+      "images": [
+        "248142660-0-elevation.png",
+        "248142660-0-ground-south.png",
+        "248142660-0-ground-north.png",
+        "248142660-0-0-0-front.png",
+        "248142660-0-0-0-left.png",
+        "248142660-0-0-0-right.png",
+        "248142660-0-mass-north.png",
+        "248142660-0-mass-south.png"
+      ]
+    },
+    {
+      "faceId": "248142713:0",
+      "sourceIds": [
+        "north-shops-april",
+        "148-upper-older"
+      ],
+      "observedResult": "Twelve openings, stained cream stucco, shallow parapet notch and short railing; northern escape centered at second bay, separate southern escape narrows at top. Mapped 0.503m setback and projecting enclosure preserved; unequal panes, off-center door, red lower panels, burgundy canopy and its two lettering planes reviewed. Ninth return remains deferred.",
+      "state": "modeled and inspected; not calibrated acceptance",
+      "images": [
+        "248142713-0-elevation.png",
+        "248142713-0-ground-south.png",
+        "248142713-0-ground-north.png",
+        "248142713-0-0-0-front.png",
+        "248142713-0-0-0-left.png",
+        "248142713-0-0-0-right.png",
+        "248142713-0-0-1-front.png",
+        "248142713-0-0-1-left.png",
+        "248142713-0-0-1-right.png",
+        "248142713-0-shop-complete.png",
+        "248142713-0-mass-north.png",
+        "248142713-0-mass-south.png"
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "northId": 248142713,
+      "southId": 248142660,
+      "condition": "setback with short exposed return",
+      "mappedStreetOffsetMetres": 0.503,
+      "openAlleyObserved": false,
+      "sourceIds": [
+        "south-group",
+        "north-oblique"
+      ],
+      "reviewState": "inspected in final full-elevation and both mass obliques",
+      "heightNorth": 13.36,
+      "heightSouth": 13.63,
+      "result": "Touching/setback relationship, exposed return and roof steps retained; no invented open alley."
+    },
+    {
+      "northId": 248142660,
+      "southId": 248142659,
+      "condition": "touching party walls; separate cornices",
+      "mappedStreetOffsetMetres": -0.0,
+      "openAlleyObserved": false,
+      "sourceIds": [
+        "south-group",
+        "north-oblique"
+      ],
+      "reviewState": "inspected in final full-elevation and both mass obliques",
+      "heightNorth": 13.63,
+      "heightSouth": 13.49,
+      "result": "Touching/setback relationship, exposed return and roof steps retained; no invented open alley."
+    },
+    {
+      "northId": 248142659,
+      "southId": 248142658,
+      "condition": "touching party walls; separate cornices",
+      "mappedStreetOffsetMetres": -0.0,
+      "openAlleyObserved": false,
+      "sourceIds": [
+        "south-group",
+        "north-oblique"
+      ],
+      "reviewState": "inspected in final full-elevation and both mass obliques",
+      "heightNorth": 13.49,
+      "heightSouth": 13.56,
+      "result": "Touching/setback relationship, exposed return and roof steps retained; no invented open alley."
+    },
+    {
+      "northId": 248142658,
+      "southId": 248142657,
+      "condition": "touching party walls; separate cornices",
+      "mappedStreetOffsetMetres": -0.0,
+      "openAlleyObserved": false,
+      "sourceIds": [
+        "south-group",
+        "north-oblique"
+      ],
+      "reviewState": "inspected in final full-elevation and both mass obliques",
+      "heightNorth": 13.56,
+      "heightSouth": 10.59,
+      "result": "Touching/setback relationship, exposed return and roof steps retained; no invented open alley."
+    },
+    {
+      "northId": 248142657,
+      "southId": 248142711,
+      "condition": "touching party wall; low 138 exposes tall protected southern wall",
+      "openAlleyObserved": false,
+      "sourceIds": [
+        "south-group"
+      ],
+      "protectedNeighbor": true,
+      "reviewState": "inspected in final full-elevation and both mass obliques",
+      "result": "Touching/setback relationship, exposed return and roof steps retained; no invented open alley."
+    }
+  ],
+  "images": [
+    {
+      "file": "review-final/248142657-0-elevation.png",
+      "sha256": "5498b307759283cf22915a9a0942082e2a39ca3d8f22185192e0dba9508a21e5",
+      "inspected": true
+    },
+    {
+      "file": "review-final/248142657-0-ground-south.png",
+      "sha256": "62749022aca656cf460b79ebe76e28694ce5531e72326de3dea60db3f600f0cf",
+      "inspected": true
+    },
+    {
+      "file": "review-final/248142657-0-ground-north.png",
+      "sha256": "bc62d63721044c2dfd6eb269d331f2e9b34796d35c842dc6f8e8a1570b7c1bd6",
+      "inspected": true
+    },
+    {
+      "file": "review-final/248142658-0-elevation.png",
+      "sha256": "692d4cf46fd1e1988fc3c88685e20e44360e88d214beb1af2a99a7ef61816700",
+      "inspected": true
+    },
+    {
+      "file": "review-final/248142658-0-ground-south.png",
+      "sha256": "da71b193497305b619393a1db674a6545cfbeb87d7950645c4ee30e4a9f53ff4",
+      "inspected": true
+    },
+    {
+      "file": "review-final/248142658-0-ground-north.png",
+      "sha256": "b711ed31a2886647f792e91b2f4d593482c46cba218256f7e055ee9f647f7bb6",
+      "inspected": true
+    },
+    {
+      "file": "review-final/248142659-0-elevation.png",
+      "sha256": "b85e8d45b913704584b5ad9b7273290af29369a35ae8c40aff73ef3287703862",
+      "inspected": true
+    },
+    {
+      "file": "review-final/248142659-0-ground-south.png",
+      "sha256": "b2bc908f8a6df7044697b53fb130de7f4ad3ec73e86ae50a91afe80fd15ef8b1",
+      "inspected": true
+    },
+    {
+      "file": "review-final/248142659-0-ground-north.png",
+      "sha256": "89f255609c07f720588152cda06b3571b69abe523422c9ac0add16691bd3c728",
+      "inspected": true
+    },
+    {
+      "file": "review-final/248142660-0-elevation.png",
+      "sha256": "30a10313d1b820b356d0f983b875c3bbf564a2179a2677912eae9032085cb1b1",
+      "inspected": true
+    },
+    {
+      "file": "review-final/248142660-0-ground-south.png",
+      "sha256": "720619f0ee5caefabc82ce7dc2135005622e3eb1a513873375d8a150479c0819",
+      "inspected": true
+    },
+    {
+      "file": "review-final/248142660-0-ground-north.png",
+      "sha256": "b4f2fda24d984a226a8091671a671de267ac1c0545c20f35f6d5e4cef33d5108",
+      "inspected": true
+    },
+    {
+      "file": "review-final/248142713-0-elevation.png",
+      "sha256": "f89baeb314aade4205a3f88265fda3aa3b0f39168f9cf06a439a16a874076bc5",
+      "inspected": true
+    },
+    {
+      "file": "review-final/248142713-0-ground-south.png",
+      "sha256": "2848292620405d9628ecc8acbab4e4cb490b01b6976ffa83ac8eab28d22d00a1",
+      "inspected": true
+    },
+    {
+      "file": "review-final/248142713-0-ground-north.png",
+      "sha256": "a2fb30292c4d14f85a865ba99cfeec955a763a3f103e480ef315da302b95328b",
+      "inspected": true
+    },
+    {
+      "file": "review-final/protected-stmarks83.png",
+      "sha256": "666fa5ce4ffe2f5036eaf2e8937fdcbd75274ef787d2997ceb4810cde3b5a061",
+      "inspected": true
+    },
+    {
+      "file": "review-final/protected-first134.png",
+      "sha256": "da30eabfa7def6e69be66e9a5cb3d1d046fa3e2f5c39e36959d178d34b0c0b72",
+      "inspected": true
+    },
+    {
+      "file": "review-final/protected-tilebar.png",
+      "sha256": "bfbc3609b0a95945a8243c638a15df110d7ae9759f6d00b56f44133a62941fc0",
+      "inspected": true
+    },
+    {
+      "file": "review-final/248142657-0-0-0-front.png",
+      "sha256": "e16fb2e2df3f607a860b90b0b860401a738a2315dac19d79020735ef1294fd73",
+      "inspected": true
+    },
+    {
+      "file": "review-final/248142657-0-0-0-left.png",
+      "sha256": "aa22939764255290ec8c9f3a47f04b64ce27189a55a5a43d4a482351d0e2ade5",
+      "inspected": true
+    },
+    {
+      "file": "review-final/248142657-0-0-0-right.png",
+      "sha256": "0b3a7f7de8c6c4bbf319b61a1a60ae52f02e988eb9b69969a58c42303ed17f6d",
+      "inspected": true
+    },
+    {
+      "file": "review-final/248142657-0-mass-north.png",
+      "sha256": "e8f838d58984a9e2bcf8b8f961ed11d4e8b4e5dec19dfeaaab5f9b4ea7b9bc7e",
+      "inspected": true
+    },
+    {
+      "file": "review-final/248142657-0-mass-south.png",
+      "sha256": "d92e3282d5c0ac50dbea6bc084987424b624cce61f124d7659dae32e4a348302",
+      "inspected": true
+    },
+    {
+      "file": "review-final/248142658-0-0-0-front.png",
+      "sha256": "f0d629196959e6b064eda7d308745ca7a3012691276cb0392e7411425bed0eab",
+      "inspected": true
+    },
+    {
+      "file": "review-final/248142658-0-0-0-left.png",
+      "sha256": "7b66be594444f60342ed3c2d4fb901e5135c87fefc82a36a01a996baeb058ea8",
+      "inspected": true
+    },
+    {
+      "file": "review-final/248142658-0-0-0-right.png",
+      "sha256": "9ad62f4aed091432577d97da6c7beb629b767d783818d526cc8741977538f4c9",
+      "inspected": true
+    },
+    {
+      "file": "review-final/248142658-0-mass-north.png",
+      "sha256": "12decbaa885f38610f56fcd66e9fb32ed4f06b4c5b9b74ff249f6aafe0d67f76",
+      "inspected": true
+    },
+    {
+      "file": "review-final/248142658-0-mass-south.png",
+      "sha256": "f387896919bdee0c731cd34568e61c8fe2f4439a6ad1fa1811980de56ad01caa",
+      "inspected": true
+    },
+    {
+      "file": "review-final/248142659-0-0-0-front.png",
+      "sha256": "f5cafdf136d973923674a3d8057801b440cfcf639f3f9b94ad53aa9d946d54da",
+      "inspected": true
+    },
+    {
+      "file": "review-final/248142659-0-0-0-left.png",
+      "sha256": "13e66dd2edf1ff0ede60534f36eee4aab121901d63eba45ca830579c95772df8",
+      "inspected": true
+    },
+    {
+      "file": "review-final/248142659-0-0-0-right.png",
+      "sha256": "99b5d4cbc73cb2460053a051f03b6ff06caa763ec029e781f27d813a95f0a32d",
+      "inspected": true
+    },
+    {
+      "file": "review-final/248142659-0-mass-north.png",
+      "sha256": "412ca6b779d126a18a7bb34cfadcc191285d64bcecf356054dded1cf0a4a78fa",
+      "inspected": true
+    },
+    {
+      "file": "review-final/248142659-0-mass-south.png",
+      "sha256": "5578805618ccd26b53462c3823797d6d7ab67480d920ab7aed0c4be2045231a3",
+      "inspected": true
+    },
+    {
+      "file": "review-final/248142660-0-0-0-front.png",
+      "sha256": "fa33af1a8f67a45464022b7e3af8e95e0692ee7e81a272cf7248e60a10ddb485",
+      "inspected": true
+    },
+    {
+      "file": "review-final/248142660-0-0-0-left.png",
+      "sha256": "fd9476d1ebab70d17d5315f17d1d9bdf370c97083b0227547e6e8a2a6d451920",
+      "inspected": true
+    },
+    {
+      "file": "review-final/248142660-0-0-0-right.png",
+      "sha256": "80424e00e45595533158f4e7c8b8fda977c8d02b559f48250fbfad790b2aae7a",
+      "inspected": true
+    },
+    {
+      "file": "review-final/248142660-0-mass-north.png",
+      "sha256": "3f019d720c80688c9a83a9ea8e6e8fe8956ec3624959755254911cb801025717",
+      "inspected": true
+    },
+    {
+      "file": "review-final/248142660-0-mass-south.png",
+      "sha256": "b28eaa4b3e26b44e9e61ae2d3a5004aba8b329a0ab053012e3b4696e367a7545",
+      "inspected": true
+    },
+    {
+      "file": "review-final/248142713-0-0-0-front.png",
+      "sha256": "a19e3fa594e0c3d092a41f310e1f414ce1c1c9efeab023e8c2fb6cd8b9746399",
+      "inspected": true
+    },
+    {
+      "file": "review-final/248142713-0-0-0-left.png",
+      "sha256": "65012b601cb3ba9b14132ea075bb62941b4e231eb14a80bceacc0f3bfc4c7186",
+      "inspected": true
+    },
+    {
+      "file": "review-final/248142713-0-0-0-right.png",
+      "sha256": "683de70b5c4eeb4745ccc9ef3d271fc01988c94827b2eb10e5251a5bfbcf783d",
+      "inspected": true
+    },
+    {
+      "file": "review-final/248142713-0-0-1-front.png",
+      "sha256": "c2ae4693415ab8b51e94988ad7527a6608ec6d31713ef8a361ea7f1889973b5c",
+      "inspected": true
+    },
+    {
+      "file": "review-final/248142713-0-0-1-left.png",
+      "sha256": "5eb4492dd997b193dbdc5f0a68f446259df2eb0e156a29b065bc625d0ca8a7ff",
+      "inspected": true
+    },
+    {
+      "file": "review-final/248142713-0-0-1-right.png",
+      "sha256": "fafed2b5464daac72367e035f1299e292250c7e2fb64fe30018234d1a93e1922",
+      "inspected": true
+    },
+    {
+      "file": "review-final/248142713-0-shop-complete.png",
+      "sha256": "faf884cee1eb3f0847ab58388dc4f944ffa8f819dace148b2631d081792e8ef0",
+      "inspected": true
+    },
+    {
+      "file": "review-final/248142713-0-mass-north.png",
+      "sha256": "21f847d304e3c5170561d0e57ad8e8d6166d96ef3f8b68fc2a3c48833f0d0fde",
+      "inspected": true
+    },
+    {
+      "file": "review-final/248142713-0-mass-south.png",
+      "sha256": "d7bc04ca659e5a156c928cf84a56bd49bbd16c590c416357b01831d2d10f6ab8",
+      "inspected": true
+    },
+    {
+      "file": "review-final/block-weather-0.png",
+      "sha256": "c8b4205f3a53b34db35ee5371187b813be805cac9172356377eb811fe262682a",
+      "inspected": true
+    },
+    {
+      "file": "review-final/block-weather-1.png",
+      "sha256": "63bb7b205e9a7531117b9fd156738441640ab8f020fbf7f2ad93561ffbb7e97c",
+      "inspected": true
+    },
+    {
+      "file": "review-final/block-weather-2.png",
+      "sha256": "f3363c5322b859e3cf5fa63313fa39ace0f4e19a1b5b024a43c7a70a87f05560",
+      "inspected": true
+    }
+  ],
+  "remainingLimits": [
+    "Visual dimensions and fixture positions are estimates, not surveys.",
+    "Exact logo artwork, proprietary letterforms, tiny poster/menu/carton copy and inventory remain approximations.",
+    "Occluded panes and hidden interiors/rear/roof equipment remain unknown.",
+    "April 2026 ground-floor sources and September 2024 upper detail do not establish unchanged October 2026 occupancy.",
+    "No calibrated camera match, 1:1 acceptance or numerical x50 improvement is claimed.",
+    "148 Ninth return is outside P02; shared mass is present without authored return storefront detail."
+  ],
+  "gameplayImages": [
+    {
+      "file": "routes-final/avenue-a-still-closed.png",
+      "sha256": "af80418c77e33f3a112f70b52c134ea4b85fe5ceafecc901101c79b1ce6c4f01",
+      "inspected": true
+    },
+    {
+      "file": "routes-final/east-lane-south.png",
+      "sha256": "05835262034b44e45c330a7fdffd6a947311121cfad25694e39d162787397a4d",
+      "inspected": true
+    },
+    {
+      "file": "routes-final/east-side-cap.png",
+      "sha256": "c120a26a325d4ba46cdf095e11a93259e1d6dd2161a37b8a44523bba9afa0baa",
+      "inspected": true
+    },
+    {
+      "file": "routes-final/first-north.png",
+      "sha256": "64ff1ce0d88a4e14584b9bb0531d89fe2c6878a6bae5f0be2b7aa6e75e73d717",
+      "inspected": true
+    },
+    {
+      "file": "routes-final/first-south.png",
+      "sha256": "6b1f84cd3a665f5de9f3e851e3ce31b7fa66c9a7e5b9199a701b70e86a9cfeef",
+      "inspected": true
+    },
+    {
+      "file": "routes-final/first-terminal.png",
+      "sha256": "a11e0185582d170c0ce579469b5dd3fdac03c40b76c89d632adf6b8cf2395bb6",
+      "inspected": true
+    },
+    {
+      "file": "routes-final/north-camera-0.png",
+      "sha256": "323f8566eed5186e3b8ed5cf3b833f4579ccb5ce994fe7db9969c7b793c7d407",
+      "inspected": true
+    },
+    {
+      "file": "routes-final/north-camera-1.png",
+      "sha256": "c5e0309dc1634d7cc710f837c34400c49e6a431d293e396a9177cd1419cbf2dd",
+      "inspected": true
+    },
+    {
+      "file": "routes-final/north-camera-2.png",
+      "sha256": "cf27b53c868aed6909a42b2348992d148e694e6b2f3426ebda5a3a38be87ec62",
+      "inspected": true
+    },
+    {
+      "file": "routes-final/north-camera-3.png",
+      "sha256": "18c0715880dc8fc366e2099f1bca6ee6281473fd0cbcb760f81570f25f689dbe",
+      "inspected": true
+    },
+    {
+      "file": "routes-final/reset-seventh.png",
+      "sha256": "083f50e833f9a514f6c8786a3401a9df162e18dd66a7bdc5484a3dc53469035c",
+      "inspected": true
+    },
+    {
+      "file": "routes-final/second-still-closed.png",
+      "sha256": "74cab8371a46b63ce8f99f9e3d275249e0dca8c1694160677d07ceb1c5356b38",
+      "inspected": true
+    },
+    {
+      "file": "routes-final/west-lane-north.png",
+      "sha256": "de8a74e7e1c16c7b49881b6f2c9f09bf082407dd5fb7b32786c4caf317cf02ef",
+      "inspected": true
+    }
+  ],
+  "gameplayReview": "All 13 route/boundary/camera/reset images inspected. Old Second/Avenue A terminal labels still face outward; preserved outside this packet. Boundary contact snapshots follow a brief reverse-brake pulse; held-throttle samples establish stopping."
+}

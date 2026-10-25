@@ -1,0 +1,73 @@
+{
+  "recorded": "2026-10-14T14:32:01.968097+00:00",
+  "session": "01-E09-21-N01B",
+  "state": "complete locally; checks passed within recorded limits",
+  "builtAt": "2026-10-14T05:01:04.528Z",
+  "pack": {
+    "bytes": 8031316,
+    "sha256": "143be91b9c79a859ff6de5ef3f4bb6bea718ab2573b1f8eef26a02c2d300588d",
+    "brotliBytes": 7409689
+  },
+  "sourceCheckout": "a2a90a3e08540e15f40e0ede0f8af14921f54675",
+  "checks": {
+    "originalVerify": "passed; logs/n01b-original-verify-final.log",
+    "exportVerify": "passed; logs/n01b-verify-final.log",
+    "protectedGLBs": 217,
+    "protectedCompiledScenes": 217,
+    "detailImagesOpened": 58,
+    "gameplayImagesOpened": 18,
+    "drivingLegs": 6,
+    "drivingContacts": 0,
+    "drivingHolds": 0,
+    "boundaries": 7,
+    "cameraModes": 4,
+    "reset": "passed",
+    "newBuildingOwners": 4,
+    "addressCases": 17,
+    "startups": {
+      "beforeCold": 5,
+      "beforeCacheEnabled": 5,
+      "finalCold": 5,
+      "finalCacheEnabled": 5,
+      "finalErrors": 0,
+      "interruptedTrial": "retained separately"
+    },
+    "httpHashRoutes": 4,
+    "runtimeFileLengths": 240,
+    "diffWhitespace": "passed",
+    "skillQuickValidate": "passed; structural skill validation, not a behavioral evaluation"
+  },
+  "evidence": {
+    "visual": "visual-review.json",
+    "routes": "routes-final/captures.json",
+    "address": "address-final/review.json",
+    "startups": "performance-final/startups.json",
+    "metrics": "metrics.json",
+    "preservation": "preservation.json",
+    "http": "http-validation.json"
+  },
+  "trialLimits": [
+    "Four earlier 58-image capture sets and routes-04 retained separately; fifth build final 58-detail/18-gameplay review complete.",
+    "Before and final startup runs differ by shutdown and fresh browser profile; interrupted trial retained with five runs and CDP timeout.",
+    "Address setup reused sequence ID 1; checker repaired, failed trial retained, final 17 cases pass without runtime changes.",
+    "No calibrated 1:1, independent second reviewer, whole-area/mobile scalability or total RAM test."
+  ],
+  "publication": {
+    "requested": false,
+    "commit": false,
+    "push": false,
+    "ci": false,
+    "deployment": false,
+    "productionRecheck": false
+  },
+  "next": "01-E09-21-N02A only on next user instruction",
+  "documentation": {
+    "files": 14,
+    "relativeLinks": 677,
+    "jsonCsvRows": 193,
+    "leafPackets": 11,
+    "uniqueLeafFaces": 53,
+    "parentChildOwnership": "passed",
+    "estimateArithmetic": "passed"
+  }
+}

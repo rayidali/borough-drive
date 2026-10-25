@@ -1,0 +1,285 @@
+{
+  "recorded": "2026-10-14T03:01:23.868824+00:00",
+  "buildAt": "2026-10-14T02:50:35.713Z",
+  "pack": {
+    "bytes": 8023168,
+    "sha256": "418cedd49602c3f553ec5f863bdd7e0cbe69baec676461bbb0b14960a9a75bed",
+    "brotliBytes": 7404687
+  },
+  "detailImagesOpened": 59,
+  "allNames": "inspected-views.json",
+  "faces": [
+    {
+      "faceId": "247852691:1",
+      "state": "reviewed local candidate within dated-source limits",
+      "sourceIds": [
+        "corner-historic",
+        "corner-may",
+        "market-may",
+        "hotel-realty-may"
+      ],
+      "views": [
+        "247852691-1-elevation",
+        "247852691-1-ground-west",
+        "247852691-1-ground-middle",
+        "247852691-1-ground-east",
+        "247852691-1-0-0-front",
+        "247852691-1-0-0-left",
+        "247852691-1-0-0-right",
+        "247852691-1-mass-north",
+        "247852691-1-mass-south",
+        "247852691-1-1-0-front",
+        "247852691-1-1-0-left",
+        "247852691-1-1-0-right",
+        "247852691-1-1-1-front",
+        "247852691-1-1-1-left",
+        "247852691-1-1-1-right",
+        "247852691-1-1-2-front",
+        "247852691-1-1-2-left",
+        "247852691-1-1-2-right",
+        "247852691-1-shop-complete"
+      ],
+      "geometry": "Mapped footprint/height retained; opening pattern, cornice, relief, access and joints inspected; inferred dimensions remain estimates."
+    },
+    {
+      "faceId": "247852690:0",
+      "state": "reviewed local candidate within dated-source limits",
+      "sourceIds": [
+        "realty-architecture",
+        "realty-residential-access",
+        "hotel-realty-may",
+        "ninth-oblique-september"
+      ],
+      "views": [
+        "247852690-0-elevation",
+        "247852690-0-ground-west",
+        "247852690-0-ground-middle",
+        "247852690-0-ground-east",
+        "247852690-0-0-0-front",
+        "247852690-0-0-0-left",
+        "247852690-0-0-0-right",
+        "247852690-0-mass-north",
+        "247852690-0-mass-south"
+      ],
+      "geometry": "Mapped footprint/height retained; opening pattern, cornice, relief, access and joints inspected; inferred dimensions remain estimates."
+    },
+    {
+      "faceId": "247852697:0",
+      "state": "reviewed local candidate within dated-source limits",
+      "sourceIds": [
+        "ninth-upper-september",
+        "realty-residential-access",
+        "immigrant-access-historic"
+      ],
+      "views": [
+        "247852697-0-elevation",
+        "247852697-0-ground-west",
+        "247852697-0-ground-middle",
+        "247852697-0-ground-east"
+      ],
+      "geometry": "Mapped footprint/height retained; opening pattern, cornice, relief, access and joints inspected; inferred dimensions remain estimates."
+    },
+    {
+      "faceId": "247852689:0",
+      "state": "reviewed local candidate within dated-source limits",
+      "sourceIds": [
+        "ninth-upper-september",
+        "immigrant-current",
+        "immigrant-access-historic"
+      ],
+      "views": [
+        "247852689-0-elevation",
+        "247852689-0-ground-west",
+        "247852689-0-ground-middle",
+        "247852689-0-ground-east",
+        "247852689-0-0-0-front",
+        "247852689-0-0-0-left",
+        "247852689-0-0-0-right",
+        "247852689-0-mass-north",
+        "247852689-0-mass-south",
+        "247852689-0-1-0-front",
+        "247852689-0-1-0-left",
+        "247852689-0-1-0-right"
+      ],
+      "geometry": "Mapped footprint/height retained; opening pattern, cornice, relief, access and joints inspected; inferred dimensions remain estimates."
+    }
+  ],
+  "businesses": [
+    {
+      "id": "247852691:1:0",
+      "name": "East Village Hotel — EVH entrance",
+      "sourceIds": [
+        "hotel-realty-may",
+        "corner-historic"
+      ],
+      "state": "reviewed local candidate, not user/calibrated acceptance",
+      "identity": "Separate narrow black hotel leaf and broad blue curtained EVH window; small number at entry.",
+      "views": [
+        "247852691-1-0-0-front",
+        "247852691-1-0-0-left",
+        "247852691-1-0-0-right"
+      ],
+      "limits": [
+        "Dated external appearance; relief, lettering, artwork and shallow display details are estimates. Deep interiors unobserved."
+      ]
+    },
+    {
+      "id": "247852691:1:1",
+      "name": "Sweet Village Market Place — Ninth return",
+      "sourceIds": [
+        "market-may",
+        "corner-may"
+      ],
+      "state": "reviewed local candidate, not user/calibrated acceptance",
+      "identity": "Six unequal food/display fields, dark decorated piers, separate east MARKET PLACE fascia and oval Sweet Village mark; no Ninth awning.",
+      "views": [
+        "247852691-1-1-0-front",
+        "247852691-1-1-0-left",
+        "247852691-1-1-0-right",
+        "247852691-1-1-1-front",
+        "247852691-1-1-1-left",
+        "247852691-1-1-1-right",
+        "247852691-1-1-2-front",
+        "247852691-1-1-2-left",
+        "247852691-1-1-2-right"
+      ],
+      "limits": [
+        "Dated external appearance; relief, lettering, artwork and shallow display details are estimates. Deep interiors unobserved."
+      ]
+    },
+    {
+      "id": "247852690:0:0",
+      "name": "Universal Realty Group",
+      "sourceIds": [
+        "realty-architecture",
+        "realty-residential-access",
+        "hotel-realty-may"
+      ],
+      "state": "reviewed local candidate, not user/calibrated acceptance",
+      "identity": "Navy inclined fabric canopy with large white serif identity and small services strip; taupe metal glazing, listing sheets, raised ramp and slim rail.",
+      "views": [
+        "247852690-0-0-0-front",
+        "247852690-0-0-0-left",
+        "247852690-0-0-0-right"
+      ],
+      "limits": [
+        "Dated external appearance; relief, lettering, artwork and shallow display details are estimates. Deep interiors unobserved."
+      ]
+    },
+    {
+      "id": "247852689:0:0",
+      "name": "The Immigrant — Tap Room",
+      "sourceIds": [
+        "immigrant-current",
+        "immigrant-access-historic"
+      ],
+      "state": "reviewed local candidate, not user/calibrated acceptance",
+      "identity": "Gold arched Tap Room lettering in broad west pane, separate narrow door, navy panels and independent small shades.",
+      "views": [
+        "247852689-0-0-0-front",
+        "247852689-0-0-0-left",
+        "247852689-0-0-0-right"
+      ],
+      "limits": [
+        "Dated external appearance; relief, lettering, artwork and shallow display details are estimates. Deep interiors unobserved."
+      ]
+    },
+    {
+      "id": "247852689:0:1",
+      "name": "The Immigrant — Wine Bar",
+      "sourceIds": [
+        "immigrant-current",
+        "immigrant-access-historic"
+      ],
+      "state": "reviewed local candidate, not user/calibrated acceptance",
+      "identity": "Warm timber door then broad gold-lettered Wine Bar pane with shallow bottle display; separate from Tap Room and central 341 entry.",
+      "views": [
+        "247852689-0-1-0-front",
+        "247852689-0-1-0-left",
+        "247852689-0-1-0-right"
+      ],
+      "limits": [
+        "Dated external appearance; relief, lettering, artwork and shallow display details are estimates. Deep interiors unobserved."
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "pair": [
+        247852691,
+        247852690
+      ],
+      "condition": "Mapped touching party wall, no inferred through-alley; independent cornice/roof height and surface.",
+      "protectedOrDeferredNeighbor": false
+    },
+    {
+      "pair": [
+        247852690,
+        247852697
+      ],
+      "condition": "Mapped touching party wall, no inferred through-alley; independent cornice/roof height and surface.",
+      "protectedOrDeferredNeighbor": false
+    },
+    {
+      "pair": [
+        247852697,
+        247852689
+      ],
+      "condition": "Mapped touching party wall, no inferred through-alley; independent cornice/roof height and surface.",
+      "protectedOrDeferredNeighbor": false
+    },
+    {
+      "pair": [
+        247852689,
+        247852687
+      ],
+      "condition": "Mapped touching party wall, no inferred through-alley; independent cornice/roof height and surface.",
+      "protectedOrDeferredNeighbor": true
+    }
+  ],
+  "repairs": [
+    "Identity sign scale and glyph centering",
+    "Paint clipped around full window openings",
+    "Separate salad/juice/coffee/burger/sandwich graphics",
+    "Lettering aligned to the realty canopy slope; service line in front of vertical valance",
+    "147/345/343/341 number placement ahead of trim",
+    "343 infill panels clear of adjacent heads/sills"
+  ],
+  "captureLimits": [
+    "147 south mass oblique is partly hidden by the existing tree; full elevation and other oblique supply complementary coverage.",
+    "The long shop-complete diagnostic crops both outer ends; the three overlapping shop/ground sets provide whole-face coverage.",
+    "341 road-level crops see through the dated enclosure and are veiled by its plastic; direct sidewalk front/left/right crops review each shop separately.",
+    "343 downward view confirms the open dark well; exact step dimensions/depth are visually estimated.",
+    "339 and 147 First-facing detail remain deferred, not observed alleys or finished facades."
+  ],
+  "calibratedAcceptance": false,
+  "independentSecondReviewer": false,
+  "scopeLimits": [
+    "2024 primary Street View with explicitly dated 2017 access/architecture supplements, not an October 2026 field survey.",
+    "Municipal mapped footprints/heights retained. Facade divisions, relief, window sizes, furniture placement and mural/food artwork are visual estimates, not calibrated 1:1 acceptance.",
+    "No invented fourth narrow central 341 window behind the lowest escape. Hidden roofs/rears and deep interiors are unobserved.",
+    "147 First-facing frontage remains plain context; only its assigned Ninth face is detailed."
+  ],
+  "gameplayImagesOpened": 18,
+  "gameplayNames": [
+    "first-north",
+    "first-south",
+    "west-lane-north",
+    "east-lane-south",
+    "ninth-west",
+    "ninth-east",
+    "first-terminal",
+    "second-still-closed",
+    "avenue-a-still-closed",
+    "ninth-west-terminal",
+    "east-ninth-closed-at-curb",
+    "west-ninth-outer",
+    "north-ninth-outer",
+    "north-camera-0",
+    "north-camera-1",
+    "north-camera-2",
+    "north-camera-3",
+    "reset-seventh"
+  ],
+  "gameplayAssessment": "Six endpoint, seven boundary, four camera and one reset images opened. Clear traveled lane, terminal placement, preserved HUD and reset inspected; missing neighbors/147 First detail remain deferred context."
+}

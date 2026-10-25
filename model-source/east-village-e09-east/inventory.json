@@ -1,0 +1,3053 @@
+{
+  "id": "01-E09-1A",
+  "bounds": "East Ninth First Avenue to Avenue A, both sides, same-parcel corner returns at 150 First, 141/145 Avenue A; existing 148 First Ninth face only",
+  "faces": [
+    {
+      "faceId": "248142661:0",
+      "buildingId": 248142661,
+      "frontageIndex": 0,
+      "address": "402 East 9th Street",
+      "side": "south",
+      "sourceFace": {
+        "x": 39.895,
+        "z": 83.614,
+        "rx": -0.9999997928868919,
+        "rz": 0.0006436040501268291,
+        "length": 6.215,
+        "street": "East 9th Street"
+      },
+      "sourceHeight": 10.91,
+      "sourceFootprint": [
+        [
+          39.931,
+          95.605
+        ],
+        [
+          33.712,
+          95.599
+        ],
+        [
+          33.695,
+          88.781
+        ],
+        [
+          33.68,
+          83.618
+        ],
+        [
+          39.895,
+          83.614
+        ]
+      ],
+      "core": false,
+      "existingModel": false,
+      "state": "needs-evidence"
+    },
+    {
+      "faceId": "248142662:0",
+      "buildingId": 248142662,
+      "frontageIndex": 0,
+      "address": "404 East 9th Street",
+      "side": "south",
+      "sourceFace": {
+        "x": 46.074,
+        "z": 83.617,
+        "rx": -0.999999882137392,
+        "rz": -0.0004855153983512368,
+        "length": 6.179,
+        "street": "East 9th Street"
+      },
+      "sourceHeight": 11.49,
+      "sourceFootprint": [
+        [
+          46.105,
+          95.598
+        ],
+        [
+          39.931,
+          95.605
+        ],
+        [
+          39.895,
+          83.614
+        ],
+        [
+          46.074,
+          83.617
+        ],
+        [
+          46.088,
+          89.927
+        ]
+      ],
+      "core": false,
+      "existingModel": false,
+      "state": "needs-evidence"
+    },
+    {
+      "faceId": "248142663:0",
+      "buildingId": 248142663,
+      "frontageIndex": 0,
+      "address": "406 East 9th Street",
+      "side": "south",
+      "sourceFace": {
+        "x": 58.5,
+        "z": 83.624,
+        "rx": -0.9999998413269089,
+        "rz": -0.0005633348534749037,
+        "length": 12.426,
+        "street": "East 9th Street"
+      },
+      "sourceHeight": 19.08,
+      "sourceFootprint": [
+        [
+          58.522,
+          89.929
+        ],
+        [
+          56.01,
+          89.925
+        ],
+        [
+          55.252,
+          90.576
+        ],
+        [
+          55.258,
+          91.732
+        ],
+        [
+          56.677,
+          91.732
+        ],
+        [
+          56.711,
+          102.4
+        ],
+        [
+          48.196,
+          102.396
+        ],
+        [
+          48.152,
+          91.938
+        ],
+        [
+          49.551,
+          91.937
+        ],
+        [
+          49.548,
+          90.958
+        ],
+        [
+          48.886,
+          89.925
+        ],
+        [
+          46.088,
+          89.927
+        ],
+        [
+          46.074,
+          83.617
+        ],
+        [
+          58.5,
+          83.624
+        ]
+      ],
+      "core": false,
+      "existingModel": false,
+      "state": "needs-evidence"
+    },
+    {
+      "faceId": "248142664:0",
+      "buildingId": 248142664,
+      "frontageIndex": 0,
+      "address": "410 East 9th Street",
+      "side": "south",
+      "sourceFace": {
+        "x": 64.885,
+        "z": 83.614,
+        "rx": -0.9999987735569058,
+        "rz": 0.0015661687917869938,
+        "length": 6.385,
+        "street": "East 9th Street"
+      },
+      "sourceHeight": 11.74,
+      "sourceFootprint": [
+        [
+          64.922,
+          95.885
+        ],
+        [
+          62.641,
+          95.88
+        ],
+        [
+          62.652,
+          98.625
+        ],
+        [
+          58.543,
+          98.63
+        ],
+        [
+          58.522,
+          89.929
+        ],
+        [
+          58.5,
+          83.624
+        ],
+        [
+          64.885,
+          83.614
+        ]
+      ],
+      "core": false,
+      "existingModel": false,
+      "state": "needs-evidence"
+    },
+    {
+      "faceId": "248142666:0",
+      "buildingId": 248142666,
+      "frontageIndex": 0,
+      "address": "416 East 9th Street",
+      "side": "south",
+      "sourceFace": {
+        "x": 87.959,
+        "z": 83.623,
+        "rx": -1.0,
+        "rz": 0.0,
+        "length": 11.66,
+        "street": "East 9th Street"
+      },
+      "sourceHeight": 17.67,
+      "sourceFootprint": [
+        [
+          88.009,
+          99.058
+        ],
+        [
+          76.344,
+          99.049
+        ],
+        [
+          76.299,
+          83.623
+        ],
+        [
+          87.959,
+          83.623
+        ]
+      ],
+      "core": false,
+      "existingModel": false,
+      "state": "needs-evidence"
+    },
+    {
+      "faceId": "248142668:0",
+      "buildingId": 248142668,
+      "frontageIndex": 0,
+      "address": "418 1/2 East 9th Street",
+      "side": "south",
+      "sourceFace": {
+        "x": 99.129,
+        "z": 83.627,
+        "rx": -0.999999966974643,
+        "rz": -0.00025700333255338105,
+        "length": 3.891,
+        "street": "East 9th Street"
+      },
+      "sourceHeight": 18.13,
+      "sourceFootprint": [
+        [
+          99.196,
+          103.537
+        ],
+        [
+          95.305,
+          103.535
+        ],
+        [
+          95.26,
+          89.498
+        ],
+        [
+          95.238,
+          83.626
+        ],
+        [
+          99.129,
+          83.627
+        ],
+        [
+          99.184,
+          100.27
+        ]
+      ],
+      "core": false,
+      "existingModel": false,
+      "state": "needs-evidence"
+    },
+    {
+      "faceId": "248142669:0",
+      "buildingId": 248142669,
+      "frontageIndex": 0,
+      "address": "418 East 9th Street",
+      "side": "south",
+      "sourceFace": {
+        "x": 95.238,
+        "z": 83.626,
+        "rx": -0.999999915068456,
+        "rz": -0.00041214449034283326,
+        "length": 7.279,
+        "street": "East 9th Street"
+      },
+      "sourceHeight": 18.75,
+      "sourceFootprint": [
+        [
+          95.305,
+          103.535
+        ],
+        [
+          88.018,
+          103.536
+        ],
+        [
+          88.009,
+          99.058
+        ],
+        [
+          87.959,
+          83.623
+        ],
+        [
+          95.238,
+          83.626
+        ],
+        [
+          95.26,
+          89.498
+        ]
+      ],
+      "core": false,
+      "existingModel": false,
+      "state": "needs-evidence"
+    },
+    {
+      "faceId": "248142672:0",
+      "buildingId": 248142672,
+      "frontageIndex": 0,
+      "address": "420 East 9th Street",
+      "side": "south",
+      "sourceFace": {
+        "x": 104.821,
+        "z": 83.621,
+        "rx": -0.999999444425428,
+        "rz": 0.0010541104473915676,
+        "length": 5.692,
+        "street": "East 9th Street"
+      },
+      "sourceHeight": 17.56,
+      "sourceFootprint": [
+        [
+          104.874,
+          100.277
+        ],
+        [
+          99.184,
+          100.27
+        ],
+        [
+          99.129,
+          83.627
+        ],
+        [
+          104.821,
+          83.621
+        ]
+      ],
+      "core": false,
+      "existingModel": false,
+      "state": "needs-evidence"
+    },
+    {
+      "faceId": "248142675:0",
+      "buildingId": 248142675,
+      "frontageIndex": 0,
+      "address": "422 East 9th Street",
+      "side": "south",
+      "sourceFace": {
+        "x": 110.47,
+        "z": 83.626,
+        "rx": -0.9999996082882416,
+        "rz": -0.0008851120625687504,
+        "length": 5.649,
+        "street": "East 9th Street"
+      },
+      "sourceHeight": 17.29,
+      "sourceFootprint": [
+        [
+          110.518,
+          100.272
+        ],
+        [
+          104.874,
+          100.277
+        ],
+        [
+          104.821,
+          83.621
+        ],
+        [
+          110.47,
+          83.626
+        ]
+      ],
+      "core": false,
+      "existingModel": false,
+      "state": "needs-evidence"
+    },
+    {
+      "faceId": "248142676:0",
+      "buildingId": 248142676,
+      "frontageIndex": 0,
+      "address": "424 East 9th Street",
+      "side": "south",
+      "sourceFace": {
+        "x": 122.13,
+        "z": 83.626,
+        "rx": -1.0,
+        "rz": 0.0,
+        "length": 11.66,
+        "street": "East 9th Street"
+      },
+      "sourceHeight": 17.6,
+      "sourceFootprint": [
+        [
+          122.178,
+          100.272
+        ],
+        [
+          110.518,
+          100.272
+        ],
+        [
+          110.47,
+          83.626
+        ],
+        [
+          122.13,
+          83.626
+        ]
+      ],
+      "core": false,
+      "existingModel": false,
+      "state": "needs-evidence"
+    },
+    {
+      "faceId": "248142677:0",
+      "buildingId": 248142677,
+      "frontageIndex": 0,
+      "address": "426 East 9th Street",
+      "side": "south",
+      "sourceFace": {
+        "x": 129.668,
+        "z": 83.625,
+        "rx": -0.9999999912005053,
+        "rz": 0.00013266118217103724,
+        "length": 7.538,
+        "street": "East 9th Street"
+      },
+      "sourceHeight": 17.52,
+      "sourceFootprint": [
+        [
+          129.75,
+          107.589
+        ],
+        [
+          122.199,
+          107.584
+        ],
+        [
+          122.178,
+          100.272
+        ],
+        [
+          122.13,
+          83.626
+        ],
+        [
+          129.668,
+          83.625
+        ]
+      ],
+      "core": false,
+      "existingModel": false,
+      "state": "needs-evidence"
+    },
+    {
+      "faceId": "248142679:0",
+      "buildingId": 248142679,
+      "frontageIndex": 0,
+      "address": "428 East 9th Street",
+      "side": "south",
+      "sourceFace": {
+        "x": 137.334,
+        "z": 83.629,
+        "rx": -0.999999863870494,
+        "rz": -0.0005217844319706322,
+        "length": 7.666,
+        "street": "East 9th Street"
+      },
+      "sourceHeight": 17.43,
+      "sourceFootprint": [
+        [
+          137.404,
+          107.587
+        ],
+        [
+          129.75,
+          107.589
+        ],
+        [
+          129.668,
+          83.625
+        ],
+        [
+          137.334,
+          83.629
+        ]
+      ],
+      "core": false,
+      "existingModel": false,
+      "state": "needs-evidence"
+    },
+    {
+      "faceId": "248142681:0",
+      "buildingId": 248142681,
+      "frontageIndex": 0,
+      "address": "430 East 9th Street",
+      "side": "south",
+      "sourceFace": {
+        "x": 145.083,
+        "z": 83.625,
+        "rx": -0.9999998667710582,
+        "rz": 0.0005161955693752902,
+        "length": 7.749,
+        "street": "East 9th Street"
+      },
+      "sourceHeight": 19.57,
+      "sourceFootprint": [
+        [
+          145.109,
+          91.049
+        ],
+        [
+          144.085,
+          91.759
+        ],
+        [
+          144.096,
+          94.695
+        ],
+        [
+          143.267,
+          94.697
+        ],
+        [
+          143.282,
+          97.364
+        ],
+        [
+          144.104,
+          97.365
+        ],
+        [
+          144.113,
+          100.124
+        ],
+        [
+          145.14,
+          100.878
+        ],
+        [
+          145.165,
+          107.589
+        ],
+        [
+          137.404,
+          107.587
+        ],
+        [
+          137.334,
+          83.629
+        ],
+        [
+          145.083,
+          83.625
+        ]
+      ],
+      "core": false,
+      "existingModel": false,
+      "state": "needs-evidence"
+    },
+    {
+      "faceId": "248142682:0",
+      "buildingId": 248142682,
+      "frontageIndex": 0,
+      "address": "432 East 9th Street",
+      "side": "south",
+      "sourceFace": {
+        "x": 152.43,
+        "z": 83.628,
+        "rx": -0.9999999166333444,
+        "rz": -0.0004083298965428261,
+        "length": 7.347,
+        "street": "East 9th Street"
+      },
+      "sourceHeight": 12.96,
+      "sourceFootprint": [
+        [
+          152.483,
+          99.52
+        ],
+        [
+          145.136,
+          99.517
+        ],
+        [
+          145.109,
+          91.049
+        ],
+        [
+          145.083,
+          83.625
+        ],
+        [
+          152.43,
+          83.628
+        ],
+        [
+          152.479,
+          98.975
+        ]
+      ],
+      "core": false,
+      "existingModel": false,
+      "state": "needs-evidence"
+    },
+    {
+      "faceId": "248142683:0",
+      "buildingId": 248142683,
+      "frontageIndex": 0,
+      "address": "434 East 9th Street",
+      "side": "south",
+      "sourceFace": {
+        "x": 159.92,
+        "z": 83.628,
+        "rx": -1.0,
+        "rz": 0.0,
+        "length": 7.49,
+        "street": "East 9th Street"
+      },
+      "sourceHeight": 15.21,
+      "sourceFootprint": [
+        [
+          159.97,
+          98.975
+        ],
+        [
+          152.479,
+          98.975
+        ],
+        [
+          152.43,
+          83.628
+        ],
+        [
+          159.92,
+          83.628
+        ]
+      ],
+      "core": false,
+      "existingModel": false,
+      "state": "needs-evidence"
+    },
+    {
+      "faceId": "248142684:0",
+      "buildingId": 248142684,
+      "frontageIndex": 0,
+      "address": "436 East 9th Street",
+      "side": "south",
+      "sourceFace": {
+        "x": 167.479,
+        "z": 83.629,
+        "rx": -0.99999999124933,
+        "rz": -0.00013229263014341862,
+        "length": 7.559,
+        "street": "East 9th Street"
+      },
+      "sourceHeight": 15.51,
+      "sourceFootprint": [
+        [
+          167.528,
+          98.975
+        ],
+        [
+          159.97,
+          98.975
+        ],
+        [
+          159.92,
+          83.628
+        ],
+        [
+          167.479,
+          83.629
+        ],
+        [
+          167.51,
+          91.878
+        ]
+      ],
+      "core": false,
+      "existingModel": false,
+      "state": "needs-evidence"
+    },
+    {
+      "faceId": "248142685:0",
+      "buildingId": 248142685,
+      "frontageIndex": 0,
+      "address": "438 East 9th Street",
+      "side": "south",
+      "sourceFace": {
+        "x": 175.647,
+        "z": 83.634,
+        "rx": -0.9999998126393292,
+        "rz": -0.0006121448412331186,
+        "length": 8.168,
+        "street": "East 9th Street"
+      },
+      "sourceHeight": 14.35,
+      "sourceFootprint": [
+        [
+          175.673,
+          91.873
+        ],
+        [
+          167.51,
+          91.878
+        ],
+        [
+          167.479,
+          83.629
+        ],
+        [
+          175.647,
+          83.634
+        ]
+      ],
+      "core": false,
+      "existingModel": false,
+      "state": "needs-evidence"
+    },
+    {
+      "faceId": "248142702:0",
+      "buildingId": 248142702,
+      "frontageIndex": 0,
+      "address": "440 East 9th Street",
+      "side": "south",
+      "sourceFace": {
+        "x": 183.891,
+        "z": 83.635,
+        "rx": -0.9999999926431139,
+        "rz": -0.0001213003387491374,
+        "length": 8.244,
+        "street": "East 9th Street"
+      },
+      "sourceHeight": 14.78,
+      "sourceFootprint": [
+        [
+          175.647,
+          83.634
+        ],
+        [
+          183.891,
+          83.635
+        ],
+        [
+          183.917,
+          91.874
+        ],
+        [
+          175.673,
+          91.873
+        ]
+      ],
+      "core": false,
+      "existingModel": false,
+      "state": "needs-evidence"
+    },
+    {
+      "faceId": "248142710:0",
+      "buildingId": 248142710,
+      "frontageIndex": 0,
+      "address": "412 East 9th Street",
+      "side": "south",
+      "sourceFace": {
+        "x": 76.299,
+        "z": 83.623,
+        "rx": -0.999999689129806,
+        "rz": -0.0007885050991912208,
+        "length": 11.414,
+        "street": "East 9th Street"
+      },
+      "sourceHeight": 16.99,
+      "sourceFootprint": [
+        [
+          76.353,
+          103.387
+        ],
+        [
+          64.951,
+          103.384
+        ],
+        [
+          64.922,
+          95.885
+        ],
+        [
+          64.885,
+          83.614
+        ],
+        [
+          76.299,
+          83.623
+        ],
+        [
+          76.344,
+          99.049
+        ]
+      ],
+      "core": false,
+      "existingModel": false,
+      "state": "needs-evidence"
+    },
+    {
+      "faceId": "248142713:1",
+      "buildingId": 248142713,
+      "frontageIndex": 1,
+      "address": "148 1st Avenue",
+      "side": "south",
+      "sourceFace": {
+        "x": 33.68,
+        "z": 83.618,
+        "rx": -0.9999999621716159,
+        "rz": -0.0002750577517248065,
+        "length": 18.178,
+        "street": "East 9th Street"
+      },
+      "sourceHeight": 13.36,
+      "sourceFootprint": [
+        [
+          33.695,
+          88.781
+        ],
+        [
+          29.158,
+          88.782
+        ],
+        [
+          29.173,
+          93.894
+        ],
+        [
+          15.531,
+          93.888
+        ],
+        [
+          15.502,
+          83.613
+        ],
+        [
+          33.68,
+          83.618
+        ]
+      ],
+      "core": false,
+      "existingModel": true,
+      "state": "needs-evidence"
+    },
+    {
+      "faceId": "248142716:0",
+      "buildingId": 248142716,
+      "frontageIndex": 0,
+      "address": "141 Avenue A",
+      "side": "south",
+      "sourceFace": {
+        "x": 202.165,
+        "z": 83.638,
+        "rx": -1.0,
+        "rz": 0.0,
+        "length": 14.981,
+        "street": "East 9th Street"
+      },
+      "sourceHeight": 15.4,
+      "sourceFootprint": [
+        [
+          187.214,
+          92.041
+        ],
+        [
+          187.203,
+          90.302
+        ],
+        [
+          185.552,
+          90.303
+        ],
+        [
+          185.541,
+          85.596
+        ],
+        [
+          187.192,
+          85.595
+        ],
+        [
+          187.184,
+          83.638
+        ],
+        [
+          202.165,
+          83.638
+        ],
+        [
+          202.187,
+          92.045
+        ]
+      ],
+      "core": false,
+      "existingModel": false,
+      "state": "needs-evidence"
+    },
+    {
+      "faceId": "248142716:1",
+      "buildingId": 248142716,
+      "frontageIndex": 1,
+      "address": "141 Avenue A",
+      "side": "corner return",
+      "sourceFace": {
+        "x": 202.187,
+        "z": 92.045,
+        "rx": -0.0026168579365398797,
+        "rz": -0.9999965760214081,
+        "length": 8.407,
+        "street": "Avenue A"
+      },
+      "sourceHeight": 15.4,
+      "sourceFootprint": [
+        [
+          187.214,
+          92.041
+        ],
+        [
+          187.203,
+          90.302
+        ],
+        [
+          185.552,
+          90.303
+        ],
+        [
+          185.541,
+          85.596
+        ],
+        [
+          187.192,
+          85.595
+        ],
+        [
+          187.184,
+          83.638
+        ],
+        [
+          202.165,
+          83.638
+        ],
+        [
+          202.187,
+          92.045
+        ]
+      ],
+      "core": false,
+      "existingModel": false,
+      "state": "needs-evidence"
+    },
+    {
+      "faceId": "248142921:0",
+      "buildingId": 248142921,
+      "frontageIndex": 0,
+      "address": "411 East 9th Street",
+      "side": "north",
+      "sourceFace": {
+        "x": 61.35,
+        "z": 65.888,
+        "rx": 0.9999879264965104,
+        "rz": -0.004913945584749622,
+        "length": 7.326,
+        "street": "East 9th Street"
+      },
+      "sourceHeight": 17.51,
+      "sourceFootprint": [
+        [
+          68.676,
+          65.852
+        ],
+        [
+          61.35,
+          65.888
+        ],
+        [
+          61.291,
+          57.45
+        ],
+        [
+          61.262,
+          54.308
+        ],
+        [
+          61.226,
+          49.105
+        ],
+        [
+          68.55,
+          49.083
+        ]
+      ],
+      "core": false,
+      "existingModel": false,
+      "state": "needs-evidence"
+    },
+    {
+      "faceId": "248142923:0",
+      "buildingId": 248142923,
+      "frontageIndex": 0,
+      "address": "413 East 9th Street",
+      "side": "north",
+      "sourceFace": {
+        "x": 68.676,
+        "z": 65.852,
+        "rx": 0.9999929536463922,
+        "rz": -0.0037540188551140412,
+        "length": 7.725,
+        "street": "East 9th Street"
+      },
+      "sourceHeight": 16.13,
+      "sourceFootprint": [
+        [
+          76.401,
+          65.823
+        ],
+        [
+          68.676,
+          65.852
+        ],
+        [
+          68.55,
+          49.083
+        ],
+        [
+          68.545,
+          48.589
+        ],
+        [
+          76.265,
+          48.551
+        ]
+      ],
+      "core": false,
+      "existingModel": false,
+      "state": "needs-evidence"
+    },
+    {
+      "faceId": "248142925:0",
+      "buildingId": 248142925,
+      "frontageIndex": 0,
+      "address": "415 East 9th Street",
+      "side": "north",
+      "sourceFace": {
+        "x": 76.397,
+        "z": 66.093,
+        "rx": 0.9999918620807116,
+        "rz": -0.004034324274402392,
+        "length": 7.684,
+        "street": "East 9th Street"
+      },
+      "sourceHeight": 16.64,
+      "sourceFootprint": [
+        [
+          84.081,
+          66.062
+        ],
+        [
+          76.397,
+          66.093
+        ],
+        [
+          76.401,
+          65.823
+        ],
+        [
+          76.265,
+          48.551
+        ],
+        [
+          76.27,
+          48.039
+        ],
+        [
+          78.078,
+          48.027
+        ],
+        [
+          78.059,
+          45.77
+        ],
+        [
+          81.823,
+          45.753
+        ],
+        [
+          81.839,
+          47.553
+        ],
+        [
+          83.946,
+          47.54
+        ],
+        [
+          83.975,
+          51.167
+        ]
+      ],
+      "core": false,
+      "existingModel": false,
+      "state": "needs-evidence"
+    },
+    {
+      "faceId": "248142926:0",
+      "buildingId": 248142926,
+      "frontageIndex": 0,
+      "address": "417 East 9th Street",
+      "side": "north",
+      "sourceFace": {
+        "x": 84.081,
+        "z": 66.062,
+        "rx": 0.9999938260000217,
+        "rz": -0.0035139666814430074,
+        "length": 7.399,
+        "street": "East 9th Street"
+      },
+      "sourceHeight": 19.82,
+      "sourceFootprint": [
+        [
+          91.48,
+          66.036
+        ],
+        [
+          84.081,
+          66.062
+        ],
+        [
+          83.975,
+          51.167
+        ],
+        [
+          84.613,
+          51.169
+        ],
+        [
+          84.585,
+          47.542
+        ],
+        [
+          83.946,
+          47.54
+        ],
+        [
+          83.907,
+          42.747
+        ],
+        [
+          91.306,
+          42.722
+        ],
+        [
+          91.362,
+          49.887
+        ]
+      ],
+      "core": false,
+      "existingModel": false,
+      "state": "needs-evidence"
+    },
+    {
+      "faceId": "248142927:0",
+      "buildingId": 248142927,
+      "frontageIndex": 0,
+      "address": "419 East 9th Street",
+      "side": "north",
+      "sourceFace": {
+        "x": 91.48,
+        "z": 66.036,
+        "rx": 0.9999895538372977,
+        "rz": -0.004570800398443896,
+        "length": 7.876,
+        "street": "East 9th Street"
+      },
+      "sourceHeight": 13.57,
+      "sourceFootprint": [
+        [
+          99.356,
+          66.0
+        ],
+        [
+          91.48,
+          66.036
+        ],
+        [
+          91.362,
+          49.887
+        ],
+        [
+          99.235,
+          49.865
+        ],
+        [
+          99.257,
+          53.203
+        ],
+        [
+          99.276,
+          55.511
+        ]
+      ],
+      "core": false,
+      "existingModel": false,
+      "state": "needs-evidence"
+    },
+    {
+      "faceId": "248142929:0",
+      "buildingId": 248142929,
+      "frontageIndex": 0,
+      "address": "421 East 9th Street",
+      "side": "north",
+      "sourceFace": {
+        "x": 99.356,
+        "z": 66.0,
+        "rx": 0.9999926662226364,
+        "rz": -0.0038298173511475296,
+        "length": 7.311,
+        "street": "East 9th Street"
+      },
+      "sourceHeight": 18.15,
+      "sourceFootprint": [
+        [
+          106.576,
+          53.171
+        ],
+        [
+          105.325,
+          53.179
+        ],
+        [
+          105.338,
+          55.477
+        ],
+        [
+          106.589,
+          55.469
+        ],
+        [
+          106.667,
+          65.972
+        ],
+        [
+          99.356,
+          66.0
+        ],
+        [
+          99.276,
+          55.511
+        ],
+        [
+          100.554,
+          55.501
+        ],
+        [
+          100.535,
+          53.193
+        ],
+        [
+          99.257,
+          53.203
+        ],
+        [
+          99.235,
+          49.865
+        ],
+        [
+          99.186,
+          43.18
+        ],
+        [
+          106.504,
+          43.149
+        ],
+        [
+          106.549,
+          50.346
+        ]
+      ],
+      "core": false,
+      "existingModel": false,
+      "state": "needs-evidence"
+    },
+    {
+      "faceId": "248142930:0",
+      "buildingId": 248142930,
+      "frontageIndex": 0,
+      "address": "423 East 9th Street",
+      "side": "north",
+      "sourceFace": {
+        "x": 106.667,
+        "z": 65.972,
+        "rx": 0.9999919664673423,
+        "rz": -0.004008366347740975,
+        "length": 5.239,
+        "street": "East 9th Street"
+      },
+      "sourceHeight": 14.08,
+      "sourceFootprint": [
+        [
+          111.906,
+          65.951
+        ],
+        [
+          106.667,
+          65.972
+        ],
+        [
+          106.589,
+          55.469
+        ],
+        [
+          106.576,
+          53.171
+        ],
+        [
+          106.549,
+          50.346
+        ],
+        [
+          111.795,
+          50.32
+        ]
+      ],
+      "core": false,
+      "existingModel": false,
+      "state": "needs-evidence"
+    },
+    {
+      "faceId": "248142932:0",
+      "buildingId": 248142932,
+      "frontageIndex": 0,
+      "address": "425 East 9th Street",
+      "side": "north",
+      "sourceFace": {
+        "x": 111.906,
+        "z": 65.951,
+        "rx": 0.9999912320987953,
+        "rz": -0.004187567973612216,
+        "length": 4.776,
+        "street": "East 9th Street"
+      },
+      "sourceHeight": 14.88,
+      "sourceFootprint": [
+        [
+          116.682,
+          65.931
+        ],
+        [
+          111.906,
+          65.951
+        ],
+        [
+          111.795,
+          50.32
+        ],
+        [
+          116.572,
+          50.3
+        ]
+      ],
+      "core": false,
+      "existingModel": false,
+      "state": "needs-evidence"
+    },
+    {
+      "faceId": "248142934:0",
+      "buildingId": 248142934,
+      "frontageIndex": 0,
+      "address": "427 East 9th Street",
+      "side": "north",
+      "sourceFace": {
+        "x": 116.682,
+        "z": 65.931,
+        "rx": 0.9999943338123244,
+        "rz": -0.003366354592972235,
+        "length": 5.347,
+        "street": "East 9th Street"
+      },
+      "sourceHeight": 13.9,
+      "sourceFootprint": [
+        [
+          122.029,
+          65.913
+        ],
+        [
+          116.682,
+          65.931
+        ],
+        [
+          116.572,
+          50.3
+        ],
+        [
+          121.911,
+          50.286
+        ]
+      ],
+      "core": false,
+      "existingModel": false,
+      "state": "needs-evidence"
+    },
+    {
+      "faceId": "248142936:0",
+      "buildingId": 248142936,
+      "frontageIndex": 0,
+      "address": "429 East 9th Street",
+      "side": "north",
+      "sourceFace": {
+        "x": 122.029,
+        "z": 65.913,
+        "rx": 0.9999907294068969,
+        "rz": -0.004305937791264722,
+        "length": 7.896,
+        "street": "East 9th Street"
+      },
+      "sourceHeight": 13.71,
+      "sourceFootprint": [
+        [
+          129.925,
+          65.879
+        ],
+        [
+          122.029,
+          65.913
+        ],
+        [
+          121.911,
+          50.286
+        ],
+        [
+          129.807,
+          50.252
+        ],
+        [
+          129.878,
+          58.798
+        ],
+        [
+          129.92,
+          65.436
+        ]
+      ],
+      "core": false,
+      "existingModel": false,
+      "state": "needs-evidence"
+    },
+    {
+      "faceId": "248142938:0",
+      "buildingId": 248142938,
+      "frontageIndex": 0,
+      "address": "431 East 9th Street",
+      "side": "north",
+      "sourceFace": {
+        "x": 129.92,
+        "z": 65.436,
+        "rx": 0.9999938260000216,
+        "rz": -0.0035139666814449277,
+        "length": 7.399,
+        "street": "East 9th Street"
+      },
+      "sourceHeight": 17.83,
+      "sourceFootprint": [
+        [
+          137.319,
+          65.41
+        ],
+        [
+          129.92,
+          65.436
+        ],
+        [
+          129.878,
+          58.798
+        ],
+        [
+          130.405,
+          57.854
+        ],
+        [
+          130.384,
+          54.414
+        ],
+        [
+          131.484,
+          54.414
+        ],
+        [
+          131.464,
+          51.738
+        ],
+        [
+          130.356,
+          51.743
+        ],
+        [
+          130.343,
+          48.68
+        ],
+        [
+          129.792,
+          47.586
+        ],
+        [
+          129.74,
+          41.105
+        ],
+        [
+          137.134,
+          41.07
+        ],
+        [
+          137.185,
+          47.55
+        ],
+        [
+          136.282,
+          48.651
+        ],
+        [
+          136.308,
+          51.719
+        ],
+        [
+          135.133,
+          51.723
+        ],
+        [
+          135.161,
+          54.395
+        ],
+        [
+          136.329,
+          54.395
+        ],
+        [
+          136.35,
+          57.835
+        ],
+        [
+          137.264,
+          58.766
+        ]
+      ],
+      "core": false,
+      "existingModel": false,
+      "state": "needs-evidence"
+    },
+    {
+      "faceId": "248142940:0",
+      "buildingId": 248142940,
+      "frontageIndex": 0,
+      "address": "433 East 9th Street",
+      "side": "north",
+      "sourceFace": {
+        "x": 137.319,
+        "z": 65.41,
+        "rx": 0.9999898036061644,
+        "rz": -0.004515825916137773,
+        "length": 7.529,
+        "street": "East 9th Street"
+      },
+      "sourceHeight": 15.97,
+      "sourceFootprint": [
+        [
+          144.785,
+          56.635
+        ],
+        [
+          143.331,
+          56.641
+        ],
+        [
+          143.345,
+          59.028
+        ],
+        [
+          144.799,
+          59.021
+        ],
+        [
+          144.848,
+          65.376
+        ],
+        [
+          137.319,
+          65.41
+        ],
+        [
+          137.264,
+          58.766
+        ],
+        [
+          137.207,
+          50.315
+        ],
+        [
+          144.741,
+          50.29
+        ],
+        [
+          144.753,
+          52.551
+        ]
+      ],
+      "core": false,
+      "existingModel": false,
+      "state": "needs-evidence"
+    },
+    {
+      "faceId": "248142942:0",
+      "buildingId": 248142942,
+      "frontageIndex": 0,
+      "address": "435 East 9th Street",
+      "side": "north",
+      "sourceFace": {
+        "x": 144.852,
+        "z": 65.921,
+        "rx": 0.9999929536463922,
+        "rz": -0.0037540188551140412,
+        "length": 7.725,
+        "street": "East 9th Street"
+      },
+      "sourceHeight": 12.39,
+      "sourceFootprint": [
+        [
+          152.577,
+          65.892
+        ],
+        [
+          144.852,
+          65.921
+        ],
+        [
+          144.848,
+          65.376
+        ],
+        [
+          144.799,
+          59.021
+        ],
+        [
+          144.785,
+          56.635
+        ],
+        [
+          144.753,
+          52.551
+        ],
+        [
+          152.479,
+          52.522
+        ]
+      ],
+      "core": false,
+      "existingModel": false,
+      "state": "needs-evidence"
+    },
+    {
+      "faceId": "248142944:0",
+      "buildingId": 248142944,
+      "frontageIndex": 0,
+      "address": "437 East 9th Street",
+      "side": "north",
+      "sourceFace": {
+        "x": 152.577,
+        "z": 65.892,
+        "rx": 0.999992474442062,
+        "rz": -0.0038795694660623656,
+        "length": 7.475,
+        "street": "East 9th Street"
+      },
+      "sourceHeight": 15.39,
+      "sourceFootprint": [
+        [
+          160.052,
+          65.863
+        ],
+        [
+          152.577,
+          65.892
+        ],
+        [
+          152.479,
+          52.522
+        ],
+        [
+          152.444,
+          47.981
+        ],
+        [
+          159.918,
+          47.952
+        ],
+        [
+          159.936,
+          50.311
+        ]
+      ],
+      "core": false,
+      "existingModel": false,
+      "state": "needs-evidence"
+    },
+    {
+      "faceId": "248142945:0",
+      "buildingId": 248142945,
+      "frontageIndex": 0,
+      "address": "439 East 9th Street",
+      "side": "north",
+      "sourceFace": {
+        "x": 160.052,
+        "z": 65.863,
+        "rx": 0.999991584590122,
+        "rz": -0.004102529577805171,
+        "length": 7.8,
+        "street": "East 9th Street"
+      },
+      "sourceHeight": 12.76,
+      "sourceFootprint": [
+        [
+          167.852,
+          65.831
+        ],
+        [
+          160.052,
+          65.863
+        ],
+        [
+          159.936,
+          50.311
+        ],
+        [
+          167.737,
+          50.279
+        ],
+        [
+          167.791,
+          57.84
+        ]
+      ],
+      "core": false,
+      "existingModel": false,
+      "state": "needs-evidence"
+    },
+    {
+      "faceId": "248142947:0",
+      "buildingId": 248142947,
+      "frontageIndex": 0,
+      "address": "441 East 9th Street",
+      "side": "north",
+      "sourceFace": {
+        "x": 167.852,
+        "z": 65.831,
+        "rx": 0.9999896149964166,
+        "rz": -0.004557400500103209,
+        "length": 8.338,
+        "street": "East 9th Street"
+      },
+      "sourceHeight": 17.04,
+      "sourceFootprint": [
+        [
+          176.129,
+          57.802
+        ],
+        [
+          176.19,
+          65.793
+        ],
+        [
+          167.852,
+          65.831
+        ],
+        [
+          167.791,
+          57.84
+        ],
+        [
+          168.891,
+          57.84
+        ]
+      ],
+      "core": false,
+      "existingModel": false,
+      "state": "needs-evidence"
+    },
+    {
+      "faceId": "248142948:0",
+      "buildingId": 248142948,
+      "frontageIndex": 0,
+      "address": "443 East 9th Street",
+      "side": "north",
+      "sourceFace": {
+        "x": 176.19,
+        "z": 65.793,
+        "rx": 0.9999916702415212,
+        "rz": -0.004081598654047743,
+        "length": 8.33,
+        "street": "East 9th Street"
+      },
+      "sourceHeight": 17.1,
+      "sourceFootprint": [
+        [
+          184.459,
+          57.768
+        ],
+        [
+          184.52,
+          65.759
+        ],
+        [
+          176.19,
+          65.793
+        ],
+        [
+          176.129,
+          57.802
+        ],
+        [
+          176.882,
+          57.803
+        ]
+      ],
+      "core": false,
+      "existingModel": false,
+      "state": "needs-evidence"
+    },
+    {
+      "faceId": "248142950:0",
+      "buildingId": 248142950,
+      "frontageIndex": 0,
+      "address": "445 East 9th Street",
+      "side": "north",
+      "sourceFace": {
+        "x": 184.52,
+        "z": 65.759,
+        "rx": 0.9999945475305049,
+        "rz": -0.0033022582062578114,
+        "length": 8.479,
+        "street": "East 9th Street"
+      },
+      "sourceHeight": 17.6,
+      "sourceFootprint": [
+        [
+          192.938,
+          57.741
+        ],
+        [
+          192.999,
+          65.731
+        ],
+        [
+          184.52,
+          65.759
+        ],
+        [
+          184.459,
+          57.768
+        ],
+        [
+          186.925,
+          57.76
+        ]
+      ],
+      "core": false,
+      "existingModel": false,
+      "state": "needs-evidence"
+    },
+    {
+      "faceId": "248142955:0",
+      "buildingId": 248142955,
+      "frontageIndex": 0,
+      "address": "150 1st Avenue",
+      "side": "north",
+      "sourceFace": {
+        "x": 50.982,
+        "z": 65.208,
+        "rx": 0.9999915086192833,
+        "rz": -0.004121005863849229,
+        "length": 8.493,
+        "street": "East 9th Street"
+      },
+      "sourceHeight": 23.16,
+      "sourceFootprint": [
+        [
+          61.291,
+          57.45
+        ],
+        [
+          59.41,
+          57.452
+        ],
+        [
+          59.475,
+          65.173
+        ],
+        [
+          50.982,
+          65.208
+        ],
+        [
+          50.981,
+          64.738
+        ],
+        [
+          39.77,
+          64.781
+        ],
+        [
+          39.778,
+          65.248
+        ],
+        [
+          35.7,
+          65.274
+        ],
+        [
+          35.699,
+          64.803
+        ],
+        [
+          24.44,
+          64.848
+        ],
+        [
+          24.442,
+          65.407
+        ],
+        [
+          15.982,
+          65.45
+        ],
+        [
+          15.93,
+          58.588
+        ],
+        [
+          15.529,
+          58.595
+        ],
+        [
+          15.489,
+          53.178
+        ],
+        [
+          15.896,
+          53.181
+        ],
+        [
+          15.844,
+          46.421
+        ],
+        [
+          16.72,
+          46.417
+        ],
+        [
+          16.726,
+          46.567
+        ],
+        [
+          23.984,
+          46.531
+        ],
+        [
+          24.037,
+          53.864
+        ],
+        [
+          31.797,
+          53.828
+        ],
+        [
+          31.769,
+          49.577
+        ],
+        [
+          36.023,
+          49.555
+        ],
+        [
+          36.008,
+          47.168
+        ],
+        [
+          59.335,
+          47.075
+        ],
+        [
+          59.394,
+          54.315
+        ],
+        [
+          61.262,
+          54.308
+        ]
+      ],
+      "core": false,
+      "existingModel": false,
+      "state": "needs-evidence"
+    },
+    {
+      "faceId": "248142955:1",
+      "buildingId": 248142955,
+      "frontageIndex": 1,
+      "address": "150 1st Avenue",
+      "side": "north",
+      "sourceFace": {
+        "x": 39.77,
+        "z": 64.781,
+        "rx": 0.9999926444793572,
+        "rz": -0.0038354904747675256,
+        "length": 11.211,
+        "street": "East 9th Street"
+      },
+      "sourceHeight": 23.16,
+      "sourceFootprint": [
+        [
+          61.291,
+          57.45
+        ],
+        [
+          59.41,
+          57.452
+        ],
+        [
+          59.475,
+          65.173
+        ],
+        [
+          50.982,
+          65.208
+        ],
+        [
+          50.981,
+          64.738
+        ],
+        [
+          39.77,
+          64.781
+        ],
+        [
+          39.778,
+          65.248
+        ],
+        [
+          35.7,
+          65.274
+        ],
+        [
+          35.699,
+          64.803
+        ],
+        [
+          24.44,
+          64.848
+        ],
+        [
+          24.442,
+          65.407
+        ],
+        [
+          15.982,
+          65.45
+        ],
+        [
+          15.93,
+          58.588
+        ],
+        [
+          15.529,
+          58.595
+        ],
+        [
+          15.489,
+          53.178
+        ],
+        [
+          15.896,
+          53.181
+        ],
+        [
+          15.844,
+          46.421
+        ],
+        [
+          16.72,
+          46.417
+        ],
+        [
+          16.726,
+          46.567
+        ],
+        [
+          23.984,
+          46.531
+        ],
+        [
+          24.037,
+          53.864
+        ],
+        [
+          31.797,
+          53.828
+        ],
+        [
+          31.769,
+          49.577
+        ],
+        [
+          36.023,
+          49.555
+        ],
+        [
+          36.008,
+          47.168
+        ],
+        [
+          59.335,
+          47.075
+        ],
+        [
+          59.394,
+          54.315
+        ],
+        [
+          61.262,
+          54.308
+        ]
+      ],
+      "core": false,
+      "existingModel": false,
+      "state": "needs-evidence"
+    },
+    {
+      "faceId": "248142955:2",
+      "buildingId": 248142955,
+      "frontageIndex": 2,
+      "address": "150 1st Avenue",
+      "side": "north",
+      "sourceFace": {
+        "x": 35.7,
+        "z": 65.274,
+        "rx": 0.999979676007904,
+        "rz": -0.00637554477101564,
+        "length": 4.078,
+        "street": "East 9th Street"
+      },
+      "sourceHeight": 23.16,
+      "sourceFootprint": [
+        [
+          61.291,
+          57.45
+        ],
+        [
+          59.41,
+          57.452
+        ],
+        [
+          59.475,
+          65.173
+        ],
+        [
+          50.982,
+          65.208
+        ],
+        [
+          50.981,
+          64.738
+        ],
+        [
+          39.77,
+          64.781
+        ],
+        [
+          39.778,
+          65.248
+        ],
+        [
+          35.7,
+          65.274
+        ],
+        [
+          35.699,
+          64.803
+        ],
+        [
+          24.44,
+          64.848
+        ],
+        [
+          24.442,
+          65.407
+        ],
+        [
+          15.982,
+          65.45
+        ],
+        [
+          15.93,
+          58.588
+        ],
+        [
+          15.529,
+          58.595
+        ],
+        [
+          15.489,
+          53.178
+        ],
+        [
+          15.896,
+          53.181
+        ],
+        [
+          15.844,
+          46.421
+        ],
+        [
+          16.72,
+          46.417
+        ],
+        [
+          16.726,
+          46.567
+        ],
+        [
+          23.984,
+          46.531
+        ],
+        [
+          24.037,
+          53.864
+        ],
+        [
+          31.797,
+          53.828
+        ],
+        [
+          31.769,
+          49.577
+        ],
+        [
+          36.023,
+          49.555
+        ],
+        [
+          36.008,
+          47.168
+        ],
+        [
+          59.335,
+          47.075
+        ],
+        [
+          59.394,
+          54.315
+        ],
+        [
+          61.262,
+          54.308
+        ]
+      ],
+      "core": false,
+      "existingModel": false,
+      "state": "needs-evidence"
+    },
+    {
+      "faceId": "248142955:3",
+      "buildingId": 248142955,
+      "frontageIndex": 3,
+      "address": "150 1st Avenue",
+      "side": "north",
+      "sourceFace": {
+        "x": 24.44,
+        "z": 64.848,
+        "rx": 0.9999920128803484,
+        "rz": -0.003996770635013536,
+        "length": 11.259,
+        "street": "East 9th Street"
+      },
+      "sourceHeight": 23.16,
+      "sourceFootprint": [
+        [
+          61.291,
+          57.45
+        ],
+        [
+          59.41,
+          57.452
+        ],
+        [
+          59.475,
+          65.173
+        ],
+        [
+          50.982,
+          65.208
+        ],
+        [
+          50.981,
+          64.738
+        ],
+        [
+          39.77,
+          64.781
+        ],
+        [
+          39.778,
+          65.248
+        ],
+        [
+          35.7,
+          65.274
+        ],
+        [
+          35.699,
+          64.803
+        ],
+        [
+          24.44,
+          64.848
+        ],
+        [
+          24.442,
+          65.407
+        ],
+        [
+          15.982,
+          65.45
+        ],
+        [
+          15.93,
+          58.588
+        ],
+        [
+          15.529,
+          58.595
+        ],
+        [
+          15.489,
+          53.178
+        ],
+        [
+          15.896,
+          53.181
+        ],
+        [
+          15.844,
+          46.421
+        ],
+        [
+          16.72,
+          46.417
+        ],
+        [
+          16.726,
+          46.567
+        ],
+        [
+          23.984,
+          46.531
+        ],
+        [
+          24.037,
+          53.864
+        ],
+        [
+          31.797,
+          53.828
+        ],
+        [
+          31.769,
+          49.577
+        ],
+        [
+          36.023,
+          49.555
+        ],
+        [
+          36.008,
+          47.168
+        ],
+        [
+          59.335,
+          47.075
+        ],
+        [
+          59.394,
+          54.315
+        ],
+        [
+          61.262,
+          54.308
+        ]
+      ],
+      "core": false,
+      "existingModel": false,
+      "state": "needs-evidence"
+    },
+    {
+      "faceId": "248142955:4",
+      "buildingId": 248142955,
+      "frontageIndex": 4,
+      "address": "150 1st Avenue",
+      "side": "north",
+      "sourceFace": {
+        "x": 15.982,
+        "z": 65.45,
+        "rx": 0.9999870831155436,
+        "rz": -0.005082676663590395,
+        "length": 8.46,
+        "street": "East 9th Street"
+      },
+      "sourceHeight": 23.16,
+      "sourceFootprint": [
+        [
+          61.291,
+          57.45
+        ],
+        [
+          59.41,
+          57.452
+        ],
+        [
+          59.475,
+          65.173
+        ],
+        [
+          50.982,
+          65.208
+        ],
+        [
+          50.981,
+          64.738
+        ],
+        [
+          39.77,
+          64.781
+        ],
+        [
+          39.778,
+          65.248
+        ],
+        [
+          35.7,
+          65.274
+        ],
+        [
+          35.699,
+          64.803
+        ],
+        [
+          24.44,
+          64.848
+        ],
+        [
+          24.442,
+          65.407
+        ],
+        [
+          15.982,
+          65.45
+        ],
+        [
+          15.93,
+          58.588
+        ],
+        [
+          15.529,
+          58.595
+        ],
+        [
+          15.489,
+          53.178
+        ],
+        [
+          15.896,
+          53.181
+        ],
+        [
+          15.844,
+          46.421
+        ],
+        [
+          16.72,
+          46.417
+        ],
+        [
+          16.726,
+          46.567
+        ],
+        [
+          23.984,
+          46.531
+        ],
+        [
+          24.037,
+          53.864
+        ],
+        [
+          31.797,
+          53.828
+        ],
+        [
+          31.769,
+          49.577
+        ],
+        [
+          36.023,
+          49.555
+        ],
+        [
+          36.008,
+          47.168
+        ],
+        [
+          59.335,
+          47.075
+        ],
+        [
+          59.394,
+          54.315
+        ],
+        [
+          61.262,
+          54.308
+        ]
+      ],
+      "core": false,
+      "existingModel": false,
+      "state": "needs-evidence"
+    },
+    {
+      "faceId": "248142955:5",
+      "buildingId": 248142955,
+      "frontageIndex": 5,
+      "address": "150 1st Avenue",
+      "side": "corner return",
+      "sourceFace": {
+        "x": 15.93,
+        "z": 58.588,
+        "rx": 0.007577748032595458,
+        "rz": 0.9999712884552008,
+        "length": 6.862,
+        "street": "First Avenue"
+      },
+      "sourceHeight": 23.16,
+      "sourceFootprint": [
+        [
+          61.291,
+          57.45
+        ],
+        [
+          59.41,
+          57.452
+        ],
+        [
+          59.475,
+          65.173
+        ],
+        [
+          50.982,
+          65.208
+        ],
+        [
+          50.981,
+          64.738
+        ],
+        [
+          39.77,
+          64.781
+        ],
+        [
+          39.778,
+          65.248
+        ],
+        [
+          35.7,
+          65.274
+        ],
+        [
+          35.699,
+          64.803
+        ],
+        [
+          24.44,
+          64.848
+        ],
+        [
+          24.442,
+          65.407
+        ],
+        [
+          15.982,
+          65.45
+        ],
+        [
+          15.93,
+          58.588
+        ],
+        [
+          15.529,
+          58.595
+        ],
+        [
+          15.489,
+          53.178
+        ],
+        [
+          15.896,
+          53.181
+        ],
+        [
+          15.844,
+          46.421
+        ],
+        [
+          16.72,
+          46.417
+        ],
+        [
+          16.726,
+          46.567
+        ],
+        [
+          23.984,
+          46.531
+        ],
+        [
+          24.037,
+          53.864
+        ],
+        [
+          31.797,
+          53.828
+        ],
+        [
+          31.769,
+          49.577
+        ],
+        [
+          36.023,
+          49.555
+        ],
+        [
+          36.008,
+          47.168
+        ],
+        [
+          59.335,
+          47.075
+        ],
+        [
+          59.394,
+          54.315
+        ],
+        [
+          61.262,
+          54.308
+        ]
+      ],
+      "core": false,
+      "existingModel": false,
+      "state": "needs-evidence"
+    },
+    {
+      "faceId": "248142955:6",
+      "buildingId": 248142955,
+      "frontageIndex": 6,
+      "address": "150 1st Avenue",
+      "side": "corner return",
+      "sourceFace": {
+        "x": 15.489,
+        "z": 53.178,
+        "rx": 0.00738395966917613,
+        "rz": 0.9999727381981991,
+        "length": 5.417,
+        "street": "First Avenue"
+      },
+      "sourceHeight": 23.16,
+      "sourceFootprint": [
+        [
+          61.291,
+          57.45
+        ],
+        [
+          59.41,
+          57.452
+        ],
+        [
+          59.475,
+          65.173
+        ],
+        [
+          50.982,
+          65.208
+        ],
+        [
+          50.981,
+          64.738
+        ],
+        [
+          39.77,
+          64.781
+        ],
+        [
+          39.778,
+          65.248
+        ],
+        [
+          35.7,
+          65.274
+        ],
+        [
+          35.699,
+          64.803
+        ],
+        [
+          24.44,
+          64.848
+        ],
+        [
+          24.442,
+          65.407
+        ],
+        [
+          15.982,
+          65.45
+        ],
+        [
+          15.93,
+          58.588
+        ],
+        [
+          15.529,
+          58.595
+        ],
+        [
+          15.489,
+          53.178
+        ],
+        [
+          15.896,
+          53.181
+        ],
+        [
+          15.844,
+          46.421
+        ],
+        [
+          16.72,
+          46.417
+        ],
+        [
+          16.726,
+          46.567
+        ],
+        [
+          23.984,
+          46.531
+        ],
+        [
+          24.037,
+          53.864
+        ],
+        [
+          31.797,
+          53.828
+        ],
+        [
+          31.769,
+          49.577
+        ],
+        [
+          36.023,
+          49.555
+        ],
+        [
+          36.008,
+          47.168
+        ],
+        [
+          59.335,
+          47.075
+        ],
+        [
+          59.394,
+          54.315
+        ],
+        [
+          61.262,
+          54.308
+        ]
+      ],
+      "core": false,
+      "existingModel": false,
+      "state": "needs-evidence"
+    },
+    {
+      "faceId": "248142955:7",
+      "buildingId": 248142955,
+      "frontageIndex": 7,
+      "address": "150 1st Avenue",
+      "side": "corner return",
+      "sourceFace": {
+        "x": 15.844,
+        "z": 46.421,
+        "rx": 0.007692080119339422,
+        "rz": 0.9999704155140979,
+        "length": 6.76,
+        "street": "First Avenue"
+      },
+      "sourceHeight": 23.16,
+      "sourceFootprint": [
+        [
+          61.291,
+          57.45
+        ],
+        [
+          59.41,
+          57.452
+        ],
+        [
+          59.475,
+          65.173
+        ],
+        [
+          50.982,
+          65.208
+        ],
+        [
+          50.981,
+          64.738
+        ],
+        [
+          39.77,
+          64.781
+        ],
+        [
+          39.778,
+          65.248
+        ],
+        [
+          35.7,
+          65.274
+        ],
+        [
+          35.699,
+          64.803
+        ],
+        [
+          24.44,
+          64.848
+        ],
+        [
+          24.442,
+          65.407
+        ],
+        [
+          15.982,
+          65.45
+        ],
+        [
+          15.93,
+          58.588
+        ],
+        [
+          15.529,
+          58.595
+        ],
+        [
+          15.489,
+          53.178
+        ],
+        [
+          15.896,
+          53.181
+        ],
+        [
+          15.844,
+          46.421
+        ],
+        [
+          16.72,
+          46.417
+        ],
+        [
+          16.726,
+          46.567
+        ],
+        [
+          23.984,
+          46.531
+        ],
+        [
+          24.037,
+          53.864
+        ],
+        [
+          31.797,
+          53.828
+        ],
+        [
+          31.769,
+          49.577
+        ],
+        [
+          36.023,
+          49.555
+        ],
+        [
+          36.008,
+          47.168
+        ],
+        [
+          59.335,
+          47.075
+        ],
+        [
+          59.394,
+          54.315
+        ],
+        [
+          61.262,
+          54.308
+        ]
+      ],
+      "core": false,
+      "existingModel": false,
+      "state": "needs-evidence"
+    },
+    {
+      "faceId": "248142963:0",
+      "buildingId": 248142963,
+      "frontageIndex": 0,
+      "address": "145 Avenue A",
+      "side": "north",
+      "sourceFace": {
+        "x": 192.999,
+        "z": 65.731,
+        "rx": 0.99999157094553,
+        "rz": -0.004105854100046122,
+        "length": 9.255,
+        "street": "East 9th Street"
+      },
+      "sourceHeight": 16.9,
+      "sourceFootprint": [
+        [
+          202.254,
+          65.693
+        ],
+        [
+          192.999,
+          65.731
+        ],
+        [
+          192.938,
+          57.741
+        ],
+        [
+          202.192,
+          57.702
+        ]
+      ],
+      "core": false,
+      "existingModel": false,
+      "state": "needs-evidence"
+    },
+    {
+      "faceId": "248142963:1",
+      "buildingId": 248142963,
+      "frontageIndex": 1,
+      "address": "145 Avenue A",
+      "side": "corner return",
+      "sourceFace": {
+        "x": 202.254,
+        "z": 65.693,
+        "rx": -0.007758495050718634,
+        "rz": -0.999969902424342,
+        "length": 7.991,
+        "street": "Avenue A"
+      },
+      "sourceHeight": 16.9,
+      "sourceFootprint": [
+        [
+          202.254,
+          65.693
+        ],
+        [
+          192.999,
+          65.731
+        ],
+        [
+          192.938,
+          57.741
+        ],
+        [
+          202.192,
+          57.702
+        ]
+      ],
+      "core": false,
+      "existingModel": false,
+      "state": "needs-evidence"
+    }
+  ],
+  "counts": {
+    "primaryFaces": 45,
+    "newCornerReturnSegments": 5,
+    "uniqueBuildings": 41,
+    "newBuildings": 40,
+    "existingSharedCorner": 1
+  },
+  "protected": "All 254 unrelated models byte-identical; 148 First only Ninth face editable, existing First face/mass protected. Mapped 150 First has five distinct Ninth planes and three First planes; retain articulated shape.",
+  "exceptions": []
+}

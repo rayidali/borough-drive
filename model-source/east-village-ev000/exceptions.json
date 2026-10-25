@@ -1,0 +1,164 @@
+{
+  "session": "EV-000",
+  "evidence": "source-data/east-village-ev000 snapshots; no photographic or access certification",
+  "exceptions": [
+    {
+      "id": "EV-X01",
+      "units": [
+        "04-E01-1A"
+      ],
+      "physicalIds": [
+        16769
+      ],
+      "decision": "East First joins Houston before Avenue A; retain real short segment and convergence/site edge, not a through-road to A."
+    },
+    {
+      "id": "EV-X02",
+      "units": [
+        "04-E05-1A"
+      ],
+      "physicalIds": [],
+      "bbls": [
+        "1004320001"
+      ],
+      "decision": "No East Fifth centerline through Village View. Site inventory owns interior; surrounding frontage packets own the outer elevations."
+    },
+    {
+      "id": "EV-X03",
+      "units": [
+        "08-E05-BC"
+      ],
+      "physicalIds": [
+        4091
+      ],
+      "bbls": [
+        "1003870001"
+      ],
+      "decision": "East Fifth stub starts at C and ends east of B at the school site; no through connection."
+    },
+    {
+      "id": "EV-X04",
+      "units": [
+        "05-TSPSW",
+        "05-TSPNW",
+        "05-TSPNE",
+        "05-TSPSE"
+      ],
+      "physicalIds": [
+        16646
+      ],
+      "bbls": [
+        "1004030001"
+      ],
+      "decision": "Tompkins interrupts Eighth/Ninth. Mapped Ninth has NV traffic direction. Park quarters are inventory sections; no driving route across the park."
+    },
+    {
+      "id": "EV-X05",
+      "units": [
+        "06-E11-CD"
+      ],
+      "physicalIds": [
+        4011,
+        103211
+      ],
+      "bbls": [
+        "1003820100",
+        "1003800050"
+      ],
+      "decision": "Eleventh C-Szold is a non-vehicular path; Szold Tenth-Eleventh is separately mapped street. No Eleventh through-road to D."
+    },
+    {
+      "id": "EV-X06",
+      "units": [
+        "06-E12-CD"
+      ],
+      "physicalIds": [
+        4367,
+        4368,
+        103212
+      ],
+      "bbls": [
+        "1003820001",
+        "1003810038"
+      ],
+      "decision": "Twelfth C-Szold non-vehicular; Szold-D mapped street. Include Szold Eleventh-Twelfth. Preserve type distinction."
+    },
+    {
+      "id": "EV-X07",
+      "units": [
+        "06-E13-BC"
+      ],
+      "physicalIds": [
+        80037
+      ],
+      "bbls": [
+        "1003950009",
+        "1003950022"
+      ],
+      "decision": "Thirteenth runs east from B to a stub before C. Intervening site stays assigned; no invented connection."
+    },
+    {
+      "id": "EV-X08",
+      "units": [
+        "06-E14-CD",
+        "09-SITEN"
+      ],
+      "physicalIds": [
+        2748,
+        19114,
+        19115
+      ],
+      "bbls": [
+        "1003830001",
+        "1003670100"
+      ],
+      "decision": "Municipal data maps D Thirteenth-Fourteenth and Fourteenth east of C/D as constructed streets. This resolves map topology, not gates or current public access. Do not assume drivable utility access."
+    },
+    {
+      "id": "EV-X09",
+      "units": [
+        "08-E02-CD"
+      ],
+      "physicalIds": [
+        168666
+      ],
+      "decision": "Second joins Houston before D. Retain the diagonal convergence and inward-side parcel policy."
+    },
+    {
+      "id": "EV-X10",
+      "units": [
+        "03-STUY",
+        "03-COOPER"
+      ],
+      "physicalIds": [
+        81220,
+        81221,
+        81222,
+        81223,
+        74331,
+        4263
+      ],
+      "decision": "Keep Stuyvesant diagonal/junction branch and Cooper split/plaza. Boundary uses western Cooper, Sixth connection and Astor return to Third."
+    },
+    {
+      "id": "EV-X11",
+      "units": [
+        "09-PARKS",
+        "09-PARKM",
+        "09-PARKN",
+        "09-FDRS",
+        "09-FDRM",
+        "09-FDRN",
+        "09-SITES",
+        "09-SITEM",
+        "09-SITEN"
+      ],
+      "physicalIds": [],
+      "bbls": [
+        "1003160200",
+        "1009880075"
+      ],
+      "decision": "Only Houston-Fourteenth portions of cross-boundary parcels. 2022 shoreline is a planning edge. Current ESCR works/access need dated views; roads, bridges and paths keep separate types and owners."
+    }
+  ]
+}

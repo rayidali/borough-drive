@@ -1,0 +1,41 @@
+{
+  "id": "01-E09-21-N01B",
+  "state": "complete locally; reviewed within recorded source and test limits",
+  "startedAt": "2026-10-14T04:17:47.148625+00:00",
+  "faces": [
+    "247852687:0",
+    "247852686:0",
+    "247852685:0",
+    "247852684:0"
+  ],
+  "protectedCount": 217,
+  "publication": "not requested; no commit/push/deployment",
+  "updated": "2026-10-14T14:32:01.888864+00:00",
+  "sources": "observations.json",
+  "schedule": "schedule.json",
+  "heightException": "337 comparative facade height 15.9 vs source18.93, explicit estimated correction",
+  "sourceLimits": "2024 appearance; 2017 access supplement; west333 tenant unreadable",
+  "interruption": {
+    "reportedByUser": "Laptop shut down suddenly; continue",
+    "savedResult": "Final build, 58 inspected detail views and 18 route captures retained",
+    "startupTrial": "performance-interrupted/startups.json; five recorded starts, CDP Runtime.evaluate timeout; no causal diagnosis",
+    "resumedAt": "2026-10-14T14:20:37.552459+00:00",
+    "timingLimit": "Final elapsed includes interruption; do not count the whole gap as active throughput."
+  },
+  "completedAt": "2026-10-14T14:32:01.888864+00:00",
+  "elapsedMinutes": 614.2,
+  "timingComparable": false,
+  "activeMinutes": null,
+  "modelExports": 5,
+  "engineBuilds": 5,
+  "reviewTrials": [
+    "review-01",
+    "review-02",
+    "review-03",
+    "review-04"
+  ],
+  "finalVisual": "visual-review.json",
+  "validation": "validation.json",
+  "metrics": "metrics.json",
+  "next": "01-E09-21-N02A on next user instruction"
+}

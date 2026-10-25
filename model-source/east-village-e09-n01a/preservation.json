@@ -1,0 +1,41 @@
+{
+  "recorded": "2026-10-14T03:11:52.967666+00:00",
+  "protectedGLBs": 213,
+  "protectedCompiledScenes": 213,
+  "allPreserved": true,
+  "trackedNonMarkdownPreserved": 2375,
+  "changedTrackedNonMarkdown": [
+    "dist/seventh/build.json",
+    "dist/seventh/index.html",
+    "dist/seventh/index.pck",
+    "engine/first-seventh/assets/slice.json",
+    "engine/first-seventh/scripts/minimap.gd",
+    "engine/first-seventh/scripts/world.gd",
+    "model-source/export_seventh_engine.py",
+    "scripts/export-seventh.mjs",
+    "scripts/verify-seventh.mjs"
+  ],
+  "changedExistingBuildSources": [
+    "engine/first-seventh/assets/area_manifest.json",
+    "engine/first-seventh/assets/slice.json",
+    "engine/first-seventh/scripts/export_areas.gd",
+    "engine/first-seventh/scripts/minimap.gd",
+    "engine/first-seventh/scripts/world.gd",
+    "engine/first-seventh/shaders/p02_masonry.gdshader",
+    "model-source/export_seventh_engine.py",
+    "scripts/export-seventh.mjs"
+  ],
+  "privateImages": [
+    {
+      "path": "Screenshot 2026-09-14 at 8.35.02 PM.png",
+      "unchanged": true,
+      "untracked": true
+    },
+    {
+      "path": "Screenshot 2026-09-21 at 4.47.09 PM.png",
+      "unchanged": true,
+      "untracked": true
+    }
+  ],
+  "note": "Changed tracked paths are the authorized packet exporter, runtime adapter, package/verifier and generated manifests. Prior packet recipes, original game, handling, UI/audio and images are unchanged. New untracked source paths are separately recorded by build.json and Git status."
+}

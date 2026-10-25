@@ -1,0 +1,194 @@
+unitId,phaseOwner,kind,street,start,end,sourceRoadReferences,ownedRoadIds,state
+01-FA08W,01,street,First Avenue,St. Marks Place,East 9th Street,CSCL:2587;CSCL:2588,,inventory only; see exception register before authoring
+01-FA08E,01,street,First Avenue,St. Marks Place,East 9th Street,CSCL:2587;CSCL:2588,CSCL:2588,inventory only; see exception register before authoring
+01-E09-21,01,street,East 9th Street,Second Avenue,First Avenue,CSCL:16644,CSCL:16644,inventory only; see exception register before authoring
+01-E09-1A,01,street,East 9th Street,First Avenue,Avenue A,CSCL:16644;CSCL:181516,CSCL:181516,inventory only; see exception register before authoring
+01-E10-21,01,street,East 10th Street,Second Avenue,First Avenue,CSCL:3969,CSCL:3969,inventory only; see exception register before authoring
+01-E10-1A,01,street,East 10th Street,First Avenue,Avenue A,CSCL:3968,CSCL:3968,inventory only; see exception register before authoring
+01-E11-21,01,street,East 11th Street,Second Avenue,First Avenue,CSCL:176439,CSCL:176439,inventory only; see exception register before authoring
+01-E11-1A,01,street,East 11th Street,First Avenue,Avenue A,CSCL:4012,CSCL:4012,inventory only; see exception register before authoring
+01-E12-21,01,street,East 12th Street,Second Avenue,First Avenue,CSCL:4363,CSCL:4363,inventory only; see exception register before authoring
+01-E12-1A,01,street,East 12th Street,First Avenue,Avenue A,CSCL:4365;CSCL:176442,CSCL:176442,inventory only; see exception register before authoring
+01-FA09,01,street,First Avenue,East 9th Street,East 10th Street,CSCL:2587,CSCL:2587,inventory only; see exception register before authoring
+01-FA10,01,street,First Avenue,East 10th Street,East 11th Street,CSCL:2586,CSCL:2586,inventory only; see exception register before authoring
+01-FA11,01,street,First Avenue,East 11th Street,East 12th Street,CSCL:2585,CSCL:2585,inventory only; see exception register before authoring
+01-SA07,01,street,Second Avenue,East 7th Street,St. Marks Place / East 8th Street,CSCL:2237,CSCL:2237,inventory only; see exception register before authoring
+01-SA08,01,street,Second Avenue,St. Marks Place / East 8th Street,East 9th Street,CSCL:2235;CSCL:2236,CSCL:2236,inventory only; see exception register before authoring
+01-SA09,01,street,Second Avenue,East 9th Street,East 10th Street,CSCL:2235,CSCL:2235,inventory only; see exception register before authoring
+01-SA10,01,street,Second Avenue,East 10th Street,East 11th Street,CSCL:2234,CSCL:2234,inventory only; see exception register before authoring
+01-SA11,01,street,Second Avenue,East 11th Street,East 12th Street,CSCL:2233,CSCL:2233,inventory only; see exception register before authoring
+02-E13-21,02,street,East 13th Street,Second Avenue,First Avenue,CSCL:80040,CSCL:80040,inventory only; see exception register before authoring
+02-E13-1A,02,street,East 13th Street,First Avenue,Avenue A,CSCL:80039;CSCL:172327,CSCL:80039,inventory only; see exception register before authoring
+02-E14-21,02,street,East 14th Street,Second Avenue,First Avenue,CSCL:19110;CSCL:183591,CSCL:183591,inventory only; see exception register before authoring
+02-E14-1A,02,street,East 14th Street,First Avenue,Avenue A,CSCL:19110;CSCL:187742;CSCL:187745,CSCL:187742;CSCL:187743;CSCL:19110;CSCL:77341,inventory only; see exception register before authoring
+02-FA12,02,street,First Avenue,East 12th Street,East 13th Street,CSCL:2584,CSCL:2584,inventory only; see exception register before authoring
+02-FA13,02,street,First Avenue,East 13th Street,East 14th Street,CSCL:2583,CSCL:2583,inventory only; see exception register before authoring
+02-SA12,02,street,Second Avenue,East 12th Street,East 13th Street,CSCL:183055,CSCL:183055,inventory only; see exception register before authoring
+02-SA13,02,street,Second Avenue,East 13th Street,East 14th Street,CSCL:2231,CSCL:2231,inventory only; see exception register before authoring
+03-E08,03,street,St. Marks Place,Bowery / Cooper Square / Third Avenue boundary at this latitude,Second Avenue,CSCL:101338,CSCL:101338,inventory only; see exception register before authoring
+03-E09,03,street,East 9th Street,Bowery / Cooper Square / Third Avenue boundary at this latitude,Second Avenue,CSCL:16640;CSCL:16641;CSCL:16642;CSCL:16643,CSCL:16640;CSCL:16642;CSCL:16643,inventory only; see exception register before authoring
+03-E10,03,street,East 10th Street,Bowery / Cooper Square / Third Avenue boundary at this latitude,Second Avenue,CSCL:3978;CSCL:3979;CSCL:3980,CSCL:3978;CSCL:3979,inventory only; see exception register before authoring
+03-E11,03,street,East 11th Street,Bowery / Cooper Square / Third Avenue boundary at this latitude,Second Avenue,CSCL:4014;CSCL:4015,CSCL:4014,inventory only; see exception register before authoring
+03-E12,03,street,East 12th Street,Bowery / Cooper Square / Third Avenue boundary at this latitude,Second Avenue,CSCL:4362;CSCL:191139,CSCL:4362,inventory only; see exception register before authoring
+03-E13,03,street,East 13th Street,Bowery / Cooper Square / Third Avenue boundary at this latitude,Second Avenue,CSCL:80040;CSCL:80041;CSCL:190911,CSCL:80041,inventory only; see exception register before authoring
+03-E14,03,street,East 14th Street,Bowery / Cooper Square / Third Avenue boundary at this latitude,Second Avenue,CSCL:19108;CSCL:183591;CSCL:190919,CSCL:190919;CSCL:19108;CSCL:3737,inventory only; see exception register before authoring
+03-E07,03,street,East 7th Street,Bowery / Cooper Square / Third Avenue boundary at this latitude,Second Avenue,CSCL:81197;CSCL:189676;CSCL:189679;CSCL:189680;CSCL:189681,CSCL:189676;CSCL:189679;CSCL:189680;CSCL:189681;CSCL:81197,inventory only; see exception register before authoring
+03-E06,03,street,East 6th Street,Bowery / Cooper Square / Third Avenue boundary at this latitude,Second Avenue,CSCL:3476;CSCL:74331;CSCL:181298,CSCL:181298;CSCL:3476;CSCL:74331;CSCL:81173,inventory only; see exception register before authoring
+03-E05,03,street,East 5th Street,Bowery / Cooper Square / Third Avenue boundary at this latitude,Second Avenue,CSCL:69136;CSCL:181350,CSCL:181350;CSCL:69136,inventory only; see exception register before authoring
+03-E04,03,street,East 4th Street,Bowery / Cooper Square / Third Avenue boundary at this latitude,Second Avenue,CSCL:4318;CSCL:4320,CSCL:4320,inventory only; see exception register before authoring
+03-E03,03,street,East 3rd Street,Bowery / Cooper Square / Third Avenue boundary at this latitude,Second Avenue,CSCL:159548;CSCL:159608,CSCL:159548;CSCL:159608,inventory only; see exception register before authoring
+03-E02,03,street,East 2nd Street,Bowery / Cooper Square / Third Avenue boundary at this latitude,Second Avenue,CSCL:159546;CSCL:159606,CSCL:159546;CSCL:159606,inventory only; see exception register before authoring
+03-E01,03,street,East 1st Street,Bowery / Cooper Square / Third Avenue boundary at this latitude,Second Avenue,CSCL:16771;CSCL:159543;CSCL:159643,CSCL:109444;CSCL:159543;CSCL:159643;CSCL:16771,inventory only; see exception register before authoring
+03-WEST00,03,street,Bowery / Cooper Square / Third Avenue,East Houston Street,East 1st Street,CSCL:159602;CSCL:159603;CSCL:159628;CSCL:159630;CSCL:159644,CSCL:159602;CSCL:159603;CSCL:159628;CSCL:159630,inventory only; see exception register before authoring
+03-WEST01,03,street,Bowery / Cooper Square / Third Avenue,East 1st Street,East 2nd Street,CSCL:159632;CSCL:159644;CSCL:159645;CSCL:159648,CSCL:159632;CSCL:159633;CSCL:159644;CSCL:159645;CSCL:159647;CSCL:159648,inventory only; see exception register before authoring
+03-WEST02,03,street,Bowery / Cooper Square / Third Avenue,East 2nd Street,East 3rd Street,CSCL:159607;CSCL:159635,CSCL:159607;CSCL:159635;CSCL:159636,inventory only; see exception register before authoring
+03-WEST03,03,street,Bowery / Cooper Square / Third Avenue,East 3rd Street,East 4th Street,CSCL:190254;CSCL:190255,CSCL:190254;CSCL:190255,inventory only; see exception register before authoring
+03-WEST04,03,street,Bowery / Cooper Square / Third Avenue,East 4th Street,East 5th Street,CSCL:69137;CSCL:181342;CSCL:181347;CSCL:181348;CSCL:181359;CSCL:190254;CSCL:190255,CSCL:181342;CSCL:181347;CSCL:181348;CSCL:69137,inventory only; see exception register before authoring
+03-WEST05,03,street,Bowery / Cooper Square / Third Avenue,East 5th Street,East 6th Street,CSCL:181355;CSCL:181357;CSCL:181359,CSCL:181355;CSCL:181357;CSCL:181359,inventory only; see exception register before authoring
+03-WEST06,03,street,Bowery / Cooper Square / Third Avenue,East 6th Street,East 7th Street,CSCL:69132;CSCL:189673;CSCL:189675;CSCL:191159,CSCL:189673;CSCL:189675;CSCL:191159;CSCL:69132,inventory only; see exception register before authoring
+03-WEST07,03,street,Bowery / Cooper Square / Third Avenue,East 7th Street,St. Marks Place / East 8th Street,CSCL:69126;CSCL:69139;CSCL:189682;CSCL:189683;CSCL:191159,CSCL:189682;CSCL:189683;CSCL:69126;CSCL:69139,inventory only; see exception register before authoring
+03-WEST08,03,street,Bowery / Cooper Square / Third Avenue,St. Marks Place / East 8th Street,East 9th Street,CSCL:3742;CSCL:3743;CSCL:3744;CSCL:189682;CSCL:189683,CSCL:3743;CSCL:3744,inventory only; see exception register before authoring
+03-WEST09,03,street,Bowery / Cooper Square / Third Avenue,East 9th Street,East 10th Street,CSCL:3742,CSCL:3742,inventory only; see exception register before authoring
+03-WEST10,03,street,Bowery / Cooper Square / Third Avenue,East 10th Street,East 11th Street,CSCL:3741,CSCL:3741,inventory only; see exception register before authoring
+03-WEST11,03,street,Bowery / Cooper Square / Third Avenue,East 11th Street,East 12th Street,CSCL:3740,CSCL:3740,inventory only; see exception register before authoring
+03-WEST12,03,street,Bowery / Cooper Square / Third Avenue,East 12th Street,East 13th Street,CSCL:3739,CSCL:3739,inventory only; see exception register before authoring
+03-WEST13,03,street,Bowery / Cooper Square / Third Avenue,East 13th Street,East 14th Street,CSCL:3738,CSCL:3738,inventory only; see exception register before authoring
+03-STUY,03,diagonal and landmark,Stuyvesant Street,Third Avenue / East 9th vicinity,Second Avenue / East 10th vicinity,CSCL:81220;CSCL:81221;CSCL:81222;CSCL:81223,CSCL:81220;CSCL:81221;CSCL:81222;CSCL:81223,inventory only; see exception register before authoring
+03-COOPER,03,plaza and landmark,Cooper Square public realm,East 5th vicinity,Astor / St. Marks junction,CSCL:3476;CSCL:4263;CSCL:69126;CSCL:69132;CSCL:69139;CSCL:74331;CSCL:101338;CSCL:181355;CSCL:181357;CSCL:181359;CSCL:189673;CSCL:189675;CSCL:189676;CSCL:189679;CSCL:189680;CSCL:189682;CSCL:189683;CSCL:191159;CSCL:203283,CSCL:181349;CSCL:4263,inventory only; see exception register before authoring
+03-HOU,03,street,East Houston Street,Bowery,Second Avenue,CSCL:3307;CSCL:3333;CSCL:3334;CSCL:3335;CSCL:159601;CSCL:159627;CSCL:159629,CSCL:159600;CSCL:159601;CSCL:159627;CSCL:159629;CSCL:159704;CSCL:3307;CSCL:3334;CSCL:3335,inventory only; see exception register before authoring
+04-E06-21,04,street,East 6th Street,Second Avenue,First Avenue,CSCL:3474;CSCL:181298,CSCL:3474,inventory only; see exception register before authoring
+04-E06-1A,04,street,East 6th Street,First Avenue,Avenue A,CSCL:3473;CSCL:3474,CSCL:3473,inventory only; see exception register before authoring
+04-E05-21,04,street,East 5th Street,Second Avenue,First Avenue,CSCL:103266;CSCL:181350,CSCL:103266,inventory only; see exception register before authoring
+04-E05-1A,04,site; no through-road assumed,Village View site / interrupted East 5th corridor,First Avenue,Avenue A,CSCL:2591;CSCL:2592,,inventory only; see exception register before authoring
+04-E04-21,04,street,East 4th Street,Second Avenue,First Avenue,CSCL:4320;CSCL:183456,CSCL:183456,inventory only; see exception register before authoring
+04-E04-1A,04,street,East 4th Street,First Avenue,Avenue A,CSCL:4322;CSCL:183456,CSCL:4322,inventory only; see exception register before authoring
+04-E03-21,04,street,East 3rd Street,Second Avenue,First Avenue,CSCL:16688;CSCL:159608,CSCL:16688,inventory only; see exception register before authoring
+04-E03-1A,04,street,East 3rd Street,First Avenue,Avenue A,CSCL:16688;CSCL:16689,CSCL:16689,inventory only; see exception register before authoring
+04-E02-21,04,street,East 2nd Street,Second Avenue,First Avenue,CSCL:95927;CSCL:159606,CSCL:95927,inventory only; see exception register before authoring
+04-E02-1A,04,street,East 2nd Street,First Avenue,Avenue A,CSCL:95927;CSCL:95928,CSCL:95928,inventory only; see exception register before authoring
+04-E01-21,04,street,East 1st Street,Second Avenue,First Avenue,CSCL:16771;CSCL:183452,CSCL:183452,inventory only; see exception register before authoring
+04-E01-1A,04,street,East 1st Street,First Avenue,Avenue A,CSCL:16769;CSCL:183452,CSCL:16769,inventory only; see exception register before authoring
+04-FA00,04,street,First Avenue,East Houston Street,East 1st Street,CSCL:2596;CSCL:2597,CSCL:2596,inventory only; see exception register before authoring
+04-FA01,04,street,First Avenue,East 1st Street,East 2nd Street,CSCL:2594;CSCL:183038,CSCL:183038,inventory only; see exception register before authoring
+04-FA02,04,street,First Avenue,East 2nd Street,East 3rd Street,CSCL:2594,CSCL:2594,inventory only; see exception register before authoring
+04-FA03,04,street,First Avenue,East 3rd Street,East 4th Street,CSCL:2593,CSCL:2593,inventory only; see exception register before authoring
+04-FA04,04,street,First Avenue,East 4th Street,East 5th Street,CSCL:2592,CSCL:2592,inventory only; see exception register before authoring
+04-FA05,04,street,First Avenue,East 5th Street,East 6th Street,CSCL:2591,CSCL:2591,inventory only; see exception register before authoring
+04-FA06,04,street,First Avenue,East 6th Street,East 7th Street,CSCL:2590,CSCL:2590,inventory only; see exception register before authoring
+04-SA00,04,street,Second Avenue,East Houston Street,East 1st Street,CSCL:2244;CSCL:2245;CSCL:2246,CSCL:2244;CSCL:2245;CSCL:2246,inventory only; see exception register before authoring
+04-SA01,04,street,Second Avenue,East 1st Street,East 2nd Street,CSCL:2243,CSCL:2243,inventory only; see exception register before authoring
+04-SA02,04,street,Second Avenue,East 2nd Street,East 3rd Street,CSCL:2242,CSCL:2242,inventory only; see exception register before authoring
+04-SA03,04,street,Second Avenue,East 3rd Street,East 4th Street,CSCL:2241,CSCL:2241,inventory only; see exception register before authoring
+04-SA04,04,street,Second Avenue,East 4th Street,East 5th Street,CSCL:2239;CSCL:2240,CSCL:2240,inventory only; see exception register before authoring
+04-SA05,04,street,Second Avenue,East 5th Street,East 6th Street,CSCL:2239,CSCL:2239,inventory only; see exception register before authoring
+04-SA06,04,street,Second Avenue,East 6th Street,East 7th Street,CSCL:2238,CSCL:2238,inventory only; see exception register before authoring
+04-HOU21,04,street,East Houston Street,Second Avenue,First Avenue,CSCL:3302;CSCL:3303;CSCL:3304;CSCL:3305;CSCL:3331;CSCL:3332;CSCL:3333;CSCL:159601,CSCL:3303;CSCL:3304;CSCL:3305;CSCL:3331;CSCL:3332;CSCL:3333,inventory only; see exception register before authoring
+04-HOU1A,04,street,East Houston Street,First Avenue,Avenue A,CSCL:3301;CSCL:3302;CSCL:3330;CSCL:3331;CSCL:145631;CSCL:145632;CSCL:148147;CSCL:148157,CSCL:145631;CSCL:145632;CSCL:148147;CSCL:148157;CSCL:3301;CSCL:3302;CSCL:3330,inventory only; see exception register before authoring
+05-E07AB,05,street,East 7th Street,Avenue A,Avenue B,CSCL:81202,CSCL:81202,inventory only; see exception register before authoring
+05-E10AB,05,street,East 10th Street,Avenue A,Avenue B,CSCL:3970,CSCL:3970,inventory only; see exception register before authoring
+05-AA07,05,street,Avenue A,East 7th Street,St. Marks Place / East 8th Street,CSCL:4345,CSCL:4345,inventory only; see exception register before authoring
+05-AA08,05,street,Avenue A,St. Marks Place / East 8th Street,East 9th Street,CSCL:4346,CSCL:4346,inventory only; see exception register before authoring
+05-AA09,05,street,Avenue A,East 9th Street,East 10th Street,CSCL:4347,CSCL:4347,inventory only; see exception register before authoring
+05-AB07,05,street,Avenue B,East 7th Street,St. Marks Place / East 8th Street,CSCL:3997,CSCL:3997,inventory only; see exception register before authoring
+05-AB08,05,street,Avenue B,St. Marks Place / East 8th Street,East 9th Street,CSCL:183390,CSCL:183390,inventory only; see exception register before authoring
+05-AB09,05,street,Avenue B,East 9th Street,East 10th Street,CSCL:181503,CSCL:181503,inventory only; see exception register before authoring
+05-TSPSW,05,park interior,Tompkins Square Park,southwest quarter,to shared interior seams,CSCL:81202,,inventory only; see exception register before authoring
+05-TSPNW,05,park interior,Tompkins Square Park,northwest quarter,to shared interior seams,CSCL:16646,CSCL:16646,inventory only; see exception register before authoring
+05-TSPNE,05,park interior,Tompkins Square Park,northeast quarter,to shared interior seams,CSCL:16646;CSCL:181503;CSCL:183390,,inventory only; see exception register before authoring
+05-TSPSE,05,park interior,Tompkins Square Park,southeast quarter,to shared interior seams,CSCL:81202,,inventory only; see exception register before authoring
+06-E10-BC,06,street,East 10th Street,Avenue B,Avenue C,CSCL:3971;CSCL:3972,CSCL:3971,inventory only; see exception register before authoring
+06-E10-CD,06,street,East 10th Street,Avenue C,Avenue D latitude / utility boundary,CSCL:3972;CSCL:3973,CSCL:3972;CSCL:3973,inventory only; see exception register before authoring
+06-E11-AB,06,street,East 11th Street,Avenue A,Avenue B,CSCL:4010,CSCL:4010,inventory only; see exception register before authoring
+06-E11-BC,06,street,East 11th Street,Avenue B,Avenue C,CSCL:183451,CSCL:183451,inventory only; see exception register before authoring
+06-E11-CD,06,site/connection verification,East 11th Street,Avenue C,Avenue D latitude / utility boundary,CSCL:4011;CSCL:103211,CSCL:103211;CSCL:4011,inventory only; see exception register before authoring
+06-E12-AB,06,street,East 12th Street,Avenue A,Avenue B,CSCL:4365,CSCL:4365,inventory only; see exception register before authoring
+06-E12-BC,06,street,East 12th Street,Avenue B,Avenue C,CSCL:4366,CSCL:4366,inventory only; see exception register before authoring
+06-E12-CD,06,site/connection verification,East 12th Street,Avenue C,Avenue D latitude / utility boundary,CSCL:4367;CSCL:4368;CSCL:103212,CSCL:103212;CSCL:4367;CSCL:4368,inventory only; see exception register before authoring
+06-E13-AB,06,street,East 13th Street,Avenue A,Avenue B,CSCL:80037;CSCL:172327,CSCL:172327,inventory only; see exception register before authoring
+06-E13-BC,06,site/connection verification,East 13th Street,Avenue B,Avenue C,CSCL:80005;CSCL:80037,CSCL:80037,inventory only; see exception register before authoring
+06-E13-CD,06,street,East 13th Street,Avenue C,Avenue D latitude / utility boundary,CSCL:80005;CSCL:80006,CSCL:80005,inventory only; see exception register before authoring
+06-E14-AB,06,street,East 14th Street,Avenue A,Avenue B,CSCL:187745;CSCL:187747;CSCL:187751,CSCL:187744;CSCL:187745;CSCL:187747;CSCL:187748;CSCL:187751;CSCL:187752,inventory only; see exception register before authoring
+06-E14-BC,06,street,East 14th Street,Avenue B,Avenue C,CSCL:19112;CSCL:19113;CSCL:19114;CSCL:187760,CSCL:187759;CSCL:187760;CSCL:19112;CSCL:19113;CSCL:77339;CSCL:77342,inventory only; see exception register before authoring
+06-E14-CD,06,site/connection verification,East 14th Street,Avenue C,Avenue D latitude / utility boundary,CSCL:2748;CSCL:19114,CSCL:19114;CSCL:2748,inventory only; see exception register before authoring
+06-AA10,06,street,Avenue A,East 10th Street,East 11th Street,CSCL:4348,CSCL:4348,inventory only; see exception register before authoring
+06-AA11,06,street,Avenue A,East 11th Street,East 12th Street,CSCL:4349,CSCL:4349,inventory only; see exception register before authoring
+06-AA12,06,street,Avenue A,East 12th Street,East 13th Street,CSCL:4350,CSCL:4350,inventory only; see exception register before authoring
+06-AA13,06,street,Avenue A,East 13th Street,East 14th Street,CSCL:4351;CSCL:4352,CSCL:4351,inventory only; see exception register before authoring
+06-AB10,06,street,Avenue B,East 10th Street,East 11th Street,CSCL:4000,CSCL:4000,inventory only; see exception register before authoring
+06-AB11,06,street,Avenue B,East 11th Street,East 12th Street,CSCL:4001,CSCL:4001,inventory only; see exception register before authoring
+06-AB12,06,street,Avenue B,East 12th Street,East 13th Street,CSCL:4002,CSCL:4002,inventory only; see exception register before authoring
+06-AB13,06,street,Avenue B,East 13th Street,East 14th Street,CSCL:4003;CSCL:4004,CSCL:4003,inventory only; see exception register before authoring
+06-AC10,06,street,Avenue C,East 10th Street,East 11th Street,CSCL:2068;CSCL:2069,CSCL:2068,inventory only; see exception register before authoring
+06-AC11,06,street,Avenue C,East 11th Street,East 12th Street,CSCL:2070;CSCL:2071,CSCL:2070,inventory only; see exception register before authoring
+06-AC12,06,street,Avenue C,East 12th Street,East 13th Street,CSCL:2071,CSCL:2071,inventory only; see exception register before authoring
+06-AC13,06,street,Avenue C,East 13th Street,East 14th Street,CSCL:2072,CSCL:2072,inventory only; see exception register before authoring
+06-AD10,06,street,Avenue D,East 10th Street,East 11th Street,CSCL:2745;CSCL:2746,,inventory only; see exception register before authoring
+06-AD11,06,street,Avenue D,East 11th Street,East 12th Street,CSCL:2746,CSCL:108905;CSCL:2746,inventory only; see exception register before authoring
+06-AD12,06,street,Avenue D,East 12th Street,East 13th Street,CSCL:2747,CSCL:2747,inventory only; see exception register before authoring
+07-E07-BC,07,street,East 7th Street,Avenue B,Avenue C,CSCL:81204;CSCL:176432,CSCL:176432,inventory only; see exception register before authoring
+07-E07-CD,07,street,East 7th Street,Avenue C,Avenue D,CSCL:81204,CSCL:81204,inventory only; see exception register before authoring
+07-E08-BC,07,street,East 8th Street,Avenue B,Avenue C,CSCL:4107;CSCL:183075,CSCL:183075,inventory only; see exception register before authoring
+07-E08-CD,07,street,East 8th Street,Avenue C,Avenue D,CSCL:4107,CSCL:4107,inventory only; see exception register before authoring
+07-E09-BC,07,street,East 9th Street,Avenue B,Avenue C,CSCL:16648;CSCL:176437,CSCL:176437,inventory only; see exception register before authoring
+07-E09-CD,07,street,East 9th Street,Avenue C,Avenue D,CSCL:16648,CSCL:16648,inventory only; see exception register before authoring
+07-AC07,07,street,Avenue C,East 7th Street,East 8th Street,CSCL:2096,CSCL:2096,inventory only; see exception register before authoring
+07-AC08,07,street,Avenue C,East 8th Street,East 9th Street,CSCL:2095,CSCL:2095,inventory only; see exception register before authoring
+07-AC09,07,street,Avenue C,East 9th Street,East 10th Street,CSCL:2069,CSCL:2069,inventory only; see exception register before authoring
+07-AD07,07,street,Avenue D,East 7th Street,East 8th Street,CSCL:2743,CSCL:2743,inventory only; see exception register before authoring
+07-AD08,07,street,Avenue D,East 8th Street,East 9th Street,CSCL:2744,CSCL:2744,inventory only; see exception register before authoring
+07-AD09,07,street,Avenue D,East 9th Street,East 10th Street,CSCL:2745,CSCL:2745,inventory only; see exception register before authoring
+08-E06-AB,08,street,East 6th Street,Avenue A,Avenue B,CSCL:3472,CSCL:3472,inventory only; see exception register before authoring
+08-E06-BC,08,street,East 6th Street,Avenue B,Avenue C,CSCL:3470;CSCL:181296,CSCL:181296,inventory only; see exception register before authoring
+08-E06-CD,08,street,East 6th Street,Avenue C,Avenue D,CSCL:3470,CSCL:3470,inventory only; see exception register before authoring
+08-E05-AB,08,street,East 5th Street,Avenue A,Avenue B,CSCL:99649,CSCL:99649,inventory only; see exception register before authoring
+08-E05-BC,08,site/connection verification,East 5th Street,Avenue B,Avenue C,CSCL:4091;CSCL:4092,CSCL:4091,inventory only; see exception register before authoring
+08-E05-CD,08,street,East 5th Street,Avenue C,Avenue D,CSCL:4092,CSCL:4092,inventory only; see exception register before authoring
+08-E04-AB,08,street,East 4th Street,Avenue A,Avenue B,CSCL:172325,CSCL:172325,inventory only; see exception register before authoring
+08-E04-BC,08,street,East 4th Street,Avenue B,Avenue C,CSCL:4324,CSCL:4324,inventory only; see exception register before authoring
+08-E04-CD,08,street,East 4th Street,Avenue C,Avenue D,CSCL:183095,CSCL:183095,inventory only; see exception register before authoring
+08-E03-AB,08,street,East 3rd Street,Avenue A,Avenue B,CSCL:16690,CSCL:16690,inventory only; see exception register before authoring
+08-E03-BC,08,street,East 3rd Street,Avenue B,Avenue C,CSCL:16691,CSCL:16691,inventory only; see exception register before authoring
+08-E03-CD,08,street,East 3rd Street,Avenue C,Avenue D,CSCL:16692,CSCL:16692,inventory only; see exception register before authoring
+08-E02-AB,08,street,East 2nd Street,Avenue A,Avenue B,CSCL:95928;CSCL:95929,CSCL:95929,inventory only; see exception register before authoring
+08-E02-BC,08,street,East 2nd Street,Avenue B,Avenue C,CSCL:95930,CSCL:95930,inventory only; see exception register before authoring
+08-E02-CD,08,site/connection verification,East 2nd Street,Avenue C,Avenue D,CSCL:168666,CSCL:168666,inventory only; see exception register before authoring
+08-AA00,08,street,Avenue A,East Houston Street,East 2nd Street,CSCL:4354;CSCL:4355,CSCL:4354,inventory only; see exception register before authoring
+08-AA02,08,street,Avenue A,East 2nd Street,East 3rd Street,CSCL:4353;CSCL:4354,CSCL:4353,inventory only; see exception register before authoring
+08-AA03,08,street,Avenue A,East 3rd Street,East 4th Street,CSCL:4342,CSCL:4342,inventory only; see exception register before authoring
+08-AA04,08,street,Avenue A,East 4th Street,East 5th Street,CSCL:4341,CSCL:4341,inventory only; see exception register before authoring
+08-AA05,08,street,Avenue A,East 5th Street,East 6th Street,CSCL:4343,CSCL:4343,inventory only; see exception register before authoring
+08-AA06,08,street,Avenue A,East 6th Street,East 7th Street,CSCL:4344,CSCL:4344,inventory only; see exception register before authoring
+08-AB00,08,street,Avenue B,East Houston Street,East 2nd Street,CSCL:4008;CSCL:190608,CSCL:190608,inventory only; see exception register before authoring
+08-AB02,08,street,Avenue B,East 2nd Street,East 3rd Street,CSCL:4006,CSCL:4006,inventory only; see exception register before authoring
+08-AB03,08,street,Avenue B,East 3rd Street,East 4th Street,CSCL:4005,CSCL:4005,inventory only; see exception register before authoring
+08-AB04,08,street,Avenue B,East 4th Street,East 5th Street,CSCL:3995,CSCL:3995,inventory only; see exception register before authoring
+08-AB05,08,street,Avenue B,East 5th Street,East 6th Street,CSCL:3994,CSCL:3994,inventory only; see exception register before authoring
+08-AB06,08,street,Avenue B,East 6th Street,East 7th Street,CSCL:3996,CSCL:3996,inventory only; see exception register before authoring
+08-AC00,08,street,Avenue C,East Houston Street,East 2nd Street,CSCL:2102;CSCL:2103,CSCL:2102,inventory only; see exception register before authoring
+08-AC02,08,street,Avenue C,East 2nd Street,East 3rd Street,CSCL:181512,CSCL:181512,inventory only; see exception register before authoring
+08-AC03,08,street,Avenue C,East 3rd Street,East 4th Street,CSCL:2100;CSCL:181297,CSCL:2100,inventory only; see exception register before authoring
+08-AC04,08,street,Avenue C,East 4th Street,East 5th Street,CSCL:181297,CSCL:181297,inventory only; see exception register before authoring
+08-AC05,08,street,Avenue C,East 5th Street,East 6th Street,CSCL:2098,CSCL:2098,inventory only; see exception register before authoring
+08-AC06,08,street,Avenue C,East 6th Street,East 7th Street,CSCL:2097,CSCL:2097,inventory only; see exception register before authoring
+08-AD00,08,street,Avenue D,East Houston Street,East 2nd Street,CSCL:2751;CSCL:2752,,inventory only; see exception register before authoring
+08-AD02,08,street,Avenue D,East 2nd Street,East 3rd Street,CSCL:2751,,inventory only; see exception register before authoring
+08-AD03,08,street,Avenue D,East 3rd Street,East 4th Street,CSCL:2749;CSCL:2750;CSCL:115131,,inventory only; see exception register before authoring
+08-AD04,08,street,Avenue D,East 4th Street,East 5th Street,CSCL:2749,,inventory only; see exception register before authoring
+08-AD05,08,street,Avenue D,East 5th Street,East 6th Street,CSCL:2741,,inventory only; see exception register before authoring
+08-AD06,08,street,Avenue D,East 6th Street,East 7th Street,CSCL:2742,,inventory only; see exception register before authoring
+08-HOUAB,08,street,East Houston Street,Avenue A,Avenue B,CSCL:3296;CSCL:3297;CSCL:3325;CSCL:3326;CSCL:148147;CSCL:148157;CSCL:190609;CSCL:190611,CSCL:190609;CSCL:190611;CSCL:3296;CSCL:3297;CSCL:3325;CSCL:3326,inventory only; see exception register before authoring
+08-HOUBC,08,street,East Houston Street,Avenue B,Avenue C,CSCL:3293;CSCL:3294;CSCL:3295;CSCL:3296;CSCL:3322;CSCL:3323;CSCL:3324;CSCL:3325,CSCL:3293;CSCL:3294;CSCL:3295;CSCL:3322;CSCL:3323;CSCL:3324,inventory only; see exception register before authoring
+08-HOUCD,08,street,East Houston Street,Avenue C,Avenue D,CSCL:3293;CSCL:168664;CSCL:168665;CSCL:168669,CSCL:168664;CSCL:168665;CSCL:168669,inventory only; see exception register before authoring
+09-SITES,09,housing/utility site,Land between Avenue D and FDR,Houston boundary,East 6th latitude,CSCL:1486;CSCL:1487;CSCL:1488;CSCL:1614;CSCL:1615;CSCL:1616;CSCL:1617;CSCL:2741;CSCL:2749;CSCL:2750;CSCL:2751;CSCL:2752;CSCL:3286;CSCL:3288;CSCL:3290;CSCL:3291;CSCL:3314;CSCL:3316;CSCL:3318;CSCL:3319;CSCL:3320;CSCL:3469;CSCL:4016;CSCL:72692;CSCL:72697;CSCL:72700;CSCL:72701;CSCL:80004;CSCL:91047;CSCL:91048;CSCL:95597;CSCL:96576;CSCL:96577;CSCL:102386;CSCL:105628;CSCL:114274;CSCL:114931;CSCL:114953;CSCL:114954;CSCL:114955;CSCL:114956;CSCL:115074;CSCL:115076;CSCL:115130;CSCL:115131;CSCL:115195;CSCL:118112;CSCL:118113;CSCL:123390;CSCL:123391;CSCL:123392;CSCL:123393;CSCL:131565;CSCL:131573;CSCL:131725;CSCL:131726;CSCL:131727;CSCL:131728;CSCL:131730;CSCL:131731;CSCL:138464;CSCL:139505;CSCL:179581;CSCL:195840;CSCL:195842;CSCL:195843;CSCL:195847;CSCL:196395;CSCL:196396;CSCL:196397;CSCL:196405;CSCL:196458;CSCL:196464;CSCL:196465;CSCL:201168;CSCL:206574;CSCL:206927;CSCL:207240,CSCL:105628;CSCL:114953;CSCL:114954;CSCL:115074;CSCL:115076;CSCL:115130;CSCL:115131;CSCL:115195;CSCL:118112;CSCL:118113;CSCL:123392;CSCL:139505;CSCL:207240;CSCL:2741;CSCL:2749;CSCL:2750;CSCL:2751;CSCL:80004,inventory only; see exception register before authoring
+09-FDRS,09,infrastructure,FDR corridor and waterfront access,Houston boundary,East 6th latitude,CSCL:1486;CSCL:1487;CSCL:1488;CSCL:1614;CSCL:1615;CSCL:1616;CSCL:1617;CSCL:2741;CSCL:2749;CSCL:2750;CSCL:2751;CSCL:2752;CSCL:3286;CSCL:3288;CSCL:3290;CSCL:3291;CSCL:3314;CSCL:3316;CSCL:3318;CSCL:3319;CSCL:3320;CSCL:3469;CSCL:4016;CSCL:72692;CSCL:72697;CSCL:72700;CSCL:72701;CSCL:80004;CSCL:91047;CSCL:91048;CSCL:95597;CSCL:96576;CSCL:96577;CSCL:102386;CSCL:105628;CSCL:114274;CSCL:114931;CSCL:114953;CSCL:114954;CSCL:114955;CSCL:114956;CSCL:115074;CSCL:115076;CSCL:115130;CSCL:115131;CSCL:115195;CSCL:118112;CSCL:118113;CSCL:123390;CSCL:123391;CSCL:123392;CSCL:123393;CSCL:131565;CSCL:131573;CSCL:131725;CSCL:131726;CSCL:131727;CSCL:131728;CSCL:131730;CSCL:131731;CSCL:138464;CSCL:139505;CSCL:179581;CSCL:195840;CSCL:195842;CSCL:195843;CSCL:195847;CSCL:196395;CSCL:196396;CSCL:196397;CSCL:196405;CSCL:196458;CSCL:196464;CSCL:196465;CSCL:201168;CSCL:206574;CSCL:206927;CSCL:207240,CSCL:102386;CSCL:114955;CSCL:114956;CSCL:131565;CSCL:131573;CSCL:131723;CSCL:131725;CSCL:131726;CSCL:131727;CSCL:131728;CSCL:131729;CSCL:131730;CSCL:131731;CSCL:1486;CSCL:1615;CSCL:179581;CSCL:179584;CSCL:196395;CSCL:196396;CSCL:196397;CSCL:196398;CSCL:196405;CSCL:196464;CSCL:196465;CSCL:201168;CSCL:72700;CSCL:72701,inventory only; see exception register before authoring
+09-PARKS,09,waterfront landscape,East River Park and river edge,Houston boundary,East 6th latitude,CSCL:1486;CSCL:1487;CSCL:1488;CSCL:1614;CSCL:1615;CSCL:1616;CSCL:1617;CSCL:2741;CSCL:2749;CSCL:2750;CSCL:2751;CSCL:2752;CSCL:3286;CSCL:3288;CSCL:3290;CSCL:3291;CSCL:3314;CSCL:3316;CSCL:3318;CSCL:3319;CSCL:3320;CSCL:3469;CSCL:4016;CSCL:72692;CSCL:72697;CSCL:72700;CSCL:72701;CSCL:80004;CSCL:91047;CSCL:91048;CSCL:95597;CSCL:96576;CSCL:96577;CSCL:102386;CSCL:105628;CSCL:114274;CSCL:114931;CSCL:114953;CSCL:114954;CSCL:114955;CSCL:114956;CSCL:115074;CSCL:115076;CSCL:115130;CSCL:115131;CSCL:115195;CSCL:118112;CSCL:118113;CSCL:123390;CSCL:123391;CSCL:123392;CSCL:123393;CSCL:131565;CSCL:131573;CSCL:131725;CSCL:131726;CSCL:131727;CSCL:131728;CSCL:131730;CSCL:131731;CSCL:138464;CSCL:139505;CSCL:179581;CSCL:195840;CSCL:195842;CSCL:195843;CSCL:195847;CSCL:196395;CSCL:196396;CSCL:196397;CSCL:196405;CSCL:196458;CSCL:196464;CSCL:196465;CSCL:201168;CSCL:206574;CSCL:206927;CSCL:207240,CSCL:196458;CSCL:206574,inventory only; see exception register before authoring
+09-SITEM,09,housing/utility site,Land between Avenue D and FDR,East 6th latitude,East 10th latitude,CSCL:1614;CSCL:2742;CSCL:2743;CSCL:2744;CSCL:2745;CSCL:3469;CSCL:3976;CSCL:72702;CSCL:115170;CSCL:115171;CSCL:115192;CSCL:115193;CSCL:115194;CSCL:118114;CSCL:120051;CSCL:120052;CSCL:131735;CSCL:138464;CSCL:206927,CSCL:115170;CSCL:115192;CSCL:115193;CSCL:115194;CSCL:118114;CSCL:120051;CSCL:120052;CSCL:2742;CSCL:3469;CSCL:3976,inventory only; see exception register before authoring
+09-FDRM,09,infrastructure,FDR corridor and waterfront access,East 6th latitude,East 10th latitude,CSCL:1614;CSCL:2742;CSCL:2743;CSCL:2744;CSCL:2745;CSCL:3469;CSCL:3976;CSCL:72702;CSCL:115170;CSCL:115171;CSCL:115192;CSCL:115193;CSCL:115194;CSCL:118114;CSCL:120051;CSCL:120052;CSCL:131735;CSCL:138464;CSCL:206927,CSCL:115171;CSCL:138464;CSCL:1614;CSCL:72702,inventory only; see exception register before authoring
+09-PARKM,09,waterfront landscape,East River Park and river edge,East 6th latitude,East 10th latitude,CSCL:1614;CSCL:2742;CSCL:2743;CSCL:2744;CSCL:2745;CSCL:3469;CSCL:3976;CSCL:72702;CSCL:115170;CSCL:115171;CSCL:115192;CSCL:115193;CSCL:115194;CSCL:118114;CSCL:120051;CSCL:120052;CSCL:131735;CSCL:138464;CSCL:206927,CSCL:131735;CSCL:206927,inventory only; see exception register before authoring
+09-SITEN,09,housing/utility site,Land between Avenue D and FDR,East 10th latitude,East 14th boundary,CSCL:1484;CSCL:1613;CSCL:1614;CSCL:3974;CSCL:3975;CSCL:3977;CSCL:19115;CSCL:80006;CSCL:96839;CSCL:131526;CSCL:131536;CSCL:131735;CSCL:138464;CSCL:147150;CSCL:198857;CSCL:198858;CSCL:206576;CSCL:206927;CSCL:206936;CSCL:206947;CSCL:207095;CSCL:207096;CSCL:208037,CSCL:19115;CSCL:207096;CSCL:208037;CSCL:3974;CSCL:3975;CSCL:3977;CSCL:80006,inventory only; see exception register before authoring
+09-FDRN,09,infrastructure,FDR corridor and waterfront access,East 10th latitude,East 14th boundary,CSCL:1484;CSCL:1613;CSCL:1614;CSCL:3974;CSCL:3975;CSCL:3977;CSCL:19115;CSCL:80006;CSCL:96839;CSCL:131526;CSCL:131536;CSCL:131735;CSCL:138464;CSCL:147150;CSCL:198857;CSCL:198858;CSCL:206576;CSCL:206927;CSCL:206936;CSCL:206947;CSCL:207095;CSCL:207096;CSCL:208037,CSCL:131526;CSCL:131536;CSCL:147150;CSCL:1484;CSCL:1613;CSCL:198857;CSCL:198858;CSCL:207095;CSCL:96839,inventory only; see exception register before authoring
+09-PARKN,09,waterfront landscape,East River Park and river edge,East 10th latitude,East 14th boundary,CSCL:1484;CSCL:1613;CSCL:1614;CSCL:3974;CSCL:3975;CSCL:3977;CSCL:19115;CSCL:80006;CSCL:96839;CSCL:131526;CSCL:131536;CSCL:131735;CSCL:138464;CSCL:147150;CSCL:198857;CSCL:198858;CSCL:206576;CSCL:206927;CSCL:206936;CSCL:206947;CSCL:207095;CSCL:207096;CSCL:208037,CSCL:206576;CSCL:206936;CSCL:206947,inventory only; see exception register before authoring
+09-HOU,09,street,East Houston Street / eastern approach,Avenue D,FDR / waterfront,CSCL:3286;CSCL:3288;CSCL:3290;CSCL:3291;CSCL:3314;CSCL:3316;CSCL:3318;CSCL:3319;CSCL:3320;CSCL:123390;CSCL:123391;CSCL:123393;CSCL:168665;CSCL:168669;CSCL:195840;CSCL:195842;CSCL:195843;CSCL:195847,CSCL:123390;CSCL:123391;CSCL:123393;CSCL:195840;CSCL:195842;CSCL:195843;CSCL:195847;CSCL:3286;CSCL:3288;CSCL:3290;CSCL:3291;CSCL:3314;CSCL:3316;CSCL:3318;CSCL:3319;CSCL:3320,inventory only; see exception register before authoring
+00-E07,00,protected existing work,East 7th Street,Second Avenue,Avenue A,CSCL:81200;CSCL:81201,CSCL:81200;CSCL:81201,inventory only; see exception register before authoring
+00-STM,00,protected existing work,St. Marks Place,Second Avenue,Avenue A,CSCL:101336;CSCL:101337,CSCL:101336;CSCL:101337,inventory only; see exception register before authoring
+00-FA07,00,protected existing work,First Avenue,East 7th Street,St. Marks Place,CSCL:2589,CSCL:2589,inventory only; see exception register before authoring

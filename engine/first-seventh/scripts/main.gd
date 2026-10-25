@@ -33,8 +33,13 @@ var started_ms = Time.get_ticks_msec()
 var browser_review = false
 var stats_timer = 0.0
 var browser_focus_callback
+var browser_resize_callback
 var facade_review = false
 var review_ids: Array[int] = []
+var relocating = false
+var review_transition = false
+var review_pinned = false
+var stream_notice_seconds = 0.0
 
 func _ready():
 	print("SEVENTH_OPENING")
@@ -84,6 +89,7 @@ func _ready():
 	tire_effects.car = car
 	add_child(tire_effects)
 	cameras.car = car
+	cameras.residency_guard = world.streamer.permit_camera
 	hud.minimap.car = car
 	cameras.set_mode(initial_camera)
 	weather.car = car
@@ -91,6 +97,9 @@ func _ready():
 	setup_audio()
 	await warm_street_views()
 	ready_to_play = true
+	if OS.has_feature("web"):
+		browser_resize_callback = JavaScriptBridge.create_callback(browser_resize_requested)
+		JavaScriptBridge.get_interface("window").seventhRequestResize = browser_resize_callback
 	hud.loaded(true)
 	print("SEVENTH_READY ",Time.get_ticks_msec()-started_ms," ms; ",world.building_roots.size()," building objects")
 	if review_mode: call_deferred("run_review")
@@ -149,6 +158,25 @@ func toggle_pause():
 
 func reset():
 	if not ready_to_play: return
+	world.streamer.retry_failed()
+	if relocating: return
+	if not await prepare_position(Vector3(0,.15,0)): return
+	review_pinned = false
+	finish_reset()
+
+func prepare_position(point: Vector3) -> bool:
+	relocating = true
+	car.stop_car()
+	car.enabled = false
+	cameras.set_process(false)
+	world.streamer.require_at(point)
+	while not world.streamer.ready_at(point):
+		hud.toast("Opening the next block…  ·  R to retry")
+		await get_tree().process_frame
+	relocating = false
+	return true
+
+func finish_reset():
 	car.reset_car()
 	cameras.set_process(true)
 	cameras.camera.projection = Camera3D.PROJECTION_PERSPECTIVE
@@ -163,6 +191,44 @@ func reset():
 	cameras.set_input_enabled(started and not paused)
 	hud.set_paused(false)
 	hud.toast("Back at First & Seventh")
+
+func _physics_process(dt):
+	if not ready_to_play: return
+	if relocating or review_pinned:
+		car.enabled = false
+		car.stop_car()
+		return
+	var waiting: bool = world.streamer.update_residency(car.position,car.speed,dt,cameras.camera)
+	car.enabled = started and not paused and not waiting
+	if waiting:
+		car.stop_car()
+		stream_notice_seconds -= dt
+		if stream_notice_seconds<=0:
+			hud.toast("Block unavailable  ·  R to retry  ·  Reload for latest" if world.streamer.terminal_failure() else "Opening the next block…")
+			stream_notice_seconds = 2.0
+	else: stream_notice_seconds = 0.0
+
+func handle_review_command(command: Dictionary):
+	review_transition = true
+	var kind = command.get("type")
+	if kind == "pose":
+		var point = Vector3(float(command.x),.15,float(command.z))
+		await prepare_position(point)
+		review_pinned = false
+		finish_reset()
+		car.position = point
+		car.rotation.y = float(command.yaw)
+		car.reset_physics_interpolation()
+	elif kind in ["frontage","streetFrontage","reference"]:
+		await prepare_position(Vector3.ZERO)
+		review_pinned = true
+		if kind == "frontage": show_review_frontage(int(command.id),bool(command.get("close",false)),float(command.get("along",.5)),float(command.get("span",1.0)))
+		elif kind == "streetFrontage": show_street_review_frontage(str(command.faceId),bool(command.get("close",false)),float(command.get("along",.5)),float(command.get("span",1.0)))
+		else: show_reference_camera(command)
+	elif kind == "streamingDump":
+		JavaScriptBridge.eval("window.seventhStreamDump="+JSON.stringify(world.streamer.snapshot(true)))
+	JavaScriptBridge.eval("window.seventhReviewAck="+str(int(command.get("sequence",0))))
+	review_transition = false
 
 func _unhandled_input(event):
 	if not event is InputEventKey or not event.pressed or event.echo: return
@@ -187,6 +253,11 @@ func browser_focus_changed(_arguments: Array):
 	if started and bool(JavaScriptBridge.eval("document.hidden || !document.hasFocus()")):
 		pause_for_focus_loss()
 
+func browser_resize_requested(_arguments: Array):
+	# The shell keeps the old backing size/projection while this request waits.
+	world.streamer.resize_pending = true
+	world.streamer.west_wanted = true
+
 func pause_for_focus_loss():
 	paused = true
 	car.enabled = false
@@ -199,31 +270,24 @@ func pause_for_focus_loss():
 
 func _process(dt):
 	if not ready_to_play: return
+	if world.streamer.resize_pending and world.streamer.west_ready():
+		JavaScriptBridge.eval("window.seventhApplyResize()")
+		world.streamer.resize_pending = false
 	session_time += dt
 	if browser_review:
 		var command_text = JavaScriptBridge.eval("window.seventhReviewCommand ? JSON.stringify(window.seventhReviewCommand) : ''")
-		if command_text is String and not command_text.is_empty():
+		if not review_transition and command_text is String and not command_text.is_empty():
 			var command = JSON.parse_string(command_text)
 			JavaScriptBridge.eval("window.seventhReviewCommand=null")
-			if command is Dictionary:
-				if command.get("type") == "pose":
-					reset()
-					car.position = Vector3(float(command.x),.15,float(command.z))
-					car.rotation.y = float(command.yaw)
-					car.reset_physics_interpolation()
-				elif command.get("type") == "frontage":
-					show_review_frontage(int(command.id),bool(command.get("close",false)),float(command.get("along",.5)),float(command.get("span",1.0)))
-				elif command.get("type") == "streetFrontage":
-					show_street_review_frontage(str(command.faceId),bool(command.get("close",false)),float(command.get("along",.5)),float(command.get("span",1.0)))
-				elif command.get("type") == "reference":
-					show_reference_camera(command)
-				JavaScriptBridge.eval("window.seventhReviewAck="+str(int(command.get("sequence",0))))
+			if command is Dictionary: handle_review_command(command)
 		stats_timer += dt
 		if stats_timer >= .25:
 			stats_timer = 0.0
 			var address_state = hud.address_state()
 			var stats = {"ready":ready_to_play,"started":started,"paused":paused,"frames":Engine.get_frames_drawn(),"fps":Engine.get_frames_per_second(),"drawCalls":RenderingServer.get_rendering_info(RenderingServer.RENDERING_INFO_TOTAL_DRAW_CALLS_IN_FRAME),"triangles":RenderingServer.get_rendering_info(RenderingServer.RENDERING_INFO_TOTAL_PRIMITIVES_IN_FRAME),"scale":scale_3d,"position":[car.position.x,car.position.y,car.position.z],"yaw":car.rotation.y,"speed":car.speed,"camera":cameras.mode,"cameraPose":cameras.camera_state(),"weather":weather.mode,"wetness":weather.current.wet,"sound":audio_enabled,"collisions":car.collision_count,"buildings":world.building_roots.size(),"persistent":OS.is_userfs_persistent(),"address":address_state.address,"addressId":address_state.addressId,"addressVisible":address_state.addressVisible}
 			stats["tickMs"] = Time.get_ticks_msec()
+			stats["buildings"] = world.data.buildings.size()
+			stats["streaming"] = world.streamer.snapshot()
 			stats["slipDegrees"] = rad_to_deg(car.handling.slip)
 			stats["rpm"] = car.handling.rpm
 			stats["gear"] = car.handling.gear
@@ -351,7 +415,7 @@ func show_review_frontage(id: int, close: bool, along = .5, span = 1.0):
 func show_street_review_frontage(face_id: String, close: bool, along = .5, span = 1.0):
 	# Exact face ownership is necessary for multi-frontage avenue corners.
 	var record = null
-	for entry in world.data.get("streetReviewFrontages",[]):
+	for entry in world.data.get("streetReviewFrontages",[])+world.data.get("packetReviewFrontages",[]):
 		if str(entry.faceId)==face_id: record=entry;break
 	_show_review_record(record,close,along,span)
 

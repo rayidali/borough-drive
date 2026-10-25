@@ -1,0 +1,35 @@
+{
+  "recorded": "2026-10-14T14:28:55.211529+00:00",
+  "protectedGLBs": 217,
+  "protectedCompiledScenes": 217,
+  "privateImages": {
+    "Screenshot 2026-09-14 at 8.35.02 PM.png": "a182ce14205d2c4d6125f5f332b80ff643b77b56f0117678e7a2d83541fd652d",
+    "Screenshot 2026-09-21 at 4.47.09 PM.png": "184d4be305befa6c5152848f7f8fc9ce770083fea613d0dacaefa50a72596deb"
+  },
+  "privateImagesUntracked": true,
+  "changedTrackedNonMarkdown": [
+    "dist/seventh/build.json",
+    "dist/seventh/index.html",
+    "dist/seventh/index.pck",
+    "engine/first-seventh/assets/slice.json",
+    "engine/first-seventh/scripts/minimap.gd",
+    "engine/first-seventh/scripts/world.gd",
+    "model-source/export_seventh_engine.py",
+    "scripts/export-seventh.mjs",
+    "scripts/review-seventh-address.mjs",
+    "scripts/verify-seventh.mjs"
+  ],
+  "unchangedTrackedNonMarkdownCount": 2374,
+  "headUnchanged": "a2a90a3e08540e15f40e0ede0f8af14921f54675",
+  "limits": "Excludes Markdown checkpoint updates and new untracked packet files; model preservation includes the prior untracked facade sessions.",
+  "changedPriorBuildSources": [
+    "engine/first-seventh/assets/area_manifest.json",
+    "engine/first-seventh/assets/slice.json",
+    "engine/first-seventh/scripts/export_areas.gd",
+    "engine/first-seventh/scripts/minimap.gd",
+    "engine/first-seventh/scripts/world.gd",
+    "model-source/export_seventh_engine.py",
+    "scripts/export-seventh.mjs"
+  ],
+  "unchangedPriorBuildSources": 132
+}

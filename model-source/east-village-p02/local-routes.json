@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-13T18:41:07.290Z",
+  "results": [
+    {
+      "url": "/",
+      "file": "dist/seventh/index.html",
+      "sha256": "3220970a145203d4d78a68b374998aefc4edc3a6bf4b8d5c8e1d87b2e9a727ef",
+      "bytes": 12517,
+      "status": 200,
+      "cache": "public, max-age=0, must-revalidate"
+    },
+    {
+      "url": "/seventh/",
+      "file": "dist/seventh/index.html",
+      "sha256": "3220970a145203d4d78a68b374998aefc4edc3a6bf4b8d5c8e1d87b2e9a727ef",
+      "bytes": 12517,
+      "status": 200,
+      "cache": "public, max-age=0, must-revalidate"
+    },
+    {
+      "url": "/index.html",
+      "file": "dist/legacy.html",
+      "sha256": "ad8fa5a259fea000caa0a463ce636ce5004dad5641d4c9f324930acdaacbb908",
+      "bytes": 11540,
+      "status": 200,
+      "cache": "public, max-age=0, must-revalidate"
+    },
+    {
+      "url": "/seventh/index.pck",
+      "file": "dist/seventh/index.pck",
+      "sha256": "476e38b45cd92fff235cb56e17c8c92506d3949959a002d88e0b26e49d07f288",
+      "bytes": 8006792,
+      "status": 200,
+      "cache": "public, max-age=0, must-revalidate"
+    }
+  ],
+  "sceneImmutableHeader": "public, max-age=31536000, immutable",
+  "distIndexAbsent": true,
+  "productionChecked": false
+}

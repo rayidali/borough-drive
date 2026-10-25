@@ -1,0 +1,14 @@
+{
+  "boundaryValid": true,
+  "phasePartitionGapOrOverlapSquareMetres": 0.0,
+  "uniqueLotIds": 2207,
+  "uniqueFootprintIds": 2365,
+  "uniqueRoadIds": 367,
+  "allRoadOwnersExist": true,
+  "all193UnitsHaveOnePhase": true,
+  "all53FacesUniqueAndExcludeProtected": true,
+  "allFutureMassesHaveOneOwner": true,
+  "boundaryJoinsOverPointOneMetre": 1,
+  "largestBoundaryJoinMetres": 1.328,
+  "scope": "offline geometry/identity validation; no visual/gameplay/performance tests"
+}

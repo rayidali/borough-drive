@@ -1,0 +1,749 @@
+{
+  "schema": 1,
+  "id": "P03",
+  "parent": "01-FA08W",
+  "revision": "P03-01",
+  "scopeFaces": [
+    "241822237:1",
+    "241822237:0"
+  ],
+  "elevations": [
+    {
+      "faceId": "241822237:1",
+      "buildingId": 241822237,
+      "frontageIndex": 1,
+      "address": "145 First Avenue",
+      "sourceFace": {
+        "x": -14.696,
+        "z": 91.259,
+        "rx": 0.0,
+        "rz": -1.0,
+        "length": 7.553,
+        "street": "First Avenue"
+      },
+      "buildingHeight": 15.19,
+      "architecture": {
+        "wall": "p03 red brick",
+        "windows": [
+          {
+            "at": 0.11650999602806832,
+            "width": 0.13504567721435193,
+            "bottom": 4.26,
+            "height": 1.66,
+            "trim": "p03 pale stone",
+            "frame": "p03 pale sash",
+            "hood": "none",
+            "rails": [
+              0.49
+            ],
+            "p03Pediment": true,
+            "ac": true
+          },
+          {
+            "at": 0.3720376009532636,
+            "width": 0.13504567721435193,
+            "bottom": 4.26,
+            "height": 1.66,
+            "trim": "p03 pale stone",
+            "frame": "p03 pale sash",
+            "hood": "none",
+            "rails": [
+              0.49
+            ],
+            "p03Pediment": true,
+            "ac": false
+          },
+          {
+            "at": 0.6235932741956839,
+            "width": 0.13504567721435193,
+            "bottom": 4.26,
+            "height": 1.66,
+            "trim": "p03 pale stone",
+            "frame": "p03 pale sash",
+            "hood": "none",
+            "rails": [
+              0.49
+            ],
+            "p03Pediment": true,
+            "ac": true
+          },
+          {
+            "at": 0.8777969018932874,
+            "width": 0.13504567721435193,
+            "bottom": 4.26,
+            "height": 1.66,
+            "trim": "p03 pale stone",
+            "frame": "p03 pale sash",
+            "hood": "none",
+            "rails": [
+              0.49
+            ],
+            "p03Pediment": true,
+            "ac": false
+          },
+          {
+            "at": 0.11650999602806832,
+            "width": 0.13504567721435193,
+            "bottom": 6.81,
+            "height": 1.84,
+            "trim": "p03 green metal",
+            "frame": "p03 pale sash",
+            "hood": "none",
+            "rails": [
+              0.49
+            ],
+            "p03Pediment": false,
+            "ac": false
+          },
+          {
+            "at": 0.3720376009532636,
+            "width": 0.13504567721435193,
+            "bottom": 6.81,
+            "height": 1.84,
+            "trim": "p03 green metal",
+            "frame": "p03 pale sash",
+            "hood": "none",
+            "rails": [
+              0.49
+            ],
+            "p03Pediment": false,
+            "ac": true
+          },
+          {
+            "at": 0.6235932741956839,
+            "width": 0.13504567721435193,
+            "bottom": 6.81,
+            "height": 1.84,
+            "trim": "p03 green metal",
+            "frame": "p03 pale sash",
+            "hood": "none",
+            "rails": [
+              0.49
+            ],
+            "p03Pediment": false,
+            "ac": true
+          },
+          {
+            "at": 0.8777969018932874,
+            "width": 0.13504567721435193,
+            "bottom": 6.81,
+            "height": 1.84,
+            "trim": "p03 green metal",
+            "frame": "p03 pale sash",
+            "hood": "none",
+            "rails": [
+              0.49
+            ],
+            "p03Pediment": false,
+            "ac": false
+          },
+          {
+            "at": 0.11650999602806832,
+            "width": 0.13504567721435193,
+            "bottom": 9.53,
+            "height": 1.84,
+            "trim": "p03 green metal",
+            "frame": "p03 pale sash",
+            "hood": "none",
+            "rails": [
+              0.49
+            ],
+            "p03Pediment": false,
+            "ac": true
+          },
+          {
+            "at": 0.3720376009532636,
+            "width": 0.13504567721435193,
+            "bottom": 9.53,
+            "height": 1.84,
+            "trim": "p03 green metal",
+            "frame": "p03 pale sash",
+            "hood": "none",
+            "rails": [
+              0.49
+            ],
+            "p03Pediment": false,
+            "ac": false
+          },
+          {
+            "at": 0.6235932741956839,
+            "width": 0.13504567721435193,
+            "bottom": 9.53,
+            "height": 1.84,
+            "trim": "p03 green metal",
+            "frame": "p03 pale sash",
+            "hood": "none",
+            "rails": [
+              0.49
+            ],
+            "p03Pediment": false,
+            "ac": false
+          },
+          {
+            "at": 0.8777969018932874,
+            "width": 0.13504567721435193,
+            "bottom": 9.53,
+            "height": 1.84,
+            "trim": "p03 green metal",
+            "frame": "p03 pale sash",
+            "hood": "none",
+            "rails": [
+              0.49
+            ],
+            "p03Pediment": false,
+            "ac": false
+          },
+          {
+            "at": 0.11650999602806832,
+            "width": 0.13504567721435193,
+            "bottom": 12.24,
+            "height": 1.77,
+            "trim": "p03 green metal",
+            "frame": "p03 pale sash",
+            "hood": "none",
+            "rails": [
+              0.49
+            ],
+            "p03Pediment": false,
+            "ac": true
+          },
+          {
+            "at": 0.3720376009532636,
+            "width": 0.13504567721435193,
+            "bottom": 12.24,
+            "height": 1.77,
+            "trim": "p03 green metal",
+            "frame": "p03 pale sash",
+            "hood": "none",
+            "rails": [
+              0.49
+            ],
+            "p03Pediment": false,
+            "ac": false
+          },
+          {
+            "at": 0.6235932741956839,
+            "width": 0.13504567721435193,
+            "bottom": 12.24,
+            "height": 1.77,
+            "trim": "p03 green metal",
+            "frame": "p03 pale sash",
+            "hood": "none",
+            "rails": [
+              0.49
+            ],
+            "p03Pediment": false,
+            "ac": false
+          },
+          {
+            "at": 0.8777969018932874,
+            "width": 0.13504567721435193,
+            "bottom": 12.24,
+            "height": 1.77,
+            "trim": "p03 green metal",
+            "frame": "p03 pale sash",
+            "hood": "none",
+            "rails": [
+              0.49
+            ],
+            "p03Pediment": false,
+            "ac": false
+          }
+        ],
+        "doors": [],
+        "returnShops": [
+          {
+            "name": "Baji Baji",
+            "span": [
+              0.014,
+              0.483
+            ],
+            "design": {
+              "top": 3.2,
+              "head": 2.88,
+              "base": 0.4,
+              "recess": 0.52,
+              "transom": false,
+              "panels": [
+                [
+                  "glass",
+                  0.6
+                ],
+                [
+                  "door",
+                  0.4
+                ]
+              ],
+              "signs": [],
+              "detail09": {
+                "id": "241822237:1:0",
+                "frame": "store09 black enamel",
+                "surround": "store09 black enamel",
+                "frameWidth": 0.05,
+                "pierWidth": 0.065,
+                "floor": 0.16,
+                "molding": false,
+                "displayDepth": 1.25,
+                "doorSolidTop": 0.25,
+                "recessedBase": false,
+                "displays": [],
+                "furniture": [],
+                "identity": "Dark boarded fascia, small 145 and phone, boxed salmon BAJI / BAJI at right; broad yellow-circle display, sticker-covered black surround and deeper narrow right entry; no cloth canopy.",
+                "sourceIds": [
+                  "first-businesses-september",
+                  "south-context-april"
+                ]
+              },
+              "detailP03": {
+                "kind": "baji"
+              }
+            }
+          },
+          {
+            "name": "East Village Pizza \u2014 First Avenue entrance",
+            "span": [
+              0.493,
+              0.986
+            ],
+            "design": {
+              "top": 3.27,
+              "head": 2.67,
+              "base": 0.72,
+              "recess": 0.32,
+              "transom": true,
+              "panels": [
+                [
+                  "glass",
+                  0.7
+                ],
+                [
+                  "door",
+                  0.3
+                ]
+              ],
+              "signs": [],
+              "detail09": {
+                "id": "241822237:1:1",
+                "frame": "store09 black enamel",
+                "surround": "store09 black enamel",
+                "frameWidth": 0.05,
+                "pierWidth": 0.065,
+                "floor": 0.16,
+                "molding": false,
+                "displayDepth": 1.25,
+                "doorSolidTop": 0.25,
+                "recessedBase": false,
+                "displays": [],
+                "furniture": [],
+                "identity": "Green fixed fascia plus separate retractable shade/valance, white compressed lettering and goosenecks; black display and corner leaf, layered riser graffiti and turquoise tower-painted corner pier.",
+                "sourceIds": [
+                  "first-businesses-september",
+                  "pizza-corner-may"
+                ]
+              },
+              "detailP03": {
+                "kind": "pizza-first"
+              }
+            }
+          }
+        ],
+        "signs": [],
+        "observedGround": {
+          "replaceWindows": false,
+          "replaceDoors": false
+        },
+        "p03Face": 1,
+        "observation": {
+          "sources": [
+            "first-upper-2024",
+            "first-businesses-september",
+            "south-context-april"
+          ],
+          "facts": [
+            "Four columns on each of four upper floors on First Avenue, light sash frames and green sill/hood surrounds.",
+            "Continuous ornate green cornice turns the Ninth corner, with brackets and deep layered projection.",
+            "Lowest upper row has curved pediment hoods; the three higher rows have rectangular layered heads.",
+            "Two distinct First Avenue shop divisions: south Baji Baji and north corner East Village Pizza; ground details require closer independent view.",
+            "No First Avenue fire escape visible; neighboring 143 escape belongs to protected adjacent building.",
+            "Baji Baji occupies south half: weathered dark brown vertical-board fascia with small 145 at left/center, white phone left and inset salmon-red two-line BAJI / BAJI rectangle at right. Two dark gooseneck lamps above.",
+            "Baji storefront: broad left dark display with large yellow circular graphic, right recessed narrow single door, deep black surrounds densely covered with small multicolor stickers and pale graffiti; no fabric awning or outdoor dining set.",
+            "Pizza north half: one broad display with horizontal mid-rail and high transom, narrow single glazed entry near corner, black riser with layered graffiti, green projecting awning, fixed green fascia and white goosenecks.",
+            "Pizza corner pier tower mural visible in turquoise and cream; sidewalk entrance opens at grade; red tactile curb ramp pads, steel signal pole, 1 AV and ONE WAY signs by corner.",
+            "Tree bench and stools continue down Ninth. September date differs from April 2026 south-context source and May 2024 Ninth view; no claim all October 2026 details unchanged.",
+            "April view confirms green cornice and four-bay upper First face beside protected 143 brown escape facade.",
+            "First Pizza canopy is a short green sloping shade with white PIZZA letters and striped edges; south unit is darker, with graffiti and a narrow red lettered sign.",
+            "Street tree partly occludes target; this is context and junction evidence, not complete ground visibility."
+          ],
+          "unknown": [
+            "Mapped mass, visual ratios and estimated relief dimensions; no calibrated acceptance.",
+            "Dated 2024 primary views, April 2026 context and explicit older Ninth geometry supplements; not verified unchanged October 2026.",
+            "Hidden rear/roof equipment and deep interiors unobserved."
+          ]
+        }
+      }
+    },
+    {
+      "faceId": "241822237:0",
+      "buildingId": 241822237,
+      "frontageIndex": 0,
+      "address": "352 East 9th Street / 145 First Avenue return",
+      "sourceFace": {
+        "x": -14.696,
+        "z": 83.706,
+        "rx": -0.9999995028382332,
+        "rz": 0.0009971576036675815,
+        "length": 20.057,
+        "street": "East 9th Street"
+      },
+      "buildingHeight": 15.19,
+      "architecture": {
+        "wall": "p03 red brick",
+        "windows": [
+          {
+            "at": 0.3764271825297901,
+            "width": 0.05085506307024979,
+            "bottom": 4.26,
+            "height": 1.66,
+            "trim": "p03 green metal",
+            "frame": "p03 pale sash",
+            "hood": "none",
+            "rails": [
+              0.49
+            ],
+            "p03Pediment": true,
+            "ac": true
+          },
+          {
+            "at": 0.5284937926908312,
+            "width": 0.05085506307024979,
+            "bottom": 4.26,
+            "height": 1.66,
+            "trim": "p03 green metal",
+            "frame": "p03 pale sash",
+            "hood": "none",
+            "rails": [
+              0.49
+            ],
+            "p03Pediment": true,
+            "ac": false
+          },
+          {
+            "at": 0.3764271825297901,
+            "width": 0.05085506307024979,
+            "bottom": 6.81,
+            "height": 1.84,
+            "trim": "p03 green metal",
+            "frame": "p03 pale sash",
+            "hood": "none",
+            "rails": [
+              0.49
+            ],
+            "p03Pediment": false,
+            "ac": false
+          },
+          {
+            "at": 0.5284937926908312,
+            "width": 0.05085506307024979,
+            "bottom": 6.81,
+            "height": 1.84,
+            "trim": "p03 green metal",
+            "frame": "p03 pale sash",
+            "hood": "none",
+            "rails": [
+              0.49
+            ],
+            "p03Pediment": false,
+            "ac": true
+          },
+          {
+            "at": 0.3764271825297901,
+            "width": 0.05085506307024979,
+            "bottom": 9.53,
+            "height": 1.84,
+            "trim": "p03 green metal",
+            "frame": "p03 pale sash",
+            "hood": "none",
+            "rails": [
+              0.49
+            ],
+            "p03Pediment": false,
+            "ac": true
+          },
+          {
+            "at": 0.5284937926908312,
+            "width": 0.05085506307024979,
+            "bottom": 9.53,
+            "height": 1.84,
+            "trim": "p03 green metal",
+            "frame": "p03 pale sash",
+            "hood": "none",
+            "rails": [
+              0.49
+            ],
+            "p03Pediment": false,
+            "ac": true
+          },
+          {
+            "at": 0.3764271825297901,
+            "width": 0.05085506307024979,
+            "bottom": 12.24,
+            "height": 1.77,
+            "trim": "p03 green metal",
+            "frame": "p03 pale sash",
+            "hood": "none",
+            "rails": [
+              0.49
+            ],
+            "p03Pediment": false,
+            "ac": false
+          },
+          {
+            "at": 0.5284937926908312,
+            "width": 0.05085506307024979,
+            "bottom": 12.24,
+            "height": 1.77,
+            "trim": "p03 green metal",
+            "frame": "p03 pale sash",
+            "hood": "none",
+            "rails": [
+              0.49
+            ],
+            "p03Pediment": false,
+            "ac": true
+          },
+          {
+            "at": 0.7154609363314554,
+            "width": 0.04985790497083313,
+            "bottom": 4.05,
+            "height": 1.51,
+            "trim": "p03 pale stone",
+            "frame": "p03 olive sash",
+            "hood": "flat",
+            "rails": [
+              0.48
+            ],
+            "p03Plain": true
+          },
+          {
+            "at": 0.8485815426035799,
+            "width": 0.021438899137458244,
+            "bottom": 4.05,
+            "height": 1.51,
+            "trim": "p03 pale stone",
+            "frame": "p03 olive sash",
+            "hood": "flat",
+            "rails": [
+              0.48
+            ],
+            "p03Plain": true
+          }
+        ],
+        "doors": [
+          {
+            "at": 0.9368300344019544,
+            "width": 0.058333748815874754,
+            "bottom": 0.25,
+            "top": 3.23,
+            "leafTop": 2.64,
+            "material": "store09 black enamel",
+            "trim": "store09 black enamel",
+            "leaves": 1,
+            "recess": 0.25,
+            "hardware": "store09 brushed steel",
+            "panels": [
+              {
+                "y": 0.52,
+                "height": 0.8,
+                "width": 0.86,
+                "glass": true
+              }
+            ]
+          }
+        ],
+        "returnShops": [
+          {
+            "name": "East Village Pizza \u2014 Ninth Street return",
+            "span": [
+              0.006,
+              0.548
+            ],
+            "design": {
+              "top": 3.27,
+              "head": 2.67,
+              "base": 0.72,
+              "recess": 0.32,
+              "transom": true,
+              "panels": [
+                [
+                  "glass",
+                  0.33
+                ],
+                [
+                  "glass",
+                  0.34
+                ],
+                [
+                  "glass",
+                  0.33
+                ]
+              ],
+              "signs": [],
+              "detail09": {
+                "id": "241822237:0:0",
+                "frame": "store09 black enamel",
+                "surround": "store09 black enamel",
+                "frameWidth": 0.05,
+                "pierWidth": 0.065,
+                "floor": 0.16,
+                "molding": false,
+                "displayDepth": 1.25,
+                "doorSolidTop": 0.25,
+                "recessedBase": false,
+                "displays": [],
+                "furniture": [],
+                "identity": "Long independent green retractable awning, white curved lamps, three large black display bays, round multicolor neon, heart pizza and slice neon, gold skyline lower panels; square wood standing tables and dark/red backless stools.",
+                "sourceIds": [
+                  "pizza-corner-may",
+                  "ninth-sidewalk-may",
+                  "ninth-complete-historic"
+                ]
+              },
+              "detailP03": {
+                "kind": "pizza-ninth"
+              }
+            }
+          }
+        ],
+        "signs": [],
+        "observedGround": {
+          "replaceWindows": false,
+          "replaceDoors": false
+        },
+        "p03Face": 0,
+        "observation": {
+          "sources": [
+            "ninth-complete-historic",
+            "pizza-corner-may",
+            "ninth-sidewalk-may",
+            "corner-depth-2022"
+          ],
+          "facts": [
+            "Full elevation confirms eight principal openings: two columns on each of four upper floors; two additional plain lower-level windows to their west, one wider and one narrow. No openings in large upper blank east and west wall fields.",
+            "Lowest principal row has curved green pediments; three higher rows have layered rectangular green heads and sill brackets. Top cornice is uninterrupted across full return with four broad bracket groups and small dentils.",
+            "Pizza glass and shade occupy roughly eastern half of return; black service/mural wall occupies next third; residential glazed single door/transom is at far west, with visible shallow threshold step.",
+            "Mapped facade width 20.057m is dimensional anchor; source perspective supplies approximate relative spacing only. West neighboring mass is separate with visible side setback; not part of this assigned building.",
+            "Pizza First entrance is a single narrow glazed door near the corner, with separate wider display window to its south, black frames, pale transom, stacked A/decals and a small green PIZZA neon in the left display.",
+            "Two independent green retractable awnings meet at corner, exposed pale arms/roller and scalloped or loose valance; green fixed fascia above reads eastvillagepizza.net, EAST VILLAGE PIZZA and 212-529-4545 in compressed white lettering.",
+            "Ninth display has a round multicolor East Village Pizza neon at corner, pizza-heart art in central glass and another slice neon farther west; behind glazing visible counter and stacked display layers.",
+            "Corner pier carries tall turquoise/cream/brown tower illustration; black Ninth stall-riser panels carry gold skyline painting, First sill panels layered graffiti.",
+            "Wood square standing-height tables, dark backless stools and a red stool line Ninth shop windows; far tree and rail partially obscure west edge.",
+            "White curved gooseneck lamps and connected surface wiring sit over both fascias. No road dining enclosure in this May 2024 view.",
+            "Ninth pizza has three large black framed display bays and standing tables tight to facade; heart pizza center art and slice neon farther west, skyline painted riser; no covered road seating enclosure.",
+            "Tree sits in rectangular pit with weathered wood perimeter bench, separate from storefront stools. Curb drain grate near eastern pit end; bicycles farther west by wall.",
+            "Clear walking strip between facade furniture and tree bench; Ninth roadway remains asphalt with curbside parking and shared cycle symbols.",
+            "Historic oblique establishes corner masonry continuity and green cornice depth; First four upper bays, Ninth has a large blank corner wall before a paired upper window group.",
+            "Pizza wraps corner with separate fascia and projecting shade, white gooseneck lights, black lower panels and clear displays; historic temporary road dining enclosure is not a current feature to copy.",
+            "Ninth has trees and curbside furnishing that require newer independent visibility; full long return not resolved in this oblique."
+          ],
+          "unknown": [
+            "Mapped mass, visual ratios and estimated relief dimensions; no calibrated acceptance.",
+            "Dated 2024 primary views, April 2026 context and explicit older Ninth geometry supplements; not verified unchanged October 2026.",
+            "Hidden rear/roof equipment and deep interiors unobserved."
+          ]
+        }
+      }
+    }
+  ],
+  "businesses": [
+    {
+      "id": "241822237:1:0",
+      "businessId": "baji-baji",
+      "faceId": "241822237:1",
+      "name": "Baji Baji",
+      "span": [
+        0.014,
+        0.483
+      ],
+      "identity": "Dark boarded fascia, small 145 and phone, boxed salmon BAJI / BAJI at right; broad yellow-circle display, sticker-covered black surround and deeper narrow right entry; no cloth canopy.",
+      "sourceIds": [
+        "first-businesses-september",
+        "south-context-april"
+      ],
+      "component": "baji",
+      "reviewState": "authored; final served review recorded separately",
+      "unknown": [
+        "Proprietary lettering, murals and sticker artwork are hand-built approximations; illegible source copy is not invented.",
+        "Furniture and notices represent dated source appearance; interiors beyond visible shallow display cues are unknown."
+      ]
+    },
+    {
+      "id": "241822237:1:1",
+      "businessId": "east-village-pizza",
+      "faceId": "241822237:1",
+      "name": "East Village Pizza \u2014 First Avenue entrance",
+      "span": [
+        0.493,
+        0.986
+      ],
+      "identity": "Green fixed fascia plus separate retractable shade/valance, white compressed lettering and goosenecks; black display and corner leaf, layered riser graffiti and turquoise tower-painted corner pier.",
+      "sourceIds": [
+        "first-businesses-september",
+        "pizza-corner-may"
+      ],
+      "component": "pizza-first",
+      "reviewState": "authored; final served review recorded separately",
+      "unknown": [
+        "Proprietary lettering, murals and sticker artwork are hand-built approximations; illegible source copy is not invented.",
+        "Furniture and notices represent dated source appearance; interiors beyond visible shallow display cues are unknown."
+      ]
+    },
+    {
+      "id": "241822237:0:0",
+      "businessId": "east-village-pizza",
+      "faceId": "241822237:0",
+      "name": "East Village Pizza \u2014 Ninth Street return",
+      "span": [
+        0.006,
+        0.548
+      ],
+      "identity": "Long independent green retractable awning, white curved lamps, three large black display bays, round multicolor neon, heart pizza and slice neon, gold skyline lower panels; square wood standing tables and dark/red backless stools.",
+      "sourceIds": [
+        "pizza-corner-may",
+        "ninth-sidewalk-may",
+        "ninth-complete-historic"
+      ],
+      "component": "pizza-ninth",
+      "reviewState": "authored; final served review recorded separately",
+      "unknown": [
+        "Proprietary lettering, murals and sticker artwork are hand-built approximations; illegible source copy is not invented.",
+        "Furniture and notices represent dated source appearance; interiors beyond visible shallow display cues are unknown."
+      ]
+    }
+  ],
+  "uniqueBusinesses": 2,
+  "junctions": [
+    {
+      "neighbor": 241822211,
+      "face": "First Avenue south",
+      "condition": "Touching party wall; separate brown 143 escape/cornice and green 145 cornice. Mapped 12mm street-plane difference retained.",
+      "protectedNeighbor": true,
+      "sourceIds": [
+        "first-upper-2024",
+        "south-context-april"
+      ]
+    },
+    {
+      "neighbor": 241822239,
+      "face": "Ninth west",
+      "condition": "Municipal footprint touches at x=-34.753; imagery shows next building recessed with exposed pale side wall. Do not invent a through-alley or alter the deferred neighbor. P03 ends at mapped owned boundary.",
+      "sourceIds": [
+        "west-return-historic",
+        "ninth-complete-historic"
+      ],
+      "deferredNeighbor": true
+    }
+  ],
+  "ownership": "One new mass and exactly two complete faces; no 148 Ninth return or other Ninth buildings. Narrow west Ninth viewing/driving stub only.",
+  "targetCapture": "2024 storefront detail with April 2026 context and explicit 2017/2022 architectural supplements",
+  "sourceLedger": "model-source/east-village-p03/observations.json"
+}

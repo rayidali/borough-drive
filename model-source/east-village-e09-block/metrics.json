@@ -1,0 +1,112 @@
+{
+  "recorded": "2026-10-14T17:41:44.964511+00:00",
+  "builtAt": "2026-10-14T17:30:33.776Z",
+  "pack": {
+    "bytes": 8096788,
+    "sha256": "56af68394e3cc27156124b0b360a99096a16dacba4220c6637abf86c2a136638",
+    "brotliBytes": 7422797
+  },
+  "runtimeBytes": 196791273,
+  "runtimeFiles": 274,
+  "sourceHashes": 151,
+  "models": 255,
+  "triangles": 6473778,
+  "partition": {
+    "EVP-REST": 243,
+    "EVP-WEST": 12
+  },
+  "conditions": "One local game tab; unthrottled CPU/network; focus emulated. Cold means browser network cache disabled, not an OS/GPU/WASM-cache reset. Warm enables browser cache; localhost response headers are recorded. Raw first-drive intervals retained.",
+  "startups": {
+    "cold": {
+      "samples": 5,
+      "readyMs": [
+        9655.900000000373,
+        9771.600000000559,
+        10023.599999999627,
+        9928,
+        11592.100000000559
+      ],
+      "medianMs": 9928,
+      "p95Ms": 11592.100000000559,
+      "sceneCacheHits": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "residentCounts": [
+        255,
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    "warm": {
+      "samples": 5,
+      "readyMs": [
+        10906.5,
+        12592.5,
+        15342.600000000559,
+        13587.5,
+        11076.5
+      ],
+      "medianMs": 12592.5,
+      "p95Ms": 15342.600000000559,
+      "sceneCacheHits": [
+        255,
+        255,
+        255,
+        255,
+        255
+      ],
+      "residentCounts": [
+        255,
+        255,
+        255,
+        255,
+        255
+      ]
+    }
+  },
+  "routes": [
+    {
+      "name": "first-north",
+      "p95Ms": 18.69999999999709,
+      "maxMs": 18.700000000000728
+    },
+    {
+      "name": "first-south",
+      "p95Ms": 18.600000000002183,
+      "maxMs": 18.799999999999272
+    },
+    {
+      "name": "west-lane-north",
+      "p95Ms": 18.600000000002183,
+      "maxMs": 18.700000000000728
+    },
+    {
+      "name": "east-lane-south",
+      "p95Ms": 18.599999999998545,
+      "maxMs": 18.700000000004366
+    },
+    {
+      "name": "ninth-west",
+      "p95Ms": 18.599999999998545,
+      "maxMs": 18.700000000004366
+    },
+    {
+      "name": "ninth-east",
+      "p95Ms": 31.400000000001455,
+      "maxMs": 35.30000000000291
+    }
+  ],
+  "baseline": "Historical N01B final measurements; no paired same-day baseline rerun. Cold 6.971/7.226 s median/p95; warm 9.061/11.170 s. Different block, run length and interrupted session; no isolated causal conclusion.",
+  "limits": [
+    "All 255 scenes load initially; 12 west can unload later, 243 pinned. Not whole-East-Village startup scalability.",
+    "One isolated desktop browser/profile, no CPU/network throttling. Cache disabled does not reset OS/GPU/WASM caches.",
+    "Startup medians are slower than historical N01B. Ninth-east has 31.4 ms p95 and 35.3 ms maximum; other legs 18.6\u201318.7 ms p95. No detail was reduced to improve figures.",
+    "No mobile, calibrated RAM, or stable whole-project speed claim. Browser counters are not total process memory."
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "baseline": "baseline.json",
+  "head": "a2a90a3e08540e15f40e0ede0f8af14921f54675",
+  "pack": {
+    "bytes": 7991408,
+    "sha256": "d79b539d31a624ba19f32fdcd86f02888f16d54989abd99e4d6733c913145656",
+    "brotliBytes": 7388857
+  },
+  "runtimeFiles": 226,
+  "sourceHashes": 120,
+  "unchangedAuthoredModels": 203,
+  "unchangedCompiledScenes": 203,
+  "newModels": 4,
+  "unchangedOtherTrackedNonMarkdownFiles": 2372,
+  "changedTrackedNonMarkdownFiles": [
+    "dist/seventh/build.json",
+    "dist/seventh/credits.txt",
+    "dist/seventh/index.html",
+    "dist/seventh/index.pck",
+    "engine/first-seventh/assets/credits.txt",
+    "engine/first-seventh/assets/slice.json",
+    "engine/first-seventh/scripts/main.gd",
+    "engine/first-seventh/scripts/minimap.gd",
+    "engine/first-seventh/scripts/world.gd",
+    "model-source/export_seventh_engine.py",
+    "scripts/export-seventh.mjs",
+    "scripts/verify-seventh.mjs"
+  ],
+  "privateImages": {
+    "Screenshot 2026-09-14 at 8.35.02\u202fPM.png": {
+      "sha256": "a182ce14205d2c4d6125f5f332b80ff643b77b56f0117678e7a2d83541fd652d",
+      "untracked": true
+    },
+    "Screenshot 2026-09-21 at 4.47.09\u202fPM.png": {
+      "sha256": "184d4be305befa6c5152848f7f8fc9ce770083fea613d0dacaefa50a72596deb",
+      "untracked": true
+    }
+  },
+  "distIndexAbsent": true,
+  "newScenes": {
+    "241822278": {
+      "bounds": [
+        -27.5400009155273,
+        0.149999618530273,
+        -115.759002685547,
+        -13.3539762496948,
+        14.6099996566772,
+        -106.300003051758
+      ],
+      "bytes": 772310,
+      "glbSha256": "2387ba2c0319c97163b48996409fd78ab867a7ceb4cd1de0bd60d3b15bc75ff1",
+      "id": 241822278,
+      "owner": "EVP-REST",
+      "sha256": "9180ce98e072e5675dc73c9b830cf9bbaac05b01b2a5b5cd9471a8e9abff85d9",
+      "url": "/seventh/areas/assets/9180ce98e072e5675dc73c9b830cf9bbaac05b01b2a5b5cd9471a8e9abff85d9.scn"
+    },
+    "241822337": {
+      "bounds": [
+        -45.4119987487793,
+        0.149999856948853,
+        -122.874000549316,
+        -13.3607749938965,
+        15.5,
+        -115.554000854492
+      ],
+      "bytes": 904382,
+      "glbSha256": "927886b0a434a89209401c9e0a6116af0452181170edd9895a37cee6c706b9f7",
+      "id": 241822337,
+      "owner": "EVP-REST",
+      "sha256": "5ea73f225e0a678f25474c973bbca903650ed7aa047cc8726614a13c0cc25e9d",
+      "url": "/seventh/areas/assets/5ea73f225e0a678f25474c973bbca903650ed7aa047cc8726614a13c0cc25e9d.scn"
+    },
+    "241822304": {
+      "bounds": [
+        -45.423999786377,
+        0.150000095367432,
+        -129.580001831055,
+        -13.4547023773193,
+        15.8500003814697,
+        -122.668998718262
+      ],
+      "bytes": 645312,
+      "glbSha256": "3c201262c3d3948cf37e3006910d042e9ffeb634e296ea95cad2383c82eabbe0",
+      "id": 241822304,
+      "owner": "EVP-REST",
+      "sha256": "3d20a15cc77e776418d22330be9c75a4d7f4d9db70d19bd48f9fafa58d66b7d2",
+      "url": "/seventh/areas/assets/3d20a15cc77e776418d22330be9c75a4d7f4d9db70d19bd48f9fafa58d66b7d2.scn"
+    },
+    "241822211": {
+      "bounds": [
+        -34.8190002441406,
+        0.150000333786011,
+        -136.820999145508,
+        -13.4040012359619,
+        15.3599996566772,
+        -129.389999389648
+      ],
+      "bytes": 579037,
+      "glbSha256": "448cb9220f2f160ffb037a56a3be2e710d4b3f33f4ce4488d5a5602af55c9201",
+      "id": 241822211,
+      "owner": "EVP-REST",
+      "sha256": "d0c3819a7deb467cf2c92a80107fa243c9d481865b19bbeb3926981926dcf2c3",
+      "url": "/seventh/areas/assets/d0c3819a7deb467cf2c92a80107fa243c9d481865b19bbeb3926981926dcf2c3.scn"
+    }
+  }
+}

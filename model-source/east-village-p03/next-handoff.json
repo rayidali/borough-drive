@@ -1,0 +1,40 @@
+{
+  "id": "01-E09-21-N01A",
+  "state": "plan only; next user instruction starts implementation",
+  "parent": "01-E09-21",
+  "splitParent": "01-E09-21-N01",
+  "faceIds": [
+    "247852691:1",
+    "247852690:0",
+    "247852697:0",
+    "247852689:0"
+  ],
+  "mappedLabels": [
+    "147 First Avenue Ninth-facing return",
+    "345 East Ninth Street",
+    "343 East Ninth Street",
+    "341 East Ninth Street"
+  ],
+  "sourceStatus": "No fresh per-business photographs inspected for next packet. Labels are mapped identities.",
+  "protectedModels": 213,
+  "baselineBuild": "../../dist/seventh/build.json",
+  "preconditions": [
+    "Recheck git and preserve all preceding uncommitted work",
+    "Read P03 report and exact source/build state",
+    "Inspect all four faces, neighboring joins and business boundaries before authoring; split further if needed",
+    "Respect existing protected core/face and mass ownership; unassigned First-facing 147 return is context",
+    "Derive only necessary road/curb extension from assigned footprints; P03 currently opens short west Ninth stub only",
+    "Do not copy Seventh author constants or overwrite P01/P02/P03 recipes",
+    "Review all new shop/elevation/junction detail and preserved neighbors, then route/boundary/camera/startup checks"
+  ],
+  "currentRoadBounds": {
+    "firstTerminalZ": -166,
+    "firstOuterZ": -171,
+    "ninthWestTerminalX": -40,
+    "ninthWestOuterX": -44,
+    "ninthNorthOuterZ": -164,
+    "eastNinthClosedAtCurbX": 10.75,
+    "otherAvenueTerminalZ": -119
+  },
+  "publication": "not requested"
+}

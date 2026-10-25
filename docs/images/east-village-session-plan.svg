@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="800" viewBox="0 0 1180 800" role="img" aria-labelledby="title desc">
+  <title id="title">East Village reconstruction session phases</title>
+  <desc id="desc">Schematic, not to scale. Nine geographic phases between Houston and Fourteenth, from Bowery and Third Avenue to the East River. Green lines mark the existing reviewed Seventh, St. Marks and First Avenue segment. Each colored area contains many small sessions.</desc>
+  <style>
+    text { font-family: Arial, sans-serif; fill: #24372f; }
+    .title { font-size: 28px; font-weight: 700; }
+    .sub { font-size: 15px; fill: #5d6c65; }
+    .label { font-size: 16px; font-weight: 700; }
+    .small { font-size: 13px; }
+    .axis { font-size: 12px; fill: #506359; }
+    .edge { stroke: #fffdf7; stroke-width: 5; }
+    .num { font-size: 28px; font-weight: 700; }
+  </style>
+  <rect width="1180" height="800" fill="#fffdf7"/>
+  <text x="42" y="45" class="title">East Village · one small session at a time</text>
+  <text x="42" y="73" class="sub">Confirmed area · planning only · schematic, not a street or parcel survey</text>
+  <g class="edge">
+    <rect x="150" y="130" width="165" height="515" fill="#ead8c9"/>
+    <rect x="315" y="130" width="220" height="90" fill="#cadfd9"/>
+    <rect x="315" y="220" width="220" height="215" fill="#aecaaf"/>
+    <rect x="315" y="435" width="220" height="210" fill="#e6d8a9"/>
+    <rect x="535" y="130" width="330" height="175" fill="#cbd4e7"/>
+    <rect x="535" y="305" width="140" height="130" fill="#c1d895"/>
+    <rect x="675" y="305" width="190" height="130" fill="#d6cbe3"/>
+    <rect x="535" y="435" width="330" height="210" fill="#edcdb7"/>
+    <rect x="865" y="130" width="225" height="515" fill="#c7e1e9"/>
+  </g>
+  <text x="150" y="117" class="axis">Bowery / Third</text>
+  <text x="291" y="117" class="axis">Second</text>
+  <text x="405" y="117" class="axis">First</text>
+  <text x="514" y="117" class="axis">Ave A</text>
+  <text x="653" y="117" class="axis">Ave B</text>
+  <text x="748" y="117" class="axis">Ave C</text>
+  <text x="844" y="117" class="axis">Ave D*</text>
+  <text x="1038" y="117" class="axis">East River</text>
+  <text x="46" y="145" class="axis">E 14th</text>
+  <text x="46" y="225" class="axis">E 12th</text>
+  <text x="46" y="310" class="axis">E 10th</text>
+  <text x="46" y="440" class="axis">E 7th</text>
+  <text x="46" y="642" class="axis">Houston</text>
+  <g text-anchor="middle">
+    <text x="232" y="306" class="num">03</text>
+    <text x="232" y="338" class="label">Western strip</text>
+    <text x="232" y="365" class="small">Cooper Square</text>
+    <text x="232" y="386" class="small">Stuyvesant Street</text>
+    <text x="425" y="163" class="num">02</text>
+    <text x="425" y="190" class="label">Northern center</text>
+    <text x="425" y="260" class="num">01</text>
+    <text x="425" y="285" class="label">Current center</text>
+    <text x="425" y="338" class="small">Extend from accepted work</text>
+    <text x="425" y="506" class="num">04</text>
+    <text x="425" y="538" class="label">Southern center</text>
+    <text x="425" y="564" class="small">Includes Village View</text>
+    <text x="700" y="198" class="num">06</text>
+    <text x="700" y="230" class="label">Northern Alphabet City</text>
+    <text x="700" y="257" class="small">Retain real street gaps and site access</text>
+    <text x="605" y="344" class="num">05</text>
+    <text x="605" y="371" class="label">Tompkins</text>
+    <text x="605" y="394" class="small">Park + four edges</text>
+    <text x="770" y="345" class="num">07</text>
+    <text x="770" y="375" class="label">Middle Loisaida</text>
+    <text x="700" y="506" class="num">08</text>
+    <text x="700" y="538" class="label">Southern Alphabet City</text>
+    <text x="700" y="564" class="small">Gardens, housing and school sites included</text>
+    <text x="977" y="297" class="num">09</text>
+    <text x="977" y="330" class="label">Eastern sites</text>
+    <text x="977" y="354" class="label">+ waterfront</text>
+    <text x="977" y="391" class="small">Housing / utility edges</text>
+    <text x="977" y="414" class="small">FDR / access structures</text>
+    <text x="977" y="437" class="small">East River Park</text>
+    <text x="977" y="460" class="small">Houston–14th portion only</text>
+  </g>
+  <g stroke="#216546" stroke-width="7" fill="none" stroke-linecap="round">
+    <path d="M 322 431 H 528 M 322 390 H 528 M 425 390 V 431"/>
+  </g>
+  <text x="326" y="379" class="small">St. Marks · reviewed</text>
+  <circle cx="425" cy="305" r="7" fill="#216546"/>
+  <text x="439" y="311" class="small">protected core</text>
+  <line x1="43" y1="690" x2="91" y2="690" stroke="#216546" stroke-width="7" stroke-linecap="round"/>
+  <text x="109" y="696" class="sub">Existing reviewed streets / core — preserve; their evidence limits still apply.</text>
+  <text x="43" y="730" class="sub">Each area contains small property sessions. Colors do not imply that a whole area fits one session.</text>
+  <text x="43" y="758" class="small">* Grid breaks, Houston's diagonal, the Bowery bend and Avenue D's actual northern end are resolved in the inventory.</text>
+  <text x="43" y="781" class="small">Outer boundary properties: inward-facing side. Opposite neighborhoods remain context. Source: project plan, October 12, 2026.</text>
+</svg>

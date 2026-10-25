@@ -1,0 +1,70 @@
+{
+  "recorded": "2026-10-14T03:17:01.874697+00:00",
+  "session": "01-E09-21-N01A",
+  "state": "complete locally; checks passed within recorded limits",
+  "builtAt": "2026-10-14T02:50:35.713Z",
+  "pack": {
+    "bytes": 8023168,
+    "sha256": "418cedd49602c3f553ec5f863bdd7e0cbe69baec676461bbb0b14960a9a75bed",
+    "brotliBytes": 7404687
+  },
+  "sourceCheckout": "a2a90a3e08540e15f40e0ede0f8af14921f54675",
+  "checks": {
+    "originalVerify": "passed; logs/n01a-original-verify-final.log",
+    "exportVerify": "passed; logs/n01a-verify-final.log",
+    "protectedGLBs": 213,
+    "protectedCompiledScenes": 213,
+    "detailImagesOpened": 59,
+    "gameplayImagesOpened": 18,
+    "drivingLegs": 6,
+    "drivingContacts": 0,
+    "drivingHolds": 0,
+    "boundaries": 7,
+    "cameraModes": 4,
+    "reset": "passed",
+    "newBuildingOwners": 4,
+    "addressCases": 17,
+    "startups": {
+      "cold": 5,
+      "cacheEnabled": 5,
+      "errors": 0
+    },
+    "httpHashRoutes": 4,
+    "runtimeFileLengths": 236,
+    "diffWhitespace": "passed",
+    "skillQuickValidate": "passed; structural skill validation, not a behavioral evaluation"
+  },
+  "evidence": {
+    "visual": "visual-review.json",
+    "routes": "routes-final/captures.json",
+    "address": "address-final/review.json",
+    "startups": "performance-final/startups.json",
+    "metrics": "metrics.json",
+    "preservation": "preservation.json",
+    "http": "http-validation.json"
+  },
+  "trialLimits": [
+    "Three earlier 58-image capture sets are separate from the final 59-image review.",
+    "routes-01 contacted west terminal after late braking; corrected fixture passed, no handling changes.",
+    "No fresh N01A before-performance run; historical P03 comparison only.",
+    "No calibrated 1:1, independent second reviewer, whole-area/mobile scalability or total RAM test."
+  ],
+  "publication": {
+    "requested": false,
+    "commit": false,
+    "push": false,
+    "ci": false,
+    "deployment": false,
+    "productionRecheck": false
+  },
+  "next": "01-E09-21-N01B only on next user instruction",
+  "documentation": {
+    "files": 13,
+    "relativeLinks": 655,
+    "jsonCsvRows": 193,
+    "leafPackets": 10,
+    "uniqueLeafFaces": 53,
+    "parentChildOwnership": "passed",
+    "estimateArithmetic": "passed"
+  }
+}

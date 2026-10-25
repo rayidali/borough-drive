@@ -1,0 +1,135 @@
+{
+  "session": "EV-002",
+  "status": "EV-002 complete locally; uncommitted",
+  "control": {
+    "startupRuns": 10,
+    "viewCaptures": 12,
+    "roundTrips": 10,
+    "legs": 20,
+    "contacts": 0,
+    "errors": 0,
+    "maxFrameGapMs": 18.800000000046566
+  },
+  "trial01and02": "HTTP download_file callback saw missing files, HTTP 200, empty body. Failed trials retained. Byte/hash checks correctly rejected missing files.",
+  "diagnosis": "Pinned Godot 4.7.2 HTTPRequest EOF/disconnected completion omits download_complete=true, then cancel_request deletes download_file. Receive bounded body and create/verify/delete loader-owned file instead.",
+  "source": "https://raw.githubusercontent.com/godotengine/godot/4.7.2-stable/scene/main/http_request.cpp",
+  "discardedBuild03": "keep_partial_download exists upstream master, not installed 4.7.2; removed before browser testing after pinned-source inspection.",
+  "trial04": {
+    "complete": true,
+    "readyMs": 16756.69999998808,
+    "residentSequence": [
+      203,
+      191,
+      203
+    ],
+    "retiredWeakRefs": 45,
+    "retiredWeakRefsAlive": 0,
+    "bufferBytesBefore": 251854392,
+    "bufferBytesAfterRetirement": 234497894,
+    "bufferBytesAfterReload": 251854392,
+    "startupGate": "fails; tuning opening requests/batching next"
+  },
+  "designRefinements": [
+    "Actual camera frustum pins areas; circular far-distance alone is not enough.",
+    "Per-area model/collision owner is staged off-tree and activated together.",
+    "Opening-only request concurrency raised from 2 to 8 for trial05, retaining 32 MiB reservation cap; gameplay remains 2 requests/one decode per frame.",
+    "Native build emits sandbox OS editor/log/CA-store diagnostics; no GDScript/export errors in reviewed builds."
+  ],
+  "notDone": [],
+  "publication": "none",
+  "trial05": {
+    "complete": true,
+    "readyMs": 7054.099999964237,
+    "maxOpeningRequests": 8,
+    "maxReservedBytes": 16782014,
+    "residentSequence": [
+      203,
+      191,
+      203
+    ]
+  },
+  "trial06": "Opening-only concurrency 16 under same 32 MiB reservation cap; paired startup run in progress. Gameplay remains 2 requests and one scene decode per frame.",
+  "startupComparison": "startup-comparison.json: all cold/warm median and p95 gates pass; cold median 6192.7 ms vs 6086.4 ms control; candidate C8df PCK.",
+  "journey": {
+    "complete": true,
+    "roundTrips": 10,
+    "contacts": 0,
+    "movementHolds": 0,
+    "allPerLegP95GatesPass": true,
+    "memoryCheckpoints": "All ten identical at the normalized east pose; 1250 resources, 234497894 buffer bytes, 61860901 texture bytes, zero retired weak refs alive.",
+    "longGaps": "100.5 and 100.8 ms on eastbound cycles 8 and 9, with all 203 resident and zero requests/staging/activation/retirement throughout those legs; retained, cause unestablished.",
+    "comparison": "journey-comparison.json"
+  },
+  "recoveryTrial01": {
+    "result": "404 recovery passes; bad-hash retry times out. Investigating concurrent in-flight failures vs R retry, before any completion claim.",
+    "evidence": "candidate/failures-trial-01.json"
+  },
+  "recoveryTrial02": {
+    "evidence": "recovery-trial-02/failures.json",
+    "result": "Isolated bad-hash, delay/pause/focus and cancellation/backtrack pass. Confirms first retry timeout is intermittent."
+  },
+  "retryRepair": {
+    "reason": "R reset failed records only; outstanding attempts could still complete from the prior corrupt wave, exhausting their old budget after R. Cancel/invalidate all in-flight attempts on explicit retry; leave verified and active resources intact.",
+    "build": "07",
+    "checks": "Final combined recovery passes six cases; failed telemetry/logging assertions retained separately.",
+    "finalPck": "fa4d32a0ece9c56bdd4b67e2c94f11c2a01f5dce272bdb675313e8285928cffc"
+  },
+  "recoveryHarnessRepairs": [
+    {
+      "evidence": "candidate/failures-trial-03.json",
+      "diagnosis": "Assertion incorrectly inferred current in-flight count from quarter-second stale telemetry; requests could finish before R."
+    },
+    {
+      "evidence": "candidate/failures-trial-04.json",
+      "diagnosis": "Review ACK preceded telemetry refresh; immediate 199-resident assertion failed while next captured state correctly had 203. Wait for refreshed state."
+    },
+    {
+      "evidence": "candidate/failures-trial-05.json",
+      "diagnosis": "All six recovery cases passed. Final log assertion incorrectly treated 30 deliberately rejected offline fetch logs as unexpected errors; 30 matching offline requests were injected. Retain/classify exact engine fetch errors only while the offline fault is active."
+    }
+  ],
+  "finalRecovery": {
+    "report": "candidate/failures.json",
+    "complete": true,
+    "cases": 6,
+    "unexpectedErrors": 0,
+    "expectedOfflineErrors": 34,
+    "package": "fa4d32a0ece9c56bdd4b67e2c94f11c2a01f5dce272bdb675313e8285928cffc"
+  },
+  "cameraControls": {
+    "report": "camera/review.json",
+    "allFourModes": true,
+    "rootRoute": true
+  },
+  "cameraDelay": {
+    "report": "candidate/camera-hold.json",
+    "pass": true,
+    "orbitSteps": 4,
+    "expectedMovementHolds": 1,
+    "cameraPoseAndCarStableUntilReady": true
+  },
+  "address": {
+    "report": "address/review.json",
+    "pass": true,
+    "cases": 17,
+    "priorTrial": "address/trial-01.json",
+    "diagnosis": "Without focus emulation startup hit the shell watchdog; observed eventual ready state with transient HTTP timeout history. Aligned harness focus emulation with existing main/streaming runners; no runtime change. Root camera test already passed."
+  },
+  "settingsRecovery": {
+    "report": "settings/review.json",
+    "checks": {
+      "settingsReload": true,
+      "resize": true,
+      "focusLoss": true,
+      "postcard": true,
+      "perspectiveShopCaptures": 18
+    },
+    "recoveryChecks": {
+      "missingPackRetry": true,
+      "contextLossRetry": true
+    },
+    "unexpectedErrors": 0
+  },
+  "nextSession": "EV-003 integration on the next user session instruction",
+  "visualReview": "visual-review.json: all 27 pairs / 54 images inspected; no introduced facade/material/fixture difference."
+}

@@ -1,0 +1,67 @@
+{
+  "recorded": "2026-10-12T20:07:59.132307+00:00",
+  "status": "passed",
+  "scope": "Final local EV-002 package/evidence and documentation validation; no publication.",
+  "head": "a2a90a3e08540e15f40e0ede0f8af14921f54675",
+  "cachedOriginMain": "a2a90a3e08540e15f40e0ede0f8af14921f54675",
+  "package": {
+    "bytes": 7981516,
+    "sha256": "fa4d32a0ece9c56bdd4b67e2c94f11c2a01f5dce272bdb675313e8285928cffc",
+    "brotliBytes": 7386114
+  },
+  "runtimeFilesVerified": 222,
+  "sourceHashesVerified": 112,
+  "unchangedAuthoredModels": 203,
+  "unchangedCompiledScenes": 203,
+  "unchangedOtherTrackedNonMarkdownFiles": 2374,
+  "expectedChangedTrackedNonMarkdownFiles": [
+    "dist/seventh/build.json",
+    "dist/seventh/index.html",
+    "dist/seventh/index.pck",
+    "engine/first-seventh/export_presets.cfg",
+    "engine/first-seventh/scripts/cameras.gd",
+    "engine/first-seventh/scripts/main.gd",
+    "engine/first-seventh/scripts/world.gd",
+    "scripts/export-seventh.mjs",
+    "scripts/review-seventh-address.mjs",
+    "scripts/verify-seventh.mjs"
+  ],
+  "privateScreenshots": "Both unchanged and untracked; paths/hashes remain in preservation evidence.",
+  "distIndexAbsent": true,
+  "filesOverOrEqual100MiB": [],
+  "nodeSyntaxChecks": [
+    "scripts/export-seventh.mjs",
+    "scripts/verify-seventh.mjs",
+    "scripts/seventh-package.mjs",
+    "scripts/review-seventh-streaming.mjs",
+    "scripts/review-seventh-address.mjs"
+  ],
+  "markdownFilesChecked": 52,
+  "relativeMarkdownLinksChecked": 1113,
+  "brokenRelativeMarkdownLinks": [],
+  "whitespace": "git diff --check passed",
+  "skillValidation": "Skill is valid!",
+  "runtimeTests": {
+    "seventhVerify": "passed; retained actual final-pack log",
+    "originalVerify": "passed; retained actual final-pack log",
+    "browser": "See per-build evidence; no rerun or relabeling of timed pre-retry candidate. Final recovery/control/visual checks bind repaired pack."
+  },
+  "evidenceSha256": {
+    "baseline.json": "38468b4579b0d9df328f3380270044ecb9259bc267cfdb48866c5b31b804d8a2",
+    "preservation.json": "c778c0609c9dbf9d6679d046dabcbb1b2481408a1a97d531016f3ec865b0b327",
+    "visual-review.json": "3e1a94fd59365a514b4bdad223b561d7780e695bc238015092571b13c230ef8c",
+    "startup-comparison.json": "152f54d5f5970cde8bdc62c8e1049195552577f13bfca7e7a682fd0a11b92b15",
+    "journey-comparison.json": "3991e8f91a8115e5a59d83ec55559f82e83133b533fbf6e535fd3ad414326a07",
+    "candidate/failures.json": "a759267f2f6e4f8a1fcdb1594181df26ca95762ec7f7864cd2bbb05f8c9a2d2c",
+    "candidate/camera-hold.json": "31ef0297796b22da8116311d10cc815ea4f2dfd219ad1e4f7b1b3b738f33257d",
+    "camera/review.json": "87b71f00681e950ac5b670a098e997853c499f7560aaa68da77258b945d02cd0",
+    "address/review.json": "8732cf808e075faee56b70235516ca6956b02ae538f20fa6336acd36ec4211c2",
+    "settings/review.json": "eb16dde86f0e898625cb28c1ed3f8f8d68d7be4a623a605dc39b2a0b6c677619",
+    "local-routes.json": "bca1b5b0566eb5f6cdb462c45179c7ab204418b9009081360c583f6a77b6c7a2",
+    "seventh-verify.txt": "cb8c3ed547879d7306586f5101a963afd19a680df67124c46de9e4683f9aa784",
+    "original-verify.txt": "8a79e64bc6743d3710097899e6c4ecdb5cb74c95f11080c9123419405b44e029"
+  },
+  "saveState": "local/uncommitted; no fetch/push/CI/deployment/live recheck",
+  "nextSession": "EV-003",
+  "cleanup": "Task-owned baseline-control server stopped after review; pre-existing development server and browser research tabs left intact."
+}

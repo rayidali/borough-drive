@@ -1,0 +1,19 @@
+{
+  "recorded": "2026-10-12T22:01:31.319502+00:00",
+  "scope": "Read-only HEAD of prior production; not EV-003 deployment or full-hash verification",
+  "host": "https://www.drivearound.nyc",
+  "responses": [
+    {
+      "route": "/",
+      "rawHeaders": "HTTP/2 200 \naccept-ranges: bytes\naccess-control-allow-origin: *\nage: 76346\ncache-control: public, max-age=0, must-revalidate\ncontent-disposition: inline; filename=\"index.html\"\ncontent-type: text/html; charset=utf-8\ndate: Mon, 12 Oct 2026 21:55:54 GMT\netag: \"8813860cd29591c71adfbc3b129467ce\"\nlast-modified: Mon, 12 Oct 2026 00:43:28 GMT\nserver: Vercel\nstrict-transport-security: max-age=63072000\nx-vercel-cache: HIT\nx-vercel-id: iad1::r8rtv-1791842154728-6d5bc55c9a38\ncontent-length: 9846\n\n"
+    },
+    {
+      "route": "/seventh/index.pck",
+      "rawHeaders": "HTTP/2 200 \naccept-ranges: bytes\naccess-control-allow-origin: *\nage: 0\ncache-control: public, max-age=0, must-revalidate\ncontent-disposition: inline; filename=\"index.pck\"\ncontent-type: application/octet-stream\ndate: Mon, 12 Oct 2026 21:55:56 GMT\netag: \"df9989551cbbd9bd6aaa69d0229278f2\"\nlast-modified: Mon, 12 Oct 2026 21:55:55 GMT\nserver: Vercel\nstrict-transport-security: max-age=63072000\nx-vercel-cache: MISS\nx-vercel-id: iad1::dm8cs-1791842154915-2ba8d96c0f8e\ncontent-length: 102660112\n\n"
+    },
+    {
+      "route": "/index.html",
+      "rawHeaders": "HTTP/2 200 \naccept-ranges: bytes\naccess-control-allow-origin: *\nage: 76348\ncache-control: public, max-age=0, must-revalidate\ncontent-disposition: inline; filename=\"legacy.html\"\ncontent-type: text/html; charset=utf-8\ndate: Mon, 12 Oct 2026 21:55:56 GMT\netag: \"692220c7cd6fc7499355dbc7979aaca0\"\nlast-modified: Mon, 12 Oct 2026 00:43:28 GMT\nserver: Vercel\nstrict-transport-security: max-age=63072000\nx-vercel-cache: HIT\nx-vercel-id: iad1::qbzhk-1791842156353-bf58c358b082\ncontent-length: 11540\n\n"
+    }
+  ]
+}

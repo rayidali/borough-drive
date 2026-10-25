@@ -38,6 +38,18 @@ async function panReleaseOverHud(dx=80,dy=-60){
 const stats=()=>evaluate('window.seventhStats');
 let sequence=0;
 async function command(value){const n=++sequence;await evaluate('window.seventhReviewCommand='+JSON.stringify({...value,sequence:n}));await until('window.seventhReviewAck==='+n,5000);await sleep(300);}
+async function settledCamera(){
+  // A review pose starts the car above the pavement. Compare V against the
+  // settled default, not an early camera still easing through that small drop.
+  let previous=(await stats()).cameraPose.position,stable=0;
+  for(let i=0;i<12;i++){
+    await sleep(350);const current=(await stats()).cameraPose.position;
+    stable=current.every((n,axis)=>Math.abs(n-previous[axis])<.001)?stable+1:0;
+    if(stable>=2)return;
+    previous=current;
+  }
+  throw Error('Default camera did not settle');
+}
 const report={date:new Date().toISOString(),url,build,checks:{},modes:[]};
 try {
   await send('Page.enable');await send('Page.bringToFront');await send('Runtime.enable');await send('Emulation.setDeviceMetricsOverride',{width:1440,height:1000,deviceScaleFactor:1,mobile:false});
@@ -52,6 +64,7 @@ try {
   for(let i=0;i<4;i++){
     while((await stats()).camera!==i)await tap('c');
     await command({type:'pose',x:-120,z:0,yaw:-Math.PI/2});
+    await settledCamera();
     const before=await stats();const carBefore={position:[...before.position],yaw:before.yaw};
     const defaultPose=before.cameraPose;
     await dragBy('right',240,0); // approximately a 70–degree look-around
@@ -65,6 +78,7 @@ try {
     assert(after.cameraPose.zoom<1,'Wheel-up zoom must move toward a closer, narrower view');
     if(i===1||i===2)assert(after.cameraPose.pitch>.05,'Hood/cockpit pitch must work after a large yaw');
     await tap('v');const recentered=await stats();assert.equal(recentered.camera,i);assert.deepEqual(recentered.position,carBefore.position,'V must not move the car');assert.equal(recentered.yaw,carBefore.yaw,'V must not rotate the car');assert(Math.abs(recentered.cameraPose.yaw)<.001&&Math.abs(recentered.cameraPose.pitch)<.001&&Math.abs(recentered.cameraPose.zoom-1)<.001,'V must recenter camera state without changing mode');
+    report.lastRecenter={mode:i,before,after,recentered,difference:recentered.cameraPose.position.map((n,axis)=>n-defaultPose.position[axis])};
     for(let axis=0;axis<3;axis++)assert(Math.abs(recentered.cameraPose.position[axis]-defaultPose.position[axis])<.03,'V must restore the original default camera pose');
     if(i===1||i===2){
       const panBefore=await stats();

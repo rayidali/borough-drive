@@ -1,0 +1,72 @@
+{
+  "recorded": "2026-10-14T01:34:56.964064+00:00",
+  "baseline": "baseline.json",
+  "pack": {
+    "bytes": 8014524,
+    "sha256": "509239e48e6fb2928e308a31f11d801821c83298331ce3c51e4809011617cb4c",
+    "brotliBytes": 7401135
+  },
+  "priorModels": 212,
+  "allPriorGlbAndCompiledBytesUnchanged": true,
+  "trackedNonMarkdownCompared": 2384,
+  "unchangedCount": 2375,
+  "changedPaths": [
+    "dist/seventh/build.json",
+    "dist/seventh/index.html",
+    "dist/seventh/index.pck",
+    "engine/first-seventh/assets/slice.json",
+    "engine/first-seventh/scripts/minimap.gd",
+    "engine/first-seventh/scripts/world.gd",
+    "model-source/export_seventh_engine.py",
+    "scripts/export-seventh.mjs",
+    "scripts/verify-seventh.mjs"
+  ],
+  "preservedPacketAndRuntimeSources": {
+    "engine/first-seventh/assets/audio/cornerlight.wav": "25e74f3f7d782323220af9ca8f41fe196ecf30355b77424b6bcd3c399cb9134e",
+    "engine/first-seventh/assets/audio/cornerlight.wav.import": "fd5f7ed95ed31620af2e488521190f1380ba88cc5c9c49f417556de5283777d1",
+    "engine/first-seventh/assets/audio/engine-coast.wav": "fc8fd78f33021d261377a51a0e53526648d12f052a06734c6f7bc0bd00aca740",
+    "engine/first-seventh/assets/audio/engine-coast.wav.import": "2a420089cb0f5e34318414d20678557e470d930372a7e7b3b7f9d7e4a317be3d",
+    "engine/first-seventh/assets/audio/engine-idle.wav": "b914dc2baf867b7115ebb10cbb830ab27f6da9559110a3cd71c8aa5c1f583550",
+    "engine/first-seventh/assets/audio/engine-idle.wav.import": "5a887ee72b701d3d67729c4531540daace46221a1e28f7b8c705d405c87df44c",
+    "engine/first-seventh/assets/audio/engine-load.wav": "6ab1a1203a4a15a5e7c4a3cbe3240dd9a7986fb4031b21d366991527357116b6",
+    "engine/first-seventh/assets/audio/engine-load.wav.import": "f11e99702f4ac029273cd6bfcb76e53ca8ca27e0714fb9371f85e249e367b7ac",
+    "engine/first-seventh/assets/audio/impact.wav": "60ac6a81a97c01eb363cec6f62c020c66970f31f0a175d870c270060820860dd",
+    "engine/first-seventh/assets/audio/impact.wav.import": "f0d61f82267eed97ea8e360d61e07612915a1d21885a1c55ec6ac295426302c3",
+    "engine/first-seventh/assets/audio/rain.wav": "371be06535d635590c9c5f44528f17806265de885e0daaaba7f4f41e802d9111",
+    "engine/first-seventh/assets/audio/rain.wav.import": "830b6262c52c97a8cf659dcae8d31b436daf47df4b3b5a827a8186f07f8e2ce5",
+    "engine/first-seventh/assets/audio/road.wav": "f1a25770ea0d98e8f9b6a594a9d1d2b5426089036ddc86730652e6859bfca42c",
+    "engine/first-seventh/assets/audio/road.wav.import": "a79ba0601825c5fc01b589e893a7a735786cc4fc736d3c6bec657d6f2f51e2bc",
+    "engine/first-seventh/assets/audio/tires.wav": "b66574c0f6934a85bdee5b0842667dda7250b98693807ef46f9d6e426fc179a2",
+    "engine/first-seventh/assets/audio/tires.wav.import": "6255e82a47207e8eabe22e509fec9e8cb6d82340c11d6c76713a157bb4ce345e",
+    "engine/first-seventh/scripts/car.gd": "af3cbe86cf9768161b76d46364a41726e0f277554bf6222cb5e1d846dd8b190d",
+    "engine/first-seventh/scripts/car_audio.gd": "21c2003f12e9afe16b0d08f6c7532b011ae67585aa0e0a116bf243bcc2b0af50",
+    "engine/first-seventh/scripts/p02_detail.gd": "6f7dcaf7e6567594cbfaea4bdec8263d5ae1804e0c0ddb0039aea5736a736a49",
+    "engine/first-seventh/shaders/p02_masonry.gdshader": "beb602f20f47c2b004fe9e2a9fd814760d388868546d6a7a21c716117db3b60a",
+    "model-source/author_p01.py": "a8ca9c3c62fad6787a011129fe6a312bcba894d5e4809510af98dd4f0f73d4c7",
+    "model-source/p01_kit.py": "bd0caf41785f8636c5bf368451706734a48ba2544099bab09670634795ad9277",
+    "model-source/east-village-p01/schedule.json": "0861d9558d5e93b674336d8c69ae634a9ebf043c2e52c8516d7c359ecaab2fc2",
+    "model-source/east-village-p01/observations.json": "f871d9d5c0ec7a187d8266f278f79be6a5c114b4e419b417d36c1dcf133d19cb",
+    "model-source/author_p02.py": "8d1412843a8e97a978ed67f459bf1e6aa8c49004dd3f7dec996cc9ada34f9a16",
+    "model-source/p02_kit.py": "a9515038396deec15f1cce4343bc01a740f6153ef40fb6fdb0f73fcb3b402bad",
+    "model-source/east-village-p02/schedule.json": "27a438e4901a86446f46fd0cccabb7d332376be136ead61c234d1c84bf453a4d",
+    "model-source/east-village-p02/observations.json": "56d656e6a67fd36d6dac0bfaec01a7ddaa30665a22e99eb45af9a985e8383bf7",
+    "model-source/east-village-p01/protected-models.json": "6f03925fcd444438ea0100234bbda774a0d44291a284c3abc694156736ee5115",
+    "model-source/east-village-p02/protected-models.json": "e8a289634890e1c3cd91de2b1bb07803e6ef2ce73e5c1179ac1adf5d3506f3eb",
+    "model-source/make_seventh_audio.py": "859a0530f8d141a0b0f8403f201f428132edfbd1e0df4f4778ac84b337e4d0a3"
+  },
+  "privateImages": [
+    {
+      "path": "Screenshot 2026-09-14 at 8.35.02\u202fPM.png",
+      "sha256": "a182ce14205d2c4d6125f5f332b80ff643b77b56f0117678e7a2d83541fd652d",
+      "unchanged": true,
+      "untracked": true
+    },
+    {
+      "path": "Screenshot 2026-09-21 at 4.47.09\u202fPM.png",
+      "sha256": "184d4be305befa6c5152848f7f8fc9ce770083fea613d0dacaefa50a72596deb",
+      "unchanged": true,
+      "untracked": true
+    }
+  ],
+  "note": "Changed paths are listed for scope review; comparison is against P03 start, preserving preceding uncommitted work."
+}

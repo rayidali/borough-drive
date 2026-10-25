@@ -1,0 +1,137 @@
+{
+  "id": "P01",
+  "parent": "01-FA08W",
+  "faces": [
+    {
+      "faceId": "241822278:0",
+      "buildingId": 241822278,
+      "address": "137 1st Avenue",
+      "sourceFace": {
+        "x": -14.656,
+        "z": 121.603,
+        "rx": -0.0007541475985147913,
+        "rz": -0.9999997156306595,
+        "length": 9.282,
+        "street": "First Avenue"
+      },
+      "bin": "1077697",
+      "municipalReferences": [
+        {
+          "bin": "1077697",
+          "doittId": 235040,
+          "bbl": "1004500033",
+          "matchBasis": "BIN"
+        }
+      ],
+      "geometryOwner": "P01",
+      "evidenceState": "needs dated property/business inspection"
+    },
+    {
+      "faceId": "241822337:0",
+      "buildingId": 241822337,
+      "address": "139 1st Avenue",
+      "sourceFace": {
+        "x": -14.663,
+        "z": 112.321,
+        "rx": -0.0012649322276537646,
+        "rz": -0.9999991999729098,
+        "length": 7.115,
+        "street": "First Avenue"
+      },
+      "bin": "1006382",
+      "municipalReferences": [
+        {
+          "bin": "1006382",
+          "doittId": 830030,
+          "bbl": "1004500032",
+          "matchBasis": "BIN"
+        }
+      ],
+      "geometryOwner": "P01",
+      "evidenceState": "needs dated property/business inspection"
+    },
+    {
+      "faceId": "241822304:0",
+      "buildingId": 241822304,
+      "address": "141 1st Avenue",
+      "sourceFace": {
+        "x": -14.672,
+        "z": 105.206,
+        "rx": -0.001789439425502915,
+        "rz": -0.9999983989519895,
+        "length": 6.706,
+        "street": "First Avenue"
+      },
+      "bin": "1006381",
+      "municipalReferences": [
+        {
+          "bin": "1006381",
+          "doittId": 757571,
+          "bbl": "1004500031",
+          "matchBasis": "BIN"
+        }
+      ],
+      "geometryOwner": "P01",
+      "evidenceState": "needs dated property/business inspection"
+    },
+    {
+      "faceId": "241822211:0",
+      "buildingId": 241822211,
+      "address": "143 1st Avenue",
+      "sourceFace": {
+        "x": -14.684,
+        "z": 98.5,
+        "rx": -0.001657227388699549,
+        "rz": -0.9999986267977482,
+        "length": 7.241,
+        "street": "First Avenue"
+      },
+      "bin": "1006380",
+      "municipalReferences": [
+        {
+          "bin": "1006380",
+          "doittId": 637700,
+          "bbl": "1004500030",
+          "matchBasis": "BIN"
+        }
+      ],
+      "geometryOwner": "P01",
+      "evidenceState": "needs dated property/business inspection"
+    }
+  ],
+  "allowlistState": "exact legacy face records; future engine file allowlist must be established by EV-001/packet start",
+  "massAndRoofOwners": [
+    241822211,
+    241822278,
+    241822304,
+    241822337
+  ],
+  "editState": "not started",
+  "state": "next session; not started",
+  "baselinePack": {
+    "bytes": 7982220,
+    "sha256": "aee35948c9ea850031aa959d2cc561d40cccef819680cf5935943c57660b33da",
+    "brotliBytes": 7386163
+  },
+  "currentModelCount": 203,
+  "originShift": [
+    0,
+    0,
+    228
+  ],
+  "runtimePolicy": "New P01 models may initially join retained context, with explicit catalog additions. General spatial unloading remains a separate measured extension; keep original 12/191 lifecycle proof.",
+  "protectedNeighbors": [
+    "241822219:0",
+    "248142711:1"
+  ],
+  "protectedModelPolicy": "All existing 203 GLB/scene hashes; unassigned faces and legacy game remain unchanged. Shared authoring-hash changes require preservation evidence, not silent regeneration.",
+  "adapterChecks": [
+    "Use a new bounded schedule/adapter for exact four faces; do not rerun revision08 author alone over revision09.",
+    "Trace exporter selection, input/recipe hashes and material class semantics; retain old assertions and extend expected IDs only by assigned set.",
+    "Add per-model ownership and full visual bounds to external manifest; verify each scene <=8 MiB and shared pack <=16 MiB. Unsupported external dependencies fail.",
+    "Current First Avenue terminal is z=-119, world boundary z=-130. Last P01 face extends to roughly z=-137; an ordinary continuation needs an explicit supporting street/collision/camera/address/minimap decision before opening that route. Do not blindly reuse Seventh bounds or open Ninth/other avenues.",
+    "Inspect individual businesses and both protected neighbors in browser Street View; record source date/actual number placement before authoring.",
+    "Measure actual new-facade time, startup/transfers and affected driving/frame/resource behavior; architectural acceptance is per business, independent of loading success."
+  ],
+  "nextAction": "P01 on user instruction: inspect the four actual facades/businesses and make its narrow engine/street adapter concrete; no imagery or implementation has started."
+}

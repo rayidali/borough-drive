@@ -1,0 +1,91 @@
+## main...origin/main
+ M AGENTS.md
+ M CODEX-HANDOFF.md
+ M README.md
+ M SESSION-LOG.md
+ M START-HERE.md
+ M dist/seventh/build.json
+ M dist/seventh/credits.txt
+ M dist/seventh/index.html
+ M dist/seventh/index.pck
+ M engine/first-seventh/README.md
+ M engine/first-seventh/assets/credits.txt
+ M engine/first-seventh/assets/slice.json
+ M engine/first-seventh/export_presets.cfg
+ M engine/first-seventh/scripts/cameras.gd
+ M engine/first-seventh/scripts/main.gd
+ M engine/first-seventh/scripts/minimap.gd
+ M engine/first-seventh/scripts/world.gd
+ M engine/first-seventh/web/shell.html
+ M model-source/BLOCK-WORKFLOW.md
+ M model-source/NEIGHBORHOOD-NOTES.md
+ M model-source/export_seventh_engine.py
+ M model-source/skills/reconstruct-street/SKILL.md
+ M model-source/skills/reconstruct-street/references/repository-adapter.md
+ M model-source/skills/reconstruct-street/references/storefront-individuality.md
+ M model-source/skills/reconstruct-street/references/work-packet.md
+ M scripts/export-seventh.mjs
+ M scripts/review-seventh-address.mjs
+ M scripts/review-seventh-camera.mjs
+ M scripts/serve.mjs
+ M scripts/verify-seventh.mjs
+ M vercel.json
+?? "Screenshot 2026-09-14 at 8.35.02\342\200\257PM.png"
+?? "Screenshot 2026-09-21 at 4.47.09\342\200\257PM.png"
+?? dist/seventh/areas/
+?? docs/images/east-village-session-plan.svg
+?? engine/first-seventh/assets/area_manifest.json
+?? engine/first-seventh/scripts/area_streamer.gd
+?? engine/first-seventh/scripts/area_streamer.gd.uid
+?? engine/first-seventh/scripts/export_areas.gd
+?? engine/first-seventh/scripts/export_areas.gd.uid
+?? engine/first-seventh/scripts/n01a_detail.gd
+?? engine/first-seventh/scripts/n01a_detail.gd.uid
+?? engine/first-seventh/scripts/p01_detail.gd
+?? engine/first-seventh/scripts/p01_detail.gd.uid
+?? engine/first-seventh/scripts/p02_detail.gd
+?? engine/first-seventh/scripts/p02_detail.gd.uid
+?? engine/first-seventh/scripts/p03_detail.gd
+?? engine/first-seventh/scripts/p03_detail.gd.uid
+?? engine/first-seventh/shaders/p02_masonry.gdshader
+?? engine/first-seventh/shaders/p02_masonry.gdshader.uid
+?? model-source/EAST-VILLAGE-E09-N01A.md
+?? model-source/EAST-VILLAGE-EV000.md
+?? model-source/EAST-VILLAGE-EV001.md
+?? model-source/EAST-VILLAGE-EV002.md
+?? model-source/EAST-VILLAGE-EV003.md
+?? model-source/EAST-VILLAGE-FIRST-SESSIONS.md
+?? model-source/EAST-VILLAGE-P01.md
+?? model-source/EAST-VILLAGE-P02.md
+?? model-source/EAST-VILLAGE-P03.md
+?? model-source/EAST-VILLAGE-SESSION-PLAN.md
+?? model-source/author_e09_n01a.py
+?? model-source/author_p01.py
+?? model-source/author_p02.py
+?? model-source/author_p03.py
+?? model-source/e09_n01a_kit.py
+?? model-source/east-village-e09-n01a/
+?? model-source/east-village-ev000/
+?? model-source/east-village-ev001/
+?? model-source/east-village-ev002/
+?? model-source/east-village-ev003/
+?? model-source/east-village-p01/
+?? model-source/east-village-p02/
+?? model-source/east-village-p03/
+?? model-source/east-village-plan.json
+?? model-source/east-village-session-backlog.csv
+?? model-source/p01_kit.py
+?? model-source/p02_kit.py
+?? model-source/p03_kit.py
+?? scripts/audit-seventh-integration.mjs
+?? scripts/fetch-east-village-inventory.py
+?? scripts/inspect-seventh-package.py
+?? scripts/inventory-east-village.py
+?? scripts/review-e09-n01a.mjs
+?? scripts/review-p01.mjs
+?? scripts/review-p02.mjs
+?? scripts/review-p03.mjs
+?? scripts/review-seventh-streaming.mjs
+?? scripts/seventh-hosting.mjs
+?? scripts/seventh-package.mjs
+?? source-data/east-village-ev000/

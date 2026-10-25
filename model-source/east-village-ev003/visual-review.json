@@ -1,0 +1,147 @@
+{
+  "status": "complete",
+  "scope": "Integration appearance and preservation, not fresh photographic fidelity",
+  "finalPack": {
+    "bytes": 7982220,
+    "sha256": "aee35948c9ea850031aa959d2cc561d40cccef819680cf5935943c57660b33da",
+    "brotliBytes": 7386163
+  },
+  "reviewedImages": [
+    {
+      "file": "final-resize/resize-held-0.png",
+      "sha256": "f5dfa9f9c6a50518bd9fbc259e744af24504b5d9ea916a7d589c75c39441272e",
+      "finding": "Old complete view keeps its projection/aspect during loading; full viewport returns when ready. Correct reset destination in retry image."
+    },
+    {
+      "file": "final-resize/resize-held-1.png",
+      "sha256": "5ba8860e6c33dd8dceca583b70dcc965de74eae5395e13223046242588681cd7",
+      "finding": "Old complete view keeps its projection/aspect during loading; full viewport returns when ready. Correct reset destination in retry image."
+    },
+    {
+      "file": "final-resize/resize-held-2.png",
+      "sha256": "772dc5cf2cda1ef20cf5e92120d15cb040d39eefbb97fcc4f269cf495a2bc2e7",
+      "finding": "Old complete view keeps its projection/aspect during loading; full viewport returns when ready. Correct reset destination in retry image."
+    },
+    {
+      "file": "final-resize/resize-held-3.png",
+      "sha256": "5a8da177c345d8cc9a54f8606f0863b945ffd67182bd9a6251044341c2043ea1",
+      "finding": "Old complete view keeps its projection/aspect during loading; full viewport returns when ready. Correct reset destination in retry image."
+    },
+    {
+      "file": "final-resize/resize-missing.png",
+      "sha256": "2eb071e12b874bd8c2d5ace39ec6d554d05f57322cb7da590026ca0626669da3",
+      "finding": "Old complete view keeps its projection/aspect during loading; full viewport returns when ready. Correct reset destination in retry image."
+    },
+    {
+      "file": "final-resize/resize-ready-0.png",
+      "sha256": "1f2fda659e1414c69f86520b21df608ced8450b63a4a9eb362bde91c4da313ba",
+      "finding": "Old complete view keeps its projection/aspect during loading; full viewport returns when ready. Correct reset destination in retry image."
+    },
+    {
+      "file": "final-resize/resize-ready-1.png",
+      "sha256": "a44aa590bfefed06310bef9f35efe995398201e31487681ad8730c4c22818c84",
+      "finding": "Old complete view keeps its projection/aspect during loading; full viewport returns when ready. Correct reset destination in retry image."
+    },
+    {
+      "file": "final-resize/resize-ready-2.png",
+      "sha256": "42f8110f261406b6052d100c3f587ff2abd8e5a4aa65299bae555fbf740cb9c7",
+      "finding": "Old complete view keeps its projection/aspect during loading; full viewport returns when ready. Correct reset destination in retry image."
+    },
+    {
+      "file": "final-resize/resize-ready-3.png",
+      "sha256": "87cb59696e1a1eac031384056a48c0e72651aa92da11fdee7c10e2a889d48ac7",
+      "finding": "Old complete view keeps its projection/aspect during loading; full viewport returns when ready. Correct reset destination in retry image."
+    },
+    {
+      "file": "final-resize/resize-retry.png",
+      "sha256": "e456433bfab75ebafea4b6aef64a84582c6602727180db6a105ea51495ddc376",
+      "finding": "Old complete view keeps its projection/aspect during loading; full viewport returns when ready. Correct reset destination in retry image."
+    },
+    {
+      "file": "routes-verified/avenue-a-north.png",
+      "sha256": "3fef3d89be43c13e3054d1411f3f3cf7ea40228985ae7145d3e7ba5acd91839c",
+      "finding": "Endpoint camera, existing fixtures and terminal barriers visible; sparse outside-map context is pre-existing and not newly accepted geography."
+    },
+    {
+      "file": "routes-verified/avenue-a-south.png",
+      "sha256": "05e7e5948d12fce2e29a6c870878da24878847b68e59496f891b495208dc0626",
+      "finding": "Endpoint camera, existing fixtures and terminal barriers visible; sparse outside-map context is pre-existing and not newly accepted geography."
+    },
+    {
+      "file": "routes-verified/first-north.png",
+      "sha256": "5e58fac5f53b1b8644f020c9c03481d114e5a65addabad16aa4e6eb518a6f921",
+      "finding": "Endpoint camera, existing fixtures and terminal barriers visible; sparse outside-map context is pre-existing and not newly accepted geography."
+    },
+    {
+      "file": "routes-verified/first-south.png",
+      "sha256": "414dd989a03722a2ac95069cdf7cd09c2ab32978ad6b562fbdc1618f98721453",
+      "finding": "Endpoint camera, existing fixtures and terminal barriers visible; sparse outside-map context is pre-existing and not newly accepted geography."
+    },
+    {
+      "file": "routes-verified/second-north.png",
+      "sha256": "8f8625b73971d636a7c32107b96f5d4ac2c62a2e6c346560207af4c0504a279a",
+      "finding": "Endpoint camera, existing fixtures and terminal barriers visible; sparse outside-map context is pre-existing and not newly accepted geography."
+    },
+    {
+      "file": "routes-verified/second-south.png",
+      "sha256": "534e14251d2fe2391ee0c7ca87e76bc78947e337a83316b85e2459232c9c41db",
+      "finding": "Endpoint camera, existing fixtures and terminal barriers visible; sparse outside-map context is pre-existing and not newly accepted geography."
+    },
+    {
+      "file": "routes-verified/stmarks-east.png",
+      "sha256": "c19244ac14f0af602019c6e2ab496626ca7f36ed4b976d4b8e482ba41a18ed8d",
+      "finding": "Endpoint camera, existing fixtures and terminal barriers visible; sparse outside-map context is pre-existing and not newly accepted geography."
+    },
+    {
+      "file": "routes-verified/stmarks-west.png",
+      "sha256": "75b0941ccdf47ac369075372174d1c8550470f7981fbabe055db5cfc333bf41b",
+      "finding": "Endpoint camera, existing fixtures and terminal barriers visible; sparse outside-map context is pre-existing and not newly accepted geography."
+    },
+    {
+      "file": "final-release/corrupt-pack.png",
+      "sha256": "d18a22d15d94cde1907ea346d4f51c8283f0ca5e35a07e53fa470ea3d47162de",
+      "finding": "Readable existing reload UI; mismatched/corrupt base pack never starts the world."
+    },
+    {
+      "file": "final-release/old-pack.png",
+      "sha256": "d18a22d15d94cde1907ea346d4f51c8283f0ca5e35a07e53fa470ea3d47162de",
+      "finding": "Readable existing reload UI; mismatched/corrupt base pack never starts the world."
+    },
+    {
+      "file": "final-tilebar/tilebar-entry-0.png",
+      "sha256": "d1d543a9192f980a62701b81d6434a697b612bd787fa8c53ef29b2175fd61a8e",
+      "finding": "Golden/dusk/rain comparison: TILE BAR lettering, striped canopy, 115 placement, tile pattern, bottle/display layers, neon, wall plaques, A board, pavement/plant/bin and neighboring frontage preserved. Shader/rain time is not pixel-locked."
+    },
+    {
+      "file": "../east-village-ev002/candidate/tilebar-entry-0.png",
+      "sha256": "046e6dad9d0910b4f441947e6141c6bde171fd2b3f50d57ee1ec50ac935def24",
+      "finding": "Golden/dusk/rain comparison: TILE BAR lettering, striped canopy, 115 placement, tile pattern, bottle/display layers, neon, wall plaques, A board, pavement/plant/bin and neighboring frontage preserved. Shader/rain time is not pixel-locked."
+    },
+    {
+      "file": "final-tilebar/tilebar-entry-1.png",
+      "sha256": "d6c379aae0dd90efe834a5a037ebb1679848398e44579429e53d7cd27e94de0a",
+      "finding": "Golden/dusk/rain comparison: TILE BAR lettering, striped canopy, 115 placement, tile pattern, bottle/display layers, neon, wall plaques, A board, pavement/plant/bin and neighboring frontage preserved. Shader/rain time is not pixel-locked."
+    },
+    {
+      "file": "../east-village-ev002/candidate/tilebar-entry-1.png",
+      "sha256": "f2aa2be8594cdea0bf52bf9cf3c6537948701e2aaed8f10bdb8e85d0a1427b8a",
+      "finding": "Golden/dusk/rain comparison: TILE BAR lettering, striped canopy, 115 placement, tile pattern, bottle/display layers, neon, wall plaques, A board, pavement/plant/bin and neighboring frontage preserved. Shader/rain time is not pixel-locked."
+    },
+    {
+      "file": "final-tilebar/tilebar-entry-2.png",
+      "sha256": "21dd95ce773035796b7fd102fa7ecea4cb211d7da399452f131c2ea4167ba73d",
+      "finding": "Golden/dusk/rain comparison: TILE BAR lettering, striped canopy, 115 placement, tile pattern, bottle/display layers, neon, wall plaques, A board, pavement/plant/bin and neighboring frontage preserved. Shader/rain time is not pixel-locked."
+    },
+    {
+      "file": "../east-village-ev002/candidate/tilebar-entry-2.png",
+      "sha256": "52e4c63503195bf321a26b3629b4a0d4bffea00da056cea9f357d5eaa9000e6b",
+      "finding": "Golden/dusk/rain comparison: TILE BAR lettering, striped canopy, 115 placement, tile pattern, bottle/display layers, neon, wall plaques, A board, pavement/plant/bin and neighboring frontage preserved. Shader/rain time is not pixel-locked."
+    }
+  ],
+  "diagnosedTrial": {
+    "file": "resize/resize-retry.png",
+    "sha256": "a87712e1287d934a2260428212f0d33a3458ff96e0488334bca5d78106f1f0a0",
+    "finding": "First-build reset camera was between old and new positions, inside an intervening facade. Fixed in final pack; final-resize/resize-retry.png inspected and correct."
+  },
+  "notClaimed": "Additional camera/settings/shop/postcard captures are retained but not included in these 26 inspected images; EV-002 54-image review stays historical."
+}

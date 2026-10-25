@@ -1,0 +1,46 @@
+{
+  "id": "01-E09-21-N01A",
+  "started": "2026-10-14T01:57:42.912008+00:00",
+  "state": "complete locally; implementation, repairs, final visual/runtime checks and checkpoint saved",
+  "scope": [
+    "247852691:1",
+    "247852690:0",
+    "247852697:0",
+    "247852689:0"
+  ],
+  "publication": "not requested",
+  "baseline": "baseline.json",
+  "updated": "2026-10-14T03:17:56.179179+00:00",
+  "sourceLedger": "observations.json",
+  "schedule": "schedule.json",
+  "firstReview": "review-01/captures.json",
+  "firstReviewViews": 58,
+  "repairs": [
+    "Fit Immigrant and Universal names to observed fascia widths; restore lower service line in front of valance",
+    "Use explicit lowercase hotel logo font and fitted number plaques",
+    "Clip mural color fields to full window rectangles, reduce painted brick contrast",
+    "Keep 343 under-window panels clear of sills",
+    "Align main realty name to slope of fabric, independently of vertical valance copy",
+    "Fix actual glyph centering and put 147/345/343/341 numbers ahead of observed trim",
+    "Keep three 343 infills between the lower lintel and upper sill"
+  ],
+  "build": {
+    "bytes": 8023168,
+    "sha256": "418cedd49602c3f553ec5f863bdd7e0cbe69baec676461bbb0b14960a9a75bed",
+    "brotliBytes": 7404687
+  },
+  "completed": "2026-10-14T03:17:56.179179+00:00",
+  "elapsedMinutes": 80.2,
+  "modelExports": 4,
+  "packageBuilds": 4,
+  "finalReview": "review-final/captures.json",
+  "visualReview": "visual-review.json",
+  "validation": "validation.json",
+  "metrics": "metrics.json",
+  "preservation": "preservation.json",
+  "next": "01-E09-21-N01B only on next user instruction",
+  "commit": "not made",
+  "push": "not requested",
+  "deployment": "not requested",
+  "timingLimits": "Elapsed root-session time includes source inspection, modeling, export/repair, browser checks and documentation; stages overlap and are not independently instrumented."
+}

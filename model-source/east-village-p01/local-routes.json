@@ -1,0 +1,33 @@
+{
+  "port": 5181,
+  "results": [
+    {
+      "route": "/",
+      "status": 200,
+      "bytes": 12517,
+      "sha256": "c0b9928612f4ebdc271a634eb7de471b6105cbf92727765cab4a556753903ca6",
+      "cache": "public, max-age=0, must-revalidate"
+    },
+    {
+      "route": "/seventh/",
+      "status": 200,
+      "bytes": 12517,
+      "sha256": "c0b9928612f4ebdc271a634eb7de471b6105cbf92727765cab4a556753903ca6",
+      "cache": "public, max-age=0, must-revalidate"
+    },
+    {
+      "route": "/index.html",
+      "status": 200,
+      "bytes": 11540,
+      "sha256": "ad8fa5a259fea000caa0a463ce636ce5004dad5641d4c9f324930acdaacbb908",
+      "cache": "public, max-age=0, must-revalidate"
+    },
+    {
+      "route": "/seventh/index.pck",
+      "status": 200,
+      "bytes": 7991408,
+      "sha256": "d79b539d31a624ba19f32fdcd86f02888f16d54989abd99e4d6733c913145656",
+      "cache": "public, max-age=0, must-revalidate"
+    }
+  ]
+}

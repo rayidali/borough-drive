@@ -1,0 +1,1577 @@
+{
+  "schema": 1,
+  "id": "01-E09-21-N01A",
+  "parent": "01-E09-21",
+  "splitParent": "01-E09-21-N01",
+  "revision": "N01A-01",
+  "scopeFaces": [
+    "247852691:1",
+    "247852690:0",
+    "247852697:0",
+    "247852689:0"
+  ],
+  "elevations": [
+    {
+      "faceId": "247852691:1",
+      "buildingId": 247852691,
+      "frontageIndex": 1,
+      "address": "147 First Avenue \u2014 Ninth-facing return",
+      "sourceFace": {
+        "x": -36.772,
+        "z": 65.323,
+        "rx": 0.9999966211274229,
+        "rz": -0.0025995641436790027,
+        "length": 21.542,
+        "street": "East 9th Street"
+      },
+      "buildingHeight": 12.6,
+      "architecture": {
+        "wall": "painted n01 sky",
+        "windows": [
+          {
+            "at": 0.07659455946523071,
+            "width": 0.06034722866957571,
+            "bottom": 4.36,
+            "height": 1.75,
+            "frame": "n01 black metal",
+            "trim": "n01 black metal",
+            "hood": "none",
+            "rails": [
+              0.49
+            ],
+            "n01Multipane": true
+          },
+          {
+            "at": 0.18661219942438026,
+            "width": 0.06034722866957571,
+            "bottom": 4.36,
+            "height": 1.75,
+            "frame": "n01 black metal",
+            "trim": "n01 black metal",
+            "hood": "none",
+            "rails": [
+              0.49
+            ],
+            "n01Multipane": true
+          },
+          {
+            "at": 0.29570142048092096,
+            "width": 0.06034722866957571,
+            "bottom": 4.36,
+            "height": 1.75,
+            "frame": "n01 black metal",
+            "trim": "n01 black metal",
+            "hood": "none",
+            "rails": [
+              0.49
+            ],
+            "n01Multipane": true
+          },
+          {
+            "at": 0.4150032494661591,
+            "width": 0.06034722866957571,
+            "bottom": 4.36,
+            "height": 1.75,
+            "frame": "n01 black metal",
+            "trim": "n01 black metal",
+            "hood": "none",
+            "rails": [
+              0.49
+            ],
+            "n01Multipane": true
+          },
+          {
+            "at": 0.5440534769287902,
+            "width": 0.06034722866957571,
+            "bottom": 4.36,
+            "height": 1.75,
+            "frame": "n01 black metal",
+            "trim": "n01 black metal",
+            "hood": "none",
+            "rails": [
+              0.49
+            ],
+            "n01Multipane": true
+          },
+          {
+            "at": 0.6656763531705505,
+            "width": 0.06034722866957571,
+            "bottom": 4.36,
+            "height": 1.75,
+            "frame": "n01 black metal",
+            "trim": "n01 black metal",
+            "hood": "none",
+            "rails": [
+              0.49
+            ],
+            "n01Multipane": true
+          },
+          {
+            "at": 0.8857116330888496,
+            "width": 0.06034722866957571,
+            "bottom": 4.36,
+            "height": 1.75,
+            "frame": "n01 black metal",
+            "trim": "n01 black metal",
+            "hood": "none",
+            "rails": [
+              0.49
+            ],
+            "n01Multipane": true
+          },
+          {
+            "at": 0.07659455946523071,
+            "width": 0.06034722866957571,
+            "bottom": 6.92,
+            "height": 1.75,
+            "frame": "n01 black metal",
+            "trim": "n01 black metal",
+            "hood": "none",
+            "rails": [
+              0.49
+            ],
+            "n01Multipane": true
+          },
+          {
+            "at": 0.18661219942438026,
+            "width": 0.06034722866957571,
+            "bottom": 6.92,
+            "height": 1.75,
+            "frame": "n01 black metal",
+            "trim": "n01 black metal",
+            "hood": "none",
+            "rails": [
+              0.49
+            ],
+            "n01Multipane": true
+          },
+          {
+            "at": 0.29570142048092096,
+            "width": 0.06034722866957571,
+            "bottom": 6.92,
+            "height": 1.75,
+            "frame": "n01 black metal",
+            "trim": "n01 black metal",
+            "hood": "none",
+            "rails": [
+              0.49
+            ],
+            "n01Multipane": true
+          },
+          {
+            "at": 0.4150032494661591,
+            "width": 0.06034722866957571,
+            "bottom": 6.92,
+            "height": 1.75,
+            "frame": "n01 black metal",
+            "trim": "n01 black metal",
+            "hood": "none",
+            "rails": [
+              0.49
+            ],
+            "n01Multipane": true
+          },
+          {
+            "at": 0.5440534769287902,
+            "width": 0.06034722866957571,
+            "bottom": 6.92,
+            "height": 1.75,
+            "frame": "n01 black metal",
+            "trim": "n01 black metal",
+            "hood": "none",
+            "rails": [
+              0.49
+            ],
+            "n01Multipane": true
+          },
+          {
+            "at": 0.6656763531705505,
+            "width": 0.06034722866957571,
+            "bottom": 6.92,
+            "height": 1.75,
+            "frame": "n01 black metal",
+            "trim": "n01 black metal",
+            "hood": "none",
+            "rails": [
+              0.49
+            ],
+            "n01Multipane": true
+          },
+          {
+            "at": 0.8857116330888496,
+            "width": 0.06034722866957571,
+            "bottom": 6.92,
+            "height": 1.75,
+            "frame": "n01 black metal",
+            "trim": "n01 black metal",
+            "hood": "none",
+            "rails": [
+              0.49
+            ],
+            "n01Multipane": true
+          },
+          {
+            "at": 0.07659455946523071,
+            "width": 0.06034722866957571,
+            "bottom": 9.45,
+            "height": 1.75,
+            "frame": "n01 black metal",
+            "trim": "n01 black metal",
+            "hood": "none",
+            "rails": [
+              0.49
+            ],
+            "n01Multipane": true
+          },
+          {
+            "at": 0.18661219942438026,
+            "width": 0.06034722866957571,
+            "bottom": 9.45,
+            "height": 1.75,
+            "frame": "n01 black metal",
+            "trim": "n01 black metal",
+            "hood": "none",
+            "rails": [
+              0.49
+            ],
+            "n01Multipane": true
+          },
+          {
+            "at": 0.29570142048092096,
+            "width": 0.06034722866957571,
+            "bottom": 9.45,
+            "height": 1.75,
+            "frame": "n01 black metal",
+            "trim": "n01 black metal",
+            "hood": "none",
+            "rails": [
+              0.49
+            ],
+            "n01Multipane": true
+          },
+          {
+            "at": 0.4150032494661591,
+            "width": 0.06034722866957571,
+            "bottom": 9.45,
+            "height": 1.75,
+            "frame": "n01 black metal",
+            "trim": "n01 black metal",
+            "hood": "none",
+            "rails": [
+              0.49
+            ],
+            "n01Multipane": true
+          },
+          {
+            "at": 0.5440534769287902,
+            "width": 0.06034722866957571,
+            "bottom": 9.45,
+            "height": 1.75,
+            "frame": "n01 black metal",
+            "trim": "n01 black metal",
+            "hood": "none",
+            "rails": [
+              0.49
+            ],
+            "n01Multipane": true
+          },
+          {
+            "at": 0.6656763531705505,
+            "width": 0.06034722866957571,
+            "bottom": 9.45,
+            "height": 1.75,
+            "frame": "n01 black metal",
+            "trim": "n01 black metal",
+            "hood": "none",
+            "rails": [
+              0.49
+            ],
+            "n01Multipane": true
+          },
+          {
+            "at": 0.8857116330888496,
+            "width": 0.06034722866957571,
+            "bottom": 9.45,
+            "height": 1.75,
+            "frame": "n01 black metal",
+            "trim": "n01 black metal",
+            "hood": "none",
+            "rails": [
+              0.49
+            ],
+            "n01Multipane": true
+          }
+        ],
+        "doors": [],
+        "returnShops": [
+          {
+            "name": "East Village Hotel \u2014 EVH entrance",
+            "span": [
+              0.01,
+              0.19
+            ],
+            "design": {
+              "top": 3.16,
+              "head": 3.06,
+              "base": 0.28,
+              "recess": 0.22,
+              "transom": false,
+              "panels": [
+                [
+                  "door",
+                  0.25
+                ],
+                [
+                  "glass",
+                  0.75
+                ]
+              ],
+              "signs": [],
+              "detail09": {
+                "id": "247852691:1:0",
+                "frame": "n01 black timber",
+                "surround": "n01 black timber",
+                "frameWidth": 0.05,
+                "pierWidth": 0.06,
+                "floor": 0.17,
+                "molding": true,
+                "displayDepth": 0.72,
+                "doorSolidTop": 0.3,
+                "displays": [],
+                "furniture": [],
+                "identity": "Separate narrow black hotel leaf and broad blue curtained EVH window; small number at entry.",
+                "sourceIds": [
+                  "hotel-realty-may",
+                  "corner-historic"
+                ]
+              },
+              "detailN01A": {
+                "kind": "hotel"
+              }
+            }
+          },
+          {
+            "name": "Sweet Village Market Place \u2014 Ninth return",
+            "span": [
+              0.198,
+              0.988
+            ],
+            "design": {
+              "top": 3.28,
+              "head": 3.1,
+              "base": 0.18,
+              "recess": 0.22,
+              "transom": false,
+              "panels": [
+                [
+                  "glass",
+                  0.13
+                ],
+                [
+                  "glass",
+                  0.13
+                ],
+                [
+                  "glass",
+                  0.11
+                ],
+                [
+                  "glass",
+                  0.2
+                ],
+                [
+                  "glass",
+                  0.18
+                ],
+                [
+                  "glass",
+                  0.25
+                ]
+              ],
+              "signs": [],
+              "detail09": {
+                "id": "247852691:1:1",
+                "frame": "n01 black timber",
+                "surround": "n01 black timber",
+                "frameWidth": 0.05,
+                "pierWidth": 0.06,
+                "floor": 0.17,
+                "molding": true,
+                "displayDepth": 0.72,
+                "doorSolidTop": 0.3,
+                "displays": [],
+                "furniture": [],
+                "identity": "Six unequal food/display fields, dark decorated piers, separate east MARKET PLACE fascia and oval Sweet Village mark; no Ninth awning.",
+                "sourceIds": [
+                  "market-may",
+                  "corner-may"
+                ]
+              },
+              "detailN01A": {
+                "kind": "market"
+              }
+            }
+          }
+        ],
+        "observedGround": {
+          "replaceWindows": false,
+          "replaceDoors": false
+        },
+        "n01a": true,
+        "observation": {
+          "sources": [
+            "corner-historic",
+            "corner-may",
+            "market-may",
+            "hotel-realty-may"
+          ],
+          "facts": [
+            "Seven columns across two joined mural-painted masses, three upper rows, two black iron escapes. West yellow field and east blue/cloud field separated by painted urban forms. Multipaned black sash and lower vents.",
+            "Historical Bean shop is superseded and is not modeled.",
+            "Current dated mural includes large black/white outlined tags across central cloud field, retained yellow west and blue east wall; duct stands proud of wall.",
+            "Market food panels, loading hatch and corner hydrant; portions hidden by parked vehicles.",
+            "Sweet Village Market Place occupies the east part; black fascia, oval cream logotype, white MARKET PLACE, individual juice/coffee/salad/sandwich poster fields and dark tagged piers.",
+            "Separate EVH blue curtained window west. Gray exhaust duct rises to roof with bent top and circular fan base. No Ninth market cloth canopy or dining tables.",
+            "147 west hotel entry and blue EVH window are distinct from market. Universal Realty Group has a navy sloped canopy, white lettering and separate east residential entry.",
+            "345 has four bays and three upper rows; 343 has three bays and four upper rows, no escape. M8 bus stop in front of 345."
+          ],
+          "unknown": [
+            "2024 primary Street View with explicitly dated 2017 access/architecture supplements, not an October 2026 field survey.",
+            "Municipal mapped footprints/heights retained. Facade divisions, relief, window sizes, furniture placement and mural/food artwork are visual estimates, not calibrated 1:1 acceptance.",
+            "No invented fourth narrow central 341 window behind the lowest escape. Hidden roofs/rears and deep interiors are unobserved.",
+            "147 First-facing frontage remains plain context; only its assigned Ninth face is detailed."
+          ]
+        }
+      }
+    },
+    {
+      "faceId": "247852690:0",
+      "buildingId": 247852690,
+      "frontageIndex": 0,
+      "address": "345 East Ninth Street",
+      "sourceFace": {
+        "x": -45.522,
+        "z": 65.349,
+        "rx": 0.9999955853353565,
+        "rz": -0.0029714154535691118,
+        "length": 8.75,
+        "street": "East 9th Street"
+      },
+      "buildingHeight": 11.52,
+      "architecture": {
+        "wall": "n01 realty red brick",
+        "windows": [
+          {
+            "at": 0.13,
+            "width": 0.12571428571428572,
+            "bottom": 3.66,
+            "height": 1.68,
+            "frame": "n01 dark sash",
+            "trim": "n01 cream stone",
+            "hood": "none",
+            "rails": [
+              0.49
+            ],
+            "n01Head": "rect",
+            "n01Vent": true,
+            "ac": true
+          },
+          {
+            "at": 0.375,
+            "width": 0.12571428571428572,
+            "bottom": 3.66,
+            "height": 1.68,
+            "frame": "n01 dark sash",
+            "trim": "n01 cream stone",
+            "hood": "none",
+            "rails": [
+              0.49
+            ],
+            "n01Head": "rect",
+            "n01Vent": false,
+            "ac": false
+          },
+          {
+            "at": 0.625,
+            "width": 0.12571428571428572,
+            "bottom": 3.66,
+            "height": 1.68,
+            "frame": "n01 dark sash",
+            "trim": "n01 cream stone",
+            "hood": "none",
+            "rails": [
+              0.49
+            ],
+            "n01Head": "rect",
+            "n01Vent": false,
+            "ac": false
+          },
+          {
+            "at": 0.88,
+            "width": 0.12571428571428572,
+            "bottom": 3.66,
+            "height": 1.68,
+            "frame": "n01 dark sash",
+            "trim": "n01 cream stone",
+            "hood": "none",
+            "rails": [
+              0.49
+            ],
+            "n01Head": "rect",
+            "n01Vent": true,
+            "ac": false
+          },
+          {
+            "at": 0.13,
+            "width": 0.12571428571428572,
+            "bottom": 6.1,
+            "height": 1.68,
+            "frame": "n01 dark sash",
+            "trim": "n01 cream stone",
+            "hood": "none",
+            "rails": [
+              0.49
+            ],
+            "n01Head": "rect",
+            "n01Vent": true,
+            "ac": false
+          },
+          {
+            "at": 0.375,
+            "width": 0.12571428571428572,
+            "bottom": 6.1,
+            "height": 1.68,
+            "frame": "n01 dark sash",
+            "trim": "n01 cream stone",
+            "hood": "none",
+            "rails": [
+              0.49
+            ],
+            "n01Head": "rect",
+            "n01Vent": false,
+            "ac": false
+          },
+          {
+            "at": 0.625,
+            "width": 0.12571428571428572,
+            "bottom": 6.1,
+            "height": 1.68,
+            "frame": "n01 dark sash",
+            "trim": "n01 cream stone",
+            "hood": "none",
+            "rails": [
+              0.49
+            ],
+            "n01Head": "rect",
+            "n01Vent": false,
+            "ac": false
+          },
+          {
+            "at": 0.88,
+            "width": 0.12571428571428572,
+            "bottom": 6.1,
+            "height": 1.68,
+            "frame": "n01 dark sash",
+            "trim": "n01 cream stone",
+            "hood": "none",
+            "rails": [
+              0.49
+            ],
+            "n01Head": "rect",
+            "n01Vent": true,
+            "ac": true
+          },
+          {
+            "at": 0.13,
+            "width": 0.12571428571428572,
+            "bottom": 8.47,
+            "height": 1.68,
+            "frame": "n01 dark sash",
+            "trim": "n01 cream stone",
+            "hood": "none",
+            "rails": [
+              0.49
+            ],
+            "n01Head": "rect",
+            "n01Vent": true,
+            "ac": false
+          },
+          {
+            "at": 0.375,
+            "width": 0.12571428571428572,
+            "bottom": 8.47,
+            "height": 1.68,
+            "frame": "n01 dark sash",
+            "trim": "n01 cream stone",
+            "hood": "none",
+            "rails": [
+              0.49
+            ],
+            "n01Head": "rect",
+            "n01Vent": false,
+            "ac": true
+          },
+          {
+            "at": 0.625,
+            "width": 0.12571428571428572,
+            "bottom": 8.47,
+            "height": 1.68,
+            "frame": "n01 dark sash",
+            "trim": "n01 cream stone",
+            "hood": "none",
+            "rails": [
+              0.49
+            ],
+            "n01Head": "rect",
+            "n01Vent": false,
+            "ac": false
+          },
+          {
+            "at": 0.88,
+            "width": 0.12571428571428572,
+            "bottom": 8.47,
+            "height": 1.68,
+            "frame": "n01 dark sash",
+            "trim": "n01 cream stone",
+            "hood": "none",
+            "rails": [
+              0.49
+            ],
+            "n01Head": "rect",
+            "n01Vent": true,
+            "ac": false
+          }
+        ],
+        "doors": [
+          {
+            "at": 0.9108571428571428,
+            "width": 0.10742857142857143,
+            "bottom": 0.43,
+            "top": 3.17,
+            "leafTop": 2.82,
+            "material": "n01 brown timber",
+            "trim": "n01 brown timber",
+            "recess": 0.25,
+            "leaves": 1,
+            "hardware": "store09 aged brass",
+            "panels": [
+              {
+                "y": 0.53,
+                "height": 0.79,
+                "width": 0.83,
+                "glass": true
+              }
+            ]
+          }
+        ],
+        "returnShops": [
+          {
+            "name": "Universal Realty Group",
+            "span": [
+              0.018,
+              0.84
+            ],
+            "design": {
+              "top": 2.82,
+              "head": 2.65,
+              "base": 0.55,
+              "recess": 0.22,
+              "transom": false,
+              "panels": [
+                [
+                  "door",
+                  0.17
+                ],
+                [
+                  "glass",
+                  0.33
+                ],
+                [
+                  "glass",
+                  0.2
+                ],
+                [
+                  "glass",
+                  0.3
+                ]
+              ],
+              "signs": [],
+              "detail09": {
+                "id": "247852690:0:0",
+                "frame": "n01 taupe metal",
+                "surround": "n01 taupe metal",
+                "frameWidth": 0.05,
+                "pierWidth": 0.06,
+                "floor": 0.43,
+                "molding": false,
+                "displayDepth": 0.72,
+                "doorSolidTop": 0.3,
+                "displays": [],
+                "furniture": [],
+                "identity": "Navy inclined fabric canopy with large white serif identity and small services strip; taupe metal glazing, listing sheets, raised ramp and slim rail.",
+                "sourceIds": [
+                  "realty-architecture",
+                  "realty-residential-access",
+                  "hotel-realty-may"
+                ]
+              },
+              "detailN01A": {
+                "kind": "realty"
+              }
+            }
+          }
+        ],
+        "observedGround": {
+          "replaceWindows": false,
+          "replaceDoors": false
+        },
+        "n01a": true,
+        "observation": {
+          "sources": [
+            "realty-architecture",
+            "realty-residential-access",
+            "hotel-realty-may",
+            "ninth-oblique-september"
+          ],
+          "facts": [
+            "345 red brick, 12 upper sash windows, cream rectangular molded lintels and sills, central black escape, deep dark bracketed/paneled cornice.",
+            "Separate 345 east brown door, number plaque, stepped threshold. Current newer oblique confirms business/canopy; older view supplies unobstructed detail.",
+            "Realty silver/taupe mullions, glass door and wide panes, separate paper listing grids, blinds, vented metal base, raised ramp and continuous slender handrail.",
+            "343 cream basement face has separate west barred door/number and lanterns, two barred low windows and shallow fenced access.",
+            "147 west hotel entry and blue EVH window are distinct from market. Universal Realty Group has a navy sloped canopy, white lettering and separate east residential entry.",
+            "345 has four bays and three upper rows; 343 has three bays and four upper rows, no escape. M8 bus stop in front of 345.",
+            "Newer dated eastward oblique confirms Universal Realty navy canopy/right sign, residential 343 and hotel/market at corner. Occlusion limits small lettering."
+          ],
+          "unknown": [
+            "2024 primary Street View with explicitly dated 2017 access/architecture supplements, not an October 2026 field survey.",
+            "Municipal mapped footprints/heights retained. Facade divisions, relief, window sizes, furniture placement and mural/food artwork are visual estimates, not calibrated 1:1 acceptance.",
+            "No invented fourth narrow central 341 window behind the lowest escape. Hidden roofs/rears and deep interiors are unobserved.",
+            "147 First-facing frontage remains plain context; only its assigned Ninth face is detailed."
+          ]
+        }
+      }
+    },
+    {
+      "faceId": "247852697:0",
+      "buildingId": 247852697,
+      "frontageIndex": 0,
+      "address": "343 East Ninth Street",
+      "sourceFace": {
+        "x": -53.13,
+        "z": 65.363,
+        "rx": 0.9999983068947168,
+        "rz": -0.0018401651283546034,
+        "length": 7.608,
+        "street": "East 9th Street"
+      },
+      "buildingHeight": 13.1,
+      "architecture": {
+        "wall": "n01 residential red brick",
+        "windows": [
+          {
+            "at": 0.18,
+            "width": 0.16824395373291273,
+            "bottom": 1.89,
+            "height": 1.96,
+            "frame": "n01 white sash",
+            "trim": "n01 cream stone",
+            "hood": "none",
+            "rails": [],
+            "columns": 2,
+            "n01Head": "rect",
+            "ac": false
+          },
+          {
+            "at": 0.51,
+            "width": 0.16824395373291273,
+            "bottom": 1.89,
+            "height": 1.96,
+            "frame": "n01 white sash",
+            "trim": "n01 cream stone",
+            "hood": "none",
+            "rails": [],
+            "columns": 2,
+            "n01Head": "rect",
+            "ac": false
+          },
+          {
+            "at": 0.84,
+            "width": 0.16824395373291273,
+            "bottom": 1.89,
+            "height": 1.96,
+            "frame": "n01 white sash",
+            "trim": "n01 cream stone",
+            "hood": "none",
+            "rails": [],
+            "columns": 2,
+            "n01Head": "rect",
+            "ac": false
+          },
+          {
+            "at": 0.18,
+            "width": 0.16824395373291273,
+            "bottom": 4.5,
+            "height": 1.96,
+            "frame": "n01 white sash",
+            "trim": "n01 cream stone",
+            "hood": "none",
+            "rails": [],
+            "columns": 2,
+            "n01Head": "rect",
+            "ac": false
+          },
+          {
+            "at": 0.51,
+            "width": 0.16824395373291273,
+            "bottom": 4.5,
+            "height": 1.96,
+            "frame": "n01 white sash",
+            "trim": "n01 cream stone",
+            "hood": "none",
+            "rails": [],
+            "columns": 2,
+            "n01Head": "rect",
+            "ac": false
+          },
+          {
+            "at": 0.84,
+            "width": 0.16824395373291273,
+            "bottom": 4.5,
+            "height": 1.96,
+            "frame": "n01 white sash",
+            "trim": "n01 cream stone",
+            "hood": "none",
+            "rails": [],
+            "columns": 2,
+            "n01Head": "rect",
+            "ac": false
+          },
+          {
+            "at": 0.18,
+            "width": 0.16824395373291273,
+            "bottom": 7.08,
+            "height": 1.96,
+            "frame": "n01 white sash",
+            "trim": "n01 cream stone",
+            "hood": "none",
+            "rails": [],
+            "columns": 2,
+            "n01Head": "rect",
+            "ac": false
+          },
+          {
+            "at": 0.51,
+            "width": 0.16824395373291273,
+            "bottom": 7.08,
+            "height": 1.96,
+            "frame": "n01 white sash",
+            "trim": "n01 cream stone",
+            "hood": "none",
+            "rails": [],
+            "columns": 2,
+            "n01Head": "rect",
+            "ac": false
+          },
+          {
+            "at": 0.84,
+            "width": 0.16824395373291273,
+            "bottom": 7.08,
+            "height": 1.96,
+            "frame": "n01 white sash",
+            "trim": "n01 cream stone",
+            "hood": "none",
+            "rails": [],
+            "columns": 2,
+            "n01Head": "rect",
+            "ac": false
+          },
+          {
+            "at": 0.18,
+            "width": 0.16824395373291273,
+            "bottom": 9.65,
+            "height": 1.96,
+            "frame": "n01 white sash",
+            "trim": "n01 cream stone",
+            "hood": "none",
+            "rails": [],
+            "columns": 2,
+            "n01Head": "rect",
+            "ac": false
+          },
+          {
+            "at": 0.51,
+            "width": 0.16824395373291273,
+            "bottom": 9.65,
+            "height": 1.96,
+            "frame": "n01 white sash",
+            "trim": "n01 cream stone",
+            "hood": "none",
+            "rails": [],
+            "columns": 2,
+            "n01Head": "rect",
+            "ac": true
+          },
+          {
+            "at": 0.84,
+            "width": 0.16824395373291273,
+            "bottom": 9.65,
+            "height": 1.96,
+            "frame": "n01 white sash",
+            "trim": "n01 cream stone",
+            "hood": "none",
+            "rails": [],
+            "columns": 2,
+            "n01Head": "rect",
+            "ac": false
+          },
+          {
+            "at": 0.51,
+            "width": 0.13801261829652997,
+            "bottom": 0.03,
+            "height": 0.91,
+            "frame": "n01 black metal",
+            "trim": "n01 cream stone",
+            "hood": "none",
+            "rails": [],
+            "grille": true
+          },
+          {
+            "at": 0.84,
+            "width": 0.13801261829652997,
+            "bottom": 0.03,
+            "height": 0.91,
+            "frame": "n01 black metal",
+            "trim": "n01 cream stone",
+            "hood": "none",
+            "rails": [],
+            "grille": true
+          }
+        ],
+        "doors": [
+          {
+            "at": 0.17,
+            "width": 0.1564143007360673,
+            "bottom": -0.25,
+            "top": 1.66,
+            "leafTop": 1.31,
+            "material": "n01 black metal",
+            "trim": "n01 black metal",
+            "recess": 0.25,
+            "leaves": 1,
+            "hardware": "store09 aged brass",
+            "panels": [
+              {
+                "y": 0.53,
+                "height": 0.79,
+                "width": 0.83,
+                "glass": true
+              }
+            ]
+          }
+        ],
+        "returnShops": [],
+        "observedGround": {
+          "replaceWindows": false,
+          "replaceDoors": false,
+          "basementAreaways": [
+            {
+              "at": 0.5,
+              "width": 0.95,
+              "depth": 0.87,
+              "depthBelow": 0.43
+            }
+          ]
+        },
+        "n01a": true,
+        "observation": {
+          "sources": [
+            "ninth-upper-september",
+            "realty-residential-access",
+            "immigrant-access-historic"
+          ],
+          "facts": [
+            "341 has 16 large windows across four rows, three visibly confirmed narrow central openings in the upper three rows; lowest central area is obscured by escape. Gray segmental hoods with small ornament, red/rust four-level escape, dark paneled cornice.",
+            "343 has 12 white paired casements across four rows, cream rectangular heads/sills, three central under-window infills/vents, no escape and lower cornice. Buildings touch; no through-alley.",
+            "Realty silver/taupe mullions, glass door and wide panes, separate paper listing grids, blinds, vented metal base, raised ramp and continuous slender handrail.",
+            "343 cream basement face has separate west barred door/number and lanterns, two barred low windows and shallow fenced access.",
+            "Unobstructed Tap Room window and separate door west; central residential door with vertical 341 jamb numbers; Wine Bar wood door and broad window east. Gold arched window lettering, navy bases, several separate small canopies.",
+            "Raised center threshold and 2\u20133 steps with side rails; angled metal access plate at west. Shallow visible bottle/table layers. Historic board/furniture not substituted for 2024 enclosure."
+          ],
+          "unknown": [
+            "2024 primary Street View with explicitly dated 2017 access/architecture supplements, not an October 2026 field survey.",
+            "Municipal mapped footprints/heights retained. Facade divisions, relief, window sizes, furniture placement and mural/food artwork are visual estimates, not calibrated 1:1 acceptance.",
+            "No invented fourth narrow central 341 window behind the lowest escape. Hidden roofs/rears and deep interiors are unobserved.",
+            "147 First-facing frontage remains plain context; only its assigned Ninth face is detailed."
+          ]
+        }
+      }
+    },
+    {
+      "faceId": "247852689:0",
+      "buildingId": 247852689,
+      "frontageIndex": 0,
+      "address": "341 East Ninth Street",
+      "sourceFace": {
+        "x": -60.488,
+        "z": 65.392,
+        "rx": 0.9999922332133847,
+        "rz": -0.003941257782438778,
+        "length": 7.358,
+        "street": "East 9th Street"
+      },
+      "buildingHeight": 15.76,
+      "architecture": {
+        "wall": "n01 immigrant red brick",
+        "windows": [
+          {
+            "at": 0.115,
+            "width": 0.12911117151399837,
+            "bottom": 3.98,
+            "height": 1.97,
+            "frame": "n01 dark sash",
+            "trim": "n01 olive stone",
+            "hood": "none",
+            "rails": [
+              0.49
+            ],
+            "n01Head": "arch",
+            "ac": true
+          },
+          {
+            "at": 0.35000000000000003,
+            "width": 0.12911117151399837,
+            "bottom": 3.98,
+            "height": 1.97,
+            "frame": "n01 dark sash",
+            "trim": "n01 olive stone",
+            "hood": "none",
+            "rails": [
+              0.49
+            ],
+            "n01Head": "arch",
+            "ac": false
+          },
+          {
+            "at": 0.65,
+            "width": 0.12911117151399837,
+            "bottom": 3.98,
+            "height": 1.97,
+            "frame": "n01 dark sash",
+            "trim": "n01 olive stone",
+            "hood": "none",
+            "rails": [
+              0.49
+            ],
+            "n01Head": "arch",
+            "ac": false
+          },
+          {
+            "at": 0.885,
+            "width": 0.12911117151399837,
+            "bottom": 3.98,
+            "height": 1.97,
+            "frame": "n01 dark sash",
+            "trim": "n01 olive stone",
+            "hood": "none",
+            "rails": [
+              0.49
+            ],
+            "n01Head": "arch",
+            "ac": true
+          },
+          {
+            "at": 0.115,
+            "width": 0.12911117151399837,
+            "bottom": 6.75,
+            "height": 1.97,
+            "frame": "n01 dark sash",
+            "trim": "n01 olive stone",
+            "hood": "none",
+            "rails": [
+              0.49
+            ],
+            "n01Head": "arch",
+            "ac": false
+          },
+          {
+            "at": 0.35000000000000003,
+            "width": 0.12911117151399837,
+            "bottom": 6.75,
+            "height": 1.97,
+            "frame": "n01 dark sash",
+            "trim": "n01 olive stone",
+            "hood": "none",
+            "rails": [
+              0.49
+            ],
+            "n01Head": "arch",
+            "ac": false
+          },
+          {
+            "at": 0.65,
+            "width": 0.12911117151399837,
+            "bottom": 6.75,
+            "height": 1.97,
+            "frame": "n01 dark sash",
+            "trim": "n01 olive stone",
+            "hood": "none",
+            "rails": [
+              0.49
+            ],
+            "n01Head": "arch",
+            "ac": false
+          },
+          {
+            "at": 0.885,
+            "width": 0.12911117151399837,
+            "bottom": 6.75,
+            "height": 1.97,
+            "frame": "n01 dark sash",
+            "trim": "n01 olive stone",
+            "hood": "none",
+            "rails": [
+              0.49
+            ],
+            "n01Head": "arch",
+            "ac": true
+          },
+          {
+            "at": 0.5,
+            "width": 0.04620820875237837,
+            "bottom": 6.95,
+            "height": 1.16,
+            "frame": "n01 rust iron",
+            "trim": "n01 olive stone",
+            "hood": "none",
+            "rails": [],
+            "n01Narrow": true
+          },
+          {
+            "at": 0.115,
+            "width": 0.12911117151399837,
+            "bottom": 9.52,
+            "height": 1.97,
+            "frame": "n01 dark sash",
+            "trim": "n01 olive stone",
+            "hood": "none",
+            "rails": [
+              0.49
+            ],
+            "n01Head": "arch",
+            "ac": true
+          },
+          {
+            "at": 0.35000000000000003,
+            "width": 0.12911117151399837,
+            "bottom": 9.52,
+            "height": 1.97,
+            "frame": "n01 dark sash",
+            "trim": "n01 olive stone",
+            "hood": "none",
+            "rails": [
+              0.49
+            ],
+            "n01Head": "arch",
+            "ac": false
+          },
+          {
+            "at": 0.65,
+            "width": 0.12911117151399837,
+            "bottom": 9.52,
+            "height": 1.97,
+            "frame": "n01 dark sash",
+            "trim": "n01 olive stone",
+            "hood": "none",
+            "rails": [
+              0.49
+            ],
+            "n01Head": "arch",
+            "ac": false
+          },
+          {
+            "at": 0.885,
+            "width": 0.12911117151399837,
+            "bottom": 9.52,
+            "height": 1.97,
+            "frame": "n01 dark sash",
+            "trim": "n01 olive stone",
+            "hood": "none",
+            "rails": [
+              0.49
+            ],
+            "n01Head": "arch",
+            "ac": true
+          },
+          {
+            "at": 0.5,
+            "width": 0.04620820875237837,
+            "bottom": 9.719999999999999,
+            "height": 1.16,
+            "frame": "n01 rust iron",
+            "trim": "n01 olive stone",
+            "hood": "none",
+            "rails": [],
+            "n01Narrow": true
+          },
+          {
+            "at": 0.115,
+            "width": 0.12911117151399837,
+            "bottom": 12.24,
+            "height": 1.76,
+            "frame": "n01 dark sash",
+            "trim": "n01 olive stone",
+            "hood": "none",
+            "rails": [
+              0.49
+            ],
+            "n01Head": "arch",
+            "ac": false
+          },
+          {
+            "at": 0.35000000000000003,
+            "width": 0.12911117151399837,
+            "bottom": 12.24,
+            "height": 1.76,
+            "frame": "n01 dark sash",
+            "trim": "n01 olive stone",
+            "hood": "none",
+            "rails": [
+              0.49
+            ],
+            "n01Head": "arch",
+            "ac": false
+          },
+          {
+            "at": 0.65,
+            "width": 0.12911117151399837,
+            "bottom": 12.24,
+            "height": 1.76,
+            "frame": "n01 dark sash",
+            "trim": "n01 olive stone",
+            "hood": "none",
+            "rails": [
+              0.49
+            ],
+            "n01Head": "arch",
+            "ac": false
+          },
+          {
+            "at": 0.885,
+            "width": 0.12911117151399837,
+            "bottom": 12.24,
+            "height": 1.76,
+            "frame": "n01 dark sash",
+            "trim": "n01 olive stone",
+            "hood": "none",
+            "rails": [
+              0.49
+            ],
+            "n01Head": "arch",
+            "ac": true
+          },
+          {
+            "at": 0.5,
+            "width": 0.04620820875237837,
+            "bottom": 12.44,
+            "height": 1.16,
+            "frame": "n01 rust iron",
+            "trim": "n01 olive stone",
+            "hood": "none",
+            "rails": [],
+            "n01Narrow": true
+          }
+        ],
+        "doors": [
+          {
+            "at": 0.5,
+            "width": 0.10464800217450394,
+            "bottom": 0.51,
+            "top": 2.93,
+            "leafTop": 2.58,
+            "material": "n01 brown timber",
+            "trim": "n01 brown timber",
+            "recess": 0.25,
+            "leaves": 1,
+            "hardware": "store09 aged brass",
+            "panels": [
+              {
+                "y": 0.53,
+                "height": 0.79,
+                "width": 0.83,
+                "glass": true
+              }
+            ]
+          }
+        ],
+        "returnShops": [
+          {
+            "name": "The Immigrant \u2014 Tap Room",
+            "span": [
+              0.016,
+              0.433
+            ],
+            "design": {
+              "top": 2.99,
+              "head": 2.68,
+              "base": 0.72,
+              "recess": 0.22,
+              "transom": false,
+              "panels": [
+                [
+                  "glass",
+                  0.69
+                ],
+                [
+                  "door",
+                  0.31
+                ]
+              ],
+              "signs": [],
+              "detail09": {
+                "id": "247852689:0:0",
+                "frame": "n01 black timber",
+                "surround": "n01 black timber",
+                "frameWidth": 0.05,
+                "pierWidth": 0.06,
+                "floor": 0.17,
+                "molding": true,
+                "displayDepth": 0.72,
+                "doorSolidTop": 0.3,
+                "displays": [],
+                "furniture": [],
+                "identity": "Gold arched Tap Room lettering in broad west pane, separate narrow door, navy panels and independent small shades.",
+                "sourceIds": [
+                  "immigrant-current",
+                  "immigrant-access-historic"
+                ]
+              },
+              "detailN01A": {
+                "kind": "tap"
+              }
+            }
+          },
+          {
+            "name": "The Immigrant \u2014 Wine Bar",
+            "span": [
+              0.571,
+              0.985
+            ],
+            "design": {
+              "top": 2.99,
+              "head": 2.68,
+              "base": 0.72,
+              "recess": 0.22,
+              "transom": false,
+              "panels": [
+                [
+                  "door",
+                  0.3
+                ],
+                [
+                  "glass",
+                  0.7
+                ]
+              ],
+              "signs": [],
+              "detail09": {
+                "id": "247852689:0:1",
+                "frame": "n01 brown timber",
+                "surround": "n01 black timber",
+                "frameWidth": 0.05,
+                "pierWidth": 0.06,
+                "floor": 0.17,
+                "molding": true,
+                "displayDepth": 0.72,
+                "doorSolidTop": 0.3,
+                "displays": [],
+                "furniture": [],
+                "identity": "Warm timber door then broad gold-lettered Wine Bar pane with shallow bottle display; separate from Tap Room and central 341 entry.",
+                "sourceIds": [
+                  "immigrant-current",
+                  "immigrant-access-historic"
+                ]
+              },
+              "detailN01A": {
+                "kind": "wine"
+              }
+            }
+          }
+        ],
+        "observedGround": {
+          "replaceWindows": false,
+          "replaceDoors": false
+        },
+        "n01a": true,
+        "observation": {
+          "sources": [
+            "ninth-upper-september",
+            "immigrant-current",
+            "immigrant-access-historic"
+          ],
+          "facts": [
+            "341 has 16 large windows across four rows, three visibly confirmed narrow central openings in the upper three rows; lowest central area is obscured by escape. Gray segmental hoods with small ornament, red/rust four-level escape, dark paneled cornice.",
+            "343 has 12 white paired casements across four rows, cream rectangular heads/sills, three central under-window infills/vents, no escape and lower cornice. Buildings touch; no through-alley.",
+            "THE IMMIGRANT gold heavy serif lettering on navy fascia. Separate Tap Room west and Wine Bar east flank residential entry.",
+            "Brown wood curbside enclosure with black flat canopy, metal eyelets, transparent panels, red/cream reflective strips, tables/chairs and plants; orange barriers at east end. Enclosure obstructs facade in road view.",
+            "Unobstructed Tap Room window and separate door west; central residential door with vertical 341 jamb numbers; Wine Bar wood door and broad window east. Gold arched window lettering, navy bases, several separate small canopies.",
+            "Raised center threshold and 2\u20133 steps with side rails; angled metal access plate at west. Shallow visible bottle/table layers. Historic board/furniture not substituted for 2024 enclosure."
+          ],
+          "unknown": [
+            "2024 primary Street View with explicitly dated 2017 access/architecture supplements, not an October 2026 field survey.",
+            "Municipal mapped footprints/heights retained. Facade divisions, relief, window sizes, furniture placement and mural/food artwork are visual estimates, not calibrated 1:1 acceptance.",
+            "No invented fourth narrow central 341 window behind the lowest escape. Hidden roofs/rears and deep interiors are unobserved.",
+            "147 First-facing frontage remains plain context; only its assigned Ninth face is detailed."
+          ]
+        }
+      }
+    }
+  ],
+  "businesses": [
+    {
+      "id": "247852691:1:0",
+      "businessId": "east-village-hotel",
+      "faceId": "247852691:1",
+      "name": "East Village Hotel \u2014 EVH entrance",
+      "span": [
+        0.01,
+        0.19
+      ],
+      "component": "hotel",
+      "identity": "Separate narrow black hotel leaf and broad blue curtained EVH window; small number at entry.",
+      "sourceIds": [
+        "hotel-realty-may",
+        "corner-historic"
+      ],
+      "reviewState": "authored; served review separately",
+      "unknown": [
+        "Dated external appearance; relief, lettering, artwork and shallow display details are estimates. Deep interiors unobserved."
+      ]
+    },
+    {
+      "id": "247852691:1:1",
+      "businessId": "sweet-village-market",
+      "faceId": "247852691:1",
+      "name": "Sweet Village Market Place \u2014 Ninth return",
+      "span": [
+        0.198,
+        0.988
+      ],
+      "component": "market",
+      "identity": "Six unequal food/display fields, dark decorated piers, separate east MARKET PLACE fascia and oval Sweet Village mark; no Ninth awning.",
+      "sourceIds": [
+        "market-may",
+        "corner-may"
+      ],
+      "reviewState": "authored; served review separately",
+      "unknown": [
+        "Dated external appearance; relief, lettering, artwork and shallow display details are estimates. Deep interiors unobserved."
+      ]
+    },
+    {
+      "id": "247852690:0:0",
+      "businessId": "universal-realty",
+      "faceId": "247852690:0",
+      "name": "Universal Realty Group",
+      "span": [
+        0.018,
+        0.84
+      ],
+      "component": "realty",
+      "identity": "Navy inclined fabric canopy with large white serif identity and small services strip; taupe metal glazing, listing sheets, raised ramp and slim rail.",
+      "sourceIds": [
+        "realty-architecture",
+        "realty-residential-access",
+        "hotel-realty-may"
+      ],
+      "reviewState": "authored; served review separately",
+      "unknown": [
+        "Dated external appearance; relief, lettering, artwork and shallow display details are estimates. Deep interiors unobserved."
+      ]
+    },
+    {
+      "id": "247852689:0:0",
+      "businessId": "the-immigrant",
+      "faceId": "247852689:0",
+      "name": "The Immigrant \u2014 Tap Room",
+      "span": [
+        0.016,
+        0.433
+      ],
+      "component": "tap",
+      "identity": "Gold arched Tap Room lettering in broad west pane, separate narrow door, navy panels and independent small shades.",
+      "sourceIds": [
+        "immigrant-current",
+        "immigrant-access-historic"
+      ],
+      "reviewState": "authored; served review separately",
+      "unknown": [
+        "Dated external appearance; relief, lettering, artwork and shallow display details are estimates. Deep interiors unobserved."
+      ]
+    },
+    {
+      "id": "247852689:0:1",
+      "businessId": "the-immigrant",
+      "faceId": "247852689:0",
+      "name": "The Immigrant \u2014 Wine Bar",
+      "span": [
+        0.571,
+        0.985
+      ],
+      "component": "wine",
+      "identity": "Warm timber door then broad gold-lettered Wine Bar pane with shallow bottle display; separate from Tap Room and central 341 entry.",
+      "sourceIds": [
+        "immigrant-current",
+        "immigrant-access-historic"
+      ],
+      "reviewState": "authored; served review separately",
+      "unknown": [
+        "Dated external appearance; relief, lettering, artwork and shallow display details are estimates. Deep interiors unobserved."
+      ]
+    }
+  ],
+  "uniqueBusinesses": 4,
+  "junctions": [
+    {
+      "pair": [
+        247852691,
+        247852690
+      ],
+      "condition": "Mapped touching party wall, no inferred through-alley; independent cornice/roof height and surface.",
+      "protectedOrDeferredNeighbor": false
+    },
+    {
+      "pair": [
+        247852690,
+        247852697
+      ],
+      "condition": "Mapped touching party wall, no inferred through-alley; independent cornice/roof height and surface.",
+      "protectedOrDeferredNeighbor": false
+    },
+    {
+      "pair": [
+        247852697,
+        247852689
+      ],
+      "condition": "Mapped touching party wall, no inferred through-alley; independent cornice/roof height and surface.",
+      "protectedOrDeferredNeighbor": false
+    },
+    {
+      "pair": [
+        247852689,
+        247852687
+      ],
+      "condition": "Mapped touching party wall, no inferred through-alley; independent cornice/roof height and surface.",
+      "protectedOrDeferredNeighbor": true
+    }
+  ],
+  "ownership": "Four Ninth faces. 147 First-facing facade stays plain context; no 339 or south-side Ninth detail.",
+  "sourceLedger": "model-source/east-village-e09-n01a/observations.json",
+  "targetCapture": "2024 primary with 2017 access supplements; not current survey",
+  "counts": {
+    "upperOpenings": 64,
+    "basementWindows": 2,
+    "shopfronts": 5,
+    "uniqueBusinesses": 4,
+    "separateResidentialEntries": 3
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "recorded": "2026-10-14T01:35:58.993088+00:00",
+  "base": "http://127.0.0.1:5181",
+  "hashChecks": [
+    {
+      "route": "/",
+      "status": 200,
+      "sha256": "03212a6e406d325b8d7bfc03fafa30e23ab21d522f4a5813549b63f9088642d6"
+    },
+    {
+      "route": "/seventh/",
+      "status": 200,
+      "sha256": "03212a6e406d325b8d7bfc03fafa30e23ab21d522f4a5813549b63f9088642d6"
+    },
+    {
+      "route": "/index.html",
+      "status": 200,
+      "sha256": "ad8fa5a259fea000caa0a463ce636ce5004dad5641d4c9f324930acdaacbb908"
+    },
+    {
+      "route": "/seventh/index.pck",
+      "status": 200,
+      "sha256": "509239e48e6fb2928e308a31f11d801821c83298331ce3c51e4809011617cb4c"
+    }
+  ],
+  "runtimeFiles200WithExpectedLength": 232,
+  "noProductionRequests": true
+}

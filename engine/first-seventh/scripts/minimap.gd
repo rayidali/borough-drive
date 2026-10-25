@@ -9,7 +9,7 @@ func _ready():
 	mouse_filter = Control.MOUSE_FILTER_IGNORE
 
 func point(x: float, z: float) -> Vector2:
-	return Vector2((x+317)*.315,(z+128)*.40)
+	return Vector2((x+317)*.315,(z+172)*.31)
 
 func _process(dt):
 	elapsed += dt
@@ -21,10 +21,11 @@ func _draw():
 	var road = Color("aec4b5")
 	draw_rect(Rect2(point(-218,-73),point(-11,-5)-point(-218,-73)),Color("243536"))
 	draw_rect(Rect2(point(11,-40),point(205,-5)-point(11,-40)),Color("243536"))
-	for x in [-229,0]: draw_line(point(x,-119),point(x,57),road,4,true)
+	for x in [-229,0]: draw_line(point(x,-166 if x==0 else -119),point(x,57),road,4,true)
 	draw_line(point(214,-38),point(214,57),road,4,true)
 	draw_line(point(-269,-77.9),point(77,-77.9),road,2.5,true)
 	draw_line(point(-306,0),point(289,0),road,2.5,true)
+	draw_line(point(-213,-154.7),point(207,-154.7),road,2.5,true)
 	var font = ThemeDB.fallback_font
 	draw_string(font,Vector2(18,11),"2ND",HORIZONTAL_ALIGNMENT_LEFT,-1,8,INK)
 	draw_string(font,Vector2(94,11),"1ST",HORIZONTAL_ALIGNMENT_LEFT,-1,8,INK)

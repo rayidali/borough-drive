@@ -1,0 +1,310 @@
+{
+  "date": "2026-10-13T02:17:26.149807+00:00",
+  "pack": {
+    "bytes": 7991456,
+    "sha256": "74781b228c0263092cb1819e1dc57c7f95523e7b54802386d17d594e2ff41527",
+    "brotliBytes": 7388923
+  },
+  "captures": "review-final/captures.json",
+  "inspectedCount": 36,
+  "inspectedViews": [
+    {
+      "file": "review-final/241822278-0-elevation.png",
+      "sha256": "7c81505fd57dc14739706950aaeafe6793c6b6cef3ddd40b8669d64d3474ff15"
+    },
+    {
+      "file": "review-final/241822278-0-ground-south.png",
+      "sha256": "6d3285e8fe23efb29c139187f4d29fdc09cc40ba5d63ceb893af7b47ddb6bbd2"
+    },
+    {
+      "file": "review-final/241822278-0-ground-north.png",
+      "sha256": "ede5794b75f635376908b3256a69aff990e9f871ccd4ac9939bdeac12ba1248b"
+    },
+    {
+      "file": "review-final/241822337-0-elevation.png",
+      "sha256": "bd542d1abeb548251c13d0031284c5c44e150c89d7268fcd82707d68c0d29022"
+    },
+    {
+      "file": "review-final/241822337-0-ground-south.png",
+      "sha256": "22ac1c93d451e89bc399c7b30c808bb227df71544ea917eccd8ee3cba5c044c0"
+    },
+    {
+      "file": "review-final/241822337-0-ground-north.png",
+      "sha256": "2cbd5f83945833ee5c93bf2a372b36df75043468297a596de89cc4f8b0d32eae"
+    },
+    {
+      "file": "review-final/241822304-0-elevation.png",
+      "sha256": "82b0ec0cc00c33270dd2940d0525025f90e1a860c274636c509bef38f207b3f4"
+    },
+    {
+      "file": "review-final/241822304-0-ground-south.png",
+      "sha256": "199afcef862620d1adeb9935bc044a1c471954c46644406011ce25312c87c57b"
+    },
+    {
+      "file": "review-final/241822304-0-ground-north.png",
+      "sha256": "dc628600f60a22a317bfef811838c95156f3dfabebf25a96bb88680af765774b"
+    },
+    {
+      "file": "review-final/241822211-0-elevation.png",
+      "sha256": "d858af28b0d86bf55cb9f55333abec6e1df11fc6a3910ee8c093bcb67e344afa"
+    },
+    {
+      "file": "review-final/241822211-0-ground-south.png",
+      "sha256": "4327b6b393a433cfaff646e1ac32f6fc42aed7554f92d401dac04e0fe821fab6"
+    },
+    {
+      "file": "review-final/241822211-0-ground-north.png",
+      "sha256": "bec1b963ab1375c02a9e0d077534080a27864085583459cc1d3d24eb176e7e9a"
+    },
+    {
+      "file": "review-final/protected-stmarks83.png",
+      "sha256": "df63b728e40226293e4712f6982bb44aad7acfed5b3cd8741eb526d253ab2edc"
+    },
+    {
+      "file": "review-final/protected-first134.png",
+      "sha256": "be2a2df50672160397bcaa1e304f1eeb2d8714f86f3dbc43e44dec095d28d20f"
+    },
+    {
+      "file": "review-final/protected-tilebar.png",
+      "sha256": "67f3b8f0dfa512ac9b8e299b3301efdf42c5b0a97bb4db3cd8274d7d8b9ece0e"
+    },
+    {
+      "file": "review-final/241822278-0-0-0-front.png",
+      "sha256": "040ff659288b3667143b2f3824b8d8c47f3104804e8bcb86163f1f47f90a6c8c"
+    },
+    {
+      "file": "review-final/241822278-0-0-0-left.png",
+      "sha256": "1e9df4ec616932620c8391110bef327716f54ee5f9cddfc760d16dba93bb05b5"
+    },
+    {
+      "file": "review-final/241822278-0-0-0-right.png",
+      "sha256": "c6341d9bb67f5889c75ddd0329e3dc5d390b5a0ae085457c61c31f6a6a04489a"
+    },
+    {
+      "file": "review-final/241822278-0-1-0-front.png",
+      "sha256": "29fadb30ec9e7393fc17ecec0c0e44b26bd0be84dbd432f356e962fc762fda63"
+    },
+    {
+      "file": "review-final/241822278-0-1-0-left.png",
+      "sha256": "a9cab526bdf6a7e07fceba712533b670920ccf85827f96f49e2e239bc3a54531"
+    },
+    {
+      "file": "review-final/241822278-0-1-0-right.png",
+      "sha256": "658a5307ccd6e6dc270c9132bfb4912cdeb0405f6a5b96c592e21431f188fc4f"
+    },
+    {
+      "file": "review-final/241822337-0-0-0-front.png",
+      "sha256": "cb387a15cb0ec367301eee2ddcdd13791b6b10aeb80c3dc9c9d925ba69164b27"
+    },
+    {
+      "file": "review-final/241822337-0-0-0-left.png",
+      "sha256": "e9ad558e7d8d7e7b461a4fa5386b807f77ec1284d7c07912f36030e39deb73e9"
+    },
+    {
+      "file": "review-final/241822337-0-0-0-right.png",
+      "sha256": "8f99471a40c4c9dade73c39e0f0a7345439c1323fc2f382ea05cc9914ab07351"
+    },
+    {
+      "file": "review-final/241822337-0-1-0-front.png",
+      "sha256": "a76a754e9797d581776db35e94c7387777999c359ec4b840cab3164b541321cd"
+    },
+    {
+      "file": "review-final/241822337-0-1-0-left.png",
+      "sha256": "9ec9cdd52d2f64c3d3810d89f89b5a659d1f428c6de6adcf0ce581cfb1eaa6d1"
+    },
+    {
+      "file": "review-final/241822337-0-1-0-right.png",
+      "sha256": "adf049d3bb6a11d5c86ea4151f813216470e184ce2ad5069bf0d3c79d28a3088"
+    },
+    {
+      "file": "review-final/241822304-0-0-0-front.png",
+      "sha256": "98b698e4dec5bce2386d3ef464326fdec130b4eac2f6bd4c02f1eaab7d317288"
+    },
+    {
+      "file": "review-final/241822304-0-0-0-left.png",
+      "sha256": "e32b118e3c7f8d7b95f4877d8b5380373e2470e5f6460665f2255c68939e4e65"
+    },
+    {
+      "file": "review-final/241822304-0-0-0-right.png",
+      "sha256": "40cf6a8cfc3a11d8cbdb7d3d79b40ea4380f22f9fd165a3a5c3c2a355802fedd"
+    },
+    {
+      "file": "review-final/241822211-0-0-0-front.png",
+      "sha256": "0fc25bed9a5e248525a55fb7ff3b780229bcf3323dd13d4742c708c9e5284ad6"
+    },
+    {
+      "file": "review-final/241822211-0-0-0-left.png",
+      "sha256": "3ec3a7eadff5fe6e4ee3b6de45fee6c1069451505328edcda06491a283836ed8"
+    },
+    {
+      "file": "review-final/241822211-0-0-0-right.png",
+      "sha256": "1b6862c3841b31de1b2b40cea266e1d67bc94e19cb1fd5fef0f8496ccd549083"
+    },
+    {
+      "file": "review-final/241822211-0-1-0-front.png",
+      "sha256": "8f1e4fd73529a93490ebb4edb2c6301c9b6124e6782a2d85707f35cc43cc9129"
+    },
+    {
+      "file": "review-final/241822211-0-1-0-left.png",
+      "sha256": "70bc35183c06f016ad621ad6ef9daef7b7a6dfe28bdc8724b0f39d0ceda958dc"
+    },
+    {
+      "file": "review-final/241822211-0-1-0-right.png",
+      "sha256": "ea66bf0f4489c48d649290c754f931c32e5312e1f403895776caa73905143c30"
+    }
+  ],
+  "businesses": [
+    {
+      "businessId": "241822278:0:0",
+      "name": "Spirals",
+      "faceId": "241822278:0",
+      "sourceIds": [
+        "137-front",
+        "137-sign-entry"
+      ],
+      "state": "reviewed locally at authored working standard; not calibrated/user acceptance",
+      "inspectedViews": [
+        "241822278-0-0-0-front.png",
+        "241822278-0-0-0-left.png",
+        "241822278-0-0-0-right.png"
+      ],
+      "finding": "Powder-blue pane/door layout, brass italic serif, larger wordmark and spiral, black lamp housing, dated BABE/Spirals pane graphics and pale near-window counter inspected in front/right/left. The source tree occludes the central front view; right oblique resolves the entry.",
+      "limits": "Licensed serif substitute and simplified logo/collaboration marks; 137 residential fixed/leaf split partly hidden; dimensions estimated."
+    },
+    {
+      "businessId": "241822278:0:1",
+      "name": "Crispy Burger",
+      "faceId": "241822278:0",
+      "sourceIds": [
+        "137-front",
+        "137-sign-entry"
+      ],
+      "state": "reviewed locally at authored working standard; not calibrated/user acceptance",
+      "inspectedViews": [
+        "241822278-0-1-0-front.png",
+        "241822278-0-1-0-left.png",
+        "241822278-0-1-0-right.png"
+      ],
+      "finding": "Warmer orange panels, unified cream/red fascia and chicken emblem, green neon, two lower food menus, silver-framed inward open leaf and black board inspected. Open-leaf repair removes the floating pull of the second pass.",
+      "limits": "Chicken/food drawings are authored approximations; readable microcopy and precise leaf angle unverified."
+    },
+    {
+      "businessId": "241822337:0:0",
+      "name": "V-One Nail Spa",
+      "faceId": "241822337:0",
+      "sourceIds": [
+        "139-front"
+      ],
+      "state": "reviewed locally at authored working standard; not calibrated/user acceptance",
+      "inspectedViews": [
+        "241822337-0-0-0-front.png",
+        "241822337-0-0-0-left.png",
+        "241822337-0-0-0-right.png"
+      ],
+      "finding": "Separate 139 door, narrow silver shop framing, orange script fascia, three manicure circles, coral seat forms, vertical polish shelf and paper white-board composition inspected.",
+      "limits": "Damion approximates handwritten sign; circular art and service list use simplified marks."
+    },
+    {
+      "businessId": "241822337:0:1",
+      "name": "SKWR",
+      "faceId": "241822337:0",
+      "sourceIds": [
+        "139-front",
+        "141-detail"
+      ],
+      "state": "reviewed locally at authored working standard; not calibrated/user acceptance",
+      "inspectedViews": [
+        "241822337-0-1-0-front.png",
+        "241822337-0-1-0-left.png",
+        "241822337-0-1-0-right.png"
+      ],
+      "finding": "Large white SKWR/skewer fascia, green joinery, narrow left entry, purple Open and near-window menu/package layers inspected; unsupported pavement board removed.",
+      "limits": "SUV-occluded lower shop details are limited estimates; exact logo/font and product graphics unverified."
+    },
+    {
+      "businessId": "241822304:0:0",
+      "name": "Kikoo",
+      "faceId": "241822304:0",
+      "sourceIds": [
+        "141-detail",
+        "141-143-april-shops"
+      ],
+      "state": "reviewed locally at authored working standard; not calibrated/user acceptance",
+      "inspectedViews": [
+        "241822304-0-0-0-front.png",
+        "241822304-0-0-0-left.png",
+        "241822304-0-0-0-right.png"
+      ],
+      "finding": "Hand-shaped Kikoo/bowl glyphs, readable sushi substrip, blue vertical tubes, bronze glazing, two menu families and pale chairs inspected. Separate 141 entrance/light retained.",
+      "limits": "Tree masks parts of source logo; substitute stroke contours/menu art and chair positions remain estimates."
+    },
+    {
+      "businessId": "241822211:0:0",
+      "name": "Paquitos",
+      "faceId": "241822211:0",
+      "sourceIds": [
+        "143-detail"
+      ],
+      "state": "reviewed locally at authored working standard; not calibrated/user acceptance",
+      "inspectedViews": [
+        "241822211-0-0-0-front.png",
+        "241822211-0-0-0-left.png",
+        "241822211-0-0-0-right.png"
+      ],
+      "finding": "Larger narrow red letters/sombrero, glass divisions, sill/track depth, low blue menu and red chair inspected; canopy not invented.",
+      "limits": "Exact lettering relief, sombrero geometry and small menu text remain approximations."
+    },
+    {
+      "businessId": "241822211:0:1",
+      "name": "Banshee",
+      "faceId": "241822211:0",
+      "sourceIds": [
+        "143-detail",
+        "141-143-april-shops"
+      ],
+      "state": "reviewed locally at authored working standard; not calibrated/user acceptance",
+      "inspectedViews": [
+        "241822211-0-1-0-front.png",
+        "241822211-0-1-0-left.png",
+        "241822211-0-1-0-right.png"
+      ],
+      "finding": "Round burgundy/ivory canopy remains visible from both obliques, with hem/supports, green frame, smaller notice and white Banshee window lettering. Two-sided oval Guinness mark retained. Removed unobserved bottle line; side closure stops outside-world leakage.",
+      "limits": "Oval logo/harp and proprietary name lettering approximated; tree obstructs center front crop; both obliques resolve window/canopy. Unreadable 143 number left unknown."
+    }
+  ],
+  "elevations": {
+    "137": "Five bays/four upper rows, light trim, blind/AC variation, plain parapet; no generic front escape.",
+    "139": "Four bays/four rows, blue wall/rose hoods, dark cornice and four central escape levels.",
+    "141": "Four bays/four rows, red-orange brick, segmental hoods, central olive escape, lower bars.",
+    "143": "Four bays/four rows, red brick, rectangular stepped hoods, broad dark cornice, central black escape."
+  },
+  "groundAndAccess": "Eight overlapping ground views inspect all four separate residential entrances, intercom/threshold details, storefront boundaries and street fixtures. 137/139 numbers on upper leaf region; 141 above transom; 143 not invented.",
+  "preservation": "Tile Bar, protected 83 St. Marks and 134 First return inspected; 203 GLB/scene equality separately verified.",
+  "notClaimed": [
+    "Source-photo pixels or measured dimension matching",
+    "Exact logo/typeface/food art reproduction",
+    "Hidden interior reconstruction",
+    "Fully rebuilt Ninth or opposite P02 facades",
+    "Numerical 100x quality metric or user acceptance"
+  ],
+  "finalPack": {
+    "bytes": 7991408,
+    "sha256": "d79b539d31a624ba19f32fdcd86f02888f16d54989abd99e4d6733c913145656",
+    "brotliBytes": 7388857
+  },
+  "finalChange": {
+    "description": "Only P01 north terminal label rotation; all 207 scene hashes and area manifest remain identical. No facade recapture asserted.",
+    "image": "terminal-final/terminal-facing.png",
+    "inspected": true
+  },
+  "additionalGameplayImagesInspected": [
+    "routes-final/first-north.png",
+    "routes-final/first-south.png",
+    "routes-final/first-terminal.png",
+    "routes-final/north-camera-0.png",
+    "routes-final/north-camera-1.png",
+    "routes-final/north-camera-2.png",
+    "routes-final/north-camera-3.png",
+    "routes-final/reset-seventh.png"
+  ]
+}

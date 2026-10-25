@@ -1,0 +1,2678 @@
+{
+  "schema": 1,
+  "scope": "Current reviewed slice and nine planned packets; no new runtime geometry",
+  "pack": {
+    "bytes": 7982220,
+    "sha256": "aee35948c9ea850031aa959d2cc561d40cccef819680cf5935943c57660b33da",
+    "brotliBytes": 7386163
+  },
+  "current": [
+    {
+      "id": 241822151,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_241822151",
+      "sceneSha256": "679537f64d8bc820fa721aa91413787429de8efad42f373585528083f8f6662b",
+      "protectedFaces": [
+        "241822151:0"
+      ]
+    },
+    {
+      "id": 241822153,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_241822153",
+      "sceneSha256": "91423dbf64f53e4db645cc037793390b7912977d4e32712da3cacb49969f6208",
+      "protectedFaces": [
+        "241822153:0"
+      ]
+    },
+    {
+      "id": 241822156,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_241822156",
+      "sceneSha256": "4ba49da9e5d1b7e4dcc31546a01875df6ab41e514074d67d41b62fe0e8e7db37",
+      "protectedFaces": [
+        "241822156:0",
+        "241822156:1"
+      ]
+    },
+    {
+      "id": 241822157,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_241822157",
+      "sceneSha256": "0a640eeacdbd17917a457d8b8429e782042753501d260a69143730e5664b11f7",
+      "protectedFaces": [
+        "241822157:0"
+      ]
+    },
+    {
+      "id": 241822159,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_241822159",
+      "sceneSha256": "243ba692e3108a27d59aab247b52f3cbd68f0be407188cafd5ca6f9faa097c23",
+      "protectedFaces": [
+        "241822159:0"
+      ]
+    },
+    {
+      "id": 241822162,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_241822162",
+      "sceneSha256": "af9f5c03743e9448c5abc1ddeb8365d8c7db6bf9fc46867f793eaf365f82fc2e",
+      "protectedFaces": [
+        "241822162:0"
+      ]
+    },
+    {
+      "id": 241822164,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_241822164",
+      "sceneSha256": "16bda4cf1286dc6ad5f0150b36d3dde15c48faf2b775f9bb3c55651410a0ca57",
+      "protectedFaces": [
+        "241822164:0",
+        "241822164:1"
+      ]
+    },
+    {
+      "id": 241822167,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_241822167",
+      "sceneSha256": "e0c0b14426316991535586872aae230c476381aa9c268d014f62388068da968b",
+      "protectedFaces": [
+        "241822167:0"
+      ]
+    },
+    {
+      "id": 241822169,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_241822169",
+      "sceneSha256": "1879637a10761da6b0771bf33ba492b1b89e29dfa84831cd7d174d3265c45837",
+      "protectedFaces": [
+        "241822169:0"
+      ]
+    },
+    {
+      "id": 241822173,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_241822173",
+      "sceneSha256": "fab81be735dae2f247c03207f460e39f131c380c07b230704db879c4e1be2573",
+      "protectedFaces": [
+        "241822173:0"
+      ]
+    },
+    {
+      "id": 241822174,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_241822174",
+      "sceneSha256": "023a92c93b30abd6679567688a25292410a8e8fa4d87f46baf2931e7e56d1265",
+      "protectedFaces": [
+        "241822174:0"
+      ]
+    },
+    {
+      "id": 241822176,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_241822176",
+      "sceneSha256": "01f228b1873430c0146b05339e46b92590b1e50a126ea8a87b62a4a6b080d69d",
+      "protectedFaces": [
+        "241822176:0"
+      ]
+    },
+    {
+      "id": 241822178,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_241822178",
+      "sceneSha256": "764f0aa2bda5f48f920c4931ec6953ea62d1bc6ac60f27fec3d6bbbbd69e0246",
+      "protectedFaces": [
+        "241822178:0"
+      ]
+    },
+    {
+      "id": 241822181,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_241822181",
+      "sceneSha256": "aac307471aae852ae26270ef23a14628e108dce7ade7e60e2f80a0d3c64d80bf",
+      "protectedFaces": [
+        "241822181:0"
+      ]
+    },
+    {
+      "id": 241822185,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_241822185",
+      "sceneSha256": "981fbc95c76b85d64bc90c3dc34964dae54fc54e67a4f21838dd8060d795fc9a",
+      "protectedFaces": [
+        "241822185:0"
+      ]
+    },
+    {
+      "id": 241822189,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_241822189",
+      "sceneSha256": "46de63a7add8f9b2062f97da9a716f2f4228c2ee724ef417ef563643c00d5826",
+      "protectedFaces": [
+        "241822189:0"
+      ]
+    },
+    {
+      "id": 241822190,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_241822190",
+      "sceneSha256": "da3fa21efcd5479fde99afadd32167cc70c121144f29e12c3f2b85bc93529986",
+      "protectedFaces": [
+        "241822190:0"
+      ]
+    },
+    {
+      "id": 241822192,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_241822192",
+      "sceneSha256": "264621f47ddd8c820f085f69df7e8accb9e9a05f15bf6317787f51d7ba75f394",
+      "protectedFaces": [
+        "241822192:0"
+      ]
+    },
+    {
+      "id": 241822194,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_241822194",
+      "sceneSha256": "798ce20abc4c4f3bf7d1f8e3bde08c47c434df9e6304b0dab93d3843898be14e",
+      "protectedFaces": [
+        "241822194:0"
+      ]
+    },
+    {
+      "id": 241822195,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_241822195",
+      "sceneSha256": "42a0b7f0bd6efbe8a11b3d0e38c49ef7a7e08a44bb3a38244176833c4dda4200",
+      "protectedFaces": [
+        "241822195:0"
+      ]
+    },
+    {
+      "id": 241822197,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_241822197",
+      "sceneSha256": "96c4179d1d042a0634f57bf37e3c32dc11169b9e85458274ca555f0e17d989a5",
+      "protectedFaces": [
+        "241822197:0"
+      ]
+    },
+    {
+      "id": 241822199,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_241822199",
+      "sceneSha256": "40ab8149f567cd54467c13191b37840d0bbba09a2a24a17dd5708408a39487e3",
+      "protectedFaces": [
+        "241822199:0"
+      ]
+    },
+    {
+      "id": 241822201,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_241822201",
+      "sceneSha256": "10a7c4f4b8e9915340bacb5e427a0f43e32f6e058c6a5c1bd92a604d290b3d8f",
+      "protectedFaces": [
+        "241822201:0"
+      ]
+    },
+    {
+      "id": 241822202,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_241822202",
+      "sceneSha256": "d4163d88c3b06c7292465d08c43c25df8bffa016de6fbf9686d4b09688400828",
+      "protectedFaces": [
+        "241822202:0"
+      ]
+    },
+    {
+      "id": 241822206,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_241822206",
+      "sceneSha256": "d4ffc93338aec8255214f508ee4d8e6af66e0631698160291927f224c8d74886",
+      "protectedFaces": [
+        "241822206:0"
+      ]
+    },
+    {
+      "id": 241822208,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_241822208",
+      "sceneSha256": "6c640d071d0062d51bc79c30bb1bf71384d30b271055c0d39c81f8889a1a9ee3",
+      "protectedFaces": [
+        "241822208:0"
+      ]
+    },
+    {
+      "id": 241822212,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_241822212",
+      "sceneSha256": "484657c5b12234d60bd070e952f124aef720fddc141384f74f30b7171427cd95",
+      "protectedFaces": [
+        "241822212:0"
+      ]
+    },
+    {
+      "id": 241822214,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_241822214",
+      "sceneSha256": "9cb1183439a09c7543d306c82804fe802d0114a71a4318c716bdb52fa8d63391",
+      "protectedFaces": [
+        "241822214:0"
+      ]
+    },
+    {
+      "id": 241822215,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_241822215",
+      "sceneSha256": "a225d10e4dafda994c87103b8b40f7a7f10c94688750f3c51c73c2680b9a322e",
+      "protectedFaces": []
+    },
+    {
+      "id": 241822217,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_241822217",
+      "sceneSha256": "4bb3ff5e9f93256861bda0fede8e1a4438c43f954f44ebd40cd6d5341d4e1ce3",
+      "protectedFaces": [
+        "241822217:0"
+      ]
+    },
+    {
+      "id": 241822219,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_241822219",
+      "sceneSha256": "1bc6f3fb5a3bf9b74fc7ff1e911d581a968068f01f7bd5abfae03eee04190d73",
+      "protectedFaces": [
+        "241822219:0",
+        "241822219:1"
+      ]
+    },
+    {
+      "id": 241822220,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_241822220",
+      "sceneSha256": "771ffed57dc949ec33acbdbe20806e832c556602d80b33fdeda8f42cf51cc603",
+      "protectedFaces": [
+        "241822220:0"
+      ]
+    },
+    {
+      "id": 241822222,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_241822222",
+      "sceneSha256": "c8d4409352505bc89e08cd372796d25a1908f6f18075c56cecdfff091ee184be",
+      "protectedFaces": [
+        "241822222:0"
+      ]
+    },
+    {
+      "id": 241822224,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_241822224",
+      "sceneSha256": "e79ad357554618aae2ffb95e963e82ae115a6f554f07754c67cccea353fd7ca2",
+      "protectedFaces": [
+        "241822224:0"
+      ]
+    },
+    {
+      "id": 241822226,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_241822226",
+      "sceneSha256": "703a94d6ef81d12155aa9c6ddb9c49269c52c7c36df172ac084a1882e5affa22",
+      "protectedFaces": [
+        "241822226:0",
+        "241822226:1"
+      ]
+    },
+    {
+      "id": 241822228,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_241822228",
+      "sceneSha256": "836fd7adbaef7a5dd0b1da37a5bbd591a1fc20796c3de810c1efd52aeb5972c9",
+      "protectedFaces": [
+        "241822228:0"
+      ]
+    },
+    {
+      "id": 241822230,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_241822230",
+      "sceneSha256": "b0d34fd876eec9b58f4dc953754ae5081fa5b87b647be8bbbd10bae6482e3a6c",
+      "protectedFaces": [
+        "241822230:0"
+      ]
+    },
+    {
+      "id": 241822234,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_241822234",
+      "sceneSha256": "32d34a75c19e1236d7c0191d42a7156844fe8c1cafabebd7249bd5aa83f4efa1",
+      "protectedFaces": [
+        "241822234:0"
+      ]
+    },
+    {
+      "id": 241822236,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_241822236",
+      "sceneSha256": "0cf063ba342f1e63341146346dfb317b30f9f6471ec75c034479d530499dc70f",
+      "protectedFaces": [
+        "241822236:0"
+      ]
+    },
+    {
+      "id": 241822247,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_241822247",
+      "sceneSha256": "3bf490fc4146536f5a603f45941fd6845559fd758084a2d2153786d0fec06ab2",
+      "protectedFaces": [
+        "241822247:0"
+      ]
+    },
+    {
+      "id": 241822254,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_241822254",
+      "sceneSha256": "e3890dbb2e4f7ae91c347de2383ed66c4721496892808166577a5ea423785fa5",
+      "protectedFaces": [
+        "241822254:0"
+      ]
+    },
+    {
+      "id": 241822256,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_241822256",
+      "sceneSha256": "4b6b91887f82516eeb6cd3d99d0d4da4c71ae8520648743f99e2c9ac9fe5a8dc",
+      "protectedFaces": [
+        "241822256:0"
+      ]
+    },
+    {
+      "id": 241822263,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_241822263",
+      "sceneSha256": "cc5d2b7c3bb3f75369d02a82a5b671a055c9a1f77359351af7bd853f5a906338",
+      "protectedFaces": [
+        "241822263:0"
+      ]
+    },
+    {
+      "id": 241822265,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_241822265",
+      "sceneSha256": "1ccdbdd6c14a0eab9f6ffc8202952beef6e7b737d9d3fec4977bf6011ae66daf",
+      "protectedFaces": [
+        "241822265:0"
+      ]
+    },
+    {
+      "id": 241822267,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_241822267",
+      "sceneSha256": "38cdb192ec8ee01a5cb2ccf124566426199503c5f5311a585a95029efcde6954",
+      "protectedFaces": [
+        "241822267:0"
+      ]
+    },
+    {
+      "id": 241822271,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_241822271",
+      "sceneSha256": "7b51de792be5c100101c7e676c3851d79471b364a6d2a6e7c226f2fc388e3ebf",
+      "protectedFaces": [
+        "241822271:0"
+      ]
+    },
+    {
+      "id": 241822274,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_241822274",
+      "sceneSha256": "86ecc88036f4e79f1999432f6fd814f1c202893fe3b63ca71e611a1b1f4f694c",
+      "protectedFaces": [
+        "241822274:0"
+      ]
+    },
+    {
+      "id": 241822279,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_241822279",
+      "sceneSha256": "09e109b4665d90337044f87424ee23fab948163c2073a23681471d44848e3e80",
+      "protectedFaces": [
+        "241822279:0"
+      ]
+    },
+    {
+      "id": 241822280,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_241822280",
+      "sceneSha256": "69898c9c08f0c5cecb3f91b6eef6ed930ccede2e2b1640ba5678079a1096b1b2",
+      "protectedFaces": [
+        "241822280:0"
+      ]
+    },
+    {
+      "id": 241822282,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_241822282",
+      "sceneSha256": "df77faacedd1923af3130131caa5ce8bf5ca3e17356b60f216f9564242a6473a",
+      "protectedFaces": [
+        "241822282:0"
+      ]
+    },
+    {
+      "id": 241822284,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_241822284",
+      "sceneSha256": "0fea636108e3e268a05b95585cc474a3fbe076c5f641f628c85530f64ca772e6",
+      "protectedFaces": [
+        "241822284:0"
+      ]
+    },
+    {
+      "id": 241822286,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_241822286",
+      "sceneSha256": "c0cde5872f25ebe9e4e4472dcb86be33ac5c1dc1fb51f158b66f0d74d049f7ec",
+      "protectedFaces": [
+        "241822286:0"
+      ]
+    },
+    {
+      "id": 241822288,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_241822288",
+      "sceneSha256": "7a9e75f136e1b4f3a5922805bba3e4e3d5cd96648da8de68b3725f12b727c46e",
+      "protectedFaces": [
+        "241822288:0"
+      ]
+    },
+    {
+      "id": 241822290,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_241822290",
+      "sceneSha256": "de6061ecc19e3e9fae015d81c7423ccfebcd605792c0ed4081a2828ad5c853df",
+      "protectedFaces": [
+        "241822290:0",
+        "241822290:1"
+      ]
+    },
+    {
+      "id": 241822291,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_241822291",
+      "sceneSha256": "a4efd9cdfda03aae094f59c3ceb0180e1c1365c33135ad58179dfeaf88aff4f4",
+      "protectedFaces": [
+        "241822291:0"
+      ]
+    },
+    {
+      "id": 241822295,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_241822295",
+      "sceneSha256": "56fdd44126ca237d5fc934b7a6969ef55559aa15170706b280f410b27630c068",
+      "protectedFaces": [
+        "241822295:0"
+      ]
+    },
+    {
+      "id": 241822297,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_241822297",
+      "sceneSha256": "00f896fce3de6f97a5ce9a82321ddeb263814c9eca33c022e971d91755595ae8",
+      "protectedFaces": [
+        "241822297:0",
+        "241822297:1"
+      ]
+    },
+    {
+      "id": 241822299,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_241822299",
+      "sceneSha256": "3d6e55451aa8bbf2457414f84275d77663b69e729aec5a99664f463ef0760e83",
+      "protectedFaces": [
+        "241822299:0"
+      ]
+    },
+    {
+      "id": 241822300,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_241822300",
+      "sceneSha256": "1275d6b3861322a68109dc39328ac41c2b1df060663f52d7714b5bb30600a12d",
+      "protectedFaces": [
+        "241822300:0"
+      ]
+    },
+    {
+      "id": 241822301,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_241822301",
+      "sceneSha256": "9a9af1f227bb7bcb13ded42fa4da10b2ba9cdead8e42d0827b4efb117fe743ab",
+      "protectedFaces": [
+        "241822301:0"
+      ]
+    },
+    {
+      "id": 241822303,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_241822303",
+      "sceneSha256": "35b769f3e70494ceab8eab1c88234aefc7b1c25afc5ae6ee898098c142341d3a",
+      "protectedFaces": [
+        "241822303:0"
+      ]
+    },
+    {
+      "id": 241822306,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_241822306",
+      "sceneSha256": "8828d2a8757667dcffe170bef25b198f38f63fa313e3f44971f2f27bb2e6888a",
+      "protectedFaces": [
+        "241822306:0"
+      ]
+    },
+    {
+      "id": 241822308,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_241822308",
+      "sceneSha256": "80d3fd214cb31ccc277af8a5b8634cc4e47ab66b15b3792f02bd94951adf1155",
+      "protectedFaces": [
+        "241822308:0",
+        "241822308:1"
+      ]
+    },
+    {
+      "id": 241822310,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_241822310",
+      "sceneSha256": "d49f1773c5621f56aa698456ef646973bd6d3a16d466d71fd36d28e58b04348f",
+      "protectedFaces": [
+        "241822310:0"
+      ]
+    },
+    {
+      "id": 241822312,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_241822312",
+      "sceneSha256": "b01bdfc6ffd0852404dae2b1ba1478fc07e5d08106d05abd9351de2bc96549aa",
+      "protectedFaces": [
+        "241822312:0"
+      ]
+    },
+    {
+      "id": 241822314,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_241822314",
+      "sceneSha256": "d1ef1046da73527d64b18331b70cc0fe2fad882bb26d383cbe5dff1e1ebbbcbd",
+      "protectedFaces": [
+        "241822314:0"
+      ]
+    },
+    {
+      "id": 241822317,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_241822317",
+      "sceneSha256": "44a7d3b6e69dceddfd1e59a37e4be9daadd880a91e3f5f679c45fbccb76acb20",
+      "protectedFaces": [
+        "241822317:0"
+      ]
+    },
+    {
+      "id": 241822319,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_241822319",
+      "sceneSha256": "5a075b9caf3886b5ce8a689d2e255f631735ed4f51fc1d4be25540d7877c236b",
+      "protectedFaces": [
+        "241822319:0"
+      ]
+    },
+    {
+      "id": 241822320,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_241822320",
+      "sceneSha256": "2c1db87335c9b38ee1908717c96ec3e15ebcc521a43b846d46ee34becc1b6d4f",
+      "protectedFaces": [
+        "241822320:0"
+      ]
+    },
+    {
+      "id": 241822323,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_241822323",
+      "sceneSha256": "a674fe1a3ff285589c2bceaea483a83f1d7ec106557d02270777a91f874143d4",
+      "protectedFaces": [
+        "241822323:0"
+      ]
+    },
+    {
+      "id": 241822325,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_241822325",
+      "sceneSha256": "45eb9948a31a8e8d5467134151db48cf5562960f0d63068d7ac77aee8485c4c2",
+      "protectedFaces": [
+        "241822325:0"
+      ]
+    },
+    {
+      "id": 241822326,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_241822326",
+      "sceneSha256": "8d2f7ab806c55cd755852a1894c9ea61cf2f7a3a2723eac36468d36c814f588e",
+      "protectedFaces": [
+        "241822326:0"
+      ]
+    },
+    {
+      "id": 241822329,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_241822329",
+      "sceneSha256": "3005289e1abe330b92e643f7930671be901fd2504bc4bf18300f52fb324c2410",
+      "protectedFaces": [
+        "241822329:0"
+      ]
+    },
+    {
+      "id": 241822332,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_241822332",
+      "sceneSha256": "9a582373379370395c83df641b5190d25d1d8162a41f7a3c89ec999bfa599578",
+      "protectedFaces": [
+        "241822332:0"
+      ]
+    },
+    {
+      "id": 241822336,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_241822336",
+      "sceneSha256": "a1c30660b36beb557a67210ce6f59cb1f1e5f9ca75a93d5117022030a06e5e49",
+      "protectedFaces": [
+        "241822336:0"
+      ]
+    },
+    {
+      "id": 241822338,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_241822338",
+      "sceneSha256": "5b343702294b24f740e09208b7741994c1e11d2a2f7b34fee371e4645e75bb9c",
+      "protectedFaces": [
+        "241822338:0"
+      ]
+    },
+    {
+      "id": 241822339,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_241822339",
+      "sceneSha256": "7c1bdef832c1c6b5b91d54d52bf4597287bce982b193432558c3137761af83ff",
+      "protectedFaces": [
+        "241822339:0"
+      ]
+    },
+    {
+      "id": 241822340,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_241822340",
+      "sceneSha256": "6b3ed63b29b6692c3e59278f04f9ae072a069004a3bc6d4efdb0ac4088356cc0",
+      "protectedFaces": [
+        "241822340:0"
+      ]
+    },
+    {
+      "id": 241822341,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_241822341",
+      "sceneSha256": "fe7c733831cc880cc54ff8982bfc550380234690042598941257099960a290c2",
+      "protectedFaces": [
+        "241822341:0"
+      ]
+    },
+    {
+      "id": 241829564,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_241829564",
+      "sceneSha256": "080fa54f4c77ac78066065063542a01a3a9928c5c513ef00a6906657f41f7ac2",
+      "protectedFaces": [
+        "241829564:0"
+      ]
+    },
+    {
+      "id": 241829565,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_241829565",
+      "sceneSha256": "1e023b6896d307d538c6f9e9a923137225eab6426933c13079383fd469bd0dc5",
+      "protectedFaces": [
+        "241829565:0"
+      ]
+    },
+    {
+      "id": 241829566,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_241829566",
+      "sceneSha256": "c65bc1cc1e252d7faecb089d1fc0f4a34f2421ffc71acc76537d85a5dfc988da",
+      "protectedFaces": [
+        "241829566:0"
+      ]
+    },
+    {
+      "id": 241829567,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_241829567",
+      "sceneSha256": "a01d212e194371ba066184133bee8479f91ea08256d1a9ccb5d73477ad3b830f",
+      "protectedFaces": [
+        "241829567:0"
+      ]
+    },
+    {
+      "id": 241829572,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_241829572",
+      "sceneSha256": "6072c73f5e2a7d003d3145ec3f6837bf36406cf879468b798f93a65902cfb0f4",
+      "protectedFaces": [
+        "241829572:0"
+      ]
+    },
+    {
+      "id": 241829573,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_241829573",
+      "sceneSha256": "dae09b72060ba1f6e61543e94d78fe7b0a14567da4ffc9d26cb946fbb14f4340",
+      "protectedFaces": [
+        "241829573:0"
+      ]
+    },
+    {
+      "id": 241829574,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_241829574",
+      "sceneSha256": "fa3e3e4d8cd180d2303e5967dae498e62690826b190e48b4c31378ece86d4f53",
+      "protectedFaces": [
+        "241829574:0"
+      ]
+    },
+    {
+      "id": 241829575,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_241829575",
+      "sceneSha256": "a54e54670d3481b03d4e28b0ff57eab3663e756ac888574c049ce7a30edb53b1",
+      "protectedFaces": [
+        "241829575:0"
+      ]
+    },
+    {
+      "id": 241829577,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_241829577",
+      "sceneSha256": "2602625ff2853fe3026f938ef05b513a83dfb60888d93116b435ac3b819bb5ab",
+      "protectedFaces": [
+        "241829577:0"
+      ]
+    },
+    {
+      "id": 241829579,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_241829579",
+      "sceneSha256": "ba8ef825ae6e1db9f214b8fb529ca6cfafb68558bec4cae4d21d08e8f7ee2d36",
+      "protectedFaces": [
+        "241829579:0"
+      ]
+    },
+    {
+      "id": 241829580,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_241829580",
+      "sceneSha256": "a30486774f24060bbbc4f42ddb73ff43f16f0957c04f572bad5c8d05c44e5731",
+      "protectedFaces": [
+        "241829580:0"
+      ]
+    },
+    {
+      "id": 241829581,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_241829581",
+      "sceneSha256": "6e37f04547150bb6819f30a8afbbb1f231e353d89cfcdac85adb949cb4bdc084",
+      "protectedFaces": [
+        "241829581:0"
+      ]
+    },
+    {
+      "id": 241829582,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_241829582",
+      "sceneSha256": "fc566d218ff0b31be527c4609dd547929583029be7857471f81a64bd9739ddbb",
+      "protectedFaces": [
+        "241829582:0"
+      ]
+    },
+    {
+      "id": 241829595,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_241829595",
+      "sceneSha256": "040f884515a25604af213353c49a8b01bb759600e774e0af7edb4bfaf228c46e",
+      "protectedFaces": [
+        "241829595:0"
+      ]
+    },
+    {
+      "id": 241829611,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_241829611",
+      "sceneSha256": "4c26127cb272a4064c0575a6d03d0c07c5989a78e90c003bd4c8916a375801df",
+      "protectedFaces": [
+        "241829611:0"
+      ]
+    },
+    {
+      "id": 241829621,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_241829621",
+      "sceneSha256": "c5a23e430f7dd064d1b0a18d2e64ce326174087284f22a87779b552ae8e35ba0",
+      "protectedFaces": [
+        "241829621:0"
+      ]
+    },
+    {
+      "id": 241829623,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_241829623",
+      "sceneSha256": "14db5c73c10b407954ab44bcc43d9be1dcb337b14a0558285a90fb26faded3cc",
+      "protectedFaces": [
+        "241829623:0"
+      ]
+    },
+    {
+      "id": 241829629,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_241829629",
+      "sceneSha256": "717ffb645796684ab22cc4408b3a36a68e85a1162bd407383a5d4448b858e405",
+      "protectedFaces": [
+        "241829629:0"
+      ]
+    },
+    {
+      "id": 241829630,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_241829630",
+      "sceneSha256": "5aca2e17d79973d216bea29ea8a0cd69e973c1f3008e847957e4d09c1bf74356",
+      "protectedFaces": [
+        "241829630:0"
+      ]
+    },
+    {
+      "id": 241829631,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_241829631",
+      "sceneSha256": "abe0dc926516cb6b3efb0beabf25b54576ac1487801d899c9353bcb2572f092b",
+      "protectedFaces": [
+        "241829631:0",
+        "241829631:1"
+      ]
+    },
+    {
+      "id": 241829633,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_241829633",
+      "sceneSha256": "3940f68b8e7ef93790900761f57d5db15fc1b65ee37ff0db66db7bd9ef8609a9",
+      "protectedFaces": [
+        "241829633:0"
+      ]
+    },
+    {
+      "id": 241829634,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_241829634",
+      "sceneSha256": "953f440ecef0f3fe93726608c0781b0e7e45db8c4adc0410d6682df903127712",
+      "protectedFaces": [
+        "241829634:0"
+      ]
+    },
+    {
+      "id": 241829636,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_241829636",
+      "sceneSha256": "54907e911d9bee446f1046a6d5ea85422be50048e5658234421237ec0a36b66b",
+      "protectedFaces": [
+        "241829636:0"
+      ]
+    },
+    {
+      "id": 241829641,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_241829641",
+      "sceneSha256": "2e8ddb95f20f87242451ad6cc71261b7ef3e69812643c87d564cb518772e22fb",
+      "protectedFaces": [
+        "241829641:0"
+      ]
+    },
+    {
+      "id": 241829643,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_241829643",
+      "sceneSha256": "74db2ee1ab1a8c26e2744597328181d943c196ad59154fe8d43b139f734c4c55",
+      "protectedFaces": [
+        "241829643:0"
+      ]
+    },
+    {
+      "id": 241829661,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_241829661",
+      "sceneSha256": "569b0fadbf2d206e4d7009d2e286c07d8ee81d8b7ada2bdaeb204315c1d79a18",
+      "protectedFaces": []
+    },
+    {
+      "id": 241829665,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_241829665",
+      "sceneSha256": "d711dd4dc9d9f8c205ea006a649dbfe3b3185f0ac27428d5bee612a9d65f6c18",
+      "protectedFaces": [
+        "241829665:0"
+      ]
+    },
+    {
+      "id": 241833259,
+      "runtimeOwner": "EVP-WEST",
+      "modelAndCollisionOwner": "Resident_241833259",
+      "sceneSha256": "ecd7da7121d468cbf24643d69494919a2546ac3a34396ad11a9321f0353f3d5c",
+      "protectedFaces": [
+        "241833259:0"
+      ]
+    },
+    {
+      "id": 241833267,
+      "runtimeOwner": "EVP-WEST",
+      "modelAndCollisionOwner": "Resident_241833267",
+      "sceneSha256": "1fba3e6a396a6a4eb362a6323fd697473460ba63e57d45c1554dfc6f70d80ab2",
+      "protectedFaces": [
+        "241833267:0",
+        "241833267:1"
+      ]
+    },
+    {
+      "id": 241833274,
+      "runtimeOwner": "EVP-WEST",
+      "modelAndCollisionOwner": "Resident_241833274",
+      "sceneSha256": "cc332877d1130ccb5dad5d0275f59d7ce79d96355fc61bf69d6731bd255a8e32",
+      "protectedFaces": [
+        "241833274:0"
+      ]
+    },
+    {
+      "id": 241833286,
+      "runtimeOwner": "EVP-WEST",
+      "modelAndCollisionOwner": "Resident_241833286",
+      "sceneSha256": "16c2c6f21b795f9c5afad48e376cffeacbb955082b7eeabf66f3cf6dcb165595",
+      "protectedFaces": [
+        "241833286:0"
+      ]
+    },
+    {
+      "id": 241833290,
+      "runtimeOwner": "EVP-WEST",
+      "modelAndCollisionOwner": "Resident_241833290",
+      "sceneSha256": "63aec09e70d0132f08b0cee0271f8dda0bb4ca9d3921ffb277269e1c04441bcb",
+      "protectedFaces": [
+        "241833290:0"
+      ]
+    },
+    {
+      "id": 241833291,
+      "runtimeOwner": "EVP-WEST",
+      "modelAndCollisionOwner": "Resident_241833291",
+      "sceneSha256": "4c60f5def01dade53f6c902f9abaa7f6ddb060ff8723547c16b774641aea0ec1",
+      "protectedFaces": [
+        "241833291:0"
+      ]
+    },
+    {
+      "id": 241833299,
+      "runtimeOwner": "EVP-WEST",
+      "modelAndCollisionOwner": "Resident_241833299",
+      "sceneSha256": "ddf36ee0ad22b239edea97052b531c1e35faf85fdfbef24fd2840b4638764cba",
+      "protectedFaces": [
+        "241833299:0",
+        "241833299:1"
+      ]
+    },
+    {
+      "id": 241833312,
+      "runtimeOwner": "EVP-WEST",
+      "modelAndCollisionOwner": "Resident_241833312",
+      "sceneSha256": "04ab4f2422d569bb24de359e05e599d2ee5f0ba37de19e1ff031651fb18e105c",
+      "protectedFaces": [
+        "241833312:0"
+      ]
+    },
+    {
+      "id": 241833322,
+      "runtimeOwner": "EVP-WEST",
+      "modelAndCollisionOwner": "Resident_241833322",
+      "sceneSha256": "5d285b61f5e8fdbf445476719f7b0bbc8e01d29760cde1286f2603b13a1be491",
+      "protectedFaces": [
+        "241833322:0"
+      ]
+    },
+    {
+      "id": 241845001,
+      "runtimeOwner": "EVP-WEST",
+      "modelAndCollisionOwner": "Resident_241845001",
+      "sceneSha256": "bd5b1ef710aaa4c132ef6009fead3880f93dfd8990b65d1eb40c02cad260237a",
+      "protectedFaces": [
+        "241845001:0"
+      ]
+    },
+    {
+      "id": 241845013,
+      "runtimeOwner": "EVP-WEST",
+      "modelAndCollisionOwner": "Resident_241845013",
+      "sceneSha256": "69461398ac563c56bdecf55c208d0d291c66a0f7f0997d71753e963ec50dccb2",
+      "protectedFaces": [
+        "241845013:0",
+        "241845013:1",
+        "241845013:2"
+      ]
+    },
+    {
+      "id": 248142313,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_248142313",
+      "sceneSha256": "8490b40f80e9a536de6e8e7bcbe4c7e684135baa739140630f78ba194dfdc91c",
+      "protectedFaces": [
+        "248142313:0"
+      ]
+    },
+    {
+      "id": 248142319,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_248142319",
+      "sceneSha256": "99139811c6f2d19fbf1df959d76b0debc28fadf1c01679c5187bdac54c8c6f93",
+      "protectedFaces": [
+        "248142319:0"
+      ]
+    },
+    {
+      "id": 248142320,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_248142320",
+      "sceneSha256": "223090f7e0d4ea54ee30619b55f69616e4af92c566b9f155ad89e28d66eadf08",
+      "protectedFaces": [
+        "248142320:0"
+      ]
+    },
+    {
+      "id": 248142322,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_248142322",
+      "sceneSha256": "b95b398d7fac67d64eb593518223cc234c61dd1ed684a2f5ce85d4a870eadc97",
+      "protectedFaces": [
+        "248142322:0"
+      ]
+    },
+    {
+      "id": 248142324,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_248142324",
+      "sceneSha256": "e8ef2c3f480ec01894a279dafc994e973536fbdc7b7e42615ad63edef894c75e",
+      "protectedFaces": [
+        "248142324:0"
+      ]
+    },
+    {
+      "id": 248142326,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_248142326",
+      "sceneSha256": "204f96cec257835b285dd158619b2d53d27c175d9d2e36a418f58b5e39e0a6ec",
+      "protectedFaces": [
+        "248142326:0"
+      ]
+    },
+    {
+      "id": 248142327,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_248142327",
+      "sceneSha256": "53b14fd27d63012ce70bdbfe72750ec83999b36d4ce530d92d989fdc1a239c62",
+      "protectedFaces": [
+        "248142327:0"
+      ]
+    },
+    {
+      "id": 248142328,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_248142328",
+      "sceneSha256": "16e28f8ef02afe4dac0b8c7f02482f771c18b70c99da9c75faa4922ddc0d4e51",
+      "protectedFaces": [
+        "248142328:0"
+      ]
+    },
+    {
+      "id": 248142329,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_248142329",
+      "sceneSha256": "c7ab0a6307cae27a54a5f86b391c5b42f2d48490ddae9a23de64988c845b4b9f",
+      "protectedFaces": [
+        "248142329:0"
+      ]
+    },
+    {
+      "id": 248142330,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_248142330",
+      "sceneSha256": "1664b6fa4de1053da2184a06e0353d84c061b226abb710a0b0f25a050b0fcc6d",
+      "protectedFaces": [
+        "248142330:0"
+      ]
+    },
+    {
+      "id": 248142331,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_248142331",
+      "sceneSha256": "6d767540495f59ef0be2bd65b30fd3f1d5b06460c4df4e7fe93e9ac6ee9eca86",
+      "protectedFaces": [
+        "248142331:0"
+      ]
+    },
+    {
+      "id": 248142332,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_248142332",
+      "sceneSha256": "2164e3df1b5ab8993f3f79e2483fdf7c69d78ddd139e9c88d10cc9d88bd0aaec",
+      "protectedFaces": [
+        "248142332:0"
+      ]
+    },
+    {
+      "id": 248142333,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_248142333",
+      "sceneSha256": "b41b93e98be5688a64fdfc8d85c824980eeba84fad53fb4fd25e683d35ef5800",
+      "protectedFaces": [
+        "248142333:0"
+      ]
+    },
+    {
+      "id": 248142334,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_248142334",
+      "sceneSha256": "1b68063af107e6243c6b935aacb5a3422e5d5db6c21ac819200d3e47cf626879",
+      "protectedFaces": [
+        "248142334:0"
+      ]
+    },
+    {
+      "id": 248142335,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_248142335",
+      "sceneSha256": "04e97185ef5ace7cec4f9df35bff497460d00f53d46b7f1d5ae4c87544794462",
+      "protectedFaces": [
+        "248142335:0"
+      ]
+    },
+    {
+      "id": 248142336,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_248142336",
+      "sceneSha256": "ee243aa9ff502f2c0b6c2417a6b7cf07280eca954fbf4bea4d17fde5f24340ec",
+      "protectedFaces": [
+        "248142336:0"
+      ]
+    },
+    {
+      "id": 248142337,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_248142337",
+      "sceneSha256": "207aa8e828ac1cd7d0c14e22249e7d5b21b00cfe14fcb5a62733e05a656dd656",
+      "protectedFaces": [
+        "248142337:0"
+      ]
+    },
+    {
+      "id": 248142338,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_248142338",
+      "sceneSha256": "fcba34fc2c9f95c433302d414613c68559d80ba3b8685bc47c88484b25ab81fe",
+      "protectedFaces": [
+        "248142338:0"
+      ]
+    },
+    {
+      "id": 248142390,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_248142390",
+      "sceneSha256": "7ce57d4a8fc16530d06be96860f4b50d5d7ba34dd676b9354bd8cf5bc5d90624",
+      "protectedFaces": [
+        "248142390:0"
+      ]
+    },
+    {
+      "id": 248142393,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_248142393",
+      "sceneSha256": "f4c5928eed604e2083ebde5f0fc482db3bcc7c3c266878ae455a767546ae2735",
+      "protectedFaces": [
+        "248142393:0"
+      ]
+    },
+    {
+      "id": 248142396,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_248142396",
+      "sceneSha256": "ce3f4b0233b6cd8716664efd000b228e1373ec20a035394a98563b1a511bbdba",
+      "protectedFaces": [
+        "248142396:0"
+      ]
+    },
+    {
+      "id": 248142404,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_248142404",
+      "sceneSha256": "986ebb40b5fc67509bebc2e2fbe8ba51838c9966bf58e0ad37f89c8de57e033e",
+      "protectedFaces": [
+        "248142404:0",
+        "248142404:1"
+      ]
+    },
+    {
+      "id": 248142407,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_248142407",
+      "sceneSha256": "6d5634b85247d11f2a25c24163b8cdfdb4845b56389699fa9510d47d5be868d0",
+      "protectedFaces": [
+        "248142407:0",
+        "248142407:1"
+      ]
+    },
+    {
+      "id": 248142411,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_248142411",
+      "sceneSha256": "bbc139d0ad1de1faf9311daba8cdd938bd3c1842226bbd11b40d4b12dc7a52b9",
+      "protectedFaces": [
+        "248142411:0"
+      ]
+    },
+    {
+      "id": 248142412,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_248142412",
+      "sceneSha256": "c8028866102f17deba66743bfd6d5c37b50bcf5391802fd7a0fce44d64eb2c92",
+      "protectedFaces": [
+        "248142412:0",
+        "248142412:1"
+      ]
+    },
+    {
+      "id": 248142614,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_248142614",
+      "sceneSha256": "4c582029b98aaad943aeef9bab01d2e0b8c801c0b4eacb0bc9b6fe6f8e958591",
+      "protectedFaces": [
+        "248142614:0"
+      ]
+    },
+    {
+      "id": 248142615,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_248142615",
+      "sceneSha256": "0c784ff17aa66610f0d4da5d65c15693b19b3b1de608f4117f546451652b3940",
+      "protectedFaces": [
+        "248142615:0"
+      ]
+    },
+    {
+      "id": 248142616,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_248142616",
+      "sceneSha256": "5dedbd47cae377849ded5768f85a815115a7f549d53576d664636d5be522625c",
+      "protectedFaces": [
+        "248142616:0"
+      ]
+    },
+    {
+      "id": 248142617,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_248142617",
+      "sceneSha256": "0b19a8dca941f02e1675ced26908559a6d22db9b2b888940bb7c96c1470c7f6b",
+      "protectedFaces": [
+        "248142617:0"
+      ]
+    },
+    {
+      "id": 248142618,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_248142618",
+      "sceneSha256": "0a905dc3d317944941cfcd6611d8a16aab5be365819540f24af1a1daf6bc7a66",
+      "protectedFaces": [
+        "248142618:0"
+      ]
+    },
+    {
+      "id": 248142619,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_248142619",
+      "sceneSha256": "879b207fc5d378846eabd21145c9d3a43ca0cba1b86acb114759d6f9a6dce90a",
+      "protectedFaces": [
+        "248142619:0"
+      ]
+    },
+    {
+      "id": 248142620,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_248142620",
+      "sceneSha256": "9026919b2d022f7a6baf958aff790e23d81ea5a3efe1eeeb275721f2c24cb0b0",
+      "protectedFaces": [
+        "248142620:0"
+      ]
+    },
+    {
+      "id": 248142621,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_248142621",
+      "sceneSha256": "bafd694a8a6d8fcd93c3833a5d02655ae0121e1320ddb72238734a93532f7727",
+      "protectedFaces": [
+        "248142621:0"
+      ]
+    },
+    {
+      "id": 248142622,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_248142622",
+      "sceneSha256": "5e39a1aa2c709b1ff70faac559a2d3c0665449075b2d00c3bf3503db7e744f57",
+      "protectedFaces": [
+        "248142622:0"
+      ]
+    },
+    {
+      "id": 248142623,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_248142623",
+      "sceneSha256": "0b5a73fc698931eb2df9205916822f2e8e277413f9c17cc814c33ae1defb7a29",
+      "protectedFaces": [
+        "248142623:0"
+      ]
+    },
+    {
+      "id": 248142624,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_248142624",
+      "sceneSha256": "d5777936507b6e428a8d7556751d8852850e828687c0d14b481441ff84029ee8",
+      "protectedFaces": [
+        "248142624:0"
+      ]
+    },
+    {
+      "id": 248142625,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_248142625",
+      "sceneSha256": "a699c4e8570479ef06579049c507dad27078db72c035c7940e138806b8a31ced",
+      "protectedFaces": [
+        "248142625:0"
+      ]
+    },
+    {
+      "id": 248142627,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_248142627",
+      "sceneSha256": "91789d0e4f01f465582c3c810b0e7cc6eee56d722ab49385d34694d77c691c56",
+      "protectedFaces": [
+        "248142627:0"
+      ]
+    },
+    {
+      "id": 248142628,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_248142628",
+      "sceneSha256": "39b17c7f63cc3ecc0c87082edeb97e29db5c537d561e1156bd28b397dd0a3c07",
+      "protectedFaces": [
+        "248142628:0"
+      ]
+    },
+    {
+      "id": 248142630,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_248142630",
+      "sceneSha256": "c7dd064cd627283167ced8d5a4a1c74d224bb771d8f41bde841d129be7622331",
+      "protectedFaces": [
+        "248142630:0"
+      ]
+    },
+    {
+      "id": 248142631,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_248142631",
+      "sceneSha256": "2bbe0c18dec474f283b27efaf22203a81967e4b3ec2981e0cac0c69e9fba737d",
+      "protectedFaces": [
+        "248142631:0"
+      ]
+    },
+    {
+      "id": 248142633,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_248142633",
+      "sceneSha256": "a1581762b3b751f05d75cc48d275e2f1658da21679e6f8e00c5373294c8c68c2",
+      "protectedFaces": [
+        "248142633:0"
+      ]
+    },
+    {
+      "id": 248142634,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_248142634",
+      "sceneSha256": "35f306463f2940e05e1b39f4b8843cfe42726a87ffb05dcaa4906ec9903586bb",
+      "protectedFaces": [
+        "248142634:0"
+      ]
+    },
+    {
+      "id": 248142636,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_248142636",
+      "sceneSha256": "4042090b1ddaf4b9de2c0336521685060f43068088373b4fe37557beac3d90bb",
+      "protectedFaces": [
+        "248142636:0"
+      ]
+    },
+    {
+      "id": 248142638,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_248142638",
+      "sceneSha256": "5606014fa24d6cb18ec60b78c4fc09d6426b4caec0862e66f19c6f855cdcf632",
+      "protectedFaces": [
+        "248142638:0"
+      ]
+    },
+    {
+      "id": 248142640,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_248142640",
+      "sceneSha256": "b00a80c8cf08c2a3160d32ff39b156bfedce4cf006b711aeaa78bd39c33c78e8",
+      "protectedFaces": [
+        "248142640:0"
+      ]
+    },
+    {
+      "id": 248142641,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_248142641",
+      "sceneSha256": "cbb10a18b88d8175eec6edca1256a50e61e288c3eaa04eb6e7de3c185e1bf5eb",
+      "protectedFaces": [
+        "248142641:0"
+      ]
+    },
+    {
+      "id": 248142642,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_248142642",
+      "sceneSha256": "98798df12dad613f6349b2659664ff8b624268dfc5a46f4136096b2a0548cec6",
+      "protectedFaces": [
+        "248142642:0"
+      ]
+    },
+    {
+      "id": 248142643,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_248142643",
+      "sceneSha256": "756f8ca23cae74ea41644cdddb111311f89df619f3eaff6a2a501c20cb98e2f6",
+      "protectedFaces": [
+        "248142643:0"
+      ]
+    },
+    {
+      "id": 248142645,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_248142645",
+      "sceneSha256": "2d40756b96783be6f6d11eecea4743fe5538f4dbb71e4433e3c2351262c00fdc",
+      "protectedFaces": [
+        "248142645:0"
+      ]
+    },
+    {
+      "id": 248142646,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_248142646",
+      "sceneSha256": "729a6b193d47d0f6d641d7471b10a48e18d3e2bf99a45f074841f1fc82354172",
+      "protectedFaces": [
+        "248142646:0"
+      ]
+    },
+    {
+      "id": 248142647,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_248142647",
+      "sceneSha256": "69daf4929bb961b237fbc72b947ab9174f3fd7e48c2e82eaec59848e7fb1d446",
+      "protectedFaces": [
+        "248142647:0"
+      ]
+    },
+    {
+      "id": 248142648,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_248142648",
+      "sceneSha256": "ae3b5d9d41e01bcbe91a00ecf3550d35e3f6c8773ef53e58a3aaac001cf5284a",
+      "protectedFaces": [
+        "248142648:0"
+      ]
+    },
+    {
+      "id": 248142649,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_248142649",
+      "sceneSha256": "7ff193d841cfc5a905ce10b71a61589b58c005a794274f8e797af055ce10a3d5",
+      "protectedFaces": [
+        "248142649:0"
+      ]
+    },
+    {
+      "id": 248142650,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_248142650",
+      "sceneSha256": "6d89f64e83af5ca8afb4cd7f0addd2585b9bd936497cc24faafd570f95686e07",
+      "protectedFaces": [
+        "248142650:0"
+      ]
+    },
+    {
+      "id": 248142651,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_248142651",
+      "sceneSha256": "3572bcfa1f6f1311aca35cdcbdf7607c60935013fa59fb1c86c1f7209d554134",
+      "protectedFaces": [
+        "248142651:0"
+      ]
+    },
+    {
+      "id": 248142652,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_248142652",
+      "sceneSha256": "33be3f58f172ce22df71662e02a5efcabdb6481a87b14bb4cdbeccb3e523fea0",
+      "protectedFaces": [
+        "248142652:0"
+      ]
+    },
+    {
+      "id": 248142653,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_248142653",
+      "sceneSha256": "88941b872cee3a35962bf11b62d8c71f9cee5ac38366836facec21b24103fc87",
+      "protectedFaces": [
+        "248142653:0"
+      ]
+    },
+    {
+      "id": 248142654,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_248142654",
+      "sceneSha256": "f2e95977acf9aa8407f96f7163da20d3724da9acfb76a50717009d4e80996371",
+      "protectedFaces": [
+        "248142654:0"
+      ]
+    },
+    {
+      "id": 248142655,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_248142655",
+      "sceneSha256": "17abcb3448143434a2f55a6cb867c7e504576b5e5bf459e447007f768b634eff",
+      "protectedFaces": [
+        "248142655:0"
+      ]
+    },
+    {
+      "id": 248142656,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_248142656",
+      "sceneSha256": "2bb46705ee0636481977dde7c52b4ad4805bf22eb107ff14f73095f443c75a53",
+      "protectedFaces": [
+        "248142656:0"
+      ]
+    },
+    {
+      "id": 248142686,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_248142686",
+      "sceneSha256": "e64d9de72e127f31228bd22545c326e6626edd2b342b81ceabb25fab0b649632",
+      "protectedFaces": [
+        "248142686:0"
+      ]
+    },
+    {
+      "id": 248142687,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_248142687",
+      "sceneSha256": "9657da693fe05cd817c5f6e2998cff8e9622880d6d5dff737d42790e82f166ad",
+      "protectedFaces": [
+        "248142687:0"
+      ]
+    },
+    {
+      "id": 248142688,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_248142688",
+      "sceneSha256": "ad577a3901b6f75b856362aae26a8025f221eee31158346b6eefc8599cce4e94",
+      "protectedFaces": [
+        "248142688:0"
+      ]
+    },
+    {
+      "id": 248142689,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_248142689",
+      "sceneSha256": "3d28934cd27743d6143d2c3af9de05dd81640404d194ae210273100a3881d962",
+      "protectedFaces": [
+        "248142689:0"
+      ]
+    },
+    {
+      "id": 248142690,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_248142690",
+      "sceneSha256": "9ab93239712b8095262d8991f9081882d869756f0bfa612058bb5efd3fe4a8e2",
+      "protectedFaces": [
+        "248142690:0"
+      ]
+    },
+    {
+      "id": 248142691,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_248142691",
+      "sceneSha256": "95822ebbc92db4ed7d50e015da4a2e4aa233c482dbec6c142c16abf5e5831372",
+      "protectedFaces": [
+        "248142691:0"
+      ]
+    },
+    {
+      "id": 248142692,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_248142692",
+      "sceneSha256": "f84ea82af1bea4b8a19e124e45ecb9d15b9c1d37060bc03048b41997cfcd37d4",
+      "protectedFaces": [
+        "248142692:0"
+      ]
+    },
+    {
+      "id": 248142693,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_248142693",
+      "sceneSha256": "ed463b04ade22b7901408ee7e909bbf0d4fa54c19d0b63bdb64fcf3191011d32",
+      "protectedFaces": [
+        "248142693:0"
+      ]
+    },
+    {
+      "id": 248142694,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_248142694",
+      "sceneSha256": "11497f1959f606fcfe345710c8d1b869998ee925cdea251eaf8534704b1b6246",
+      "protectedFaces": [
+        "248142694:0"
+      ]
+    },
+    {
+      "id": 248142695,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_248142695",
+      "sceneSha256": "37e9e54506dd70fb19eff0a4d549c70ef13320e799a4ae169abac28b0ad42b97",
+      "protectedFaces": [
+        "248142695:0"
+      ]
+    },
+    {
+      "id": 248142696,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_248142696",
+      "sceneSha256": "43c4f8cc2fd540ec3acbe5d10fec6e5188111cb63962b41d87aa92a0c4bd5873",
+      "protectedFaces": [
+        "248142696:0"
+      ]
+    },
+    {
+      "id": 248142697,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_248142697",
+      "sceneSha256": "976e82f1278bf35bb7dbcd7a572fdbc4bcb38d204b2c9610a74e932622ee0e3c",
+      "protectedFaces": [
+        "248142697:0"
+      ]
+    },
+    {
+      "id": 248142698,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_248142698",
+      "sceneSha256": "681e3a707ee6c62f2d7b4534f1867c41acb507df8ac76ac1bd69708cb26d0534",
+      "protectedFaces": [
+        "248142698:0"
+      ]
+    },
+    {
+      "id": 248142701,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_248142701",
+      "sceneSha256": "8046e1f5cc32299e3cea1e22981d6de926553e7ceeeb63198c8c8c38aa67d368",
+      "protectedFaces": [
+        "248142701:0"
+      ]
+    },
+    {
+      "id": 248142706,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_248142706",
+      "sceneSha256": "04c083cd811178c62f2f08c199485ea439aba993d5f9d3a5f6da876015c5435c",
+      "protectedFaces": [
+        "248142706:0",
+        "248142706:1"
+      ]
+    },
+    {
+      "id": 248142707,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_248142707",
+      "sceneSha256": "ac252f7dbcc5f62fc765b1025d8af87050a394cd44dd85f0e6bcad9764d49015",
+      "protectedFaces": [
+        "248142707:0",
+        "248142707:1"
+      ]
+    },
+    {
+      "id": 248142709,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_248142709",
+      "sceneSha256": "7579409f7afb6ba680f094caf878919b1c6921e3bd25bdfd7e3462a169d474f7",
+      "protectedFaces": [
+        "248142709:0",
+        "248142709:1"
+      ]
+    },
+    {
+      "id": 248142711,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_248142711",
+      "sceneSha256": "13eb7c91b0e3f74c126f6eae8eb2dba9acb831b99d74bcf594ea9698bce5d3b7",
+      "protectedFaces": [
+        "248142711:0",
+        "248142711:1"
+      ]
+    },
+    {
+      "id": 248142712,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_248142712",
+      "sceneSha256": "386dfc3f7a05a0c0aa562a2494c9bfbd25eee76fb8a44eb24839f3196f1d82cc",
+      "protectedFaces": [
+        "248142712:0",
+        "248142712:1"
+      ]
+    },
+    {
+      "id": 248142714,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_248142714",
+      "sceneSha256": "394d837dfa8366cd023e0a9cb8bfbcc3bea2424ba27d1e93b997345cf66eb7f2",
+      "protectedFaces": [
+        "248142714:0",
+        "248142714:1"
+      ]
+    },
+    {
+      "id": 248142715,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_248142715",
+      "sceneSha256": "75c479e594238e3714e1b6274e827272b57e81eb0b4421d1aeaf3585aa3fa8cf",
+      "protectedFaces": [
+        "248142715:0"
+      ]
+    },
+    {
+      "id": 248142717,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_248142717",
+      "sceneSha256": "fceaf6cb0fb95ef25b6a4dd98cf365fdb3cd730f556b1de0051d614ea7dcde41",
+      "protectedFaces": [
+        "248142717:0"
+      ]
+    },
+    {
+      "id": 951679435,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_951679435",
+      "sceneSha256": "d7669b1ab0b32f8c81ee7c614ea7d14ad4324a12096e2a11b31c28cc643570fd",
+      "protectedFaces": [
+        "951679435:0"
+      ]
+    },
+    {
+      "id": 978475216,
+      "runtimeOwner": "EVP-WEST",
+      "modelAndCollisionOwner": "Resident_978475216",
+      "sceneSha256": "806166511466897c07d6774c7c6c744bdf43ae01cb2081e564fc37d70018cf14",
+      "protectedFaces": [
+        "978475216:0",
+        "978475216:1"
+      ]
+    },
+    {
+      "id": -177966,
+      "runtimeOwner": "EVP-REST",
+      "modelAndCollisionOwner": "Resident_-177966",
+      "sceneSha256": "d941122ae86e943544417d6ac8b424629a305f5b8b8fcd696291d67a50b866f2",
+      "protectedFaces": [
+        "-177966:0"
+      ]
+    }
+  ],
+  "future": [
+    {
+      "id": "P01",
+      "parent": "01-FA08W",
+      "notImplemented": true,
+      "faces": [
+        {
+          "faceId": "241822278:0",
+          "buildingId": 241822278,
+          "authoringOwner": "P01",
+          "geometryOwner": "P01",
+          "engineFrontage": {
+            "x": -14.656,
+            "z": -106.397,
+            "rx": -0.0007541475985147913,
+            "rz": -0.9999997156306595,
+            "length": 9.282,
+            "street": "First Avenue"
+          }
+        },
+        {
+          "faceId": "241822337:0",
+          "buildingId": 241822337,
+          "authoringOwner": "P01",
+          "geometryOwner": "P01",
+          "engineFrontage": {
+            "x": -14.663,
+            "z": -115.679,
+            "rx": -0.0012649322276537646,
+            "rz": -0.9999991999729098,
+            "length": 7.115,
+            "street": "First Avenue"
+          }
+        },
+        {
+          "faceId": "241822304:0",
+          "buildingId": 241822304,
+          "authoringOwner": "P01",
+          "geometryOwner": "P01",
+          "engineFrontage": {
+            "x": -14.672,
+            "z": -122.794,
+            "rx": -0.001789439425502915,
+            "rz": -0.9999983989519895,
+            "length": 6.706,
+            "street": "First Avenue"
+          }
+        },
+        {
+          "faceId": "241822211:0",
+          "buildingId": 241822211,
+          "authoringOwner": "P01",
+          "geometryOwner": "P01",
+          "engineFrontage": {
+            "x": -14.684,
+            "z": -129.5,
+            "rx": -0.001657227388699549,
+            "rz": -0.9999986267977482,
+            "length": 7.241,
+            "street": "First Avenue"
+          }
+        }
+      ]
+    },
+    {
+      "id": "P02",
+      "parent": "01-FA08E",
+      "notImplemented": true,
+      "faces": [
+        {
+          "faceId": "248142657:0",
+          "buildingId": 248142657,
+          "authoringOwner": "P02",
+          "geometryOwner": "P02",
+          "engineFrontage": {
+            "x": 15.086,
+            "z": -115.574,
+            "rx": 0.003627944462027151,
+            "rz": 0.9999934189878353,
+            "length": 6.064,
+            "street": "First Avenue"
+          }
+        },
+        {
+          "faceId": "248142658:0",
+          "buildingId": 248142658,
+          "authoringOwner": "P02",
+          "geometryOwner": "P02",
+          "engineFrontage": {
+            "x": 15.066,
+            "z": -121.218,
+            "rx": 0.0035435638609420624,
+            "rz": 0.9999937215578724,
+            "length": 5.644,
+            "street": "First Avenue"
+          }
+        },
+        {
+          "faceId": "248142659:0",
+          "buildingId": 248142659,
+          "authoringOwner": "P02",
+          "geometryOwner": "P02",
+          "engineFrontage": {
+            "x": 15.042,
+            "z": -127.891,
+            "rx": 0.003596559984500865,
+            "rz": 0.9999935323572237,
+            "length": 6.673,
+            "street": "First Avenue"
+          }
+        },
+        {
+          "faceId": "248142660:0",
+          "buildingId": 248142660,
+          "authoringOwner": "P02",
+          "geometryOwner": "P02",
+          "engineFrontage": {
+            "x": 15.028,
+            "z": -134.112,
+            "rx": 0.0022504363524687428,
+            "rz": 0.9999974677649056,
+            "length": 6.221,
+            "street": "First Avenue"
+          }
+        },
+        {
+          "faceId": "248142713:0",
+          "buildingId": 248142713,
+          "authoringOwner": "P02",
+          "geometryOwner": "P02",
+          "engineFrontage": {
+            "x": 15.502,
+            "z": -144.387,
+            "rx": 0.002822373186940047,
+            "rz": 0.999996017096865,
+            "length": 10.275,
+            "street": "First Avenue"
+          }
+        }
+      ]
+    },
+    {
+      "id": "P03",
+      "parent": "01-FA08W",
+      "notImplemented": true,
+      "faces": [
+        {
+          "faceId": "241822237:1",
+          "buildingId": 241822237,
+          "authoringOwner": "P03",
+          "geometryOwner": "P03",
+          "engineFrontage": {
+            "x": -14.696,
+            "z": -136.74099999999999,
+            "rx": 0,
+            "rz": -1,
+            "length": 7.553,
+            "street": "First Avenue"
+          }
+        },
+        {
+          "faceId": "241822237:0",
+          "buildingId": 241822237,
+          "authoringOwner": "P03",
+          "geometryOwner": "P03",
+          "engineFrontage": {
+            "x": -14.696,
+            "z": -144.29399999999998,
+            "rx": -0.9999995028382332,
+            "rz": 0.0009971576036675815,
+            "length": 20.057,
+            "street": "East 9th Street"
+          }
+        }
+      ]
+    },
+    {
+      "id": "01-E09-21-N01",
+      "parent": "01-E09-21",
+      "notImplemented": true,
+      "faces": [
+        {
+          "faceId": "247852691:1",
+          "buildingId": 247852691,
+          "authoringOwner": "01-E09-21-N01",
+          "geometryOwner": "01-E09-21-N01",
+          "engineFrontage": {
+            "x": -36.772,
+            "z": -162.67700000000002,
+            "rx": 0.9999966211274229,
+            "rz": -0.0025995641436790027,
+            "length": 21.542,
+            "street": "East 9th Street"
+          }
+        },
+        {
+          "faceId": "247852690:0",
+          "buildingId": 247852690,
+          "authoringOwner": "01-E09-21-N01",
+          "geometryOwner": "01-E09-21-N01",
+          "engineFrontage": {
+            "x": -45.522,
+            "z": -162.651,
+            "rx": 0.9999955853353565,
+            "rz": -0.0029714154535691118,
+            "length": 8.75,
+            "street": "East 9th Street"
+          }
+        },
+        {
+          "faceId": "247852697:0",
+          "buildingId": 247852697,
+          "authoringOwner": "01-E09-21-N01",
+          "geometryOwner": "01-E09-21-N01",
+          "engineFrontage": {
+            "x": -53.13,
+            "z": -162.637,
+            "rx": 0.9999983068947168,
+            "rz": -0.0018401651283546034,
+            "length": 7.608,
+            "street": "East 9th Street"
+          }
+        },
+        {
+          "faceId": "247852689:0",
+          "buildingId": 247852689,
+          "authoringOwner": "01-E09-21-N01",
+          "geometryOwner": "01-E09-21-N01",
+          "engineFrontage": {
+            "x": -60.488,
+            "z": -162.608,
+            "rx": 0.9999922332133847,
+            "rz": -0.003941257782438778,
+            "length": 7.358,
+            "street": "East 9th Street"
+          }
+        },
+        {
+          "faceId": "247852687:0",
+          "buildingId": 247852687,
+          "authoringOwner": "01-E09-21-N01",
+          "geometryOwner": "01-E09-21-N01",
+          "engineFrontage": {
+            "x": -68.402,
+            "z": -162.589,
+            "rx": 0.999997118071267,
+            "rz": -0.0024008017744957706,
+            "length": 7.914,
+            "street": "East 9th Street"
+          }
+        },
+        {
+          "faceId": "247852686:0",
+          "buildingId": 247852686,
+          "authoringOwner": "01-E09-21-N01",
+          "geometryOwner": "01-E09-21-N01",
+          "engineFrontage": {
+            "x": -75.942,
+            "z": -162.575,
+            "rx": 0.9999982762183193,
+            "rz": -0.0018567607250732463,
+            "length": 7.54,
+            "street": "East 9th Street"
+          }
+        },
+        {
+          "faceId": "247852685:0",
+          "buildingId": 247852685,
+          "authoringOwner": "01-E09-21-N01",
+          "geometryOwner": "01-E09-21-N01",
+          "engineFrontage": {
+            "x": -83.816,
+            "z": -162.55200000000002,
+            "rx": 0.9999957338897352,
+            "rz": -0.0029209933806781836,
+            "length": 7.874,
+            "street": "East 9th Street"
+          }
+        },
+        {
+          "faceId": "247852684:0",
+          "buildingId": 247852684,
+          "authoringOwner": "01-E09-21-N01",
+          "geometryOwner": "01-E09-21-N01",
+          "engineFrontage": {
+            "x": -91.167,
+            "z": -162.52800000000002,
+            "rx": 0.9999946703809177,
+            "rz": -0.003264844523077532,
+            "length": 7.351,
+            "street": "East 9th Street"
+          }
+        }
+      ]
+    },
+    {
+      "id": "01-E09-21-N02",
+      "parent": "01-E09-21",
+      "notImplemented": true,
+      "faces": [
+        {
+          "faceId": "247852683:0",
+          "buildingId": 247852683,
+          "authoringOwner": "01-E09-21-N02",
+          "geometryOwner": "01-E09-21-N02",
+          "engineFrontage": {
+            "x": -98.891,
+            "z": -162.513,
+            "rx": 0.999998114325345,
+            "rz": -0.0019419953022890648,
+            "length": 7.724,
+            "street": "East 9th Street"
+          }
+        },
+        {
+          "faceId": "247852682:0",
+          "buildingId": 247852682,
+          "authoringOwner": "01-E09-21-N02",
+          "geometryOwner": "01-E09-21-N02",
+          "engineFrontage": {
+            "x": -103.884,
+            "z": -162.501,
+            "rx": 0.9999971119315453,
+            "rz": -0.0024033577695131204,
+            "length": 4.993,
+            "street": "East 9th Street"
+          }
+        },
+        {
+          "faceId": "1063735559:0",
+          "buildingId": 1063735559,
+          "authoringOwner": "01-E09-21-N02",
+          "geometryOwner": "01-E09-21-N02",
+          "engineFrontage": {
+            "x": -108.266,
+            "z": -162.48399999999998,
+            "rx": 0.9999924747973736,
+            "rz": -0.0038794778803207326,
+            "length": 4.382,
+            "street": "East 9th Street"
+          }
+        },
+        {
+          "faceId": "247852681:0",
+          "buildingId": 247852681,
+          "authoringOwner": "01-E09-21-N02",
+          "geometryOwner": "01-E09-21-N02",
+          "engineFrontage": {
+            "x": -114.088,
+            "z": -162.469,
+            "rx": 0.9999929699226378,
+            "rz": -0.003749680693406975,
+            "length": 4.267,
+            "street": "East 9th Street"
+          }
+        },
+        {
+          "faceId": "247852680:0",
+          "buildingId": 247852680,
+          "authoringOwner": "01-E09-21-N02",
+          "geometryOwner": "01-E09-21-N02",
+          "engineFrontage": {
+            "x": -121.655,
+            "z": -162.452,
+            "rx": 0.9999974764103639,
+            "rz": -0.002246591396718921,
+            "length": 7.567,
+            "street": "East 9th Street"
+          }
+        },
+        {
+          "faceId": "247852679:0",
+          "buildingId": 247852679,
+          "authoringOwner": "01-E09-21-N02",
+          "geometryOwner": "01-E09-21-N02",
+          "engineFrontage": {
+            "x": -129.23,
+            "z": -162.43,
+            "rx": 0.9999957825752321,
+            "rz": -0.0029042781804153794,
+            "length": 7.575,
+            "street": "East 9th Street"
+          }
+        },
+        {
+          "faceId": "247852678:0",
+          "buildingId": 247852678,
+          "authoringOwner": "01-E09-21-N02",
+          "geometryOwner": "01-E09-21-N02",
+          "engineFrontage": {
+            "x": -136.812,
+            "z": -162.404,
+            "rx": 0.9999941204334576,
+            "rz": -0.0034291541982696227,
+            "length": 7.582,
+            "street": "East 9th Street"
+          }
+        },
+        {
+          "faceId": "247852677:0",
+          "buildingId": 247852677,
+          "authoringOwner": "01-E09-21-N02",
+          "geometryOwner": "01-E09-21-N02",
+          "engineFrontage": {
+            "x": -144.543,
+            "z": -162.385,
+            "rx": 0.9999969800212133,
+            "rz": -0.0024576306584393106,
+            "length": 7.731,
+            "street": "East 9th Street"
+          }
+        }
+      ]
+    },
+    {
+      "id": "01-E09-21-N03",
+      "parent": "01-E09-21",
+      "notImplemented": true,
+      "faces": [
+        {
+          "faceId": "247852676:0",
+          "buildingId": 247852676,
+          "authoringOwner": "01-E09-21-N03",
+          "geometryOwner": "01-E09-21-N03",
+          "engineFrontage": {
+            "x": -152.023,
+            "z": -162.36599999999999,
+            "rx": 0.9999967739439477,
+            "rz": -0.0025400987573449855,
+            "length": 7.48,
+            "street": "East 9th Street"
+          }
+        },
+        {
+          "faceId": "247852675:0",
+          "buildingId": 247852675,
+          "authoringOwner": "01-E09-21-N03",
+          "geometryOwner": "01-E09-21-N03",
+          "engineFrontage": {
+            "x": -159.713,
+            "z": -162.344,
+            "rx": 0.999995907770135,
+            "rz": -0.0028608465501883677,
+            "length": 7.69,
+            "street": "East 9th Street"
+          }
+        },
+        {
+          "faceId": "247852674:0",
+          "buildingId": 247852674,
+          "authoringOwner": "01-E09-21-N03",
+          "geometryOwner": "01-E09-21-N03",
+          "engineFrontage": {
+            "x": -167.321,
+            "z": -162.329,
+            "rx": 0.9999980563849716,
+            "rz": -0.001971605000759087,
+            "length": 7.608,
+            "street": "East 9th Street"
+          }
+        },
+        {
+          "faceId": "247852673:0",
+          "buildingId": 247852673,
+          "authoringOwner": "01-E09-21-N03",
+          "geometryOwner": "01-E09-21-N03",
+          "engineFrontage": {
+            "x": -174.868,
+            "z": -162.311,
+            "rx": 0.9999971557716452,
+            "rz": -0.0023850468800683837,
+            "length": 7.547,
+            "street": "East 9th Street"
+          }
+        },
+        {
+          "faceId": "247852672:0",
+          "buildingId": 247852672,
+          "authoringOwner": "01-E09-21-N03",
+          "geometryOwner": "01-E09-21-N03",
+          "engineFrontage": {
+            "x": -182.789,
+            "z": -162.287,
+            "rx": 0.9999954098225939,
+            "rz": -0.003029906556715464,
+            "length": 7.921,
+            "street": "East 9th Street"
+          }
+        },
+        {
+          "faceId": "247852671:0",
+          "buildingId": 247852671,
+          "authoringOwner": "01-E09-21-N03",
+          "geometryOwner": "01-E09-21-N03",
+          "engineFrontage": {
+            "x": -191.811,
+            "z": -162.264,
+            "rx": 0.9999967504897292,
+            "rz": -0.0025493155909193156,
+            "length": 9.022,
+            "street": "East 9th Street"
+          }
+        },
+        {
+          "faceId": "247852702:0",
+          "buildingId": 247852702,
+          "authoringOwner": "01-E09-21-N03",
+          "geometryOwner": "01-E09-21-N03",
+          "engineFrontage": {
+            "x": -213.013,
+            "z": -162.20499999999998,
+            "rx": 0.9999969236907714,
+            "rz": -0.002480445321638281,
+            "length": 18.545,
+            "street": "East 9th Street"
+          }
+        }
+      ]
+    },
+    {
+      "id": "01-E09-21-S01",
+      "parent": "01-E09-21",
+      "notImplemented": true,
+      "faces": [
+        {
+          "faceId": "241822239:0",
+          "buildingId": 241822239,
+          "authoringOwner": "01-E09-21-S01",
+          "geometryOwner": "01-E09-21-S01",
+          "engineFrontage": {
+            "x": -34.753,
+            "z": -144.274,
+            "rx": -0.9999995016628817,
+            "rz": 0.0009983356089812844,
+            "length": 6.01,
+            "street": "East 9th Street"
+          }
+        },
+        {
+          "faceId": "241822276:0",
+          "buildingId": 241822276,
+          "authoringOwner": "01-E09-21-S01",
+          "geometryOwner": "01-E09-21-S01",
+          "engineFrontage": {
+            "x": -40.763,
+            "z": -144.268,
+            "rx": -0.9999961320863224,
+            "rz": 0.002781332844913869,
+            "length": 4.674,
+            "street": "East 9th Street"
+          }
+        },
+        {
+          "faceId": "241822204:0",
+          "buildingId": 241822204,
+          "authoringOwner": "01-E09-21-S01",
+          "geometryOwner": "01-E09-21-S01",
+          "engineFrontage": {
+            "x": -45.437,
+            "z": -144.255,
+            "rx": -1,
+            "rz": 0,
+            "length": 7.491,
+            "street": "East 9th Street"
+          }
+        },
+        {
+          "faceId": "241822315:0",
+          "buildingId": 241822315,
+          "authoringOwner": "01-E09-21-S01",
+          "geometryOwner": "01-E09-21-S01",
+          "engineFrontage": {
+            "x": -52.928,
+            "z": -144.255,
+            "rx": -0.9999980801783642,
+            "rz": 0.0019594998305259344,
+            "length": 7.655,
+            "street": "East 9th Street"
+          }
+        },
+        {
+          "faceId": "241822241:0",
+          "buildingId": 241822241,
+          "authoringOwner": "01-E09-21-S01",
+          "geometryOwner": "01-E09-21-S01",
+          "engineFrontage": {
+            "x": -60.583,
+            "z": -144.24,
+            "rx": -0.9999995877413997,
+            "rz": 0.0009080292014762727,
+            "length": 7.709,
+            "street": "East 9th Street"
+          }
+        },
+        {
+          "faceId": "241822261:0",
+          "buildingId": 241822261,
+          "authoringOwner": "01-E09-21-S01",
+          "geometryOwner": "01-E09-21-S01",
+          "engineFrontage": {
+            "x": -68.292,
+            "z": -144.233,
+            "rx": -0.9999994029526491,
+            "rz": 0.001092746240080723,
+            "length": 7.321,
+            "street": "East 9th Street"
+          }
+        },
+        {
+          "faceId": "241822335:0",
+          "buildingId": 241822335,
+          "authoringOwner": "01-E09-21-S01",
+          "geometryOwner": "01-E09-21-S01",
+          "engineFrontage": {
+            "x": -75.613,
+            "z": -144.225,
+            "rx": -0.9999990468415126,
+            "rz": 0.001380694052372577,
+            "length": 7.967,
+            "street": "East 9th Street"
+          }
+        },
+        {
+          "faceId": "241822244:0",
+          "buildingId": 241822244,
+          "authoringOwner": "01-E09-21-S01",
+          "geometryOwner": "01-E09-21-S01",
+          "engineFrontage": {
+            "x": -83.58,
+            "z": -144.214,
+            "rx": -0.9999983573672573,
+            "rz": 0.0018125293893238462,
+            "length": 7.724,
+            "street": "East 9th Street"
+          }
+        }
+      ]
+    },
+    {
+      "id": "01-E09-21-S02",
+      "parent": "01-E09-21",
+      "notImplemented": true,
+      "faces": [
+        {
+          "faceId": "241822293:0",
+          "buildingId": 241822293,
+          "authoringOwner": "01-E09-21-S02",
+          "geometryOwner": "01-E09-21-S02",
+          "engineFrontage": {
+            "x": -91.304,
+            "z": -144.2,
+            "rx": -0.9999996780284235,
+            "rz": 0.0008024606216625338,
+            "length": 7.477,
+            "street": "East 9th Street"
+          }
+        },
+        {
+          "faceId": "241822229:0",
+          "buildingId": 241822229,
+          "authoringOwner": "01-E09-21-S02",
+          "geometryOwner": "01-E09-21-S02",
+          "engineFrontage": {
+            "x": -98.781,
+            "z": -144.19400000000002,
+            "rx": -0.9999997804207074,
+            "rz": 0.000662690378013679,
+            "length": 7.545,
+            "street": "East 9th Street"
+          }
+        },
+        {
+          "faceId": "241822251:0",
+          "buildingId": 241822251,
+          "authoringOwner": "01-E09-21-S02",
+          "geometryOwner": "01-E09-21-S02",
+          "engineFrontage": {
+            "x": -106.326,
+            "z": -144.189,
+            "rx": -0.9999995803710797,
+            "rz": 0.0009161100723188515,
+            "length": 7.641,
+            "street": "East 9th Street"
+          }
+        },
+        {
+          "faceId": "241822179:0",
+          "buildingId": 241822179,
+          "authoringOwner": "01-E09-21-S02",
+          "geometryOwner": "01-E09-21-S02",
+          "engineFrontage": {
+            "x": -113.967,
+            "z": -144.18200000000002,
+            "rx": -0.9999994618656995,
+            "rz": 0.0010374335214306943,
+            "length": 11.567,
+            "street": "East 9th Street"
+          }
+        },
+        {
+          "faceId": "241822183:0",
+          "buildingId": 241822183,
+          "authoringOwner": "01-E09-21-S02",
+          "geometryOwner": "01-E09-21-S02",
+          "engineFrontage": {
+            "x": -125.534,
+            "z": -144.17000000000002,
+            "rx": -0.9999979736617668,
+            "rz": 0.0020131250235638316,
+            "length": 11.425,
+            "street": "East 9th Street"
+          }
+        },
+        {
+          "faceId": "241822272:0",
+          "buildingId": 241822272,
+          "authoringOwner": "01-E09-21-S02",
+          "geometryOwner": "01-E09-21-S02",
+          "engineFrontage": {
+            "x": -136.959,
+            "z": -144.147,
+            "rx": -0.9999998577019259,
+            "rz": 0.0005334755175797008,
+            "length": 7.498,
+            "street": "East 9th Street"
+          }
+        },
+        {
+          "faceId": "241822187:0",
+          "buildingId": 241822187,
+          "authoringOwner": "01-E09-21-S02",
+          "geometryOwner": "01-E09-21-S02",
+          "engineFrontage": {
+            "x": -144.457,
+            "z": -144.143,
+            "rx": -0.9999993350024143,
+            "rz": 0.0011532539742468051,
+            "length": 7.804,
+            "street": "East 9th Street"
+          }
+        },
+        {
+          "faceId": "241822165:0",
+          "buildingId": 241822165,
+          "authoringOwner": "01-E09-21-S02",
+          "geometryOwner": "01-E09-21-S02",
+          "engineFrontage": {
+            "x": -152.261,
+            "z": -144.13400000000001,
+            "rx": -0.9999997693687056,
+            "rz": 0.0006791631142133909,
+            "length": 7.362,
+            "street": "East 9th Street"
+          }
+        }
+      ]
+    },
+    {
+      "id": "01-E09-21-S03",
+      "parent": "01-E09-21",
+      "notImplemented": true,
+      "faces": [
+        {
+          "faceId": "241822171:0",
+          "buildingId": 241822171,
+          "authoringOwner": "01-E09-21-S03",
+          "geometryOwner": "01-E09-21-S03",
+          "engineFrontage": {
+            "x": -159.623,
+            "z": -144.12900000000002,
+            "rx": -0.9999991073075429,
+            "rz": 0.0013361826660984145,
+            "length": 7.484,
+            "street": "East 9th Street"
+          }
+        },
+        {
+          "faceId": "241822269:0",
+          "buildingId": 241822269,
+          "authoringOwner": "01-E09-21-S03",
+          "geometryOwner": "01-E09-21-S03",
+          "engineFrontage": {
+            "x": -167.107,
+            "z": -144.119,
+            "rx": -0.9999982522560821,
+            "rz": 0.0018696215609923727,
+            "length": 8.023,
+            "street": "East 9th Street"
+          }
+        },
+        {
+          "faceId": "241822210:1",
+          "buildingId": 241822210,
+          "authoringOwner": "01-E09-21-S03",
+          "geometryOwner": "01-E09-21-S03",
+          "engineFrontage": {
+            "x": -175.13,
+            "z": -144.10399999999998,
+            "rx": -0.9999992302171905,
+            "rz": 0.0012407920964176724,
+            "length": 37.879,
+            "street": "East 9th Street"
+          }
+        }
+      ]
+    }
+  ],
+  "contract": {
+    "runtime": "One compiled scene and collision owner per building; never one duplicate building per frontage.",
+    "authoring": "EV-000 exact face and mass owners stay authoritative. Runtime partitions cannot authorize edits.",
+    "initialGrowth": "P01 may add only its four buildings and observed faces through a bounded adapter, initially retained with existing context. Exact catalog/face assertions must extend by that explicit set; preserve current 203 hashes unless separately assigned.",
+    "newSpatialArea": "Before another releasable group: generalize readiness over explicit manifest groups; full visual AABB, car/camera/resize coverage, predictive requests, collision ownership and request cancellation must use the same group. No blind copies of global street/prop builders.",
+    "route": "Keep current origin shift; separately extend street/void/collision/address/minimap bounds only as needed by the assigned packet. Municipal roads are not automatically drivable.",
+    "gates": "Inspect every new business; rerun affected browser routes and measured startup/frame/resource budget after growth. The 12/191 proof does not establish full-area capacity."
+  },
+  "counts": {
+    "current": 203,
+    "protectedFaces": 254,
+    "futurePackets": 9,
+    "futureFaces": 53,
+    "futureMassOwners": 52
+  }
+}

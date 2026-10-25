@@ -4,6 +4,7 @@ signal progress(value: float)
 const S = preload("res://scripts/shapes.gd")
 var data: Dictionary
 var paint = ShaderMaterial.new()
+var p02_paints: Dictionary = {}
 var glow = ShaderMaterial.new()
 var glass: StandardMaterial3D
 var storefront_paint = ShaderMaterial.new()
@@ -18,6 +19,8 @@ var sidewalk: Material
 var road_paint: Material
 var metal: Material
 var local_lights: Array[OmniLight3D] = []
+var streamer
+var resident_owners: Dictionary = {}
 
 func _ready():
 	paint.shader = preload("res://shaders/paint.gdshader")
@@ -27,6 +30,14 @@ func _ready():
 		for entry in [["brick","red_brick_03"],["pale","white_bricks"],["stone","concrete_wall_006"]]:
 			target.set_shader_parameter(entry[0]+"_color",load("res://assets/surfaces/"+entry[1]+"_diff_1k.jpg"))
 			target.set_shader_parameter(entry[0]+"_normal",load("res://assets/surfaces/"+entry[1]+"_nor_gl_1k.jpg"))
+	for id in [248142657,248142658,248142659,248142660,248142713,241822237,247852691,247852690,247852697,247852689,247852687,247852686,247852685,247852684,241822165,241822171,241822179,241822183,241822187,241822204,241822210,241822229,241822239,241822241,241822244,241822251,241822261,241822269,241822272,241822276,241822293,241822315,241822335,247852671,247852672,247852673,247852674,247852675,247852676,247852677,247852678,247852679,247852680,247852681,247852682,247852683,247852702,1063735559,248142661,248142662,248142663,248142664,248142666,248142668,248142669,248142672,248142675,248142676,248142677,248142679,248142681,248142682,248142683,248142684,248142685,248142702,248142710,248142716,248142921,248142923,248142925,248142926,248142927,248142929,248142930,248142932,248142934,248142936,248142938,248142940,248142942,248142944,248142945,248142947,248142948,248142950,248142955,248142963]:
+		var mat=paint.duplicate()
+		mat.shader=preload("res://shaders/p02_masonry.gdshader")
+		mat.set_shader_parameter("brick_pitch",Vector2(.215,.071) if id==248142657 else Vector2(.21,.067))
+		mat.set_shader_parameter("faded_brick",id==248142658)
+		mat.set_shader_parameter("painted_mural",id in [247852691,248142947,248142948,248142950,248142963,248142685,248142702,248142716])
+		mat.set_shader_parameter("streaked_stucco",id==248142713)
+		p02_paints[id]=mat
 	glass = S.material(Color(0.83,.90,.94,.32),.25)
 	glass.vertex_color_use_as_albedo = true
 	glass.transparency = BaseMaterial3D.TRANSPARENCY_ALPHA
@@ -55,43 +66,53 @@ func build() -> bool:
 	build_streets()
 	build_props()
 	batch_details()
-	var entries = data.buildings.duplicate()
-	entries.sort_custom(func(a,b): return Vector2(a.position[0],a.position[2]).length_squared()<Vector2(b.position[0],b.position[2]).length_squared())
-	for i in entries.size():
-		var b = entries[i]
-		var scene = load(b.asset)
-		if scene is PackedScene:
-			var model = scene.instantiate()
-			model.position = Vector3(b.position[0],0,b.position[2])
-			model.name = "Building_"+str(b.id)
-			add_child(model)
-			apply_materials(model)
-			building_roots.append(model)
-			add_building_collision(b)
-		else:
-			failed_assets.append(b.asset)
-		progress.emit(float(i+1)/entries.size())
-		if i%30 == 0: print("SEVENTH_BUILDINGS ",i+1,"/",entries.size())
-		if i%3 == 0: await get_tree().process_frame
-	return failed_assets.is_empty()
+	streamer = preload("res://scripts/area_streamer.gd").new()
+	streamer.world = self
+	add_child(streamer)
+	return await streamer.open(data)
 
-func apply_materials(node: Node):
+func activate_building(b: Dictionary, scene: PackedScene) -> Node3D:
+	var key = str(int(b.id))
+	assert(not resident_owners.has(key))
+	var owner = Node3D.new()
+	owner.name = "Resident_"+key
+	var model = scene.instantiate()
+	model.position = Vector3(b.position[0],0,b.position[2])
+	model.name = "Building_"+key
+	owner.add_child(model)
+	apply_materials(model,p02_paints.get(int(b.id),paint))
+	add_building_collision(b,owner)
+	# Off-tree staging keeps visual and physics activation together.
+	add_child(owner)
+	resident_owners[key] = owner
+	building_roots.append(model)
+	return owner
+
+func retire_building(key: String):
+	if not resident_owners.has(key): return
+	var owner: Node3D = resident_owners[key]
+	building_roots.erase(owner.get_node("Building_"+key))
+	resident_owners.erase(key)
+	remove_child(owner)
+	owner.queue_free()
+
+func apply_materials(node: Node, building_paint: Material):
 	if node is MeshInstance3D:
 		for i in node.mesh.get_surface_count():
 			var original = node.get_active_material(i)
 			var material_name = original.resource_name.to_lower() if original else ""
-			var chosen: Material = glass if "glass" in material_name else glow if "illuminated" in material_name else paint
+			var chosen: Material = glass if "glass" in material_name else glow if "illuminated" in material_name else building_paint
 			if "storefront09" in material_name:
 				chosen = storefront_glass if "glass" in material_name else storefront_paint
 			node.set_surface_override_material(i,chosen)
 			if chosen == glass or chosen == storefront_glass: node.cast_shadow = GeometryInstance3D.SHADOW_CASTING_SETTING_OFF
 		node.lod_bias = .7
-	for child in node.get_children(): apply_materials(child)
+	for child in node.get_children(): apply_materials(child,building_paint)
 
-func add_building_collision(b: Dictionary):
+func add_building_collision(b: Dictionary, parent: Node3D):
 	var body = StaticBody3D.new()
-	body.name = "Collision_"+str(b.id)
-	add_child(body)
+	body.name = "Collision_"+str(int(b.id))
+	parent.add_child(body)
 	var faces = PackedVector3Array()
 	var p = b.footprint
 	for i in p.size():
@@ -105,6 +126,40 @@ func add_building_collision(b: Dictionary):
 	shape.set_faces(faces)
 	collision.shape = shape
 	body.add_child(collision)
+	if int(b.id)==247852689:
+		var shelter=CollisionShape3D.new();var box=BoxShape3D.new()
+		box.size=Vector3(7.12,2.72,2.10);shelter.shape=box
+		shelter.position=Vector3(-56.80,1.49,-158.57);body.add_child(shelter)
+
+	if int(b.id)==247852687:
+		var locker=CollisionShape3D.new();var box=BoxShape3D.new()
+		box.size=Vector3(3.40,1.10,.71);locker.shape=box
+		locker.position=Vector3(-64.25,.72,-161.42);body.add_child(locker)
+
+	# Observed new curb dining structures travel with their owning model.
+	if int(b.id) in [247852672,241822210]:
+		var shelter = CollisionShape3D.new()
+		var box = BoxShape3D.new()
+		box.size = Vector3(3.10,2.72,1.65) if int(b.id)==247852672 else Vector3(35.42,2.72,1.65)
+		shelter.shape = box
+		shelter.position = Vector3(-176.43,1.45,-158.87) if int(b.id)==247852672 else Vector3(-193.79,1.45,-147.52)
+		body.add_child(shelter)
+
+	if int(b.id) in [248142676,248142685]:
+		var shelter=CollisionShape3D.new();var shelter_box=BoxShape3D.new()
+		shelter_box.size=Vector3(11.07,2.60,1.48) if int(b.id)==248142676 else Vector3(3.02,2.60,1.48)
+		shelter.shape=shelter_box
+		shelter.position=Vector3(116.24,1.43,-148.45) if int(b.id)==248142676 else Vector3(169.07,1.43,-148.43)
+		body.add_child(shelter)
+
+	for extra in data.get("auxiliaryFootprints",[]):
+		if int(extra.owner)!=int(b.id): continue
+		var shape_node=CollisionShape3D.new()
+		var shape_box=BoxShape3D.new()
+		shape_box.size=Vector3(extra.box[2]-extra.box[0],extra.height,extra.box[3]-extra.box[1])
+		shape_node.shape=shape_box
+		shape_node.position=Vector3((extra.box[0]+extra.box[2])/2,extra.height/2,(extra.box[1]+extra.box[3])/2)
+		body.add_child(shape_node)
 
 func street_void_rectangles() -> Array:
 	# The exporter owns the frontage-to-map conversion. Only its explicit
@@ -175,32 +230,54 @@ func build_streets():
 	# otherwise it caps imported well floors with an invented dark rectangle.
 	rectilinear_plane_with_voids(-352,338,-158.5,106.5,-.015,.025,asphalt,voids,false)
 	add_ground_void_collision_envelopes(voids)
+	# Full Second–First Ninth corridor; other avenue ends remain closed.
+	rectilinear_plane_with_voids(-217,211,-171,-158.5,-.22,.4,asphalt,voids,true)
+	rectilinear_plane_with_voids(-217,211,-171,-158.5,-.015,.025,asphalt,voids,false)
+	var sidewalk_cuts=voids.duplicate()
+	sidewalk_cuts.append({"x0":-217.0,"x1":-10.7,"z0":-159.65,"z1":-149.75})
+	sidewalk_cuts.append({"x0":10.7,"x1":211.0,"z0":-159.65,"z1":-149.75})
+	for xs in [[-217.0,-10.75],[10.75,211.0]]:
+		rectilinear_plane_with_voids(xs[0],xs[1],-171,-165,.07,.14,sidewalk,voids,true)
 	# Original mapped road centerlines and widths; the sidewalk fills the intervening blocks.
 	var x_ranges = [[-350.0,-239.75],[-218.25,-10.75],[10.75,204.7],[223.3,335.0]]
 	var z_ranges = [[-165.0,-82.85],[-72.95,-4.95],[4.95,108.0]]
 	var curb = S.material(Color("c8bdab"))
+	# P.S.122's assigned First Avenue return extends beyond the road cap.
+	# Support only that frontage, preserving the real wells and the -166 vehicle boundary.
+	rectilinear_plane_with_voids(10.75,17.0,-181.65,-171.0,.07,.14,sidewalk,voids,true)
+	S.box(geometry,Vector3(10.75,.112,-176.325),Vector3(.18,.105,10.65),curb)
+	for z in [-159.65,-149.75]:
+		S.box(geometry,Vector3(-113.875,.112,z),Vector3(206.25,.105,.18),curb)
+		S.box(geometry,Vector3(107.725,.112,z),Vector3(193.95,.105,.18),curb)
 	for xs in x_ranges:
 		for zs in z_ranges:
 			var center = Vector3((xs[0]+xs[1])*.5,.07,(zs[0]+zs[1])*.5)
-			rectilinear_plane_with_voids(xs[0],xs[1],zs[0],zs[1],.07,.14,sidewalk,voids,true)
+			rectilinear_plane_with_voids(xs[0],xs[1],zs[0],zs[1],.07,.14,sidewalk,sidewalk_cuts,true)
 			for x in xs:
-				S.box(geometry,Vector3(x,.112,center.z),Vector3(.18,.105,zs[1]-zs[0]),curb)
+				if x in [-10.75,10.75,204.7] and zs[0]==-165.0:
+					for interval in [[-171.0,-159.65],[-149.75,zs[1]]]:
+						S.box(geometry,Vector3(x,.112,(interval[0]+interval[1])*.5),Vector3(.18,.105,interval[1]-interval[0]),curb)
+				else:S.box(geometry,Vector3(x,.112,center.z),Vector3(.18,.105,zs[1]-zs[0]),curb)
 			for z in zs:
 				S.box(geometry,Vector3(center.x,.112,z),Vector3(xs[1]-xs[0],.105,.18),curb)
 	var joint = S.material(Color("989587"))
+	for z in [-173.0,-176.0,-179.0]:
+		S.box(geometry,Vector3(12.575,.147,z),Vector3(3.65,.006,.026),joint)
 	for x in [0.0,-229.0,214.0]:
-		for z in range(-119,63,3):
-			if abs(z)<8 or abs(z+77.9)<8: continue
+		var north_terminal = -166 if x==0.0 else -119
+		for z in range(-164 if x==0.0 else -119,63,3):
+			if abs(z)<8 or abs(z+77.9)<8 or (x==0.0 and abs(z+154.7)<7): continue
 			for side in [-1,1]:
 				S.box(geometry,Vector3(x+side*12.7,.147,z),Vector3(3.65,.006,.026),joint)
-		for z in range(-112,56,6):
-			if abs(z)<12 or abs(z+77.9)<12: continue
+		for z in range(-160 if x==0.0 else -112,56,6):
+			if abs(z)<12 or abs(z+77.9)<12 or (x==0.0 and abs(z+154.7)<9): continue
 			for line_x in [-3.45,3.45]:
 				S.box(geometry,Vector3(x+line_x,.005,z),Vector3(.085,.012,2.4),road_paint)
 			S.box(geometry,Vector3(x-7.0,.006,z),Vector3(.12,.012,4.0),road_paint)
 		# Muted protected cycleway; continuous route interrupts at crossings.
 		var cycle = S.material(Color("708e85"))
-		for interval in [[-119.0,-88.0],[-67.0,-11.0],[11.0,56.0]]:
+		var cycle_intervals=[[-166.0,-161.0],[-148.0,-88.0],[-67.0,-11.0],[11.0,56.0]] if x==0.0 else [[float(north_terminal),-88.0],[-67.0,-11.0],[11.0,56.0]]
+		for interval in cycle_intervals:
 			if x==214.0: continue
 			S.box(geometry,Vector3(x-9.25,.003,(interval[0]+interval[1])/2),Vector3(2.35,.008,interval[1]-interval[0]),cycle)
 	for z in [0.0,-77.9]:
@@ -217,21 +294,47 @@ func build_streets():
 	# Visible terminal barriers and solid limits make the small map deliberate.
 	var barrier = S.material(Color("8faaa0"))
 	for x in [0.0,-229.0,214.0]:
-		for z in [-119.0,57.0]:
+		for z in [-166.0 if x==0.0 else -119.0,57.0]:
 			S.solid_box(self,Vector3(x,1.0,z),Vector3(21.5,2.0,.4),null)
 			for sx in range(-9,10,3):
 				S.box(geometry,Vector3(x+sx,.65,z),Vector3(2.5,.23,.20),barrier)
 				for dx in [-.95,.95]: S.box(geometry,Vector3(x+sx+dx,.34,z),Vector3(.11,.70,.32),metal)
-			boundary_sign(Vector3(x,1.40,z),"SLOW STREETS",PI if z<0 else 0.0)
+			# P01's new north terminal faces the approaching driver.
+			boundary_sign(Vector3(x,1.40,z),"SLOW STREETS",0.0 if x==0.0 and z<0 else PI if z<0 else 0.0)
 	for z in [0.0,-77.9]:
 		for x in ([-306.0,289.0] if z==0.0 else [-269.0,239.0]):
 			S.solid_box(self,Vector3(x,1.0,z),Vector3(.4,2.0,9.9),null)
 			for sz in [-3.0,0.0,3.0]:
 				S.box(geometry,Vector3(x,.65,z+sz),Vector3(.20,.23,2.5),barrier)
 				for dz in [-.95,.95]: S.box(geometry,Vector3(x,.34,z+sz+dz),Vector3(.32,.70,.11),metal)
+	# Ninth terminal ends at the Second Avenue approach; Second stays closed.
+	for x in [-213.0,207.0]:
+		S.solid_box(self,Vector3(x,1,-154.7),Vector3(.4,2,9.9),null)
+		for z in [-157.7,-154.7,-151.7]:
+			S.box(geometry,Vector3(x,.65,z),Vector3(.20,.23,2.5),barrier)
+			for dz in [-.95,.95]:S.box(geometry,Vector3(x,.34,z+dz),Vector3(.32,.70,.11),metal)
+		boundary_sign(Vector3(x,1.4,-154.7),"SLOW STREETS",PI/2 if x<0 else -PI/2)
+	for side in [-1,1]:
+		for mark in range(-7,8):S.box(geometry,Vector3(mark*1.12,.008,-154.7+side*7.2),Vector3(.53,.015,2.6),road_paint)
+	for mark in range(-3,4):
+		for x in [-12.7,12.7]:S.box(geometry,Vector3(x,.01,-154.7+mark*1.17),Vector3(2.75,.014,.56),road_paint)
+	for x in range(23,203,12):S.box(geometry,Vector3(x,.006,-152.7),Vector3(4,.012,.085),road_paint)
+	for x in range(-22,-211,-12):S.box(geometry,Vector3(x,.006,-152.7),Vector3(4,.012,.085),road_paint)
 	# World limits also catch attempts to drive around the visible road ends.
 	for x in [-317,300]: S.solid_box(self,Vector3(x,10,-31),Vector3(1,30,190),null)
-	for z in [-130,67]: S.solid_box(self,Vector3(-8,10,z),Vector3(620,30,1),null)
+	S.solid_box(self,Vector3(-8,10,67),Vector3(620,30,1),null)
+	# Keep all previous outer limits, except the explicit Ninth block L-shaped envelope.
+	for interval in [[-318.0,-17.0],[17.0,302.0]]:
+		S.solid_box(self,Vector3((interval[0]+interval[1])*.5,10,-130),Vector3(interval[1]-interval[0],30,1),null)
+	S.solid_box(self,Vector3(0,10,-171),Vector3(34,30,1),null)
+	for interval in [[-171.0,-164.0],[-144.3,-130.0]]:
+		S.solid_box(self,Vector3(17,10,(interval[0]+interval[1])*.5),Vector3(1,30,interval[1]-interval[0]),null)
+	for z in [-164.0,-144.3]:S.solid_box(self,Vector3(114,10,z),Vector3(194,30,1),null)
+	S.solid_box(self,Vector3(211,10,-154.15),Vector3(1,30,19.7),null)
+	for interval in [[-171.0,-164.0],[-144.3,-130.0]]:
+		S.solid_box(self,Vector3(-17,10,(interval[0]+interval[1])*.5),Vector3(1,30,interval[1]-interval[0]),null)
+	for z in [-164.0,-144.3]:S.solid_box(self,Vector3(-117,10,z),Vector3(200,30,1),null)
+	S.solid_box(self,Vector3(-217,10,-154.15),Vector3(1,30,19.7),null)
 	# St. Marks now connects to Avenue A; its short eastern context ends here.
 	S.solid_box(self,Vector3(245,10,-100),Vector3(1,30,62),null)
 
@@ -303,6 +406,13 @@ func build_props():
 				S.box(geometry,Vector3(px-side*.7,7.8,z),Vector3(1.5,.085,.085),metal)
 				S.box(geometry,Vector3(px-side*1.4,7.69,z),Vector3(.48,.12,.25),bulb)
 	preload("res://scripts/first_stmarks_detail.gd").new().dress(geometry,details)
+	preload("res://scripts/p01_detail.gd").new().dress(geometry,details)
+	preload("res://scripts/p02_detail.gd").new().dress(geometry,details)
+	preload("res://scripts/p03_detail.gd").new().dress(geometry,details)
+	preload("res://scripts/n01a_detail.gd").new().dress(geometry,details)
+	preload("res://scripts/n01b_detail.gd").new().dress(geometry,details)
+	preload("res://scripts/e09_block_detail.gd").new().dress(geometry,details)
+	preload("res://scripts/e09_east_detail.gd").new().dress(geometry,details)
 	var manhole = S.material(Color("555965"),.60)
 	for p in [Vector3(-4,.008,1),Vector3(3,.008,-28),Vector3(-36,.008,-1),Vector3(-145,.008,-78),Vector3(-229,.008,-32)]:
 		S.cylinder(geometry,p,.47,.02,manhole,24)
@@ -538,6 +648,9 @@ func batch_details():
 func set_weather(dusk: float, wet: float, reflection: Color):
 	storefront_paint.set_shader_parameter("wetness",wet)
 	paint.set_shader_parameter("dusk",dusk)
+	for mat in p02_paints.values():
+		mat.set_shader_parameter("dusk",dusk)
+		mat.set_shader_parameter("window_sky",Color("719ab2").lerp(reflection,.35+wet*.3))
 	paint.set_shader_parameter("window_sky",Color("719ab2").lerp(reflection,.35+wet*.3))
 	glow.set_shader_parameter("dusk",dusk)
 	asphalt.set_shader_parameter("wetness",wet)

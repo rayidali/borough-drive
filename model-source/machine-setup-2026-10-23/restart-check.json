@@ -1,0 +1,64 @@
+{
+  "schema": 1,
+  "recorded": "2026-10-23T20:25:15.092125+00:00",
+  "objective": "Close documentation before user restarts VS Code and Terminal on the new laptop.",
+  "scope": "Markdown updates plus this restart evidence record; no runtime/model/authoring changes, commits, pushes, deployment or next-block implementation.",
+  "head": "a2a90a3e08540e15f40e0ede0f8af14921f54675",
+  "localModels": 295,
+  "lastVerifiedRemoteAndLive": "main a2a90a3; live manifest matches committed 203-model revision 09; checked during restoration, not re-fetched for this documentation close.",
+  "freshLoginShell": {
+    "node": "22.23.4",
+    "npm": "10.9.9",
+    "nodePath": "/opt/homebrew/opt/node@22/bin/node",
+    "githubCli": "2.103.1",
+    "githubPath": "/opt/homebrew/bin/gh",
+    "homebrew": "7.0.10",
+    "githubAuthentication": "rayidali, Keychain, HTTPS; confirmed in fresh login shell",
+    "projectLocalAlternativeNode": "24.22.1 / npm 11.19.1; still installed and previously verified"
+  },
+  "checks": {
+    "freshShellNpmVerify": "passed",
+    "freshShellSeventhVerify": "passed, 314 runtime files / 157 source hashes / 295 models",
+    "freshShellWorkflowVerify": "passed, 672 facade sections / 1348 items / zero API calls",
+    "toolAndArchiveExistence": "passed",
+    "inheritedStreetViewBrowserCheck": "passed in earlier follow-up; no new panorama opened for this closing pass",
+    "baselineFiles": 6509,
+    "changedFilesAreMarkdownOnly": true,
+    "relativeMarkdownFileLinks": {
+      "checked": 825,
+      "missing": 0
+    },
+    "restartAnchor": "present",
+    "gitDiffCheck": "passed"
+  },
+  "modifiedMarkdown": [
+    "AGENTS.md",
+    "CODEX-HANDOFF.md",
+    "CONTRIBUTING.md",
+    "README.md",
+    "SESSION-LOG.md",
+    "START-HERE.md",
+    "engine/first-seventh/README.md",
+    "model-source/BLOCK-WORKFLOW.md",
+    "model-source/CURRENT-STOREFRONTS.md",
+    "model-source/EAST-VILLAGE-E09-EAST.md",
+    "model-source/EAST-VILLAGE-FIRST-SESSIONS.md",
+    "model-source/EAST-VILLAGE-SESSION-PLAN.md",
+    "model-source/ENGINE-DIRECTION.md",
+    "model-source/NEIGHBORHOOD-NOTES.md",
+    "model-source/skills/reconstruct-street/SKILL.md",
+    "model-source/skills/reconstruct-street/references/repository-adapter.md",
+    "model-source/skills/reconstruct-street/references/work-packet.md"
+  ],
+  "restart": {
+    "project": "/Users/rayidali/Desktop/borough-drive",
+    "preview": "npm run dev -- 5181",
+    "url": "http://127.0.0.1:5181/",
+    "python": "source .tools/python/bin/activate",
+    "browserInstructions": "START-HERE.md#after-restarting-vs-code-or-terminal",
+    "persistent": "Installed tools, Keychain login, saved source/models, .godot and .tools directories, documentation and evidence",
+    "processes": "Preview and browser-control processes may need restarting; old process IDs are unnecessary."
+  },
+  "next": "Proposed only: 01-E10-21, Tenth Second\u2013First, both sides; exact protected-core ownership preparation when assigned.",
+  "publication": "Not requested or performed; expansion and documentation remain uncommitted."
+}

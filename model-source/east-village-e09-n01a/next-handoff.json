@@ -1,0 +1,38 @@
+{
+  "id": "01-E09-21-N01B",
+  "state": "plan only; next user instruction starts implementation",
+  "parent": "01-E09-21",
+  "splitParent": "01-E09-21-N01",
+  "faceIds": [
+    "247852687:0",
+    "247852686:0",
+    "247852685:0",
+    "247852684:0"
+  ],
+  "mappedLabels": [
+    "339 East Ninth",
+    "337 East Ninth",
+    "335 East Ninth",
+    "333 East Ninth"
+  ],
+  "sourceStatus": "339 seam inspected read-only in N01A; no complete fresh per-business evidence for this packet",
+  "protectedModels": 217,
+  "preconditions": [
+    "Read N01A report, current handoff and exact local build before edits",
+    "Preserve all preceding dirty work, 217 GLB/SCN models and both private screenshots",
+    "Inspect each business, facade and neighbor junction; do not treat mapped labels as current tenants",
+    "Derive only necessary bounded road adapter from assigned footprints; keep other avenue ends and east Ninth closed",
+    "147 First-facing and 148 Ninth returns remain unassigned",
+    "Complete served visual repairs, routes/boundaries/cameras/startup and checkpoint"
+  ],
+  "currentRoadBounds": {
+    "firstTerminalZ": -166,
+    "firstOuterZ": -171,
+    "ninthWestTerminalX": -69,
+    "ninthWestOuterX": -73,
+    "ninthNorthOuterZ": -164,
+    "eastNinthClosedAtCurbX": 10.75,
+    "otherAvenueTerminalZ": -119
+  },
+  "publication": "not requested"
+}

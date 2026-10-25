@@ -1,0 +1,54 @@
+{
+  "scope": "Final candidate five cold/five warm on same device/browser. EV-002 comparison is saved earlier same-device evidence, not a fresh alternating control. Warm now uses actual immutable caching; do not compare transfer policy as identical.",
+  "pack": {
+    "bytes": 7982220,
+    "sha256": "aee35948c9ea850031aa959d2cc561d40cccef819680cf5935943c57660b33da",
+    "brotliBytes": 7386163
+  },
+  "groups": [
+    {
+      "cacheDisabled": true,
+      "samplesMs": [
+        6178.5,
+        6208.699999988079,
+        6269,
+        6290.699999988079,
+        6481.199999988079
+      ],
+      "medianMs": 6269,
+      "p95Ms": 6481.199999988079,
+      "encodedBytes": [
+        142983219,
+        142983219,
+        142983219,
+        142983219,
+        142983219
+      ],
+      "priorEV002MedianMs": 6192.700000047684,
+      "priorEV002p95Ms": 6304.699999988079,
+      "withinPriorAllowance": true
+    },
+    {
+      "cacheDisabled": false,
+      "samplesMs": [
+        6064.400000035763,
+        6589.800000011921,
+        6615.100000023842,
+        6771.5,
+        7160.699999988079
+      ],
+      "medianMs": 6615.100000023842,
+      "p95Ms": 7160.699999988079,
+      "encodedBytes": [
+        48223485,
+        48223485,
+        48223485,
+        48223485,
+        48223485
+      ],
+      "priorEV002MedianMs": 6862.400000035763,
+      "priorEV002p95Ms": 7622.700000047684,
+      "withinPriorAllowance": true
+    }
+  ]
+}

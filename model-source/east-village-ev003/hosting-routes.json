@@ -1,0 +1,94 @@
+{
+  "configSha256": "38993cd2fd8ed84b9d1f52abffa562e9a09a8c4f74c993fa08719ce498fd1a3d",
+  "compiler": "Installed Vercel CLI @vercel/routing-utils",
+  "routes": [
+    {
+      "src": "^/$",
+      "headers": {
+        "Cache-Control": "public, max-age=0, must-revalidate"
+      },
+      "continue": true
+    },
+    {
+      "src": "^/index\\.html$",
+      "headers": {
+        "Cache-Control": "public, max-age=0, must-revalidate"
+      },
+      "continue": true
+    },
+    {
+      "src": "^/legacy\\.html$",
+      "headers": {
+        "Cache-Control": "public, max-age=0, must-revalidate"
+      },
+      "continue": true
+    },
+    {
+      "src": "^/seventh$",
+      "headers": {
+        "Cache-Control": "public, max-age=0, must-revalidate"
+      },
+      "continue": true
+    },
+    {
+      "src": "^/seventh/$",
+      "headers": {
+        "Cache-Control": "public, max-age=0, must-revalidate"
+      },
+      "continue": true
+    },
+    {
+      "src": "^/seventh(?:/([^/]+))$",
+      "headers": {
+        "Cache-Control": "public, max-age=0, must-revalidate"
+      },
+      "continue": true
+    },
+    {
+      "src": "^/seventh/areas/assets(?:/([a-f0-9]{64}))\\.scn$",
+      "headers": {
+        "Cache-Control": "public, max-age=31536000, immutable",
+        "Content-Type": "application/octet-stream",
+        "X-Content-Type-Options": "nosniff"
+      },
+      "continue": true
+    },
+    {
+      "src": "^/seventh/areas/manifest-([a-f0-9]{64})\\.json$",
+      "headers": {
+        "Cache-Control": "public, max-age=31536000, immutable",
+        "Content-Type": "application/json",
+        "X-Content-Type-Options": "nosniff"
+      },
+      "continue": true
+    },
+    {
+      "src": "^/seventh/index\\.pck$",
+      "headers": {
+        "Content-Type": "application/octet-stream"
+      },
+      "continue": true
+    },
+    {
+      "src": "^/seventh/index\\.wasm$",
+      "headers": {
+        "Content-Type": "application/wasm"
+      },
+      "continue": true
+    },
+    {
+      "handle": "filesystem"
+    },
+    {
+      "src": "^/$",
+      "dest": "/seventh/index.html",
+      "check": true
+    },
+    {
+      "src": "^/index\\.html$",
+      "dest": "/legacy.html",
+      "check": true
+    }
+  ],
+  "error": null
+}

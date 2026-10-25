@@ -52,3 +52,25 @@ Review **each business**, even where multiple shops share one facade. Required r
 | Is the result complete for the assigned scope? | Every business and its required feature rows has a recorded outcome. Known defining omissions prevent a storefront-detail pass, even when building counts, exports and driving checks pass. |
 
 Return an explicit discrepancy list: source expectation → actual game result → feature/record to repair → remaining uncertainty. Continue actionable repairs within the authorized task and budget. Isolate evidence/component blockers so other assigned work can proceed; do not declare success after a fixed repair count. No invented accuracy percentage or automatic “100× achieved” claim. User endorsement, photographic calibration, runtime correctness and storefront-detail review remain separate outcomes.
+
+
+### P01 review lesson
+
+Compare the complete sign and entry composition, not just whether each component exists. The first P01 render needed a larger Spirals wordmark, warmer burger-shop paint, an actually open glass leaf with attached hardware, distinct paper/blue menu boards and corrected two-sided pub signage. Source-obscured pavement does not justify adding a generic A-frame; remove invented props. Inspect window end walls and both obliques so shallow displays do not expose the world behind the building. Keep dated sources separate when an older elevation has a superseded business. These are review examples, not templates for the next shops.
+
+
+## Corner and close-view lessons from P03
+
+Review every business return as its own composition even when it shares a name: separate fascia lengths, shade construction, window divisions, seating and artwork can differ around one corner. A single wraparound business does not authorize identical copies of its primary face. Use one compatible shallow interior shell where storefront glazing turns the corner, and inspect open doors from both sides. Keep observed residential entries independent, including the actual jamb/transom number position and clear step path.
+
+At readable close range, check that letters sit ahead of shade fabric and trim, display objects rest in plausible planes, and vents/rails do not erase murals or entrances. Record fine artwork/letterform approximation instead of claiming exact reproduction. Unique image names and overlapping whole-ground crops are mandatory when multiple business records share a face; a successful capture count must not hide overwritten views. After the first three pilots, ordinary 3–5-face packets leave more room for this review; split larger planning groups before authoring and retain every remaining face.
+
+## Ninth Street access and material review
+
+Shared entrance helpers can introduce unobserved brick reveals, a railing across a real approach, or the wrong grille weave. Compare the complete threshold, step direction, landing, side walls and clear passage with the dated source. Correct these per facade; don't change protected neighbors' defaults. Surface overlays on curved cloth must follow the cloth's subdivisions; a single flat patch can sink behind the canopy despite correct material and winding. Inspect the actual visible fade, seams and lettering from both road and sidewalk.
+
+When a mapped height contradicts clearly observed neighboring rooflines, retain the original source value and record any bounded model-height correction as an estimate with supporting views. Do not turn it into a surveyed measurement or invent an unseen rear roof. Record unresolved tenant lettering explicitly while still reconstructing its visible frontage; a later lease does not identify an earlier photographed shop.
+
+## October 15 observed repair lessons
+
+An illuminated sign can be correctly named yet partly hidden inside its fascia molding. Compare front and both close obliques at readable scale and separate the physical layers. Curved and sloping awnings need both illustration boundaries and glyphs projected onto the cloth. White-painted brick needs paint-level contrast, not exaggerated random masonry color. Preserve the observed difference between upper ornamental balcony spindles and a plain lowest rail. For shops behind sidewalk dining frames, capture inside the enclosure as well as from the road. Keep the frame in the game; correct an obscured comparison camera instead. The [Ninth east report](../../../EAST-VILLAGE-E09-EAST.md) records the actual repairs and dated-source limits.

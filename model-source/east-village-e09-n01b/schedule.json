@@ -1,0 +1,1835 @@
+{
+  "schema": 1,
+  "id": "01-E09-21-N01B",
+  "parent": "01-E09-21",
+  "splitParent": "01-E09-21-N01",
+  "revision": "N01B-01",
+  "scopeFaces": [
+    "247852687:0",
+    "247852686:0",
+    "247852685:0",
+    "247852684:0"
+  ],
+  "elevations": [
+    {
+      "faceId": "247852687:0",
+      "buildingId": 247852687,
+      "frontageIndex": 0,
+      "address": "339 East Ninth Street",
+      "sourceFace": {
+        "x": -68.402,
+        "z": 65.411,
+        "rx": 0.999997118071267,
+        "rz": -0.0024008017744957706,
+        "length": 7.914,
+        "street": "East 9th Street"
+      },
+      "buildingHeight": 16.7,
+      "sourceHeight": 16.7,
+      "architecture": {
+        "wall": "nb residential brick",
+        "windows": [
+          {
+            "at": 0.15,
+            "width": 0.1516300227445034,
+            "bottom": 2.58,
+            "height": 1.94,
+            "frame": "nb dark sash",
+            "trim": "nb cream band",
+            "hood": "none",
+            "rails": [
+              0.49
+            ],
+            "ac": false,
+            "grille": false
+          },
+          {
+            "at": 0.42,
+            "width": 0.118776851149861,
+            "bottom": 2.58,
+            "height": 1.94,
+            "frame": "nb dark sash",
+            "trim": "nb cream band",
+            "hood": "none",
+            "rails": [
+              0.49
+            ],
+            "ac": true,
+            "grille": false
+          },
+          {
+            "at": 0.58,
+            "width": 0.118776851149861,
+            "bottom": 2.58,
+            "height": 1.94,
+            "frame": "nb dark sash",
+            "trim": "nb cream band",
+            "hood": "none",
+            "rails": [
+              0.49
+            ],
+            "ac": true,
+            "grille": false
+          },
+          {
+            "at": 0.84,
+            "width": 0.1516300227445034,
+            "bottom": 2.58,
+            "height": 1.94,
+            "frame": "nb dark sash",
+            "trim": "nb cream band",
+            "hood": "none",
+            "rails": [
+              0.49
+            ],
+            "ac": false,
+            "grille": true
+          },
+          {
+            "at": 0.15,
+            "width": 0.1516300227445034,
+            "bottom": 5.24,
+            "height": 1.91,
+            "frame": "nb dark sash",
+            "trim": "nb cream band",
+            "hood": "none",
+            "rails": [
+              0.49
+            ],
+            "ac": false,
+            "grille": false
+          },
+          {
+            "at": 0.42,
+            "width": 0.118776851149861,
+            "bottom": 5.24,
+            "height": 1.91,
+            "frame": "nb dark sash",
+            "trim": "nb cream band",
+            "hood": "none",
+            "rails": [
+              0.49
+            ],
+            "ac": false,
+            "grille": false
+          },
+          {
+            "at": 0.58,
+            "width": 0.118776851149861,
+            "bottom": 5.24,
+            "height": 1.91,
+            "frame": "nb dark sash",
+            "trim": "nb cream band",
+            "hood": "none",
+            "rails": [
+              0.49
+            ],
+            "ac": false,
+            "grille": false
+          },
+          {
+            "at": 0.84,
+            "width": 0.1516300227445034,
+            "bottom": 5.24,
+            "height": 1.91,
+            "frame": "nb dark sash",
+            "trim": "nb cream band",
+            "hood": "none",
+            "rails": [
+              0.49
+            ],
+            "ac": true,
+            "grille": false
+          },
+          {
+            "at": 0.15,
+            "width": 0.1516300227445034,
+            "bottom": 8.02,
+            "height": 1.91,
+            "frame": "nb dark sash",
+            "trim": "nb cream band",
+            "hood": "none",
+            "rails": [
+              0.49
+            ],
+            "ac": true,
+            "grille": false
+          },
+          {
+            "at": 0.42,
+            "width": 0.118776851149861,
+            "bottom": 8.02,
+            "height": 1.91,
+            "frame": "nb dark sash",
+            "trim": "nb cream band",
+            "hood": "none",
+            "rails": [
+              0.49
+            ],
+            "ac": false,
+            "grille": false
+          },
+          {
+            "at": 0.58,
+            "width": 0.118776851149861,
+            "bottom": 8.02,
+            "height": 1.91,
+            "frame": "nb dark sash",
+            "trim": "nb cream band",
+            "hood": "none",
+            "rails": [
+              0.49
+            ],
+            "ac": false,
+            "grille": false
+          },
+          {
+            "at": 0.84,
+            "width": 0.1516300227445034,
+            "bottom": 8.02,
+            "height": 1.91,
+            "frame": "nb dark sash",
+            "trim": "nb cream band",
+            "hood": "none",
+            "rails": [
+              0.49
+            ],
+            "ac": true,
+            "grille": false
+          },
+          {
+            "at": 0.15,
+            "width": 0.1516300227445034,
+            "bottom": 10.8,
+            "height": 1.91,
+            "frame": "nb dark sash",
+            "trim": "nb cream band",
+            "hood": "none",
+            "rails": [
+              0.49
+            ],
+            "ac": true,
+            "grille": false
+          },
+          {
+            "at": 0.42,
+            "width": 0.118776851149861,
+            "bottom": 10.8,
+            "height": 1.91,
+            "frame": "nb dark sash",
+            "trim": "nb cream band",
+            "hood": "none",
+            "rails": [
+              0.49
+            ],
+            "ac": false,
+            "grille": false
+          },
+          {
+            "at": 0.58,
+            "width": 0.118776851149861,
+            "bottom": 10.8,
+            "height": 1.91,
+            "frame": "nb dark sash",
+            "trim": "nb cream band",
+            "hood": "none",
+            "rails": [
+              0.49
+            ],
+            "ac": false,
+            "grille": false
+          },
+          {
+            "at": 0.84,
+            "width": 0.1516300227445034,
+            "bottom": 10.8,
+            "height": 1.91,
+            "frame": "nb dark sash",
+            "trim": "nb cream band",
+            "hood": "none",
+            "rails": [
+              0.49
+            ],
+            "ac": false,
+            "grille": false
+          },
+          {
+            "at": 0.15,
+            "width": 0.1516300227445034,
+            "bottom": 13.58,
+            "height": 1.91,
+            "frame": "nb dark sash",
+            "trim": "nb cream band",
+            "hood": "none",
+            "rails": [
+              0.49
+            ],
+            "ac": false,
+            "grille": false
+          },
+          {
+            "at": 0.42,
+            "width": 0.118776851149861,
+            "bottom": 13.58,
+            "height": 1.91,
+            "frame": "nb dark sash",
+            "trim": "nb cream band",
+            "hood": "none",
+            "rails": [
+              0.49
+            ],
+            "ac": false,
+            "grille": false
+          },
+          {
+            "at": 0.58,
+            "width": 0.118776851149861,
+            "bottom": 13.58,
+            "height": 1.91,
+            "frame": "nb dark sash",
+            "trim": "nb cream band",
+            "hood": "none",
+            "rails": [
+              0.49
+            ],
+            "ac": false,
+            "grille": false
+          },
+          {
+            "at": 0.84,
+            "width": 0.1516300227445034,
+            "bottom": 13.58,
+            "height": 1.91,
+            "frame": "nb dark sash",
+            "trim": "nb cream band",
+            "hood": "none",
+            "rails": [
+              0.49
+            ],
+            "ac": true,
+            "grille": false
+          },
+          {
+            "at": 0.15,
+            "width": 0.14278493808440737,
+            "bottom": -0.27,
+            "height": 1.59,
+            "frame": "nb dark sash",
+            "trim": "nb residential brick",
+            "hood": "none",
+            "rails": [
+              0.49
+            ],
+            "grille": true
+          },
+          {
+            "at": 0.49,
+            "width": 0.14278493808440737,
+            "bottom": -0.27,
+            "height": 1.59,
+            "frame": "nb dark sash",
+            "trim": "nb residential brick",
+            "hood": "none",
+            "rails": [
+              0.49
+            ],
+            "grille": true
+          }
+        ],
+        "doors": [
+          {
+            "at": 0.84,
+            "width": 0.12762193580995704,
+            "bottom": -0.22,
+            "top": 1.81,
+            "leafTop": 1.75,
+            "material": "nb ochre door",
+            "trim": "nb ochre door",
+            "recess": 0.24,
+            "leaves": 1,
+            "hardware": "store09 aged brass",
+            "panels": [
+              {
+                "y": 0.73,
+                "height": 0.28,
+                "width": 0.65,
+                "glass": true
+              }
+            ]
+          }
+        ],
+        "returnShops": [],
+        "observedGround": {
+          "replaceWindows": false,
+          "replaceDoors": false,
+          "basementAreaways": [
+            {
+              "at": 0.49,
+              "width": 0.96,
+              "depth": 0.95,
+              "depthBelow": 0.52
+            }
+          ]
+        },
+        "n01b": true,
+        "observation": {
+          "sources": [
+            "339-all",
+            "339-upper",
+            "339-access",
+            "337-oblique"
+          ],
+          "facts": [
+            "Residential facade, no shop. Red-brown brick with broad continuous cream lintel bands and thin sill bands; four bays on four upper rows plus four parlor openings (middle pair close together). Rust-brown open iron escape on four upper levels. Two lower barred openings, right ochre door numbered 339, round caged lamps, low iron well fence and four-lid black refuse enclosure.",
+            "Plain raised brick parapet without projecting cornice. 339 touches 341 and 337; no alley. Outer-bay rectangular vents beneath windows.",
+            "Right ochre single leaf has square upper glass, 339 below glass and faint 339 at lintel; two round caged lamps above each side, intercom/camera at right. Low barred west/central openings extend into well. Four adjacent sloped lids on black refuse storage enclosure; access lane at right stays clear.",
+            "Four upper rows of four sash windows, taupe/brown painted brick and simple cream trapezoid heads; black four-level escape with fine scrolls, dark bracketed cornice with central roof ladder notch. Cornice visibly below 339 and 335. Mapped height 18.93 contradicts this front silhouette; estimated front mass 15.9m against mapped neighbors, not survey measurement. No evidence for assigning 18.93 to a guessed taller rear volume."
+          ],
+          "unknown": [
+            "Primary exterior state is September 2024; November 2017 supplements occluded access only, not October 2026 occupancy survey.",
+            "333 west shop tenant/sign script remains unresolved; dated observed physical shop is fully included.",
+            "Dimensions, exact branded lettering, ornament relief and fine display artwork are visual approximations. Hidden roofs/rears and deep interiors are unobserved.",
+            "337 facade height estimate 15.9m replaces conflicting 18.93m engine-only mass; municipal source remains unchanged. No guessed higher rear roof is added."
+          ]
+        }
+      }
+    },
+    {
+      "faceId": "247852686:0",
+      "buildingId": 247852686,
+      "frontageIndex": 0,
+      "address": "337 East Ninth Street",
+      "sourceFace": {
+        "x": -75.942,
+        "z": 65.425,
+        "rx": 0.9999982762183193,
+        "rz": -0.0018567607250732463,
+        "length": 7.54,
+        "street": "East 9th Street"
+      },
+      "buildingHeight": 15.9,
+      "sourceHeight": 18.93,
+      "architecture": {
+        "wall": "nb taupe brick",
+        "windows": [
+          {
+            "at": 0.115,
+            "width": 0.13527851458885942,
+            "bottom": 3.65,
+            "height": 2.08,
+            "frame": "nb dark sash",
+            "trim": "nb cream band",
+            "hood": "none",
+            "rails": [
+              0.49
+            ],
+            "nbHead": "flat",
+            "ac": false
+          },
+          {
+            "at": 0.37,
+            "width": 0.13527851458885942,
+            "bottom": 3.65,
+            "height": 2.08,
+            "frame": "nb dark sash",
+            "trim": "nb cream band",
+            "hood": "none",
+            "rails": [
+              0.49
+            ],
+            "nbHead": "flat",
+            "ac": false
+          },
+          {
+            "at": 0.64,
+            "width": 0.13527851458885942,
+            "bottom": 3.65,
+            "height": 2.08,
+            "frame": "nb dark sash",
+            "trim": "nb cream band",
+            "hood": "none",
+            "rails": [
+              0.49
+            ],
+            "nbHead": "flat",
+            "ac": false
+          },
+          {
+            "at": 0.88,
+            "width": 0.13527851458885942,
+            "bottom": 3.65,
+            "height": 2.08,
+            "frame": "nb dark sash",
+            "trim": "nb cream band",
+            "hood": "none",
+            "rails": [
+              0.49
+            ],
+            "nbHead": "flat",
+            "ac": true
+          },
+          {
+            "at": 0.115,
+            "width": 0.13527851458885942,
+            "bottom": 6.58,
+            "height": 1.82,
+            "frame": "nb dark sash",
+            "trim": "nb cream band",
+            "hood": "none",
+            "rails": [
+              0.49
+            ],
+            "nbHead": "flat",
+            "ac": true
+          },
+          {
+            "at": 0.37,
+            "width": 0.13527851458885942,
+            "bottom": 6.58,
+            "height": 1.82,
+            "frame": "nb dark sash",
+            "trim": "nb cream band",
+            "hood": "none",
+            "rails": [
+              0.49
+            ],
+            "nbHead": "flat",
+            "ac": false
+          },
+          {
+            "at": 0.64,
+            "width": 0.13527851458885942,
+            "bottom": 6.58,
+            "height": 1.82,
+            "frame": "nb dark sash",
+            "trim": "nb cream band",
+            "hood": "none",
+            "rails": [
+              0.49
+            ],
+            "nbHead": "flat",
+            "ac": false
+          },
+          {
+            "at": 0.88,
+            "width": 0.13527851458885942,
+            "bottom": 6.58,
+            "height": 1.82,
+            "frame": "nb dark sash",
+            "trim": "nb cream band",
+            "hood": "none",
+            "rails": [
+              0.49
+            ],
+            "nbHead": "flat",
+            "ac": true
+          },
+          {
+            "at": 0.115,
+            "width": 0.13527851458885942,
+            "bottom": 9.51,
+            "height": 1.82,
+            "frame": "nb dark sash",
+            "trim": "nb cream band",
+            "hood": "none",
+            "rails": [
+              0.49
+            ],
+            "nbHead": "flat",
+            "ac": true
+          },
+          {
+            "at": 0.37,
+            "width": 0.13527851458885942,
+            "bottom": 9.51,
+            "height": 1.82,
+            "frame": "nb dark sash",
+            "trim": "nb cream band",
+            "hood": "none",
+            "rails": [
+              0.49
+            ],
+            "nbHead": "flat",
+            "ac": false
+          },
+          {
+            "at": 0.64,
+            "width": 0.13527851458885942,
+            "bottom": 9.51,
+            "height": 1.82,
+            "frame": "nb dark sash",
+            "trim": "nb cream band",
+            "hood": "none",
+            "rails": [
+              0.49
+            ],
+            "nbHead": "flat",
+            "ac": false
+          },
+          {
+            "at": 0.88,
+            "width": 0.13527851458885942,
+            "bottom": 9.51,
+            "height": 1.82,
+            "frame": "nb dark sash",
+            "trim": "nb cream band",
+            "hood": "none",
+            "rails": [
+              0.49
+            ],
+            "nbHead": "flat",
+            "ac": false
+          },
+          {
+            "at": 0.115,
+            "width": 0.13527851458885942,
+            "bottom": 12.44,
+            "height": 1.82,
+            "frame": "nb dark sash",
+            "trim": "nb cream band",
+            "hood": "none",
+            "rails": [
+              0.49
+            ],
+            "nbHead": "flat",
+            "ac": false
+          },
+          {
+            "at": 0.37,
+            "width": 0.13527851458885942,
+            "bottom": 12.44,
+            "height": 1.82,
+            "frame": "nb dark sash",
+            "trim": "nb cream band",
+            "hood": "none",
+            "rails": [
+              0.49
+            ],
+            "nbHead": "flat",
+            "ac": false
+          },
+          {
+            "at": 0.64,
+            "width": 0.13527851458885942,
+            "bottom": 12.44,
+            "height": 1.82,
+            "frame": "nb dark sash",
+            "trim": "nb cream band",
+            "hood": "none",
+            "rails": [
+              0.49
+            ],
+            "nbHead": "flat",
+            "ac": true
+          },
+          {
+            "at": 0.88,
+            "width": 0.13527851458885942,
+            "bottom": 12.44,
+            "height": 1.82,
+            "frame": "nb dark sash",
+            "trim": "nb cream band",
+            "hood": "none",
+            "rails": [
+              0.49
+            ],
+            "nbHead": "flat",
+            "ac": false
+          }
+        ],
+        "doors": [
+          {
+            "at": 0.557,
+            "width": 0.11405835543766578,
+            "bottom": 0.63,
+            "top": 2.93,
+            "leafTop": 2.5100000000000002,
+            "material": "nb black timber",
+            "trim": "nb black timber",
+            "recess": 1.16,
+            "leaves": 1,
+            "hardware": "store09 aged brass",
+            "panels": [
+              {
+                "y": 0.64,
+                "height": 0.55,
+                "width": 0.76,
+                "glass": true
+              },
+              {
+                "y": 0.17,
+                "height": 0.17,
+                "width": 0.76
+              }
+            ]
+          }
+        ],
+        "returnShops": [
+          {
+            "name": "New Sew Good Cleaners",
+            "span": [
+              0.01,
+              0.455
+            ],
+            "design": {
+              "top": 3.03,
+              "head": 2.84,
+              "base": 0.64,
+              "recess": 0.2,
+              "transom": false,
+              "panels": [
+                [
+                  "glass",
+                  1
+                ]
+              ],
+              "signs": [],
+              "detail09": {
+                "id": "247852686:0:0",
+                "frame": "nb black timber",
+                "surround": "nb black timber",
+                "frameWidth": 0.045,
+                "pierWidth": 0.07,
+                "floor": 0.17,
+                "molding": true,
+                "displayDepth": 0.94,
+                "doorSolidTop": 0.24,
+                "displays": [],
+                "furniture": [],
+                "identity": "Curved faded red awning, condensed white name, separate side service text; nine display compartments and low vent, raised sill. Door shares the recessed center passage.",
+                "sourceIds": [
+                  "337-shop",
+                  "337-historic"
+                ]
+              },
+              "detailN01B": {
+                "kind": "cleaners"
+              }
+            }
+          },
+          {
+            "name": "Wicked Heathens \u2014 dated east display",
+            "span": [
+              0.664,
+              0.986
+            ],
+            "design": {
+              "top": 3.08,
+              "head": 2.91,
+              "base": 0.67,
+              "recess": 0.2,
+              "transom": false,
+              "panels": [
+                [
+                  "glass",
+                  1
+                ]
+              ],
+              "signs": [],
+              "detail09": {
+                "id": "247852686:0:1",
+                "frame": "nb black timber",
+                "surround": "nb black timber",
+                "frameWidth": 0.045,
+                "pierWidth": 0.07,
+                "floor": 0.55,
+                "molding": true,
+                "displayDepth": 0.94,
+                "doorSolidTop": 0.24,
+                "displays": [],
+                "furniture": [],
+                "identity": "Projecting black timber display, diamond grille, jewelry/mannequin and pale fabric behind glass; adjacent recessed entry, no invented fascia brand.",
+                "sourceIds": [
+                  "337-shop",
+                  "337-historic"
+                ]
+              },
+              "detailN01B": {
+                "kind": "wicked"
+              }
+            }
+          }
+        ],
+        "observedGround": {
+          "replaceWindows": false,
+          "replaceDoors": false
+        },
+        "n01b": true,
+        "observation": {
+          "sources": [
+            "337-shop",
+            "337-oblique",
+            "337-historic"
+          ],
+          "facts": [
+            "West New Sew Good Cleaners with curved red fabric canopy, narrow white NEW SEW GOOD CLEANERS and 337 E. 9 ST; sun-faded pale crown, separate DROP OFF SERVICE on end. Nine display compartments with bags, sewing equipment, folded goods and notices, low AC. Recessed middle access behind three shallow stone steps; 337 above rear residential door. East display bay projects beyond deep entrance, black diamond security grille and clothing/jewelry display, no legible exterior name.",
+            "Four upper rows of four sash windows, taupe/brown painted brick and simple cream trapezoid heads; black four-level escape with fine scrolls, dark bracketed cornice with central roof ladder notch. Cornice visibly below 339 and 335. Mapped height 18.93 contradicts this front silhouette; estimated front mass 15.9m against mapped neighbors, not survey measurement. No evidence for assigning 18.93 to a guessed taller rear volume.",
+            "Older unobstructed ground geometry confirms shared recessed access, three steps, projected east display bay; old business/furniture not substituted for 2024. Older Layers entry glass/metal and salon interior used only to interpret 2024 grille-obscured arrangement."
+          ],
+          "unknown": [
+            "Primary exterior state is September 2024; November 2017 supplements occluded access only, not October 2026 occupancy survey.",
+            "333 west shop tenant/sign script remains unresolved; dated observed physical shop is fully included.",
+            "Dimensions, exact branded lettering, ornament relief and fine display artwork are visual approximations. Hidden roofs/rears and deep interiors are unobserved.",
+            "337 facade height estimate 15.9m replaces conflicting 18.93m engine-only mass; municipal source remains unchanged. No guessed higher rear roof is added."
+          ]
+        }
+      }
+    },
+    {
+      "faceId": "247852685:0",
+      "buildingId": 247852685,
+      "frontageIndex": 0,
+      "address": "335 East Ninth Street",
+      "sourceFace": {
+        "x": -83.816,
+        "z": 65.448,
+        "rx": 0.9999957338897352,
+        "rz": -0.0029209933806781836,
+        "length": 7.874,
+        "street": "East 9th Street"
+      },
+      "buildingHeight": 16.62,
+      "sourceHeight": 16.62,
+      "architecture": {
+        "wall": "nb red brick",
+        "windows": [
+          {
+            "at": 0.12,
+            "width": 0.13081026162052325,
+            "bottom": 3.83,
+            "height": 2.36,
+            "frame": "nb dark sash",
+            "trim": "nb sandstone",
+            "hood": "none",
+            "rails": [
+              0.49
+            ],
+            "nbHead": "pediment",
+            "row": 0,
+            "ac": false
+          },
+          {
+            "at": 0.365,
+            "width": 0.13081026162052325,
+            "bottom": 3.83,
+            "height": 2.36,
+            "frame": "nb dark sash",
+            "trim": "nb sandstone",
+            "hood": "none",
+            "rails": [
+              0.49
+            ],
+            "nbHead": "pediment",
+            "row": 0,
+            "ac": false
+          },
+          {
+            "at": 0.63,
+            "width": 0.13081026162052325,
+            "bottom": 3.83,
+            "height": 2.36,
+            "frame": "nb dark sash",
+            "trim": "nb sandstone",
+            "hood": "none",
+            "rails": [
+              0.49
+            ],
+            "nbHead": "pediment",
+            "row": 0,
+            "ac": true
+          },
+          {
+            "at": 0.875,
+            "width": 0.13081026162052325,
+            "bottom": 3.83,
+            "height": 2.36,
+            "frame": "nb dark sash",
+            "trim": "nb sandstone",
+            "hood": "none",
+            "rails": [
+              0.49
+            ],
+            "nbHead": "pediment",
+            "row": 0,
+            "ac": false
+          },
+          {
+            "at": 0.12,
+            "width": 0.13081026162052325,
+            "bottom": 6.97,
+            "height": 2.13,
+            "frame": "nb dark sash",
+            "trim": "nb sandstone",
+            "hood": "none",
+            "rails": [
+              0.49
+            ],
+            "nbHead": "molded",
+            "row": 1,
+            "ac": true
+          },
+          {
+            "at": 0.365,
+            "width": 0.13081026162052325,
+            "bottom": 6.97,
+            "height": 2.13,
+            "frame": "nb dark sash",
+            "trim": "nb sandstone",
+            "hood": "none",
+            "rails": [
+              0.49
+            ],
+            "nbHead": "molded",
+            "row": 1,
+            "ac": false
+          },
+          {
+            "at": 0.63,
+            "width": 0.13081026162052325,
+            "bottom": 6.97,
+            "height": 2.13,
+            "frame": "nb dark sash",
+            "trim": "nb sandstone",
+            "hood": "none",
+            "rails": [
+              0.49
+            ],
+            "nbHead": "molded",
+            "row": 1,
+            "ac": true
+          },
+          {
+            "at": 0.875,
+            "width": 0.13081026162052325,
+            "bottom": 6.97,
+            "height": 2.13,
+            "frame": "nb dark sash",
+            "trim": "nb sandstone",
+            "hood": "none",
+            "rails": [
+              0.49
+            ],
+            "nbHead": "molded",
+            "row": 1,
+            "ac": false
+          },
+          {
+            "at": 0.12,
+            "width": 0.13081026162052325,
+            "bottom": 10.0,
+            "height": 1.92,
+            "frame": "nb dark sash",
+            "trim": "nb sandstone",
+            "hood": "none",
+            "rails": [
+              0.49
+            ],
+            "nbHead": "molded",
+            "row": 2,
+            "ac": true
+          },
+          {
+            "at": 0.365,
+            "width": 0.13081026162052325,
+            "bottom": 10.0,
+            "height": 1.92,
+            "frame": "nb dark sash",
+            "trim": "nb sandstone",
+            "hood": "none",
+            "rails": [
+              0.49
+            ],
+            "nbHead": "molded",
+            "row": 2,
+            "ac": false
+          },
+          {
+            "at": 0.63,
+            "width": 0.13081026162052325,
+            "bottom": 10.0,
+            "height": 1.92,
+            "frame": "nb dark sash",
+            "trim": "nb sandstone",
+            "hood": "none",
+            "rails": [
+              0.49
+            ],
+            "nbHead": "molded",
+            "row": 2,
+            "ac": false
+          },
+          {
+            "at": 0.875,
+            "width": 0.13081026162052325,
+            "bottom": 10.0,
+            "height": 1.92,
+            "frame": "nb dark sash",
+            "trim": "nb sandstone",
+            "hood": "none",
+            "rails": [
+              0.49
+            ],
+            "nbHead": "molded",
+            "row": 2,
+            "ac": false
+          },
+          {
+            "at": 0.12,
+            "width": 0.13081026162052325,
+            "bottom": 12.86,
+            "height": 1.92,
+            "frame": "nb dark sash",
+            "trim": "nb sandstone",
+            "hood": "none",
+            "rails": [
+              0.49
+            ],
+            "nbHead": "molded",
+            "row": 3,
+            "ac": true
+          },
+          {
+            "at": 0.365,
+            "width": 0.13081026162052325,
+            "bottom": 12.86,
+            "height": 1.92,
+            "frame": "nb dark sash",
+            "trim": "nb sandstone",
+            "hood": "none",
+            "rails": [
+              0.49
+            ],
+            "nbHead": "molded",
+            "row": 3,
+            "ac": false
+          },
+          {
+            "at": 0.63,
+            "width": 0.13081026162052325,
+            "bottom": 12.86,
+            "height": 1.92,
+            "frame": "nb dark sash",
+            "trim": "nb sandstone",
+            "hood": "none",
+            "rails": [
+              0.49
+            ],
+            "nbHead": "molded",
+            "row": 3,
+            "ac": false
+          },
+          {
+            "at": 0.875,
+            "width": 0.13081026162052325,
+            "bottom": 12.86,
+            "height": 1.92,
+            "frame": "nb dark sash",
+            "trim": "nb sandstone",
+            "hood": "none",
+            "rails": [
+              0.49
+            ],
+            "nbHead": "molded",
+            "row": 3,
+            "ac": true
+          }
+        ],
+        "doors": [
+          {
+            "at": 0.5,
+            "width": 0.12573025146050293,
+            "bottom": 0.2,
+            "top": 3.15,
+            "leafTop": 2.73,
+            "material": "nb black timber",
+            "trim": "nb black timber",
+            "recess": 0.24,
+            "leaves": 1,
+            "hardware": "store09 aged brass",
+            "panels": [
+              {
+                "y": 0.64,
+                "height": 0.55,
+                "width": 0.76,
+                "glass": true
+              },
+              {
+                "y": 0.17,
+                "height": 0.17,
+                "width": 0.76
+              }
+            ]
+          }
+        ],
+        "returnShops": [
+          {
+            "name": "Fabulous Fanny\u2019s",
+            "span": [
+              0.01,
+              0.405
+            ],
+            "design": {
+              "top": 3.08,
+              "head": 2.81,
+              "base": 0.23,
+              "recess": 0.2,
+              "transom": false,
+              "panels": [
+                [
+                  "door",
+                  0.26
+                ],
+                [
+                  "glass",
+                  0.74
+                ]
+              ],
+              "signs": [],
+              "detail09": {
+                "id": "247852685:0:0",
+                "frame": "nb black timber",
+                "surround": "nb black timber",
+                "frameWidth": 0.045,
+                "pierWidth": 0.07,
+                "floor": 0.17,
+                "molding": true,
+                "displayDepth": 0.94,
+                "doorSolidTop": 0.24,
+                "displays": [],
+                "furniture": [],
+                "identity": "Gray cloth awning, white script name and two 335 labels; silver rolling grille, giant eyeglass motif, red framed display, busts and eyeglasses, high AC.",
+                "sourceIds": [
+                  "335-close",
+                  "335-shop"
+                ]
+              },
+              "detailN01B": {
+                "kind": "fannys"
+              }
+            }
+          },
+          {
+            "name": "Layers",
+            "span": [
+              0.631,
+              0.989
+            ],
+            "design": {
+              "top": 3.08,
+              "head": 2.81,
+              "base": 0.25,
+              "recess": 0.2,
+              "transom": false,
+              "panels": [
+                [
+                  "door",
+                  0.29
+                ],
+                [
+                  "glass",
+                  0.71
+                ]
+              ],
+              "signs": [],
+              "detail09": {
+                "id": "247852685:0:1",
+                "frame": "nb black timber",
+                "surround": "nb black timber",
+                "frameWidth": 0.045,
+                "pierWidth": 0.07,
+                "floor": 0.17,
+                "molding": true,
+                "displayDepth": 0.94,
+                "doorSolidTop": 0.24,
+                "displays": [],
+                "furniture": [],
+                "identity": "Narrow black/mixed-metal salon glazing, small brown script blade, grille, pale chairs and mirror layers; no awning.",
+                "sourceIds": [
+                  "335-close",
+                  "337-historic"
+                ]
+              },
+              "detailN01B": {
+                "kind": "layers"
+              }
+            }
+          }
+        ],
+        "observedGround": {
+          "replaceWindows": false,
+          "replaceDoors": false
+        },
+        "n01b": true,
+        "observation": {
+          "sources": [
+            "335-upper",
+            "335-shop",
+            "335-close",
+            "333-shop",
+            "333-westclose",
+            "333-reverse"
+          ],
+          "facts": [
+            "333 and 335 each four rows x four sash openings, red brick, dark greenish sash. Lowest upper row has triangular sandstone pediments, second molded heads, third flatter layered heads, top molded caps; continuous ornate pale cornice with paired small brackets and larger floral panels. Four-level black escapes; lowest hanging drop ladder at east. Buildings touch, independent near-equal cornice heights.",
+            "335 west Fabulous Fanny\u2019s gray inclined cloth awning, white script and 335 at both ends; silver rolling grille; red-outlined display and oversized eyeglass motif, separate ornate black center residential door and frosted pane. East Layers narrow black-framed display/door with brown small script blade, grille and salon chairs. 333 separate black center entrance and two unequal shops.",
+            "Fabulous Fanny\u2019s left shop with glazed door left and large right window, window AC high left, red display frame, glasses and bust/display arrangements. Center 335 black door under numbered transom with hooded light; fluted columns and decorative square relief. Layers right metal/glass door and pane behind grille, visible pale salon fittings. Two capped sidewalk standpipes at center. No outdoor seating.",
+            "West unit has black inclined canopy with only 333 E9th on right valance; broad left glass and right narrow glass door with circular script seal, white blinds/pale chairs and blue water jug. Business text not reliably legible. East Spark Pretty with black canvas, white two-line bold/italic logo, pink 333 left valance, rolling grille, colorful clothes, mannequins, small display objects and high left AC. Center ornate black single door, reflective tall pane and lower panel, patterned transom.",
+            "West unit circular door seal lettering remains unreadable: preserve circular graphic without inventing a tenant name. Black frame, brass handle, short pleated blind over door, pale shallow interior, water jug. Both shops have individual canopies and entrance layouts. Downtown Funk & Junk mapped label is not used as September 2024 observed sign.",
+            "Reverse oblique confirms thin canopy supports/end frames, deep center entrance, rolling grille over Spark Pretty, party wall to deferred 331 with distinct cornice. No actual alley. West property beyond 333 is deferred, not newly authored."
+          ],
+          "unknown": [
+            "Primary exterior state is September 2024; November 2017 supplements occluded access only, not October 2026 occupancy survey.",
+            "333 west shop tenant/sign script remains unresolved; dated observed physical shop is fully included.",
+            "Dimensions, exact branded lettering, ornament relief and fine display artwork are visual approximations. Hidden roofs/rears and deep interiors are unobserved.",
+            "337 facade height estimate 15.9m replaces conflicting 18.93m engine-only mass; municipal source remains unchanged. No guessed higher rear roof is added."
+          ]
+        }
+      }
+    },
+    {
+      "faceId": "247852684:0",
+      "buildingId": 247852684,
+      "frontageIndex": 0,
+      "address": "333 East Ninth Street",
+      "sourceFace": {
+        "x": -91.167,
+        "z": 65.472,
+        "rx": 0.9999946703809177,
+        "rz": -0.003264844523077532,
+        "length": 7.351,
+        "street": "East 9th Street"
+      },
+      "buildingHeight": 16.67,
+      "sourceHeight": 16.67,
+      "architecture": {
+        "wall": "nb red brick",
+        "windows": [
+          {
+            "at": 0.12,
+            "width": 0.1401169908855938,
+            "bottom": 3.83,
+            "height": 2.36,
+            "frame": "nb dark sash",
+            "trim": "nb sandstone",
+            "hood": "none",
+            "rails": [
+              0.49
+            ],
+            "nbHead": "pediment",
+            "row": 0,
+            "ac": false
+          },
+          {
+            "at": 0.365,
+            "width": 0.1401169908855938,
+            "bottom": 3.83,
+            "height": 2.36,
+            "frame": "nb dark sash",
+            "trim": "nb sandstone",
+            "hood": "none",
+            "rails": [
+              0.49
+            ],
+            "nbHead": "pediment",
+            "row": 0,
+            "ac": false
+          },
+          {
+            "at": 0.63,
+            "width": 0.1401169908855938,
+            "bottom": 3.83,
+            "height": 2.36,
+            "frame": "nb dark sash",
+            "trim": "nb sandstone",
+            "hood": "none",
+            "rails": [
+              0.49
+            ],
+            "nbHead": "pediment",
+            "row": 0,
+            "ac": false
+          },
+          {
+            "at": 0.875,
+            "width": 0.1401169908855938,
+            "bottom": 3.83,
+            "height": 2.36,
+            "frame": "nb dark sash",
+            "trim": "nb sandstone",
+            "hood": "none",
+            "rails": [
+              0.49
+            ],
+            "nbHead": "pediment",
+            "row": 0,
+            "ac": true
+          },
+          {
+            "at": 0.12,
+            "width": 0.1401169908855938,
+            "bottom": 6.97,
+            "height": 2.13,
+            "frame": "nb dark sash",
+            "trim": "nb sandstone",
+            "hood": "none",
+            "rails": [
+              0.49
+            ],
+            "nbHead": "molded",
+            "row": 1,
+            "ac": true
+          },
+          {
+            "at": 0.365,
+            "width": 0.1401169908855938,
+            "bottom": 6.97,
+            "height": 2.13,
+            "frame": "nb dark sash",
+            "trim": "nb sandstone",
+            "hood": "none",
+            "rails": [
+              0.49
+            ],
+            "nbHead": "molded",
+            "row": 1,
+            "ac": false
+          },
+          {
+            "at": 0.63,
+            "width": 0.1401169908855938,
+            "bottom": 6.97,
+            "height": 2.13,
+            "frame": "nb dark sash",
+            "trim": "nb sandstone",
+            "hood": "none",
+            "rails": [
+              0.49
+            ],
+            "nbHead": "molded",
+            "row": 1,
+            "ac": false
+          },
+          {
+            "at": 0.875,
+            "width": 0.1401169908855938,
+            "bottom": 6.97,
+            "height": 2.13,
+            "frame": "nb dark sash",
+            "trim": "nb sandstone",
+            "hood": "none",
+            "rails": [
+              0.49
+            ],
+            "nbHead": "molded",
+            "row": 1,
+            "ac": false
+          },
+          {
+            "at": 0.12,
+            "width": 0.1401169908855938,
+            "bottom": 10.0,
+            "height": 1.92,
+            "frame": "nb dark sash",
+            "trim": "nb sandstone",
+            "hood": "none",
+            "rails": [
+              0.49
+            ],
+            "nbHead": "molded",
+            "row": 2,
+            "ac": true
+          },
+          {
+            "at": 0.365,
+            "width": 0.1401169908855938,
+            "bottom": 10.0,
+            "height": 1.92,
+            "frame": "nb dark sash",
+            "trim": "nb sandstone",
+            "hood": "none",
+            "rails": [
+              0.49
+            ],
+            "nbHead": "molded",
+            "row": 2,
+            "ac": false
+          },
+          {
+            "at": 0.63,
+            "width": 0.1401169908855938,
+            "bottom": 10.0,
+            "height": 1.92,
+            "frame": "nb dark sash",
+            "trim": "nb sandstone",
+            "hood": "none",
+            "rails": [
+              0.49
+            ],
+            "nbHead": "molded",
+            "row": 2,
+            "ac": false
+          },
+          {
+            "at": 0.875,
+            "width": 0.1401169908855938,
+            "bottom": 10.0,
+            "height": 1.92,
+            "frame": "nb dark sash",
+            "trim": "nb sandstone",
+            "hood": "none",
+            "rails": [
+              0.49
+            ],
+            "nbHead": "molded",
+            "row": 2,
+            "ac": true
+          },
+          {
+            "at": 0.12,
+            "width": 0.1401169908855938,
+            "bottom": 12.86,
+            "height": 1.92,
+            "frame": "nb dark sash",
+            "trim": "nb sandstone",
+            "hood": "none",
+            "rails": [
+              0.49
+            ],
+            "nbHead": "molded",
+            "row": 3,
+            "ac": false
+          },
+          {
+            "at": 0.365,
+            "width": 0.1401169908855938,
+            "bottom": 12.86,
+            "height": 1.92,
+            "frame": "nb dark sash",
+            "trim": "nb sandstone",
+            "hood": "none",
+            "rails": [
+              0.49
+            ],
+            "nbHead": "molded",
+            "row": 3,
+            "ac": false
+          },
+          {
+            "at": 0.63,
+            "width": 0.1401169908855938,
+            "bottom": 12.86,
+            "height": 1.92,
+            "frame": "nb dark sash",
+            "trim": "nb sandstone",
+            "hood": "none",
+            "rails": [
+              0.49
+            ],
+            "nbHead": "molded",
+            "row": 3,
+            "ac": false
+          },
+          {
+            "at": 0.875,
+            "width": 0.1401169908855938,
+            "bottom": 12.86,
+            "height": 1.92,
+            "frame": "nb dark sash",
+            "trim": "nb sandstone",
+            "hood": "none",
+            "rails": [
+              0.49
+            ],
+            "nbHead": "molded",
+            "row": 3,
+            "ac": true
+          }
+        ],
+        "doors": [
+          {
+            "at": 0.5,
+            "width": 0.13467555434634743,
+            "bottom": 0.2,
+            "top": 3.15,
+            "leafTop": 2.73,
+            "material": "nb black timber",
+            "trim": "nb black timber",
+            "recess": 0.24,
+            "leaves": 1,
+            "hardware": "store09 aged brass",
+            "panels": [
+              {
+                "y": 0.64,
+                "height": 0.55,
+                "width": 0.76,
+                "glass": true
+              },
+              {
+                "y": 0.17,
+                "height": 0.17,
+                "width": 0.76
+              }
+            ]
+          }
+        ],
+        "returnShops": [
+          {
+            "name": "333 west shop \u2014 tenant unresolved",
+            "span": [
+              0.01,
+              0.403
+            ],
+            "design": {
+              "top": 3.08,
+              "head": 2.81,
+              "base": 0.19,
+              "recess": 0.2,
+              "transom": false,
+              "panels": [
+                [
+                  "glass",
+                  0.7
+                ],
+                [
+                  "door",
+                  0.3
+                ]
+              ],
+              "signs": [],
+              "detail09": {
+                "id": "247852684:0:0",
+                "frame": "nb black timber",
+                "surround": "nb black timber",
+                "frameWidth": 0.045,
+                "pierWidth": 0.07,
+                "floor": 0.17,
+                "molding": true,
+                "displayDepth": 0.94,
+                "doorSolidTop": 0.24,
+                "displays": [],
+                "furniture": [],
+                "identity": "Black inclined canopy with small 333 E9th at right; broad left pane, narrow right door with circular pale script seal, pale chairs, blinds and blue water jug.",
+                "sourceIds": [
+                  "333-shop",
+                  "333-westclose",
+                  "333-reverse"
+                ]
+              },
+              "detailN01B": {
+                "kind": "west333"
+              }
+            }
+          },
+          {
+            "name": "Spark Pretty",
+            "span": [
+              0.63,
+              0.99
+            ],
+            "design": {
+              "top": 3.08,
+              "head": 2.81,
+              "base": 0.24,
+              "recess": 0.2,
+              "transom": false,
+              "panels": [
+                [
+                  "glass",
+                  0.72
+                ],
+                [
+                  "door",
+                  0.28
+                ]
+              ],
+              "signs": [],
+              "detail09": {
+                "id": "247852684:0:1",
+                "frame": "nb black timber",
+                "surround": "nb black timber",
+                "frameWidth": 0.045,
+                "pierWidth": 0.07,
+                "floor": 0.17,
+                "molding": true,
+                "displayDepth": 0.94,
+                "doorSolidTop": 0.24,
+                "displays": [],
+                "furniture": [],
+                "identity": "Black inclined cloth, white stacked slanted logo/pink 333; metal grille, colorful clothing and toy display, torso forms, high left AC.",
+                "sourceIds": [
+                  "333-shop",
+                  "333-westclose",
+                  "333-reverse"
+                ]
+              },
+              "detailN01B": {
+                "kind": "spark"
+              }
+            }
+          }
+        ],
+        "observedGround": {
+          "replaceWindows": false,
+          "replaceDoors": false
+        },
+        "n01b": true,
+        "observation": {
+          "sources": [
+            "335-upper",
+            "335-shop",
+            "335-close",
+            "333-shop",
+            "333-westclose",
+            "333-reverse"
+          ],
+          "facts": [
+            "333 and 335 each four rows x four sash openings, red brick, dark greenish sash. Lowest upper row has triangular sandstone pediments, second molded heads, third flatter layered heads, top molded caps; continuous ornate pale cornice with paired small brackets and larger floral panels. Four-level black escapes; lowest hanging drop ladder at east. Buildings touch, independent near-equal cornice heights.",
+            "335 west Fabulous Fanny\u2019s gray inclined cloth awning, white script and 335 at both ends; silver rolling grille; red-outlined display and oversized eyeglass motif, separate ornate black center residential door and frosted pane. East Layers narrow black-framed display/door with brown small script blade, grille and salon chairs. 333 separate black center entrance and two unequal shops.",
+            "Fabulous Fanny\u2019s left shop with glazed door left and large right window, window AC high left, red display frame, glasses and bust/display arrangements. Center 335 black door under numbered transom with hooded light; fluted columns and decorative square relief. Layers right metal/glass door and pane behind grille, visible pale salon fittings. Two capped sidewalk standpipes at center. No outdoor seating.",
+            "West unit has black inclined canopy with only 333 E9th on right valance; broad left glass and right narrow glass door with circular script seal, white blinds/pale chairs and blue water jug. Business text not reliably legible. East Spark Pretty with black canvas, white two-line bold/italic logo, pink 333 left valance, rolling grille, colorful clothes, mannequins, small display objects and high left AC. Center ornate black single door, reflective tall pane and lower panel, patterned transom.",
+            "West unit circular door seal lettering remains unreadable: preserve circular graphic without inventing a tenant name. Black frame, brass handle, short pleated blind over door, pale shallow interior, water jug. Both shops have individual canopies and entrance layouts. Downtown Funk & Junk mapped label is not used as September 2024 observed sign.",
+            "Reverse oblique confirms thin canopy supports/end frames, deep center entrance, rolling grille over Spark Pretty, party wall to deferred 331 with distinct cornice. No actual alley. West property beyond 333 is deferred, not newly authored."
+          ],
+          "unknown": [
+            "Primary exterior state is September 2024; November 2017 supplements occluded access only, not October 2026 occupancy survey.",
+            "333 west shop tenant/sign script remains unresolved; dated observed physical shop is fully included.",
+            "Dimensions, exact branded lettering, ornament relief and fine display artwork are visual approximations. Hidden roofs/rears and deep interiors are unobserved.",
+            "337 facade height estimate 15.9m replaces conflicting 18.93m engine-only mass; municipal source remains unchanged. No guessed higher rear roof is added."
+          ]
+        }
+      }
+    }
+  ],
+  "businesses": [
+    {
+      "id": "247852686:0:0",
+      "businessId": "cleaners",
+      "faceId": "247852686:0",
+      "name": "New Sew Good Cleaners",
+      "span": [
+        0.01,
+        0.455
+      ],
+      "identity": "Curved faded red awning, condensed white name, separate side service text; nine display compartments and low vent, raised sill. Door shares the recessed center passage.",
+      "sourceIds": [
+        "337-shop",
+        "337-historic"
+      ],
+      "component": "cleaners",
+      "reviewState": "authored; final review separately",
+      "identityStatus": "dated source-supported identity",
+      "unknown": [
+        "Primary exterior state is September 2024; November 2017 supplements occluded access only, not October 2026 occupancy survey.",
+        "333 west shop tenant/sign script remains unresolved; dated observed physical shop is fully included.",
+        "Dimensions, exact branded lettering, ornament relief and fine display artwork are visual approximations. Hidden roofs/rears and deep interiors are unobserved.",
+        "337 facade height estimate 15.9m replaces conflicting 18.93m engine-only mass; municipal source remains unchanged. No guessed higher rear roof is added."
+      ]
+    },
+    {
+      "id": "247852686:0:1",
+      "businessId": "wicked",
+      "faceId": "247852686:0",
+      "name": "Wicked Heathens \u2014 dated east display",
+      "span": [
+        0.664,
+        0.986
+      ],
+      "identity": "Projecting black timber display, diamond grille, jewelry/mannequin and pale fabric behind glass; adjacent recessed entry, no invented fascia brand.",
+      "sourceIds": [
+        "337-shop",
+        "337-historic"
+      ],
+      "component": "wicked",
+      "reviewState": "authored; final review separately",
+      "identityStatus": "dated source-supported identity",
+      "unknown": [
+        "Primary exterior state is September 2024; November 2017 supplements occluded access only, not October 2026 occupancy survey.",
+        "333 west shop tenant/sign script remains unresolved; dated observed physical shop is fully included.",
+        "Dimensions, exact branded lettering, ornament relief and fine display artwork are visual approximations. Hidden roofs/rears and deep interiors are unobserved.",
+        "337 facade height estimate 15.9m replaces conflicting 18.93m engine-only mass; municipal source remains unchanged. No guessed higher rear roof is added."
+      ]
+    },
+    {
+      "id": "247852685:0:0",
+      "businessId": "fannys",
+      "faceId": "247852685:0",
+      "name": "Fabulous Fanny\u2019s",
+      "span": [
+        0.01,
+        0.405
+      ],
+      "identity": "Gray cloth awning, white script name and two 335 labels; silver rolling grille, giant eyeglass motif, red framed display, busts and eyeglasses, high AC.",
+      "sourceIds": [
+        "335-close",
+        "335-shop"
+      ],
+      "component": "fannys",
+      "reviewState": "authored; final review separately",
+      "identityStatus": "dated source-supported identity",
+      "unknown": [
+        "Primary exterior state is September 2024; November 2017 supplements occluded access only, not October 2026 occupancy survey.",
+        "333 west shop tenant/sign script remains unresolved; dated observed physical shop is fully included.",
+        "Dimensions, exact branded lettering, ornament relief and fine display artwork are visual approximations. Hidden roofs/rears and deep interiors are unobserved.",
+        "337 facade height estimate 15.9m replaces conflicting 18.93m engine-only mass; municipal source remains unchanged. No guessed higher rear roof is added."
+      ]
+    },
+    {
+      "id": "247852685:0:1",
+      "businessId": "layers",
+      "faceId": "247852685:0",
+      "name": "Layers",
+      "span": [
+        0.631,
+        0.989
+      ],
+      "identity": "Narrow black/mixed-metal salon glazing, small brown script blade, grille, pale chairs and mirror layers; no awning.",
+      "sourceIds": [
+        "335-close",
+        "337-historic"
+      ],
+      "component": "layers",
+      "reviewState": "authored; final review separately",
+      "identityStatus": "dated source-supported identity",
+      "unknown": [
+        "Primary exterior state is September 2024; November 2017 supplements occluded access only, not October 2026 occupancy survey.",
+        "333 west shop tenant/sign script remains unresolved; dated observed physical shop is fully included.",
+        "Dimensions, exact branded lettering, ornament relief and fine display artwork are visual approximations. Hidden roofs/rears and deep interiors are unobserved.",
+        "337 facade height estimate 15.9m replaces conflicting 18.93m engine-only mass; municipal source remains unchanged. No guessed higher rear roof is added."
+      ]
+    },
+    {
+      "id": "247852684:0:0",
+      "businessId": "west333",
+      "faceId": "247852684:0",
+      "name": "333 west shop \u2014 tenant unresolved",
+      "span": [
+        0.01,
+        0.403
+      ],
+      "identity": "Black inclined canopy with small 333 E9th at right; broad left pane, narrow right door with circular pale script seal, pale chairs, blinds and blue water jug.",
+      "sourceIds": [
+        "333-shop",
+        "333-westclose",
+        "333-reverse"
+      ],
+      "component": "west333",
+      "reviewState": "authored; final review separately",
+      "identityStatus": "tenant unresolved; physical frontage observed",
+      "unknown": [
+        "Primary exterior state is September 2024; November 2017 supplements occluded access only, not October 2026 occupancy survey.",
+        "333 west shop tenant/sign script remains unresolved; dated observed physical shop is fully included.",
+        "Dimensions, exact branded lettering, ornament relief and fine display artwork are visual approximations. Hidden roofs/rears and deep interiors are unobserved.",
+        "337 facade height estimate 15.9m replaces conflicting 18.93m engine-only mass; municipal source remains unchanged. No guessed higher rear roof is added."
+      ]
+    },
+    {
+      "id": "247852684:0:1",
+      "businessId": "spark",
+      "faceId": "247852684:0",
+      "name": "Spark Pretty",
+      "span": [
+        0.63,
+        0.99
+      ],
+      "identity": "Black inclined cloth, white stacked slanted logo/pink 333; metal grille, colorful clothing and toy display, torso forms, high left AC.",
+      "sourceIds": [
+        "333-shop",
+        "333-westclose",
+        "333-reverse"
+      ],
+      "component": "spark",
+      "reviewState": "authored; final review separately",
+      "identityStatus": "dated source-supported identity",
+      "unknown": [
+        "Primary exterior state is September 2024; November 2017 supplements occluded access only, not October 2026 occupancy survey.",
+        "333 west shop tenant/sign script remains unresolved; dated observed physical shop is fully included.",
+        "Dimensions, exact branded lettering, ornament relief and fine display artwork are visual approximations. Hidden roofs/rears and deep interiors are unobserved.",
+        "337 facade height estimate 15.9m replaces conflicting 18.93m engine-only mass; municipal source remains unchanged. No guessed higher rear roof is added."
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "pair": [
+        247852689,
+        247852687
+      ],
+      "condition": "Mapped touching party wall; separate materials, rooflines and cornice depth, no invented alley.",
+      "sourceIds": [
+        "337-oblique",
+        "335-upper",
+        "333-reverse"
+      ],
+      "deferred": false
+    },
+    {
+      "pair": [
+        247852687,
+        247852686
+      ],
+      "condition": "Mapped touching party wall; separate materials, rooflines and cornice depth, no invented alley.",
+      "sourceIds": [
+        "337-oblique",
+        "335-upper",
+        "333-reverse"
+      ],
+      "deferred": false
+    },
+    {
+      "pair": [
+        247852686,
+        247852685
+      ],
+      "condition": "Mapped touching party wall; separate materials, rooflines and cornice depth, no invented alley.",
+      "sourceIds": [
+        "337-oblique",
+        "335-upper",
+        "333-reverse"
+      ],
+      "deferred": false
+    },
+    {
+      "pair": [
+        247852685,
+        247852684
+      ],
+      "condition": "Mapped touching party wall; separate materials, rooflines and cornice depth, no invented alley.",
+      "sourceIds": [
+        "337-oblique",
+        "335-upper",
+        "333-reverse"
+      ],
+      "deferred": false
+    },
+    {
+      "pair": [
+        247852684,
+        247852683
+      ],
+      "condition": "Mapped touching party wall; separate materials, rooflines and cornice depth, no invented alley.",
+      "sourceIds": [
+        "337-oblique",
+        "335-upper",
+        "333-reverse"
+      ],
+      "deferred": true
+    }
+  ],
+  "heightException": {
+    "buildingId": 247852686,
+    "mappedHeight": 18.93,
+    "engineHeight": 15.9,
+    "basis": "2024 oblique front cornice below both neighboring roofs; approximate comparative height, hidden roof unobserved."
+  },
+  "counts": {
+    "aboveGradeWindows": 68,
+    "basementOpenings": 2,
+    "shopfronts": 6,
+    "identifiedBusinesses": 5,
+    "tenantUnresolved": 1,
+    "residentialDoors": 4
+  },
+  "sourceLedger": "model-source/east-village-e09-n01b/observations.json",
+  "targetCapture": "September 2024 with explicit November 2017 access supplement",
+  "ownership": "Four Ninth faces only; 331/south Ninth/147 First face/148 Ninth return deferred."
+}

@@ -1,0 +1,62 @@
+{
+  "recorded": "2026-10-14T01:44:13.454607+00:00",
+  "complete": true,
+  "build": {
+    "builtAt": "2026-10-14T01:13:30.064Z",
+    "pack": {
+      "bytes": 8014524,
+      "sha256": "509239e48e6fb2928e308a31f11d801821c83298331ce3c51e4809011617cb4c",
+      "brotliBytes": 7401135
+    },
+    "runtimeFiles": 232,
+    "sourceHashes": 133,
+    "buildingCount": 213
+  },
+  "review": {
+    "detailImagesInspected": 35,
+    "gameplayImagesInspected": 18,
+    "independentSecondReviewer": false,
+    "record": "visual-review.json"
+  },
+  "browser": {
+    "drivingLegs": 6,
+    "boundaries": 7,
+    "cameraModes": 4,
+    "reset": true,
+    "addressCases": 17,
+    "startupsBefore": 10,
+    "startupsAfter": 10,
+    "consoleErrors": 0,
+    "consoleWarnings": 0,
+    "failedRequests": 0,
+    "records": [
+      "routes-final/captures.json",
+      "address-final",
+      "performance-before/startups.json",
+      "performance-after/startups.json"
+    ]
+  },
+  "startupOutcome": "After medians are slower; retained in metrics.json. No causal diagnosis or whole-area scalability claim.",
+  "preservation": "preservation.json",
+  "localHTTP": "http-validation.json",
+  "checks": {
+    "npm run seventh:verify": "pass; logs/final-seventh-verify.log",
+    "npm run verify": "pass; logs/final-original-verify.log",
+    "git diff --check": "pass",
+    "skillQuickValidate": "Skill is valid!",
+    "markdownFiles": 15,
+    "existingRelativeLinks": 637,
+    "jsonCsvAgreementRows": 193,
+    "phaseAndEstimateArithmetic": "pass",
+    "splitOwnership": "53 unique leaf face IDs; parent N01 exact union of N01A/N01B, no duplicate leaf ownership",
+    "headAndCachedOrigin": "unchanged a2a90a3",
+    "leafFaceExistence": "all 53 leaf faces exist in unchanged geographic input"
+  },
+  "publication": "not performed",
+  "limitations": [
+    "Visual candidate, not calibrated photographic acceptance.",
+    "Sequential before/after and small samples; historical P02 startup outlier unresolved.",
+    "No full-neighborhood or mobile-device performance validation.",
+    "No new production requests or candidate CDN validation."
+  ]
+}

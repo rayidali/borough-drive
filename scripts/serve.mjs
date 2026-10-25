@@ -3,6 +3,7 @@ import {createReadStream} from 'node:fs';
 import {stat} from 'node:fs/promises';
 import path from 'node:path';
 import {fileURLToPath} from 'node:url';
+import {seventhHeaders} from './seventh-hosting.mjs';
 
 // Serve only the game directory, bound to this computer's loopback interface.
 const root = fileURLToPath(new URL('../dist/', import.meta.url));
@@ -24,7 +25,7 @@ const types = {
 
 const server = http.createServer(async (req, res) => {
   const fail = (status, message) => {
-    res.writeHead(status, {'Content-Type': 'text/plain; charset=utf-8'});
+    res.writeHead(status, {'Content-Type': 'text/plain; charset=utf-8', 'Cache-Control': 'no-store'});
     res.end(req.method === 'HEAD' ? undefined : message);
   };
   if (!['GET', 'HEAD'].includes(req.method)) {
@@ -56,8 +57,7 @@ const server = http.createServer(async (req, res) => {
     res.writeHead(200, {
       'Content-Type': types[path.extname(filename).toLowerCase()] ?? 'application/octet-stream',
       'Content-Length': info.size,
-      'Cache-Control': 'no-cache',
-      'X-Content-Type-Options': 'nosniff'
+      ...seventhHeaders(pathname)
     });
     if (req.method === 'HEAD') {
       stream.destroy();
