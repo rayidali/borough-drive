@@ -4,28 +4,51 @@
   "installCommand": "",
   "buildCommand": "",
   "outputDirectory": "dist",
-  "headers": [
-    { "source": "/", "headers": [{ "key": "Cache-Control", "value": "public, max-age=0, must-revalidate" }] },
-    { "source": "/index.html", "headers": [{ "key": "Cache-Control", "value": "public, max-age=0, must-revalidate" }] },
-    { "source": "/legacy.html", "headers": [{ "key": "Cache-Control", "value": "public, max-age=0, must-revalidate" }] },
-    { "source": "/seventh", "headers": [{ "key": "Cache-Control", "value": "public, max-age=0, must-revalidate" }] },
-    { "source": "/seventh/", "headers": [{ "key": "Cache-Control", "value": "public, max-age=0, must-revalidate" }] },
-    { "source": "/seventh/:file([^/]+)", "headers": [{ "key": "Cache-Control", "value": "public, max-age=0, must-revalidate" }] },
-    { "source": "/seventh/areas/assets/:hash([a-f0-9]{64}).scn", "headers": [
-      { "key": "Cache-Control", "value": "public, max-age=31536000, immutable" },
-      { "key": "Content-Type", "value": "application/octet-stream" },
-      { "key": "X-Content-Type-Options", "value": "nosniff" }
-    ] },
-    { "source": "/seventh/areas/manifest-:hash([a-f0-9]{64}).json", "headers": [
-      { "key": "Cache-Control", "value": "public, max-age=31536000, immutable" },
-      { "key": "Content-Type", "value": "application/json" },
-      { "key": "X-Content-Type-Options", "value": "nosniff" }
-    ] },
-    { "source": "/seventh/index.pck", "headers": [{ "key": "Content-Type", "value": "application/octet-stream" }] },
-    { "source": "/seventh/index.wasm", "headers": [{ "key": "Content-Type", "value": "application/wasm" }] }
-  ],
-  "rewrites": [
-    { "source": "/", "destination": "/seventh/index.html" },
-    { "source": "/index.html", "destination": "/legacy.html" }
+  "routes": [
+    {
+      "src": "^/(?:|index\\.html|legacy\\.html|seventh/?|seventh/[^/]+)$",
+      "headers": { "Cache-Control": "public, max-age=0, must-revalidate" },
+      "continue": true
+    },
+    {
+      "src": "^/seventh/areas/assets/[a-f0-9]{64}\\.scn$",
+      "headers": {
+        "Cache-Control": "public, max-age=31536000, immutable",
+        "Content-Type": "application/octet-stream",
+        "X-Content-Type-Options": "nosniff"
+      },
+      "continue": true
+    },
+    {
+      "src": "^/seventh/areas/manifest-[a-f0-9]{64}\\.json$",
+      "headers": {
+        "Cache-Control": "public, max-age=31536000, immutable",
+        "Content-Type": "application/json",
+        "X-Content-Type-Options": "nosniff"
+      },
+      "continue": true
+    },
+    {
+      "src": "^/seventh/index\\.pck$",
+      "headers": { "Content-Type": "application/octet-stream" },
+      "continue": true
+    },
+    {
+      "src": "^/seventh/index\\.wasm$",
+      "headers": { "Content-Type": "application/wasm" },
+      "continue": true
+    },
+    { "src": "^/$", "dest": "/seventh/index.html" },
+    { "src": "^/index\\.html$", "dest": "/legacy.html" },
+    { "handle": "filesystem" },
+    {
+      "src": "^/seventh/areas/.*$",
+      "status": 404,
+      "headers": {
+        "Cache-Control": "no-store",
+        "Content-Type": "text/plain; charset=utf-8",
+        "X-Content-Type-Options": "nosniff"
+      }
+    }
   ]
 }

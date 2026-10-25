@@ -6,6 +6,7 @@ import {fileURLToPath} from 'node:url';
 import {createHash} from 'node:crypto';
 import assert from 'node:assert/strict';
 import {packEntries} from './seventh-package.mjs';
+import './verify-seventh-routing.mjs';
 const root=fileURLToPath(new URL('../',import.meta.url));
 const digest=b=>createHash('sha256').update(b).digest('hex');
 const build=JSON.parse(await fs.readFile(path.join(root,'dist/seventh/build.json'),'utf8'));
